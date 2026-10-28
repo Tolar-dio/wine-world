@@ -1,0 +1,169 @@
+{
+ "built": "2026-10-28T17:57:03+00:00",
+ "counts": {
+  "countries": 88,
+  "countries_with_polygons": 33,
+  "countries_with_content": 88,
+  "appellations": 2174,
+  "fine_units": 6927,
+  "profiles": 2508,
+  "profiles_on_polygons": 2089,
+  "extra_points": 418,
+  "regions": 358,
+  "region_outlines": 358,
+  "sites": 2712,
+  "sites_total": 2712,
+  "grapes": 266,
+  "with_clim": 9101,
+  "timeline": 148,
+  "glossary": 204,
+  "soils": 33,
+  "systems": 22
+ },
+ "sources": [
+  {
+   "key": "agol-bcgi",
+   "title": "S123 Geographical Indication layer (ArcGIS Online, 2023), BC Wine Authority regions, names corrected to the BC Wine Authority list",
+   "licence": "Public layer, licence not stated",
+   "url": "https://services3.arcgis.com/VJAoNmKUVLefv1ve/arcgis/rest/services/Geographical_Indication/FeatureServer/0"
+  },
+  {
+   "key": "bgld",
+   "title": "Amt der Burgenländischen Landesregierung, Weinbauriede Burgenland (INSPIRE land use)",
+   "licence": "CC BY 4.0",
+   "url": "https://geodaten.bgld.gv.at/"
+  },
+  {
+   "key": "brock",
+   "title": "Brock University Map, Data & GIS Library, Niagara sub-appellations (L. Gasparotto, T. Shaw, 2024)",
+   "licence": "No restrictions; citation requested",
+   "url": "https://services.arcgis.com/3wgo1qnFL7YLB8lT/arcgis/rest/services/NiagaraSubAppellations_Updated/FeatureServer/0"
+  },
+  {
+   "key": "bz",
+   "title": "Autonome Provinz Bozen-Südtirol, Unità geografiche aggiuntive and Zone DOC (p_bz-Agriculture WFS)",
+   "licence": "CC0 1.0",
+   "url": "https://data.civis.bz.it/"
+  },
+  {
+   "key": "cl-wiki",
+   "title": "Chile DO comuna lists transcribed from Spanish Wikipedia (Anexo: Regiones vitícolas de Chile), which cites LeyChile Decreto 464/1994 and amendments",
+   "licence": "CC BY-SA 4.0 (Wikipedia text)",
+   "url": "https://es.wikipedia.org/wiki/Anexo:Regiones_vit%C3%ADcolas_de_Chile"
+  },
+  {
+   "key": "embrapa",
+   "title": "Embrapa Uva e Vinho, Brazilian GI delimitations (Embrapa GeoInfo)",
+   "licence": "Licence not specified; attribution Embrapa",
+   "url": "https://geoinfo.dados.embrapa.br/"
+  },
+  {
+   "key": "eupdo",
+   "title": "Candiago S, Tscholl S, Bassani L, Fraga H, Egarter Vigl L (2022). A geospatial inventory of regulatory information for wine protected designations of origin in Europe. Scientific Data 9:394",
+   "licence": "CC BY 4.0",
+   "url": "https://doi.org/10.6084/m9.figshare.c.5877659"
+  },
+  {
+   "key": "fonts",
+   "title": "Literata (The Literata Project Authors, TypeTogether) and IM FELL (Igino Marini), via Google Fonts",
+   "licence": "SIL Open Font License 1.1",
+   "url": "https://github.com/google/fonts"
+  },
+  {
+   "key": "gb",
+   "title": "geoBoundaries (William & Mary geoLab), administrative units used as proxies (Chile, Argentina, Moldova, New Zealand, Japan, Uruguay, Sussex)",
+   "licence": "Per country: CC BY 3.0 IGO (CHL, ARG, MDA), CC BY 4.0 (NZL), OGL v3 (GBR), ODbL via OSM (JPN, URY)",
+   "url": "https://www.geoboundaries.org/"
+  },
+  {
+   "key": "gisco",
+   "title": "Eurostat GISCO Local Administrative Units (village names for Burgenland Rieden), © EuroGeographics",
+   "licence": "Eurostat GISCO terms (attribution)",
+   "url": "https://ec.europa.eu/eurostat/web/gisco"
+  },
+  {
+   "key": "idemza",
+   "title": "IDE Mendoza, Distritos (Dirección General de Catastro, 2024)",
+   "licence": "Public service, licence not stated",
+   "url": "https://www.mendoza.gov.ar/"
+  },
+  {
+   "key": "inao",
+   "title": "INAO, Délimitation parcellaire des AOC viticoles (data.gouv.fr)",
+   "licence": "Licence Ouverte / Open Licence 2.0",
+   "url": "https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/"
+  },
+  {
+   "key": "lwkrlp",
+   "title": "Landwirtschaftskammer Rheinland-Pfalz / LGB-RLP, Weinbergsrolle Einzellagen (layer Weinlagen). No vector data is published: boundaries were reconstructed by rendering each Lage in a unique colour from the official map service at 10 m/pixel and vectorising the result, so edges are a 10 m approximation of the official lines",
+   "licence": "dl-de/by-2.0, ©LGB-RLP / Landwirtschaftskammer RLP",
+   "url": "https://www.lwk-rlp.de/"
+  },
+  {
+   "key": "ne",
+   "title": "Natural Earth, 1:10m and 1:50m cultural vectors",
+   "licence": "Public domain",
+   "url": "https://www.naturalearthdata.com/"
+  },
+  {
+   "key": "noe",
+   "title": "Amt der NÖ Landesregierung, Weinbau Rieden Niederösterreich (OGD RLF_WEINBAU_RIEDEN)",
+   "licence": "CC BY 4.0",
+   "url": "https://sdi.noe.gv.at/"
+  },
+  {
+   "key": "omafra",
+   "title": "OMAFRA, ON_VQA_Areas (credit: Ontario Wine Appellation Authority)",
+   "licence": "Ontario Open Data (companion layers)",
+   "url": "https://services1.arcgis.com/pbmLC0kii9WWwA29/arcgis/rest/services/ON_VQA_Areas/FeatureServer/0"
+  },
+  {
+   "key": "osm",
+   "title": "OpenStreetMap contributors",
+   "licence": "ODbL 1.0",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "key": "swisstopo",
+   "title": "swisstopo swissTLM3D 2026 (vineyard land use) and swissBOUNDARIES3D 2026, with cantonal Rebbaukataster (geodienste.ch MGDM 151.1: VS, GE, GR, SH, AG, BE, TG, BL, FR, JU, LU, SG, SO, SZ, UR, ZG); AOC list from OFAG/BLW Répertoire suisse des AOC (2026)",
+   "licence": "swisstopo open data (free use with attribution); cantonal open geodata",
+   "url": "https://www.swisstopo.admin.ch/"
+  },
+  {
+   "key": "terraclimate",
+   "title": "Abatzoglou JT, Dobrowski SZ, Parks SA, Hegewisch KC (2018). TerraClimate, 1991-2020 monthly climatology. Scientific Data 5:170191",
+   "licence": "CC0 1.0",
+   "url": "https://www.climatologylab.org/terraclimate.html"
+  },
+  {
+   "key": "ucdavis",
+   "title": "UC Davis Library AVA Digitizing Project (TTB American Viticultural Area boundaries)",
+   "licence": "CC0 1.0",
+   "url": "https://github.com/UCDavisLibrary/ava"
+  },
+  {
+   "key": "vinpro",
+   "title": "VinPro / SAWIS, Wine of Origin System (Wine and Spirits Board units), ArcGIS feature service WINE_OF_ORIGIN_SYSTEM_20260626",
+   "licence": "No licence stated; attribution VinPro/SAWIS",
+   "url": "https://services-eu1.arcgis.com/u4YTgbzxcollBKYL/arcgis/rest/services/WINE_OF_ORIGIN_SYSTEM_20260626/FeatureServer"
+  },
+  {
+   "key": "vivc",
+   "title": "Vitis International Variety Catalogue (VIVC), Julius Kühn-Institut",
+   "licence": "Reference use",
+   "url": "https://www.vivc.de/"
+  },
+  {
+   "key": "wineaus",
+   "title": "Wine Australia, Geographical Indication boundaries (data.gov.au)",
+   "licence": "CC BY 4.0",
+   "url": "https://data.gov.au/"
+  },
+  {
+   "key": "worldclim",
+   "title": "Fick SE, Hijmans RJ (2017). WorldClim 2, 30 arc-second elevation",
+   "licence": "Free for research and non-commercial use",
+   "url": "https://www.worldclim.org/"
+  }
+ ]
+}

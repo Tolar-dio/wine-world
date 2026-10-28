@@ -1,0 +1,732 @@
+{
+ "systems": [
+  {
+   "country": "European Union",
+   "iso2": "eu",
+   "name": "PDO / PGI (Protected Designation of Origin / Protected Geographical Indication)",
+   "tiers": [
+    {
+     "label": "PDO (AOP, DOP, DOC, DO, gU, OEM...)",
+     "meaning": "All grapes from the delimited area, Vitis vinifera only, with quality and character essentially due to the place; rules set in a product specification (cahier des charges, disciplinare, pliego). The national labels (AOC, DOCG, DOCa, Qualitätswein, DAC) are all PDOs."
+    },
+    {
+     "label": "PGI (IGP, IGT, Vino de la Tierra, Landwein, Vinho Regional...)",
+     "meaning": "At least 85 percent of grapes from the named area, wider choice of varieties (vinifera or crosses with other Vitis species), looser yields. Many ambitious varietal and blended wines sit here."
+    },
+    {
+     "label": "Wine without GI (Vin de France, Vino, Vino de España, Deutscher Wein)",
+     "meaning": "No geographical indication beyond the country. Since 2009 may show grape variety and vintage, which it could not before."
+    }
+   ],
+   "labelling_rules": "Variety and vintage on labels require 85 percent of that variety or year. Compulsory items include the category, alcohol, allergens (sulphites), bottler and origin. Since 8 December 2023 all wines must list ingredients and a nutrition declaration (energy on the label; the rest can be given via a QR code). The 2026 wine package defines 'alcohol-free 0.0%' (up to 0.05 percent alcohol) and 'alcohol reduced' (at least 30 percent below the category's normal strength, above 0.5 percent). Traditional terms such as Grand Cru, Riserva, Spätlese and Reserva are protected EU-wide.",
+   "history": "The 1970 common market organisation created 'quality wine produced in a specified region' (QWPSR) on top of national systems inspired by France's 1935 AOC law. The 2008 reform (applied 1 August 2009) aligned wine with food: PDO and PGI replaced QWPSR, registration moved to Brussels (now in the eAmbrosia database), and a grubbing-up scheme removed about 175,000 hectares by 2011. Planting rights were replaced in 2016 by a system of authorisations that caps new plantings at up to 1 percent of a country's vineyard a year. In February 2026 the European Parliament adopted a wine package adding funds for grubbing up, enotourism, crisis aid and low-alcohol labelling.",
+   "quirks": "The EU register lists well over a thousand wine PDOs and several hundred PGIs. PDOs require vinifera, which is why hybrids such as Austria's Uhudler are tolerated only as exceptions. Some wines that are not PDOs carry private collective marks (Corpinnat, VDP). The EU's bilateral agreements protect names such as Champagne, Port and Tokaj abroad, forcing Australians to drop 'Tokay' and Hungarian-sounding labels.",
+   "sources": [
+    {
+     "title": "European Parliament: new rules for the EU wine sector (10 Feb 2026)",
+     "url": "https://www.europarl.europa.eu/news/en/press-room/20260205IPR33615/"
+    },
+    {
+     "title": "Protected designation of origin",
+     "url": "https://en.wikipedia.org/wiki/Protected_designation_of_origin"
+    },
+    {
+     "title": "eAmbrosia, the EU geographical indications register",
+     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/"
+    }
+   ]
+  },
+  {
+   "country": "France",
+   "iso2": "fr",
+   "name": "AOC / AOP, IGP and Vin de France",
+   "tiers": [
+    {
+     "label": "AOC / AOP (Appellation d'Origine Contrôlée / Protégée)",
+     "meaning": "About 360 wine appellations, nested from regional (Bourgogne, Bordeaux) to sub-regional and communal (Pauillac, Gevrey-Chambertin) and, in Burgundy, Alsace and Champagne, to premier cru and grand cru vineyards or villages. Each defines area, varieties, yields, minimum ripeness, viticulture and winemaking."
+    },
+    {
+     "label": "Cru classifications (within AOC)",
+     "meaning": "Burgundy's 33 grand crus and about 640 premiers crus (vineyard-based); Bordeaux's 1855 Médoc and Sauternes ranking, the 1953 and 1959 Graves list, Saint-Émilion's revisable list (2022), and the Crus Bourgeois (2020 list); Alsace's 51 grands crus; Champagne's 17 grand cru and 42 premier cru villages."
+    },
+    {
+     "label": "IGP (Indication Géographique Protégée, ex vin de pays)",
+     "meaning": "Regional, departmental or zonal wines such as Pays d'Oc, Val de Loire or Côtes de Gascogne, with wider varietal choice. Pays d'Oc is the largest, dominated by varietal wines for export."
+    },
+    {
+     "label": "Vin de France",
+     "meaning": "Wine without geographical indication, which may show variety and vintage. Used for blends across regions and by natural winemakers who leave or are refused their AOC."
+    }
+   ],
+   "labelling_rules": "'Mis en bouteille au château' or 'au domaine' only for estate-bottled wine. Grand cru and premier cru names follow strict typographic rules in Burgundy (premier cru names in letters no larger than the village). In Alsace the variety is usually named. Champagne must show the producer's status (NM, RM, CM, RC, SR, ND, MA). A 2020 private charter, 'Vin Méthode Nature', allows a label for natural wine with no more than 30 mg/l added sulphites.",
+   "history": "Phylloxera-era fraud led to the 1905 law and the 1908 to 1911 delimitations of Bordeaux, Champagne, Cognac and others; the 1919 law allowed courts to define appellations; the 1935 decree-law created the Comité National des Appellations d'Origine (INAO from 1947), and the first AOCs, such as Arbois, Châteauneuf-du-Pape, Tavel and Monbazillac, followed in 1936. VDQS, an intermediate category from 1949, was abolished in 2011. Vin de pays was created in 1968 and became IGP in 2009.",
+   "quirks": "Bordeaux classifies châteaux, which can expand and keep their rank; Burgundy classifies land. Saint-Émilion's classification is revised about every ten years and fought in court; Ausone, Cheval Blanc and Angélus withdrew before the 2022 edition. Some famous wines are deliberately sold as Vin de France. The INAO now allows experimental climate-adaptation varieties (VIFA) of up to 5 percent of vineyard area and 10 percent of a blend.",
+   "sources": [
+    {
+     "title": "Appellation d'origine contrôlée",
+     "url": "https://en.wikipedia.org/wiki/Appellation_d'origine_contrôlée"
+    },
+    {
+     "title": "French wine",
+     "url": "https://en.wikipedia.org/wiki/French_wine"
+    },
+    {
+     "title": "Bordeaux Wine Official Classification of 1855",
+     "url": "https://en.wikipedia.org/wiki/Bordeaux_Wine_Official_Classification_of_1855"
+    }
+   ]
+  },
+  {
+   "country": "Italy",
+   "iso2": "it",
+   "name": "DOCG, DOC, IGT / IGP and Vino",
+   "tiers": [
+    {
+     "label": "DOCG (Denominazione di Origine Controllata e Garantita)",
+     "meaning": "Close to 80 top appellations, such as Barolo, Brunello di Montalcino, Chianti Classico and Prosecco Superiore Conegliano Valdobbiadene. Stricter yields, tasting approval and a numbered neck strip from the state."
+    },
+    {
+     "label": "DOC (Denominazione di Origine Controllata)",
+     "meaning": "More than 330 appellations with rules on area, grapes, yields and ageing. Sub-zones and named vineyards may be allowed: MGA in Barolo and Barbaresco, UGA in Chianti Classico and Soave."
+    },
+    {
+     "label": "IGT / IGP (Indicazione Geografica Tipica)",
+     "meaning": "Regional wines (Toscana, Sicilia, Veneto) created in 1992. Home to many Super Tuscans and other wines that break DOC rules on varieties or ageing."
+    },
+    {
+     "label": "Vino (Vino d'Italia)",
+     "meaning": "Wine without GI; may show variety and vintage since 2010."
+    }
+   ],
+   "labelling_rules": "Riserva, Superiore and Classico are regulated terms: Classico means the historic heartland (Chianti Classico, Soave Classico), Superiore higher alcohol or stricter rules, Riserva longer ageing (for example 62 months for Barolo Riserva). 'Vigna' plus a name may be used for registered single vineyards. Chianti Classico Gran Selezione (2014, revised 2021) requires estate fruit, 30 months of ageing and at least 90 percent Sangiovese.",
+   "history": "Presidential Decree 930 of 1963 created DOC; the first was Vernaccia di San Gimignano in 1966. DOCG began in 1980 with Brunello, Vino Nobile and Barolo. The 1986 methanol scandal led to stricter controls. The 1992 Goria law created IGT and allowed sub-zones and vineyard names. In 2009 Prosecco was turned from a grape name into a protected DOC, and the grape renamed Glera.",
+   "quirks": "Italy has more appellations than any other country, many tiny and little used. Some DOCGs are seen as political awards. Bolgheri Sassicaia is a sub-zone DOC for a single estate. Several top producers, such as Gaja, chose to declassify Barbaresco crus to Langhe DOC to include a little Barbera. Valpolicella, Amarone and Ripasso are separate appellations with different drying rules.",
+   "sources": [
+    {
+     "title": "Italian wine",
+     "url": "https://en.wikipedia.org/wiki/Italian_wine"
+    },
+    {
+     "title": "Denominazione di origine controllata",
+     "url": "https://en.wikipedia.org/wiki/Denominazione_di_origine_controllata"
+    }
+   ]
+  },
+  {
+   "country": "Spain",
+   "iso2": "es",
+   "name": "DOCa / DOQ, DO, Vino de Pago, VC and Vino de la Tierra",
+   "tiers": [
+    {
+     "label": "Vino de Pago (VP)",
+     "meaning": "Single estates with their own appellation, created in 2003; about two dozen, mainly in Castilla-La Mancha, Navarra and Valencia."
+    },
+    {
+     "label": "DOCa / DOQ (Denominación de Origen Calificada)",
+     "meaning": "Only Rioja (1991) and Priorat (2000, DOQ in Catalan). Stricter rules on grape prices, bottling in the region and controls."
+    },
+    {
+     "label": "DO (Denominación de Origen)",
+     "meaning": "About 70 regions, each with a consejo regulador. Since 2017 many have added municipal, zonal and single-vineyard (viñedo singular) tiers."
+    },
+    {
+     "label": "VC (Vino de Calidad con Indicación Geográfica)",
+     "meaning": "A stepping stone between Vino de la Tierra and DO; few examples."
+    },
+    {
+     "label": "Vino de la Tierra (PGI)",
+     "meaning": "Regional wines with fewer restrictions, such as Vino de la Tierra de Castilla."
+    }
+   ],
+   "labelling_rules": "Ageing terms are central: Joven (young), Roble (some oak), Crianza (2 years, at least 6 months in oak; 1 year in oak in Rioja and Ribera), Reserva (3 years, 1 in oak), Gran Reserva (5 years, 2 in oak; in Rioja 2 years in barrel and 2 in bottle at least). Rioja's 2017 rules added Viñedo Singular, Vino de Municipio and Vino de Zona (Rioja Alta, Rioja Alavesa, Rioja Oriental). Cava's 2020 reform added Cava de Guarda and Cava de Guarda Superior, including Paraje Calificado single vineyards (2017).",
+   "history": "Rioja's regulatory council was created in 1925 and constituted in 1926; the 1932 Estatuto del Vino set up the national DO framework, and Jerez's consejo regulador followed in the 1930s. The DOCa category was created in 1988 and first given to Rioja in 1991. The 2003 Ley de la Viña y del Vino created Vinos de Pago and VC. Since 2017, pressure from producers such as Telmo Rodríguez and the 'Manifiesto' group has pushed Spain toward place-based classifications.",
+   "quirks": "Spain historically classified wine by time spent ageing rather than place; Gran Reserva from a bulk vineyard can outrank a single-vineyard wine on the label. Artadi left the Rioja DOCa in 2015 in protest at its lack of place-based categories. Some Penedès producers left Cava to form Corpinnat (2019) and Clàssic Penedès. Rioja Alavesa growers have repeatedly sought their own appellation.",
+   "sources": [
+    {
+     "title": "Spanish wine",
+     "url": "https://en.wikipedia.org/wiki/Spanish_wine"
+    },
+    {
+     "title": "Rioja (wine)",
+     "url": "https://en.wikipedia.org/wiki/Rioja_(wine)"
+    }
+   ]
+  },
+  {
+   "country": "Portugal",
+   "iso2": "pt",
+   "name": "DOC / DOP, IGP (Vinho Regional) and Vinho",
+   "tiers": [
+    {
+     "label": "DOC / DOP (Denominação de Origem Controlada / Protegida)",
+     "meaning": "About 30 appellations, from Porto and Douro to Dão, Bairrada, Vinho Verde, Alentejo (with subregions), Colares and Madeira, each managed by a regional commission (CVR) or, for Port and Douro, the IVDP."
+    },
+    {
+     "label": "IGP (Vinho Regional)",
+     "meaning": "Fourteen regional wines (Minho, Duriense, Tejo, Lisboa, Península de Setúbal, Alentejano, Algarve and others) with more freedom of grape and style."
+    },
+    {
+     "label": "Vinho (Vinho de Portugal)",
+     "meaning": "Wine without GI."
+    }
+   ],
+   "labelling_rules": "Reserva means a superior wine with at least 0.5 percent more alcohol than the minimum, approved by a tasting panel; Grande Reserva is stricter, and Garrafeira requires extended ageing (30 months for reds including at least 12 in bottle). Port has its own categories: Ruby, Reserve, Late Bottled Vintage, Vintage, Tawny, aged Tawny with indication of age (10, 20, 30, 40 and 50 years since 2021) and Colheita. Madeira categories include 5, 10, 15, 20, 30, 40, 50 year old, Colheita and Frasqueira, with noble-grape names requiring 85 percent of that grape.",
+   "history": "Pombal's 1756 demarcation of the Douro is often called the world's first regulated wine region. A wave of historic demarcations followed in the early 20th century, including Colares, Bucelas, Carcavelos, Dão, Madeira, Moscatel de Setúbal and Vinho Verde. After joining the EEC in 1986, Portugal created a full DOC system. In 1986 the requirement to ship Port from Vila Nova de Gaia was relaxed, allowing Douro estates to export directly.",
+   "quirks": "The Douro's beneficio system, which sets each vineyard's quota for Port based on a points grading from A to F, survives from 1947 rules. Colares, nearly lost to suburbs, is one of the few European appellations with mostly ungrafted vines. Alentejo's Vinho de Talha is a recognised designation for amphora wine within the Alentejo DOC.",
+   "sources": [
+    {
+     "title": "Portuguese wine",
+     "url": "https://en.wikipedia.org/wiki/Portuguese_wine"
+    },
+    {
+     "title": "Douro DOC",
+     "url": "https://en.wikipedia.org/wiki/Douro_DOC"
+    }
+   ]
+  },
+  {
+   "country": "Germany",
+   "iso2": "de",
+   "name": "Prädikatswein, Qualitätswein, Landwein and the 2021 origin pyramid",
+   "tiers": [
+    {
+     "label": "Prädikatswein",
+     "meaning": "Quality wine graded by grape ripeness at harvest, no chaptalisation: Kabinett, Spätlese, Auslese, Beerenauslese, Trockenbeerenauslese, Eiswein."
+    },
+    {
+     "label": "Qualitätswein (QbA)",
+     "meaning": "Quality wine from one of the 13 Anbaugebiete (regions); chaptalisation allowed. Under the 2021 law it carries an origin tier: Grosse Lage, Erste Lage, Ortswein (village), Region."
+    },
+    {
+     "label": "Landwein (PGI)",
+     "meaning": "Regional wine from 26 Landwein areas, dry or medium-dry."
+    },
+    {
+     "label": "Deutscher Wein",
+     "meaning": "Wine without GI."
+    },
+    {
+     "label": "VDP classification (private)",
+     "meaning": "The growers' association's own pyramid: VDP.Grosse Lage (dry wines labelled Grosses Gewächs), VDP.Erste Lage, VDP.Ortswein and VDP.Gutswein, with stricter yields and hand harvesting."
+    }
+   ],
+   "labelling_rules": "Trocken means up to 9 g/l of sugar (with acidity rules), halbtrocken up to 18 g/l, feinherb is an unregulated term for off-dry. Since the 2021 reform, smaller origins require stricter rules, single-vineyard names may only be used for wines of certain quality, and Grosslage names must be clearly identified as regional. Sekt b.A. must come from a specified region. Bocksbeutel flagons are reserved for Franken and parts of Baden.",
+   "history": "The 1971 wine law based quality on must weight and merged about 30,000 vineyard names into 2,600 Einzellagen and Grosslagen. The VDP, founded in 1910, introduced its own vineyard classification from 2002, finalised in 2012. The 2021 amendment to the Weingesetz moved Germany toward an origin-based model, with implementation phased in through the 2020s and new regional protection associations (Schutzgemeinschaften) defining local rules.",
+   "quirks": "A 'Spätlese' can be dry, off-dry or sweet; the Prädikat describes ripeness, not sweetness. VDP members cannot use Prädikat terms on dry wines from Grosse Lage sites, which must be labelled Grosses Gewächs. Germany's 13 regions range from tiny ones such as the Ahr and Hessische Bergstrasse (a few hundred hectares each) to Rheinhessen, the largest at over 26,000 hectares.",
+   "sources": [
+    {
+     "title": "German wine classification",
+     "url": "https://en.wikipedia.org/wiki/German_wine_classification"
+    },
+    {
+     "title": "German wine",
+     "url": "https://en.wikipedia.org/wiki/German_wine"
+    }
+   ]
+  },
+  {
+   "country": "Austria",
+   "iso2": "at",
+   "name": "DAC, Qualitätswein, Prädikatswein and Landwein",
+   "tiers": [
+    {
+     "label": "DAC (Districtus Austriae Controllatus)",
+     "meaning": "18 regional appellations, from Weinviertel DAC (2003) to the most recent, each with typical grapes and a three-tier pyramid: Gebietswein (regional), Ortswein (village) and Riedenwein (single vineyard)."
+    },
+    {
+     "label": "Qualitätswein",
+     "meaning": "Quality wine from one of the generic wine regions (Niederösterreich, Burgenland, Steiermark, Wien) for wines outside the DAC rules."
+    },
+    {
+     "label": "Prädikatswein",
+     "meaning": "As in Germany (Spätlese, Auslese, Beerenauslese, Eiswein, Strohwein/Schilfwein, Ausbruch, Trockenbeerenauslese), focused on Burgenland's sweet wines. Ruster Ausbruch is a separate DAC."
+    },
+    {
+     "label": "Landwein and Wein",
+     "meaning": "Regional and basic wines."
+    }
+   ],
+   "labelling_rules": "Single vineyards must be shown with the word 'Ried'. The Vinea Wachau categories Steinfeder, Federspiel and Smaragd are registered trademarks for dry Wachau wines. Quality wines must pass a state tasting and analysis to receive a state test number (Prüfnummer), and the red-white-red cap marks Austrian origin. Strict controls follow the 1985 glycol scandal.",
+   "history": "After the 1985 diethylene glycol scandal, Austria passed one of the world's strictest wine laws. In 1999 it began moving toward an origin system, and Weinviertel became the first DAC in 2003. DACs were added gradually: Kamptal, Kremstal and Traisental, Leithaberg and Eisenberg, Wiener Gemischter Satz (2013), the three Styrian DACs (from the 2018 vintage), Carnuntum, Wachau (2020) and others. The Österreichische Traditionsweingüter (ÖTW) private classification lists Erste Lagen.",
+   "quirks": "Wiener Gemischter Satz is a DAC for field blends, a rare case of a regulated mixed planting. Wachau DAC, created in 2020, bans chaptalisation and new-oak flavour. Uhudler, a wine from American hybrid grapes in southern Burgenland, survives under a special legal exception granted in 2016.",
+   "sources": [
+    {
+     "title": "Austrian wine",
+     "url": "https://en.wikipedia.org/wiki/Austrian_wine"
+    },
+    {
+     "title": "The Drinks Business: Styria joins Austrian DAC system (2018)",
+     "url": "https://www.thedrinksbusiness.com/2018/07/stryia-joins-austrian-dac-system/"
+    }
+   ]
+  },
+  {
+   "country": "Hungary",
+   "iso2": "hu",
+   "name": "OEM (PDO), OFJ (PGI) and the Tokaj system",
+   "tiers": [
+    {
+     "label": "OEM (Oltalom alatt álló eredetmegjelölés, PDO)",
+     "meaning": "Protected designations of origin, including the historic regions such as Tokaj, Eger, Villány, Somló, Badacsony and Szekszárd. Some have their own internal pyramids (for example Villány's Premium and Super Premium, Eger's Bikavér Classicus, Superior and Grand Superior)."
+    },
+    {
+     "label": "OFJ (Oltalom alatt álló földrajzi jelzés, PGI)",
+     "meaning": "Regional wines such as Duna-Tisza közi, Balaton and Felső-Magyarország."
+    },
+    {
+     "label": "Bor",
+     "meaning": "Wine without GI."
+    }
+   ],
+   "labelling_rules": "In Tokaj, Aszú must have at least 120 g/l residual sugar (2013 rules), with '5' or '6 puttonyos' optional; Eszencia, Szamorodni (sweet or dry), Fordítás and Máslás are protected styles. First-growth vineyards (Szent Tamás, Úrágya, Betsek, Oremus and others) can be named. Egri Bikavér must be a blend of at least four varieties, led by Kékfrankos.",
+   "history": "Tokaj's vineyards were classified from 1730 and the region's boundaries fixed by royal decree in 1737, among the earliest such systems. Under communism, state farms dominated and quality fell. After 1989, foreign investment (Royal Tokaji, Disznókő, Oremus) and local producers revived Tokaj and other regions. EU entry in 2004 brought PDO and PGI. Hungary has 22 historic wine regions.",
+   "quirks": "The Tokaj wine region also extends into Slovakia, where it is called Tokajská vinohradnícka oblasť after a long naming dispute settled under EU rules. Hungary's DHC (Districtus Hungaricus Controllatus) brand was used briefly to imitate the Austrian DAC idea.",
+   "sources": [
+    {
+     "title": "Hungarian wine",
+     "url": "https://en.wikipedia.org/wiki/Hungarian_wine"
+    },
+    {
+     "title": "Tokaj wine region",
+     "url": "https://en.wikipedia.org/wiki/Tokaj_wine_region"
+    }
+   ]
+  },
+  {
+   "country": "Greece",
+   "iso2": "gr",
+   "name": "PDO (ex OPAP and OPE), PGI (Topikos Oinos) and table wine",
+   "tiers": [
+    {
+     "label": "PDO",
+     "meaning": "About 33 appellations, merging the former OPAP (dry quality wines, such as Naoussa, Nemea, Santorini, Mantinia) and OPE (sweet wines such as Samos Muscat and Mavrodaphne of Patras)."
+    },
+    {
+     "label": "PGI (formerly Topikos Oinos)",
+     "meaning": "More than a hundred regional wines with flexible rules, including Peloponnese, Macedonia and Crete PGIs."
+    },
+    {
+     "label": "Traditional appellation and table wine",
+     "meaning": "Retsina has protected traditional appellation status; other wines are simply Greek table wine."
+    }
+   ],
+   "labelling_rules": "Reserve and Grande Reserve are regulated ageing terms for PDO wines, with longer minimum ageing for reds than for whites. Cava in Greece is a legal term for aged table or PGI wines, unrelated to Spanish sparkling Cava. Santorini PDO wines must be from Assyrtiko-led blends on the island; Vinsanto must be sun-dried and aged.",
+   "history": "Greece introduced appellations in 1971, inspired by the French model, with Naoussa, Nemea and Santorini among the first. The system was aligned with the EU's PDO and PGI in 2009. Native varieties gained prominence from the 1990s, with producers such as Gaia, Kir-Yianni and Sigalas leading the revival.",
+   "quirks": "Many of the best Greek wines are sold as PGI because PDO rules restrict varieties. Retsina is protected as a traditional Greek designation under EU law.",
+   "sources": [
+    {
+     "title": "Greek wine",
+     "url": "https://en.wikipedia.org/wiki/Greek_wine"
+    }
+   ]
+  },
+  {
+   "country": "Switzerland",
+   "iso2": "ch",
+   "name": "Cantonal AOC, Vin de pays and Vin de table",
+   "tiers": [
+    {
+     "label": "AOC (cantonal)",
+     "meaning": "Each wine canton sets its own AOC rules; Geneva created the first in 1988, and the other cantons followed in the 1990s. There are several dozen AOCs."
+    },
+    {
+     "label": "Grand cru / Premier grand cru (cantonal)",
+     "meaning": "Some cantons add top tiers: Vaud's Dézaley and Calamin are Grand Cru, and premier grand cru estates; Valais has village grand crus (Salgesch, Fully, Vétroz and others)."
+    },
+    {
+     "label": "Vin de pays (Landwein)",
+     "meaning": "Regional wines with fewer restrictions."
+    },
+    {
+     "label": "Vin de table",
+     "meaning": "Basic wine."
+    }
+   ],
+   "labelling_rules": "Labels follow cantonal law within federal rules. Variety names must reach 85 percent. Chasselas is sold as Fendant in the Valais, Perlan in Geneva and Dorin in Vaud (historically). Valais labels often show the traditional native grape (Petite Arvine, Humagne, Cornalin, Heida).",
+   "history": "Switzerland is outside the EU, so its system developed separately. The federal wine ordinance of 1992 introduced AOC criteria, but cantons write their own. Phylloxera, urbanisation and cheaper imports have reduced the vineyard to about 15,000 hectares.",
+   "quirks": "The Lavaux terraces became UNESCO World Heritage in 2007. Switzerland's Valais preserves some of Europe's rarest native grapes. Fully, Sion and Visperterminen (Heida at about 1,100 metres) show the range of the Valais. Almost all Swiss wine is drunk at home.",
+   "sources": [
+    {
+     "title": "Swiss wine",
+     "url": "https://en.wikipedia.org/wiki/Swiss_wine"
+    }
+   ]
+  },
+  {
+   "country": "Georgia",
+   "iso2": "ge",
+   "name": "Appellations of origin (PDO) registered by Sakpatenti",
+   "tiers": [
+    {
+     "label": "Appellation of Origin (PDO)",
+     "meaning": "A growing list of protected names, with well over 30 registered by the mid-2020s, including Tsinandali, Mukuzani, Napareuli, Kindzmarauli, Akhasheni, Khvanchkara (semi-sweet red from Racha) and Manavi. Rules set grapes, area and style."
+    },
+    {
+     "label": "Geographical indication",
+     "meaning": "Broad regional names such as Kakheti, Kartli and Imereti."
+    },
+    {
+     "label": "Table wine",
+     "meaning": "Wine without GI."
+    }
+   ],
+   "labelling_rules": "Labels may use the term 'Qvevri wine' for wine fermented and aged in buried clay vessels, recognised by UNESCO in 2013. Semi-sweet appellations such as Kindzmarauli and Khvanchkara must stop fermentation naturally by cold, not by fortification. The National Wine Agency runs laboratory checks, especially on exports.",
+   "history": "Georgian wine names were first protected in the Soviet era; independent Georgia's wine law of 1998 and its later revisions created the appellation framework. Russia's embargo from 2006 to 2013 forced exporters to look west and improve quality, and the EU Association Agreement (2014) protects Georgian appellations in the EU.",
+   "quirks": "Some appellations define a style rather than a single place: Kindzmarauli and Akhasheni are naturally semi-sweet Saperavi, while Mukuzani is dry. Tsinandali is a European-style blend of Rkatsiteli and Mtsvane, named after the estate of the poet Alexander Chavchavadze.",
+   "sources": [
+    {
+     "title": "Georgian wine",
+     "url": "https://en.wikipedia.org/wiki/Georgian_wine"
+    },
+    {
+     "title": "Wikipedia: List of Georgian wine appellations",
+     "url": "https://en.wikipedia.org/wiki/List_of_Georgian_wine_appellations"
+    }
+   ]
+  },
+  {
+   "country": "Moldova",
+   "iso2": "md",
+   "name": "Protected geographical indications (IGP) and PDO",
+   "tiers": [
+    {
+     "label": "PDO",
+     "meaning": "A handful of small, specialised designations alongside the regional IGPs."
+    },
+    {
+     "label": "IGP (PGI)",
+     "meaning": "Three historic regions: Codru (centre), Ștefan Vodă (southeast, home of Purcari) and Valul lui Traian (southwest), plus the Divin designation for brandy."
+    },
+    {
+     "label": "Wine without GI",
+     "meaning": "Bulk and table wines."
+    }
+   ],
+   "labelling_rules": "Labels follow EU-style rules adopted under the EU Association Agreement (2014): 85 percent for variety and vintage, protected terms for origin. The national brand 'Wine of Moldova' (2014) appears on many export bottles.",
+   "history": "Moldova supplied a large share of Soviet wine; Gorbachev's 1985 campaign uprooted vast areas. Russian bans in 2006 and 2013 forced a turn to the EU. The National Office of Vine and Wine was created in 2014, and the three regional IGPs were established in the mid-2010s.",
+   "quirks": "Moldova's huge underground cellars at Cricova and Mileștii Mici hold millions of bottles. Vineyards make up an unusually large share of the country's farmland.",
+   "sources": [
+    {
+     "title": "Moldovan wine",
+     "url": "https://en.wikipedia.org/wiki/Moldovan_wine"
+    }
+   ]
+  },
+  {
+   "country": "United States",
+   "iso2": "us",
+   "name": "American Viticultural Areas (AVA) and political appellations",
+   "tiers": [
+    {
+     "label": "AVA (American Viticultural Area)",
+     "meaning": "More than 270 federally defined grape-growing regions, approved by the TTB on petition, from huge multi-state areas (Upper Mississippi River Valley, Ohio River Valley) to tiny ones (Cole Ranch). Many are nested: Napa Valley contains 16 sub-AVAs such as Oakville and Stags Leap District. No rules on varieties, yields or methods."
+    },
+    {
+     "label": "State and county appellations",
+     "meaning": "Political boundaries used as origin: 'California' requires 100 percent California grapes; a county name 75 percent; Oregon and some other states set stricter rules, Oregon notably requiring higher percentages for AVA and varietal labelling."
+    },
+    {
+     "label": "American",
+     "meaning": "Wine without a stated region; may blend grapes from several states."
+    }
+   ],
+   "labelling_rules": "Federal rules: an AVA wine needs 85 percent of grapes from the AVA; a variety name 75 percent of that grape (states may require more); a vintage 95 percent from that year when an AVA is named. Terms such as Reserve, Old Vines and Estate are mostly unregulated (Estate Bottled has a legal definition). Labels must be approved (COLA) by the TTB and include the Surgeon General's health warning since 1989. Meritage is a trademarked association term for Bordeaux-style blends.",
+   "history": "Federal labelling followed the repeal of Prohibition in 1933. The ATF adopted AVA rules in 1978; Augusta, Missouri, was the first AVA on 20 June 1980, ahead of Napa Valley (1981). Responsibility passed to the TTB in 2003. Brand names using famous AVAs were grandfathered until California's 2000 'Napa' law, and semi-generic names such as 'Champagne' and 'Burgundy' were frozen for existing brands only under a 2006 US-EU wine agreement.",
+   "quirks": "AVAs are purely geographic and can be very large or overlap; the Upper Mississippi River Valley AVA covers about 30,000 square miles across four states. Some long-established American brands may still say 'California Champagne'. The UC Davis AVA Digitizing Project publishes official boundaries as open data. New AVAs continued to be approved in 2024 to 2026.",
+   "sources": [
+    {
+     "title": "American Viticultural Area",
+     "url": "https://en.wikipedia.org/wiki/American_Viticultural_Area"
+    },
+    {
+     "title": "Augusta AVA",
+     "url": "https://en.wikipedia.org/wiki/Augusta_AVA"
+    },
+    {
+     "title": "UC Davis Library AVA Digitizing Project",
+     "url": "https://github.com/UCDavisLibrary/ava"
+    }
+   ]
+  },
+  {
+   "country": "Canada",
+   "iso2": "ca",
+   "name": "VQA (Ontario and British Columbia) and provincial designations",
+   "tiers": [
+    {
+     "label": "VQA Designated Viticultural Area (DVA)",
+     "meaning": "Ontario has three main DVAs (Niagara Peninsula, Lake Erie North Shore, Prince Edward County) and a set of Niagara sub-appellations (such as Beamsville Bench and the Niagara-on-the-Lake sub-areas); British Columbia's VQA covers the Okanagan Valley and its sub-GIs."
+    },
+    {
+     "label": "VQA Provincial (Ontario, British Columbia)",
+     "meaning": "100 percent provincial grapes, varieties from an approved list (vinifera and approved hybrids such as Vidal and, since 2019, Marquette in Ontario)."
+    },
+    {
+     "label": "Wine of Nova Scotia / Québec IGP",
+     "meaning": "Nova Scotia uses its own standards and the Tidal Bay appellation-style white (2012); Québec has created its own protected 'Vin du Québec' designation."
+    },
+    {
+     "label": "International Canadian Blend",
+     "meaning": "Wine bottled in Canada from imported and domestic grapes, formerly 'Cellared in Canada'."
+    }
+   ],
+   "labelling_rules": "VQA wines must be made from 100 percent Canadian grapes from the stated province and pass tasting. Icewine must come from grapes frozen naturally on the vine at minus 8 degrees Celsius or below and pressed while frozen; the term is protected. Since 2018 imported-blend wines must say 'International Canadian Blend' and list the source of grapes.",
+   "history": "Ontario's VQA was launched as a voluntary standard in 1988, after the 1988 free trade agreement with the US forced the industry to modernise, and became law in 1999. British Columbia's VQA followed in 1990. Inniskillin's 1991 Vinexpo award for icewine made Canada famous. In 2025 provinces removed US wines from shelves amid tariff disputes, boosting Canadian sales.",
+   "quirks": "Most wine sold as 'Canadian' was long blended from imported bulk wine. Icewine is Canada's best-known category and exports heavily to Asia. Ontario's sub-appellations follow distinct terroirs along the Niagara Escarpment benches.",
+   "sources": [
+    {
+     "title": "Canadian wine",
+     "url": "https://en.wikipedia.org/wiki/Canadian_wine"
+    },
+    {
+     "title": "Inniskillin",
+     "url": "https://en.wikipedia.org/wiki/Inniskillin"
+    }
+   ]
+  },
+  {
+   "country": "Australia",
+   "iso2": "au",
+   "name": "Geographical Indications (GI): zones, regions and subregions",
+   "tiers": [
+    {
+     "label": "Subregion",
+     "meaning": "Defined within a region, such as Eden Valley's High Eden or Margaret River's subregions (proposed and approved in stages)."
+    },
+    {
+     "label": "Region",
+     "meaning": "Around 65 regions such as Barossa Valley, Coonawarra, Margaret River, Yarra Valley, Hunter and Clare Valley."
+    },
+    {
+     "label": "Zone",
+     "meaning": "Larger areas such as Barossa, Limestone Coast or Big Rivers."
+    },
+    {
+     "label": "State and South Eastern Australia",
+     "meaning": "State names, plus the multi-state South Eastern Australia GI used for large-volume blends."
+    }
+   ],
+   "labelling_rules": "Under the label integrity programme, a GI, variety or vintage must apply to at least 85 percent of the wine. Blends must list varieties in descending order. GIs set boundaries only, with no rules on varieties or yields. The term 'Tokay' was replaced by 'Topaque' for Rutherglen fortifieds, and names such as Champagne and Port are no longer used under the 2008 EU agreement.",
+   "history": "The Australian Wine and Brandy Corporation Act was amended in 1993 to create the GI system, in step with the 1994 wine agreement with the EU. Boundaries were sometimes fought over: Coonawarra's limits went through years of tribunal hearings before being settled in the early 2000s. Wine Australia now manages the register and publishes boundaries as open data. The Barossa Old Vine Charter (2009) recognises vineyards by age.",
+   "quirks": "Australia uses the term 'Geographical Indication' rather than appellation and does not regulate yields or varieties. South Australia's phylloxera-free status, protected by the 1899 Phylloxera Act, is one reason the Barossa holds some of the world's oldest vines. China's tariffs on Australian wine (2020 to 2024) changed export strategies.",
+   "sources": [
+    {
+     "title": "Australian wine",
+     "url": "https://en.wikipedia.org/wiki/Australian_wine"
+    },
+    {
+     "title": "Wine Australia: Geographical Indications",
+     "url": "https://www.wineaustralia.com/labelling/register-of-protected-gis-and-other-terms/geographical-indications"
+    }
+   ]
+  },
+  {
+   "country": "New Zealand",
+   "iso2": "nz",
+   "name": "Geographical Indications (GI) under the 2006 Act",
+   "tiers": [
+    {
+     "label": "Registered GI (regional and sub-regional)",
+     "meaning": "Registered from 2017 under the Geographical Indications (Wine and Spirits) Registration Act 2006, including New Zealand, North Island, South Island, regions such as Marlborough, Central Otago, Hawke's Bay and Martinborough, and smaller areas such as Gimblett Gravels (trademark) or Bannockburn (proposed)."
+    },
+    {
+     "label": "New Zealand",
+     "meaning": "The national GI."
+    }
+   ],
+   "labelling_rules": "A GI, variety or vintage requires 85 percent of the wine. Marlborough's growers created a voluntary 'Appellation Marlborough Wine' standard requiring 100 percent Marlborough grapes and bottling in New Zealand. Sustainable Winegrowing New Zealand (SWNZ) certification covers most vineyards.",
+   "history": "Vineyard planting began with James Busby in 1836 and French Marist missionaries in Hawke's Bay in 1851. Modern growth came with Montana's planting in Marlborough in 1973 and Cloudy Bay's 1985 Sauvignon Blanc. The 2006 Act provided for GIs, and the first were registered from 2017, with about 18 regional GIs.",
+   "quirks": "The Gimblett Gravels is a soil-based area defined by its growers' association and trademarked, not a legal GI. Sauvignon Blanc from Marlborough makes up most of New Zealand's exports. Phylloxera arrived in the 1890s, and most vineyards are now grafted.",
+   "sources": [
+    {
+     "title": "New Zealand wine",
+     "url": "https://en.wikipedia.org/wiki/New_Zealand_wine"
+    }
+   ]
+  },
+  {
+   "country": "South Africa",
+   "iso2": "za",
+   "name": "Wine of Origin (WO)",
+   "tiers": [
+    {
+     "label": "Ward",
+     "meaning": "The smallest unit, such as Constantia, Elgin, Simonsberg-Stellenbosch, Swartland's Paardeberg and Franschhoek Valley."
+    },
+    {
+     "label": "District",
+     "meaning": "Such as Stellenbosch, Paarl, Swartland, Cape Agulhas and Walker Bay."
+    },
+    {
+     "label": "Region",
+     "meaning": "Such as Coastal Region, Breede River Valley, Cape South Coast."
+    },
+    {
+     "label": "Geographical unit",
+     "meaning": "Western Cape, Northern Cape, Eastern Cape, KwaZulu-Natal and Limpopo; plus the broad 'Cape Coast' unit."
+    }
+   ],
+   "labelling_rules": "Wine of Origin requires 100 percent of grapes from the stated area; variety and vintage require 85 percent. Single vineyard wines must come from a registered vineyard of under 6 hectares, planted to a single variety. Estate wines must be grown, made and bottled on the same unit. The Old Vine Project's 'Certified Heritage Vineyards' seal marks vineyards of 35 years or more, with planting dates on labels.",
+   "history": "The KWV cooperative regulated the industry from 1918 to 1997. The Wine of Origin scheme began in 1973, administered by the Wine and Spirit Board, with certification seals on bottles. After apartheid ended in 1994, exports and new wineries grew rapidly, and the Swartland revolution of the 2000s, led by Eben Sadie and others, revived old Chenin Blanc and Cinsault vineyards.",
+   "quirks": "South Africa has more Chenin Blanc than France. Cape Winemakers Guild auctions showcase top wines. The industry's transformation programme aims to increase black ownership of vineyards, and some new brands lead the way.",
+   "sources": [
+    {
+     "title": "South African wine",
+     "url": "https://en.wikipedia.org/wiki/South_African_wine"
+    }
+   ]
+  },
+  {
+   "country": "Chile",
+   "iso2": "cl",
+   "name": "Denominaciones de Origen (DO) with Costa, Entre Cordilleras and Andes",
+   "tiers": [
+    {
+     "label": "Region, subregion, zone and area (DO)",
+     "meaning": "Fourteen main valleys from Atacama to Austral, such as Elqui, Limarí, Casablanca, Maipo, Colchagua, Maule and Itata, each divided into subregions, zones and areas."
+    },
+    {
+     "label": "Costa / Entre Cordilleras / Andes",
+     "meaning": "Three east-west complementary designations added in 2011 to show whether a wine comes from coastal, central-valley or Andean sites."
+    },
+    {
+     "label": "Wines without DO",
+     "meaning": "Table wines and wines from non-designated areas."
+    }
+   ],
+   "labelling_rules": "Decree 464 (1995) set the rules: domestically, 75 percent of the stated variety, vintage or origin, while exporters to the EU follow the 85 percent rule. Terms such as Reserva, Reserva Especial, Gran Reserva and Reserva Privada mainly require minimum alcohol levels, with only loose ageing requirements. VIGNO (2010) is a private association for old-vine, dry-farmed Maule Carignan.",
+   "history": "Spanish conquistadors planted País (Listán Prieto) from the 1550s. French varieties arrived in 1851 with Silvestre Ochagavía. Chile's 1995 decree created the DO system, and the 2011 amendment added Costa, Entre Cordilleras and Andes. Chile has never had phylloxera, so most vines are ungrafted.",
+   "quirks": "Chile's main valleys run east-west, but its climate changes more from coast to mountains than from north to south, which is why the 2011 overlays were created. Carmenère was rediscovered in 1994 among vines labelled Merlot. The Itata and Bío-Bío regions have revived País and Cinsault from old vines.",
+   "sources": [
+    {
+     "title": "Chilean wine",
+     "url": "https://en.wikipedia.org/wiki/Chilean_wine"
+    },
+    {
+     "title": "Wine with Seth: Chilean DO system",
+     "url": "https://www.winewithseth.com/winewiki/chilean-do-system/"
+    }
+   ]
+  },
+  {
+   "country": "Argentina",
+   "iso2": "ar",
+   "name": "IP, IG and DOC under Law 25.163 (1999)",
+   "tiers": [
+    {
+     "label": "DOC (Denominación de Origen Controlada)",
+     "meaning": "Areas whose wines owe their character essentially to place, with rules on varieties and methods. Only two have been recognised, Luján de Cuyo being the one in active use."
+    },
+    {
+     "label": "IG (Indicación Geográfica)",
+     "meaning": "Over a hundred geographical indications for quality wines, from provinces down to departments and districts, such as Valle de Uco, Paraje Altamira, Gualtallary and Los Chacayes."
+    },
+    {
+     "label": "IP (Indicación de Procedencia)",
+     "meaning": "For table and regional wines, at least 80 percent from the named area."
+    }
+   ],
+   "labelling_rules": "Law 25.163 (1999) and Decree 57/2004 regulate geographical names; the INV (Instituto Nacional de Vitivinicultura) controls labels. Variety and vintage require 85 percent. Reserva and Gran Reserva require minimum ageing periods set by the INV. Many top producers now label small IGs within the Uco Valley, such as Paraje Altamira, Los Chacayes and Gualtallary.",
+   "history": "Argentina's industry was built for domestic bulk wine, with per-capita consumption of about 90 litres in the 1970s. After the 1990s it turned to exports, led by Malbec. Law 25.163 was passed in 1999. Luján de Cuyo became Argentina's first DOC in the following years.",
+   "quirks": "Altitude is Argentina's main marketing tool, with vineyards from about 500 metres to over 3,000 metres in Salta. World Malbec Day (17 April) is a national promotion. The IGs within the Uco Valley reflect soil studies led by producers such as Catena and Zuccardi.",
+   "sources": [
+    {
+     "title": "Argentina INV: Vinos con denominación de origen (report)",
+     "url": "https://www.argentina.gob.ar/sites/default/files/2018/12/vinos_con_denominacion_de_origen_0.pdf"
+    },
+    {
+     "title": "Argentine wine",
+     "url": "https://en.wikipedia.org/wiki/Argentine_wine"
+    }
+   ]
+  },
+  {
+   "country": "Brazil",
+   "iso2": "br",
+   "name": "Indicações Geográficas: DO and IP",
+   "tiers": [
+    {
+     "label": "DO (Denominação de Origem)",
+     "meaning": "The highest tier: Vale dos Vinhedos (2012) for Merlot and sparkling wine in Rio Grande do Sul, followed by Altos de Pinto Bandeira for traditional-method sparkling wine."
+    },
+    {
+     "label": "IP (Indicação de Procedência)",
+     "meaning": "Around ten geographical indications, mostly in the Serra Gaúcha, such as Pinto Bandeira, Altos Montes, Monte Belo, Farroupilha and Campanha Gaúcha, plus Vales da Uva Goethe in Santa Catarina."
+    },
+    {
+     "label": "Vinho fino / vinho de mesa",
+     "meaning": "Fine wines from vinifera versus table wines, often from American and hybrid grapes such as Isabel and Bordô."
+    }
+   ],
+   "labelling_rules": "Brazil distinguishes 'vinho fino' (vinifera) from 'vinho de mesa' (American and hybrid grapes). GI rules are set by the producers' associations and registered with the INPI (National Institute of Industrial Property). Varietal labels follow national minimum percentages set by the agriculture ministry.",
+   "history": "Italian immigrants settled the Serra Gaúcha from 1875 and planted American grapes. Vinifera expanded from the 1970s with foreign investment. Vale dos Vinhedos became the first IP in 2002 and Brazil's first DO in 2012. The Campanha Gaúcha on the Uruguayan border is a newer, warmer region.",
+   "quirks": "Most Brazilian wine is still made from American grapes such as Isabel, Bordô and Niagara. Brazil's traditional-method sparkling wines are its most praised. Some vineyards in the northeast (Vale do São Francisco) produce two harvests a year in a tropical climate.",
+   "sources": [
+    {
+     "title": "Brazilian wine",
+     "url": "https://en.wikipedia.org/wiki/Brazilian_wine"
+    }
+   ]
+  },
+  {
+   "country": "China",
+   "iso2": "cn",
+   "name": "Geographical indications (GI) and the Ningxia classification",
+   "tiers": [
+    {
+     "label": "National GI products",
+     "meaning": "Protected geographical indications such as Helan Mountain's East Foothill (Ningxia, 2003), Yantai (Shandong) and several Hebei areas such as Changli and Huailai."
+    },
+    {
+     "label": "Ningxia classification",
+     "meaning": "A regional ranking of wineries (châteaux) introduced in 2013 and periodically revised, with five tiers modelled on Bordeaux's 1855 system."
+    },
+    {
+     "label": "General wine",
+     "meaning": "Wine meeting national standards (GB 15037), which define minimum grape content and labelling."
+    }
+   ],
+   "labelling_rules": "National standard GB 15037 requires wine to be made from fresh grapes or grape juice and sets minimum percentages for variety, vintage and origin claims. Imports require Chinese back labels. Rules on sugar content and terms such as 'dry' follow international norms.",
+   "history": "Han dynasty envoys brought vinifera in the 2nd century BC, but modern winemaking began with Changyu in Yantai in 1892. State wineries such as Great Wall and Dynasty dominated from the 1980s. In the 2000s Ningxia, Xinjiang and Hebei developed as quality regions. Imports peaked in the late 2010s and fell sharply afterwards.",
+   "quirks": "Winters in Ningxia and Xinjiang are so cold that vines must be buried each autumn and dug up in spring. China's vineyard area is dominated by table grapes such as Kyoho. Cabernet Gernischt turned out to be Carmenère.",
+   "sources": [
+    {
+     "title": "Chinese wine",
+     "url": "https://en.wikipedia.org/wiki/Chinese_wine"
+    }
+   ]
+  },
+  {
+   "country": "Japan",
+   "iso2": "jp",
+   "name": "Japan Wine labelling standard (2018) and GIs",
+   "tiers": [
+    {
+     "label": "GI (Geographical Indication)",
+     "meaning": "Yamanashi (2013) and Hokkaido (2018) were the first wine GIs, and further prefectures such as Yamagata, Osaka and Nagano have since been designated; GIs require 100 percent local grapes requiring 100 percent local grapes of approved varieties and production in the prefecture."
+    },
+    {
+     "label": "Japan Wine",
+     "meaning": "Since 30 October 2018, wine made and bottled in Japan from 100 percent Japanese grapes. Only Japan Wine may show a place name, variety or vintage."
+    },
+    {
+     "label": "Domestically produced wine",
+     "meaning": "Wine made in Japan from imported concentrate or bulk wine; must say so and cannot show place, variety or vintage."
+    }
+   ],
+   "labelling_rules": "Under the 2018 National Tax Agency standard, a region name requires 85 percent of grapes from the region and vinification there; a variety or vintage also requires 85 percent. Koshu (2010) and Muscat Bailey A (2013) are registered with the OIV, so they can appear on EU labels.",
+   "history": "Japan's first wine company was founded in Katsunuma, Yamanashi, in 1877. For most of the 20th century, wines were sweet and much 'Japanese wine' was made from imported concentrate. Yamanashi became Japan's first wine GI in 2013, and the 2018 labelling law separated real Japanese wine from blended imports.",
+   "quirks": "Japan's humid summers led growers to use high pergola training (tanazukuri) and paper hats over bunches. Koshu's DNA shows hybridisation with East Asian wild vines. Hokkaido has become a hotspot for cool-climate Pinot Noir.",
+   "sources": [
+    {
+     "title": "USDA FAS Japan: New wine labeling standards become effective (2 Nov 2018)",
+     "url": "https://www.usdajapan.org/wpusda/wp-content/uploads/2018/11/New-Wine-Labeling-Standards-Become-Effective_Tokyo_Japan_11-2-2018.pdf"
+    },
+    {
+     "title": "Japanese wine",
+     "url": "https://en.wikipedia.org/wiki/Japanese_wine"
+    }
+   ]
+  }
+ ]
+}

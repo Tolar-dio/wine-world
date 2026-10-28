@@ -1,0 +1,1087 @@
+{
+ "soils": [
+  {
+   "id": "kimmeridgian-marl",
+   "name": "Kimmeridgian marl",
+   "description": "A grey limestone-marl laid down in a warm, shallow Jurassic sea about 157 to 152 million years ago, named after Kimmeridge in Dorset and packed with fossils of the small comma-shaped oyster Exogyra virgula. It runs in a band from southern England under the Paris Basin to Chablis, Sancerre and the Aube. Its clay holds water while its limestone keeps the soil alkaline, so vines ripen slowly and keep acidity. Chablis's grand and premier crus sit on it, and growers credit it with their saline, oyster-shell tension.",
+   "examples": [
+    {
+     "place": "Chablis Grand Cru (Les Clos, Vaudésir)",
+     "country": "fr",
+     "lat": 47.824,
+     "lon": 3.806,
+     "note": "The seven grand crus face southwest on Kimmeridgian slopes above the Serein."
+    },
+    {
+     "place": "Sancerre (Chavignol, Les Monts Damnés)",
+     "country": "fr",
+     "lat": 47.3367,
+     "lon": 2.81,
+     "note": "Terres blanches of Kimmeridgian marl give the fullest Sancerres."
+    },
+    {
+     "place": "Les Riceys, Aube",
+     "country": "fr",
+     "lat": 47.9922,
+     "lon": 4.3678,
+     "note": "The Côte des Bar's Pinot Noir grows on the same Kimmeridgian marl as Chablis."
+    },
+    {
+     "place": "Kimmeridge Bay, Dorset",
+     "country": "gb",
+     "lat": 50.6178,
+     "lon": -2.1198,
+     "note": "The type locality on the Jurassic Coast."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kimmeridgian",
+     "url": "https://en.wikipedia.org/wiki/Kimmeridgian"
+    },
+    {
+     "title": "Chablis wine",
+     "url": "https://en.wikipedia.org/wiki/Chablis_wine"
+    }
+   ]
+  },
+  {
+   "id": "portlandian-limestone",
+   "name": "Portlandian limestone",
+   "description": "A hard, pale Jurassic limestone (now formally Tithonian), slightly younger than the Kimmeridgian, that caps the plateaus around Chablis. It weathers into thin, stony, brown soils with less clay, which warm quickly but hold less water. In Chablis it is mostly planted to Petit Chablis, long considered the lesser appellation, though some growers argue its wines have their own crisp, citrus appeal. The contrast with Kimmeridgian slopes below is a textbook example of how geology maps onto an appellation hierarchy.",
+   "examples": [
+    {
+     "place": "Petit Chablis plateau",
+     "country": "fr",
+     "lat": 47.84,
+     "lon": 3.77,
+     "note": "Petit Chablis is planted mainly on the Portlandian plateaus."
+    },
+    {
+     "place": "Isle of Portland, Dorset",
+     "country": "gb",
+     "lat": 50.548,
+     "lon": -2.44,
+     "note": "Type locality, famous for Portland stone."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Chablis wine",
+     "url": "https://en.wikipedia.org/wiki/Chablis_wine"
+    }
+   ]
+  },
+  {
+   "id": "chalk",
+   "name": "Chalk",
+   "description": "A soft, white, very porous limestone made of the skeletons of coccoliths, microscopic algae that filled Cretaceous seas 70 to 100 million years ago. Chalk can hold up to 40 percent of its volume in water, releasing it slowly to roots in dry spells, while staying well drained. It reflects light and keeps soils cool, so grapes keep acidity: ideal for sparkling wine. It underlies Champagne's Côte des Blancs and Montagne de Reims, England's South Downs and North Downs, and the Loire's Touraine.",
+   "examples": [
+    {
+     "place": "Le Mesnil-sur-Oger, Côte des Blancs",
+     "country": "fr",
+     "lat": 48.9472,
+     "lon": 4.0225,
+     "note": "Belemnite chalk under thin topsoil; Krug's Clos du Mesnil and Salon's grapes."
+    },
+    {
+     "place": "Cramant, Côte des Blancs",
+     "country": "fr",
+     "lat": 48.9886,
+     "lon": 3.9911,
+     "note": "Grand cru Chardonnay on chalk, the source of creamy, fine blanc de blancs."
+    },
+    {
+     "place": "Nyetimber, West Sussex",
+     "country": "gb",
+     "lat": 50.953,
+     "lon": -0.457,
+     "note": "English sparkling on greensand and chalk under the South Downs."
+    },
+    {
+     "place": "Domaine Evremond, Chilham, Kent",
+     "country": "gb",
+     "lat": 51.244,
+     "lon": 0.961,
+     "note": "Taittinger's English vineyard on North Downs chalk."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Champagne wine",
+     "url": "https://en.wikipedia.org/wiki/Champagne_wine"
+    },
+    {
+     "title": "English wine",
+     "url": "https://en.wikipedia.org/wiki/English_wine"
+    }
+   ]
+  },
+  {
+   "id": "limestone-marl-cote-dor",
+   "name": "Jurassic limestone and marl (Côte d'Or)",
+   "description": "The Côte d'Or is a fault scarp where Middle and Upper Jurassic limestones and marls are exposed in bands along a 50 km slope. Bajocian and Bathonian limestones dominate the Côte de Nuits, with Comblanchien limestone and Prémeaux stone; Callovian, Oxfordian and Argovian marls are more common in the Côte de Beaune. Grand crus sit mid-slope where limestone scree mixes with marl, giving drainage plus some water retention. Small shifts in these bands explain why climats a few metres apart taste different.",
+   "examples": [
+    {
+     "place": "Clos de Vougeot",
+     "country": "fr",
+     "lat": 47.1749,
+     "lon": 4.9555,
+     "note": "Limestone at the top, deeper clay-marl lower down, all in one walled grand cru."
+    },
+    {
+     "place": "Montrachet",
+     "country": "fr",
+     "lat": 46.9444,
+     "lon": 4.7378,
+     "note": "Thin limestone soil on a gentle mid-slope, sheltered from the north wind."
+    },
+    {
+     "place": "Gevrey-Chambertin grand crus",
+     "country": "fr",
+     "lat": 47.2272,
+     "lon": 4.9681,
+     "note": "Chambertin and Clos de Bèze on brown limestone soils over Bajocian marl."
+    },
+    {
+     "place": "Corton hill",
+     "country": "fr",
+     "lat": 47.071,
+     "lon": 4.863,
+     "note": "Marls at the top suit Chardonnay (Corton-Charlemagne); red-brown soils lower suit Pinot."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Climats of Burgundy",
+     "url": "https://en.wikipedia.org/wiki/Climats_of_Burgundy"
+    },
+    {
+     "title": "Burgundy wine",
+     "url": "https://en.wikipedia.org/wiki/Burgundy_wine"
+    }
+   ]
+  },
+  {
+   "id": "tuffeau",
+   "name": "Tuffeau (Turonian limestone)",
+   "description": "A soft, fine-grained, cream-coloured Cretaceous limestone of the Turonian stage, found in the middle Loire around Saumur, Vouvray and Chinon. It is porous and holds water, a reserve for vines in dry summers, while staying well drained. Quarried for centuries to build the Loire châteaux, it left networks of caves used as wine cellars and mushroom farms. Chenin Blanc and Cabernet Franc on tuffeau are typically fine, chalky and long-lived, often with the slopes topped by flinty clay (perruches).",
+   "examples": [
+    {
+     "place": "Vouvray",
+     "country": "fr",
+     "lat": 47.4128,
+     "lon": 0.8,
+     "note": "Chenin Blanc on tuffeau and perruches; caves cut into the cliffs."
+    },
+    {
+     "place": "Saumur-Champigny",
+     "country": "fr",
+     "lat": 47.26,
+     "lon": -0.0769,
+     "note": "Cabernet Franc on chalky tuffeau slopes."
+    },
+    {
+     "place": "Chinon",
+     "country": "fr",
+     "lat": 47.1678,
+     "lon": 0.2436,
+     "note": "Tuffeau slopes give the longest-lived Chinon reds."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tuffeau",
+     "url": "https://en.wikipedia.org/wiki/Tuffeau"
+    }
+   ]
+  },
+  {
+   "id": "galestro",
+   "name": "Galestro",
+   "description": "A crumbly, flaky schistous clay-marl that splits into thin, grey to reddish plates, common in the Chianti Classico hills and parts of Montalcino. It formed from compressed marine clays of the Cretaceous to Eocene and weathers quickly into stony, well-drained soils of modest fertility. Sangiovese on galestro is often described as perfumed, bright and finely tannic, and the soil is especially prized around Radda and Gaiole at 400 to 600 metres. It frequently alternates with harder alberese within the same estate.",
+   "examples": [
+    {
+     "place": "Radda in Chianti",
+     "country": "it",
+     "lat": 43.483,
+     "lon": 11.383,
+     "note": "High-altitude galestro gives Radda's fragrant, high-acid Sangiovese."
+    },
+    {
+     "place": "Gaiole in Chianti",
+     "country": "it",
+     "lat": 43.4667,
+     "lon": 11.4333,
+     "note": "Castello di Ama and Badia a Coltibuono farm galestro slopes."
+    },
+    {
+     "place": "Montalcino (northern slopes)",
+     "country": "it",
+     "lat": 43.05,
+     "lon": 11.483,
+     "note": "Galestro and marl on the cooler side of the hill give finer Brunello."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Chianti Classico",
+     "url": "https://en.wikipedia.org/wiki/Chianti_Classico"
+    }
+   ]
+  },
+  {
+   "id": "alberese",
+   "name": "Alberese",
+   "description": "A hard, compact, pale grey limestone-marl of Eocene age found throughout Chianti Classico, especially Castellina, Castelnuovo Berardenga and the Conca d'Oro of Panzano. It weathers into stony, calcareous soils that drain well and reflect heat, and it is often found with galestro. Sangiovese from alberese is said to be broader, more structured and slower to open. The stone, quarried locally, built many Tuscan farmhouses and churches.",
+   "examples": [
+    {
+     "place": "Castellina in Chianti",
+     "country": "it",
+     "lat": 43.4692,
+     "lon": 11.2886,
+     "note": "Alberese-rich soils give firm, structured Sangiovese."
+    },
+    {
+     "place": "Panzano (Conca d'Oro)",
+     "country": "it",
+     "lat": 43.548,
+     "lon": 11.316,
+     "note": "A south-facing amphitheatre of alberese and galestro."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Alberese",
+     "url": "https://en.wikipedia.org/wiki/Alberese"
+    }
+   ]
+  },
+  {
+   "id": "tortonian-serravallian-marls",
+   "name": "Tortonian and Serravallian marls (Langhe)",
+   "description": "Miocene marine sediments that form the Barolo and Barbaresco hills. The western Barolo communes (La Morra, Barolo) sit on Tortonian marls (about 11 to 7 million years old), bluish-grey calcareous clays that give perfumed, earlier-maturing wines. The eastern communes (Serralunga, Monforte, Castiglione Falletto) lie on older Serravallian (Helvetian) soils of sandstone and compacted marl, giving more tannic, long-lived Nebbiolo. The MGA map lets drinkers trace the difference vineyard by vineyard.",
+   "examples": [
+    {
+     "place": "La Morra (Brunate, Cerequio)",
+     "country": "it",
+     "lat": 44.633,
+     "lon": 7.933,
+     "note": "Tortonian marl gives Barolo's most aromatic, supple wines."
+    },
+    {
+     "place": "Serralunga d'Alba (Vigna Rionda, Francia)",
+     "country": "it",
+     "lat": 44.6108,
+     "lon": 8.0,
+     "note": "Serravallian sandstone and marl give powerful, austere Barolo."
+    },
+    {
+     "place": "Barbaresco (Asili, Rabajà)",
+     "country": "it",
+     "lat": 44.725,
+     "lon": 8.0817,
+     "note": "Tortonian marls closer to the Tanaro, with a warmer microclimate."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Barolo",
+     "url": "https://en.wikipedia.org/wiki/Barolo"
+    }
+   ]
+  },
+  {
+   "id": "terra-rossa",
+   "name": "Terra rossa",
+   "description": "A red, clay-rich soil formed when limestone weathers and leaves behind insoluble residues coloured by iron oxides, typical of Mediterranean karst landscapes. In Coonawarra, a strip about 15 km long and under 2 km wide of terra rossa lies over soft white limestone and a high water table, which gives Cabernet Sauvignon its famous mint and cassis. Terra rossa also covers Istria, Puglia, parts of Spain and the Karst plateau around Trieste. It drains well, while the limestone below stores water.",
+   "examples": [
+    {
+     "place": "Coonawarra, South Australia",
+     "country": "au",
+     "lat": -37.3786,
+     "lon": 140.8362,
+     "note": "The 'cigar' of terra rossa over limestone, Australia's most famous Cabernet soil."
+    },
+    {
+     "place": "Motovun, Istria",
+     "country": "hr",
+     "lat": 45.333,
+     "lon": 13.833,
+     "note": "Istrian Teran and Malvazija grow on red terra rossa."
+    },
+    {
+     "place": "Kras (Karst) plateau",
+     "country": "si",
+     "lat": 45.7034,
+     "lon": 13.8706,
+     "note": "Teran on iron-rich terra rossa above Trieste."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Terra rossa (soil)",
+     "url": "https://en.wikipedia.org/wiki/Terra_rossa_(soil)"
+    },
+    {
+     "title": "Coonawarra",
+     "url": "https://en.wikipedia.org/wiki/Coonawarra"
+    }
+   ]
+  },
+  {
+   "id": "devonian-slate",
+   "name": "Devonian slate (Mosel, Rhine and Ahr)",
+   "description": "Slate formed about 400 million years ago when Devonian marine muds were compressed and folded. It dominates the Mosel, Saar, Ruwer, Middle Rhine and Ahr, where vines cling to slopes up to 65 degrees. The dark stones absorb heat and reflect light onto the vines, helping Riesling ripen at around 50 degrees north. Blue-grey slate (Bernkastel, Wehlen, Piesport) gives delicate, floral wines; red slate (Ürziger Würzgarten, Erdener Prälat) gives spicier ones. Growers argue the difference is tasteable.",
+   "examples": [
+    {
+     "place": "Wehlener Sonnenuhr",
+     "country": "de",
+     "lat": 49.9433,
+     "lon": 7.0372,
+     "note": "Blue Devonian slate; J.J. Prüm's classic Kabinett and Spätlese."
+    },
+    {
+     "place": "Ürziger Würzgarten",
+     "country": "de",
+     "lat": 49.9822,
+     "lon": 7.0053,
+     "note": "Red volcanic-tinged slate and sandstone give spicy Riesling."
+    },
+    {
+     "place": "Bernkasteler Doctor",
+     "country": "de",
+     "lat": 49.9161,
+     "lon": 7.0694,
+     "note": "One of Germany's most famous vineyards, on grey slate."
+    },
+    {
+     "place": "Ahr valley (Mayschoß)",
+     "country": "de",
+     "lat": 50.5236,
+     "lon": 7.0197,
+     "note": "Slate and greywacke support Germany's northernmost red-wine region."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mosel (wine region)",
+     "url": "https://en.wikipedia.org/wiki/Mosel_(wine_region)"
+    }
+   ]
+  },
+  {
+   "id": "schist",
+   "name": "Schist",
+   "description": "A metamorphic rock formed when shale or mudstone is heated and squeezed, splitting into flaky layers. Schist breaks into shallow, stony soils that drain freely; roots penetrate the vertical cracks deep in search of water. The rock absorbs daytime heat and releases it at night. It defines the Douro's terraced Port vineyards, Roussillon's Banyuls and Maury, Faugères in the Languedoc, the Côte Brune of Côte-Rôtie, and Central Otago. Steep schist slopes usually require terraces and hand work.",
+   "examples": [
+    {
+     "place": "Douro valley (Pinhão)",
+     "country": "pt",
+     "lat": 41.1897,
+     "lon": -7.5458,
+     "note": "Terraces blasted out of schist; roots go many metres deep."
+    },
+    {
+     "place": "Banyuls-sur-Mer",
+     "country": "fr",
+     "lat": 42.4831,
+     "lon": 3.1281,
+     "note": "Dark schist terraces above the Mediterranean, for Grenache-based VDN."
+    },
+    {
+     "place": "Côte-Rôtie, Côte Brune",
+     "country": "fr",
+     "lat": 45.4899,
+     "lon": 4.8103,
+     "note": "Iron-rich schist gives darker, more structured Syrah."
+    },
+    {
+     "place": "Bannockburn, Central Otago",
+     "country": "nz",
+     "lat": -45.0892,
+     "lon": 169.1611,
+     "note": "Schist and loess support New Zealand's most southerly Pinot Noir."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Port wine",
+     "url": "https://en.wikipedia.org/wiki/Port_wine"
+    },
+    {
+     "title": "Côte-Rôtie AOC",
+     "url": "https://en.wikipedia.org/wiki/Côte-Rôtie_AOC"
+    }
+   ]
+  },
+  {
+   "id": "llicorella",
+   "name": "Llicorella",
+   "description": "The Catalan name for Priorat's dark, crumbly slate and schist, glittering with mica and quartz, formed in the Carboniferous about 300 million years ago. It is poor, acidic and holds little water, so old Garnacha and Cariñena vines on steep terraces give tiny yields of concentrated grapes. The roots exploit fractures to reach moisture deep below. René Barbier, Álvaro Palacios and their 1989 group showed that wines from llicorella could rank among Spain's best, and Priorat became Spain's second DOCa in 2000.",
+   "examples": [
+    {
+     "place": "Gratallops, Priorat",
+     "country": "es",
+     "lat": 41.195,
+     "lon": 0.7781,
+     "note": "Heart of the 1989 Priorat revival; L'Ermita and Clos Mogador."
+    },
+    {
+     "place": "Porrera, Priorat",
+     "country": "es",
+     "lat": 41.183,
+     "lon": 0.85,
+     "note": "Steep llicorella slopes with old Cariñena."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Priorat (DOQ)",
+     "url": "https://en.wikipedia.org/wiki/Priorat_(DOQ)"
+    }
+   ]
+  },
+  {
+   "id": "granite",
+   "name": "Granite",
+   "description": "A coarse-grained igneous rock of quartz, feldspar and mica, which weathers into sandy, acidic, free-draining soils that are poor in nutrients (called gore in Beaujolais and arène elsewhere in France). Vines grow moderately and grapes ripen with good acidity. Granite underpins the Beaujolais crus such as Fleurie and Moulin-à-Vent, Hermitage's western hill, Cornas, the Côte Blonde of Côte-Rôtie, Muscadet's Clisson cru, Dão, Galicia, and South Africa's Swartland. Wines are often fragrant and finely textured.",
+   "examples": [
+    {
+     "place": "Fleurie, Beaujolais",
+     "country": "fr",
+     "lat": 46.193,
+     "lon": 4.698,
+     "note": "Pink granite gives Fleurie's floral Gamay."
+    },
+    {
+     "place": "Hermitage (Les Bessards)",
+     "country": "fr",
+     "lat": 45.0717,
+     "lon": 4.8431,
+     "note": "Granite on the western end of the hill gives the most powerful Syrah."
+    },
+    {
+     "place": "Cornas",
+     "country": "fr",
+     "lat": 44.9611,
+     "lon": 4.85,
+     "note": "Steep granite terraces with dark, tannic Syrah."
+    },
+    {
+     "place": "Swartland (Paardeberg)",
+     "country": "za",
+     "lat": -33.45,
+     "lon": 18.733,
+     "note": "Decomposed granite under old bush-vine Chenin and Syrah."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hermitage AOC",
+     "url": "https://en.wikipedia.org/wiki/Hermitage_AOC"
+    },
+    {
+     "title": "Fleurie",
+     "url": "https://en.wikipedia.org/wiki/Fleurie"
+    }
+   ]
+  },
+  {
+   "id": "gneiss",
+   "name": "Gneiss",
+   "description": "A banded metamorphic rock, formed from granite or sediment under great heat and pressure, with alternating light and dark mineral layers. It weathers slowly into shallow, stony, acidic soils. The steep terraces of Austria's Wachau and parts of the Kremstal and Kamptal are cut into gneiss and amphibolite, and their Riesling and Grüner Veltliner are taut, stony and long-lived. Gneiss also shows up in Muscadet (where it is mixed with granite and gabbro) and the Wachau's Kellerberg and Loibenberg.",
+   "examples": [
+    {
+     "place": "Dürnstein, Wachau (Kellerberg)",
+     "country": "at",
+     "lat": 48.3956,
+     "lon": 15.5203,
+     "note": "Gneiss terraces give tense, mineral Smaragd Riesling."
+    },
+    {
+     "place": "Spitz, Wachau (Singerriedel)",
+     "country": "at",
+     "lat": 48.35,
+     "lon": 15.417,
+     "note": "Steep gneiss slopes on the western, cooler end of the Wachau."
+    },
+    {
+     "place": "Gorges, Muscadet",
+     "country": "fr",
+     "lat": 47.1017,
+     "lon": -1.3039,
+     "note": "Gabbro and gneiss give Muscadet's most structured cru."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Wachau",
+     "url": "https://en.wikipedia.org/wiki/Wachau"
+    }
+   ]
+  },
+  {
+   "id": "basalt-volcanic",
+   "name": "Basalt and volcanic rock",
+   "description": "Basalt is a dark volcanic rock formed from fast-cooling lava, rich in iron, magnesium and calcium. It weathers into dark, fertile soils that warm quickly. Soave Classico's eastern hills sit on black basalt, giving rich, mineral Garganega; Hungary's Badacsony and Somló are extinct volcanoes whose basalt slopes produce smoky whites. Oregon's Jory soils, Washington's Columbia Valley and Victoria's Heathcote (on Cambrian greenstone) are other examples. Volcanic soils often keep phylloxera at bay when sandy.",
+   "examples": [
+    {
+     "place": "Soave Classico (Monte Foscarino)",
+     "country": "it",
+     "lat": 45.4194,
+     "lon": 11.2464,
+     "note": "Black basalt in the eastern hills gives Soave's richest crus."
+    },
+    {
+     "place": "Badacsony, Lake Balaton",
+     "country": "hu",
+     "lat": 46.8035,
+     "lon": 17.4958,
+     "note": "Basalt organ-pipe columns on an extinct volcano above the lake."
+    },
+    {
+     "place": "Somló",
+     "country": "hu",
+     "lat": 47.1478,
+     "lon": 17.3712,
+     "note": "An isolated basalt butte famous for Juhfark."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Soave (wine)",
+     "url": "https://en.wikipedia.org/wiki/Soave_(wine)"
+    }
+   ]
+  },
+  {
+   "id": "volcanic-ash-etna",
+   "name": "Volcanic ash and lava sands (Etna, Vesuvius, Campi Flegrei)",
+   "description": "Young volcanic soils formed from ash, lapilli, sand and broken lava, black to grey and rich in minerals but low in organic matter. They drain freely and, being sandy, discourage phylloxera, so many vines are ungrafted. On Etna's north slope, successive lava flows of different ages create the patchwork of contrade, the named districts listed in the DOC rules, at roughly 400 to 1,000 metres. Vesuvius and the Campi Flegrei near Naples have similar soils, with Piedirosso and Falanghina vines on their own roots.",
+   "examples": [
+    {
+     "place": "Passopisciaro, Etna",
+     "country": "it",
+     "lat": 37.883,
+     "lon": 15.117,
+     "note": "Nerello Mascalese on black lava sands of the north slope."
+    },
+    {
+     "place": "Campi Flegrei, Pozzuoli",
+     "country": "it",
+     "lat": 40.8444,
+     "lon": 14.0933,
+     "note": "Volcanic sands with ungrafted Falanghina and Piedirosso."
+    },
+    {
+     "place": "Vesuvius (Boscotrecase)",
+     "country": "it",
+     "lat": 40.783,
+     "lon": 14.467,
+     "note": "Lacryma Christi grown on the volcano's slopes."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Etna DOC",
+     "url": "https://en.wikipedia.org/wiki/Etna_DOC"
+    }
+   ]
+  },
+  {
+   "id": "pumice-aspa",
+   "name": "Pumice and aspa (Santorini)",
+   "description": "Santorini's vineyards grow in aspa, a soil of pumice, ash and volcanic rock deposited by the Minoan eruption around 1600 BC. It contains almost no clay or organic matter, so phylloxera never established itself and some root systems are centuries old. The porous pumice traps moisture from night-time sea mists, vital on an island with very little rain. Assyrtiko trained into kouloura baskets gives intensely saline, smoky whites with high acidity.",
+   "examples": [
+    {
+     "place": "Pyrgos, Santorini",
+     "country": "gr",
+     "lat": 36.3831,
+     "lon": 25.4494,
+     "note": "Kouloura-trained Assyrtiko on pumice."
+    },
+    {
+     "place": "Megalochori, Santorini",
+     "country": "gr",
+     "lat": 36.3731,
+     "lon": 25.4253,
+     "note": "Old ungrafted vines and traditional canavas (wineries)."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Santorini (wine)",
+     "url": "https://en.wikipedia.org/wiki/Santorini_(wine)"
+    }
+   ]
+  },
+  {
+   "id": "picon-lanzarote",
+   "name": "Picón (volcanic lapilli, Lanzarote)",
+   "description": "Black volcanic gravel (lapilli) blanketing much of Lanzarote after the Timanfaya eruptions of 1730 to 1736. Farmers in La Geria dig funnel-shaped pits, often a couple of metres deep, through the picón to plant each vine in the soil beneath, and build a curved stone wall (zoco) to shield it from the trade winds. The porous picón captures dew and prevents evaporation on an island that receives very little rain. The result is one of the most striking vineyard landscapes on earth, mostly planted to Malvasía Volcánica.",
+   "examples": [
+    {
+     "place": "La Geria, Lanzarote",
+     "country": "es",
+     "lat": 29.035,
+     "lon": -13.635,
+     "note": "Thousands of hoyos with stone zocos on black lapilli."
+    }
+   ],
+   "sources": [
+    {
+     "title": "La Geria",
+     "url": "https://en.wikipedia.org/wiki/La_Geria"
+    }
+   ]
+  },
+  {
+   "id": "tuff-tufo",
+   "name": "Tuff (volcanic tufa)",
+   "description": "A soft rock of compacted volcanic ash, easily carved and porous enough to store water. Its soils are light and well drained. Tuff gives its name to Greco di Tufo in Campania, where sulphur-rich volcanic soils give firm, mineral whites, and hosts Orvieto in Umbria and the Valley of the Beautiful Women in Eger, Hungary, where cellars are carved into it. Note that Loire tuffeau is a limestone, not volcanic tuff.",
+   "examples": [
+    {
+     "place": "Tufo, Campania",
+     "country": "it",
+     "lat": 41.0126,
+     "lon": 14.8178,
+     "note": "Greco di Tufo on volcanic tuff and sulphur-bearing clays."
+    },
+    {
+     "place": "Eger (Szépasszony-völgy)",
+     "country": "hu",
+     "lat": 47.899,
+     "lon": 20.3747,
+     "note": "Wine cellars carved into rhyolite tuff."
+    },
+    {
+     "place": "Pitigliano, Maremma",
+     "country": "it",
+     "lat": 42.6347,
+     "lon": 11.6703,
+     "note": "A town and vineyards on a tufa ridge; Ciliegiolo and Bianco di Pitigliano."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Greco (grape)",
+     "url": "https://en.wikipedia.org/wiki/Greco_(grape)"
+    }
+   ]
+  },
+  {
+   "id": "tokaj-volcanic-zeolite",
+   "name": "Tokaj volcanic soils (rhyolite, andesite, zeolite, nyirok)",
+   "description": "Tokaj's hills are volcanic, formed in the Miocene, with rhyolite, andesite and tuff weathered into clays such as nyirok (a red, sticky clay) and yellow loess on lower slopes. Some sites contain zeolite, a porous volcanic mineral that holds water and nutrients. The mix varies vineyard by vineyard, which is why Tokaj classified its sites as early as 1730. Furmint and Hárslevelű from the volcanic slopes give the high acidity that balances sweet Aszú.",
+   "examples": [
+    {
+     "place": "Mád (Szent Tamás, Úrágya)",
+     "country": "hu",
+     "lat": 48.1898,
+     "lon": 21.2765,
+     "note": "Rhyolite tuff and nyirok in first-class vineyards."
+    },
+    {
+     "place": "Tállya",
+     "country": "hu",
+     "lat": 48.2361,
+     "lon": 21.2257,
+     "note": "Zeolite-bearing tuffs in some vineyards."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Tokaj wine region",
+     "url": "https://en.wikipedia.org/wiki/Tokaj_wine_region"
+    }
+   ]
+  },
+  {
+   "id": "kaiserstuhl-volcanic-loess",
+   "name": "Kaiserstuhl volcanic rock and loess",
+   "description": "The Kaiserstuhl is a small extinct volcano in Baden's Upper Rhine plain, active in the Miocene, rising to about 557 metres. Its volcanic core (tephrite, phonolite) is covered in places by thick loess, deposited by wind during the ice ages. Growers carved the loess into terraces. It is one of Germany's warmest spots, ideal for Spätburgunder, Grauburgunder and Weissburgunder. Volcanic sites such as Ihringer Winklerberg give powerful, mineral wines; loess gives rounder ones.",
+   "examples": [
+    {
+     "place": "Ihringen (Winklerberg)",
+     "country": "de",
+     "lat": 48.05,
+     "lon": 7.65,
+     "note": "Volcanic tephrite and loess; Dr. Heger's Spätburgunder."
+    },
+    {
+     "place": "Achkarren (Schlossberg)",
+     "country": "de",
+     "lat": 48.0678,
+     "lon": 7.6269,
+     "note": "Volcanic slopes famous for Grauburgunder."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kaiserstuhl",
+     "url": "https://en.wikipedia.org/wiki/Kaiserstuhl"
+    }
+   ]
+  },
+  {
+   "id": "loess",
+   "name": "Loess",
+   "description": "A yellowish, silty sediment blown by winds from glacial outwash during the ice ages. It is deep, fine, calcium-rich and holds water well while draining freely, giving vigorous vines and full, aromatic wines. Loess is the signature soil of Austria's Wagram, Kremstal and Weinviertel, much of Rheinhessen and the Pfalz, and the Columbia Valley in Washington, where it overlies flood gravels. Grüner Veltliner on loess tends to be fruity and spicy, compared with the stonier style from gneiss.",
+   "examples": [
+    {
+     "place": "Wagram (Kirchberg)",
+     "country": "at",
+     "lat": 48.4303,
+     "lon": 15.8981,
+     "note": "Thick loess terraces above the Danube plain."
+    },
+    {
+     "place": "Kremstal (Krems)",
+     "country": "at",
+     "lat": 48.417,
+     "lon": 15.617,
+     "note": "Loess terraces east of the city, gneiss to the west."
+    },
+    {
+     "place": "Rheinhessen hill country (Alzey)",
+     "country": "de",
+     "lat": 49.7458,
+     "lon": 8.1153,
+     "note": "Most of Rheinhessen's rolling hills are loess and loam, unlike the red slate of Nierstein's Roter Hang."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Loess",
+     "url": "https://en.wikipedia.org/wiki/Loess"
+    }
+   ]
+  },
+  {
+   "id": "gravel-medoc-graves",
+   "name": "Gravel (Médoc and Graves)",
+   "description": "Quaternary gravels and pebbles deposited by the ancestral Garonne and Dordogne, sorted into low ridges (croupes) along the Médoc and in Graves. They drain freely and warm quickly, forcing vine roots deep and helping late-ripening Cabernet Sauvignon ripen in Bordeaux's maritime climate. The best châteaux of Pauillac, Margaux and Saint-Julien sit on the deepest gravel ridges overlooking the Gironde estuary. Graves takes its name from the soil, and Pessac-Léognan's Haut-Brion grows on it in Bordeaux's suburbs.",
+   "examples": [
+    {
+     "place": "Pauillac (Lafite, Latour, Mouton)",
+     "country": "fr",
+     "lat": 45.1999,
+     "lon": -0.7488,
+     "note": "Deep gravel croupes overlooking the estuary."
+    },
+    {
+     "place": "Margaux",
+     "country": "fr",
+     "lat": 45.0419,
+     "lon": -0.6756,
+     "note": "Fine white gravels give Margaux's perfumed style."
+    },
+    {
+     "place": "Pessac (Haut-Brion)",
+     "country": "fr",
+     "lat": 44.8067,
+     "lon": -0.6311,
+     "note": "Gravel ridges now surrounded by the city."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bordeaux wine",
+     "url": "https://en.wikipedia.org/wiki/Bordeaux_wine"
+    }
+   ]
+  },
+  {
+   "id": "gimblett-gravels",
+   "name": "Gimblett Gravels",
+   "description": "About 800 hectares of stony alluvium in Hawke's Bay, laid down by the Ngaruroro River, which changed course after a great flood in 1867, leaving a bed of greywacke gravels. Once used for a racetrack, a gravel quarry and an aerodrome, the land was planted from the 1980s. It stores heat, drains instantly and needs irrigation, giving ripe Syrah and Bordeaux blends. It is one of the few wine areas in the world defined by soil type, trademarked by its growers in 2001.",
+   "examples": [
+    {
+     "place": "Gimblett Gravels, Hawke's Bay",
+     "country": "nz",
+     "lat": -39.6417,
+     "lon": 176.8444,
+     "note": "Syrah and Bordeaux blends on old river gravel."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gimblett Gravels",
+     "url": "https://en.wikipedia.org/wiki/Gimblett_Gravels"
+    }
+   ]
+  },
+  {
+   "id": "galets-roules",
+   "name": "Galets roulés",
+   "description": "Large rounded quartzite stones, some as big as a fist or bigger, carried from the Alps by the ancestral Rhône and its glaciers and deposited on ancient river terraces. On the plateau of Mont-Redon and La Crau in Châteauneuf-du-Pape, they cover the red clay below. They soak up heat in the day and radiate it at night, help Grenache ripen and reduce evaporation. Not all of Châteauneuf has galets: Rayas famously grows on sand.",
+   "examples": [
+    {
+     "place": "La Crau, Châteauneuf-du-Pape (Vieux Télégraphe)",
+     "country": "fr",
+     "lat": 44.0429,
+     "lon": 4.8855,
+     "note": "Deep galets over red clay on the La Crau plateau."
+    },
+    {
+     "place": "Château de Beaucastel, Courthézon",
+     "country": "fr",
+     "lat": 44.1048,
+     "lon": 4.8518,
+     "note": "Galets roulés on the northeastern edge of the appellation."
+    },
+    {
+     "place": "Lirac and Tavel",
+     "country": "fr",
+     "lat": 44.0119,
+     "lon": 4.7006,
+     "note": "Similar terraces on the right bank of the Rhône."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Châteauneuf-du-Pape AOC",
+     "url": "https://en.wikipedia.org/wiki/Châteauneuf-du-Pape_AOC"
+    }
+   ]
+  },
+  {
+   "id": "blue-clay-pomerol",
+   "name": "Blue clay of Pomerol",
+   "description": "A dense, dark blue-grey smectite clay of Eocene age, around 40 million years old, that comes to the surface on a small plateau at the heart of Pomerol, around Pétrus, in a formation called the 'boutonnière' (buttonhole). Smectite clay swells when wet and cracks when dry, so roots get water in a measured way, avoiding both drought and excess. It suits Merlot, which likes cool, water-retentive soils. Elsewhere Pomerol's soils are gravel and sand, which explains the differences between estates.",
+   "examples": [
+    {
+     "place": "Pétrus, Pomerol",
+     "country": "fr",
+     "lat": 44.9307,
+     "lon": -0.1928,
+     "note": "About 11 hectares on the blue-clay buttonhole, almost all Merlot."
+    },
+    {
+     "place": "Pomerol plateau",
+     "country": "fr",
+     "lat": 44.9328,
+     "lon": -0.1992,
+     "note": "Clay and gravel at the top of the plateau; sand on the edges."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pomerol",
+     "url": "https://en.wikipedia.org/wiki/Pomerol"
+    }
+   ]
+  },
+  {
+   "id": "jory-willakenzie",
+   "name": "Jory and Willakenzie (Willamette Valley)",
+   "description": "Oregon's Willamette Valley Pinot Noir grows on two contrasting soil families. Jory is a deep, red, iron-rich clay loam formed from Columbia River basalts that flowed 15 million years ago; it is Oregon's state soil and dominates the Dundee and Eola-Amity Hills. Willakenzie is a brown, well-drained soil from uplifted marine sediments (sandstone, siltstone) found in Yamhill-Carlton and Ribbon Ridge. Tasters often find red fruit and silkiness on Jory, darker fruit and firmer tannins on Willakenzie.",
+   "examples": [
+    {
+     "place": "Dundee Hills",
+     "country": "us",
+     "lat": 45.2758,
+     "lon": -123.0069,
+     "note": "Red Jory soils; The Eyrie Vineyards and Domaine Drouhin Oregon."
+    },
+    {
+     "place": "Yamhill-Carlton",
+     "country": "us",
+     "lat": 45.3408,
+     "lon": -123.1844,
+     "note": "Marine sedimentary Willakenzie soils."
+    },
+    {
+     "place": "Eola-Amity Hills",
+     "country": "us",
+     "lat": 45.0587,
+     "lon": -123.1055,
+     "note": "Thin volcanic soils with the cooling Van Duzer winds."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Willamette Valley AVA",
+     "url": "https://en.wikipedia.org/wiki/Willamette_Valley_AVA"
+    }
+   ]
+  },
+  {
+   "id": "missoula-flood-deposits",
+   "name": "Missoula flood deposits",
+   "description": "At the end of the last ice age, between about 18,000 and 15,000 years ago, an ice dam holding back glacial Lake Missoula in Montana repeatedly burst, sending catastrophic floods across eastern Washington and northern Oregon. They left sands, silts and gravels over the basalt bedrock, later topped by wind-blown loess. These sandy, low-fertility soils, where phylloxera struggles, are the base of Washington's wine industry, from Walla Walla to Red Mountain. Many vines are planted ungrafted.",
+   "examples": [
+    {
+     "place": "Red Mountain, Washington",
+     "country": "us",
+     "lat": 46.2657,
+     "lon": -119.4491,
+     "note": "Flood sediments and loess give powerful Cabernet."
+    },
+    {
+     "place": "The Rocks District, Milton-Freewater",
+     "country": "us",
+     "lat": 45.9339,
+     "lon": -118.3908,
+     "note": "Cobbled alluvial fan, one of the few AVAs defined by a soil type."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Missoula floods",
+     "url": "https://en.wikipedia.org/wiki/Missoula_floods"
+    }
+   ]
+  },
+  {
+   "id": "albariza",
+   "name": "Albariza",
+   "description": "A brilliant white soil of chalky marl, often over half calcium carbonate, rich in diatoms and radiolarians from the Oligocene and Miocene seabed. In the Jerez triangle between Jerez, Sanlúcar and El Puerto de Santa María, it soaks up winter rain and forms a crust in summer that slows evaporation, so Palomino vines survive five dry months without irrigation. Pagos such as Macharnudo, Carrascal and Balbaína are on albariza, and a new wave of producers bottles their wines separately.",
+   "examples": [
+    {
+     "place": "Pago Macharnudo, Jerez",
+     "country": "es",
+     "lat": 36.7333,
+     "lon": -6.15,
+     "note": "The most famous albariza hill for fino."
+    },
+    {
+     "place": "Sanlúcar de Barrameda (Miraflores)",
+     "country": "es",
+     "lat": 36.767,
+     "lon": -6.35,
+     "note": "Coastal albariza for manzanilla."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Albariza",
+     "url": "https://en.wikipedia.org/wiki/Albariza"
+    }
+   ]
+  },
+  {
+   "id": "alluvial-fans",
+   "name": "Alluvial fans and benches",
+   "description": "Fan-shaped deposits of gravel, sand and silt formed where streams leave mountains and spread onto valley floors. They drain well and have varied, layered soils with moderate fertility. Napa Valley's Rutherford and Oakville benches, built from fans flowing off the Mayacamas Mountains, give Cabernet Sauvignon with 'Rutherford dust' tannins. Mendoza's Luján de Cuyo and Uco Valley vineyards sit on Andean fans of cobbles and sand, and the Rocks District of Milton-Freewater is a cobbled fan.",
+   "examples": [
+    {
+     "place": "Rutherford Bench, Napa",
+     "country": "us",
+     "lat": 38.4586,
+     "lon": -122.4214,
+     "note": "Gravelly loam fans along the western valley side."
+    },
+    {
+     "place": "Luján de Cuyo, Mendoza",
+     "country": "ar",
+     "lat": -32.998,
+     "lon": -68.873,
+     "note": "Alluvial soils of the Mendoza River."
+    },
+    {
+     "place": "Gualtallary, Uco Valley",
+     "country": "ar",
+     "lat": -33.3925,
+     "lon": -69.25,
+     "note": "Calcareous alluvial fans at 1,300 to 1,600 m."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Napa Valley AVA",
+     "url": "https://en.wikipedia.org/wiki/Napa_Valley_AVA"
+    }
+   ]
+  },
+  {
+   "id": "sand",
+   "name": "Sand",
+   "description": "Coarse, loose soils that drain fast, warm quickly and hold few nutrients. Their great virtue for wine is that phylloxera cannot move through them, so vines can grow ungrafted. At Colares near Lisbon, growers dig through dunes to plant Ramisco in the clay below. Sand also allowed ungrafted vines in parts of Jumilla, the Camargue (Vin des Sables), Rayas in Châteauneuf-du-Pape and Hungary's Great Plain. Wines from sand are often lighter and more aromatic.",
+   "examples": [
+    {
+     "place": "Colares (Azenhas do Mar)",
+     "country": "pt",
+     "lat": 38.8406,
+     "lon": -9.46,
+     "note": "Ungrafted Ramisco in sand dunes by the Atlantic."
+    },
+    {
+     "place": "Château Rayas, Châteauneuf-du-Pape",
+     "country": "fr",
+     "lat": 44.064,
+     "lon": 4.89,
+     "note": "Sandy soils give Rayas its ethereal Grenache."
+    },
+    {
+     "place": "Vin des Sables, Camargue",
+     "country": "fr",
+     "lat": 43.53,
+     "lon": 4.2,
+     "note": "Vineyards on coastal sand, never touched by phylloxera."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Colares DOC",
+     "url": "https://en.wikipedia.org/wiki/Colares_DOC"
+    }
+   ]
+  },
+  {
+   "id": "caliche",
+   "name": "Caliche",
+   "description": "A hardened layer of calcium carbonate that cements gravel, sand and clay together below the surface, formed when water evaporates in arid and semi-arid climates. It can be centimetres or metres thick. Roots must find cracks to penetrate it, which limits vigour and stresses the vine. Caliche is common in Paso Robles' west side, West Texas, Mendoza and parts of Spain and Australia, and some growers rip through it before planting.",
+   "examples": [
+    {
+     "place": "Paso Robles (west side)",
+     "country": "us",
+     "lat": 35.6285,
+     "lon": -120.6504,
+     "note": "Calcareous soils and caliche; Rhône varieties at Tablas Creek."
+    },
+    {
+     "place": "Texas High Plains (Lubbock)",
+     "country": "us",
+     "lat": 33.585,
+     "lon": -101.845,
+     "note": "Caliche under sandy loam on a high, windy plateau."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Caliche",
+     "url": "https://en.wikipedia.org/wiki/Caliche"
+    }
+   ]
+  },
+  {
+   "id": "quartz-kies",
+   "name": "Quartz, sandstone and kies (stony gravel)",
+   "description": "Weathered quartzite and sandstone produce stony, acidic, free-draining soils. In the Rheingau, the Taunus quartzite of Rüdesheimer Berg gives powerful Riesling, and the Pfalz's Mittelhaardt has red Bunter sandstone (Buntsandstein) mixed with basalt and limestone. German growers use 'Kies' for stony gravel, as in the Rheingau's Kiedrich. Quartz-rich soils in Mendoza and Swartland are also prized. They often give wines with focus and a pronounced, almost spicy minerality.",
+   "examples": [
+    {
+     "place": "Rüdesheimer Berg, Rheingau",
+     "country": "de",
+     "lat": 49.9833,
+     "lon": 7.9306,
+     "note": "Taunus quartzite and slate on steep slopes above the Rhine."
+    },
+    {
+     "place": "Forst, Pfalz (Kirchenstück)",
+     "country": "de",
+     "lat": 49.4239,
+     "lon": 8.1897,
+     "note": "Sandstone with basalt and limestone in the Mittelhaardt."
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rheingau (wine region)",
+     "url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)"
+    }
+   ]
+  }
+ ]
+}
