@@ -746,7 +746,7 @@
    "zoom": 8.4,
    "tagline": "Windswept Atlantic hills north of the capital: once Portugal's bulk-wine engine, now a home of fresh whites, value reds and three historic oddities.",
    "summary": "The Lisboa region (called Estremadura until 2008) runs along the Atlantic coast from Lisbon north to Leiria, about 18,000 ha of vines in 2024. Cool Atlantic winds and fog make it fresher than its latitude suggests. For centuries it supplied cheap wine to the capital and the colonies; today it is Portugal's biggest producer of Vinho Regional, with modern estates around Alenquer and a growing name for crisp whites and supple reds. On the Lisbon fringe survive three of Europe's most remarkable historic appellations: Bucelas (Arinto whites, 'Lisbon Hock'), Colares (ungrafted vines in Atlantic sand) and Carcavelos (a fortified wine nearly swallowed by suburbs).",
-   "history": "Bucelas, Colares and Carcavelos were demarcated in 1907 and 1908, among the first in Portugal. The rest of the region was a sea of cooperatives until the 1980s and 1990s, when estates such as Quinta do Monte d'Oiro, Quinta de Chocapalha, Quinta da Romeira and Casa Santos Lima showed what the Atlantic hills could do.",
+   "history": "Colares and Carcavelos were demarcated in 1907 and 1908 and Bucelas in 1911, among the first in Portugal. The rest of the region was a sea of cooperatives until the 1980s and 1990s, when estates such as Quinta do Monte d'Oiro, Quinta de Chocapalha, Quinta da Romeira and Casa Santos Lima showed what the Atlantic hills could do.",
    "terroir": "Limestone, clay and sandstone hills, rarely above 400 m (Serra de Montejunto at 666 m is the highest point), whipped by Atlantic winds that cool the vines and limit disease. Colares is pure dune sand over clay; Bucelas is limestone and clay in a sheltered valley; Carcavelos is limestone and clay by the Tejo estuary.",
    "grapes": "Arinto, Fernão Pires, Vital, Seara Nova, Malvasia, Chardonnay; Castelão, Tinta Roriz (Aragonez), Touriga Nacional, Syrah, Alicante Bouschet, Tinta Miúda; Ramisco in Colares.",
    "styles": "Fresh whites, medium-bodied reds, rosé, sparkling, fortified (Carcavelos), and aguardente (Lourinhã).",
@@ -3494,7 +3494,7 @@
    ],
    "dominant_style": "white",
    "grapes": "Verdelho, Arinto, Boal, Fernão Pires, Terrantez",
-   "summary": "The DOC of Graciosa, the flattest and driest of the Azores, a UNESCO biosphere reserve. Its dry whites, made mainly by the island cooperative, are fresh and saline; Graciosa is the only Azores DOC defined for still (unfortified) white wine in the EU register.",
+   "summary": "The DOC of Graciosa, the flattest and driest of the Azores, a UNESCO biosphere reserve. Its dry whites, made mainly by the island cooperative, are fresh and saline; since 2019 the regional rules allow still, sparkling and fortified whites under all three Azores DOCs, Graciosa, Pico and Biscoitos.",
    "terroir": "Volcanic soils on a low, windy island.",
    "producers": [
     "Adega Cooperativa da Graciosa"
@@ -5804,7 +5804,7 @@
    "lat": 38.4434,
    "lon": -7.3802,
    "coord_quality": "precise",
-   "text": "A fortified medieval village on a hill above the Reguengos vineyards and the Alqueva reservoir, Europe's largest artificial lake, whose irrigation water has changed Alentejo farming.",
+   "text": "A fortified medieval village on a hill above the Reguengos vineyards and the Alqueva reservoir, western Europe's largest artificial lake, whose irrigation water has changed Alentejo farming.",
    "producers": []
   },
   {

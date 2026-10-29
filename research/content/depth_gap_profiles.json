@@ -1,0 +1,2086 @@
+{
+ "countries": [],
+ "regions": [],
+ "appellations": [
+  {
+   "id": "fr-chablis-grand-cru-les-clos",
+   "country": "fr",
+   "name": "Chablis Grand Cru Les Clos",
+   "match": [
+    "Chablis Grand Cru Les Clos"
+   ],
+   "cat": "AOC",
+   "subcat": "Grand Cru",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "1938",
+   "area_ha": 26,
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Les Clos is the largest and most powerful of the seven Chablis grands crus, about 26 ha in the middle of the great slope facing the town across the Serein. Its name recalls the enclosed vineyard of the Cistercian monks of Pontigny, who planted vines here in the twelfth century. The wines are the most structured and long-lived of Chablis: tight and saline in youth, opening over ten to twenty years into flavours of citrus, smoke, hazelnut and oyster shell. Raveneau, Vincent Dauvissat, William Fèvre, Droin, Christian Moreau and Pinson are reference names.",
+   "terroir": "Kimmeridgian limestone and marl full of tiny fossil oysters (Exogyra virgula), with a rocky, stony topsoil on the upper slope and deeper marl below; south-west exposure at about 150 to 250 m.",
+   "producers": [
+    "François Raveneau",
+    "Vincent Dauvissat",
+    "William Fèvre",
+    "Jean-Paul et Benoît Droin",
+    "Christian Moreau Père et Fils",
+    "Pinson"
+   ],
+   "nerd_note": "All seven grand cru climats share one AOC, Chablis Grand Cru (1938), on a single south-west-facing slope above the Serein, about 100 ha in all."
+  },
+  {
+   "id": "fr-chablis-grand-cru-valmur",
+   "country": "fr",
+   "name": "Chablis Grand Cru Valmur",
+   "match": [
+    "Chablis Grand Cru Valmur"
+   ],
+   "cat": "AOC",
+   "subcat": "Grand Cru",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "1938",
+   "area_ha": 13,
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Valmur lies in a fold of the slope between Les Clos and Vaudésir, about 13 ha whose two faces (one turned south-east, one south-west) give rich, exotic yet mineral Chablis with great ageing power. Raveneau's Valmur is legendary; Moreau-Naudet and William Fèvre also excel.",
+   "terroir": "Kimmeridgian marl and limestone in a small combe that shelters the vines.",
+   "producers": [
+    "François Raveneau",
+    "Moreau-Naudet",
+    "William Fèvre",
+    "Jean-Paul et Benoît Droin"
+   ],
+   "nerd_note": "All seven grand cru climats share one AOC, Chablis Grand Cru (1938), on a single south-west-facing slope above the Serein, about 100 ha in all."
+  },
+  {
+   "id": "fr-chablis-grand-cru-vaudesir",
+   "country": "fr",
+   "name": "Chablis Grand Cru Vaudésir",
+   "match": [
+    "Chablis Grand Cru Vaudésir"
+   ],
+   "cat": "AOC",
+   "subcat": "Grand Cru",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "1938",
+   "area_ha": 14.5,
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Vaudésir is a steep, south-facing bowl of about 14.5 ha in the centre of the grand cru slope, giving perfumed, floral and finely chiselled Chablis. Part of the La Moutonne vineyard, a monopole of Domaine Long-Depaquit, straddles Vaudésir and Preuses.",
+   "terroir": "Kimmeridgian marl on a steep, sheltered amphitheatre that warms quickly.",
+   "producers": [
+    "William Fèvre",
+    "Jean-Paul et Benoît Droin",
+    "Billaud-Simon",
+    "Long-Depaquit (La Moutonne)"
+   ],
+   "nerd_note": "All seven grand cru climats share one AOC, Chablis Grand Cru (1938), on a single south-west-facing slope above the Serein, about 100 ha in all."
+  },
+  {
+   "id": "fr-chablis-grand-cru-preuses",
+   "country": "fr",
+   "name": "Chablis Grand Cru Preuses",
+   "match": [
+    "Chablis Grand Cru Preuses"
+   ],
+   "cat": "AOC",
+   "subcat": "Grand Cru",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "1938",
+   "area_ha": 11,
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Preuses is the highest and most north-westerly of the main grand crus, about 11 ha, giving rounder, generous yet elegant Chablis that is often approachable earlier. Vincent Dauvissat and William Fèvre make classic versions.",
+   "terroir": "Kimmeridgian limestone with a stonier topsoil high on the slope, south-west facing.",
+   "producers": [
+    "Vincent Dauvissat",
+    "William Fèvre",
+    "Domaine des Malandes"
+   ],
+   "nerd_note": "All seven grand cru climats share one AOC, Chablis Grand Cru (1938), on a single south-west-facing slope above the Serein, about 100 ha in all."
+  },
+  {
+   "id": "fr-chablis-grand-cru-bougros",
+   "country": "fr",
+   "name": "Chablis Grand Cru Bougros",
+   "match": [
+    "Chablis Grand Cru Bougros"
+   ],
+   "cat": "AOC",
+   "subcat": "Grand Cru",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "1938",
+   "area_ha": 12.5,
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Bougros is the westernmost grand cru, about 12.5 ha on the lower slope near the river, giving broad, powerful Chablis. William Fèvre's Côte de Bouguerots, from the steepest part, is its most famous wine.",
+   "terroir": "Kimmeridgian marl with heavier, deeper soils on the lower slope.",
+   "producers": [
+    "William Fèvre",
+    "Domaine Laroche"
+   ],
+   "nerd_note": "All seven grand cru climats share one AOC, Chablis Grand Cru (1938), on a single south-west-facing slope above the Serein, about 100 ha in all."
+  },
+  {
+   "id": "fr-chablis-grand-cru-grenouilles",
+   "country": "fr",
+   "name": "Chablis Grand Cru Grenouilles",
+   "match": [
+    "Chablis Grand Cru Grenouilles"
+   ],
+   "cat": "AOC",
+   "subcat": "Grand Cru",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "1938",
+   "area_ha": 9.4,
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Grenouilles ('frogs') is the smallest grand cru, about 9.4 ha at the foot of the slope beside the Serein, and the most lavish in fruit. La Chablisienne's Château Grenouilles owns the largest share.",
+   "terroir": "Kimmeridgian marl at the bottom of the slope, warmed by reflection from the river.",
+   "producers": [
+    "La Chablisienne (Château Grenouilles)",
+    "Louis Michel",
+    "Jean-Paul et Benoît Droin"
+   ],
+   "nerd_note": "All seven grand cru climats share one AOC, Chablis Grand Cru (1938), on a single south-west-facing slope above the Serein, about 100 ha in all."
+  },
+  {
+   "id": "fr-chablis-grand-cru-blanchot",
+   "country": "fr",
+   "name": "Chablis Grand Cru Blanchot",
+   "match": [
+    "Chablis Grand Cru Blanchot"
+   ],
+   "cat": "AOC",
+   "subcat": "Grand Cru",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "1938",
+   "area_ha": 12.7,
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Blanchot is the easternmost grand cru, about 12.7 ha facing south-east rather than south-west, which gives the most delicate, floral and refined Chablis of the seven. Raveneau, Vocoret and Laroche are known for it.",
+   "terroir": "Kimmeridgian marl with white, chalky topsoil, the name possibly from 'blanc' for its pale earth.",
+   "producers": [
+    "François Raveneau",
+    "Domaine Laroche",
+    "Vocoret et Fils"
+   ],
+   "nerd_note": "All seven grand cru climats share one AOC, Chablis Grand Cru (1938), on a single south-west-facing slope above the Serein, about 100 ha in all."
+  },
+  {
+   "id": "fr-bourgogne-cote-d-or",
+   "country": "fr",
+   "name": "Bourgogne Côte d'Or",
+   "match": [
+    "Bourgogne Côte d'Or"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Côte d'Or",
+   "created": "2017",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Chardonnay",
+   "summary": "Bourgogne Côte d'Or is a regional appellation created in 2017 for red Pinot Noir and white Chardonnay grown within the Côte d'Or communes of the Côte de Nuits and Côte de Beaune. It lets growers distinguish generic Bourgogne from the famous slope from wine made elsewhere in the region, and often offers village-like quality at a regional price.",
+   "terroir": "Limestone and marl of the Côte d'Or escarpment and the foot of its slopes."
+  },
+  {
+   "id": "fr-bourgogne-cotes-d-auxerre",
+   "country": "fr",
+   "name": "Bourgogne Côtes d'Auxerre",
+   "match": [
+    "Bourgogne Côtes d'Auxerre"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay, Pinot Noir",
+   "summary": "Bourgogne Côtes d'Auxerre covers hillsides around Auxerre, Vaux, Champs-sur-Yonne, Augy, Quenne and Saint-Bris in the Yonne, giving fresh Chardonnay and light, fragrant Pinot Noir. The Goisot family of Saint-Bris is the reference grower.",
+   "terroir": "Kimmeridgian limestone and marl, as in Chablis, on south-facing slopes above the Yonne.",
+   "producers": [
+    "Guilhem et Jean-Hugues Goisot"
+   ],
+   "nerd_note": "Auxerre's vineyards supplied Paris by river for centuries before the railway brought cheaper southern wine and phylloxera finished the trade."
+  },
+  {
+   "id": "fr-bourgogne-tonnerre",
+   "country": "fr",
+   "name": "Bourgogne Tonnerre",
+   "match": [
+    "Bourgogne Tonnerre"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "created": "2006",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Bourgogne Tonnerre, east of Chablis, is a white-only regional name (since 2006) for Chardonnay from the slopes around Tonnerre, Épineuil and Dannemoine, giving crisp, mineral wines in the Chablis mould. It is one of several 'dénominations géographiques complémentaires' that let regional Bourgogne name a smaller area with its own rules. The Grand Auxerrois was once one of France's largest vineyards, shipping wine to Paris down the Yonne; phylloxera and the railways shrank it to a few hundred hectares around Chablis.",
+   "terroir": "Kimmeridgian and Portlandian limestone and marl."
+  },
+  {
+   "id": "fr-bourgogne-epineuil",
+   "country": "fr",
+   "name": "Bourgogne Epineuil",
+   "match": [
+    "Bourgogne Epineuil"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "styles": [
+    "red",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir",
+   "summary": "Bourgogne Épineuil, near Tonnerre, is a small red and rosé zone for Pinot Noir, revived after phylloxera and the First World War had almost wiped it out. The Grand Auxerrois was once one of France's largest vineyards, shipping wine to Paris down the Yonne; phylloxera and the railways shrank it to a few hundred hectares around Chablis.",
+   "terroir": "Kimmeridgian marl on south-facing slopes of the Armançon valley."
+  },
+  {
+   "id": "fr-bourgogne-coulanges-la-vineuse",
+   "country": "fr",
+   "name": "Bourgogne Coulanges-la-Vineuse",
+   "match": [
+    "Bourgogne Coulanges-la-Vineuse"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Chardonnay",
+   "summary": "Bourgogne Coulanges-la-Vineuse, south of Auxerre, is known above all for light, cherry-scented Pinot Noir; its 'vineuse' name shows how central wine was to the village. Coulanges was once famous for its 'vin de Coulanges', shipped to Paris, and it remains the Yonne's red-wine village. The Grand Auxerrois was once one of France's largest vineyards, shipping wine to Paris down the Yonne; phylloxera and the railways shrank it to a few hundred hectares around Chablis.",
+   "terroir": "Limestone and marl on gentle slopes."
+  },
+  {
+   "id": "fr-bourgogne-chitry",
+   "country": "fr",
+   "name": "Bourgogne Chitry",
+   "match": [
+    "Bourgogne Chitry"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay, Pinot Noir",
+   "summary": "Bourgogne Chitry, next to Chablis, gives mostly crisp Chardonnay and some Pinot Noir from the village of Chitry-le-Fort, with its fortified church. Chitry is one of the Yonne villages that sell as both Chablis and Bourgogne, depending on where each parcel lies. The Grand Auxerrois was once one of France's largest vineyards, shipping wine to Paris down the Yonne; phylloxera and the railways shrank it to a few hundred hectares around Chablis.",
+   "terroir": "Kimmeridgian limestone."
+  },
+  {
+   "id": "fr-bourgogne-cote-saint-jacques",
+   "country": "fr",
+   "name": "Bourgogne Côte Saint-Jacques",
+   "match": [
+    "Bourgogne Côte Saint-Jacques"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Chablis and the Grand Auxerrois",
+   "styles": [
+    "rose",
+    "red",
+    "white"
+   ],
+   "dominant_style": "rose",
+   "grapes": "Pinot Noir, Pinot Gris, Chardonnay",
+   "summary": "Bourgogne Côte Saint-Jacques is a tiny slope above Joigny on the Yonne, famous for its pale 'vin gris' from Pinot Noir and Pinot Gris, and for reds. Joigny's vineyard is the northernmost of Burgundy and was revived in the 1970s.",
+   "terroir": "Limestone on a south-facing slope above the town."
+  },
+  {
+   "id": "fr-bourgogne-la-chapelle-notre-dame",
+   "country": "fr",
+   "name": "Bourgogne La Chapelle Notre-Dame",
+   "match": [
+    "Bourgogne La Chapelle Notre-Dame"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Côte de Beaune",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Chardonnay",
+   "summary": "Bourgogne La Chapelle Notre-Dame is a tiny regional name around a chapel at Serrigny in Ladoix, for red, white and rosé. It is one of several 'dénominations géographiques complémentaires' that let regional Bourgogne name a small area with its own rules, and one of the smallest of them.",
+   "terroir": "Limestone and marl at the foot of the Corton hill."
+  },
+  {
+   "id": "fr-bourgogne-le-chapitre",
+   "country": "fr",
+   "name": "Bourgogne Le Chapitre",
+   "match": [
+    "Bourgogne Le Chapitre"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Côte de Nuits",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Chardonnay",
+   "summary": "Bourgogne Le Chapitre is a small walled vineyard at Chenôve, south of Dijon, said to have belonged to the canons (the cathedral chapter) of Autun, giving red and white Bourgogne.",
+   "terroir": "Limestone slope at the northern tip of the Côte de Nuits."
+  },
+  {
+   "id": "fr-bourgogne-montrecul",
+   "country": "fr",
+   "name": "Bourgogne Montrecul",
+   "match": [
+    "Bourgogne Montrecul",
+    "Montre-Cul",
+    "En Montre-Cul"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Côte de Nuits",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Chardonnay",
+   "summary": "Bourgogne Montrecul (also written Montre-Cul) is one of the last vineyards of Dijon, a tiny slope whose cheeky name, roughly 'show your backside', is said to refer to its steepness. Dijon once had extensive vineyards of its own; Montrecul is a survivor of that urban wine culture.",
+   "terroir": "Limestone on the edge of the city."
+  },
+  {
+   "id": "fr-macon-villages",
+   "country": "fr",
+   "name": "Mâcon Villages",
+   "match": [
+    "Mâcon Villages"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Burgundy",
+   "subregion": "Mâconnais",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "summary": "Mâcon-Villages is the white-only Mâcon appellation for Chardonnay from a long list of villages in the Mâconnais, a step above plain Mâcon. It gives bright, juicy, unoaked whites and is the everyday white of Burgundy; cooperatives such as Lugny and Prissé-Sologny-Verzé, and growers such as Héritiers du Comte Lafon and Domaine de la Bongran, show how good it can be.",
+   "terroir": "Limestone and marl hills between the Saône and the Grosne valley.",
+   "producers": [
+    "Cave de Lugny",
+    "Héritiers du Comte Lafon",
+    "Domaine Guillot-Broux"
+   ]
+  },
+  {
+   "id": "fr-coteaux-du-layon-premier-cru-chaume",
+   "country": "fr",
+   "name": "Coteaux du Layon premier cru Chaume",
+   "match": [
+    "Coteaux du Layon premier cru Chaume"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Loire Valley",
+   "subregion": "Anjou-Saumur",
+   "created": "2007",
+   "styles": [
+    "sweet",
+    "white"
+   ],
+   "dominant_style": "sweet",
+   "grapes": "Chenin Blanc",
+   "summary": "Chaume is the only premier cru of the Loire, a south-facing hillside at Rochefort-sur-Loire overlooking the Layon, giving rich, botrytised Chenin Blanc. It was recognised in 2007 after a long legal battle with neighbouring Quarts de Chaume over names. Château Soucherie, Château Pierre-Bise and Domaine des Forges make reference wines.",
+   "terroir": "Schist, sandstone and carboniferous rocks on a steep, sunny slope where autumn mists from the Layon favour noble rot.",
+   "producers": [
+    "Château Soucherie",
+    "Château Pierre-Bise",
+    "Domaine des Forges",
+    "Domaine des Baumard"
+   ],
+   "nerd_note": "The Quarts de Chaume name comes from a quarter of the harvest that medieval tenants owed to the lord, which shows how prized this slope has always been."
+  },
+  {
+   "id": "fr-coteaux-du-layon-rochefort-sur-loire",
+   "country": "fr",
+   "name": "Coteaux du Layon Rochefort-sur-Loire",
+   "match": [
+    "Coteaux du Layon Rochefort-sur-Loire",
+    "Rochefort"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Anjou-Saumur",
+   "styles": [
+    "sweet"
+   ],
+   "dominant_style": "sweet",
+   "grapes": "Chenin Blanc",
+   "summary": "Rochefort-sur-Loire, where the Layon meets the Loire, is the most famous Coteaux du Layon village, home of the Chaume premier cru and the Quarts de Chaume grand cru. Its sweet Chenins are rich and honeyed with bright acidity. Domaine des Baumard is a long-standing name.",
+   "terroir": "Schist and sandstone on steep slopes above the river confluence.",
+   "producers": [
+    "Domaine des Baumard",
+    "Château Pierre-Bise",
+    "Château Soucherie"
+   ],
+   "nerd_note": "Six villages may add their name to Coteaux du Layon on sweet Chenin Blanc from botrytised or late-picked grapes."
+  },
+  {
+   "id": "fr-coteaux-du-layon-saint-aubin-de-luigne",
+   "country": "fr",
+   "name": "Coteaux du Layon Saint-Aubin-de-Luigné",
+   "match": [
+    "Coteaux du Layon Saint-Aubin-de-Luigné",
+    "Saint-Aubin"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Anjou-Saumur",
+   "styles": [
+    "sweet"
+   ],
+   "dominant_style": "sweet",
+   "grapes": "Chenin Blanc",
+   "summary": "Saint-Aubin-de-Luigné is a Layon village of steep schist slopes and small domaines, giving concentrated sweet Chenin; Domaine des Forges, Domaine Cady and Philippe Delesvaux are key names.",
+   "terroir": "Schist and volcanic rocks (rhyolite, spilite) on steep slopes.",
+   "producers": [
+    "Domaine des Forges",
+    "Domaine Cady",
+    "Philippe Delesvaux"
+   ],
+   "nerd_note": "Six villages may add their name to Coteaux du Layon on sweet Chenin Blanc from botrytised or late-picked grapes. Not to be confused with Saint-Aubin in Burgundy."
+  },
+  {
+   "id": "fr-coteaux-du-layon-saint-lambert-du-lattay",
+   "country": "fr",
+   "name": "Coteaux du Layon Saint-Lambert-du-Lattay",
+   "match": [
+    "Coteaux du Layon Saint-Lambert-du-Lattay",
+    "Saint-Lambert"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Anjou-Saumur",
+   "styles": [
+    "sweet",
+    "white"
+   ],
+   "dominant_style": "sweet",
+   "grapes": "Chenin Blanc",
+   "summary": "Saint-Lambert-du-Lattay is a Layon village known for growers such as Domaine Mosse and Domaine Ogereau, giving sweet and dry Chenin. It also hosts a museum of vine and wine of Anjou.",
+   "terroir": "Schist and sandstone slopes.",
+   "producers": [
+    "Domaine Ogereau",
+    "Domaine Mosse"
+   ],
+   "nerd_note": "Six villages may add their name to Coteaux du Layon on sweet Chenin Blanc from botrytised or late-picked grapes."
+  },
+  {
+   "id": "fr-coteaux-du-layon-faye-d-anjou",
+   "country": "fr",
+   "name": "Coteaux du Layon Faye-d'Anjou",
+   "match": [
+    "Coteaux du Layon Faye-d'Anjou",
+    "Faye"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Anjou-Saumur",
+   "styles": [
+    "sweet"
+   ],
+   "dominant_style": "sweet",
+   "grapes": "Chenin Blanc",
+   "summary": "Faye-d'Anjou is a Layon village on the upper reaches of the river, giving sweet Chenin from schist and clay; Domaine de Juchepie is a leading organic estate here.",
+   "terroir": "Schist and clay slopes.",
+   "producers": [
+    "Domaine de Juchepie"
+   ],
+   "nerd_note": "Six villages may add their name to Coteaux du Layon on sweet Chenin Blanc from botrytised or late-picked grapes."
+  },
+  {
+   "id": "fr-coteaux-du-layon-beaulieu-sur-layon",
+   "country": "fr",
+   "name": "Coteaux du Layon Beaulieu-sur-Layon",
+   "match": [
+    "Coteaux du Layon Beaulieu-sur-Layon",
+    "Beaulieu"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Anjou-Saumur",
+   "styles": [
+    "sweet"
+   ],
+   "dominant_style": "sweet",
+   "grapes": "Chenin Blanc",
+   "summary": "Beaulieu-sur-Layon is a Layon village of manor houses and old cellars, giving elegant sweet Chenin; Château Pierre-Bise and Château Soucherie are close by.",
+   "terroir": "Schist and volcanic rocks on slopes above the river.",
+   "producers": [
+    "Château Pierre-Bise"
+   ],
+   "nerd_note": "Six villages may add their name to Coteaux du Layon on sweet Chenin Blanc from botrytised or late-picked grapes."
+  },
+  {
+   "id": "fr-coteaux-du-layon-rablay-sur-layon",
+   "country": "fr",
+   "name": "Coteaux du Layon Rablay-sur-Layon",
+   "match": [
+    "Coteaux du Layon Rablay-sur-Layon",
+    "Rablay"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Anjou-Saumur",
+   "styles": [
+    "sweet"
+   ],
+   "dominant_style": "sweet",
+   "grapes": "Chenin Blanc",
+   "summary": "Rablay-sur-Layon is a small Layon village on a bend of the river, giving sweet Chenin from schist and sandstone.",
+   "terroir": "Schist and sandstone.",
+   "nerd_note": "Six villages may add their name to Coteaux du Layon on sweet Chenin Blanc from botrytised or late-picked grapes."
+  },
+  {
+   "id": "fr-touraine-amboise",
+   "country": "fr",
+   "name": "Touraine Amboise",
+   "match": [
+    "Touraine Amboise"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc, Côt, Cabernet Franc, Gamay",
+   "summary": "Touraine-Amboise surrounds the royal château of Amboise on both banks of the Loire, giving Chenin Blanc whites (dry to sweet), Côt-based reds and rosés. Leonardo da Vinci spent his last years at the nearby Clos Lucé.",
+   "terroir": "Tuffeau limestone and clay-flint (perruches) on slopes above the Loire.",
+   "nerd_note": "Touraine allows a handful of villages or areas to add their name to the regional appellation for their own styles."
+  },
+  {
+   "id": "fr-touraine-azay-le-rideau",
+   "country": "fr",
+   "name": "Touraine Azay-le-Rideau",
+   "match": [
+    "Touraine Azay-le-Rideau"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "styles": [
+    "white",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc, Grolleau",
+   "summary": "Touraine Azay-le-Rideau, around the Renaissance château on the Indre, gives dry and off-dry Chenin Blanc and rosé based on Grolleau.",
+   "terroir": "Tuffeau, clay-limestone and sand above the Indre.",
+   "nerd_note": "Touraine allows a handful of villages or areas to add their name to the regional appellation for their own styles."
+  },
+  {
+   "id": "fr-touraine-mesland",
+   "country": "fr",
+   "name": "Touraine Mesland",
+   "match": [
+    "Touraine Mesland"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "styles": [
+    "red",
+    "rose",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay, Côt, Cabernet Franc, Chenin Blanc",
+   "summary": "Touraine-Mesland lies on the north bank of the Loire between Amboise and Blois, giving Gamay-based reds and rosés, plus Chenin whites.",
+   "terroir": "Clay-flint and sandy soils on the plateau edge.",
+   "nerd_note": "Touraine allows a handful of villages or areas to add their name to the regional appellation for their own styles."
+  },
+  {
+   "id": "fr-touraine-chenonceaux",
+   "country": "fr",
+   "name": "Touraine Chenonceaux",
+   "match": [
+    "Touraine Chenonceaux"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "created": "2011",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc, Côt, Cabernet Franc",
+   "summary": "Touraine Chenonceaux (2011) follows the Cher valley around the famous château spanning the river, giving Sauvignon Blanc whites and Côt and Cabernet Franc reds, both with stricter rules than plain Touraine.",
+   "terroir": "Clay-flint and limestone on the Cher slopes.",
+   "nerd_note": "Touraine allows a handful of villages or areas to add their name to the regional appellation for their own styles."
+  },
+  {
+   "id": "fr-touraine-oisly",
+   "country": "fr",
+   "name": "Touraine Oisly",
+   "match": [
+    "Touraine Oisly"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "created": "2011",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc",
+   "summary": "Touraine Oisly (2011) is a white-only name for Sauvignon Blanc from sandy clay soils on the edge of the Sologne, long promoted by the Oisly-Thésée cooperative.",
+   "terroir": "Sand and clay over flint, cooler than the Cher valley.",
+   "nerd_note": "Touraine allows a handful of villages or areas to add their name to the regional appellation for their own styles."
+  },
+  {
+   "id": "fr-muscadet-sevre-et-maine-clisson",
+   "country": "fr",
+   "name": "Muscadet Sèvre et Maine Clisson",
+   "match": [
+    "Muscadet Sèvre et Maine Clisson"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "created": "2011",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Melon de Bourgogne",
+   "summary": "Clisson is a Muscadet cru communal (2011) on the granite around the Italianate town of Clisson, where wines must spend at least two years on their lees. The result is a richer, more textured Melon de Bourgogne with salty, nutty depth that ages for a decade or more. Domaine de la Pépière is a reference.",
+   "terroir": "Granite and its weathered sandy soils (arène).",
+   "producers": [
+    "Domaine de la Pépière",
+    "Domaine de la Grange"
+   ],
+   "nerd_note": "Muscadet's crus communaux, created from 2011, require long ageing on the lees and lower yields than basic Muscadet Sèvre et Maine."
+  },
+  {
+   "id": "fr-muscadet-sevre-et-maine-gorges",
+   "country": "fr",
+   "name": "Muscadet Sèvre et Maine Gorges",
+   "match": [
+    "Muscadet Sèvre et Maine Gorges"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "created": "2011",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Melon de Bourgogne",
+   "summary": "Gorges is a Muscadet cru communal (2011) on gabbro, a dark, hard magmatic rock, giving firm, smoky, slow-maturing Melon de Bourgogne after long lees ageing.",
+   "terroir": "Gabbro and quartz, poor and stony.",
+   "nerd_note": "Muscadet's crus communaux, created from 2011, require long ageing on the lees and lower yields than basic Muscadet Sèvre et Maine."
+  },
+  {
+   "id": "fr-muscadet-sevre-et-maine-le-pallet",
+   "country": "fr",
+   "name": "Muscadet Sèvre et Maine Le Pallet",
+   "match": [
+    "Muscadet Sèvre et Maine Le Pallet"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "created": "2011",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Melon de Bourgogne",
+   "summary": "Le Pallet is a Muscadet cru communal (2011) on gneiss and gabbro east of Nantes, giving mineral, structured Melon de Bourgogne after extended lees ageing.",
+   "terroir": "Gneiss, gabbro and orthogneiss.",
+   "nerd_note": "Muscadet's crus communaux, created from 2011, require long ageing on the lees and lower yields than basic Muscadet Sèvre et Maine. Le Pallet is the birthplace of the medieval philosopher Peter Abelard."
+  },
+  {
+   "id": "fr-fiefs-vendeens-mareuil",
+   "country": "fr",
+   "name": "Fiefs Vendéens Mareuil",
+   "match": [
+    "Fiefs Vendéens Mareuil"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "styles": [
+    "red",
+    "rose",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Gamay, Cabernet Franc, Chenin Blanc",
+   "summary": "Mareuil, on the Lay river, is the largest area of Fiefs Vendéens, best known for red and rosé from Pinot Noir, Gamay and Cabernet Franc (with some Négrette), and Chenin whites. Jérémie Mourat's estate is a leading producer.",
+   "terroir": "Schist and rhyolite with clay.",
+   "producers": [
+    "Mourat"
+   ],
+   "nerd_note": "Fiefs Vendéens became an AOC in 2011; its five named areas each have their own grape mix."
+  },
+  {
+   "id": "fr-fiefs-vendeens-brem",
+   "country": "fr",
+   "name": "Fiefs Vendéens Brem",
+   "match": [
+    "Fiefs Vendéens Brem"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc, Chardonnay, Pinot Noir, Gamay",
+   "summary": "Brem lies near the Atlantic coast at Brem-sur-Mer, giving Chenin-based whites and fresh reds; Thierry Michon's biodynamic Domaine Saint-Nicolas made the area known.",
+   "terroir": "Schist and sandy soils swept by sea winds.",
+   "producers": [
+    "Domaine Saint-Nicolas"
+   ],
+   "nerd_note": "Fiefs Vendéens became an AOC in 2011; its five named areas each have their own grape mix."
+  },
+  {
+   "id": "fr-fiefs-vendeens-chantonnay",
+   "country": "fr",
+   "name": "Fiefs Vendéens Chantonnay",
+   "match": [
+    "Fiefs Vendéens Chantonnay"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "styles": [
+    "red",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Gamay, Cabernet Franc",
+   "summary": "Chantonnay is the inland, eastern area of Fiefs Vendéens, giving reds and rosés from Pinot Noir and Gamay. The Vendée's wines are said to have been favoured by Cardinal Richelieu, who was bishop of nearby Luçon before he became Louis XIII's chief minister.",
+   "terroir": "Schist and clay.",
+   "nerd_note": "Fiefs Vendéens became an AOC in 2011; its five named areas each have their own grape mix."
+  },
+  {
+   "id": "fr-fiefs-vendeens-pissotte",
+   "country": "fr",
+   "name": "Fiefs Vendéens Pissotte",
+   "match": [
+    "Fiefs Vendéens Pissotte"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc, Chardonnay, Pinot Noir",
+   "summary": "Pissotte, near Fontenay-le-Comte, is a small area of Fiefs Vendéens giving whites from Chenin and Chardonnay and light reds. The Vendée's wines are said to have been favoured by Cardinal Richelieu, who was bishop of nearby Luçon.",
+   "terroir": "Limestone and clay.",
+   "nerd_note": "Fiefs Vendéens became an AOC in 2011; its five named areas each have their own grape mix."
+  },
+  {
+   "id": "fr-fiefs-vendeens-vix",
+   "country": "fr",
+   "name": "Fiefs Vendéens Vix",
+   "match": [
+    "Fiefs Vendéens Vix"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Pays Nantais",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc, Chardonnay, Sauvignon Blanc, Cabernet Franc",
+   "summary": "Vix lies on the edge of the Marais Poitevin in southern Vendée, giving whites from Chenin, Chardonnay and Sauvignon and fresh reds.",
+   "terroir": "Limestone and clay on the edge of the marshes.",
+   "nerd_note": "Fiefs Vendéens became an AOC in 2011; its five named areas each have their own grape mix."
+  },
+  {
+   "id": "fr-cotes-d-auvergne-corent",
+   "country": "fr",
+   "name": "Côtes d'Auvergne Corent",
+   "match": [
+    "Côtes d'Auvergne Corent"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Loire Auvergne and Forez",
+   "styles": [
+    "rose",
+    "red"
+   ],
+   "dominant_style": "rose",
+   "grapes": "Gamay, Pinot Noir",
+   "summary": "Corent is a Côtes d'Auvergne cru on the volcanic Puy de Corent south of Clermont-Ferrand, traditionally known for rosé from Gamay. The hill was a major Gallic oppidum of the Arverni, and archaeologists have found evidence of feasting with imported Italian wine there.",
+   "terroir": "Basalt and volcanic ash over limestone marl on a volcanic plateau.",
+   "nerd_note": "Côtes d'Auvergne became an AOC in 2011; five crus may add their names."
+  },
+  {
+   "id": "fr-cotes-d-auvergne-chanturgue",
+   "country": "fr",
+   "name": "Côtes d'Auvergne Chanturgue",
+   "match": [
+    "Côtes d'Auvergne Chanturgue"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Loire Auvergne and Forez",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "summary": "Chanturgue is a tiny Côtes d'Auvergne cru on a basalt plateau on the northern edge of Clermont-Ferrand, giving Gamay reds. Local legend links it to the origin of coq au vin.",
+   "terroir": "Basalt plateau with stony soils.",
+   "nerd_note": "Côtes d'Auvergne became an AOC in 2011; five crus may add their names."
+  },
+  {
+   "id": "fr-cotes-d-auvergne-boudes",
+   "country": "fr",
+   "name": "Côtes d'Auvergne Boudes",
+   "match": [
+    "Côtes d'Auvergne Boudes"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Loire Auvergne and Forez",
+   "styles": [
+    "red",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay, Pinot Noir",
+   "summary": "Boudes is the southernmost Côtes d'Auvergne cru, in a warm valley near Issoire, giving reds and rosés from Gamay and Pinot Noir. In the nineteenth century the Auvergne was one of France's largest vineyards, with tens of thousands of hectares, before phylloxera and the rural exodus reduced it to a few hundred.",
+   "terroir": "Clay-limestone and volcanic soils.",
+   "nerd_note": "Côtes d'Auvergne became an AOC in 2011; five crus may add their names."
+  },
+  {
+   "id": "fr-cotes-d-auvergne-chateaugay",
+   "country": "fr",
+   "name": "Côtes d'Auvergne Chateaugay",
+   "match": [
+    "Côtes d'Auvergne Chateaugay"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Loire Auvergne and Forez",
+   "styles": [
+    "red",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay, Pinot Noir",
+   "summary": "Châteaugay is a Côtes d'Auvergne cru below its medieval castle north of Clermont-Ferrand, giving Gamay reds and rosés. In the nineteenth century the Auvergne was one of France's largest vineyards, before phylloxera reduced it to a few hundred hectares.",
+   "terroir": "Volcanic and limestone soils.",
+   "nerd_note": "Côtes d'Auvergne became an AOC in 2011; five crus may add their names."
+  },
+  {
+   "id": "fr-cotes-d-auvergne-madargues",
+   "country": "fr",
+   "name": "Côtes d'Auvergne Madargues",
+   "match": [
+    "Côtes d'Auvergne Madargues"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Loire Valley",
+   "subregion": "Loire Auvergne and Forez",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "summary": "Madargues is a small Côtes d'Auvergne cru near Riom, giving Gamay reds. Riom and its surroundings were once a busy wine area supplying the Auvergne's towns; Madargues keeps a small part of that tradition alive.",
+   "terroir": "Clay-limestone and volcanic soils.",
+   "nerd_note": "Côtes d'Auvergne became an AOC in 2011; five crus may add their names."
+  },
+  {
+   "id": "fr-gres-de-montpellier",
+   "country": "fr",
+   "name": "Grés de Montpellier",
+   "match": [
+    "Grés de Montpellier"
+   ],
+   "cat": "AOC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "created": "2003",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Mourvèdre, Carignan, Cinsault",
+   "summary": "Grés de Montpellier is a red-only appellation for the hills and terraces around Montpellier, between the Hérault and Vidourle valleys. Recognised in 2003 as a named terroir of Coteaux du Languedoc, it now has its own AOC specification (amended in 2025), covering 45 communes. Blends must include at least two of Grenache, Syrah and Mourvèdre, with Carignan, Cinsault and Morrastel as supporting grapes, and wines rest until at least 15 September after the harvest.",
+   "terroir": "Poor, stony hillsides ('grés' in Occitan) of limestone, sandstone, marl and rounded quartz pebbles left by an ancient Rhône delta; Mediterranean climate with sea breezes.",
+   "producers": [
+    "Château de Flaugergues",
+    "Château de l'Engarran",
+    "Château Saint-Martin de la Garrigue",
+    "Domaine de Verchant"
+   ],
+   "nerd_note": "The Cistercian abbey of Valmagne, founded in 1138, still makes wine within the appellation and keeps its huge oak casks in the nave of its church."
+  },
+  {
+   "id": "fr-languedoc-saint-georges-d-orques",
+   "country": "fr",
+   "name": "Languedoc Saint-Georges-d'Orques",
+   "match": [
+    "Languedoc Saint-Georges-d'Orques"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Mourvèdre",
+   "summary": "Saint-Georges-d'Orques, west of Montpellier, is one of Languedoc's historic red terroirs: in the eighteenth century its wines were exported widely, and Thomas Jefferson ordered them for his cellar. Today they are supple Grenache, Syrah and Mourvèdre blends.",
+   "terroir": "Clay-limestone hills and pebbly terraces.",
+   "producers": [
+    "Château de l'Engarran"
+   ],
+   "nerd_note": "Languedoc lets several historic terroirs add their name to the regional appellation for wines grown under stricter rules."
+  },
+  {
+   "id": "fr-languedoc-saint-christol",
+   "country": "fr",
+   "name": "Languedoc Saint-Christol",
+   "match": [
+    "Languedoc Saint-Christol"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Mourvèdre",
+   "summary": "Saint-Christol, east of Montpellier, is a Languedoc terroir of pebbly terraces giving sunny, spicy reds; the village cooperative is central.",
+   "terroir": "Rounded pebbles and red clay on Villafranchian terraces.",
+   "nerd_note": "Languedoc lets several historic terroirs add their name to the regional appellation for wines grown under stricter rules."
+  },
+  {
+   "id": "fr-languedoc-saint-drezery",
+   "country": "fr",
+   "name": "Languedoc Saint-Drézéry",
+   "match": [
+    "Languedoc Saint-Drézéry"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Mourvèdre",
+   "summary": "Saint-Drézéry is the smallest named terroir of Languedoc, north-east of Montpellier, giving ripe, structured reds; Château Puech-Haut is its best-known estate.",
+   "terroir": "Pebbly terraces and clay-limestone.",
+   "producers": [
+    "Château Puech-Haut"
+   ],
+   "nerd_note": "Languedoc lets several historic terroirs add their name to the regional appellation for wines grown under stricter rules."
+  },
+  {
+   "id": "fr-languedoc-la-mejanelle",
+   "country": "fr",
+   "name": "Languedoc La Méjanelle",
+   "match": [
+    "Languedoc La Méjanelle"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Mourvèdre",
+   "summary": "La Méjanelle lies on the eastern edge of Montpellier towards the airport, a terrace of large round pebbles (galets) like those of Châteauneuf-du-Pape, giving warm, generous reds. Château de Flaugergues, one of Montpellier's eighteenth-century 'folies', is the classic estate.",
+   "terroir": "Thick beds of rounded quartz pebbles over red clay.",
+   "producers": [
+    "Château de Flaugergues"
+   ],
+   "nerd_note": "Languedoc lets several historic terroirs add their name to the regional appellation for wines grown under stricter rules."
+  },
+  {
+   "id": "fr-languedoc-quatourze",
+   "country": "fr",
+   "name": "Languedoc Quatourze",
+   "match": [
+    "Languedoc Quatourze"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Carignan, Mourvèdre",
+   "summary": "Quatourze is a small Languedoc terroir near Narbonne on a pebble terrace beside the Aude, giving full-bodied, sun-baked reds; Château Notre-Dame du Quatourze is the main estate.",
+   "terroir": "Pebbly terraces near the coast.",
+   "nerd_note": "Languedoc lets several historic terroirs add their name to the regional appellation for wines grown under stricter rules."
+  },
+  {
+   "id": "fr-languedoc-saint-saturnin",
+   "country": "fr",
+   "name": "Languedoc Saint-Saturnin",
+   "match": [
+    "Languedoc Saint-Saturnin"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "styles": [
+    "red",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Carignan, Cinsault",
+   "summary": "Saint-Saturnin lies at the foot of the Larzac plateau, a cool, high Languedoc terroir known for its 'vin d'une nuit', a rosé of one night's skin contact, and for firm, aromatic reds.",
+   "terroir": "Limestone scree and clay at the foot of the plateau.",
+   "producers": [
+    "Cave de Saint-Saturnin",
+    "Virgile Joly"
+   ],
+   "nerd_note": "Languedoc lets several historic terroirs add their name to the regional appellation for wines grown under stricter rules."
+  },
+  {
+   "id": "fr-languedoc-cabrieres",
+   "country": "fr",
+   "name": "Languedoc Cabrières",
+   "match": [
+    "Languedoc Cabrières"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "styles": [
+    "red",
+    "rose",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah, Grenache, Carignan, Cinsault, Clairette",
+   "summary": "Cabrières is a Languedoc terroir on schist north of Pézenas, long known for rosé and for Clairette; its reds are spicy and fresh.",
+   "terroir": "Schist with volcanic and limestone outcrops.",
+   "producers": [
+    "Cave de Cabrières"
+   ],
+   "nerd_note": "Languedoc lets several historic terroirs add their name to the regional appellation for wines grown under stricter rules."
+  },
+  {
+   "id": "fr-saint-chinian-roquebrun",
+   "country": "fr",
+   "name": "Saint-Chinian Roquebrun",
+   "match": [
+    "Saint-Chinian Roquebrun"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "created": "2005",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah, Grenache, Mourvèdre, Carignan",
+   "summary": "Roquebrun lies on the Orb river in the schist hills of northern Saint-Chinian, a village so sheltered that mimosas and citrus grow in its Mediterranean garden. Its reds, based on Syrah, Grenache and Mourvèdre, are fresh and mineral; the Cave de Roquebrun is central.",
+   "terroir": "Schist slopes above the Orb gorge.",
+   "producers": [
+    "Cave de Roquebrun"
+   ],
+   "nerd_note": "Saint-Chinian's two schist villages have been allowed to add their names since 2005."
+  },
+  {
+   "id": "fr-saint-chinian-berlou",
+   "country": "fr",
+   "name": "Saint-Chinian Berlou",
+   "match": [
+    "Saint-Chinian Berlou"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "created": "2005",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Carignan, Syrah, Grenache",
+   "summary": "Berlou is a schist village in the hills of Saint-Chinian whose reds keep a high share of old Carignan, giving dark, spicy wines; the Berlou cooperative makes most of them.",
+   "terroir": "Schist hills with old bush vines.",
+   "nerd_note": "Saint-Chinian's two schist villages have been allowed to add their names since 2005."
+  },
+  {
+   "id": "fr-cotes-du-roussillon-villages-tautavel",
+   "country": "fr",
+   "name": "Côtes du Roussillon Villages Tautavel",
+   "match": [
+    "Côtes du Roussillon Villages Tautavel"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Roussillon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache, Syrah, Carignan, Mourvèdre",
+   "summary": "Tautavel, in the Agly valley, is famous for the 'Tautavel Man', human remains about 450,000 years old found in the Arago cave. Its reds from Grenache, Syrah, Carignan and Mourvèdre are dense and spicy.",
+   "terroir": "Limestone and black schist below cliffs.",
+   "producers": [
+    "Domaine Gardiés"
+   ],
+   "nerd_note": "Côtes du Roussillon Villages allows a handful of villages to add their names."
+  },
+  {
+   "id": "fr-cotes-du-roussillon-villages-caramany",
+   "country": "fr",
+   "name": "Côtes du Roussillon Villages Caramany",
+   "match": [
+    "Côtes du Roussillon Villages Caramany"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Roussillon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Carignan, Syrah, Grenache",
+   "summary": "Caramany is a village of the Agly valley on gneiss and granite, giving firm, fragrant reds, often with a high share of old Carignan.",
+   "terroir": "Gneiss and granite arène.",
+   "nerd_note": "Côtes du Roussillon Villages allows a handful of villages to add their names."
+  },
+  {
+   "id": "fr-cotes-du-roussillon-villages-lesquerde",
+   "country": "fr",
+   "name": "Côtes du Roussillon Villages Lesquerde",
+   "match": [
+    "Côtes du Roussillon Villages Lesquerde"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Roussillon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Carignan, Grenache, Syrah",
+   "summary": "Lesquerde is a granite village of the upper Agly valley, giving bright, mineral reds. Lesquerde lies in the Fenouillèdes, the granite hills that belonged to Languedoc rather than Catalan Roussillon until the Revolution.",
+   "terroir": "Granite and gneiss.",
+   "nerd_note": "Côtes du Roussillon Villages allows a handful of villages to add their names."
+  },
+  {
+   "id": "fr-cotes-du-roussillon-villages-les-aspres",
+   "country": "fr",
+   "name": "Côtes du Roussillon Villages Les Aspres",
+   "match": [
+    "Côtes du Roussillon Villages Les Aspres"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Roussillon",
+   "created": "2017",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah, Mourvèdre, Grenache, Carignan",
+   "summary": "Les Aspres, between the Têt and Tech valleys south of Perpignan, is the newest Côtes du Roussillon Villages name (2017), for reds with a significant share of Syrah and Mourvèdre.",
+   "terroir": "Gravel terraces, clay and schist at the foot of the Pyrenees.",
+   "nerd_note": "Côtes du Roussillon Villages allows a handful of villages to add their names."
+  },
+  {
+   "id": "fr-sable-de-camargue",
+   "country": "fr",
+   "name": "Sable de Camargue",
+   "match": [
+    "Sable de Camargue"
+   ],
+   "cat": "AOC",
+   "region": "Languedoc-Roussillon",
+   "subregion": "Languedoc",
+   "created": "2023",
+   "area_ha": 3000,
+   "styles": [
+    "rose",
+    "white",
+    "red"
+   ],
+   "dominant_style": "rose",
+   "grapes": "Grenache Gris, Grenache, Cinsault, Syrah, Merlot, Cabernet Sauvignon",
+   "summary": "Sable de Camargue is France's newest wine AOC, published in the EU Official Journal on 18 October 2023 after twelve years as an IGP. It covers about 3,000 ha of vines on the sands of the Rhône delta in 14 coastal communes of the Hérault, Gard and Bouches-du-Rhône, and is famous for pale 'gris' rosés; 'gris de gris' must come entirely from Grenache Gris. The wines are delicate, salmon-pale, fresh and saline. Domaine Royal de Jarras (Listel) is the best-known name.",
+   "terroir": "Uniform sands of the delta, at least 80 percent sand, almost free of clay and silt, laid down by the river, the sea and the wind; the sand protected vines from phylloxera, so many are on their own roots.",
+   "producers": [
+    "Domaine Royal de Jarras (Listel)"
+   ],
+   "nerd_note": "Benedictine monks of the Abbey of Psalmody, near Aigues-Mortes, were making wine from sand-grown vines in the seventh century; today some 95 percent of the vineyard is organic, in conversion or HVE certified, and sheep graze the cover crops."
+  },
+  {
+   "id": "fr-cotes-de-provence-sainte-victoire",
+   "country": "fr",
+   "name": "Côtes de Provence Sainte-Victoire",
+   "match": [
+    "Côtes de Provence Sainte-Victoire"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Provence",
+   "created": "2005",
+   "styles": [
+    "rose",
+    "red"
+   ],
+   "dominant_style": "rose",
+   "grapes": "Grenache, Syrah, Cinsault",
+   "summary": "Côtes de Provence Sainte-Victoire (2005) lies at the foot of the limestone Montagne Sainte-Victoire east of Aix, the mountain Cézanne painted more than eighty times. Its rosés and reds are fresher and more structured than coastal Provence thanks to altitude and the mistral.",
+   "terroir": "Limestone, red clay and gravel on the southern flank of the mountain, with cold winters and dry summers.",
+   "producers": [
+    "Mas de Cadenet",
+    "Château Coussin",
+    "Domaine Saint-Ser"
+   ],
+   "nerd_note": "The mountain is visible from almost every vineyard, and some estates name cuvées after Cézanne's paintings."
+  },
+  {
+   "id": "fr-cotes-de-provence-la-londe",
+   "country": "fr",
+   "name": "Côtes de Provence la Londe",
+   "match": [
+    "Côtes de Provence la Londe"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Provence",
+   "created": "2008",
+   "styles": [
+    "rose",
+    "red",
+    "white"
+   ],
+   "dominant_style": "rose",
+   "grapes": "Grenache, Cinsault, Syrah, Mourvèdre, Rolle",
+   "summary": "Côtes de Provence La Londe (2008) covers coastal vineyards east of Hyères facing the islands of Porquerolles and Port-Cros, giving fine rosés and reds on schist. The schist and the sea winds give La Londe's rosés more tension than those of inland Provence.",
+   "terroir": "Schist and quartz soils with strong maritime influence.",
+   "producers": [
+    "Château Léoube",
+    "Château Sainte-Marguerite",
+    "Domaine de la Sanglière"
+   ]
+  },
+  {
+   "id": "fr-vin-de-corse-sartene",
+   "country": "fr",
+   "name": "Vin de Corse Sartène",
+   "match": [
+    "Vin de Corse Sartène",
+    "Corse Sartène"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Corsica",
+   "styles": [
+    "red",
+    "rose",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sciaccarellu, Niellucciu, Grenache, Vermentinu",
+   "summary": "Sartène, in the south-west of Corsica, follows the valleys of the Rizzanese and Ortolo rivers and is a stronghold of Sciaccarellu, the island's fragrant, peppery red grape. Domaine Saparale and Domaine Fiumicicoli are key estates.",
+   "terroir": "Granite and its sandy weathering on terraces near the sea.",
+   "producers": [
+    "Domaine Saparale",
+    "Domaine Fiumicicoli"
+   ],
+   "nerd_note": "Vin de Corse allows five areas to add their names."
+  },
+  {
+   "id": "fr-vin-de-corse-calvi",
+   "country": "fr",
+   "name": "Vin de Corse Calvi",
+   "match": [
+    "Vin de Corse Calvi",
+    "Corse Calvi"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Corsica",
+   "styles": [
+    "red",
+    "rose",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Niellucciu, Sciaccarellu, Grenache, Vermentinu",
+   "summary": "Calvi, in the Balagne of north-west Corsica, gives reds, rosés and whites from Niellucciu, Sciaccarellu and Vermentinu on granite; Clos Culombu and Domaine Alzipratu are leading estates.",
+   "terroir": "Granite with clay-limestone pockets.",
+   "producers": [
+    "Clos Culombu",
+    "Domaine Alzipratu"
+   ],
+   "nerd_note": "Vin de Corse allows five areas to add their names."
+  },
+  {
+   "id": "fr-vin-de-corse-figari",
+   "country": "fr",
+   "name": "Vin de Corse Figari",
+   "match": [
+    "Vin de Corse Figari",
+    "Corse Figari"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Corsica",
+   "styles": [
+    "red",
+    "rose",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sciaccarellu, Niellucciu, Vermentinu",
+   "summary": "Figari, in the far south of Corsica, is the island's windiest wine area; Clos Canarelli made it famous with wines from rare local grapes such as Carcajolu Neru.",
+   "terroir": "Granite plateau scoured by wind.",
+   "producers": [
+    "Clos Canarelli",
+    "Domaine de Tanella"
+   ],
+   "nerd_note": "Vin de Corse allows five areas to add their names."
+  },
+  {
+   "id": "fr-vin-de-corse-porto-vecchio",
+   "country": "fr",
+   "name": "Vin de Corse Porto-Vecchio",
+   "match": [
+    "Vin de Corse Porto-Vecchio",
+    "Corse Porto-Vecchio"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Corsica",
+   "styles": [
+    "rose",
+    "red",
+    "white"
+   ],
+   "dominant_style": "rose",
+   "grapes": "Niellucciu, Sciaccarellu, Vermentinu",
+   "summary": "Porto-Vecchio, on the south-east coast, gives fresh rosés and whites and supple reds on granite; Domaine de Torraccia was a pioneer of quality here. The granite massif of the Ospedale rises behind the vineyards and shelters them from western weather.",
+   "terroir": "Granite arène near the sea.",
+   "producers": [
+    "Domaine de Torraccia"
+   ],
+   "nerd_note": "Vin de Corse allows five areas to add their names."
+  },
+  {
+   "id": "fr-vin-de-corse-coteaux-du-cap-corse",
+   "country": "fr",
+   "name": "Vin de Corse Coteaux du Cap Corse",
+   "match": [
+    "Vin de Corse Coteaux du Cap Corse",
+    "Corse Coteaux du Cap Corse"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Corsica",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Vermentinu, Niellucciu",
+   "summary": "Coteaux du Cap Corse covers the schist slopes of Corsica's northern peninsula, best known for its Vermentinu whites; the same area also produces Muscat du Cap Corse.",
+   "terroir": "Schist terraces above the sea.",
+   "producers": [
+    "Clos Nicrosi"
+   ],
+   "nerd_note": "Vin de Corse allows five areas to add their names."
+  },
+  {
+   "id": "fr-correze",
+   "country": "fr",
+   "name": "Corrèze",
+   "match": [
+    "Corrèze"
+   ],
+   "cat": "AOC",
+   "region": "Southwest France",
+   "created": "2017",
+   "styles": [
+    "white",
+    "red",
+    "sweet"
+   ],
+   "dominant_style": "white",
+   "grapes": "Cabernet Franc, Merlot, Chenin Blanc, Sauvignon Blanc",
+   "summary": "Corrèze is a small AOC in the Limousin (recognised in 2017) covering three styles: dry whites and reds, wines labelled Coteaux de la Vézère, and the rare vin paillé, a sweet wine made from grapes dried on straw for several weeks. Vineyards that had all but vanished after phylloxera were replanted from the 1980s, around Branceilles in the south and the Vézère valley near Allassac and Voutezac.",
+   "terroir": "Clay-limestone and sandstone around Branceilles; slate schist in the Vézère valley.",
+   "producers": [
+    "Cave de Branceilles"
+   ],
+   "nerd_note": "Vin paillé is a Corrèze tradition said to go back centuries, when straw-dried wine was kept for family celebrations."
+  },
+  {
+   "id": "fr-entre-deux-mers-haut-benauge",
+   "country": "fr",
+   "name": "Entre-deux-Mers Haut-Benauge",
+   "match": [
+    "Entre-deux-Mers Haut-Benauge"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Bordeaux",
+   "subregion": "Entre-Deux-Mers",
+   "styles": [
+    "white",
+    "sweet"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc, Sémillon, Muscadelle",
+   "summary": "Entre-deux-Mers Haut-Benauge covers nine communes of the old county of Benauge around Targon and the castle of Benauge, giving dry Sauvignon-Sémillon whites under the Entre-deux-Mers name and sweet whites as Bordeaux Haut-Benauge.",
+   "terroir": "Clay-limestone plateau and slopes in the heart of the Entre-Deux-Mers."
+  },
+  {
+   "id": "fr-arbois-pupillin",
+   "country": "fr",
+   "name": "Arbois Pupillin",
+   "match": [
+    "Arbois Pupillin"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Jura",
+   "subregion": "Jura",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Poulsard, Trousseau, Savagnin, Chardonnay",
+   "summary": "Pupillin is a village on a plateau above Arbois that calls itself the world capital of Ploussard (Poulsard), the pale, delicate red grape of the Jura. It is also the home of Pierre Overnoy and Emmanuel Houillon, pioneers of sulphur-free natural wine.",
+   "terroir": "Blue and grey Liassic and Triassic marls on slopes around the village.",
+   "producers": [
+    "Pierre Overnoy / Emmanuel Houillon",
+    "Philippe Bornard",
+    "Domaine de la Renardière",
+    "Fruitière Vinicole de Pupillin"
+   ],
+   "nerd_note": "Pupillin's wines carry Arbois Pupillin, the only village name allowed within Arbois."
+  },
+  {
+   "id": "fr-roussette-du-bugey-montagnieu",
+   "country": "fr",
+   "name": "Roussette du Bugey Montagnieu",
+   "match": [
+    "Roussette du Bugey Montagnieu"
+   ],
+   "cat": "AOC",
+   "subcat": "DGC",
+   "region": "Bugey",
+   "subregion": "Bugey",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Altesse",
+   "summary": "Montagnieu, on the Rhône in the southern Bugey, gives the most prized Roussette du Bugey, a still white from Altesse with a nutty, floral character; Franck Peillot is the reference grower. Bugey became an AOC in 2009; Montagnieu is also a named cru for sparkling Bugey.",
+   "terroir": "Steep limestone scree and marl above the Rhône.",
+   "producers": [
+    "Franck Peillot"
+   ]
+  },
+  {
+   "id": "ch-vaud",
+   "country": "ch",
+   "name": "Vaud",
+   "match": [
+    "Vaud",
+    "Waadt"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "Vaud",
+   "area_ha": 3747,
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chasselas, Gamay, Pinot Noir, Gamaret",
+   "summary": "Vaud is Switzerland's second wine canton after Valais, with 3,747 ha of vines in 2024, and the spiritual home of Chasselas. Its vineyards run in a long arc along Lake Geneva, from La Côte west of Lausanne through the terraced Lavaux to the Chablais in the Rhône valley, and on to the Côtes de l'Orbe, Bonvillars and the Vaud side of the Vully. Chasselas here is delicate, low in acidity and deeply expressive of soil, from the flinty wines of Yvorne and Aigle to the rich, honeyed whites of Dézaley and Calamin, the canton's two grand cru appellations. Reds from Gamay, Pinot Noir and Gamaret are on the rise.",
+   "terroir": "Glacial moraine, limestone scree and conglomerate on south-facing slopes above the lake; the water mirrors light and moderates temperature, and the terraces of Lavaux store the heat of 'three suns': the sky, the lake and the stone walls.",
+   "producers": [
+    "Louis Bovard",
+    "Blaise Duboux",
+    "Henri Badoux",
+    "Domaine de la Colombe",
+    "Bovy"
+   ],
+   "nerd_note": "Lavaux's 830 ha of terraces, built by Cistercian monks from the twelfth century, became a UNESCO World Heritage Site in 2007."
+  },
+  {
+   "id": "ch-bern",
+   "country": "ch",
+   "name": "Bern",
+   "match": [
+    "Bern",
+    "Berne"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "Three Lakes",
+   "area_ha": 254,
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chasselas, Pinot Noir, Pinot Gris, Chardonnay",
+   "summary": "The canton of Bern has about 254 ha of vines: 221 ha on the north shore of Lake Biel (Bielersee), where villages such as Twann, Ligerz and La Neuveville make Chasselas and Pinot Noir, and 33 ha around Lake Thun and elsewhere. The Bielersee wines are fresh and mineral, from limestone slopes of the Jura foothills.",
+   "terroir": "Jura limestone and marl on steep terraces above the lake.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-thunersee",
+   "country": "ch",
+   "name": "Thunersee",
+   "match": [
+    "Thunersee"
+   ],
+   "cat": "AOC",
+   "subcat": "Region",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Pinot Noir, Müller-Thurgau, Chasselas",
+   "summary": "Thunersee is a small regional AOC within the canton of Bern for the vineyards around Lake Thun, notably at Spiez, below its castle, and Oberhofen. Pinot Noir, Müller-Thurgau and Chasselas grow here within sight of the Bernese Alps.",
+   "terroir": "Moraine and limestone slopes on the lake shore, warmed by the lake and the föhn wind.",
+   "nerd_note": "Spiez's castle vineyard on the lake shore is the best-known wine site of the Bernese Oberland."
+  },
+  {
+   "id": "ch-zurichsee",
+   "country": "ch",
+   "name": "Zürichsee",
+   "match": [
+    "Zürichsee"
+   ],
+   "cat": "AOC",
+   "subcat": "Region",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Räuschling, Pinot Noir, Müller-Thurgau",
+   "summary": "Zürichsee is the regional AOC for the vineyards along both shores of Lake Zurich, from Stäfa, Meilen and Herrliberg to Wädenswil. The local speciality is Räuschling, an old white grape now rare elsewhere, alongside Pinot Noir and Müller-Thurgau. Canton Zurich as a whole has 618 ha of vines.",
+   "terroir": "Molasse and moraine slopes above the lake, which moderates the climate.",
+   "nerd_note": "Müller-Thurgau is named after Hermann Müller from Thurgau, who bred it in Geisenheim in 1882 and later led the research station at Wädenswil on this lake."
+  },
+  {
+   "id": "ch-basel-landschaft",
+   "country": "ch",
+   "name": "Basel-Landschaft",
+   "match": [
+    "Basel-Landschaft"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "area_ha": 114,
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau, Chasselas",
+   "summary": "Basel-Landschaft has 114 ha of vines in the hills south and east of Basel, at Maisprach, Buus, Arlesheim and Aesch, giving Pinot Noir, Müller-Thurgau and Chasselas.",
+   "terroir": "Jura limestone and loess slopes.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-basel-stadt",
+   "country": "ch",
+   "name": "Basel-Stadt",
+   "match": [
+    "Basel-Stadt"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "area_ha": 5,
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Basel-Stadt has only about 5 ha of vines, most famously the Schlipf at Riehen on the German border, a historic slope facing south over the Rhine plain.",
+   "terroir": "Limestone and loess.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-luzern",
+   "country": "ch",
+   "name": "Luzern",
+   "match": [
+    "Luzern"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "area_ha": 94,
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Müller-Thurgau, Pinot Noir, Solaris",
+   "summary": "Luzern has 94 ha of vines, a fast-growing small wine canton with vineyards around Lake Lucerne, Lake Sempach and the Seetal, including the historic estate of Schloss Heidegg on Lake Baldegg.",
+   "terroir": "Moraine and molasse on lake slopes.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-schwyz",
+   "country": "ch",
+   "name": "Schwyz",
+   "match": [
+    "Schwyz"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "area_ha": 37,
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Räuschling, Müller-Thurgau",
+   "summary": "Schwyz has about 37 ha of vines, mostly at Leutschen near Freienbach on Lake Zurich and on the island of Ufenau, vineyards owned for centuries by the Benedictine abbey of Einsiedeln.",
+   "terroir": "Molasse and moraine slopes above Lake Zurich.",
+   "producers": [
+    "Kloster Einsiedeln"
+   ],
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-zug",
+   "country": "ch",
+   "name": "Zug",
+   "match": [
+    "Zug"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "area_ha": 9,
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Zug has about 9 ha of vines, mainly at Walchwil on the sunny eastern shore of Lake Zug.",
+   "terroir": "Moraine and molasse.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-jura",
+   "country": "ch",
+   "name": "Jura",
+   "match": [
+    "Jura"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "Three Lakes",
+   "area_ha": 18,
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Pinot Noir, Pinot Gris, Chardonnay, Solaris",
+   "summary": "Canton Jura has about 18 ha of vines, a recent revival of viticulture in a canton that had almost none, with plantings in the Ajoie and the Delémont valley, often of fungus-resistant varieties.",
+   "terroir": "Jura limestone and marl.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-solothurn",
+   "country": "ch",
+   "name": "Solothurn",
+   "match": [
+    "Solothurn"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "area_ha": 13,
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Solothurn has about 13 ha of vines, scattered on the foot of the Jura near Solothurn and in the Dorneck district.",
+   "terroir": "Jura limestone.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-appenzell-ausserrhoden",
+   "country": "ch",
+   "name": "Appenzell Ausserrhoden",
+   "match": [
+    "Appenzell Ausserrhoden"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Appenzell Ausserrhoden has a few hectares of vines (about 5 ha together with Innerrhoden), mainly at Lutzenberg and Wienacht above Lake Constance.",
+   "terroir": "Molasse slopes facing the lake.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-appenzell-innerrhoden",
+   "country": "ch",
+   "name": "Appenzell Innerrhoden",
+   "match": [
+    "Appenzell Innerrhoden"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Appenzell Innerrhoden has only a tiny vineyard area, in the exclave of Oberegg near Lake Constance. Like most of German-speaking Switzerland, its vines are dominated by Pinot Noir (locally Blauburgunder) and Müller-Thurgau, often still labelled Riesling-Sylvaner.",
+   "terroir": "Molasse slopes.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-obwalden",
+   "country": "ch",
+   "name": "Obwalden",
+   "match": [
+    "Obwalden"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Obwalden, a mountain canton of central Switzerland, has a handful of hectares of vines; together with Nidwalden and Uri it counts about 7 ha.",
+   "terroir": "Moraine slopes near Lake Sarnen.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-nidwalden",
+   "country": "ch",
+   "name": "Nidwalden",
+   "match": [
+    "Nidwalden"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Nidwalden has a few small vineyards on the slopes above Lake Lucerne; with Obwalden and Uri it counts about 7 ha.",
+   "terroir": "Moraine and limestone.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-uri",
+   "country": "ch",
+   "name": "Uri",
+   "match": [
+    "Uri"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Uri, the canton of the Gotthard pass, has a few vineyards near Flüelen and Bürglen at the southern end of Lake Lucerne, warmed by the föhn; with Obwalden and Nidwalden it counts about 7 ha.",
+   "terroir": "Limestone scree and moraine.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-glarus",
+   "country": "ch",
+   "name": "Glarus",
+   "match": [
+    "Glarus"
+   ],
+   "cat": "AOC",
+   "subcat": "Canton",
+   "region": "German-speaking Switzerland",
+   "subregion": "German-speaking Switzerland",
+   "area_ha": 2,
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Pinot Noir, Müller-Thurgau",
+   "summary": "Glarus has about 2 ha of vines, one of Switzerland's smallest wine cantons, on sheltered slopes near the Walensee and in the Linth plain.",
+   "terroir": "Limestone and moraine.",
+   "nerd_note": "Swiss wine law delegates appellations to the cantons, so every wine canton has its own cantonal AOC with its own rules."
+  },
+  {
+   "id": "ch-cheyres",
+   "country": "ch",
+   "name": "Cheyres",
+   "match": [
+    "Cheyres"
+   ],
+   "cat": "AOC",
+   "subcat": "Local",
+   "region": "Three Lakes",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chasselas, Pinot Noir",
+   "summary": "Cheyres is a small local AOC of the canton of Fribourg on the south shore of Lake Neuchâtel, around the village of Cheyres, giving Chasselas and Pinot Noir. With the Vully, it is one of Fribourg's two wine areas.",
+   "terroir": "Molasse and moraine on gentle slopes above the lake.",
+   "nerd_note": "Fribourg's vineyards lie on both sides of the language border, in French-speaking Cheyres and bilingual Vully."
+  },
+  {
+   "id": "uy-cerro-largo",
+   "country": "uy",
+   "name": "Cerro Largo",
+   "match": [
+    "Cerro Largo"
+   ],
+   "cat": "Departamento",
+   "subcat": "Department",
+   "region": "Norte",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tannat",
+   "summary": "Cerro Largo, in north-eastern Uruguay on the Brazilian border around Melo, is cattle and rice country with very little commercial viticulture. Its rolling grasslands continue into Brazil's Campanha Gaúcha, where vineyards have spread since the 2000s on similar soils and climate, so it is a plausible future frontier for Tannat.",
+   "terroir": "Rolling grassland on sandstone and basalt-derived soils, warmer and more continental than the southern coast.",
+   "nerd_note": "Uruguay has no legal appellations; geographic indications on labels follow the 19 departments."
+  },
+  {
+   "id": "uy-rio-negro",
+   "country": "uy",
+   "name": "Río Negro",
+   "match": [
+    "Río Negro"
+   ],
+   "cat": "Departamento",
+   "subcat": "Department",
+   "region": "Litoral Norte",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tannat",
+   "summary": "Río Negro department lies on the Uruguay river around Fray Bentos and Young. Its small vineyards disappeared between roughly 1989 and 2007 according to official vineyard statistics, so today it is a department with a wine past rather than a current scene.",
+   "terroir": "Alluvial and sedimentary soils near the river, with hot summers.",
+   "nerd_note": "Uruguay has no legal appellations; geographic indications on labels follow the 19 departments."
+  },
+  {
+   "id": "uy-treinta-y-tres",
+   "country": "uy",
+   "name": "Treinta y Tres",
+   "match": [
+    "Treinta y Tres"
+   ],
+   "cat": "Departamento",
+   "subcat": "Department",
+   "region": "Centro",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tannat",
+   "summary": "Treinta y Tres, in the east of Uruguay, takes its name from the 'Thirty-Three Orientals' who launched the 1825 independence campaign. Official statistics record no remaining vineyards here since about 2007, after small plantings faded away.",
+   "terroir": "Granitic and sandy soils in hilly country.",
+   "nerd_note": "Uruguay has no legal appellations; geographic indications on labels follow the 19 departments."
+  },
+  {
+   "id": "uy-flores",
+   "country": "uy",
+   "name": "Flores",
+   "match": [
+    "Flores"
+   ],
+   "cat": "Departamento",
+   "subcat": "Department",
+   "region": "Centro",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tannat",
+   "summary": "Flores, Uruguay's least populous department, around Trinidad in the centre of the country, has had no registered vineyards since the late 2000s according to official statistics, after earlier small plantings were abandoned.",
+   "terroir": "Basalt and sedimentary plains.",
+   "nerd_note": "Uruguay has no legal appellations; geographic indications on labels follow the 19 departments."
+  }
+ ],
+ "sites": []
+}

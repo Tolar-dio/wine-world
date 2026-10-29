@@ -3,7 +3,7 @@
   {
    "term": "1855 Classification",
    "lang": "en",
-   "definition": "The ranking of Bordeaux wines prepared by the city's wine brokers for the 1855 Exposition Universelle in Paris, based on trading prices. It lists 61 red wines (60 from the Médoc plus Haut-Brion in Graves) in five growths and 27 sweet wines of Sauternes and Barsac. Changes have been rare: Cantemerle was added in 1856 and Mouton Rothschild was promoted to first growth in 1973. Estates that changed size or quality kept their rank.",
+   "definition": "The ranking of Bordeaux wines prepared by the city's wine brokers for the 1855 Exposition Universelle in Paris, based on trading prices. It lists 61 red wines (60 from the Médoc plus Haut-Brion in Graves) in five growths and 27 sweet wines of Sauternes and Barsac. Changes have been rare: Cantemerle was added in September 1855 and Mouton Rothschild was promoted to first growth in 1973. Estates that changed size or quality kept their rank.",
    "related": [
     "Cru classé",
     "Premier cru"
@@ -494,7 +494,7 @@
   {
    "term": "Crianza",
    "lang": "es",
-   "definition": "A Spanish ageing category for red wine aged at least two years, with at least six months in oak (12 months in Rioja and Ribera del Duero), before release. Reserva requires three years with at least one in oak, and Gran Reserva five years with at least two in oak (in Rioja, three years in barrel and three in bottle as of the 2019 rules). The terms emphasise time, not place, a philosophy now shifting toward vineyard categories.",
+   "definition": "A Spanish ageing category for red wine aged at least two years, with at least six months in oak (12 months in Rioja and Ribera del Duero), before release. Reserva requires three years with at least one in oak, and Gran Reserva five years with at least 18 months in oak (in Rioja, at least two years in barrel and two in bottle). The terms emphasise time, not place, a philosophy now shifting toward vineyard categories.",
    "related": [
     "Reserva",
     "DO"
@@ -605,7 +605,7 @@
   {
    "term": "DOCG",
    "lang": "it",
-   "definition": "Denominazione di Origine Controllata e Garantita, Italy's top category, created in 1980 for Brunello di Montalcino, Vino Nobile di Montepulciano and Barolo. Wines must pass a tasting panel and carry a numbered government seal on the neck. Italy has close to 80 DOCGs; critics say some were promoted for political reasons rather than quality. A DOC must normally exist for at least ten years before being promoted to DOCG.",
+   "definition": "Denominazione di Origine Controllata e Garantita, Italy's top category, created by the 1963 law and first awarded in 1980 to Brunello di Montalcino, Vino Nobile di Montepulciano, Barolo and Barbaresco. Wines must pass a tasting panel and carry a numbered government seal on the neck. Italy has close to 80 DOCGs; critics say some were promoted for political reasons rather than quality. A DOC must normally exist for at least seven years before being promoted to DOCG.",
    "related": [
     "DOC",
     "PDO"
@@ -656,7 +656,7 @@
   {
    "term": "Échelle des crus",
    "lang": "fr",
-   "definition": "The former 'ladder of growths' that rated each Champagne village from 80 to 100 percent and set the price paid for its grapes. Villages at 100 percent were grand cru (17 villages), 90 to 99 percent premier cru (42 villages). The pricing system ended in 2010, but grand cru and premier cru remain as village labels. It explains why Champagne classifies whole villages rather than single vineyards.",
+   "definition": "The former 'ladder of growths' that rated each Champagne village from 80 to 100 percent and set the price paid for its grapes. Villages at 100 percent were grand cru (17 villages), 90 to 99 percent premier cru (42 villages). The fixed pricing system ended in 1990 and the scale itself was dropped in the 2000s, but grand cru and premier cru remain as village labels. It explains why Champagne classifies whole villages rather than single vineyards.",
    "related": [
     "Grand cru",
     "Premier cru"
@@ -863,7 +863,7 @@
   {
    "term": "Gran Selezione",
    "lang": "it",
-   "definition": "The top category of Chianti Classico, introduced in 2014, above Riserva and Annata. It requires estate-grown grapes, at least 30 months of ageing and, since the 2021 reform, at least 90 percent Sangiovese with only native varieties as the rest. From the 2020s it may carry one of 11 UGA village names. Critics initially saw it as a marketing tier, but the reforms have made it a serious statement of site.",
+   "definition": "The top category of Chianti Classico, introduced in 2014, above Riserva and Annata. It requires estate-grown grapes, at least 30 months of ageing and, under the 2021 reform (compulsory from the 2027 vintage), at least 90 percent Sangiovese with only native varieties as the rest. From the 2020s it may carry one of 11 UGA village names. Critics initially saw it as a marketing tier, but the reforms have made it a serious statement of site.",
    "related": [
     "UGA",
     "Riserva"
@@ -1950,7 +1950,7 @@
   {
    "term": "UGA",
    "lang": "it",
-   "definition": "Unità Geografica Aggiuntiva, 'additional geographical unit', the system adopted by Chianti Classico in 2021 to divide its zone into 11 villages or sub-areas, such as Panzano, Radda, Gaiole and Castelnuovo Berardenga. From the 2020 vintage, Gran Selezione wines may show the UGA on the label, and the Gran Selezione rules were tightened to require at least 90 percent Sangiovese. Soave uses the same term for its 33 crus.",
+   "definition": "Unità Geografica Aggiuntiva, 'additional geographical unit', the system adopted by Chianti Classico in 2021 to divide its zone into 11 villages or sub-areas, such as Panzano, Radda, Gaiole and Castelnuovo Berardenga. From the 2020 vintage, Gran Selezione wines may show the UGA on the label, and the Gran Selezione rules were tightened to require at least 90 percent Sangiovese from the 2027 vintage. Soave uses the same term for its 33 crus.",
    "related": [
     "MGA",
     "Gran Selezione"

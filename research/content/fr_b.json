@@ -1527,7 +1527,7 @@
    ],
    "dominant_style": "red",
    "grapes": "Pinot Noir (some Chardonnay and Pinot Blanc)",
-   "summary": "Nuits-Saint-Georges is the commercial town that gave the Côte de Nuits its name, and the largest appellation of the Côte de Nuits, extending south into Premeaux-Prissey. It has no grand crus but 41 premier crus, more than any other Côte de Nuits village. The reds are the firmest and most earthy of the côte: dark fruit, spice, iron and tannin that need time.\n\nThe appellation falls into three parts. North of the town, next to Vosne-Romanée, Aux Boudots, Aux Cras, Aux Murgers, Les Damodes and Aux Chaignots give finer, more Vosne-like wines. South of the town, Les Saints-Georges, Les Vaucrains, Les Cailles, Les Pruliers and Les Porrets give deeper, more structured wine. Further south in Premeaux, walled monopoles such as Clos de la Maréchale, Clos des Forêts Saint-Georges, Clos de l'Arlot and Clos des Corvées round it off. Les Saints-Georges, whose name the town added in 1892, has long been proposed for grand cru status; the growers' application was still under study at INAO in 2026.",
+   "summary": "Nuits-Saint-Georges is the commercial town that gave the Côte de Nuits its name, and, after Gevrey-Chambertin, the largest appellation of the Côte de Nuits, extending south into Premeaux-Prissey. It has no grand crus but 41 premier crus, more than any other Côte de Nuits village. The reds are the firmest and most earthy of the côte: dark fruit, spice, iron and tannin that need time.\n\nThe appellation falls into three parts. North of the town, next to Vosne-Romanée, Aux Boudots, Aux Cras, Aux Murgers, Les Damodes and Aux Chaignots give finer, more Vosne-like wines. South of the town, Les Saints-Georges, Les Vaucrains, Les Cailles, Les Pruliers and Les Porrets give deeper, more structured wine. Further south in Premeaux, walled monopoles such as Clos de la Maréchale, Clos des Forêts Saint-Georges, Clos de l'Arlot and Clos des Corvées round it off. Les Saints-Georges, whose name the town added in 1892, has long been proposed for grand cru status; the growers' application was still under study at INAO in 2026.",
    "terroir": "Varied: limestone, marl and alluvial fans from the Meuzin valley; the southern slope is steeper and stonier.",
    "producers": [
     "Domaine Henri Gouges",
@@ -2890,7 +2890,7 @@
    ],
    "dominant_style": "white",
    "grapes": "Chardonnay",
-   "summary": "Corton-Charlemagne is one of the world's great white wines and, with about 72 ha, the largest white grand cru in Burgundy. It covers the upper slopes of the hill of Corton facing southwest and west, in Pernand-Vergelesses and Aloxe-Corton, plus a sliver in Ladoix. Legend says the Emperor Charlemagne owned vines here and, when his white beard became stained by red wine, ordered white grapes planted; he did give vineyards here to the abbey of Saulieu in 775.\n\nThe wine is powerful and mineral, slower to open than Montrachet and more austere when young, with citrus, flint and spice that need a decade to unwind. Bonneau du Martray (about 9.5 ha), Coche-Dury, Louis Latour, Bouchard Père et Fils, Rapet, Roumier and the Hospices de Beaune (cuvée François de Salins) are among its best sources.",
+   "summary": "Corton-Charlemagne is one of the world's great white wines and, with about 72 ha, the largest white grand cru of the Côte d'Or. It covers the upper slopes of the hill of Corton facing southwest and west, in Pernand-Vergelesses and Aloxe-Corton, plus a sliver in Ladoix. Legend says the Emperor Charlemagne owned vines here and, when his white beard became stained by red wine, ordered white grapes planted; he did give vineyards here to the abbey of Saulieu in 775.\n\nThe wine is powerful and mineral, slower to open than Montrachet and more austere when young, with citrus, flint and spice that need a decade to unwind. Bonneau du Martray (about 9.5 ha), Coche-Dury, Louis Latour, Bouchard Père et Fils, Rapet, Roumier and the Hospices de Beaune (cuvée François de Salins) are among its best sources.",
    "terroir": "Marly limestone and Oxfordian marls on the upper hill under the wood, at 280 to 330 m; cool, windy slopes, many facing west.",
    "producers": [
     "Domaine Bonneau du Martray",
@@ -3703,14 +3703,14 @@
    ],
    "dominant_style": "red",
    "grapes": "Gamay",
-   "summary": "Saint-Amour is the northernmost of the ten crus and the only one in Saône-et-Loire, on the border with the Mâconnais. Its name, from a Roman soldier who became a saint, has made it the wine of Valentine's Day, and it sells much of its wine around 14 February. The wines are supple and fruity with red berries and spice, and the mix of granite, schist and limestone soils gives some structure.",
+   "summary": "Saint-Amour is the northernmost of the ten crus and the only one lying entirely in Saône-et-Loire, on the border with the Mâconnais. Its name, from a Roman soldier who became a saint, has made it the wine of Valentine's Day, and it sells much of its wine around 14 February. The wines are supple and fruity with red berries and spice, and the mix of granite, schist and limestone soils gives some structure.",
    "terroir": "Granite, schist and some limestone and clay on east-facing hills, bordering the Saint-Véran appellation.",
    "producers": [
     "Domaine des Billards",
     "Domaine de la Cave Lamartine",
     "Domaine Patissier"
    ],
-   "nerd_note": "Saint-Amour is the only cru whose commune lies in Burgundy's Saône-et-Loire department rather than in the Rhône."
+   "nerd_note": "Saint-Amour is the only cru lying entirely in Burgundy's Saône-et-Loire department; Moulin-à-Vent (Romanèche-Thorins) and Chénas (La Chapelle-de-Guinchay) straddle it and the Rhône."
   },
   {
    "country": "fr",
@@ -7317,7 +7317,7 @@
     "Domaine Philippe Vandelle",
     "Château de l'Étoile"
    ],
-   "nerd_note": "L'Étoile is the only Jura appellation with no red wine."
+   "nerd_note": "L'Étoile and Château-Chalon (vin jaune only) are the two Jura appellations with no red wine."
   },
   {
    "country": "fr",

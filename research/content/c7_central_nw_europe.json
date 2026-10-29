@@ -1698,7 +1698,7 @@
    "lon": 8.15,
    "zoom": 9,
    "tagline": "Germany's largest region, reinvented by a generation of young growers.",
-   "summary": "Rheinhessen is a rolling plateau of fields and vineyards inside the Rhine's great bend between Mainz, Bingen and Worms, and with about 27,500 hectares it is the largest wine region in Germany, larger than all of New Zealand. For decades it stood for volume: Liebfraumilch, Müller-Thurgau and bulk wine. Since the late 1990s it has become the most dynamic region in the country, as growers like Klaus Peter Keller, Philipp Wittmann, Kai Schätzel and the 'Message in a Bottle' generation showed that its limestone and red slate could rival anything on the Rhine.\n\nTwo areas carry most of the fame. The Roter Hang between Nackenheim and Nierstein is a steep cliff of red slate and sandstone above the Rhine that gives spicy, mineral Riesling (Pettenthal, Hipping, Ölberg, Brudersberg, Rothenberg). The Wonnegau in the south, around Westhofen and Flörsheim-Dalsheim, sits on limestone and gives powerful, chalky dry Riesling from Morstein, Kirchspiel, Brunnenhäuschen and Hubacker. Rheinhessen also holds the largest share of German Silvaner (about 43 percent of the national total) and Ingelheim's historic red wine.",
+   "summary": "Rheinhessen is a rolling plateau of fields and vineyards inside the Rhine's great bend between Mainz, Bingen and Worms, and with about 27,500 hectares it is the largest wine region in Germany, almost twice the vineyard area of all Switzerland. For decades it stood for volume: Liebfraumilch, Müller-Thurgau and bulk wine. Since the late 1990s it has become the most dynamic region in the country, as growers like Klaus Peter Keller, Philipp Wittmann, Kai Schätzel and the 'Message in a Bottle' generation showed that its limestone and red slate could rival anything on the Rhine.\n\nTwo areas carry most of the fame. The Roter Hang between Nackenheim and Nierstein is a steep cliff of red slate and sandstone above the Rhine that gives spicy, mineral Riesling (Pettenthal, Hipping, Ölberg, Brudersberg, Rothenberg). The Wonnegau in the south, around Westhofen and Flörsheim-Dalsheim, sits on limestone and gives powerful, chalky dry Riesling from Morstein, Kirchspiel, Brunnenhäuschen and Hubacker. Rheinhessen also holds the largest share of German Silvaner (about 43 percent of the national total) and Ingelheim's historic red wine.",
    "history": "Charlemagne built his palace at Ingelheim, and Worms and Mainz were medieval centres of church wine. The Liebfrauenkirche in Worms is surrounded by the Liebfrauenstift vineyards whose wine gave its name to Liebfraumilch, which by the 1980s was a blended brand of millions of cases from four regions. The 1971 Großlage Niersteiner Gutes Domtal and Liebfraumilch together did great damage to the region's reputation. The comeback began with growers who cut yields, farmed organically and priced their wines against grand cru Burgundy; Keller's G-Max is now one of the most expensive dry white wines in the world.",
    "terroir": "A sheltered plateau in the rain shadow of the Hunsrück, Taunus and Donnersberg, one of the driest and warmest parts of Germany. Soils are mostly loess and marl over limestone; the Roter Hang is Rotliegend (Permian red slate and sandstone); the Wonnegau and the area near Bingen add limestone and quartzite (Bingen's Scharlachberg).",
    "grapes": "Müller-Thurgau, Riesling (about 5,400 ha), Dornfelder, Silvaner, Grauburgunder, Weißburgunder, Spätburgunder, Portugieser, Scheurebe.",
@@ -2172,7 +2172,7 @@
    "lat": 46.25,
    "lon": 7.45,
    "zoom": 8.5,
-   "tagline": "A sun-trap valley of the Rhône with dozens of Alpine grapes and Europe's highest vineyards.",
+   "tagline": "A sun-trap valley of the Rhône with dozens of Alpine grapes and some of Europe's highest vineyards.",
    "summary": "The Valais is Switzerland's largest wine canton, with about 4,600 hectares, roughly a third of the national vineyard, stretched for about 100 km along the upper Rhône from Martigny to Visp. The valley lies in the rain shadow of high Alps on both sides, and the vineyards on the south-facing right bank, between 450 and 800 metres, are among the sunniest and driest places in the Alps. Irrigation channels called bisses, some centuries old, once carried glacier water across cliffs to the vines.\n\nNo other wine region of its size grows so many varieties. Chasselas, here called Fendant, and Pinot Noir dominate in volume, along with Gamay and the traditional red blend Dôle. But the Valais' fame now rests on its specialities: Petite Arvine (salty, rhubarb and grapefruit, from dry to late-harvest), Amigne from Vétroz, Humagne Blanche, Heida (Savagnin) from Visperterminen, Johannisberg (Sylvaner), Malvoisie (Pinot Gris, often sweet), Cornalin, Humagne Rouge and Syrah, which has thrived on the warm slopes since the 1920s. In the Val d'Anniviers, villages such as Grimentz keep the Vin des Glaciers, an oxidative, solera-aged wine from the old Rèze grape kept in larch barrels.",
    "history": "Celtic and Roman wine is attested here, from the Sembrancher bottle to Roman Octodurus (Martigny). The canton built its wine economy on Fendant for the Swiss market, then rebuilt its image from the 1990s around native grapes and quality rules; the 1990 cantonal quality hierarchy was Switzerland's first. Leading names include Marie-Thérèse Chappaz in Fully, Domaine Jean-René Germanier, Simon Maye, Denis Mercier, Provins (the big cooperative), Domaine Cornulus and Chanton in Visp.",
    "terroir": "Schist, gneiss and limestone on steep right-bank slopes; alluvial fans and glacial deposits, often stony and well drained. Very dry (under 600 mm in parts), with intense sunlight, high diurnal range and the föhn wind.",
@@ -6579,7 +6579,8 @@
     "Lahofer",
     "Vinařství Waldberg",
     "Ivan Váňa",
-    "Vinařství Lahofer"
+    "Vinařství Lahofer",
+    "Dobrá Vinice"
    ],
    "nerd_note": "Znojmo's medieval underground labyrinth was used for wine storage.",
    "contains": [
@@ -6614,8 +6615,7 @@
     "Vinařství Volařík",
     "Nové Vinařství",
     "Richard Stávek",
-    "Milan Nestarec",
-    "Dobrá Vinice"
+    "Milan Nestarec"
    ],
    "nerd_note": "The Pálava hills are a UNESCO biosphere reserve whose rare steppe flora grows between the vines.",
    "contains": [
@@ -6648,7 +6648,8 @@
     "Vinselekt Michlovský",
     "Vinařství Stapleton & Springer",
     "Vinařství Krist",
-    "Vinařství Kraví hora"
+    "Vinařství Kraví hora",
+    "Vinařství Proqin"
    ],
    "nerd_note": "The red crossing André (Blaufränkisch x Saint Laurent) was bred in this part of Moravia and remains a local favourite.",
    "contains": []
@@ -6677,8 +6678,7 @@
    "producers": [
     "Vinařství Jakubík",
     "Vinařství Petrák",
-    "Vinařství Šebela",
-    "Vinařství Proqin"
+    "Vinařství Šebela"
    ],
    "nerd_note": "Blatnice's St. Anthony chapel on its hill is a pilgrimage site above the vines.",
    "contains": []
@@ -7707,10 +7707,9 @@
    "lat": 50.1058,
    "lon": 7.1191,
    "coord_quality": "precise",
-   "text": "A cliff of slate on the Mosel's outside bend at Bremm, generally billed as the steepest vineyard in Europe, with a via ferrata climbing path through the vines. Romans had a temple on its summit. Ulrich Franzen and a few others keep its tiny terraces planted with Riesling.",
+   "text": "A cliff of slate on the Mosel's outside bend at Bremm, generally billed as the steepest vineyard in Europe, with a via ferrata climbing path through the vines. Romans had a temple on its summit. Kilian Franzen, who took over after his father Ulrich died in an accident in 2010, and a few others keep its tiny terraces planted with Riesling.",
    "producers": [
-    "Franzen",
-    "Weingut Reinhold Franzen"
+    "Weingut Franzen"
    ]
   },
   {
@@ -8311,7 +8310,7 @@
    "lat": 49.4245,
    "lon": 8.1815,
    "coord_quality": "approx",
-   "text": "Named after the black basalt ('pitch stone') quarried from the Pechsteinkopf above Forst and scattered through its soil, the only basalt in the Pfalz's great sites. The dark stones store heat and give smoky, mineral Riesling. Coordinates are approximate, west of the village.",
+   "text": "Named after the black basalt ('pitch stone') quarried from the Pechsteinkopf above Forst and scattered through its soil, the most basalt-rich of the Pfalz's great sites. The dark stones store heat and give smoky, mineral Riesling. Coordinates are approximate, west of the village.",
    "producers": [
     "Dr. Bürklin-Wolf",
     "Geheimer Rat Dr. von Bassermann-Jordan",
@@ -9726,7 +9725,7 @@
    "lat": 46.7811,
    "lon": 15.4533,
    "coord_quality": "precise",
-   "text": "A hilltop village in the Sausal whose slate vineyards climb to over 600 metres, among the highest in Europe; it has a wine museum and Wohlmuth's estate.",
+   "text": "A hilltop village in the Sausal whose slate vineyards climb to over 600 metres, among the highest in Austria; it has a wine museum and Wohlmuth's estate.",
    "producers": [
     "Wohlmuth"
    ]

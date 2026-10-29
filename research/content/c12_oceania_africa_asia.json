@@ -94,7 +94,7 @@
     {
      "when": "1993 to 1996",
      "title": "Geographical Indications",
-     "text": "Amendments to the Australian Wine and Brandy Corporation Act created a Geographical Indications Committee, and the first zones and regions were registered from 1994 to 1996, ahead of the 1994 wine agreement with the European Union. The Label Integrity Program, started in 1990, audits every claim.",
+     "text": "Amendments to the Australian Wine and Brandy Corporation Act created a Geographical Indications Committee, and the first zones and regions were registered from 1994 to 1996, to implement the 1994 wine agreement with the European Union. The Label Integrity Program, started in 1990, audits every claim.",
      "lat": -34.92,
      "lon": 138.6
     },
@@ -691,9 +691,9 @@
     {
      "when": "2001",
      "title": "Sino-French demonstration vineyard",
-     "text": "A Sino-French demonstration vineyard planted at Changli, Hebei, introduced varieties including Marselan, which became a Chinese specialty.",
-     "lat": 39.7029,
-     "lon": 119.1615
+     "text": "A Sino-French demonstration vineyard planted at Donghuayuan in Huailai county, Hebei (now Domaine Franco-Chinois), introduced varieties including Marselan, which became a Chinese specialty.",
+     "lat": 40.33,
+     "lon": 115.79
     },
     {
      "when": "2011",
@@ -2500,7 +2500,7 @@
    "lon": 116.8,
    "zoom": 6.8,
    "tagline": "Two very different wine areas: the dry Huailai basin beyond the Great Wall, and the coastal Changli hills.",
-   "summary": "Hebei's Huailai County (with Shacheng, Great Wall's home) lies in the Sanggan River valley north-west of Beijing, behind the Great Wall, where a dry, windy, sunny climate suits red grapes and Dragon's Eye (Longyan) table grapes have grown for centuries. Changli, on the Bohai coast near Qinhuangdao, is the other major area and home of the Sino-French demonstration vineyard (2001) that introduced Marselan. Grace Vineyard's sister estate and Chateau Sungod (Huailai) are among its boutique producers.",
+   "summary": "Hebei's Huailai County (with Shacheng, Great Wall's home) lies in the Sanggan River valley north-west of Beijing, behind the Great Wall, where a dry, windy, sunny climate suits red grapes and Dragon's Eye (Longyan) table grapes have grown for centuries. Huailai is also home of the Sino-French demonstration vineyard (2001, now Domaine Franco-Chinois) that introduced Marselan. Changli, on the Bohai coast near Qinhuangdao, is the other major area. Grace Vineyard's sister estate and Chateau Sungod (Huailai) are among its boutique producers.",
    "history": "Great Wall winery was founded at Shacheng in 1983 and made China's first dry white in 1979 as a state research project. Changli's Huaxia Great Wall winery (1988) and the Sino-French vineyard made Hebei a centre of experimentation.",
    "terroir": "Huailai: continental, dry (about 400 mm of rain) and cold in winter, vines buried. Changli: maritime, milder, monsoon rain in summer.",
    "grapes": "Cabernet Sauvignon, Merlot, Marselan, Chardonnay, Longyan (Dragon's Eye).",
@@ -10519,12 +10519,13 @@
    ],
    "dominant_style": "white",
    "grapes": "Longyan (Dragon's Eye), Cabernet Sauvignon, Merlot, Chardonnay",
-   "summary": "The GI for the Huailai basin around Shacheng town in Hebei, north-west of Beijing behind the Great Wall, along the Sanggan River and Guanting Reservoir. The state-owned Great Wall winery (founded 1983, now COFCO) is based here, and the area's centuries-old Longyan (Dragon's Eye) grape makes its traditional dry white. Newer estates such as Chateau Sungod and Great Wall Sanggan produce Bordeaux-style reds.",
+   "summary": "The GI for the Huailai basin around Shacheng town in Hebei, north-west of Beijing behind the Great Wall, along the Sanggan River and Guanting Reservoir. The state-owned Great Wall winery (founded 1983, now COFCO) is based here, and the area's centuries-old Longyan (Dragon's Eye) grape makes its traditional dry white. Newer estates such as Chateau Sungod and Great Wall Sanggan produce Bordeaux-style reds, and the Sino-French demonstration farm of 2001, now Domaine Franco-Chinois, brought Marselan to China.",
    "terroir": "Dry, sunny and windy valley at about 500 m; cold winters require vine burial; sandy loam soils.",
    "producers": [
     "Great Wall (COFCO)",
     "Chateau Sungod",
-    "Great Wall Sanggan Estate"
+    "Great Wall Sanggan Estate",
+    "Domaine Franco-Chinois"
    ],
    "nerd_note": "Great Wall's dry white made from Longyan in the late 1970s, the result of a state research project, is usually cited as China's first modern dry white wine.",
    "lat": 40.396,
@@ -10548,12 +10549,11 @@
    ],
    "dominant_style": "red",
    "grapes": "Cabernet Sauvignon, Marselan, Merlot, Chardonnay",
-   "summary": "A coastal producing area near Qinhuangdao on the Bohai Sea, protected as a national GI. It holds the Sino-French Demonstration Vineyard (2001), where Marselan was introduced to China, and the Huaxia Great Wall winery, whose Cabernet was one of China's first serious varietal reds.",
+   "summary": "A coastal producing area near Qinhuangdao on the Bohai Sea, protected as a national GI. It holds the Huaxia Great Wall winery, whose Cabernet was one of China's first serious varietal reds.",
    "terroir": "Sandy soils near the coast; maritime climate with summer monsoon rain.",
    "producers": [
     "Huaxia Great Wall",
-    "Chateau Bolongbao",
-    "Domaine Franco-Chinois"
+    "Chateau Bolongbao"
    ],
    "lat": 39.7029,
    "lon": 119.1615
@@ -11006,7 +11006,7 @@
    "lat": -34.5279,
    "lon": 138.9643,
    "coord_quality": "precise",
-   "text": "Built in 1890 from Bethany bluestone in eleven months, Chateau Tanunda was the largest building in the Southern Hemisphere when finished, a co-operative winery and distillery designed to exploit Europe's phylloxera shortage. Seppelt owned it from 1916 to 1998; the Geber family restored it and its cellars, and it is on the South Australian Heritage Register.",
+   "text": "Built in 1890 from Bethany bluestone in eleven months, Chateau Tanunda was said to be the largest building in the Southern Hemisphere when finished, a co-operative winery and distillery designed to exploit Europe's phylloxera shortage. Seppelt owned it from 1916 to 1998; the Geber family restored it and its cellars, and it is on the South Australian Heritage Register.",
    "appellation": "Barossa Valley",
    "producers": [
     "Chateau Tanunda"
@@ -11761,7 +11761,7 @@
    "lat": -32.6447,
    "lon": 151.4214,
    "coord_quality": "precise",
-   "text": "George Wyndham planted vines at Dalwood on the Hunter River in 1828, among the first in the valley. Penfolds later owned it; it is now a small estate again.",
+   "text": "George Wyndham bought Dalwood on the Hunter River in 1828 and planted vines there in 1830, among the first in the valley. Penfolds later owned it; it is now a small estate again.",
    "appellation": "Hunter"
   },
   {

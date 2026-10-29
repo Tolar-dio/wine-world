@@ -1,20 +1,22 @@
 {
- "built": "2026-10-28T17:57:03+00:00",
+ "built": "2026-10-29T21:27:47+00:00",
  "counts": {
   "countries": 88,
   "countries_with_polygons": 33,
   "countries_with_content": 88,
   "appellations": 2174,
-  "fine_units": 6927,
-  "profiles": 2508,
-  "profiles_on_polygons": 2089,
-  "extra_points": 418,
+  "fine_units": 9248,
+  "profiles": 3917,
+  "fine_profiles": 1335,
+  "fine_units_with_profile": 1331,
+  "profiles_on_polygons": 3505,
+  "extra_points": 411,
   "regions": 358,
   "region_outlines": 358,
   "sites": 2712,
   "sites_total": 2712,
   "grapes": 266,
-  "with_clim": 9101,
+  "with_clim": 11422,
   "timeline": 148,
   "glossary": 204,
   "soils": 33,
@@ -46,6 +48,18 @@
    "url": "https://data.civis.bz.it/"
   },
   {
+   "key": "cadastre",
+   "title": "cadastre",
+   "licence": "",
+   "url": ""
+  },
+  {
+   "key": "champ",
+   "title": "champ",
+   "licence": "",
+   "url": ""
+  },
+  {
    "key": "cl-wiki",
    "title": "Chile DO comuna lists transcribed from Spanish Wikipedia (Anexo: Regiones vitícolas de Chile), which cites LeyChile Decreto 464/1994 and amendments",
    "licence": "CC BY-SA 4.0 (Wikipedia text)",
@@ -56,6 +70,12 @@
    "title": "Embrapa Uva e Vinho, Brazilian GI delimitations (Embrapa GeoInfo)",
    "licence": "Licence not specified; attribution Embrapa",
    "url": "https://geoinfo.dados.embrapa.br/"
+  },
+  {
+   "key": "esmuni",
+   "title": "esmuni",
+   "licence": "",
+   "url": ""
   },
   {
    "key": "eupdo",
@@ -122,6 +142,12 @@
    "title": "OpenStreetMap contributors",
    "licence": "ODbL 1.0",
    "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "key": "rtvini",
+   "title": "rtvini",
+   "licence": "",
+   "url": ""
   },
   {
    "key": "swisstopo",

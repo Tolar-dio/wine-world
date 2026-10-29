@@ -2021,7 +2021,7 @@
     "Campanha Gaúcha"
    ],
    "hectares": "About 3,000 ha in France plus several thousand in China (2016 to 2020 estimates), growing.",
-   "profile": "Paul Truel crossed Cabernet Sauvignon with Grenache in 1961 hoping for big berries and high yields; he got small berries and quality instead, so the grape sat unused until 1990. It combines Cabernet's structure with Grenache's warmth, resists mildew and grey rot, and tolerates heat. China adopted it eagerly after Domaine Sino-French planted it in Hebei in 2001, and it is now promoted as a Chinese signature grape. In 2021 Bordeaux approved it among seven new climate-adaptation varieties for Bordeaux and Bordeaux Supérieur.",
+   "profile": "Paul Truel crossed Cabernet Sauvignon with Grenache in 1961 hoping for big berries and high yields; he got small berries and quality instead, so the grape sat unused until 1990. It combines Cabernet's structure with Grenache's warmth, resists mildew and grey rot, and tolerates heat. China adopted it eagerly after Domaine Sino-French planted it in Hebei in 2001, and it is now promoted as a Chinese signature grape. In 2021 Bordeaux approved it among six new climate-adaptation varieties for Bordeaux and Bordeaux Supérieur.",
    "trivia": "It is named after Marseillan, the Hérault seaside village where INRA's Domaine de Vassal grape collection was then located.",
    "vivc": {
     "id": 16383,
@@ -8457,7 +8457,8 @@
     "confidence": "documented"
    },
    "parents": [
-    "Furmint"
+    "Furmint",
+    "Tsimlyansky Bely"
    ],
    "parentage_note": "Furmint × Tzimliansky Belyi per VIVC (marker-confirmed).",
    "offspring": [],
@@ -8482,7 +8483,8 @@
     "url": "https://www.vivc.de/index.php?r=passport%2Fview&id=5314"
    },
    "parent_ids": [
-    "furmint"
+    "furmint",
+    null
    ],
    "offspring_ids": []
   },
@@ -11950,7 +11952,7 @@
  "meta": {
   "generated": "2026-10-28",
   "count": 266,
-  "notes": "parent_ids and offspring_ids give the matching grape id or null when the relative has no entry. mutation_of / mutations mark colour or clonal mutations (same genotype), which are not parent-offspring links. Parentage follows VIVC (Vitis International Variety Catalogue, vivc.de, pedigrees confirmed by markers, queried Oct 2026) cross-checked with the papers cited in each parentage_note. Hectares carry their own year and source. Parents not present as their own entry: Alba Imputotato, Amaral, Arinto do Dão, Bailey, Bombino Bianco, Bouquet Blanc, Bouteillan Noir, Bratkovina Bijela, Brustiano Faux, Cardinal, Cascade, Cassady, Centennial, Coccalona Nera, Diana, Dobričić, Dolcetto Bianco, Duljenga, ES 2-12-13, ES 4-7-26, ES 6-8-25, Espadeiro Branco, Florida D6-148, Geisenheim 6493, Goldriesling, Helfensteiner, Heroldrebe, Ishihara Wase, Joannès Seyve 11369, Joannès Seyve 23-416, João Domingos, Karystino, Kay Gray, Landot 4511, MN 1094, Maiolica, Malvasia Aromatica di Parma, Mayolet, Merzling, Millardet et Grasset 101 o.p., Moissan, Muscat Hamburg, Muscat d'Eisenstadt, Patorra, Petit Bouschet, Petit Rouge, Plantet, Ravat 262, Roditis, Roter Veltliner, Schiava Gentile, Schuyler, Seibel 5656, Seyve-Villard 14-287, St. Pepin, Strinto Porcino, Traminer × wild vine seedling (unidentified), Tressot, Visparola, Zlatarica Blatska, Zähringer, Österreichisch Weiss",
+  "notes": "parent_ids and offspring_ids give the matching grape id or null when the relative has no entry. mutation_of / mutations mark colour or clonal mutations (same genotype), which are not parent-offspring links. Parentage follows VIVC (Vitis International Variety Catalogue, vivc.de, pedigrees confirmed by markers, queried Oct 2026) cross-checked with the papers cited in each parentage_note. Hectares carry their own year and source. Parents not present as their own entry: Alba Imputotato, Amaral, Arinto do Dão, Bailey, Bombino Bianco, Bouquet Blanc, Bouteillan Noir, Bratkovina Bijela, Brustiano Faux, Cardinal, Cascade, Cassady, Centennial, Coccalona Nera, Diana, Dobričić, Dolcetto Bianco, Duljenga, ES 2-12-13, ES 4-7-26, ES 6-8-25, Espadeiro Branco, Florida D6-148, Geisenheim 6493, Goldriesling, Helfensteiner, Heroldrebe, Ishihara Wase, Joannès Seyve 11369, Joannès Seyve 23-416, João Domingos, Karystino, Kay Gray, Landot 4511, MN 1094, Maiolica, Malvasia Aromatica di Parma, Mayolet, Merzling, Millardet et Grasset 101 o.p., Moissan, Muscat Hamburg, Muscat d'Eisenstadt, Patorra, Petit Bouschet, Petit Rouge, Plantet, Ravat 262, Roditis, Roter Veltliner, Schiava Gentile, Schuyler, Seibel 5656, Seyve-Villard 14-287, St. Pepin, Strinto Porcino, Traminer × wild vine seedling (unidentified), Tressot, Tsimlyansky Bely, Visparola, Zlatarica Blatska, Zähringer, Österreichisch Weiss",
   "sources": [
    {
     "title": "Vitis International Variety Catalogue (VIVC), JKI Geilweilerhof",

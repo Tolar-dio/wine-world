@@ -931,6 +931,7 @@ details.wg .list li:first-child { border-top: 0; }
 .vt-h { fill: color-mix(in srgb, var(--warm) 85%, transparent); }
 .vt-ev { position: absolute; left: 0; right: 0; top: 0; height: 14px; }
 .vt-m { position: absolute; top: 0; transform: translateX(-50%); display: flex; flex-direction: column-reverse; gap: 1px; align-items: center; }
+.vt-m .ek { width: 5px; height: 5px; }
 .vt-axis { position: relative; height: 16px; margin-top: 3px; font-size: 10.5px; color: var(--faint); }
 .vt-axis span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
 .vt-cur { position: absolute; top: 12px; bottom: 16px; width: 0; border-left: 1.5px solid var(--text); pointer-events: none; transform: translateX(-.75px); opacity: .8; }
@@ -970,7 +971,7 @@ details.wg .list li:first-child { border-top: 0; }
 .dr-pt b { order: 1; font-weight: 500; font-size: 12.5px; white-space: nowrap; }
 .dr-pt small { order: 3; font-family: var(--f-mono); font-size: 10.5px; color: var(--muted); white-space: nowrap; }
 .dr-pt.p1 b, .dr-pt.p1 small { visibility: hidden; }
-.dr-pt.p1 i { width: 7px; height: 7px; border-color: var(--muted); margin-top: 18px; }
+.dr-pt.p1 i { width: 7px; height: 7px; border-color: var(--muted); margin: 4px 0; }
 .dr-pt.p1 { top: 0; }
 .dr-pt.p2 i { background: var(--warm); border-color: var(--warm); }
 .dr-twin { margin: 12px 0 0; font-size: 15px; line-height: 1.5; border-left: 2px solid var(--highlight); padding: 1px 0 1px 12px; }
@@ -1794,7 +1795,7 @@ a.jr-hb-l:hover { color: var(--accent); }
   <div id="toast" role="status" hidden></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
-<script>window.__VM_MANIFEST={"files":["data/base/admin1_lines.geojson","data/base/countries.geojson","data/base/countries_low.geojson","data/base/country_labels.geojson","data/base/lakes.geojson","data/base/places.geojson","data/base/rivers.geojson","data/content/al.json","data/content/am.json","data/content/ar.json","data/content/at.json","data/content/au.json","data/content/az.json","data/content/ba.json","data/content/be.json","data/content/bg.json","data/content/bo.json","data/content/br.json","data/content/ca.json","data/content/ch.json","data/content/cl.json","data/content/cn.json","data/content/co.json","data/content/cv.json","data/content/cy.json","data/content/cz.json","data/content/de.json","data/content/dk.json","data/content/dz.json","data/content/ec.json","data/content/eg.json","data/content/es.json","data/content/et.json","data/content/fr.json","data/content/gb.json","data/content/ge.json","data/content/global/glossary.json","data/content/global/grapes.json","data/content/global/soils.json","data/content/global/systems.json","data/content/global/timeline.json","data/content/gr.json","data/content/hr.json","data/content/hu.json","data/content/id.json","data/content/il.json","data/content/in.json","data/content/iq.json","data/content/ir.json","data/content/it.json","data/content/jo.json","data/content/jp.json","data/content/ke.json","data/content/kg.json","data/content/kh.json","data/content/kr.json","data/content/kz.json","data/content/lb.json","data/content/lu.json","data/content/ly.json","data/content/ma.json","data/content/md.json","data/content/me.json","data/content/mg.json","data/content/mk.json","data/content/mm.json","data/content/mt.json","data/content/mx.json","data/content/na.json","data/content/nl.json","data/content/no.json","data/content/nz.json","data/content/pe.json","data/content/pl.json","data/content/ps.json","data/content/pt.json","data/content/py.json","data/content/ro.json","data/content/rs.json","data/content/ru.json","data/content/se.json","data/content/si.json","data/content/sk.json","data/content/sy.json","data/content/th.json","data/content/tj.json","data/content/tm.json","data/content/tn.json","data/content/tr.json","data/content/tw.json","data/content/tz.json","data/content/ua.json","data/content/us.json","data/content/uy.json","data/content/uz.json","data/content/ve.json","data/content/vn.json","data/content/xk.json","data/content/za.json","data/content/zw.json","data/geo/_climrefs.json","data/geo/_countries.json","data/geo/_extra_points.geojson","data/geo/_index.json","data/geo/_overview.geojson","data/geo/_regions.geojson","data/geo/_sites.geojson","data/geo/_varieties.json","data/geo/ar.geojson","data/geo/at.geojson","data/geo/at_fine.geojson","data/geo/au.geojson","data/geo/be.geojson","data/geo/bg.geojson","data/geo/br.geojson","data/geo/ca.geojson","data/geo/ch.geojson","data/geo/cl.geojson","data/geo/cy.geojson","data/geo/cz.geojson","data/geo/de.geojson","data/geo/de_fine.geojson","data/geo/dk.geojson","data/geo/es.geojson","data/geo/fr.geojson","data/geo/fr_fine.geojson","data/geo/gb.geojson","data/geo/gr.geojson","data/geo/hr.geojson","data/geo/hu.geojson","data/geo/it.geojson","data/geo/it_fine.geojson","data/geo/jp.geojson","data/geo/lu.geojson","data/geo/md.geojson","data/geo/mt.geojson","data/geo/nl.geojson","data/geo/nz.geojson","data/geo/pt.geojson","data/geo/ro.geojson","data/geo/si.geojson","data/geo/sk.geojson","data/geo/us.geojson","data/geo/uy.geojson","data/geo/za.geojson","data/map/cover.json","data/map/journeys.json","data/meta.json","data/photos/_global.json","data/photos/al.json","data/photos/am.json","data/photos/ar.json","data/photos/at.json","data/photos/au.json","data/photos/az.json","data/photos/ba.json","data/photos/be.json","data/photos/bg.json","data/photos/bo.json","data/photos/br.json","data/photos/ca.json","data/photos/ch.json","data/photos/cl.json","data/photos/cn.json","data/photos/co.json","data/photos/cv.json","data/photos/cy.json","data/photos/cz.json","data/photos/de.json","data/photos/dk.json","data/photos/dz.json","data/photos/eg.json","data/photos/es.json","data/photos/et.json","data/photos/fr.json","data/photos/gb.json","data/photos/ge.json","data/photos/gr.json","data/photos/hr.json","data/photos/hu.json","data/photos/id.json","data/photos/il.json","data/photos/in.json","data/photos/iq.json","data/photos/ir.json","data/photos/it.json","data/photos/jo.json","data/photos/jp.json","data/photos/kr.json","data/photos/kz.json","data/photos/lb.json","data/photos/lu.json","data/photos/ly.json","data/photos/ma.json","data/photos/md.json","data/photos/me.json","data/photos/mg.json","data/photos/mk.json","data/photos/mm.json","data/photos/mt.json","data/photos/mx.json","data/photos/na.json","data/photos/nl.json","data/photos/nz.json","data/photos/pe.json","data/photos/pl.json","data/photos/ps.json","data/photos/pt.json","data/photos/ro.json","data/photos/rs.json","data/photos/ru.json","data/photos/se.json","data/photos/si.json","data/photos/sk.json","data/photos/sy.json","data/photos/th.json","data/photos/tj.json","data/photos/tm.json","data/photos/tn.json","data/photos/tr.json","data/photos/tw.json","data/photos/ua.json","data/photos/us.json","data/photos/uy.json","data/photos/uz.json","data/photos/vn.json","data/photos/za.json","data/regs/ar.json","data/regs/at.json","data/regs/au.json","data/regs/br.json","data/regs/ca.json","data/regs/ch.json","data/regs/cl.json","data/regs/cn.json","data/regs/cy.json","data/regs/de.json","data/regs/es.json","data/regs/fr.json","data/regs/gb.json","data/regs/ge.json","data/regs/gr.json","data/regs/hr.json","data/regs/hu.json","data/regs/it.json","data/regs/jp.json","data/regs/md.json","data/regs/nz.json","data/regs/pt.json","data/regs/si.json","data/regs/us.json","data/regs/uy.json","data/regs/za.json","data/study/decks.json","data/study/tasting.json","data/topo/_attrs.json","data/topo/_sites.json","data/topo/ar.json","data/topo/at.json","data/topo/au.json","data/topo/be.json","data/topo/bg.json","data/topo/br.json","data/topo/ca.json","data/topo/ch.json","data/topo/cl.json","data/topo/cy.json","data/topo/cz.json","data/topo/de.json","data/topo/dk.json","data/topo/es.json","data/topo/fr.json","data/topo/gb.json","data/topo/gr.json","data/topo/hr.json","data/topo/hu.json","data/topo/it.json","data/topo/jp.json","data/topo/lu.json","data/topo/md.json","data/topo/mt.json","data/topo/nl.json","data/topo/nz.json","data/topo/pt.json","data/topo/ro.json","data/topo/si.json","data/topo/sk.json","data/topo/us.json","data/topo/uy.json","data/topo/za.json","data/vintage/_drift.json","data/vintage/_events.json","data/vintage/al.json","data/vintage/am.json","data/vintage/ar.json","data/vintage/at.json","data/vintage/au.json","data/vintage/ba.json","data/vintage/be.json","data/vintage/bg.json","data/vintage/bo.json","data/vintage/br.json","data/vintage/ca.json","data/vintage/ch.json","data/vintage/cl.json","data/vintage/cn.json","data/vintage/cv.json","data/vintage/cy.json","data/vintage/cz.json","data/vintage/de.json","data/vintage/dk.json","data/vintage/dz.json","data/vintage/es.json","data/vintage/fr.json","data/vintage/gb.json","data/vintage/ge.json","data/vintage/gr.json","data/vintage/hr.json","data/vintage/hu.json","data/vintage/il.json","data/vintage/in.json","data/vintage/it.json","data/vintage/jp.json","data/vintage/lb.json","data/vintage/lu.json","data/vintage/ma.json","data/vintage/md.json","data/vintage/me.json","data/vintage/mk.json","data/vintage/mt.json","data/vintage/mx.json","data/vintage/nl.json","data/vintage/nz.json","data/vintage/pe.json","data/vintage/pl.json","data/vintage/pt.json","data/vintage/ro.json","data/vintage/rs.json","data/vintage/ru.json","data/vintage/se.json","data/vintage/si.json","data/vintage/sk.json","data/vintage/th.json","data/vintage/tn.json","data/vintage/tr.json","data/vintage/ua.json","data/vintage/us.json","data/vintage/uy.json","data/vintage/xk.json","data/vintage/za.json"],"glyphs":{"atlas-italic":[0,256,512,7680,8192],"atlas-regular":[0,256,512,7680,8192],"atlas-sc":[0,256,512,7680,8192]}};window.__VM_BUILD={mode:'gh'};</script>
+<script>window.__VM_MANIFEST={"files":["data/base/admin1_lines.geojson","data/base/countries.geojson","data/base/countries_low.geojson","data/base/country_labels.geojson","data/base/lakes.geojson","data/base/places.geojson","data/base/rivers.geojson","data/content/al.json","data/content/am.json","data/content/ar.json","data/content/at.json","data/content/au.json","data/content/az.json","data/content/ba.json","data/content/be.json","data/content/bg.json","data/content/bo.json","data/content/br.json","data/content/ca.json","data/content/ch.json","data/content/cl.json","data/content/cn.json","data/content/co.json","data/content/cv.json","data/content/cy.json","data/content/cz.json","data/content/de.json","data/content/dk.json","data/content/dz.json","data/content/ec.json","data/content/eg.json","data/content/es.json","data/content/et.json","data/content/fr.json","data/content/gb.json","data/content/ge.json","data/content/global/glossary.json","data/content/global/grapes.json","data/content/global/soils.json","data/content/global/systems.json","data/content/global/timeline.json","data/content/gr.json","data/content/hr.json","data/content/hu.json","data/content/id.json","data/content/il.json","data/content/in.json","data/content/iq.json","data/content/ir.json","data/content/it.json","data/content/jo.json","data/content/jp.json","data/content/ke.json","data/content/kg.json","data/content/kh.json","data/content/kr.json","data/content/kz.json","data/content/lb.json","data/content/lu.json","data/content/ly.json","data/content/ma.json","data/content/md.json","data/content/me.json","data/content/mg.json","data/content/mk.json","data/content/mm.json","data/content/mt.json","data/content/mx.json","data/content/na.json","data/content/nl.json","data/content/no.json","data/content/nz.json","data/content/pe.json","data/content/pl.json","data/content/ps.json","data/content/pt.json","data/content/py.json","data/content/ro.json","data/content/rs.json","data/content/ru.json","data/content/se.json","data/content/si.json","data/content/sk.json","data/content/sy.json","data/content/th.json","data/content/tj.json","data/content/tm.json","data/content/tn.json","data/content/tr.json","data/content/tw.json","data/content/tz.json","data/content/ua.json","data/content/us.json","data/content/uy.json","data/content/uz.json","data/content/ve.json","data/content/vn.json","data/content/xk.json","data/content/za.json","data/content/zw.json","data/geo/_climrefs.json","data/geo/_countries.json","data/geo/_extra_points.geojson","data/geo/_index.json","data/geo/_overview.geojson","data/geo/_regions.geojson","data/geo/_sites.geojson","data/geo/_varieties.json","data/geo/ar.geojson","data/geo/at.geojson","data/geo/at_fine.geojson","data/geo/au.geojson","data/geo/be.geojson","data/geo/bg.geojson","data/geo/br.geojson","data/geo/ca.geojson","data/geo/ch.geojson","data/geo/cl.geojson","data/geo/cy.geojson","data/geo/cz.geojson","data/geo/de.geojson","data/geo/de_fine.geojson","data/geo/dk.geojson","data/geo/es.geojson","data/geo/fr.geojson","data/geo/fr_fine.geojson","data/geo/gb.geojson","data/geo/gr.geojson","data/geo/hr.geojson","data/geo/hu.geojson","data/geo/it.geojson","data/geo/it_fine.geojson","data/geo/jp.geojson","data/geo/lu.geojson","data/geo/md.geojson","data/geo/mt.geojson","data/geo/nl.geojson","data/geo/nz.geojson","data/geo/pt.geojson","data/geo/ro.geojson","data/geo/si.geojson","data/geo/sk.geojson","data/geo/us.geojson","data/geo/uy.geojson","data/geo/za.geojson","data/map/cover.json","data/map/journeys.json","data/meta.json","data/photos/_global.json","data/photos/al.json","data/photos/am.json","data/photos/ar.json","data/photos/at.json","data/photos/au.json","data/photos/az.json","data/photos/ba.json","data/photos/be.json","data/photos/bg.json","data/photos/bo.json","data/photos/br.json","data/photos/ca.json","data/photos/ch.json","data/photos/cl.json","data/photos/cn.json","data/photos/co.json","data/photos/cv.json","data/photos/cy.json","data/photos/cz.json","data/photos/de.json","data/photos/dk.json","data/photos/dz.json","data/photos/eg.json","data/photos/es.json","data/photos/fr.json","data/photos/gb.json","data/photos/ge.json","data/photos/gr.json","data/photos/hr.json","data/photos/hu.json","data/photos/id.json","data/photos/il.json","data/photos/in.json","data/photos/iq.json","data/photos/ir.json","data/photos/it.json","data/photos/jo.json","data/photos/jp.json","data/photos/lb.json","data/photos/lu.json","data/photos/ly.json","data/photos/ma.json","data/photos/md.json","data/photos/me.json","data/photos/mg.json","data/photos/mk.json","data/photos/mm.json","data/photos/mt.json","data/photos/mx.json","data/photos/na.json","data/photos/nl.json","data/photos/nz.json","data/photos/pe.json","data/photos/pl.json","data/photos/ps.json","data/photos/pt.json","data/photos/py.json","data/photos/ro.json","data/photos/rs.json","data/photos/ru.json","data/photos/se.json","data/photos/si.json","data/photos/sk.json","data/photos/sy.json","data/photos/th.json","data/photos/tj.json","data/photos/tm.json","data/photos/tn.json","data/photos/tr.json","data/photos/tw.json","data/photos/ua.json","data/photos/us.json","data/photos/uy.json","data/photos/uz.json","data/photos/vn.json","data/photos/xk.json","data/photos/za.json","data/regs/ar.json","data/regs/at.json","data/regs/au.json","data/regs/br.json","data/regs/ca.json","data/regs/ch.json","data/regs/cl.json","data/regs/cn.json","data/regs/cy.json","data/regs/de.json","data/regs/es.json","data/regs/fr.json","data/regs/gb.json","data/regs/ge.json","data/regs/gr.json","data/regs/hr.json","data/regs/hu.json","data/regs/it.json","data/regs/jp.json","data/regs/md.json","data/regs/nz.json","data/regs/pt.json","data/regs/si.json","data/regs/us.json","data/regs/uy.json","data/regs/za.json","data/study/decks.json","data/study/tasting.json","data/topo/_attrs.json","data/topo/_sites.json","data/topo/ar.json","data/topo/at.json","data/topo/au.json","data/topo/be.json","data/topo/bg.json","data/topo/br.json","data/topo/ca.json","data/topo/ch.json","data/topo/cl.json","data/topo/cy.json","data/topo/cz.json","data/topo/de.json","data/topo/dk.json","data/topo/es.json","data/topo/fr.json","data/topo/gb.json","data/topo/gr.json","data/topo/hr.json","data/topo/hu.json","data/topo/it.json","data/topo/jp.json","data/topo/lu.json","data/topo/md.json","data/topo/mt.json","data/topo/nl.json","data/topo/nz.json","data/topo/pt.json","data/topo/ro.json","data/topo/si.json","data/topo/sk.json","data/topo/us.json","data/topo/uy.json","data/topo/za.json","data/vintage/_drift.json","data/vintage/_events.json","data/vintage/al.json","data/vintage/am.json","data/vintage/ar.json","data/vintage/at.json","data/vintage/au.json","data/vintage/ba.json","data/vintage/be.json","data/vintage/bg.json","data/vintage/bo.json","data/vintage/br.json","data/vintage/ca.json","data/vintage/ch.json","data/vintage/cl.json","data/vintage/cn.json","data/vintage/cv.json","data/vintage/cy.json","data/vintage/cz.json","data/vintage/de.json","data/vintage/dk.json","data/vintage/dz.json","data/vintage/es.json","data/vintage/fr.json","data/vintage/gb.json","data/vintage/ge.json","data/vintage/gr.json","data/vintage/hr.json","data/vintage/hu.json","data/vintage/il.json","data/vintage/in.json","data/vintage/it.json","data/vintage/jp.json","data/vintage/lb.json","data/vintage/lu.json","data/vintage/ma.json","data/vintage/md.json","data/vintage/me.json","data/vintage/mk.json","data/vintage/mt.json","data/vintage/mx.json","data/vintage/nl.json","data/vintage/nz.json","data/vintage/pe.json","data/vintage/pl.json","data/vintage/pt.json","data/vintage/ro.json","data/vintage/rs.json","data/vintage/ru.json","data/vintage/se.json","data/vintage/si.json","data/vintage/sk.json","data/vintage/th.json","data/vintage/tn.json","data/vintage/tr.json","data/vintage/ua.json","data/vintage/us.json","data/vintage/uy.json","data/vintage/xk.json","data/vintage/za.json"],"glyphs":{"atlas-italic":[0,256,512,7680,8192],"atlas-regular":[0,256,512,7680,8192],"atlas-sc":[0,256,512,7680,8192]}};window.__VM_BUILD={mode:'gh'};</script>
 <script>
 /* Vitis Mundi: core (utilities, tokens, data store, search) */
 'use strict';
@@ -1999,11 +2000,31 @@ function getContent(iso) {
       c.regions = arr(c.regions);
       c.sites = arr(c.sites);
       c.profiles = c.profiles || {};
+      // fine-unit profiles written inline (integrate.py --inline-fine-profiles) join the main map
+      if (c.fine_profiles && typeof c.fine_profiles === 'object') for (const [k, v] of Object.entries(c.fine_profiles)) if (!c.profiles[k]) c.profiles[k] = v;
       for (const r of c.regions) { if (!r.id) r.id = `region-${iso}-${slug(r.name)}`; }
       return c;
     }));
   }
   return D.content.get(iso);
+}
+/* fine-unit profiles (Burgundy climats, Einzellagen, Rieden, MGAs...) live in data/content/{iso2}_fine.json, loaded
+   the first time a fine unit (or a site inside one) is opened, and merged into the country's profiles */
+const _fineContent = new Map();
+function getFineContent(iso) {
+  if (!iso) return Promise.resolve(null);
+  if (!_fineContent.has(iso)) {
+    _fineContent.set(iso, getContent(iso).then(async c => {
+      if (!c) return null;
+      const file = c.fine_content || D.countries[iso]?.fine_content;
+      if (!file || !has('data/content/' + file)) return c;
+      const j = await getJSON('data/content/' + file);
+      const fp = j && (j.fine_profiles || j.profiles);
+      if (fp && typeof fp === 'object') for (const [k, v] of Object.entries(fp)) if (!c.profiles[k]) c.profiles[k] = v;
+      return c;
+    }));
+  }
+  return _fineContent.get(iso);
 }
 function setIndex(list) {
   D.index = arr(list);
@@ -2717,6 +2738,7 @@ async function loadSecondary() {
 }
 function addRegions(fc) {
   setRegions(fc);
+  vmEmit('data:regions', D.regions);
   rebuildSearch();
   if (!fc || !map) return;
   addSourceSafe('regions', { type: 'geojson', data: fc, promoteId: 'id', tolerance: 0.6 });
@@ -2733,6 +2755,7 @@ function addRegions(fc) {
 }
 function addSites(fc) {
   setSites(fc);
+  vmEmit('data:sites', D.sites);
   rebuildSearch();
   if (!fc || !map) return;
   for (const f of fc.features) { const p = f.properties; p.lab = safeLabel(p.name, 'atlas-regular'); if (!KIND_SHAPE[p.kind]) p.kind = 'vineyard'; }
@@ -2753,16 +2776,23 @@ function addExtra(fc) {
     const p = f.properties;
     p.lab = safeLabel(p.name, 'atlas-italic');
     if (!STYLES.includes(p.style)) p.style = 'mixed';
+    p.fine = (p.fine === 1 || p.fine === true) ? 1 : 0;
     S.srcOf.set(p.id, 'extra');
   }
   addSourceSafe('extra', { type: 'geojson', data: fc, promoteId: 'id' });
   const vis = S.layers.apps ? 'visible' : 'none';
   // points-only appellations (no published boundary): a faint glow on the globe, a ringed dot when closer
-  addLayerSafe({ id: 'extra-glow', type: 'circle', source: 'extra', maxzoom: 6, layout: { visibility: vis }, paint: {
+  addLayerSafe({ id: 'extra-glow', type: 'circle', source: 'extra', maxzoom: 6, filter: ['!=', ['get', 'fine'], 1], layout: { visibility: vis }, paint: {
     'circle-color': colorExpr(), 'circle-blur': 1, 'circle-radius': ['interpolate', ['linear'], ['zoom'], 1, 4, 5, 10],
     'circle-opacity': ['interpolate', ['linear'], ['zoom'], 2.6, ovGlowOp(), 4.4, 0] } }, 'anchor-points');
-  addLayerSafe({ id: 'extra-pt', type: 'circle', source: 'extra', layout: { visibility: vis }, paint: extraPaint() }, 'anchor-points');
-  addLayerSafe({ id: 'extra-lab', type: 'symbol', source: 'extra', minzoom: 5.6, layout: {
+  addLayerSafe({ id: 'extra-pt', type: 'circle', source: 'extra', filter: ['!=', ['get', 'fine'], 1], layout: { visibility: vis }, paint: extraPaint() }, 'anchor-points');
+  // fine units known only as a point (a cru or Einzellage with a profile but no polygon yet): only at fine zoom
+  addLayerSafe({ id: 'extra-fpt', type: 'circle', source: 'extra', minzoom: Z_FINE - 0.3, filter: ['==', ['get', 'fine'], 1], layout: { visibility: vis }, paint: extraPaint() }, 'anchor-points');
+  addLayerSafe({ id: 'extra-flab', type: 'symbol', source: 'extra', minzoom: Z_FINE + 0.4, filter: ['==', ['get', 'fine'], 1], layout: {
+    visibility: S.layers.labels && S.layers.apps ? 'visible' : 'none', 'text-field': ['get', 'lab'], 'text-font': F_IT, 'text-size': 12,
+    'text-variable-anchor': ['top', 'bottom', 'left', 'right'], 'text-radial-offset': 0.9, 'text-justify': 'auto', 'text-max-width': 7, 'text-padding': 2 },
+    paint: { 'text-color': TOK['map-label-wine'], 'text-halo-color': TOK.halo, 'text-halo-width': 1.3 } }, 'anchor-top');
+  addLayerSafe({ id: 'extra-lab', type: 'symbol', source: 'extra', minzoom: 5.6, filter: ['!=', ['get', 'fine'], 1], layout: {
     visibility: S.layers.labels && S.layers.apps ? 'visible' : 'none', 'text-field': ['get', 'lab'], 'text-font': F_IT,
     'text-size': ['interpolate', ['linear'], ['zoom'], 6, 12, 10, 14], 'text-variable-anchor': ['top', 'bottom', 'left', 'right'], 'text-radial-offset': 0.9,
     'text-justify': 'auto', 'text-max-width': 8, 'text-padding': 2 },
@@ -2946,7 +2976,7 @@ function repaintApps() {
   }
   if (map.getLayer('ov-glow')) { map.setPaintProperty('ov-glow', 'circle-color', col); map.setPaintProperty('ov-core', 'circle-color', col); }
   if (map.getLayer('extra-pt')) {
-    for (const [k, v] of Object.entries(extraPaint())) map.setPaintProperty('extra-pt', k, v);
+    for (const [k, v] of Object.entries(extraPaint())) { map.setPaintProperty('extra-pt', k, v); if (map.getLayer('extra-fpt')) map.setPaintProperty('extra-fpt', k, v); }
     map.setPaintProperty('extra-glow', 'circle-color', col);
     map.setPaintProperty('extra-glow', 'circle-opacity', ['interpolate', ['linear'], ['zoom'], 2.6, ovGlowOp(), 4.4, 0]);
     map.setPaintProperty('extra-lab', 'text-opacity', labOpacity(5.6));
@@ -2971,7 +3001,7 @@ function repaintAll() {
   P('admin1-line-1', 'line-color', t.border); P('admin1-line-2', 'line-color', t.border);
   for (const k of [0, 1, 2]) P('rivers-line-' + k, 'line-color', ['case', ['==', ['get', 'w'], 1], t['river-wine'], t.river]);
   P('rivers-lab-2', 'text-color', t.muted); P('rivers-lab-2', 'text-halo-color', t.halo);
-  for (const id of ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab']) { P(id, 'text-color', t['map-label-wine']); P(id, 'text-halo-color', t.halo); }
+  for (const id of ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'extra-flab']) { P(id, 'text-color', t['map-label-wine']); P(id, 'text-halo-color', t.halo); }
   P('rivers-lab', 'text-color', t['river-wine']); P('rivers-lab', 'text-halo-color', t.halo);
   for (const k of [0, 1, 2]) { P('towns-' + k, 'text-color', ['case', ['==', ['get', 'w'], 1], t['map-label-wine'], t['map-label']]); P('towns-' + k, 'text-halo-color', t.halo); }
   P('site-icon', 'text-color', t.text); P('site-icon', 'text-halo-color', t.halo);
@@ -2986,8 +3016,8 @@ function repaintAll() {
 }
 function setMode(m) { S.mode = m; store.set('mode', m); repaintApps(); APP.emit('mode'); }
 const LAYER_GROUPS = {
-  apps: () => [...S.sources.flatMap(k => [k + '-fill', k + '-line', k + '-sel']), 'ov-glow', 'ov-core', 'extra-pt', 'extra-glow'],
-  labels: () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'clab', 'reg-lab', 'rivers-lab', 'rivers-lab-2', 'towns-0', 'towns-1', 'towns-2'],
+  apps: () => [...S.sources.flatMap(k => [k + '-fill', k + '-line', k + '-sel']), 'ov-glow', 'ov-core', 'extra-pt', 'extra-fpt', 'extra-glow'],
+  labels: () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'extra-flab', 'clab', 'reg-lab', 'rivers-lab', 'rivers-lab-2', 'towns-0', 'towns-1', 'towns-2'],
   sites: () => ['site-icon'], rivers: () => ['rivers-line-0', 'rivers-line-1', 'rivers-line-2', 'rivers-lab', 'rivers-lab-2'], lakes: () => ['lakes-fill'],
   regions: () => ['reg-line', 'reg-lab'], belt: () => ['belt-fill', 'belt-edge'], grat: () => ['grat-line'], towns: () => ['towns-0', 'towns-1', 'towns-2']
 };
@@ -2995,7 +3025,7 @@ function applyLayerVis() {
   if (!map) return;
   const L = S.layers;
   const on = id => {
-    if (/^lab-|^fine-lab|^extra-lab/.test(id)) return L.labels && L.apps;
+    if (/^lab-|^fine-lab|^extra-lab|^extra-flab/.test(id)) return L.labels && L.apps;
     if (id === 'clab') return L.labels;
     if (id === 'reg-lab') return L.labels && L.regions;
     if (/^rivers-lab/.test(id)) return L.labels && L.rivers;
@@ -3007,6 +3037,7 @@ function applyLayerVis() {
   for (const id of all) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', on(id) ? 'visible' : 'none');
   store.set('layers', S.layers);
   if (typeof bmAfterLayerVis === 'function') bmAfterLayerVis();
+  enforceLabelsHidden();
 }
 
 /* ---------- camera ---------- */
@@ -3167,7 +3198,7 @@ function hitTest(point, touch) {
   const box = [[point.x - r, point.y - r], [point.x + r, point.y + r]];
   const q = (layers, geom = box) => { const l = present(layers); return l.length ? map.queryRenderedFeatures(geom, { layers: l }) : []; };
   if (z >= 7.8) { const s = q(['site-icon']); if (s.length) return { type: 'site', id: s[0].properties.id, ref: { src: 'sites', id: s[0].properties.id } }; }
-  const ex = z >= 3.2 ? q(['extra-pt']) : [];
+  const ex = z >= 3.2 ? q(['extra-pt', 'extra-fpt']) : [];
   if (ex.length) return { type: 'app', id: ex[0].properties.id, ref: { src: 'extra', id: ex[0].properties.id }, stack: [] };
   const rl = q(['reg-lab']);
   if (rl.length) return { type: 'region', id: rl[0].properties.id, ref: { src: 'reg-pts', id: rl[0].properties.id } };
@@ -3203,6 +3234,21 @@ function bindMapEvents() {
     if (raf) return;
     raf = requestAnimationFrame(() => {
       raf = 0;
+      const lt = layerTapHit(lastPt, false, true);
+      if (lt) {
+        let info = null;
+        try { info = lt.reg.hover(lt.feature); } catch (er) { /* module hover failed */ }
+        if (info && info.name) {
+          setHover(null);
+          map.getCanvas().style.cursor = 'pointer';
+          const tip = $('#tip');
+          tip.innerHTML = `<div class="t-name">${esc(info.name)}</div>${info.meta ? `<div class="t-meta">${esc(info.meta)}</div>` : ''}`;
+          tip.hidden = false;
+          const W = $('#app').clientWidth;
+          tip.style.left = Math.min(lastPt.x, W - tip.offsetWidth - 24) + 'px'; tip.style.top = lastPt.y + 'px';
+          return;
+        }
+      }
       const h = hitTest(lastPt, false);
       const z = map.getZoom();
       const ok = h && !(h.type === 'country' && z >= Z_APP + 0.5);
@@ -3224,6 +3270,10 @@ function bindMapEvents() {
   });
   map.getCanvas().addEventListener('mouseleave', () => { setHover(null); $('#tip').hidden = true; });
   map.on('click', e => {
+    if (!VMX.tap) {
+      const lt = layerTapHit(e.point, !MQ.hover.matches, false);
+      if (lt) { $('#tip').hidden = true; try { lt.reg.fn({ feature: lt.feature, features: lt.features, lngLat: e.lngLat, point: e.point }); } catch (er) { console.warn('[VM layer tap]', er); } return; }
+    }
     if (VMX.tap) { $('#tip').hidden = true; try { VMX.tap({ lngLat: e.lngLat, point: e.point, features: map.queryRenderedFeatures(e.point) }); } catch (er) { console.warn('[VM tap]', er); } return; }
     const touch = !MQ.hover.matches;
     const h = hitTest(e.point, touch);
@@ -3533,7 +3583,7 @@ async function showApp(id, opts, n) {
   let a = appData(id);
   if (!a && D.countries[iso]?.file) { await ensureCountryGeo(iso, true); a = appData(id); }
   if (!a) {
-    const c = await getContent(iso);
+    const c = await getFineContent(iso);
     const p = c?.profiles?.[id];
     if (!p) { APP.toast('That appellation is not in the atlas.'); return; }
     a = { id, name: p.name, country: iso, cat: p.cat };
@@ -3547,8 +3597,9 @@ async function showApp(id, opts, n) {
     return showApp(a.pref, { ...opts, prefFrom: a.id, prefStack: stack }, n);
   }
   const from = opts.prefFrom ? (D.byId.get(opts.prefFrom) || D.feat.get(opts.prefFrom)) : null;
+  const isFine = !!(a.fine || D.byId.get(id)?.fine || D.extraById.get(id)?.fine);
   const draw = async () => {
-    const c = await getContent(iso);
+    const c = await (isFine ? getFineContent(iso) : getContent(iso));
     if (n !== _routeN) return;
     const full = appData(id) || a;
     let html = appHTML(full, c?.profiles?.[id], c, stack || opts.prefStack);
@@ -3931,10 +3982,11 @@ function regionHTML(id, iso, geo, r, c) {
 async function showSite(id, opts, n) {
   setView(null);
   const iso = id.slice(5, 7);
-  const c = await getContent(iso);
+  let c = await getContent(iso);
   await Promise.race([APP.loadIndex(), sleep(1500)]);
   if (n !== _routeN) return;
   const g = D.siteById.get(id) || {};
+  if (g.app && D.byId.get(g.app)?.fine) { c = await getFineContent(iso); if (n !== _routeN) return; }
   const t = arr(c?.sites).find(s => s.id === id) || {};
   const s = { ...t, ...g, lat: g.lat ?? num(t.lat), lon: g.lon ?? num(t.lon), cq: g.cq || t.coord_quality };
   if (!s.name) { APP.toast('That site is not in the atlas yet.'); return; }
@@ -3966,7 +4018,7 @@ async function showSite(id, opts, n) {
   out += slotHTML('end');
   renderSheet(out, KIND[s.kind] || 'Site');
   bindProfile();
-  runSections('site', id);
+  runSections('site', id, { app: s.app || t.app_main || null, lp: s.lon != null ? [s.lon, s.lat] : null, name: s.name, kind: s.kind });
   selectCountry(null);
   if (map) {
     if (app) { ensureCountryGeo(iso, !!app.fine || !!D.byId.get(app.id)?.fine).then(() => { if (n === _routeN) setSel(app.id); }); }
@@ -4277,7 +4329,7 @@ function layersHTML() {
     ${typeof bmLayersSection === 'function' ? bmLayersSection() : ''}
     ${H.sec('Colour appellations by')}<div class="seg" role="radiogroup" aria-label="Colour appellations by">${MODES.map(([k, l]) => `<label><input type="radio" name="mode" value="${k}" ${S.mode === k ? 'checked' : ''}>${l}</label>`).join('')}</div>
     <p class="note" id="mode-note">${esc(modeNote())}</p>
-    ${H.sec('Show')}<div class="toggles">${LAYER_UI.map(([k, l]) => `<label class="tog" for="ly-${k}"><span>${esc(l)}</span><input type="checkbox" id="ly-${k}" data-ly="${k}" ${S.layers[k] ? 'checked' : ''}></label>`).join('')}</div>
+    ${H.sec('Show')}<div class="toggles">${LAYER_UI.map(([k, l]) => `<label class="tog" for="ly-${k}"><span>${esc(l)}</span><input type="checkbox" id="ly-${k}" data-ly="${k}" ${S.layers[k] ? 'checked' : ''}></label>`).join('')}${VMX.layerToggles.map((t, i) => { let on = false; try { on = !!t.get(); } catch (e) { /* module */ } return `<label class="tog" for="vml-${esc(t.id)}"><span>${esc(t.label || t.id)}${t.note ? `<small>${esc(t.note)}</small>` : ''}</span><input type="checkbox" id="vml-${esc(t.id)}" data-vml="${i}" ${on ? 'checked' : ''}></label>`; }).join('')}</div>
     <p class="note" style="margin-top:18px">The belts mark the latitudes where most of the world's wine is made. Altitude, ocean currents and new cool-climate frontiers increasingly blur them.</p>
     <p class="note"><button type="button" class="btn" data-nav="about">About the data</button></p>`;
 }
@@ -4382,6 +4434,7 @@ function bindView(v) {
     body.querySelectorAll('input[name="mode"]').forEach(r => r.addEventListener('change', () => { setMode(r.value); $('#mode-note').textContent = modeNote(); }));
     body.querySelectorAll('[data-ly]').forEach(c => c.addEventListener('change', () => { S.layers[c.dataset.ly] = c.checked; applyLayerVis(); }));
     const bms = body.querySelector('.bm-section'); if (bms && typeof bindBmControls === 'function') bindBmControls(bms);
+    body.querySelectorAll('[data-vml]').forEach(c => c.addEventListener('change', () => { const t = VMX.layerToggles[+c.dataset.vml]; if (t) try { t.set(c.checked); } catch (e) { console.warn('[VM layers]', e); } }));
     body.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => APP.nav(b.dataset.nav)));
   }
   if (v === 'about' && typeof bindInstall === 'function') bindInstall(body);
@@ -4540,6 +4593,8 @@ function boot() {
 /* Vitis Mundi v2: the public front-end API (window.VM) that modules in frontend/src/modules/ build on.
    Documented in frontend/API.md. Keep this surface stable: add, do not rename. */
 const VMX = {
+  layerTaps: [],           /* VM.map.onLayerTap registrations */
+  layerToggles: [],        /* VM.layers.add toggles shown in the Layers view */
   tap: null,               /* VM.map.captureTap handler */
   labelsSaved: null,       /* VM.map.labels(false) saved state */
   views: new Map(),        /* custom panel views: id -> {id, title, crumb, render, snap, onClose} */
@@ -4550,7 +4605,7 @@ const VMX = {
   hlOwner: null,           /* who owns the current map highlight: 'grape' or a module id */
   cur: null                /* current profile entity, or {type:'view', id} */
 };
-const STICKY = new Set(['map:ready', 'data:index', 'data:globals', 'data:countries', 'auth', 'basemap', 'terrain']);
+const STICKY = new Set(['map:ready', 'data:index', 'data:globals', 'data:countries', 'data:sites', 'data:regions', 'auth', 'basemap', 'terrain']);
 function vmOn(name, fn) {
   (VMX.ev[name] = VMX.ev[name] || []).push(fn);
   if (STICKY.has(name) && VMX.sticky.has(name)) { try { fn(VMX.sticky.get(name)); } catch (e) { console.warn('[VM]', name, e); } }
@@ -4568,7 +4623,17 @@ APP.on('globals', () => vmEmit('data:globals', D.grapes));
 APP.on('geo', iso => vmEmit('data:geo', iso));
 
 /* ---------- helpers attached to the map instance (VM.map.captureTap, labels, pulse, clearPulse) ---------- */
-const LABEL_LAYERS = () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'reg-lab', 'towns-0', 'towns-1', 'towns-2', 'clab', 'rivers-lab', 'rivers-lab-2', 'site-icon', 'jr-lab'];
+const LABEL_LAYERS = () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'extra-flab', 'reg-lab', 'towns-0', 'towns-1', 'towns-2', 'clab', 'rivers-lab', 'rivers-lab-2', 'site-icon', 'contour-lab'];
+/* while VM.map.labels(false) is in force, every label layer stays hidden, including layers added later
+   (second data wave, fine units) and layers that the base map or the Layers view would switch back on */
+function hideLabelLayer(id) {
+  if (!map.getLayer(id)) return;
+  const saved = VMX.labelsSaved;
+  if (!(id in saved)) saved[id] = { vis: map.getLayoutProperty(id, 'visibility') || 'visible', tf: id === 'site-icon' ? map.getLayoutProperty(id, 'text-field') : undefined };
+  if (id === 'site-icon') { const tf = map.getLayoutProperty(id, 'text-field'); if (tf !== '') map.setLayoutProperty(id, 'text-field', ''); }
+  else if (map.getLayoutProperty(id, 'visibility') !== 'none') map.setLayoutProperty(id, 'visibility', 'none');
+}
+function enforceLabelsHidden() { if (VMX.labelsSaved && map) for (const id of LABEL_LAYERS()) hideLabelLayer(id); }
 function mapCaptureTap(fn) {
   VMX.tap = fn;
   $('#app').dataset.capture = '1';
@@ -4579,13 +4644,7 @@ function mapLabels(on) {
   if (!on) {
     if (VMX.labelsSaved) return;
     VMX.labelsSaved = {};
-    for (const id of LABEL_LAYERS()) {
-      if (!map.getLayer(id)) continue;
-      const st = { vis: map.getLayoutProperty(id, 'visibility') || 'visible' };
-      if (id === 'site-icon') { st.tf = map.getLayoutProperty(id, 'text-field'); map.setLayoutProperty(id, 'text-field', ''); }
-      else map.setLayoutProperty(id, 'visibility', 'none');
-      VMX.labelsSaved[id] = st;
-    }
+    enforceLabelsHidden();
   } else {
     const saved = VMX.labelsSaved; VMX.labelsSaved = null;
     if (!saved) return;
@@ -4596,8 +4655,28 @@ function mapLabels(on) {
     }
   }
 }
+/* non-exclusive taps and hovers on a module's own layers (pins that stay on the map) */
+function mapOnLayerTap(layerIds, fn, o = {}) {
+  const reg = { layers: arr(layerIds), fn, hover: o.hover || null };
+  VMX.layerTaps.push(reg);
+  return () => { VMX.layerTaps = VMX.layerTaps.filter(x => x !== reg); };
+}
+function layerTapHit(point, touch, needHover) {
+  if (!VMX.layerTaps.length || !map) return null;
+  const r = touch ? 12 : 6, box = [[point.x - r, point.y - r], [point.x + r, point.y + r]];
+  for (const reg of VMX.layerTaps) {
+    if (needHover && !reg.hover) continue;
+    const layers = reg.layers.filter(id => map.getLayer(id) && map.getLayoutProperty(id, 'visibility') !== 'none');
+    if (!layers.length) continue;
+    const fs = map.queryRenderedFeatures(box, { layers });
+    if (fs.length) return { reg, feature: fs[0], features: fs };
+  }
+  return null;
+}
 vmOn('map:ready', m => {
+  m.on('styledata', enforceLabelsHidden);
   Object.assign(m, {
+    onLayerTap: mapOnLayerTap,
     captureTap: mapCaptureTap,
     labels: mapLabels,
     pulse(lon, lat) { pulseAt(lon, lat); },
@@ -4676,7 +4755,8 @@ let _secRun = 0;
 async function runSections(type, id, extra = {}) {
   const body = $('#sheet-body');
   const run = ++_secRun;
-  const ent = { ...(entityOf(id) || { type, id }), type, ...extra };
+  const ent = { ...(entityOf(id) || { type, id }), type };
+  for (const [k, v] of Object.entries(extra)) if (v != null) ent[k] = v;
   VMX.cur = ent;
   const list = VMX.sections.filter(s => s.types.has(type) || s.types.has('*')).sort((a, b) => a.order - b.order);
   for (const s of list) {
@@ -4858,15 +4938,22 @@ const SIDE = {
     const out = [id];
     const t = typeOfId(id);
     if (t === 'site') {
-      const s = D.siteById.get(id);
-      if (s?.app) out.push(...(await SIDE.chain(s.app)));
+      // sites arrive with the second data wave: wait briefly for them, else use the content file's record
+      if (!D.siteById.has(id)) await Promise.race([VM.data.loadSites(), sleep(4000)]);
+      let s = D.siteById.get(id);
+      const c = await getContent(isoOfId(id));
+      const cs = arr(c?.sites).find(x => x.id === id);
+      const app = s?.app || cs?.app || cs?.app_main || null;
+      if (app) out.push(...(await SIDE.chain(app)));
+      if (cs?.app_main && cs.app_main !== app) out.push(...(await SIDE.chain(cs.app_main)));
+      if (cs?.region_hint) out.push(cs.region_hint);
       return [...new Set(out)];
     }
     if (t !== 'appellation') return out;
     await Promise.race([APP.loadIndex(), sleep(3000)]);
     for (const a of ancestry(id).reverse()) out.push(a.id);
     const iso = isoOfId(id);
-    const c = await getContent(iso);
+    const c = await (D.byId.get(id)?.fine ? getFineContent(iso) : getContent(iso));
     const chainIds = out.slice();
     for (const x of chainIds) {
       const p = c?.profiles?.[x];
@@ -4997,6 +5084,9 @@ const VM = {
     isoOf: isoOfId,
     feature(id) { return D.feat.get(id) || null; },
     ensureGeo(iso, o = {}) { return ensureCountryGeo(iso, !!o.fine); },
+    loadSites() { wave2(); return new Promise(res => vmOn('data:sites', res)); },
+    loadRegions() { wave2(); return new Promise(res => vmOn('data:regions', res)); },
+    fineContent: getFineContent,
     async geometry(id) {
       const iso = isoOfId(id);
       if (!iso || typeOfId(id) !== 'appellation') return null;
@@ -5045,6 +5135,15 @@ const VM = {
     }
   },
   nav: { add: addNav },
+  /* toggles for a module's own map layers, listed in the Layers view under "Show" */
+  layers: {
+    add(def) {
+      if (!def || !def.id || typeof def.get !== 'function' || typeof def.set !== 'function') { console.warn('[VM] layers.add needs {id, label, get, set}'); return () => {}; }
+      VMX.layerToggles = VMX.layerToggles.filter(x => x.id !== def.id).concat({ order: 100, ...def }).sort((a, b) => a.order - b.order);
+      return () => { VMX.layerToggles = VMX.layerToggles.filter(x => x.id !== def.id); };
+    },
+    list() { return VMX.layerToggles.slice(); }
+  },
   search: { pick: vmPick, query: vmQuery, cancel() { endPick(null); } },
   on: vmOn, off: vmOff, emit: vmEmit,
   toast(msg) { APP.toast(msg); },
@@ -5317,6 +5416,7 @@ function applyBaseVis() {
   setVis('hillshade', !!(BM.sun || (std && BM.shade)));
   setVis('contour-line', BM.contours);
   setVis('contour-lab', BM.contours && L.labels);
+  enforceLabelsHidden();
 }
 function bmAfterLayerVis() { applyBaseVis(); }
 function bmAfterRepaint() {
@@ -5787,7 +5887,8 @@ function jrActive(km) {
   const j = JR.cur;
   const apps = j.stops.filter(s => km >= s.a - 0.4 && km <= s.b + 0.4);
   const umb = apps.filter(s => !s.fine && s.area > 600).sort((a, b) => a.area - b.area);
-  const near = apps.filter(s => s.fine || s.area <= 600).sort((a, b) => (b.fine - a.fine) || (b.prof - a.prof) || (a.area - b.area)).slice(0, 4);
+  // closest first (each stop keeps its nearest distance to the route), named crus and profiled units ahead of ties
+  const near = apps.filter(s => s.fine || s.area <= 600).sort((a, b) => ((a.d ?? 1) - (b.d ?? 1)) * 2 + (b.prof - a.prof) * 0.3 + (b.fine - a.fine) * 0.2).slice(0, 4);
   const site = j.sites.filter(s => Math.abs(s.km - km) <= 1.1).sort((a, b) => Math.abs(a.km - km) - Math.abs(b.km - km))[0];
   const town = j.towns.filter(t => Math.abs(t.km - km) <= 1.8).sort((a, b) => Math.abs(a.km - km) - Math.abs(b.km - km))[0];
   return { umb: umb[0] || null, near, site, town };
@@ -5964,7 +6065,7 @@ function photoHTML(list, name) {
   const ratio = clamp((+p.w || 4) / (+p.h || 3), 4 / 3, 2.2);
   const credit = ph => `${ph.caption ? `${inl(ph.caption)} ` : ''}<span class="ph-by">${esc(ph.author || 'Unknown author')}, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license || 'licence')}</a>` : esc(ph.license || '')}, <a href="${esc(ph.page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span>`;
   let out = `<figure class="ph"><div class="ph-hero" style="aspect-ratio:${ratio.toFixed(3)}"><img src="${esc(p.thumb)}" width="${+p.w || 640}" height="${+p.h || 427}" alt="${esc(p.caption || name)}" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer"></div><figcaption class="ph-cap">${credit(p)}</figcaption></figure>`;
-  if (list.length > 1) out += `<ul class="ph-gal" aria-label="More photos">${list.map((x, i) => `<li><button type="button" class="ph-th${i ? '' : ' on'}" data-ph="${i}" aria-label="Show photo ${i + 1}: ${esc(x.caption || name)}"><img src="${esc(x.thumb)}" alt="" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer"></button></li>`).join('')}</ul>`;
+  if (list.length > 1) out += `<ul class="ph-gal" aria-label="More photos">${list.map((x, i) => `<li><button type="button" class="ph-th${i ? '' : ' on'}" data-ph="${i}" aria-label="Show photo ${i + 1}: ${esc(x.caption || name)}"><img src="${esc(/^https:\/\/upload\.wikimedia\.org\//.test(x.thumb_small || '') ? x.thumb_small : x.thumb)}" alt="" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer"></button></li>`).join('')}</ul>`;
   return out;
 }
 function bindPhotos(el, list, name) {
@@ -6111,6 +6212,16 @@ function bindVintage(el, v, ev, e) {
   for (const x of ev) { if (!byYear.has(x.year)) byYear.set(x.year, []); byYear.get(x.year).push(x); }
   const sgn = x => VM.fmt.signed(x, 1, ' \u00b0C');
   const show = y => {
+    if (y < years[0] || y > years[n - 1]) {
+      // a researched vintage from before the weather record: its notes only
+      cur.hidden = true;
+      const evs = byYear.get(y) || [];
+      det.innerHTML = `<p class="vt-yr"><span class="vt-year">${y}</span> <span class="note">Before the weather record, which starts in ${years[0]}.</span></p>` + evs.map(x => `<p class="vt-note"><span class="vt-kind"><i class="ek ek-${esc(EV_KIND[x.kind] ? x.kind : 'other')}" aria-hidden="true"></i>${esc(EV_KIND[x.kind] || 'Note')}</span> ${inl(x.text)}${x.src && /^https?:/.test(x.src) ? ` <a href="${esc(x.src)}" target="_blank" rel="noopener noreferrer" class="vt-src">source</a>` : ''}</p>`).join('');
+      el.querySelectorAll('.vt-y').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.y === y)));
+      show.y = clamp(y, years[0], years[n - 1]);
+      return;
+    }
+    cur.hidden = false;
     const i = clamp(y - years[0], 0, n - 1); y = years[i];
     cur.style.left = ((i + 0.5) / n * 100).toFixed(2) + '%';
     box.setAttribute('aria-valuenow', y);
@@ -7255,6 +7366,7 @@ window.VM_CONFIG = Object.assign({
 
   /* ---------- map: "My bottles" and "Places" ---------- */
   const ML = { on: { bottles: VM.store.get('jr-pins', true) !== false, places: VM.store.get('jr-places', true) !== false }, bound: false, retry: 0 };
+  const HAS_LAYERS = !!(VM.layers && typeof VM.layers.add === 'function');
   const PIN_LAYERS = ['jr-place', 'jr-pin-ring', 'jr-pin', 'jr-cluster', 'jr-cluster-n'];
   function pinFC() {
     const features = [];
@@ -7363,14 +7475,15 @@ window.VM_CONFIG = Object.assign({
     try { z = await src.getClusterExpansionZoom(cid); } catch (e) { /* keep default */ }
     m.easeTo({ center: f.geometry.coordinates, zoom: Math.min(z + 0.2, 14), duration: VM.reducedMotion() ? 0 : 500 });
   }
-  function bindMap() {
-    const m = VM.map;
-    if (!m || ML.bound) return;
-    ML.bound = true;
-    addMapLayers();
-    updateMap();
-    /* taps on our pins: a capture-phase click on #map runs before MapLibre's own listener on the canvas
-       container, so the profile underneath does not open as well (MapLibre already swallows clicks after drags) */
+  function hoverInfo(f) {
+    if (!f || !f.layer) return null;
+    if (f.layer.id === 'jr-pin') { const b = J.bottles.find(x => x.id === f.properties.id); return b ? { name: `${bTitle(b)} ${bVint(b)}`, meta: [STATUS_SHORT[b.status], bApp(b)].filter(Boolean).join(' \u00b7 ') } : null; }
+    if (f.layer.id === 'jr-cluster') return { name: plural(f.properties.point_count, 'bottle'), meta: 'Your journal \u00b7 tap to open' };
+    return { name: placeName(f.properties.type, f.properties.id), meta: f.properties.v ? 'Visited' : 'Want to visit' };
+  }
+  /* fallback for builds without VM.map.onLayerTap: a capture-phase click on #map runs before MapLibre's listener
+     on the canvas container; a later mousemove frame takes over the shared tooltip */
+  function legacyTaps(m) {
     const el = document.getElementById('map');
     let down = null;
     el.addEventListener('pointerdown', e => { down = { x: e.clientX, y: e.clientY }; }, true);
@@ -7383,8 +7496,6 @@ window.VM_CONFIG = Object.assign({
       e.stopPropagation(); e.preventDefault();
       onMapHit(hits);
     }, true);
-    /* hover: our mousemove runs after the core's (registered later), and its frame callback after the core's,
-       so it can take over the shared tooltip while the pointer is on a pin */
     setTimeout(() => {
       let raf = 0, pt = null;
       m.on('mousemove', e => {
@@ -7395,14 +7506,10 @@ window.VM_CONFIG = Object.assign({
           raf = 0;
           const hits = mapHits(m, pt.x, pt.y, false);
           if (!hits.length) return;
-          const f = hits.sort((a, b) => rank(a) - rank(b))[0];
-          let name = '', meta = '';
-          if (f.layer.id === 'jr-pin') { const b = J.bottles.find(x => x.id === f.properties.id); if (!b) return; name = `${bTitle(b)} ${bVint(b)}`; meta = [STATUS_SHORT[b.status], bApp(b)].filter(Boolean).join(' \u00b7 '); }
-          else if (f.layer.id === 'jr-cluster') { name = plural(f.properties.point_count, 'bottle'); meta = 'Your journal \u00b7 tap to open'; }
-          else { name = placeName(f.properties.type, f.properties.id); meta = f.properties.v ? 'Visited' : 'Want to visit'; }
+          const info = hoverInfo(hits.sort((a, b) => rank(a) - rank(b))[0]);
           const tip = document.getElementById('tip');
-          if (!tip) return;
-          tip.innerHTML = `<div class="t-name">${esc(name)}</div><div class="t-meta">${esc(meta)}</div>`;
+          if (!info || !tip) return;
+          tip.innerHTML = `<div class="t-name">${esc(info.name)}</div><div class="t-meta">${esc(info.meta)}</div>`;
           tip.hidden = false;
           const W = document.getElementById('app').clientWidth;
           tip.style.left = Math.min(pt.x, W - tip.offsetWidth - 24) + 'px'; tip.style.top = pt.y + 'px';
@@ -7410,6 +7517,17 @@ window.VM_CONFIG = Object.assign({
         });
       });
     }, 0);
+  }
+  function bindMap() {
+    const m = VM.map;
+    if (!m || ML.bound) return;
+    ML.bound = true;
+    addMapLayers();
+    updateMap();
+    if (typeof m.onLayerTap === 'function') {
+      /* the lead's hook: runs before the profile hit test, drives the shared tooltip, steps aside for captureTap */
+      m.onLayerTap(['jr-cluster', 'jr-pin', 'jr-place'], ({ features }) => { if (J.mode !== 'off' && features && features.length) onMapHit(features); }, { hover: f => hoverInfo(f) });
+    } else legacyTaps(m);
     /* a basemap switch that replaces the style drops our sources: put them back */
     const readd = debounce(() => { if (VM.map && !VM.map.getSource('jr-bottles') && VM.map.getLayer('anchor-top')) { addMapLayers(); updateMap(); } }, 80);
     m.on('styledata', readd);
@@ -7420,6 +7538,7 @@ window.VM_CONFIG = Object.assign({
   let _sitesP = null;
   function sitesReady() {
     if (VM.data.siteById && VM.data.siteById.size) return Promise.resolve();
+    if (typeof VM.data.loadSites === 'function') return Promise.race([VM.data.loadSites(), VM.util.sleep(20000)]).then(() => {});
     if (!_sitesP) _sitesP = VM.data.json('data/geo/_sites.geojson').then(fc => {
       for (const f of arr(fc && fc.features)) { const p = f.properties || {}; const c = (f.geometry && f.geometry.coordinates) || []; SITEX.set(p.id, { ...p, lon: c[0], lat: c[1] }); }
     }).catch(() => {});
@@ -7561,12 +7680,12 @@ window.VM_CONFIG = Object.assign({
   }
   function footHTML() {
     return `<div class="jr-foot">
-      ${VM.h.sec('On the map')}
+      ${HAS_LAYERS ? '' : `${VM.h.sec('On the map')}
       <div class="toggles"><label class="tog" for="jr-ly-b"><span>My bottles<small>pins coloured by style</small></span><input type="checkbox" id="jr-ly-b" data-ly="bottles" ${ML.on.bottles ? 'checked' : ''}></label>
-      <label class="tog" for="jr-ly-p"><span>Places<small>visited and want to visit</small></span><input type="checkbox" id="jr-ly-p" data-ly="places" ${ML.on.places ? 'checked' : ''}></label></div>
+      <label class="tog" for="jr-ly-p"><span>Places<small>visited and want to visit</small></span><input type="checkbox" id="jr-ly-p" data-ly="places" ${ML.on.places ? 'checked' : ''}></label></div>`}
       ${VM.h.sec('Your data')}
       <div class="btn-row"><button type="button" class="btn small ghost" data-act="export-json">Export JSON</button><button type="button" class="btn small ghost" data-act="export-csv">Export CSV</button><label class="btn small ghost jr-file">Import JSON<input type="file" accept="application/json,.json" class="sr" data-act="import"></label></div>
-      <p class="src">${J.mode === 'cloud' ? 'Stored in your Vitis Mundi account (Supabase, private to you) with a copy on this device for offline use.' : 'Stored in this browser. Clearing site data erases it, so export now and then, or sign in.'} Exports include notes and lists; label photos stay in ${J.mode === 'cloud' ? 'your account' : 'this browser'}.</p>
+      <p class="src">${HAS_LAYERS ? 'Your bottles and places are pins on the map; switch them in <a href="#layers">Layers</a>. ' : ''}${J.mode === 'cloud' ? 'Stored in your Vitis Mundi account (Supabase, private to you) with a copy on this device for offline use.' : 'Stored in this browser. Clearing site data erases it, so export now and then, or sign in.'} Exports include notes and lists; label photos stay in ${J.mode === 'cloud' ? 'your account' : 'this browser'}.</p>
     </div>`;
   }
   function mainHTML(tab) {
@@ -8534,6 +8653,10 @@ window.VM_CONFIG = Object.assign({
     VM.panel.addSection(['country', 'region', 'appellation', 'site', 'grape'], placeSection, { id: 'journal-place', slot: 'hero', order: 58 });
     VM.panel.addSection(['country', 'region', 'appellation', 'site', 'grape'], bottlesSection, { id: 'journal-bottles', slot: 'top', order: 58 });
     VM.on('map:ready', () => bindMap());
+    if (HAS_LAYERS) {
+      VM.layers.add({ id: 'journal-bottles', label: 'My bottles', note: 'pins from your cellar journal, coloured by style', order: 60, get: () => ML.on.bottles, set: on => setLayer('bottles', on) });
+      VM.layers.add({ id: 'journal-places', label: 'My places', note: 'visited and want to visit', order: 61, get: () => ML.on.places, set: on => setLayer('places', on) });
+    }
     VM.on('theme', () => repaintMap());
     VM.on('data:index', () => { updateMapSoon(); refreshSections('bottles'); });
     VM.on('profile:open', flushNotes);
@@ -8550,7 +8673,11 @@ window.VM_CONFIG = Object.assign({
     readyRes();
     A.ready = true; VM.auth.ready = true; authRes(null);
   }
-  if (GH) ready.then(() => { if (J.bottles.some(b => b.site_id)) sitesReady().then(updateMapSoon); });
+  if (GH) {
+    /* pins at a cru move from the appellation point to the site once sites arrive (no forced second wave) */
+    VM.on('data:sites', () => { updateMapSoon(); refreshSections('bottles'); });
+    if (typeof VM.data.loadSites !== 'function') ready.then(() => { if (J.bottles.some(b => b.site_id)) sitesReady().then(updateMapSoon); });
+  }
 })();
 
 </script>

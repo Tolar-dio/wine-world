@@ -47,7 +47,7 @@
     },
     {
      "label": "Cru classifications (within AOC)",
-     "meaning": "Burgundy's 33 grand crus and about 640 premiers crus (vineyard-based); Bordeaux's 1855 Médoc and Sauternes ranking, the 1953 and 1959 Graves list, Saint-Émilion's revisable list (2022), and the Crus Bourgeois (2020 list); Alsace's 51 grands crus; Champagne's 17 grand cru and 42 premier cru villages."
+     "meaning": "Burgundy's 33 grand crus and about 640 premiers crus (vineyard-based); Bordeaux's 1855 Médoc and Sauternes ranking, the 1953 and 1959 Graves list, Saint-Émilion's revisable list (2022), and the Crus Bourgeois (2025 list); Alsace's 51 grands crus; Champagne's 17 grand cru and 42 premier cru villages."
     },
     {
      "label": "IGP (Indication Géographique Protégée, ex vin de pays)",
@@ -98,9 +98,9 @@
      "meaning": "Wine without GI; may show variety and vintage since 2010."
     }
    ],
-   "labelling_rules": "Riserva, Superiore and Classico are regulated terms: Classico means the historic heartland (Chianti Classico, Soave Classico), Superiore higher alcohol or stricter rules, Riserva longer ageing (for example 62 months for Barolo Riserva). 'Vigna' plus a name may be used for registered single vineyards. Chianti Classico Gran Selezione (2014, revised 2021) requires estate fruit, 30 months of ageing and at least 90 percent Sangiovese.",
-   "history": "Presidential Decree 930 of 1963 created DOC; the first was Vernaccia di San Gimignano in 1966. DOCG began in 1980 with Brunello, Vino Nobile and Barolo. The 1986 methanol scandal led to stricter controls. The 1992 Goria law created IGT and allowed sub-zones and vineyard names. In 2009 Prosecco was turned from a grape name into a protected DOC, and the grape renamed Glera.",
-   "quirks": "Italy has more appellations than any other country, many tiny and little used. Some DOCGs are seen as political awards. Bolgheri Sassicaia is a sub-zone DOC for a single estate. Several top producers, such as Gaja, chose to declassify Barbaresco crus to Langhe DOC to include a little Barbera. Valpolicella, Amarone and Ripasso are separate appellations with different drying rules.",
+   "labelling_rules": "Riserva, Superiore and Classico are regulated terms: Classico means the historic heartland (Chianti Classico, Soave Classico), Superiore higher alcohol or stricter rules, Riserva longer ageing (for example 62 months for Barolo Riserva). 'Vigna' plus a name may be used for registered single vineyards. Chianti Classico Gran Selezione (2014, revised 2021) requires estate fruit, 30 months of ageing and, from the 2027 vintage, at least 90 percent Sangiovese.",
+   "history": "Presidential Decree 930 of 1963 created DOC; the first was Vernaccia di San Gimignano in 1966. DOCG began in 1980 with Brunello, Vino Nobile, Barolo and Barbaresco. The 1986 methanol scandal led to stricter controls. The 1992 Goria law created IGT and allowed sub-zones and vineyard names. In 2009 Prosecco was turned from a grape name into a protected DOC, and the grape renamed Glera.",
+   "quirks": "Italy has more appellations than any other country, many tiny and little used. Some DOCGs are seen as political awards. Bolgheri Sassicaia, a Bolgheri subzone from 1994 and its own DOC since 2013, covers a single estate. Several top producers, such as Gaja, chose to declassify Barbaresco crus to Langhe DOC to include a little Barbera. Valpolicella, Amarone and Ripasso are separate appellations with different drying rules.",
    "sources": [
     {
      "title": "Italian wine",
@@ -138,7 +138,7 @@
      "meaning": "Regional wines with fewer restrictions, such as Vino de la Tierra de Castilla."
     }
    ],
-   "labelling_rules": "Ageing terms are central: Joven (young), Roble (some oak), Crianza (2 years, at least 6 months in oak; 1 year in oak in Rioja and Ribera), Reserva (3 years, 1 in oak), Gran Reserva (5 years, 2 in oak; in Rioja 2 years in barrel and 2 in bottle at least). Rioja's 2017 rules added Viñedo Singular, Vino de Municipio and Vino de Zona (Rioja Alta, Rioja Alavesa, Rioja Oriental). Cava's 2020 reform added Cava de Guarda and Cava de Guarda Superior, including Paraje Calificado single vineyards (2017).",
+   "labelling_rules": "Ageing terms are central: Joven (young), Roble (some oak), Crianza (2 years, at least 6 months in oak; 1 year in oak in Rioja and Ribera), Reserva (3 years, 1 in oak), Gran Reserva (5 years, 18 months in oak; in Rioja 2 years in barrel and 2 in bottle at least). Rioja's 2017 rules added Viñedo Singular, Vino de Municipio and Vino de Zona (Rioja Alta, Rioja Alavesa, Rioja Oriental). Cava's 2020 reform added Cava de Guarda and Cava de Guarda Superior, including Paraje Calificado single vineyards (2017).",
    "history": "Rioja's regulatory council was created in 1925 and constituted in 1926; the 1932 Estatuto del Vino set up the national DO framework, and Jerez's consejo regulador followed in the 1930s. The DOCa category was created in 1988 and first given to Rioja in 1991. The 2003 Ley de la Viña y del Vino created Vinos de Pago and VC. Since 2017, pressure from producers such as Telmo Rodríguez and the 'Manifiesto' group has pushed Spain toward place-based classifications.",
    "quirks": "Spain historically classified wine by time spent ageing rather than place; Gran Reserva from a bulk vineyard can outrank a single-vineyard wine on the label. Artadi left the Rioja DOCa in 2015 in protest at its lack of place-based categories. Some Penedès producers left Cava to form Corpinnat (2019) and Clàssic Penedès. Rioja Alavesa growers have repeatedly sought their own appellation.",
    "sources": [
@@ -170,7 +170,7 @@
      "meaning": "Wine without GI."
     }
    ],
-   "labelling_rules": "Reserva means a superior wine with at least 0.5 percent more alcohol than the minimum, approved by a tasting panel; Grande Reserva is stricter, and Garrafeira requires extended ageing (30 months for reds including at least 12 in bottle). Port has its own categories: Ruby, Reserve, Late Bottled Vintage, Vintage, Tawny, aged Tawny with indication of age (10, 20, 30, 40 and 50 years since 2021) and Colheita. Madeira categories include 5, 10, 15, 20, 30, 40, 50 year old, Colheita and Frasqueira, with noble-grape names requiring 85 percent of that grape.",
+   "labelling_rules": "Reserva means a superior wine with at least 0.5 percent more alcohol than the minimum, approved by a tasting panel; Grande Reserva is stricter, and Garrafeira requires extended ageing (30 months for reds including at least 12 in bottle). Port has its own categories: Ruby, Reserve, Late Bottled Vintage, Vintage, Tawny, aged Tawny with indication of age (10, 20, 30, 40, 50 years since 2021 and 80 years since 2025) and Colheita. Madeira categories include 5, 10, 15, 20, 30, 40, 50 year old, Colheita and Frasqueira, with noble-grape names requiring 85 percent of that grape.",
    "history": "Pombal's 1756 demarcation of the Douro is often called the world's first regulated wine region. A wave of historic demarcations followed in the early 20th century, including Colares, Bucelas, Carcavelos, Dão, Madeira, Moscatel de Setúbal and Vinho Verde. After joining the EEC in 1986, Portugal created a full DOC system. In 1986 the requirement to ship Port from Vila Nova de Gaia was relaxed, allowing Douro estates to export directly.",
    "quirks": "The Douro's beneficio system, which sets each vineyard's quota for Port based on a points grading from A to F, survives from 1947 rules. Colares, nearly lost to suburbs, is one of the few European appellations with mostly ungrafted vines. Alentejo's Vinho de Talha is a recognised designation for amphora wine within the Alentejo DOC.",
    "sources": [
@@ -419,7 +419,7 @@
    "tiers": [
     {
      "label": "AVA (American Viticultural Area)",
-     "meaning": "More than 270 federally defined grape-growing regions, approved by the TTB on petition, from huge multi-state areas (Upper Mississippi River Valley, Ohio River Valley) to tiny ones (Cole Ranch). Many are nested: Napa Valley contains 16 sub-AVAs such as Oakville and Stags Leap District. No rules on varieties, yields or methods."
+     "meaning": "More than 270 federally defined grape-growing regions, approved by the TTB on petition, from huge multi-state areas (Upper Mississippi River Valley, Ohio River Valley) to tiny ones (Cole Ranch). Many are nested: Napa Valley contains 17 sub-AVAs such as Oakville and Stags Leap District. No rules on varieties, yields or methods."
     },
     {
      "label": "State and county appellations",
@@ -535,7 +535,7 @@
     }
    ],
    "labelling_rules": "A GI, variety or vintage requires 85 percent of the wine. Marlborough's growers created a voluntary 'Appellation Marlborough Wine' standard requiring 100 percent Marlborough grapes and bottling in New Zealand. Sustainable Winegrowing New Zealand (SWNZ) certification covers most vineyards.",
-   "history": "Vineyard planting began with James Busby in 1836 and French Marist missionaries in Hawke's Bay in 1851. Modern growth came with Montana's planting in Marlborough in 1973 and Cloudy Bay's 1985 Sauvignon Blanc. The 2006 Act provided for GIs, and the first were registered from 2017, with about 18 regional GIs.",
+   "history": "Samuel Marsden planted the first recorded vines at Kerikeri in 1819; James Busby made the first recorded wine at Waitangi in the 1830s, and French Marist missionaries planted in Hawke's Bay in 1851. Modern growth came with Montana's planting in Marlborough in 1973 and Cloudy Bay's 1985 Sauvignon Blanc. The 2006 Act provided for GIs, and the first were registered from 2017, with about 18 regional GIs.",
    "quirks": "The Gimblett Gravels is a soil-based area defined by its growers' association and trademarked, not a legal GI. Sauvignon Blanc from Marlborough makes up most of New Zealand's exports. Phylloxera arrived in the 1890s, and most vineyards are now grafted.",
    "sources": [
     {
@@ -703,7 +703,7 @@
    "tiers": [
     {
      "label": "GI (Geographical Indication)",
-     "meaning": "Yamanashi (2013) and Hokkaido (2018) were the first wine GIs, and further prefectures such as Yamagata, Osaka and Nagano have since been designated; GIs require 100 percent local grapes requiring 100 percent local grapes of approved varieties and production in the prefecture."
+     "meaning": "Yamanashi (2013) and Hokkaido (2018) were the first wine GIs, and further prefectures such as Yamagata, Osaka and Nagano have since been designated; GIs require 100 percent local grapes of approved varieties and production in the prefecture."
     },
     {
      "label": "Japan Wine",
