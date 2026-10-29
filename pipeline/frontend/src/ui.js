@@ -141,8 +141,12 @@ function closeSheet(keepHash) {
   $('#app').dataset.snap = 'closed';
   SHEET.snap = 'closed';
   APP.hist = []; APP.cur = '';
+  const was = VMX.cur;
+  if (was && was.type === 'view') { const d = VMX.views.get(was.id); if (d && d.onClose) try { d.onClose(); } catch (e) { console.warn(e); } }
+  VMX.cur = null;
   setView(null);
   stopTour();
+  vmEmit('panel:close', was);
   if (map) { setSel(null); selectCountry(null); }
   clearMarkers();
   if (!keepHash && location.hash) {
@@ -152,6 +156,7 @@ function closeSheet(keepHash) {
 }
 function renderSheet(html, crumb) {
   const body = $('#sheet-body');
+  _secRun++;
   body.innerHTML = html;
   body.scrollTop = 0;
   $('#sheet-crumb').textContent = crumb || '';
@@ -251,6 +256,8 @@ async function route() {
   if (!/^grape-/.test(h) && MK.pin) MK.pin.remove();
   try {
     if (VIEWS.includes(h)) return await showView(h, opts);
+    const cv = typeof viewFor === 'function' ? viewFor(h) : null;
+    if (cv) return await showCustomView(cv, h, opts);
     if (/^grape-/.test(h)) return await showGrape(h.slice(6), opts);
     if (/^event-/.test(h)) return await showEvent(h, opts);
     if (/^term-/.test(h)) return await showView('lexicon', { ...opts, term: h });
@@ -266,7 +273,8 @@ function setView(v) {
   APP.view = v;
   for (const b of $$('.views button')) b.setAttribute('aria-pressed', String(b.dataset.view === v || (v === 'about' && false)));
   if (v !== 'timeline') { $('#strip').hidden = true; $('#app').dataset.strip = 'off'; }
-  if (v !== 'grapes' && S.grapeSet) clearGrape();
+  if (v !== 'grapes' && S.grapeSet && (!VMX.hlOwner || VMX.hlOwner === 'grape')) clearGrape();
+  const body = $('#sheet-body'); if (body && !VMX.views.has(v)) delete body.dataset.view;
 }
 
 /* ---------- appellation ---------- */
@@ -306,6 +314,7 @@ async function showApp(id, opts, n) {
     if (from) html = `<p class="pref-note">You chose <b>${esc(from.name)}</b>${from.subcat ? ` (${esc(from.subcat)})` : ''}. It has no profile of its own, so here is the profile of ${esc(full.name)}, which covers it. <button type="button" class="linkish" data-own="${esc(from.id)}">Show ${esc(from.name)} on its own</button></p>` + html;
     renderSheet(html, countryName(iso));
     bindProfile();
+    runSections('appellation', id, from ? { chosen: from.id } : {});
   };
   openSheet(opts.fromMap ? 'peek' : 'half');
   await draw();
@@ -336,7 +345,7 @@ function appHTML(a, p, c, stack) {
   const createdV = yearOf(p?.created) || yearOf(reg.created) || yearOf(reg.registered) || yearOf(reg.reg_year);
   const euV = !createdV && reg.eu_reg ? yearOf(reg.eu_reg) : null;
   const styles = arr(p?.styles).length ? p.styles : arr(a.styles).length ? a.styles : (a.style && a.style !== 'mixed' ? [a.style] : []);
-  let out = `<div class="head"><p class="eyebrow">${eyebrow.map(esc).join('<span class="sep">·</span>')}</p><h2 class="title">${esc(a.name)}</h2>${alt.length ? `<p class="alt">${esc(alt.join(', '))}</p>` : ''}</div>`;
+  let out = `<div class="head"><p class="eyebrow">${eyebrow.map(esc).join('<span class="sep">·</span>')}</p><h2 class="title">${esc(a.name)}</h2>${alt.length ? `<p class="alt">${esc(alt.join(', '))}</p>` : ''}</div>` + slotHTML('hero');
   // where it sits: country, content region, then only the legally meaningful containers
   const W = whereLine(a, p, c, stack);
   out += `<p class="crumbs">${W.crumbs}</p>`;
@@ -350,6 +359,7 @@ function appHTML(a, p, c, stack) {
   if (bq) out += `<p class="note"><b>${esc(bq[0])}.</b> ${esc(bq[1])}${a.src && SRC[a.src] ? ` Source: ${esc(SRC[a.src])}.` : ''}</p>`;
   out += H.styleChips(styles);
   if (a.lp) out += H.latline(a.lp[0], a.lp[1]);
+  out += slotHTML('top');
   // the written profile
   if (p && (p.summary || p.terroir)) {
     out += H.prose(p.summary, true);
@@ -361,6 +371,7 @@ function appHTML(a, p, c, stack) {
     out += H.pending('profile');
   }
   out += climHTML(a.clim, a.lp);
+  out += slotHTML('mid');
   const vars = arr(a.varieties);
   if (vars.length) {
     out += H.sec(`Permitted varieties · ${vars.length}`) + `<ul class="chips">${vars.map(v => { const g = grapeFor(v); return `<li>${g ? `<a class="chip" href="#grape-${esc(g.id)}">${esc(v)}</a>` : `<span class="chip static">${esc(v)}</span>`}</li>`; }).join('')}</ul>`;
@@ -393,6 +404,7 @@ function appHTML(a, p, c, stack) {
       return `<dt>${esc(REG_LABEL[k] || k.replace(/_/g, ' '))}</dt><dd class="${txt ? 'txt' : ''}">${esc(v)}${esc(REG_UNIT[k] || '')}</dd>`;
     }).join('')}</dl>`;
   }
+  out += slotHTML('end');
   out += `<p class="src" style="margin-top:22px">Boundary: ${esc(SRC[a.src] || a.src || 'atlas data')}.${p ? ' Profile: Vitis Mundi research notes.' : ''} <span class="mono">#${esc(a.id)}</span></p>`;
   return out;
 }
@@ -569,6 +581,7 @@ async function showCountry(iso, opts, n) {
   openSheet(opts.fromMap ? 'half' : 'half');
   renderSheet(countryHTML(iso, m || {}, c), 'Country');
   bindProfile();
+  runSections('country', iso);
   selectCountry(iso);
   setSel(null);
   const bb = m ? mainBbox(iso) : null;
@@ -582,7 +595,7 @@ function countryHTML(iso, m, c) {
   const count = (m.count || 0) + (m.points || 0) || apps.length || null;
   const tier = k.tier || m.tier;
   let out = `<div class="head"><p class="eyebrow">${esc([tier ? TIER[tier] : 'Wine country', count ? `${fmt(count)} appellations mapped` : ''].filter(Boolean).join(' · '))}</p>
-    <h2 class="title" style="font-family:var(--f-sc);font-style:normal;letter-spacing:.02em">${esc(name)}</h2>${k.tagline ? `<p class="tagline">${inl(k.tagline)}</p>` : ''}</div>`;
+    <h2 class="title" style="font-family:var(--f-sc);font-style:normal;letter-spacing:.02em">${esc(name)}</h2>${k.tagline ? `<p class="tagline">${inl(k.tagline)}</p>` : ''}</div>` + slotHTML('hero');
   out += `<div class="btn-row">${m.file || m.bbox ? `<button type="button" class="btn solid" data-fly="${esc(JSON.stringify(mainBbox(iso) || m.bbox || null))}" data-iso="${esc(iso)}">Explore the map</button>` : ''}</div>`;
   out += H.ledger([
     st.vineyard_ha && { k: 'Vineyards', v: `${fmt(st.vineyard_ha)} ha`, s: `${fmt(st.vineyard_ha * 2.47105)} acres` },
@@ -591,6 +604,7 @@ function countryHTML(iso, m, c) {
     count && { k: 'In the atlas', v: fmt(count), s: m.points && !m.count ? 'appellations, as points' : 'appellations' }
   ]);
   if (st.note || st.year) out += `<p class="src">${esc([st.year ? `Figures for ${st.year}` : '', st.note].filter(Boolean).join('. '))}.</p>`;
+  out += slotHTML('top');
   if (k.overview) out += H.prose(k.overview, true);
   else out += H.pending('country profile');
   const hist = arr(k.history);
@@ -598,6 +612,7 @@ function countryHTML(iso, m, c) {
     out += H.sec('History') + `<ol class="hist">${hist.map((h, i) => `<li${h.abroad ? ' class="abroad"' : ''}><span class="when">${esc(h.when)}${h.abroad ? '<span class="away">abroad</span>' : ''}</span>${h.lat != null ? `<button type="button" class="h-title" data-hist="${i}">${esc(h.title)}<span class="pin">${esc(fmtLat(+h.lat, 1))}</span></button>` : `<span class="h-title">${esc(h.title)}</span>`}${h.text ? `<p>${inl(h.text)}</p>` : ''}</li>`).join('')}</ol>`;
   }
   if (k.classification) out += H.sec('How the labels work') + H.prose(k.classification);
+  out += slotHTML('mid');
   if (k.climate_soils) out += H.sec('Climate and soils') + H.prose(k.climate_soils);
   const grapes = arr(k.grapes);
   if (grapes.length) out += H.sec('Grapes') + `<ul class="list">${grapes.map(g => { const gr = grapeFor(nameOf(g)); const nm = esc(nameOf(g)); return `<li>${gr ? `<a class="row" href="#grape-${esc(gr.id)}">` : '<div class="row">'}<span class="row-name">${nm}${g.note ? `<small style="font-family:var(--f-body);letter-spacing:0;font-size:14.5px;color:var(--muted)">${inl(g.note)}</small>` : ''}</span>${gr ? '</a>' : '</div>'}</li>`; }).join('')}</ul>`;
@@ -616,6 +631,7 @@ function countryHTML(iso, m, c) {
     out += H.sec('Largest appellations') + `<ul class="list">${top.map(H.appRow).join('')}</ul>${apps.length > top.length ? `<p class="note">${fmt(apps.length - top.length)} more on the map. Zoom in to see them, or search by name.</p>` : ''}`;
   }
   if (arr(k.further_reading).length) out += H.sec('Further reading') + `<ul class="list">${k.further_reading.map(r => `<li class="src" style="padding:7px 0;font-size:15px;color:var(--text)">${inl(nameOf(r))}</li>`).join('')}</ul>`;
+  out += slotHTML('end');
   if (arr(k.sources).length) out += H.sec('Sources') + H.src(k.sources);
   return out;
 }
@@ -633,6 +649,7 @@ async function showRegion(id, opts, n) {
   openSheet(opts.fromMap ? 'peek' : 'half');
   renderSheet(regionHTML(id, iso, geo, r, c), countryName(iso));
   bindProfile();
+  runSections('region', id);
   selectCountry(null); setSel(null);
   if (map) {
     for (const s of S.sources) { /* clear prior hover */ }
@@ -646,12 +663,14 @@ async function showRegion(id, opts, n) {
 function regionHTML(id, iso, geo, r, c) {
   const name = r.name || geo.name;
   const parent = r.parent_id ? arr(c?.regions).find(x => x.id === r.parent_id) : r.parent_region ? arr(c?.regions).find(x => x.name === r.parent_region) : null;
-  let out = `<div class="head"><p class="eyebrow">Wine region<span class="sep">·</span>${esc(countryName(iso))}${parent ? `<span class="sep">·</span>${esc(parent.name)}` : ''}</p><h2 class="title">${esc(name)}</h2>${arr(r.alt).length ? `<p class="alt">${esc(r.alt.join(', '))}</p>` : ''}${r.tagline ? `<p class="tagline">${inl(r.tagline)}</p>` : ''}</div>`;
+  let out = `<div class="head"><p class="eyebrow">Wine region<span class="sep">·</span>${esc(countryName(iso))}${parent ? `<span class="sep">·</span>${esc(parent.name)}` : ''}</p><h2 class="title">${esc(name)}</h2>${arr(r.alt).length ? `<p class="alt">${esc(r.alt.join(', '))}</p>` : ''}${r.tagline ? `<p class="tagline">${inl(r.tagline)}</p>` : ''}</div>` + slotHTML('hero');
   out += `<p class="crumbs">${H.link(iso, countryName(iso))}${parent ? `<span class="gt">›</span>${H.link(parent.id, parent.name)}` : ''}<span class="gt">›</span><span class="here">${esc(name)}</span></p>`;
   const lp = geo.lp || (r.lon != null ? [+r.lon, +r.lat] : null);
   if (lp) out += H.latline(lp[0], lp[1]);
+  out += slotHTML('top');
   if (r.summary) out += H.prose(r.summary, true); else out += H.pending('region profile');
   for (const [k, t] of [['history', 'History'], ['terroir', 'Terroir'], ['grapes', 'Grapes'], ['styles', 'Styles'], ['classification', 'Classification']]) if (r[k]) out += H.sec(t) + H.prose(r[k]);
+  out += slotHTML('mid');
   let ids = arr(r.app_ids);
   if (!ids.length && arr(r.appellations).length) ids = r.appellations.map(nm => D.index.find(a => a.country === iso && fold(a.name) === fold(nm))?.id).filter(Boolean);
   const apps = ids.map(i => D.byId.get(i)).filter(Boolean).sort((a, b) => (b.area || 0) - (a.area || 0));
@@ -662,6 +681,7 @@ function regionHTML(id, iso, geo, r, c) {
   const idset = new Set(ids);
   const sites = D.sites.filter(s => idset.has(s.app));
   if (sites.length) out += H.sec(`Sites · ${sites.length}`) + `<ul class="list">${sites.slice(0, 60).map(H.siteRow).join('')}</ul>`;
+  out += slotHTML('end');
   if (arr(r.sources).length) out += H.sec('Sources') + H.src(r.sources);
   return out;
 }
@@ -682,7 +702,7 @@ async function showSite(id, opts, n) {
   const app = look(s.app);                 // finest unit holding the site (a climat, Einzellage, MGA...) or its appellation
   const main = look(t.app_main);           // the appellation it was named under, when the unit is finer
   const hint = t.region_hint ? (D.regionById.get(t.region_hint) || arr(c?.regions).find(r => r.id === t.region_hint)) : null;
-  let out = `<div class="head"><p class="eyebrow">${esc([KIND[s.kind] || 'Site', countryName(iso)].join(' · '))}</p><h2 class="title">${esc(s.name)}</h2>${s.class ? `<p class="tagline" style="font-size:17px">${esc(s.class)}</p>` : ''}</div>`;
+  let out = `<div class="head"><p class="eyebrow">${esc([KIND[s.kind] || 'Site', countryName(iso)].join(' · '))}</p><h2 class="title">${esc(s.name)}</h2>${s.class ? `<p class="tagline" style="font-size:17px">${esc(s.class)}</p>` : ''}</div>` + slotHTML('hero');
   let crumbs;
   if (app) {
     const W = whereLine(app, profileOf(app.id, c), c, []);
@@ -696,12 +716,16 @@ async function showSite(id, opts, n) {
   if (sameName) out += `<p class="note" style="margin-top:4px">The site is the ${esc(app.subcat || app.cat || 'appellation')} itself: ${H.link(app.id, 'open its appellation profile')}.</p>`;
   if (!app && (t.app_label || t.appellation)) out += `<p class="note" style="margin-top:4px">${t.app_label ? `Labelled as <b>${esc(t.app_label)}</b>, a place rather than an appellation.` : `Appellation given as <b>${esc(t.appellation)}</b>, which is not on the map.`}</p>`;
   out += H.latline(s.lon, s.lat, s.cq === 'approx' ? 'approximate position' : 'surveyed position');
+  out += slotHTML('top');
   out += t.text ? H.prose(t.text, true) : H.pending('site note');
+  out += slotHTML('mid');
   if (arr(t.producers).length) out += H.sec('Producers') + `<ul class="chips">${t.producers.map(x => `<li><span class="chip static">${esc(nameOf(x))}</span></li>`).join('')}</ul>`;
   const near = D.sites.filter(x => x.id !== id && x.app && (x.app === s.app || (main && x.app === main.id))).slice(0, 12);
   if (near.length) out += H.sec(`Nearby in ${(app || main).name}`) + `<ul class="list">${near.map(H.siteRow).join('')}</ul>`;
+  out += slotHTML('end');
   renderSheet(out, KIND[s.kind] || 'Site');
   bindProfile();
+  runSections('site', id);
   selectCountry(null);
   if (map) {
     if (app) { ensureCountryGeo(iso, !!app.fine || !!D.byId.get(app.id)?.fine).then(() => { if (n === _routeN) setSel(app.id); }); }
@@ -755,6 +779,7 @@ async function showGrape(gid, opts) {
     out += H.sec('Family') + `<div class="tree">${g.parents.length ? `<span class="gen-l">Parents</span><div class="gen">${g.parents.map(ref).join('<span class="x" aria-hidden="true">×</span>')}</div><i class="stem"></i>` : ''}<span class="self">${esc(g.name)}</span>${g.offspring.length ? `<i class="stem"></i><div class="gen">${g.offspring.slice(0, 12).map(ref).join('')}</div><span class="gen-l">Notable offspring</span>` : ''}</div>`;
     if (g.parentage_note) out += `<p class="note">${inl(g.parentage_note)}</p>`;
   } else if (g.parentage_note) out += H.sec('Family') + `<p class="note">${inl(g.parentage_note)}</p>`;
+  out += slotHTML('top');
   if (g.profile) out += H.sec('Profile') + H.prose(g.profile, true);
   else out += H.pending('grape profile');
   if (g.hectares) out += `<p class="note"><b>Planted:</b> ${inl(nameOf(g.hectares))}</p>`;
@@ -771,9 +796,12 @@ async function showGrape(gid, opts) {
     out += `<p class="note">${Object.keys(D.varieties).length ? 'No mapped appellation names this grape among its permitted varieties.' : 'The grape-to-appellation index is still being built, so the map cannot highlight this grape yet.'}</p>`;
   }
   if (g.vivc?.url && /^https:\/\/(www\.)?vivc\.de\//.test(g.vivc.url)) out += `<p class="src" style="margin-top:20px">Passport: <a href="${esc(g.vivc.url)}" target="_blank" rel="noopener noreferrer">VIVC ${esc(g.vivc.prime_name || g.name)}${g.vivc.id ? ` no. ${esc(g.vivc.id)}` : ''}</a>, Vitis International Variety Catalogue.</p>`;
-  renderSheet(out, 'Grape');
+  out += slotHTML('end');
+  renderSheet(out.replace('</div>', '</div>' + slotHTML('hero')), 'Grape');
   bindProfile();
+  runSections('grape', 'grape-' + gid);
   if (map) {
+    VMX.hlOwner = 'grape'; S.dim = true;
     setGrapeHighlight(ids.length ? ids : null);
     if (g.origin.lat != null) pinAt(g.origin.lon, g.origin.lat, `${g.name} birthplace`);
     const pill = $('#pill');
@@ -905,8 +933,10 @@ async function showEvent(id, opts) {
   const prev = D.timeline[e.i - 1], next = D.timeline[e.i + 1];
   let out = `<div class="head ev-story"><p class="eyebrow">${esc(e.era)}</p><p class="when-big" style="margin:6px 0 0">${esc(e.when)}</p><h2 class="title">${esc(e.title)}</h2>${e.place ? `<p class="alt">${esc(e.place)}</p>` : ''}</div>`;
   out += `<div class="tl-controls"><button type="button" class="btn" data-ev="${esc(prev?.id || '')}" ${prev ? '' : 'disabled'} aria-label="Previous moment">‹ Earlier</button><button type="button" class="btn solid" data-tour="1">${TOUR.on ? 'Pause' : 'Play the tour'}</button><button type="button" class="btn" data-ev="${esc(next?.id || '')}" ${next ? '' : 'disabled'} aria-label="Next moment">Later ›</button></div>`;
+  out += slotHTML('hero');
   out += e.text ? H.prose(e.text, true) : '';
   if (e.lat != null) out += H.latline(e.lon, e.lat);
+  out += slotHTML('mid');
   const tagsH = e.tags.map(t => `<span class="chip static tag">${esc(t.replace(/-/g, ' '))}</span>`).join('');
   const cty = e.country && D.countries[e.country] ? `<a class="chip" href="#${esc(e.country)}">${esc(countryName(e.country))}</a>` : '';
   if (tagsH || cty) out += `<div class="chips">${cty}${tagsH}</div>`;
@@ -914,9 +944,11 @@ async function showEvent(id, opts) {
   if (links.length) out += `<ul class="chips">${links.map(l => `<li><a class="chip" href="#${esc(l)}">${esc(D.byId.get(l)?.name || D.regionById.get(l)?.name || l)}</a></li>`).join('')}</ul>`;
   if (arr(e.sources).length) out += H.sec('Sources') + H.src(e.sources);
   out += `<p class="note" style="margin-top:28px"><a href="#timeline">All ${D.timeline.length} moments</a></p>`;
+  out += slotHTML('end');
   openSheet(isPhone() ? (opts.tour ? 'peek' : 'half') : null);
   renderSheet(out, 'Timeline');
   bindView('timeline');
+  runSections('event', id);
   // mark current in the strip
   for (const b of $$('.s-ev')) { const on = b.dataset.ev === id; b.setAttribute('aria-current', on ? 'true' : 'false'); if (on) { const sc = $('#strip-scroll'); const r = b.getBoundingClientRect(), rs = sc.getBoundingClientRect(); if (r.left < rs.left || r.right > rs.right) sc.scrollLeft += r.left - rs.left - rs.width / 2 + r.width / 2; } }
   for (const t of $$('.ribbon .tick')) t.classList.toggle('on', t.dataset.tk === id);
@@ -1001,6 +1033,7 @@ const LAYER_UI = [['apps', 'Appellations'], ['regions', 'Region outlines'], ['si
 const MODES = [['style', 'Wine style'], ['climate', 'Climate'], ['elevation', 'Elevation'], ['country', 'Country']];
 function layersHTML() {
   return `<div class="head"><p class="eyebrow">The map</p><h2 class="title">Layers and colour</h2></div>
+    ${typeof bmLayersSection === 'function' ? bmLayersSection() : ''}
     ${H.sec('Colour appellations by')}<div class="seg" role="radiogroup" aria-label="Colour appellations by">${MODES.map(([k, l]) => `<label><input type="radio" name="mode" value="${k}" ${S.mode === k ? 'checked' : ''}>${l}</label>`).join('')}</div>
     <p class="note" id="mode-note">${esc(modeNote())}</p>
     ${H.sec('Show')}<div class="toggles">${LAYER_UI.map(([k, l]) => `<label class="tog" for="ly-${k}"><span>${esc(l)}</span><input type="checkbox" id="ly-${k}" data-ly="${k}" ${S.layers[k] ? 'checked' : ''}></label>`).join('')}</div>
@@ -1047,6 +1080,7 @@ function aboutHTML() {
   out += H.sec('How to read the climate') + H.prose('Climate figures are 1991 to 2020 normals from a gridded dataset with cells roughly 4 km across, averaged over each mapped zone. A small grand cru may sit inside a single cell, and a commune-based zone includes woods and valley floors as well as vineyards, so read the numbers as the climate of the neighbourhood. Elevation comes from a 1 km model and is likewise an average.');
   const srcs = arr(m.sources);
   out += H.sec('Sources and licences') + (srcs.length ? `<ul class="list">${srcs.map(s => `<li class="src" style="padding:8px 0">${s.url && /^https?:/.test(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.key)}</a>` : esc(s.title || s.key)}${s.licence ? `<br><span class="mono" style="font-size:12px">${esc(s.licence)}</span>` : ''}</li>`).join('')}</ul>` : `<ul class="list">${Object.values(SRC).map(s => `<li class="src" style="padding:8px 0">${esc(s)}</li>`).join('')}<li class="src" style="padding:8px 0">TerraClimate 1991–2020 normals; WorldClim 2.1 elevation; OpenStreetMap contributors (ODbL) for selected rivers and towns.</li></ul>`);
+  if (typeof aboutV2HTML === 'function') out += aboutV2HTML();
   out += `<p class="src" style="margin-top:18px">Type: IM Fell English, digitised by Igino Marini from the Fell types; Literata; IBM Plex Mono. Map engine: MapLibre GL JS.</p>`;
   return out;
 }
@@ -1106,8 +1140,10 @@ function bindView(v) {
   if (v === 'layers') {
     body.querySelectorAll('input[name="mode"]').forEach(r => r.addEventListener('change', () => { setMode(r.value); $('#mode-note').textContent = modeNote(); }));
     body.querySelectorAll('[data-ly]').forEach(c => c.addEventListener('change', () => { S.layers[c.dataset.ly] = c.checked; applyLayerVis(); }));
+    const bms = body.querySelector('.bm-section'); if (bms && typeof bindBmControls === 'function') bindBmControls(bms);
     body.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => APP.nav(b.dataset.nav)));
   }
+  if (v === 'about' && typeof bindInstall === 'function') bindInstall(body);
   if (v === 'timeline') {
     body.querySelectorAll('[data-ev]').forEach(b => b.addEventListener('click', () => { if (!b.dataset.ev) return; stopTour(); APP.nav(b.dataset.ev); }));
     body.querySelectorAll('[data-tour]').forEach(b => b.addEventListener('click', () => (TOUR.on ? stopTour() : startTour())));
@@ -1150,7 +1186,7 @@ function renderResults() {
   const ul = $('#results');
   $('#q-clear').hidden = !q;
   if (!fold(q)) { hideResults(); return; }
-  SR.list = search(q, 24);
+  SR.list = SR.pick && SR.pick.types ? search(q, 300).filter(r => SR.pick.types.has(r.t)).slice(0, 24) : search(q, 24);
   SR.sel = SR.list.length ? 0 : -1;
   ul.innerHTML = SR.list.length ? SR.list.map((r, i) => `<li role="option" id="opt-${i}" aria-selected="${i === SR.sel}" data-i="${i}"><span class="r-name">${hl(r.name, q)}</span><span class="r-meta">${esc(TYPE_LABEL[r.t])}${r.meta ? ' · ' + esc(r.meta.replace(/^(Grape|Glossary|Country) ?·? ?/, '')) : ''}</span></li>`).join('')
     : `<li class="r-empty" aria-disabled="true">${D.indexLoaded || SEARCH.items.length ? 'Nothing found. Try a shorter spelling.' : 'The index is still loading.'}</li>`;
@@ -1163,6 +1199,7 @@ function pickResult(i) {
   if (!r) return;
   hideResults();
   $('#q').blur();
+  if (SR.pick) { $('#q').value = ''; $('#q-clear').hidden = true; endPick({ id: r.id, name: r.name, type: TYPE_ALIAS[r.t] || r.t, meta: r.meta || '' }); return; }
   APP._opts = {};
   APP.nav(r.id);
 }
@@ -1182,10 +1219,11 @@ function bindSearch() {
       const li = ul.querySelector(`#opt-${SR.sel}`); if (li) li.scrollIntoView({ block: 'nearest' });
       q.setAttribute('aria-activedescendant', 'opt-' + SR.sel);
     } else if (e.key === 'Enter') { e.preventDefault(); if (SR.sel >= 0) pickResult(SR.sel); }
-    else if (e.key === 'Escape') { if (!ul.hidden) hideResults(); else { q.value = ''; $('#q-clear').hidden = true; } }
+    else if (e.key === 'Escape') { if (!ul.hidden) hideResults(); else if (SR.pick) endPick(null); else { q.value = ''; $('#q-clear').hidden = true; } }
   });
   $('#results').addEventListener('pointerdown', e => { const li = e.target.closest('li[data-i]'); if (li) { e.preventDefault(); pickResult(+li.dataset.i); } });
   $('#q-clear').addEventListener('click', () => { q.value = ''; hideResults(); $('#q-clear').hidden = true; q.focus(); });
+  $('#pick-x').addEventListener('click', () => endPick(null));
   document.addEventListener('pointerdown', e => { if (!e.target.closest('.search')) hideResults(); });
   document.addEventListener('keydown', e => {
     if (e.key === '/' && document.activeElement !== q && !/input|textarea/i.test(document.activeElement?.tagName)) { e.preventDefault(); q.focus(); }
@@ -1195,7 +1233,7 @@ function bindSearch() {
 
 /* ---------- boot ---------- */
 function bindChrome() {
-  $$('.views button').forEach(b => b.addEventListener('click', () => {
+  $$('.views button:not([data-vm])').forEach(b => b.addEventListener('click', () => {
     if (APP.view === b.dataset.view && !$('#sheet').hidden && location.hash.slice(1) === b.dataset.view) { closeSheet(); return; }
     APP._opts = {}; APP.nav(b.dataset.view);
   }));
@@ -1214,7 +1252,7 @@ function bindChrome() {
   bindSheetDrag();
   bindSearch();
   // theme: host attribute or OS preference
-  const onTheme = () => { requestAnimationFrame(() => { repaintAll(); renderLegend(); }); };
+  const onTheme = () => { requestAnimationFrame(() => { repaintAll(); renderLegend(); vmEmit('theme', { dark: TOK.dark, tokens: { ...TOK } }); }); };
   MQ.dark.addEventListener('change', onTheme);
   new MutationObserver(onTheme).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme', 'class', 'style'] });
   // contextual hint
@@ -1256,4 +1294,4 @@ function boot() {
   // grapes and the glossary are fetched when first needed (search, a profile, the grape view), or when idle
   setTimeout(() => (window.requestIdleCallback || (f => f()))(() => APP.loadGlobals(), { timeout: 4000 }), 9000);
 }
-if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+/* boot() is called from boot.js, after vm.js and the modules have registered */

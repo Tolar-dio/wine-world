@@ -1,0 +1,1948 @@
+{
+ "es-rioja": {
+  "varieties": "Reds: Tempranillo, Garnacha Tinta, Graciano, Mazuelo, Maturana Tinta. Whites: Viura, Malvasia Riojana, Garnacha Blanca, Tempranillo Blanco, Maturana Blanca, Turruntes, Chardonnay, Sauvignon Blanc, Verdejo. Red at least 95% red grapes if destemmed (85% if whole bunch); white 100% white grapes; rose at least 25% red grapes.",
+  "min_alcohol": "Actual: red 10% (Crianza 11.5%, Reserva, Gran Reserva and Vinedo Singular 12%); white and rose 9% (Crianza 10.5%, others 11%); sparkling 10%. Grapes at least 11% potential for red, 9% for white (lowered in 2026 by EU notice C/2026/565).",
+  "max_yield": "Red 6,500 kg/ha (45.5 hl/ha); white 9,000 kg/ha (63 hl/ha); Vinedo Singular red 5,000 kg/ha (32.5 hl/ha), white 6,922 kg/ha. Press yield 70 l/100 kg (sparkling 62 l, Vinedo Singular 65 l).",
+  "ageing": "Consejo totals: Crianza red at least 2 years incl. 1 year in oak, white and rose 6 months in oak; Reserva red 3 years total, white and rose 2 years; Gran Reserva red 5 years, white and rose 4 years. Barrel-fermented whites and roses at least 1 month in barrel. Sparkling (traditional method) at least 15 months from tirage to disgorgement.",
+  "styles": "Red, white and rose (dry to sweet), barrel-fermented, quality sparkling by the traditional method (Brut Nature to Semi Seco), with Reserva and Gran Anada sparkling tiers.",
+  "labelling": "DOCa (Denominacion de Origen Calificada). Zones Rioja Alta, Rioja Alavesa, Rioja Oriental. 'Vino de' plus one of 144 municipalities (wine made, aged and bottled there; 15% neighbouring-municipality tolerance); 'Vinedo en' plus municipality (2024). Vinedo Singular shown under the registered vineyard name. Sparkling must show 'Metodo Tradicional'.",
+  "sweetness": "Sparkling Reserva and Gran Anada only as Brut Nature, Extra Brut or Brut; Extra Seco, Seco and Semi Seco sparkling added in 2023.",
+  "other": "Bottling only in registered wineries in the zone, upheld by the CJEU judgment of 16 May 2000. Oak chips banned. Vineyards productive from the 4th leaf; density 2,850-10,000 vines/ha. Vinedos Singulares need vines at least 35 years old and are listed by ministerial order. Sparkling Reserva and Gran Anada must be hand-picked.",
+  "src": [
+   {
+    "title": "Consejo Regulador DOCa Rioja: classification of Rioja wines according to their ageing",
+    "url": "https://riojawine.com/en/blog/classification-of-rioja-wines-according-to-their-ageing/"
+   },
+   {
+    "title": "eAmbrosia EU register: Rioja PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003061"
+   },
+   {
+    "title": "Official Journal C, C/2026/565, 29.1.2026 (latest EU amendment notice, 2026-01-29)",
+    "url": "http://data.europa.eu/eli/C/2026/565/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-navarra": {
+  "varieties": "Tempranillo, Garnacha Tinta, Garnacha Roja, Graciano, Mazuelo, Cabernet Sauvignon, Merlot, Syrah, Pinot Noir, Oneca; whites Viura, Chardonnay, Garnacha Blanca, Malvasia Riojana, Moscatel de Grano Menudo, Sauvignon Blanc. Whites only white grapes; roses at least 85% red-skinned grapes (lowered from 100% in 2025); reds only red grapes.",
+  "min_alcohol": "Actual: white 10.5%, rose 11%, red 11.5% (same for wood-aged types).",
+  "max_yield": "White 9,200 kg/ha (64.4 hl/ha); red 8,000 kg/ha (56 hl/ha); bled (sangrado) rose 32 hl/ha, at most 40 l of bled must per 100 kg.",
+  "ageing": "Ageing counted from 1 October of the harvest year. Wood-aged types: Roble, Crianza, Reserva, Gran Reserva (reds), fermented in barrel, Crianza, Reserva, Gran Reserva (whites), fermented in barrel and Reserva (roses).",
+  "styles": "White, rose (pressing or bleeding), red, botrytised white, fortified liqueur wine from Moscatel de Grano Menudo or Garnacha.",
+  "labelling": "PDO name in 3-9 mm characters and the PDO logo compulsory.",
+  "other": "Continuous presses banned. Up to 15% rose of the previous vintage may be blended into the current red (2022). Minimum 2,400 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Navarra PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000004841"
+   },
+   {
+    "title": "Official Journal C, C/2025/297, 10.1.2025 (latest EU amendment notice, 2025-01-10)",
+    "url": "http://data.europa.eu/eli/C/2025/297/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ribera-del-duero": {
+  "varieties": "Reds at least 75% Tempranillo (Tinto Fino, Tinta del Pais); whites (allowed since 2020) at least 75% Albillo Mayor; rose/clarete at least 50% red varieties.",
+  "min_alcohol": "Actual 11.5% for joven reds; grapes at least 11 Baume red, 10.5 Baume white.",
+  "max_yield": "Red 7,000 kg/ha (50.4 hl/ha); white 9,500 kg/ha (68.4 hl/ha); press yield 72 l/100 kg.",
+  "ageing": "Crianza red 24 months incl. 12 in oak; Reserva red 36 months incl. 12 in oak, rest in bottle; Gran Reserva red 60 months incl. 24 in oak. White and rose: Crianza 18 months (6 in oak), Reserva 24 (6), Gran Reserva 48 (6). Roble/Barrica at least 3 months in barrel. Barrels at most 330 l for Crianza and above, 600 l for Roble.",
+  "styles": "Red (joven, roble, crianza, reserva, gran reserva), white, rose/clarete.",
+  "labelling": "Designation 'Ribera del Duero' on every label; traditional term Denominacion de Origen.",
+  "other": "Bottling compulsory inside the production area. Parcels must be at least in their third growth cycle; new plantings at least 2,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Ribera del Duero PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005934"
+   },
+   {
+    "title": "Official Journal C 268, 31.7.2023 (latest EU amendment notice, 2023-07-31)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.268.01.0010.01.ENG&toc=OJ%3AC%3A2023%3A268%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-rueda": {
+  "varieties": "Verdejo, Sauvignon Blanc, Viura, Palomino Fino, Chardonnay, Viognier, Riesling, Garnacha Blanca, Moscatel, Gewurztraminer; reds Tempranillo, Garnacha, Cabernet Sauvignon, Merlot, Syrah, Brunal, Cenicienta. White and sparkling at least 75% main varieties; rose at least 50% red; red only red varieties.",
+  "min_alcohol": "Actual: white 11%, red 12%, Dorado and Palido 15%, sparkling 9.5%. Grapes at least 10.5% (white), 12% (red), 9.5% for sparkling.",
+  "max_yield": "Trellised Verdejo and most whites 10,000 kg/ha (72 hl/ha); gobelet 8,000 kg/ha; trellised Viura 12,000 kg/ha; reds 7,000 kg/ha (50.4 hl/ha). Press yield 72 l/100 kg.",
+  "ageing": "Dorado: oxidative ageing at least 4 years, the last 2 in oak. Palido: biological (flor) ageing, at least 3 years in oak before release. Fermentado en barrica: fermentation and lees ageing in oak.",
+  "styles": "White (dry to sweet), barrel-fermented, red, rose, quality sparkling, Dorado and Palido dry fortified wines from Palomino Fino and/or Verdejo.",
+  "other": "Bottling compulsory inside the production area. New plantings from 2019 at least 1,100 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Rueda PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006442"
+   },
+   {
+    "title": "Official Journal C, C/2025/3217,  12.6.2025 (latest EU amendment notice, 2025-06-12)",
+    "url": "http://data.europa.eu/eli/C/2025/3217/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-toro": {
+  "varieties": "Tinta de Toro (Tempranillo), Garnacha Tinta; whites Malvasia Castellana, Verdejo, Moscatel de Grano Menudo, Albillo Real. Two red types since 2025: 'Tinto (Tinta de Toro)' at least 85% Tinta de Toro, or 'Tinto (Garnacha)' at least 85% Garnacha; remaining 15% any authorised variety.",
+  "min_alcohol": "Actual: dry white and rose 11%, dry red 12.5%, sweet styles 9%, traditional-method sparkling 11.5%. Grapes at least 10.5% (9% for sweet).",
+  "max_yield": "Press yield 72 l/100 kg.",
+  "ageing": "Sparkling at least 9 months on lees in bottle.",
+  "styles": "White, rose, red (dry, semi-dry, semi-sweet, sweet, added 2023), traditional-method sparkling. Sweet wines by stopping fermentation without added alcohol.",
+  "labelling": "Roble and Fermentado en barrica allowed.",
+  "other": "Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Toro PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006149"
+   },
+   {
+    "title": "Official Journal C, C/2025/125, 3.1.2025 (latest EU amendment notice, 2025-01-03)",
+    "url": "http://data.europa.eu/eli/C/2025/125/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-cigales": {
+  "varieties": "Tempranillo (Tinta del Pais), Garnacha Tinta, Garnacha Tintorera, Garnacha Roja, Cabernet Sauvignon, Merlot, Syrah; whites Verdejo, Albillo Mayor, Viura, Garnacha Blanca, Sauvignon Blanc.",
+  "min_alcohol": "Actual: white and rose/clarete 11%, red 12%. Grapes at least 10 Baume white, 10.5 Baume red.",
+  "max_yield": "Red 7,000 kg/ha (50.4 hl/ha); white, rose and sparkling 9,000 kg/ha (64.8 hl/ha). Press yield 72 l/100 kg.",
+  "ageing": "Ageing in oak barrels of at most 330 l in registered wineries; Crianza, Reserva, Gran Reserva periods counted from 1 November of the harvest year.",
+  "styles": "White, rose/clarete, red, sweet (stopped fermentation, no alcohol added), quality sparkling by any authorised method.",
+  "labelling": "Vintage compulsory on the label even for unaged wines. Sweet and sparkling exempt.",
+  "other": "Bottling compulsory inside the production area. New plantings at least 1,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Cigales PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005929"
+   },
+   {
+    "title": "Official Journal C 263, 8.7.2022 (latest EU amendment notice, 2022-07-08)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.263.01.0041.01.ENG&toc=OJ%3AC%3A2022%3A263%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-bierzo": {
+  "varieties": "Reds at least 85% Mencia, Garnacha Tintorera, Estaladina and/or Merenzao; whites Godello, Dona Blanca, Malvasia, Palomino; rose at least 70% red grapes; clarete 40-60% red grapes.",
+  "min_alcohol": "Actual: white 11.5%, rose 12%. Grapes at least 12% red (Garnacha Tintorera 11%), 11% white (Godello 12%).",
+  "max_yield": "Palomino 12,000 kg/ha (88.8 hl/ha); other varieties 11,000 kg/ha (81.4 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, traditional Bierzo clarete (5-10% skins in the fermenting must), red; aged types.",
+  "labelling": "Vintage compulsory on the label even for unaged wines. Crianza, Reserva and other ageing terms allowed.",
+  "other": "Bottling compulsory inside the production area. Irrigation banned except in the first two years of new vines.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Bierzo PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005922"
+   },
+   {
+    "title": "Official Journal C 148, 05.05.2020 (latest EU amendment notice, 2020-05-05)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.148.01.0006.01.ENG&toc=OJ:C:2020:148:TOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-arlanza": {
+  "varieties": "Tinta del Pais (Tempranillo), Garnacha Tinta, Mencia, Cabernet Sauvignon, Merlot, Petit Verdot; whites Albillo and Viura. Reds at least 75% of those reds; roses at least 50% red.",
+  "min_alcohol": "Actual: white 10.5%, rose 11%, young and carbonic-maceration red 11.5%. Grapes 10.5% white, 11.5% red.",
+  "max_yield": "White 10,000 kg/ha (72 hl/ha); red 7,000 kg/ha (50.4 hl/ha); lower limits for Vino de Pueblo or Vino de Villa (white 8,000 kg/ha). Press yield 72 l/100 kg.",
+  "ageing": "Crianza, Reserva and Gran Reserva periods counted from 1 November of the harvest year.",
+  "styles": "White, rose, red, carbonic-maceration red and sweet red 'ice wine' (frozen grapes at -2 to -7 C, no added sugar or alcohol), both added in 2026.",
+  "labelling": "Vintage compulsory on the label even for unaged wines. Vino de Pueblo / Vino de Villa possible.",
+  "other": "Bottling compulsory inside the production area. Area extended by four Burgos municipalities in 2026 (EU notice C/2026/4630). Minimum 2,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Arlanza PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005353"
+   },
+   {
+    "title": "Official Journal C, C/2026/4630, 31.8.2026 (latest EU amendment notice, 2026-08-31)",
+    "url": "http://data.europa.eu/eli/C/2026/4630/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-arribes": {
+  "varieties": "Juan Garcia, Rufete, Tempranillo, Garnacha Tinta, Mencia, Brunal, Syrah, Bastardillo Chico, Tinta Jeromo, Mandon, Gajo Arroba; whites Malvasia (Dona Blanca), Verdejo, Albillo Mayor, Albillo Real, Puesta en Cruz, Tijonera. Reds at least 85% of the listed reds; whites and roses 95% authorised varieties.",
+  "min_alcohol": "Actual: white, rose and young red 11%; aged red 12%.",
+  "max_yield": "Red 7,000 kg/ha (50.4 hl/ha); white 10,000 kg/ha (72 hl/ha). Press yield 72 l/100 kg.",
+  "styles": "White, rose, red, and orange wine (white grapes, at least 7 days skin maceration, added 2026 by EU notice C/2026/743).",
+  "labelling": "Vintage compulsory on the label even for unaged wines. Roble for roses and reds; Fermentado en barrica (barrels at most 600 l).",
+  "other": "Bottling compulsory inside the production area. Continuous presses and high-speed centrifuges banned.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Arribes PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005681"
+   },
+   {
+    "title": "Official Journal C, C/2026/743, 5.2.2026 (latest EU amendment notice, 2026-02-05)",
+    "url": "http://data.europa.eu/eli/C/2026/743/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-tierra-del-vino-de-zamora": {
+  "varieties": "Tempranillo, Garnacha Tinta, Cabernet Sauvignon; whites Malvasia Castellana (Dona Blanca), Moscatel de Grano Menudo, Albillo Real, Godello, Verdejo, Palomino. Reds at least 75% red; rose at least 60% red; clarete at least 30% red.",
+  "min_alcohol": "Actual: white 11%, clarete and rose 12%, red 12.5%.",
+  "max_yield": "White 10,000 kg/ha (72 hl/ha); red 7,000 kg/ha (50.4 hl/ha). Press yield 72 l/100 kg.",
+  "ageing": "Ageing permitted for all types (extended in 2026, EU notice C/2026/4917).",
+  "styles": "White, clarete, rose, red.",
+  "labelling": "Denominacion de Origen may replace DOP.",
+  "other": "Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Tierra del Vino de Zamora PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005963"
+   },
+   {
+    "title": "Official Journal C, C/2026/4917, 23.9.2026 (latest EU amendment notice, 2026-09-23)",
+    "url": "http://data.europa.eu/eli/C/2026/4917/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-valles-de-benavente": {
+  "varieties": "Main reds Prieto Picudo, Mencia, Tempranillo. Reds at least 75% main reds; roses at least 35% main reds and at most 30% white grapes.",
+  "min_alcohol": "Actual: white and rose 11%, young red 11.5%, Crianza/Reserva/Gran Reserva red 12%. Grapes at least 11%.",
+  "max_yield": "Red 7,000 kg/ha (50.4 hl/ha); white 9,000 kg/ha. Press yield 72 l/100 kg.",
+  "styles": "White, rose, young red, aged red.",
+  "labelling": "Vino de Calidad may replace DOP. Vintage compulsory on the label even for unaged wines. Crianza, Reserva, Gran Reserva, Roble allowed under national rules.",
+  "other": "Bottling compulsory inside the production area. Minimum 900 vines/ha. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Valles de Benavente PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006153"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-leon": {
+  "varieties": "Main reds Prieto Picudo, Mencia, Negro Sauri (Merenzao); authorised Tempranillo, Garnacha. Whites Albarin Blanco, Verdejo, Godello. Reds and roses at least 60% main reds.",
+  "min_alcohol": "Actual 10.5% to 12% depending on type (white 10.5%); semi-sweet and sweet 9%. Grapes 11.5% red, 10.5% white.",
+  "max_yield": "Press yield 74 l/100 kg.",
+  "styles": "White and rose (aged or unaged), red, semi-sweet and sweet (stopped fermentation).",
+  "labelling": "Denominacion de Origen may replace DOP. Vintage compulsory on the label even for unaged wines.",
+  "other": "Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: León PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005961"
+   },
+   {
+    "title": "Official Journal C, C/2024/1620, 16.2.2024 (latest EU amendment notice, 2024-02-16)",
+    "url": "http://data.europa.eu/eli/C/2024/1620/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-sierra-de-salamanca": {
+  "varieties": "Rufete, Tempranillo, Garnacha Tinta; whites Viura, Moscatel de Grano Menudo, Palomino, Rufete Serrano Blanco. Rose at least 70% red.",
+  "min_alcohol": "Actual: white and rose 11%, young red 11%, barrel-aged red 12%. Grapes 11.5% red, 10.5% white.",
+  "max_yield": "Red 7,000 kg/ha (50.4 hl/ha); white 9,000 kg/ha (64.8 hl/ha). Press yield 72 l/100 kg.",
+  "styles": "White, rose, young and barrel-aged red.",
+  "labelling": "Vino de Calidad may replace DOP. Vintage compulsory on the label even for unaged wines. Crianza, Reserva, Gran Reserva, Envejecido en Roble and Roble allowed.",
+  "other": "Bottling compulsory inside the production area. Minimum 1,300 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Sierra de Salamanca PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005943"
+   },
+   {
+    "title": "Official Journal C, C/2026/4984, 29.9.2026 (latest EU amendment notice, 2026-09-29)",
+    "url": "http://data.europa.eu/eli/C/2026/4984/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-cebreros": {
+  "varieties": "Whites 100% Albillo Real; roses and reds at least 95% Garnacha Tinta. Garnacha Tintorera and Tempranillo also listed.",
+  "min_alcohol": "Actual: white and rose 11.5%, red 12.5% (each lowered by 0.5% in 2025). Grapes 11.5% red, 10.5% white.",
+  "max_yield": "8,000 kg/ha (56 hl/ha); press yield 70 l/100 kg.",
+  "ageing": "Fermentado en barrica: fermentation and lees ageing in oak; ageing in oak counted from 1 November of the harvest year.",
+  "styles": "White (Albillo Real), rose and red (Garnacha).",
+  "labelling": "Vino de Calidad may replace DOP. Vintage compulsory.",
+  "other": "Bottling compulsory inside the production area. New plantings only Garnacha Tinta or Albillo Real. Continuous presses banned.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Cebreros PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000015257"
+   },
+   {
+    "title": "Official Journal C, C/2025/296, 9.1.2025 (latest EU amendment notice, 2025-01-09)",
+    "url": "http://data.europa.eu/eli/C/2025/296/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-valtiendas": {
+  "varieties": "At least 50% Tempranillo (the main variety).",
+  "min_alcohol": "Actual: rose 11%, young red 11.5%, Crianza/Reserva/Gran Reserva red 12%. Grapes 11.5% red, 10.5% white.",
+  "max_yield": "Red 7,000 kg/ha (50.4 hl/ha); white 10,000 kg/ha (72 hl/ha). Press yield 72 l/100 kg.",
+  "styles": "Rose, young red, aged red.",
+  "labelling": "Vino de Calidad may replace DOP. Vintage compulsory on the label even for unaged wines. Crianza, Reserva, Gran Reserva and Roble allowed.",
+  "other": "Bottling compulsory inside the production area. Northern Segovia province, 16 municipalities. Density 2,000-4,000 vines/ha. Only the 2014 single document and a 2017 Spanish amendment are published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Valtiendas PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006155"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-rias-baixas": {
+  "varieties": "Whites Albarino, Loureira, Treixadura, Caino Blanco, Torrontes, Godello; reds Caino Tinto, Espadeiro, Loureiro Tinto, Sousón, Mencia, Brancellao, Pedral, Castanal. Blend types Rosal, Salnes and Ribeira do Ulla need at least 70% of the listed varieties (Caino Blanco added for O Rosal in 2024).",
+  "min_alcohol": "Actual: Albarino 11.3%, other whites 11%, Barrica 11.5%, red and sparkling 10%. Must at least 11% for Albarino.",
+  "max_yield": "12,500 kg/ha (90 hl/ha).",
+  "ageing": "Rias Baixas Barrica in wood of at most 600 l, length stated on the label. Sparkling only by second fermentation in bottle.",
+  "styles": "Albarino, other whites (named by blend and subzone), Barrica, red, quality sparkling.",
+  "labelling": "Harvest year compulsory; numbered Consejo seal on every bottle.",
+  "other": "Five sub-areas: Val do Salnes, Condado do Tea, O Rosal, Soutomaior, Ribeira do Ulla. Bottling only in registered wineries in the zone. Grapes harvested in crates.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Rías Baixas PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006702"
+   },
+   {
+    "title": "Official Journal C, C/2024/7432, 13.12.2024 (latest EU amendment notice, 2024-12-13)",
+    "url": "http://data.europa.eu/eli/C/2024/7432/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ribeiro": {
+  "varieties": "Whites Treixadura, Torrontes, Godello, Loureira, Albarino, Lado, Caino Blanco, Albilla do Avia, Branco Lexitimo; reds Caino Tinto, Caino Bravo, Caino Longo, Souson, Brancellao, Ferron, Mencia, Merenzao, Espadeiro. Secondary Palomino, Garnacha Tintorera and Tempranillo can no longer be planted or grafted (2025, EU notice C/2025/6457).",
+  "min_alcohol": "Actual: Ribeiro 9.5%; Castes 11%; Barrica 12%.",
+  "max_yield": "Main white 13,000 kg/ha (93.6 hl/ha); main red 12,000 kg/ha; Tostado 52 hl/ha. Press yield 72 l/100 kg for main-variety wines, 74 l otherwise.",
+  "ageing": "Barrica: time in barrels of at most 600 l. Tostado: grapes air-dried at least 3 months to at least 350 g/l sugar, at most 40 l per 100 kg, at least 6 months in oak or cherry wood and 3 months in bottle.",
+  "styles": "Ribeiro, Ribeiro Castes (main varieties only), Barrica, traditional-method Espumoso (Brut and Brut Nature), Tostado (sweet raisined wine).",
+  "other": "Bottling at source. New plantings at least 3,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Ribeiro PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006843"
+   },
+   {
+    "title": "Official Journal C, C/2025/6457, 4.12.2025 (latest EU amendment notice, 2025-12-04)",
+    "url": "http://data.europa.eu/eli/C/2025/6457/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ribeira-sacra": {
+  "varieties": "Main reds Mencia, Brancellao, Merenzao, Souson, Caino Tinto, Caino Longo, Caino Bravo; main whites Godello, Loureira, Treixadura, Dona Branca, Albarino, Torrontes, Branco Lexitimo, Caino Blanco. Summum at least 85% main varieties; other reds at least 70% Mencia.",
+  "min_alcohol": "Actual 11% (Summum and reds), 12% for Barrica and Garda.",
+  "max_yield": "Red 7,500 kg/ha (51.75 hl/ha, cut from 9,500 kg in 2025); white 12,000 kg/ha (82.8 hl/ha). Press yield 69 l/100 kg (rose 40 l).",
+  "ageing": "Barrica: red at least 6 months in barrels of at most 500 l, white 3 months in at most 600 l. Garda: red at least 7 months, white 4 months, in wood (225-10,000 l red) or concrete vats (up to 5,000 l).",
+  "styles": "Red, white, rose (maceration at most 48 hours); Summum, Barrica and Garda types.",
+  "other": "Hand harvest in crates; oak chips, thermovinification and continuous presses banned. Wineries may sit in listed neighbouring municipalities because of the steep terrain. Bottled at source. Five sub-areas: Amandi, Chantada, Quiroga-Bibei, Ribeiras do Mino, Ribeiras do Sil.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Ribeira Sacra PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006870"
+   },
+   {
+    "title": "Official Journal C, C/2025/2949, 28.5.2025 (latest EU amendment notice, 2025-05-28)",
+    "url": "http://data.europa.eu/eli/C/2025/2949/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-valdeorras": {
+  "varieties": "Godello, Mencia and other Galician varieties (Merenzao, Souson, Brancellao, Dona Blanca, Treixadura and others). Valdeorras Godello 100% Godello; Valdeorras Mencia at least 85% Mencia; Castes Nobres at least 85% preferred varieties; white sparkling at least 85% Godello.",
+  "min_alcohol": "Actual: white, red and rose 10.5%; Godello, Mencia and Castes Nobres 11.5%; sparkling and Tostado 11%.",
+  "max_yield": "Preferred varieties 12,500 kg/ha (90 hl/ha); others 15,000 kg/ha (108 hl/ha). Press yield 72%.",
+  "ageing": "Tostado: grapes dried at least 30 days, at most 40 l per 100 kg.",
+  "styles": "White, red, rose (added 2025), quality sparkling, Tostado (raisined).",
+  "labelling": "Godello, Mencia, Castes Nobres and Produccion controlada subject to the specification; Barrica, Crianza, Reserva, Gran Reserva under national rules; Tostado must be labelled.",
+  "other": "Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Valdeorras PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006903"
+   },
+   {
+    "title": "Official Journal C, C/2025/1383, 28.2.2025 (latest EU amendment notice, 2025-02-28)",
+    "url": "http://data.europa.eu/eli/C/2025/1383/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-monterrei": {
+  "varieties": "Godello, Dona Blanca, Treixadura, Albarino, Blanca de Monterrei, Caino Blanco, Loureira; reds Mencia, Merenzao, Souson, Caino Tinto and others. Rose at least 85% red grapes.",
+  "min_alcohol": "Actual: white, red and rose 11%; Barrica/Crianza/Reserva/Gran Reserva white 11.5%, red 12%.",
+  "max_yield": "White 13,200 kg/ha (97.68 hl/ha); red 10,000 kg/ha (74 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, red, rose (added 2025, EU notice C/2025/6565), aged types.",
+  "labelling": "Designation name in letters at least 4 mm high.",
+  "other": "Bottling in the demarcated area. Density 3,000-5,000 vines/ha; continuous presses and thermovinification banned.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Monterrei PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006622"
+   },
+   {
+    "title": "Official Journal C, C/2025/6565, 8.12.2025 (latest EU amendment notice, 2025-12-08)",
+    "url": "http://data.europa.eu/eli/C/2025/6565/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-bizkaiko-txakolina": {
+  "varieties": "Recommended Hondarrabi Zuri and Hondarrabi Beltza (and others); authorised include Folle Blanche, Gros Manseng, Petit Manseng, Petit Courbu, Chardonnay, Pinot Noir, Cabernet Franc with limited area. Varietal wines at least 85% of a recommended variety; rose at least 50% red.",
+  "min_alcohol": "Actual 10.5% (white, rose, red); Berezia 11.5%; Berezia aparta 11%.",
+  "max_yield": "White 11,500 kg/ha (80.5 hl/ha); red 9,500 kg/ha (66.5 hl/ha).",
+  "ageing": "Berezia (Bereziak) at least 5 months in cement, ceramic or wood vessels.",
+  "styles": "White (dominant), rose, red; Berezia and Berezia aparta special types; barrel-fermented.",
+  "labelling": "Txakoli, Chacoli, Txakolin, Txakolina terms protected. Numbered labels authorised by the Consejo.",
+  "other": "Oak chips banned. Bottling only in registered wineries.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Bizkaiko Txakolina PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006542"
+   },
+   {
+    "title": "Official Journal C, C/2025/6563, 8.12.2025 (latest EU amendment notice, 2025-12-08)",
+    "url": "http://data.europa.eu/eli/C/2025/6563/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-getariako-txakolina": {
+  "varieties": "Main Hondarrabi Zuri and Hondarrabi Beltza; authorised varieties may cover at most 20% of each winery's vineyard. Varietal wines at least 85% of one recommended variety; rose at least 50% recommended red.",
+  "min_alcohol": "Actual 9.5%.",
+  "max_yield": "13,000 kg/ha.",
+  "styles": "White (dominant), rose, red; Fermentado en barrica (fermented in barrel).",
+  "labelling": "Consejo approves labels; numbered seals; name on main and back label.",
+  "other": "Gipuzkoa province. Bottled only in registered wineries in the zone. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Getariako Txakolina PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006487"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-arabako-txakolina": {
+  "varieties": "Recommended varieties include Hondarrabi Zuri and Hondarrabi Beltza; authorised Gros Manseng, Petit Manseng, Sauvignon Blanc, Riesling, Chardonnay, Pinot Noir, Cabernet Franc together at most 20% of each winery's area. Varietal at least 85%; rose at least 30% recommended red.",
+  "min_alcohol": "Actual 9.5% (max 15%); Berezia 11.5%.",
+  "max_yield": "13,000 kg/ha (91 hl/ha) for all wines.",
+  "ageing": "Berezia fermented in fine wood, ceramic or cement vessels.",
+  "styles": "White, rose, red (dry to sweet), Berezia types.",
+  "labelling": "Txakoli/Chacoli/Txakolina terms protected; numbered labels.",
+  "other": "Alava province. Packaged only in registered wineries.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Arabako Txakolina PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006424"
+   },
+   {
+    "title": "Official Journal C, C/2025/6777, 23.12.2025 (latest EU amendment notice, 2025-12-23)",
+    "url": "http://data.europa.eu/eli/C/2025/6777/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-cangas": {
+  "varieties": "Main Albarin Tinto (Brunal), Albarin Blanco, Verdejo Negro, Mencia, Carrasquin.",
+  "min_alcohol": "Actual: young red 10%, aged red 11.5%, young white 9.5%, aged white 11.5%.",
+  "max_yield": "Red 8,000 kg/ha (56 hl/ha); white 10,000 kg/ha (70 hl/ha). Press yield 70 l/100 kg.",
+  "ageing": "Ageing counted from 1 October each year.",
+  "styles": "Young and aged red and white.",
+  "labelling": "Barrica and Roble allowed. Vintage compulsory. Numbered seals.",
+  "other": "Asturias (Cangas del Narcea, Allande, Degana, Grandas de Salime, Ibias, Illano, Pesoz and parishes of Tineo). Density 3,000-6,000 vines/ha. Bottled only in registered wineries in the zone. Single document published in Spanish only (2018).",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Cangas PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000004383"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-somontano": {
+  "varieties": "Cabernet Sauvignon, Tempranillo, Syrah, Merlot, Pinot Noir, Garnacha Tinta, Moristel, Parraleta; whites Chardonnay, Gewurztraminer, Macabeo, Garnacha Blanca, Riesling, Sauvignon Blanc. Grapes at least 170 g/l sugar.",
+  "min_alcohol": "Actual: white 10%, rose 11%, sparkling 10%, red 11.5%, naturally sweet 13%.",
+  "max_yield": "Red 56 hl/ha; white 63 hl/ha. Press yield 70 l/100 kg.",
+  "styles": "White, rose, red, sparkling, naturally sweet.",
+  "labelling": "'Denominacion de Origen Somontano' compulsory; numbered guarantee seals.",
+  "other": "Municipalities around Barbastro (Huesca). Minimum 1,500 vines/ha. Bottling in the zone.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Somontano PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005662"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-carinena": {
+  "varieties": "Garnacha Tinta, Mazuela (Carinena), Tempranillo, Cabernet Sauvignon, Merlot, Syrah, Monastrell, Moristel, Vidadillo; whites Macabeo, Garnacha Blanca, Carinena Blanca, Chardonnay, Parellada, Moscatel de Alejandria, Sauvignon Blanc, Verdejo.",
+  "min_alcohol": "Actual: white, rose and red 9%; liqueur 15%; sparkling 10%; semi-sparkling 7%; partially dealcoholised 0.5-8.5% (added 2025).",
+  "max_yield": "Red 8,500 kg/ha (62.9 hl/ha); white 9,000 kg/ha (66.6 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, red, liqueur wine, quality sparkling, semi-sparkling, partially dealcoholised (dealcoholisation only inside the area).",
+  "labelling": "Numbered guarantee seals; labels registered with the Consejo.",
+  "other": "Bottling in the area. Fuendetodos and Vistabella de Huerva added in 2023. Minimum 1,500 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Cariñena PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007642"
+   },
+   {
+    "title": "Official Journal C, C/2025/6770, 22.12.2025 (latest EU amendment notice, 2025-12-22)",
+    "url": "http://data.europa.eu/eli/C/2025/6770/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-calatayud": {
+  "varieties": "Garnacha Tinta, Tempranillo, Syrah; whites Macabeo (Viura), Garnacha Blanca, Chardonnay. Grapes at least 170 g/l sugar.",
+  "max_yield": "Red 7,000 kg/ha (49 hl/ha); white 8,000 kg/ha (56 hl/ha). Press yield 70 l/100 kg.",
+  "styles": "White, rose, red, quality sparkling, liqueur, semi-sparkling, naturally sweet and late-harvest (overripe grapes).",
+  "labelling": "Numbered guarantee seals.",
+  "other": "Bottling in the zone. Density 1,300-4,500 vines/ha. Thermovinification banned. Daroca and four more municipalities added in 2022.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Calatayud PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005102"
+   },
+   {
+    "title": "Official Journal C 179, 2.5.2022 (latest EU amendment notice, 2022-05-02)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.179.01.0006.01.ENG&toc=OJ%3AC%3A2022%3A179%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-campo-de-borja": {
+  "varieties": "Garnacha Tinta, Garnacha Tintorera, Tempranillo, Mazuela, Syrah; whites Macabeo, Garnacha Blanca, Chardonnay, Moscatel, Verdejo.",
+  "min_alcohol": "Actual: white and rose 10%, red 11%. Over 15% allowed without enrichment.",
+  "max_yield": "Red 8,000 kg/ha (59.2 hl/ha); white 10,000 kg/ha (74 hl/ha).",
+  "styles": "White, rose, red, sparkling, liqueur wines, naturally sweet and late harvest.",
+  "labelling": "Traditional terms Crianza, Reserva, Gran Reserva, Anejo, Noble, Clasico, Rancio, Superior, Viejo; numbered seals.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Campo de Borja PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005005"
+   },
+   {
+    "title": "Official Journal C, C/2025/1558, 6.3.2025 (latest EU amendment notice, 2025-03-06)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52025XC01558&qid=1741795341521"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-cava": {
+  "varieties": "Macabeo (Viura), Xarel.lo, Parellada, Subirat Parent (Malvasia Riojana), Chardonnay, Garnacha Tinta, Monastrell, Pinot Noir, Trepat. Rose at least 25% red grapes.",
+  "min_alcohol": "Actual 10.8%. Grapes at least 8.5% potential for the whole PDO (single minimum set in 2026, EU notice C/2026/241).",
+  "max_yield": "Cava 12,000 kg/ha (80 hl/ha); Reserva and Gran Reserva 10,000 kg/ha (66.66 hl/ha); Paraje Calificado 8,000 kg/ha (48 hl/ha). First-press only: at most 1 hl per 150 kg (Paraje Calificado 0.6 hl per 100 kg).",
+  "ageing": "Traditional method. Consejo minimums on lees: Cava de Guarda 9 months; Reserva 18 months; Gran Reserva 30 months; Paraje Calificado 36 months.",
+  "styles": "White and rose quality sparkling wine by the traditional method.",
+  "labelling": "Cava de Guarda for non-Reserva wines; Cava de Guarda Superior covers Reserva, Gran Reserva and Paraje Calificado (vintage compulsory). Zones Comtats de Barcelona, Valle del Ebro, Vinedos de Almendralejo, Levante; zone Requena added in 2024 (code RE on crown caps). Elaborador Integral for houses that press and make 100% of their own base wine. Cork must show CAVA and the bottler number.",
+  "sweetness": "Gran Reserva and Paraje Calificado only as Brut Nature, Extra Brut or Brut.",
+  "other": "Guarda Superior grapes from vineyards at least 10 years old and certified organic. Paraje Calificado bans enrichment, acidification and colour correction; base wine pH at most 3.3. Five historic wineries outside the zone may still produce Cava. The PDO spans municipalities in Catalonia, Rioja, Navarra, Aragon, Extremadura and Valencia.",
+  "src": [
+   {
+    "title": "DO Cava: the BOE certifies the new zoning and segmentation of the Cava DO",
+    "url": "https://www.cava.wine/en/news-articles/the-boe-certifies-the-strict-new-zoning-and-segmentation-of-the-cava-do/"
+   },
+   {
+    "title": "eAmbrosia EU register: Cava PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006393"
+   },
+   {
+    "title": "Official Journal C, C/2026/241, 13.1.2026 (latest EU amendment notice, 2026-01-13)",
+    "url": "http://data.europa.eu/eli/C/2026/241/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-penedes": {
+  "varieties": "Xarel.lo, Macabeo, Parellada, Subirat Parent, Malvasia de Sitges, Sumoll Blanco, Forcada, Moneu, Chardonnay, Garnacha, Sumoll, Carinena (Samso), Monastrell, Tempranillo, Cabernet Sauvignon, Merlot, Pinot Noir, Syrah and others. Sparkling main labels may name only listed varieties (2026).",
+  "min_alcohol": "Actual: white and rose 9.5%, red 11% (lowered in 2026), liqueur 15%.",
+  "max_yield": "White and sparkling 12,000 kg/ha (79.92 hl/ha), Vino de Mas and Gran Vino de Mas 10,200 kg/ha; red 9,000 kg/ha (63 hl/ha), Vino de Mas red 53.55 hl/ha. Press yield 66.6 l/100 kg white, 70 l red.",
+  "ageing": "Long-aged sparkling (at least 4 years from tirage with cork stopper) may be sold undisgorged.",
+  "styles": "White, rose, red, quality sparkling, semi-sparkling, liqueur wine (incl. Malvasia de Sitges, 2026), ice-wine method dulce de frio, wine of overripe grapes.",
+  "labelling": "'Penedes' in 3-7 mm characters. Vino de Mas and Gran Vino de Mas estate terms; smaller geographical units (e.g. Alts d'Ancosa, Costers del Montmell, Marina del Garraf, Massis del Garraf).",
+  "other": "All wines from the 2025 harvest onward must be certified organic (EU notice C/2026/2777); sparkling already was. Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Penedès PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007127"
+   },
+   {
+    "title": "Official Journal C, C/2026/2777, 19.5.2026 (latest EU amendment notice, 2026-05-19)",
+    "url": "http://data.europa.eu/eli/C/2026/2777/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-cataluna": {
+  "varieties": "Very wide list incl. Xarel.lo, Macabeo, Parellada, Garnacha (Lladoner) in all colours, Carinena (Samso), Tempranillo (Ull de Llebre), Trepat, Monastrell, Picapoll, Cabernet, Merlot, Syrah, Chardonnay, Chenin, Albarino and others.",
+  "min_alcohol": "Actual: white 10%; natural minimum 9.5% (zone CII) or 10% (zone CIII).",
+  "max_yield": "White, Xarel.lo Rosado, Trepat and Garnacha Roja 12,000 kg/ha (88.8 hl/ha); other reds 10,000 kg/ha (74 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, red; xispejant (low-alcohol, fermentation stopped).",
+  "labelling": "Catalunya Vinyero for grower-producers using only their own grapes; 'Barcelona Sustainable Catalunya' logo for verified CO2 footprint reduction.",
+  "other": "Catalonia-wide DO.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Cataluña PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007115"
+   },
+   {
+    "title": "Official Journal C, C/2024/3814, 14.6.2024 (latest EU amendment notice, 2024-06-14)",
+    "url": "http://data.europa.eu/eli/C/2024/3814/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-priorat": {
+  "varieties": "Main Garnacha Tinta and Carinena (Mazuela, Samso). Village and site terms need at least 60% Carinena, Garnacha Tinta, Garnacha Blanca or Garnacha Peluda (90% for Gran Vinya Classificada).",
+  "min_alcohol": "Actual: white and rose 13%. Grapes at least 12.5% red, 12% white.",
+  "max_yield": "Red 6,000 kg/ha (39 hl/ha); white 8,000 kg/ha (52 hl/ha); Vi de Vila red 5,000 kg/ha (32.5 hl/ha); Paratge and Vinya Classificada red 4,000 kg/ha (26 hl/ha); Gran Vinya Classificada red 3,000 kg/ha (19.5 hl/ha); vino de finca 15% below PDO limits. Press yield 65 l/100 kg.",
+  "styles": "Red, white, rose, liqueur wine, wine of overripe grapes; vino de finca.",
+  "labelling": "'Denominacion de Origen Calificada Priorat' (DOQ). Smaller units: vino de vila de (village), paraje (paratge), vina clasificada and gran vina clasificada (100% grapes from the unit, yield and vine-age limits). Single-use numbered seal.",
+  "other": "Density 2,500-9,000 vines/ha (3,000 minimum since 2013); hand harvest preferred; irrigation only with prior authorisation. Bottling in the zone.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Priorat PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007131"
+   },
+   {
+    "title": "Official Journal C 341, 6.9.2022 (latest EU amendment notice, 2022-09-06)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.341.01.0012.01.ENG&toc=OJ%3AC%3A2022%3A341%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-montsant": {
+  "varieties": "Main Garnacha Tinta, Carinena (Mazuela, Samso), Cabernet Sauvignon, Garnacha Blanca; whites made almost entirely from Garnacha Blanca and Macabeo.",
+  "min_alcohol": "Actual 11.5-12.5% by type; grapes at least 10% (liqueur 12%).",
+  "max_yield": "White 12,000 kg/ha (88.8 hl/ha); red 10,000 kg/ha (74 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, red, sweet, rancio (oxidative ageing in barrel or sol y serena), white and red mistela.",
+  "labelling": "'Montsant' in 3-6 mm characters.",
+  "other": "Bottled only in registered bottling wineries. Red Mistela may include non-red varieties since 2022.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Montsant PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007301"
+   },
+   {
+    "title": "Official Journal C 351, 14.9.2022 (latest EU amendment notice, 2022-09-14)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.351.01.0020.01.ENG&toc=OJ%3AC%3A2022%3A351%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-terra-alta": {
+  "varieties": "Main Garnacha Blanca, Garnacha Tinta, Garnacha Peluda, Carinena (Mazuela).",
+  "min_alcohol": "Actual: white 12.5%, rose 12%, red 12.5%, sparkling 11%, liqueur 15%.",
+  "max_yield": "Red 56 hl/ha; white 70 hl/ha.",
+  "styles": "White, rose, red, quality sparkling, liqueur wine.",
+  "labelling": "Numbered guarantee mark applied at the bottling winery.",
+  "other": "12 municipalities of the Terra Alta comarca between the Ebro and Aragon. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Terra Alta PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007321"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-tarragona": {
+  "varieties": "Main Macabeo and Tempranillo (Ull de Llebre).",
+  "min_alcohol": "Actual: white and orange 9.5%. Grapes at least 10%.",
+  "max_yield": "Red 10,000 kg/ha (70 hl/ha); white 12,000 kg/ha (84 hl/ha). Press yield 70 l/100 kg.",
+  "styles": "White, orange wine (skin-fermented whites incl. Xarel.lo Rosado, added 2023), rose, red.",
+  "labelling": "'TARRAGONA' in capitals, at most 4 mm.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Tarragona PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007302"
+   },
+   {
+    "title": "Official Journal C 2023/892, 10.11.2023 (latest EU amendment notice, 2023-11-10)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202300892"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-conca-de-barbera": {
+  "varieties": "Trepat, Macabeo, Parellada, Garnacha, Tempranillo, Sumoll, Querol, Cabernet, Merlot, Syrah, Chardonnay, Chenin and others.",
+  "min_alcohol": "Actual from 9% (lowered 2023) to 10.5% depending on type; liqueur 15%. Grapes at least 9%.",
+  "max_yield": "12,000 kg/ha (84 hl/ha); press yield 70 l/100 kg.",
+  "styles": "White (incl. orange wine, 2025), rose, red, quality sparkling (white, rose, red), liqueur.",
+  "labelling": "Individual numbered PDO seal; 'Conca de Barbera' at most 4 mm.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Conca de Barberà PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007120"
+   },
+   {
+    "title": "Official Journal C, C/2025/458, 22.1.2025 (latest EU amendment notice, 2025-01-22)",
+    "url": "http://data.europa.eu/eli/C/2025/458/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-costers-del-segre": {
+  "varieties": "Wide list incl. Macabeo, Xarel.lo, Parellada, Chardonnay, Garnacha, Tempranillo, Trepat, Cabernet Sauvignon, Merlot, Syrah, Monastrell, Albarino, Godello, Verdejo and others.",
+  "min_alcohol": "Actual 9% (wine), sparkling 10.8%, liqueur 15%, semi-sparkling 7%.",
+  "max_yield": "16,000 kg/ha (120 hl/ha); press yield 75 l/100 kg.",
+  "ageing": "Barrica and Roble: containers up to 600 l (raised from 330 l in 2022).",
+  "styles": "White, rose, red, quality sparkling, semi-sparkling, liqueur.",
+  "labelling": "'Costers del Segre' 3-7 mm.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Costers del Segre PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007121"
+   },
+   {
+    "title": "Official Journal C, C/2025/2465, 25.4.2025 (latest EU amendment notice, 2025-04-25)",
+    "url": "http://data.europa.eu/eli/C/2025/2465/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-pla-de-bages": {
+  "varieties": "Picapoll Blanco, Picapoll Negro, Mando, Sumoll, Macabeo, Parellada, Chardonnay, Cabernet, Merlot, Garnacha, Tempranillo, Syrah and others.",
+  "min_alcohol": "Actual: white 11%; Mando and Picapoll Negro rose 11.5%; naturally sweet 13%. Grapes 9.5% white, 11% red.",
+  "max_yield": "White 10,000 kg/ha (70 hl/ha); red 9,000 kg/ha (63 hl/ha).",
+  "styles": "White, Brisado (orange, 2024), Fermentado con rapa (with stems), rose, red, semi-sparkling, quality sparkling, naturally sweet.",
+  "labelling": "Brisado, Fermentado con rapa and No filtrado must appear on the DO quality mark.",
+  "other": "Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Pla de Bages PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007322"
+   },
+   {
+    "title": "Official Journal C, C/2024/7385, 6.12.2024 (latest EU amendment notice, 2024-12-06)",
+    "url": "http://data.europa.eu/eli/C/2024/7385/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-emporda": {
+  "varieties": "Garnacha (Lladoner) in all colours, Carinena (Samso), Carinena Blanca and Gris, Macabeo, Moscatel, Xarel.lo, Cabernet, Merlot, Syrah, Monastrell, Tempranillo and others.",
+  "min_alcohol": "Actual: white and rose 11%, red and rancio 12%, sparkling and semi-sparkling 10.5%. Grapes 11.5% red, 10.5% white and rose.",
+  "max_yield": "White 12,000 kg/ha (88.8 hl/ha); red 10,000 kg/ha (74 hl/ha). Press yield 74 l/100 kg.",
+  "ageing": "Vino de guarda at least 12 months in oak up to 330 l. Sparkling Reserva at least 15 months tirage to disgorgement. Garnacha de l'Emporda liqueur wine: Crianza 3 years (1 in oak), Reserva 5 (4), Gran Reserva 8 (6), Vieja Reserva over 10 years.",
+  "styles": "White, orange, rose, red, rancio, sparkling, semi-sparkling, liqueur wines (Garnatxa, Moscatel, Mistela, Vino dulce, Vino rancio de l'Emporda).",
+  "labelling": "Vino nuevo bottled before 31 January after harvest; vino joven bottled in the harvest year; vintage compulsory for both.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Empordà PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007268"
+   },
+   {
+    "title": "Official Journal C, C/2025/4117, 24.7.2025 (latest EU amendment notice, 2025-07-24)",
+    "url": "http://data.europa.eu/eli/C/2025/4117/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-alella": {
+  "varieties": "Main Pansa Blanca (Xarel.lo), Garnacha Tinta, Syrah. Whites only white grapes; roses any varieties.",
+  "min_alcohol": "Actual: white and rose 10.5%; liqueur 15%. Grapes at least 9.5%.",
+  "max_yield": "White 12,000 kg/ha (78 hl/ha); red 10,000 kg/ha (60 hl/ha).",
+  "ageing": "Rancio-style oxidative wine (sol y serena) at least one year in oak.",
+  "styles": "White, rose, red, quality sparkling (traditional method), mistela, naturally sweet (must over 250 g/l), oxidative aged wine.",
+  "labelling": "Guarantee seal; 'Alella' at most 4 mm; grower and estate names need own grapes.",
+  "other": "Bottling in registered cellars. Santa Coloma de Gramenet added in 2020.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Alella PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007117"
+   },
+   {
+    "title": "Official Journal C 217, 1.7.2020 (latest EU amendment notice, 2020-07-01)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.217.01.0021.01.ENG&toc=OJ:C:2020:217:TOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-binissalem": {
+  "varieties": "Red at least 30% Manto Negro, at most 30% Gorgollassa; white at least 50% Moll (Prensal) or Moscatel; sparkling white at least 50% Moll and no Moscatel. Escursac (2025) and Giro Negre, Espero de Gall, Fogoneu (2026) added.",
+  "min_alcohol": "Actual: red 11.5%, rose 11%, white 10.5%.",
+  "max_yield": "Press yield 72 l/100 kg (exceptionally 74 l).",
+  "styles": "White, rose, red, sparkling.",
+  "labelling": "Numbered seals; municipality names may be used as smaller units; Vinyet term with stricter SO2 limits.",
+  "other": "Mallorca. Continuous presses and thermovinification banned. Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Binissalem PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006968"
+   },
+   {
+    "title": " Official Journal C, C/2026/4121, 27.7.2026 (latest EU amendment notice, 2026-07-27)",
+    "url": "http://data.europa.eu/eli/C/2026/4121/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-pla-i-llevant": {
+  "varieties": "Callet, Manto Negro, Fogoneu, Giro Ros, Gorgollassa, Moll (Prensal), Monastrell, Tempranillo, Cabernet, Merlot, Syrah, Pinot Noir; whites Chardonnay, Macabeo, Parellada, Moscatel, Riesling, Viognier.",
+  "min_alcohol": "Actual: white and rose 10.5%, red 11%, sparkling 11%, semi-sparkling 10%, liqueur 15%.",
+  "max_yield": "11,000 kg/ha (77 hl/ha); press yield 70 l/100 kg.",
+  "styles": "White, rose, red, sparkling, semi-sparkling, liqueur.",
+  "other": "Eastern Mallorca. Minimum acidity cut to 3.5 g/l in 2026. Bottling compulsory inside the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Pla i Llevant PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006910"
+   },
+   {
+    "title": "Official Journal C, C/2026/1686, 17.3.2026 (latest EU amendment notice, 2026-03-17)",
+    "url": "http://data.europa.eu/eli/C/2026/1686/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-valencia": {
+  "varieties": "Wide list incl. Merseguera, Moscatel de Alejandria, Macabeo, Malvasia, Planta Fina, Verdil, Tortosi, Bobal, Monastrell, Garnacha, Tempranillo, Forcallat, Bonicaire and international varieties. Varietal labels need 85%; Moscatel de Valencia 100% Moscatel de Alejandria.",
+  "min_alcohol": "Actual: white 9%, rose and red 9.5%, Crianza/Reserva/Gran Reserva 12%, liqueur 15%, aromatic sparkling 6%, Petit Valencia 4.5%.",
+  "max_yield": "Red 9,100 kg/ha (69.16 hl/ha), Vino de Pueblo 8,190 kg, Vino de Parcela 5,460 kg; white 12,000 kg/ha (91.2 hl/ha), Vino de Pueblo 10,800 kg. Press yield 76 l/100 kg (Vino de Parcela 65 l).",
+  "styles": "White, rose, red, aromatic quality sparkling (white only since 2024), semi-sparkling, liqueur incl. Moscatel de Valencia (must or must plus wine, 'Tradicional' if made with lees and skins), Petit Valencia.",
+  "labelling": "Sub-area may be shown if all grapes come from it. Vino de Pueblo / Vi de Poble and Vino de Parcela / Vi de Parcel.la (no enrichment).",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Valencia PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006603"
+   },
+   {
+    "title": "Official Journal C, C/2024/7448, 18.12.2024 (latest EU amendment notice, 2024-12-18)",
+    "url": "http://data.europa.eu/eli/C/2024/7448/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-alicante": {
+  "varieties": "Monastrell, Moscatel de Alejandria, Garnacha (Gironet), Bobal, Merseguera, Airen, Macabeo, Verdil, Forcallat, Valenci, Tempranillo, international varieties and others.",
+  "min_alcohol": "Actual: white and rose 10%, young red 12%; Fondillon at least 16% entirely natural.",
+  "max_yield": "White 12,000 kg/ha (88.8 hl/ha); red 9,100 kg/ha (67.34 hl/ha).",
+  "ageing": "Fondillon: 100% overripe Monastrell, native yeasts, at least 10 years in registered oak barrels, by anada or criaderas y solera (refills at most 20% a year).",
+  "styles": "White, rose (incl. noble and anejo aged), red, Fondillon, Moscatel de Alicante liqueur and sweet wines.",
+  "labelling": "'Alicante. Denominacion de Origen'. Optional Moscatel Alicante and Alicante Singular.",
+  "other": "Packaging in the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Alicante PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006682"
+   },
+   {
+    "title": "Official Journal C, C/2024/4680, 25.7.2024 (latest EU amendment notice, 2024-07-25)",
+    "url": "http://data.europa.eu/eli/C/2024/4680/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-utiel-requena": {
+  "varieties": "Bobal, Tempranillo, Garnacha, Monastrell, Cabernet, Merlot, Syrah, Petit Verdot, Graciano; whites Macabeo, Merseguera, Tardana, Chardonnay, Sauvignon Blanc, Verdejo, Godello and others.",
+  "min_alcohol": "Actual: red 10.5%, other types from 9%.",
+  "max_yield": "Gobelet red 7,500 kg/ha (55.5 hl/ha), Bobal 8,600 kg; trellised red 9,100 kg/ha, Bobal 10,500 kg; white 9,900 kg/ha gobelet, 12,000 kg trellised. Press yield 74 l/100 kg.",
+  "styles": "Red, rose, white, sparkling and others.",
+  "labelling": "Vintage prominent on bottled still wines; numbered seal.",
+  "other": "Bottling by registered wineries in the area, except plants outside authorised before December 2011.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Utiel-Requena PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006601"
+   },
+   {
+    "title": "Official Journal C 280, 9.8.2023 (latest EU amendment notice, 2023-08-09)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.280.01.0013.01.ENG&toc=OJ%3AC%3A2023%3A280%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-jumilla": {
+  "varieties": "Reds at least 95% Monastrell, Garnacha Tintorera, Cencibel, Cabernet Sauvignon, Garnacha, Merlot, Syrah, Petit Verdot; whites at least 85% Airen, Macabeo, Pedro Ximenez, Malvasia, Chardonnay, Sauvignon Blanc, Moscatel, Verdejo, Merseguera, Viognier, or blanc de noirs from red grapes.",
+  "min_alcohol": "Actual: white 10%, rose 11% (Dulce 11.5%), red 12%, Monastrell liqueur 15%.",
+  "max_yield": "Extensive (dry-farmed) red 5,000 kg/ha (37 hl/ha), white 5,625 kg/ha; intensive 8,750 kg/ha (64.75 hl/ha). Press yield 74 l/100 kg.",
+  "ageing": "Ageing counted from 1 October.",
+  "styles": "Jumilla, Jumilla Monastrell (incl. white Monastrell, 2025), Jumilla Dulce, red Monastrell liqueur wine.",
+  "labelling": "Vina vieja: at least 85% of grapes from vineyards 30 years or older. 'Pie franco' term removed in 2025.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Jumilla PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000002762"
+   },
+   {
+    "title": "Official Journal C, C/2025/3208, 11.6.2025 (latest EU amendment notice, 2025-06-11)",
+    "url": "http://data.europa.eu/eli/C/2025/3208/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-yecla": {
+  "varieties": "Monastrell, Garnacha, Garnacha Tintorera, Tempranillo, Cabernet, Merlot, Syrah, Petit Verdot; whites Airen, Macabeo, Malvasia, Merseguera, Chardonnay, Sauvignon Blanc, Moscatel, Verdejo, Viognier (2024).",
+  "min_alcohol": "Actual: white 10.5%, rose 11%. Grapes 11 Baume red, 10 Baume white, 13 Baume for liqueur wine.",
+  "max_yield": "Dry-farmed white 4,500 kg/ha (33.3 hl/ha), red 4,000 kg/ha (29.6 hl/ha); irrigated white 9,000 kg/ha, red 7,000 kg/ha (51.8 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, red (dry to sweet), liqueur.",
+  "labelling": "Numbered seals; labels checked by the control body.",
+  "other": "Continuous presses banned.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Yecla PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006159"
+   },
+   {
+    "title": "Official Journal C, C/2024/3268, 27.5.2024 (latest EU amendment notice, 2024-05-27)",
+    "url": "http://data.europa.eu/eli/C/2024/3268/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-bullas": {
+  "varieties": "Main Monastrell and Macabeo; Tempranillo and Cabernet Sauvignon also authorised.",
+  "min_alcohol": "Actual: white and rose 11%, red 12%, liqueur 15%, sparkling 11.5%. Grapes 10% white, 11% for rose, 12% for red and liqueur.",
+  "max_yield": "Dry-farmed white 6,000 kg/ha (42 hl/ha), red 5,000 kg/ha (35 hl/ha); irrigated white 8,000 kg/ha (56 hl/ha), red 7,000 kg/ha (49 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, red (young, crianza, reserva, gran reserva), dry to sweet, liqueur, sparkling.",
+  "labelling": "Numbered seals; vintage compulsory for sparkling.",
+  "other": "Murcia. Only a 2017 Spanish-language single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Bullas PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006158"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-la-mancha": {
+  "varieties": "Airen, Tempranillo (Cencibel), Garnacha, Bobal, Cabernet Sauvignon, Albarino, Chardonnay, Gewurztraminer and many others. Wines only from permitted varieties; blending white and red grapes not allowed.",
+  "min_alcohol": "Actual: white and rose 9%, red 11.5%, naturally sweet 13%; low-strength wines from 4.5% (added 2026, EU notice C/2026/1048).",
+  "max_yield": "Gobelet 10,000 kg/ha (74 hl/ha); trellised 13,000 kg/ha (96.2 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "Young (joven, nuevo) and traditional white, rose and red; roble; naturally sweet; crianza, reserva, gran reserva; semi-sparkling (aguja); quality sparkling; blanc de noirs.",
+  "labelling": "Varietal label needs 85%. Sparkling may use Premium and Reserva.",
+  "other": "Reds at least 3 days on skins, at most 28 C. Packaging within the demarcated area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: La Mancha PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007644"
+   },
+   {
+    "title": "Official Journal C, C/2026/1048, 19.2.2026 (latest EU amendment notice, 2026-02-19)",
+    "url": "http://data.europa.eu/eli/C/2026/1048/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-valdepenas": {
+  "varieties": "Main Tempranillo (Cencibel), Airen, Macabeo, Verdejo, Cabernet Sauvignon, Syrah. Traditional red at least 85% red grapes (raised from 50% in 2020).",
+  "min_alcohol": "Actual: white 11%.",
+  "max_yield": "White 8,000 kg/ha (56 hl/ha); red 7,500 kg/ha (52.5 hl/ha); third-year grafts 3,750 and 3,000 kg/ha; first two years excluded.",
+  "styles": "White (also barrel-fermented, carbonic maceration, oak, crianza), rose (12-48 h maceration), red (incl. traditional red), quality sparkling.",
+  "labelling": "Sparkling may use Premium and Reserva.",
+  "other": "Fermentation temperature limits: whites at most 18 C, reds macerated at least 48 h below 28 C.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Valdepeñas PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007650"
+   },
+   {
+    "title": "Official Journal C 5, 9.01.2020 (latest EU amendment notice, 2020-01-09)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2020.005.01.0007.01.ENG&toc=OJ:C:2020:005:TOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-manchuela": {
+  "varieties": "Bobal, Tempranillo, Garnacha Tinta, Garnacha Tintorera, Monastrell, Moravia Agria, Moravia Dulce, Rojal, Tinto Velasco, Touriga Nacional, international reds; whites Albillo Real, Albillo Dorado, Pardillo, Macabeo, Verdejo, Moscatel, Chardonnay, Sauvignon Blanc, Viognier. Aged rose at least 85% red grapes.",
+  "min_alcohol": "Actual: dry white and rose 10.5%, dry red 12%, Crianza/Reserva/Gran Reserva red 12%, off-dry to sweet types 9%.",
+  "max_yield": "Gobelet white 7,860 kg/ha (55 hl/ha), red 6,430 kg/ha (45 hl/ha); trellised white 11,430 kg/ha.",
+  "ageing": "Roble or 'Envejecido en madera' for aged whites and roses: at least 2 months in wood.",
+  "styles": "White, barrel-fermented, orange (2025), rose, aged white and rose (2026), young, Roble and carbonic red, Vino de Hielo (grapes frozen on the vine at -5 C or below), quality sparkling.",
+  "labelling": "Sparkling may use Premium and Reserva; Vino de Hielo regulated.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Manchuela PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007645"
+   },
+   {
+    "title": "Official Journal C, C/2026/3565, 3.7.2026 (latest EU amendment notice, 2026-07-03)",
+    "url": "http://data.europa.eu/eli/C/2026/3565/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-mentrida": {
+  "varieties": "Main variety Garnacha Tinta.",
+  "min_alcohol": "Actual: dry white 11.5%, red 12%; sweet types 9%.",
+  "max_yield": "Gobelet 7,150 kg/ha (50 hl/ha hand-picked, 53 machine); trellised 12,850 kg/ha (90/95 hl/ha); Vino de Pueblo gobelet 5,720 kg/ha. Press yield 70 l/100 kg (74 l machine harvest).",
+  "ageing": "Aged wines in oak of at most 330 l; barrel-aged white at least 2 months in 200-2,000 l barrels; barrel-aged red up to 5,000 l.",
+  "styles": "White, rose, red (dry to sweet), Roble, barrel-aged.",
+  "labelling": "'Toledo' may appear as larger unit; Vino de Pueblo plus municipality.",
+  "other": "Reds at least 48 h on skins; press pressure under 2.5 kg/cm2.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Méntrida PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007646"
+   },
+   {
+    "title": "Official Journal C 96, 15.3.2023 (latest EU amendment notice, 2023-03-15)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.096.01.0010.01.ENG&toc=OJ%3AC%3A2023%3A096%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-mondejar": {
+  "varieties": "Main Tempranillo (Cencibel), Cabernet Sauvignon, Syrah, Malvar, Torrontes.",
+  "min_alcohol": "Actual: white 10%, rose 11%, red 11%.",
+  "max_yield": "Gobelet white 7,860 kg/ha (55 hl/ha), red 7,430 kg/ha (52 hl/ha); trellised white 8,290 kg/ha (58 hl/ha), red 7,860 kg/ha (55 hl/ha).",
+  "styles": "White (young, over one year, barrel-fermented), rose from 100% red grapes, red (young, carbonic maceration, crianza, reserva, gran reserva).",
+  "other": "Guadalajara province. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Mondéjar PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007647"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ucles": {
+  "varieties": "Tempranillo (Cencibel), Garnacha Tinta, Cabernet, Merlot, Syrah, Graciano, Tinto Velasco, Touriga Nacional, Petit Verdot, Malbec; whites Airen, Macabeo, Verdejo, Albarino, Chardonnay, Sauvignon Blanc, Moscatel, Viognier.",
+  "min_alcohol": "Actual: red 12%, young white 10%, barrel-fermented and aged white 11.5%, rose 11.5%.",
+  "max_yield": "Graded by vine age: red over 40 years gobelet 5,000 kg/ha (35 hl/ha), trellised 8,000 kg/ha (56 hl/ha); younger vines lower or higher per specification.",
+  "ageing": "Briefly aged young reds at least 2 months in oak up to 600 l. Crianza and Reserva at least 7 days maceration.",
+  "styles": "Red, white, rose, quality sparkling.",
+  "labelling": "Sparkling may use Premium and Reserva.",
+  "other": "Red vines under six years old excluded.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Uclés PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007649"
+   },
+   {
+    "title": "Official Journal C, C/2026/897, 09.02.2026 (latest EU amendment notice, 2026-02-09)",
+    "url": "http://data.europa.eu/eli/C/2026/897/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-almansa": {
+  "varieties": "Garnacha Tintorera, Monastrell, Garnacha Tinta, Tempranillo, Cabernet, Merlot, Syrah, Petit Verdot, Pinot Noir; whites Macabeo, Verdejo, Chardonnay, Sauvignon Blanc, Moscatel, Garnacha Blanca (added 2026). Blending white and red grapes not allowed.",
+  "min_alcohol": "Actual: dry white and rose 11.5%, dry red 12%, sweet types 9%, sparkling 10%.",
+  "max_yield": "Gobelet white 7,860 kg/ha (55 hl/ha), red 6,430 kg/ha (47.58 hl/ha); trellised white 11,430 kg/ha. Press yield 74 l/100 kg red, 70 l white.",
+  "styles": "White, rose, red (dry to sweet), quality sparkling.",
+  "labelling": "Varietal label needs 85%.",
+  "other": "Packaging within the demarcated area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Almansa PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007643"
+   },
+   {
+    "title": "Official Journal C, C/2026/3796, 17.7.2026 (latest EU amendment notice, 2026-07-17)",
+    "url": "http://data.europa.eu/eli/C/2026/3796/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ribera-del-jucar": {
+  "varieties": "Main Bobal, Tempranillo (Cencibel), Cabernet Sauvignon, Syrah, Airen, Macabeo, Verdejo.",
+  "min_alcohol": "Actual: dry white and rose 10.5%, sweet 9%.",
+  "max_yield": "Gobelet 10,140 kg/ha (75 hl/ha); trellised 12,170 kg/ha (90 hl/ha).",
+  "ageing": "Aged wines at least 4 months in large wooden tinas (5,000-20,000 l) or 2 months in oak barrels.",
+  "styles": "White, rose (at most 36 h maceration), red.",
+  "labelling": "'Cuenca' may appear as larger unit.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Ribera del Júcar PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007648"
+   },
+   {
+    "title": "Official Journal C 453, 9.11.2021 (latest EU amendment notice, 2021-11-09)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.453.01.0013.01.ENG&toc=OJ%3AC%3A2021%3A453%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-vinos-de-madrid": {
+  "varieties": "Malvar, Albillo Real, Airen, Garnacha Tinta, Tempranillo (Tinto Fino), Garnacha Tintorera, Listan Prieto, Cabernet, Merlot, Syrah and others. Clarete at least 25% red grapes.",
+  "min_alcohol": "Actual: white 11%, rose and clarete 11.5%, red 12%, sparkling 10%. Grapes at least 170 g/l sugar.",
+  "max_yield": "White 8,000 kg/ha (59.2 hl/ha); red 7,000 kg/ha (51.8 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, clarete, red, Sobremadres (fermented on lees and skins, natural CO2), traditional-method sparkling.",
+  "labelling": "Barrica, Roble, Fermentado en barrica, Sobre lias, Vino de altitud and other terms regulated.",
+  "other": "Density 900-4,000 vines/ha; thermovinification banned.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Vinos de Madrid PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006981"
+   },
+   {
+    "title": "Official Journal C, C/2025/2458, 25.4.2025 (latest EU amendment notice, 2025-04-25)",
+    "url": "http://data.europa.eu/eli/C/2025/2458/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ribera-del-guadiana": {
+  "varieties": "Main Tempranillo, Cabernet Sauvignon, Merlot, Syrah, Graciano; whites Cayetana Blanca, Pardina, Macabeo.",
+  "min_alcohol": "Actual 9% (max 15%) for whites and roses.",
+  "max_yield": "White 12,000 kg/ha (84 hl/ha); red 10,000 kg/ha (70 hl/ha). Press yield 70 l/100 kg.",
+  "ageing": "Tinto roble 90 days incl. 60 in oak up to 600 l; vino de guarda 365 days incl. 60 in oak; from 1 October of harvest year.",
+  "styles": "Joven white, rose and red; fermentado en barrica; roble; vino de guarda; aged types.",
+  "labelling": "Varietal label needs 85%.",
+  "other": "Extremadura. Packaging within the area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Ribera del Guadiana PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005462"
+   },
+   {
+    "title": "Official Journal L 231, 20.9.2023, p. 112 (latest EU amendment notice, 2023-09-20)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2023.231.01.0112.01.ENG&toc=OJ%3AL%3A2023%3A231%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-jerez-xeres-sherry": {
+  "varieties": "Palomino (Palomino Fino), Pedro Ximenez, Moscatel de Alejandria, Beba, Perruno, Vijariego Blanco.",
+  "min_alcohol": "Vino generoso: Fino 14-17% (lowered from 15% in 2026, EU notice C/2026/4549), Amontillado 16-22%, Oloroso 17-22%, Palo Cortado 17-22%. Liqueur: Pale Dry 15%, Pale Cream 14%, Medium 15%, Cream 15%, Pedro Ximenez 15%, Moscatel 15%.",
+  "max_yield": "11,428 kg/ha for PDO wine; press yield 70 l/100 kg. Over-limit grapes only for supplementary products (cap falls from 14,285 to 12,570 kg/ha from 2028/29).",
+  "ageing": "All wine aged in oak casks of at most 1,000 l; minimum average age 2 years before release. Criaderas y soleras or anadas.",
+  "styles": "Dry generosos (Fino, Amontillado, Oloroso, Palo Cortado); generosos de licor (Pale Dry, Medium, Pale Cream, Cream); naturally sweet PX, Moscatel, Dulce.",
+  "labelling": "'Jerez-Xeres-Sherry', 'Jerez', 'Xeres' or 'Sherry' alone; wine type on its own line. Pagos as smaller units (Torre de Cera, Encinilla-Grija and Loma de Vejines added 2026). Qualified-age wines (over 12 years) have special limits.",
+  "sweetness": "Dry generosos at most 4 g/l; Pale Dry under 50 g/l; Pale Cream 50-115 g/l; Medium 4-115 g/l; Cream 115-140 g/l; Moscatel and Dulce at least 160 g/l; Pedro Ximenez at least 212 g/l.",
+  "other": "Area: Jerez, El Puerto de Santa Maria, Sanlucar, Trebujena, Chipiona, Rota, Puerto Real, Chiclana, Lebrija, San Jose del Valle. Bottling in the area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Jerez-Xérès-Sherry PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007002"
+   },
+   {
+    "title": "Official Journal C, C/2026/4549, 26.8.2026 (latest EU amendment notice, 2026-08-26)",
+    "url": "http://data.europa.eu/eli/C/2026/4549/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-manzanilla-sanlucar-de-barrameda": {
+  "varieties": "Palomino (Palomino Fino).",
+  "min_alcohol": "Actual 14% (lowered from 15% in 2026, EU notice C/2026/4513).",
+  "max_yield": "11,428 kg/ha; press yield 70 l/100 kg.",
+  "ageing": "Biological ageing under flor in oak casks of at most 1,000 l; minimum average age 2 years.",
+  "styles": "Manzanilla (dry, biologically aged), as wine or liqueur wine.",
+  "labelling": "'Manzanilla-Sanlucar de Barrameda', 'Manzanilla de Sanlucar' or 'Manzanilla'. Manzanilla Pasada and Manzanilla Fina regulated.",
+  "sweetness": "Under 4 g/l sugar.",
+  "other": "Bottling in the area. Liqueur versions may be fortified with grape spirit at any stage.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Manzanilla de Sanlúcar PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007122"
+   },
+   {
+    "title": "Official Journal C, C/2026/4513, 24.8.2026 (latest EU amendment notice, 2026-08-24)",
+    "url": "http://data.europa.eu/eli/C/2026/4513/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-montilla-moriles": {
+  "varieties": "Main Pedro Ximenez, Moscatel de Alejandria, Moscatel de Grano Menudo.",
+  "min_alcohol": "Young white 10% (max 13.5%); biologically aged generoso types 14.5-17%.",
+  "max_yield": "13,714 kg/ha; press yield 70 l/100 kg (sun-dried sweet wines 40 l).",
+  "ageing": "Biological (flor) and oxidative ageing; Pasado for Fino over 10 years average, Viejo 15 years, Viejisimo 25 years.",
+  "styles": "Young and aged white, vino de tinaja, generosos (Fino, Amontillado, Oloroso, Palo Cortado), sweet PX from sun-dried grapes.",
+  "labelling": "Joven, Vino de tinaja, Vino de pasto, En rama, Flor, Yema; PX may carry Cosecha/Anada and Superior.",
+  "other": "Sun-dried PX: hand harvest, 25 kg boxes.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Montilla-Moriles PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007201"
+   },
+   {
+    "title": "Official Journal C 161, 3.5.2021 (latest EU amendment notice, 2021-05-03)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.161.01.0007.01.ENG&toc=OJ%3AC%3A2021%3A161%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-malaga": {
+  "varieties": "Main Pedro Ximenez, Moscatel de Alejandria, Moscatel de Grano Menudo, Doradilla, Rome.",
+  "min_alcohol": "Actual: dry white 15%, liqueur 15%, raisined-grape wine 10%, overripe sweet 12%, naturally sweet 13%.",
+  "max_yield": "12,000 kg/ha; press yield 70%.",
+  "ageing": "Liqueur wines (except Palido) at least 6 months in oak; criaderas y soleras or static. Noble, Anejo and Trasanejo indicate age.",
+  "styles": "Liqueur wines (Dulce Natural, Maestro, Tierno), naturally sweet (must over 300 g/l), wines from raisined grapes, dry white.",
+  "labelling": "Optional 'Andalucia' and smaller units.",
+  "other": "Asoleo (sun-drying) for sweet types. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Málaga PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007135"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-sierras-de-malaga": {
+  "varieties": "Wide list incl. Rome, Moscatel, Pedro Ximenez, Doradilla, Tintilla de Rota, Melonera and Garnacha Tintorera (2025), Tempranillo, international varieties.",
+  "min_alcohol": "Actual: white 10%, rose 11%, red 12%, overripe red 12%.",
+  "max_yield": "White 12,000 kg/ha (84 hl/ha); red 9,000 kg/ha (63 hl/ha); Serrania de Ronda 9,000 kg/ha.",
+  "ageing": "Oak ageing by anadas; Crianza, Reserva, Gran Reserva optional.",
+  "styles": "White, rose, red, red from overripe grapes.",
+  "labelling": "Sub-area Serrania de Ronda (hand harvest, boxes up to 30 kg).",
+  "other": "No enrichment or sweetening.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Sierras de Málaga PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007139"
+   },
+   {
+    "title": "Official Journal C, C/2025/509, 28.1.2025 (latest EU amendment notice, 2025-01-28)",
+    "url": "http://data.europa.eu/eli/C/2025/509/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-condado-de-huelva": {
+  "varieties": "Zalema, Palomino Fino, Listan del Condado, Garrido Fino, Pedro Ximenez, Moscatel, plus reds incl. Tintilla de Rota and Tempranillo.",
+  "min_alcohol": "White 10%; red Joven/Roble/Crianza 11%, Reserva and Gran Reserva 12%; generosos: Condado Palido/Fino 14% (2026), Oloroso, Amontillado, Palo Cortado 16%; liqueur 15%.",
+  "max_yield": "Zalema 18,000 kg/ha; other varieties 12,000 kg/ha. Press yield 70 l/100 kg.",
+  "ageing": "Generosos in oak up to 1,000 l, average age at least 2 years. Whites aged at least 1 year in tanks or oak up to 650 l.",
+  "styles": "White, rose, red, Vino de pasto (2026), generosos (Condado Palido or Fino, Condado Viejo or Oloroso, Amontillado, Palo Cortado), generoso de licor, sweet PX and Moscatel.",
+  "labelling": "Municipalities and named estates as smaller units; Donana National Park for eight municipalities.",
+  "other": "Density 1,950-4,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Condado de Huelva PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006984"
+   },
+   {
+    "title": "Official Journal C, C/2026/4233, 31.7.2026 (latest EU amendment notice, 2026-07-31)",
+    "url": "http://data.europa.eu/eli/C/2026/4233/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-granada": {
+  "varieties": "Vijariego, Tempranillo, Garnacha, Syrah, Cabernet, Merlot, Pinot Noir, Chardonnay, Sauvignon Blanc, Moscatel, Pedro Ximenez, Rome and others. Rose at least 25% red.",
+  "min_alcohol": "Actual: white and rose 10% (Contraviesa-Alpujarra white 11%, rose 12%). Grapes 10% white, 11% red, 9% sparkling.",
+  "max_yield": "Red 8,000 kg/ha; white 9,000 kg/ha; sparkling 12,000 kg/ha; Contraviesa-Alpujarra lower (red 6,000, Tempranillo 7,000, white 8,000).",
+  "ageing": "Traditional-method sparkling at least 9 months tirage to disgorgement.",
+  "styles": "White, rose, red, quality sparkling, naturally sweet or late harvest.",
+  "labelling": "Sub-areas Geoparque-Norte, Poniente, Contraviesa-Alpujarra.",
+  "other": "Contraviesa-Alpujarra bans oak chips, acidification and expedition liqueur; sparkling there at least 70% Vijariego. Continuous presses banned.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Granada PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007206"
+   },
+   {
+    "title": "Official Journal C, C/2025/954, 7.2.2025 (latest EU amendment notice, 2025-02-07)",
+    "url": "http://data.europa.eu/eli/C/2025/954/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-lebrija": {
+  "varieties": "Main Palomino Fino, Palomino, Syrah.",
+  "min_alcohol": "Actual: white 10.5%, red 11.5%, generoso and liqueur 15%, dulce natural and mistela 15%.",
+  "max_yield": "White 15,000 kg/ha. Press yield 72.5 l/100 kg. New vineyards 0% year 1, 10% year 2, 40% year 3, 80% year 4.",
+  "ageing": "Generosos minimum average age 3 years; criaderas y solera or anadas.",
+  "styles": "White, red, generoso, generoso de licor, dulce natural, mistela.",
+  "other": "Lebrija and El Cuervo (Seville). Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Lebrija PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007202"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-islas-canarias": {
+  "varieties": "Long list of Canary varieties: Listan Blanco de Canarias, Listan Negro, Negramoll, Malvasia Volcanica, Malvasia Aromatica, Malvasia Rosada, Gual, Verdello, Vijariego Blanco and Negro, Marmajuelo, Baboso Blanco and Negro, Albillo Criollo, Forastera Blanca, Tintilla, Castellana Negra, Listan Prieto, Sabro, plus Tempranillo, Syrah, Merlot, Cabernet Sauvignon, Pinot Noir, Ruby Cabernet and others.",
+  "min_alcohol": "Actual 10% for the main young wines, 11.5% for aged reds, 15% liqueur, 10% sparkling, 9.5% semi-sparkling.",
+  "max_yield": "15,000 kg/ha (111 hl/ha).",
+  "styles": "White, rose, red, liqueur, sparkling, semi-sparkling, wine of overripe grapes (naturally sweet with at least 13% actual alcohol and no enrichment).",
+  "other": "Regional DO covering all the islands. Bottling only in registered wineries.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Islas Canarias PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006964"
+   },
+   {
+    "title": "Official Journal C 88, 24.2.2022 (latest EU amendment notice, 2022-02-24)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.088.01.0032.01.ENG&toc=OJ%3AC%3A2022%3A088%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-gran-canaria": {
+  "varieties": "Canary varieties incl. Listan Blanco, Listan Negro, Malvasia Volcanica, Aromatica and Rosada, Castellana Negra, Tintilla, Vijariego, Baboso, Marmajuelo, Gual, Verdello, Albillo Criollo, Moscatel, Negramoll, Sabro, Listan Prieto.",
+  "min_alcohol": "Actual: white and rose 10%, red 11%, liqueur 15%, sparkling 10%, wine of overripe grapes 14%. Grapes 10% white, 11% red, 12% for liqueur.",
+  "max_yield": "White 13,000 kg/ha (94.25 hl/ha); red 12,000 kg/ha (87 hl/ha). Press yield 72.5 l/100 kg.",
+  "styles": "White, rose, red, liqueur, sparkling, wine of overripe grapes.",
+  "labelling": "'Denominacion de Origen Gran Canaria'; 'Monte Lentiscal' for wines from that historic district.",
+  "other": "Whole island. Maximum 5,000 vines/ha. Continuous presses and high-speed centrifugal crushers banned. Bottling in registered wineries.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Gran Canaria PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000002981"
+   },
+   {
+    "title": "Official Journal C, C/2025/4097, 21.7.2025 (latest EU amendment notice, 2025-07-21)",
+    "url": "http://data.europa.eu/eli/C/2025/4097/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-lanzarote": {
+  "varieties": "Malvasia Volcanica, Malvasia Rosada, Listan Blanco, Listan Negro, Diego (Vijariego Blanco), Moscatel de Alejandria, Negramoll, Burrablanca, Breval, Gual, Verdello, Tintilla, Baboso Negro, Pedro Ximenez, Torrontes, plus Syrah, Tempranillo, Merlot, Cabernet Sauvignon, Pinot Noir, Ruby Cabernet.",
+  "min_alcohol": "Actual: wine 9%, liqueur 15%, sparkling 10%, wine from overripe grapes 13%. Grapes 10.5% (liqueur 12%, overripe 16%).",
+  "max_yield": "7,000 kg/ha (51.8 hl/ha); press yield 74%.",
+  "styles": "White (dry to sweet), rose, red, liqueur, sparkling and quality sparkling, wine from overripe grapes.",
+  "labelling": "Smaller units Arrecife, Haria, San Bartolome, Teguise, Tias, Tinajo, Yaiza (100% grapes, production and bottling there).",
+  "other": "Vines in volcanic ash hollows or behind stone walls; at most 3,000 vines/ha. Continuous presses and high-speed centrifugal crushers banned. Bottling in registered wineries.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Lanzarote PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003225"
+   },
+   {
+    "title": "Official Journal C, C/2025/1678, 11.3.2025 (latest EU amendment notice, 2025-03-11)",
+    "url": "http://data.europa.eu/eli/C/2025/1678/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-la-palma": {
+  "varieties": "Main varieties incl. Marmajuelo, Malvasia Aromatica, Malvasia Volcanica, Listan Blanco, Listan Negro, Negramoll and other Canary varieties.",
+  "min_alcohol": "Actual: white, rose and red 10%; Vino de Tea 11% (white, rose) or 12% (red); liqueur 15%; sparkling and aguja 10%; naturally sweet and Malvasia dulce 13%. Grapes 10% (Malvasia for Malvasia dulce 13%).",
+  "max_yield": "10,000 kg/ha (70 hl/ha); press yield 70%.",
+  "styles": "White, rose, red, Vino de Tea (matured in tea wood), liqueur, sparkling, aguja, naturally sweet, Malvasia dulce.",
+  "labelling": "'Vino de Tea' regulated. Sub-zones Norte de La Palma, Hoyo de Mazo, Fuencaliente.",
+  "other": "Winemaking on the island. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: La Palma PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003901"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-abona": {
+  "varieties": "Main Marmajuelo, Baboso Negro, Albillo, Vijariego Negro, Verdello, Tempranillo, Syrah, Merlot, Malvasia Volcanica and others.",
+  "min_alcohol": "Actual: white, rose and sparkling 10%, red 11.5%, liqueur 15%. Grapes 9.5% white, 11.5% red.",
+  "max_yield": "Traditional perimeter parral 20,000 kg/ha; gobelet, trellis and low parral 10,000 kg/ha.",
+  "styles": "White, aguja gasificado, rose, sparkling, red, vino dulce clasico (overripe grapes, at least 45 g/l), liqueur.",
+  "other": "South Tenerife (Adeje, Arico, Arona, Fasnia, Granadilla, San Miguel, Vilaflor). Bottling in registered wineries. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Abona PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006829"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ycoden-daute-isora": {
+  "varieties": "Main incl. Pedro Ximenez, Moscatel de Alejandria, Malvasia and other Canary varieties.",
+  "min_alcohol": "Actual: white 11%, rose and red 11.5%, liqueur 15%, quality sparkling 11%, Malvasia Clasico 14%. Grapes for Malvasia Clasico at least 17%.",
+  "max_yield": "White 15,000 kg/ha (105 hl/ha); red 10,000 kg/ha (70 hl/ha). Press yield 70 l/100 kg.",
+  "styles": "White, rose, red, liqueur, quality sparkling, Malvasia Clasico (overripe grapes).",
+  "other": "Northwest Tenerife (Icod de los Vinos, Garachico, Guia de Isora and others). Ageing cellars at least 2,500 l in stock. Bottling in registered wineries. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Ycoden-Daute-Isora PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003481"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-tacoronte-acentejo": {
+  "varieties": "Canary varieties (Listan Negro, Negramoll, Listan Blanco, Malvasia, Vijariego, Marmajuelo, Gual, Tintilla and others) plus international varieties.",
+  "min_alcohol": "Actual: wine 9%; liqueur 15%; sparkling and aromatic sparkling 6%; semi-sparkling 7%; naturally sweet 13%. Grapes at least 154 g/l sugar.",
+  "max_yield": "15,000 kg/ha (111 hl/ha).",
+  "styles": "White, red, rose, liqueur, quality sparkling, aromatic sparkling, semi-sparkling, overripe and raisined-grape wines, partially fermented must, naturally sweet.",
+  "other": "At most 3,000 vines/ha. Packaging within the area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Tacoronte-Acentejo PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003384"
+   },
+   {
+    "title": "Official Journal  C, C/2025/1618, 19.3.2025 (latest EU amendment notice, 2025-03-19)",
+    "url": "http://data.europa.eu/eli/C/2025/1618/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-la-gomera": {
+  "varieties": "Main Forastera Blanca, Listan Negro, Negramoll, Marmajuelo, Albillo, Vijariego Blanco, Verdello, Gual, Malvasia, Tintilla, Sabro, Castellana Negra, Moscatel, Doradilla.",
+  "min_alcohol": "Actual: white 10.5%, traditional white 13%, varietal Forastera white 12%, rose 11%, traditional rose 13%. Grapes 11% white, 12% red, 13% naturally sweet.",
+  "max_yield": "12,000 kg/ha (89 hl/ha).",
+  "styles": "White (incl. traditional and Forastera), rose, red, naturally sweet.",
+  "other": "Whole island. At most 4,000 vines/ha and 64,000 buds/ha. Bottling in registered wineries. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: La Gomera PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003122"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-valle-de-la-orotava": {
+  "varieties": "Main Marmajuelo, Albillo, Vijariego Blanco, Tintilla, Negramoll, Malvasia Volcanica and Rosada, Listan Blanco, Listan Negro and others.",
+  "min_alcohol": "Actual: white and rose 10.5%, red 11%, liqueur 15%, sparkling 10%.",
+  "max_yield": "White 13,000 kg/ha (96.2 hl/ha); red 10,000 kg/ha (74 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, red, sparkling, liqueur, vino dulce clasico (overripe or sun-dried grapes, at least 45 g/l).",
+  "other": "La Orotava, Los Realejos, Puerto de la Cruz (Tenerife). Traditional cordon trenzado (braided cordon) training. Bottling in registered wineries. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Valle de la Orotava PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006873"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-el-hierro": {
+  "varieties": "Main Vijariego Blanco and Negro, Listan Blanco, Listan Negro, Baboso, Marmajuelo, Verdello, Tintilla, Pedro Ximenez, Negramoll, Malvasia, Moscatel, Gual, Burrablanca.",
+  "min_alcohol": "Actual: white 11%, rose 11.5%, red 12%, liqueur 15%, sparkling 11%. Grapes 11-13 Baume by variety.",
+  "max_yield": "15,000 kg/ha (111 hl/ha).",
+  "styles": "White, rose, red, sparkling, liqueur, vino dulce clasico (overripe grapes, at least 45 g/l).",
+  "other": "Whole island. Continuous presses and high-speed centrifugal crushers banned. Bottling in registered wineries. Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: El Hierro PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006861"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-valle-de-guimar": {
+  "varieties": "Main Listan Blanco, Listan Negro, Marmajuelo, Albillo, Moscatel de Alejandria, Malvasia Aromatica, Syrah, Merlot.",
+  "min_alcohol": "Actual: dry white and rose 11%, semi-dry white 10%, sweet white 13.05%, red 12%, liqueur 15%. Grapes 9% white, 10% red, 13.5% for liqueur.",
+  "max_yield": "White 30,000 kg/ha; red 10,000 kg/ha. Press yield 74 l/100 kg.",
+  "styles": "White (dry to sweet), rose, red, liqueur, vino dulce clasico (at least 55 g/l).",
+  "labelling": "'Valle de Guimar' in ITC Cheltenham bold condensed, 3 mm; numbered seals.",
+  "other": "Arafo, Candelaria, Guimar (Tenerife). Only the 2014 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Valle de Güímar PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006868"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-chozas-carrascal": {
+  "varieties": "Chardonnay, Macabeo, Cabernet Franc, Garnacha (Gironet), Syrah, Bobal.",
+  "min_alcohol": "Actual 12.5%.",
+  "max_yield": "White 9,000 kg/ha (63 hl/ha); red 7,500 kg/ha (rose 56 hl/ha, red 53 hl/ha).",
+  "ageing": "Reds at least 14 days maceration and at least 5 months in barrel; whites fermented in oak; rose macerated in oak at least 3 weeks.",
+  "styles": "White, rose, red.",
+  "other": "Single-estate PDO (Vino de Pago category). Parcels in the San Antonio district of Requena (Valencia).",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Chozas Carrascal PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007821"
+   },
+   {
+    "title": "Official Journal L 148, 11.05.2020 (latest EU amendment notice, 2020-05-11)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2020.148.01.0003.01.ENG&toc=OJ:L:2020:148:TOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-los-balagueses": {
+  "varieties": "Bobal, Tempranillo, Garnacha Tintorera, Merlot, Syrah; whites Chardonnay, Sauvignon Blanc, Tardana (Planta Nova).",
+  "min_alcohol": "Actual: red 13.5%, white 12%.",
+  "max_yield": "Red 7,950 kg/ha (68 hl/ha); white 10,000 kg/ha (75 hl/ha).",
+  "styles": "Red, white.",
+  "other": "Single-estate PDO (Vino de Pago category). Requena (Valencia).",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Los Balagueses PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006285"
+   },
+   {
+    "title": "Official Journal C, C/2025/510, 28.1.2025 (latest EU amendment notice, 2025-01-28)",
+    "url": "http://data.europa.eu/eli/C/2025/510/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-dehesa-del-carrizal": {
+  "varieties": "Main Chardonnay, Syrah, Cabernet Sauvignon; also Tempranillo, Merlot, Petit Verdot.",
+  "min_alcohol": "Actual 12%.",
+  "max_yield": "Cabernet Sauvignon and Tempranillo 10,000 kg/ha (70 hl/ha); Syrah and Petit Verdot 12,000 kg/ha (84 hl/ha); Merlot 8,500 kg/ha; Chardonnay 9,000 kg/ha (63 hl/ha). Press yield 75 l/100 kg at no more than 1.5 kg/cm2.",
+  "ageing": "Reds aged in oak barrels and wooden vats; at least 25% of white must fermented on lees in barrel.",
+  "styles": "Red, white.",
+  "other": "Single-estate PDO (Vino de Pago category). Retuerta del Bullaque (Ciudad Real), about 26 ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Dehesa del Carrizal PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007653"
+   },
+   {
+    "title": "Official Journal C 74 27.2.2019 (latest EU amendment notice, 2019-02-27)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2019.074.01.0003.01.ENG&toc=OJ:C:2019:074:FULL"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-vallegarcia": {
+  "varieties": "Cabernet Franc, Cabernet Sauvignon, Garnacha Tinta, Carinena, Merlot, Monastrell, Petit Verdot, Syrah, Viognier.",
+  "min_alcohol": "Actual 12-12.5% by type.",
+  "max_yield": "Viognier, Cabernet Franc, Garnacha, Carinena, Monastrell 11,500 kg/ha (75 hl/ha); Syrah 9,250 kg/ha; Merlot and Cabernet Sauvignon 8,500 kg/ha; Petit Verdot 14,600 kg/ha.",
+  "styles": "Red, white (Viognier).",
+  "other": "Single-estate PDO (Vino de Pago category). Hand harvest in crates with double sorting. Retuerta del Bullaque (Ciudad Real). Bottled on the estate or in the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Vallegarcía PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000014380"
+   },
+   {
+    "title": "Official Journal C 167, 21.4.2022 (latest EU amendment notice, 2022-04-21)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.167.01.0037.01.ENG&toc=OJ%3AC%3A2022%3A167%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-finca-elez": {
+  "varieties": "Cabernet Sauvignon, Chardonnay, Merlot, Syrah, Tempranillo, Viognier (added 2023).",
+  "min_alcohol": "Actual 11% (rose added 2021).",
+  "max_yield": "Cabernet Sauvignon, Chardonnay, Viognier 9,000 kg/ha (66.6 hl/ha); Tempranillo 12,000 kg/ha; Merlot 8,500 kg/ha; Syrah 13,000 kg/ha. Press yield 74 l/100 kg.",
+  "ageing": "Chardonnay: at least 10% fermented in oak up to 5,000 l, at least 2 months in oak. Envejecido and Crianza reds at least 7 days maceration, Reserva and Gran Reserva 15 days.",
+  "styles": "White, rose, red (aged tiers).",
+  "other": "Single-estate PDO (Vino de Pago category). El Bonillo (Albacete).",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Finca Élez PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007652"
+   },
+   {
+    "title": "Official Journal C 246, 13.7.2023 (latest EU amendment notice, 2023-07-13)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.246.01.0014.01.ENG&toc=OJ%3AC%3A2023%3A246%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-guijoso": {
+  "varieties": "Main Cabernet Sauvignon, Syrah, Merlot, Chardonnay; also Sauvignon Blanc, Tempranillo.",
+  "min_alcohol": "Actual: white and red 12%.",
+  "max_yield": "Chardonnay, Sauvignon Blanc, Merlot, Cabernet Sauvignon 8,000 kg/ha (56 hl/ha); Tempranillo 11,000 kg/ha; Syrah 8,500 kg/ha.",
+  "ageing": "Reds 2-4 weeks maceration, then 6-36 months in 225 l oak barrels under 5 years old, each variety separately before blending.",
+  "styles": "White, red.",
+  "other": "Single-estate PDO (Vino de Pago category). El Bonillo (Albacete). Only the 2014-2016 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Guijoso PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007657"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-casa-del-blanco": {
+  "varieties": "Main Cabernet Sauvignon, Merlot, Petit Verdot, Syrah, Tempranillo (Cencibel).",
+  "min_alcohol": "Actual 11.5-12.5% by type.",
+  "max_yield": "7,500 kg/ha (52.5 hl/ha).",
+  "ageing": "Reds: each variety at least 12 months in French and American oak, then at least 12 months in bottle.",
+  "styles": "Red, white, young wines (added 2021).",
+  "other": "Single-estate PDO (Vino de Pago category). Manzanares (Ciudad Real).",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Casa del Blanco PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007658"
+   },
+   {
+    "title": "Official Journal C 65, 25.02.2021 (latest EU amendment notice, 2021-02-25)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.065.01.0042.01.ENG&toc=OJ%3AC%3A2021%3A065%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-los-cerrillos": {
+  "varieties": "Main Cabernet Sauvignon, Petit Verdot, Syrah, Tempranillo; also Merlot, Chardonnay.",
+  "min_alcohol": "Actual 12.5-13% by type.",
+  "max_yield": "Tempranillo 12,000 kg/ha; Cabernet Sauvignon 9,000 kg/ha; Syrah 13,000 kg/ha; Chardonnay 9,000 kg/ha; Petit Verdot 12,000 kg/ha; Merlot 8,500 kg/ha.",
+  "ageing": "Grapes are not pressed: static draining plus gentle dynamic draining of the marc; natural clarification by decanting.",
+  "styles": "Varietal and barrel-aged reds.",
+  "other": "Single-estate PDO (Vino de Pago category). Argamasilla de Alba (Ciudad Real). Bottled on the estate or in the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Los Cerrillos PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000015085"
+   },
+   {
+    "title": "Official Journal C 65, 25.02.2021 (latest EU amendment notice, 2021-02-25)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.065.01.0028.01.ENG&toc=OJ%3AC%3A2021%3A065%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-calzadilla": {
+  "varieties": "Main Tempranillo and Garnacha Tinta; also Syrah, Cabernet Sauvignon.",
+  "min_alcohol": "Actual 13% (red).",
+  "max_yield": "Garnacha 9,000 kg/ha (63 hl/ha); Tempranillo, Syrah, Cabernet Sauvignon 10,000 kg/ha (70 hl/ha).",
+  "ageing": "Native-yeast fermentation; at least 8 months in oak barrels and foudres (225-4,700 l).",
+  "styles": "Red.",
+  "other": "Single-estate PDO (Vino de Pago category). Huete (Cuenca); vineyards at 845-1,005 m on terraces. Hand harvest in 15 kg boxes. Only the 2014-2016 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Calzadilla PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007655"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-pago-florentino": {
+  "varieties": "Tempranillo with at most 10% Syrah and Petit Verdot together.",
+  "min_alcohol": "Actual 13% (red).",
+  "max_yield": "10,000 kg/ha (70 hl/ha).",
+  "ageing": "Native-yeast fermentation, 7-21 days on skins.",
+  "styles": "Red.",
+  "other": "Single-estate PDO (Vino de Pago category). La Solana site, Malagon (Ciudad Real). Only the 2014-2016 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Pago Florentino PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007656"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-el-vicario": {
+  "varieties": "Main Sauvignon Blanc, Chardonnay, Tempranillo, Merlot; also Syrah, Garnacha, Cabernet Sauvignon, Graciano.",
+  "min_alcohol": "Actual 11.5% upwards by type.",
+  "max_yield": "Chardonnay, Sauvignon Blanc, Merlot 9,000 kg/ha (63 hl/ha); Tempranillo, Syrah, Garnacha 12,000 kg/ha (84 hl/ha); Tempranillo blanc de noirs 15,000 kg/ha; Cabernet Sauvignon 10,000 kg/ha. Press yield 70 l/100 kg.",
+  "ageing": "Barrel-fermented white: at least 15% fermented on lees 4-8 months in European oak 225-500 l; reds aged in 225-300 l oak.",
+  "styles": "White, barrel-fermented white, white from red grapes, semi-sweet white, red.",
+  "other": "Single-estate PDO (Vino de Pago category). 86 parcels on the Guadiana in the municipality of Ciudad Real.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: El Vicario PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007781"
+   },
+   {
+    "title": "Official Journal  L 206, 6.8.2019 (latest EU amendment notice, 2019-08-06)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.206.01.0011.01.ENG&toc=OJ:L:2019:206:FULL"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-el-terrerazo": {
+  "varieties": "Main Bobal, Syrah, Merlot, Garnacha Tinta.",
+  "min_alcohol": "Actual 13% (red).",
+  "max_yield": "Red 7,300 kg/ha (59 hl/ha); press yield 78% (Bobal varietal 74%).",
+  "styles": "Red (incl. varietal Bobal).",
+  "other": "Single-estate PDO (Vino de Pago category). Utiel (Valencia). Only the 2014-2016 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: El Terrerazo PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006249"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-vera-de-estenas": {
+  "varieties": "Main Cabernet Sauvignon, Bobal, Tempranillo, Merlot, Chardonnay.",
+  "min_alcohol": "Actual 12-12.5% by type.",
+  "max_yield": "Red 7,950 kg/ha (55.65 hl/ha); white 8,700 kg/ha (60.9 hl/ha). Press yield 70%.",
+  "ageing": "Oak casks of 225 or 300 l: madurado en barrica under 6 months; Crianza at least 6 months, Reserva 12, Gran Reserva 18 in cask, then bottle to the legal minimum. Chardonnay fermented in new oak.",
+  "styles": "Red (barrel-aged, Crianza, Reserva, Gran Reserva), rose (mostly Bobal), Chardonnay white.",
+  "other": "Single-estate PDO (Vino de Pago category). Utiel (Valencia). Bobal gobelet-trained, other varieties on trellis.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Vera de Estenas PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000008543"
+   },
+   {
+    "title": "Official Journal L 290, 11.11.2019 (latest EU amendment notice, 2019-11-11)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=uriserv:OJ.L_.2019.290.01.0007.01.FRA&toc=OJ:L:2019:290:TOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-campo-de-la-guardia": {
+  "varieties": "Main Cabernet Sauvignon, Tempranillo, Syrah, Merlot, Chardonnay; also Malbec, Petit Verdot.",
+  "min_alcohol": "Actual 13% (red and white).",
+  "max_yield": "Cabernet Sauvignon 7,500 kg/ha; Syrah and Malbec 9,000 kg/ha; Merlot and Petit Verdot 10,000 kg/ha; Tempranillo 11,000 kg/ha.",
+  "ageing": "White: 10-30% of must fermented and aged 1-3 months on lees in new oak.",
+  "styles": "Red, white.",
+  "other": "Single-estate PDO (Vino de Pago category). La Guardia (Toledo). Only the 2014-2016 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Campo de La Guardia PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007654"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-la-jaraba": {
+  "varieties": "Main Merlot and Tempranillo; also Cabernet Sauvignon, Graciano; white added 2021.",
+  "max_yield": "Tempranillo 10,500 kg/ha (73.5 hl/ha); Cabernet Sauvignon 11,000 kg/ha (77 hl/ha); Merlot and Graciano 10,000 kg/ha (70 hl/ha). Press yield 70 l/100 kg.",
+  "ageing": "Red blends at least 3 months in 225 l oak and 1 month in bottle; varietal Merlot 6 months in oak and 6 in bottle.",
+  "styles": "Red blends, varietal Merlot, white.",
+  "other": "Single-estate PDO (Vino de Pago category). El Provencio (Cuenca). Only sheep manure from the estate used. Bottled on the estate or in the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: La Jaraba PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000012845"
+   },
+   {
+    "title": "Official Journal C 66, 26.02.2021 (latest EU amendment notice, 2021-02-26)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2021.066.01.0058.01.ENG&toc=OJ%3AC%3A2021%3A066%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-dominio-de-valdepusa": {
+  "varieties": "Main Syrah, Cabernet Sauvignon, Graciano, Petit Verdot; Merlot vinified with Syrah.",
+  "min_alcohol": "Actual 12.5%.",
+  "max_yield": "Cabernet Sauvignon and Merlot 10,000 kg/ha (68 hl/ha); Petit Verdot 12,000 kg/ha (81.6 hl/ha); Syrah and Graciano 13,000 kg/ha (88.4 hl/ha).",
+  "ageing": "Fermentation at least 7 days with native yeasts; additional ageing at least 6 months.",
+  "styles": "Red.",
+  "labelling": "Traditional terms Noble, Anejo, Crianza, Gran Reserva listed.",
+  "other": "Single-estate PDO (Vino de Pago category). Malpica de Tajo (Toledo), about 49 ha; wine made in the estate winery. Only the 2014-2016 Spanish single document is published.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Dominio de Valdepusa PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007651"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-pago-de-otazu": {
+  "varieties": "Cabernet Sauvignon, Chardonnay, Merlot, Tempranillo.",
+  "min_alcohol": "Actual 12.5% (dry white and red).",
+  "max_yield": "6,500 kg/ha (46.15 hl/ha); press yield 71 l/100 kg.",
+  "ageing": "Ageing cannot be counted from before 1 October of the harvest year.",
+  "styles": "Dry white, red.",
+  "labelling": "Label must show 'Vino de Pago de Otazu'.",
+  "other": "Single-estate PDO (Vino de Pago category). Pamplona basin, left bank of the Arga (Navarra). At least 2,400 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Pago de Otazu PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005185"
+   },
+   {
+    "title": "Official Journal C, C/2026/3580, 13.7.2026 (latest EU amendment notice, 2026-07-13)",
+    "url": "http://data.europa.eu/eli/C/2026/3580/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-ayles": {
+  "varieties": "Cabernet Sauvignon, Chardonnay, Garnacha Tinta, Merlot, Syrah, Tempranillo.",
+  "min_alcohol": "Actual: white and rose 11.5%, red 12%. Grapes 11% white and rose, 12% red.",
+  "max_yield": "8,000 kg/ha (56 hl/ha); press yield 70 l/100 kg, hydraulic or pneumatic presses only.",
+  "ageing": "Oak (French, American or Eastern European): white and rose at least 30 days, red 60 days, 'Tres de 3000' 12 months.",
+  "styles": "White, rose, red.",
+  "other": "Single-estate PDO (Vino de Pago category). Estate in Meloche (Zaragoza). Bottled at the estate winery.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Aylés PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000007264"
+   },
+   {
+    "title": "Official Journal C, C/2026/1818, 19.3.2026 (latest EU amendment notice, 2026-03-24)",
+    "url": "http://data.europa.eu/eli/C/2026/1818/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-dehesa-penalba": {
+  "varieties": "Cabernet Sauvignon, Merlot, Syrah, Tempranillo.",
+  "min_alcohol": "Actual 12.5%.",
+  "max_yield": "Young red 8,000 kg/ha (57.6 hl/ha); aged red 6,000 kg/ha (43.2 hl/ha).",
+  "ageing": "Hand harvest, chilled grapes, cold soak 5-8 days, spontaneous fermentation, at least 21 days maceration.",
+  "styles": "Young and aged red.",
+  "labelling": "Vintage compulsory; Roble, Crianza, Reserva, Gran Reserva allowed.",
+  "other": "Single-estate PDO (Vino de Pago category). Villabanez (Valladolid), 91.4 ha. Trellised, at least 2,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Dehesa Peñalba PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000016881"
+   },
+   {
+    "title": "Official Journal L 55, 28.2.2022 (latest EU amendment notice, 2022-02-28)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2022.055.01.0038.01.ENG&toc=OJ%3AL%3A2022%3A055%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-uruena": {
+  "varieties": "Cabernet Sauvignon, Merlot, Syrah, Tempranillo (Tinta del Pais).",
+  "min_alcohol": "Actual 12.5-13% by type.",
+  "max_yield": "8,000 kg/ha (56 hl/ha); press yield 70 l/100 kg.",
+  "ageing": "Ageing in French and American oak.",
+  "styles": "Rose, red.",
+  "labelling": "'Vino de pago' may replace DOP; vintage compulsory.",
+  "other": "Single-estate PDO (Vino de Pago category). Urueña (Valladolid), 78 ha. At least 3,000 vines/ha, drip irrigation, integrated pest control.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Urueña PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000016336"
+   },
+   {
+    "title": "Official Journal C 208, 24.5.2022 (latest EU amendment notice, 2022-05-24)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2022.208.01.0011.01.ENG&toc=OJ%3AC%3A2022%3A208%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-pago-de-arinzano": {
+  "varieties": "Cabernet Sauvignon, Chardonnay, Merlot, Tempranillo.",
+  "min_alcohol": "Actual: white (Chardonnay only) 12%, red 12.5%.",
+  "max_yield": "Tempranillo and Chardonnay 6,000 kg/ha (42 hl/ha); Cabernet Sauvignon and Merlot 7,000 kg/ha.",
+  "ageing": "Fermentation in barrels or vats (barrel fermentation explicitly allowed in 2026, EU notice C/2026/4824).",
+  "styles": "White (Chardonnay), red.",
+  "labelling": "Label must show 'Vino de Pago de Arinzano'.",
+  "other": "Single-estate PDO (Vino de Pago category). Senorio de Arinzano estate, Aberin (Navarra), on the Ega. At least 3,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Pago de Arínzano PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005181"
+   },
+   {
+    "title": "Official Journal C, C/2026/4824, 22.9.2026 (latest EU amendment notice, 2026-09-22)",
+    "url": "http://data.europa.eu/eli/C/2026/4824/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-prado-de-irache": {
+  "varieties": "Cabernet Sauvignon, Garnacha Tinta, Graciano, Mazuelo, Merlot, Tempranillo.",
+  "min_alcohol": "Actual 12% (dry red).",
+  "max_yield": "Tempranillo, Merlot, Garnacha 7,000 kg/ha (49 hl/ha); Mazuelo and Graciano 7,200 kg/ha (50.4 hl/ha).",
+  "ageing": "Ageing cannot be counted from before 1 October of the harvest year.",
+  "styles": "Dry red.",
+  "labelling": "Label must show 'Vino de Pago Prado de Irache'.",
+  "other": "Single-estate PDO (Vino de Pago category). Ayegui (Tierra Estella, Navarra). Continuous presses banned.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Prado de Irache PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005012"
+   },
+   {
+    "title": "Official Journal C, C/2026/747, 5.2.2026 (latest EU amendment notice, 2026-02-05)",
+    "url": "http://data.europa.eu/eli/C/2026/747/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-abadia-retuerta": {
+  "varieties": "Tempranillo, Cabernet Sauvignon, Cabernet Franc, Merlot, Syrah, Petit Verdot, Graciano, Garnacha, Malbec, Pinot Noir; whites Sauvignon Blanc, Verdejo, Godello, Albillo Mayor, Riesling, Gewurztraminer.",
+  "min_alcohol": "Actual 12%.",
+  "max_yield": "8,000 kg/ha (60 hl/ha).",
+  "styles": "Red and white, varietal or blended.",
+  "labelling": "'Vino de pago' may replace DOP.",
+  "other": "Single-estate PDO (Vino de Pago category). Sardon de Duero (Valladolid), 560 ha. Density 1,000-5,000 vines/ha.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Abadía Retuerta PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000016271"
+   },
+   {
+    "title": "Official Journal C 4, 6.1.2023,  (latest EU amendment notice, 2023-01-06)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.004.01.0012.01.ENG&toc=OJ%3AC%3A2023%3A004%3ATOC"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-bolandin": {
+  "varieties": "Cabernet Sauvignon, Tempranillo, Merlot, Syrah; whites Chardonnay, Sauvignon Blanc, Moscatel de Grano Menudo.",
+  "min_alcohol": "Actual 12.5% (red, white, white from overripe grapes).",
+  "max_yield": "Cabernet Sauvignon, Tempranillo, Merlot 7,500 kg/ha (52 hl/ha); Sauvignon Blanc and Chardonnay 7,400 kg/ha (48 hl/ha).",
+  "ageing": "Ageing cannot be counted from before 1 October of the harvest year.",
+  "styles": "Red, white, white from overripe grapes.",
+  "other": "Single-estate PDO (Vino de Pago category). Ablitas (Navarra). At least 2,400 vines/ha. Bottled on the estate or in the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Bolandin PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000012282"
+   },
+   {
+    "title": "Official Journal C, C/2026/713, 30.01.2026 (latest EU amendment notice, 2026-01-30)",
+    "url": "http://data.europa.eu/eli/C/2026/713/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-urbezo": {
+  "varieties": "Cabernet Sauvignon, Merlot, Syrah, Tempranillo, Garnacha, Mazuela; whites Chardonnay, Garnacha Blanca, Moscatel de Alejandria.",
+  "min_alcohol": "Actual 12.5%.",
+  "max_yield": "Red 8,000 kg/ha (56 hl/ha); white 8,500 kg/ha (59.5 hl/ha).",
+  "styles": "White, rose, red.",
+  "other": "Single-estate PDO (Vino de Pago category). Polygon 35 of Carinena (Zaragoza), 232 ha. Vineyards and winemaking must be certified organic. Night drip irrigation allowed at veraison.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Urbezo PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000016755"
+   },
+   {
+    "title": "Official Journal L, 2024/2742, 25.10.2024 (latest EU amendment notice, 2024-10-25)",
+    "url": "http://data.europa.eu/eli/reg_impl/2024/2742/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-campo-de-calatrava": {
+  "varieties": "Wide list incl. Airen, Macabeo, Albarino, Chardonnay, Moscatel, Tempranillo, Garnacha Tintorera, Bobal, Cabernet, Merlot, Syrah, Petit Verdot, Malbec, Graciano.",
+  "min_alcohol": "Actual: white and rose 10.5%, reds 12%, sparkling 10.5%.",
+  "max_yield": "Gobelet 10,000 kg/ha (74 hl/ha); trellised 13,000 kg/ha (96.2 hl/ha). Press yield 74 l/100 kg.",
+  "styles": "White, rose, classic and young red, barrel-fermented, Crianza, Reserva, Gran Reserva, quality sparkling, wine of overripe grapes.",
+  "other": "DO (not a pago) covering Campo de Calatrava municipalities of Ciudad Real; area extended in 2026 (EU notice C/2026/371). Packaging within the area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Campo de Calatrava PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000018857"
+   },
+   {
+    "title": "Official Journal C, C/2026/371, 19.1.2026 (latest EU amendment notice, 2026-01-19)",
+    "url": "http://data.europa.eu/eli/C/2026/371/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-rio-negro": {
+  "varieties": "Cabernet Sauvignon, Merlot, Syrah, Tempranillo, Tinto Fragoso; white Gewurztraminer.",
+  "min_alcohol": "Actual 12-13% by type.",
+  "max_yield": "White 9,000 kg/ha (63 hl/ha); red 7,000 kg/ha (49 hl/ha). Press yield 70 l/100 kg.",
+  "ageing": "Red at least 11 months incl. 5 in oak and 6 in bottle; Gewurztraminer at least 3 months on lees and 1 in bottle.",
+  "styles": "Red, Gewurztraminer white.",
+  "other": "Single-estate PDO (Vino de Pago category). Cogolludo, San Andres and Membrillera (Guadalajara), 940-1,000 m. Three-dimensional cordon pruning. Bottled on the estate or in the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Río Negro PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000019772"
+   },
+   {
+    "title": "Official Journal L, 2025/522, 20.3.2025 (latest EU amendment notice, 2025-03-20)",
+    "url": "http://data.europa.eu/eli/reg_impl/2025/522/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-rosalejo": {
+  "varieties": "Garnacha Tinta, Syrah, Tempranillo.",
+  "min_alcohol": "Actual 12%.",
+  "max_yield": "Syrah 6,000 kg/ha (40.8 hl/ha); Tempranillo and Garnacha 8,000 kg/ha (54.4 hl/ha). Press yield 68 l/100 kg.",
+  "ageing": "At least 6 months in oak and 1 month in bottle.",
+  "styles": "Red.",
+  "other": "Single-estate PDO (Vino de Pago category). Anchuras (Ciudad Real) and Sevilleja de la Jara (Toledo). Bottled on the estate or in the production area.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Rosalejo PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000019059"
+   },
+   {
+    "title": "Official Journal L, 2024/905, 22.3.2024 (latest EU amendment notice, 2024-03-22)",
+    "url": "https://eur-lex.europa.eu/eli/reg_impl/2024/905/oj"
+   }
+  ],
+  "verified": "2026-10"
+ },
+ "es-tharsys": {
+  "varieties": "Bobal, Garnacha, Merlot, Cabernet Franc; whites Albarino, Chardonnay, Xarel.lo.",
+  "min_alcohol": "Actual 13%.",
+  "max_yield": "Red 8,500 kg/ha (60 hl/ha); white 10,500 kg/ha (75 hl/ha). Press yield 70.5% red, 71.5% white.",
+  "styles": "White, rose, red.",
+  "other": "Single-estate PDO (Vino de Pago category). 19.5 ha in Requena (Valencia). Organic (CAECV) and vegan certification; white and rose grapes harvested at night.",
+  "src": [
+   {
+    "title": "eAmbrosia EU register: Tharsys PDO (single document, amendments)",
+    "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000019602"
+   },
+   {
+    "title": "Official Journal L, 2025/1994, 2.10.2025 (latest EU amendment notice, 2025-10-02)",
+    "url": "http://data.europa.eu/eli/reg_impl/2025/1994/oj"
+   }
+  ],
+  "verified": "2026-10"
+ }
+}

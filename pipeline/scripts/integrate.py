@@ -13,11 +13,17 @@ Writes  site/data/geo/{iso2}[_fine].geojson + _countries/_index/_overview/_regio
         _extra_points/_varieties/_climrefs, site/data/content/{iso2}.json + global/, site/data/meta.json,
         work/integration-report.md
 
-Rerunnable and idempotent. A geo file in site/data/geo whose bytes differ from what this script last
-wrote, and which lacks the derived keys (style/prof/lvl), is treated as a fresh agent delivery and
-refreshes its copy in work/geo_src/. A file that still carries the derived keys but changed (e.g.
-climate_enrich.py ran on it in place) only has its `clim` values harvested into
-work/geo_src/_clim_cache.json. Missing, partial or malformed inputs are skipped with a warning.
+Rerunnable and idempotent. Geo refresh rules (work/geo_src/_manifest.json, _outprints.json):
+  * site file unchanged since our last write -> use the pristine copy;
+  * changed and carrying no derived keys (style/prof/lvl) -> a fresh agent delivery, copied;
+  * changed but built from our output: if features were appended, removed or had name/geometry edited
+    (V2 depth agents append to {iso2}_fine.geojson in place), the pristine copy is rebuilt from it (derived
+    keys stripped, clim dropped only where geometry changed); if only properties changed (climate_enrich.py
+    ran in place), its `clim` values are harvested into work/geo_src/_clim_cache.json.
+Profiles join polygons and fine units by explicit `id` first (V2 depth files), then by name. Fine-unit profiles
+go to site/data/content/{iso2}_fine.json (`fine_profiles`), or inline with --inline-fine-profiles. Missing,
+partial or malformed inputs are skipped with a warning. Tests: work/fixtures/make_fixtures.py (v1) and
+work/fixtures/test_v2.py (V2 depth cases, asserts).
 """
 import argparse
 import glob
@@ -135,6 +141,13 @@ SOURCE_REGISTRY = {
     "worldclim": {"title": "Fick SE, Hijmans RJ (2017). WorldClim 2, 30 arc-second elevation",
                   "licence": "Free for research and non-commercial use", "url": "https://www.worldclim.org/"},
 }
+
+# subcat labels of fine units (V2_DEPTH.md); an explicit-id profile whose unit is not in the geo files yet is
+# treated as a fine profile when its subcat is one of these
+FINE_SUBCATS = {"mga", "uga", "pieve", "zona", "municipio", "lieu dit", "lieudit", "cru village", "vi de vila",
+                "einzellage", "ried", "climat", "premier cru", "premier cru climat", "grand cru climat", "subzone",
+                "sottozona", "menzione geografica aggiuntiva", "unita geografica aggiuntiva", "vinedo singular",
+                "paraje", "contrada", "lage", "grosse lage", "erste lage", "monopole", "village", "commune"}
 
 # Site `appellation` values that are place labels rather than appellations.
 NON_APP_LABEL = re.compile(r"\(\s*no\b|\bno (ava|appellation|aoc|do|doc|gi|pdo|wo)\b|\bnone\b|^n/?a$|\bvarious\b|"
@@ -778,6 +791,16 @@ def is_integrated(fc):
     return bool(head) and all("lvl" in p and "prof" in p and "style" in p for p in head)
 
 
+def carries_derived(fc):
+    """True if any feature carries keys only integrate.py writes, i.e. the file was built from our output
+    (possibly with features appended or edited by an agent)."""
+    for f in fc.get("features") or []:
+        p = (f or {}).get("properties") if isinstance(f, dict) else None
+        if isinstance(p, dict) and "lvl" in p and "prof" in p and "style" in p:
+            return True
+    return False
+
+
 def harvest_clim(fc):
     out = {}
     for f in fc.get("features") or []:
@@ -787,12 +810,78 @@ def harvest_clim(fc):
     return out
 
 
+def feature_print(p, g):
+    """Fingerprint of what an agent controls in a feature: name + geometry (+ parent/cat/subcat)."""
+    s = json.dumps([p.get("name"), p.get("parent"), p.get("cat"), p.get("subcat"), g], ensure_ascii=False,
+                   separators=(",", ":"), sort_keys=True)
+    return hashlib.md5(s.encode("utf-8")).hexdigest()[:12]
+
+
+def rebuild_from_integrated(ctx, n, fc, cp, m):
+    """The site file still looks like our output but changed. If an agent appended, removed or edited
+    features (V2 depth agents append to {iso2}_fine.geojson in place), rebuild the pristine copy from it:
+    derived keys stripped, `clim` kept except on features whose geometry changed. Returns True if rebuilt;
+    False means only in-place property edits (e.g. climate_enrich.py), handled by clim harvesting."""
+    prints = ctx.outprints.get(n)
+    site = {}
+    raw_new = []
+    for f in fc["features"]:
+        if not isinstance(f, dict):
+            continue
+        p = f.get("properties") if isinstance(f.get("properties"), dict) else {}
+        fid = p.get("id")
+        if not isinstance(fid, str):
+            raw_new.append("(no id)")
+            continue
+        site[fid] = f
+        if not all(k in p for k in ("style", "prof", "lvl")):
+            raw_new.append(fid)
+    if prints:
+        new = sorted(set(raw_new) | (set(site) - set(prints)))
+        changed = sorted(i for i in set(site) & set(prints)
+                         if i not in new and feature_print(site[i]["properties"], site[i].get("geometry")) != prints[i])
+        removed = sorted(set(prints) - set(site))
+    else:  # no fingerprints yet (first run after upgrade): compare ids with the pristine copy
+        old = read_json(cp, ctx, lenient=True) or {}
+        old_ids = {(x.get("properties") or {}).get("id") for x in old.get("features") or [] if isinstance(x, dict)}
+        new = sorted(set(raw_new) | (set(site) - old_ids))
+        changed = []
+        removed = sorted(i for i in old_ids - set(site) if i)
+    if not (new or changed or removed):
+        return False
+    stale = set(changed)
+    feats = []
+    for f in fc["features"]:
+        if not isinstance(f, dict):
+            continue
+        p = dict(f.get("properties") or {})
+        for k in DERIVED_KEYS:
+            p.pop(k, None)
+        if p.get("id") in stale:
+            p.pop("clim", None)
+        feats.append({"type": "Feature", "properties": p, "geometry": f.get("geometry")})
+    with open(cp + ".tmp", "w", encoding="utf-8") as fh:
+        json.dump({"type": "FeatureCollection", "features": feats}, fh, ensure_ascii=False, separators=(",", ":"))
+    os.replace(cp + ".tmp", cp)
+    m["src_sha"] = sha_file(cp)
+    m["src_mtime"] = os.path.getmtime(os.path.join(ctx.geo, n))
+    m["copied"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    m["_status"] = (f"agent edited our output in place: +{len(new)} new, ~{len(changed)} changed, "
+                    f"-{len(removed)} removed; pristine copy rebuilt from it")
+    ctx.rep["geo_append"].append(f"- {n}: +{len(new)} new ({', '.join(new[:5])}{' ...' if len(new) > 5 else ''}), "
+                                 f"~{len(changed)} changed, -{len(removed)} removed"
+                                 + (f" ({', '.join(removed[:5])})" if removed else ""))
+    return True
+
+
 def sync_geo_sources(ctx):
     os.makedirs(ctx.geo_src, exist_ok=True)
     ctx.manifest_path = os.path.join(ctx.geo_src, "_manifest.json")
     ctx.clim_cache_path = os.path.join(ctx.geo_src, "_clim_cache.json")
     ctx.manifest = (read_json(ctx.manifest_path, ctx) or {}) if os.path.exists(ctx.manifest_path) else {}
     ctx.clim_cache = (read_json(ctx.clim_cache_path, ctx) or {}) if os.path.exists(ctx.clim_cache_path) else {}
+    ctx.outprints_path = os.path.join(ctx.geo_src, "_outprints.json")
+    ctx.outprints = (read_json(ctx.outprints_path, ctx) or {}) if os.path.exists(ctx.outprints_path) else {}
     names = set()
     for d in (ctx.geo, ctx.geo_src):
         if os.path.isdir(d):
@@ -824,7 +913,9 @@ def sync_geo_sources(ctx):
                 if not have_copy:
                     continue
                 status = "unreadable, previous copy used"
-            elif is_integrated(fc) and have_copy:
+            elif carries_derived(fc) and have_copy and rebuild_from_integrated(ctx, n, fc, cp, m):
+                status = m.pop("_status")
+            elif carries_derived(fc) and have_copy:
                 cl = harvest_clim(fc)
                 if cl and m.get("src_sha"):
                     ent = ctx.clim_cache.setdefault(n, {})
@@ -1018,6 +1109,23 @@ def name_words(s):
     return out
 
 
+def merge_keep_longer(keep, other):
+    """Merge two profiles of one appellation into `keep` (whose join fields, _id/_poly/_how, survive): the
+    record with more text supplies the fields, the other fills what it lacks."""
+    a = {k: v for k, v in keep.items() if not k.startswith("_")}
+    b = {k: v for k, v in other.items() if not k.startswith("_")}
+    if text_len(b) > text_len(a):
+        a, b = b, a
+        if keep.get("id"):
+            a["id"] = keep["id"]
+    fill_missing(a, b)
+    for k in [k for k in keep if not k.startswith("_")]:
+        del keep[k]
+    keep.update(a)
+    keep["_src"] = sorted(set(keep.get("_src", [])) | set(other.get("_src", [])))
+    return keep
+
+
 def text_len(rec):
     n = 0
     for k, v in rec.items():
@@ -1099,7 +1207,14 @@ def load_content(ctx, countries):
                     else:
                         M["regions"][k] = rec
                 elif key == "appellations":
-                    k = norm(name)
+                    pid = rec.get("id")
+                    if pid is not None and not (isinstance(pid, str) and ID_RE.match(pid) and pid.startswith(iso + "-")):
+                        ctx.warn(f"{fname}: appellation '{name}' id {pid!r} is not a valid {iso}- id, ignored")
+                        rec.pop("id", None)
+                        pid = None
+                    # explicit ids (V2 fine-unit profiles) key the record, so two "Les Charmes" in different
+                    # villages stay apart; name keys merge duplicates written without ids
+                    k = ("id", pid) if pid else norm(name)
                     if k in M["apps"]:
                         # duplicate profile (e.g. fr_a and fr_b both write Clairette de Bellegarde): keep the
                         # longer one whole, only fill fields it lacks from the other
@@ -1533,6 +1648,17 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
         pid = pr.get("id")
         if isinstance(pid, str) and pid in by_id:
             pr["_poly"], pr["_how"] = pid, "id"
+            pk0 = keys_of([by_id[pid]["p"]["name"]] + str_list(by_id[pid]["p"].get("alt")))
+            if not ((pk0[0] | pk0[1]) & (pr["_k0"] | pr["_k1"])):
+                ctx.rep["id_names"].append(f"- {iso}: profile '{pr['name']}' joined by id to {pid} "
+                                           f"('{by_id[pid]['p']['name']}'): names differ, check the id")
+            continue
+        if isinstance(pid, str) and pid:
+            # explicit id for a unit that is not in the geo files (yet): no name matching, keep the id so a
+            # later rerun joins it once the polygon arrives
+            pr["_explicit_missing"] = True
+            ctx.rep["id_missing"].append(f"- {iso}: '{pr['name']}' id {pid} ({pr.get('subcat') or pr.get('cat') or ''})")
+            st["explicit_id_missing"] += 1
             continue
         # c10 `point_only`: the profile knows no polygon exists yet; take one only on an exact name hit
         steps = ("exact",) if pr.get("point_only") else ("exact", "variant", "translit", "fuzzy")
@@ -1569,21 +1695,21 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
         if pr["_poly"]:
             pk0, pk1 = keys_of([by_id[pr["_poly"]]["p"]["name"]])
             own = 0 if (pr["_k0"] & pk0) else 1
-            claims[pr["_poly"]].append((own, METHOD_RANK[pr["_how"]], i, pr))
+            claims[pr["_poly"]].append((0 if pr["_how"] == "id" else 1, own, METHOD_RANK[pr["_how"]], i, pr))
     drop = set()
     for fid, lst in claims.items():
         if len(lst) < 2:
             continue
-        lst.sort(key=lambda t: t[:3])
-        keep = lst[0][3]
-        for own, rank, i, pr in lst[1:]:
-            same = bool(keep["_k0"] & (pr["_k0"] | pr["_k1"]) or pr["_k0"] & (keep["_k0"] | keep["_k1"]))
-            if same:  # the same appellation written twice under different spellings: one profile
-                fill_missing(keep, pr)
-                keep["_src"] = sorted(set(keep.get("_src", [])) | set(pr.get("_src", [])))
+        lst.sort(key=lambda t: t[:4])
+        keep = lst[0][4]
+        for byid, own, rank, i, pr in lst[1:]:
+            same = bool(keep["_k0"] & (pr["_k0"] | pr["_k1"]) or pr["_k0"] & (keep["_k0"] | keep["_k1"])) \
+                or (keep["_how"] == "id" and pr["_how"] == "id")
+            if same:  # the same appellation written twice (v1 by name, V2 by id): one profile, longer text wins
+                merge_keep_longer(keep, pr)
                 drop.add(i)
                 ctx.rep["ambiguous"].append(f"- {iso}: profiles '{keep['name']}' and '{pr['name']}' are the same "
-                                            f"appellation ({fid}): merged into the first")
+                                            f"appellation ({fid}): merged, longer text kept")
             else:
                 ctx.rep["ambiguous"].append(f"- {iso}: '{pr['name']}' ({pr['_how']}) and '{keep['name']}' both match "
                                             f"{fid}: polygon kept by '{keep['name']}', '{pr['name']}' placed as a point")
@@ -1595,13 +1721,17 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
             pr["_id"] = pr["_poly"]
             st["matched_" + pr["_how"]] += 1
         else:
-            base = f"{iso}-{slugify(pr['name'])}"
+            base = pr["id"] if pr.get("_explicit_missing") else f"{iso}-{slugify(pr['name'])}"
             pid, k = base, 2
             while pid in used_ids:
                 pid, k = f"{base}-{k}", k + 1
             pr["_id"] = pid
         used_ids.add(pr["_id"])
+    for pr in profs:
+        pr["_fine"] = bool(pr["_poly"] and by_id[pr["_poly"]]["fine"]) or bool(
+            pr.get("_explicit_missing") and norm(pr.get("subcat") or "") in FINE_SUBCATS)
     st["profiles"] = len(profs)
+    st["fine_profiles"] = sum(1 for pr in profs if pr["_fine"])
     prof_by_id = {pr["_id"]: pr for pr in profs}
     # secondary polygons: named in a profile's match list but carrying no profile of their own
     pref = {}
@@ -1613,7 +1743,7 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
     # "{parent} {name}" against unmatched profiles
     unmatched_idx = NameIndex(tl)
     for pr in profs:
-        if not pr["_poly"]:
+        if not pr["_poly"] and not pr.get("_explicit_missing"):
             unmatched_idx.add(pr["_id"], profile_names(pr))
     if unmatched_idx.i0:
         for r in main + fine:
@@ -1632,6 +1762,7 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
                 if pr["_poly"]:
                     continue
                 pr["_poly"], pr["_how"] = p["id"], "variant"
+                pr["_fine"] = bool(r["fine"])
                 st["matched_variant"] += 1
                 del prof_by_id[pid]
                 pr["_id"] = p["id"]
@@ -1773,6 +1904,10 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
         s["id"] = sid
         app, how = None, None
         label = str(s.get("appellation") or "").strip()
+        for cand in (s.get("app"), s.get("app_id"), label):
+            if isinstance(cand, str) and (cand in by_id or cand in prof_by_id):
+                app, how, label = cand, "id", ""  # explicit id (V2 depth sites)
+                break
         if label and (NON_APP_LABEL.search(label) or (countries.resolve_iso(label) and len(label) > 2
                                                        and not keys_of([label])[0] & set(main_pool.i0))):
             # "Texas (no AVA)", "Canada", "Burgundy": a place label, not an appellation
@@ -1781,6 +1916,11 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
             label = ""
         if label:
             app, how = resolve(label)
+            if app is None and s.get("lat") is not None and fine:
+                # the named unit may be a fine unit without a profile: nearest same-named fine polygon (~1 km)
+                fid = named_unit(label, s["lon"], s["lat"])
+                if fid and by_id[fid]["fine"]:
+                    app, how = fid, "fine"
             if app is None:
                 rid = resolve_region_early(label)
                 if rid:
@@ -1797,7 +1937,8 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
         # finer unit: first a unit carrying the site's own name close by (Chambertin, Ried Loibenberg), then for
         # vineyard-type sites a premier cru climat / Einzellage / Ried / UGA polygon containing the point, under
         # the named appellation (or anywhere when none was named)
-        if s.get("lat") is not None:
+        # an explicit id is kept as given, except that a main appellation id may still be refined to a fine unit
+        if s.get("lat") is not None and not (how == "id" and (app not in by_id or by_id[app]["fine"])):
             nu = named_unit(s["name"], s["lon"], s["lat"])
             if nu and nu != app and (app is None or app in ancestors(nu)
                                      or by_id[nu]["shp"].intersects(Point(s["lon"], s["lat"]))):
@@ -1809,6 +1950,8 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
                     s["app_main"] = app
                     app, how = fhit, "fine"
         s["app"] = app
+        if app and app in by_id and by_id[app]["fine"]:
+            how = "fine"
         st["site_app_" + ({"pip": "pip", "fine": "fine"}.get(how, "name") if app else "none")] += 1
 
     # ---- 5. regions: ids, membership, parent/child
@@ -1972,7 +2115,8 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
         parent = pip(*pr["_pt"])
         par_lvl = by_id[parent]["p"]["lvl"] + 1 if parent else 0
         extra.append({"id": pr["_id"], "name": pr["name"], "country": iso, "cat": pr.get("cat") or "",
-                      "style": style, "cq": pr["_cq"], "parent": parent, "lvl": par_lvl, "pt": pr["_pt"]})
+                      "subcat": pr.get("subcat"), "style": style, "cq": pr["_cq"], "parent": parent,
+                      "lvl": par_lvl, "pt": pr["_pt"], "fine": 1 if pr["_fine"] else 0})
         ctx.rep["noprof_poly"].append(f"| {iso} | {pr['name']} | point: {how} |")
         st["extra_points"] += 1
     for pr in profs:
@@ -2120,7 +2264,7 @@ def assemble_content(ctx, iso, M, profs, regions, sites, countries, country_bbox
             r["parent_id"] = rg["_parent"]
         r["outline"] = rg.get("_outline")
         regs.append(r)
-    profiles = OrderedDict()
+    profiles, fine_profiles = OrderedDict(), OrderedDict()
     site_ids_by_name = {norm(s["name"]): s["id"] for s in sites}
     for pr in sorted(profs, key=lambda p: p["_id"]):
         d = public(pr)
@@ -2139,13 +2283,17 @@ def assemble_content(ctx, iso, M, profs, regions, sites, countries, country_bbox
                 sid = site_ids_by_name.get(norm(nm))
                 ids.append(sid or resolve(nm)[0])
             d["contains_ids"] = ids
-        profiles[pr["_id"]] = d
+        if pr.get("_fine"):
+            d["fine"] = 1
+            fine_profiles[pr["_id"]] = d
+        else:
+            profiles[pr["_id"]] = d
     out_sites = []
     for s in sites:
         d = public(s)
         d.pop("country", None)
         out_sites.append({"id": s["id"], **{k: v for k, v in d.items() if k != "id"}, "app": s.get("app")})
-    return {"country": c, "regions": regs, "profiles": profiles, "sites": out_sites}
+    return {"country": c, "regions": regs, "profiles": profiles, "sites": out_sites, "fine_profiles": fine_profiles}
 
 
 # ====================================================================== geo output writing + climate
@@ -2175,6 +2323,8 @@ def write_geo_outputs(ctx, srcs, feats):
             continue
         fc = {"type": "FeatureCollection", "features": [feature_out(r) for r in recs]}
         written[s["name"]] = write_json(sp, fc)
+        ctx.outprints[s["name"]] = {f["properties"]["id"]: feature_print(f["properties"], f["geometry"])
+                                    for f in fc["features"]}
         ctx.manifest[s["name"]]["out_sha"] = sha_file(sp)
         s["seen_sha"] = ctx.manifest[s["name"]]["out_sha"]
     return written
@@ -2240,7 +2390,7 @@ def climate_step(ctx, srcs, feats):
         if s["name"] not in todo and sha_file(s["site_path"]) == s["seen_sha"]:
             continue
         fc = read_json(s["site_path"], ctx, lenient=False)
-        if not isinstance(fc, dict) or not is_integrated(fc):
+        if not isinstance(fc, dict) or not carries_derived(fc):
             continue
         cl = harvest_clim(fc)
         ent = ctx.clim_cache.setdefault(s["name"], {})
@@ -2338,6 +2488,8 @@ def main():
     ap.add_argument("--clim-script", default=None)
     ap.add_argument("--clim-timeout", type=int, default=3600)
     ap.add_argument("-v", "--verbose", action="store_true")
+    ap.add_argument("--inline-fine-profiles", action="store_true",
+                    help="put fine-unit profiles in {iso2}.json under fine_profiles instead of {iso2}_fine.json")
     args = ap.parse_args()
     root = os.path.abspath(args.root)
     ctx = Ctx(root, args)
@@ -2368,6 +2520,7 @@ def main():
         sizes = write_geo_outputs(ctx, srcs, feats)
     write_json(ctx.manifest_path, ctx.manifest, pretty=True)
     write_json(ctx.clim_cache_path, ctx.clim_cache)
+    write_json(ctx.outprints_path, ctx.outprints)
 
     # ---- derived geo files
     G = ctx.geo
@@ -2393,12 +2546,17 @@ def main():
         index.append({"id": e["id"], "name": e["name"], "alt": [], "country": e["country"], "cat": e["cat"],
                       "subcat": None, "area": 0, "parent": e["parent"], "lp": [x, y], "bbox": [x, y, x, y],
                       "bq": "approx", "style": e["style"], "prof": 1, "lvl": e["lvl"], "pt": 1, "cq": e["cq"]})
+        if e.get("subcat"):
+            index[-1]["subcat"] = e["subcat"]
+        if e.get("fine"):
+            index[-1]["fine"] = 1
     write_json(os.path.join(G, "_index.json"), index)
     write_json(os.path.join(G, "_overview.geojson"), {"type": "FeatureCollection", "features": overview})
     write_json(os.path.join(G, "_regions.geojson"), {"type": "FeatureCollection", "features": out["regions"]})
     write_json(os.path.join(G, "_sites.geojson"), {"type": "FeatureCollection", "features": out["sites"]})
     write_json(os.path.join(G, "_extra_points.geojson"), {"type": "FeatureCollection", "features": [
-        {"type": "Feature", "properties": {k: e[k] for k in ("id", "name", "country", "cat", "style", "cq")},
+        {"type": "Feature", "properties": {**{k: e[k] for k in ("id", "name", "country", "cat", "style", "cq")},
+                                           **({"fine": 1} if e.get("fine") else {})},
          "geometry": {"type": "Point", "coordinates": list(e["pt"])}} for e in out["extra"]]})
 
     # _countries.json
@@ -2421,6 +2579,9 @@ def main():
                       "fine": fine_name if F["fine"] else None, "fine_count": len(F["fine"]),
                       "tier": cobj.get("tier") if cobj.get("tier") in ("major", "notable", "emerging", "minor") else None,
                       "has_content": iso in out["content"],
+                      "fine_content": (f"{iso}_fine.json" if (out["content"].get(iso) or {}).get("fine_profiles")
+                                       and not ctx.args.inline_fine_profiles else None),
+                      "fine_profiles": len((out["content"].get(iso) or {}).get("fine_profiles") or {}),
                       "points": sum(1 for e in out["extra"] if e["country"] == iso),
                       "sites": sum(1 for f in out["sites"] if f["properties"]["country"] == iso)}
     write_json(os.path.join(G, "_countries.json"), cmeta)
@@ -2470,6 +2631,15 @@ def main():
     # ---- content files (+ remove stale ones this script wrote before)
     written_content = []
     for iso, c in sorted(out["content"].items()):
+        fp = c.pop("fine_profiles", None) or {}
+        c["fine_content"] = None
+        c["fine_profile_count"] = len(fp)
+        if fp and ctx.args.inline_fine_profiles:
+            c["fine_profiles"] = fp
+        elif fp:
+            c["fine_content"] = f"{iso}_fine.json"
+            write_json(os.path.join(ctx.content_out, c["fine_content"]), {"country": iso, "fine_profiles": fp})
+            written_content.append(c["fine_content"])
         write_json(os.path.join(ctx.content_out, f"{iso}.json"), c)
         written_content.append(f"{iso}.json")
     prev = ctx.manifest.get("_content_files", [])
@@ -2488,7 +2658,9 @@ def main():
         "countries_with_content": len(out["content"]),
         "appellations": sum(len(d["main"]) for d in feats.values()),
         "fine_units": sum(len(d["fine"]) for d in feats.values()),
-        "profiles": sum(len(c["profiles"]) for c in out["content"].values()),
+        "profiles": sum(len(c["profiles"]) + c.get("fine_profile_count", 0) for c in out["content"].values()),
+        "fine_profiles": sum(c.get("fine_profile_count", 0) for c in out["content"].values()),
+        "fine_units_with_profile": sum(1 for e in index if e.get("fine") and e.get("prof") and not e.get("pt")),
         "profiles_on_polygons": sum(1 for e in index if e.get("prof") and not e.get("pt")),
         "extra_points": len(out["extra"]), "regions": sum(len(c["regions"]) for c in out["content"].values()),
         "region_outlines": len(out["regions"]), "sites": len(out["sites"]),
@@ -2541,11 +2713,11 @@ def write_report(ctx, isos, cmeta, counts, grapes, total, nfiles, site_files):
     L += [f"- {k}: {v}" for k, v in counts.items()]
     L += [f"- site/data: {nfiles} files, {total / 1e6:.2f} MB; site/ total files: {site_files}"] + [f"- {n}" for n in ctx.notes]
     L += ["", "## Per country", "",
-          "| iso2 | polys | fine | profiles | exact | variant | translit | fuzzy | points | unplaced | no-profile polys | regions | outlines | sites | site app by name/fine/pip/none | coords dropped |",
+          "| iso2 | polys | fine | profiles (fine) | exact | variant | translit | fuzzy | points | unplaced | no-profile polys | regions | outlines | sites | site app by name/fine/pip/none | coords dropped |",
           "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for iso in isos:
         s = ctx.stat[iso]
-        L.append(f"| {iso} | {s['polygons']} | {s['fine']} | {s['profiles']} | {s['matched_exact'] + s['matched_id']} | {s['matched_variant']} | "
+        L.append(f"| {iso} | {s['polygons']} | {s['fine']} | {s['profiles']} ({s['fine_profiles']}) | {s['matched_exact'] + s['matched_id']} | {s['matched_variant']} | "
                  f"{s['matched_translit']} | {s['matched_fuzzy']} | {s['extra_points']} | {s['profiles_unplaced']} | {s['polygons_without_profile']} | "
                  f"{s['regions']} | {s['region_outlines_union'] + s['region_outlines_hull']} | {s['sites']} | "
                  f"{s['site_app_name']}/{s['site_app_fine']}/{s['site_app_pip']}/{s['site_app_none']} | {s['site_coord_far'] + s['site_coord_invalid']} |")
@@ -2561,6 +2733,9 @@ def write_report(ctx, isos, cmeta, counts, grapes, total, nfiles, site_files):
         ("fuzzy", "Fuzzy matches (review these)", "| iso2 | profile | polygon | score |\n|---|---|---|---|"),
         ("ambiguous", "Ambiguous matches", ""),
         ("parentname", "Profiles joined via parent + polygon name (DGC labels)", ""),
+        ("id_missing", "Explicit profile ids not found in the geo files (kept as points/content; rerun joins them)", ""),
+        ("id_names", "Explicit id joins whose names differ from the polygon (check the id)", ""),
+        ("geo_append", "Geo outputs edited in place by agents (pristine copies rebuilt)", ""),
         ("dedupe", "Duplicate profiles across research files (longer kept)", ""),
         ("noprof_poly", "Profiles without polygons", "| iso2 | profile | placement |\n|---|---|---|"),
         ("unplaced", "Profiles that could not be placed (content only)", ""),

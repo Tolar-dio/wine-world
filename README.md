@@ -19,6 +19,20 @@ The site lives in `docs/` (static files, no build step needed to serve it). Open
 
 Every polygon carries regional climate figures (growing-season temperature, Winkler and Huglin indices, rainfall, elevation), so the map can be coloured by climate as well as by wine style.
 
+## v2: the full site
+
+The GitHub Pages build (`docs/`) adds what a sandboxed page can't do:
+- **Base maps:** standard, satellite (EOX Sentinel-2 cloudless plus free national aerial imagery at vine-row resolution where licences allow) and topographic (OpenTopoMap plus national topo maps), 3D terrain, hillshade and contour lines.
+- **Sunlight explorer:** set a date and time and see which slopes catch the sun.
+- **River journeys:** 3D fly-throughs down the Mosel, Douro, Rhône, Loire, Rhine, Wachau, Gironde and Napa Valley.
+- **Terrain for every appellation, cru, Einzellage and Ried:** elevation, slope and an aspect rose from the Copernicus 30 m DEM.
+- **Vintages 1950–2025:** growing-season warmth, harvest rain, frost and heat for every place (TerraClimate), annotated with researched vintage events, plus climate drift since 1961–1990 and "time-travel twins".
+- **Rules cards:** about 1,450 production-rule cards (varieties, yields, ageing, labelling), verified October 2026.
+- **Sommelier tools:** compare up to three places, climate twins, multi-criteria filters, study mode with spaced repetition and map quizzes, and a deductive tasting trainer.
+- **Cellar journal:** bottles with structured tasting notes, label photos, notes on any place, visited and wishlist lists, and a passport of classic lists. Stored in Supabase with owner-only row-level security (schema in `pipeline/supabase/migrations/`); works locally when signed out.
+- **Photos:** freely licensed Wikimedia Commons photos, credited on every profile.
+- **Installable** as a phone app (PWA), with offline access to places already viewed.
+
 ## Boundary quality
 
 Each shape says how it was drawn:

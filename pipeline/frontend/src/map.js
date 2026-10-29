@@ -7,7 +7,10 @@ let map = null;
 const S = {
   mode: store.get('mode', 'style'),
   layers: Object.assign({ apps: true, sites: true, rivers: true, lakes: true, regions: true, belt: true, grat: true, labels: true, towns: true }, store.get('layers', {})),
-  grape: null, grapeSet: null,
+  grape: null, grapeSet: null, dim: true,
+  fillK: 1, lineK: 1,      /* fill and outline strength factors (lower fills, stronger lines over imagery) */
+  flying: false,           /* a scripted camera (river journey) is running: skip moveend bookkeeping */
+  keepCam: false,          /* 3D terrain: profile flights keep the current pitch and bearing */
   sel: null,               /* {src, id} */
   hover: null,             /* {src, id} */
   selCountry: null,
@@ -91,6 +94,11 @@ function sizeTier(z, big, bigV, mid, midV, smallV) { return ['case', ['>', ['get
 const FILL_STOPS = [[Z_APP + 0.65, 5000, 0.06, 500, 0.13, 0.2], [7.5, 2000, 0.05, 200, 0.11, 0.22], [10, 300, 0.035, 40, 0.1, 0.24], [12.5, 60, 0.025, 8, 0.08, 0.26]];
 const LINE_STOPS = [[Z_APP + 0.65, 5000, 0.45, 500, 0.6, 0.7], [7.5, 2000, 0.35, 200, 0.6, 0.75], [10, 300, 0.22, 40, 0.5, 0.8], [12.5, 60, 0.16, 8, 0.4, 0.85]];
 function withState(ex, kind) {
+  if (S.grape && S.dim === false) {
+    return kind === 'fill'
+      ? ['case', fs('sel'), ['+', ex, 0.25], fs('g'), ['min', 0.6, ['*', 2.6, ex]], fs('hover'), ['+', ex, 0.16], ex]
+      : ['case', fs('g'), 0.95, fs('hover'), 1, ex];
+  }
   if (S.grape) {
     return kind === 'fill'
       ? ['case', fs('sel'), ['+', ex, 0.25], fs('g'), ['min', 0.6, ['*', 2.6, ex]], fs('hover'), ['+', ex, 0.06], ['*', 0.25, ex]]
@@ -98,16 +106,17 @@ function withState(ex, kind) {
   }
   return kind === 'fill' ? ['case', fs('sel'), ['+', ex, 0.2], fs('hover'), ['+', ex, 0.16], ex] : ['case', fs('hover'), 1, ex];
 }
+const kf = v => +(v * S.fillK).toFixed(3), kl = v => +Math.min(1, v * S.lineK).toFixed(3);
 function fillOpacity(fine) {
-  if (fine) { const z0 = Z_FINE - 0.3; return ['interpolate', ['linear'], ['zoom'], z0, 0, z0 + 0.9, withState(0.2, 'fill')]; }
+  if (fine) { const z0 = Z_FINE - 0.3; return ['interpolate', ['linear'], ['zoom'], z0, 0, z0 + 0.9, withState(kf(0.2), 'fill')]; }
   const out = ['interpolate', ['linear'], ['zoom'], Z_APP - 0.25, 0];
-  for (const st of FILL_STOPS) out.push(st[0], withState(sizeTier(...st), 'fill'));
+  for (const st of FILL_STOPS) out.push(st[0], withState(sizeTier(st[0], st[1], kf(st[2]), st[3], kf(st[4]), kf(st[5])), 'fill'));
   return out;
 }
 function lineOpacity(fine) {
-  if (fine) { const z0 = Z_FINE - 0.3; return ['interpolate', ['linear'], ['zoom'], z0, 0, z0 + 0.9, withState(0.75, 'line')]; }
+  if (fine) { const z0 = Z_FINE - 0.3; return ['interpolate', ['linear'], ['zoom'], z0, 0, z0 + 0.9, withState(kl(0.75), 'line')]; }
   const out = ['interpolate', ['linear'], ['zoom'], Z_APP - 0.25, 0];
-  for (const st of LINE_STOPS) out.push(st[0], withState(sizeTier(...st), 'line'));
+  for (const st of LINE_STOPS) out.push(st[0], withState(sizeTier(st[0], st[1], kl(st[2]), st[3], kl(st[4]), kl(st[5])), 'line'));
   return out;
 }
 function appLayers(src, fine) {
@@ -254,7 +263,12 @@ function initMap() {
   });
   map.touchZoomRotate.disableRotation();
   map.keyboard.enable();
-  map.on('error', e => { console.warn('[map]', e?.error?.message || e); });
+  map.on('error', e => {
+    const msg = e?.error?.message || String(e?.error || e);
+    // external tiles (satellite, topo, terrain) fail quietly when offline or outside a service's coverage
+    if (e?.sourceId && /^(bm-|ni-|nt-|dem-|contours)/.test(e.sourceId)) { if (typeof bmTileError === 'function') bmTileError(e.sourceId, msg); return; }
+    console.warn('[map]', msg);
+  });
   map.on('styleimagemissing', e => {
     if (!/^k-/.test(e.id)) return;
     addIcons();
@@ -268,6 +282,7 @@ function addLayerSafe(layer, before) { if (!map.getLayer(layer.id)) map.addLayer
 async function onMapLoad() {
   addIcons();
   APP.mapReady = true;
+  vmEmit('map:ready', map);
   startSpin();
   bindMapEvents();
   updateReadout();
@@ -360,13 +375,14 @@ function addOverview(fc) {
   addLayerSafe({ id: 'fine-lab', type: 'symbol', source: 'fine-lab', minzoom: Z_FINE + 0.8, layout: { visibility: S.layers.labels && S.layers.apps ? 'visible' : 'none', 'text-field': ['get', 'lab'], 'text-font': F_IT, 'text-size': ['interpolate', ['linear'], ['zoom'], 10.5, 10.5, 14, 13], 'symbol-sort-key': ['-', 0, ['get', 'area']], 'text-max-width': 6, 'text-padding': 2 }, paint: { 'text-color': TOK['map-label-wine'], 'text-halo-color': TOK.halo, 'text-halo-width': 1.3, 'text-opacity': ['interpolate', ['linear'], ['zoom'], Z_FINE + 0.8, 0, Z_FINE + 1.2, 0.9] } }, 'anchor-top');
   applyGrapeOverview();
 }
-function labOpacity(mz) { return ['interpolate', ['linear'], ['zoom'], mz, 0, mz + 0.5, S.grape ? ['case', fs('g'), 1, 0.35] : 1]; }
+function labOpacity(mz) { return ['interpolate', ['linear'], ['zoom'], mz, 0, mz + 0.5, S.grape && S.dim !== false ? ['case', fs('g'), 1, 0.35] : 1]; }
 function ovGlowOp() {
+  if (S.grape && S.dim === false) return ['case', fs('g'), 0.7, TOK.dark ? 0.3 : 0.26];
   if (S.grape) return ['case', fs('g'), 0.6, 0.02];
   const a = TOK.dark ? 0.3 : 0.26;
   return S.mode === 'style' ? ['case', ['==', ['get', 'style'], 'mixed'], a * 0.45, a] : a;
 }
-function ovCoreOp() { return S.grape ? ['case', fs('g'), 1, 0.1] : ['case', ['>', ['get', 'area'], 30000], 0.45, 0.92]; }
+function ovCoreOp() { return S.grape && S.dim !== false ? ['case', fs('g'), 1, 0.1] : ['case', ['>', ['get', 'area'], 30000], 0.45, 0.92]; }
 
 async function addCountryLabels() {
   if (!has('data/base/country_labels.geojson')) return;
@@ -479,6 +495,7 @@ async function loadSecondary() {
 }
 function addRegions(fc) {
   setRegions(fc);
+  vmEmit('data:regions', D.regions);
   rebuildSearch();
   if (!fc || !map) return;
   addSourceSafe('regions', { type: 'geojson', data: fc, promoteId: 'id', tolerance: 0.6 });
@@ -495,6 +512,7 @@ function addRegions(fc) {
 }
 function addSites(fc) {
   setSites(fc);
+  vmEmit('data:sites', D.sites);
   rebuildSearch();
   if (!fc || !map) return;
   for (const f of fc.features) { const p = f.properties; p.lab = safeLabel(p.name, 'atlas-regular'); if (!KIND_SHAPE[p.kind]) p.kind = 'vineyard'; }
@@ -515,16 +533,23 @@ function addExtra(fc) {
     const p = f.properties;
     p.lab = safeLabel(p.name, 'atlas-italic');
     if (!STYLES.includes(p.style)) p.style = 'mixed';
+    p.fine = (p.fine === 1 || p.fine === true) ? 1 : 0;
     S.srcOf.set(p.id, 'extra');
   }
   addSourceSafe('extra', { type: 'geojson', data: fc, promoteId: 'id' });
   const vis = S.layers.apps ? 'visible' : 'none';
   // points-only appellations (no published boundary): a faint glow on the globe, a ringed dot when closer
-  addLayerSafe({ id: 'extra-glow', type: 'circle', source: 'extra', maxzoom: 6, layout: { visibility: vis }, paint: {
+  addLayerSafe({ id: 'extra-glow', type: 'circle', source: 'extra', maxzoom: 6, filter: ['!=', ['get', 'fine'], 1], layout: { visibility: vis }, paint: {
     'circle-color': colorExpr(), 'circle-blur': 1, 'circle-radius': ['interpolate', ['linear'], ['zoom'], 1, 4, 5, 10],
     'circle-opacity': ['interpolate', ['linear'], ['zoom'], 2.6, ovGlowOp(), 4.4, 0] } }, 'anchor-points');
-  addLayerSafe({ id: 'extra-pt', type: 'circle', source: 'extra', layout: { visibility: vis }, paint: extraPaint() }, 'anchor-points');
-  addLayerSafe({ id: 'extra-lab', type: 'symbol', source: 'extra', minzoom: 5.6, layout: {
+  addLayerSafe({ id: 'extra-pt', type: 'circle', source: 'extra', filter: ['!=', ['get', 'fine'], 1], layout: { visibility: vis }, paint: extraPaint() }, 'anchor-points');
+  // fine units known only as a point (a cru or Einzellage with a profile but no polygon yet): only at fine zoom
+  addLayerSafe({ id: 'extra-fpt', type: 'circle', source: 'extra', minzoom: Z_FINE - 0.3, filter: ['==', ['get', 'fine'], 1], layout: { visibility: vis }, paint: extraPaint() }, 'anchor-points');
+  addLayerSafe({ id: 'extra-flab', type: 'symbol', source: 'extra', minzoom: Z_FINE + 0.4, filter: ['==', ['get', 'fine'], 1], layout: {
+    visibility: S.layers.labels && S.layers.apps ? 'visible' : 'none', 'text-field': ['get', 'lab'], 'text-font': F_IT, 'text-size': 12,
+    'text-variable-anchor': ['top', 'bottom', 'left', 'right'], 'text-radial-offset': 0.9, 'text-justify': 'auto', 'text-max-width': 7, 'text-padding': 2 },
+    paint: { 'text-color': TOK['map-label-wine'], 'text-halo-color': TOK.halo, 'text-halo-width': 1.3 } }, 'anchor-top');
+  addLayerSafe({ id: 'extra-lab', type: 'symbol', source: 'extra', minzoom: 5.6, filter: ['!=', ['get', 'fine'], 1], layout: {
     visibility: S.layers.labels && S.layers.apps ? 'visible' : 'none', 'text-field': ['get', 'lab'], 'text-font': F_IT,
     'text-size': ['interpolate', ['linear'], ['zoom'], 6, 12, 10, 14], 'text-variable-anchor': ['top', 'bottom', 'left', 'right'], 'text-radial-offset': 0.9,
     'text-justify': 'auto', 'text-max-width': 8, 'text-padding': 2 },
@@ -532,7 +557,7 @@ function addExtra(fc) {
   if (S.grapeSet) setGrapeHighlight([...S.grapeSet]);
 }
 function extraPaint() {
-  const g = S.grape;
+  const g = S.grape && S.dim !== false;
   return {
     'circle-color': colorExpr(),
     'circle-radius': ['interpolate', ['linear'], ['zoom'], 1, 1.6, 4, 3.2, 8, 5.5, 12, 7],
@@ -708,7 +733,7 @@ function repaintApps() {
   }
   if (map.getLayer('ov-glow')) { map.setPaintProperty('ov-glow', 'circle-color', col); map.setPaintProperty('ov-core', 'circle-color', col); }
   if (map.getLayer('extra-pt')) {
-    for (const [k, v] of Object.entries(extraPaint())) map.setPaintProperty('extra-pt', k, v);
+    for (const [k, v] of Object.entries(extraPaint())) { map.setPaintProperty('extra-pt', k, v); if (map.getLayer('extra-fpt')) map.setPaintProperty('extra-fpt', k, v); }
     map.setPaintProperty('extra-glow', 'circle-color', col);
     map.setPaintProperty('extra-glow', 'circle-opacity', ['interpolate', ['linear'], ['zoom'], 2.6, ovGlowOp(), 4.4, 0]);
     map.setPaintProperty('extra-lab', 'text-opacity', labOpacity(5.6));
@@ -733,7 +758,7 @@ function repaintAll() {
   P('admin1-line-1', 'line-color', t.border); P('admin1-line-2', 'line-color', t.border);
   for (const k of [0, 1, 2]) P('rivers-line-' + k, 'line-color', ['case', ['==', ['get', 'w'], 1], t['river-wine'], t.river]);
   P('rivers-lab-2', 'text-color', t.muted); P('rivers-lab-2', 'text-halo-color', t.halo);
-  for (const id of ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab']) { P(id, 'text-color', t['map-label-wine']); P(id, 'text-halo-color', t.halo); }
+  for (const id of ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'extra-flab']) { P(id, 'text-color', t['map-label-wine']); P(id, 'text-halo-color', t.halo); }
   P('rivers-lab', 'text-color', t['river-wine']); P('rivers-lab', 'text-halo-color', t.halo);
   for (const k of [0, 1, 2]) { P('towns-' + k, 'text-color', ['case', ['==', ['get', 'w'], 1], t['map-label-wine'], t['map-label']]); P('towns-' + k, 'text-halo-color', t.halo); }
   P('site-icon', 'text-color', t.text); P('site-icon', 'text-halo-color', t.halo);
@@ -744,11 +769,12 @@ function repaintAll() {
   _pal = null;
   repaintApps();
   applyGrapeOverview();
+  if (typeof bmAfterRepaint === 'function') bmAfterRepaint();
 }
 function setMode(m) { S.mode = m; store.set('mode', m); repaintApps(); APP.emit('mode'); }
 const LAYER_GROUPS = {
-  apps: () => [...S.sources.flatMap(k => [k + '-fill', k + '-line', k + '-sel']), 'ov-glow', 'ov-core', 'extra-pt', 'extra-glow'],
-  labels: () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'clab', 'reg-lab', 'rivers-lab', 'rivers-lab-2', 'towns-0', 'towns-1', 'towns-2'],
+  apps: () => [...S.sources.flatMap(k => [k + '-fill', k + '-line', k + '-sel']), 'ov-glow', 'ov-core', 'extra-pt', 'extra-fpt', 'extra-glow'],
+  labels: () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'extra-flab', 'clab', 'reg-lab', 'rivers-lab', 'rivers-lab-2', 'towns-0', 'towns-1', 'towns-2'],
   sites: () => ['site-icon'], rivers: () => ['rivers-line-0', 'rivers-line-1', 'rivers-line-2', 'rivers-lab', 'rivers-lab-2'], lakes: () => ['lakes-fill'],
   regions: () => ['reg-line', 'reg-lab'], belt: () => ['belt-fill', 'belt-edge'], grat: () => ['grat-line'], towns: () => ['towns-0', 'towns-1', 'towns-2']
 };
@@ -756,7 +782,7 @@ function applyLayerVis() {
   if (!map) return;
   const L = S.layers;
   const on = id => {
-    if (/^lab-|^fine-lab|^extra-lab/.test(id)) return L.labels && L.apps;
+    if (/^lab-|^fine-lab|^extra-lab|^extra-flab/.test(id)) return L.labels && L.apps;
     if (id === 'clab') return L.labels;
     if (id === 'reg-lab') return L.labels && L.regions;
     if (/^rivers-lab/.test(id)) return L.labels && L.rivers;
@@ -767,6 +793,7 @@ function applyLayerVis() {
   const all = new Set(Object.values(LAYER_GROUPS).flatMap(f => f()));
   for (const id of all) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', on(id) ? 'visible' : 'none');
   store.set('layers', S.layers);
+  if (typeof bmAfterLayerVis === 'function') bmAfterLayerVis();
 }
 
 /* ---------- camera ---------- */
@@ -872,7 +899,7 @@ function flyPoint(lon, lat, zoom, opts = {}) {
   move({ center: [lon, lat], zoom: zoom ?? Math.max(map.getZoom(), 7), padding: p }, opts);
 }
 function move(cam, opts = {}) {
-  const o = { center: cam.center, zoom: cam.zoom, bearing: 0, pitch: 0, padding: cam.padding || camPad() };
+  const o = { center: cam.center, zoom: cam.zoom, bearing: S.keepCam ? map.getBearing() : 0, pitch: S.keepCam ? map.getPitch() : 0, padding: cam.padding || camPad() };
   if (MQ.rm.matches || opts.instant) { map.jumpTo(o); return; }
   const fly = { ...o, curve: opts.curve ?? 1.42, speed: opts.speed ?? 1.1, maxDuration: opts.maxDuration ?? 4200, essential: false };
   if (opts.duration != null) fly.duration = opts.duration;
@@ -927,7 +954,7 @@ function hitTest(point, touch) {
   const box = [[point.x - r, point.y - r], [point.x + r, point.y + r]];
   const q = (layers, geom = box) => { const l = present(layers); return l.length ? map.queryRenderedFeatures(geom, { layers: l }) : []; };
   if (z >= 7.8) { const s = q(['site-icon']); if (s.length) return { type: 'site', id: s[0].properties.id, ref: { src: 'sites', id: s[0].properties.id } }; }
-  const ex = z >= 3.2 ? q(['extra-pt']) : [];
+  const ex = z >= 3.2 ? q(['extra-pt', 'extra-fpt']) : [];
   if (ex.length) return { type: 'app', id: ex[0].properties.id, ref: { src: 'extra', id: ex[0].properties.id }, stack: [] };
   const rl = q(['reg-lab']);
   if (rl.length) return { type: 'region', id: rl[0].properties.id, ref: { src: 'reg-pts', id: rl[0].properties.id } };
@@ -954,11 +981,11 @@ function bindMapEvents() {
   map.getCanvas().addEventListener('keydown', stop);
   map.on('move', updateReadout);
   map.on('movestart', e => { if (!e.originalEvent) { $('#tip').hidden = true; setHover(null); } });
-  map.on('moveend', () => { checkViewport(); const c = map.getCenter(); if (S.interacted) store.set('view', { c: [+c.lng.toFixed(3), +c.lat.toFixed(3)], z: +map.getZoom().toFixed(2) }); });
+  map.on('moveend', () => { if (S.flying) return; checkViewport(); const c = map.getCenter(); if (S.interacted) store.set('view', { c: [+c.lng.toFixed(3), +c.lat.toFixed(3)], z: +map.getZoom().toFixed(2) }); });
   map.on('zoomend', checkViewport);
   let raf = 0, lastPt = null;
   map.on('mousemove', e => {
-    if (!MQ.hover.matches) return;
+    if (!MQ.hover.matches || VMX.tap) return;
     lastPt = e.point;
     if (raf) return;
     raf = requestAnimationFrame(() => {
@@ -984,6 +1011,7 @@ function bindMapEvents() {
   });
   map.getCanvas().addEventListener('mouseleave', () => { setHover(null); $('#tip').hidden = true; });
   map.on('click', e => {
+    if (VMX.tap) { $('#tip').hidden = true; try { VMX.tap({ lngLat: e.lngLat, point: e.point, features: map.queryRenderedFeatures(e.point) }); } catch (er) { console.warn('[VM tap]', er); } return; }
     const touch = !MQ.hover.matches;
     const h = hitTest(e.point, touch);
     $('#tip').hidden = true;

@@ -72,12 +72,16 @@ const TOKN = ['space', 'ocean', 'land', 'land-wine', 'border', 'rule-strong', 't
   'highlight', 'river', 'river-wine', 'lake', 'grat', 'belt', 'belt-edge', 'halo', 'map-label', 'map-label-wine',
   'w-red', 'w-white', 'w-rose', 'w-sparkling', 'w-sweet', 'w-fortified', 'w-orange', 'w-mixed',
   'c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'e0', 'e1', 'e2', 'e3', 'e4'];
-let TOK = {};
+let TOK = {}, TOKRAW = {};
+/* TOK is what the map paints with: the theme tokens, plus overrides for the label ink and halos when the base map
+   is satellite imagery or a paper topographic map (see v2_map.js baseInk). TOKRAW is the plain theme. */
 function readTokens() {
   const cs = getComputedStyle(document.documentElement);
   const t = {};
   for (const k of TOKN) t[k] = cs.getPropertyValue('--' + k).trim() || '#888';
   t.dark = isDarkColor(t.ocean);
+  TOKRAW = { ...t };
+  if (typeof baseInk === 'function') Object.assign(t, baseInk(t));
   TOK = t;
   return t;
 }
