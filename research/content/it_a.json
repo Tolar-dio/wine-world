@@ -6410,13 +6410,13 @@
   {
    "id": "site-it-santo-stefano-di-perno",
    "country": "it",
-   "name": "Santo Stefano di Perno",
+   "name": "Perno",
    "kind": "mga",
    "appellation": "Barolo",
-   "lat": 44.6088,
-   "lon": 7.976,
+   "lat": 44.6131,
+   "lon": 7.9778,
    "coord_quality": "approx",
-   "text": "Slopes around the hamlet of Perno facing east toward Serralunga. Giuseppe Mascarello's Santo Stefano di Perno is the reference, a firmer, more austere counterpart to his Monprivato.",
+   "text": "A large MGA around the hamlet and castle of Perno in Monforte d'Alba, on slopes falling east toward Serralunga and west toward Bussia. Its best-known vineyard is Santo Stefano, which Giuseppe Mascarello e Figlio now labels Barolo Perno Vigna Santo Stefano, a firmer, more austere counterpart to its Monprivato; Rocche dei Manzoni's Vigna Cappella di Santo Stefano comes from the same hillside.",
    "producers": [
     "Giuseppe Mascarello e Figlio",
     "Rocche dei Manzoni"
@@ -7061,13 +7061,13 @@
   {
    "id": "site-it-moccagatta",
    "country": "it",
-   "name": "Moccagatta",
+   "name": "Muncagota",
    "kind": "mga",
    "appellation": "Barbaresco",
    "lat": 44.7184,
    "lon": 8.0846,
    "coord_quality": "approx",
-   "text": "North of Asili around the hamlet and winery of the same name. Produttori del Barbaresco's Moccagatta Riserva and the Minuto family's Moccagatta estate.",
+   "text": "South of Barbaresco village, between Asili and Rabajà, on steep slopes. Produttori del Barbaresco bottles a Muncagota Riserva in good years, and the Minuto family's Moccagatta estate stands inside the MGA.",
    "producers": [
     "Produttori del Barbaresco",
     "Moccagatta"
@@ -7335,17 +7335,17 @@
   {
    "id": "site-it-pertinace-mga",
    "country": "it",
-   "name": "Pertinace",
-   "kind": "mga",
+   "name": "Cantina Pertinace",
+   "kind": "estate",
    "appellation": "Barbaresco",
    "lat": 44.7025,
    "lon": 8.0645,
    "coord_quality": "approx",
-   "text": "Named after the hamlet of Pertinace, birthplace (by tradition) of the Roman emperor Publius Helvius Pertinax (reigned AD 193). Home of the Cantina Vignaioli Elvio Pertinace cooperative.",
+   "text": "The Treiso cooperative founded in 1973 by Mario Barbero and 12 fellow growers, now about 20 members farming some 110 ha. It takes its name from the hamlet of Pertinace, by tradition the birthplace of the Roman emperor Publius Helvius Pertinax (reigned AD 193), and bottles single-MGA Barbaresco from Marcarini, Nervo and Castellizzano.",
    "producers": [
     "Cantina Vignaioli Elvio Pertinace"
    ],
-   "class": "MGA (Barbaresco DOCG), Treiso"
+   "class": "Producer"
   },
   {
    "id": "site-it-meruzzano",
@@ -7417,7 +7417,7 @@
    "lat": 44.5745,
    "lon": 7.924,
    "coord_quality": "approx",
-   "text": "Based in Monchiero, just outside the Barolo zone, with cellars dating to the 18th century, once used to store ice. Mauro Mascarello and his son Giuseppe make Monprivato, Ca' d'Morissio, Villero and Santo Stefano di Perno in large casks; among the purest expressions of Castiglione Falletto.",
+   "text": "Based in Monchiero, just outside the Barolo zone, with cellars dating to the 18th century, once used to store ice. Mauro Mascarello and his son Giuseppe make Monprivato, Ca' d'Morissio, Villero and Perno Vigna Santo Stefano in large casks; among the purest expressions of Castiglione Falletto.",
    "producers": [
     "Giuseppe Mascarello e Figlio"
    ],
@@ -8032,7 +8032,7 @@
    "lat": 44.718,
    "lon": 8.0846,
    "coord_quality": "precise",
-   "text": "The Minuto family's estate in the Moccagatta MGA, making Bric Balin and Basarin.",
+   "text": "The Minuto family's estate in the Muncagota MGA south of Barbaresco village, making Bric Balin and Basarin.",
    "producers": [
     "Moccagatta"
    ],

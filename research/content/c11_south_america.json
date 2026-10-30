@@ -8,7 +8,7 @@
    "stats": {
     "vineyard_ha": 126250,
     "production_mhl": 9.5,
-    "year": 2026,
+    "year": "2024 (vineyard), 2026 (wine)",
     "world_rank_production": 8,
     "note": "SAG Catastro Vitícola 2024: 116,962 ha of wine grapes plus 9,287 ha of pisco grapes (OIV 2025 counts 154,000 ha including table grapes). Production: SAG 2026 harvest, 949.5 million litres excluding pisco wine. Rank: OIV 2025, where Chile made 8.4 mhl (8th)."
    },
@@ -236,7 +236,7 @@
    "stats": {
     "vineyard_ha": 199946,
     "production_mhl": 9.7,
-    "year": 2026,
+    "year": "2024 (vineyard), 2026 (wine)",
     "world_rank_production": 6,
     "note": "Vineyard: INV, all grape vines at 31 Dec 2024 (Malbec report 2025). Production: INV 2026 annual report, 9,700,421 hl (down 9.9% on 2025). Rank: OIV 2025, where Argentina made 10.8 mhl, 6th in the world."
    },
@@ -500,10 +500,10 @@
    "tier": "notable",
    "tagline": "An Atlantic-cooled pocket between the River Plate and the ocean, where a Basque pioneer's Tannat became a national identity.",
    "stats": {
-    "vineyard_ha": 6000,
-    "production_mhl": 0.7,
-    "year": 2022,
-    "note": "INAVI figures reported by La Mañana (Jan 2022): about 6,000 ha in production, roughly 70 million litres of wine a year, about 7 million litres exported. Not in the OIV 2025 top 20; current INAVI totals not verified."
+    "vineyard_ha": 5848,
+    "production_mhl": 0.5,
+    "year": 2023,
+    "note": "FAOSTAT, official national figures for 2023: 5,848 ha of grapes and 50,224 t of wine (about 0.5 mhl), from a drought-hit vintage; INAVI had reported about 6,000 ha in production and roughly 70 million litres a year in 2022 (La Mañana, Jan 2022). Not in the OIV 2025 top 20"
    },
    "overview": "Uruguay is South America's Atlantic wine country. Where Argentina and Chile grow grapes in deserts under the Andes, Uruguay grows them on low, rolling hills a few kilometres from the River Plate estuary and the ocean, at 30 to 35°S, in a humid temperate climate with about 1,000 mm of rain a year spread through every season. The landscape looks more like Bordeaux or the French Basque country than like Mendoza, and that resemblance is the key to its story.\n\nThe founding figure is Pascual Harriague, a Basque immigrant from France who planted Tannat near Salto in the north of the country around 1870, using vines brought from Concordia across the Uruguay river. Locals called the grape 'Harriague'. Almost at the same time Francisco Vidiella planted European vines at Colón, near Montevideo, and made the first harvest there in 1883. Italian, Basque and Spanish families built the industry that followed, and by the 1950s Uruguay had about 19,000 ha of vines, many of them hybrids for a thirsty home market.\n\nThe modern era began in the late 1980s, when the coming Mercosur trade bloc threatened to flood Uruguay with cheaper Argentine and Brazilian wine. The response, led by INAVI (the national wine institute, created in 1987), was to pull out hybrids, plant clean vinifera stock and bet on quality and on one grape. Tannat, a tough, tannic red from Madiran in south-west France, became Uruguay's signature. Grown in a wetter, more maritime climate and often made with softer extraction, Uruguayan Tannat is rounder and more approachable than Madiran, with dark plum, blackberry and a savoury edge. In 2022 Uruguay had about 1,575 ha of Tannat, about 27% of its vineyard, the largest share of any country.\n\nThe industry is small and family-based: more than 1,200 mostly small vineyards and, by INAVI's 2022 figure, about 6,000 ha in production, down from 8,000 ha a quarter-century earlier. Most production is in Canelones and Montevideo, but the most exciting growth is east, in Maldonado's granite hills near Punta del Este, where Bodega Garzón and others make Albariño, Pinot Noir and fresh Tannat, and north, in Rivera's red sands on the Brazilian border. Uruguay declared wine its national drink in 2014. Exports remain modest, mostly to Brazil and the United States, while the home market drinks most of the wine.",
    "history": [
@@ -671,7 +671,7 @@
    "stats": {
     "vineyard_ha": 84400,
     "production_mhl": 2.8,
-    "year": 2025,
+    "year": "2024 (vineyard), 2025 (wine)",
     "world_rank_production": 15,
     "note": "Vineyard: IBGE 2024 via Embrapa (all grapes, including table and juice grapes). Production: OIV 2025 (2.8 mhl, 15th; +81% on the frost- and flood-hit 2024)."
    },
@@ -972,9 +972,10 @@
    "tier": "emerging",
    "tagline": "Some of the world's highest vineyards, where wine and singani grow above 1,600 m on the edge of the tropics.",
    "stats": {
-    "vineyard_ha": 5000,
-    "year": 2021,
-    "note": "About 5,000 ha of grapes in Tarija (Correo del Sur, 2021); Tarija holds about 80% of Bolivia's wine industry. No reliable national production figure found."
+    "vineyard_ha": 3478,
+    "year": 2024,
+    "note": "FAOSTAT, official national figure: 3,478 ha of grapes in 2024 (all uses). Tarija holds about 80 percent of Bolivia's wine industry; Correo del Sur (2021) put Tarija's grape area at about 5,000 ha. No reliable national wine-production figure; FAOSTAT carries only an outside estimate (about 8,000 t in 2023)",
+    "production_mhl": null
    },
    "overview": "Bolivia makes wine in a place where vines should not grow: at 21°S, inside the tropics, but high in the Andes. Almost all vineyards sit between about 1,600 and 3,000 m, so the altitude replaces latitude, nights are cold and the sunlight is fierce. That combination gives aromatic grapes and deeply coloured reds, and it is the selling point of the small modern industry centred on the Tarija valley in the south of the country.\n\nVines arrived from Peru with Spanish settlers and missionaries in the 16th century to supply wine for Mass and for the booming silver city of Potosí. The earliest documented vineyards are in the Tarija valley around 1589 to 1590, and in the Cinti valley of Chuquisaca, where colonial haciendas trained vines up native molle and chañar trees, a practice that survives in vineyards 100 to 200 years old. For centuries most grapes went to *singani*, a fragrant brandy distilled from Muscat of Alexandria that Bolivia protects as a denomination of origin.\n\nModern winemaking dates from the 1960s and 1970s, when producers such as Kohlberg and Kuhlmann moved operations to Tarija and imported European technology. Today wineries including Kohlberg, Aranjuez, Campos de Solana, La Concepción, Casa Vieja and Magnus make Tannat, Malbec, Cabernet Sauvignon, Syrah and aromatic whites, and a revival of old Criolla and Moscatel vines in Cinti has drawn attention abroad. Bolivia celebrates a national day of wine and singani on the last Friday of February.",
    "history": [
@@ -1076,9 +1077,10 @@
    "tier": "minor",
    "tagline": "Jesuit mission vines, German settlers and a handful of hectares in the humid hills of Guairá.",
    "stats": {
-    "vineyard_ha": 150,
-    "year": 2016,
-    "note": "About 150 ha of grapes, almost all table grapes (ABC Color, 2016); wine output tiny and unrecorded by OIV."
+    "vineyard_ha": 229,
+    "year": 2022,
+    "note": "FAOSTAT, official national figure: 229 ha of grapes in 2022, almost all table grapes (later years are FAO estimates); wine output tiny and unrecorded by OIV",
+    "production_mhl": null
    },
    "overview": "Paraguay sits squarely in the humid subtropics, with hot summers and heavy rain, and has never been a natural home for the vine. Its wine history comes in three short chapters. In the Jesuit mission period, from the late 16th century, missionaries planted European grapes in the *reducciones* of the south-east to make wine for Mass, as part of self-sufficient Guaraní communities. After independence in the early 19th century, viticulture faded as Paraguayans turned to yerba mate and beer, and sacramental wine was imported.\n\nThe modern thread is German. In the early 20th century immigrant families planted vines in the hills of Guairá department; Colonia Independencia, founded in 1919 to 1920 at the foot of the Ybytyruzú range, became the centre of Paraguayan grape growing, mostly for table grapes and fruit wine, and holds a harvest festival each year. A 2016 estimate put the national vineyard at about 150 ha, with only a small share used for wine and a single known commercial winery in Colonia Independencia making a few thousand litres of Riesling and Cabernet Sauvignon. Paraguay had no active wine exports as of 2024.",
    "history": [
@@ -1146,7 +1148,10 @@
    "tier": "minor",
    "tagline": "Equatorial Andean vineyards above 2,000 m in Boyacá, plus a tropical wine industry in the Cauca valley.",
    "stats": {
-    "note": "No reliable national vineyard or wine production figures found; a 2026 travel survey counts about nine serious small wineries, while Casa Grajales in Valle del Cauca reports capacity of about 7 million litres a year."
+    "note": "FAOSTAT, official national figures: 3,003 ha of grapes in 2024, mostly table grapes in Valle del Cauca, and 2,272 t of wine in 2023. A 2026 travel survey counts about nine serious small wineries, while Casa Grajales in Valle del Cauca reports capacity of about 7 million litres a year",
+    "vineyard_ha": 3003,
+    "year": 2024,
+    "production_mhl": null
    },
    "overview": "Colombia lies on the equator, so its vineyards have no winter. Two very different wine cultures have grown up anyway. In the tropical Cauca valley around La Unión, Valle del Cauca, the Grajales family has grown table and wine grapes for more than 40 years; their Casa Grajales winery, which reports a capacity of about 7 million litres a year, makes wines from grapes adapted to the tropics, harvested more than once a year, and runs the National Grape Park.\n\nThe quality scene is in the high Andes of Boyacá, north of Bogotá, around Villa de Leyva, Sutamarchán and Sáchica in the Alto Ricaurte at about 2,000 to 2,200 m, and in the Valle del Sol near Duitama and Nobsa at about 2,500 m. Cool nights, intense equatorial light and a dry, semi-desert microclimate let growers make Sauvignon Blanc, Riesling, Pinot Noir and Cabernet. Viñedos Ain Karim, established in 1988 near Sutamarchán and the first to plant Sauvignon Blanc in Colombia, and Marqués de Puntalarga in Nobsa, which grows Pinot Noir and Riesling, are the pioneers. With no seasons, vines can be pruned to give two harvests a year. There is no appellation system; volumes are tiny and almost all is drunk at home.",
    "history": [
@@ -1203,8 +1208,10 @@
    "tier": "minor",
    "tagline": "Tropical wine in the semi-arid hills of Carora, with two harvests a year.",
    "stats": {
-    "vineyard_ha": 80,
-    "note": "Bodegas Pomar's vineyards at Altagracia, Lara, cover about 80 ha; no national statistics found."
+    "vineyard_ha": 1293,
+    "note": "FAOSTAT, official national figure: 1,293 ha of grapes in 2023 (all uses); Bodegas Pomar's vineyards at Altagracia, Lara, cover about 80 ha",
+    "year": 2023,
+    "production_mhl": null
    },
    "overview": "Venezuela's wine industry is essentially one company and one place. In 1985 the brewer Empresas Polar and the Cognac house Martell joined forces to make wine in the tropics; the brand Pomar combines their names. After experimental plantings at El Tocuyo, they settled on the semi-arid plain of Carora in Lara state, a hot, dry area at about 10°N where cacti and goats are more common than vines. Of about 20 European varieties trialled, six adapted to the climate.\n\nBecause there is no winter, Pomar's vineyards at Altagracia (about 80 ha) are pruned to produce two harvests a year, and all grapes are picked by hand. The winery makes red, white and rosé wines, traditional-method sparkling wines (its Brut Rosé has won medals abroad) and Ecclesia, the communion wine used in Venezuelan churches. Venezuela has no appellation system, and small artisanal producers aside, the country's wine is Pomar's.\n\nCarora's terroir is a dry, hot plain at a few hundred metres, with poor soils and irrigation; the long, bright days and absence of winter mean the vine never truly rests, so vineyard management (pruning dates, water) does the work that seasons do elsewhere.",
    "history": [

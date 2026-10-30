@@ -245,7 +245,7 @@
    "stats": {
     "vineyard_ha": 13900,
     "production_mhl": 0.51,
-    "year": 2024,
+    "year": "2025 (vineyard), 2024 (wine)",
     "world_rank_production": null,
     "note": "Vineyard area: Eurostat apro_cpsh1, 13.9 kha in 2025 (the ministry cites about 17,000 ha cultivated and 14,600 ha registered). Production: OIV figure of 512,800 hl for 2024."
    },
@@ -398,7 +398,7 @@
    "stats": {
     "vineyard_ha": 19100,
     "production_mhl": 0.46,
-    "year": 2024,
+    "year": "2025 (vineyard), 2024 (wine)",
     "world_rank_production": null,
     "note": "Vineyard area: Eurostat apro_cpsh1, 19.1 kha in 2025. Production: 458,000 hl in 2024 (OIV figure as reported by Wine Plus)."
    },
@@ -587,13 +587,13 @@
    "tier": "emerging",
    "tagline": "Prokupac and Tamjanika, Fruška Gora's monastery slopes and Bermet, and the stone cellar towns of Negotin.",
    "stats": {
-    "vineyard_ha": 20400,
-    "production_mhl": 0.33,
-    "year": 2018,
+    "vineyard_ha": 17719,
+    "production_mhl": 0.23,
+    "year": "2024 (vineyard), 2023 (wine)",
     "world_rank_production": null,
-    "note": "Statistical Office of Serbia via the Netherlands agricultural attaché (2020): 20,406 ha of vineyard in 2018 and 331,000 hl of wine. Other sources give 22,150 ha, of which about 6,700 ha are registered for wine. Recent official figures were not found."
+    "note": "FAOSTAT, official national figures: 17,719 ha of vines in 2024 and 23,370 t of wine (about 0.23 mhl) in 2023. The Statistical Office of Serbia had counted 20,406 ha and 331,000 hl in 2018; other sources say about 6,700 ha are registered for wine"
    },
-   "overview": "Serbia was once the engine of Yugoslav wine. In the 1970s Yugoslavia made over 6 million hl a year, much of it in Serbian combines such as Navip and Rubin. Today's Serbian industry is far smaller but far more interesting. It has about 20,000 ha of vines, fewer than half registered for wine, and some 350 to 400 registered wineries, most of them family businesses founded after 2000. Production is roughly 0.3 to 0.4 million hl, and imports (above all from North Macedonia) exceed exports.\n\nSerbian law divides the vineyard into three wine-growing units (Central Serbia, Vojvodina, and Kosovo and Metohija, a unit Serbia still defines for Kosovo although Kosovo has administered itself since 1999 and declared independence in 2008), 22 regions and 77 districts, under a zoning adopted in 2015 to match the EU's PDO and PGI system. Under the UK-Serbia trade agreement, 81 Serbian wine names are protected as geographical indications, from the large Šumadija-Velika Morava to small names such as Oplenac, Župa, Rajac and Palić.\n\nThe best-known areas are Fruška Gora, a low wooded ridge above the Danube near Novi Sad, studded with sixteen Orthodox monasteries and home to the herbal dessert wine Bermet of Sremski Karlovci; Vršac in the Banat, on the slopes of the only real hills of the Serbian Banat; Šumadija in the centre, with the royal Oplenac winery; Župa around Aleksandrovac, Serbia's 'wine capital', in the warm valley of the Rasina; and the Negotin Krajina and Timok in the east, where villages of stone cellars (*pivnice*) stand apart from the houses.\n\nTwo native grapes carry the story. Prokupac, an ancient red associated with the medieval Nemanjić dynasty, makes light-coloured, spicy, cherry-fruited reds; once dismissed as rustic, it is now the focus of a quality revival. Tamjanika, a local name for Muscat Blanc à Petits Grains grown in Serbia for centuries, makes intensely perfumed dry whites. Smederevka, Sremska Zelenika, Bagrina and the Hungarian-Serb Kadarka add more local colour, but international varieties dominate plantings.",
+   "overview": "Serbia was once the engine of Yugoslav wine. In the 1970s Yugoslavia made over 6 million hl a year, much of it in Serbian combines such as Navip and Rubin. Today's Serbian industry is far smaller but far more interesting. It has about 18,000 ha of vines, fewer than half registered for wine, and some 350 to 400 registered wineries, most of them family businesses founded after 2000. Production is roughly 0.25 million hl a year (official figures for 2021 to 2023), and imports (above all from North Macedonia) exceed exports.\n\nSerbian law divides the vineyard into three wine-growing units (Central Serbia, Vojvodina, and Kosovo and Metohija, a unit Serbia still defines for Kosovo although Kosovo has administered itself since 1999 and declared independence in 2008), 22 regions and 77 districts, under a zoning adopted in 2015 to match the EU's PDO and PGI system. Under the UK-Serbia trade agreement, 81 Serbian wine names are protected as geographical indications, from the large Šumadija-Velika Morava to small names such as Oplenac, Župa, Rajac and Palić.\n\nThe best-known areas are Fruška Gora, a low wooded ridge above the Danube near Novi Sad, studded with sixteen Orthodox monasteries and home to the herbal dessert wine Bermet of Sremski Karlovci; Vršac in the Banat, on the slopes of the only real hills of the Serbian Banat; Šumadija in the centre, with the royal Oplenac winery; Župa around Aleksandrovac, Serbia's 'wine capital', in the warm valley of the Rasina; and the Negotin Krajina and Timok in the east, where villages of stone cellars (*pivnice*) stand apart from the houses.\n\nTwo native grapes carry the story. Prokupac, an ancient red associated with the medieval Nemanjić dynasty, makes light-coloured, spicy, cherry-fruited reds; once dismissed as rustic, it is now the focus of a quality revival. Tamjanika, a local name for Muscat Blanc à Petits Grains grown in Serbia for centuries, makes intensely perfumed dry whites. Smederevka, Sremska Zelenika, Bagrina and the Hungarian-Serb Kadarka add more local colour, but international varieties dominate plantings.",
    "history": [
     {
      "when": "3rd century AD",
@@ -744,11 +744,11 @@
    "tier": "minor",
    "tagline": "Sun-baked Herzegovinian karst, mineral Žilavka and the 'empty barrel' Blatina, with monks still making wine at Tvrdoš.",
    "stats": {
-    "vineyard_ha": 3257,
-    "production_mhl": 0.18,
-    "year": 2016,
+    "vineyard_ha": 3180,
+    "production_mhl": null,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "Officials reported 2,657 ha of wine grapes in the Federation of BiH in 2016 plus about 600 ha in Republika Srpska, and 177,400 hl of wine (as reported by Jancis Robinson); there is no vineyard register, so the figures are approximate."
+    "note": "FAOSTAT, official national figure: 3,180 ha of vines in 2024. In 2016 officials reported 2,657 ha of wine grapes in the Federation of BiH plus about 600 ha in Republika Srpska, and 177,400 hl of wine (as reported by Jancis Robinson); there is no vineyard register and no reliable recent production figure"
    },
    "overview": "Almost all of Bosnia and Herzegovina's wine comes from Herzegovina, the hot, stony south that drains to the Adriatic along the Neretva. Summers can hit 40 °C, the soils are thin karst and terra rossa, and the scenery around Mostar, Čitluk, Međugorje, Ljubuški, Stolac and Trebinje looks more like Dalmatia than central Europe. About 3,000 ha are planted, worked by up to 11,000 households, most of whom make wine for themselves; around 50 producers are registered and perhaps 30 sell commercially.\n\nTwo native grapes make up 60 to 65 percent of the vineyard. Žilavka is a firm, mineral, apricot-and-almond white, said to have been the preferred wine of the Austro-Hungarian emperors after 1878. Blatina is a dark, soft red whose flowers are functionally female, so it must be interplanted with a pollinator such as Trnjak, Vranac or Alicante Bouschet; its nickname 'empty barrel' comes from the poor yields of bad flowering years. Vranac grows around Trebinje, Plavac Mali near the Croatian border.\n\nViticulture here goes back to the Illyrians and Romans, survived four centuries of Ottoman rule (when wine was mostly made by Christian communities and monasteries), and grew under Austro-Hungarian administration from 1878. In the socialist era households were limited to 100 litres of wine a year, and large cooperatives such as Hepok in Mostar dominated. The 1990s war set the industry back badly; since then family estates (Vinarija Čitluk, Podrumi Andrija, Vukoje, Tvrdoš, Nuić, Škegro, Brkić, Carski Vinogradi) have rebuilt it, and the Herzegovina Wine Route, opened in 2007, was relaunched in 2023. The country imports about five times more wine than it exports.",
    "history": [
@@ -936,11 +936,11 @@
    "tier": "emerging",
    "tagline": "The Vardar valley's sun-soaked Vranec, the ruins of Stobi and the Balkans' biggest winery at Kavadarci.",
    "stats": {
-    "vineyard_ha": 24776,
+    "vineyard_ha": 21534,
     "production_mhl": 0.85,
-    "year": 2022,
+    "year": "2024 (vineyard), 2022 (wine)",
     "world_rank_production": null,
-    "note": "Wein.plus: 24,776 ha of wine vineyards and 854,000 hl of wine in 2022; GIZ (2026) expected 90 to 100 million litres in 2025, at least 85% exported."
+    "note": "Vineyard: State Statistical Office via FAOSTAT (official figure), 21,534 ha in 2024; Wein.plus gave 24,776 ha of wine vineyards in 2022. Production: 854,000 hl in 2022 (Wein.plus); GIZ (2026) expected 90 to 100 million litres in 2025, at least 85 percent exported"
    },
    "overview": "North Macedonia is a wine exporter first: in a normal year it makes 0.9 to 1 million hl and sends at least 85 percent abroad, much of it in bulk to Serbia, Croatia, Germany and beyond. In the 1980s it made about two-thirds of Yugoslavia's wine. The vineyard (about 25,000 ha for wine, plus large plantings of table grapes) is dominated by red grapes, about 80 percent, and above all by Vranec, with roughly 9,500 ha. Smederevka (Dimyat) is the main white.\n\nThree regions organise the country: Povardarie, the Vardar valley from Skopje to the Greek border, with about 85 to 87 percent of vineyards and 90 percent of wineries; Pčinja-Osogovo in the east toward Bulgaria; and Pelagonija-Polog in the west, including Ohrid and Prespa. The heart of Povardarie is Tikveš, the basin around Kavadarci and Negotino, where hot summers (often over 35 °C), Mediterranean air funnelled up the Vardar from the Aegean and cold continental winters give dark, ripe, full-bodied reds. Tikveš winery in Kavadarci, which dates its history to 1885, is the largest in South-Eastern Europe; Stobi, Bovin, Popova Kula, Chateau Kamnik and Dalvina lead the newer estates.\n\nNative grapes include Stanušina, a light, local red of Tikveš, and Kratošija (Tribidrag/Zinfandel). The ancient city of Stobi on the Vardar, with mosaics showing vines and wine, recalls that Paeonians, Macedonians and Romans all made wine here. Since 2024 amendments to the Wine Law have aimed to introduce EU-style geographical indications, and the first, 'Vardar Valley', was being prepared in 2026.",
    "history": [
@@ -1030,11 +1030,11 @@
    "tier": "minor",
    "tagline": "Kallmet, Shesh and Pulës: native grapes on the Adriatic hills, recovering from a century of upheaval.",
    "stats": {
-    "vineyard_ha": 10178,
+    "vineyard_ha": 9358,
     "production_mhl": null,
-    "year": 2015,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "Wikipedia (national statistics): 10,178 ha of vineyard and 204,000 t of grapes in 2015; no reliable recent wine-production figure found."
+    "note": "INSTAT via FAOSTAT (official figure): 9,358 ha of vines in 2024, down from 10,178 ha in 2015; no reliable recent wine-production figure found"
    },
    "overview": "Albania has grown vines since the Illyrians, at least 3,000 years ago, and the Greek and Roman colonies of the coast (Apollonia, Dyrrhachium, Butrint) left wine imagery in their ruins. The Ottoman centuries reduced vineyards largely to Christian areas, phylloxera nearly destroyed what remained by 1933, and after 1945 the Communist regime planted collective vineyards (from about 2,700 ha after the war to over 17,000 ha by 1990) for brandy and bulk wine. The collapse of 1991 and the privatisation chaos that followed broke up those estates; today about 10,000 ha are planted, mostly for table grapes and home wine and raki, and a few dozen commercial wineries are building a modern identity.\n\nThat identity rests on native grapes. Kallmet, a red named after the village of Kallmet near Lezhë, grows on the Zadrima plain between Shkodër and Lezhë and makes dark, spicy wines. Shesh i Zi (black) and Shesh i Bardhë (white) take their name from Shesh, near Tirana, and are the most widespread. Pulës is a white of Berat, Debinë a white from the south-east (Korçë, Përmet), and Vlosh a red of the Vlorë coast. The best-known producers include Kantina Arbëri in Mirditë (Kallmet), Çobo near Berat (Pulës and Shesh), Kokomani near Tirana, Nurellari in Skrapar, Skënderbeu and Bardha.\n\nAlbania is an EU candidate. Under its trade agreement with the United Kingdom, 36 Albanian wine names, essentially its historic districts from Shkodër and Koplik to Korçë, Përmet, Berat and Sarandë, are protected as geographical indications.",
    "history": [

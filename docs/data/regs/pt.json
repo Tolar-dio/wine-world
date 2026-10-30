@@ -1,16 +1,16 @@
 {
  "pt-porto": {
-  "varieties": "Authorised Douro Demarcated Region varieties (IVDP list), e.g. reds Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca, Tinto Cao, Sousao; whites Malvasia Fina, Gouveio, Viosinho, Rabigato.",
+  "varieties": "Authorised Douro Demarcated Region varieties (IVDP list), e.g. reds Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca, Tinto Cão, Sousão; whites Malvasia Fina, Gouveio, Viosinho, Rabigato.",
   "min_alcohol": "Must at least 11% potential (average). Actual alcohol 16.5-22% depending on category under DL 106/2025 (EU-registered spec: 19-22%, light dry white from 16.5%). Fermentation stopped with grape spirit (aguardente) leaving at least 17.5 g/l sugar.",
-  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communique (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rose, 65 hl/ha white. The amount of fortifying spirit and wine authorised each year is set in the harvest communique.",
+  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communiqué (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rosé, 65 hl/ha white. The amount of fortifying spirit and wine authorised each year is set in the harvest communiqué.",
   "ageing": "IVDP categories: Vintage (single harvest, approved January-June of the 2nd year, bottled by 30 July of the 3rd year, on sale from 1 May of the 2nd year, tasting score 9/10); LBV (single harvest, certified 1 March-31 December of the 4th year, bottled by 31 December of the 6th year); Colheita (single harvest, at least 7 years in wood from 1 September of the 2nd year); Crusted (blend, at least 3 years in bottle); Garrafeira (single harvest, 4-8 years in wood then at least 15 years in glass); Reserva Tawny and Reserva Branco at least 6 years in wood; Reserva Ruby no minimum but quality approval.",
-  "styles": "Ruby, Tawny, White (Branco), Rose; special categories Reserva, LBV, Vintage, Crusted, Colheita, Garrafeira, age indications.",
+  "styles": "Ruby, Tawny, White (Branco), Rosé; special categories Reserva, LBV, Vintage, Crusted, Colheita, Garrafeira, age indications.",
   "labelling": "Age indications 10, 20, 30, 40, 50 and 80 anos; VVO (Very Very Old) for wines over 80 years without stated age (80 anos and VVO created January 2025, IVDP Circular 01/2025). Colheita must show harvest and bottling years; Garrafeira shows harvest and final bottling year (Velho over 20 years, Muito Velho over 30). LBV may say Unfiltered, Bottle Matured. 'Port', 'Porto', 'vinho do Porto' and translations protected.",
-  "sweetness": "Sugar classes: Extra Seco 17.5-40 g/l, Seco 40-65, Meio Seco 65-85, Doce 85-130, Muito Doce or Lagrima over 130 g/l.",
+  "sweetness": "Sugar classes: Extra Seco 17.5-40 g/l, Seco 40-65, Meio Seco 65-85, Doce 85-130, Muito Doce or Lágrima over 130 g/l.",
   "other": "Storage, bottling, labelling and guarantee seals only inside the Douro Demarcated Region or the Vila Nova de Gaia entreposto; bulk liqueur wines banned in the RDD (DL 106/2025). The 75,000-litre minimum stock to trade Port was abolished in 2025. A Port wine vinegar category was created. Stock top-ups with certified spirit capped at 2% a year (IVDP Circular 05/2026).",
   "src": [
    {
-    "title": "IVDP: Porto PDO product specification (caderno de especificacoes)",
+    "title": "IVDP: Porto PDO product specification (caderno de especificações)",
     "url": "https://www.ivdp.pt/media/pnwe55km/pdo-pt-a1540-porto.pdf"
    },
    {
@@ -43,9 +43,9 @@
  "pt-douro": {
   "varieties": "Authorised Douro Demarcated Region varieties (IVDP list, Portaria 383/2017 as amended in 2024).",
   "min_alcohol": "Actual at least 10% under DL 106/2025 (the 2011 EU spec required 10.5-11.5% by type); Moscatel do Douro 16.5-22%; sparkling 11% in the EU spec.",
-  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communique (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rose, 65 hl/ha white.",
-  "ageing": "Ageing now set by IVDP regulation. Since January 2025, Reserva white and rose go on sale from 1 March of the year after harvest (5 months minimum for top-grade whites), and Clarete or Palhete reds right after the harvest declaration. Sparkling: second fermentation in bottle, at least 9 months; Reserva 12, Super Reserva/Cuvee 24, Velha Reserva and Colheita Selecionada 36 months in bottle (EU spec).",
-  "styles": "Still white, red, rose; quality sparkling; Moscatel do Douro liqueur wine.",
+  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communiqué (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rosé, 65 hl/ha white.",
+  "ageing": "Ageing now set by IVDP regulation. Since January 2025, Reserva white and rosé go on sale from 1 March of the year after harvest (5 months minimum for top-grade whites), and Clarete or Palhete reds right after the harvest declaration. Sparkling: second fermentation in bottle, at least 9 months; Reserva 12, Super Reserva/Cuvée 24, Velha Reserva and Colheita Selecionada 36 months in bottle (EU spec).",
+  "styles": "Still white, red, rosé; quality sparkling; Moscatel do Douro liqueur wine.",
   "labelling": "Traditional terms Reserva, Grande Reserva, Garrafeira, Colheita Selecionada, Escolha, Superior and others under IVDP rules. Subregions Baixo Corgo, Cima Corgo, Douro Superior are the traditional divisions of the region.",
   "other": "Storage, bottling, labelling and guarantee seals only inside the Douro Demarcated Region or the Vila Nova de Gaia entreposto; bulk liqueur wines banned in the RDD (DL 106/2025). Same delimited area as Port (Decreto 7934 of 1921).",
   "src": [
@@ -75,8 +75,8 @@
  "pt-moscatel-do-douro": {
   "varieties": "Moscatel Galego Branco or Moscatel Galego Roxo (DL 106/2025).",
   "min_alcohol": "Actual 16.5-22%.",
-  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communique (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rose, 65 hl/ha white.",
-  "ageing": "Fermentation stopped with grape spirit in the amount set by the annual harvest communique; age-related terms set by IVDP regulation.",
+  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communiqué (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rosé, 65 hl/ha white.",
+  "ageing": "Fermentation stopped with grape spirit in the amount set by the annual harvest communiqué; age-related terms set by IVDP regulation.",
   "styles": "Fortified (liqueur) Muscat of the Douro DOP.",
   "labelling": "'Moscatel do Douro' protected and only usable for the liqueur wine of the Douro DOP.",
   "other": "Storage, bottling, labelling and guarantee seals only inside the Douro Demarcated Region or the Vila Nova de Gaia entreposto; bulk liqueur wines banned in the RDD (DL 106/2025). Stock top-ups with certified spirit capped at 2% a year (IVDP Circular 05/2026).",
@@ -102,7 +102,7 @@
  },
  "pt-baixo-corgo": {
   "varieties": "As for Porto and Douro DOP (IVDP list of RDD varieties).",
-  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communique (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rose, 65 hl/ha white.",
+  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communiqué (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rosé, 65 hl/ha white.",
   "styles": "Port, Douro DOP still and sparkling wines, Moscatel do Douro, Duriense PGI wines.",
   "labelling": "Named in the statute as one of three traditional geographical areas of the RDD; IVDP may individualise subregions by regulation (DL 106/2025, art. 3).",
   "other": "Baixo Corgo is defined parish by parish in the statute. Storage, bottling, labelling and guarantee seals only inside the Douro Demarcated Region or the Vila Nova de Gaia entreposto; bulk liqueur wines banned in the RDD (DL 106/2025).",
@@ -124,7 +124,7 @@
  },
  "pt-cima-corgo": {
   "varieties": "As for Porto and Douro DOP (IVDP list of RDD varieties).",
-  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communique (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rose, 65 hl/ha white.",
+  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communiqué (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rosé, 65 hl/ha white.",
   "styles": "Port, Douro DOP still and sparkling wines, Moscatel do Douro, Duriense PGI wines.",
   "labelling": "Named in the statute as one of three traditional geographical areas of the RDD; IVDP may individualise subregions by regulation (DL 106/2025, art. 3).",
   "other": "Cima Corgo is defined parish by parish in the statute. Storage, bottling, labelling and guarantee seals only inside the Douro Demarcated Region or the Vila Nova de Gaia entreposto; bulk liqueur wines banned in the RDD (DL 106/2025).",
@@ -146,7 +146,7 @@
  },
  "pt-douro-superior": {
   "varieties": "As for Porto and Douro DOP (IVDP list of RDD varieties).",
-  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communique (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rose, 65 hl/ha white.",
+  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communiqué (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rosé, 65 hl/ha white.",
   "styles": "Port, Douro DOP still and sparkling wines, Moscatel do Douro, Duriense PGI wines.",
   "labelling": "Named in the statute as one of three traditional geographical areas of the RDD; IVDP may individualise subregions by regulation (DL 106/2025, art. 3).",
   "other": "Douro Superior is defined parish by parish in the statute. Storage, bottling, labelling and guarantee seals only inside the Douro Demarcated Region or the Vila Nova de Gaia entreposto; bulk liqueur wines banned in the RDD (DL 106/2025).",
@@ -169,9 +169,9 @@
  "pt-duriense": {
   "varieties": "RDD varieties (IVDP list).",
   "min_alcohol": "Actual at least 10% (DL 106/2025, art. 18). Late harvest (Colheita Tardia) at least 10.5% actual and 16% total.",
-  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communique (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rose, 65 hl/ha white.",
+  "max_yield": "7,500 kg/ha red and 8,864 kg/ha white grapes for any RDD PDO/PGI wine (750 kg of grapes = 550 l of must), adjustable up to +25% in the annual harvest communiqué (DL 106/2025, art. 12). The EU-registered 2011 specification still shows 55 hl/ha red and rosé, 65 hl/ha white.",
   "ageing": "EU spec: white 6 months and red 12 months from 1 October before sale; since 2025 Clarete and Palhete reds may be sold right after the harvest declaration (IVDP Circular 01/2025).",
-  "styles": "White, red, rose of any category, late harvest.",
+  "styles": "White, red, rosé of any category, late harvest.",
   "labelling": "Vinho Regional; traditional terms set by IVDP regulation.",
   "other": "Since 2025 grapes must come only from RDD parcels and all production and bottling must take place inside the RDD. Density at least 4,000 vines/ha (3,000 on terraces).",
   "src": [
@@ -195,12 +195,12 @@
   "verified": "2026-10"
  },
  "pt-vinho-verde": {
-  "varieties": "Whites Alvarinho, Loureiro, Arinto (Pedernã), Trajadura, Avesso, Azal; reds Vinhao, Borracal, Amaral, Espadeiro, Padeiro, Alvarelhao and others; Aragonez and Tinta Barroca added in 2024. Red may include up to 15% white grapes and must then be labelled Palhete or Palheto.",
+  "varieties": "Whites Alvarinho, Loureiro, Arinto (Pedernã), Trajadura, Avesso, Azal; reds Vinhão, Borraçal, Amaral, Espadeiro, Padeiro, Alvarelhão and others; Aragonez and Tinta Barroca added in 2024. Red may include up to 15% white grapes and must then be labelled Palhete or Palheto.",
   "min_alcohol": "Actual 8% (total 8.5-14%); subregion wines 9%; Alvarinho 11.5%. Must at least 8.5% (subregion 9%, Alvarinho 11.5%); sparkling at least 10% actual.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
   "ageing": "Espumante de Vinho Verde: traditional method, at least 9 months on the producer's premises after bottling.",
-  "styles": "White, rose, red; Vindima Tardia/Colheita Tardia (late harvest); Espumante (sparkling, added 2024) and quality sparkling.",
-  "labelling": "Nine subregions: Moncao e Melgaco, Lima, Cavado, Ave, Basto, Sousa, Amarante, Baiao, Paiva. Alvarinho alone means 100% Alvarinho; with other varieties at least 30%. 'Origem do Alvarinho' reserved for Moncao e Melgaco. Municipality names need grapes from that municipality.",
+  "styles": "White, rosé, red; Vindima Tardia/Colheita Tardia (late harvest); Espumante (sparkling, added 2024) and quality sparkling.",
+  "labelling": "Nine subregions: Monção e Melgaço, Lima, Cávado, Ave, Basto, Sousa, Amarante, Baião, Paiva. Alvarinho alone means 100% Alvarinho; with other varieties at least 30%. 'Origem do Alvarinho' reserved for Monção e Melgaço. Municipality names need grapes from that municipality.",
   "other": "Glass up to 5 l or cans up to 0.25 l; subregion, varietal or quality-term wines only in glass up to 0.75 l (or multiples). Traditional high training (ramadas, uveiras) recognised.",
   "src": [
    {
@@ -219,9 +219,9 @@
   "verified": "2026-10"
  },
  "pt-moncao-e-melgaco": {
-  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. The caderno ties this subregion exclusively to Alvarinho (white) and Pedral (red), sharing Alvarelhao with Baiao; 'Origem do Alvarinho' may be used only here.",
+  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. The caderno ties this subregion exclusively to Alvarinho (white) and Pedral (red), sharing Alvarelhão with Baião; 'Origem do Alvarinho' may be used only here.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -241,9 +241,9 @@
   "verified": "2026-10"
  },
  "pt-lima": {
-  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Whites mainly Loureiro, with Arinto and Trajadura; reds mainly Vinhao and Borracal; Padeiro added for Lima reds in 2024.",
+  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Whites mainly Loureiro, with Arinto and Trajadura; reds mainly Vinhão and Borraçal; Padeiro added for Lima reds in 2024.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -263,9 +263,9 @@
   "verified": "2026-10"
  },
  "pt-cavado": {
-  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Whites from Arinto, Loureiro and Trajadura; reds mostly blends of Vinhao and Borracal.",
+  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Whites from Arinto, Loureiro and Trajadura; reds mostly blends of Vinhão and Borraçal.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -287,7 +287,7 @@
  "pt-ave": {
   "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Mainly whites from Arinto, Loureiro and Trajadura.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -309,7 +309,7 @@
  "pt-basto": {
   "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. The most inland subregion; late-ripening Azal (white), Espadeiro and Rabo de Anho (red).",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -329,9 +329,9 @@
   "verified": "2026-10"
  },
  "pt-sousa": {
-  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Arinto, Loureiro, Trajadura plus Azal and Avesso; reds Borracal, Vinhao, Amaral, Espadeiro (often for rose).",
+  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Arinto, Loureiro, Trajadura plus Azal and Avesso; reds Borraçal, Vinhão, Amaral, Espadeiro (often for rosé).",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -351,9 +351,9 @@
   "verified": "2026-10"
  },
  "pt-amarante": {
-  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Late-ripening Azal and Avesso (white), Amaral and Espadeiro (red); Vinhao for reds.",
+  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Late-ripening Azal and Avesso (white), Amaral and Espadeiro (red); Vinhão for reds.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -373,9 +373,9 @@
   "verified": "2026-10"
  },
  "pt-baiao": {
-  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Late-ripening Azal and Avesso (white) and Amaral (red); shares Alvarelhao with Moncao e Melgaco.",
+  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Late-ripening Azal and Avesso (white) and Amaral (red); shares Alvarelhão with Monção e Melgaço.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -395,9 +395,9 @@
   "verified": "2026-10"
  },
  "pt-paiva": {
-  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Reds Amaral and especially Vinhao; whites Arinto, Loureiro, Trajadura with Avesso.",
+  "varieties": "Only the varieties listed for this subregion in Annex I of the Vinho Verde rules. Reds Amaral and especially Vinhão; whites Arinto, Loureiro, Trajadura with Avesso.",
   "max_yield": "Base 10,666 kg/ha; up to 13,500 kg/ha for Alvarinho or 15,000 kg/ha for other varieties when productivity and quality requirements are met; 7,500 kg/ha where the vineyard register is over 10 years old (2024 amendment). Must yield 75 l/100 kg (Alvarinho 65 l).",
-  "styles": "Vinho Verde white, rose, red and sparkling with the subregion name.",
+  "styles": "Vinho Verde white, rosé, red and sparkling with the subregion name.",
   "labelling": "Subregion name added to Vinho Verde; must at least 9% and wine at least 9% actual (Alvarinho 11.5%).",
   "other": "Subregion of the Vinho Verde DOP. Bottle limits as for Vinho Verde subregion wines (glass, up to 0.75 l).",
   "src": [
@@ -418,9 +418,9 @@
  },
  "pt-minho": {
   "varieties": "Varieties of the Vinho Verde region.",
-  "min_alcohol": "Actual 8.5% for white, red, rose; sparkling at least 10%.",
+  "min_alcohol": "Actual 8.5% for white, red, rosé; sparkling at least 10%.",
   "max_yield": "20,000 kg/ha; Alvarinho 10,666 kg/ha (13,500 kg/ha when productivity and quality requirements are met).",
-  "styles": "White, rose, red, liqueur, sparkling, semi-sparkling (frisante).",
+  "styles": "White, rosé, red, liqueur, sparkling, semi-sparkling (frisante).",
   "labelling": "Vinho Regional Minho; 'Escolha' with vintage may be 'Grande Escolha'. Labels approved by the certifying body.",
   "other": "Same area as Vinho Verde (Braga, Viana do Castelo and listed municipalities).",
   "src": [
@@ -432,61 +432,61 @@
   "verified": "2026-10"
  },
  "pt-tras-os-montes": {
-  "varieties": "Regional varieties incl. Bastardo, Aragonez, Trincadeira, Castelao, Cornifesto, Malvasia Preta, Marufo; whites Malvasia Fina, Viosinho, Siria, Rabigato, Boal Branco, Bical, Arinto, Samarrinho.",
-  "min_alcohol": "Actual: red 11.5%, white and rose 11%, sparkling 10%, liqueur 16.5%.",
+  "varieties": "Regional varieties incl. Bastardo, Aragonez, Trincadeira, Castelão, Cornifesto, Malvasia Preta, Marufo; whites Malvasia Fina, Viosinho, Síria, Rabigato, Boal Branco, Bical, Arinto, Samarrinho.",
+  "min_alcohol": "Actual: red 11.5%, white and rosé 11%, sparkling 10%, liqueur 16.5%.",
   "max_yield": "55 hl/ha for all types.",
   "ageing": "Sparkling: Reserva 12-24 months on lees in bottle before disgorgement, Super Reserva 24-36 months, Velha or Grande Reserva over 36 months.",
-  "styles": "White, red, rose, sparkling, liqueur. The regional commission also certifies grape brandies (at least 12 months in wood).",
-  "labelling": "Subregions Chaves, Valpacos, Planalto Mirandes.",
+  "styles": "White, red, rosé, sparkling, liqueur. The regional commission also certifies grape brandies (at least 12 months in wood).",
+  "labelling": "Subregions Chaves, Valpaços, Planalto Mirandês.",
   "other": "Vines at least 4 years after grafting.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Tras-os-Montes PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Trás-os-Montes PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006341"
    }
   ],
   "verified": "2026-10"
  },
  "pt-chaves": {
-  "min_alcohol": "Actual: red 11.5%, white and rose 11%, sparkling 10%, liqueur 16.5%.",
+  "min_alcohol": "Actual: red 11.5%, white and rosé 11%, sparkling 10%, liqueur 16.5%.",
   "max_yield": "55 hl/ha for all types.",
   "ageing": "Sparkling: Reserva 12-24 months on lees in bottle before disgorgement, Super Reserva 24-36 months, Velha or Grande Reserva over 36 months.",
-  "styles": "Tras-os-Montes DOC wines with the subregion name.",
-  "labelling": "Subregion Chaves of the Tras-os-Montes DOC; area defined by municipality and parish in the specification.",
-  "other": "Rules of the Tras-os-Montes DOC apply.",
+  "styles": "Trás-os-Montes DOC wines with the subregion name.",
+  "labelling": "Subregion Chaves of the Trás-os-Montes DOC; area defined by municipality and parish in the specification.",
+  "other": "Rules of the Trás-os-Montes DOC apply.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Tras-os-Montes PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Trás-os-Montes PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006341"
    }
   ],
   "verified": "2026-10"
  },
  "pt-valpacos": {
-  "min_alcohol": "Actual: red 11.5%, white and rose 11%, sparkling 10%, liqueur 16.5%.",
+  "min_alcohol": "Actual: red 11.5%, white and rosé 11%, sparkling 10%, liqueur 16.5%.",
   "max_yield": "55 hl/ha for all types.",
   "ageing": "Sparkling: Reserva 12-24 months on lees in bottle before disgorgement, Super Reserva 24-36 months, Velha or Grande Reserva over 36 months.",
-  "styles": "Tras-os-Montes DOC wines with the subregion name.",
-  "labelling": "Subregion Valpacos of the Tras-os-Montes DOC; area defined by municipality and parish in the specification.",
-  "other": "Rules of the Tras-os-Montes DOC apply.",
+  "styles": "Trás-os-Montes DOC wines with the subregion name.",
+  "labelling": "Subregion Valpaços of the Trás-os-Montes DOC; area defined by municipality and parish in the specification.",
+  "other": "Rules of the Trás-os-Montes DOC apply.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Tras-os-Montes PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Trás-os-Montes PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006341"
    }
   ],
   "verified": "2026-10"
  },
  "pt-planalto-mirandes": {
-  "min_alcohol": "Actual: red 11.5%, white and rose 11%, sparkling 10%, liqueur 16.5%.",
+  "min_alcohol": "Actual: red 11.5%, white and rosé 11%, sparkling 10%, liqueur 16.5%.",
   "max_yield": "55 hl/ha for all types.",
   "ageing": "Sparkling: Reserva 12-24 months on lees in bottle before disgorgement, Super Reserva 24-36 months, Velha or Grande Reserva over 36 months.",
-  "styles": "Tras-os-Montes DOC wines with the subregion name.",
-  "labelling": "Subregion Planalto Mirandes of the Tras-os-Montes DOC; area defined by municipality and parish in the specification.",
-  "other": "Rules of the Tras-os-Montes DOC apply.",
+  "styles": "Trás-os-Montes DOC wines with the subregion name.",
+  "labelling": "Subregion Planalto Mirandês of the Trás-os-Montes DOC; area defined by municipality and parish in the specification.",
+  "other": "Rules of the Trás-os-Montes DOC apply.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Tras-os-Montes PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Trás-os-Montes PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006341"
    }
   ],
@@ -495,9 +495,9 @@
  "pt-transmontano": {
   "min_alcohol": "Actual 10%.",
   "max_yield": "75 hl/ha.",
-  "styles": "White, red, rose.",
+  "styles": "White, red, rosé.",
   "labelling": "Vinho Regional Transmontano; Reserva, Escolha, Colheita Selecionada allowed.",
-  "other": "Parts of Braganca and Vila Real districts.",
+  "other": "Parts of Bragança and Vila Real districts.",
   "src": [
    {
     "title": "eAmbrosia EU register: Transmontano PGI (single document, specification)",
@@ -507,176 +507,176 @@
   "verified": "2026-10"
  },
  "pt-dao": {
-  "varieties": "Reds Touriga Nacional, Alfrocheiro, Jaen, Tinta Roriz (Aragonez), Tinto Cao, Rufete, Alvarelhao, Baga, Trincadeira and others; whites Encruzado, Malvasia Fina, Bical, Cerceal Branco, Uva Cao, Terrantez, Arinto and others (Annex II of Portaria 246/2014).",
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "ageing": "Reds at least 8 months; whites and roses no minimum; Clarete no minimum. Sparkling: traditional method, at least 9 months in bottle.",
-  "styles": "White, red, rose, Clarete, Palhete, Novo, late harvest, quality sparkling.",
+  "varieties": "Reds Touriga Nacional, Alfrocheiro, Jaen, Tinta Roriz (Aragonez), Tinto Cão, Rufete, Alvarelhão, Baga, Trincadeira and others; whites Encruzado, Malvasia Fina, Bical, Cerceal Branco, Uva Cão, Terrantez, Arinto and others (Annex II of Portaria 246/2014).",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "ageing": "Reds at least 8 months; whites and rosés no minimum; Clarete no minimum. Sparkling: traditional method, at least 9 months in bottle.",
+  "styles": "White, red, rosé, Clarete, Palhete, Novo, late harvest, quality sparkling.",
   "labelling": "'Nobre' for registered vintage wines meeting the certifier's ageing rules. Seven subregions: Alva, Besteiros, Castendo, Serra da Estrela, Silgueiros, Terras de Azurara, Terras de Senhorim.",
-  "other": "Single-variety vineyards (vinhas estremes), at least 3,000 vines/ha; winemaking inside the region; municipality names banned on non-Dao wines.",
+  "other": "Single-variety vineyards (vinhas estremes), at least 3,000 vines/ha; winemaking inside the region; municipality names banned on non-Dão wines.",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-alva": {
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "styles": "Dao DOC wines with the subregion name.",
-  "labelling": "Subregion name may complement 'Dao' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
-  "other": "Subregion of the Dao DOC: Arganil, Oliveira do Hospital and Tabua.",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "styles": "Dão DOC wines with the subregion name.",
+  "labelling": "Subregion name may complement 'Dão' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
+  "other": "Subregion of the Dão DOC: Arganil, Oliveira do Hospital and Tábua.",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-besteiros": {
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "styles": "Dao DOC wines with the subregion name.",
-  "labelling": "Subregion name may complement 'Dao' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
-  "other": "Subregion of the Dao DOC: Mortagua, Santa Comba Dao and parishes of Tondela.",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "styles": "Dão DOC wines with the subregion name.",
+  "labelling": "Subregion name may complement 'Dão' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
+  "other": "Subregion of the Dão DOC: Mortágua, Santa Comba Dão and parishes of Tondela.",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-castendo": {
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "styles": "Dao DOC wines with the subregion name.",
-  "labelling": "Subregion name may complement 'Dao' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
-  "other": "Subregion of the Dao DOC: Penalva do Castelo and two parishes of Satao.",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "styles": "Dão DOC wines with the subregion name.",
+  "labelling": "Subregion name may complement 'Dão' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
+  "other": "Subregion of the Dão DOC: Penalva do Castelo and two parishes of Sátão.",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-serra-da-estrela": {
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "styles": "Dao DOC wines with the subregion name.",
-  "labelling": "Subregion name may complement 'Dao' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
-  "other": "Subregion of the Dao DOC: Parishes of Gouveia and Seia.",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "styles": "Dão DOC wines with the subregion name.",
+  "labelling": "Subregion name may complement 'Dão' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
+  "other": "Subregion of the Dão DOC: Parishes of Gouveia and Seia.",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-silgueiros": {
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "styles": "Dao DOC wines with the subregion name.",
-  "labelling": "Subregion name may complement 'Dao' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
-  "other": "Subregion of the Dao DOC: Five parishes of Viseu (Fragosela, Povolide, Sao Joao de Lourosa, Santos Evos, Silgueiros).",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "styles": "Dão DOC wines with the subregion name.",
+  "labelling": "Subregion name may complement 'Dão' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
+  "other": "Subregion of the Dão DOC: Five parishes of Viseu (Fragosela, Povolide, São João de Lourosa, Santos Evos, Silgueiros).",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-terras-de-azurara": {
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "styles": "Dao DOC wines with the subregion name.",
-  "labelling": "Subregion name may complement 'Dao' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
-  "other": "Subregion of the Dao DOC: The municipality of Mangualde.",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "styles": "Dão DOC wines with the subregion name.",
+  "labelling": "Subregion name may complement 'Dão' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
+  "other": "Subregion of the Dão DOC: The municipality of Mangualde.",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-terras-de-senhorim": {
-  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rose, 12% white; Novo 10.5%; sparkling base 10.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
-  "styles": "Dao DOC wines with the subregion name.",
-  "labelling": "Subregion name may complement 'Dao' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
-  "other": "Subregion of the Dao DOC: Carregal do Sal and Nelas.",
+  "min_alcohol": "Actual 11% (all colours and sparkling). Must at least 11%; Nobre 13% red and rosé, 12% white; Novo 10.5%; sparkling base 10.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white and sparkling 100 hl/ha (adjustable up to 25%).",
+  "styles": "Dão DOC wines with the subregion name.",
+  "labelling": "Subregion name may complement 'Dão' only when grapes are grown and vinified exclusively in the subregion (Portaria 246/2014, art. 2-4).",
+  "other": "Subregion of the Dão DOC: Carregal do Sal and Nelas.",
   "src": [
    {
-    "title": "Portaria 246/2014: production and trade regime of the Dao DO (text via O Informador)",
+    "title": "Portaria 246/2014: production and trade regime of the Dão DO (text via O Informador)",
     "url": "https://informador.pt/legislacao/diploma/portaria-n-o-246-2014/"
    },
    {
-    "title": "eAmbrosia EU register: Dao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Dão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000003963"
    }
   ],
   "verified": "2026-10"
  },
  "pt-terras-do-dao": {
-  "min_alcohol": "Actual 10% (white, rose, red, sparkling); Terras de Lafoes wines 9.5%.",
+  "min_alcohol": "Actual 10% (white, rosé, red, sparkling); Terras de Lafões wines 9.5%.",
   "max_yield": "Red grapes 18,000 kg/ha; white grapes 20,000 kg/ha.",
-  "styles": "White, rose, red; traditional-method sparkling.",
-  "labelling": "Additional indication 'Terras de Lafoes' for wines from that subregion.",
-  "other": "PGI registered in October 2023 (Reg. 2023/2182); area includes the Dao municipalities and the Lafoes sub-region among others.",
+  "styles": "White, rosé, red; traditional-method sparkling.",
+  "labelling": "Additional indication 'Terras de Lafões' for wines from that subregion.",
+  "other": "PGI registered in October 2023 (Reg. 2023/2182); area includes the Dão municipalities and the Lafões sub-region among others.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Terras do Dao PGI (single document, specification)",
+    "title": "eAmbrosia EU register: Terras do Dão PGI (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000015119"
    },
    {
-    "title": "Official Journal C 109, 24.3.2023: Terras do Dao PGI single document",
+    "title": "Official Journal C 109, 24.3.2023: Terras do Dão PGI single document",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2023.109.01.0073.01.ENG"
    }
   ],
   "verified": "2026-10"
  },
  "pt-beira-interior": {
-  "varieties": "Selecao wines from Aragonez, Arinto, Bastardo, Bical, Malvasia Fina, Rufete, Siria, Tamarez, Touriga Nacional, Trincadeira.",
-  "min_alcohol": "Actual: white and rose 11%, red 12%, liqueur 15% (2023 single document); Selecao white 12%, red 13%.",
+  "varieties": "Seleção wines from Aragonez, Arinto, Bastardo, Bical, Malvasia Fina, Rufete, Síria, Tamarez, Touriga Nacional, Trincadeira.",
+  "min_alcohol": "Actual: white and rosé 11%, red 12%, liqueur 15% (2023 single document); Seleção white 12%, red 13%.",
   "max_yield": "55 hl/ha for wine, sparkling and liqueur.",
-  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Selecao: white at least 6 months, red 12 months.",
-  "styles": "White, rose, red (the 2014 file also defines Palhete with at most 15% white grapes and Clarete up to 45%), liqueur wine, quality sparkling.",
-  "labelling": "Subregions Castelo Rodrigo, Pinhel, Cova da Beira. 'Selecao' regulated.",
+  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Seleção: white at least 6 months, red 12 months.",
+  "styles": "White, rosé, red (the 2014 file also defines Palhete with at most 15% white grapes and Clarete up to 45%), liqueur wine, quality sparkling.",
+  "labelling": "Subregions Castelo Rodrigo, Pinhel, Cova da Beira. 'Seleção' regulated.",
   "other": "Wineries within 10 km of the boundary may vinify Beira Interior grapes with permission. Low-trained gobelet or Royat cordon vines.",
   "src": [
    {
@@ -691,9 +691,9 @@
   "verified": "2026-10"
  },
  "pt-castelo-rodrigo": {
-  "min_alcohol": "Actual: white and rose 11%, red 12%, liqueur 15% (2023 single document); Selecao white 12%, red 13%.",
+  "min_alcohol": "Actual: white and rosé 11%, red 12%, liqueur 15% (2023 single document); Seleção white 12%, red 13%.",
   "max_yield": "55 hl/ha for wine, sparkling and liqueur.",
-  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Selecao: white at least 6 months, red 12 months.",
+  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Seleção: white at least 6 months, red 12 months.",
   "styles": "Beira Interior DOC wines.",
   "labelling": "Castelo Rodrigo is one of the three subregions of the Beira Interior DOC.",
   "other": "Rules of the Beira Interior DOC apply.",
@@ -706,9 +706,9 @@
   "verified": "2026-10"
  },
  "pt-pinhel": {
-  "min_alcohol": "Actual: white and rose 11%, red 12%, liqueur 15% (2023 single document); Selecao white 12%, red 13%.",
+  "min_alcohol": "Actual: white and rosé 11%, red 12%, liqueur 15% (2023 single document); Seleção white 12%, red 13%.",
   "max_yield": "55 hl/ha for wine, sparkling and liqueur.",
-  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Selecao: white at least 6 months, red 12 months.",
+  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Seleção: white at least 6 months, red 12 months.",
   "styles": "Beira Interior DOC wines.",
   "labelling": "Pinhel is one of the three subregions of the Beira Interior DOC.",
   "other": "Rules of the Beira Interior DOC apply.",
@@ -721,9 +721,9 @@
   "verified": "2026-10"
  },
  "pt-cova-da-beira": {
-  "min_alcohol": "Actual: white and rose 11%, red 12%, liqueur 15% (2023 single document); Selecao white 12%, red 13%.",
+  "min_alcohol": "Actual: white and rosé 11%, red 12%, liqueur 15% (2023 single document); Seleção white 12%, red 13%.",
   "max_yield": "55 hl/ha for wine, sparkling and liqueur.",
-  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Selecao: white at least 6 months, red 12 months.",
+  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises after bottling. Seleção: white at least 6 months, red 12 months.",
   "styles": "Beira Interior DOC wines.",
   "labelling": "Cova da Beira is one of the three subregions of the Beira Interior DOC.",
   "other": "Rules of the Beira Interior DOC apply.",
@@ -737,8 +737,8 @@
  },
  "pt-terras-da-beira": {
   "min_alcohol": "Actual at least 9% for still wines; must 9%.",
-  "max_yield": "White and rose, sparkling and semi-sparkling 90 hl/ha; red 85 hl/ha.",
-  "styles": "White, rose, red; sparkling and semi-sparkling.",
+  "max_yield": "White and rosé, sparkling and semi-sparkling 90 hl/ha; red 85 hl/ha.",
+  "styles": "White, rosé, red; sparkling and semi-sparkling.",
   "other": "PGI registered October 2023 (Reg. 2023/2148): Castelo Branco district and listed Guarda municipalities. Wineries adjacent to the area may vinify its grapes.",
   "src": [
    {
@@ -755,7 +755,7 @@
  "pt-terras-de-cister": {
   "min_alcohol": "Actual 10%; must at least 9%.",
   "max_yield": "120 hl/ha.",
-  "styles": "White, rose, red.",
+  "styles": "White, rosé, red.",
   "other": "PGI registered October 2023 (Reg. 2023/2173), municipalities or parts of them in the Viseu district (e.g. Armamar). Wineries within 15 km may vinify its grapes with permission.",
   "src": [
    {
@@ -770,26 +770,26 @@
   "verified": "2026-10"
  },
  "pt-tavora-varosa": {
-  "min_alcohol": "Actual: red 11.5%, white and rose 11%, sparkling 11%.",
-  "max_yield": "White and rose wine and sparkling 90 hl/ha; red 80 hl/ha.",
+  "min_alcohol": "Actual: red 11.5%, white and rosé 11%, sparkling 11%.",
+  "max_yield": "White and rosé wine and sparkling 90 hl/ha; red 80 hl/ha.",
   "ageing": "Sparkling: second fermentation in bottle, at least 9 months from bottling.",
-  "styles": "Quality sparkling, white, rose, red.",
+  "styles": "Quality sparkling, white, rosé, red.",
   "other": "Vines at least 4 years after grafting, single-variety, low-trained.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Tavora-Varosa PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Távora-Varosa PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000006445"
    }
   ],
   "verified": "2026-10"
  },
  "pt-bairrada": {
-  "varieties": "Baga, Touriga Nacional, Alfrocheiro, Jaen, Castelao, Camarate and others; whites Arinto, Bical, Cercial, Fernao Pires (Maria Gomes), Rabo de Ovelha and others. Classico only from Arinto, Bical, Cercial, Fernao Pires, Rabo de Ovelha, Alfrocheiro, Baga, Camarate, Castelao, Jaen, Touriga Nacional.",
-  "min_alcohol": "Actual 11% (wine and sparkling); Classico white 12%, red 12.5%. Must 11% (sparkling 9.5%, liqueur 12%).",
-  "max_yield": "White and rose 100 hl/ha; red 80 hl/ha; quality sparkling 120 hl/ha; liqueur 100 hl/ha; Classico 55 hl/ha.",
-  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises. Classico red at least 30 months incl. 12 in bottle; white 12 months incl. 6 in bottle.",
-  "styles": "White, red, rose; quality sparkling (white, rose, red); liqueur wine.",
-  "labelling": "'Classico' regulated.",
+  "varieties": "Baga, Touriga Nacional, Alfrocheiro, Jaen, Castelão, Camarate and others; whites Arinto, Bical, Cercial, Fernão Pires (Maria Gomes), Rabo de Ovelha and others. Clássico only from Arinto, Bical, Cercial, Fernão Pires, Rabo de Ovelha, Alfrocheiro, Baga, Camarate, Castelão, Jaen, Touriga Nacional.",
+  "min_alcohol": "Actual 11% (wine and sparkling); Clássico white 12%, red 12.5%. Must 11% (sparkling 9.5%, liqueur 12%).",
+  "max_yield": "White and rosé 100 hl/ha; red 80 hl/ha; quality sparkling 120 hl/ha; liqueur 100 hl/ha; Clássico 55 hl/ha.",
+  "ageing": "Sparkling: traditional method, at least 9 months on the bottler's premises. Clássico red at least 30 months incl. 12 in bottle; white 12 months incl. 6 in bottle.",
+  "styles": "White, red, rosé; quality sparkling (white, rosé, red); liqueur wine.",
+  "labelling": "'Clássico' regulated.",
   "other": "Density over 3,000 vines/ha on clay-limestone, schist or sandy podzol soils.",
   "src": [
    {
@@ -804,18 +804,18 @@
   "verified": "2026-10"
  },
  "pt-beira-atlantico": {
-  "min_alcohol": "Actual: white and rose 9%, red 10%; musts 9% (red 10%).",
-  "max_yield": "White and rose 100 hl/ha; red 80 hl/ha; sparkling, quality sparkling, aromatic, semi-sparkling 120 hl/ha.",
-  "styles": "White, rose, red; sparkling, quality sparkling, quality aromatic sparkling, semi-sparkling and aerated semi-sparkling.",
-  "labelling": "'Terras de Sico' for wines from that sub-region.",
-  "other": "PGI registered February 2024 (Reg. 2024/698): Aveiro and Coimbra districts outside Vinho Verde and Dao, plus parts of Leiria.",
+  "min_alcohol": "Actual: white and rosé 9%, red 10%; musts 9% (red 10%).",
+  "max_yield": "White and rosé 100 hl/ha; red 80 hl/ha; sparkling, quality sparkling, aromatic, semi-sparkling 120 hl/ha.",
+  "styles": "White, rosé, red; sparkling, quality sparkling, quality aromatic sparkling, semi-sparkling and aerated semi-sparkling.",
+  "labelling": "'Terras de Sicó' for wines from that sub-region.",
+  "other": "PGI registered February 2024 (Reg. 2024/698): Aveiro and Coimbra districts outside Vinho Verde and Dão, plus parts of Leiria.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Beira Atlantico PGI (single document, specification)",
+    "title": "eAmbrosia EU register: Beira Atlântico PGI (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000015118"
    },
    {
-    "title": "Commission Implementing Regulation (EU) 2024/698 registering Beira Atlantico PGI",
+    "title": "Commission Implementing Regulation (EU) 2024/698 registering Beira Atlântico PGI",
     "url": "http://data.europa.eu/eli/reg_impl/2024/698/oj"
    }
   ],
@@ -825,10 +825,10 @@
   "min_alcohol": "Actual 9.5%; must 9%.",
   "max_yield": "Red 60 hl/ha; white 65 hl/ha.",
   "styles": "White, red.",
-  "other": "Oliveira de Frades, Sao Pedro do Sul and Vouzela. Vines at least 4 years after grafting.",
+  "other": "Oliveira de Frades, São Pedro do Sul and Vouzela. Vines at least 4 years after grafting.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Lafoes PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Lafões PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005261"
    }
   ],
@@ -837,7 +837,7 @@
  "pt-lisboa": {
   "min_alcohol": "Actual 11% for wines and sparkling; Leve at most 10%; liqueur 15-22% actual (total at least 17.5%).",
   "max_yield": "200 hl/ha for all wines incl. liqueur and sparkling (CVR Lisboa specification).",
-  "styles": "White, red, rose, Leve, liqueur, sparkling (classic method).",
+  "styles": "White, red, rosé, Leve, liqueur, sparkling (classic method).",
   "labelling": "Vinho Regional Lisboa; subregions Estremadura and Alta Estremadura.",
   "src": [
    {
@@ -866,7 +866,7 @@
   "max_yield": "Red 80 hl/ha; white 90 hl/ha.",
   "ageing": "Reds bottled after 14 months; whites after 3 months.",
   "styles": "White, red.",
-  "other": "Arruda dos Vinhos and parts of Sobral de Monte Agraco and Vila Franca de Xira.",
+  "other": "Arruda dos Vinhos and parts of Sobral de Monte Agraço and Vila Franca de Xira.",
   "src": [
    {
     "title": "eAmbrosia EU register: Arruda PDO (single document, specification)",
@@ -890,14 +890,14 @@
   "verified": "2026-10"
  },
  "pt-obidos": {
-  "min_alcohol": "Actual: red 12%, white and rose 11%, sparkling 11%.",
-  "max_yield": "Red 70 hl/ha; white, rose and sparkling 90 hl/ha.",
+  "min_alcohol": "Actual: red 12%, white and rosé 11%, sparkling 11%.",
+  "max_yield": "Red 70 hl/ha; white, rosé and sparkling 90 hl/ha.",
   "ageing": "Sparkling by classic bottle fermentation.",
-  "styles": "White, rose, red, quality sparkling.",
-  "other": "Parts of Bombarral, Cadaval, Caldas da Rainha and Obidos.",
+  "styles": "White, rosé, red, quality sparkling.",
+  "other": "Parts of Bombarral, Cadaval, Caldas da Rainha and Óbidos.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Obidos PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Óbidos PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005560"
    }
   ],
@@ -909,7 +909,7 @@
   "max_yield": "70 hl/ha.",
   "ageing": "Sparkling by classic bottle fermentation.",
   "styles": "White, quality sparkling.",
-  "other": "Bucelas and parts of Fanhoes and Santo Antao do Tojal (Loures).",
+  "other": "Bucelas and parts of Fanhões and Santo Antão do Tojal (Loures).",
   "src": [
    {
     "title": "eAmbrosia EU register: Bucelas PDO (single document, specification)",
@@ -919,12 +919,12 @@
   "verified": "2026-10"
  },
  "pt-colares": {
-  "varieties": "Listed varieties incl. Malvasia, Arinto, Vital, Galego Dourado, Jampal, Fernao Pires; reds Castelao, Parreira Matias, Tinta Miuda, Molar.",
+  "varieties": "Listed varieties incl. Malvasia, Arinto, Vital, Galego Dourado, Jampal, Fernão Pires; reds Castelão, Parreira Matias, Tinta Miúda, Molar.",
   "min_alcohol": "Actual 10%; must 9.5%.",
   "max_yield": "Red 55 hl/ha; white 70 hl/ha.",
   "ageing": "Red at least 18 months in cask then 6 in bottle; white 6 months in cask then 3 in bottle.",
   "styles": "White, red.",
-  "other": "Parishes of Colares, Sao Martinho and Sao Joao das Lampas (Sintra).",
+  "other": "Parishes of Colares, São Martinho and São João das Lampas (Sintra).",
   "src": [
    {
     "title": "eAmbrosia EU register: Colares PDO (single document, specification)",
@@ -934,7 +934,7 @@
   "verified": "2026-10"
  },
  "pt-carcavelos": {
-  "varieties": "Galego Dourado, Ratinho, Arinto, Boal Branco, Malvasia Fina, Seara Nova, Rabo de Ovelha; reds Castelao, Trincadeira, Amostrinha, Negra Mole, Preto Martinho (at least 75% from the main list).",
+  "varieties": "Galego Dourado, Ratinho, Arinto, Boal Branco, Malvasia Fina, Seara Nova, Rabo de Ovelha; reds Castelão, Trincadeira, Amostrinha, Negra Mole, Preto Martinho (at least 75% from the main list).",
   "min_alcohol": "Actual 15-22% (total at least 17.5%); must 11%.",
   "max_yield": "55 hl/ha.",
   "ageing": "At least 2 years in wood and 6 months in bottle.",
@@ -949,12 +949,12 @@
   "verified": "2026-10"
  },
  "pt-encostas-d-aire": {
-  "min_alcohol": "Actual: red 11.5%, white and rose 11%, Medieval de Ourem 11.5%.",
-  "max_yield": "Red and rose 70 hl/ha; white 80 hl/ha; Medieval de Ourem 40 hl/ha.",
-  "ageing": "Medieval de Ourem: about 80% white must fermented with 20% unpressed red must in wooden vessels under 3,000 l; total extraction at most 67%.",
-  "styles": "White, rose, red, Medieval de Ourem.",
-  "labelling": "Subregion Alcobaca (made inside the subregion); designation Medieval de Ourem.",
-  "other": "Batalha, Porto de Mos, Ourem and parts of Alcobaca, Caldas da Rainha, Leiria and others.",
+  "min_alcohol": "Actual: red 11.5%, white and rosé 11%, Medieval de Ourém 11.5%.",
+  "max_yield": "Red and rosé 70 hl/ha; white 80 hl/ha; Medieval de Ourém 40 hl/ha.",
+  "ageing": "Medieval de Ourém: about 80% white must fermented with 20% unpressed red must in wooden vessels under 3,000 l; total extraction at most 67%.",
+  "styles": "White, rosé, red, Medieval de Ourém.",
+  "labelling": "Subregion Alcobaça (made inside the subregion); designation Medieval de Ourém.",
+  "other": "Batalha, Porto de Mós, Ourém and parts of Alcobaça, Caldas da Rainha, Leiria and others.",
   "src": [
    {
     "title": "eAmbrosia EU register: Encostas d'Aire PDO (single document, specification)",
@@ -964,23 +964,23 @@
   "verified": "2026-10"
  },
  "pt-lourinha": {
-  "varieties": "Whites Alicante Branco, Alvadurao, Boal Espinho, Marquinhas, Malvasia Rei, Talia, Cercial, Fernao Pires, Rabo de Ovelha, Siria, Seara Nova, Vital; reds Cabinda, Carignan, Periquita, Tinta Miuda (reds vinified off skins).",
+  "varieties": "Whites Alicante Branco, Alvadurão, Boal Espinho, Marquinhas, Malvasia Rei, Tália, Cercial, Fernão Pires, Rabo de Ovelha, Síria, Seara Nova, Vital; reds Cabinda, Carignan, Periquita, Tinta Miúda (reds vinified off skins).",
   "min_alcohol": "Brandy at least 38%; distillate at most 78% (column) or 72% (pot) before ageing.",
   "ageing": "Aged in the region in oak casks up to 800 l; sold only after 24 months.",
-  "styles": "Aguardente de Vinho Lourinha (grape brandy), a spirit-drink GI.",
-  "other": "Wines for distillation made without sulphur dioxide and distilled inside the region (Lourinha, Peniche and neighbouring parishes).",
+  "styles": "Aguardente de Vinho Lourinhã (grape brandy), a spirit-drink GI.",
+  "other": "Wines for distillation made without sulphur dioxide and distilled inside the region (Lourinhã, Peniche and neighbouring parishes).",
   "src": [
    {
-    "title": "eAmbrosia EU register: Aguardente de Vinho Lourinha spirit GI (single document, specification)",
+    "title": "eAmbrosia EU register: Aguardente de Vinho Lourinhã spirit GI (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000015408"
    }
   ],
   "verified": "2026-10"
  },
  "pt-tejo": {
-  "min_alcohol": "Actual 11% (white, red, rose); Leve 9-10.5%.",
+  "min_alcohol": "Actual 11% (white, red, rosé); Leve 9-10.5%.",
   "max_yield": "225 hl/ha for all types.",
-  "styles": "White, red, rose, Leve, frisante.",
+  "styles": "White, red, rosé, Leve, frisante.",
   "labelling": "Vinho Regional Tejo.",
   "src": [
    {
@@ -991,11 +991,11 @@
   "verified": "2026-10"
  },
  "pt-dotejo": {
-  "min_alcohol": "Actual: red and rose 11.5%, white 11%, sparkling 10.5%, liqueur 17.5%.",
-  "max_yield": "Red and rose 80 hl/ha; white 90 hl/ha.",
+  "min_alcohol": "Actual: red and rosé 11.5%, white 11%, sparkling 10.5%, liqueur 17.5%.",
+  "max_yield": "Red and rosé 80 hl/ha; white 90 hl/ha.",
   "ageing": "Sparkling by classic bottle fermentation or tank method (tank method needs at least 9 months).",
-  "styles": "White, red, rose, sparkling, liqueur.",
-  "labelling": "Subregions Almeirim, Cartaxo, Chamusca, Coruche, Santarem, Tomar.",
+  "styles": "White, red, rosé, sparkling, liqueur.",
+  "labelling": "Subregions Almeirim, Cartaxo, Chamusca, Coruche, Santarém, Tomar.",
   "other": "Vines at least 3 years after grafting.",
   "src": [
    {
@@ -1006,24 +1006,24 @@
   "verified": "2026-10"
  },
  "pt-peninsula-de-setubal": {
-  "min_alcohol": "Actual: white 9.5%, red 10.5%, rose 10%, frisante 9.5%, sparkling 9.5%, liqueur 16%.",
+  "min_alcohol": "Actual: white 9.5%, red 10.5%, rosé 10%, frisante 9.5%, sparkling 9.5%, liqueur 16%.",
   "max_yield": "30 t/ha of grapes.",
-  "styles": "White, red, rose, frisante, sparkling, liqueur.",
-  "other": "Whole Setubal district.",
+  "styles": "White, red, rosé, frisante, sparkling, liqueur.",
+  "other": "Whole Setúbal district.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Peninsula de Setubal PGI (single document, specification)",
+    "title": "eAmbrosia EU register: Península de Setúbal PGI (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005402"
    }
   ],
   "verified": "2026-10"
  },
  "pt-palmela": {
-  "varieties": "Reds at least 66.7% Castelao; others include Alicante Bouschet, Aragonez, Syrah, Cabernet Sauvignon; whites Fernao Pires, Arinto, Moscatel and others.",
-  "min_alcohol": "Actual: white 10.5%, red 11.5%, rose 10%, frisante 10%, sparkling 10%, liqueur 16% (16-22%).",
+  "varieties": "Reds at least 66.7% Castelão; others include Alicante Bouschet, Aragonez, Syrah, Cabernet Sauvignon; whites Fernão Pires, Arinto, Moscatel and others.",
+  "min_alcohol": "Actual: white 10.5%, red 11.5%, rosé 10%, frisante 10%, sparkling 10%, liqueur 16% (16-22%).",
   "max_yield": "120 hl/ha.",
-  "styles": "White, red, rose, frisante, sparkling, liqueur.",
-  "other": "Montijo, Palmela, Setubal and Castelo parish of Sesimbra.",
+  "styles": "White, red, rosé, frisante, sparkling, liqueur.",
+  "other": "Montijo, Palmela, Setúbal and Castelo parish of Sesimbra.",
   "src": [
    {
     "title": "eAmbrosia EU register: Palmela PDO (single document, specification)",
@@ -1033,26 +1033,26 @@
   "verified": "2026-10"
  },
  "pt-setubal": {
-  "varieties": "White at least 67% Moscatel de Setubal; red at least 67% Moscatel Roxo. 'Moscatel de Setubal' or 'Moscatel Roxo' labels need 85%.",
+  "varieties": "White at least 67% Moscatel de Setúbal; red at least 67% Moscatel Roxo. 'Moscatel de Setúbal' or 'Moscatel Roxo' labels need 85%.",
   "min_alcohol": "Must at least 10%; fortified with grape spirit (52-86%) or wine alcohol (96%).",
   "max_yield": "80 hl/ha.",
   "ageing": "At least 18 months before certification; Superior at least 5 years with a second certification.",
   "styles": "Fortified Moscatel (white and Roxo), with skin maceration.",
-  "other": "Montijo, Palmela, Setubal, Castelo parish of Sesimbra.",
+  "other": "Montijo, Palmela, Setúbal, Castelo parish of Sesimbra.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Setubal PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Setúbal PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005241"
    }
   ],
   "verified": "2026-10"
  },
  "pt-alentejo": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
-  "styles": "White, red, rose, quality sparkling (classic method), liqueur.",
-  "labelling": "Eight subregions: Borba, Evora, Granja-Amareleja, Moura, Portalegre, Redondo, Reguengos, Vidigueira. Traditional terms Reserva, Garrafeira, Escolha, Colheita Selecionada and others.",
+  "styles": "White, red, rosé, quality sparkling (classic method), liqueur.",
+  "labelling": "Eight subregions: Borba, Évora, Granja-Amareleja, Moura, Portalegre, Redondo, Reguengos, Vidigueira. Traditional terms Reserva, Garrafeira, Escolha, Colheita Selecionada and others.",
   "other": "Bulk or pre-packed subregion wines lose the subregion name if moved out of the subregion.",
   "src": [
    {
@@ -1063,8 +1063,8 @@
   "verified": "2026-10"
  },
  "pt-portalegre": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
   "labelling": "Subregion Portalegre of the Alentejo DOC (Portaria 296/2010).",
@@ -1078,8 +1078,8 @@
   "verified": "2026-10"
  },
  "pt-borba": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
   "labelling": "Subregion Borba of the Alentejo DOC (Portaria 296/2010).",
@@ -1093,8 +1093,8 @@
   "verified": "2026-10"
  },
  "pt-redondo": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
   "labelling": "Subregion Redondo of the Alentejo DOC (Portaria 296/2010).",
@@ -1108,8 +1108,8 @@
   "verified": "2026-10"
  },
  "pt-reguengos": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
   "labelling": "Subregion Reguengos of the Alentejo DOC (Portaria 296/2010).",
@@ -1123,8 +1123,8 @@
   "verified": "2026-10"
  },
  "pt-vidigueira": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
   "labelling": "Subregion Vidigueira of the Alentejo DOC (Portaria 296/2010).",
@@ -1138,11 +1138,11 @@
   "verified": "2026-10"
  },
  "pt-evora": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
-  "labelling": "Subregion Evora of the Alentejo DOC (Portaria 296/2010).",
+  "labelling": "Subregion Évora of the Alentejo DOC (Portaria 296/2010).",
   "other": "Wines moved in bulk out of the subregion lose the subregion name.",
   "src": [
    {
@@ -1153,8 +1153,8 @@
   "verified": "2026-10"
  },
  "pt-granja-amareleja": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
   "labelling": "Subregion Granja-Amareleja of the Alentejo DOC (Portaria 296/2010).",
@@ -1168,8 +1168,8 @@
   "verified": "2026-10"
  },
  "pt-moura": {
-  "varieties": "At least 75% from the main list (Antao Vaz, Arinto, Fernao Pires, Manteudo, Perrum, Rabo de Ovelha, Siria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelao, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
-  "min_alcohol": "Actual: red and rose 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
+  "varieties": "At least 75% from the main list (Antão Vaz, Arinto, Fernão Pires, Manteúdo, Perrum, Rabo de Ovelha, Síria/Roupeiro, Tamarez, Trincadeira das Pratas; reds Alfrocheiro, Alicante Bouschet, Aragonez, Cabernet Sauvignon, Castelão, Syrah, Touriga Nacional, Trincadeira); up to 25% from a second list.",
+  "min_alcohol": "Actual: red and rosé 12%, white 11.5%, sparkling 11%, liqueur 17.5%. Musts: red 12%, white 11.5%, sparkling 9.5%, liqueur 12%.",
   "max_yield": "Red 8,500 kg/ha or 65 hl/ha; white 10,000 kg/ha or 75 hl/ha.",
   "styles": "Alentejo DOC wines with the subregion name.",
   "labelling": "Subregion Moura of the Alentejo DOC (Portaria 296/2010).",
@@ -1183,11 +1183,11 @@
   "verified": "2026-10"
  },
  "pt-alentejano": {
-  "min_alcohol": "Actual 11% (white, red, rose, sparkling); liqueur 17.5%.",
+  "min_alcohol": "Actual 11% (white, red, rosé, sparkling); liqueur 17.5%.",
   "max_yield": "15,000 kg/ha for white and red grapes.",
-  "styles": "White, red, rose, sparkling (classic method), liqueur.",
+  "styles": "White, red, rosé, sparkling (classic method), liqueur.",
   "labelling": "Vinho Regional Alentejano.",
-  "other": "All municipalities of the Beja, Evora and Portalegre districts.",
+  "other": "All municipalities of the Beja, Évora and Portalegre districts.",
   "src": [
    {
     "title": "eAmbrosia EU register: Alentejano PGI (single document, specification)",
@@ -1197,10 +1197,10 @@
   "verified": "2026-10"
  },
  "pt-algarve": {
-  "varieties": "Liqueur white at least 85% Siria (Roupeiro) or 75% Moscatel Graudo.",
-  "min_alcohol": "Actual: red 11.5%, white and rose 11%, liqueur red 19%, liqueur white 15.5%.",
+  "varieties": "Liqueur white at least 85% Síria (Roupeiro) or 75% Moscatel Graúdo.",
+  "min_alcohol": "Actual: red 11.5%, white and rosé 11%, liqueur red 19%, liqueur white 15.5%.",
   "max_yield": "90 hl/ha.",
-  "styles": "White, red, rose, liqueur.",
+  "styles": "White, red, rosé, liqueur.",
   "labelling": "Vinho Regional Algarve.",
   "other": "Whole Faro district.",
   "src": [
@@ -1212,11 +1212,11 @@
   "verified": "2026-10"
  },
  "pt-lagoa": {
-  "varieties": "Main varieties (e.g. Arinto and Siria for whites) must make up at least 70% of the vineyard.",
+  "varieties": "Main varieties (e.g. Arinto and Síria for whites) must make up at least 70% of the vineyard.",
   "min_alcohol": "Actual: red 12%, white 11.5%.",
   "max_yield": "60 hl/ha (red and white).",
   "styles": "White, red.",
-  "other": "Vines at least 4 years after grafting. Area: Albufeira, Lagoa and parts of Loule and Silves.",
+  "other": "Vines at least 4 years after grafting. Area: Albufeira, Lagoa and parts of Loulé and Silves.",
   "src": [
    {
     "title": "eAmbrosia EU register: Lagoa PDO (single document, specification)",
@@ -1226,7 +1226,7 @@
   "verified": "2026-10"
  },
  "pt-lagos": {
-  "varieties": "Main varieties (e.g. Arinto and Siria for whites) must make up at least 70% of the vineyard.",
+  "varieties": "Main varieties (e.g. Arinto and Síria for whites) must make up at least 70% of the vineyard.",
   "min_alcohol": "Actual: red 12%, white 11.5%.",
   "max_yield": "60 hl/ha (red and white).",
   "styles": "White, red.",
@@ -1240,25 +1240,25 @@
   "verified": "2026-10"
  },
  "pt-portimao": {
-  "varieties": "Main varieties (e.g. Arinto and Siria for whites) must make up at least 70% of the vineyard.",
+  "varieties": "Main varieties (e.g. Arinto and Síria for whites) must make up at least 70% of the vineyard.",
   "min_alcohol": "Actual: red 12%, white 11.5%.",
   "max_yield": "60 hl/ha (red and white).",
   "styles": "White, red.",
-  "other": "Vines at least 4 years after grafting. Area: Part of Portimao municipality.",
+  "other": "Vines at least 4 years after grafting. Area: Part of Portimão municipality.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Portimao PDO (single document, specification)",
+    "title": "eAmbrosia EU register: Portimão PDO (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005188"
    }
   ],
   "verified": "2026-10"
  },
  "pt-tavira": {
-  "varieties": "Main varieties (e.g. Arinto and Siria for whites) must make up at least 70% of the vineyard.",
+  "varieties": "Main varieties (e.g. Arinto and Síria for whites) must make up at least 70% of the vineyard.",
   "min_alcohol": "Actual: red 12%, white 11.5%.",
   "max_yield": "60 hl/ha (red and white).",
   "styles": "White, red.",
-  "other": "Vines at least 4 years after grafting. Area: Faro, Olhao and parts of Sao Bras de Alportel, Castro Marim, Tavira and Vila Real de Santo Antonio.",
+  "other": "Vines at least 4 years after grafting. Area: Faro, Olhão and parts of São Brás de Alportel, Castro Marim, Tavira and Vila Real de Santo António.",
   "src": [
    {
     "title": "eAmbrosia EU register: Tavira PDO (single document, specification)",
@@ -1272,23 +1272,23 @@
   "max_yield": "80 hl/ha.",
   "ageing": "Whites at least 6 months, reds 8 months before sale.",
   "styles": "White, red.",
-  "labelling": "Vinho Regional Acores.",
+  "labelling": "Vinho Regional Açores.",
   "other": "All islands; no blending of vintages; bulk transport only within the same island.",
   "src": [
    {
-    "title": "eAmbrosia EU register: Acores PGI (single document, specification)",
+    "title": "eAmbrosia EU register: Açores PGI (single document, specification)",
     "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/EUGI00000005125"
    }
   ],
   "verified": "2026-10"
  },
  "pt-pico": {
-  "varieties": "At least 85% of the must from Arinto dos Acores (Terrantez da Terceira), Verdelho and Terrantez do Pico; the rest Galego Dourado and Malvasia Fina (Boal).",
+  "varieties": "At least 85% of the must from Arinto dos Açores (Terrantez da Terceira), Verdelho and Terrantez do Pico; the rest Galego Dourado and Malvasia Fina (Boal).",
   "min_alcohol": "Actual: wine 11%, wine of overripe grapes 12%; musts 10% (sparkling base 9%, liqueur 12%, overripe 15%).",
   "max_yield": "70 hl/ha.",
   "ageing": "Liqueur wines and wines of overripe grapes bottled only after at least 36 months.",
   "styles": "Dry white wine, sparkling, liqueur wine, wine of overripe grapes (expanded in 2024).",
-  "other": "Areas at or below 100 m in Madalena, parts of Sao Roque and Lajes. Vines trained close to the ground on basaltic lava soils; vineyard work is done by hand.",
+  "other": "Areas at or below 100 m in Madalena, parts of São Roque and Lajes. Vines trained close to the ground on basaltic lava soils; vineyard work is done by hand.",
   "src": [
    {
     "title": "eAmbrosia EU register: Pico PDO (single document, specification)",
@@ -1302,13 +1302,13 @@
   "verified": "2026-10"
  },
  "pt-biscoitos": {
-  "varieties": "At least 85% of the must from Arinto dos Acores (Terrantez da Terceira), Verdelho and Terrantez do Pico; the rest Galego Dourado and Malvasia Fina (Boal).",
+  "varieties": "At least 85% of the must from Arinto dos Açores (Terrantez da Terceira), Verdelho and Terrantez do Pico; the rest Galego Dourado and Malvasia Fina (Boal).",
   "min_alcohol": "Actual: wine 11%, sparkling 11.5%, liqueur 16%; musts 10% (sparkling 9%, liqueur 12%, overripe 15%).",
   "max_yield": "70 hl/ha.",
   "ageing": "Liqueur wines and wines of overripe grapes bottled only after at least 36 months.",
   "styles": "Dry white wine, sparkling, liqueur wine, wine of overripe grapes (expanded in 2024).",
   "sweetness": "Liqueur wines usually dry or medium-dry, also medium-sweet or sweet.",
-  "other": "Areas at or below 100 m in Biscoitos parish (Praia da Vitoria, Terceira).",
+  "other": "Areas at or below 100 m in Biscoitos parish (Praia da Vitória, Terceira).",
   "src": [
    {
     "title": "eAmbrosia EU register: Biscoitos PDO (single document, specification)",
@@ -1322,7 +1322,7 @@
   "verified": "2026-10"
  },
  "pt-graciosa": {
-  "varieties": "Island whites incl. Verdelho, Arinto, Boal, Fernao Pires, Sercial, Bical, Tamarez, Seara Nova, Malvasia, Generosa, Rio Grande.",
+  "varieties": "Island whites incl. Verdelho, Arinto, Boal, Fernão Pires, Sercial, Bical, Tamarez, Seara Nova, Malvasia, Generosa, Rio Grande.",
   "min_alcohol": "Total at least 10% (white); must 10%.",
   "max_yield": "70 hl/ha.",
   "ageing": "At least 9 months.",
@@ -1341,13 +1341,13 @@
   "verified": "2026-10"
  },
  "pt-madeira": {
-  "varieties": "Recommended and authorised varieties incl. Sercial, Verdelho, Boal (Malvasia Fina), Malvasia Candida, Malvasia Candida Roxa, Malvasia, Terrantez, Bastardo, Tinta Negra. Varietal labels need at least 85%.",
+  "varieties": "Recommended and authorised varieties incl. Sercial, Verdelho, Boal (Malvasia Fina), Malvasia Cândida, Malvasia Cândida Roxa, Malvasia, Terrantez, Bastardo, Tinta Negra. Varietal labels need at least 85%.",
   "min_alcohol": "Actual 17-22%, total at least 17.5% (15.5% minimum allowed exceptionally by IVBAM). Must at least 9% natural; fortified with 96% neutral grape spirit.",
   "max_yield": "150 hl of must per ha under regional Portaria 39/2015 (the EU-registered specification shows 80 hl/ha).",
   "ageing": "Canteiro: fortified and aged in wood at least 2 years, never heated, not bottled before 3 years from 1 January after harvest. Estufagem: heated to at most 50 C for at least 3 months. Colheita: single vintage, at least 5 years in wood. Frasqueira/Garrafeira: vintage and recommended variety, canteiro, at least 20 years in wood, bottling year shown. Solera: single harvest and variety, at least 5 years in wood, then at most 10% drawn a year.",
   "styles": "Fortified wine by canteiro or estufagem; Rainwater; age-stated, Colheita, Frasqueira, Solera.",
-  "labelling": "Age indications 5, 10, 15, 20, 30, 40, 50 and more than 50 years (Portaria 38/2015). Rainwater: pale to golden, 1.0-2.5 Baume, age up to 10 years. Selecionado/Finest, Fino, Escuro and other terms regulated.",
-  "sweetness": "Extra seco to doce by Baume (extra seco up to 0.5, doce over 3.5). Varietals tied to sweetness: Sercial seco or extra seco; Verdelho meio seco; Boal meio doce; Malvasias doce; Terrantez meio seco or meio doce. Sweetness term compulsory except on these varietal labels.",
+  "labelling": "Age indications 5, 10, 15, 20, 30, 40, 50 and more than 50 years (Portaria 38/2015). Rainwater: pale to golden, 1.0-2.5 Baumé, age up to 10 years. Selecionado/Finest, Fino, Escuro and other terms regulated.",
+  "sweetness": "Extra seco to doce by Baumé (extra seco up to 0.5, doce over 3.5). Varietals tied to sweetness: Sercial seco or extra seco; Verdelho meio seco; Boal meio doce; Malvasias doce; Terrantez meio seco or meio doce. Sweetness term compulsory except on these varietal labels.",
   "other": "Volatile acidity limits 20 meq/l up to 10 years, 25 meq/l to 20 years, 30 meq/l over 20 years. Production rules set by regional Portarias 38-40/2015 (JORAM).",
   "src": [
    {
@@ -1362,10 +1362,10 @@
   "verified": "2026-10"
  },
  "pt-madeirense": {
-  "min_alcohol": "Actual: white and rose 10.5%, red 11.5%; must 10%.",
-  "max_yield": "Red 90 hl/ha; white and rose 100 hl/ha.",
+  "min_alcohol": "Actual: white and rosé 10.5%, red 11.5%; must 10%.",
+  "max_yield": "Red 90 hl/ha; white and rosé 100 hl/ha.",
   "ageing": "Reds at least 6 months, usually in barrel.",
-  "styles": "Still white, rose, red.",
+  "styles": "Still white, rosé, red.",
   "other": "Unfortified DOP of Madeira and Porto Santo.",
   "src": [
    {
@@ -1381,9 +1381,9 @@
  },
  "pt-terras-madeirenses": {
   "min_alcohol": "Actual 10%; must 10%.",
-  "max_yield": "Red 90 hl/ha; white and rose 100 hl/ha.",
+  "max_yield": "Red 90 hl/ha; white and rosé 100 hl/ha.",
   "ageing": "Reds at least 4 months (carbonic maceration wines exempt).",
-  "styles": "White, rose, red.",
+  "styles": "White, rosé, red.",
   "labelling": "Vinho Regional Terras Madeirenses.",
   "other": "Pergola (latada) and espalier training typical.",
   "src": [

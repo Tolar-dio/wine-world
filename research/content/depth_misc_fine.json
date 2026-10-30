@@ -1,0 +1,4489 @@
+{
+ "countries": [],
+ "regions": [],
+ "appellations": [
+  {
+   "id": "it-chianti-classico-gaiole",
+   "country": "it",
+   "name": "Gaiole",
+   "match": [
+    "Gaiole",
+    "Chianti Classico Gaiole",
+    "UGA Gaiole"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Gaiole in Chianti",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "Gaiole in Chianti spreads across the eastern Monti del Chianti, a high, wooded commune of castles and abbeys that includes Brolio, Coltibuono, Ama, Cacchiano and Meleto. Soils are galestro and alberese with macigno sandstone on the heights, and altitudes run from about 300 to 650 m, so the wines range from firm and structured in the south to fragrant and lean in the north.\n\nAt Brolio, Baron Bettino Ricasoli set out in 1872 the recipe on which Chianti was later based. Castello di Ama, Badia a Coltibuono, Barone Ricasoli, Riecine, Rocca di Montegrossi and San Giusto a Rentennano are leading estates.",
+   "terroir": "The UGA as a whole lies at about 295 to 675 m (Copernicus DEM).",
+   "producers": [
+    "Castello di Ama",
+    "Badia a Coltibuono",
+    "Barone Ricasoli",
+    "Riecine",
+    "Rocca di Montegrossi",
+    "San Giusto a Rentennano"
+   ],
+   "nerd_note": "Ricasoli's 1872 letter recommended Sangiovese for body and aroma, Canaiolo to soften it, and Malvasia for wines meant to be drunk young.",
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-greve",
+   "country": "it",
+   "name": "Greve",
+   "match": [
+    "Greve",
+    "Chianti Classico Greve",
+    "UGA Greve"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Greve in Chianti",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "The Greve UGA is the commune of Greve in Chianti minus the three UGAs carved out of it (Panzano, Lamole and Montefioralle). It runs from the Greve valley floor up the slopes of the Monti del Chianti toward the high ridge of Ruffoli, so it spans a wide range of altitudes and soils: alberese and galestro, with sandstone (macigno) on the eastern heights. Greve town, with its funnel-shaped piazza, is the market centre of the northern Chianti.\n\nQuerciabella, a biodynamic pioneer in the high Ruffoli area, Castello di Verrazzano (home of the navigator Giovanni da Verrazzano) and Vignamaggio (where Lisa Gherardini, the probable sitter of the Mona Lisa, is said to have lived) are the best-known estates.",
+   "terroir": "The UGA as a whole lies at about 175 to 690 m (Copernicus DEM).",
+   "producers": [
+    "Querciabella",
+    "Castello di Verrazzano",
+    "Vignamaggio"
+   ],
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-castellina",
+   "country": "it",
+   "name": "Castellina",
+   "match": [
+    "Castellina",
+    "Chianti Classico Castellina",
+    "UGA Castellina"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Castellina in Chianti",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "Castellina in Chianti, one of the three founding members of the medieval Lega del Chianti with Radda and Gaiole, sits on the ridge that splits the Pesa and Elsa valleys, at the centre of the zone. Its soils are the most varied of Chianti Classico: alberese and galestro in the east, sandstone, and Pliocene sands and clays on the western slopes toward the Elsa. The wines are balanced and fruity, between the ripeness of the south and the tension of Radda.\n\nCastello di Fonterutoli (Mazzei), Castellare di Castellina, Rocca delle Macìe, Nittardi, Tenuta di Lilliano and Cecchi are based here.",
+   "terroir": "The UGA as a whole lies at about 205 to 575 m (Copernicus DEM).",
+   "producers": [
+    "Castello di Fonterutoli (Mazzei)",
+    "Castellare di Castellina",
+    "Rocca delle Macìe",
+    "Nittardi",
+    "Tenuta di Lilliano"
+   ],
+   "nerd_note": "The Mazzei family has owned Fonterutoli since 1435; a Mazzei, the notary Ser Lapo, wrote the earliest known document using the name Chianti for wine, in 1398.",
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-san-casciano",
+   "country": "it",
+   "name": "San Casciano",
+   "match": [
+    "San Casciano",
+    "Chianti Classico San Casciano",
+    "UGA San Casciano"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "San Casciano in Val di Pesa",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "San Casciano is the northern gateway to Chianti Classico, on the lower, gentler hills of the Val di Pesa toward Florence. Much of the commune lies below 400 m, on marine Pliocene sands and clays with river pebbles, and on alberese limestone and galestro on the higher ground to the south. The climate is the mildest of the zone, and the wines are generous, round and early to charm, with ripe cherry and softer tannin than the high sites of the Monti del Chianti.\n\nAntinori's cellar at Bargino, dug into the hillside, and its Tignanello estate are here, as are the Castelli del Grevepesa cooperative and the villa of Sant'Andrea in Percussina, where Niccolò Machiavelli wrote The Prince in exile.",
+   "terroir": "Pliocene sands, clays and pebbles on the lower hills; alberese and galestro to the south. The UGA as a whole lies at about 125 to 375 m (Copernicus DEM).",
+   "producers": [
+    "Marchesi Antinori (Tignanello, Antinori nel Chianti Classico)",
+    "Castelli del Grevepesa",
+    "Castello di Gabbiano"
+   ],
+   "nerd_note": "Tignanello was first made in 1970 as a Chianti Classico Riserva, became a table wine with the 1971 vintage and added Cabernet from 1975; it is often named among the first 'Super Tuscans'.",
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-radda",
+   "country": "it",
+   "name": "Radda",
+   "match": [
+    "Radda",
+    "Chianti Classico Radda",
+    "UGA Radda"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Radda in Chianti",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "Radda in Chianti was the capital of the medieval Lega del Chianti and is the reference for high-altitude, galestro-driven Sangiovese: vineyards at roughly 350 to 650 m among woods, cool nights and poor, stony soils of galestro, alberese and some sandstone. The wines are pale, perfumed and nervy, sometimes austere in youth, with red fruit, orange peel and a long, saline line; warmer summers have made Radda one of the most sought-after names of the 2010s.\n\nMontevertine, whose Le Pergole Torte (1977) was one of the first pure-Sangiovese Super Tuscans, Castello di Volpaia, Monteraponi, Val delle Corti, Istine and Caparsa are references.",
+   "terroir": "The UGA as a whole lies at about 350 to 725 m (Copernicus DEM).",
+   "producers": [
+    "Montevertine",
+    "Castello di Volpaia",
+    "Monteraponi",
+    "Val delle Corti",
+    "Istine",
+    "Caparsa"
+   ],
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-vagliagli",
+   "country": "it",
+   "name": "Vagliagli",
+   "match": [
+    "Vagliagli",
+    "Chianti Classico Vagliagli",
+    "UGA Vagliagli"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Castelnuovo Berardenga",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "A UGA in the western part of Castelnuovo Berardenga around the hamlet of Vagliagli, higher and cooler than the southern part of the commune, at roughly 250 to 470 m. Alberese limestone and sandstone give Sangiovese with more tension and perfume than the warm Berardenga, and the area is a patchwork of woods and vines. Dievole, Fattoria della Aiola and Bindi Sergardi are among its estates.",
+   "terroir": "Alberese limestone and sandstone, with woods covering much of the land. The UGA as a whole lies at about 255 to 465 m (Copernicus DEM).",
+   "producers": [
+    "Dievole",
+    "Fattoria della Aiola",
+    "Bindi Sergardi"
+   ],
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-san-donato-in-poggio",
+   "country": "it",
+   "name": "San Donato in Poggio",
+   "match": [
+    "San Donato in Poggio",
+    "Chianti Classico San Donato in Poggio",
+    "UGA San Donato in Poggio"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Barberino Tavarnelle, Poggibonsi",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "This UGA joins the Chianti Classico part of Barberino Tavarnelle with the northern tip of Poggibonsi, centred on the walled village of San Donato in Poggio on the ridge between the Pesa and Elsa valleys. Alberese and galestro on the ridge, and sands and clays on the western slopes, give firm, medium-bodied Sangiovese.\n\nIsole e Olena, whose Cepparello became a benchmark pure Sangiovese, Castello di Monsanto, whose Il Poggio (1962) is often cited as the first single-vineyard Chianti Classico, and Antinori's Badia a Passignano are here.",
+   "terroir": "The UGA as a whole lies at about 210 to 450 m (Copernicus DEM).",
+   "producers": [
+    "Isole e Olena",
+    "Castello di Monsanto",
+    "Badia a Passignano (Antinori)"
+   ],
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-castelnuovo-berardenga",
+   "country": "it",
+   "name": "Castelnuovo Berardenga",
+   "match": [
+    "Castelnuovo Berardenga",
+    "Chianti Classico Castelnuovo Berardenga",
+    "UGA Castelnuovo Berardenga"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Castelnuovo Berardenga",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "The southernmost and warmest UGA, where Chianti Classico runs down toward the clay hills of the Crete Senesi east of Siena. More clay, marine Pliocene sands and alberese, a lower average altitude and a warmer, drier climate give the ripest, fullest and most generous Sangiovese of the zone, dark-fruited and broad.\n\nFèlsina, which has labelled its wines 'Berardenga' for decades and whose Rancia is a reference single-vineyard Chianti Classico, Castell'in Villa, San Felice and Fattoria di Petroio are here.",
+   "terroir": "The UGA as a whole lies at about 235 to 565 m (Copernicus DEM).",
+   "producers": [
+    "Fèlsina",
+    "Castell'in Villa",
+    "San Felice",
+    "Fattoria di Petroio"
+   ],
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-panzano",
+   "country": "it",
+   "name": "Panzano",
+   "match": [
+    "Panzano",
+    "Chianti Classico Panzano",
+    "UGA Panzano"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Greve in Chianti",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "Panzano is the frazione in the south-west of Greve commune famous for the Conca d'Oro, the 'golden shell', a south-facing amphitheatre below the village on galestro and alberese that collects heat and gives some of the most complete Sangiovese in Tuscany: dark cherry, violets and a firm, mineral frame.\n\nFontodi, the Manetti family estate whose Flaccianello della Pieve is a reference for pure Sangiovese, Castello dei Rampolla, Il Molino di Grace, La Massa, Le Cinciole and Vecchie Terre di Montefili are here. Panzano's growers formed one of Italy's first organic districts, and most of the vineyard is farmed organically.",
+   "terroir": "Galestro (friable schistous clay) and alberese limestone; the Conca d'Oro faces south below Panzano village. The UGA as a whole lies at about 275 to 655 m (Copernicus DEM).",
+   "producers": [
+    "Fontodi",
+    "Castello dei Rampolla",
+    "Il Molino di Grace",
+    "La Massa",
+    "Le Cinciole"
+   ],
+   "nerd_note": "Giovanni Manetti of Fontodi has chaired the Consorzio Vino Chianti Classico, which pushed the UGA project.",
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-montefioralle",
+   "country": "it",
+   "name": "Montefioralle",
+   "match": [
+    "Montefioralle",
+    "Chianti Classico Montefioralle",
+    "UGA Montefioralle"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Greve in Chianti",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "A small UGA around the walled medieval village of Montefioralle on the hill just west of Greve, believed to be the family home of the Vespucci (of Amerigo Vespucci). Its slopes of alberese and galestro rise to about 500 m between the Greve and Pesa valleys and give fragrant, mid-weight Sangiovese with good acidity. With Vagliagli it is one of the two UGAs without a long history as a named wine area.",
+   "terroir": "Alberese limestone and galestro on the ridge west of Greve. The UGA as a whole lies at about 230 to 505 m (Copernicus DEM).",
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "it-chianti-classico-lamole",
+   "country": "it",
+   "name": "Lamole",
+   "match": [
+    "Lamole",
+    "Chianti Classico Lamole",
+    "UGA Lamole"
+   ],
+   "cat": "DOCG",
+   "subcat": "UGA",
+   "region": "Tuscany",
+   "subregion": "Chianti Classico",
+   "village": "Greve in Chianti",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Sangiovese (at least 90% for Gran Selezione)",
+   "summary": "The smallest and highest UGA, a hamlet of terraces high above Greve, with vineyards at roughly 450 to 650 m and the UGA as a whole reaching about 850 m. Dry-stone walls, many rebuilt by hand since the 1990s, hold the slopes, and the soils are sandstone (macigno), poor and acid-leaning, unlike the limestone of most of Chianti Classico.\n\nThe result is pale, high-toned, floral Sangiovese with bright acidity and fine tannin, closer to a mountain wine; the old bush-trained vines (*alberello*) on the terraces are a rarity in Tuscany. Castello di Lamole, Lamole di Lamole, I Fabbri and Castellinuzza e Piuca are the main producers.",
+   "terroir": "Macigno sandstone terraces, among the highest vineyards of Chianti Classico. The UGA as a whole lies at about 430 to 855 m (Copernicus DEM).",
+   "producers": [
+    "Castello di Lamole",
+    "Lamole di Lamole",
+    "I Fabbri",
+    "Castellinuzza e Piuca"
+   ],
+   "classification": "UGA (unità geografica aggiuntiva) of Chianti Classico DOCG, one of 11 voted by producers in June 2021 and approved by the Ministry in 2023 (DM 22 June 2023). The UGA name may appear on Gran Selezione labels; the Consorzio intends to extend it to Annata and Riserva."
+  },
+  {
+   "id": "fr-chablis-premier-cru-montmains",
+   "country": "fr",
+   "name": "Chablis premier cru Montmains",
+   "match": [
+    "Chablis premier cru Montmains",
+    "Montmains",
+    "Chablis 1er Cru Montmains",
+    "Chablis Premier Cru Montmains"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 47.1,
+   "summary": "Montmains is one of the great left-bank premiers crus of Chablis, a long slope south-west of the town facing south-east, on thin, stony Kimmeridgian marl and limestone. This polygon is the lieu-dit itself (Les Monts-Mains in the land register); the principal name also covers Forêts and Butteaux, which may be sold as Montmains or under their own names. The wines are taut, saline and mineral, with less flesh than the right bank but great precision.",
+   "terroir": "The mapped climat lies at about 170 to 210 m, with a mean slope of about 9%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Louis Michel et Fils",
+    "Domaine François Raveneau",
+    "Domaine William Fèvre"
+   ],
+   "classification": "Chablis premier cru: one of the 17 principal climats of the cahier des charges, which can also cover satellite climats."
+  },
+  {
+   "id": "fr-chablis-premier-cru-butteaux",
+   "country": "fr",
+   "name": "Chablis premier cru Butteaux",
+   "match": [
+    "Chablis premier cru Butteaux",
+    "Butteaux",
+    "Chablis 1er Cru Butteaux",
+    "Chablis Premier Cru Butteaux"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 38.6,
+   "summary": "A satellite climat of Montmains, higher up the left-bank slope and facing south-east, drawn here from the lieux-dits Le Bout and Le Milieu des Buttaux. Raveneau's Butteaux, from old vines, is one of the most admired left-bank Chablis: lean and stony when young, deep and long with age.",
+   "terroir": "The mapped climat lies at about 220 to 265 m, with a mean slope of about 16%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine François Raveneau"
+   ],
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Montmains, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-mont-de-milieu-chablis-commune",
+   "country": "fr",
+   "name": "Chablis premier cru Mont de Milieu (Chablis commune)",
+   "match": [
+    "Chablis premier cru Mont de Milieu (Chablis commune)",
+    "Mont de Milieu",
+    "Chablis 1er Cru Mont de Milieu (Chablis commune)",
+    "Chablis Premier Cru Mont de Milieu (Chablis commune)"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 27.6,
+   "summary": "The part of the premier cru Mont de Milieu that lies in the commune of Chablis (lieu-dit Les Monts de Milieu), beside the larger section in Fleys. The slope faces south and south-east on the right bank of the Serein east of Montée de Tonnerre, and gives structured, long-lived, saline Chablis.",
+   "terroir": "The mapped climat lies at about 170 to 225 m, with a mean slope of about 14%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Billaud-Simon",
+    "Domaine Pinson Frères",
+    "Domaine Barat"
+   ],
+   "classification": "Chablis premier cru: one of the 17 principal climats of the cahier des charges, which can also cover satellite climats."
+  },
+  {
+   "id": "fr-chablis-premier-cru-chapelot",
+   "country": "fr",
+   "name": "Chablis premier cru Chapelot",
+   "match": [
+    "Chablis premier cru Chapelot",
+    "Chapelot",
+    "Chablis 1er Cru Chapelot",
+    "Chablis Premier Cru Chapelot"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 20.6,
+   "summary": "A satellite of Montée de Tonnerre on the right bank of the Serein, facing south-west. It may be sold as Montée de Tonnerre or under its own name; Raveneau bottles a Chapelot, a slightly rounder companion to its Montée de Tonnerre.",
+   "terroir": "The mapped climat lies at about 165 to 195 m, with a mean slope of about 8%, mostly south-west-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine François Raveneau"
+   ],
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Montée de Tonnerre, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-troesmes",
+   "country": "fr",
+   "name": "Chablis premier cru Troesmes",
+   "match": [
+    "Chablis premier cru Troesmes",
+    "Troesmes",
+    "Chablis 1er Cru Troesmes",
+    "Chablis Premier Cru Troesmes"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 19.9,
+   "summary": "A satellite of Beauroy in Beine, on the left bank west of Chablis (Côte de Trouëmes in the land register), on a fairly steep slope facing south and south-east. It may be sold as Beauroy or under its own name.",
+   "terroir": "The mapped climat lies at about 160 to 205 m, with a mean slope of about 21%, mostly south-facing (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Beauroy, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-vaulorent",
+   "country": "fr",
+   "name": "Chablis premier cru Vaulorent",
+   "match": [
+    "Chablis premier cru Vaulorent",
+    "Vaulorent",
+    "Chablis 1er Cru Vaulorent",
+    "Chablis Premier Cru Vaulorent"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 16.6,
+   "summary": "The southern end of the Fourchaume group, directly north of the grand cru Les Preuses on the same slope, often ranked among the very best premiers crus of Chablis. No cadastral lieu-dit carries the name, so it is drawn here from the premier cru land of Les Quatre Chemins. William Fèvre's Fourchaume Vignoble de Vaulorent is the reference.",
+   "terroir": "The mapped climat lies at about 165 to 215 m, with a mean slope of about 14%, facing west to north-west (Copernicus DEM).",
+   "producers": [
+    "Domaine William Fèvre"
+   ],
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Fourchaume, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-vaupulent-chablis-commune",
+   "country": "fr",
+   "name": "Chablis premier cru Vaupulent (Chablis commune)",
+   "match": [
+    "Chablis premier cru Vaupulent (Chablis commune)",
+    "Vaupulent",
+    "Chablis 1er Cru Vaupulent (Chablis commune)",
+    "Chablis Premier Cru Vaupulent (Chablis commune)"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 16.5,
+   "summary": "The part of Vaupulent, a satellite of Fourchaume, that lies in the commune of Chablis (Les Vaupulans in the land register), on the right bank north of the grands crus, facing south and south-west. It is usually sold as Fourchaume, the richest and roundest of the right-bank premiers crus.",
+   "terroir": "The mapped climat lies at about 140 to 185 m, with a mean slope of about 13%, mostly south-west-facing (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Fourchaume, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-beauroy",
+   "country": "fr",
+   "name": "Chablis premier cru Beauroy",
+   "match": [
+    "Chablis premier cru Beauroy",
+    "Beauroy",
+    "Chablis 1er Cru Beauroy",
+    "Chablis Premier Cru Beauroy"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 8.1,
+   "summary": "Beauroy is a left-bank premier cru west of Chablis around Poinchy and Beine, on slopes facing south-east; this polygon is drawn from the lieu-dit Sous Boroy. Its satellites Troesmes and Côte de Savant may be sold under the Beauroy name. The wines are fresh, floral and quite delicate, often good value among the premiers crus.",
+   "terroir": "The mapped climat lies at about 160 to 195 m, with a mean slope of about 16%, facing east to south-east (Copernicus DEM).",
+   "classification": "Chablis premier cru: one of the 17 principal climats of the cahier des charges, which can also cover satellite climats."
+  },
+  {
+   "id": "fr-chablis-premier-cru-cote-de-cuisy",
+   "country": "fr",
+   "name": "Chablis premier cru Côte de Cuisy",
+   "match": [
+    "Chablis premier cru Côte de Cuisy",
+    "Côte de Cuisy",
+    "Chablis 1er Cru Côte de Cuisy",
+    "Chablis Premier Cru Côte de Cuisy"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 13.4,
+   "summary": "A satellite of Les Beauregards in Courgis, on the left bank far to the south-west of Chablis (Côte de Cuissy and Vallée de Cuissy in the land register), on slopes facing south-east and south at about 235 to 290 m. It may be sold as Beauregards or under its own name; the Courgis premiers crus give lean, fresh, citrus-driven Chablis.",
+   "terroir": "The mapped climat lies at about 235 to 290 m, with a mean slope of about 21%, mostly south-east-facing (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Les Beauregards, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-cote-de-fontenay",
+   "country": "fr",
+   "name": "Chablis premier cru Côte de Fontenay",
+   "match": [
+    "Chablis premier cru Côte de Fontenay",
+    "Côte de Fontenay",
+    "Chablis 1er Cru Côte de Fontenay",
+    "Chablis Premier Cru Côte de Fontenay"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 13.0,
+   "summary": "A satellite of Fourchaume in Fontenay-près-Chablis (La Côte in the land register), on the right bank north of the grands crus, facing south-east. It may be sold as Fourchaume or under its own name, and shares the group's rounder, riper style.",
+   "terroir": "The mapped climat lies at about 150 to 185 m, with a mean slope of about 21%, mostly south-east-facing (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Fourchaume, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-cote-des-pres-girots",
+   "country": "fr",
+   "name": "Chablis premier cru Côte des Prés-Girots",
+   "match": [
+    "Chablis premier cru Côte des Prés-Girots",
+    "Côte des Prés-Girots",
+    "Chablis 1er Cru Côte des Prés-Girots",
+    "Chablis Premier Cru Côte des Prés-Girots"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 10.9,
+   "summary": "A satellite of Les Fourneaux in Fleys, on the right bank east of Chablis (Côte des Prés Girot in the land register), on slopes facing south and south-west near Mont de Milieu. It is usually sold as Les Fourneaux, a firm, saline right-bank premier cru.",
+   "terroir": "The mapped climat lies at about 195 to 230 m, with a mean slope of about 21%, facing south to south-west (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Les Fourneaux, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-melinots",
+   "country": "fr",
+   "name": "Chablis premier cru Mélinots",
+   "match": [
+    "Chablis premier cru Mélinots",
+    "Mélinots",
+    "Chablis 1er Cru Mélinots",
+    "Chablis Premier Cru Mélinots"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 10.6,
+   "summary": "A satellite of Vaillons on the left bank west of Chablis, between Roncières and Beugnons, facing south-east. No cadastral lieu-dit carries the name, so it is drawn here from Les Minos. It is usually sold as Vaillons.",
+   "terroir": "The mapped climat lies at about 200 to 235 m, with a mean slope of about 10%, mostly south-east-facing (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Vaillons, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-pied-d-aloup",
+   "country": "fr",
+   "name": "Chablis premier cru Pied d'Aloup",
+   "match": [
+    "Chablis premier cru Pied d'Aloup",
+    "Pied d'Aloup",
+    "Chablis 1er Cru Pied d'Aloup",
+    "Chablis Premier Cru Pied d'Aloup"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 8.1,
+   "summary": "A satellite of Montée de Tonnerre on the right bank (Pied d'Aloue and Sous Pied d'Aloue in the land register), on slopes facing south and south-west. It is usually sold as Montée de Tonnerre, the most admired premier cru of Chablis.",
+   "terroir": "The mapped climat lies at about 200 to 235 m, with a mean slope of about 13%, facing broadly south (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Montée de Tonnerre, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "fr-chablis-premier-cru-vaux-ragons",
+   "country": "fr",
+   "name": "Chablis premier cru Vaux Ragons",
+   "match": [
+    "Chablis premier cru Vaux Ragons",
+    "Vaux Ragons",
+    "Chablis 1er Cru Vaux Ragons",
+    "Chablis Premier Cru Vaux Ragons"
+   ],
+   "cat": "AOC",
+   "subcat": "Premier Cru",
+   "region": "Chablis and the Grand Auxerrois",
+   "subregion": "Chablis",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chardonnay",
+   "area_ha": 11.2,
+   "summary": "A satellite of Vau de Vey in Beine (Vignes des Vaux Ragons in the land register), on a steep slope facing east. It may be sold as Vau de Vey or under its own name, and gives fresh, mineral Chablis.",
+   "terroir": "The mapped climat lies at about 190 to 235 m, with a mean slope of about 33%, mostly east-facing (Copernicus DEM).",
+   "classification": "Chablis premier cru climat. It may be labelled under its own name or under the principal climat Vau de Vey, to which the cahier des charges attaches it."
+  },
+  {
+   "id": "es-cava-comtats-de-barcelona",
+   "country": "es",
+   "name": "Comtats de Barcelona",
+   "match": [
+    "Comtats de Barcelona",
+    "Cava Comtats de Barcelona"
+   ],
+   "cat": "DO",
+   "subcat": "Zona",
+   "region": "Catalonia",
+   "subregion": "Cava",
+   "styles": [
+    "sparkling",
+    "rose"
+   ],
+   "dominant_style": "sparkling",
+   "grapes": "Macabeo, Xarel·lo, Parellada, Chardonnay; Trepat, Garnacha, Monastrell and Pinot Noir for rosé",
+   "classification": "Zona of DO Cava (zoning approved 2020, on labels from 2022): one of four zones, which can appear on labels of Cava de Guarda Superior and above.",
+   "summary": "Comtats de Barcelona ('the counties of Barcelona') is the Catalan heart of Cava, covering the great majority of production, with the town of Sant Sadurní d'Anoia in the Penedès as its capital. Its five subzones are Valls d'Anoia-Foix, Serra de Mar, Conca del Gaià, Serra de Prades and Pla de Ponent. Macabeo, Xarel·lo and Parellada are the classic trio, Xarel·lo giving body and longevity.\n\nCodorníu, which made Spain's first traditional-method sparkling wine in 1872, and Freixenet are based in Sant Sadurní, as are Juvé & Camps and Recaredo. Some of the best growers have left the DO: Raventós i Blanc in 2012 to create Conca del Riu Anoia, and Gramona, Recaredo and others in 2019 to form Corpinnat.",
+   "terroir": "Limestone, clay and sandy soils from the Mediterranean coast to the inland plateau.",
+   "producers": [
+    "Codorníu",
+    "Freixenet",
+    "Juvé & Camps"
+   ]
+  },
+  {
+   "id": "es-rioja-oriental",
+   "country": "es",
+   "name": "Rioja Oriental",
+   "match": [
+    "Rioja Oriental",
+    "Rioja Baja"
+   ],
+   "cat": "DOCa",
+   "subcat": "Zona",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "classification": "Zona of DOCa Rioja: one of three zones that may appear on labels (rules of 2017, labels from 2018), for wines made entirely from grapes of that zone.",
+   "summary": "Rioja Oriental, called Rioja Baja until 2018, is the eastern zone: 49 municipalities of La Rioja and Navarra downstream from Logroño to Alfaro, plus the valleys of the Leza, Jubera, Cidacos and Alhama. The climate is the warmest and driest of the region, with a strong Mediterranean influence, and much of the land is low alluvial plain, though vineyards also climb to 600 to 700 m on the slopes of the Sierra de Yerga and the Cidacos valley.\n\nGarnacha was the traditional grape here and still gives some of the zone's most distinctive wines, from old vines on the Yerga; Tempranillo now dominates. The renaming in 2018 was meant to shed the idea that 'Baja' meant lower quality, and estates such as Palacios Remondo in Alfaro have shown what its Garnacha can do.",
+   "terroir": "Alluvial plains and terraces along the Ebro, clay and limestone on the slopes; warm, dry Mediterranean climate.",
+   "producers": [
+    "Palacios Remondo"
+   ]
+  },
+  {
+   "id": "es-rioja-alta",
+   "country": "es",
+   "name": "Rioja Alta",
+   "match": [
+    "Rioja Alta"
+   ],
+   "cat": "DOCa",
+   "subcat": "Zona",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "classification": "Zona of DOCa Rioja: one of three zones that may appear on labels (rules of 2017, labels from 2018), for wines made entirely from grapes of that zone.",
+   "summary": "Rioja Alta is the western and highest of Rioja's three zones: 76 municipalities of La Rioja (plus the Burgos enclave of El Ternero) on the south bank of the Ebro from Haro to Logroño and up the valleys of the Tirón, Oja, Najerilla and Iregua, with most vineyards between about 450 and 700 m. The climate has the strongest Atlantic influence in the region: cooler, wetter and later-ripening, so Tempranillo keeps acidity and the wines are built for long ageing.\n\nSoils are clay-limestone, ferrous red clays and stony alluvial terraces along the rivers. Haro's Barrio de la Estación, where López de Heredia, CVNE, La Rioja Alta, Muga, Bilbaínas and Roda stand side by side, is the symbol of classic Rioja, and the zone's long-aged Reservas and Gran Reservas defined the region's style in the twentieth century. Labels may name the zona only when all the grapes come from it.",
+   "terroir": "Clay-limestone, ferrous clay and alluvial terraces; Atlantic-influenced climate, the coolest of the three zones.",
+   "producers": [
+    "R. López de Heredia",
+    "CVNE",
+    "La Rioja Alta",
+    "Bodegas Muga",
+    "Bodegas Roda",
+    "Marqués de Murrieta"
+   ]
+  },
+  {
+   "id": "es-cava-levante",
+   "country": "es",
+   "name": "Levante",
+   "match": [
+    "Levante",
+    "Cava Levante"
+   ],
+   "cat": "DO",
+   "subcat": "Zona",
+   "subregion": "Cava",
+   "styles": [
+    "sparkling",
+    "rose"
+   ],
+   "dominant_style": "sparkling",
+   "grapes": null,
+   "classification": "Zona of DO Cava (zoning approved 2020, on labels from 2022): one of four zones, which can appear on labels of Cava de Guarda Superior and above.",
+   "summary": "The Levante zone is Requena, on the high plateau west of Valencia at about 600 to 900 m, a continental climate with cold nights that keep acidity in Macabeo and Chardonnay. Requena is the second-largest Cava area after Catalonia; Dominio de la Vega, Pago de Tharsys and Hispano-Suizas are among its producers.",
+   "terroir": "High continental plateau of Requena with limestone and clay soils.",
+   "producers": [
+    "Dominio de la Vega",
+    "Pago de Tharsys",
+    "Bodegas Hispano-Suizas"
+   ]
+  },
+  {
+   "id": "es-cava-valle-del-ebro",
+   "country": "es",
+   "name": "Valle del Ebro",
+   "match": [
+    "Valle del Ebro",
+    "Cava Valle del Ebro"
+   ],
+   "cat": "DO",
+   "subcat": "Zona",
+   "subregion": "Cava",
+   "styles": [
+    "sparkling",
+    "rose"
+   ],
+   "dominant_style": "sparkling",
+   "grapes": null,
+   "classification": "Zona of DO Cava (zoning approved 2020, on labels from 2022): one of four zones, which can appear on labels of Cava de Guarda Superior and above.",
+   "summary": "The Valle del Ebro zone gathers the Cava municipalities of La Rioja, Álava, Navarra and Aragón (Zaragoza and Huesca) along the Ebro valley, with two subzones, Alto Ebro and Valle del Cierzo, the latter named after the cold north-west wind of Aragón. Macabeo (Viura) is the main grape, and several Rioja houses make Cava, among them Muga, whose Conde de Haro is one of the best known.",
+   "producers": [
+    "Bodegas Muga (Conde de Haro)"
+   ]
+  },
+  {
+   "id": "es-rioja-alavesa",
+   "country": "es",
+   "name": "Rioja Alavesa",
+   "match": [
+    "Rioja Alavesa"
+   ],
+   "cat": "DOCa",
+   "subcat": "Zona",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "classification": "Zona of DOCa Rioja: one of three zones that may appear on labels (rules of 2017, labels from 2018), for wines made entirely from grapes of that zone.",
+   "summary": "Rioja Alavesa is the smallest zone: 15 municipalities of the Basque province of Álava on the north bank of the Ebro, on terraces and slopes that climb from the river toward the limestone wall of the Sierra de Cantabria. The sierra shelters the vineyards from cold northern winds, and the soils are pale, chalky clay-limestone, giving Tempranillo of fine acidity, perfume and finesse.\n\nAlavesa has two traditions: the young, carbonic-maceration *vino de cosechero* of small family growers, and the estate wines that made its name, from Marqués de Riscal in Elciego (1858) to Remírez de Ganuza, Remelluri and Ysios. Its growers have pushed hardest for village and single-vineyard labelling, and almost half of Rioja's viñedos singulares are in Álava.",
+   "terroir": "Chalky clay-limestone on terraces below the Sierra de Cantabria; vineyards from about 400 m to over 700 m.",
+   "producers": [
+    "Marqués de Riscal",
+    "Remírez de Ganuza",
+    "Remelluri",
+    "Bodegas Ysios",
+    "Luis Cañas"
+   ]
+  },
+  {
+   "id": "es-rioja-alfaro",
+   "country": "es",
+   "name": "Alfaro",
+   "match": [
+    "Alfaro",
+    "Rioja Alfaro"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Alfaro",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Alfaro is a municipality of Rioja Oriental in La Rioja, at the eastern tip of the DOCa, between the Ebro and the Sierra de Yerga. Its land spans roughly 270 to 750 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant. The collegiate church of San Miguel carries one of Europe's largest colonies of white storks on a single building. Palacios Remondo, the family estate run by Álvaro Palacios since 2000, showed the potential of the high, cool Garnacha vineyards of the Sierra de Yerga. Recognised viñedos singulares include El Sueño de Amado, Planas Altas, Quiñón de Valmira, Lar de Sotomayor, Domeco de Jarauta, Laderas de Tambarría and Queirón Las Engalladas.",
+   "producers": [
+    "Palacios Remondo"
+   ]
+  },
+  {
+   "id": "es-cava-vinedos-de-almendralejo",
+   "country": "es",
+   "name": "Viñedos de Almendralejo",
+   "match": [
+    "Viñedos de Almendralejo",
+    "Cava Viñedos de Almendralejo"
+   ],
+   "cat": "DO",
+   "subcat": "Zona",
+   "subregion": "Cava",
+   "styles": [
+    "sparkling",
+    "rose"
+   ],
+   "dominant_style": "sparkling",
+   "grapes": null,
+   "classification": "Zona of DO Cava (zoning approved 2020, on labels from 2022): one of four zones, which can appear on labels of Cava de Guarda Superior and above.",
+   "summary": "A small, isolated Cava zone around Almendralejo in Extremadura, in the province of Badajoz, on the flat Tierra de Barros plain at about 300 m. Macabeo and Parellada dominate; Bodegas Vía de la Plata is the best-known producer, and the zone shows how Cava's rules follow a production method rather than a single region.",
+   "terroir": "Flat, red clay plain of the Tierra de Barros.",
+   "producers": [
+    "Bodegas Vía de la Plata"
+   ]
+  },
+  {
+   "id": "es-rioja-cervera-del-rio-alhama",
+   "country": "es",
+   "name": "Cervera del Río Alhama",
+   "match": [
+    "Cervera del Río Alhama",
+    "Rioja Cervera del Río Alhama"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cervera del Río Alhama",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cervera del Río Alhama is a municipality of Rioja Oriental in La Rioja, in the Alhama valley at the south-eastern edge of La Rioja, about 24 km south-west of Alfaro. Its land spans roughly 510 to 860 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines. A large, hilly municipality at the south-eastern edge of the DOCa, it has a long tradition of espadrille making."
+  },
+  {
+   "id": "es-rioja-calahorra",
+   "country": "es",
+   "name": "Calahorra",
+   "match": [
+    "Calahorra",
+    "Rioja Calahorra"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Calahorra",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Calahorra is a municipality of Rioja Oriental in La Rioja, on a hill above the confluence of the Cidacos and the Ebro. Its land spans roughly 290 to 420 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha. The Roman city of Calagurris, birthplace of the rhetorician Quintilian, it is also famous for its vegetables."
+  },
+  {
+   "id": "es-rioja-santa-engracia-del-jubera",
+   "country": "es",
+   "name": "Santa Engracia del Jubera",
+   "match": [
+    "Santa Engracia del Jubera",
+    "Rioja Santa Engracia del Jubera"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Santa Engracia del Jubera",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Santa Engracia del Jubera is a municipality of Rioja Oriental in La Rioja, in the upper Jubera valley, about 21 km west of Arnedo. Its land spans roughly 530 to 1250 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant.",
+   "nerd_note": "Only the northern part of the municipality is in the DOCa (Reglamento 2004: \"zona Norte\"); polygon is the whole municipality."
+  },
+  {
+   "id": "es-rioja-arnedo",
+   "country": "es",
+   "name": "Arnedo",
+   "match": [
+    "Arnedo",
+    "Rioja Arnedo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Arnedo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Arnedo is a municipality of Rioja Oriental in La Rioja, in the Cidacos valley. Its land spans roughly 420 to 1000 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines. Arnedo is the shoe-making capital of La Rioja."
+  },
+  {
+   "id": "es-rioja-autol",
+   "country": "es",
+   "name": "Autol",
+   "match": [
+    "Autol",
+    "Rioja Autol"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Autol",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Autol is a municipality of Rioja Oriental in La Rioja, in the Cidacos valley, about 11 km south-east of Arnedo. Its land spans roughly 410 to 860 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha. Its rock pinnacles, the Picuezo and the Picueza, are a local landmark. Recognised viñedo singular: Gallarón."
+  },
+  {
+   "id": "es-rioja-laguardia",
+   "country": "es",
+   "name": "Laguardia",
+   "match": [
+    "Laguardia",
+    "Rioja Laguardia"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Laguardia",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Laguardia is a municipality of Rioja Alavesa in Álava, the walled medieval capital of Rioja Alavesa, on a hill between the sierra and the Ebro. Its land spans roughly 400 to 1080 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo. Founded as a Navarrese frontier town in 1164, it sits on more than 300 old cellars and tunnels; the fabulist Félix María de Samaniego was born here. Artadi, whose Viña El Pisón became a benchmark single vineyard, left the DOCa in 2016 in protest at the slow progress of village and vineyard labelling. Ysios, in Santiago Calatrava's wave-roofed winery, and CVNE's Viña Real are here. Recognised viñedos singulares include Finca Cerro de la Horca, Finca Senda de la Traición, Anastasio, La Taconera, Loli Casado, Palacio, Viña Gena, Ysios Finca Lagunazuri, Ysios Finca La Pedrera, Barranco del San Ginés, Belezos Finca Sierra Carbón, Poyotos and Curium.",
+   "producers": [
+    "Bodegas Ysios",
+    "Viña Real (CVNE)",
+    "Artadi"
+   ]
+  },
+  {
+   "id": "es-rioja-cornago",
+   "country": "es",
+   "name": "Cornago",
+   "match": [
+    "Cornago",
+    "Rioja Cornago"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cornago",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cornago is a municipality of Rioja Oriental in La Rioja, in the hills of the Alhama country, about 19 km south of Arnedo. Its land spans roughly 670 to 1180 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-viana",
+   "country": "es",
+   "name": "Viana",
+   "match": [
+    "Viana",
+    "Rioja Viana"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Viana",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Viana is a municipality of Rioja Oriental in Navarra, on the Camino de Santiago facing Logroño. Its land spans roughly 360 to 580 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines. Cesare Borgia, killed nearby in 1507, is buried at the church of Santa María. Recognised viñedos singulares include Agrum and La Escaleruela."
+  },
+  {
+   "id": "es-rioja-logrono",
+   "country": "es",
+   "name": "Logroño",
+   "match": [
+    "Logroño",
+    "Rioja Logroño"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Logroño",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Logroño is a municipality of Rioja Alta in La Rioja, the capital of La Rioja, on the Ebro. Its land spans roughly 360 to 510 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. Marqués de Murrieta, founded in 1852 by Luciano de Murrieta, a pioneer of Bordeaux-style ageing in Rioja, farms its Finca Ygay here; Franco-Españolas and Campo Viejo also have their wineries in the city, and the Calle Laurel is Rioja's most famous street of tapas bars. Recognised viñedos singulares include Finca Alto Cantabria (Conde de Valdemar) and Pradolagar.",
+   "producers": [
+    "Marqués de Murrieta",
+    "Bodegas Franco-Españolas",
+    "Campo Viejo"
+   ]
+  },
+  {
+   "id": "es-rioja-mendavia",
+   "country": "es",
+   "name": "Mendavia",
+   "match": [
+    "Mendavia",
+    "Rioja Mendavia"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Mendavia",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Mendavia is a municipality of Rioja Oriental in Navarra, on the north bank of the Ebro, about 22 km east of Logroño. Its land spans roughly 330 to 460 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-ocon",
+   "country": "es",
+   "name": "Ocón",
+   "match": [
+    "Ocón",
+    "Rioja Ocón"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Ocón",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Ocón is a municipality of Rioja Oriental in La Rioja, in the Ocón valley below the Sierra de la Hez, about 13 km north-west of Arnedo. Its land spans roughly 570 to 1240 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant. Recognised viñedos singulares include Casa La Rad P38 and Cuesta de la Estrella.",
+   "nerd_note": "Includes Molinos de Ocón, listed separately in the Reglamento (Ocón (La Villa) and Molinos de Ocón)."
+  },
+  {
+   "id": "es-rioja-ausejo",
+   "country": "es",
+   "name": "Ausejo",
+   "match": [
+    "Ausejo",
+    "Rioja Ausejo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Ausejo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Ausejo is a municipality of Rioja Oriental in La Rioja, in the hills south of the Ebro, about 15 km north of Arnedo. Its land spans roughly 370 to 590 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines. Recognised viñedo singular: Casa La Rad P.12."
+  },
+  {
+   "id": "es-rioja-quel",
+   "country": "es",
+   "name": "Quel",
+   "match": [
+    "Quel",
+    "Rioja Quel"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Quel",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Quel is a municipality of Rioja Oriental in La Rioja, in the Cidacos valley, about 5 km east of Arnedo. Its land spans roughly 410 to 920 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha. Recognised viñedos singulares include El Arca, Finca La Nava de Fuente Vieja, Barranco del Prado and Finca El Foro."
+  },
+  {
+   "id": "es-rioja-igea",
+   "country": "es",
+   "name": "Igea",
+   "match": [
+    "Igea",
+    "Rioja Igea"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Igea",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Igea is a municipality of Rioja Oriental in La Rioja, in the hills of the Alhama country, about 19 km south of Arnedo. Its land spans roughly 550 to 1060 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-aguilar-del-rio-alhama",
+   "country": "es",
+   "name": "Aguilar del Río Alhama",
+   "match": [
+    "Aguilar del Río Alhama",
+    "Rioja Aguilar del Río Alhama"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Aguilar del Río Alhama",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Aguilar del Río Alhama is a municipality of Rioja Oriental in La Rioja, in the upper Alhama valley, about 30 km south of Arnedo. Its land spans roughly 610 to 1000 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-andosilla",
+   "country": "es",
+   "name": "Andosilla",
+   "match": [
+    "Andosilla",
+    "Rioja Andosilla"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Andosilla",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Andosilla is a municipality of Rioja Oriental in Navarra, on the Ega near its confluence with the Ebro, about 9 km north of Calahorra. Its land spans roughly 300 to 440 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-san-vicente-de-la-sonsierra",
+   "country": "es",
+   "name": "San Vicente de la Sonsierra",
+   "match": [
+    "San Vicente de la Sonsierra",
+    "Rioja San Vicente de la Sonsierra"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "San Vicente de la Sonsierra",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "San Vicente de la Sonsierra is a municipality of Rioja Alta in La Rioja, on the north bank of the Ebro in the Sonsierra, the part of La Rioja below the Sierra de Cantabria, about 9 km east of Haro. Its land spans roughly 430 to 950 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. The village is known for its castle and for the Picaos, Holy Week penitents who flagellate themselves. Abel Mendoza, the Eguren family's Sierra Cantabria and Señorío de San Vicente, and the Viñedos de Sonsierra cooperative are based here. Recognised viñedos singulares include nine Viñedos de Sonsierra parcels (El Manao, Duermealmas, El Rincón de los Galos, El Muérdago and others), Entrepeñas, Viña Garugele, Los Quiñones de Tobelos and Proelio Puerto Rubio.",
+   "producers": [
+    "Abel Mendoza",
+    "Sierra Cantabria",
+    "Viñedos de Sonsierra"
+   ]
+  },
+  {
+   "id": "es-rioja-arnedillo",
+   "country": "es",
+   "name": "Arnedillo",
+   "match": [
+    "Arnedillo",
+    "Rioja Arnedillo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Arnedillo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Arnedillo is a municipality of Rioja Oriental in La Rioja, in the upper Cidacos valley, about 11 km west of Arnedo. Its land spans roughly 670 to 1210 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant. A spa village with hot springs in the Cidacos gorge."
+  },
+  {
+   "id": "es-rioja-murillo-de-rio-leza",
+   "country": "es",
+   "name": "Murillo de Río Leza",
+   "match": [
+    "Murillo de Río Leza",
+    "Rioja Murillo de Río Leza"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Murillo de Río Leza",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Murillo de Río Leza is a municipality of Rioja Oriental in La Rioja, in the lower Leza valley, about 13 km south-east of Logroño. Its land spans roughly 400 to 530 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines. Recognised viñedos singulares include El Mirón del Humilladero and La Playa de los Cabezotas."
+  },
+  {
+   "id": "es-rioja-oyon",
+   "country": "es",
+   "name": "Oyón",
+   "match": [
+    "Oyón",
+    "Oyón-Oion",
+    "Rioja Oyón"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Oyón",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Oyón is a municipality of Rioja Alavesa in Álava, at the eastern end of Rioja Alavesa, facing Logroño across the Ebro. Its land spans roughly 420 to 800 m. As across Rioja Alavesa, Tempranillo dominates on pale clay-limestone, much of it farmed by small family growers. Bodegas Faustino and Bodegas Valdemar (Martínez Bujanda) are based here; the municipality includes the walled village of Labraza. Recognised viñedo singular: Campillo Finca Cuesta Clara.",
+   "producers": [
+    "Bodegas Faustino",
+    "Bodegas Valdemar"
+   ],
+   "nerd_note": "Includes the former concejos Barriobusto and Labraza, listed separately in the Reglamento."
+  },
+  {
+   "id": "es-rioja-prejano",
+   "country": "es",
+   "name": "Préjano",
+   "match": [
+    "Préjano",
+    "Rioja Préjano"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Préjano",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Préjano is a municipality of Rioja Oriental in La Rioja, in the hills of the Cidacos valley, about 9 km south-west of Arnedo. Its land spans roughly 680 to 1210 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha. Recognised viñedo singular: Eralena."
+  },
+  {
+   "id": "es-rioja-haro",
+   "country": "es",
+   "name": "Haro",
+   "match": [
+    "Haro",
+    "Rioja Haro"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Haro",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Haro is a municipality of Rioja Alta in La Rioja, on the Ebro at the mouth of the Tirón, the historic wine capital of Rioja Alta. Its land spans roughly 440 to 610 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. Its Barrio de la Estación grew up around the station of the Tudela to Bilbao railway (1863), where wineries gathered as French merchants came looking for wine during phylloxera: R. López de Heredia (1877), CVNE (1879), La Rioja Alta (1890), Bodegas Bilbaínas, Gómez Cruzado, Muga and Roda are neighbours. On 29 June the town drenches itself in red wine at the Batalla del Vino. Recognised viñedos singulares include Viña Zaco and Viña Vicuana.",
+   "producers": [
+    "R. López de Heredia",
+    "CVNE",
+    "La Rioja Alta",
+    "Bodegas Muga",
+    "Bodegas Roda",
+    "Bodegas Bilbaínas"
+   ]
+  },
+  {
+   "id": "es-priorat-la-morera-de-montsant",
+   "country": "es",
+   "name": "La Morera de Montsant",
+   "match": [
+    "La Morera de Montsant",
+    "Priorat La Morera de Montsant",
+    "Vi de Vila La Morera de Montsant"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "La Morera de Montsant",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "The highest village of the DOQ, below the limestone cliffs of the Serra de Montsant, with vineyards reaching well above 600 m. The altitude gives cooler nights and fresher, more aromatic wines than the warm valleys. The municipality also contains Escaladei, a separate vi de vila zone.",
+   "terroir": "The mapped village area lies at about 425 to 1095 m, with a mean slope of about 40% (Copernicus DEM)."
+  },
+  {
+   "id": "es-rioja-aldeanueva-de-ebro",
+   "country": "es",
+   "name": "Aldeanueva de Ebro",
+   "match": [
+    "Aldeanueva de Ebro",
+    "Rioja Aldeanueva de Ebro"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Aldeanueva de Ebro",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Aldeanueva de Ebro is a municipality of Rioja Oriental in La Rioja, on the terraces below the Sierra de Yerga, about 10 km south-east of Calahorra. Its land spans roughly 290 to 490 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant. Recognised viñedos singulares include Canterabuey, Coscojares, 1890 Manzanos and Real Rubio Finca El Tordillo."
+  },
+  {
+   "id": "es-rioja-labastida",
+   "country": "es",
+   "name": "Labastida",
+   "match": [
+    "Labastida",
+    "Bastida",
+    "Rioja Labastida"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Labastida",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Labastida is a municipality of Rioja Alavesa in Álava, at the western end of Rioja Alavesa, below the Sierra de Cantabria near Haro. Its land spans roughly 450 to 880 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo. Remelluri, the estate of Telmo Rodríguez's family around a medieval monastic farm, is here, as are the village cooperative and Tierra (Fidel Fernández). Recognised viñedos singulares include Las Cabezadas de Matadula, Tierra Fidel, El Belisario, La Carbonera, SYC de Mitarte, Cubanegra and Las Piletas de Tobelos.",
+   "producers": [
+    "Remelluri",
+    "Bodegas Labastida"
+   ],
+   "nerd_note": "Includes Salinillas de Buradón, listed separately in the Reglamento."
+  },
+  {
+   "id": "es-rioja-briones",
+   "country": "es",
+   "name": "Briones",
+   "match": [
+    "Briones",
+    "Rioja Briones"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Briones",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Briones is a municipality of Rioja Alta in La Rioja, a walled hilltop village above a meander of the Ebro, about 9 km south-east of Haro. Its land spans roughly 440 to 580 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. The Vivanco family's Museo de la Cultura del Vino is here, and Miguel Ángel de Gregorio's Finca Allende and Miguel Merino make some of the most admired wines of the zone. Recognised viñedo singular: Resaco.",
+   "producers": [
+    "Finca Allende",
+    "Miguel Merino",
+    "Dinastía Vivanco"
+   ]
+  },
+  {
+   "id": "es-rioja-najera",
+   "country": "es",
+   "name": "Nájera",
+   "match": [
+    "Nájera",
+    "Rioja Nájera"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Nájera",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Nájera is a municipality of Rioja Alta in La Rioja, on the Najerilla, once a royal seat of the kingdom of Navarre. Its land spans roughly 480 to 640 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. The monastery of Santa María la Real holds the pantheon of the kings of Navarre. Recognised viñedo singular: Heredad García de Pablo."
+  },
+  {
+   "id": "es-rioja-agoncillo",
+   "country": "es",
+   "name": "Agoncillo",
+   "match": [
+    "Agoncillo",
+    "Rioja Agoncillo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Agoncillo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Agoncillo is a municipality of Rioja Oriental in La Rioja, on the Ebro east of Logroño. Its land spans roughly 340 to 470 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-treviana",
+   "country": "es",
+   "name": "Treviana",
+   "match": [
+    "Treviana",
+    "Rioja Treviana"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Treviana",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Treviana is a municipality of Rioja Alta in La Rioja, in the hills of the upper Tirón, about 15 km north-west of Santo Domingo de la Calzada. Its land spans roughly 530 to 730 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-ribafrecha",
+   "country": "es",
+   "name": "Ribafrecha",
+   "match": [
+    "Ribafrecha",
+    "Rioja Ribafrecha"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Ribafrecha",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Ribafrecha is a municipality of Rioja Oriental in La Rioja, in the Leza valley, about 13 km south-east of Logroño. Its land spans roughly 450 to 790 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-fuenmayor",
+   "country": "es",
+   "name": "Fuenmayor",
+   "match": [
+    "Fuenmayor",
+    "Rioja Fuenmayor"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Fuenmayor",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Fuenmayor is a municipality of Rioja Alta in La Rioja, on the Ebro west of Logroño, about 7 km east of Cenicero. Its land spans roughly 400 to 560 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. Bodegas Lan, Montecillo and AGE have large wineries here. Recognised viñedo singular: Vallemayor La Cerradilla.",
+   "producers": [
+    "Bodegas Lan",
+    "Montecillo"
+   ]
+  },
+  {
+   "id": "es-rioja-lagunilla-del-jubera",
+   "country": "es",
+   "name": "Lagunilla del Jubera",
+   "match": [
+    "Lagunilla del Jubera",
+    "Rioja Lagunilla del Jubera"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Lagunilla del Jubera",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Lagunilla del Jubera is a municipality of Rioja Oriental in La Rioja, in the Jubera valley, about 16 km south-east of Logroño. Its land spans roughly 490 to 1140 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-azagra",
+   "country": "es",
+   "name": "Azagra",
+   "match": [
+    "Azagra",
+    "Rioja Azagra"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Azagra",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Azagra is a municipality of Rioja Oriental in Navarra, on the north bank of the Ebro, about 7 km east of Calahorra. Its land spans roughly 280 to 400 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-san-asensio",
+   "country": "es",
+   "name": "San Asensio",
+   "match": [
+    "San Asensio",
+    "Rioja San Asensio"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "San Asensio",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "San Asensio is a municipality of Rioja Alta in La Rioja, on the Ebro terraces between Haro and Logroño, about 7 km west of Cenicero. Its land spans roughly 430 to 590 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. The village is the home of *clarete*, the light red made from mixed red and white grapes, and every July it holds a Batalla del Clarete. Recognised viñedos singulares include Reminde, La Isla, Finca Valdecarretas and Finca Santa Julita."
+  },
+  {
+   "id": "es-rioja-cenicero",
+   "country": "es",
+   "name": "Cenicero",
+   "match": [
+    "Cenicero",
+    "Rioja Cenicero"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cenicero",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cenicero is a municipality of Rioja Alta in La Rioja, on the Ebro between Haro and Logroño. Its land spans roughly 410 to 630 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. Bodegas Riojanas (1890), whose Monte Real brand gives its name to two viñedos singulares, and Marqués de Cáceres (1970) are based here. Recognised viñedos singulares include Fundación Maga, Cuartos Viejos, El Cejón, Los Paletones de Monte Real and El Plantizo de Monte Real.",
+   "producers": [
+    "Bodegas Riojanas",
+    "Marqués de Cáceres"
+   ]
+  },
+  {
+   "id": "es-rioja-pradejon",
+   "country": "es",
+   "name": "Pradejón",
+   "match": [
+    "Pradejón",
+    "Rioja Pradejón"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Pradejón",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Pradejón is a municipality of Rioja Oriental in La Rioja, on the plain south of the Ebro, about 7 km north-west of Calahorra. Its land spans roughly 320 to 420 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-alcanadre",
+   "country": "es",
+   "name": "Alcanadre",
+   "match": [
+    "Alcanadre",
+    "Rioja Alcanadre"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Alcanadre",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Alcanadre is a municipality of Rioja Oriental in La Rioja, on the Ebro, about 20 km north of Arnedo. Its land spans roughly 320 to 500 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-gravalos",
+   "country": "es",
+   "name": "Grávalos",
+   "match": [
+    "Grávalos",
+    "Rioja Grávalos"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Grávalos",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Grávalos is a municipality of Rioja Oriental in La Rioja, in the hills of the Alhama country, about 15 km south-east of Arnedo. Its land spans roughly 640 to 930 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-muro-de-aguas",
+   "country": "es",
+   "name": "Muro de Aguas",
+   "match": [
+    "Muro de Aguas",
+    "Rioja Muro de Aguas"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Muro de Aguas",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Muro de Aguas is a municipality of Rioja Oriental in La Rioja, high in the hills south of Arnedo. Its land spans roughly 800 to 1150 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-banares",
+   "country": "es",
+   "name": "Bañares",
+   "match": [
+    "Bañares",
+    "Rioja Bañares"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Bañares",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Bañares is a municipality of Rioja Alta in La Rioja, on the plain of the Oja near Santo Domingo de la Calzada. Its land spans roughly 570 to 640 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-priorat-porrera",
+   "country": "es",
+   "name": "Porrera",
+   "match": [
+    "Porrera",
+    "Priorat Porrera",
+    "Vi de Vila Porrera"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "Porrera",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "Porrera lies in a deep valley in the north-east of the DOQ, a village of old Carinyena vineyards on steep llicorella slopes. Its wines are often fresher and more aromatic than those of the warm Siurana valley, with Carinyena's acidity and a dark, mineral core.\n\nVall Llach, founded by the singer Lluís Llach, Sangenís i Vaqué and the Cims de Porrera project are based here.",
+   "terroir": "Steep llicorella slopes in a deep valley; old Carinyena vines. The mapped village area lies at about 260 to 670 m, with a mean slope of about 38% (Copernicus DEM).",
+   "producers": [
+    "Vall Llach",
+    "Sangenís i Vaqué"
+   ]
+  },
+  {
+   "id": "es-rioja-navarrete",
+   "country": "es",
+   "name": "Navarrete",
+   "match": [
+    "Navarrete",
+    "Rioja Navarrete"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Navarrete",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Navarrete is a municipality of Rioja Alta in La Rioja, on the Camino de Santiago west of Logroño, about 9 km south-east of Cenicero. Its land spans roughly 470 to 700 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. A Camino de Santiago town known for its pottery; Bodegas Corral is based here. Recognised viñedos singulares include Cerro Los Curas and Cejudas.",
+   "producers": [
+    "Bodegas Corral"
+   ]
+  },
+  {
+   "id": "es-rioja-bergasa",
+   "country": "es",
+   "name": "Bergasa",
+   "match": [
+    "Bergasa",
+    "Rioja Bergasa"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Bergasa",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Bergasa is a municipality of Rioja Oriental in La Rioja, in the Cidacos valley hills, about 4 km north-west of Arnedo. Its land spans roughly 570 to 1190 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-matute",
+   "country": "es",
+   "name": "Matute",
+   "match": [
+    "Matute",
+    "Rioja Matute"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Matute",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Matute is a municipality of Rioja Alta in La Rioja, in the valleys below the Sierra de la Demanda, about 14 km south of Nájera. Its land spans roughly 610 to 1350 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-bargota",
+   "country": "es",
+   "name": "Bargota",
+   "match": [
+    "Bargota",
+    "Rioja Bargota"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Bargota",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Bargota is a municipality of Rioja Oriental in Navarra, in the hills north of Viana, about 15 km north-east of Logroño. Its land spans roughly 380 to 720 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-nalda",
+   "country": "es",
+   "name": "Nalda",
+   "match": [
+    "Nalda",
+    "Rioja Nalda"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Nalda",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Nalda is a municipality of Rioja Oriental in La Rioja, in the Iregua valley, about 16 km south of Logroño. Its land spans roughly 530 to 1140 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-lanciego",
+   "country": "es",
+   "name": "Lanciego",
+   "match": [
+    "Lanciego",
+    "Lantziego",
+    "Rioja Lanciego"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Lanciego",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Lanciego is a municipality of Rioja Alavesa in Álava, in the eastern part of Rioja Alavesa below the sierra, about 7 km east of Laguardia. Its land spans roughly 420 to 640 m. As across Rioja Alavesa, Tempranillo dominates on pale clay-limestone, much of it farmed by small family growers. Recognised viñedos singulares include Vascomendi, Poncoles and Paraje de la Virgen."
+  },
+  {
+   "id": "es-rioja-albelda-de-iregua",
+   "country": "es",
+   "name": "Albelda de Iregua",
+   "match": [
+    "Albelda de Iregua",
+    "Rioja Albelda de Iregua"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Albelda de Iregua",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Albelda de Iregua is a municipality of Rioja Oriental in La Rioja, in the Iregua valley, about 11 km south of Logroño. Its land spans roughly 470 to 890 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant. The monastery of San Martín de Albelda produced the tenth-century Codex Albeldensis, one of the great manuscripts of medieval Spain."
+  },
+  {
+   "id": "es-rioja-foncea",
+   "country": "es",
+   "name": "Foncea",
+   "match": [
+    "Foncea",
+    "Rioja Foncea"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Foncea",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Foncea is a municipality of Rioja Alta in La Rioja, on the slopes of the Montes Obarenes at the western edge of the DOCa, about 17 km west of Haro. Its land spans roughly 630 to 950 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-huercanos",
+   "country": "es",
+   "name": "Huércanos",
+   "match": [
+    "Huércanos",
+    "Rioja Huércanos"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Huércanos",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Huércanos is a municipality of Rioja Alta in La Rioja, in the lower Najerilla country north of Nájera, about 5 km south-west of Cenicero. Its land spans roughly 500 to 670 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. Recognised viñedos singulares include Terroir de Zinio Parcela 624, Caudum Bodegas Larraz and Livius."
+  },
+  {
+   "id": "es-rioja-san-adrian",
+   "country": "es",
+   "name": "San Adrián",
+   "match": [
+    "San Adrián",
+    "Rioja San Adrián"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "San Adrián",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "San Adrián is a municipality of Rioja Oriental in Navarra, where the Ega meets the Ebro, about 7 km north-east of Calahorra. Its land spans roughly 290 to 420 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines. Recognised viñedo singular: Viña del Alto del Chupete."
+  },
+  {
+   "id": "es-rioja-entrena",
+   "country": "es",
+   "name": "Entrena",
+   "match": [
+    "Entrena",
+    "Rioja Entrena"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Entrena",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Entrena is a municipality of Rioja Alta in La Rioja, on the slopes of the Sierra de Moncalvillo south-west of Logroño. Its land spans roughly 500 to 610 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. Recognised viñedo singular: Ojuel Carrasojuela."
+  },
+  {
+   "id": "es-rioja-badaran",
+   "country": "es",
+   "name": "Badarán",
+   "match": [
+    "Badarán",
+    "Rioja Badarán"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Badarán",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Badarán is a municipality of Rioja Alta in La Rioja, in the Cárdenas valley, about 8 km south-west of Nájera. Its land spans roughly 580 to 750 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. Recognised viñedos singulares include Vado de la Reina, Viña El Moral, Alto Valdemorche and Proelio La Canal del Rojo."
+  },
+  {
+   "id": "es-rioja-lardero",
+   "country": "es",
+   "name": "Lardero",
+   "match": [
+    "Lardero",
+    "Rioja Lardero"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Lardero",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Lardero is a municipality of Rioja Alta in La Rioja, on the southern edge of Logroño. Its land spans roughly 420 to 560 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-villamediana-de-iregua",
+   "country": "es",
+   "name": "Villamediana de Iregua",
+   "match": [
+    "Villamediana de Iregua",
+    "Rioja Villamediana de Iregua"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Villamediana de Iregua",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Villamediana de Iregua is a municipality of Rioja Oriental in La Rioja, in the lower Iregua valley next to Logroño. Its land spans roughly 390 to 500 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha. Recognised viñedo singular: Sínodo Los Tollos."
+  },
+  {
+   "id": "es-rioja-camprovin",
+   "country": "es",
+   "name": "Camprovín",
+   "match": [
+    "Camprovín",
+    "Rioja Camprovín"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Camprovín",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Camprovín is a municipality of Rioja Alta in La Rioja, in the upper Najerilla country, about 8 km south of Nájera. Its land spans roughly 540 to 1030 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-alberite",
+   "country": "es",
+   "name": "Alberite",
+   "match": [
+    "Alberite",
+    "Rioja Alberite"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Alberite",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Alberite is a municipality of Rioja Oriental in La Rioja, in the lower Iregua valley, about 8 km south-east of Logroño. Its land spans roughly 430 to 540 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-santa-coloma",
+   "country": "es",
+   "name": "Santa Coloma",
+   "match": [
+    "Santa Coloma",
+    "Rioja Santa Coloma"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Santa Coloma",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Santa Coloma is a municipality of Rioja Alta in La Rioja, in the hills south-east of Nájera. Its land spans roughly 700 to 1310 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-rincon-de-soto",
+   "country": "es",
+   "name": "Rincón de Soto",
+   "match": [
+    "Rincón de Soto",
+    "Rioja Rincón de Soto"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Rincón de Soto",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Rincón de Soto is a municipality of Rioja Oriental in La Rioja, on the Ebro plain, about 10 km north-west of Alfaro. Its land spans roughly 280 to 350 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-clavijo",
+   "country": "es",
+   "name": "Clavijo",
+   "match": [
+    "Clavijo",
+    "Rioja Clavijo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Clavijo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Clavijo is a municipality of Rioja Oriental in La Rioja, on the hills south of Logroño, below its castle. Its land spans roughly 520 to 1010 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha. Legend places here the battle of 844 in which Saint James appeared to the Christian army, the origin of the Santiago Matamoros image."
+  },
+  {
+   "id": "es-rioja-cuzcurrita-de-rio-tiron",
+   "country": "es",
+   "name": "Cuzcurrita de Río Tirón",
+   "match": [
+    "Cuzcurrita de Río Tirón",
+    "Rioja Cuzcurrita de Río Tirón"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cuzcurrita de Río Tirón",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cuzcurrita de Río Tirón is a municipality of Rioja Alta in La Rioja, in the Tirón valley, below its castle, about 11 km west of Haro. Its land spans roughly 500 to 580 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. Its castle gives its name to the Castillo de Cuzcurrita winery and to two of its viñedos singulares. Recognised viñedos singulares include Cerrado del Castillo, El Tilo de Castillo de Cuzcurrita and Valle del Ángel.",
+   "producers": [
+    "Castillo de Cuzcurrita"
+   ]
+  },
+  {
+   "id": "es-rioja-tudelilla",
+   "country": "es",
+   "name": "Tudelilla",
+   "match": [
+    "Tudelilla",
+    "Rioja Tudelilla"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Tudelilla",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Tudelilla is a municipality of Rioja Oriental in La Rioja, on the slopes between the Cidacos and the Ebro, about 7 km north of Arnedo. Its land spans roughly 450 to 700 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant. Recognised viñedos singulares include Montepedriza and Proelio Los Aldares."
+  },
+  {
+   "id": "es-rioja-yecora",
+   "country": "es",
+   "name": "Yécora",
+   "match": [
+    "Yécora",
+    "Iekora",
+    "Rioja Yécora"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Yécora",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Yécora is a municipality of Rioja Alavesa in Álava, in the eastern part of Rioja Alavesa, about 9 km north of Logroño. Its land spans roughly 480 to 710 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo."
+  },
+  {
+   "id": "es-rioja-zarraton",
+   "country": "es",
+   "name": "Zarratón",
+   "match": [
+    "Zarratón",
+    "Rioja Zarratón"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Zarratón",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Zarratón is a municipality of Rioja Alta in La Rioja, on the plateau south of Haro. Its land spans roughly 520 to 590 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-el-villar-de-arnedo",
+   "country": "es",
+   "name": "El Villar de Arnedo",
+   "match": [
+    "El Villar de Arnedo",
+    "Rioja El Villar de Arnedo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "El Villar de Arnedo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "El Villar de Arnedo is a municipality of Rioja Oriental in La Rioja, in the lower Cidacos valley, about 10 km north of Arnedo. Its land spans roughly 370 to 460 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-abalos",
+   "country": "es",
+   "name": "Ábalos",
+   "match": [
+    "Ábalos",
+    "Rioja Ábalos"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Ábalos",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Ábalos is a municipality of Rioja Alta in La Rioja, on the north bank of the Ebro in the Sonsierra, below the Sierra de Cantabria, about 10 km west of Laguardia. Its land spans roughly 490 to 970 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. Puelles, a family estate, is based in the village. Recognised viñedos singulares include Puelles Zenus, Laderas del Portillo and La Artesilla de Leza García.",
+   "producers": [
+    "Puelles"
+   ]
+  },
+  {
+   "id": "es-rioja-aras",
+   "country": "es",
+   "name": "Aras",
+   "match": [
+    "Aras",
+    "Rioja Aras"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Aras",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Aras is a municipality of Rioja Oriental in Navarra, in the hills north of Viana, about 13 km north-east of Logroño. Its land spans roughly 560 to 780 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-banos-de-rio-tobia",
+   "country": "es",
+   "name": "Baños de Río Tobía",
+   "match": [
+    "Baños de Río Tobía",
+    "Rioja Baños de Río Tobía"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Baños de Río Tobía",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Baños de Río Tobía is a municipality of Rioja Alta in La Rioja, in the Najerilla valley, where the river leaves the Sierra de la Demanda, about 9 km south of Nájera. Its land spans roughly 540 to 780 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. Recognised viñedos singulares include Cerro La Isa and Proelio Valdesabril."
+  },
+  {
+   "id": "es-rioja-elvillar",
+   "country": "es",
+   "name": "Elvillar",
+   "match": [
+    "Elvillar",
+    "Bilar",
+    "Rioja Elvillar"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Elvillar",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Elvillar is a municipality of Rioja Alavesa in Álava, on the high slopes below the Sierra de Cantabria, about 4 km north-east of Laguardia. Its land spans roughly 440 to 670 m. As across Rioja Alavesa, Tempranillo dominates on pale clay-limestone, much of it farmed by small family growers. The Neolithic dolmen of La Chabola de la Hechicera stands among its vineyards. Recognised viñedos singulares include Laukote Gaubela, Ansa, Recocinas, Ysios Finca El Nogal, Ysios Finca Las Naves, Selva Negra and Viñedo Cero."
+  },
+  {
+   "id": "es-rioja-alesanco",
+   "country": "es",
+   "name": "Alesanco",
+   "match": [
+    "Alesanco",
+    "Rioja Alesanco"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Alesanco",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Alesanco is a municipality of Rioja Alta in La Rioja, on the plain west of Nájera. Its land spans roughly 550 to 660 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-herce",
+   "country": "es",
+   "name": "Herce",
+   "match": [
+    "Herce",
+    "Rioja Herce"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Herce",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Herce is a municipality of Rioja Oriental in La Rioja, in the upper Cidacos valley, about 5 km west of Arnedo. Its land spans roughly 570 to 1250 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-fonzaleche",
+   "country": "es",
+   "name": "Fonzaleche",
+   "match": [
+    "Fonzaleche",
+    "Rioja Fonzaleche"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Fonzaleche",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Fonzaleche is a municipality of Rioja Alta in La Rioja, in the upper Tirón valley, about 13 km west of Haro. Its land spans roughly 510 to 640 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. Recognised viñedo singular: Pretium."
+  },
+  {
+   "id": "es-rioja-elciego",
+   "country": "es",
+   "name": "Elciego",
+   "match": [
+    "Elciego",
+    "Rioja Elciego"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Elciego",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Elciego is a municipality of Rioja Alavesa in Álava, on the terraces above the north bank of the Ebro, about 4 km north-east of Cenicero. Its land spans roughly 400 to 520 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo. Marqués de Riscal, founded in 1858 and one of the pioneers of Bordeaux methods in Rioja, built Frank Gehry's titanium-ribboned hotel here in 2006. Recognised viñedos singulares include Finca Santa Cruz, Finca Senda de las Damas, Finca Mata Lobos, Finca Tronco Negro, Finca Río del Valle, Tapias de Marqués de Riscal, Marqués de Elciego, El Guardián de la Viña and Finca El Alguacil.",
+   "producers": [
+    "Marqués de Riscal",
+    "Bodegas Valdelana"
+   ]
+  },
+  {
+   "id": "es-rioja-estollo",
+   "country": "es",
+   "name": "Estollo",
+   "match": [
+    "Estollo",
+    "Rioja Estollo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Estollo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Estollo is a municipality of Rioja Alta in La Rioja, below the Sierra de la Demanda, about 13 km south-west of Nájera. Its land spans roughly 710 to 1400 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-hormilla",
+   "country": "es",
+   "name": "Hormilla",
+   "match": [
+    "Hormilla",
+    "Rioja Hormilla"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Hormilla",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Hormilla is a municipality of Rioja Alta in La Rioja, in the Najerilla country west of Nájera. Its land spans roughly 500 to 660 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-cidamon",
+   "country": "es",
+   "name": "Cidamón",
+   "match": [
+    "Cidamón",
+    "Rioja Cidamón"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cidamón",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cidamón is a municipality of Rioja Alta in La Rioja, on the plateau south of Haro, about 9 km north-east of Santo Domingo de la Calzada. Its land spans roughly 560 to 640 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-galbarruli",
+   "country": "es",
+   "name": "Galbárruli",
+   "match": [
+    "Galbárruli",
+    "Rioja Galbárruli"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Galbárruli",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Galbárruli is a municipality of Rioja Alta in La Rioja, in the foothills of the Montes Obarenes, about 10 km north-west of Haro. Its land spans roughly 550 to 890 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-priorat-masos-de-falset",
+   "country": "es",
+   "name": "Masos de Falset",
+   "match": [
+    "Masos de Falset",
+    "Priorat Masos de Falset",
+    "Vi de Vila Masos de Falset"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "Masos de Falset",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "The part of Falset that belongs to the DOQ Priorat, around the scattered farmhouses (*masos*) north of the town; the rest of Falset, the capital of the Priorat comarca, is in DO Montsant. Its vineyards sit on llicorella at the southern edge of the DOQ.",
+   "terroir": "The mapped village area lies at about 200 to 535 m, with a mean slope of about 32% (Copernicus DEM)."
+  },
+  {
+   "id": "es-rioja-berceo",
+   "country": "es",
+   "name": "Berceo",
+   "match": [
+    "Berceo",
+    "Rioja Berceo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Berceo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Berceo is a municipality of Rioja Alta in La Rioja, below the Sierra de la Demanda, about 18 km south of Santo Domingo de la Calzada. Its land spans roughly 660 to 1490 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. It is the birthplace of Gonzalo de Berceo, the first poet known by name to write in Castilian, near the monasteries of San Millán."
+  },
+  {
+   "id": "es-rioja-sojuela",
+   "country": "es",
+   "name": "Sojuela",
+   "match": [
+    "Sojuela",
+    "Rioja Sojuela"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Sojuela",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Sojuela is a municipality of Rioja Alta in La Rioja, on the slopes of the Sierra de Moncalvillo, about 15 km south-west of Logroño. Its land spans roughly 620 to 1290 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. Recognised viñedo singular: Ojuel Cerrosojón."
+  },
+  {
+   "id": "es-rioja-sartaguda",
+   "country": "es",
+   "name": "Sartaguda",
+   "match": [
+    "Sartaguda",
+    "Rioja Sartaguda"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Sartaguda",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Sartaguda is a municipality of Rioja Oriental in Navarra, on the north bank of the Ebro, about 11 km north-west of Calahorra. Its land spans roughly 300 to 410 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-sotes",
+   "country": "es",
+   "name": "Sotés",
+   "match": [
+    "Sotés",
+    "Rioja Sotés"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Sotés",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Sotés is a municipality of Rioja Alta in La Rioja, in the hills between Navarrete and Nájera, about 8 km south-east of Cenicero. Its land spans roughly 570 to 1000 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-rodezno",
+   "country": "es",
+   "name": "Rodezno",
+   "match": [
+    "Rodezno",
+    "Rioja Rodezno"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Rodezno",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Rodezno is a municipality of Rioja Alta in La Rioja, in the rolling country south of Haro. Its land spans roughly 500 to 590 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-priorat-escaladei",
+   "country": "es",
+   "name": "Escaladei",
+   "match": [
+    "Escaladei",
+    "Priorat Escaladei",
+    "Vi de Vila Escaladei"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "Escaladei",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "The hamlet beside the Cartoixa d'Escaladei, the first Carthusian monastery of the Iberian Peninsula, founded in 1194 below the cliffs of the Montsant. The monks planted the vineyards that gave the Priorat (the 'priory') its name and ran the region until the monastery was dissolved in 1835. The vineyards here are among the highest of the DOQ, with fresher Garnatxa; Scala Dei is the historic winery.",
+   "terroir": "The mapped village area lies at about 395 to 970 m, with a mean slope of about 38% (Copernicus DEM).",
+   "producers": [
+    "Scala Dei"
+   ],
+   "nerd_note": "Escaladei means 'ladder of God', from the legend of a shepherd who saw angels climbing a ladder to heaven from a pine tree here."
+  },
+  {
+   "id": "es-rioja-hervias",
+   "country": "es",
+   "name": "Hervías",
+   "match": [
+    "Hervías",
+    "Rioja Hervías"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Hervías",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Hervías is a municipality of Rioja Alta in La Rioja, on the plain north-east of Santo Domingo de la Calzada. Its land spans roughly 600 to 680 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-priorat-poboleda",
+   "country": "es",
+   "name": "Poboleda",
+   "match": [
+    "Poboleda",
+    "Priorat Poboleda",
+    "Vi de Vila Poboleda"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "Poboleda",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "Poboleda sits in the upper Siurana valley at the foot of the Montsant cliffs, in the north of the DOQ, where the llicorella slopes are a little higher and cooler. Mas Doix, whose old-vine Carinyena from Poboleda is a reference, is based here.",
+   "terroir": "The mapped village area lies at about 320 to 635 m, with a mean slope of about 34% (Copernicus DEM).",
+   "producers": [
+    "Mas Doix"
+   ]
+  },
+  {
+   "id": "es-rioja-sajazarra",
+   "country": "es",
+   "name": "Sajazarra",
+   "match": [
+    "Sajazarra",
+    "Rioja Sajazarra"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Sajazarra",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Sajazarra is a municipality of Rioja Alta in La Rioja, in the Tirón valley, around a fifteenth-century castle, about 9 km west of Haro. Its land spans roughly 500 to 730 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-urunuela",
+   "country": "es",
+   "name": "Uruñuela",
+   "match": [
+    "Uruñuela",
+    "Rioja Uruñuela"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Uruñuela",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Uruñuela is a municipality of Rioja Alta in La Rioja, in the lower Najerilla valley, about 5 km north-east of Nájera. Its land spans roughly 450 to 550 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. Bodegas Leza García is based here. Recognised viñedos singulares include Sínodo Raposeras, Sínodo Centales, Los Topos by Leza García and Los Natos de Leza García.",
+   "producers": [
+    "Bodegas Leza García"
+   ]
+  },
+  {
+   "id": "es-priorat-gratallops",
+   "country": "es",
+   "name": "Gratallops",
+   "match": [
+    "Gratallops",
+    "Priorat Gratallops",
+    "Vi de Vila Gratallops"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "Gratallops",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "Gratallops is where modern Priorat began. In 1989 René Barbier, Álvaro Palacios, Carles Pastrana, Josep Lluís Pérez and Daphne Glorian pooled their grapes in the village to make the first 'Clos' wines, and within a decade Clos Mogador, Clos Erasmus, Clos de l'Obac and Palacios's L'Ermita and Finca Dofí had made Priorat world-famous. The village sits on a ridge above the Siurana river, surrounded by steep terraces of *llicorella*, the dark, crumbling slate that forces vines to root deep and gives the wines their mineral grip.\n\nOld Garnatxa and Carinyena, often blended with Syrah and Cabernet in the early years, give dense, warm wines with a stony, graphite edge.",
+   "terroir": "Steep llicorella (slate) terraces above the Siurana. The mapped village area lies at about 150 to 340 m, with a mean slope of about 29% (Copernicus DEM).",
+   "producers": [
+    "Clos Mogador",
+    "Álvaro Palacios (L'Ermita, Finca Dofí)",
+    "Clos Erasmus",
+    "Costers del Siurana (Clos de l'Obac)"
+   ],
+   "nerd_note": "Álvaro Palacios's L'Ermita, from a steep slope of old Garnatxa, is one of Spain's most expensive wines."
+  },
+  {
+   "id": "es-priorat-torroja-del-priorat",
+   "country": "es",
+   "name": "Torroja del Priorat",
+   "match": [
+    "Torroja del Priorat",
+    "Priorat Torroja del Priorat",
+    "Vi de Vila Torroja del Priorat"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "Torroja del Priorat",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "A hilltop village in the centre of the DOQ, surrounded by steep llicorella terraces and old vines. Dominik Huber's Terroir al Límit, which made lighter, whole-bunch, less extracted wines here from the mid-2000s, changed ideas of what Priorat could taste like.",
+   "terroir": "The mapped village area lies at about 255 to 510 m, with a mean slope of about 32% (Copernicus DEM).",
+   "producers": [
+    "Terroir al Límit"
+   ]
+  },
+  {
+   "id": "es-rioja-leiva",
+   "country": "es",
+   "name": "Leiva",
+   "match": [
+    "Leiva",
+    "Rioja Leiva"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Leiva",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Leiva is a municipality of Rioja Alta in La Rioja, in the upper Tirón valley, about 11 km north-west of Santo Domingo de la Calzada. Its land spans roughly 580 to 660 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-kripan",
+   "country": "es",
+   "name": "Kripan",
+   "match": [
+    "Kripan",
+    "Rioja Kripan"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Kripan",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Kripan is a municipality of Rioja Alavesa in Álava, high on the slopes below the Sierra de Cantabria, about 8 km north-east of Laguardia. Its land spans roughly 600 to 1000 m. As across Rioja Alavesa, Tempranillo dominates on pale clay-limestone, much of it farmed by small family growers."
+  },
+  {
+   "id": "es-rioja-cellorigo",
+   "country": "es",
+   "name": "Cellorigo",
+   "match": [
+    "Cellorigo",
+    "Rioja Cellorigo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cellorigo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cellorigo is a municipality of Rioja Alta in La Rioja, on the slopes of the Montes Obarenes, the westernmost edge of the DOCa, about 14 km north-west of Haro. Its land spans roughly 580 to 810 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-ciruena",
+   "country": "es",
+   "name": "Cirueña",
+   "match": [
+    "Cirueña",
+    "Rioja Cirueña"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cirueña",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cirueña is a municipality of Rioja Alta in La Rioja, on the plain between Nájera and Santo Domingo de la Calzada. Its land spans roughly 600 to 750 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-villar-de-torre",
+   "country": "es",
+   "name": "Villar de Torre",
+   "match": [
+    "Villar de Torre",
+    "Rioja Villar de Torre"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Villar de Torre",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Villar de Torre is a municipality of Rioja Alta in La Rioja, in the foothills of the Sierra de la Demanda, about 11 km south-east of Santo Domingo de la Calzada. Its land spans roughly 690 to 1140 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-azofra",
+   "country": "es",
+   "name": "Azofra",
+   "match": [
+    "Azofra",
+    "Rioja Azofra"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Azofra",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Azofra is a municipality of Rioja Alta in La Rioja, on the Camino de Santiago west of Nájera. Its land spans roughly 520 to 640 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-villarroya",
+   "country": "es",
+   "name": "Villarroya",
+   "match": [
+    "Villarroya",
+    "Rioja Villarroya"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Villarroya",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Villarroya is a municipality of Rioja Oriental in La Rioja, high in the hills south of Arnedo. Its land spans roughly 820 to 1040 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-ochanduri",
+   "country": "es",
+   "name": "Ochánduri",
+   "match": [
+    "Ochánduri",
+    "Rioja Ochánduri"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Ochánduri",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Ochánduri is a municipality of Rioja Alta in La Rioja, in the Tirón valley, about 11 km north-west of Santo Domingo de la Calzada. Its land spans roughly 540 to 610 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-daroca-de-rioja",
+   "country": "es",
+   "name": "Daroca de Rioja",
+   "match": [
+    "Daroca de Rioja",
+    "Rioja Daroca de Rioja"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Daroca de Rioja",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Daroca de Rioja is a municipality of Rioja Alta in La Rioja, high on the slopes of the Sierra de Moncalvillo, about 13 km south-east of Nájera. Its land spans roughly 710 to 1390 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-leza-de-rio-leza",
+   "country": "es",
+   "name": "Leza de Río Leza",
+   "match": [
+    "Leza de Río Leza",
+    "Rioja Leza de Río Leza"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Leza de Río Leza",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Leza de Río Leza is a municipality of Rioja Oriental in La Rioja, in the Leza valley, about 15 km south of Logroño. Its land spans roughly 530 to 1020 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-tormantos",
+   "country": "es",
+   "name": "Tormantos",
+   "match": [
+    "Tormantos",
+    "Rioja Tormantos"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Tormantos",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Tormantos is a municipality of Rioja Alta in La Rioja, at the western edge of the zone near Burgos, about 11 km north-west of Santo Domingo de la Calzada. Its land spans roughly 600 to 720 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-castanares-de-rioja",
+   "country": "es",
+   "name": "Castañares de Rioja",
+   "match": [
+    "Castañares de Rioja",
+    "Rioja Castañares de Rioja"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Castañares de Rioja",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Castañares de Rioja is a municipality of Rioja Alta in La Rioja, in the Oja valley, about 8 km north of Santo Domingo de la Calzada. Its land spans roughly 520 to 560 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-herramelluri",
+   "country": "es",
+   "name": "Herramélluri",
+   "match": [
+    "Herramélluri",
+    "Rioja Herramélluri"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Herramélluri",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Herramélluri is a municipality of Rioja Alta in La Rioja, in the upper Tirón valley, about 8 km north-west of Santo Domingo de la Calzada. Its land spans roughly 560 to 620 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-san-millan-de-yecora",
+   "country": "es",
+   "name": "San Millán de Yécora",
+   "match": [
+    "San Millán de Yécora",
+    "Rioja San Millán de Yécora"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "San Millán de Yécora",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "San Millán de Yécora is a municipality of Rioja Alta in La Rioja, at the western edge of the zone near Burgos, about 17 km north-west of Santo Domingo de la Calzada. Its land spans roughly 660 to 780 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-san-torcuato",
+   "country": "es",
+   "name": "San Torcuato",
+   "match": [
+    "San Torcuato",
+    "Rioja San Torcuato"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "San Torcuato",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "San Torcuato is a municipality of Rioja Alta in La Rioja, on the plateau between the Oja and the Najerilla, about 7 km north-east of Santo Domingo de la Calzada. Its land spans roughly 560 to 630 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-samaniego",
+   "country": "es",
+   "name": "Samaniego",
+   "match": [
+    "Samaniego",
+    "Rioja Samaniego"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Samaniego",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Samaniego is a municipality of Rioja Alavesa in Álava, on the slopes below the Sierra de Cantabria, about 7 km west of Laguardia. Its land spans roughly 520 to 1000 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo. Remírez de Ganuza, Bodegas Baigorri (in a glass-fronted winery built into the hillside) and Ostatu are based here. Recognised viñedos singulares include Gloria de Ostatu, Viña Chelus, El Cristo de Samaniego, Prodenero, Liorro and Las 3 Carreteras.",
+   "producers": [
+    "Remírez de Ganuza",
+    "Bodegas Baigorri",
+    "Ostatu"
+   ]
+  },
+  {
+   "id": "es-rioja-sorzano",
+   "country": "es",
+   "name": "Sorzano",
+   "match": [
+    "Sorzano",
+    "Rioja Sorzano"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Sorzano",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Sorzano is a municipality of Rioja Alta in La Rioja, on the slopes of the Sierra de Moncalvillo, about 15 km south-west of Logroño. Its land spans roughly 630 to 860 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-leza",
+   "country": "es",
+   "name": "Leza",
+   "match": [
+    "Leza",
+    "Rioja Leza"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Leza",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Leza is a municipality of Rioja Alavesa in Álava, on the slopes below the Sierra de Cantabria, about 5 km west of Laguardia. Its land spans roughly 540 to 870 m. As across Rioja Alavesa, Tempranillo dominates on pale clay-limestone, much of it farmed by small family growers. The Bideona name appears on several viñedos singulares here and in neighbouring villages. Recognised viñedos singulares include Finca La Medika, Carraquintana, 11 Fanegas, Carralaguardia Bideona, Cofrades Bideona and Los Salbos Bideona."
+  },
+  {
+   "id": "es-rioja-cihuri",
+   "country": "es",
+   "name": "Cihuri",
+   "match": [
+    "Cihuri",
+    "Rioja Cihuri"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cihuri",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cihuri is a municipality of Rioja Alta in La Rioja, in the Tirón valley, about 7 km west of Haro. Its land spans roughly 480 to 540 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-bergasillas-bajera",
+   "country": "es",
+   "name": "Bergasillas Bajera",
+   "match": [
+    "Bergasillas Bajera",
+    "Rioja Bergasillas Bajera"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Bergasillas Bajera",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Bergasillas Bajera is a municipality of Rioja Oriental in La Rioja, in the Cidacos valley hills, about 7 km north-west of Arnedo. Its land spans roughly 770 to 1170 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-canas",
+   "country": "es",
+   "name": "Cañas",
+   "match": [
+    "Cañas",
+    "Rioja Cañas"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cañas",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cañas is a municipality of Rioja Alta in La Rioja, in the valleys below the Sierra de la Demanda, about 8 km south-east of Santo Domingo de la Calzada. Its land spans roughly 640 to 770 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. The Cistercian abbey of Santa María de Cañas, founded in the twelfth century, still houses a community of nuns."
+  },
+  {
+   "id": "es-rioja-galilea",
+   "country": "es",
+   "name": "Galilea",
+   "match": [
+    "Galilea",
+    "Rioja Galilea"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Galilea",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Galilea is a municipality of Rioja Oriental in La Rioja, in the hills south of the Ebro, about 20 km north-west of Arnedo. Its land spans roughly 420 to 660 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-ventosa",
+   "country": "es",
+   "name": "Ventosa",
+   "match": [
+    "Ventosa",
+    "Rioja Ventosa"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Ventosa",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Ventosa is a municipality of Rioja Alta in La Rioja, on the Camino de Santiago between Navarrete and Nájera. Its land spans roughly 610 to 860 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-banos-de-ebro",
+   "country": "es",
+   "name": "Baños de Ebro",
+   "match": [
+    "Baños de Ebro",
+    "Mañueta",
+    "Rioja Baños de Ebro"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Baños de Ebro",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Baños de Ebro is a municipality of Rioja Alavesa in Álava, on the north bank of the Ebro, about 5 km north-west of Cenicero. Its land spans roughly 420 to 520 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo. Recognised viñedos singulares include Las Laderas de José Luis, Cantogordo, Los Coloraos, La Ventanilla Bideona and JMA Tan Antiguo y Tan Nuevo."
+  },
+  {
+   "id": "es-rioja-banos-de-rioja",
+   "country": "es",
+   "name": "Baños de Rioja",
+   "match": [
+    "Baños de Rioja",
+    "Rioja Baños de Rioja"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Baños de Rioja",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Baños de Rioja is a municipality of Rioja Alta in La Rioja, in the Oja valley, about 8 km north of Santo Domingo de la Calzada. Its land spans roughly 540 to 630 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. Bodegas Hermanos Hernáiz's Finca La Emperatriz is here. Recognised viñedo singular: Finca La Emperatriz.",
+   "producers": [
+    "Finca La Emperatriz"
+   ]
+  },
+  {
+   "id": "es-rioja-tirgo",
+   "country": "es",
+   "name": "Tirgo",
+   "match": [
+    "Tirgo",
+    "Rioja Tirgo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Tirgo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Tirgo is a municipality of Rioja Alta in La Rioja, in the lower Tirón valley, about 9 km south-west of Haro. Its land spans roughly 500 to 550 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-priorat-bellmunt-del-priorat",
+   "country": "es",
+   "name": "Bellmunt del Priorat",
+   "match": [
+    "Bellmunt del Priorat",
+    "Priorat Bellmunt del Priorat",
+    "Vi de Vila Bellmunt del Priorat"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "Bellmunt del Priorat",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "A village in the south of the DOQ, the lowest and warmest part of the area, once a lead-mining centre whose mine is now a museum. Its vineyards mix llicorella with other soils and give ripe, generous wines; Mas d'en Gil is based here.",
+   "terroir": "The mapped village area lies at about 105 to 325 m, with a mean slope of about 27% (Copernicus DEM).",
+   "producers": [
+    "Mas d'en Gil"
+   ]
+  },
+  {
+   "id": "es-rioja-villalba-de-rioja",
+   "country": "es",
+   "name": "Villalba de Rioja",
+   "match": [
+    "Villalba de Rioja",
+    "Rioja Villalba de Rioja"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Villalba de Rioja",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Villalba de Rioja is a municipality of Rioja Alta in La Rioja, in the foothills of the Montes Obarenes north-west of Haro. Its land spans roughly 500 to 780 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-navaridas",
+   "country": "es",
+   "name": "Navaridas",
+   "match": [
+    "Navaridas",
+    "Rioja Navaridas"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Navaridas",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Navaridas is a municipality of Rioja Alavesa in Álava, on the terraces between the sierra and the Ebro, about 4 km south-west of Laguardia. Its land spans roughly 480 to 550 m. As across Rioja Alavesa, Tempranillo dominates on pale clay-limestone, much of it farmed by small family growers. Recognised viñedos singulares include Finca La Pared de los Curas, Finca Matacabras, La Viña de Plácido and Finca Riojanda."
+  },
+  {
+   "id": "es-rioja-moreda-de-alava",
+   "country": "es",
+   "name": "Moreda de Álava",
+   "match": [
+    "Moreda de Álava",
+    "Moreda Araba",
+    "Rioja Moreda de Álava"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Moreda de Álava",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Moreda de Álava is a municipality of Rioja Alavesa in Álava, at the eastern edge of Rioja Alavesa, about 8 km north of Logroño. Its land spans roughly 440 to 530 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo. Recognised viñedo singular: Finca Peñarcón (Grupo Piérola)."
+  },
+  {
+   "id": "es-rioja-villabuena-de-alava",
+   "country": "es",
+   "name": "Villabuena de Álava",
+   "match": [
+    "Villabuena de Álava",
+    "Eskuernaga",
+    "Rioja Villabuena de Álava"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Villabuena de Álava",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Villabuena de Álava is a municipality of Rioja Alavesa in Álava, on the terraces between the sierra and the Ebro, about 7 km west of Laguardia. Its land spans roughly 460 to 540 m. As across Rioja Alavesa, Tempranillo dominates on pale clay-limestone, much of it farmed by small family growers. It has one of the highest numbers of wineries per inhabitant in Spain; Luis Cañas and Izadi are based here. Recognised viñedos singulares include El Regalo, Finca El Palacio, El Regollar, Ribagaitas, Camino Leza, El Orgullo de Julián, El Cuartillo de Araico, Finca El Ribazo and Alto los Muertos Bideona.",
+   "producers": [
+    "Luis Cañas",
+    "Izadi"
+   ]
+  },
+  {
+   "id": "es-rioja-arenzana-de-abajo",
+   "country": "es",
+   "name": "Arenzana de Abajo",
+   "match": [
+    "Arenzana de Abajo",
+    "Rioja Arenzana de Abajo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Arenzana de Abajo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Arenzana de Abajo is a municipality of Rioja Alta in La Rioja, in the Najerilla valley south of Nájera. Its land spans roughly 520 to 700 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-el-redal",
+   "country": "es",
+   "name": "El Redal",
+   "match": [
+    "El Redal",
+    "Rioja El Redal"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "El Redal",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "El Redal is a municipality of Rioja Oriental in La Rioja, in the hills between the Jubera and the Ebro, about 15 km north-west of Arnedo. Its land spans roughly 420 to 600 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-rioja-santa-eulalia-bajera",
+   "country": "es",
+   "name": "Santa Eulalia Bajera",
+   "match": [
+    "Santa Eulalia Bajera",
+    "Rioja Santa Eulalia Bajera"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Santa Eulalia Bajera",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Santa Eulalia Bajera is a municipality of Rioja Oriental in La Rioja, in the hills of the upper Cidacos, about 8 km west of Arnedo. Its land spans roughly 600 to 1210 m. In the Mediterranean-influenced Rioja Oriental, Tempranillo and Garnacha ripen fully, giving generous, supple wines."
+  },
+  {
+   "id": "es-rioja-corera",
+   "country": "es",
+   "name": "Corera",
+   "match": [
+    "Corera",
+    "Rioja Corera"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Corera",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Corera is a municipality of Rioja Oriental in La Rioja, in the hills south of the Ebro, about 17 km north-west of Arnedo. Its land spans roughly 420 to 580 m. Its vineyards share the warm, dry climate of Rioja Oriental, the traditional home of Garnacha."
+  },
+  {
+   "id": "es-rioja-casalarreina",
+   "country": "es",
+   "name": "Casalarreina",
+   "match": [
+    "Casalarreina",
+    "Rioja Casalarreina"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Casalarreina",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Casalarreina is a municipality of Rioja Alta in La Rioja, in the lower Oja valley, about 6 km south-west of Haro. Its land spans roughly 490 to 530 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-medrano",
+   "country": "es",
+   "name": "Medrano",
+   "match": [
+    "Medrano",
+    "Rioja Medrano"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Medrano",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Medrano is a municipality of Rioja Alta in La Rioja, in the foothills of the Sierra de Moncalvillo, about 13 km south-west of Logroño. Its land spans roughly 510 to 720 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils. Recognised viñedos singulares include Antanares, Viña Macua, Cerro Mirabuenas and Pregosos."
+  },
+  {
+   "id": "es-rioja-hormilleja",
+   "country": "es",
+   "name": "Hormilleja",
+   "match": [
+    "Hormilleja",
+    "Rioja Hormilleja"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Hormilleja",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Hormilleja is a municipality of Rioja Alta in La Rioja, in the lower Najerilla valley, about 5 km north of Nájera. Its land spans roughly 450 to 600 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-hornos-de-moncalvillo",
+   "country": "es",
+   "name": "Hornos de Moncalvillo",
+   "match": [
+    "Hornos de Moncalvillo",
+    "Rioja Hornos de Moncalvillo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Hornos de Moncalvillo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Hornos de Moncalvillo is a municipality of Rioja Alta in La Rioja, below the Sierra de Moncalvillo, about 11 km south-east of Cenicero. Its land spans roughly 580 to 750 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-arrubal",
+   "country": "es",
+   "name": "Arrúbal",
+   "match": [
+    "Arrúbal",
+    "Rioja Arrúbal"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Oriental",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Arrúbal",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Arrúbal is a municipality of Rioja Oriental in La Rioja, on the Ebro east of Logroño. Its land spans roughly 340 to 400 m. Rioja Oriental is warmer and drier, with Garnacha as the traditional grape and Tempranillo now dominant."
+  },
+  {
+   "id": "es-priorat-el-lloar",
+   "country": "es",
+   "name": "El Lloar",
+   "match": [
+    "El Lloar",
+    "Priorat El Lloar",
+    "Vi de Vila El Lloar"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "El Lloar",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "A small village perched above the Siurana river in the west of the DOQ, with steep llicorella slopes falling to the river. Its wines share the dark, mineral character of the Siurana valley.",
+   "terroir": "The mapped village area lies at about 160 to 460 m, with a mean slope of about 32% (Copernicus DEM)."
+  },
+  {
+   "id": "es-rioja-aleson",
+   "country": "es",
+   "name": "Alesón",
+   "match": [
+    "Alesón",
+    "Rioja Alesón"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Alesón",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Alesón is a municipality of Rioja Alta in La Rioja, in the Najerilla valley east of Nájera. Its land spans roughly 550 to 660 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-villarejo",
+   "country": "es",
+   "name": "Villarejo",
+   "match": [
+    "Villarejo",
+    "Rioja Villarejo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Villarejo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Villarejo is a municipality of Rioja Alta in La Rioja, in the foothills of the Sierra de la Demanda, about 9 km south-east of Santo Domingo de la Calzada. Its land spans roughly 740 to 1220 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-tricio",
+   "country": "es",
+   "name": "Tricio",
+   "match": [
+    "Tricio",
+    "Rioja Tricio"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Tricio",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Tricio is a municipality of Rioja Alta in La Rioja, beside Nájera on the Najerilla. Its land spans roughly 510 to 580 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. The Roman town of Tritium Magallum stood here; the hermitage of Santa María de Arcos reuses Roman columns."
+  },
+  {
+   "id": "es-rioja-manjarres",
+   "country": "es",
+   "name": "Manjarrés",
+   "match": [
+    "Manjarrés",
+    "Rioja Manjarrés"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Manjarrés",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Manjarrés is a municipality of Rioja Alta in La Rioja, in the hills south-east of Nájera. Its land spans roughly 610 to 720 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-lapuebla-de-labarca",
+   "country": "es",
+   "name": "Lapuebla de Labarca",
+   "match": [
+    "Lapuebla de Labarca",
+    "Rioja Lapuebla de Labarca"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alavesa",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Lapuebla de Labarca",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Lapuebla de Labarca is a municipality of Rioja Alavesa in Álava, on the north bank of the Ebro, about 6 km south of Laguardia. Its land spans roughly 400 to 530 m. Rioja Alavesa's chalky clay-limestone and the shelter of the sierra give fine, perfumed Tempranillo."
+  },
+  {
+   "id": "es-rioja-arenzana-de-arriba",
+   "country": "es",
+   "name": "Arenzana de Arriba",
+   "match": [
+    "Arenzana de Arriba",
+    "Rioja Arenzana de Arriba"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Arenzana de Arriba",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Arenzana de Arriba is a municipality of Rioja Alta in La Rioja, in the Najerilla valley south of Nájera. Its land spans roughly 580 to 790 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. Recognised viñedo singular: El Muño."
+  },
+  {
+   "id": "es-priorat-la-vilella-baixa",
+   "country": "es",
+   "name": "La Vilella Baixa",
+   "match": [
+    "La Vilella Baixa",
+    "Priorat La Vilella Baixa",
+    "Vi de Vila La Vilella Baixa"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "La Vilella Baixa",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "A village squeezed into a narrow gorge where the Montsant river meets a tributary, nicknamed 'the little New York of the Priorat' for its tall, narrow houses. Its vineyards climb the llicorella slopes above.",
+   "terroir": "The mapped village area lies at about 195 to 410 m, with a mean slope of about 33% (Copernicus DEM)."
+  },
+  {
+   "id": "es-priorat-la-vilella-alta",
+   "country": "es",
+   "name": "La Vilella Alta",
+   "match": [
+    "La Vilella Alta",
+    "Priorat La Vilella Alta",
+    "Vi de Vila La Vilella Alta"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "La Vilella Alta",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena (at least 60% together), with Garnacha Blanca for white",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Grapes from that zone only, yield at most 5,000 kg/ha for red, at least 60% Garnacha and/or Cariñena.",
+   "summary": "A small village in the centre of the DOQ, on the slopes above the Montsant river, with old vineyards on llicorella. Mas Alta is based here.",
+   "terroir": "The mapped village area lies at about 265 to 480 m, with a mean slope of about 34% (Copernicus DEM).",
+   "producers": [
+    "Mas Alta"
+   ]
+  },
+  {
+   "id": "es-rioja-anguciana",
+   "country": "es",
+   "name": "Anguciana",
+   "match": [
+    "Anguciana",
+    "Rioja Anguciana"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Anguciana",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Anguciana is a municipality of Rioja Alta in La Rioja, where the Oja meets the Tirón, just south-west of Haro. Its land spans roughly 470 to 490 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-torremontalbo",
+   "country": "es",
+   "name": "Torremontalbo",
+   "match": [
+    "Torremontalbo",
+    "Rioja Torremontalbo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Torremontalbo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Torremontalbo is a municipality of Rioja Alta in La Rioja, where the Najerilla joins the Ebro, about 5 km north-west of Cenicero. Its land spans roughly 410 to 480 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-bobadilla",
+   "country": "es",
+   "name": "Bobadilla",
+   "match": [
+    "Bobadilla",
+    "Rioja Bobadilla"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Bobadilla",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Bobadilla is a municipality of Rioja Alta in La Rioja, in the upper Najerilla valley, about 11 km south of Nájera. Its land spans roughly 560 to 740 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-bezares",
+   "country": "es",
+   "name": "Bezares",
+   "match": [
+    "Bezares",
+    "Rioja Bezares"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Bezares",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Bezares is a municipality of Rioja Alta in La Rioja, in the hills south-east of Nájera. Its land spans roughly 660 to 870 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo."
+  },
+  {
+   "id": "es-rioja-cordovin",
+   "country": "es",
+   "name": "Cordovín",
+   "match": [
+    "Cordovín",
+    "Rioja Cordovín"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cordovín",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cordovín is a municipality of Rioja Alta in La Rioja, in the Cárdenas valley, about 7 km south-west of Nájera. Its land spans roughly 570 to 620 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-torrecilla-sobre-alesanco",
+   "country": "es",
+   "name": "Torrecilla sobre Alesanco",
+   "match": [
+    "Torrecilla sobre Alesanco",
+    "Rioja Torrecilla sobre Alesanco"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Torrecilla sobre Alesanco",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Torrecilla sobre Alesanco is a municipality of Rioja Alta in La Rioja, on the plain west of Nájera. Its land spans roughly 590 to 650 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura."
+  },
+  {
+   "id": "es-rioja-cardenas",
+   "country": "es",
+   "name": "Cárdenas",
+   "match": [
+    "Cárdenas",
+    "Rioja Cárdenas"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Cárdenas",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Cárdenas is a municipality of Rioja Alta in La Rioja, in the valley of the Cárdenas, a tributary of the Najerilla, about 5 km south-west of Nájera. Its land spans roughly 540 to 600 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. Recognised viñedos singulares include Finca Valdechuecas, Octogenarius and La Paca."
+  },
+  {
+   "id": "es-rioja-gimileo",
+   "country": "es",
+   "name": "Gimileo",
+   "match": [
+    "Gimileo",
+    "Rioja Gimileo"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Gimileo",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Gimileo is a municipality of Rioja Alta in La Rioja, on the Ebro terraces south-east of Haro. Its land spans roughly 440 to 540 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-rioja-canillas-de-rio-tuerto",
+   "country": "es",
+   "name": "Canillas de Río Tuerto",
+   "match": [
+    "Canillas de Río Tuerto",
+    "Rioja Canillas de Río Tuerto"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Canillas de Río Tuerto",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Canillas de Río Tuerto is a municipality of Rioja Alta in La Rioja, in the Tuerto valley west of Nájera. Its land spans roughly 590 to 640 m. Like the rest of Rioja Alta, it grows mainly Tempranillo with some Garnacha, Mazuelo, Graciano and Viura. Recognised viñedo singular: Uvas de Avispa Cerrolorca."
+  },
+  {
+   "id": "es-rioja-ollauri",
+   "country": "es",
+   "name": "Ollauri",
+   "match": [
+    "Ollauri",
+    "Rioja Ollauri"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Ollauri",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Ollauri is a municipality of Rioja Alta in La Rioja, in the rolling country between Haro and the Najerilla. Its land spans roughly 490 to 550 m. Its vineyards share the Atlantic-influenced climate of Rioja Alta, which favours long-lived, fresh Tempranillo. Beronia, founded in 1973, has its winery here, and the village is honeycombed with old cellars. Recognised viñedo singular: Vareia (Beronia).",
+   "producers": [
+    "Beronia"
+   ]
+  },
+  {
+   "id": "es-rioja-brinas",
+   "country": "es",
+   "name": "Briñas",
+   "match": [
+    "Briñas",
+    "Rioja Briñas"
+   ],
+   "cat": "DOCa",
+   "subcat": "Municipio",
+   "region": "Rioja",
+   "subregion": "Rioja Alta",
+   "styles": [
+    "red",
+    "white",
+    "rose"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tempranillo, Garnacha, Graciano, Mazuelo, Viura and others",
+   "village": "Briñas",
+   "classification": "Vino de municipio of DOCa Rioja: since 2017 a wine may name its municipality if all the grapes come from it and it is made there.",
+   "summary": "Briñas is a municipality of Rioja Alta in La Rioja, on the Ebro just north of Haro. Its land spans roughly 450 to 530 m. In Rioja Alta, the coolest and most Atlantic of the three zones, Tempranillo dominates on clay-limestone and alluvial soils."
+  },
+  {
+   "id": "es-priorat-solanes-del-molar",
+   "country": "es",
+   "name": "Solanes del Molar",
+   "match": [
+    "Solanes del Molar",
+    "Les Solanes del Molar"
+   ],
+   "cat": "DOQ",
+   "subcat": "Vi de vila",
+   "region": "Catalonia",
+   "subregion": "Priorat",
+   "village": "El Molar",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Garnacha and Cariñena",
+   "summary": "The sunny slopes (*solanes*) of El Molar in the south-west of the DOQ Priorat, the only part of that municipality inside the DOQ and one of its 12 vi de vila zones. It has no drawn boundary here because no open map of the zone exists.",
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Not drawn on the map (no boundary available)."
+  }
+ ],
+ "sites": []
+}

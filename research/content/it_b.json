@@ -297,7 +297,7 @@
    "terroir": "Tuscany is mostly hills, and the hill is the unit that matters. Inland, the Chianti Classico zone sits on a jumble of Apennine sediments: *galestro*, a flaky, friable schistous clay that shatters in the hand and drains fast, gives perfumed, taut Sangiovese; *alberese*, a hard, pale limestone-marl, gives power and structure; sandstone (*macigno*) in the north and west gives lighter, aromatic wines; the Pliocene marine sands and clays south of Siena and around Montepulciano give rounder fruit. Altitude runs from about 200 m to the 700 m legal ceiling of Chianti Classico, and with warming summers the high, cool sites around Radda, Lamole and Gaiole have gained prestige.\n\nMontalcino is a single isolated hill (to 661 m) with very different flanks: cooler, galestro-rich north slopes near the town, warmer clay and sand to the south near Sant'Angelo in Colle and Castelnuovo dell'Abate, all sheltered from storms by Monte Amiata. On the coast, Bolgheri's amphitheatre of alluvial gravel, clay and sand faces the sea, ripening Cabernet and Merlot under sea breezes, while the Maremma's warm, drier hills give riper, earlier Sangiovese (Morellino) and plenty of international blends.",
    "grapes": "Sangiovese dominates (in Montalcino the local biotype is called Brunello, at Montepulciano Prugnolo Gentile, in Scansano Morellino). Traditional partners are Canaiolo Nero, Colorino, Mammolo, Ciliegiolo and Malvasia Nera; the 2027 Gran Selezione rules list a handful of these as the only permitted blenders. Cabernet Sauvignon, Cabernet Franc, Merlot and Syrah are central on the coast (Bolgheri, Suvereto, Val di Cornia) and appear in many IGT Toscana wines. Whites are a minority: Vernaccia di San Gimignano, Vermentino on the coast, Trebbiano Toscano and Malvasia Bianca Lunga (the classic Vin Santo grapes), Ansonica on the islands and Argentario, and Chardonnay and Pinot Bianco at Pomino. Aleatico makes the sweet red passito of Elba.",
    "styles": "Mostly dry red, from bright, cherry-scented Chianti to long-lived Brunello and Gran Selezione. The coast makes Bordeaux-style blends and varietal Cabernet Franc and Merlot (Masseto, Paleo, Messorio). Whites range from saline Vernaccia to Vermentino. Vin Santo, made from grapes dried on mats or hung from rafters and aged for years in small sealed *caratelli*, is the region's sweet tradition; Occhio di Pernice is its rare red-grape version. Rosé is growing: the Chianti DOCG added a rosato in its 2026 rules.",
-   "classification": "Tuscany runs on DOCG, DOC and IGT (IGT Toscana, Costa Toscana and others give freedom to Super Tuscans). Chianti Classico has a three-tier pyramid: Annata, Riserva (24 months) and Gran Selezione (30 months, estate grapes only, minimum 90% Sangiovese from the 2027 vintage with international grapes banned). Gran Selezione can name one of 11 UGAs (*unità geografiche aggiuntive*): eight from 2023 and three more (Lamole, Montefioralle, Vagliagli) from the 2027 vintage. Vino Nobile di Montepulciano has 12 Pievi (UGAs, approved 2023, published 2024) for an 85% Sangiovese estate-grown tier, first vintage 2021. Brunello di Montalcino has no official subzones; producers informally talk about north, south, east and west slopes and the hamlets of Castelnuovo dell'Abate, Sant'Angelo in Colle, Tavernelle, Camigliano, Torrenieri and Castelgiocondo. Chianti has eight subzones (Terre di Vinci added in 2026). Bolgheri Sassicaia is a DOC for a single estate.",
+   "classification": "Tuscany runs on DOCG, DOC and IGT (IGT Toscana, Costa Toscana and others give freedom to Super Tuscans). Chianti Classico has a three-tier pyramid: Annata, Riserva (24 months) and Gran Selezione (30 months, estate grapes only, minimum 90% Sangiovese from the 2027 vintage with international grapes banned). Gran Selezione can name one of 11 UGAs (*unità geografiche aggiuntive*), all approved together and in the rules since July 2023: Castellina, Castelnuovo Berardenga, Gaiole, Greve, Lamole, Montefioralle, Panzano, Radda, San Casciano, San Donato in Poggio and Vagliagli. Vino Nobile di Montepulciano has 12 Pievi (UGAs, approved 2023, published 2024) for an 85% Sangiovese estate-grown tier, first vintage 2021. Brunello di Montalcino has no official subzones; producers informally talk about north, south, east and west slopes and the hamlets of Castelnuovo dell'Abate, Sant'Angelo in Colle, Tavernelle, Camigliano, Torrenieri and Castelgiocondo. Chianti has eight subzones (Terre di Vinci added in 2026). Bolgheri Sassicaia is a DOC for a single estate.",
    "appellations": [
     "Chianti Classico",
     "Castellina",
@@ -998,7 +998,7 @@
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese (Gran Selezione only)",
-   "summary": "The southernmost and warmest UGA, where Chianti Classico runs down toward the clay hills of the Crete Senesi. Soils shift to Pliocene sands and marine clays with alberese, giving the zone's ripest, most generous Sangiovese with firm tannin. From 2027 its western part around Vagliagli becomes a separate UGA. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
+   "summary": "The southernmost and warmest UGA, where Chianti Classico runs down toward the clay hills of the Crete Senesi. Soils shift to Pliocene sands and marine clays with alberese, giving the zone's ripest, most generous Sangiovese with firm tannin. Its western part around Vagliagli forms a separate UGA. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
    "producers": [
     "Fèlsina",
     "Castell'in Villa",
@@ -1050,7 +1050,7 @@
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese (Gran Selezione only)",
-   "summary": "The Greve UGA is the northern and eastern part of the commune once Panzano, and from 2027 Lamole and Montefioralle, are carved out. It is a large, varied area along the Greve valley with sandstone and galestro, and includes Ruffoli's high slopes (Querciabella) and Verrazzano, the family castle of the explorer Giovanni da Verrazzano. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
+   "summary": "The Greve UGA is the northern and eastern part of the commune once Panzano, Lamole and Montefioralle are carved out. It is a large, varied area along the Greve valley with sandstone and galestro, and includes Ruffoli's high slopes (Querciabella) and Verrazzano, the family castle of the explorer Giovanni da Verrazzano. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
    "producers": [
     "Querciabella",
     "Castello di Verrazzano",
@@ -1069,13 +1069,13 @@
    "cat": "DOCG",
    "region": "Tuscany",
    "subregion": "Chianti Classico",
-   "created": "UGA of Chianti Classico (approved June 2021; effective 2027 vintage)",
+   "created": "UGA of Chianti Classico (approved June 2021; effective 2023 rules)",
    "styles": [
     "red"
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese (Gran Selezione only)",
-   "summary": "A tiny hamlet of terraces high above Greve (roughly 500 to 650 m), with dry-stone walls rebuilt by hand and sandstone soils (macigno) that give pale, high-toned, floral Sangiovese. Lamole becomes its own UGA from the 2027 vintage and is a poster child for altitude in a warming climate. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
+   "summary": "A tiny hamlet of terraces high above Greve (roughly 500 to 650 m), with dry-stone walls rebuilt by hand and sandstone soils (macigno) that give pale, high-toned, floral Sangiovese. Lamole is its own UGA and a poster child for altitude in a warming climate. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
    "producers": [
     "Castello di Lamole",
     "Lamole di Lamole",
@@ -1093,13 +1093,13 @@
    "cat": "DOCG",
    "region": "Tuscany",
    "subregion": "Chianti Classico",
-   "created": "UGA of Chianti Classico (approved June 2021; effective 2027 vintage)",
+   "created": "UGA of Chianti Classico (approved June 2021; effective 2023 rules)",
    "styles": [
     "red"
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese (Gran Selezione only)",
-   "summary": "A walled medieval village on the hill just west of Greve, believed to be the family home of Amerigo Vespucci. From 2027 it is the smallest of the new UGAs. Its slopes of galestro and alberese give fine, elegant wines. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
+   "summary": "A walled medieval village on the hill just west of Greve, believed to be the family home of Amerigo Vespucci. It is one of the smallest UGAs. Its slopes of galestro and alberese give fine, elegant wines. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
    "producers": [
     "Vecchie Terre di Montefili",
     "Castello di Montefioralle"
@@ -1217,13 +1217,13 @@
    "cat": "DOCG",
    "region": "Tuscany",
    "subregion": "Chianti Classico",
-   "created": "UGA of Chianti Classico (approved June 2021; effective 2027 vintage)",
+   "created": "UGA of Chianti Classico (approved June 2021; effective 2023 rules)",
    "styles": [
     "red"
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese (Gran Selezione only)",
-   "summary": "A hamlet in western Castelnuovo Berardenga, higher and cooler than the southern part of the commune, with alberese and sandstone. It becomes its own UGA from the 2027 vintage; producers there may choose the new name or the old one once. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
+   "summary": "A hamlet in western Castelnuovo Berardenga, higher and cooler than the southern part of the commune, with alberese and sandstone. It forms its own UGA, separate from the rest of Castelnuovo Berardenga. For now the UGA name may appear only on Chianti Classico Gran Selezione.",
    "producers": [
     "Dievole",
     "Fattoria della Aiola",
@@ -6816,7 +6816,7 @@
    "lat": 43.4708,
    "lon": 11.2886,
    "coord_quality": "precise",
-   "text": "One of the three founding members of the medieval Lega del Chianti, Castellina sits on the ridge that splits the Pesa and Elsa valleys. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "One of the three founding members of the medieval Lega del Chianti, Castellina sits on the ridge that splits the Pesa and Elsa valleys. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Castello di Fonterutoli (Mazzei)",
     "Castellare di Castellina",
@@ -6833,7 +6833,7 @@
    "lat": 43.3455,
    "lon": 11.5019,
    "coord_quality": "precise",
-   "text": "The southernmost and warmest UGA, where Chianti Classico runs down toward the clay hills of the Crete Senesi. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "The southernmost and warmest UGA, where Chianti Classico runs down toward the clay hills of the Crete Senesi. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Fèlsina",
     "Castell'in Villa",
@@ -6850,7 +6850,7 @@
    "lat": 43.4683,
    "lon": 11.4342,
    "coord_quality": "precise",
-   "text": "Gaiole spreads across the eastern Monti del Chianti, a high, wooded commune that includes Brolio, Coltibuono, Ama and Rietine. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "Gaiole spreads across the eastern Monti del Chianti, a high, wooded commune that includes Brolio, Coltibuono, Ama and Rietine. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Castello di Ama",
     "Badia a Coltibuono",
@@ -6867,7 +6867,7 @@
    "lat": 43.5843,
    "lon": 11.3159,
    "coord_quality": "precise",
-   "text": "The Greve UGA is the northern and eastern part of the commune once Panzano, and from 2027 Lamole and Montefioralle, are carved out. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "The Greve UGA is the northern and eastern part of the commune once Panzano, Lamole and Montefioralle are carved out. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Querciabella",
     "Castello di Verrazzano",
@@ -6884,7 +6884,7 @@
    "lat": 43.5496,
    "lon": 11.3556,
    "coord_quality": "precise",
-   "text": "A tiny hamlet of terraces high above Greve (roughly 500 to 650 m), with dry-stone walls rebuilt by hand and sandstone soils (macigno) that give pale, high-toned, floral Sangiovese. It is one of the three UGAs added from the 2027 vintage.",
+   "text": "A tiny hamlet of terraces high above Greve (roughly 500 to 650 m), with dry-stone walls rebuilt by hand and sandstone soils (macigno) that give pale, high-toned, floral Sangiovese. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Castello di Lamole",
     "Lamole di Lamole",
@@ -6901,7 +6901,7 @@
    "lat": 43.5807,
    "lon": 11.3032,
    "coord_quality": "precise",
-   "text": "A walled medieval village on the hill just west of Greve, believed to be the family home of Amerigo Vespucci. It is one of the three UGAs added from the 2027 vintage.",
+   "text": "A walled medieval village on the hill just west of Greve, believed to be the family home of Amerigo Vespucci. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Vecchie Terre di Montefili",
     "Castello di Montefioralle"
@@ -6917,7 +6917,7 @@
    "lat": 43.5449,
    "lon": 11.3159,
    "coord_quality": "precise",
-   "text": "Panzano is the frazione in the southwest of Greve commune famous for the Conca d'Oro, a south-facing amphitheatre of galestro and alberese that collects heat and gives some of the most complete Sangiovese in Tuscany. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "Panzano is the frazione in the southwest of Greve commune famous for the Conca d'Oro, a south-facing amphitheatre of galestro and alberese that collects heat and gives some of the most complete Sangiovese in Tuscany. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Fontodi",
     "Castello dei Rampolla",
@@ -6934,7 +6934,7 @@
    "lat": 43.4871,
    "lon": 11.3747,
    "coord_quality": "precise",
-   "text": "Radda was the capital of the Lega del Chianti and is now the reference for high-altitude, galestro-driven Sangiovese: pale, perfumed and nervy, sometimes austere in youth. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "Radda was the capital of the Lega del Chianti and is now the reference for high-altitude, galestro-driven Sangiovese: pale, perfumed and nervy, sometimes austere in youth. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Montevertine",
     "Castello di Volpaia",
@@ -6951,7 +6951,7 @@
    "lat": 43.657,
    "lon": 11.1857,
    "coord_quality": "precise",
-   "text": "The northern gateway to the zone, on lower, gentler hills toward Florence, with sandstone and Pliocene sands. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "The northern gateway to the zone, on lower, gentler hills toward Florence, with sandstone and Pliocene sands. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Antinori (Tignanello, Badia a Passignano nearby)",
     "Castelli del Grevepesa",
@@ -6968,7 +6968,7 @@
    "lat": 43.5353,
    "lon": 11.2343,
    "coord_quality": "precise",
-   "text": "This UGA joins the western half of Barberino Tavarnelle with the northern tip of Poggibonsi, centred on the walled village of San Donato. It is one of the eight UGAs in force since the 2023 rules.",
+   "text": "This UGA joins the western half of Barberino Tavarnelle with the northern tip of Poggibonsi, centred on the walled village of San Donato. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Isole e Olena",
     "Castello di Monsanto",
@@ -6985,7 +6985,7 @@
    "lat": 43.4216,
    "lon": 11.3481,
    "coord_quality": "precise",
-   "text": "A hamlet in western Castelnuovo Berardenga, higher and cooler than the southern part of the commune, with alberese and sandstone. It is one of the three UGAs added from the 2027 vintage.",
+   "text": "A hamlet in western Castelnuovo Berardenga, higher and cooler than the southern part of the commune, with alberese and sandstone. It is one of the 11 UGAs in force since the 2023 rules.",
    "producers": [
     "Dievole",
     "Fattoria della Aiola",

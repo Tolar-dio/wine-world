@@ -1,0 +1,3755 @@
+{
+ "countries": [],
+ "regions": [],
+ "appellations": [
+  {
+   "id": "fr-chateauneuf-du-pape-cabrieres",
+   "country": "fr",
+   "name": "Cabrières",
+   "match": [
+    "Cabrières",
+    "Châteauneuf-du-Pape Cabrières"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape, Orange",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 217.3,
+   "summary": "The largest lieu-dit of the appellation, more than 200 ha of AOC land on the plateau in the north, around the Mont de Cabrières and across into Orange. Deep galets over red clay and the full force of the mistral give ripe, structured Grenache. Château Cabrières takes its name from it.",
+   "terroir": "The lieu-dit's 217.3 ha of AOC-delimited land lies at about 50 to 125 m, with a mean slope of about 8%, facing broadly north (Copernicus DEM).",
+   "producers": [
+    "Château Cabrières"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-bellevue",
+   "country": "fr",
+   "name": "Bellevue",
+   "match": [
+    "Bellevue",
+    "Morgon Bellevue"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 101.9,
+   "summary": "The largest climat of Morgon, about 100 ha of AOC land on the higher ground west of Villié-Morgon, at roughly 335 to 410 m. On granite sands rather than the schist of the Côte du Py, it gives lighter, more aromatic Morgon, and its altitude is an asset in hot vintages.",
+   "terroir": "The lieu-dit's 101.9 ha of AOC-delimited land lies at about 335 to 410 m, with a mean slope of about 11%, facing broadly south-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-coudoulet",
+   "country": "fr",
+   "name": "Coudoulet",
+   "match": [
+    "Coudoulet",
+    "Châteauneuf-du-Pape Coudoulet"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 84.0,
+   "summary": "A large, flat lieu-dit in Courthézon at the north-eastern edge of the appellation, close to the Perrin family's Château de Beaucastel. The family's Côtes du Rhône Coudoulet de Beaucastel takes its name from the vineyards just outside the Châteauneuf boundary on the other side of the motorway.",
+   "terroir": "The lieu-dit's 84.0 ha of AOC-delimited land lies at about 55 to 60 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Château de Beaucastel (Famille Perrin)"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-montredon",
+   "country": "fr",
+   "name": "Montredon",
+   "match": [
+    "Montredon",
+    "Châteauneuf-du-Pape Montredon"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 78.4,
+   "summary": "A broad lieu-dit in the north-west of the appellation, on a plateau of galets roulés over clay that falls gently toward the west. It is the home of Château Mont-Redon, one of the largest single estates of Châteauneuf-du-Pape, whose Grenache-based reds are a reliable classic.",
+   "terroir": "The lieu-dit's 78.4 ha of AOC-delimited land lies at about 75 to 120 m, with a mean slope of about 8%, facing west to south-west (Copernicus DEM).",
+   "producers": [
+    "Château Mont-Redon"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-les-labourons",
+   "country": "fr",
+   "name": "Les Labourons",
+   "match": [
+    "Les Labourons",
+    "Fleurie Les Labourons"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 73.1,
+   "summary": "The largest climat of Fleurie, on the high western slopes toward the hills, at about 350 to 430 m, facing west and south-west; cooler and later-ripening than the village slopes.",
+   "terroir": "The lieu-dit's 73.1 ha of AOC-delimited land lies at about 355 to 425 m, with a mean slope of about 18%, facing broadly west-north-west (Copernicus DEM).",
+   "nerd_note": "The high western climats of Fleurie, toward the Avenas hills, were once considered too cool and are now valued for freshness.",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-poncie",
+   "country": "fr",
+   "name": "Poncié",
+   "match": [
+    "Poncié",
+    "Fleurie Poncié"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 66.3,
+   "summary": "A high, granitic climat in the north of Fleurie near Moulin-à-Vent, one of the proposed premier crus. Poncié gives firm, structured Fleurie; Château de Poncié and Pierre-Marie Chermette's Domaine du Vissoux bottle it.",
+   "terroir": "The lieu-dit's 66.3 ha of AOC-delimited land lies at about 295 to 415 m, with a mean slope of about 20%, facing broadly south-south-east (Copernicus DEM).",
+   "producers": [
+    "Château de Poncié",
+    "Domaine du Vissoux (Chermette)"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-cotes-du-py",
+   "country": "fr",
+   "name": "Côtes du Py",
+   "match": [
+    "Côtes du Py",
+    "Morgon Côtes du Py",
+    "Côte du Py"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 69.0,
+   "summary": "The Côte du Py, a dome of ancient rock east of Villié-Morgon often described as an extinct volcano, is the most famous climat of Morgon. Its blue, metamorphic schist and the crumbly, iron- and manganese-stained rock that locals call *roche pourrie* give the most powerful and mineral Gamay of the Beaujolais, dark-fruited and firm, which 'morgonne' with age, taking on cherry kirsch and earthy notes that recall Pinot Noir.\n\nJean Foillard's Côte du Py, made with minimal sulphur and aged in old Burgundy barrels, is the classic; Jean-Marc Burgaud, Louis-Claude Desvignes, Mee Godard, Dominique Piron and Louis Jadot's Château des Lumières also bottle it.",
+   "terroir": "The lieu-dit's 69.0 ha of AOC-delimited land lies at about 290 to 350 m, with a mean slope of about 15%, facing broadly south-east (Copernicus DEM).",
+   "producers": [
+    "Jean Foillard",
+    "Jean-Marc Burgaud",
+    "Louis-Claude Desvignes",
+    "Mee Godard",
+    "Dominique Piron"
+   ],
+   "nerd_note": "'Morgonner' is a Beaujolais verb for the way old Morgon takes on the character of the cru; the Côte du Py is where it happens most clearly.",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-bois-lauzon",
+   "country": "fr",
+   "name": "Bois-Lauzon",
+   "match": [
+    "Bois-Lauzon",
+    "Châteauneuf-du-Pape Bois-Lauzon"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Orange",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 61.5,
+   "summary": "A flat lieu-dit in the commune of Orange at the northern edge of the appellation, on galets and sand, which gave its name to Mas de Boislauzon.",
+   "terroir": "The lieu-dit's 61.5 ha of AOC-delimited land lies at about 55 to 65 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Mas de Boislauzon"
+   ],
+   "nerd_note": "In 1923 Baron Pierre Le Roy of Château Fortia drew up local rules for Châteauneuf-du-Pape that became a model for the French AOC system; the AOC followed in 1936.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-les-terres-blanches",
+   "country": "fr",
+   "name": "Les Terres Blanches",
+   "match": [
+    "Les Terres Blanches",
+    "Châteauneuf-du-Pape Les Terres Blanches"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 56.3,
+   "summary": "A lieu-dit whose name, 'white earths', refers to pale limestone and marl soils rather than pebbles. On limestone, Grenache and Mourvèdre keep fresher acidity and give tighter, more mineral wines, and white Châteauneuf does well.",
+   "terroir": "The lieu-dit's 56.3 ha of AOC-delimited land lies at about 80 to 125 m, with a mean slope of about 8%, facing broadly south-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-pignan",
+   "country": "fr",
+   "name": "Pignan",
+   "match": [
+    "Pignan",
+    "Châteauneuf-du-Pape Pignan"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape, Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 54.9,
+   "summary": "A lieu-dit next to Rayas, on sandy soils among woods, straddling Châteauneuf-du-Pape and Courthézon. Château Rayas bottles a second Châteauneuf called Pignan from younger vines and lots, a lighter, perfumed Grenache in the Rayas style.",
+   "terroir": "The lieu-dit's 54.9 ha of AOC-delimited land lies at about 70 to 120 m, with a mean slope of about 10%, facing broadly east-north-east (Copernicus DEM).",
+   "producers": [
+    "Château Rayas"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-cornas-chaban",
+   "country": "fr",
+   "name": "Chaban",
+   "match": [
+    "Chaban",
+    "Cornas Chaban"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Cornas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah",
+   "area_ha": 56.8,
+   "summary": "One of the highest lieux-dits of Cornas, at about 360 to 460 m on the plateau edge west of the village, on granite, cooler and later-ripening than the slopes above the village.",
+   "terroir": "The lieu-dit's 56.8 ha of AOC-delimited land lies at about 360 to 460 m, with a mean slope of about 22%, facing east to south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Cornas AOC. It is not a separate appellation, but the name may appear on the label after Cornas when all the grapes come from it."
+  },
+  {
+   "id": "fr-cornas-les-eygas",
+   "country": "fr",
+   "name": "Les Eygas",
+   "match": [
+    "Les Eygas",
+    "Cornas Les Eygas"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Cornas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah",
+   "area_ha": 60.4,
+   "summary": "A large lieu-dit (often spelled Les Eygats) on the high slopes north-west of the village, at about 230 to 390 m, on granite. The higher ground gives fresher, more aromatic Cornas than the hot slopes by the village.",
+   "terroir": "The lieu-dit's 60.4 ha of AOC-delimited land lies at about 230 to 385 m, with a mean slope of about 28%, facing broadly north-north-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Cornas AOC. It is not a separate appellation, but the name may appear on the label after Cornas when all the grapes come from it."
+  },
+  {
+   "id": "fr-cornas-saint-pierre",
+   "country": "fr",
+   "name": "Saint-Pierre",
+   "match": [
+    "Saint-Pierre",
+    "Cornas Saint-Pierre"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Cornas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah",
+   "area_ha": 55.1,
+   "summary": "A large lieu-dit on the slopes above Cornas, mostly facing south-east, on granite. Paul Jaboulet Aîné's Cornas Domaine de Saint-Pierre takes its name from it.",
+   "terroir": "The lieu-dit's 55.1 ha of AOC-delimited land lies at about 275 to 405 m, with a mean slope of about 26%, facing broadly south-south-east (Copernicus DEM).",
+   "producers": [
+    "Paul Jaboulet Aîné"
+   ],
+   "nerd_note": "Cornas is said to take its name from a Celtic word for 'burnt earth', a nod to its hot, south-facing amphitheatre.",
+   "classification": "Lieu-dit (named place in the land register) within the Cornas AOC. It is not a separate appellation, but the name may appear on the label after Cornas when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-beau-renard-nord",
+   "country": "fr",
+   "name": "Beau Renard Nord",
+   "match": [
+    "Beau Renard Nord",
+    "Châteauneuf-du-Pape Beau Renard Nord"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 47.0,
+   "summary": "Part of the Beau Renard sector east of the village, on gentle slopes of galets and clay. Domaine de Beaurenard, the Coulon family estate, takes its name from it.",
+   "terroir": "The lieu-dit's 47.0 ha of AOC-delimited land lies at about 80 to 95 m, with a mean slope of about 5%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine de Beaurenard"
+   ],
+   "nerd_note": "Beau Renard is split into a north and a south part in the land register.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-vaudieu",
+   "country": "fr",
+   "name": "Vaudieu",
+   "match": [
+    "Vaudieu",
+    "Châteauneuf-du-Pape Vaudieu"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 49.1,
+   "summary": "A lieu-dit south-east of the village, home of Château de Vaudieu, an eighteenth-century château built by an admiral of Louis XVI's navy, surrounded by vines on galets and sandy soils.",
+   "terroir": "The lieu-dit's 49.1 ha of AOC-delimited land lies at about 85 to 120 m, with a mean slope of about 8%, facing south-east to south (Copernicus DEM).",
+   "producers": [
+    "Château de Vaudieu"
+   ],
+   "nerd_note": "The papal summer castle that gave the village its name was built for John XXII in the fourteenth century; its ruined keep still dominates the vineyard.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-la-chapelle-des-bois",
+   "country": "fr",
+   "name": "La Chapelle des Bois",
+   "match": [
+    "La Chapelle des Bois",
+    "Fleurie La Chapelle des Bois"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 46.7,
+   "summary": "A climat in the south of Fleurie toward Morgon and Chiroubles, on granite sands. Clos de Mez bottles a Fleurie La Chapelle des Bois.",
+   "terroir": "The lieu-dit's 46.7 ha of AOC-delimited land lies at about 275 to 335 m, with a mean slope of about 11%, facing broadly south (Copernicus DEM).",
+   "producers": [
+    "Clos de Mez"
+   ],
+   "nerd_note": "Fleurie is sometimes called the 'queen of Beaujolais' for its perfume and grace.",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-la-madone",
+   "country": "fr",
+   "name": "La Madone",
+   "match": [
+    "La Madone",
+    "Fleurie La Madone"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 52.3,
+   "summary": "The granite hill above Fleurie village, crowned by the nineteenth-century chapel of La Madone. Its slopes face south-east and east on pink granite sands, at about 330 to 430 m, and give the classic Fleurie: floral, silky and bright. La Madone is one of the lieux-dits in Fleurie's premier cru application. Domaine de la Madone and Domaine Chignard bottle it.",
+   "terroir": "The lieu-dit's 52.3 ha of AOC-delimited land lies at about 335 to 430 m, with a mean slope of about 20%, facing broadly south-east (Copernicus DEM).",
+   "producers": [
+    "Domaine de la Madone",
+    "Domaine Chignard"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-javernieres",
+   "country": "fr",
+   "name": "Javernières",
+   "match": [
+    "Javernières",
+    "Morgon Javernières"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 52.3,
+   "summary": "A climat at the foot of the Côte du Py, where the hill's schist meets clay and iron-rich deposits. Javernières combines the power of the Py with more flesh; Louis-Claude Desvignes's Javernières is the best-known bottling.",
+   "terroir": "The lieu-dit's 52.3 ha of AOC-delimited land lies at about 235 to 280 m, with a mean slope of about 9%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Louis-Claude Desvignes"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-au-michelon",
+   "country": "fr",
+   "name": "Au Michelon",
+   "match": [
+    "Au Michelon",
+    "Moulin-à-Vent Au Michelon"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 45.7,
+   "summary": "A large climat in Chénas on higher, south-facing slopes, at about 280 to 365 m, the northern part of the cru.",
+   "terroir": "The lieu-dit's 45.7 ha of AOC-delimited land lies at about 280 to 365 m, with a mean slope of about 16%, facing south to south-east (Copernicus DEM).",
+   "nerd_note": "Au Michelon is one of the larger named climats of the cru, in the commune of Chénas.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-chapouin",
+   "country": "fr",
+   "name": "Chapouin",
+   "match": [
+    "Chapouin",
+    "Châteauneuf-du-Pape Chapouin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 42.0,
+   "summary": "A flat lieu-dit in Courthézon on sandy soils. Domaine de la Janasse's Cuvée Chaupin, a pure old-vine Grenache, takes its name and fruit from here and shows the perfumed, supple side of sand-grown Grenache.",
+   "terroir": "The lieu-dit's 42.0 ha of AOC-delimited land lies at about 55 to 60 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Domaine de la Janasse"
+   ],
+   "nerd_note": "Sandy soils of the Courthézon side ripen Grenache more slowly than the pebble plateaus, which is why several estates keep their sand-grown old vines separate.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-crau",
+   "country": "fr",
+   "name": "La Crau",
+   "match": [
+    "La Crau",
+    "Châteauneuf-du-Pape La Crau"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 37.7,
+   "summary": "La Crau is the high, exposed plateau in the east of Châteauneuf-du-Pape, the classic image of the appellation: a thick layer of *galets roulés*, rounded quartzite pebbles left by the ancient Rhône, over red clay. The stones store the day's heat and protect the soil from drying, the clay holds water for dry summers, and the mistral blows through unhindered. Grenache here gives powerful, spicy, long-lived wine with garrigue and kirsch.\n\nThe plateau runs across the commune boundary into Bédarrides and Courthézon (mapped as separate La Crau units). Domaine du Vieux Télégraphe, named after the optical telegraph tower built on the plateau in the 1790s, Domaine du Pegau and Henri Bonneau's Réserve des Célestins draw on La Crau.",
+   "terroir": "The lieu-dit's 37.7 ha of AOC-delimited land lies at about 95 to 125 m, with a mean slope of about 5%, facing broadly south-west (Copernicus DEM).",
+   "producers": [
+    "Domaine du Vieux Télégraphe",
+    "Domaine du Pegau",
+    "Domaine Henri Bonneau"
+   ],
+   "nerd_note": "The Brunier family of Vieux Télégraphe have farmed the plateau since 1898; their estate takes its name from the Chappe telegraph station that stood on La Crau.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-crau-sud-courthezon",
+   "country": "fr",
+   "name": "La Crau Sud (Courthézon)",
+   "match": [
+    "La Crau Sud (Courthézon)",
+    "Châteauneuf-du-Pape La Crau Sud",
+    "La Crau Sud",
+    "Châteauneuf-du-Pape La Crau Sud (Courthézon)"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 41.2,
+   "summary": "The part of the La Crau plateau that lies in Courthézon, north of the Bédarrides sector, on galets over clay and sand.",
+   "terroir": "The lieu-dit's 41.2 ha of AOC-delimited land lies at about 65 to 120 m, with a mean slope of about 7%, facing north to north-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-champagne",
+   "country": "fr",
+   "name": "Champagne",
+   "match": [
+    "Champagne",
+    "Fleurie Champagne"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 43.1,
+   "summary": "A large climat of Fleurie on gentle slopes south-east of the village, on pink granite sand. Its name, like other Champagnes in Burgundy and Beaujolais, means open country (Latin *campania*).",
+   "terroir": "The lieu-dit's 43.1 ha of AOC-delimited land lies at about 230 to 285 m, with a mean slope of about 8%, facing south-east to east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-les-moriers",
+   "country": "fr",
+   "name": "Les Moriers",
+   "match": [
+    "Les Moriers",
+    "Fleurie Les Moriers"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 42.9,
+   "summary": "A climat in the north of Fleurie toward Moulin-à-Vent, on granite with some clay, facing east. Michel Chignard's Les Moriers is a reference for structured, age-worthy Fleurie.",
+   "terroir": "The lieu-dit's 42.9 ha of AOC-delimited land lies at about 235 to 345 m, with a mean slope of about 16%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Chignard"
+   ],
+   "nerd_note": "Les Moriers lies next to Moulin-à-Vent, and its wines share some of their neighbour's structure.",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-chateau-gaillard",
+   "country": "fr",
+   "name": "Château-Gaillard",
+   "match": [
+    "Château-Gaillard",
+    "Morgon Château-Gaillard"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 36.2,
+   "summary": "A climat west of Villié-Morgon on gentle south-east-facing slopes. Clos de Mez bottles a Morgon Château Gaillard.",
+   "terroir": "Gentle slopes of decomposed granite and schist on the western side of Villié-Morgon. The lieu-dit's 36.2 ha of AOC-delimited land lies at about 235 to 275 m, with a mean slope of about 7%, facing south-east to south (Copernicus DEM).",
+   "producers": [
+    "Clos de Mez"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-pizay",
+   "country": "fr",
+   "name": "Pizay",
+   "match": [
+    "Pizay",
+    "Morgon Pizay"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 38.1,
+   "summary": "The southern part of Morgon around the Château de Pizay, a hotel and wine estate, on low, gentle land of granite sand and alluvium.",
+   "terroir": "The lieu-dit's 38.1 ha of AOC-delimited land lies at about 225 to 240 m, with a mean slope of about 4%, facing south to south-west (Copernicus DEM).",
+   "producers": [
+    "Château de Pizay"
+   ],
+   "nerd_note": "Morgon is the second-largest Beaujolais cru after Brouilly, with about 1,100 ha, which is why its climats matter for telling its wines apart.",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-font-de-michelle",
+   "country": "fr",
+   "name": "Font de Michelle",
+   "match": [
+    "Font de Michelle",
+    "Châteauneuf-du-Pape Font de Michelle"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Bédarrides",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 30.3,
+   "summary": "A lieu-dit in Bédarrides on the eastern edge of the appellation, on slopes facing east toward the Ouvèze. Domaine Font de Michelle, the Gonnet family estate, takes its name from it.",
+   "terroir": "The lieu-dit's 30.3 ha of AOC-delimited land lies at about 60 to 100 m, with a mean slope of about 8%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Font de Michelle"
+   ],
+   "nerd_note": "Vieux Télégraphe and Font de Michelle are both based in Bédarrides, one of the five communes of the appellation.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-crau-ouest-bedarrides",
+   "country": "fr",
+   "name": "La Crau Ouest (Bédarrides)",
+   "match": [
+    "La Crau Ouest (Bédarrides)",
+    "Châteauneuf-du-Pape La Crau Ouest",
+    "La Crau Ouest",
+    "Châteauneuf-du-Pape La Crau Ouest (Bédarrides)"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Bédarrides",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 26.0,
+   "summary": "The part of the La Crau plateau that lies in the commune of Bédarrides, on the same deep layer of galets over red clay. Much of Domaine du Vieux Télégraphe's vineyard is in this sector, around the site of the old telegraph tower.",
+   "terroir": "The lieu-dit's 26.0 ha of AOC-delimited land lies at about 100 to 110 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Domaine du Vieux Télégraphe"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-pierre-a-feu",
+   "country": "fr",
+   "name": "Pierre à Feu",
+   "match": [
+    "Pierre à Feu",
+    "Châteauneuf-du-Pape Pierre à Feu"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 34.5,
+   "summary": "A lieu-dit whose name ('fire stone') refers to flint and quartzite stones that spark when struck, a nod to the galets that cover much of Châteauneuf-du-Pape.",
+   "terroir": "The lieu-dit's 34.5 ha of AOC-delimited land lies at about 30 to 40 m, with a mean slope of about 5%, facing broadly west-south-west (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-la-presle",
+   "country": "fr",
+   "name": "La Presle",
+   "match": [
+    "La Presle",
+    "Fleurie La Presle"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 29.0,
+   "summary": "A steep climat of Fleurie, at about 330 to 445 m on granite, among the steepest slopes of the cru.",
+   "terroir": "The lieu-dit's 29.0 ha of AOC-delimited land lies at about 325 to 445 m, with a mean slope of about 26%, facing north-east to east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-les-garants",
+   "country": "fr",
+   "name": "Les Garants",
+   "match": [
+    "Les Garants",
+    "Fleurie Les Garants"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 31.5,
+   "summary": "A climat in the north of Fleurie on south-west-facing slopes of granite. Pierre-Marie Chermette's Domaine du Vissoux bottles Les Garants, a deeper style of Fleurie.",
+   "terroir": "The lieu-dit's 31.5 ha of AOC-delimited land lies at about 265 to 340 m, with a mean slope of about 14%, mostly south-west-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine du Vissoux (Chermette)"
+   ],
+   "nerd_note": "Fleurie lies on a single commune, and almost all of it is planted on pink granite sand, which explains its floral, silky style.",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-montgenas",
+   "country": "fr",
+   "name": "Montgenas",
+   "match": [
+    "Montgenas",
+    "Fleurie Montgenas"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 34.8,
+   "summary": "A climat on the slopes north-west of Fleurie village, at about 300 to 370 m, on pink granite; one of the higher, cooler named sites of the cru.",
+   "terroir": "The lieu-dit's 34.8 ha of AOC-delimited land lies at about 305 to 365 m, with a mean slope of about 19%, facing broadly east-north-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-vers-la-mont",
+   "country": "fr",
+   "name": "Vers la Mont",
+   "match": [
+    "Vers la Mont",
+    "Fleurie Vers la Mont"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 33.1,
+   "summary": "A large climat on the slopes rising from Fleurie village toward the chapel hill of La Madone, at about 300 to 430 m on granite, facing south-east.",
+   "terroir": "The lieu-dit's 33.1 ha of AOC-delimited land lies at about 295 to 430 m, with a mean slope of about 19%, mostly south-east-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-corcelette",
+   "country": "fr",
+   "name": "Corcelette",
+   "match": [
+    "Corcelette",
+    "Morgon Corcelette"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 27.8,
+   "summary": "A climat in the north-west of Morgon on sandy, pink granite, higher and lighter than the Côte du Py. Corcelette gives perfumed, silky Morgon; Jean Foillard's Corcelette, Daniel Bouland's old-vine bottling and Mee Godard's are admired.",
+   "terroir": "The lieu-dit's 27.8 ha of AOC-delimited land lies at about 295 to 390 m, with a mean slope of about 15%, mostly north-east-facing (Copernicus DEM).",
+   "producers": [
+    "Jean Foillard",
+    "Daniel Bouland",
+    "Mee Godard"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-grand-cras",
+   "country": "fr",
+   "name": "Grand Cras",
+   "match": [
+    "Grand Cras",
+    "Morgon Grand Cras"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 34.5,
+   "summary": "A climat in the south of Morgon on clay, gravel and granite. Mee Godard bottles a Grand Cras, and Marcel Lapierre's family vineyards include parcels here.",
+   "terroir": "The lieu-dit's 34.5 ha of AOC-delimited land lies at about 230 to 265 m, with a mean slope of about 6%, facing south to south-east (Copernicus DEM).",
+   "producers": [
+    "Mee Godard",
+    "Domaine Marcel Lapierre"
+   ],
+   "nerd_note": "Marcel Lapierre, Jean Foillard, Guy Breton and Jean-Paul Thévenet, the 'gang of four' of natural Beaujolais in the 1980s, all worked in Villié-Morgon, following the ideas of the négociant and scientist Jules Chauvet.",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-au-mont",
+   "country": "fr",
+   "name": "Au Mont",
+   "match": [
+    "Au Mont",
+    "Moulin-à-Vent Au Mont"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 35.2,
+   "summary": "A climat high on the Chénas hillside, at about 315 to 400 m on granite, among the highest land of Moulin-à-Vent.",
+   "terroir": "The lieu-dit's 35.2 ha of AOC-delimited land lies at about 315 to 400 m, with a mean slope of about 17%, facing broadly east-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-champ-de-cour",
+   "country": "fr",
+   "name": "Champ de Cour",
+   "match": [
+    "Champ de Cour",
+    "Moulin-à-Vent Champ de Cour"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 28.2,
+   "summary": "A south-facing climat below the windmill on granite with clay; its wines are rich and deep. Château des Jacques, Richard Rottiers, Château du Moulin-à-Vent and Domaine Labruyère bottle Champ de Cour separately.",
+   "terroir": "The lieu-dit's 28.2 ha of AOC-delimited land lies at about 220 to 245 m, with a mean slope of about 6%, facing south to south-east (Copernicus DEM).",
+   "producers": [
+    "Château des Jacques (Louis Jadot)",
+    "Domaine Richard Rottiers",
+    "Château du Moulin-à-Vent",
+    "Domaine Labruyère"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-le-vieux-bourg",
+   "country": "fr",
+   "name": "Le Vieux Bourg",
+   "match": [
+    "Le Vieux Bourg",
+    "Moulin-à-Vent Le Vieux Bourg"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 30.1,
+   "summary": "A climat around the old village core of Chénas, on higher granite slopes at about 290 to 375 m. The upper slopes of Chénas give firmer, cooler Moulin-à-Vent than the gentle land near the windmill.",
+   "terroir": "The lieu-dit's 30.1 ha of AOC-delimited land lies at about 295 to 375 m, with a mean slope of about 15%, facing broadly east-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-chene-marchand",
+   "country": "fr",
+   "name": "Chêne Marchand",
+   "match": [
+    "Chêne Marchand",
+    "Sancerre Chêne Marchand"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Bué",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 27.1,
+   "summary": "A famous lieu-dit of Bué on gentle, south-east-facing slopes of *caillottes*, the hard, stony Oxfordian limestone that gives Sancerre its tense, flinty style. Le Chêne Marchand is bottled by several Bué estates, among them Jean-Max Roger, and is one of the classic names of the village.",
+   "terroir": "The lieu-dit's 27.1 ha of AOC-delimited land lies at about 245 to 285 m, with a mean slope of about 10%, facing south-east to east (Copernicus DEM).",
+   "producers": [
+    "Jean-Max Roger"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-grand-chemarin",
+   "country": "fr",
+   "name": "Grand Chemarin",
+   "match": [
+    "Grand Chemarin",
+    "Sancerre Grand Chemarin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Bué",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 29.9,
+   "summary": "A lieu-dit of Bué beside Chêne Marchand, on limestone (*caillottes*) and *terres blanches*, facing south-east. Le Grand Chemarin and its neighbour Petit Chemarin are among the most cited sites of the village.",
+   "terroir": "The lieu-dit's 29.9 ha of AOC-delimited land lies at about 245 to 285 m, with a mean slope of about 11%, mostly south-east-facing (Copernicus DEM).",
+   "nerd_note": "Bué and Chavignol are the two most famous villages of the Sancerre appellation, which covers 14 communes.",
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-la-cote-des-montdamnes",
+   "country": "fr",
+   "name": "La Côte des Montdamnes",
+   "match": [
+    "La Côte des Montdamnes",
+    "Sancerre La Côte des Montdamnes"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Sancerre",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 32.2,
+   "summary": "The main slope of the Monts Damnés above the hamlet of Chavignol, a very steep amphitheatre of Kimmeridgian marl (*terres blanches*) facing south and south-east. The slope is so hard to work that it was said to be 'damned', and it gives the most powerful, long-lived Sancerre: dense, chalky and saline, often opening after five or ten years.\n\nFrançois and Pascal Cotat, whose late-picked, barrel-fermented wines from Les Monts Damnés, La Grande Côte and Les Culs de Beaujeu are cult bottles, Gérard Boulay, and Henri Bourgeois (Le MD de Bourgeois) farm here.",
+   "terroir": "The lieu-dit's 32.2 ha of AOC-delimited land lies at about 240 to 330 m, with a mean slope of about 26%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "François Cotat",
+    "Pascal Cotat",
+    "Gérard Boulay",
+    "Henri Bourgeois"
+   ],
+   "nerd_note": "The same Kimmeridgian marl, with tiny fossil oysters (Exogyra virgula), runs under Chablis, about 120 km to the north-east.",
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-la-montee-de-saint-romble",
+   "country": "fr",
+   "name": "La Montée de Saint-Romble",
+   "match": [
+    "La Montée de Saint-Romble",
+    "Sancerre La Montée de Saint-Romble"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Sury-en-Vaux",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 29.6,
+   "summary": "A large lieu-dit in Sury-en-Vaux on slopes facing north and north-west, named after Saint Romble, a local hermit saint; its cooler exposure gives tense, citrus-driven Sauvignon.",
+   "terroir": "The lieu-dit's 29.6 ha of AOC-delimited land lies at about 235 to 295 m, with a mean slope of about 19%, mostly north-west-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-crau-est-bedarrides",
+   "country": "fr",
+   "name": "La Crau Est (Bédarrides)",
+   "match": [
+    "La Crau Est (Bédarrides)",
+    "Châteauneuf-du-Pape La Crau Est",
+    "La Crau Est",
+    "Châteauneuf-du-Pape La Crau Est (Bédarrides)"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Bédarrides",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 17.0,
+   "summary": "The eastern edge of the La Crau plateau in Bédarrides, where the galet-covered terrace begins to slope toward the Ouvèze. The same deep pebbles over red clay as the rest of La Crau.",
+   "terroir": "The lieu-dit's 17.0 ha of AOC-delimited land lies at about 85 to 110 m, with a mean slope of about 7%, mostly east-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-font-du-loup-courthezon",
+   "country": "fr",
+   "name": "La Font du Loup (Courthézon)",
+   "match": [
+    "La Font du Loup (Courthézon)",
+    "Châteauneuf-du-Pape La Font du Loup",
+    "La Font du Loup",
+    "Châteauneuf-du-Pape La Font du Loup (Courthézon)"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 23.2,
+   "summary": "A lieu-dit in Courthézon on sandy and clay slopes facing north-east, home of Château de la Font du Loup, whose wines are known for their elegance rather than power.",
+   "terroir": "The lieu-dit's 23.2 ha of AOC-delimited land lies at about 65 to 105 m, with a mean slope of about 11%, mostly north-east-facing (Copernicus DEM).",
+   "producers": [
+    "Château de la Font du Loup"
+   ],
+   "nerd_note": "Font du Loup ('wolf's spring') is split between Courthézon and Bédarrides in the land register.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-gardine",
+   "country": "fr",
+   "name": "La Gardine",
+   "match": [
+    "La Gardine",
+    "Châteauneuf-du-Pape La Gardine"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 25.3,
+   "summary": "A lieu-dit west of the village on gentle slopes of galets and clay, home of Château La Gardine, the Brunel family estate, whose Cuvée des Générations comes from old vines here.",
+   "terroir": "The lieu-dit's 25.3 ha of AOC-delimited land lies at about 75 to 105 m, with a mean slope of about 10%, facing south-west to west (Copernicus DEM).",
+   "producers": [
+    "Château La Gardine"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-jannasse",
+   "country": "fr",
+   "name": "La Jannasse",
+   "match": [
+    "La Jannasse",
+    "Châteauneuf-du-Pape La Jannasse"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 23.2,
+   "summary": "A lieu-dit in Courthézon, in the north-east of the appellation, which gave its name to Domaine de la Janasse, the Sabon family estate founded in 1973 and now one of the references of the appellation.",
+   "terroir": "The lieu-dit's 23.2 ha of AOC-delimited land lies at about 45 to 55 m, with a mean slope of about 4%, facing south-west to south (Copernicus DEM).",
+   "producers": [
+    "Domaine de la Janasse"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-nerthe",
+   "country": "fr",
+   "name": "La Nerthe",
+   "match": [
+    "La Nerthe",
+    "Châteauneuf-du-Pape La Nerthe"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 19.2,
+   "summary": "The lieu-dit of Château La Nerthe, one of the oldest estates of Châteauneuf-du-Pape, south-east of the village, whose history is documented from the sixteenth century. In the eighteenth century the Tulle de Villefranche family sold La Nerthe's wine under its own name, and Commandant Joseph Ducos rebuilt the vineyard after phylloxera, studying the role of each variety.",
+   "terroir": "The lieu-dit's 19.2 ha of AOC-delimited land lies at about 80 to 90 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Château La Nerthe"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-les-brusquieres",
+   "country": "fr",
+   "name": "Les Brusquières",
+   "match": [
+    "Les Brusquières",
+    "Châteauneuf-du-Pape Les Brusquières"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 16.8,
+   "summary": "A flat lieu-dit on the high plateau of the appellation, at about 110 to 125 m, on galets over clay and sand. Domaine de la Charbonnière's Les Hautes Brusquières, a dense, spicy Châteauneuf, comes from this sector.",
+   "terroir": "The lieu-dit's 16.8 ha of AOC-delimited land lies at about 110 to 125 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Domaine de la Charbonnière"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-condrieu-verlieu",
+   "country": "fr",
+   "name": "Verlieu",
+   "match": [
+    "Verlieu",
+    "Condrieu Verlieu"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Chavanay",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Viognier",
+   "area_ha": 23.6,
+   "summary": "A large lieu-dit in Chavanay, the southern part of the Condrieu appellation, on steep granite slopes facing south-east. Chavanay is also part of Saint-Joseph, so its growers make both Viognier and Syrah.",
+   "terroir": "The lieu-dit's 23.6 ha of AOC-delimited land lies at about 165 to 265 m, with a mean slope of about 39%, mostly south-east-facing (Copernicus DEM).",
+   "nerd_note": "Château-Grillet, a tiny Viognier appellation of its own, is enclosed within Condrieu at Vérin.",
+   "classification": "Lieu-dit (named place in the land register) within the Condrieu AOC. It is not a separate appellation, but the name may appear on the label after Condrieu when all the grapes come from it."
+  },
+  {
+   "id": "fr-cornas-chaillot",
+   "country": "fr",
+   "name": "Chaillot",
+   "match": [
+    "Chaillot",
+    "Cornas Chaillot"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Cornas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah",
+   "area_ha": 16.9,
+   "summary": "A lieu-dit at the northern edge of Cornas, on granite with a sandy topsoil (*gore*), facing south-east and east. It is the source of Thierry Allemand's Chaillot, the more aromatic of his two Cornas, and of Franck Balthazar's Chaillot.",
+   "terroir": "The lieu-dit's 16.9 ha of AOC-delimited land lies at about 135 to 250 m, with a mean slope of about 29%, facing south-east to east (Copernicus DEM).",
+   "producers": [
+    "Thierry Allemand",
+    "Franck Balthazar"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Cornas AOC. It is not a separate appellation, but the name may appear on the label after Cornas when all the grapes come from it."
+  },
+  {
+   "id": "fr-cornas-les-mazards",
+   "country": "fr",
+   "name": "Les Mazards",
+   "match": [
+    "Les Mazards",
+    "Cornas Les Mazards"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Cornas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah",
+   "area_ha": 17.5,
+   "summary": "A gently sloping lieu-dit at the foot of the Cornas slopes near the village, on deeper soils with alluvium and granite debris, which give rounder, earlier wines than the terraces above.",
+   "terroir": "The lieu-dit's 17.5 ha of AOC-delimited land lies at about 135 to 175 m, with a mean slope of about 12%, facing east to south-east (Copernicus DEM).",
+   "nerd_note": "The lower, flatter lieux-dits near the Rhône give rounder Cornas, often blended with the granite terraces.",
+   "classification": "Lieu-dit (named place in the land register) within the Cornas AOC. It is not a separate appellation, but the name may appear on the label after Cornas when all the grapes come from it."
+  },
+  {
+   "id": "fr-cornas-reynard",
+   "country": "fr",
+   "name": "Reynard",
+   "match": [
+    "Reynard",
+    "Cornas Reynard"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Cornas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah",
+   "area_ha": 22.5,
+   "summary": "A steep granite slope just above the village of Cornas, facing south and south-east, worked on terraces. Reynard is the most famous lieu-dit of the appellation, made famous by Thierry Allemand's Cornas Reynard, a dense, mineral Syrah made without added sulphur in some vintages. Auguste Clape also uses Reynard fruit, and the Geynale parcel, made famous by Robert Michel and farmed by his nephew Vincent Paris, lies on this hillside.",
+   "terroir": "The lieu-dit's 22.5 ha of AOC-delimited land lies at about 160 to 300 m, with a mean slope of about 38%, facing broadly south-south-east (Copernicus DEM).",
+   "producers": [
+    "Thierry Allemand",
+    "Auguste Clape",
+    "Vincent Paris"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Cornas AOC. It is not a separate appellation, but the name may appear on the label after Cornas when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-cote-rozier",
+   "country": "fr",
+   "name": "Côte Rozier",
+   "match": [
+    "Côte Rozier",
+    "Côte-Rôtie Côte Rozier"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 16.0,
+   "summary": "A steep, south-east-facing slope in the north of the appellation, below the Rozier plateau, on schist. Côte Rozier is one of the classic sites of the northern Côte-Rôtie, giving dark, firm, spicy wines, and its fruit goes into several famous blends as well as single-site bottlings.",
+   "terroir": "The lieu-dit's 16.0 ha of AOC-delimited land lies at about 160 to 305 m, with a mean slope of about 40%, mostly south-east-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-coteaux-de-bassenon",
+   "country": "fr",
+   "name": "Coteaux de Bassenon",
+   "match": [
+    "Coteaux de Bassenon",
+    "Côte-Rôtie Coteaux de Bassenon"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tupin-et-Semons",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 19.9,
+   "summary": "The southernmost slopes of Côte-Rôtie, in Tupin-et-Semons toward Condrieu, facing south and south-west. The soils are granitic, as in Condrieu next door, and some Viognier grows among the Syrah, as the Côte-Rôtie rules allow.",
+   "terroir": "The lieu-dit's 19.9 ha of AOC-delimited land lies at about 155 to 285 m, with a mean slope of about 37%, facing south to south-west (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-fongeant",
+   "country": "fr",
+   "name": "Fongeant",
+   "match": [
+    "Fongeant",
+    "Côte-Rôtie Fongeant"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 17.8,
+   "summary": "A broad lieu-dit on the upper slopes of Ampuis, facing south and south-west. Fongeant is one of the parcels Michel et Stéphane Ogier have bottled separately to show the variety of their Côte-Rôtie holdings.",
+   "terroir": "The lieu-dit's 17.8 ha of AOC-delimited land lies at about 245 to 330 m, with a mean slope of about 25%, facing south-west to south (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-la-vialliere",
+   "country": "fr",
+   "name": "La Viallière",
+   "match": [
+    "La Viallière",
+    "Côte-Rôtie La Viallière"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 17.0,
+   "summary": "A steep slope in the north of the appellation toward Vérenay, facing south-east, on schist with some granite. La Viallière gives perfumed, structured Côte-Rôtie with a bright, peppery line. It has become one of the most frequently named lieux-dits on labels: René Rostaing, Clusel-Roch, Domaine de Bonserine and Michel et Stéphane Ogier all bottle it separately.",
+   "terroir": "The lieu-dit's 17.0 ha of AOC-delimited land lies at about 185 to 305 m, with a mean slope of about 37%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "René Rostaing",
+    "Clusel-Roch",
+    "Domaine de Bonserine",
+    "Michel et Stéphane Ogier"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-rozier",
+   "country": "fr",
+   "name": "Rozier",
+   "match": [
+    "Rozier",
+    "Côte-Rôtie Rozier"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 23.0,
+   "summary": "The plateau and upper slopes above the Côte Rozier in the north of the appellation, at about 300 to 330 m. The higher, gentler land was planted later than the steep coteaux and gives a fresher, lighter style; it shows how Côte-Rôtie's vineyards have spread from the steep coteaux onto the higher, gentler ground.",
+   "terroir": "The lieu-dit's 23.0 ha of AOC-delimited land lies at about 295 to 330 m, with a mean slope of about 17%, facing south-west to west (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-fonfotin",
+   "country": "fr",
+   "name": "Fonfotin",
+   "match": [
+    "Fonfotin",
+    "Fleurie Fonfotin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 21.1,
+   "summary": "One of the highest climats of Fleurie, at about 375 to 460 m on granite, facing south-east and south-west, on the hills west of the village.",
+   "terroir": "The lieu-dit's 21.1 ha of AOC-delimited land lies at about 375 to 460 m, with a mean slope of about 24%, facing broadly south-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-le-vivier",
+   "country": "fr",
+   "name": "Le Vivier",
+   "match": [
+    "Le Vivier",
+    "Fleurie Le Vivier"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 21.0,
+   "summary": "A climat on the lower, gentle land of Fleurie at about 225 to 250 m, on granite sand and alluvium toward the Saône plain.",
+   "terroir": "The lieu-dit's 21.0 ha of AOC-delimited land lies at about 225 to 250 m, with a mean slope of about 8%, facing south to south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-l-hermite",
+   "country": "fr",
+   "name": "L'Hermite",
+   "match": [
+    "L'Hermite",
+    "Hermitage L'Hermite"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 16.0,
+   "summary": "The top of the hill around the chapel of Saint-Christophe and the hermit's cell that gave Hermitage its name, with thinner, sandy granite soils (*arzelle*). It gives perfumed, finely structured red and fine, mineral white. Chapoutier's L'Ermite is a single-site red and white; Jean-Louis Chave also farms here.",
+   "terroir": "The lieu-dit's 16.0 ha of AOC-delimited land lies at about 175 to 270 m, with a mean slope of about 29%, facing broadly south-east (Copernicus DEM).",
+   "producers": [
+    "M. Chapoutier",
+    "Domaine Jean-Louis Chave"
+   ],
+   "nerd_note": "The legend says the knight Gaspard de Stérimberg retired to a hermitage on the hill in 1224 after the Albigensian Crusade and planted vines there.",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-la-croix",
+   "country": "fr",
+   "name": "La Croix",
+   "match": [
+    "La Croix",
+    "Hermitage La Croix"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 18.7,
+   "summary": "Lower slopes on the eastern side of the hill near the town of Tain, on loess and pebbles; a source of supple red and white for blends.",
+   "terroir": "The lieu-dit's 18.7 ha of AOC-delimited land lies at about 135 to 190 m, with a mean slope of about 15%, facing south to south-east (Copernicus DEM).",
+   "nerd_note": "Up to 15% of white Marsanne and Roussanne may be co-fermented with red Hermitage, though few growers use it.",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-le-meal",
+   "country": "fr",
+   "name": "Le Méal",
+   "match": [
+    "Le Méal",
+    "Hermitage Le Méal"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 16.9,
+   "summary": "In the middle of the hill, facing south, on limestone-rich pebbles and loess over granite; warm and rich, Le Méal gives ripe, sumptuous red and white. Its rounded stones are glacial and river deposits left on the slope, and they store heat.\n\nChapoutier bottles Le Méal separately as red and white, Paul Jaboulet Aîné's La Chapelle draws on it, and Marc Sorrel's Le Gréal blends Le Méal with Les Greffieux.",
+   "terroir": "The lieu-dit's 16.9 ha of AOC-delimited land lies at about 140 to 225 m, with a mean slope of about 32%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "M. Chapoutier",
+    "Paul Jaboulet Aîné",
+    "Domaine Marc Sorrel"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-les-bessards",
+   "country": "fr",
+   "name": "Les Bessards",
+   "match": [
+    "Les Bessards",
+    "Hermitage Les Bessards",
+    "Bessar"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 20.8,
+   "summary": "Les Bessards is the steep western end of the hill of Hermitage, on granite, and the backbone of red Hermitage: its Syrah is dark, firm, tannic and very long-lived, with black fruit, violets and a mineral, almost graphite edge.\n\nAlmost every great Hermitage draws on it. Jean-Louis Chave builds his red around Bessards; Chapoutier's Le Pavillon and Paul Jaboulet Aîné's La Chapelle rely heavily on it; Delas bottles a Les Bessards. The granite here is the same rock as Saint-Joseph across the river, from which the Rhône cut off the hill.",
+   "terroir": "The lieu-dit's 20.8 ha of AOC-delimited land lies at about 125 to 240 m, with a mean slope of about 32%, facing south-west to south (Copernicus DEM).",
+   "producers": [
+    "Domaine Jean-Louis Chave",
+    "M. Chapoutier",
+    "Paul Jaboulet Aîné",
+    "Delas"
+   ],
+   "nerd_note": "Hermitage is a piece of the Massif Central: the granite of Les Bessards was separated from the west bank when the Rhône shifted its course east of the hill.",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-aux-charmes",
+   "country": "fr",
+   "name": "Aux Charmes",
+   "match": [
+    "Aux Charmes",
+    "Morgon Aux Charmes"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 23.1,
+   "summary": "Les Charmes (in the land register Aux Charmes) is a climat on the high, south-facing slopes in the west of Morgon, on granite sands, giving a lighter, more perfumed Morgon. Jean-Marc Burgaud bottles a Morgon Les Charmes.",
+   "terroir": "The lieu-dit's 23.1 ha of AOC-delimited land lies at about 320 to 370 m, with a mean slope of about 9%, facing south to south-west (Copernicus DEM).",
+   "producers": [
+    "Jean-Marc Burgaud"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-douby",
+   "country": "fr",
+   "name": "Douby",
+   "match": [
+    "Douby",
+    "Morgon Douby"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 23.1,
+   "summary": "A climat east of Villié-Morgon below the Côte du Py, on schist and granite. Douby is regularly named among the historic climats of Morgon.",
+   "terroir": "The lieu-dit's 23.1 ha of AOC-delimited land lies at about 250 to 300 m, with a mean slope of about 10%, facing south-east to south (Copernicus DEM).",
+   "nerd_note": "Old Morgon is said to 'morgonner': with age the best climats take on a kirsch and earthy depth that can recall Pinot Noir.",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-fontriante",
+   "country": "fr",
+   "name": "Fontriante",
+   "match": [
+    "Fontriante",
+    "Morgon Fontriante"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 18.8,
+   "summary": "A climat west of Villié-Morgon on slopes facing south-west and south-east, on granite sands; one of the named sites of the cru's western half, which gives fresher, more floral wines than the Côte du Py.",
+   "terroir": "The lieu-dit's 18.8 ha of AOC-delimited land lies at about 270 to 315 m, with a mean slope of about 11%, facing broadly south-south-west (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-le-clachet",
+   "country": "fr",
+   "name": "Le Clachet",
+   "match": [
+    "Le Clachet",
+    "Morgon Le Clachet"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 21.7,
+   "summary": "A climat on almost flat land below the Côte du Py, on schist-derived soils and clay, one of the named sites of the eastern Morgon around the hamlet of Le Clachet.",
+   "terroir": "The lieu-dit's 21.7 ha of AOC-delimited land lies at about 245 to 260 m, on almost flat land (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-montpelain",
+   "country": "fr",
+   "name": "Montpelain",
+   "match": [
+    "Montpelain",
+    "Morgon Montpelain"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 16.0,
+   "summary": "A climat on the gentle, lower ground of Morgon toward the south and east, facing north-east, on sandy granite and alluvial soils that give supple, early-drinking Gamay.",
+   "terroir": "The lieu-dit's 16.0 ha of AOC-delimited land lies at about 225 to 250 m, with a mean slope of about 5%, mostly north-east-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-saint-joseph",
+   "country": "fr",
+   "name": "Saint-Joseph",
+   "match": [
+    "Saint-Joseph",
+    "Morgon Saint-Joseph"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 19.5,
+   "summary": "The highest climat of Morgon, at about 425 to 470 m on the western hills toward Chiroubles, on granite. It is a cool, late-ripening corner of the cru (not to be confused with the Rhône appellation of the same name).",
+   "terroir": "The lieu-dit's 19.5 ha of AOC-delimited land lies at about 425 to 470 m, with a mean slope of about 16%, facing broadly east-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-aux-caves",
+   "country": "fr",
+   "name": "Aux Caves",
+   "match": [
+    "Aux Caves",
+    "Moulin-à-Vent Aux Caves"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 23.0,
+   "summary": "A climat in Chénas on south-east-facing slopes at about 260 to 305 m, in the northern part of Moulin-à-Vent, on granite.",
+   "terroir": "The lieu-dit's 23.0 ha of AOC-delimited land lies at about 255 to 305 m, with a mean slope of about 10%, mostly south-east-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-la-rochelle",
+   "country": "fr",
+   "name": "La Rochelle",
+   "match": [
+    "La Rochelle",
+    "Moulin-à-Vent La Rochelle"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 18.8,
+   "summary": "A climat in Chénas on higher, south-east-facing slopes with thin granite soils. La Rochelle gives one of the most mineral, firmly built Moulin-à-Vents; Château du Moulin-à-Vent and Olivier Merlin bottle it.",
+   "terroir": "The lieu-dit's 18.8 ha of AOC-delimited land lies at about 265 to 310 m, with a mean slope of about 10%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "Château du Moulin-à-Vent",
+    "Domaine Merlin"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-les-burdelines",
+   "country": "fr",
+   "name": "Les Burdelines",
+   "match": [
+    "Les Burdelines",
+    "Moulin-à-Vent Les Burdelines"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 22.9,
+   "summary": "A climat in Romanèche-Thorins on slopes facing north-east, on granite, one of the larger named sites of the cru.",
+   "terroir": "The lieu-dit's 22.9 ha of AOC-delimited land lies at about 205 to 250 m, with a mean slope of about 8%, mostly north-east-facing (Copernicus DEM).",
+   "nerd_note": "Manganese in the granite of Moulin-à-Vent is often credited with the structure and longevity of its wines, though the link has never been proven.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-les-thorins",
+   "country": "fr",
+   "name": "Les Thorins",
+   "match": [
+    "Les Thorins",
+    "Moulin-à-Vent Les Thorins"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas, Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 17.0,
+   "summary": "Les Thorins, just north of the windmill, is one of the finest climats of Moulin-à-Vent and gave its name to the commune of Romanèche-Thorins. Its pink granite, crossed by veins of manganese, gives deep, structured Gamay that ages like Burgundy. Before the 1936 AOC the wines of the area were often sold as 'Thorins'. Louis Jadot's Château des Jacques bottles a Clos des Thorins.",
+   "terroir": "The lieu-dit's 17.0 ha of AOC-delimited land lies at about 235 to 265 m, with a mean slope of about 6%, facing south to south-east (Copernicus DEM).",
+   "producers": [
+    "Château des Jacques (Louis Jadot)"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-les-verillats",
+   "country": "fr",
+   "name": "Les Verillats",
+   "match": [
+    "Les Verillats",
+    "Moulin-à-Vent Les Verillats"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 18.7,
+   "summary": "A climat in Chénas north of the windmill, on granite. Château du Moulin-à-Vent's Croix des Vérillats takes its name from it.",
+   "terroir": "The lieu-dit's 18.7 ha of AOC-delimited land lies at about 255 to 280 m, with a mean slope of about 7%, facing north-east to east (Copernicus DEM).",
+   "producers": [
+    "Château du Moulin-à-Vent"
+   ],
+   "nerd_note": "Château du Moulin-à-Vent, owned by the Parinet family since 2009, bottles several climats separately.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-saint-joseph-le-paradis-mauves",
+   "country": "fr",
+   "name": "Le Paradis (Mauves)",
+   "match": [
+    "Le Paradis (Mauves)",
+    "Saint-Joseph Le Paradis",
+    "Le Paradis",
+    "Saint-Joseph Le Paradis (Mauves)"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Mauves",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 18.2,
+   "summary": "A lieu-dit at Mauves, one of the original Saint-Joseph communes. Pierre Coursodon's Paradis Saint-Pierre, a long-lived red, takes part of its name from it.",
+   "terroir": "The lieu-dit's 18.2 ha of AOC-delimited land lies at about 160 to 315 m, with a mean slope of about 42%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Coursodon"
+   ],
+   "nerd_note": "Mauves was one of the six original Saint-Joseph communes of 1956, with Glun, Tournon, Saint-Jean-de-Muzols, Lemps and Vion.",
+   "classification": "Lieu-dit (named place in the land register) within the Saint-Joseph AOC. It is not a separate appellation, but the name may appear on the label after Saint-Joseph when all the grapes come from it."
+  },
+  {
+   "id": "fr-saint-joseph-saint-joseph",
+   "country": "fr",
+   "name": "Saint - Joseph",
+   "match": [
+    "Saint - Joseph",
+    "Saint-Joseph Saint - Joseph"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tournon-sur-Rhône",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 18.0,
+   "summary": "The hillside at Tournon that gave its name to the whole appellation: the Jesuits of Tournon owned a vineyard here called 'Clos de Saint-Joseph', whose wine was known in the seventeenth and eighteenth centuries. When the AOC was created in 1956 it covered only six communes around Tournon and Mauves; it was later extended along 50 km of the west bank.",
+   "terroir": "The lieu-dit's 18.0 ha of AOC-delimited land lies at about 125 to 250 m, with a mean slope of about 38%, facing broadly south (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Saint-Joseph AOC. It is not a separate appellation, but the name may appear on the label after Saint-Joseph when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-les-romains",
+   "country": "fr",
+   "name": "Les Romains",
+   "match": [
+    "Les Romains",
+    "Sancerre Les Romains"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Sancerre",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 16.7,
+   "summary": "A lieu-dit near Sancerre, facing south-west, on flinty clay (*silex*), a name linked by local tradition to Roman remains. Domaine Vacheron's Les Romains, from biodynamically farmed vines, is the reference: smoky, precise and long.",
+   "terroir": "The lieu-dit's 16.7 ha of AOC-delimited land lies at about 230 to 280 m, with a mean slope of about 14%, mostly south-west-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Vacheron"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-petit-chemarin",
+   "country": "fr",
+   "name": "Petit Chemarin",
+   "match": [
+    "Petit Chemarin",
+    "Sancerre Petit Chemarin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Bué",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 17.6,
+   "summary": "The smaller neighbour of Grand Chemarin in Bué, on south-east-facing slopes of limestone (*caillottes*) and *terres blanches*; one of the cluster of famous Bué lieux-dits with Chêne Marchand.",
+   "terroir": "The lieu-dit's 17.6 ha of AOC-delimited land lies at about 255 to 280 m, with a mean slope of about 8%, facing broadly east-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-vouvray-le-marigny",
+   "country": "fr",
+   "name": "Le Marigny",
+   "match": [
+    "Le Marigny",
+    "Vouvray Le Marigny"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "village": "Vouvray",
+   "styles": [
+    "white",
+    "sparkling",
+    "sweet"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc",
+   "area_ha": 17.2,
+   "summary": "A large lieu-dit on the plateau above Vouvray, on clay with flint (*perruches*) over tuffeau, the classic soils of the Vouvray plateau above the Loire.",
+   "terroir": "The lieu-dit's 17.2 ha of AOC-delimited land lies at about 80 to 95 m, with a mean slope of about 6%, facing south-east to east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Vouvray AOC. It is not a separate appellation, but the name may appear on the label after Vouvray when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-petite-crau",
+   "country": "fr",
+   "name": "La Petite Crau",
+   "match": [
+    "La Petite Crau",
+    "Châteauneuf-du-Pape La Petite Crau"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Bédarrides",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 6.2,
+   "summary": "A small lieu-dit in Bédarrides at the edge of the La Crau plateau, sharing its pebble-covered terrace soils.",
+   "terroir": "The lieu-dit's 6.2 ha of AOC-delimited land lies at about 65 to 95 m, with a mean slope of about 9%, mostly east-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-roquette",
+   "country": "fr",
+   "name": "La Roquette",
+   "match": [
+    "La Roquette",
+    "Châteauneuf-du-Pape La Roquette"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 7.4,
+   "summary": "A small lieu-dit on the plateau east of the village, on galets over clay. Domaine La Roquette, owned by the Brunier family of Vieux Télégraphe since 1986, takes its name from it.",
+   "terroir": "The lieu-dit's 7.4 ha of AOC-delimited land lies at about 110 to 125 m, with a mean slope of about 6%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine La Roquette"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-la-solitude",
+   "country": "fr",
+   "name": "La Solitude",
+   "match": [
+    "La Solitude",
+    "Châteauneuf-du-Pape La Solitude"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 10.6,
+   "summary": "A lieu-dit south of the village, home of Domaine de la Solitude, owned by the Lançon family, descendants of the Barberini family that came to the papal Comtat in the seventeenth century.",
+   "terroir": "The lieu-dit's 10.6 ha of AOC-delimited land lies at about 85 to 95 m, with a mean slope of about 6%, facing south-east to east (Copernicus DEM).",
+   "producers": [
+    "Domaine de la Solitude"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-le-bois-de-boursan",
+   "country": "fr",
+   "name": "Le Bois de Boursan",
+   "match": [
+    "Le Bois de Boursan",
+    "Châteauneuf-du-Pape Le Bois de Boursan"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 11.1,
+   "summary": "A low-lying lieu-dit in the south of the appellation, near the Sorgues side, which gave its name to Domaine Bois de Boursan, known for its traditional Châteauneuf.",
+   "terroir": "The lieu-dit's 11.1 ha of AOC-delimited land lies at about 30 to 40 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Domaine Bois de Boursan"
+   ],
+   "nerd_note": "Châteauneuf-du-Pape's decree names 13 varieties (18 counting colour variants), but Grenache dominates the vineyard.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-le-cristia-courthezon",
+   "country": "fr",
+   "name": "Le Cristia (Courthézon)",
+   "match": [
+    "Le Cristia (Courthézon)",
+    "Châteauneuf-du-Pape Le Cristia",
+    "Le Cristia",
+    "Châteauneuf-du-Pape Le Cristia (Courthézon)"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 10.1,
+   "summary": "A lieu-dit in Courthézon on the sandy, gently sloping eastern side of the appellation, which gave its name to Domaine de Cristia, the Grangeon family estate.",
+   "terroir": "The lieu-dit's 10.1 ha of AOC-delimited land lies at about 60 to 95 m, with a mean slope of about 13%, facing broadly east-north-east (Copernicus DEM).",
+   "producers": [
+    "Domaine de Cristia"
+   ],
+   "nerd_note": "The appellation covers five communes: Châteauneuf-du-Pape, Courthézon, Bédarrides, Orange and Sorgues.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-le-gres",
+   "country": "fr",
+   "name": "Le Grès",
+   "match": [
+    "Le Grès",
+    "Châteauneuf-du-Pape Le Grès"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 9.5,
+   "summary": "A small lieu-dit in Courthézon whose name refers to sandstone (*grès*) and sand rather than the famous pebbles. On sandy soils Grenache ripens more slowly and keeps more perfume and finesse, which is why sand-grown Châteauneuf, as at nearby Rayas, is prized by growers looking for elegance.",
+   "terroir": "The lieu-dit's 9.5 ha of AOC-delimited land lies at about 60 to 100 m, with a mean slope of about 16%, facing east to north-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-le-rayas",
+   "country": "fr",
+   "name": "Le Rayas",
+   "match": [
+    "Le Rayas",
+    "Châteauneuf-du-Pape Le Rayas"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Courthézon",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 15.1,
+   "summary": "The lieu-dit of Château Rayas, the most singular estate in Châteauneuf-du-Pape. Unlike the stony plateaus, Rayas lies on sandy soils (weathered sandstone) in clearings among pine and oak woods, on slopes that face north. Cool, sheltered and low-yielding, it gives Grenache of extraordinary perfume and transparency, closer to great Burgundy than to the dark, heady style of the appellation.\n\nThe Reynaud family has owned Rayas since the late nineteenth century; Jacques Reynaud made it a cult wine, and since 1997 his nephew Emmanuel Reynaud has run it, also making Château des Tours and Château de Fonsalette.",
+   "terroir": "The lieu-dit's 15.1 ha of AOC-delimited land lies at about 65 to 110 m, with a mean slope of about 11%, facing broadly north (Copernicus DEM).",
+   "producers": [
+    "Château Rayas"
+   ],
+   "nerd_note": "Château Rayas red is essentially pure Grenache from old vines, rare in an appellation of blends.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-le-village",
+   "country": "fr",
+   "name": "Le Village",
+   "match": [
+    "Le Village",
+    "Châteauneuf-du-Pape Le Village"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 6.1,
+   "summary": "The vineyards around the village of Châteauneuf-du-Pape and below the ruined papal castle, built for Pope John XXII in the fourteenth century as a summer residence, on the slopes of limestone and sand that surround the hilltop.",
+   "terroir": "The lieu-dit's 6.1 ha of AOC-delimited land lies at about 80 to 120 m, with a mean slope of about 20%, facing broadly south-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-chateauneuf-du-pape-relagnes",
+   "country": "fr",
+   "name": "Relagnes",
+   "match": [
+    "Relagnes",
+    "Châteauneuf-du-Pape Relagnes"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Southern Rhône",
+   "village": "Châteauneuf-du-Pape",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
+   "area_ha": 13.9,
+   "summary": "A lieu-dit west of the village on slopes facing west toward the Rhône. Domaine des Relagnes, the Boiron family estate, takes its name from it.",
+   "terroir": "The lieu-dit's 13.9 ha of AOC-delimited land lies at about 55 to 85 m, with a mean slope of about 8%, facing west to north-west (Copernicus DEM).",
+   "producers": [
+    "Domaine des Relagnes"
+   ],
+   "nerd_note": "The western slopes toward the Rhône have more sand and clay and fewer pebbles than the eastern plateaus.",
+   "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
+  },
+  {
+   "id": "fr-condrieu-chery",
+   "country": "fr",
+   "name": "Chéry",
+   "match": [
+    "Chéry",
+    "Condrieu Chéry"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Condrieu",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Viognier",
+   "area_ha": 5.9,
+   "summary": "One of the great Condrieu slopes, just south of the town, facing south on granite with a topsoil of weathered mica and sand (*arzelle*). Chéry gives rich but precise Viognier, with apricot and violet and a stony finish. André Perret's Coteau de Chéry is a reference, and several other growers bottle it.",
+   "terroir": "The lieu-dit's 5.9 ha of AOC-delimited land lies at about 185 to 260 m, with a mean slope of about 40%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "André Perret"
+   ],
+   "nerd_note": "Condrieu shrank to about 8 ha in the mid-1960s; growers such as Georges Vernay replanted the terraces, and today it has around 200 ha.",
+   "classification": "Lieu-dit (named place in the land register) within the Condrieu AOC. It is not a separate appellation, but the name may appear on the label after Condrieu when all the grapes come from it."
+  },
+  {
+   "id": "fr-condrieu-vernon",
+   "country": "fr",
+   "name": "Vernon",
+   "match": [
+    "Vernon",
+    "Condrieu Vernon"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Condrieu",
+   "styles": [
+    "white"
+   ],
+   "dominant_style": "white",
+   "grapes": "Viognier",
+   "area_ha": 12.6,
+   "summary": "The steep granite slope above the town of Condrieu that includes the Coteau de Vernon, source of Georges Vernay's most famous Viognier, from vines planted in the 1930s and 1940s. The wine is mineral, tight and long-lived, a rebuttal to the idea that Condrieu must be drunk young.",
+   "terroir": "The lieu-dit's 12.6 ha of AOC-delimited land lies at about 160 to 280 m, with a mean slope of about 43%, facing south-east to south (Copernicus DEM).",
+   "producers": [
+    "Domaine Georges Vernay"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Condrieu AOC. It is not a separate appellation, but the name may appear on the label after Condrieu when all the grapes come from it."
+  },
+  {
+   "id": "fr-cornas-champelrose",
+   "country": "fr",
+   "name": "Champelrose",
+   "match": [
+    "Champelrose",
+    "Cornas Champelrose"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Cornas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah",
+   "area_ha": 6.3,
+   "summary": "A small, east-facing lieu-dit on the lower slopes near the village, where limestone appears among the granite. Domaine Courbis bottles a Cornas Champelrose, a rounder counterpart to its La Sabarotte.",
+   "terroir": "The lieu-dit's 6.3 ha of AOC-delimited land lies at about 135 to 165 m, with a mean slope of about 12%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Courbis"
+   ],
+   "nerd_note": "Cornas has been pure Syrah since its AOC of 1938; no white grapes or Viognier are allowed.",
+   "classification": "Lieu-dit (named place in the land register) within the Cornas AOC. It is not a separate appellation, but the name may appear on the label after Cornas when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-chavaroche",
+   "country": "fr",
+   "name": "Chavaroche",
+   "match": [
+    "Chavaroche",
+    "Côte-Rôtie Chavaroche"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 9.5,
+   "summary": "A steep lieu-dit of the Côte Brune above Ampuis, on dark schist. Bernard Levet's La Chavaroche, from old vines and made with whole bunches in old casks, is a reference for the wild, savoury, traditional side of Côte-Rôtie.",
+   "terroir": "The lieu-dit's 9.5 ha of AOC-delimited land lies at about 205 to 310 m, with a mean slope of about 39%, facing south-west to south (Copernicus DEM).",
+   "producers": [
+    "Bernard Levet"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-cognet",
+   "country": "fr",
+   "name": "Cognet",
+   "match": [
+    "Cognet",
+    "Côte-Rôtie Cognet"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 8.7,
+   "summary": "A steep, south-facing slope in Ampuis, one of the parcels bottled separately by Michel et Stéphane Ogier.",
+   "terroir": "The lieu-dit's 8.7 ha of AOC-delimited land lies at about 160 to 275 m, with a mean slope of about 35%, facing south to south-east (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "nerd_note": "Côte-Rôtie allows up to 20% Viognier, co-fermented with the Syrah, a tradition from the days of mixed plantings.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-cote-bodin",
+   "country": "fr",
+   "name": "Côte Bodin",
+   "match": [
+    "Côte Bodin",
+    "Côte-Rôtie Côte Bodin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 11.5,
+   "summary": "A steep slope in Ampuis facing south-east and east, bottled as a single lieu-dit by Michel et Stéphane Ogier.",
+   "terroir": "The lieu-dit's 11.5 ha of AOC-delimited land lies at about 180 to 305 m, with a mean slope of about 39%, facing south-east to east (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "nerd_note": "The Ogiers' 2019 'sélection de lieux-dits' bottled nine single sites, an unusual exercise in a region where most wines are blends of several slopes.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-cote-brune",
+   "country": "fr",
+   "name": "Côte Brune",
+   "match": [
+    "Côte Brune",
+    "Côte-Rôtie Côte Brune"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 9.2,
+   "summary": "The cadastral Côte Brune is a small, very steep lieu-dit above Ampuis that gave its name to the whole northern half of Côte-Rôtie. Legend says the Seigneur de Maugiron left his slopes to two daughters, one dark and one fair, hence Côte Brune and Côte Blonde. The brown, iron-rich schist here gives firm, dark, savoury Syrah that needs a decade.\n\nDomaine Jamet's Côte Brune is the modern reference, and the Gentaz-Dervieux Côte Brune of the 1970s to 1990s is a legend among collectors; Gilles Barge also bottles a Côte Brune.",
+   "terroir": "The lieu-dit's 9.2 ha of AOC-delimited land lies at about 170 to 285 m, with a mean slope of about 43%, mostly south-west-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Jamet",
+    "Gilles Barge"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-coteaux-de-tupin",
+   "country": "fr",
+   "name": "Coteaux de Tupin",
+   "match": [
+    "Coteaux de Tupin",
+    "Côte-Rôtie Coteaux de Tupin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tupin-et-Semons",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 14.1,
+   "summary": "Steep slopes in Tupin-et-Semons, the southern commune of Côte-Rôtie, facing south-east and south. The southern sector has more granite and gneiss than the Côte Brune, and the wines are finer and more perfumed, closer to the Côte Blonde style.",
+   "terroir": "The lieu-dit's 14.1 ha of AOC-delimited land lies at about 180 to 310 m, with a mean slope of about 48%, mostly south-east-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-grandes-places",
+   "country": "fr",
+   "name": "Grandes Places",
+   "match": [
+    "Grandes Places",
+    "Côte-Rôtie Grandes Places"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 6.5,
+   "summary": "Les Grandes Places is a steep slope in the north of Côte-Rôtie, near Vérenay, on dark schist. Clusel-Roch's Les Grandes Places, from old vines of the local Sérine selection of Syrah, is one of the most admired traditional Côte-Rôties, dense and spicy; Jean-Michel Gerin also makes a Grandes Places.",
+   "terroir": "The lieu-dit's 6.5 ha of AOC-delimited land lies at about 270 to 325 m, with a mean slope of about 24%, facing south-east to east (Copernicus DEM).",
+   "producers": [
+    "Clusel-Roch",
+    "Jean-Michel Gerin"
+   ],
+   "nerd_note": "Sérine is the old, small-berried Syrah selection of the northern Rhône; several growers propagate it by massal selection from their own vines.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-la-landonne",
+   "country": "fr",
+   "name": "La Landonne",
+   "match": [
+    "La Landonne",
+    "Côte-Rôtie La Landonne"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 4.8,
+   "summary": "La Landonne is the most famous lieu-dit of the Côte Brune, the northern half of Côte-Rôtie, on a slope so steep (the terrain model averages about 50%) that it is worked on narrow terraces held by dry-stone walls. Its dark mica-schist, rich in iron oxides, gives the most powerful, tannic and long-lived wines of the appellation: black fruit, smoke, olive and iron, with little of the floral lift of the southern slopes.\n\nMarcel Guigal assembled La Landonne from dozens of small plots in the 1970s and released the first Guigal La Landonne with the 1978 vintage; with La Mouline and La Turque it forms the trio of 'La La' wines that made Côte-Rôtie world-famous in the 1980s. Unlike its siblings it is pure Syrah. René Rostaing, Jean-Michel Gerin and Delas also bottle La Landonne.",
+   "terroir": "The lieu-dit's 4.8 ha of AOC-delimited land lies at about 185 to 270 m, with a mean slope of about 50%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "E. Guigal",
+    "René Rostaing",
+    "Jean-Michel Gerin",
+    "Delas"
+   ],
+   "nerd_note": "Guigal's La Turque comes from the Côte Brune and La Mouline from the Côte Blonde; neither name is a cadastral lieu-dit, which is why they do not appear as separate units on this map.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-lancement",
+   "country": "fr",
+   "name": "Lancement",
+   "match": [
+    "Lancement",
+    "Côte-Rôtie Lancement"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 10.6,
+   "summary": "A slope in the south of Ampuis on the Côte Blonde side, where lighter, more granitic soils give finer, more aromatic wine. Michel et Stéphane Ogier's Lancement is one of the estate's flagship wines: perfumed, silky and long.",
+   "terroir": "The lieu-dit's 10.6 ha of AOC-delimited land lies at about 225 to 340 m, with a mean slope of about 25%, facing broadly south-south-east (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-le-champon",
+   "country": "fr",
+   "name": "Le Champon",
+   "match": [
+    "Le Champon",
+    "Côte-Rôtie Le Champon"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 5.4,
+   "summary": "A lieu-dit on the upper, gentler ground of Ampuis near the plateau, at about 310 to 340 m. Michel et Stéphane Ogier bottle Le Champon separately; the higher position gives a lighter, more aromatic style.",
+   "terroir": "The lieu-dit's 5.4 ha of AOC-delimited land lies at about 305 to 340 m, with a mean slope of about 18%, facing south to south-east (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-le-mollard",
+   "country": "fr",
+   "name": "Le Mollard",
+   "match": [
+    "Le Mollard",
+    "Côte-Rôtie Le Mollard"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 8.2,
+   "summary": "A steep slope in Ampuis facing south-east, worked on terraces of schist; one of the many lieux-dits whose fruit goes into the blends of the Ampuis growers.",
+   "terroir": "The lieu-dit's 8.2 ha of AOC-delimited land lies at about 170 to 290 m, with a mean slope of about 46%, mostly south-east-facing (Copernicus DEM).",
+   "nerd_note": "Many Côte-Rôtie lieux-dits are farmed in tiny parcels by several growers, so their names appear mainly in blends.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-leyat",
+   "country": "fr",
+   "name": "Leyat",
+   "match": [
+    "Leyat",
+    "Côte-Rôtie Leyat"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 9.7,
+   "summary": "A slope in Ampuis on the Côte Brune side. Leyat is one of the parcels Michel et Stéphane Ogier have bottled as a single lieu-dit in their 'sélection de lieux-dits'.",
+   "terroir": "The lieu-dit's 9.7 ha of AOC-delimited land lies at about 250 to 315 m, with a mean slope of about 28%, facing broadly east (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "nerd_note": "Most Côte-Rôtie estates own small parcels in several lieux-dits and blend them; single-lieu-dit bottlings are a recent trend.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-montlis",
+   "country": "fr",
+   "name": "Montlis",
+   "match": [
+    "Montlis",
+    "Côte-Rôtie Montlis"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Saint-Cyr-sur-le-Rhône",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 12.0,
+   "summary": "A steep lieu-dit in Saint-Cyr-sur-le-Rhône, the northern commune of Côte-Rôtie, facing south-east. Montlis is one of the single-lieu-dit wines of Michel et Stéphane Ogier, and shows the cooler, fresher side of the northern extension of the appellation.",
+   "terroir": "The lieu-dit's 12.0 ha of AOC-delimited land lies at about 175 to 285 m, with a mean slope of about 38%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-montmain",
+   "country": "fr",
+   "name": "Montmain",
+   "match": [
+    "Montmain",
+    "Côte-Rôtie Montmain"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 6.2,
+   "summary": "A steep, south-facing slope in Ampuis, one of the lieux-dits Michel et Stéphane Ogier bottle separately. Steep schist and full sun give dark, concentrated Syrah.",
+   "terroir": "The lieu-dit's 6.2 ha of AOC-delimited land lies at about 190 to 310 m, with a mean slope of about 41%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "nerd_note": "The appellation runs along about 8 km of the right bank, on the communes of Saint-Cyr-sur-le-Rhône, Ampuis and Tupin-et-Semons.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-rochins",
+   "country": "fr",
+   "name": "Rochins",
+   "match": [
+    "Rochins",
+    "Côte-Rôtie Rochins"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 8.4,
+   "summary": "A steep lieu-dit of the Côte Brune above Ampuis, facing south-west, on dark schist. Domaine Garon bottles Les Rochins, and Patrick and Christophe Bonnefond's 'Les Rochains' comes from the same slope.",
+   "terroir": "The lieu-dit's 8.4 ha of AOC-delimited land lies at about 180 to 285 m, with a mean slope of about 42%, mostly south-west-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Garon",
+    "Patrick et Christophe Bonnefond"
+   ],
+   "nerd_note": "'Les Rochains' and 'Rochins' are two spellings of the same place, a common confusion in northern Rhône names.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-verenay",
+   "country": "fr",
+   "name": "Vérenay",
+   "match": [
+    "Vérenay",
+    "Côte-Rôtie Vérenay"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 5.7,
+   "summary": "The lower slopes around the hamlet of Vérenay, at the northern end of the Ampuis commune, where Côte-Rôtie's northern coteaux begin. Several growers are based in the hamlet, including Clusel-Roch.",
+   "terroir": "The lieu-dit's 5.7 ha of AOC-delimited land lies at about 155 to 180 m, with a mean slope of about 19%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "Clusel-Roch"
+   ],
+   "nerd_note": "Vérenay marks the northern end of the Côte Brune slopes; the hamlet sits at the foot of the coteaux.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-grand-cour",
+   "country": "fr",
+   "name": "Grand'Cour",
+   "match": [
+    "Grand'Cour",
+    "Fleurie Grand'Cour"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 7.4,
+   "summary": "A small climat around the Clos de la Grand'Cour, the Dutraive family's walled estate, a reference of the natural wine school of Beaujolais.",
+   "terroir": "The lieu-dit's 7.4 ha of AOC-delimited land lies at about 285 to 305 m, with a mean slope of about 6%, facing south-east to south (Copernicus DEM).",
+   "producers": [
+    "Domaine de la Grand'Cour (Jean-Louis Dutraive)"
+   ],
+   "nerd_note": "Jean-Louis Dutraive farms the walled Clos de la Grand'Cour organically and makes his wines with whole bunches and little or no sulphur.",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-grille-midi-nord",
+   "country": "fr",
+   "name": "Grille Midi Nord",
+   "match": [
+    "Grille Midi Nord",
+    "Fleurie Grille Midi Nord"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 11.2,
+   "summary": "The northern part of Grille-Midi, a steep, sun-trap slope ('grill at noon') above the village. Grille-Midi is one of the best-known Fleurie climats, giving ripe, intense Gamay.",
+   "terroir": "The lieu-dit's 11.2 ha of AOC-delimited land lies at about 315 to 410 m, with a mean slope of about 18%, mostly east-facing (Copernicus DEM).",
+   "nerd_note": "Grille-Midi is split into a north and a south part in the land register; both are mapped here.",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-grille-midi-sud",
+   "country": "fr",
+   "name": "Grille Midi Sud",
+   "match": [
+    "Grille Midi Sud",
+    "Fleurie Grille Midi Sud"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 6.1,
+   "summary": "The southern part of Grille-Midi, the sun-trap slope above Fleurie village (the name means 'grill at noon'); one of the best-known climats of the cru.",
+   "terroir": "The lieu-dit's 6.1 ha of AOC-delimited land lies at about 310 to 360 m, with a mean slope of about 16%, facing north-east to east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-fleurie-la-roilette",
+   "country": "fr",
+   "name": "La Roilette",
+   "match": [
+    "La Roilette",
+    "Fleurie La Roilette"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Fleurie",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 11.6,
+   "summary": "A climat bordering Moulin-à-Vent with more clay than most of Fleurie, known for the Coudert family's Clos de la Roilette, whose fuller, firmer wine was long sold as Fleurie but tastes closer to its neighbour.",
+   "terroir": "The lieu-dit's 11.6 ha of AOC-delimited land lies at about 230 to 275 m, with a mean slope of about 14%, mostly north-east-facing (Copernicus DEM).",
+   "producers": [
+    "Clos de la Roilette (Coudert)"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Fleurie AOC. It is not a separate appellation, but the name may appear on the label after Fleurie when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-beaume",
+   "country": "fr",
+   "name": "Beaume",
+   "match": [
+    "Beaume",
+    "Hermitage Beaume"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 7.5,
+   "summary": "A lieu-dit in the middle of the eastern hill, on stony limestone soils mixed with loess. Beaume is part of Jean-Louis Chave's red blend and gives warm, round Syrah.",
+   "terroir": "The lieu-dit's 7.5 ha of AOC-delimited land lies at about 125 to 185 m, with a mean slope of about 27%, facing broadly south (Copernicus DEM).",
+   "producers": [
+    "Domaine Jean-Louis Chave"
+   ],
+   "nerd_note": "Jean-Louis Chave blends his red Hermitage from parcels in several lieux-dits rather than bottling them separately, a deliberate choice for complexity.",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-diognieres-et-torras",
+   "country": "fr",
+   "name": "Diognières et Torras",
+   "match": [
+    "Diognières et Torras",
+    "Hermitage Diognières et Torras"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 4.9,
+   "summary": "A lieu-dit at the foot of the eastern hill that combines Diognières and Torras, on stony alluvial ground, giving supple, ripe Syrah for blends.",
+   "terroir": "The lieu-dit's 4.9 ha of AOC-delimited land lies at about 125 to 140 m, with a mean slope of about 8%, facing south to south-west (Copernicus DEM).",
+   "nerd_note": "Hermitage was famous enough in the eighteenth and nineteenth centuries for Bordeaux merchants to add it to their clarets, a practice known as 'hermitager'.",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-les-diognieres",
+   "country": "fr",
+   "name": "Les Diognières",
+   "match": [
+    "Les Diognières",
+    "Hermitage Les Diognières"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 5.2,
+   "summary": "Flat to gently sloping land at the foot of the eastern hill, on deep, stony alluvium. Les Diognières gives rounder, fleshier red; Ferraton bottles a Les Dionnières, and Chave includes it in his blend.",
+   "terroir": "The lieu-dit's 5.2 ha of AOC-delimited land lies at about 125 to 130 m, with a mean slope of about 6%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Ferraton",
+    "Domaine Jean-Louis Chave"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-les-grandes-vignes",
+   "country": "fr",
+   "name": "Les Grandes Vignes",
+   "match": [
+    "Les Grandes Vignes",
+    "Hermitage Les Grandes Vignes"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Crozes-Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 6.8,
+   "summary": "The part of the Hermitage AOC that lies in the commune of Crozes-Hermitage, north-east of the main hill, on higher slopes at about 250 to 320 m. It is a reminder that the appellation's limits follow terroir rather than commune boundaries.",
+   "terroir": "The lieu-dit's 6.8 ha of AOC-delimited land lies at about 250 to 320 m, with a mean slope of about 33%, facing broadly south (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-les-greffieux",
+   "country": "fr",
+   "name": "Les Greffieux",
+   "match": [
+    "Les Greffieux",
+    "Hermitage Les Greffieux"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 9.2,
+   "summary": "At the bottom of the hill below Le Méal and Les Bessards, on silty alluvium and scree washed down the slope. Its Syrah is supple, aromatic and earlier-drinking, the softening element of many blends. Marc Sorrel (in Le Gréal) and Chapoutier make single-site versions.",
+   "terroir": "The lieu-dit's 9.2 ha of AOC-delimited land lies at about 120 to 150 m, with a mean slope of about 15%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Marc Sorrel",
+    "M. Chapoutier"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-les-murets",
+   "country": "fr",
+   "name": "Les Murets",
+   "match": [
+    "Les Murets",
+    "Hermitage Les Murets"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 8.9,
+   "summary": "On the eastern part of the hill, on loess (wind-blown silt) over granite and limestone, facing south. Les Murets is a classic white-wine site; Chapoutier's De l'Orée white comes from here, and the name Chante-Alouette is traditionally linked to this part of the hill.",
+   "terroir": "The lieu-dit's 8.9 ha of AOC-delimited land lies at about 135 to 185 m, with a mean slope of about 16%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "M. Chapoutier"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-les-rocoules",
+   "country": "fr",
+   "name": "Les Rocoules",
+   "match": [
+    "Les Rocoules",
+    "Hermitage Les Rocoules",
+    "Roucoule"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 8.4,
+   "summary": "A lieu-dit in the east of the hill on loess and limestone, famous for white Hermitage from Marsanne and Roussanne. Chave and Marc Sorrel use it, and Sorrel's white Les Rocoules is a single-site bottling of great longevity.",
+   "terroir": "The lieu-dit's 8.4 ha of AOC-delimited land lies at about 135 to 185 m, with a mean slope of about 22%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Jean-Louis Chave",
+    "Domaine Marc Sorrel"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-maison-blanche",
+   "country": "fr",
+   "name": "Maison Blanche",
+   "match": [
+    "Maison Blanche",
+    "Hermitage Maison Blanche"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 5.8,
+   "summary": "A lieu-dit on the eastern, gentler part of the hill around a white house, on loess and limestone pebbles. Its Marsanne gives rich, honeyed white Hermitage, and Chave's white blend includes Maison Blanche.",
+   "terroir": "The lieu-dit's 5.8 ha of AOC-delimited land lies at about 185 to 200 m, with a mean slope of about 11%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Jean-Louis Chave"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-morgon-la-roche",
+   "country": "fr",
+   "name": "La Roche",
+   "match": [
+    "La Roche",
+    "Morgon La Roche"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Villié-Morgon",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 11.6,
+   "summary": "A small climat on a rocky (*roche*) shoulder of the Morgon hills at about 320 to 335 m, on granite.",
+   "terroir": "The lieu-dit's 11.6 ha of AOC-delimited land lies at about 320 to 335 m, with a mean slope of about 5%, facing broadly south-south-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Morgon AOC. It is not a separate appellation, but the name may appear on the label after Morgon when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-carquelin",
+   "country": "fr",
+   "name": "Carquelin",
+   "match": [
+    "Carquelin",
+    "Moulin-à-Vent Carquelin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 6.7,
+   "summary": "A climat in Romanèche-Thorins below the windmill. Château des Jacques's Clos du Grand Carquelin and Domaine Labruyère's Le Carquelin come from this sector.",
+   "terroir": "The lieu-dit's 6.7 ha of AOC-delimited land lies at about 220 to 250 m, with a mean slope of about 8%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Château des Jacques (Louis Jadot)",
+    "Domaine Labruyère"
+   ],
+   "nerd_note": "Moulin-à-Vent is often aged in oak barrels, Burgundy-style, and its best climats can keep for ten years or more.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-champagne",
+   "country": "fr",
+   "name": "Champagne",
+   "match": [
+    "Champagne",
+    "Moulin-à-Vent Champagne"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 15.5,
+   "summary": "A climat in Chénas on gentle granite slopes; the name, common in Burgundy and Beaujolais, comes from the Latin *campania*, open country, and has nothing to do with the sparkling wine region.",
+   "terroir": "The lieu-dit's 15.5 ha of AOC-delimited land lies at about 225 to 250 m, with a mean slope of about 7%, facing broadly east-north-east (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-la-roche",
+   "country": "fr",
+   "name": "La Roche",
+   "match": [
+    "La Roche",
+    "Moulin-à-Vent La Roche"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 8.5,
+   "summary": "A climat in Romanèche-Thorins near the windmill, on thin, rocky granite (hence the name). Château des Jacques and Thibault Liger-Belair bottle La Roche.",
+   "terroir": "The lieu-dit's 8.5 ha of AOC-delimited land lies at about 235 to 250 m, with a mean slope of about 8%, facing east to north-east (Copernicus DEM).",
+   "producers": [
+    "Château des Jacques (Louis Jadot)",
+    "Thibault Liger-Belair"
+   ],
+   "nerd_note": "Romanèche-Thorins is also home to the Hameau du Vin, the wine museum and park created by Georges Duboeuf.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-la-tour-du-bief",
+   "country": "fr",
+   "name": "La Tour du Bief",
+   "match": [
+    "La Tour du Bief",
+    "Moulin-à-Vent La Tour du Bief"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 13.5,
+   "summary": "A climat in Chénas on gentle granite slopes; Domaine de la Tour du Bief takes its name from it.",
+   "terroir": "The lieu-dit's 13.5 ha of AOC-delimited land lies at about 225 to 255 m, with a mean slope of about 8%, facing broadly east-north-east (Copernicus DEM).",
+   "producers": [
+    "Domaine de la Tour du Bief"
+   ],
+   "nerd_note": "Moulin-à-Vent straddles two communes, Romanèche-Thorins in Saône-et-Loire and Chénas in the Rhône, and so two départements.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-le-moulin-a-vent",
+   "country": "fr",
+   "name": "Le Moulin à Vent",
+   "match": [
+    "Le Moulin à Vent",
+    "Moulin-à-Vent Le Moulin à Vent"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 8.7,
+   "summary": "The climat around the sixteenth-century windmill on its hilltop at Romanèche-Thorins, a listed historic monument that gave the cru its name. The pink granite here is famous for its veins of manganese.",
+   "terroir": "The lieu-dit's 8.7 ha of AOC-delimited land lies at about 240 to 260 m, with a mean slope of about 9%, mostly north-east-facing (Copernicus DEM).",
+   "nerd_note": "Moulin-à-Vent is the only Beaujolais cru named after a monument rather than a village.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-les-perrelles",
+   "country": "fr",
+   "name": "Les Perrelles",
+   "match": [
+    "Les Perrelles",
+    "Moulin-à-Vent Les Perrelles"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 12.0,
+   "summary": "One of the lowest climats of Moulin-à-Vent, in Romanèche-Thorins at about 190 to 210 m, on sandy granite and alluvium toward the Saône plain.",
+   "terroir": "The lieu-dit's 12.0 ha of AOC-delimited land lies at about 190 to 210 m, with a mean slope of about 5%, mostly south-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-les-rouchaux",
+   "country": "fr",
+   "name": "Les Rouchaux",
+   "match": [
+    "Les Rouchaux",
+    "Moulin-à-Vent Les Rouchaux"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Romanèche-Thorins",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 15.3,
+   "summary": "A climat in Romanèche-Thorins on gentle slopes facing east, on granite sand. Thibault Liger-Belair, the Nuits-Saint-Georges grower who bought in Moulin-à-Vent in 2009, bottles Les Rouchaux.",
+   "terroir": "The lieu-dit's 15.3 ha of AOC-delimited land lies at about 205 to 225 m, with a mean slope of about 5%, mostly east-facing (Copernicus DEM).",
+   "producers": [
+    "Thibault Liger-Belair"
+   ],
+   "nerd_note": "Several Côte d'Or growers have invested in Moulin-à-Vent since the 2000s, drawn by its granite climats and modest land prices.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-moulin-a-vent-rochenoire",
+   "country": "fr",
+   "name": "Rochenoire",
+   "match": [
+    "Rochenoire",
+    "Moulin-à-Vent Rochenoire"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Beaujolais",
+   "subregion": "Beaujolais crus",
+   "village": "Chénas",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Gamay",
+   "area_ha": 12.8,
+   "summary": "The highest climat of the cru, in Chénas at about 365 to 425 m, on dark granite ('black rock'), facing south.",
+   "terroir": "The lieu-dit's 12.8 ha of AOC-delimited land lies at about 365 to 425 m, with a mean slope of about 24%, facing broadly south-east (Copernicus DEM).",
+   "nerd_note": "Higher climats such as Rochenoire ripen later and have gained attention in the warm vintages since the 2010s.",
+   "classification": "Lieu-dit (named place in the land register) within the Moulin-à-Vent AOC. It is not a separate appellation, but the name may appear on the label after Moulin-à-Vent when all the grapes come from it."
+  },
+  {
+   "id": "fr-saint-joseph-les-oliviers",
+   "country": "fr",
+   "name": "Les Oliviers",
+   "match": [
+    "Les Oliviers",
+    "Saint-Joseph Les Oliviers"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tournon-sur-Rhône",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 11.3,
+   "summary": "A lieu-dit at Tournon. Pierre Gonon's white Saint-Joseph Les Oliviers, from Marsanne and Roussanne, is one of the best whites of the northern Rhône.",
+   "terroir": "The lieu-dit's 11.3 ha of AOC-delimited land lies at about 125 to 175 m, with a mean slope of about 21%, facing broadly south-east (Copernicus DEM).",
+   "producers": [
+    "Domaine Pierre Gonon"
+   ],
+   "nerd_note": "White Saint-Joseph is made from Marsanne and Roussanne, and is a small share of the appellation.",
+   "classification": "Lieu-dit (named place in the land register) within the Saint-Joseph AOC. It is not a separate appellation, but the name may appear on the label after Saint-Joseph when all the grapes come from it."
+  },
+  {
+   "id": "fr-saint-joseph-sainte-epine",
+   "country": "fr",
+   "name": "Sainte-Épine",
+   "match": [
+    "Sainte-Épine",
+    "Saint-Joseph Sainte-Épine"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Saint-Jean-de-Muzols",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 10.4,
+   "summary": "A steep granite slope at Saint-Jean-de-Muzols, north of Tournon, and one of the historic heartlands of Saint-Joseph. Delas's Saint-Joseph Sainte-Épine, from old vines, is its best-known bottling: firm, dark and peppery.",
+   "terroir": "The lieu-dit's 10.4 ha of AOC-delimited land lies at about 135 to 215 m, with a mean slope of about 35%, facing south-east to south (Copernicus DEM).",
+   "producers": [
+    "Delas"
+   ],
+   "nerd_note": "The granite hills between Tournon and Saint-Jean-de-Muzols are the historic heart of Saint-Joseph, before the appellation was stretched to 26 communes.",
+   "classification": "Lieu-dit (named place in the land register) within the Saint-Joseph AOC. It is not a separate appellation, but the name may appear on the label after Saint-Joseph when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-la-poussie",
+   "country": "fr",
+   "name": "La Poussie",
+   "match": [
+    "La Poussie",
+    "Sancerre La Poussie"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Bué",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 8.9,
+   "summary": "A steep amphitheatre above Bué, facing south-west, on Kimmeridgian marl: one of the most spectacular slopes of the appellation, long famous through the Cordier family's Château de la Poussie.",
+   "terroir": "The lieu-dit's 8.9 ha of AOC-delimited land lies at about 305 to 350 m, with a mean slope of about 30%, facing broadly south (Copernicus DEM).",
+   "nerd_note": "Sancerre's three main soils are terres blanches (Kimmeridgian marl), caillottes (stony limestone) and silex (flinty clay), and growers often blend all three.",
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-le-cul-de-beaujeu",
+   "country": "fr",
+   "name": "Le Cul de Beaujeu",
+   "match": [
+    "Le Cul de Beaujeu",
+    "Sancerre Le Cul de Beaujeu"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Sancerre",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 12.5,
+   "summary": "A very steep slope above Chavignol, facing south-east, on Kimmeridgian marl: one of the trio of great Chavignol sites with the Monts Damnés and La Grande Côte. The Cotat cousins' Les Culs de Beaujeu and Lucien Crochet's Le Cul de Beaujeu are references.",
+   "terroir": "The lieu-dit's 12.5 ha of AOC-delimited land lies at about 245 to 330 m, with a mean slope of about 33%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "François Cotat",
+    "Pascal Cotat",
+    "Lucien Crochet"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-vouvray-le-clos-du-bourg",
+   "country": "fr",
+   "name": "Le Clos du Bourg",
+   "match": [
+    "Le Clos du Bourg",
+    "Vouvray Le Clos du Bourg"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "village": "Vouvray",
+   "styles": [
+    "white",
+    "sparkling",
+    "sweet"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc",
+   "area_ha": 6.0,
+   "summary": "A walled vineyard in the heart of Vouvray, on shallow clay and limestone over tuffeau, bought by Domaine Huet in 1953. Often considered the greatest of Huet's sites, Clos du Bourg gives the most powerful and complete Chenin of the estate.",
+   "terroir": "The lieu-dit's 6.0 ha of AOC-delimited land lies at about 85 to 95 m, with a mean slope of about 6%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Huet"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Vouvray AOC. It is not a separate appellation, but the name may appear on the label after Vouvray when all the grapes come from it."
+  },
+  {
+   "id": "fr-vouvray-le-haut-lieu",
+   "country": "fr",
+   "name": "Le Haut Lieu",
+   "match": [
+    "Le Haut Lieu",
+    "Vouvray Le Haut Lieu"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "village": "Vouvray",
+   "styles": [
+    "white",
+    "sparkling",
+    "sweet"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc",
+   "area_ha": 10.8,
+   "summary": "The plateau above Vouvray where Domaine Huet began: Victor Huet and his son Gaston bought Le Haut-Lieu in 1928. On deep clay over limestone (*argile à silex* over tuffeau), it gives the most open, supple of Huet's three single vineyards, in styles from sec to moelleux and sparkling depending on the year.\n\nGaston Huet, mayor of Vouvray for decades, made the estate a reference for Chenin Blanc; it converted to biodynamics in 1990.",
+   "terroir": "The lieu-dit's 10.8 ha of AOC-delimited land lies at about 95 to 105 m, on almost flat land (Copernicus DEM).",
+   "producers": [
+    "Domaine Huet"
+   ],
+   "nerd_note": "Huet decides each vintage whether a site makes sec, demi-sec or moelleux, so the same vineyard can give three different wines in three years.",
+   "classification": "Lieu-dit (named place in the land register) within the Vouvray AOC. It is not a separate appellation, but the name may appear on the label after Vouvray when all the grapes come from it."
+  },
+  {
+   "id": "fr-vouvray-le-mont",
+   "country": "fr",
+   "name": "Le Mont",
+   "match": [
+    "Le Mont",
+    "Vouvray Le Mont"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "village": "Vouvray",
+   "styles": [
+    "white",
+    "sparkling",
+    "sweet"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc",
+   "area_ha": 7.2,
+   "summary": "A steep, south-facing slope at the edge of the tuffeau escarpment above the Loire, with thin, stony soils of flinty clay (*silex*) over limestone. Domaine Huet bought Le Mont in 1957; it gives its most mineral, tightly wound Vouvray, slow to open and very long-lived.",
+   "terroir": "The lieu-dit's 7.2 ha of AOC-delimited land lies at about 60 to 100 m, with a mean slope of about 21%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Huet"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Vouvray AOC. It is not a separate appellation, but the name may appear on the label after Vouvray when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-bertholon",
+   "country": "fr",
+   "name": "Bertholon",
+   "match": [
+    "Bertholon",
+    "Côte-Rôtie Bertholon"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 1.2,
+   "summary": "A small lieu-dit on the plateau above Ampuis, at about 330 m, bottled separately by Michel et Stéphane Ogier as an example of the fresher, higher-altitude Côte-Rôtie.",
+   "terroir": "The lieu-dit's 1.2 ha of AOC-delimited land lies at about 325 to 335 m, with a mean slope of about 11%, facing south to south-east (Copernicus DEM).",
+   "producers": [
+    "Michel et Stéphane Ogier"
+   ],
+   "nerd_note": "The plateau above the slopes is included in the AOC; its gentler, higher sites give lighter wines than the coteaux.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-cote-rotie-la-brocarde",
+   "country": "fr",
+   "name": "La Brocarde",
+   "match": [
+    "La Brocarde",
+    "Côte-Rôtie La Brocarde"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Ampuis",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah (with up to 20% Viognier co-fermented)",
+   "area_ha": 4.0,
+   "summary": "A small, steep lieu-dit in Ampuis facing south-east, on the Côte Blonde side, where lighter, granitic soils give finer, more perfumed Syrah.",
+   "terroir": "The lieu-dit's 4.0 ha of AOC-delimited land lies at about 165 to 250 m, with a mean slope of about 35%, mostly south-east-facing (Copernicus DEM).",
+   "nerd_note": "Côte-Rôtie's terraces are held by dry-stone walls; many were rebuilt after the vineyard shrank sharply in the mid-twentieth century.",
+   "classification": "Lieu-dit (named place in the land register) within the Côte-Rôtie AOC. It is not a separate appellation, but the name may appear on the label after Côte-Rôtie when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-les-vercandiere",
+   "country": "fr",
+   "name": "Les Vercandière",
+   "match": [
+    "Les Vercandière",
+    "Hermitage Les Vercandière"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 1.7,
+   "summary": "A small, flat lieu-dit at the foot of the hill, on alluvial soils, a source of supple Syrah for blends.",
+   "terroir": "The lieu-dit's 1.7 ha of AOC-delimited land lies at about 120 to 120 m, with a mean slope of about 5%, facing broadly south (Copernicus DEM).",
+   "nerd_note": "The lieux-dits at the foot of the hill are often blended with the steep sites to soften them.",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-peleat",
+   "country": "fr",
+   "name": "Péléat",
+   "match": [
+    "Péléat",
+    "Hermitage Péléat"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 2.3,
+   "summary": "A small, south-facing lieu-dit in the middle of the hill between Le Méal and L'Hermite, on loess and scree over granite. Péléat is one of the parcels in Jean-Louis Chave's red blend, contributing aromatic finesse.",
+   "terroir": "The lieu-dit's 2.3 ha of AOC-delimited land lies at about 130 to 180 m, with a mean slope of about 17%, mostly south-facing (Copernicus DEM).",
+   "producers": [
+    "Domaine Jean-Louis Chave"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-torras-et-les-garennes",
+   "country": "fr",
+   "name": "Torras et les Garennes",
+   "match": [
+    "Torras et les Garennes",
+    "Hermitage Torras et les Garennes"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Larnage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 2.3,
+   "summary": "A small part of the Hermitage AOC in the commune of Larnage, on the eastern flank of the hill, where the white clay of Larnage begins.",
+   "terroir": "The lieu-dit's 2.3 ha of AOC-delimited land lies at about 140 to 175 m, with a mean slope of about 30%, facing west to south-west (Copernicus DEM).",
+   "nerd_note": "Hermitage covers only about 137 ha, on the communes of Tain-l'Hermitage, Crozes-Hermitage and Larnage.",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-hermitage-varogne",
+   "country": "fr",
+   "name": "Varogne",
+   "match": [
+    "Varogne",
+    "Hermitage Varogne"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Rhône Valley",
+   "subregion": "Northern Rhône",
+   "village": "Tain-l'Hermitage",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah; Marsanne and Roussanne for white",
+   "area_ha": 3.1,
+   "summary": "The very steep western tip of the hill above the Rhône, facing west, on granite. Varogne is rarely named on labels but adds firm, dark Syrah to blends, close in style to Les Bessards.",
+   "terroir": "The lieu-dit's 3.1 ha of AOC-delimited land lies at about 130 to 205 m, with a mean slope of about 50%, mostly west-facing (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Hermitage AOC. It is not a separate appellation, but the name may appear on the label after Hermitage when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-les-montdamnes",
+   "country": "fr",
+   "name": "Les Montdamnes",
+   "match": [
+    "Les Montdamnes",
+    "Sancerre Les Montdamnes"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Sancerre",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 1.8,
+   "summary": "A small cadastral piece of the Monts Damnés slope above Chavignol, separate from the main Côte des Montdamnes, on the same steep Kimmeridgian marl.",
+   "terroir": "The lieu-dit's 1.8 ha of AOC-delimited land lies at about 260 to 295 m, with a mean slope of about 32%, facing south-east to south (Copernicus DEM).",
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-sancerre-les-monts-damnes",
+   "country": "fr",
+   "name": "Les Monts Damnés",
+   "match": [
+    "Les Monts Damnés",
+    "Sancerre Les Monts Damnés"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Centre-Loire",
+   "village": "Verdigny",
+   "styles": [
+    "white",
+    "red",
+    "rose"
+   ],
+   "dominant_style": "white",
+   "grapes": "Sauvignon Blanc; Pinot Noir for red and rosé",
+   "area_ha": 3.1,
+   "summary": "The part of the Monts Damnés slope that lies in the commune of Verdigny, next to the main Côte des Montdamnes above Chavignol, on the same Kimmeridgian marl.",
+   "terroir": "The lieu-dit's 3.1 ha of AOC-delimited land lies at about 285 to 325 m, with a mean slope of about 16%, mostly north-east-facing (Copernicus DEM).",
+   "nerd_note": "The Monts Damnés lieu-dit is split between the communes of Sancerre (Chavignol) and Verdigny in the land register.",
+   "classification": "Lieu-dit (named place in the land register) within the Sancerre AOC. It is not a separate appellation, but the name may appear on the label after Sancerre when all the grapes come from it."
+  },
+  {
+   "id": "fr-vouvray-le-clos-baudoin",
+   "country": "fr",
+   "name": "Le Clos Baudoin",
+   "match": [
+    "Le Clos Baudoin",
+    "Vouvray Le Clos Baudoin"
+   ],
+   "cat": "AOC",
+   "subcat": "Lieu-dit",
+   "region": "Loire Valley",
+   "subregion": "Touraine",
+   "village": "Vouvray",
+   "styles": [
+    "white",
+    "sparkling",
+    "sweet"
+   ],
+   "dominant_style": "white",
+   "grapes": "Chenin Blanc",
+   "area_ha": 2.7,
+   "summary": "A small walled vineyard (often spelled Clos Baudoin) on the slopes of Vouvray, once owned by the Poniatowski family and farmed by François Chidaine since 2006. His Clos Baudoin is a tense, mineral Vouvray from old vines.",
+   "terroir": "The lieu-dit's 2.7 ha of AOC-delimited land lies at about 90 to 100 m, with a mean slope of about 9%, mostly south-east-facing (Copernicus DEM).",
+   "producers": [
+    "François Chidaine"
+   ],
+   "classification": "Lieu-dit (named place in the land register) within the Vouvray AOC. It is not a separate appellation, but the name may appear on the label after Vouvray when all the grapes come from it."
+  }
+ ],
+ "sites": []
+}

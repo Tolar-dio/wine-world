@@ -630,11 +630,11 @@
    "tier": "minor",
    "tagline": "Forty kilometres of Moselle riverbank where Crémant, Riesling and Auxerrois face Germany across the water.",
    "stats": {
-    "vineyard_ha": 1295,
+    "vineyard_ha": 1200,
     "production_mhl": null,
     "year": 2024,
     "world_rank_production": null,
-    "note": "About 1,295 ha per Wikipedia (de) Weinbau in Luxemburg; production in recent years has been roughly 0.1 mhl but no 2025 figure was found."
+    "note": "STATEC via FAOSTAT (official figure): 1,200 ha of vines in 2024 (Wikipedia gives about 1,295 ha). Production has been roughly 0.1 mhl in recent years (FAOSTAT carries an outside estimate of 8,100 t for 2023); no 2025 figure was found"
    },
    "overview": "Luxembourg's wine country is a single strip of slopes along the left bank of the Moselle, about 42 km from Schengen in the south to Wasserbillig and Rosport in the north, facing Germany's Obermosel on the opposite bank. Roughly 1,300 hectares of vines are farmed by about 450 growers, and the whole country is one appellation, the AOP Moselle Luxembourgeoise.\n\nThe wines are mostly dry whites from grapes that like cool, limestone country: Rivaner (Müller-Thurgau), Auxerrois, Pinot Gris, Pinot Blanc, Riesling and the ancient Elbling, plus Gewürztraminer and a growing share of Pinot Noir. Sparkling wine is the country's great success. Crémant de Luxembourg, created on 4 January 1991 for traditional-method wines, accounts for a large share of sales, and houses such as Bernard-Massard in Grevenmacher have made sparkling wine since the 1920s.\n\nThe southern half, the canton of Remich, has softer limestone and marl soils and gives rounder wines; the northern half around Grevenmacher and Wormeldange has steeper slopes of shell limestone (Muschelkalk) and gives Luxembourg's best Rieslings, notably from the Koeppchen above Wormeldange. Cooperatives (Domaines Vinsmoselle) produce well over half the wine, private growers about a quarter, and the trade the rest. The village of Schengen, where the 1985 agreement on open borders was signed on a riverboat, is the southern gateway of the wine route.",
    "history": [
@@ -731,10 +731,10 @@
    "tagline": "Chalk, climate change and Champagne grapes: the country that invented the idea of sparkling wine is now making it seriously.",
    "stats": {
     "vineyard_ha": 4841,
-    "production_mhl": 0.08,
-    "year": 2024,
+    "production_mhl": 0.12,
+    "year": "2024 (vineyard), 2025 (wine)",
     "world_rank_production": null,
-    "note": "WineGB Industry Report 2025: 4,841 ha, 1,104 vineyards, 238 wineries, about 10.6 million bottles from the 2024 harvest (about 0.08 mhl), 69 percent sparkling. A larger 2025 harvest was widely reported in March 2026."
+    "note": "Vineyard: WineGB Industry Report 2025, 4,841 ha, 1,104 vineyards and 238 wineries (the Food Standards Agency register counted 4,357 ha and 1,158 vineyards in 2025). Production: Food Standards Agency, 124,377 hl (about 16.5 million bottles) from the record 2025 harvest, up from about 10.6 million bottles in 2024, 69 percent of which was sparkling"
    },
    "overview": "Britain has drunk wine since the Romans, but for most of history it bought rather than made it: claret from Bordeaux, sherry, port and Champagne were all, in part, English commercial creations. Its own vineyards are a modern phenomenon. About 4,840 hectares are now planted, mostly in the south-east of England, and the area has more than doubled in ten years. Kent has the most vines, followed by West Sussex, Essex, East Sussex and Hampshire.\n\nThe reason is sparkling wine. The chalk that runs from Champagne under the Channel and resurfaces in the North and South Downs, combined with a cool climate that has warmed enough to ripen Chardonnay, Pinot Noir and Pinot Meunier most years, gives base wines with the high acidity that traditional-method sparkling needs. Nyetimber, planted in West Sussex in 1988, and Ridgeview, planted in 1995, proved the point, and English sparkling wines now beat Champagne in blind tastings and international competitions. About 69 percent of production is sparkling and nearly all of it is made by the traditional method. Champagne houses have invested too: Taittinger at Domaine Evremond in Kent and Pommery in Hampshire.\n\nStill wine is the other half of the story. Bacchus, a German crossing, gives elderflower-scented whites that have become England's answer to Sauvignon Blanc, and riper vintages have produced convincing Pinot Noir and Chardonnay. Essex's Crouch Valley, one of the driest places in Britain, is now a source of fine still Pinot. Weather remains the risk: spring frost, wet flowering and cool autumns can halve a crop, as in 2024, while 2018 and 2025 were large.\n\nLegally, the UK has four wine PDOs: English Wine and Welsh Wine (both registered with the EU in 2011 and carried into UK law after Brexit), Darnibole (a single Cornish Bacchus vineyard, 2017) and Sussex (2022), the first regional PDO for sparkling wine.",
    "history": [
@@ -868,11 +868,11 @@
    "tier": "minor",
    "tagline": "A beer country quietly rebuilding a medieval wine tradition, with Chardonnay and Crémant on Meuse slopes and Flemish hills.",
    "stats": {
-    "vineyard_ha": null,
+    "vineyard_ha": 900,
     "production_mhl": null,
-    "year": 2025,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "No reliable current national statistic found; Belgian production was about 4,000 hl in 2006 and has grown strongly since. See gaps."
+    "note": "Statbel via FAOSTAT (official figure): 900 ha of vines in 2024, up from 680 ha in 2023. No reliable current production figure: FAOSTAT's Belgian wine numbers are estimates; production was about 4,000 hl in 2006 and has grown strongly since. See gaps"
    },
    "overview": "Belgium had vineyards long before it became famous for beer. Monks of the Carolingian era planted vines around Liège and Huy on the Meuse, and Leuven had 23 public wine presses in 1411. The Little Ice Age, cheap Burgundy, wars and the rise of beer ended most of that, and by the nineteenth century the country was better known for table grapes grown under glass in the Hoeilaart greenhouses near Brussels.\n\nThe modern revival began in the 1960s and accelerated with warmer summers. Belgium now has seven protected designations, four in Flanders and three in Wallonia, and a few hundred hectares of vines. Chardonnay, Pinot Noir and Pinot Gris grow alongside Auxerrois, Müller-Thurgau and fungus-resistant varieties such as Johanniter and Solaris. Sparkling wine, especially Crémant de Wallonie, is the strongest suit, and estates such as Domaine du Chant d'Eole near Mons and Ruffus (Domaine des Agaises) at Haulchin have won international awards with traditional-method wines from chalk soils that continue those of Champagne. In Flanders, Wijnkasteel Genoels-Elderen in Haspengouw and Wijndomein Aldeneyck in the Maas valley are the best-known names.",
    "history": [
@@ -954,11 +954,11 @@
    "tier": "minor",
    "tagline": "Limburg marl, Achterhoek farms and fungus-resistant grapes: Dutch wine is young, small and growing fast.",
    "stats": {
-    "vineyard_ha": 250,
+    "vineyard_ha": 230,
     "production_mhl": null,
-    "year": 2020,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "About 250 ha and 1.2 million bottles in 2020 (Wikipedia de); planted area has grown since. No 2025 figure found."
+    "note": "CBS via FAOSTAT (official figure): 230 ha of vines in 2024 (250 ha in 2023). Wikipedia (de) put output at about 1.2 million bottles in 2020; no current production figure found"
    },
    "overview": "Wine in the Netherlands is first documented in 968, and medieval vineyards grew on the slopes around Maastricht and along the Maas and Geul, but beer, the Little Ice Age and phylloxera finished them; the last old vineyard near Maastricht closed in 1946. The revival began in the 1970s, when the Apostelhoeve near Maastricht planted Müller-Thurgau and Riesling on the marl slopes of the Louwberg, and has accelerated with warmer summers. By 2020 there were about 250 hectares in some 135 sites, producing around 1.2 million bottles, and the area has kept growing.\n\nTwo very different styles have emerged. In South Limburg, on chalky marl (mergel) hills like those across the border in Belgium, classic varieties such as Auxerrois, Pinot Gris, Riesling, Chardonnay and Pinot Noir dominate. Elsewhere, on sandy soils in Gelderland, Overijssel and North Brabant, growers rely on fungus-resistant varieties (Solaris, Johanniter, Souvignier Gris, Regent, Cabernet Cortis) that can be farmed with little or no spraying. Each style now has PDOs: Mergelland, Vijlen and the cross-border Maasvallei Limburg in Limburg, and Oolde, Ambt Delden and Achterhoek-Winterswijk in the east, most of them single estates.",
    "history": [
@@ -1120,11 +1120,11 @@
    "tier": "minor",
    "tagline": "Skåne's southern hills and Baltic islands are making a new wine story at 56 degrees north.",
    "stats": {
-    "vineyard_ha": null,
+    "vineyard_ha": 120,
     "production_mhl": null,
-    "year": 2025,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "No reliable current statistic found."
+    "note": "Statistics Sweden via FAOSTAT (official figure): 120 ha of vines in 2024; no reliable production statistic"
    },
    "overview": "Sweden's wine-growing is a twenty-first-century story, made possible by warmer summers and fungus-resistant grapes. The main area is Skåne, the southernmost province, where vineyards grow on the Kullaberg peninsula near Arild, around Österlen and near Malmö and Lund; there are also vineyards on Gotland and Öland in the Baltic and along the west coast. Solaris dominates, with Rondo, Regent and some Pinot Noir and Chardonnay for sparkling. Kullabergs Vingård and Arilds Vingård on the Kullaberg peninsula, with sea-warmed slopes, are among the best known. Sweden has no EU-registered wine PDO in the dataset used here; any newly registered names should be checked in eAmbrosia.",
    "history": [
@@ -1212,11 +1212,11 @@
    "tier": "emerging",
    "tagline": "Moravian cellar lanes, Pálava limestone and the Elbe hills of Bohemia: a wine culture older than the country's beer fame suggests.",
    "stats": {
-    "vineyard_ha": null,
+    "vineyard_ha": 16030,
     "production_mhl": null,
-    "year": 2025,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "No current official area found this session; Wikipedia (de) gives about 18,750 ha for 2004. Moravia holds about 94 to 96 percent. OIV estimates Czech consumption at 2.0 mhl in 2025, far above domestic output."
+    "note": "Czech Statistical Office via FAOSTAT (official figure): 16,030 ha of vines in 2024; Wikipedia (de) gives about 18,750 ha for 2004. Moravia holds about 94 to 96 percent. FAOSTAT carries an outside estimate of 48,800 t of wine for 2023; OIV estimates Czech consumption at 2.0 mhl in 2025, far above domestic output"
    },
    "overview": "Czechia is famous for beer, but South Moravia is one of central Europe's liveliest wine regions, and its villages are lined with sklepy, rows of small cellars dug into loess where families make and pour their own wine. The country has two wine regions: Morava (Moravia), with about 95 percent of the vineyard, in the warm south-east bordering Austria and Slovakia, and Čechy (Bohemia), a tiny but historic area along the Elbe and Vltava north of Prague around Mělník and Litoměřice.\n\nMoravia's four subregions (Znojemská, Mikulovská, Velkopavlovická and Slovácká) continue the landscapes of Austria's Weinviertel across the border, and the grapes overlap: Grüner Veltliner (Veltlínské zelené), Welschriesling (Ryzlink vlašský), Riesling (Ryzlink rýnský), Müller-Thurgau, Sauvignon Blanc, the Pinot family, Pálava and Gewürztraminer among whites; Saint Laurent (Svatovavřinecké), Blaufränkisch (Frankovka), Zweigelt, Pinot Noir (Rulandské modré) and Czech crossings such as André and Cabernet Moravia among reds. The best wines are fresh, aromatic whites with lively acidity, and an active natural-wine scene, centred on growers of the Autentista group around Mikulov and Velké Pavlovice, has given Moravia an international following.\n\nCzech wine law follows the EU model, with the German-style Prädikat ladder for quality wines, but its most interesting feature is the VOC (víno originální certifikace, 'wine of original certification'), a local appellation run by growers' associations that sets grapes and style for a named area. VOC Znojmo was first in 2009, and by 2019 there were 13. Valtice Castle, part of the Lednice-Valtice UNESCO landscape, houses the national Wine Salon, which each year selects the country's 100 best wines.",
    "history": [
@@ -1332,13 +1332,13 @@
    "tier": "emerging",
    "tagline": "Little Carpathian royal towns, Danube plain reds and a slice of Tokaj that both sides of the border claim.",
    "stats": {
-    "vineyard_ha": 16000,
+    "vineyard_ha": 9000,
     "production_mhl": null,
-    "year": 2020,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "About 16,000 ha per Wikipedia (Slovak wine), undated current figure; up to 57,000 ha in the early nineteenth century. No current production figure found."
+    "note": "Statistical Office of the Slovak Republic via FAOSTAT (official figure): 9,000 ha of vines in 2024; about 10,000 ha were worked in 2011 (SITA), against up to 57,000 ha in the early nineteenth century. No current production figure found"
    },
-   "overview": "Slovakia's vineyards lie along its southern edge, from the foothills of the Little Carpathians above Bratislava to the volcanic hills of Tokaj on the Hungarian and Ukrainian borders, and cover about 16,000 hectares in six wine regions. For most of history this was Upper Hungary, and in the early nineteenth century the area supplied wine to European courts from as much as 57,000 hectares; phylloxera, war and four decades of state cooperatives shrank and flattened the industry, and the modern revival dates from the 1990s.\n\nThe Little Carpathians (Malokarpatská) are the historic heart, with the old royal free towns of Svätý Jur, Pezinok and Modra, where burgher families made wine in courtyards and cellars under their houses, and Bratislava's Rača district, famous for Frankovka. The Danube plain to the south-east (Južnoslovenská) and the hills around Nitra (Nitrianska) give fuller, riper whites and reds, and the smaller Central and East Slovak regions add volcanic and loess sites. Grüner Veltliner and Welschriesling are the most planted grapes, with Blaufränkisch, Müller-Thurgau, Saint Laurent, Pinot Blanc and Riesling. Slovak breeders, notably Dorota Pospíšilová, created crossings such as Devín (white) and Dunaj (red) that are now local favourites.\n\nSlovakia's corner of Tokaj, seven villages around Malá Tŕňa and Viničky, makes the same botrytised wines as Hungarian Tokaj, from Furmint, Lipovina (Hárslevelű) and Yellow Muscat, under the name Tokajský výber. Hungary fought for years to stop Slovakia using the name; EU courts rejected Hungary's challenge in 2012 and 2013, and both countries now use it.",
+   "overview": "Slovakia's vineyards lie along its southern edge, from the foothills of the Little Carpathians above Bratislava to the volcanic hills of Tokaj on the Hungarian and Ukrainian borders, and cover about 9,000 hectares (2024) in six wine regions. For most of history this was Upper Hungary, and in the early nineteenth century the area supplied wine to European courts from as much as 57,000 hectares; phylloxera, war and four decades of state cooperatives shrank and flattened the industry, and the modern revival dates from the 1990s.\n\nThe Little Carpathians (Malokarpatská) are the historic heart, with the old royal free towns of Svätý Jur, Pezinok and Modra, where burgher families made wine in courtyards and cellars under their houses, and Bratislava's Rača district, famous for Frankovka. The Danube plain to the south-east (Južnoslovenská) and the hills around Nitra (Nitrianska) give fuller, riper whites and reds, and the smaller Central and East Slovak regions add volcanic and loess sites. Grüner Veltliner and Welschriesling are the most planted grapes, with Blaufränkisch, Müller-Thurgau, Saint Laurent, Pinot Blanc and Riesling. Slovak breeders, notably Dorota Pospíšilová, created crossings such as Devín (white) and Dunaj (red) that are now local favourites.\n\nSlovakia's corner of Tokaj, seven villages around Malá Tŕňa and Viničky, makes the same botrytised wines as Hungarian Tokaj, from Furmint, Lipovina (Hárslevelű) and Yellow Muscat, under the name Tokajský výber. Hungary fought for years to stop Slovakia using the name; EU courts rejected Hungary's challenge in 2012 and 2013, and both countries now use it.",
    "history": [
     {
      "when": "3rd century AD",
@@ -1434,11 +1434,11 @@
    "tier": "minor",
    "tagline": "A medieval wine country, then Germany's northernmost Sekt town, now one of Europe's fastest-growing young vineyards.",
    "stats": {
-    "vineyard_ha": null,
+    "vineyard_ha": 1400,
     "production_mhl": null,
-    "year": 2025,
+    "year": 2024,
     "world_rank_production": null,
-    "note": "About 500 ha in 2011 and 433 vineyards in 2017 (Wikipedia de); the area has grown since but no reliable current figure was found."
+    "note": "Statistics Poland via FAOSTAT (official figure): 1,400 ha of vines in 2024, up from about 500 ha in 2011 (Wikipedia de); no reliable current production figure"
    },
    "overview": "Wine is part of Polish history from the start. Grape seeds found on Wawel hill in Kraków suggest vines around the year 1000, a papal bull of 1136 mentions vineyards near Płock and Włocławek, and Cistercian monks at Paradyż (Paradies) were making wine near Zielona Góra by 1250. In the fourteenth century there were vineyards from Silesia and Greater Poland to Toruń, Sandomierz and Kraków. The Little Ice Age and cheap Hungarian wine, especially Tokaji, which Polish nobles adored, pushed most of them out.\n\nThe great exception was Zielona Góra (German Grünberg) in Lower Silesia, then part of Prussia. Its slopes held thousands of small vineyards, and in 1826 the firm Häusler, Förster und Grempler began making sparkling wine by the Champagne method there, among the first in Germany; the town's harvest festival has been held since 1852. After 1945 the German population was expelled, and Silesian viticulture almost vanished; the communist state favoured fruit wines. The Barossa Valley's Henschke and Lehmann families trace their roots to the region.\n\nThe revival began with hobby growers and a 2008 wine law that made commercial sale practical. Hundreds of small vineyards now grow fungus-resistant varieties such as Solaris, Johanniter, Regent and Rondo, along with Riesling, Pinot Noir, Chardonnay and Seyval Blanc. Leading areas are Lubuskie around Zielona Góra, Lower Silesia, Małopolska around Kraków (Srebrna Góra, 28 ha, in the city), the Vistula valley around Sandomierz and Kazimierz Dolny, Podkarpacie near Jasło, and even West Pomerania, where Winnica Turnau is one of the country's largest estates. Poland has no EU-registered wine PDO in the dataset used here.",
    "history": [

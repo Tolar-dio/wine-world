@@ -219,10 +219,10 @@
    "tier": "notable",
    "tagline": "The island of Commandaria, the oldest named wine still made, and of phylloxera-free mountain vines.",
    "stats": {
-    "vineyard_ha": 6500,
-    "production_mhl": 0.1,
-    "year": 2023,
-    "note": "Approximate; Cypriot Department of Agriculture and Vine Products data put the vineyard at roughly 6,000 to 7,000 ha in the 2020s and output around 100,000 hl. Not reported separately by the OIV 2025 report."
+    "vineyard_ha": 6040,
+    "production_mhl": 0.11,
+    "year": "2024 (vineyard), 2022 (wine)",
+    "note": "FAOSTAT, official national figures: 6,040 ha of vines in 2024 and 10,800 t of wine (about 0.11 mhl) in 2022. Not reported separately in the OIV 2025 report"
    },
    "overview": "Cyprus has made wine for at least five thousand years and has kept one wine name for more than eight hundred. Residues in Chalcolithic flasks from Erimi, near Limassol, analysed in 2005, point to wine around 3500 BC, and the Bronze Age site of Pyrgos-Mavroraki had a winery beside its perfume workshop. Hesiod described drying grapes in the sun before making sweet wine, the method still used in the island's great dessert wine, Commandaria.\n\nCommandaria takes its name from the Grande Commanderie, the estate around Kolossi castle held by the Knights Templar and then the Knights Hospitaller from the late twelfth century. The knights shipped the sweet amber wine to Europe's courts and to pilgrims bound for the Holy Land, which is why Commandaria claims to be the oldest named wine still in production. Legend adds that Richard the Lionheart called it 'the wine of kings and the king of wines' at his wedding in Limassol in 1191, and that a sweet Cypriot wine, widely believed to be Commandaria, won 'La Bataille des Vins', the tasting staged by the French king and recorded in Henri d'Andeli's poem of about 1224. In December 2025 UNESCO inscribed Commandaria's traditions in the 14 villages on the Representative List of the Intangible Cultural Heritage of Humanity.\n\nThe modern industry was built on volume. British rule after 1878, the island's freedom from phylloxera (strict quarantine kept the louse out) and cheap fortified 'Cyprus sherry' made Cyprus one of Britain's leading wine suppliers by the 1960s, while big Limassol companies (KEO, ETKO, LOEL, SODAP) shipped bulk wine to the Soviet bloc. When those markets collapsed in the 1980s and 1990s, the state paid for small regional wineries in the Troodos villages, and the island began bottling its own grapes: the red Maratheftiko and Yiannoudi, the white Xynisteri and Promara, alongside the workhorse Mavro.\n\nToday about 50 to 60 wineries work mostly on the southern slopes of the Troodos mountains, between 600 and 1,500 metres, where vines grow on their own roots in limestone, chalk and volcanic soils. The island has seven PDOs: Commandaria plus six regional zones (Pitsilia, Vouni Panagias-Ambelitis, Laona Akama and the three Krasochoria Lemesou zones). The island's division since 1974 means all of the PDOs lie in the south; the north has a few vineyards but no EU-registered appellations.",
    "history": [
@@ -362,10 +362,10 @@
    "tier": "minor",
    "tagline": "Tiny limestone islands with two native grapes, Ġellewża and Girgentina, and two island appellations.",
    "stats": {
-    "vineyard_ha": 400,
-    "production_mhl": 0.02,
-    "year": 2020,
-    "note": "Approximate; Malta has a few hundred hectares of vines and small production (about 630 tonnes of wine in 2005 per Wikipedia). Not reported separately by OIV."
+    "vineyard_ha": 420,
+    "production_mhl": null,
+    "year": 2024,
+    "note": "NSO Malta via FAOSTAT (official figure): 420 ha of vines in 2024. Production is small and not reported by OIV (about 630 tonnes of wine in 2005 per Wikipedia)"
    },
    "overview": "Malta's wine history is Phoenician, Roman and then, for a long time, imported. The modern industry dates from the early twentieth century, when Emmanuel Delicata (1907) and Marsovin (1919) were founded near Paola, but for decades they relied on imported grapes and must. Accession to the EU in 2004 removed protective levies and pushed the islands towards quality: international varieties were planted from the 1970s and especially the 1990s, and estates such as Meridiana (1987), Montekristo, Ta' Betta and Ta' Mena on Gozo now bottle wines from local vineyards.\n\nThe point of interest is the two native grapes. Ġellewża is a light, red-fruited black grape often made as rosé or frizzante; Girgentina is a delicate, low-alcohol white. Both are found almost nowhere else. Malta and Gozo each have a PDO (DOK, Denominazzjoni ta' Oriġini Kontrollata), and the Maltese Islands IĠT covers the whole archipelago. Vineyards are small, terraced and walled against the wind, on thin soils over globigerina and coralline limestone, and the hot, dry, windy summers make irrigation and early harvests common.",
    "history": [
@@ -668,9 +668,10 @@
    "tier": "notable",
    "tagline": "Bronze Age palace cellars, Rothschild's colonies and a modern industry that took winemaking up the Golan and into the desert.",
    "stats": {
-    "vineyard_ha": 5500,
-    "year": 2020,
-    "note": "Approximate: about 5,000 to 5,500 ha of wine grapes and some 300 wineries; production around 40 million bottles. Not reported separately by OIV 2025."
+    "vineyard_ha": 8380,
+    "year": 2024,
+    "note": "Central Bureau of Statistics via FAOSTAT (official figure): 8,380 ha of grapes in 2024, table and wine; wine grapes are roughly 5,000 to 5,500 ha, with some 300 wineries producing around 40 million bottles. Not reported separately in OIV 2025",
+    "production_mhl": null
    },
    "overview": "Wine in the land of Israel is ancient, biblical and, after a long gap, very new. The Canaanite palace at Tel Kabri in western Galilee held a wine cellar of about 1700 BC with some 40 large jars and roughly 2,000 litres of wine flavoured with resins, honey and herbs: the oldest and largest palatial wine cellar known in the Near East. The Bible is full of vineyards and presses; Byzantine Gaza and Ashkelon exported wine across the Mediterranean, and in the Negev the Nabataean and Byzantine towns of Avdat and Shivta had large wine presses.\n\nIslamic rule from the seventh century ended commercial wine for a millennium, though local grapes survived in Arab vineyards as table grapes and raisins. The modern industry was founded by Baron Edmond de Rothschild, owner of Château Lafite, who in the 1880s funded Jewish agricultural colonies and built wineries at Rishon LeZion (1890) and Zichron Ya'akov (1892), the origin of Carmel. For a century the industry made mostly sweet sacramental kosher wine.\n\nThe turn came in the late 1970s and 1980s, when University of California, Davis researchers identified the Golan Heights as a cool, high site, and the Golan Heights Winery (founded 1983, Yarden label) proved it with modern Cabernet, Chardonnay and sparkling wine. Domaine du Castel in the Judean Hills, Margalit, Yatir in the Negev, Clos de Gat, Recanati, Tzora and Flam followed, and the country now has about 300 wineries. The regions run from the Upper Galilee and the Golan (vineyards up to about 1,200 metres) through the Judean Hills and the Shomron to the Negev desert, where drip irrigation and high plateaus make viticulture possible.\n\nTwo features make Israel distinctive. Almost all large wineries are kosher, which involves rules on who handles the wine (Sabbath-observant Jews from crushing onward, unless the wine is heat-treated, mevushal), on fining agents and on agricultural laws such as orlah (no fruit from vines under four years) and shmita (the sabbatical year). And a research programme led by Ariel University and others has identified and revived ancient local grapes, among them Marawi (also called Hamdani), Jandali and Dabouki, as well as the red Bittuni, with Recanati and Cremisan bottling them.\n\nSome of Israel's best-known vineyards lie in territory whose status is disputed. The Golan Heights were captured from Syria in 1967 and annexed by Israel in 1981, an annexation not recognised by the UN or most states (the United States recognised it in 2019); Israeli wineries in the West Bank are in territory considered occupied under international law. The EU requires that products from these areas not be labelled simply 'Made in Israel'.",
    "history": [
@@ -769,7 +770,10 @@
    "tier": "minor",
    "tagline": "Monastic and family wineries in the West Bank keeping Hebron's ancient grapes alive.",
    "stats": {
-    "note": "Very small production from a handful of wineries; no official statistics found."
+    "note": "FAOSTAT, official figure: 2,912 ha of grapes in 2021, mostly table grapes around Hebron; very small wine production from a handful of wineries",
+    "vineyard_ha": 2912,
+    "year": 2021,
+    "production_mhl": null
    },
    "overview": "The hills of Hebron and Bethlehem have grown grapes since antiquity, and Palestinian farmers kept local varieties alive as table grapes and raisins through centuries when wine was not made commercially. Today a few wineries operate in the West Bank. The Salesian monastery of Cremisan, on the edge of Beit Jala near Bethlehem, has made wine since 1885 and bottles single-variety wines from the ancient local grapes Hamdani, Jandali, Dabouki and Baladi, sourced from Palestinian growers around Hebron. In the Christian village of Taybeh, north-east of Ramallah, the Khoury family, known for Palestine's first craft brewery (1994), opened Taybeh Winery in 2013.\n\nWinemaking here is shaped by occupation: checkpoints, permits and the separation barrier affect access to vineyards and markets. The Cremisan valley itself has been the subject of a long legal and political dispute over the barrier's route through monastery and village land.",
    "history": [
@@ -832,7 +836,10 @@
    "tier": "minor",
    "tagline": "From the wine lists of Ugarit and Mari to Domaine de Bargylus, made through civil war in the Jebel Ansariyeh.",
    "stats": {
-    "note": "Large table-grape vineyard; wine production tiny. No reliable statistics."
+    "note": "FAOSTAT, official national figure: 43,713 ha of grapes in 2024, nearly all table grapes and raisins; wine production tiny, no reliable statistics",
+    "vineyard_ha": 43713,
+    "year": 2024,
+    "production_mhl": null
    },
    "overview": "Syria's wine history begins in the Bronze Age archives. Tablets from the palace of Mari on the Euphrates (eighteenth century BC) record wine shipments and the king's taste for good vintages; Ugarit on the coast traded wine across the eastern Mediterranean; and Ebla's archives mention vineyards. Under Rome and Byzantium, the north Syrian 'dead cities' of the limestone massif were wealthy olive and wine towns.\n\nModern Syrian wine is almost a single estate. Domaine de Bargylus, founded by the Lebanese Saadé brothers (also owners of Château Marsyas in the Bekaa) in 2003 on the slopes of the Jebel Ansariyeh near Latakia, at about 900 metres, makes Bordeaux- and Rhône-style blends; through the civil war from 2011 its owners managed the estate remotely and grapes were sometimes driven to Beirut under extreme conditions. Bargylus takes its name from the Greek name of the mountain range. Christian monasteries and villages also make small amounts of wine and arak.",
    "history": [
@@ -887,7 +894,10 @@
    "tier": "minor",
    "tagline": "Nabataean presses at Little Petra and two modern wineries on the high plateau.",
    "stats": {
-    "note": "A few hundred hectares of wine grapes; two main wineries. No official statistics found."
+    "note": "FAOSTAT, official national figure: 3,258 ha of grapes in 2024, mostly table grapes; a few hundred hectares of wine grapes and two main wineries",
+    "vineyard_ha": 3258,
+    "year": 2024,
+    "production_mhl": null
    },
    "overview": "Wine in Jordan reaches back to the Nabataeans, whose wine presses and triclinium dining halls at Little Petra (Siq al-Barid) show that grapes were grown and pressed in the desert two thousand years ago, and to the Decapolis city of Gadara (Umm Qais), praised for its wine. The modern industry is tiny but serious. The Haddad family's Eagle Distilleries launched Jordan River Wines (vineyards near Mafraq and Sama as-Sarhan in the north-east, close to the Syrian border), and Omar Zumot's Zumot Winery, best known for its Saint George label, farms organically at Sama as-Sarhan. Vineyards sit at 600 to 850 metres on the basalt-strewn plateau, with very hot days, cold nights and irrigation.\n\nJordan's Christian minority, around Madaba, Fuheis and Salt, kept a home tradition of wine and arak, and Byzantine church mosaics around Madaba include scenes of grape harvest and treading. The modern wineries sell mostly to hotels and restaurants in Amman and to visitors, and export small quantities.",
    "history": [
@@ -1030,9 +1040,10 @@
    "tier": "emerging",
    "tagline": "Carthage's wine country, home of the first great agricultural writer and of Cap Bon's dry Muscat.",
    "stats": {
-    "vineyard_ha": 31000,
-    "year": 2008,
-    "note": "Wikipedia: about 31,000 ha of vines in 2008, just over half for wine; production 300,000 to 400,000 hl a year in the 2000s. No recent OIV figure."
+    "vineyard_ha": null,
+    "year": 2022,
+    "note": "Production: 33,000 t of wine (about 0.33 mhl) in 2022, the latest official figure (FAOSTAT). No official current vineyard total: FAOSTAT's 22,000 to 23,700 ha of grapes for 2022 to 2024 are FAO estimates, and Tunisian press estimates (WMC, July 2026) put the area still worked for wine at about 5,500 to 5,600 ha, against 13,000 ha in 2011, with output down to about 150,000 hl a year",
+    "production_mhl": 0.33
    },
    "overview": "Tunisia is Carthage, and Carthage wrote the book on viticulture. The Punic agronomist Mago composed a 28-volume treatise on farming, including how to plant and prune vines and how to make passum, raisin wine; when Rome destroyed Carthage in 146 BC, the Senate ordered his work translated into Latin, and Columella, Varro and Pliny quoted it. The Punic town of Kerkouane on Cap Bon, preserved because it was never rebuilt, and Roman villas with wine mosaics (the Bardo museum in Tunis has some of the finest Dionysiac mosaics in the world) show how deeply wine ran through North African life.\n\nAfter the Arab conquest wine shrank but never vanished, and after the French protectorate began in 1881 large vineyards were planted on the plains around Tunis and on Cap Bon. Seven appellations were created between 1958 and the 1970s and registered internationally under the Lisbon Agreement. Since the late 1990s European investment (from Italy, France and Germany) has modernised a sector that was largely run by state and cooperative wineries.\n\nTunisian wine is mostly rosé and red from Mediterranean grapes (Carignan, Cinsault, Grenache, Mourvèdre, Syrah, Alicante Bouschet), with dry and sweet Muscat of Alexandria on the windy tip of Cap Bon at Kélibia as the local speciality. The country sells mostly at home, to tourists and to Germany and France.",
    "history": [
@@ -1188,10 +1199,10 @@
    "tier": "emerging",
    "tagline": "The Arab world's leading quality producer, with an AOC in the Atlas foothills and a national love of vin gris.",
    "stats": {
-    "vineyard_ha": 50000,
-    "production_mhl": 0.4,
-    "year": 2013,
-    "note": "Wikipedia: about 50,000 ha of vines in the early 2000s, most for table grapes; wine production about 400,000 hl in 2013."
+    "vineyard_ha": 40032,
+    "production_mhl": null,
+    "year": 2024,
+    "note": "Ministry of Agriculture via FAOSTAT (official figure): 40,032 ha of grapes in 2024, mostly table grapes. OIV data show wine production of 173,000 to 493,000 hl a year between 1995 and 2022, averaging about 355,000 hl (Le Matin, Feb 2026); no official current figure"
    },
    "overview": "Morocco grew vines in Roman times (the ruins of Volubilis, near Meknès, have olive presses and Bacchic mosaics) and again under the French protectorate from 1912, when colonists planted around Meknès, Fès, Rabat and Casablanca. Production peaked above 3 million hectolitres in the 1950s. After independence (1956) the EEC's quotas of 1967 cut exports, and from 1973 the state took over most vineyards; quality fell until the 1990s, when the state company SODEA leased land to foreign investors, mainly French, such as Castel and William Pitters.\n\nThe central figure of modern Moroccan wine was Brahim Zniber (about 1920 to 2016), who built Celliers de Meknès and the Diana Holding group into a business that by 2016 controlled about 85 percent of national production and some 8,300 hectares. His Château Roslane, near Meknès, became in 2009 the first estate with 'château' status, and its vineyards make up the country's only AOC, Coteaux de l'Atlas 1er Cru (2001).\n\nMorocco has about 14 AOG zones (appellation d'origine garantie) grouped into five regions, from Berkane and Angad in the east to Guerrouane, Beni M'tir and Zerhoune around Meknès, Zemmour and Zaër near Rabat, and Doukkala inland from El Jadida. Most wine is red, from Cinsault, Carignan, Grenache, Cabernet, Merlot and Syrah, but the national style is vin gris, a very pale rosé from Cinsault and Grenache, the best-selling wine in a country where sale to Muslims is technically forbidden and consumption is concentrated in cities, hotels and among tourists. Castel's Boulaouane was for years the best-selling foreign wine in France.",
    "history": [
@@ -1308,7 +1319,7 @@
    "stats": {
     "vineyard_ha": 59900,
     "production_mhl": 2.6,
-    "year": 2025,
+    "year": "2024 (vineyard), 2025 (wine)",
     "world_rank_production": 16,
     "note": "Vineyard area end of 2024 from the National Statistics Office (Geostat), via FreshPlaza; production 2025 from OIV (largest Georgian harvest in at least 30 years; the National Wine Agency recorded about 336,000 tonnes of grapes processed)"
    },
@@ -1541,7 +1552,10 @@
    "tier": "notable",
    "tagline": "Home of the world's oldest known winery, Urartian cellars of buried karas jars and a mountain wine revival around Areni.",
    "stats": {
-    "note": "Wine-grape area roughly 15,000 to 17,000 ha in the 2020s (most grapes historically went to brandy); production figures vary by source and are not reported by OIV 2025."
+    "note": "FAOSTAT, official national figures (Statistical Committee of Armenia): 14,384 ha of grapes in 2024 and 14,262 t of wine (about 0.14 mhl) in 2023; most grapes historically went to brandy. Not reported by OIV 2025",
+    "vineyard_ha": 14384,
+    "production_mhl": 0.14,
+    "year": "2024 (vineyard), 2023 (wine)"
    },
    "overview": "In 2007 archaeologists digging in a three-chambered limestone cave above the Arpa river, near the village of Areni in Vayots Dzor, found a winery: a clay basin about a metre long for treading grapes, sloping to drain juice into a vat about 60 centimetres deep, storage jars, cups, grape seeds, pressed skins and vines, all preserved by the cave's dry air and a layer of sheep dung. Radiocarbon dating placed it around 4100 to 4000 BC, and a 2011 paper by Hans Barnard and colleagues in the Journal of Archaeological Science confirmed malvidin, the pigment of red grapes, in the vessels. Areni-1 is the oldest winery yet found, and the same cave gave the world's oldest leather shoe.\n\nWine runs through the Urartian kingdom that ruled the Armenian Highlands in the first millennium BC. At Teishebaini (Karmir Blur), a fortress built by King Rusa II on the edge of today's Yerevan, excavators found storerooms with hundreds of karases, huge clay jars sunk into the ground, with capacity marks on their shoulders. Xenophon's Greek army, marching through in 401 BC, was served wine and beer from jars buried in village houses.\n\nChristianity, adopted in 301, kept wine sacred; cross-stones (khachkars) are carved with vines and pomegranates. In the Soviet era Armenia's grapes went mostly into brandy: the Yerevan brandy distillery (founded in 1887, bought by Nikolay Shustov's company in 1899, famous as Ararat brandy and owned by Pernod Ricard since 1998) supplied a quarter of all Soviet brandy, and wine was largely sherry-style or bulk. Since about 2010 a wine renaissance has followed: Zorah (Rind), Trinity Canyon, Old Bridge, Hin Areni, Momik, Voskevaz, ArmAs, Van Ardi, Keush (sparkling at 1,750 metres) and many small producers now bottle native grapes from some of the highest vineyards in the northern hemisphere.\n\nThe signature grapes are the red Areni Noir (Areni), thick-skinned, peppery and fresh, grown on its own roots in Vayots Dzor's sandy, volcanic soils at 1,000 to 1,600 metres, and the white Voskehat ('golden berry'), floral and textured. Kangun, a Soviet-era cross, and the red Haghtanak and Sireni (Khndoghni) are also important. The traditional vessel, the karas, is being revived by producers who ferment and age in clay. The Areni Wine Festival, held each October since 2009, celebrates the village's double legacy.",
    "history": [
@@ -1659,7 +1673,10 @@
    "tier": "emerging",
    "tagline": "German colonists' cellars at Göygöl, the pink Madrasa grape of Shamakhi and a state-backed revival.",
    "stats": {
-    "note": "No reliable current vineyard figure found; Soviet Azerbaijan harvested about 2 million tonnes of grapes by the early 1980s. Wine output is small and not reported by OIV 2025."
+    "note": "FAOSTAT, official national figures: 14,233 ha of grapes and 12,720 t of wine (about 0.13 mhl) in 2023. Soviet Azerbaijan harvested about 2 million tonnes of grapes by the early 1980s. Not reported by OIV 2025",
+    "vineyard_ha": 14233,
+    "production_mhl": 0.13,
+    "year": 2023
    },
    "overview": "Azerbaijan's wine history is ancient (jars with wine residues of the second millennium BC from Göygöl and Neolithic Kültəpə in Nakhchivan) and recent in equal measure. In 1817 to 1819 Lutheran colonists from Württemberg settled in the South Caucasus with the tsar's permission and founded Helenendorf (today Göygöl) near Ganja and Annenfeld (today Shamkir); families such as the Vohrer brothers and the Hummels built wineries and cognac houses that sold across the Russian Empire. Stalin deported the German community in 1941, but its cellars, including the Göygöl wine plant of 1860, are still in use.\n\nUnder the Soviet Union Azerbaijan became one of the biggest grape producers in the USSR, reaching about two million tonnes of grapes by the early 1980s, before Gorbachev's 1985 campaign tore out most of the vines. A state programme from 2012 to 2020 subsidised replanting, and a dozen modern wineries now work in three areas: Ganja and Göygöl, Tovuz and Shamkir in the west, and the Shamakhi and Ismayilli foothills of the Greater Caucasus in the east, where Savalan (Aspi Winery), Chabiant and Meysari make the best-known wines. The local signature is Madrasa (Matrassa), a dark-skinned grape named after the village of Madrasa near Shamakhi, used for deeply coloured dry and sweet reds. Nagorno-Karabakh, internationally recognised as part of Azerbaijan, had Armenian-run wineries (in Hadrut, Martuni and elsewhere, using the local Sireni grape) until the region's ethnic Armenian population left after Azerbaijan's military takeover in September 2023.",
    "history": [
@@ -1947,7 +1964,10 @@
    "tier": "emerging",
    "tagline": "Swiss colonists at Shabo, Golitsyn's sparkling cellars in Crimea and a new generation of winemakers working through war.",
    "stats": {
-    "note": "Before 2014 Ukraine had roughly 50,000 ha of vines including Crimea; occupation of Crimea removed about 17,000 ha and wineries providing about 60 percent of wine, and the war since 2022 has damaged or occupied more vineyards in Kherson, Mykolaiv and Zaporizhzhia. No current official total found."
+    "note": "FAOSTAT, official national figures for government-controlled territory: 26,300 ha of grapes in 2023 and 51,991 t of wine (about 0.52 mhl) in 2022. Before 2014 Ukraine had roughly 50,000 ha of vines including Crimea; occupation of Crimea removed about 17,000 ha and wineries providing about 60 percent of wine, and the war since 2022 has damaged or occupied more vineyards in Kherson, Mykolaiv and Zaporizhzhia",
+    "vineyard_ha": 26300,
+    "production_mhl": 0.52,
+    "year": "2023 (vineyard), 2022 (wine)"
    },
    "overview": "Ukraine's southern coast has made wine since Greek colonists founded Olbia, Tyras and Chersonesus around the sixth and fifth centuries BC. The modern industry dates from the Russian Empire's conquest of the Black Sea steppe in the late eighteenth century. In 1822, with Alexander I's approval, winegrowers from the Swiss canton of Vaud founded the colony of Chabag, today Shabo, on the Dniester estuary in Bessarabia, and their descendants made wine there until the Second World War. Shabo is again Ukraine's largest wine company, with about 1,200 hectares and a wine culture centre on the old colony.\n\nCrimea was the empire's showcase. Count Mikhail Vorontsov planted the south coast from the 1820s, the Magarach research institute was founded in 1828, and Prince Lev Golitsyn (1845 to 1915) built the sparkling wine cellars of Novy Svet (Noviy Svit), where his wine won at the 1900 Paris exhibition and was renamed for the coronation of Nicholas II, and directed the imperial Massandra winery (1894), whose collection of about a million bottles holds sherries and dessert wines back to 1775. Inkerman near Sevastopol ages wine in old limestone galleries. Crimea is internationally recognised as part of Ukraine; Russia has occupied and claimed it since 2014, and Massandra and other estates now operate under Russian control (the Russian-installed authorities 'nationalised' Massandra and sold it at auction in 2023).\n\nThe rest of Ukrainian wine is in the south (Odesa, Mykolaiv and Kherson oblasts) and in Transcarpathia (Zakarpattia) in the west, near Hungary, where Berehove and the Tisza valley have Tokaj-related traditions. Soviet Ukraine was the USSR's largest supplier of wine, with about 250,000 hectares before Gorbachev's 1985 campaign destroyed around 80,000. In the 2010s small producers such as Beykush (on the Berezan estuary near Mykolaiv), Kolonist and 46 Parallel in Odesa, Father and Sons, Chateau Chizay in Transcarpathia and Prince Trubetskoi's estate in Kherson started a quality movement, with local grapes such as Telti-Kuruk and Odessa Black alongside Saperavi, Riesling and Chardonnay.\n\nRussia's full-scale invasion in February 2022 hit wine country hard. The Prince Trubetskoi estate at Kozatske in Kherson oblast was occupied, looted (including about 32,000 bottles) and its historic chateau destroyed; Artwinery, the sparkling-wine plant at Bakhmut with cellars in old gypsum mines, was forced out and moved production to Odesa; vineyards in Mykolaiv and Zaporizhzhia were mined and shelled. Producers kept harvesting, and exports to the EU have grown.",
    "history": [
@@ -2168,7 +2188,10 @@
    "tier": "minor",
    "tagline": "Vineyards under the Tian Shan east of Almaty, where a young estate industry buries its vines each winter.",
    "stats": {
-    "note": "Small wine sector; no reliable vineyard total found."
+    "note": "Bureau of National Statistics via FAOSTAT (official figure): 9,551 ha of grapes in 2024, mostly table grapes; FAOSTAT's official series also records about 26,000 t of wine a year in 2022 and 2023",
+    "vineyard_ha": 9551,
+    "year": 2024,
+    "production_mhl": null
    },
    "overview": "Kazakhstan is the world's largest landlocked country, but almost all of it is too cold or too dry for vines. Its wine country lies in the far south-east, in the foothills of the Zailiysky Alatau (Tian Shan) east of Almaty, and in the south around Shymkent and the Turkestan region. Soviet planners established large vineyards here; many were lost after 1985 and 1991. Since the late 2000s private estates have replanted the Almaty region, most visibly Arba Wine in the Enbekshikazakh district towards Shelek and Turgen, with others nearby. Winters are severe enough that vines are buried in autumn and dug out in spring, and summers are hot and dry with irrigation from mountain rivers. Kazakhstan is also an important market for Georgian and Moldovan wine.",
    "history": [
@@ -2279,7 +2302,10 @@
    "tier": "minor",
    "tagline": "Sogdian Panjakent's ancient presses and a small Soviet-era wine legacy.",
    "stats": {
-    "note": "Mostly table grapes and raisins; wine production minimal."
+    "note": "FAOSTAT, official national figure: 35,800 ha of grapes in 2023, mostly table grapes and raisins; wine production minimal",
+    "vineyard_ha": 35800,
+    "year": 2023,
+    "production_mhl": null
    },
    "overview": "Tajikistan's claim on wine history lies in Sogdiana, the land of the Silk Road's great merchants. The Sogdian city of Panjakent in the Zeravshan valley, abandoned after the Arab conquest in the eighth century, has yielded wine presses, storage jars and painted banquet halls, evidence of a flourishing pre-Islamic wine culture shared with Samarkand, 60 kilometres downstream. The northern Sughd region around Khujand also reaches into the Ferghana valley, the ancient kingdom of Dayuan whose wine impressed Chinese envoys in the second century BC.\n\nIn Soviet times the Hissar valley west of Dushanbe and the Ferghana fringe around Khujand had state vineyards and wineries producing dessert wines and brandy. Since independence and the civil war of the 1990s, grape growing has shifted overwhelmingly to table grapes and raisins, and wine production is small and aimed at the domestic market. Hot, dry summers, cold winters and irrigation from mountain rivers define the vineyards.",
    "history": [
@@ -2314,7 +2340,10 @@
    "tier": "minor",
    "tagline": "A few vineyards in the Chui and Issyk-Kul valleys and the Ferghana fringe.",
    "stats": {
-    "note": "Very small production."
+    "note": "FAOSTAT, official national figure: 2,645 ha of grapes in 2024 (4,117 ha in 2023); very small wine production",
+    "vineyard_ha": 2645,
+    "year": 2024,
+    "production_mhl": null
    },
    "overview": "Kyrgyzstan is mountain country, almost entirely above 1,000 metres, and grapes grow only on its edges. In the south, the Kyrgyz part of the Ferghana valley around Osh and Jalal-Abad belongs to one of the oldest grape-growing areas of Central Asia: Ferghana was the kingdom of Dayuan, whose grape wine the Han envoy Zhang Qian reported in the second century BC, and whose vines were carried back to China. In the north, the Chui valley around Bishkek and the shores of Lake Issyk-Kul, a huge high lake that softens the local climate, had Soviet-era vineyards and wineries that made fortified and fruit wines for the USSR.\n\nMost of those vineyards were lost after the anti-alcohol campaign of 1985 and independence in 1991, and today Kyrgyzstan makes little grape wine; much of what is sold locally is fruit wine or imported. The continental climate, with very cold winters, means vines must be buried each autumn, as across most of Central Asia.",
    "history": [
@@ -2344,7 +2373,10 @@
    "tier": "minor",
    "tagline": "Parthian Nisa's wine archive and Soviet desert vineyards.",
    "stats": {
-    "note": "Small state-run production; no reliable data."
+    "note": "FAOSTAT, official national figure: 19,995 ha of grapes in 2024, mostly table grapes; small state-run wine production with no reliable output data",
+    "vineyard_ha": 19995,
+    "year": 2024,
+    "production_mhl": null
    },
    "overview": "Turkmenistan is mostly desert, the Karakum, but its southern oases along the Kopet Dag mountains and the Murghab river were centres of civilisation for thousands of years. At Old Nisa, near Ashgabat, the early Parthian royal fortress (from about the third century BC) yielded more than 2,000 inscribed potsherds, written in Aramaic script, that are largely receipts for wine delivered from royal and temple vineyards to the stores: one of the great administrative wine archives of antiquity, showing a state that taxed and tracked wine by vintage and estate. Merv, in the Murghab oasis, was one of the great cities of the Silk Road.\n\nIn Soviet times Turkmenistan grew grapes in the Kopet Dag foothills and the Murghab and Amu Darya oases, and state wineries made dessert wines and brandy. Today grapes are grown mostly for eating, and a small state-controlled industry produces wine for the domestic market. Summers are extremely hot and all vineyards are irrigated.",
    "history": [
