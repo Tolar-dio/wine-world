@@ -1,22 +1,22 @@
 {
- "built": "2026-10-29T21:27:47+00:00",
+ "built": "2026-10-30T01:44:09+00:00",
  "counts": {
   "countries": 88,
   "countries_with_polygons": 33,
   "countries_with_content": 88,
   "appellations": 2174,
-  "fine_units": 9248,
-  "profiles": 3917,
-  "fine_profiles": 1335,
+  "fine_units": 9251,
+  "profiles": 3913,
+  "fine_profiles": 1331,
   "fine_units_with_profile": 1331,
   "profiles_on_polygons": 3505,
-  "extra_points": 411,
+  "extra_points": 407,
   "regions": 358,
   "region_outlines": 358,
   "sites": 2712,
   "sites_total": 2712,
   "grapes": 266,
-  "with_clim": 11422,
+  "with_clim": 11425,
   "timeline": 148,
   "glossary": 204,
   "soils": 33,
@@ -49,14 +49,14 @@
   },
   {
    "key": "cadastre",
-   "title": "cadastre",
-   "licence": "",
+   "title": "Etalab Cadastre (DGFiP PCI vecteur), layer lieux_dits, Licence Ouverte 2.0. Fetched from the cadastre.data.gouv.fr S3 mirror (cadastre.s3.rbx.io.cloud.ovh.net, edition 2026-09-01), clipped to the INAO",
+   "licence": "Licence Ouverte 2.0. Fetched from the cadastre.data.gouv.fr S3 mirror (cadastre.s3.rbx.io.cloud.ovh.net",
    "url": ""
   },
   {
    "key": "champ",
-   "title": "champ",
-   "licence": "",
+   "title": "commune polygons from geo.api.gouv.fr (Etalab / IGN ADMIN EXPRESS COG, Licence Ouverte 2.0), with échelle status from the INAO cahier des charges AOC Champagne.",
+   "licence": "Licence Ouverte 2.0",
    "url": ""
   },
   {
@@ -73,8 +73,8 @@
   },
   {
    "key": "esmuni",
-   "title": "esmuni",
-   "licence": "",
+   "title": "geoBoundaries ESP ADM3 (IGN Spain derived, CC BY 4.0), selected within the eupdo PDO polygons, plus GISCO LAU 2021 for provinces.",
+   "licence": "CC BY 4.0",
    "url": ""
   },
   {
@@ -145,8 +145,8 @@
   },
   {
    "key": "rtvini",
-   "title": "rtvini",
-   "licence": "",
+   "title": "Regione Toscana \"Zone di produzione vini\" (geoscopio, zo_vin_nom_zon_2026_05, CC BY 4.0) and \"Ambiti amministrativi\" (CC BY), plus OpenStreetMap lines via Nominatim (ODbL).",
+   "licence": "CC BY 4.0",
    "url": ""
   },
   {

@@ -800,33 +800,6 @@
    "classification": "UGA (Unità Geografica Aggiuntiva) of Alto Adige / Südtirol DOC, one of 86 recognised by ministerial decree of 8 October 2024; first vintage 2024"
   },
   {
-   "id": "it-alto-adige-tramin-soll",
-   "country": "it",
-   "name": "Tramin-Söll",
-   "match": [
-    "Tramin-Söll"
-   ],
-   "cat": "DOC",
-   "subcat": "UGA",
-   "region": "Trentino-Alto Adige",
-   "subregion": "Alto Adige",
-   "village": "Termeno/Tramin",
-   "styles": [
-    "white",
-    "sweet"
-   ],
-   "dominant_style": "white",
-   "grapes": "Gewürztraminer, Pinot Bianco, Pinot Nero",
-   "summary": "Tramin-Söll is the official long form of the Söll UGA above Tramin, the heart of Alto Adige Gewürztraminer and the source of Hofstätter's Kolbenhof and of top lots from Cantina Tramin.",
-   "terroir": "Limestone and dolomite debris over moraine on south-east-facing slopes. The official boundary, in Termeno/Tramin, reaches from about 270 to 850 m (terrain model).",
-   "producers": [
-    "Hofstätter (Kolbenhof)",
-    "Cantina Tramin"
-   ],
-   "nerd_note": "Tramin is the village whose name Gewürztraminer carries, and its slopes remain the variety's reference in Italy.",
-   "classification": "UGA (Unità Geografica Aggiuntiva) of Alto Adige / Südtirol DOC, one of 86 recognised by ministerial decree of 8 October 2024; first vintage 2024"
-  },
-  {
    "id": "it-alto-adige-st-jacob",
    "country": "it",
    "name": "St. Jacob",
@@ -846,32 +819,6 @@
    "grapes": "Gewürztraminer, Merlot",
    "summary": "St. Jacob takes its name from the Romanesque church of St. Jakob in Kastelaz above Tramin, whose frescoes of monsters are famous. Elena Walch's Kastelaz Gewürztraminer grows on the steep terraces beneath it.",
    "terroir": "Steep limestone and dolomite debris facing south-east. The official boundary, in Termeno/Tramin, lies at about 360 m (terrain model).",
-   "producers": [
-    "Elena Walch"
-   ],
-   "nerd_note": "Tramin is the village whose name Gewürztraminer carries, and its slopes remain the variety's reference in Italy.",
-   "classification": "UGA (Unità Geografica Aggiuntiva) of Alto Adige / Südtirol DOC, one of 86 recognised by ministerial decree of 8 October 2024; first vintage 2024"
-  },
-  {
-   "id": "it-alto-adige-tramin-st-jacob",
-   "country": "it",
-   "name": "Tramin-St. Jacob",
-   "match": [
-    "Tramin-St. Jacob"
-   ],
-   "cat": "DOC",
-   "subcat": "UGA",
-   "region": "Trentino-Alto Adige",
-   "subregion": "Alto Adige",
-   "village": "Termeno/Tramin",
-   "styles": [
-    "white",
-    "red"
-   ],
-   "dominant_style": "white",
-   "grapes": "Gewürztraminer, Merlot",
-   "summary": "Tramin-St. Jacob is the official long form of the St. Jacob UGA below the church of St. Jakob in Kastelaz, home of Elena Walch's Kastelaz Gewürztraminer.",
-   "terroir": "Steep calcareous slopes facing south-east. The official boundary, in Termeno/Tramin, lies at about 360 m (terrain model).",
    "producers": [
     "Elena Walch"
    ],
@@ -902,54 +849,9 @@
    "classification": "UGA (Unità Geografica Aggiuntiva) of Alto Adige / Südtirol DOC, one of 86 recognised by ministerial decree of 8 October 2024; first vintage 2024"
   },
   {
-   "id": "it-alto-adige-tramin-rungg",
-   "country": "it",
-   "name": "Tramin-Rungg",
-   "match": [
-    "Tramin-Rungg"
-   ],
-   "cat": "DOC",
-   "subcat": "UGA",
-   "region": "Trentino-Alto Adige",
-   "subregion": "Alto Adige",
-   "village": "Termeno/Tramin",
-   "styles": [
-    "white",
-    "red"
-   ],
-   "dominant_style": "white",
-   "grapes": "Gewürztraminer, Merlot, Lagrein",
-   "summary": "Tramin-Rungg is the official long form of the Rungg UGA south of Tramin, a warm site for Gewürztraminer and red varieties.",
-   "terroir": "Moraine and calcareous gravel. The official boundary, in Termeno/Tramin and Cortaccia/Kurtatsch, reaches from about 230 to 580 m (terrain model).",
-   "nerd_note": "Tramin is the village whose name Gewürztraminer carries, and its slopes remain the variety's reference in Italy.",
-   "classification": "UGA (Unità Geografica Aggiuntiva) of Alto Adige / Südtirol DOC, one of 86 recognised by ministerial decree of 8 October 2024; first vintage 2024"
-  },
-  {
    "id": "it-alto-adige-plon",
    "country": "it",
    "name": "Plon",
-   "match": [
-    "Plon"
-   ],
-   "cat": "DOC",
-   "subcat": "UGA",
-   "region": "Trentino-Alto Adige",
-   "subregion": "Alto Adige",
-   "village": "Termeno/Tramin",
-   "styles": [
-    "white"
-   ],
-   "dominant_style": "white",
-   "grapes": "Gewürztraminer, Pinot Bianco",
-   "summary": "Plon lies on the slopes above Tramin, giving aromatic whites, Gewürztraminer above all.",
-   "terroir": "Calcareous debris and moraine. The official boundary, in Termeno/Tramin, lies at about 300 m (terrain model).",
-   "nerd_note": "Tramin is the village whose name Gewürztraminer carries, and its slopes remain the variety's reference in Italy.",
-   "classification": "UGA (Unità Geografica Aggiuntiva) of Alto Adige / Südtirol DOC, one of 86 recognised by ministerial decree of 8 October 2024; first vintage 2024"
-  },
-  {
-   "id": "it-alto-adige-tramin-plon",
-   "country": "it",
-   "name": "Tramin-Plon",
    "match": [
     "Tramin-Plon"
    ],
