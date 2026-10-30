@@ -5,7 +5,7 @@
 import hashlib, json, os, subprocess, sys, time, urllib.parse
 
 OUT = '/home/claude/winesite/raw/osm_overpass_it'
-UA = 'VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)'
+UA = 'VitisMundiResearch/1.0 (+https://vitismundi.app/)'
 ENDPOINTS = ['https://maps.mail.ru/osm/tools/overpass/api/interpreter',
              'https://overpass-api.de/api/interpreter']
 

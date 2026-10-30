@@ -2,7 +2,7 @@
 """Geocode Italian subzone/contrada/MGA names with OSM Nominatim (1 req/s) for fallback points.
 Input: JSON list of {key, q:[query strings], vb:[lon1,lat1,lon2,lat2]}. Output: JSON dict key->best hit."""
 import json, sys, time, urllib.parse, urllib.request, os
-UA = "VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)"
+UA = "VitisMundiResearch/1.0 (+https://vitismundi.app/)"
 inp, outp = sys.argv[1], sys.argv[2]
 items = json.load(open(inp))
 res = json.load(open(outp)) if os.path.exists(outp) else {}

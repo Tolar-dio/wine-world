@@ -7023,7 +7023,7 @@ window.VM_CONFIG = Object.assign({
   mode: 'gh',
   supabaseUrl: 'https://mhnlohxzunwsmlutzrmz.supabase.co',
   supabaseAnonKey: 'sb_publishable_TbL2H1jE_WMtdicZutYWpw_dl2veQt6',
-  siteUrl: 'https://tolar-dio.github.io/wine-world/',
+  siteUrl: 'https://vitismundi.app/',
   maptilerKey: ''
 }, window.VM_CONFIG_OVERRIDE || {});
 
@@ -7089,7 +7089,7 @@ window.VM_CONFIG = Object.assign({
   const { esc, fold, arr } = VM.util;
   const GH = VM.mode === 'gh';
   const CFG = VM.config || {};
-  const SITE_URL = CFG.siteUrl || 'https://tolar-dio.github.io/wine-world/';
+  const SITE_URL = CFG.siteUrl || 'https://vitismundi.app/';
   const SB = { ver: '2.117.3', sri: 'sha384-BWcjm9OdFth9TbhCxZPdm+gAOUMAzQy9nmTs12ioXdCcbVnJaPMn+fMUoQCLt60R' };
   const KEY = 'vm:journal:v1:';
 
@@ -9970,7 +9970,7 @@ window.VM_CONFIG = Object.assign({
   async function renderReview(el) {
     R.el = el;
     if (PF.mode === 'off') {
-      el.innerHTML = `<div class="head"><p class="eyebrow">Help check photos</p><h2 class="title">Photo review</h2></div><p class="note">Photos, and the review of them, are on the full Vitis Mundi site.</p><div class="btn-row"><a class="btn solid" href="${esc((VM.config && VM.config.siteUrl) || 'https://tolar-dio.github.io/wine-world/')}#photo-review" target="_blank" rel="noopener noreferrer">Open the full site</a></div>`;
+      el.innerHTML = `<div class="head"><p class="eyebrow">Help check photos</p><h2 class="title">Photo review</h2></div><p class="note">Photos, and the review of them, are on the full Vitis Mundi site.</p><div class="btn-row"><a class="btn solid" href="${esc((VM.config && VM.config.siteUrl) || 'https://vitismundi.app/')}#photo-review" target="_blank" rel="noopener noreferrer">Open the full site</a></div>`;
       return;
     }
     if (!FULL) {

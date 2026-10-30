@@ -608,7 +608,7 @@
   async function renderReview(el) {
     R.el = el;
     if (PF.mode === 'off') {
-      el.innerHTML = `<div class="head"><p class="eyebrow">Help check photos</p><h2 class="title">Photo review</h2></div><p class="note">Photos, and the review of them, are on the full Vitis Mundi site.</p><div class="btn-row"><a class="btn solid" href="${esc((VM.config && VM.config.siteUrl) || 'https://tolar-dio.github.io/wine-world/')}#photo-review" target="_blank" rel="noopener noreferrer">Open the full site</a></div>`;
+      el.innerHTML = `<div class="head"><p class="eyebrow">Help check photos</p><h2 class="title">Photo review</h2></div><p class="note">Photos, and the review of them, are on the full Vitis Mundi site.</p><div class="btn-row"><a class="btn solid" href="${esc((VM.config && VM.config.siteUrl) || 'https://vitismundi.app/')}#photo-review" target="_blank" rel="noopener noreferrer">Open the full site</a></div>`;
       return;
     }
     if (!FULL) {

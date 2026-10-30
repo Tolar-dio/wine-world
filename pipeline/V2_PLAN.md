@@ -1,6 +1,6 @@
 # Vitis Mundi v2: plan and contracts
 
-v1 is a single-page MapLibre globe published as a Claude artifact (sandboxed: no external network). v2's main home is **GitHub Pages** (`https://tolar-dio.github.io/wine-world/`, served from `docs/` of repo Tolar-dio/wine-world), where external tiles, APIs, photos and a Supabase backend are allowed. Read SPEC.md, DATA_CONTRACT.md and FRONTEND_BRIEF.md for v1. Everything in v1 stays; v2 adds:
+v1 is a single-page MapLibre globe published as a Claude artifact (sandboxed: no external network). v2's main home is **GitHub Pages** (`https://vitismundi.app/`, served from `docs/` of repo Tolar-dio/wine-world), where external tiles, APIs, photos and a Supabase backend are allowed. Read SPEC.md, DATA_CONTRACT.md and FRONTEND_BRIEF.md for v1. Everything in v1 stays; v2 adds:
 
 1. Base maps: Standard (our vector style) / Satellite / Topographic, plus 3D terrain, hillshade, contour lines, high-resolution national aerial photos where free, a sunlight explorer and river fly-throughs.
 2. Sommelier tools: (a) slope/aspect/elevation for every appellation, fine unit and site; (b) compare up to 3 places side by side, with "climate twins"; (c) multi-criteria filters; (d) study mode (map quizzes, regulation flashcards, deductive tasting trainer, spaced repetition); (e) vintage view from weather records, with climate drift since 1961–1990.
@@ -48,4 +48,4 @@ Schema: `supabase/migrations/20261028000001_journal.sql` (bottles, place_notes, 
 - Project: `vitis-mundi` (ref `mhnlohxzunwsmlutzrmz`, region us-west-1), schema from the migration above applied as migration `journal` (no security advisor warnings).
 - URL: `https://mhnlohxzunwsmlutzrmz.supabase.co`
 - Publishable key (safe in client code; RLS protects data): `sb_publishable_TbL2H1jE_WMtdicZutYWpw_dl2veQt6`
-- Auth: email magic link with PKCE (`flowType: 'pkce'`, redirect `https://tolar-dio.github.io/wine-world/`); the site uses `#hash` routing, so the auth callback must come back as `?code=` and be exchanged then stripped from the URL. The owner must add the Pages URL to Authentication → URL Configuration (Site URL + Redirect URLs) in the dashboard.
+- Auth: email magic link with PKCE (`flowType: 'pkce'`, redirect `https://vitismundi.app/`); the site uses `#hash` routing, so the auth callback must come back as `?code=` and be exchanged then stripped from the URL. The owner must add the Pages URL to Authentication → URL Configuration (Site URL + Redirect URLs) in the dashboard.

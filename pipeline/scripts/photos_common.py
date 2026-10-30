@@ -14,7 +14,7 @@ import requests
 
 ROOT = '/home/claude/winesite'
 CACHE = f'{ROOT}/work/photos_cache'
-UA = 'VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)'
+UA = 'VitisMundiResearch/1.0 (+https://vitismundi.app/)'
 S = requests.Session()
 S.headers['User-Agent'] = UA
 for d in ('sparql', 'api', 'misc'):

@@ -5,7 +5,7 @@ sys.path.insert(0, '/home/claude/winesite/scripts')
 from depth_common import *   # noqa: F401,F403  (europe_common too: slug, reproj, polys_only, label_point...)
 
 IDS_LOG = ROOT + '/work/depth/it_ids_{tag}.json'   # per-script record of ids created / changed
-UA = 'VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)'
+UA = 'VitisMundiResearch/1.0 (+https://vitismundi.app/)'
 T_4326_3035 = Transformer.from_crs(4326, 3035, always_xy=True)
 T_3035_4326 = Transformer.from_crs(3035, 4326, always_xy=True)
 

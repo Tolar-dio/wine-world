@@ -57,7 +57,7 @@
   const { esc, fold, arr } = VM.util;
   const GH = VM.mode === 'gh';
   const CFG = VM.config || {};
-  const SITE_URL = CFG.siteUrl || 'https://tolar-dio.github.io/wine-world/';
+  const SITE_URL = CFG.siteUrl || 'https://vitismundi.app/';
   const SB = { ver: '2.117.3', sri: 'sha384-BWcjm9OdFth9TbhCxZPdm+gAOUMAzQy9nmTs12ioXdCcbVnJaPMn+fMUoQCLt60R' };
   const KEY = 'vm:journal:v1:';
 

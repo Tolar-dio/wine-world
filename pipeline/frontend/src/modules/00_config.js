@@ -6,6 +6,6 @@ window.VM_CONFIG = Object.assign({
   mode: /*@mode*/'artifact',
   supabaseUrl: 'https://mhnlohxzunwsmlutzrmz.supabase.co',
   supabaseAnonKey: 'sb_publishable_TbL2H1jE_WMtdicZutYWpw_dl2veQt6',
-  siteUrl: 'https://tolar-dio.github.io/wine-world/',
+  siteUrl: 'https://vitismundi.app/',
   maptilerKey: ''
 }, window.VM_CONFIG_OVERRIDE || {});

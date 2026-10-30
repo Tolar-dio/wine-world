@@ -5,7 +5,7 @@ try:
     res = json.load(open(outp))
 except Exception:
     res = {}
-UA = "VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)"
+UA = "VitisMundiResearch/1.0 (+https://vitismundi.app/)"
 for key, cc, variants in qs:
     if key in res and res[key]:
         continue

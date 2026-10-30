@@ -28,7 +28,7 @@ In Playwright, pass the proxy with `"bypass": "127.0.0.1,localhost"` or the page
 ## Config
 
 ```js
-window.VM_CONFIG = { mode: 'gh' | 'artifact', supabaseUrl: '', supabaseAnonKey: '', siteUrl: 'https://tolar-dio.github.io/wine-world/', maptilerKey: '' }
+window.VM_CONFIG = { mode: 'gh' | 'artifact', supabaseUrl: '', supabaseAnonKey: '', siteUrl: 'https://vitismundi.app/', maptilerKey: '' }
 VM.config   // same object
 VM.mode     // 'gh' | 'artifact'
 VM.online   // mode === 'gh' && navigator.onLine

@@ -10,7 +10,7 @@ for q in sys.argv[2:]:
     url = 'https://nominatim.openstreetmap.org/search?' + urllib.parse.urlencode(
         {'q': q, 'format': 'json', 'limit': 5, 'polygon_geojson': 1, 'countrycodes': 'it,es,fr'})
     for i in range(6):
-        r = subprocess.run(['curl', '-sS', '-m', '40', '-A', 'VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)', url],
+        r = subprocess.run(['curl', '-sS', '-m', '40', '-A', 'VitisMundiResearch/1.0 (+https://vitismundi.app/)', url],
                            capture_output=True, text=True)
         if r.returncode == 0 and r.stdout.strip().startswith('['):
             json.dump({'q': q, 'res': json.loads(r.stdout)}, open(fn, 'w'), ensure_ascii=False)

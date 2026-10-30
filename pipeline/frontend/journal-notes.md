@@ -103,7 +103,7 @@ The page loads supabase-js 2.117.3 (UMD, pinned, published 2026-10-07) from cdn.
 
 ## What the owner must do in Supabase
 
-1. **Authentication → URL Configuration.** Set Site URL to `https://tolar-dio.github.io/wine-world/` and add the same URL to Redirect URLs (optionally `https://tolar-dio.github.io/wine-world/**`). Without this the magic link lands on the default Site URL and the sign-in cannot complete.
+1. **Authentication → URL Configuration.** Set Site URL to `https://vitismundi.app/` and add the same URL to Redirect URLs (optionally `https://vitismundi.app/**`). Without this the magic link lands on the default Site URL and the sign-in cannot complete.
 2. **Optional: Authentication → Email Templates → Magic Link.** Add a line such as `Or enter this code: {{ .Token }}`, so the "type the code" fallback works when the link opens in another browser or app (common on phones, where mail apps use their own browser).
 3. **Optional, recommended before inviting other people: a custom SMTP server** (Authentication → SMTP). The built-in sender is rate-limited to a few emails an hour.
 

@@ -2,7 +2,7 @@
 
 An interactive 3D globe atlas of the world's wine places, built for people who care where wine comes from. Spin the globe and every wine-producing country is clickable. Zoom in and the real appellation boundaries appear across borders at once, so Châteauneuf-du-Pape, Barolo and the Mosel's Einzellagen sit on the same screen. Tap any shape for its story: history, terroir, permitted grapes, climate, producers and the sites inside it.
 
-The site lives in `docs/` (static files, no build step needed to serve it). Open `docs/index.html` through any static web server, or enable GitHub Pages on the `docs/` folder.
+Live at **https://vitismundi.app** (GitHub Pages, served from `docs/`; the old tolar-dio.github.io/wine-world address forwards there). The site is static files with no build step needed to serve it: open `docs/index.html` through any static web server.
 
 ## What's in it
 
