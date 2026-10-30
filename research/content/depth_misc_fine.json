@@ -4482,7 +4482,10 @@
    "dominant_style": "red",
    "grapes": "Garnacha and Cariñena",
    "summary": "The sunny slopes (*solanes*) of El Molar in the south-west of the DOQ Priorat, the only part of that municipality inside the DOQ and one of its 12 vi de vila zones. It has no drawn boundary here because no open map of the zone exists.",
-   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Not drawn on the map (no boundary available)."
+   "classification": "Vi de vila of DOQ Priorat: one of 12 village zones (2009 rules). Not drawn on the map (no boundary available).",
+   "lat": 41.163,
+   "lon": 0.706,
+   "coord_quality": "approx"
   }
  ],
  "sites": []

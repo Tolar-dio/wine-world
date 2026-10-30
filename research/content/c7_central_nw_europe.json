@@ -3412,7 +3412,10 @@
    "terroir": "Muschelkalk limestone.",
    "producers": [],
    "nerd_note": "A Roman villa at Nennig preserves one of the largest mosaics north of the Alps, a reminder that wine and wealth arrived here early.",
-   "contains": []
+   "contains": [],
+   "lat": 49.502,
+   "lon": 6.4292,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -3557,7 +3560,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "Wines labelled 'Bereich Johannisberg' must from the 2026 vintage show the word 'Region' in front of the name.",
-   "contains": []
+   "contains": [],
+   "lat": 50.0031,
+   "lon": 7.9812,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -3979,7 +3985,10 @@
    "terroir": "Jurassic limestone under loess.",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.0196,
+   "lon": 7.6848,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -4008,7 +4017,10 @@
     "Heinrich Männle"
    ],
    "nerd_note": "In Durbach Riesling is called Klingelberger after a vineyard at Schloss Staufenberg.",
-   "contains": []
+   "contains": [],
+   "lat": 48.4857,
+   "lon": 8.0307,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -4035,7 +4047,10 @@
     "Enderle und Moll"
    ],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.1622,
+   "lon": 7.7952,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -4064,7 +4079,10 @@
     "Hanspeter Ziereisen"
    ],
    "nerd_note": "Gutedel is the same grape as Switzerland's Chasselas and covers about a third of the Markgräflerland vineyard.",
-   "contains": []
+   "contains": [],
+   "lat": 47.81,
+   "lon": 7.6257,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -4091,7 +4109,10 @@
     "Aufricht"
    ],
    "nerd_note": "The Meersburg state winery traces its roots to the Prince-Bishops of Konstanz.",
-   "contains": []
+   "contains": [],
+   "lat": 47.6956,
+   "lon": 9.272,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -4115,7 +4136,10 @@
    "terroir": "Loess, Keuper marl, shell limestone.",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 49.1047,
+   "lon": 8.8558,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -4139,7 +4163,10 @@
    "terroir": "Granite and loess.",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 49.4772,
+   "lon": 8.696,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -4163,7 +4190,10 @@
    "terroir": "Shell limestone.",
    "producers": [],
    "nerd_note": "Tauberschwarz, nearly extinct by the 1950s, was revived here.",
-   "contains": []
+   "contains": [],
+   "lat": 49.5578,
+   "lon": 9.7191,
+   "coord_quality": "approx"
   },
   {
    "country": "de",
@@ -5157,7 +5187,10 @@
     "Jutta Ambrositsch"
    ],
    "nerd_note": "Some Nussberg field blends include up to twenty varieties, among them old Viennese grapes such as Grüner Sylvaner, Rotgipfler and Zierfandler.",
-   "contains": []
+   "contains": [],
+   "lat": 48.2687,
+   "lon": 16.3438,
+   "coord_quality": "approx"
   },
   {
    "country": "at",
@@ -6439,7 +6472,10 @@
    "terroir": "Moraine and clay.",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 55.3997,
+   "lon": 10.3852,
+   "coord_quality": "approx"
   },
   {
    "country": "dk",
@@ -6465,7 +6501,10 @@
    "terroir": "Moraine, sand and clay.",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 55.7079,
+   "lon": 9.5329,
+   "coord_quality": "approx"
   },
   {
    "country": "dk",
@@ -6865,7 +6904,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.8069,
+   "lon": 16.6384,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -6889,7 +6931,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.9329,
+   "lon": 16.8916,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -6913,7 +6958,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.8744,
+   "lon": 16.671,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -6937,7 +6985,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.9467,
+   "lon": 17.466,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -6961,7 +7012,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.7413,
+   "lon": 16.7558,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -6985,7 +7039,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 50.3521,
+   "lon": 14.4748,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -7009,7 +7066,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.9983,
+   "lon": 17.1569,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -7033,7 +7093,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.94,
+   "lon": 16.737,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -7081,7 +7144,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.9736,
+   "lon": 17.2668,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -7105,7 +7171,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.9044,
+   "lon": 17.0294,
+   "coord_quality": "approx"
   },
   {
    "country": "cz",
@@ -7129,7 +7198,10 @@
    "terroir": "",
    "producers": [],
    "nerd_note": "",
-   "contains": []
+   "contains": [],
+   "lat": 48.9044,
+   "lon": 16.8165,
+   "coord_quality": "approx"
   },
   {
    "country": "sk",

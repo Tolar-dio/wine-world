@@ -5981,7 +5981,10 @@
    ],
    "dominant_style": "red",
    "grapes": "Carignan, Cinsault, Grenache",
-   "summary": "A small appellation in the hinterland of Tunis; reds and rosés from Mediterranean varieties. Created in 1973 along with Mornag and Coteaux de Tébourba, it is one of the less-seen Tunisian names on export labels."
+   "summary": "A small appellation in the hinterland of Tunis; reds and rosés from Mediterranean varieties. Created in 1973 along with Mornag and Coteaux de Tébourba, it is one of the less-seen Tunisian names on export labels.",
+   "lat": 36.5984,
+   "lon": 10.499,
+   "coord_quality": "approx"
   },
   {
    "country": "tn",

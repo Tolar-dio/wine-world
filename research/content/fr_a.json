@@ -2300,7 +2300,10 @@
    "summary": "Sainte-Foy Côtes de Bordeaux is the newest member of the Côtes family, added in 2016, covering the same zone as Sainte-Foy-Bordeaux at the eastern edge of the Gironde. Growers can choose either name.",
    "terroir": "Clay-limestone slopes on the left bank of the Dordogne bordering Bergerac.",
    "producers": [],
-   "nerd_note": "It is the only Côtes appellation on the left bank of the Dordogne."
+   "nerd_note": "It is the only Côtes appellation on the left bank of the Dordogne.",
+   "lat": 44.8416,
+   "lon": 0.215,
+   "coord_quality": "approx"
   },
   {
    "country": "fr",

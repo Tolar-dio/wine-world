@@ -1312,7 +1312,10 @@
     "Colognole",
     "I Veroni",
     "Grati"
-   ]
+   ],
+   "lat": 43.8267,
+   "lon": 11.4901,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -1334,7 +1337,10 @@
     "Fattoria del Cerro",
     "Il Palagione",
     "Montenidoli"
-   ]
+   ],
+   "lat": 43.3186,
+   "lon": 11.3317,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -1356,7 +1362,10 @@
     "Castello di Poppiano",
     "Fattoria Le Sorgenti",
     "Torre a Cona"
-   ]
+   ],
+   "lat": 43.6853,
+   "lon": 11.2547,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -1373,7 +1382,10 @@
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese-led (see Chianti)",
-   "summary": "A small subzone carved out of Colli Fiorentini in 1996 around the town of Montespertoli, southwest of Florence, on sandy Pliocene soils. It has only a few dozen hectares declared."
+   "summary": "A small subzone carved out of Colli Fiorentini in 1996 around the town of Montespertoli, southwest of Florence, on sandy Pliocene soils. It has only a few dozen hectares declared.",
+   "lat": 43.6437,
+   "lon": 11.0753,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -1390,7 +1402,10 @@
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese-led (see Chianti)",
-   "summary": "The slopes of Monte Albano west of Florence around Vinci, Lamporecchio and Quarrata, surrounding the Carmignano enclave. The wines are soft and fruity."
+   "summary": "The slopes of Monte Albano west of Florence around Vinci, Lamporecchio and Quarrata, surrounding the Carmignano enclave. The wines are soft and fruity.",
+   "lat": 43.8164,
+   "lon": 10.8963,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -1407,7 +1422,10 @@
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese-led (see Chianti)",
-   "summary": "The westernmost subzone, on the hills southeast of Pisa around Terricciola and Casciana Terme, with marine sands and clays, giving softer, rounder Chianti close to the coast."
+   "summary": "The westernmost subzone, on the hills southeast of Pisa around Terricciola and Casciana Terme, with marine sands and clays, giving softer, rounder Chianti close to the coast.",
+   "lat": 43.5247,
+   "lon": 10.6801,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -1424,7 +1442,10 @@
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese-led (see Chianti)",
-   "summary": "The eastern subzone, on the hills of the upper Arno around Arezzo, facing the Val d'Arno di Sopra, with cooler Apennine influence and lively, fruity wines."
+   "summary": "The eastern subzone, on the hills of the upper Arno around Arezzo, facing the Val d'Arno di Sopra, with cooler Apennine influence and lively, fruity wines.",
+   "lat": 43.4629,
+   "lon": 11.8782,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -1441,7 +1462,10 @@
    ],
    "dominant_style": "red",
    "grapes": "Sangiovese-led (see Chianti)",
-   "summary": "The newest Chianti subzone, added in the 2026 rules, around Vinci, the birthplace of Leonardo, and neighbouring communes in the lower Arno hills between Empoli and Monte Albano. Its reds may be released from 1 September after the vintage."
+   "summary": "The newest Chianti subzone, added in the 2026 rules, around Vinci, the birthplace of Leonardo, and neighbouring communes in the lower Arno hills between Empoli and Monte Albano. Its reds may be released from 1 September after the vintage.",
+   "lat": 43.7874,
+   "lon": 10.9271,
+   "coord_quality": "approx"
   },
   {
    "country": "it",

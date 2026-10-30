@@ -7393,7 +7393,10 @@
     "Domaine Pignier",
     "Domaine Rolet"
    ],
-   "nerd_note": ""
+   "nerd_note": "",
+   "lat": 46.78,
+   "lon": 5.62,
+   "coord_quality": "approx"
   },
   {
    "country": "fr",

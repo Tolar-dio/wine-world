@@ -4139,7 +4139,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": "Balatonfüred has held its Anna Ball every July since 1825, one of the oldest society balls in Hungary.",
-   "contains": []
+   "contains": [],
+   "lat": 46.9567,
+   "lon": 17.8889,
+   "coord_quality": "approx"
   },
   {
    "country": "hu",
@@ -4510,7 +4513,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 47.4449,
+   "lon": 18.7505,
+   "coord_quality": "approx"
   },
   {
    "country": "hu",
@@ -5740,7 +5746,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 45.0995,
+   "lon": 19.861,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -5796,7 +5805,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 45.1375,
+   "lon": 21.4121,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -5821,7 +5833,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 45.1665,
+   "lon": 21.4435,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -5851,7 +5866,10 @@
     "Čoka"
    ],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 46.1023,
+   "lon": 19.7635,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -5876,7 +5894,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 46.1066,
+   "lon": 19.8219,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -5901,7 +5922,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.8405,
+   "lon": 21.0417,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -5954,7 +5978,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.3072,
+   "lon": 20.5577,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6010,7 +6037,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.5826,
+   "lon": 21.3265,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6037,7 +6067,10 @@
     "Lastar"
    ],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.8626,
+   "lon": 21.0946,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6062,7 +6095,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.664,
+   "lon": 20.591,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6144,7 +6180,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.2271,
+   "lon": 22.5309,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6169,7 +6208,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.6844,
+   "lon": 22.2921,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6194,7 +6236,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.2166,
+   "lon": 21.4044,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6219,7 +6264,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.2343,
+   "lon": 21.5884,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6244,7 +6292,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.3211,
+   "lon": 21.8959,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6271,7 +6322,10 @@
     "Aleksić"
    ],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.5544,
+   "lon": 21.8979,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6295,7 +6349,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.9794,
+   "lon": 21.2608,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6319,7 +6376,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.7922,
+   "lon": 20.3626,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6343,7 +6403,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.6371,
+   "lon": 21.9859,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6367,7 +6430,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.9074,
+   "lon": 20.3636,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6377,7 +6443,7 @@
     "Џервинско / Dzervin"
    ],
    "cat": "PGI",
-   "region": "Vojvodina",
+   "region": "Eastern Serbia",
    "subregion": null,
    "created": "PGI (UK register 2021)",
    "area_ha": null,
@@ -6387,11 +6453,14 @@
    ],
    "dominant_style": null,
    "grapes": null,
-   "summary": "Džervin is a small PGI in Vojvodina near Novi Sad, named after a local vineyard area. Like most of Serbia's 81 wine geographical indications, it is protected under the 2021 UK-Serbia trade agreement and corresponds to a district of the national zoning; few producers use the name on labels so far.",
+   "summary": "Džervin is the hill above Knjaževac on the upper Timok where the town's oldest vineyards grew; the name also lives on in the Džervin cellar, which grew out of the Knjaževac wine cooperative of 1927. Like most of Serbia's 81 wine geographical indications, it is protected under the 2021 UK-Serbia trade agreement and corresponds to a district of the national zoning; few producers use the name on labels so far.",
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.567,
+   "lon": 22.2434,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6415,7 +6484,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.5405,
+   "lon": 21.7088,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6439,7 +6511,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.1363,
+   "lon": 21.9995,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6463,7 +6538,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.068,
+   "lon": 22.4115,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6487,7 +6565,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 46.0448,
+   "lon": 20.0929,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6511,7 +6592,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.218,
+   "lon": 22.3113,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6535,7 +6619,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.9001,
+   "lon": 21.423,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6559,7 +6646,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.0778,
+   "lon": 22.0992,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6583,7 +6673,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.8305,
+   "lon": 21.9587,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6607,7 +6700,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.62,
+   "lon": 21.1854,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6631,7 +6727,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.4842,
+   "lon": 22.4527,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6655,7 +6754,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.3306,
+   "lon": 21.7539,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6679,7 +6781,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.2676,
+   "lon": 20.5777,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6703,7 +6808,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.0256,
+   "lon": 21.9174,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6727,7 +6835,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.9652,
+   "lon": 22.1281,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6751,7 +6862,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.7164,
+   "lon": 22.2638,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6775,7 +6889,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.4922,
+   "lon": 21.8194,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6799,7 +6916,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.6709,
+   "lon": 20.717,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6823,7 +6943,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.7022,
+   "lon": 19.5793,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6847,7 +6970,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.5251,
+   "lon": 20.7415,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6871,7 +6997,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.5095,
+   "lon": 21.6949,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6895,7 +7024,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.7394,
+   "lon": 20.7315,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6919,7 +7051,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.9031,
+   "lon": 22.2785,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6943,7 +7078,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.46,
+   "lon": 20.5757,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6967,7 +7105,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.0132,
+   "lon": 20.9196,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -6991,7 +7132,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.6094,
+   "lon": 22.6137,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7015,7 +7159,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.5675,
+   "lon": 22.2557,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7039,7 +7186,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.4093,
+   "lon": 21.0482,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7063,7 +7213,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.2802,
+   "lon": 21.9893,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7087,7 +7240,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.9951,
+   "lon": 21.9464,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7111,7 +7267,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.365,
+   "lon": 21.9682,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7135,7 +7294,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.3702,
+   "lon": 22.4942,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7159,7 +7321,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.3783,
+   "lon": 21.4171,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7183,7 +7348,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.2178,
+   "lon": 22.4796,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7207,7 +7375,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.1667,
+   "lon": 21.8933,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7231,7 +7402,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.4268,
+   "lon": 21.208,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7255,7 +7429,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.8636,
+   "lon": 21.41,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7279,7 +7456,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.1547,
+   "lon": 22.5865,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7303,7 +7483,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.371,
+   "lon": 19.595,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7327,7 +7510,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.6128,
+   "lon": 19.4447,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7351,7 +7537,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.0128,
+   "lon": 21.7214,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7375,7 +7564,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.6724,
+   "lon": 21.549,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7399,7 +7591,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.4109,
+   "lon": 21.1597,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7423,7 +7618,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.2253,
+   "lon": 20.9802,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7447,7 +7645,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.0955,
+   "lon": 21.4366,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7471,7 +7672,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 45.83,
+   "lon": 20.4653,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7495,7 +7699,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.3411,
+   "lon": 22.0843,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7519,7 +7726,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.6651,
+   "lon": 20.9271,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7543,7 +7753,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.6444,
+   "lon": 21.873,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7567,7 +7780,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.6919,
+   "lon": 22.1701,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7591,7 +7807,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 44.4562,
+   "lon": 20.074,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7615,7 +7834,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.7254,
+   "lon": 21.3682,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7639,7 +7861,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.6202,
+   "lon": 20.9984,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7663,7 +7888,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 46.1527,
+   "lon": 19.9656,
+   "coord_quality": "approx"
   },
   {
    "country": "rs",
@@ -7687,7 +7915,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 43.8914,
+   "lon": 20.3492,
+   "coord_quality": "approx"
   },
   {
    "country": "me",
@@ -7763,7 +7994,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.6709,
+   "lon": 18.5749,
+   "coord_quality": "approx"
   },
   {
    "country": "me",
@@ -7787,7 +8021,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.7739,
+   "lon": 18.9488,
+   "coord_quality": "approx"
   },
   {
    "country": "mk",
@@ -7865,7 +8102,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.4922,
+   "lon": 20.2184,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -7888,7 +8128,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 39.9499,
+   "lon": 20.0975,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -7911,7 +8154,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.624,
+   "lon": 20.9866,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -7934,7 +8180,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.6849,
+   "lon": 20.4287,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -7957,7 +8206,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.3133,
+   "lon": 19.4462,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -7980,7 +8232,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.1127,
+   "lon": 20.0821,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8003,7 +8258,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.7251,
+   "lon": 19.5582,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8026,7 +8284,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.0771,
+   "lon": 20.1393,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8049,7 +8310,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.8654,
+   "lon": 20.1864,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8072,7 +8336,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.1958,
+   "lon": 20.4162,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8095,7 +8362,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.1834,
+   "lon": 19.5599,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8118,7 +8388,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.3384,
+   "lon": 20.681,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8141,7 +8414,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.2113,
+   "lon": 19.4372,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8164,7 +8440,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.6159,
+   "lon": 20.7772,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8187,7 +8466,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.5113,
+   "lon": 19.7929,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8210,7 +8492,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.0769,
+   "lon": 20.4163,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8233,7 +8518,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.6357,
+   "lon": 19.7124,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8256,7 +8544,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.8044,
+   "lon": 19.9134,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8302,7 +8593,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.1802,
+   "lon": 20.3168,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8325,7 +8619,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.9422,
+   "lon": 19.706,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8348,7 +8645,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.5993,
+   "lon": 19.7356,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8371,7 +8671,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.6104,
+   "lon": 20.0131,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8394,7 +8697,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.7681,
+   "lon": 19.877,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8417,7 +8723,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 41.0461,
+   "lon": 19.7495,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8440,7 +8749,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.8999,
+   "lon": 20.6574,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8463,7 +8775,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.0443,
+   "lon": 19.9001,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8486,7 +8801,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.2333,
+   "lon": 20.3534,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8509,7 +8827,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 39.8752,
+   "lon": 20.0065,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8532,7 +8853,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.0681,
+   "lon": 19.5121,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8578,7 +8902,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.2982,
+   "lon": 20.0209,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8624,7 +8951,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 42.3576,
+   "lon": 20.0753,
+   "coord_quality": "approx"
   },
   {
    "country": "al",
@@ -8647,7 +8977,10 @@
    "terroir": null,
    "producers": [],
    "nerd_note": null,
-   "contains": []
+   "contains": [],
+   "lat": 40.4978,
+   "lon": 19.4562,
+   "coord_quality": "approx"
   },
   {
    "country": "ro",

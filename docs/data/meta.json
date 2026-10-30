@@ -1,22 +1,22 @@
 {
- "built": "2026-10-30T16:50:32+00:00",
+ "built": "2026-10-30T17:33:38+00:00",
  "counts": {
   "countries": 88,
   "countries_with_polygons": 33,
   "countries_with_content": 88,
   "appellations": 2182,
-  "fine_units": 9480,
-  "profiles": 4922,
-  "fine_profiles": 2340,
-  "fine_units_with_profile": 2206,
-  "profiles_on_polygons": 4388,
-  "extra_points": 533,
+  "fine_units": 9719,
+  "profiles": 5282,
+  "fine_profiles": 2667,
+  "fine_units_with_profile": 2427,
+  "profiles_on_polygons": 4609,
+  "extra_points": 672,
   "regions": 358,
   "region_outlines": 358,
   "sites": 2713,
   "sites_total": 2713,
   "grapes": 266,
-  "with_clim": 11662,
+  "with_clim": 11901,
   "timeline": 148,
   "glossary": 204,
   "soils": 33,
@@ -84,6 +84,12 @@
    "url": ""
   },
   {
+   "key": "etnacontr",
+   "title": "| Etna contrade | 107 of 133 | `etnacontr` | approx | rough, see below |",
+   "licence": "CC BY 4.0",
+   "url": "https://wfs.cartografia.agenziaentrate.gov.it/inspire/wfs/owfs01.php"
+  },
+  {
    "key": "eupdo",
    "title": "Candiago S, Tscholl S, Bassani L, Fraga H, Egarter Vigl L (2022). A geospatial inventory of regulatory information for wine protected designations of origin in Europe. Scientific Data 9:394",
    "licence": "CC BY 4.0",
@@ -132,6 +138,12 @@
    "url": "https://www.naturalearthdata.com/"
   },
   {
+   "key": "nobilepieve",
+   "title": "| Vino Nobile Pievi | 12 | `nobilepieve` | approx | real roads and streams, assignment approximate |",
+   "licence": "CC BY 4.0",
+   "url": "https://www.consorziovinonobile.it/"
+  },
+  {
    "key": "noe",
    "title": "Amt der NÖ Landesregierung, Weinbau Rieden Niederösterreich (OGD RLF_WEINBAU_RIEDEN)",
    "licence": "CC BY 4.0",
@@ -150,10 +162,16 @@
    "url": "https://www.openstreetmap.org/copyright"
   },
   {
+   "key": "osmcom",
+   "title": "| Montepulciano d'Abruzzo sottozone and UGAs | 9 + 4 | `osmcom` | commune | comune unions; five sottozone are larger than the legal zone |",
+   "licence": "ODbL",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
    "key": "rtvini",
    "title": "Regione Toscana \"Zone di produzione vini\" (geoscopio, zo_vin_nom_zon_2026_05, CC BY 4.0) and \"Ambiti amministrativi\" (CC BY), plus OpenStreetMap lines via Nominatim (ODbL).",
    "licence": "CC BY 4.0",
-   "url": ""
+   "url": "https://www502.regione.toscana.it/geoscopio/vinidopigp.html"
   },
   {
    "key": "swisstopo",
@@ -172,6 +190,12 @@
    "title": "UC Davis Library AVA Digitizing Project (TTB American Viticultural Area boundaries)",
    "licence": "CC0 1.0",
    "url": "https://github.com/UCDavisLibrary/ava"
+  },
+  {
+   "key": "veneto",
+   "title": "| Veneto DOC/DOCG zones (it.geojson) | 32 | `veneto` | official (Lison, Lison-Pramaggiore, Lugana, Prosecco, Valdadige: commune) | schedario vitivinicolo line |",
+   "licence": "",
+   "url": "https://www.regione.veneto.it/web/agricoltura-e-foreste/disciplinari-docg-doc-igt"
   },
   {
    "key": "vinpro",

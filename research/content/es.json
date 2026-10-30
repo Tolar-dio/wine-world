@@ -2013,7 +2013,10 @@
    "terroir": "Southern Navarra, in the Ebro basin.",
    "producers": [],
    "nerd_note": "Navarra now has four Vinos de Pago, more than any other region except Castilla-La Mancha and Valencia.",
-   "contains": []
+   "contains": [],
+   "lat": 41.9733,
+   "lon": -1.6396,
+   "coord_quality": "approx"
   },
   {
    "country": "es",
@@ -2194,7 +2197,10 @@
     "Solar de Urbezo"
    ],
    "nerd_note": "Spain's ministry list files Urbezo under the DO term rather than VP, but the ministry's own announcement calls it a vino de pago.",
-   "contains": []
+   "contains": [],
+   "lat": 41.3382,
+   "lon": -1.2263,
+   "coord_quality": "approx"
   },
   {
    "country": "es",
@@ -2893,7 +2899,10 @@
    "terroir": "Rolling hills at 700 to 900 m and plains at 630 to 650 m, on volcanic and limestone soils.",
    "producers": [],
    "nerd_note": "The Campo de Calatrava volcanic field has hundreds of small volcanoes and maars, the newest of them only a few thousand years old.",
-   "contains": []
+   "contains": [],
+   "lat": 38.8882,
+   "lon": -3.7118,
+   "coord_quality": "approx"
   },
   {
    "country": "es",
@@ -3511,7 +3520,10 @@
    "terroir": "Hills in northern Guadalajara, toward the Sierra de Ayllón.",
    "producers": [],
    "nerd_note": "It was the 105th Spanish DOP and the 24th in Castilla-La Mancha.",
-   "contains": []
+   "contains": [],
+   "lat": 40.9471,
+   "lon": -3.0887,
+   "coord_quality": "approx"
   },
   {
    "country": "es",
@@ -3535,7 +3547,10 @@
    "terroir": "Castilla-La Mancha.",
    "producers": [],
    "nerd_note": "The ministry recorded no wine marketed under Rosalejo in its first campaign.",
-   "contains": []
+   "contains": [],
+   "lat": 39.4799,
+   "lon": -4.8361,
+   "coord_quality": "approx"
   },
   {
    "country": "es",
@@ -3670,7 +3685,10 @@
     "Pago de Tharsys"
    ],
    "nerd_note": "With Tharsys, Spain counted 28 Vinos de Pago.",
-   "contains": []
+   "contains": [],
+   "lat": 39.4881,
+   "lon": -1.1002,
+   "coord_quality": "approx"
   },
   {
    "country": "es",

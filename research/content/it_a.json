@@ -2354,7 +2354,10 @@
     "Feudo di San Maurizio",
     "Château Feuillet"
    ],
-   "nerd_note": "The name comes from the Torrette hamlet near Saint-Pierre, close to the medieval castle of Saint-Pierre."
+   "nerd_note": "The name comes from the Torrette hamlet near Saint-Pierre, close to the medieval castle of Saint-Pierre.",
+   "lat": 45.7095,
+   "lon": 7.2291,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -2381,7 +2384,10 @@
     "La Crotta di Vegneron",
     "Elio Ottin"
    ],
-   "nerd_note": "Chambave's Moscato Flétri was historically served to the Savoy kings when they hunted in the valley."
+   "nerd_note": "Chambave's Moscato Flétri was historically served to the Savoy kings when they hunted in the valley.",
+   "lat": 45.7445,
+   "lon": 7.5499,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -2407,7 +2413,10 @@
    "producers": [
     "La Crotta di Vegneron"
    ],
-   "nerd_note": "Malvoisie de Nus is not Malvasia at all but a local Pinot Gris clone."
+   "nerd_note": "Malvoisie de Nus is not Malvasia at all but a local Pinot Gris clone.",
+   "lat": 45.7412,
+   "lon": 7.4694,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -2432,7 +2441,10 @@
     "Caves Coopératives de Donnas",
     "Kiuva"
    ],
-   "nerd_note": "Arnad is also famous for its lard (Lardo d'Arnad DOP), cured in chestnut-wood tubs."
+   "nerd_note": "Arnad is also famous for its lard (Lardo d'Arnad DOP), cured in chestnut-wood tubs.",
+   "lat": 45.6445,
+   "lon": 7.7222,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
@@ -5701,7 +5713,10 @@
    "summary": "The broad DOC created in 2014 for Pignoletto from the plain and hills of Bologna, Modena and Ravenna provinces, mostly frizzante and spumante; the hill classic is the Colli Bolognesi Classico Pignoletto DOCG.",
    "terroir": "",
    "producers": [],
-   "nerd_note": "Creating the DOC made Pignoletto a protected place name, so the grape must now be called Grechetto Gentile on labels elsewhere."
+   "nerd_note": "Creating the DOC made Pignoletto a protected place name, so the grape must now be called Grechetto Gentile on labels elsewhere.",
+   "lat": 44.4702,
+   "lon": 11.1001,
+   "coord_quality": "approx"
   },
   {
    "country": "it",
