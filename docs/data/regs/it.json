@@ -1295,7 +1295,7 @@
   ],
   "verified": "2026-10"
  },
- "it-donnas": {
+ "it-valle-d-aosta-donnas": {
   "varieties": "Nebbiolo at least 85%.",
   "min_alcohol": "Natural potential 11%; supérieur 1% more.",
   "max_yield": "7.5 t/ha, 52.5 hl/ha.",
@@ -1311,7 +1311,7 @@
   ],
   "verified": "2026-10"
  },
- "it-arnad-montjovet": {
+ "it-valle-d-aosta-arnad-montjovet": {
   "varieties": "Nebbiolo at least 70%; up to 30% other red varieties.",
   "min_alcohol": "Natural potential 10.5%; supérieur 1% more.",
   "max_yield": "8 t/ha, 56 hl/ha.",
@@ -1326,7 +1326,7 @@
   ],
   "verified": "2026-10"
  },
- "it-chambave": {
+ "it-valle-d-aosta-chambave": {
   "varieties": "Chambave rouge: Petit Rouge at least 70%. Chambave Muscat: Moscato Bianco (Muscat Petit Grain).",
   "min_alcohol": "Natural potential 10.5%; supérieur 1% more.",
   "max_yield": "10 t/ha, 70 hl/ha; Muscat flétri 40 hl/ha.",
@@ -1341,7 +1341,7 @@
   ],
   "verified": "2026-10"
  },
- "it-nus": {
+ "it-valle-d-aosta-nus": {
   "varieties": "Nus rouge: Vien de Nus and Petit Rouge at least 70%, of which Vien de Nus at least 40%. Nus Malvoisie: Pinot Gris.",
   "min_alcohol": "Natural potential 10.5% (Malvoisie 11%); supérieur 1% more.",
   "max_yield": "Red 10 t/ha, 70 hl/ha; Malvoisie 8 t/ha, 56 hl/ha (passito 32 hl/ha).",
@@ -1356,7 +1356,7 @@
   ],
   "verified": "2026-10"
  },
- "it-torrette": {
+ "it-valle-d-aosta-torrette": {
   "varieties": "Petit Rouge at least 70%; up to 30% other red varieties.",
   "min_alcohol": "Natural potential 10.5%; supérieur 1% more.",
   "max_yield": "10 t/ha, 70 hl/ha.",
@@ -1371,7 +1371,7 @@
   ],
   "verified": "2026-10"
  },
- "it-enfer-darvier": {
+ "it-valle-d-aosta-enfer-d-arvier": {
   "varieties": "Petit Rouge at least 85%.",
   "min_alcohol": "Natural potential 11%; supérieur 1% more.",
   "max_yield": "9 t/ha, 63 hl/ha.",
@@ -1386,7 +1386,7 @@
   ],
   "verified": "2026-10"
  },
- "it-blanc-de-morgex-et-de-la-salle": {
+ "it-valle-d-aosta-blanc-de-morgex-et-de-la-salle": {
   "varieties": "100% Prié Blanc.",
   "min_alcohol": "Natural potential 9%.",
   "max_yield": "9 t/ha, 63 hl/ha.",
@@ -8318,7 +8318,7 @@
   ],
   "verified": "2026-10"
  },
- "it-casauria": {
+ "it-montepulciano-d-abruzzo-terre-di-casauria": {
   "varieties": "Montepulciano (the only variety listed in the single document).",
   "min_alcohol": "Total at release 13% (Riserva 13.5%).",
   "max_yield": "9 t/ha, 63 hl/ha; wine 70%; at least 3,500 vines/ha (pergola 3,200).",
