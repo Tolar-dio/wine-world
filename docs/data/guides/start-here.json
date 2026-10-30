@@ -1,0 +1,775 @@
+{
+  "id": "start-here",
+  "kind": "start",
+  "title": "Start here",
+  "subtitle": "How place gets into the glass",
+  "tagline": "Six stops, six bottles: the shortest road from staring at a crowded globe to reading any wine list like a map.",
+  "minutes": 13,
+  "deeper_minutes": 0,
+  "cover": "de-mosel",
+  "countries": [
+    "fr",
+    "us",
+    "de",
+    "nz"
+  ],
+  "intro": "The globe in front of you holds more than 12,000 wine places. This path visits a handful of them, in order, and uses each to teach one idea: why wine is named after places, and how warmth, slope, soil and law change what ends up in your glass. Every chapter ends with a bottle you can actually find, so bring a corkscrew.",
+  "chapters": [
+    {
+      "id": "map",
+      "part": "intro",
+      "title": "What you're looking at",
+      "steps": [
+        {
+          "text": "Spin the globe and you'll see that wine lives in two bands, roughly 30 to 50 degrees north and south of the equator (switch on *Wine belts* under Layers to draw them). Nearer the equator the vine never gets a winter's rest and the grapes ripen too fast; nearer the poles they never ripen at all. Altitude, cold ocean currents and a warming climate now blur both edges, which is why there are vineyards in the Andes and southern England.\n\nEvery colored shape is a place where wine is made under a name: more than 12,000 of them, plus about 2,700 pinned sites: châteaux, famous vineyards, cellars, ruins. This path picks a few and tells you why each one matters.",
+          "map": {
+            "fly": {
+              "lon": 8,
+              "lat": 30,
+              "zoom": 1.6
+            }
+          }
+        },
+        {
+          "text": "Zoom into France and the shapes fill in. Each one is an [appellation](term-appellation): a legal place name for wine, with a boundary drawn on a map and, in Europe, rules on which grapes may be planted, how much each hectare may yield and how the wine is made. France built the model in 1935, when a decree-law created the [AOC](term-aoc) system (*appellation d'origine contrôlée*, controlled designation of origin) to stop merchants selling cheap wine under famous names.\n\nThe color of each shape shows the wine that dominates there. The key in the corner reads *Colour of the wine*: red, white, rosé, sparkling, sweet, fortified, orange, or mixed when no single style leads. Open *Layers and colour* and you can recolor the same shapes by climate or elevation instead. We'll use the climate view in the next chapter.",
+          "map": {
+            "fly": "fr"
+          }
+        },
+        {
+          "text": "Appellations nest like Russian dolls. Côtes du Rhône is the broad regional name for most of the Rhône valley; inside it sits Côtes du Rhône Villages, and inside that, small, stricter names such as Gigondas and Châteauneuf-du-Pape. As a rule, the smaller the name, the tighter the rules and the higher the price. Keep zooming and, past zoom level 9, finer units appear where they exist: Burgundy's premier crus, Barolo's MGAs, the Mosel's single vineyards.\n\nTap any shape to open its profile: how the wine tastes, the soils, the grapes, the producers to look for, and climate figures for the growing season. Why name wine after a place at all? Because the place decides most of what you taste. The rest of this path shows you how.",
+          "map": {
+            "fly": "fr-cotes-du-rhone",
+            "highlight": [
+              "fr-cotes-du-rhone-villages",
+              "fr-gigondas",
+              "fr-chateauneuf-du-pape"
+            ],
+            "label": "Names inside names"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Côtes du Rhône Rouge",
+          "why": "A wine named for a region, not a grape. It is usually mostly Grenache with Syrah and Mourvèdre, but the front label rarely says so, because in France the place is the promise. Notice the warm, peppery red fruit and soft finish: the taste of a sunny southern valley, and a baseline for every red that follows.",
+          "price": "$13–18",
+          "try": [
+            "E. Guigal",
+            "Famille Perrin",
+            "Kermit Lynch"
+          ],
+          "place": "fr-cotes-du-rhone"
+        }
+      ],
+      "deeper": [
+        "term-appellation",
+        "term-aoc",
+        "term-terroir",
+        "fr-cotes-du-rhone",
+        "fr-chateauneuf-du-pape",
+        "fr-gigondas"
+      ],
+      "check": [
+        {
+          "q": "What does each colored shape on the map represent?",
+          "options": [
+            "A region the atlas drew for convenience",
+            "An appellation: a legally defined place name for wine",
+            "The land owned by a single winery",
+            "A climate zone"
+          ],
+          "answer": 1,
+          "why": "The shapes are appellations and their finer units, each a legal name with a boundary; in Europe the name also carries rules on grapes, yields and methods."
+        },
+        {
+          "q": "With the map colored by wine style, what does a shape's color tell you?",
+          "options": [
+            "The dominant wine made there",
+            "The average bottle price",
+            "The soil type",
+            "How old the appellation is"
+          ],
+          "answer": 0,
+          "why": "In the default view each appellation takes the color of its dominant wine in the glass; Layers and colour can switch to climate, elevation or country."
+        },
+        {
+          "q": "Roughly which latitudes hold most of the world's vineyards?",
+          "options": [
+            "0 to 20 degrees",
+            "30 to 50 degrees north and south",
+            "50 to 70 degrees north",
+            "Only the Northern Hemisphere"
+          ],
+          "answer": 1,
+          "why": "Most wine comes from the two belts between about 30 and 50 degrees, though altitude, cold currents and climate change are stretching them."
+        }
+      ]
+    },
+    {
+      "id": "warmth",
+      "part": "intro",
+      "title": "Warmth: one grape, two climates",
+      "steps": [
+        {
+          "text": "Start with one grape, Chardonnay, in two places. Chablis sits at almost 48 degrees north, Burgundy's northern outpost, more than 100 km north-west of the famous slopes of the Côte d'Or. Tap the shape and its profile gives a growing-season temperature of 15.5 °C: the average of every day and night from April to October, over the years 1991 to 2020. That is cool. Winters are cold, spring frost is a constant fear, and the grapes are usually picked in mid-September.\n\nThe vines grow on [Kimmeridgian](term-kimmeridgian) marl, a limestone and clay laid down about 155 million years ago and studded with tiny fossil oysters. Most village Chablis is fermented in stainless steel, so nothing hides the fruit: pale, dry, lemon and green apple, a chalky, faintly salty finish, and around 12.5 percent alcohol.",
+          "map": {
+            "fly": "fr-chablis",
+            "highlight": [
+              "fr-chablis",
+              "fr-petit-chablis",
+              "fr-chablis-grand-cru"
+            ],
+            "label": "Chablis"
+          }
+        },
+        {
+          "text": "Now cross to California. Napa Valley lies at about 38.5 degrees north, some 1,000 km closer to the equator, and its growing-season figure is 18.8 °C, more than three degrees warmer than Chablis. On the valley floor at Oakville and Rutherford it reaches 19.1 °C. Switch *Layers and colour* to Climate and you can see the difference at a glance. Summers are dry and Chardonnay is often picked from late August.\n\nWarmth does three things in the glass. Grapes build more sugar, which yeast turns into alcohol, so Napa Chardonnay usually lands at 14 percent or more. Acidity falls as grapes ripen, so the wine feels rounder and softer. And the fruit moves from lemon and apple towards pear, peach and pineapple. Same grape, different sun.",
+          "map": {
+            "fly": "us-napa-valley",
+            "highlight": [
+              "us-napa-valley",
+              "us-oakville",
+              "us-rutherford"
+            ],
+            "label": "Napa Valley"
+          }
+        },
+        {
+          "text": "Many Napa Chardonnays go through [malolactic fermentation](term-malolactic-fermentation), in which bacteria turn sharp malic acid into softer lactic acid and leave a buttery note, and then age in new oak barrels that add vanilla and toast. Most Chablis avoids both. So the classic first flight, a village Chablis beside a Napa Chardonnay, shows you climate and cellar at once.\n\nBack in Chablis, look across the river Serein at the hillside that faces south-west into the afternoon sun: the seven climats of Chablis Grand Cru. Its figure is 15.7 °C, a shade warmer than the town's vineyards, and its wines are riper, deeper and longer-lived. Even in a cool place, a slope buys warmth. Hold that thought.",
+          "map": {
+            "fly": "fr-chablis-grand-cru",
+            "highlight": [
+              "fr-chablis-grand-cru-bougros",
+              "fr-chablis-grand-cru-preuses",
+              "fr-chablis-grand-cru-vaudesir",
+              "fr-chablis-grand-cru-grenouilles",
+              "fr-chablis-grand-cru-valmur",
+              "fr-chablis-grand-cru-les-clos",
+              "fr-chablis-grand-cru-blanchot"
+            ],
+            "label": "Chablis Grand Cru"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Village Chablis",
+          "why": "Cool-climate Chardonnay with no make-up: high acidity, lemon and apple, a chalky finish, modest alcohol. Taste it first, then the Napa bottle, and notice how your mouth waters more with this one.",
+          "price": "$25–35",
+          "try": [
+            "Domaine William Fèvre",
+            "Simonnet-Febvre",
+            "Albert Bichot"
+          ],
+          "place": "fr-chablis"
+        },
+        {
+          "wine": "Napa Valley Chardonnay",
+          "why": "The warm-climate counterpart: fuller body, riper stone fruit, often a creamy, toasty layer from malolactic fermentation and oak. Check the alcohol on both labels; the gap is usually one and a half to two degrees.",
+          "price": "$25–40",
+          "try": [
+            "Cakebread Cellars",
+            "Sequoia Grove",
+            "Freemark Abbey"
+          ],
+          "place": "us-napa-valley"
+        }
+      ],
+      "deeper": [
+        "fr-chablis",
+        "fr-chablis-grand-cru",
+        "us-napa-valley",
+        "us-oakville",
+        "grape-chardonnay",
+        "term-kimmeridgian",
+        "term-malolactic-fermentation"
+      ],
+      "check": [
+        {
+          "q": "What is the growing-season temperature shown in a profile?",
+          "options": [
+            "The hottest day of the summer",
+            "The average temperature over the growing season (April to October in the north), 1991–2020",
+            "The temperature in the cellar",
+            "The average for the whole calendar year"
+          ],
+          "answer": 1,
+          "why": "It averages day and night across the months the vine is growing (October to April in the Southern Hemisphere), using 1991–2020 climate normals."
+        },
+        {
+          "q": "As grapes ripen in a warmer climate, what usually happens?",
+          "options": [
+            "Sugar and potential alcohol rise while acidity falls",
+            "Sugar falls while acidity rises",
+            "Sugar and acidity both rise",
+            "Nothing changes until harvest"
+          ],
+          "answer": 0,
+          "why": "Ripening builds sugar, which becomes alcohol, while the grape's acids are used up; warm places therefore make fuller, softer, more alcoholic wines."
+        },
+        {
+          "q": "Which winemaking step softens acidity and can add a buttery note?",
+          "options": [
+            "Stainless-steel fermentation",
+            "Malolactic fermentation",
+            "Hand picking",
+            "Filtering"
+          ],
+          "answer": 1,
+          "why": "In malolactic fermentation bacteria convert sharp malic acid to softer lactic acid, often leaving a buttery aroma; many Napa Chardonnays use it and most Chablis does not."
+        }
+      ]
+    },
+    {
+      "id": "slope",
+      "part": "intro",
+      "title": "Slope and sun: the Mosel",
+      "steps": [
+        {
+          "text": "The Mosel is about as far north as great wine gets: around 50 degrees, the latitude of Winnipeg. Its growing-season average in the atlas is just 14.6 °C, cooler even than Chablis. By rights Riesling, a grape that ripens late, should struggle here. Yet it covers about 62 percent of the region's roughly 8,300 hectares and makes some of the most sought-after white wine in the world.\n\nThe secret is in the river. The Mosel snakes back and forth across the map in tight loops, cutting deep into the hills, and at many bends one bank ends up facing south or south-west. Those slopes, not the valley as a whole, are where the great vineyards are. Notice how the shape hugs the water.",
+          "map": {
+            "fly": "de-mosel",
+            "highlight": [
+              "de-mosel"
+            ],
+            "label": "Mosel"
+          }
+        },
+        {
+          "text": "Here is one of those slopes in 3D: the Wehlener Sonnenuhr, across the river from the village of Wehlen. The atlas measures its average gradient at 45 percent and its aspect at about 207 degrees, which means it faces south-south-west. At 50 degrees north the sun stays low; on flat ground its light arrives at a slant and spreads thin, but a steep slope tilted towards it catches the rays almost head-on. The river below reflects extra light and keeps frost away.\n\nThe result shows in the numbers: 15.2 °C here against 14.6 °C for the Mosel as a whole. Six-tenths of a degree sounds trivial, but for a grape on the edge of ripeness it can be the difference between sour and sublime. The sundial (*Sonnenuhr*) that Jodocus Prüm built among the vines in 1842 gave the vineyard its name.",
+          "map": {
+            "fly": {
+              "lon": 7.0445,
+              "lat": 49.9405,
+              "zoom": 13.6
+            },
+            "pitch": 60,
+            "bearing": 25,
+            "terrain": true,
+            "highlight": [
+              "de-wehlen-sonnenuhr",
+              "site-de-wehlener-sonnenuhr"
+            ],
+            "label": "Wehlener Sonnenuhr"
+          }
+        },
+        {
+          "text": "Switch to satellite above Bernkastel and you can pick out the vine rows of the Doctor, a vineyard of only about three hectares climbing straight up from the town's rooftops. The ground is [slate](term-slate): dark Devonian rock, some 400 million years old, that splits into flakes, drains fast and soaks up the day's heat. Machines can't work slopes like these, so nearly everything is done by hand, often with each vine tied to its own wooden stake.\n\nWhat you get is Riesling at its most weightless. A classic Mosel [Kabinett](term-kabinett), the lightest of Germany's [Prädikat](term-pradikat) ripeness levels, may carry only 8 percent alcohol and noticeable sweetness, yet taste bright rather than sugary because the acidity is so high. Cool climate, warm slope: that tension is the Mosel.",
+          "map": {
+            "fly": {
+              "lon": 7.0782,
+              "lat": 49.915,
+              "zoom": 15.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "de-bernkastel-doctor",
+              "site-de-bernkasteler-doctor"
+            ],
+            "label": "Bernkasteler Doctor"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Mosel Riesling Kabinett",
+          "why": "Low alcohol, some sweetness and very high acidity, held in balance by the slate slopes. Chill it well and notice how the sweetness fades from your mind as the acidity takes over; that is the cool-climate signature at its purest.",
+          "price": "$18–28",
+          "try": [
+            "Selbach-Oster",
+            "Dr. Loosen",
+            "Merkelbach"
+          ],
+          "place": "de-mosel"
+        },
+        {
+          "wine": "Wehlener Sonnenuhr Riesling Kabinett",
+          "why": "The single vineyard you just flew over. Dr. Loosen's costs about $25; Joh. Jos. Prüm's, one of the most collected white wines on earth, runs $55–65 and ages for decades. Either shows how a named slope sharpens the Mosel's voice.",
+          "price": "$25–65",
+          "try": [
+            "Dr. Loosen",
+            "Joh. Jos. Prüm",
+            "Selbach-Oster"
+          ],
+          "place": "de-wehlen-sonnenuhr"
+        }
+      ],
+      "deeper": [
+        "de-mosel",
+        "de-wehlen-sonnenuhr",
+        "de-bernkastel-doctor",
+        "de-graach-himmelreich",
+        "soil-devonian-slate",
+        "term-kabinett",
+        "grape-riesling"
+      ],
+      "check": [
+        {
+          "q": "Why do the Mosel's best vineyards face south or south-west?",
+          "options": [
+            "To catch the low northern sun almost head-on",
+            "To shelter from the rain",
+            "Because the river flows south",
+            "Because slate only forms on south faces"
+          ],
+          "answer": 0,
+          "why": "At 50 degrees north the sun is low, so a steep slope tilted towards it receives far more energy than flat ground, enough to ripen Riesling."
+        },
+        {
+          "q": "What is the classic Mosel vineyard soil?",
+          "options": [
+            "Chalk",
+            "Devonian slate",
+            "Volcanic basalt",
+            "River gravel"
+          ],
+          "answer": 1,
+          "why": "Dark Devonian slate, about 400 million years old, drains fast and stores heat on the steep Mosel slopes."
+        },
+        {
+          "q": "What does Kabinett on a German label tell you?",
+          "options": [
+            "The grapes reached the lightest Prädikat ripeness level",
+            "The vines are very old",
+            "The wine was aged in oak",
+            "The wine is always bone dry"
+          ],
+          "answer": 0,
+          "why": "Kabinett is the first rung of the Prädikat ladder, based on ripeness at harvest; Mosel Kabinett is usually light, low in alcohol and often off-dry."
+        }
+      ]
+    },
+    {
+      "id": "soil",
+      "part": "intro",
+      "title": "Soil and water: Bordeaux's two banks",
+      "steps": [
+        {
+          "text": "Bordeaux is built around water. Two rivers, the Garonne from the Pyrenees and the Dordogne from the Massif Central, meet just north of the city at the Bec d'Ambès and become the Gironde, a broad estuary that runs out to the Atlantic. Wine people speak of the *Left Bank* (west of the Garonne and the Gironde: the Médoc and Graves) and the *Right Bank* (north of the Dordogne: Saint-Émilion and Pomerol).\n\nHere is the useful surprise. The climate on both sides is almost the same: the atlas gives Pauillac on the Left Bank a growing-season average of 17.4 °C and Pomerol on the Right Bank 17.7 °C. Same Atlantic weather, same autumn rain. So when the wines taste different, and they do, the main reason is underfoot.",
+          "map": {
+            "fly": "region-fr-bordeaux"
+          }
+        },
+        {
+          "text": "Fly up the Left Bank and four village names line the estuary: Saint-Estèphe, Pauillac, Saint-Julien and Margaux. The rivers left them a gift during the Ice Ages: deep banks of [gravel](term-gravel), pebbles and sand washed down from the mountains and piled into low ridges the locals call *croupes*. Gravel drains within hours of rain and stores the day's heat like a pavement.\n\nThat suits Cabernet Sauvignon, a late-ripening grape that sulks in cold, wet ground. On the gravel it ripens fully and gives the classic Left Bank wine: blackcurrant, cedar and graphite, firm tannins (the drying grip you feel on your gums) and a structure that can age for decades. Three of Bordeaux's five first growths, Lafite Rothschild, Latour and Mouton Rothschild, are in Pauillac alone.",
+          "map": {
+            "fly": {
+              "lon": -0.745,
+              "lat": 45.11,
+              "zoom": 10.2
+            },
+            "highlight": [
+              "fr-saint-estephe",
+              "fr-pauillac",
+              "fr-saint-julien",
+              "fr-margaux"
+            ],
+            "label": "Left Bank communes"
+          }
+        },
+        {
+          "text": "Drop to satellite at Château Latour and you can see why the best estates crowd the water. The vineyard runs down to the meadows along the estuary, pale gravel shows between the rows, and the Gironde, several kilometres wide here, softens spring frost and cools the hottest nights. Further inland, on heavier soils and away from the water, grapes ripen later and less reliably.\n\nThis is why the [1855 classification](term-1855-classification), the ranking of Bordeaux châteaux drawn up by the city's brokers for the Paris Exposition and based on what their wines sold for, reads like a map of gravel by the river. Of its 61 red wines, 60 are from the Médoc and one, Haut-Brion, comes from the gravel of the Graves, on the edge of the city.",
+          "map": {
+            "fly": {
+              "lon": -0.7446,
+              "lat": 45.1735,
+              "zoom": 14.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-chateau-latour"
+            ],
+            "label": "Château Latour"
+          }
+        },
+        {
+          "text": "Cross to the Right Bank and the ground changes. Saint-Émilion's best vineyards sit on a limestone plateau and its clay slopes; next door, Pomerol is a low plateau of clay and gravel, and at its highest point a lens of dense blue clay comes to the surface under Petrus. Clay holds water and stays cool. That suits Merlot, which ripens earlier than Cabernet Sauvignon and stays plump and fresh on cool clay where Cabernet would struggle to ripen at all.\n\nSo Right Bank wines lean on Merlot, often with Cabernet Franc, and taste of plum, black cherry and sometimes truffle, with rounder, silkier tannins. Pomerol is about 80 percent Merlot; Petrus is almost entirely Merlot. Same weather as Pauillac, different dirt, different grape, different wine.",
+          "map": {
+            "fly": {
+              "lon": -0.175,
+              "lat": 44.905,
+              "zoom": 10.8
+            },
+            "highlight": [
+              "fr-pomerol",
+              "fr-lalande-de-pomerol",
+              "fr-saint-emilion-grand-cru",
+              "site-fr-petrus"
+            ],
+            "label": "Right Bank"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Haut-Médoc red (Left Bank)",
+          "why": "Cabernet-led claret from the gravel just outside the famous villages. Look for cassis, cedar and a firm, drying finish, then pour the Right Bank bottle beside it.",
+          "price": "$20–30",
+          "try": [
+            "Château Lanessan",
+            "Château Sénéjac",
+            "Château d'Agassac"
+          ],
+          "place": "fr-haut-medoc"
+        },
+        {
+          "wine": "Lalande-de-Pomerol (Right Bank)",
+          "why": "Merlot-led wine from Pomerol's northern neighbour, on gravel, sand and clay. Softer, plummier and rounder in texture than the Haut-Médoc: the same weather read through different soil.",
+          "price": "$22–32",
+          "try": [
+            "Château Siaurac",
+            "Château Tournefeuille",
+            "Château La Maréchaude"
+          ],
+          "place": "fr-lalande-de-pomerol"
+        }
+      ],
+      "deeper": [
+        "region-fr-bordeaux",
+        "fr-pauillac",
+        "fr-margaux",
+        "fr-pomerol",
+        "fr-saint-emilion-grand-cru",
+        "soil-gravel-medoc-graves",
+        "soil-blue-clay-pomerol",
+        "term-1855-classification"
+      ],
+      "check": [
+        {
+          "q": "Why does Cabernet Sauvignon do so well on the Left Bank?",
+          "options": [
+            "Warm, free-draining gravel helps a late grape ripen",
+            "The Left Bank is several degrees warmer than the Right",
+            "The soils are volcanic",
+            "The vineyards are at high altitude"
+          ],
+          "answer": 0,
+          "why": "Both banks share nearly the same climate; the Médoc's deep gravel drains and stores heat, which lets late-ripening Cabernet get fully ripe."
+        },
+        {
+          "q": "Which grape dominates Pomerol?",
+          "options": [
+            "Cabernet Sauvignon",
+            "Merlot",
+            "Malbec",
+            "Syrah"
+          ],
+          "answer": 1,
+          "why": "Pomerol's cool clay and gravel suit Merlot, which makes up about 80 percent of the vineyard."
+        },
+        {
+          "q": "Which two rivers form the Gironde estuary?",
+          "options": [
+            "The Loire and the Cher",
+            "The Garonne and the Dordogne",
+            "The Rhône and the Saône",
+            "The Lot and the Tarn"
+          ],
+          "answer": 1,
+          "why": "The Garonne and the Dordogne meet at the Bec d'Ambès, just north of Bordeaux, and become the Gironde."
+        }
+      ]
+    },
+    {
+      "id": "names",
+      "part": "intro",
+      "title": "Names and rules: reading a label",
+      "steps": [
+        {
+          "text": "By now you can guess why a French label shows a place. Pick up a red from this slope and it says Vosne-Romanée, not Pinot Noir. In Burgundy the grape is a given (red means Pinot Noir and white means Chardonnay, with very few exceptions), so the useful information is where it grew. Twenty kilometres of east-facing slope hold village after village, each with its own accent.\n\nAn American label usually works the other way round: the grape comes first, because Napa can legally grow anything. Federal rules say a wine named for a grape must contain at least 75 percent of it, and one named for an [AVA](term-ava), an American Viticultural Area, needs at least 85 percent of its grapes from there. An AVA draws a boundary, but unlike an AOC it sets no rules on grapes or yields.",
+          "map": {
+            "fly": "region-fr-cote-de-nuits",
+            "highlight": [
+              "fr-gevrey-chambertin",
+              "fr-morey-saint-denis",
+              "fr-chambolle-musigny",
+              "fr-vougeot",
+              "fr-vosne-romanee",
+              "fr-nuits-saint-georges"
+            ],
+            "label": "Côte de Nuits villages"
+          }
+        },
+        {
+          "text": "Burgundy sorts its land into a pyramid, and Vosne-Romanée shows all four levels in one view. At the bottom is regional [Bourgogne](fr-bourgogne), which can come from vineyards across the whole region and makes just over half of all Burgundy (53 percent over 2019–2023, by the Burgundy wine board's count). Next comes the village appellation: a wine labelled simply Vosne-Romanée must come from inside the village shape outlined here. Village and premier cru wines together make up most of the rest.\n\nEach step up narrows the land, tightens the rules on yields and raises the price, because the area shrinks while demand does not. Taste the bottom two levels side by side and you start to hear the village's voice.",
+          "map": {
+            "fly": "fr-vosne-romanee",
+            "highlight": [
+              "fr-vosne-romanee"
+            ],
+            "label": "Village: Vosne-Romanée"
+          }
+        },
+        {
+          "text": "Zoom further and the village breaks into [climats](term-climat): named vineyard plots that monks and growers have tasted apart for centuries. UNESCO listed the 1,247 climats of the Côte de Nuits and Côte de Beaune as World Heritage in 2015. The better plots are [premier cru](term-premier-cru), and their labels add the vineyard to the village: Vosne-Romanée premier cru Les Suchots, Vosne-Romanée Aux Malconsorts.\n\nLook where they lie. The premier crus wrap around the top tier, mostly on the slope itself, where the soil is thinner over limestone, water drains away and the morning sun arrives early. Down on the flatter, deeper ground towards the main road the land is only village level. It is the Mosel and Médoc lesson again: position decides.",
+          "map": {
+            "fly": {
+              "lon": 4.951,
+              "lat": 47.161,
+              "zoom": 13.3
+            },
+            "highlight": [
+              "fr-vosne-romanee-premier-cru-en-orveaux",
+              "fr-vosne-romanee-premier-cru-les-rouges",
+              "fr-vosne-romanee-premier-cru-aux-brulees",
+              "fr-vosne-romanee-premier-cru-les-chaumes",
+              "fr-vosne-romanee-premier-cru-les-suchots",
+              "fr-vosne-romanee-premier-cru-aux-raignots",
+              "fr-vosne-romanee-premier-cru-clos-des-reas",
+              "fr-vosne-romanee-premier-cru-cros-parantoux",
+              "fr-vosne-romanee-premier-cru-les-gaudichots",
+              "fr-vosne-romanee-premier-cru-aux-malconsorts",
+              "fr-vosne-romanee-premier-cru-les-beaux-monts",
+              "fr-vosne-romanee-premier-cru-la-croix-rameau",
+              "fr-vosne-romanee-premier-cru-les-petis-monts",
+              "fr-vosne-romanee-premier-cru-au-dessus-des-malconsorts"
+            ],
+            "label": "Vosne-Romanée premiers crus"
+          }
+        },
+        {
+          "text": "Tilt into 3D and look west, up the slope, at the top of the pyramid: the [grands crus](term-grand-cru). Each is an appellation in its own right, so the label names only the vineyard: La Tâche, Richebourg, [Romanée-Conti](fr-romanee-conti). Burgundy has 33 of them, and together they make about 1 percent of its wine. Romanée-Conti covers 1.81 hectares, about two and a half soccer fields, and its wine is among the most expensive on earth.\n\nThey sit in a band at roughly 260 to 300 metres on the gentle middle of the slope, facing east. That is the whole Burgundy lesson in one picture: the same grape, the same village, the same weather, yet a few hundred metres up or down the hill changes the wine, the name on the bottle and the price by a factor of a hundred or more.",
+          "map": {
+            "fly": {
+              "lon": 4.9545,
+              "lat": 47.1612,
+              "zoom": 14.2
+            },
+            "pitch": 58,
+            "bearing": 280,
+            "terrain": true,
+            "highlight": [
+              "fr-romanee-conti",
+              "fr-la-tache",
+              "fr-richebourg",
+              "fr-romanee-saint-vivant",
+              "fr-la-romanee",
+              "fr-la-grande-rue"
+            ],
+            "label": "Vosne's grands crus"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bourgogne Rouge",
+          "why": "The base of the pyramid: Pinot Noir from across the region, light in color, red cherry and earth, gentle tannin. It is how most people first meet red Burgundy, and from a good house it is honest and charming.",
+          "price": "$20–30",
+          "try": [
+            "Joseph Drouhin",
+            "Louis Jadot",
+            "Louis Latour"
+          ],
+          "place": "fr-bourgogne"
+        },
+        {
+          "wine": "Marsannay Rouge (a Côte de Nuits village)",
+          "why": "One step up: a village appellation at the northern end of the Côte de Nuits, often the best-priced way in. Compare it with the Bourgogne and look for more concentration, a firmer frame and a more specific, mineral finish.",
+          "price": "$35–50",
+          "try": [
+            "Louis Latour",
+            "Geantet-Pansiot",
+            "Joseph Roty"
+          ],
+          "place": "fr-marsannay"
+        }
+      ],
+      "deeper": [
+        "region-fr-cote-de-nuits",
+        "fr-vosne-romanee",
+        "fr-vosne-romanee-premier-cru-les-suchots",
+        "fr-romanee-conti",
+        "fr-la-tache",
+        "term-climat",
+        "term-premier-cru",
+        "term-grand-cru",
+        "term-ava"
+      ],
+      "check": [
+        {
+          "q": "Why does a red Burgundy label say Vosne-Romanée rather than Pinot Noir?",
+          "options": [
+            "The grape is a given, so the place is the useful information",
+            "French law bans grape names on all labels",
+            "It is a blend of many grapes",
+            "Vosne-Romanée is a brand name"
+          ],
+          "answer": 0,
+          "why": "Red Burgundy is almost always Pinot Noir, so the label tells you what actually varies: the village or vineyard."
+        },
+        {
+          "q": "Which order runs the Burgundy pyramid from broadest to narrowest?",
+          "options": [
+            "Village, regional, grand cru, premier cru",
+            "Regional, village, premier cru, grand cru",
+            "Premier cru, grand cru, village, regional",
+            "Grand cru, premier cru, regional, village"
+          ],
+          "answer": 1,
+          "why": "Regional Bourgogne covers the most land, then village appellations, then premier cru climats, then the 33 grands crus at about 1 percent of production."
+        },
+        {
+          "q": "Under US federal rules, a wine labelled Chardonnay must contain at least how much Chardonnay?",
+          "options": [
+            "51 percent",
+            "75 percent",
+            "95 percent",
+            "100 percent"
+          ],
+          "answer": 1,
+          "why": "A varietal label needs at least 75 percent of the named grape; naming an AVA requires at least 85 percent of the grapes from that area."
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "part": "intro",
+      "title": "Taste like a nerd, then keep going",
+      "steps": [
+        {
+          "text": "Tasting is a skill built on a simple routine. *Look*: tilt the glass over something white. Pale and watery, or deep and golden? *Smell*: swirl, then sniff in short breaths and name what you can, even if it's only lemon or grass. *Taste*: notice sweetness, acidity (does your mouth water?), tannin (do your gums dry?), alcohol (warmth at the back of the throat) and how long the flavor lasts. *Think*: does this taste like a cool place or a warm one?\n\nTry it on a blind pair. Pour a Sancerre, Sauvignon Blanc from the chalk and flint of the upper Loire, next to a Sauvignon Blanc from Marlborough on the other side of the world, and have someone hide the labels.",
+          "map": {
+            "fly": "fr-sancerre",
+            "highlight": [
+              "fr-sancerre"
+            ],
+            "label": "Sancerre"
+          }
+        },
+        {
+          "text": "Marlborough Sauvignon usually leaps out of the glass with passion fruit, grapefruit and cut grass; Sancerre is quieter, with citrus, wet stone and sometimes a whiff of smoke. Tell them apart and you have used everything in this path.\n\nThen write it down. The *Cellar journal* keeps your tasting notes, the bottles you own and the ones you want. Each bottle becomes a pin on the map, and every country, appellation and grape you log gets stamped in your *Passport*. Any profile has a *Bottle* button under its title, and each tasting pick in these paths has *Log a bottle*. The journal works without an account, saved in your browser, or across devices if you sign in.",
+          "map": {
+            "fly": "nz-marlborough",
+            "highlight": [
+              "nz-marlborough"
+            ],
+            "label": "Marlborough"
+          }
+        },
+        {
+          "text": "*Study* turns the map into a teacher. Its decks (the 33 grands crus of Burgundy, the 1855 classification, Napa's sub-AVAs and dozens more) quiz you three ways: find a place on the map, name a shape that lights up, or flip flashcards, with spaced repetition bringing back what you are about to forget. A tasting trainer suggests a grape and a place from your notes, and Blind practice turns that round. *Compare* sets up to three places side by side, climate and all.\n\nThen choose a region. Each has its own path: [Burgundy](region-fr-burgundy), [Champagne](region-fr-champagne), [Bordeaux](region-fr-bordeaux), Rioja, the southern Rhône, Tuscany, Piedmont, the [Mosel](region-de-mosel), Napa and Sonoma, New Zealand. Grape paths follow Pinot Noir and Syrah around the world, and *Wine's long road* tells the whole story, from Neolithic Georgia to the vineyards of England.",
+          "map": {
+            "fly": {
+              "lon": 8,
+              "lat": 30,
+              "zoom": 1.6
+            }
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Sancerre",
+          "why": "Sauvignon Blanc from a cool, chalky corner of the Loire: lean, citrusy, stony. Half of the blind pair; the label won't say Sauvignon Blanc, for the reason you learned in Burgundy.",
+          "price": "$30–40",
+          "try": [
+            "Pascal Jolivet",
+            "Famille Baudry",
+            "Château de Sancerre"
+          ],
+          "place": "fr-sancerre"
+        },
+        {
+          "wine": "Marlborough Sauvignon Blanc",
+          "why": "The other half: a sunny, cool, very bright place that makes Sauvignon taste loud, with passion fruit and cut grass. The label leads with the grape, New World style.",
+          "price": "$14–22",
+          "try": [
+            "Greywacke",
+            "Astrolabe",
+            "Kim Crawford"
+          ],
+          "place": "nz-marlborough"
+        }
+      ],
+      "deeper": [
+        "fr-sancerre",
+        "nz-marlborough",
+        "grape-sauvignon-blanc",
+        "event-cloudy-bay-1985",
+        "term-typicity",
+        "term-terroir"
+      ],
+      "check": [
+        {
+          "q": "Your mouth waters after a sip. What are you noticing?",
+          "options": [
+            "Tannin",
+            "Acidity",
+            "Alcohol",
+            "Sweetness"
+          ],
+          "answer": 1,
+          "why": "Acidity makes you salivate; tannin dries the gums and alcohol warms the throat."
+        },
+        {
+          "q": "In a blind pair, which is more likely to show loud passion fruit and cut grass?",
+          "options": [
+            "Sancerre",
+            "Marlborough Sauvignon Blanc",
+            "Both equally",
+            "Neither"
+          ],
+          "answer": 1,
+          "why": "Marlborough's bright sun and cool nights give Sauvignon Blanc its famously pungent tropical and green aromas; Sancerre is usually more restrained and stony."
+        },
+        {
+          "q": "Where does the atlas keep your tasting notes and the bottles you own?",
+          "options": [
+            "Study",
+            "The Cellar journal",
+            "Compare",
+            "Layers and colour"
+          ],
+          "answer": 1,
+          "why": "The Cellar journal holds notes, cellar and wishlist, puts each bottle on the map and stamps your Passport."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "burgundy",
+    "bordeaux",
+    "mosel",
+    "napa-sonoma",
+    "wines-long-road"
+  ],
+  "sources": [
+    {
+      "title": "TerraClimate 1991–2020 monthly climate normals (Abatzoglou et al.), as used in the atlas profiles",
+      "url": "https://www.climatologylab.org/terraclimate.html"
+    },
+    {
+      "title": "Appellation d'origine contrôlée: the decree-law of 30 July 1935 and the CNAO/INAO (Wikipedia summary)",
+      "url": "https://en.wikipedia.org/wiki/Appellation_d%27origine_contr%C3%B4l%C3%A9e"
+    },
+    {
+      "title": "eCFR 27 CFR 4.23: Varietal (grape type) labeling (75 percent rule)",
+      "url": "https://www.ecfr.gov/current/title-27/chapter-I/subchapter-A/part-4/subpart-C/section-4.23"
+    },
+    {
+      "title": "eCFR 27 CFR 4.25: Appellations of origin (85 percent for an AVA)",
+      "url": "https://www.ecfr.gov/current/title-27/chapter-I/subchapter-A/part-4/subpart-C/section-4.25"
+    },
+    {
+      "title": "BIVB: Bourgogne viticole, chiffres clés (Sept 2024; 2019–2023 averages)",
+      "url": "https://info-beaune.com/media/Jeannette/BOURGOGNEBIVBCHIFFRESCLE__S_SEPT_2024.pdf"
+    },
+    {
+      "title": "UNESCO World Heritage Committee decision 39 COM 8B.24: Climats, terroirs of Burgundy (1,247 climats)",
+      "url": "https://whc.unesco.org/en/decisions/6373"
+    },
+    {
+      "title": "Deutsches Weininstitut: Anbaugebiet Mosel (area, Riesling share, steep slopes)",
+      "url": "https://www.ch.deutscheweine.de/regionen/anbaugebiet/72/mosel"
+    },
+    {
+      "title": "Saratoga Wine Exchange, US retail listings checked October 2026 (Chablis, Napa Chardonnay, Mosel Kabinett, Bourgogne, Marsannay, Haut-Médoc, Lalande-de-Pomerol, Sancerre, Marlborough, Côtes du Rhône)",
+      "url": "https://www.saratogawine.com/"
+    },
+    {
+      "title": "Vitis Mundi atlas profiles: Chablis, Napa Valley, Mosel, Wehlener Sonnenuhr, Pauillac, Pomerol, Vosne-Romanée, Romanée-Conti",
+      "url": "https://vitismundi.app"
+    }
+  ]
+}

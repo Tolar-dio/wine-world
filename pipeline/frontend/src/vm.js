@@ -228,7 +228,9 @@ function renderNav() {
       if (APP.view === it.id && !$('#sheet').hidden) { closeSheet(); return; }
       APP._opts = {}; APP.nav(it.id);
     });
-    nav.appendChild(b);
+    // a negative order puts the entry before the core views (Grapes, Timeline...)
+    if (it.order < 0) nav.insertBefore(b, $('button:not([data-vm])', nav) || null);
+    else nav.appendChild(b);
   }
   layoutNav();
 }
