@@ -12850,8 +12850,8 @@ window.VM_CONFIG = Object.assign({
 
    Lookups (profiles.json _meta.fine_units and lookup): an appellation uses its own profile, else _defaults by country,
    style and category; it never walks its index parent, which is spatial (Barbaresco DOCG sits inside Dolcetto
-   d'Alba DOC). A fine unit uses the id before "-premier-cru-" / "-grand-cru-", else the first profiled id up its
-   parent chain; a site uses its fine unit or appellation. Tier: _fine_override, then _fine_tier by "<profile>|<unit
+   d'Alba DOC). A fine unit: _fine_profile, its own profile, the id before "-premier-cru-" / "-grand-cru-", in Italy the
+   longest profiled id prefix, then the parent chain; a site uses its fine unit or appellation. Tier: _fine_override, then _fine_tier by "<profile>|<unit
    type>", then "<country>|<unit type>", then default_tier. Vintage charts: _by_app / _covers for the appellation
    (one per colour where there are two). Without a report, the tier's typical window is shifted by at
    most three years for the season's weather (hot years earlier, cool years slower to open, a soaked harvest shorter)
@@ -12981,7 +12981,7 @@ window.VM_CONFIG = Object.assign({
     };
   }
   function normData(p, v) {
-    const D = { profiles: new Map(), defaults: [], vint: new Map(), covers: new Map(), coveredBy: new Map(), meta: new Map(), vintBase: new Map(), fineTier: new Map(), fineOverride: new Map(), any: false };
+    const D = { profiles: new Map(), defaults: [], vint: new Map(), covers: new Map(), coveredBy: new Map(), meta: new Map(), vintBase: new Map(), fineTier: new Map(), fineOverride: new Map(), fineProfile: new Map(), any: false };
     if (p && typeof p === 'object' && !Array.isArray(p)) {
       for (const [k, x] of Object.entries(p)) {
         if (k === '_defaults') {
@@ -12991,6 +12991,10 @@ window.VM_CONFIG = Object.assign({
             for (const t of np.tiers) if (/^default\b/i.test(t.label)) t.label = 'Typical';
             D.defaults.push([dk.toLowerCase().split('|').map(s => s.trim() || '*'), np]);
           }
+          continue;
+        }
+        if (k === '_fine_profile') {
+          for (const [fid, pid] of Object.entries(x || {})) if (typeof pid === 'string') D.fineProfile.set(fid, pid);
           continue;
         }
         if (k === '_fine_override') {
@@ -13125,12 +13129,17 @@ window.VM_CONFIG = Object.assign({
     /* the research's _fine_tier: a unit type in a country -> preferred tiers of the parent's profile */
     const kind = fold(S.kindHint || '').replace(/[\s-]+/g, '_');
     const D = S.D;
-    if (D && S.fineId && D.fineOverride.has(S.fineId)) { const k = D.fineOverride.get(S.fineId); return has(k) ? k : (has(P.defaultTier) ? P.defaultTier : T[0].key); }
+    const dflt = () => (has(P.defaultTier) ? P.defaultTier : T[0].key);
+    /* _fine_override when the profile has that tier; then _fine_tier by "<profile>|<unit type>" (an empty list means
+       the profile's default and stops there: Mosel Einzellagen stay Sp\u00e4tlese), then "<country>|<unit type>" */
+    if (D && S.fineId && D.fineOverride.has(S.fineId) && has(D.fineOverride.get(S.fineId))) return D.fineOverride.get(S.fineId);
     const sub = S.fineSubcat || KIND_SUBCAT[kind] || null;
     if (sub && D && D.fineTier.size) {
-      const pk = S.profile.id ? `${S.profile.id}|${sub}`.toLowerCase() : null;
-      const l = (pk && D.fineTier.get(pk)) || D.fineTier.get(`${S.country}|${sub}`.toLowerCase());
-      if (l) { const k = l.find(has); return k || (has(P.defaultTier) ? P.defaultTier : T[0].key); }
+      const lp = S.profile.id ? D.fineTier.get(`${S.profile.id}|${sub}`.toLowerCase()) : null;
+      if (lp && !lp.length) return dflt();
+      const k = (lp || []).find(has) || (D.fineTier.get(`${S.country}|${sub}`.toLowerCase()) || []).find(has);
+      if (k) return k;
+      if (lp || D.fineTier.has(`${S.country}|${sub}`.toLowerCase())) return dflt();
     }
     if (kind && P.tierFor && has(P.tierFor[kind])) return P.tierFor[kind];
     if (kind) {
@@ -13141,16 +13150,28 @@ window.VM_CONFIG = Object.assign({
     return has(P.defaultTier) ? P.defaultTier : T[0].key;
   }
 
-  /* a fine unit's candidates for its appellation (profiles.json _meta.fine_units): the part of the id before
-     "-premier-cru-" or "-grand-cru-" (its index parent can be spatial: fr-givry-premier-cru-crausot -> fr-givry),
-     then its parent chain. Main appellations never walk their index parent, which is spatial (Barbaresco sits
-     inside Dolcetto d'Alba DOC). */
-  function fineCandidates(fid) {
+  /* a fine unit's candidate appellations, in the order of profiles.json _meta.fine_units (its own id, rule 2, is
+     tried by the caller):
+       1. _fine_profile[id];
+       3. the id before "-premier-cru-" / "-grand-cru-" (fr-givry-premier-cru-crausot -> fr-givry; its index parent is
+          Bourgogne);
+       4. Italy only: the longest profiled id that prefixes the unit's id followed by "-" (it-roero-valmezzana ->
+          it-roero), because Italian geometric parents can be wrong (Roero MGAs under Cisterna d'Asti);
+       5. the parent chain.
+     Main appellations never walk their index parent, which is spatial (Barbaresco DOCG sits inside Dolcetto d'Alba
+     DOC). `has` says whether an id counts (profiled, or covered by a vintage chart). */
+  function fineCandidates(D, fid, has) {
     const out = [];
+    const add = x => { if (x && x !== fid && !out.includes(x)) out.push(x); };
+    if (D.fineProfile.has(fid)) add(D.fineProfile.get(fid));
     const m = String(fid).match(/^(.+?)-(?:premier|grand)-cru-/);
-    if (m && VM.data.indexById.has(m[1])) out.push(m[1]);
+    if (m && has(m[1])) add(m[1]);
+    if (/^it-/.test(fid)) {
+      const parts = String(fid).split('-');
+      for (let n = parts.length - 1; n >= 2; n--) { const x = parts.slice(0, n).join('-'); if (has(x)) { add(x); break; } }
+    }
     let x = VM.data.indexById.get(fid);
-    for (let i = 0; x && x.parent && i < 8; i++) { if (!out.includes(x.parent)) out.push(x.parent); x = VM.data.indexById.get(x.parent); }
+    for (let i = 0; x && x.parent && i < 8; i++) { add(x.parent); x = VM.data.indexById.get(x.parent); }
     return out;
   }
 
@@ -13194,9 +13215,11 @@ window.VM_CONFIG = Object.assign({
     }
     /* a fine unit takes the first candidate with a profile, else the first a vintage chart covers, else its parent */
     if (S.fineId) {
-      const cand = fineCandidates(S.fineId);
+      const profiled = x => D.profiles.has(x), covered = x => D.coveredBy.has(x) || D.vintBase.has(x);
+      const cand = fineCandidates(D, S.fineId, profiled);
       S.fineCand = cand;
-      S.appId = cand.find(x => D.profiles.has(x)) || cand.find(x => D.coveredBy.has(x) || D.vintBase.has(x)) || cand[0] || null;
+      S.vintCand = fineCandidates(D, S.fineId, covered);
+      S.appId = cand.find(profiled) || S.vintCand.find(covered) || cand.find(x => VM.data.indexById.has(x)) || null;
     }
     const main = S.appId && VM.data.indexById.get(S.appId);
     if (main) {
@@ -13214,6 +13237,7 @@ window.VM_CONFIG = Object.assign({
     /* the profile, most specific first */
     const own = [S.siteId, S.fineId, S.appId, S.regionId].filter(Boolean);
     const take = (x, how) => { if (!S.profile && D.profiles.has(x)) S.profile = { id: x, data: D.profiles.get(x), how }; };
+    if (S.fineId && D.fineProfile.has(S.fineId)) take(D.fineProfile.get(S.fineId), 'parent');
     for (const x of own) take(x, 'own');
     /* a fine unit's further candidates (when the first profiled one is not its appellation's) */
     for (const x of S.fineCand || []) take(x, 'parent');
@@ -13223,7 +13247,7 @@ window.VM_CONFIG = Object.assign({
     let keys = [];
     const addKeys = list => { for (const k of list) if (D.vint.has(k) && !keys.includes(k)) keys.push(k); };
     for (const x of own) { addKeys(D.vintBase.get(x) || []); addKeys(D.coveredBy.get(x) || []); }
-    if (!keys.length && S.fineCand) for (const x of S.fineCand) { addKeys(D.vintBase.get(x) || []); addKeys(D.coveredBy.get(x) || []); if (keys.length) break; }
+    if (!keys.length && S.vintCand) for (const x of S.vintCand) { addKeys(D.vintBase.get(x) || []); addKeys(D.coveredBy.get(x) || []); if (keys.length) break; }
     const styles = [...new Set(keys.map(keyStyle).filter(Boolean))];
     S.styleOpts = styles.length > 1 ? styles : [];
     if (styles.length > 1) {
@@ -13422,7 +13446,7 @@ window.VM_CONFIG = Object.assign({
   /* "hot, early" is a short descriptor: set it apart from the note */
   const charHTML = e => (e.character ? `<em class="ag-char">${inl(cap(e.character.replace(/[.\s]+$/, '')))}.</em>` : '');
   const srcLinks = list => list.filter(s => s.url).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a>`).join(', ');
-  const tierLine = t => `${esc(t.label)}: approachable after about ${yrs(t.ready)}, at its best from ${fmt(t.peak[0])} to ${fmt(t.peak[1])}, keeps to about ${fmt(t.limit)}`;
+  const tierLine = t => `${esc(t.label)}: ${t.ready ? `approachable after about ${yrs(t.ready)}` : 'ready on release'}, at its best ${t.peak[0] ? `from ${fmt(t.peak[0])} to ${fmt(t.peak[1])} years` : `within ${yrs(t.peak[1])}`}, keeps to about ${yrs(t.limit)}`;
   function wxHTML(w, S) {
     if (!w) return '';
     const p = [`<b class="vm-num">${w.gst.toFixed(1)} \u00b0C</b> season mean, <span class="vm-num ${w.an >= 0 ? 'ag-w' : 'ag-c'}">${sgn(w.an)}</span> on 1991\u20132020`];
@@ -13919,7 +13943,7 @@ window.VM_CONFIG = Object.assign({
     const win = r.win;
     const yrs2 = win.from && win.to ? `${win.from}\u2013${win.to}` : win.from ? `from ${win.from}` : `to ${win.to}`;
     const st = r.est && !r.user ? ` \u00b7 ${STATUS[r.est.status].label.toLowerCase()}` : '';
-    return `<span class="ag-rl"><b class="ag-bk ag-s-${BUCKET_COL[k]}"><i aria-hidden="true"></i>${BUCKET[k]}</b> <span class="vm-num">${yrs2}</span><span class="ag-rs">${st} \u00b7 ${r.user ? 'your window' : 'estimated'}</span></span>`;
+    return `<span class="ag-rl"><b class="ag-bk ag-s-${BUCKET_COL[k]}"><i aria-hidden="true"></i>${BUCKET[k]}</b> <span class="vm-num">${yrs2}</span><span class="ag-rs">${st} \u00b7 ${r.user ? 'your window' : r.est && r.est.prov === 'report' ? 'from vintage reports' : 'estimated'}</span></span>`;
   }
   function decorateRow(a) {
     const J = JR();
@@ -13957,7 +13981,7 @@ window.VM_CONFIG = Object.assign({
     if (!['all', 'now', 'soon', 'hold', 'past', 'none'].includes(CF) || (CF !== 'all' && !count[CF])) CF = 'all';
     const btn = (k, l) => `<button type="button" data-cf="${k}" aria-pressed="${CF === k}"${k !== 'all' && !count[k] ? ' disabled' : ''}>${k !== 'all' && k !== 'none' ? `<i class="ag-dot ag-s-${BUCKET_COL[k]}" aria-hidden="true"></i>` : ''}${l} <span class="vm-num">${count[k] || 0}</span></button>`;
     bar.querySelector('.ag-cf').innerHTML = btn('all', 'All') + ['now', 'soon', 'hold', 'past'].map(k => btn(k, BUCKET[k])).join('') + (count.none ? btn('none', 'No window') : '');
-    bar.insertAdjacentHTML('beforeend', `<p class="note ag-cf-n">Sorted by when to drink: past peak and closing windows first. Your own drink window counts where you set one; otherwise the atlas estimates it from the appellation, tier and vintage.</p>`);
+    bar.insertAdjacentHTML('beforeend', `<p class="note ag-cf-n">Sorted by when to drink: past peak and closing windows first. Your own drink window counts where you set one; otherwise the atlas works it out from vintage reports or the typical ageing of the appellation and tier.</p>`);
     const apply = () => {
       for (const li of lis) li.classList.toggle('ag-off', CF !== 'all' && (li.dataset.agb || 'none') !== CF);
       bar.querySelectorAll('[data-cf]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.cf === CF)));
