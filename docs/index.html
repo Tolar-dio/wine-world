@@ -786,7 +786,7 @@ details.wg .list li:first-child { border-top: 0; }
 #bm-btn[data-base="satellite"] { color: var(--highlight); }
 #bm-btn[data-base="topo"] { color: var(--highlight); }
 .bmpop {
-  position: absolute; z-index: 33;
+  position: absolute; z-index: 33; box-sizing: border-box;
   right: calc(var(--gut-r) + var(--ctl) + 10px); bottom: calc(var(--bot) + 4px);
   width: 288px; max-width: calc(100% - var(--gut-l) - var(--gut-r) - var(--ctl) - 10px);
   max-height: calc(100% - var(--top) - var(--bot) - 8px); overflow-y: auto; overscroll-behavior: contain;
@@ -831,7 +831,7 @@ details.wg .list li:first-child { border-top: 0; }
 #app[data-sheet="open"] .attrib { right: calc(var(--sheet-w) + var(--gut-r) + 12px); }
 
 .dock {
-  position: absolute; z-index: 19;
+  position: absolute; z-index: 19; box-sizing: border-box;
   left: var(--gut-l); bottom: var(--bot);
   width: min(560px, calc(100% - var(--gut-l) - var(--gut-r) - var(--ctl) - 24px));
   padding: 10px 14px 12px; display: grid; gap: 8px;
@@ -840,6 +840,8 @@ details.wg .list li:first-child { border-top: 0; }
   box-shadow: 0 10px 30px var(--shadow);
 }
 #app[data-dock] .cartouche { display: none; }
+.dock > * { min-width: 0; }
+.dk-cap { overflow: hidden; }
 #app[data-dock][data-sheet="open"] .dock { width: min(560px, calc(100% - var(--gut-l) - var(--sheet-w) - var(--gut-r) - var(--ctl) - 36px)); }
 .dk-head { display: flex; align-items: center; gap: 10px; min-width: 0; }
 .dk-eyebrow { display: inline-flex; align-items: center; gap: 6px; font-family: var(--f-sc); font-size: 14.5px; letter-spacing: .04em; color: var(--text); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
@@ -873,7 +875,7 @@ details.wg .list li:first-child { border-top: 0; }
 #app[data-capture] .maplibregl-canvas { cursor: crosshair; }
 
 @media (max-width: 720px) {
-  .bmpop { top: calc(var(--top) + 46px + 6px + 36px + 12px); bottom: auto; right: calc(var(--gut-r) + var(--ctl) + 8px); max-height: calc(100% - var(--top) - 120px - var(--bot)); }
+  .bmpop { top: calc(var(--top) + 46px + 6px + 36px + 12px); bottom: auto; left: var(--gut-l); right: calc(var(--gut-r) + var(--ctl) + 8px); width: auto; max-width: none; max-height: calc(100% - var(--top) - 120px - var(--bot)); }
   #app[data-sheet="open"] .bmpop { right: calc(var(--gut-r) + var(--ctl) + 8px); }
   .attrib { left: var(--gut-l); right: var(--gut-r); max-width: none; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; bottom: 8px; }
   #app[data-sheet="open"] .attrib { right: var(--gut-r); }
@@ -3568,6 +3570,8 @@ function clearMarkers() { if (MK.pulse) MK.pulse.remove(); if (MK.pin) MK.pin.re
 /* ---------- router ---------- */
 const VIEWS = ['grapes', 'timeline', 'lexicon', 'layers', 'about'];
 let _routeN = 0;
+/* profiles name countries; a link opened before the country list has arrived waits for it briefly */
+const COUNTRIES_READY = new Promise(r => APP.on('countries', r));
 async function route() {
   const h = decodeURIComponent(location.hash.slice(1)).trim();
   const opts = APP._opts || {}; APP._opts = null;
@@ -3588,6 +3592,7 @@ async function route() {
   if (!opts.tour) stopTour();
   if (!/^event-/.test(h) && !/^grape-/.test(h) && MK.pulse) MK.pulse.remove();
   if (!/^grape-/.test(h) && MK.pin) MK.pin.remove();
+  if (!D.countriesLoaded && map) { await Promise.race([COUNTRIES_READY, sleep(2500)]); if (n !== _routeN) return; }
   try {
     if (VIEWS.includes(h)) return await showView(h, opts);
     const cv = typeof viewFor === 'function' ? viewFor(h) : null;
@@ -5546,7 +5551,8 @@ function setTerrain3D(on, opts = {}) {
     map.setTerrain(null);
     S.keepCam = false;
     map.touchZoomRotate.disableRotation();
-    const back = () => { map.setMaxPitch(55); map.setProjection({ type: 'globe' }); };
+    // back to the globe only if 3D is still off by then (a journey or the sunlight explorer may have turned it on)
+    const back = () => { if (BM.terrain) return; map.setMaxPitch(55); map.setProjection({ type: 'globe' }); };
     if (opts.instant || MQ.rm.matches) { map.jumpTo({ pitch: 0, bearing: 0 }); back(); } else map.easeTo({ pitch: 0, bearing: 0, duration: 700 }), map.once('moveend', back);
   }
   $('#ctl3d').hidden = !on;
