@@ -245,7 +245,7 @@
         <button type="button" class="st-qk" data-go="study-blind"><b>Blind practice</b><span>Read a tasting note, name the grape and the place</span></button>
         <button type="button" class="st-qk" data-go="study-order"><b>Put it in order</b><span>Five moments from 9,000 years of wine</span></button>
       </div>
-      <p class="note st-save">${SRS.cloud ? 'Progress is saved to your account.' : VM.auth?.available ? 'Progress is saved on this device. Sign in (Journal) to keep it in your account.' : 'Progress is saved on this device.'}</p>
+      <p class="note st-save">${SRS.cloud ? 'Progress is saved to your account.' : VM.auth?.available ? 'Progress is saved on this device. Sign in from Cellar to keep it in your account.' : 'Progress is saved on this device.'}</p>
       ${[...groups.entries()].map(([g, ds]) => `${VM.h.sec(g)}<ul class="list st-decks">${ds.map(d => deckRow(d)).join('')}</ul>`).join('')}
       ${sess.length ? `${VM.h.sec('Recent sessions')}<ul class="list st-sess">${sess.map(s => `<li><div class="row"><span class="row-name">${esc(deckOf(s.deck)?.title || (s.deck === 'due' ? 'Due reviews' : s.deck === 'tasting' ? 'Blind practice' : s.deck))}<small>${esc(MODE_L[s.mode] || s.mode)} · ${esc(new Date(s.start).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }))}</small></span><span class="row-meta">${s.correct}/${s.total}</span></div></li>`).join('')}</ul>` : ''}
       <p class="src" style="margin-top:22px">Spaced repetition after SM-2 (Wozniak 1990): every answer sets when a card comes back, from ten minutes to a year.</p>`;

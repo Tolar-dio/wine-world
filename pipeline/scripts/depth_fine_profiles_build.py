@@ -134,6 +134,36 @@ def at_context(p, F, profiled, known=""):
     return " ".join(bits)
 
 
+def trad_adj(village):
+    v = village.strip()
+    if v.endswith("ingen"):
+        return v[:-2] + "er"
+    if v.endswith("hausen"):
+        return v[:-6] + "häuser"
+    if v.endswith("er"):
+        return v
+    return v + "er"
+
+
+EXTRA_MATCH = {"de-ahrweiler-krauterberg": ["Walporzheimer Kräuterberg"], "de-ahrweiler-garkammer": ["Walporzheimer Gärkammer"],
+               "de-rummelsheim-schlossberg": ["Burg Layener Schlossberg"], "de-brauneberg-juffer-sonnenuhr": ["Brauneberger Juffer-Sonnenuhr"],
+               "de-oberotterbach-sonnenberg": ["Schweigener Sonnenberg"], "de-bacharach-st-jost": ["Steeger St. Jost"],
+               "de-oberwesel-bernstein": ["Engehöller Bernstein"], "de-filzen-altenberg": ["Kanzemer Altenberg"],
+               "de-dhron-goldtropfchen": ["Piesporter Goldtröpfchen"], "de-kobern-uhlen": ["Winninger Uhlen"],
+               "de-guls-rottgen": ["Winninger Röttgen"], "de-bremm-calmont": ["Bremmer Calmont"]}
+
+
+def trad_labels(p):
+    """Traditional label forms (Wiltinger, Niederhäuser, Birkweiler) where the geo label uses a different adjective."""
+    out = list(EXTRA_MATCH.get(p["id"], []))
+    gem = [g.strip() for g in ((p.get("reg") or {}).get("gemarkungen") or "").split(",") if g.strip()]
+    if len(gem) == 1 and " " in p["name"]:
+        lab = f"{trad_adj(gem[0])} {p['name'].split(' ', 1)[1]}"
+        if lab.lower() != p["name"].lower():
+            out.append(lab)
+    return out
+
+
 # ------------------------------------------------------------------ Germany
 def build_de():
     global PROF_DE
@@ -152,7 +182,7 @@ def build_de():
             if fid in F:
                 p = F[fid]
                 name = p["name"]
-                match = uniq([name] + list(p.get("alt") or []) + list(d.get("match", [])))
+                match = uniq([name] + list(p.get("alt") or []) + list(d.get("match", [])) + trad_labels(p))
                 vha = (p.get("reg") or {}).get("vine_ha")
                 area = d.get("area_ha") or vha
             elif d.get("missing"):
@@ -224,10 +254,9 @@ def build_at():
                     continue
                 name = p["name"]
                 match = uniq([name] + list(p.get("alt") or []) + [name.replace("Ried ", "")])
+                land = "Burgenland" if reg in ("Leithaberg", "Mittelburgenland", "Eisenberg", "Neusiedlersee", "Rosalia", "Ruster Ausbruch") else "Niederösterreich"
                 rec = {"id": fid, "country": "at", "name": name, "match": match, "cat": "Ried",
-                       "subcat": "Ried", "region": reg, "subregion": d["sub"]}
-                if p.get("area") and p["area"] >= 0.05:
-                    rec["area_ha"] = round(p["area"] * 100)
+                       "subcat": "Ried", "region": land, "subregion": reg, "village": d["sub"]}
                 rec.update({"styles": st, "dominant_style": dom, "grapes": d["g"], "summary": (d["s"] + " " + extra(fid)).strip()})
                 tt = ((d.get("t") or "") + " " + at_context(p, F, None, (d.get("t") or "") + d["s"])).strip()
                 if words(d["s"], tt, d.get("n")) < 45 and DAC_NOTE.get(reg) and not d.get("n"):
@@ -244,7 +273,61 @@ def build_at():
     return recs
 
 
+SUB_NOTE = {
+    "at-weissenkirchen-achleiten-himmelreich": "Himmelreich ('kingdom of heaven') is the uppermost part of the Achleiten, where gneiss dominates and the wines are at their most taut.",
+    "at-mautern-silberbichl-vom-stein": "This is the source of Nikolaihof's Riesling 'Vom Stein', one of the longest-lived dry whites of Austria.",
+    "at-mautern-alte-point-im-weingebirge": "This is the source of Nikolaihof's Grüner Veltliner and Riesling 'Im Weingebirge'.",
+    "at-zobing-heiligenstein-heiligenstein-rotfels": "Rotfels means 'red rock', after the reddish Permian sandstone that surfaces here.",
+    "at-zobing-heiligenstein-heiligenstein-steinwand": "Steinwand ('stone wall') names the rocky, terraced flank of the hill.",
+    "at-prellenkirchen-spitzerberg-obere-roterd": "Roterd means 'red earth', after the iron-rich soil over the limestone; Muhr-van der Niepoort bottles a Blaufränkisch from it.",
+    "at-krems-obere-sandgrube-frechau": "Frechau is a historic parcel name within the famous Kremser Sandgrube loess area.",
+    "at-senftenberg-hochacker-felsengarten": "Felsengarten ('rock garden') names the stoniest, most rock-strewn part of the Hochäcker.",
+}
+
+
+SENT = r"(?<=[a-z0-9%)'][.!?])\s+"
+
+
+def build_at_subs(parents):
+    F = feats("at_fine")
+    by = {r["id"]: r for r in parents}
+    recs = []
+    for r in parents:
+        p = F[r["id"]]
+        base = p["name"].replace("Ried ", "")
+        kg = (p.get("reg") or {}).get("kg")
+        for q in F.values():
+            if q["id"] in by or q.get("src") != "noe" or not kg:
+                continue
+            if not (q["name"].startswith("Ried " + base + " ") and (q.get("reg") or {}).get("kg") == kg):
+                continue
+            sub = q["name"].replace("Ried " + base + " ", "").lstrip("- ").strip()
+            first = re.split(SENT, r["summary"])
+            lead = " ".join(first[:2]) if len(" ".join(first[:2]).split()) < 60 else first[0]
+            rec = {"id": q["id"], "country": "at", "name": q["name"],
+                   "match": uniq([q["name"], f"{kg} {base} {sub}"]), "cat": "Ried", "subcat": "Ried",
+                   "region": r["region"], "subregion": r["subregion"], "village": r.get("village"), "styles": r["styles"],
+                   "dominant_style": r["dominant_style"], "grapes": r["grapes"],
+                   "summary": f"{sub} is a named subdivision (Subried) of the Ried {base} at {kg}, mapped separately on the official Lower Austrian Ried map. " + lead,
+                   "terroir": re.split(SENT, r.get("terroir", ""))[0]}
+            if r.get("producers"):
+                rec["producers"] = r["producers"]
+            rec["nerd_note"] = SUB_NOTE.get(q["id"]) or f"See the Ried {base} profile for the site's history and growers."
+            if r.get("classification"):
+                rec["classification"] = r["classification"] + " (as part of the Ried " + base + ")"
+            qa(rec)
+            recs.append(rec)
+    return recs
+
+
 # ------------------------------------------------------------------ Alto Adige
+UGA_RULE = ("UGA wines must come entirely from the named site, at yields at least 25 percent below the DOC maximum, "
+            "with one to five permitted varieties per UGA, and must carry the Consorzio's UGA symbol on the label.")
+UGA_CLASS = ("UGA (Unità Geografica Aggiuntiva) of Alto Adige / Südtirol DOC, one of 86 recognised by ministerial decree "
+             "of 8 October 2024; first vintage 2024")
+COMMUNES = json.load(open(f"{OUTW}/uga_communes.json")) if os.path.exists(f"{OUTW}/uga_communes.json") else {}
+
+
 def build_uga():
     F = feats("it_fine")
     m = load("it_uga")
@@ -259,13 +342,35 @@ def build_uga():
         name = p["name"]
         rec = {"id": fid, "country": "it", "name": name, "match": uniq([name] + list(p.get("alt") or []) + d.get("match", [])),
                "cat": "DOC", "subcat": p.get("subcat") or "UGA", "region": "Trentino-Alto Adige",
-               "subregion": d.get("sub", "Alto Adige")}
-        if p.get("area") and p["area"] >= 0.05:
-            rec["area_ha"] = round(p["area"] * 100)
+               "subregion": "Alto Adige", "village": d.get("sub")}
         rec.update({"styles": st, "dominant_style": dom, "grapes": d["g"], "summary": d["s"]})
         for k_in, k_out in (("t", "terroir"), ("p", "producers"), ("n", "nerd_note"), ("c", "classification")):
             if d.get(k_in):
                 rec[k_out] = d[k_in]
+        is_uga = (p.get("subcat") == "UGA")
+        cm = COMMUNES.get(fid) or []
+        c = p.get("clim") or {}
+        e0, e1, ez = c.get("elev_min"), c.get("elev_max"), c.get("elev")
+        alt = ""
+        if e0 is not None and e1 is not None and e1 - e0 >= 40:
+            alt = f"reaches from about {round(e0, -1):.0f} to {round(e1, -1):.0f} m"
+        elif ez:
+            alt = f"lies at about {round(ez, -1):.0f} m"
+        def short(n):
+            for x in (" sulla strada del vino", " an der Weinstraße", " Atesino"):
+                n = n.replace(x, "")
+            return n
+        names = [short(n) for a, n in cm if a >= 0.1][:4]
+        if names and alt:
+            where = names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
+            sent = f"The official boundary, in {where}, {alt} (terrain model)."
+            rec["terroir"] = (rec.get("terroir", "") + " " + sent).strip()
+        if is_uga:
+            if d.get("v"):
+                rec["terroir"] += " Varieties permitted under the UGA name: " + ", ".join(d["v"]) + "."
+            if not rec.get("nerd_note"):
+                rec["nerd_note"] = UGA_RULE
+            rec["classification"] = UGA_CLASS
         if d.get("created"):
             rec["created"] = d["created"]
         qa(rec)
@@ -294,7 +399,8 @@ def build_gap():
             for k in ("region", "subregion", "created", "area_ha"):
                 if d.get(k) is not None:
                     rec[k] = d[k]
-            rec.update({"styles": st, "dominant_style": dom, "grapes": d["g"], "summary": d["s"]})
+            rec.update({"styles": st, "dominant_style": dom, "grapes": d["g"],
+                        "summary": (d["s"] + " " + load("extras").EXTRA_GAP.get(fid, "")).strip()})
             for k_in, k_out in (("t", "terroir"), ("p", "producers"), ("n", "nerd_note"), ("c", "classification")):
                 if d.get(k_in):
                     rec[k_out] = d[k_in]
@@ -324,7 +430,9 @@ if __name__ == "__main__":
     which = sys.argv[1:] or ["deat", "uga", "gap"]
     if "deat" in which:
         de, at = build_de(), build_at()
-        stats("DE", de); stats("AT", at)
+        at_sub = build_at_subs(at)
+        stats("DE", de); stats("AT", at); stats("AT subrieden", at_sub)
+        at = at + at_sub
         write(f"{OUTW}/part_de.json", de); write(f"{OUTW}/part_at.json", at)
         write(f"{ROOT}/data/content/depth_de_at_einzellagen.json",
               {"countries": [], "regions": [], "appellations": de + at, "sites": []})

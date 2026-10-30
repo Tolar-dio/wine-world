@@ -76,7 +76,7 @@ def finalize(A):
 def load_parts():
     acc = {}
     meta = []
-    for p in sorted(glob.glob(f'{WORK}/parts/*.pkl')):
+    for p in sorted(glob.glob(f'{WORK}/parts/*.pkl')) + sorted(glob.glob(f'{WORK}/parts_inc*/*.pkl')):
         d = pickle.load(open(p, 'rb'))
         meta.append(d['meta'])
         res90 = d['meta']['res'] == '90'
@@ -179,7 +179,7 @@ def main():
     sizes['_attrs.json'] = os.path.getsize(p)
     summ = dict(n_main=sum(1 for f in feats if not f.get('site') and not f['fine']),
                 n_fine=sum(1 for f in feats if f['fine']), n_sites=len(sites), n_attrs=len(attrs) - 1,
-                missing=missing, sizes=sizes, tiles=len(meta), tiles90=sum(1 for m in meta if m['res'] == '90'),
+                missing=missing, sizes=sizes, tiles=len(set(m['tile'] for m in meta)), tile_passes=len(meta), tiles90=len(set(m['tile'] for m in meta if m['res'] == '90')),
                 blocks=sum(m['nblocks'] for m in meta), cells=sum(m['ncells'] for m in meta),
                 tile_secs=sum(m['secs'] for m in meta),
                 modes={k: sum(1 for v in by_id.values() if v[2] == k) for k in set(v[2] for v in by_id.values())},

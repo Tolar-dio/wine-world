@@ -19,6 +19,7 @@ const S = {
   sources: [],             /* per-country source keys that are on the map */
   srcOf: new Map(),        /* appellation id -> source key */
   fineLabs: [],
+  seen: new Map(),         /* source key -> last time its country was in (or near) the view */
   interacted: false,
   wineIso: []
 };
@@ -259,9 +260,14 @@ function initMap() {
     fadeDuration: 180,
     dragRotate: true, pitchWithRotate: false,
     localIdeographFontFamily: '"Noto Serif", serif',
-    cancelPendingTileRequestsWhileZooming: true
+    cancelPendingTileRequestsWhileZooming: true,
+    // tile caches per source: enough to pan back without refetching, small enough for phones with imagery and terrain
+    maxTileCacheSize: phone ? 48 : 120
   });
-  map.touchZoomRotate.disableRotation();
+  // two-finger twist rotates in every mode (globe and flat); two-finger tilt only in 3D terrain (v2_map.js),
+  // so a twist cannot tip the map by accident. Desktop: right-drag or ctrl-drag rotates.
+  map.touchZoomRotate.enableRotation();
+  map.touchPitch.disable();
   map.keyboard.enable();
   map.on('error', e => {
     const msg = e?.error?.message || String(e?.error || e);
@@ -372,7 +378,8 @@ function addOverview(fc) {
   addLayerSafe(labLayer('lab-2', 6.4, 20, 300, 12), 'anchor-top');
   addLayerSafe(labLayer('lab-1', 4.9, 300, 30000, 12.5), 'anchor-top');
   addSourceSafe('fine-lab', { type: 'geojson', data: EMPTY() });
-  addLayerSafe({ id: 'fine-lab', type: 'symbol', source: 'fine-lab', minzoom: Z_FINE + 0.8, layout: { visibility: S.layers.labels && S.layers.apps ? 'visible' : 'none', 'text-field': ['get', 'lab'], 'text-font': F_IT, 'text-size': ['interpolate', ['linear'], ['zoom'], 10.5, 10.5, 14, 13], 'symbol-sort-key': ['-', 0, ['get', 'area']], 'text-max-width': 6, 'text-padding': 2 }, paint: { 'text-color': TOK['map-label-wine'], 'text-halo-color': TOK.halo, 'text-halo-width': 1.3, 'text-opacity': ['interpolate', ['linear'], ['zoom'], Z_FINE + 0.8, 0, Z_FINE + 1.2, 0.9] } }, 'anchor-top');
+  addLayerSafe({ id: 'fine-lab', type: 'symbol', source: 'fine-lab', minzoom: Z_FINE + 0.8, layout: { visibility: S.layers.labels && S.layers.apps ? 'visible' : 'none',
+    'text-field': ['format', ['get', 'lab'], {}, ['case', ['has', 'lab2'], ['concat', '\n', ['get', 'lab2']], ''], { 'font-scale': 0.78, 'text-font': ['literal', F_RG] }], 'text-font': F_IT, 'text-size': ['interpolate', ['linear'], ['zoom'], 10.5, 10.5, 14, 13], 'symbol-sort-key': ['-', 0, ['get', 'area']], 'text-max-width': 6, 'text-padding': 2 }, paint: { 'text-color': TOK['map-label-wine'], 'text-halo-color': TOK.halo, 'text-halo-width': 1.3, 'text-opacity': ['interpolate', ['linear'], ['zoom'], Z_FINE + 0.8, 0, Z_FINE + 1.2, 0.9] } }, 'anchor-top');
   applyGrapeOverview();
 }
 function labOpacity(mz) { return ['interpolate', ['linear'], ['zoom'], mz, 0, mz + 0.5, S.grape && S.dim !== false ? ['case', fs('g'), 1, 0.35] : 1]; }
@@ -593,7 +600,48 @@ function checkViewport() {
     const d = bb => bb ? Math.hypot((bb[0] + bb[2]) / 2 - c.lng, (bb[1] + bb[3]) / 2 - c.lat) : 999;
     cand.sort((a, b) => d(a[3]) - d(b[3]));
     for (const x of cand) loadGeo(x[0], x[1], x[2]);
+    markSeen(v);
+    unloadFar();
   }, 120);
+}
+/* ---------- unloading: country and fine-unit sources far from the view for a while are dropped (they reload
+   when needed); profile data (D.feat) is kept, only the map's GPU and worker copies go ---------- */
+const KEEP_APP = () => (MQ.phone.matches ? 6 : 12), KEEP_FINE = () => (MQ.phone.matches ? 2 : 3);
+function markSeen(v) {
+  const w = v[2] - v[0], h = v[3] - v[1];
+  const wide = [v[0] - w * 0.5, v[1] - h * 0.5, v[2] + w * 0.5, v[3] + h * 0.5];
+  const now = performance.now();
+  for (const key of S.sources) {
+    const iso = key.replace(/^(app|fine)-/, '');
+    if (bboxHit(D.countries[iso]?.bbox, wide)) S.seen.set(key, now);
+    else if (!S.seen.has(key)) S.seen.set(key, now);
+  }
+}
+function unloadFar() {
+  if (!map || S.flying) return;
+  const now = performance.now(), cur = (APP.cur || '').match(/^(?:region-|site-)?([a-z]{2})(?:-|$)/)?.[1];
+  const keepIso = new Set([cur, S.sel && S.sel.id && S.sel.id.slice(0, 2), S.selCountry].filter(Boolean));
+  for (const [kind, max, age] of [['fine-', KEEP_FINE(), 20000], ['app-', KEEP_APP(), 60000]]) {
+    const loaded = S.sources.filter(k => k.startsWith(kind));
+    if (loaded.length <= max) continue;
+    const old = loaded.filter(k => !keepIso.has(k.slice(kind.length)) && now - (S.seen.get(k) || now) > age)
+      .sort((a, b) => (S.seen.get(a) || 0) - (S.seen.get(b) || 0));
+    for (const k of old.slice(0, loaded.length - max)) removeCountrySource(k);
+  }
+}
+function removeCountrySource(key) {
+  const users = map.getStyle().layers.filter(l => l.source === key).map(l => l.id);
+  if (users.some(id => ![key + '-fill', key + '-line', key + '-sel'].includes(id))) return;   /* a module draws on it: keep */
+  for (const id of users) map.removeLayer(id);
+  if (map.getSource(key)) map.removeSource(key);
+  S.sources = S.sources.filter(k => k !== key);
+  S.geo.delete(key); S.geo.delete('p:' + key); S.seen.delete(key);
+  if (key.startsWith('fine-')) {
+    const iso = key.slice(5);
+    S.fineLabs = S.fineLabs.filter(l => !String(l.properties.id).startsWith(iso + '-'));
+    const src = map.getSource('fine-lab');
+    if (src) src.setData({ type: 'FeatureCollection', features: S.fineLabs });
+  }
 }
 function loadGeo(key, file, iso) {
   if (S.geo.has(key)) return S.geo.get(key) === 'loaded' ? Promise.resolve(true) : (S.geo.get('p:' + key) || Promise.resolve(false));
@@ -646,7 +694,16 @@ function addCountrySource(key, fc, fine) {
     if (p.clim && p.clim.gst != null) s.gst = +p.clim.gst;
     if (p.clim && p.clim.elev != null) s.elev = +p.clim.elev;
     slim.features.push({ type: 'Feature', properties: s, geometry: f.geometry });
-    if (fine && Array.isArray(p.lp)) labs.push({ type: 'Feature', properties: { id: p.id, lab: safeLabel(shortName(p), 'atlas-italic'), area: s.area, gc: /grand/i.test(p.subcat || '') ? 1 : 0 }, geometry: { type: 'Point', coordinates: p.lp } });
+    if (fine && Array.isArray(p.lp)) labs.push({ type: 'Feature', properties: { id: p.id, lab: safeLabel(shortName(p), 'atlas-italic'), area: s.area, gc: /grand/i.test(p.subcat || '') ? 1 : 0, _p: p }, geometry: { type: 'Point', coordinates: p.lp } });
+  }
+  // same-named units in one country (25 Rieden called Goldberg): a second, smaller line names the village
+  if (labs.length) {
+    const cnt = new Map();
+    for (const l of labs) { const k = fold(l.properties.lab); cnt.set(k, (cnt.get(k) || 0) + 1); }
+    for (const l of labs) {
+      const p = l.properties._p; delete l.properties._p;
+      if (cnt.get(fold(l.properties.lab)) > 1) { const c = placeCtx(p); if (c) l.properties.lab2 = safeLabel(c, 'atlas-regular'); }
+    }
   }
   slim.features.sort((a, b) => b.properties.area - a.properties.area);
   map.addSource(key, { type: 'geojson', data: slim, promoteId: 'id', tolerance: fine ? 0.3 : 0.4, buffer: 32 });
@@ -794,6 +851,7 @@ function applyLayerVis() {
   for (const id of all) if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', on(id) ? 'visible' : 'none');
   store.set('layers', S.layers);
   if (typeof bmAfterLayerVis === 'function') bmAfterLayerVis();
+  enforceLabelsHidden();
 }
 
 /* ---------- camera ---------- */
@@ -933,7 +991,11 @@ function updateReadout() {
     const c = map.getCenter(), z = map.getZoom();
     $('#coords').textContent = `${fmtLat(c.lat)} ${fmtLon(((c.lng + 540) % 360) - 180)}`;
     $('#zl').textContent = `z ${z.toFixed(1)}`;
-    $('#compass svg').style.transform = `rotate(${-map.getBearing()}deg)`;
+    const br = map.getBearing(), cp = $('#compass');
+    cp.querySelector('svg').style.transform = `rotate(${-br}deg)`;
+    const turned = Math.abs(br) > 0.5;
+    if (cp.dataset.rot !== String(+turned)) { cp.dataset.rot = String(+turned); }
+    cp.setAttribute('aria-label', turned ? `Face north (the map is turned ${Math.round(((br % 360) + 360) % 360)}°)` : 'Face north');
     // scale bar: nice round distance for ~72px
     const mpp = 40075016.686 * Math.cos(c.lat * Math.PI / 180) / (512 * Math.pow(2, z));
     const target = mpp * 72;
@@ -990,6 +1052,21 @@ function bindMapEvents() {
     if (raf) return;
     raf = requestAnimationFrame(() => {
       raf = 0;
+      const lt = layerTapHit(lastPt, false, true);
+      if (lt) {
+        let info = null;
+        try { info = lt.reg.hover(lt.feature); } catch (er) { /* module hover failed */ }
+        if (info && info.name) {
+          setHover(null);
+          map.getCanvas().style.cursor = 'pointer';
+          const tip = $('#tip');
+          tip.innerHTML = `<div class="t-name">${esc(info.name)}</div>${info.meta ? `<div class="t-meta">${esc(info.meta)}</div>` : ''}`;
+          tip.hidden = false;
+          const W = $('#app').clientWidth;
+          tip.style.left = Math.min(lastPt.x, W - tip.offsetWidth - 24) + 'px'; tip.style.top = lastPt.y + 'px';
+          return;
+        }
+      }
       const h = hitTest(lastPt, false);
       const z = map.getZoom();
       const ok = h && !(h.type === 'country' && z >= Z_APP + 0.5);
@@ -1011,6 +1088,10 @@ function bindMapEvents() {
   });
   map.getCanvas().addEventListener('mouseleave', () => { setHover(null); $('#tip').hidden = true; });
   map.on('click', e => {
+    if (!VMX.tap) {
+      const lt = layerTapHit(e.point, !MQ.hover.matches, false);
+      if (lt) { $('#tip').hidden = true; try { lt.reg.fn({ feature: lt.feature, features: lt.features, lngLat: e.lngLat, point: e.point }); } catch (er) { console.warn('[VM layer tap]', er); } return; }
+    }
     if (VMX.tap) { $('#tip').hidden = true; try { VMX.tap({ lngLat: e.lngLat, point: e.point, features: map.queryRenderedFeatures(e.point) }); } catch (er) { console.warn('[VM tap]', er); } return; }
     const touch = !MQ.hover.matches;
     const h = hitTest(e.point, touch);

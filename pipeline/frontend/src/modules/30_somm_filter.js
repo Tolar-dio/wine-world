@@ -330,13 +330,13 @@
     if (clim) out += `<p class="note sm-src"><b>Climate covers ${nCl} of ${cnts.size} countries so far:</b> the ones drawn on the map. Pick countries below, or zoom around the map, to bring in more. Places in other countries cannot match a climate or elevation range yet.</p>`;
     if (ign.length) out += `<p class="note sm-ign"><b>Ignored for now:</b> ${esc(SM.list(ign))}, because that data is not in this build yet.</p>`;
     out += `<details class="sm-grp" open><summary>Grapes and style</summary>
-      ${pickHTML('g', 'Grapes permitted', chosenHTML('g'), 'Add a grape (Riesling, Syrah, Furmint…)')}
+      ${pickHTML('g', 'Grapes permitted', chosenHTML('g'), 'Add a grape')}
       ${s.g.length > 1 ? `<div class="seg seg-inline sm-gm" role="radiogroup" aria-label="Grape match"><label><input type="radio" name="sm-gm" value="any" ${s.gm !== 'all' ? 'checked' : ''}>Any of them</label><label><input type="radio" name="sm-gm" value="all" ${s.gm === 'all' ? 'checked' : ''}>All of them</label></div>` : ''}
       ${toggleChips('st', STY.map(x => [x, STY_L[x], x]), s.st, 'Main wine style')}</details>`;
     out += `<details class="sm-grp"${s.c.length || s.cat.length || s.bq.length || s.ow ? ' open' : ''}><summary>Place and law</summary>
       ${pickHTML('c', 'Countries', chosenHTML('c'), 'Add a country')}
       ${toggleChips('ow', [['old', 'Old World'], ['new', 'New World']], [s.ow], 'Old or New World')}
-      ${pickHTML('cat', 'Category or rank', chosenHTML('cat'), 'AOC, DOCG, AVA, Grand Cru, Ried…')}
+      ${pickHTML('cat', 'Category or rank', chosenHTML('cat'), 'Add a category or rank')}
       ${toggleChips('bq', BQS, s.bq, 'Boundary quality')}
       ${rangeHTML('area')}
       <label class="tog" for="sm-fine"><span>Include fine units: Einzellagen, Rieden, climats, MGAs</span><input type="checkbox" id="sm-fine" ${s.fine ? 'checked' : ''}></label></details>`;
@@ -624,7 +624,7 @@
     ST.saved = S2.list;
     const can = active(ST.spec);
     box.innerHTML = `${can ? `<form class="sm-save" autocomplete="off"><label class="vm-field"><span>Save the current filter as</span><input class="vm-input" id="sm-sname" maxlength="80" placeholder="e.g. Cool Syrah to taste" value="${esc(ST.spec.p ? PRESETS.find(p => p.id === ST.spec.p)?.title || '' : '')}"></label><button type="submit" class="btn solid">Save</button></form>` : '<p class="note">Set a filter first, then save it here.</p>'}
-      <p class="note">${S2.cloud ? 'Saved to your account, so they follow you to other devices.' : VM.auth?.available ? 'Saved on this device. Sign in (Journal) to keep them in your account.' : 'Saved on this device only.'}</p>
+      <p class="note">${S2.cloud ? 'Saved to your account, so they follow you to other devices.' : VM.auth?.available ? 'Saved on this device. Sign in from Cellar to keep them in your account.' : 'Saved on this device only.'}</p>
       ${S2.list.length ? `<ul class="list">${S2.list.map((x, i) => `<li class="sm-sv"><button type="button" class="row" data-load="${i}"><span class="row-name">${esc(x.name)}<small>${esc(describe(x.spec))}</small></span></button><button type="button" class="icon-btn" data-del="${i}" aria-label="Delete ${esc(x.name)}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></li>`).join('')}</ul>` : '<p class="vm-empty">No saved filters yet.</p>'}`;
     box.querySelector('.sm-save')?.addEventListener('submit', async e => {
       e.preventDefault();

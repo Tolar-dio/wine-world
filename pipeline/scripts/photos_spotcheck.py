@@ -38,9 +38,18 @@ for i, (dest, k, v) in enumerate(sample):
     d = next((x for x in dbg.get(k, []) if x['file'] == e['file']), {})
     fn = f'{outdir}/{i:02d}_{k[:40]}.jpg'
     if not os.path.exists(fn):
-        r = S.get(e['thumb'], timeout=60)
-        if r.status_code == 200:
-            open(fn, 'wb').write(r.content)
+        for url in (e['thumb'].replace('/960px-', '/500px-'), e['thumb']):
+            ok = False
+            for attempt in range(5):
+                r = S.get(url, timeout=60)
+                if r.status_code == 200 and r.headers.get('content-type', '').startswith('image'):
+                    open(fn, 'wb').write(r.content)
+                    ok = True
+                    break
+                ra = r.headers.get('retry-after')
+                time.sleep(int(ra) if ra and ra.isdigit() else 8)
+            if ok:
+                break
         time.sleep(1)
     print(f"[{i:02d}] {k} ({T.get(k, {}).get('type')}) | {e['caption']}\n     {e['file']} | {e['license']} | {e['author']}\n"
           f"     src={d.get('src')} desc={d.get('desc', '')[:140]!r}\n     cats={d.get('cats', '')[:160]!r}")

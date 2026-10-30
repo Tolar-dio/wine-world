@@ -419,7 +419,7 @@
   function bindView(el, places) {
     el.querySelectorAll('[data-rm]').forEach(b => b.addEventListener('click', () => { picks = picks.filter(x => x !== b.dataset.rm); savePicks(); VM.go(hashFor(picks)); }));
     el.querySelector('[data-add]')?.addEventListener('click', async () => {
-      const r = await VM.search.pick({ types: TYPES, label: 'Pick a place to compare', placeholder: 'Search an appellation, region, site or country' });
+      const r = await VM.search.pick({ types: TYPES, label: 'Pick a place to compare', placeholder: 'Search a place to compare' });
       if (r && r.id && !picks.includes(r.id)) { picks.push(r.id); if (picks.length > MAX) picks.shift(); savePicks(); VM.go(hashFor(picks)); }
     });
     el.querySelectorAll('[data-pair]').forEach(b => b.addEventListener('click', () => { picks = b.dataset.pair.split('--'); savePicks(); VM.go(hashFor(picks)); }));

@@ -1,6 +1,8 @@
 /* Vitis Mundi v2: the public front-end API (window.VM) that modules in frontend/src/modules/ build on.
    Documented in frontend/API.md. Keep this surface stable: add, do not rename. */
 const VMX = {
+  layerTaps: [],           /* VM.map.onLayerTap registrations */
+  layerToggles: [],        /* VM.layers.add toggles shown in the Layers view */
   tap: null,               /* VM.map.captureTap handler */
   labelsSaved: null,       /* VM.map.labels(false) saved state */
   views: new Map(),        /* custom panel views: id -> {id, title, crumb, render, snap, onClose} */
@@ -29,7 +31,17 @@ APP.on('globals', () => vmEmit('data:globals', D.grapes));
 APP.on('geo', iso => vmEmit('data:geo', iso));
 
 /* ---------- helpers attached to the map instance (VM.map.captureTap, labels, pulse, clearPulse) ---------- */
-const LABEL_LAYERS = () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'extra-flab', 'reg-lab', 'towns-0', 'towns-1', 'towns-2', 'clab', 'rivers-lab', 'rivers-lab-2', 'site-icon', 'jr-lab'];
+const LABEL_LAYERS = () => ['lab-1', 'lab-2', 'lab-3', 'fine-lab', 'extra-lab', 'extra-flab', 'reg-lab', 'towns-0', 'towns-1', 'towns-2', 'clab', 'rivers-lab', 'rivers-lab-2', 'site-icon', 'contour-lab'];
+/* while VM.map.labels(false) is in force, every label layer stays hidden, including layers added later
+   (second data wave, fine units) and layers that the base map or the Layers view would switch back on */
+function hideLabelLayer(id) {
+  if (!map.getLayer(id)) return;
+  const saved = VMX.labelsSaved;
+  if (!(id in saved)) saved[id] = { vis: map.getLayoutProperty(id, 'visibility') || 'visible', tf: id === 'site-icon' ? map.getLayoutProperty(id, 'text-field') : undefined };
+  if (id === 'site-icon') { const tf = map.getLayoutProperty(id, 'text-field'); if (tf !== '') map.setLayoutProperty(id, 'text-field', ''); }
+  else if (map.getLayoutProperty(id, 'visibility') !== 'none') map.setLayoutProperty(id, 'visibility', 'none');
+}
+function enforceLabelsHidden() { if (VMX.labelsSaved && map) for (const id of LABEL_LAYERS()) hideLabelLayer(id); }
 function mapCaptureTap(fn) {
   VMX.tap = fn;
   $('#app').dataset.capture = '1';
@@ -40,13 +52,7 @@ function mapLabels(on) {
   if (!on) {
     if (VMX.labelsSaved) return;
     VMX.labelsSaved = {};
-    for (const id of LABEL_LAYERS()) {
-      if (!map.getLayer(id)) continue;
-      const st = { vis: map.getLayoutProperty(id, 'visibility') || 'visible' };
-      if (id === 'site-icon') { st.tf = map.getLayoutProperty(id, 'text-field'); map.setLayoutProperty(id, 'text-field', ''); }
-      else map.setLayoutProperty(id, 'visibility', 'none');
-      VMX.labelsSaved[id] = st;
-    }
+    enforceLabelsHidden();
   } else {
     const saved = VMX.labelsSaved; VMX.labelsSaved = null;
     if (!saved) return;
@@ -57,8 +63,28 @@ function mapLabels(on) {
     }
   }
 }
+/* non-exclusive taps and hovers on a module's own layers (pins that stay on the map) */
+function mapOnLayerTap(layerIds, fn, o = {}) {
+  const reg = { layers: arr(layerIds), fn, hover: o.hover || null };
+  VMX.layerTaps.push(reg);
+  return () => { VMX.layerTaps = VMX.layerTaps.filter(x => x !== reg); };
+}
+function layerTapHit(point, touch, needHover) {
+  if (!VMX.layerTaps.length || !map) return null;
+  const r = touch ? 12 : 6, box = [[point.x - r, point.y - r], [point.x + r, point.y + r]];
+  for (const reg of VMX.layerTaps) {
+    if (needHover && !reg.hover) continue;
+    const layers = reg.layers.filter(id => map.getLayer(id) && map.getLayoutProperty(id, 'visibility') !== 'none');
+    if (!layers.length) continue;
+    const fs = map.queryRenderedFeatures(box, { layers });
+    if (fs.length) return { reg, feature: fs[0], features: fs };
+  }
+  return null;
+}
 vmOn('map:ready', m => {
+  m.on('styledata', enforceLabelsHidden);
   Object.assign(m, {
+    onLayerTap: mapOnLayerTap,
     captureTap: mapCaptureTap,
     labels: mapLabels,
     pulse(lon, lat) { pulseAt(lon, lat); },
@@ -137,9 +163,10 @@ let _secRun = 0;
 async function runSections(type, id, extra = {}) {
   const body = $('#sheet-body');
   const run = ++_secRun;
-  const ent = { ...(entityOf(id) || { type, id }), type, ...extra };
+  const ent = { ...(entityOf(id) || { type, id }), type };
+  for (const [k, v] of Object.entries(extra)) if (v != null) ent[k] = v;
   VMX.cur = ent;
-  const list = VMX.sections.filter(s => s.types.has(type) || s.types.has('*')).sort((a, b) => a.order - b.order);
+  const list = VMX.sections.filter(s => s.types.has(type) || (s.types.has('*') && type !== 'about')).sort((a, b) => a.order - b.order);
   for (const s of list) {
     let slot = body.querySelector(`.vm-slot[data-slot="${s.slot}"]`) || body.querySelector('.vm-slot[data-slot="end"]');
     if (!slot) { slot = document.createElement('div'); slot.className = 'vm-slot'; slot.dataset.slot = 'end'; body.appendChild(slot); }
@@ -152,7 +179,8 @@ async function runSections(type, id, extra = {}) {
       if (r === false || (!el.childElementCount && !el.textContent.trim())) el.hidden = true;
     }).catch(e => { console.warn('[VM section]', s.id, e); el.hidden = true; });
   }
-  vmEmit('profile:open', { type, id, entity: ent, el: body });
+  if (type === 'about') vmEmit('about:render', { el: body });
+  else vmEmit('profile:open', { type, id, entity: ent, el: body });
 }
 
 /* ---------- custom views ---------- */
@@ -279,7 +307,7 @@ function vmFlyTo(target, o = {}) {
 }
 
 /* ---------- search picking ---------- */
-const SEARCH_TYPES = { appellation: 'app', app: 'app', country: 'country', region: 'region', site: 'site', grape: 'grape', term: 'term' };
+const SEARCH_TYPES = { appellation: 'app', app: 'app', country: 'country', region: 'region', site: 'site', grape: 'grape', term: 'term', soil: 'soil' };
 function vmQuery(q, opts = {}) {
   const types = opts.types ? new Set(arr(opts.types).map(t => SEARCH_TYPES[t] || t)) : null;
   const res = search(q, types ? 200 : (opts.limit || 24));
@@ -319,15 +347,22 @@ const SIDE = {
     const out = [id];
     const t = typeOfId(id);
     if (t === 'site') {
-      const s = D.siteById.get(id);
-      if (s?.app) out.push(...(await SIDE.chain(s.app)));
+      // sites arrive with the second data wave: wait briefly for them, else use the content file's record
+      if (!D.siteById.has(id)) await Promise.race([VM.data.loadSites(), sleep(4000)]);
+      let s = D.siteById.get(id);
+      const c = await getContent(isoOfId(id));
+      const cs = arr(c?.sites).find(x => x.id === id);
+      const app = s?.app || cs?.app || cs?.app_main || null;
+      if (app) out.push(...(await SIDE.chain(app)));
+      if (cs?.app_main && cs.app_main !== app) out.push(...(await SIDE.chain(cs.app_main)));
+      if (cs?.region_hint) out.push(cs.region_hint);
       return [...new Set(out)];
     }
     if (t !== 'appellation') return out;
     await Promise.race([APP.loadIndex(), sleep(3000)]);
     for (const a of ancestry(id).reverse()) out.push(a.id);
     const iso = isoOfId(id);
-    const c = await getContent(iso);
+    const c = await (D.byId.get(id)?.fine ? getFineContent(iso) : getContent(iso));
     const chainIds = out.slice();
     for (const x of chainIds) {
       const p = c?.profiles?.[x];
@@ -410,8 +445,9 @@ const SIDE = {
   async photos(id) {
     const t = typeOfId(id);
     if (t === 'grape' || t === 'event' || t === 'soil' || t === 'term') {
+      // _global.json keys grapes, timeline events and soils without their route prefix ('albariza', not 'soil-albariza')
       const j = await SIDE.json('data/photos/_global.json');
-      return arr(j?.[id] || j?.[id.replace(/^grape-/, '')]);
+      return arr(j?.[id] || j?.[id.replace(/^(grape|event|soil|term)-/, '')]);
     }
     const iso = isoOfId(id);
     if (!iso) return [];
@@ -458,6 +494,9 @@ const VM = {
     isoOf: isoOfId,
     feature(id) { return D.feat.get(id) || null; },
     ensureGeo(iso, o = {}) { return ensureCountryGeo(iso, !!o.fine); },
+    loadSites() { wave2(); return new Promise(res => vmOn('data:sites', res)); },
+    loadRegions() { wave2(); return new Promise(res => vmOn('data:regions', res)); },
+    fineContent: getFineContent,
     async geometry(id) {
       const iso = isoOfId(id);
       if (!iso || typeOfId(id) !== 'appellation') return null;
@@ -506,6 +545,15 @@ const VM = {
     }
   },
   nav: { add: addNav },
+  /* toggles for a module's own map layers, listed in the Layers view under "Show" */
+  layers: {
+    add(def) {
+      if (!def || !def.id || typeof def.get !== 'function' || typeof def.set !== 'function') { console.warn('[VM] layers.add needs {id, label, get, set}'); return () => {}; }
+      VMX.layerToggles = VMX.layerToggles.filter(x => x.id !== def.id).concat({ order: 100, ...def }).sort((a, b) => a.order - b.order);
+      return () => { VMX.layerToggles = VMX.layerToggles.filter(x => x.id !== def.id); };
+    },
+    list() { return VMX.layerToggles.slice(); }
+  },
   search: { pick: vmPick, query: vmQuery, cancel() { endPick(null); } },
   on: vmOn, off: vmOff, emit: vmEmit,
   toast(msg) { APP.toast(msg); },

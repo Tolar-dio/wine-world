@@ -292,8 +292,9 @@
     outbox: [], syncing: false, syncError: null, lastSync: null,
     offer: null, batch: 0, subs: new Set(), warned: false
   };
-  let readyRes;
+  let readyRes, isReady = false;
   const ready = new Promise(r => { readyRes = r; });
+  ready.then(() => { isReady = true; });
   const sortBottles = () => J.bottles.sort((a, b) => String(b.tasted_on || b.created_at).localeCompare(String(a.tasted_on || a.created_at)) || String(b.created_at).localeCompare(String(a.created_at)));
   function loadLocal() {
     const d = LS.get('local', null) || {};
@@ -323,6 +324,16 @@
   const A = { client: null, loading: null, user: null, ready: false, avail: GH && !!(CFG.supabaseUrl && CFG.supabaseAnonKey), error: null };
   let authRes;
   const whenReady = new Promise(r => { authRes = r; });
+  /* the user in the session supabase-js keeps (sb-<ref>-auth-token), read without loading the library */
+  function storedUser() {
+    if (!A.avail) return null;
+    try {
+      const ref = new URL(CFG.supabaseUrl).hostname.split('.')[0];
+      const s = JSON.parse(localStorage.getItem(`sb-${ref}-auth-token`) || 'null');
+      const u = s && (s.user || (s.currentSession && s.currentSession.user));
+      return u && u.id && s.refresh_token ? { id: String(u.id), email: u.email || '' } : null;
+    } catch (e) { return null; }
+  }
   function hasStoredSession() {
     try { for (let i = 0; i < localStorage.length; i++) { if (/^sb-.+-auth-token$/.test(localStorage.key(i) || '')) return true; } } catch (e) { /* blocked */ }
     return false;
@@ -471,7 +482,17 @@
     }
     return out;
   }
+  function primeCloud(u) {
+    J.mode = 'cloud'; J.uid = u.id; J.provisional = true;
+    const m = LS.get('u:' + u.id, null);
+    J.bottles = m ? arr(m.bottles).map(cleanBottle) : [];
+    J.notes = m ? arr(m.notes).map(cleanNote).filter(Boolean) : [];
+    J.lists = m ? arr(m.lists).map(cleanList).filter(Boolean) : [];
+    J.outbox = arr(LS.get('ob:' + u.id, []));
+    sortBottles();
+  }
   function enterLocal() {
+    J.provisional = false;
     J.mode = GH ? 'local' : 'off';
     J.uid = null; J.outbox = []; J.offer = null; J.syncError = null; J.syncing = false;
     if (GH) loadLocal();
@@ -479,14 +500,9 @@
     changed('auth');
   }
   function enterCloud(u) {
-    J.mode = 'cloud';
-    J.uid = u.id;
-    const m = LS.get('u:' + u.id, null);
-    J.bottles = m ? arr(m.bottles).map(cleanBottle) : [];
-    J.notes = m ? arr(m.notes).map(cleanNote).filter(Boolean) : [];
-    J.lists = m ? arr(m.lists).map(cleanList).filter(Boolean) : [];
-    J.outbox = arr(LS.get('ob:' + u.id, []));
-    sortBottles();
+    const warm = J.provisional && J.uid === u.id;
+    if (!warm) primeCloud(u);
+    J.provisional = false;
     computeOffer();
     readyRes();
     changed('auth');
@@ -699,6 +715,7 @@
     const prev = fields.id ? J.bottles.find(x => x.id === fields.id) : null;
     const b = cleanBottle({ ...(prev || {}), ...fields, id: fields.id || uuid(), created_at: (prev && prev.created_at) || fields.created_at, updated_at: nowIso() });
     const oldPhoto = prev && prev.photo_path && prev.photo_path !== b.photo_path ? prev.photo_path : null;
+    noteNames(b);
     put(J.bottles, b, bKey);
     sortBottles();
     if (!opts.quiet) changed('bottles');
@@ -797,17 +814,45 @@
   /* ---------- atlas lookups ---------- */
   const D2 = { regionApps: new Map(), regionName: new Map(), appGrapes: null };
   const ent = id => { try { return VM.data.entity(id); } catch (e) { return null; } };
-  const grapeName = g => (VM.data.grapeById(g) || {}).name || String(g).replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-  function placeName(type, id) {
-    if (!id) return '';
-    if (type === 'grape') return grapeName(String(id).replace(/^grape-/, ''));
-    if (type === 'country') return VM.data.countryName(id);
-    if (type === 'appellation') return (VM.data.indexById.get(id) || {}).name || (ent(id) || {}).name || id;
-    if (type === 'region') return (VM.data.regionById.get(id) || {}).name || D2.regionName.get(id) || id.replace(/^region-[a-z]{2}-/, '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-    if (type === 'site') return (siteOf(id) || {}).name || id;
+  /* Names come from the atlas data, which arrives in waves (countries, the index, sites, regions, grapes). Every name
+     resolved is remembered (vm:journal:v1:names) so that after a reload a card shows real names at once; until the data
+     is in, the record's own appellation_name or a tidied id stands in, and the views re-render on the data:* events. */
+  const NAMES = (() => { const n = LS.get('names', null); return n && typeof n === 'object' && !Array.isArray(n) ? n : {}; })();
+  const saveNames = debounce(() => {
+    const k = Object.keys(NAMES);
+    if (k.length > 3000) for (const x of k.slice(0, k.length - 3000)) delete NAMES[x];
+    LS.set('names', NAMES);
+  }, 1500);
+  let MISS = false;   /* a name was missing in the last render */
+  function knownName(type, id) {
+    if (type === 'grape') { const g = VM.data.grapeById(id); return g && g.name; }
+    if (type === 'country') { const m = VM.data.countries && VM.data.countries[id]; return m && m.name; }
+    if (type === 'appellation') {
+      const a = VM.data.indexById.get(id) || VM.data.feature(id);
+      if (a && a.name) return a.name;
+      const e = ent(id);
+      return e && e.known !== false && e.name !== id ? e.name : null;
+    }
+    if (type === 'region') { const r = VM.data.regionById && VM.data.regionById.get(id); return (r && r.name) || D2.regionName.get(id) || null; }
+    if (type === 'site') { const x = siteOf(id); return x && x.name; }
     const e = ent(type === 'event' && !/^event-/.test(id) ? 'event-' + id : id);
-    return (e && e.name) || id;
+    return e && e.name && e.name !== id ? e.name : null;
   }
+  function tidy(type, id) {
+    if (type === 'country') { try { return new Intl.DisplayNames(['en'], { type: 'region' }).of(String(id).toUpperCase()) || String(id).toUpperCase(); } catch (e) { return String(id).toUpperCase(); } }
+    return String(id).replace(/^(site|region|event|soil|term)-([a-z]{2}-)?/, '').replace(/^[a-z]{2}-/, '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  }
+  function placeName(type, id, fallback) {
+    if (!id) return fallback || '';
+    if (type === 'grape') id = String(id).replace(/^grape-/, '');
+    const k = type + ':' + id;
+    const n = knownName(type, id);
+    if (n) { if (NAMES[k] !== n) { NAMES[k] = n; saveNames(); } return n; }
+    MISS = true;
+    return NAMES[k] || fallback || tidy(type, id);
+  }
+  const grapeName = g => placeName('grape', g);
+  const cName = iso => placeName('country', iso);
   const hashOf = (type, id) => type === 'grape' ? 'grape-' + String(id).replace(/^grape-/, '') : id;
   const within = (appId, target) => !!appId && (appId === target || VM.data.ancestry(appId).some(a => a.id === target));
   async function loadRegionApps(iso) {
@@ -891,7 +936,11 @@
   }
   const bTitle = b => [b.producer, b.wine && b.wine !== b.producer ? b.wine : ''].filter(Boolean).join(' ') || b.wine;
   const bVint = b => b.vintage ? String(b.vintage) : 'NV';
-  const bApp = b => b.appellation_id ? placeName('appellation', b.appellation_id) : (b.appellation_name || '');
+  const bApp = b => b.appellation_id ? placeName('appellation', b.appellation_id, b.appellation_name) : (b.appellation_name || '');
+  function noteNames(b) {
+    placeName('country', b.country); placeName('region', b.region_id); placeName('appellation', b.appellation_id, b.appellation_name); placeName('site', b.site_id);
+    for (const g of b.grapes || []) placeName('grape', g);
+  }
   const copyB = b => ({ ...b, grapes: [...b.grapes], sat: JSON.parse(JSON.stringify(b.sat || {})) });
 
   /* ---------- the public objects ---------- */
@@ -900,7 +949,8 @@
     currentUser: () => A.user,
     whenReady,
     onChange(fn) { return VM.on('auth', fn); },
-    signIn, verifyCode, signOut, getClient
+    signIn, verifyCode, signOut, getClient,
+    storedUser
   });
   VM.journal = {
     get available() { return J.mode !== 'off'; },
@@ -928,6 +978,7 @@
 
   /* ---------- map: "My bottles" and "Places" ---------- */
   const ML = { on: { bottles: VM.store.get('jr-pins', true) !== false, places: VM.store.get('jr-places', true) !== false }, bound: false, retry: 0 };
+  const HAS_LAYERS = !!(VM.layers && typeof VM.layers.add === 'function');
   const PIN_LAYERS = ['jr-place', 'jr-pin-ring', 'jr-pin', 'jr-cluster', 'jr-cluster-n'];
   function pinFC() {
     const features = [];
@@ -1036,14 +1087,15 @@
     try { z = await src.getClusterExpansionZoom(cid); } catch (e) { /* keep default */ }
     m.easeTo({ center: f.geometry.coordinates, zoom: Math.min(z + 0.2, 14), duration: VM.reducedMotion() ? 0 : 500 });
   }
-  function bindMap() {
-    const m = VM.map;
-    if (!m || ML.bound) return;
-    ML.bound = true;
-    addMapLayers();
-    updateMap();
-    /* taps on our pins: a capture-phase click on #map runs before MapLibre's own listener on the canvas
-       container, so the profile underneath does not open as well (MapLibre already swallows clicks after drags) */
+  function hoverInfo(f) {
+    if (!f || !f.layer) return null;
+    if (f.layer.id === 'jr-pin') { const b = J.bottles.find(x => x.id === f.properties.id); return b ? { name: `${bTitle(b)} ${bVint(b)}`, meta: [STATUS_SHORT[b.status], bApp(b)].filter(Boolean).join(' · ') } : null; }
+    if (f.layer.id === 'jr-cluster') return { name: plural(f.properties.point_count, 'bottle'), meta: 'Your journal · tap to open' };
+    return { name: placeName(f.properties.type, f.properties.id), meta: f.properties.v ? 'Visited' : 'Want to visit' };
+  }
+  /* fallback for builds without VM.map.onLayerTap: a capture-phase click on #map runs before MapLibre's listener
+     on the canvas container; a later mousemove frame takes over the shared tooltip */
+  function legacyTaps(m) {
     const el = document.getElementById('map');
     let down = null;
     el.addEventListener('pointerdown', e => { down = { x: e.clientX, y: e.clientY }; }, true);
@@ -1056,8 +1108,6 @@
       e.stopPropagation(); e.preventDefault();
       onMapHit(hits);
     }, true);
-    /* hover: our mousemove runs after the core's (registered later), and its frame callback after the core's,
-       so it can take over the shared tooltip while the pointer is on a pin */
     setTimeout(() => {
       let raf = 0, pt = null;
       m.on('mousemove', e => {
@@ -1068,14 +1118,10 @@
           raf = 0;
           const hits = mapHits(m, pt.x, pt.y, false);
           if (!hits.length) return;
-          const f = hits.sort((a, b) => rank(a) - rank(b))[0];
-          let name = '', meta = '';
-          if (f.layer.id === 'jr-pin') { const b = J.bottles.find(x => x.id === f.properties.id); if (!b) return; name = `${bTitle(b)} ${bVint(b)}`; meta = [STATUS_SHORT[b.status], bApp(b)].filter(Boolean).join(' · '); }
-          else if (f.layer.id === 'jr-cluster') { name = plural(f.properties.point_count, 'bottle'); meta = 'Your journal · tap to open'; }
-          else { name = placeName(f.properties.type, f.properties.id); meta = f.properties.v ? 'Visited' : 'Want to visit'; }
+          const info = hoverInfo(hits.sort((a, b) => rank(a) - rank(b))[0]);
           const tip = document.getElementById('tip');
-          if (!tip) return;
-          tip.innerHTML = `<div class="t-name">${esc(name)}</div><div class="t-meta">${esc(meta)}</div>`;
+          if (!info || !tip) return;
+          tip.innerHTML = `<div class="t-name">${esc(info.name)}</div><div class="t-meta">${esc(info.meta)}</div>`;
           tip.hidden = false;
           const W = document.getElementById('app').clientWidth;
           tip.style.left = Math.min(pt.x, W - tip.offsetWidth - 24) + 'px'; tip.style.top = pt.y + 'px';
@@ -1083,6 +1129,17 @@
         });
       });
     }, 0);
+  }
+  function bindMap() {
+    const m = VM.map;
+    if (!m || ML.bound) return;
+    ML.bound = true;
+    addMapLayers();
+    updateMap();
+    if (typeof m.onLayerTap === 'function') {
+      /* the lead's hook: runs before the profile hit test, drives the shared tooltip, steps aside for captureTap */
+      m.onLayerTap(['jr-cluster', 'jr-pin', 'jr-place'], ({ features }) => { if (J.mode !== 'off' && features && features.length) onMapHit(features); }, { hover: f => hoverInfo(f) });
+    } else legacyTaps(m);
     /* a basemap switch that replaces the style drops our sources: put them back */
     const readd = debounce(() => { if (VM.map && !VM.map.getSource('jr-bottles') && VM.map.getLayer('anchor-top')) { addMapLayers(); updateMap(); } }, 80);
     m.on('styledata', readd);
@@ -1140,10 +1197,10 @@
     if (o.mixed) o = { cellar: b.status === 'cellar', wish: b.status === 'wishlist', tag: b.status !== 'tasted' ? STATUS_SHORT[b.status] : '' };
     const meta = o.tag ? [o.tag] : [];
     if (o.cellar) { const d = drinkState(b); meta.push(...[bApp(b), b.bottle_ml !== 750 ? sizeName(b.bottle_ml) : '', d ? d[1] : ''].filter(Boolean)); }
-    else if (o.wish) meta.push(...[bApp(b), b.country ? VM.data.countryName(b.country) : ''].filter(Boolean));
+    else if (o.wish) meta.push(...[bApp(b), b.country ? cName(b.country) : ''].filter(Boolean));
     else meta.push(...[bApp(b), b.tasted_on ? fmtDate(b.tasted_on) : '', b.where_tasted || ''].filter(Boolean));
     const right = o.cellar ? `×${b.quantity}` : o.wish ? (b.price != null ? fmtMoney(b.price, b.currency) : '') : (b.rating != null ? fmtScore(b.rating) : '');
-    const f = fold([b.producer, b.wine, b.vintage, bApp(b), b.country ? VM.data.countryName(b.country) : '', b.where_tasted, b.with_whom, b.occasion, b.grapes.map(grapeName).join(' '), b.notes].join(' '));
+    const f = fold([b.producer, b.wine, b.vintage, bApp(b), b.country ? cName(b.country) : '', b.where_tasted, b.with_whom, b.occasion, b.grapes.map(grapeName).join(' '), b.notes].join(' '));
     return `<li data-f="${esc(f)}"><a class="row jr-row" href="#journal-bottle-${esc(b.id)}">
       <span class="jr-thumb" style="--sw:var(--w-${b.style || 'mixed'})">${b.photo_path ? `<img data-photo="${esc(b.photo_path)}" alt="">` : icon('bottle')}</span>
       <span class="row-name">${esc(bTitle(b))} <span class="vm-num jr-vint">${esc(bVint(b))}</span><small>${esc(meta.join(' · ') || STYLE_NAME[b.style || 'mixed'])}</small></span>
@@ -1234,12 +1291,12 @@
   }
   function footHTML() {
     return `<div class="jr-foot">
-      ${VM.h.sec('On the map')}
+      ${HAS_LAYERS ? '' : `${VM.h.sec('On the map')}
       <div class="toggles"><label class="tog" for="jr-ly-b"><span>My bottles<small>pins coloured by style</small></span><input type="checkbox" id="jr-ly-b" data-ly="bottles" ${ML.on.bottles ? 'checked' : ''}></label>
-      <label class="tog" for="jr-ly-p"><span>Places<small>visited and want to visit</small></span><input type="checkbox" id="jr-ly-p" data-ly="places" ${ML.on.places ? 'checked' : ''}></label></div>
+      <label class="tog" for="jr-ly-p"><span>Places<small>visited and want to visit</small></span><input type="checkbox" id="jr-ly-p" data-ly="places" ${ML.on.places ? 'checked' : ''}></label></div>`}
       ${VM.h.sec('Your data')}
       <div class="btn-row"><button type="button" class="btn small ghost" data-act="export-json">Export JSON</button><button type="button" class="btn small ghost" data-act="export-csv">Export CSV</button><label class="btn small ghost jr-file">Import JSON<input type="file" accept="application/json,.json" class="sr" data-act="import"></label></div>
-      <p class="src">${J.mode === 'cloud' ? 'Stored in your Vitis Mundi account (Supabase, private to you) with a copy on this device for offline use.' : 'Stored in this browser. Clearing site data erases it, so export now and then, or sign in.'} Exports include notes and lists; label photos stay in ${J.mode === 'cloud' ? 'your account' : 'this browser'}.</p>
+      <p class="src">${HAS_LAYERS ? 'Your bottles and places are pins on the map; switch them in <a href="#layers">Layers</a>. ' : ''}${J.mode === 'cloud' ? 'Stored in your Vitis Mundi account (Supabase, private to you) with a copy on this device for offline use.' : 'Stored in this browser. Clearing site data erases it, so export now and then, or sign in.'} Exports include notes and lists; label photos stay in ${J.mode === 'cloud' ? 'your account' : 'this browser'}.</p>
     </div>`;
   }
   function mainHTML(tab) {
@@ -1271,10 +1328,11 @@
   }
   function cardHTML(b) {
     const site = siteOf(b.site_id);
-    const sameRegion = b.region_id && b.appellation_id && fold(placeName('region', b.region_id)) === fold(placeName('appellation', b.appellation_id));
-    const crumbs = [b.country && VM.h.link(b.country, VM.data.countryName(b.country)), b.region_id && !sameRegion && VM.h.link(b.region_id, placeName('region', b.region_id)),
-      b.appellation_id ? VM.h.link(b.appellation_id, placeName('appellation', b.appellation_id)) : b.appellation_name ? esc(b.appellation_name) : '',
-      b.site_id && site ? VM.h.link(b.site_id, site.name) : ''].filter(Boolean);
+    const appName = bApp(b);
+    const sameRegion = b.region_id && b.appellation_id && fold(placeName('region', b.region_id)) === fold(appName);
+    const crumbs = [b.country && VM.h.link(b.country, cName(b.country)), b.region_id && !sameRegion && VM.h.link(b.region_id, placeName('region', b.region_id)),
+      b.appellation_id ? VM.h.link(b.appellation_id, appName) : b.appellation_name ? esc(b.appellation_name) : '',
+      b.site_id ? VM.h.link(b.site_id, site ? site.name : placeName('site', b.site_id)) : ''].filter(Boolean);
     const ds = drinkState(b);
     let out = `<div class="head"><p class="eyebrow">${esc(STATUS_NAME[b.status])}${b.style ? `<span class="sep">·</span>${swatch(b.style)} ${esc(STYLE_NAME[b.style])}` : ''}</p>
       <h2 class="title jr-btitle">${esc(bTitle(b))} <span class="jr-tv">${esc(bVint(b))}</span></h2>${b.classification ? `<p class="tagline jr-class">${esc(b.classification)}</p>` : ''}</div>`;
@@ -1340,7 +1398,7 @@
   }
   const colourRow = () => satRow('appearance.colour', SAT_OPTS['appearance.colour'].filter(o => colourKeys(F.style).includes(o[0]) || o[0] === satGet('appearance.colour')));
   function appRowHTML() {
-    if (F.appellation_id || F.appellation_name) return `<span class="jr-picked-place"><a href="#${esc(F.appellation_id || '')}" class="jr-pp-name" tabindex="-1">${esc(F.appellation_id ? placeName('appellation', F.appellation_id) : F.appellation_name)}</a><small>${esc([F.region_id ? placeName('region', F.region_id) : '', F.country ? VM.data.countryName(F.country) : ''].filter(Boolean).join(' · '))}</small></span><button type="button" class="btn small ghost" data-act="pick-app">Change</button><button type="button" class="icon-btn" data-act="clear-app" aria-label="Remove the appellation">×</button>`;
+    if (F.appellation_id || F.appellation_name) return `<span class="jr-picked-place"><a href="#${esc(F.appellation_id || '')}" class="jr-pp-name" tabindex="-1">${esc(F.appellation_id ? placeName('appellation', F.appellation_id) : F.appellation_name)}</a><small>${esc([F.region_id ? placeName('region', F.region_id) : '', F.country ? cName(F.country) : ''].filter(Boolean).join(' · '))}</small></span><button type="button" class="btn small ghost" data-act="pick-app">Change</button><button type="button" class="icon-btn" data-act="clear-app" aria-label="Remove the appellation">×</button>`;
     return `<button type="button" class="btn small jr-pickbtn" data-act="pick-app">${icon('search')} Choose from the atlas</button>`;
   }
   function siteRowHTML() {
@@ -1368,8 +1426,8 @@
   }
   function formHTML() {
     const b = F, isNew = !F._edit;
-    const cs = Object.entries(VM.data.countries || {}).map(([k, v]) => [k, v.name || VM.data.countryName(k)]).sort((a, c) => a[1].localeCompare(c[1]));
-    if (b.country && !cs.some(c => c[0] === b.country)) cs.unshift([b.country, VM.data.countryName(b.country)]);
+    const cs = Object.entries(VM.data.countries || {}).map(([k, v]) => [k, v.name || cName(k)]).sort((a, c) => a[1].localeCompare(c[1]));
+    if (b.country && !cs.some(c => c[0] === b.country)) cs.unshift([b.country, cName(b.country)]);
     return `<form class="jr-form" novalidate data-status="${esc(b.status)}">
       <div class="head"><p class="eyebrow">${isNew ? 'New bottle' : 'Edit bottle'}</p><h2 class="title">${isNew ? 'Add a bottle' : esc(bTitle(b))}</h2></div>
       <div class="seg jr-seg3" role="radiogroup" aria-label="Status">${STATUS.map(s => `<label><input type="radio" name="status" value="${s}" ${b.status === s ? 'checked' : ''}>${STATUS_SHORT[s]}</label>`).join('')}</div>
@@ -1425,7 +1483,7 @@
     const form = el.querySelector('.jr-form'); if (!form) return;
     form.dataset.status = F.status;
     const sel = form.querySelector('select[name="country"]');
-    if (sel && F.country) { if (!sel.querySelector(`option[value="${F.country}"]`)) sel.insertAdjacentHTML('beforeend', `<option value="${esc(F.country)}">${esc(VM.data.countryName(F.country))}</option>`); sel.value = F.country; }
+    if (sel && F.country) { if (!sel.querySelector(`option[value="${F.country}"]`)) sel.insertAdjacentHTML('beforeend', `<option value="${esc(F.country)}">${esc(cName(F.country))}</option>`); sel.value = F.country; }
     for (const b of form.querySelectorAll('[data-pills="style"] button')) b.setAttribute('aria-checked', String(b.dataset.v === F.style));
     const col = form.querySelector('[data-colours]'); if (col) col.innerHTML = colourRow();
     const mo = form.querySelector('[data-mousse]'); if (mo) mo.hidden = F.style !== 'sparkling';
@@ -1619,6 +1677,7 @@
   async function renderJournal(el, ctx) {
     CUR.el = el; CUR.arg = (ctx && ctx.arg) || ''; CUR.kind = null;
     if (!GH) { CUR.kind = 'off'; el.innerHTML = offHTML(); return; }
+    if (!isReady) el.innerHTML = `<div class="head"><p class="eyebrow">Your cellar book</p><h2 class="title">Cellar journal</h2></div><p class="jr-muted" role="status">Opening your journal…</p>`;
     await Promise.race([ready, VM.util.sleep(2500)]);
     if (CUR.el !== el) return;
     const arg = CUR.arg;
@@ -1637,6 +1696,7 @@
   function showMain(el, tab) {
     V.tab = tab; VM.store.set('jr-tab', tab);
     CUR.kind = 'main';
+    MISS = false;
     el.innerHTML = mainHTML(tab);
     bindMain(el);
     fillPhotos(el);
@@ -1647,13 +1707,28 @@
     const b = J.bottles.find(x => x.id === id);
     CUR.kind = 'card'; CUR.id = id;
     if (!b) {
-      el.innerHTML = `<div class="head"><p class="eyebrow">Cellar journal</p><h2 class="title">Not found</h2></div><p class="vm-empty jr-empty">${J.mode === 'cloud' && J.syncing ? 'Still loading your journal…' : 'This bottle is not in your journal on this device.'}</p><div class="btn-row"><a class="btn" href="#journal">Open the journal</a></div>`;
+      const loading = !isReady || !A.ready || (J.mode === 'cloud' && (J.syncing || !J.lastSync));
+      el.innerHTML = loading
+        ? `<div class="head"><p class="eyebrow">Cellar journal</p><h2 class="title">Opening the bottle…</h2></div><p class="jr-muted" role="status">${J.mode === 'cloud' ? 'Fetching your journal from your account.' : 'Reading your journal.'}</p>`
+        : `<div class="head"><p class="eyebrow">Cellar journal</p><h2 class="title">Not found</h2></div><p class="vm-empty jr-empty">This bottle is not in your journal on this device.</p><div class="btn-row"><a class="btn" href="#journal">Open the journal</a></div>`;
       return;
     }
     VM.panel.setCrumb('Cellar journal');
+    MISS = false;
     el.innerHTML = cardHTML(b);
     fillPhotos(el);
     bindRoot(el);
+    if (MISS) fetchNames(b);
+  }
+  /* start the loads that a card's names depend on; each one re-renders the view when it lands */
+  const FETCHED = new Set();   /* each source is asked for once, so an id missing from the data cannot loop */
+  function fetchNames(b) {
+    const land = () => { if (MISS) rerenderSoon(); };
+    const once = (k, f) => { if (FETCHED.has(k)) return; FETCHED.add(k); Promise.resolve().then(f).then(land, land); };
+    once('index', () => Promise.race([VM.data.loadIndex(), VM.util.sleep(30000)]));
+    if (b.site_id && !siteOf(b.site_id)) once('sites', sitesReady);
+    if (b.region_id && !knownName('region', b.region_id) && b.country) once('regions:' + b.country, () => loadRegionApps(b.country));
+    if (b.grapes.length) once('globals', () => Promise.race([VM.data.loadGlobals(), VM.util.sleep(30000)]));
   }
   /* the sheet body is shared by every view and profile: one delegated listener, active only while it shows the journal */
   const BOUND = new WeakSet();
@@ -1682,6 +1757,7 @@
   }
   async function showFrom(el, id) {
     CUR.kind = 'from'; CUR.id = id;
+    MISS = false;
     const type = VM.data.typeOf(id);
     if (type === 'region') await loadRegionApps(VM.data.isoOf(id));
     const pid = type === 'grape' ? id.replace(/^grape-/, '') : id;
@@ -1709,6 +1785,7 @@
     else if (CUR.kind === 'from') showFrom(el, CUR.id);
     el.scrollTop = st;
   }
+  const rerenderSoon = debounce(() => { if (MISS) rerender(); refreshSections('bottles'); }, 250);
   function bindMain(el) {
     const tabs = [...el.querySelectorAll('.jr-tabs [role="tab"]')];
     const row = el.querySelector('.jr-tabs');
@@ -2077,7 +2154,7 @@
     const cr = Object.entries(byC).sort((a, b) => b[1] - a[1]);
     if (cr.length) {
       const max = cr[0][1];
-      html += `<ul class="jr-hbars jr-countries">${cr.map(([c, n]) => `<li><a class="jr-hb-l" href="#${esc(c)}">${esc(VM.data.countryName(c))}</a><span class="jr-hb-b"><i style="width:${Math.round(n / max * 100)}%"></i></span><span class="jr-hb-n vm-num">${n}</span></li>`).join('')}</ul>`;
+      html += `<ul class="jr-hbars jr-countries">${cr.map(([c, n]) => `<li><a class="jr-hb-l" href="#${esc(c)}">${esc(cName(c))}</a><span class="jr-hb-b"><i style="width:${Math.round(n / max * 100)}%"></i></span><span class="jr-hb-n vm-num">${n}</span></li>`).join('')}</ul>`;
     }
     const chips = (title, ids, type) => ids.length ? VM.h.sec(`${title} · ${ids.length}`) + `<ul class="chips jr-stamps">${ids.map(id => `<li><a class="chip" href="#${esc(hashOf(type, id))}">${esc(placeName(type, id))}</a></li>`).join('')}</ul>` : '';
     html += chips('Regions', [...ts.regions].sort((a, b) => placeName('region', a).localeCompare(placeName('region', b))), 'region');
@@ -2092,7 +2169,7 @@
       if (!w || !paths.length) { if (w) w.remove(); return; }
       const inJ = new Set(J.bottles.map(b => b.country).filter(Boolean));
       const wine = new Set(Object.keys(VM.data.countries || {}));
-      w.innerHTML = `<svg viewBox="0 0 360 142" role="img" aria-label="World map: ${esc(ts.countries.size ? 'tasted in ' + [...ts.countries].map(c => VM.data.countryName(c)).join(', ') : 'no countries tasted yet')}">${paths.map(p => `<path d="${p.d}" class="${ts.countries.has(p.iso) ? 'on' : inJ.has(p.iso) ? 'some' : wine.has(p.iso) ? 'wine' : ''}">${ts.countries.has(p.iso) || inJ.has(p.iso) ? `<title>${esc(VM.data.countryName(p.iso))}</title>` : ''}</path>`).join('')}</svg>
+      w.innerHTML = `<svg viewBox="0 0 360 142" role="img" aria-label="World map: ${esc(ts.countries.size ? 'tasted in ' + [...ts.countries].map(c => cName(c)).join(', ') : 'no countries tasted yet')}">${paths.map(p => `<path d="${p.d}" class="${ts.countries.has(p.iso) ? 'on' : inJ.has(p.iso) ? 'some' : wine.has(p.iso) ? 'wine' : ''}">${ts.countries.has(p.iso) || inJ.has(p.iso) ? `<title>${esc(cName(p.iso))}</title>` : ''}</path>`).join('')}</svg>
         <p class="jr-legend"><span><i class="on"></i>Tasted</span><span><i class="some"></i>In the cellar or wishlist</span><span><i class="wine"></i>Wine country in the atlas</span></p>`;
     }).catch(() => { const w = box.querySelector('[data-world]'); if (w) w.remove(); });
     passportData().then(lists => {
@@ -2106,7 +2183,7 @@
       const n = box.querySelector('[data-next]');
       if (!n || !list.length) return;
       n.innerHTML = VM.h.sec('Next to explore') + `<p class="note">Appellations you have not met yet: ${list.some(x => x.why === 'twin') ? 'climate twins of your favourites elsewhere in the world, and ' : ''}neighbours of the places you drink.</p>
-        <ul class="list">${list.map(x => { const a = VM.data.indexById.get(x.id) || {}; return `<li><a class="row" href="#${esc(x.id)}"><span class="row-name">${esc(a.name || x.id)}<small>${esc(x.why === 'twin' ? `climate twin of ${placeName('appellation', x.seed)}` : `next door to ${placeName('appellation', x.seed)}`)} · ${esc(VM.data.countryName(a.country))}</small></span><span class="row-meta">${esc(a.cat || '')}</span></a></li>`; }).join('')}</ul>`;
+        <ul class="list">${list.map(x => { const a = VM.data.indexById.get(x.id) || {}; return `<li><a class="row" href="#${esc(x.id)}"><span class="row-name">${esc(a.name || x.id)}<small>${esc(x.why === 'twin' ? `climate twin of ${placeName('appellation', x.seed)}` : `next door to ${placeName('appellation', x.seed)}`)} · ${esc(cName(a.country))}</small></span><span class="row-meta">${esc(a.cat || '')}</span></a></li>`; }).join('')}</ul>`;
     }).catch(() => {});
   }
 
@@ -2207,8 +2284,13 @@
     VM.panel.addSection(['country', 'region', 'appellation', 'site', 'grape'], placeSection, { id: 'journal-place', slot: 'hero', order: 58 });
     VM.panel.addSection(['country', 'region', 'appellation', 'site', 'grape'], bottlesSection, { id: 'journal-bottles', slot: 'top', order: 58 });
     VM.on('map:ready', () => bindMap());
+    if (HAS_LAYERS) {
+      VM.layers.add({ id: 'journal-bottles', label: 'My bottles', note: 'pins from your cellar journal, coloured by style', order: 60, get: () => ML.on.bottles, set: on => setLayer('bottles', on) });
+      VM.layers.add({ id: 'journal-places', label: 'My places', note: 'visited and want to visit', order: 61, get: () => ML.on.places, set: on => setLayer('places', on) });
+    }
     VM.on('theme', () => repaintMap());
-    VM.on('data:index', () => { updateMapSoon(); refreshSections('bottles'); });
+    VM.on('data:index', () => { updateMapSoon(); rerenderSoon(); });
+    for (const ev of ['data:countries', 'data:regions', 'data:globals']) VM.on(ev, () => rerenderSoon());
     VM.on('profile:open', flushNotes);
     addEventListener('online', () => { if (J.mode === 'cloud') { flushOutbox(); cloudRefresh(); } });
     addEventListener('pagehide', flushNotes);
@@ -2216,12 +2298,29 @@
       if (document.visibilityState === 'hidden') flushNotes();
       else if (J.mode === 'cloud' && (!J.lastSync || Date.now() - Date.parse(J.lastSync) > 5 * 60e3)) cloudRefresh();
     });
-    const start = () => bootAuth().catch(e => { console.warn('[journal] auth', e); if (!A.ready) onSession(null, 'NONE'); });
+    /* the journal is in memory before any view renders: the browser's own copy, or the account copy cached for the
+       user of the stored session (confirmed or dropped once supabase-js has checked the session) */
+    const su = storedUser();
+    if (su) primeCloud(su); else loadLocal();
+    readyRes();
+    const start = () => {
+      bootAuth().catch(e => { console.warn('[journal] auth', e); if (!A.ready) onSession(null, 'NONE'); });
+      /* a #journal… link needs no map: open it now rather than when the globe has loaded (the core routes again later) */
+      setTimeout(() => {
+        const h = decodeURIComponent(location.hash.slice(1));
+        const sh = document.getElementById('sheet');
+        if (/^journal(-|$)/.test(h) && sh && sh.hidden) VM.go(h);
+      }, 0);
+    };
     /* after every module has registered its listeners: the 'auth' event is sticky and replays to late subscribers */
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true }); else setTimeout(start, 0);
   } else {
     readyRes();
     A.ready = true; VM.auth.ready = true; authRes(null);
   }
-  if (GH) ready.then(() => { if (J.bottles.some(b => b.site_id)) sitesReady().then(updateMapSoon); });
+  if (GH) {
+    /* pins at a cru move from the appellation point to the site once sites arrive (no forced second wave) */
+    VM.on('data:sites', () => { updateMapSoon(); rerenderSoon(); });
+    if (typeof VM.data.loadSites !== 'function') ready.then(() => { if (J.bottles.some(b => b.site_id)) sitesReady().then(updateMapSoon); });
+  }
 })();

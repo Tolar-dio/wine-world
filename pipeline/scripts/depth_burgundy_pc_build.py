@@ -13,6 +13,10 @@ T = json.load(open(f'{D}/_terrain.json'))
 N = json.load(open(f'{D}/_neighbours.json'))
 INAO = json.load(open(f'{D}/_inao.json'))
 for _uid, _u in U.items():
+    if _uid not in INAO and _u.get('vine_ha'):
+        _u['ha_poly'] = _u['ha']
+        _u['ha'] = _u['vine_ha']
+        _u['communes'] = [(c, None) for c in (_u.get('reg_communes') or [])]
     if _uid in INAO:
         _u['ha_poly'] = _u['ha']
         _u['ha'] = INAO[_uid]['ha_inao']
@@ -79,6 +83,11 @@ GRAPES = {
 ASP = dict(N='north', NNE='north-northeast', NE='northeast', ENE='east-northeast', E='east', ESE='east-southeast',
            SE='southeast', SSE='south-southeast', S='south', SSW='south-southwest', SW='southwest', WSW='west-southwest',
            W='west', WNW='west-northwest', NW='northwest', NNW='north-northwest')
+WHITE_APPS = {'Meursault', 'Puligny-Montrachet', 'Chassagne-Montrachet', 'Saint-Aubin', 'Rully', 'Montagny',
+              'Pouilly-Fuissé', 'Pouilly-Loché', 'Pouilly-Vinzelles', 'Chablis'}
+DOM_OVERRIDE = {'fr-beaune-premier-cru-clos-saint-landry': 'white', 'fr-vougeot-premier-cru-le-clos-blanc': 'white',
+                'fr-chassagne-montrachet-premier-cru-la-boudriotte': 'red', 'fr-chassagne-montrachet-premier-cru-la-cardeuse': 'red',
+                'fr-pernand-vergelesses-premier-cru-en-caradeux': 'red', 'fr-ladoix-premier-cru-les-buis': 'red'}
 BANNED = ['delve', 'robust', 'seamless', 'game-changer', 'unlock', 'leverage', 'comprehensive', 'cutting-edge',
           'transformative', 'innovative', "it's worth noting", 'nestled', 'boasts', 'tapestry', 'testament']
 
@@ -113,12 +122,33 @@ def short_label(u):
 def main():
     entries, seen, problems = [], set(), []
     parts = sorted(glob.glob(f'{D}/part_*.json'))
+    EXP = {}
+    for xf in sorted(glob.glob(f'{D}/expand_*.json')):
+        try:
+            for x in json.load(open(xf)):
+                EXP.setdefault(x['id'], []).append(x)
+        except Exception as e:
+            sys.exit(f'{xf}: {e}')
     for pf in parts:
         try:
             data = json.load(open(pf))
         except Exception as e:
             sys.exit(f'{pf}: {e}')
         for e in data:
+            if e['id'] in EXP:
+                e = dict(e)
+                for x in EXP[e['id']]:
+                    if x.get('s'):
+                        e['s'] = e['s'] + '\n\n' + x['s']
+                    if x.get('s2'):
+                        e['s'] = e['s'] + ' ' + x['s2']
+                    if x.get('t'):
+                        e['t'] = (e.get('t', '') + ' ' + x['t']).strip()
+                    if x.get('n'):
+                        e['n'] = x['n']
+                    if x.get('p'):
+                        e['p'] = list(dict.fromkeys((e.get('p') or []) + x['p']))
+                e['nonb'] = True
             uid = e['id']
             if uid not in U:
                 problems.append(f'unknown id {uid} in {pf}')
@@ -131,7 +161,14 @@ def main():
             app = u['app']
             cote = COTE[app]
             styles = e.get('styles') or u['styles']
-            dom = e.get('dom') or ('white' if styles == ['white'] else 'red' if 'red' in styles and cote in ('Côte de Nuits',) else styles[0])
+            if e.get('dom') or uid in DOM_OVERRIDE:
+                dom = e.get('dom') or DOM_OVERRIDE[uid]
+            elif styles == ['white'] or (app in WHITE_APPS and 'white' in styles):
+                dom = 'white'
+            elif 'red' in styles:
+                dom = 'red'
+            else:
+                dom = styles[0]
             rec = {
                 'id': uid, 'country': 'fr', 'name': u['name'],
                 'match': [u['name']] + short_label(u) + e.get('alt', []),
@@ -139,12 +176,23 @@ def main():
                 'region': 'Chablis and the Grand Auxerrois' if cote == 'Chablis' else cote,
                 'subregion': app,
             }
-            if e.get('created'):
-                rec['created'] = e['created']
+            created = e.get('created') or {'Pouilly-Fuissé': '2020', 'Pouilly-Loché': '2024', 'Pouilly-Vinzelles': '2024'}.get(app)
+            if created:
+                rec['created'] = created
             rec['area_ha'] = e.get('ha', round(u['ha'], 2))
             rec['styles'] = styles
             rec['dominant_style'] = dom
-            rec['grapes'] = e.get('grapes') or ('Chardonnay' if styles == ['white'] else 'Pinot Noir' if styles == ['red'] else GRAPES[cote])
+            if e.get('grapes'):
+                g = e['grapes']
+            elif styles == ['white']:
+                g = 'Chardonnay' if cote in ('Chablis', 'Mâconnais', 'Côte Chalonnaise') else 'Chardonnay (Pinot Blanc permitted)'
+            elif styles == ['red']:
+                g = 'Pinot Noir'
+            elif dom == 'white':
+                g = 'Chardonnay (Pinot Blanc permitted); Pinot Noir for the rarer reds' if cote == 'Côte de Beaune' else 'Chardonnay; Pinot Noir for red'
+            else:
+                g = GRAPES[cote]
+            rec['grapes'] = g
             rec['summary'] = fill(e['s'], uid)
             if e.get('t'):
                 rec['terroir'] = fill(e['t'], uid)
@@ -178,6 +226,9 @@ def main():
             rec['_words'] = sum(len((rec.get(k) or '').split()) for k in ('summary', 'terroir', 'nerd_note'))
             entries.append(rec)
     missing = sorted(set(U) - seen)
+    for xid in EXP:
+        if xid not in seen:
+            problems.append(f'expansion for unknown or unused id {xid}')
     order = {uid: i for i, uid in enumerate(sorted(U, key=lambda x: (U[x]['app'], U[x]['short'])))}
     entries.sort(key=lambda r: order[r['id']])
     wc = [r.pop('_words') for r in entries]

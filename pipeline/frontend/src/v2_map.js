@@ -153,7 +153,7 @@ function registerImgProtocol() {
     const rel = cov ? tileRel(cov, z, x, y) : 2;
     if (!rel) return { data: await emptyTile() };
     let res;
-    try { res = await fetch(svc.url(z, x, y), { signal: abort.signal, mode: 'cors', credentials: 'omit' }); } catch (e) {
+    try { res = await fetch(svc.url(z, x, y), { signal: abort?.signal, mode: 'cors', credentials: 'omit' }); } catch (e) {
       if (e.name === 'AbortError') throw e;
       return { data: await emptyTile() };
     }
@@ -245,6 +245,7 @@ function applyBaseVis() {
   setVis('hillshade', !!(BM.sun || (std && BM.shade)));
   setVis('contour-line', BM.contours);
   setVis('contour-lab', BM.contours && L.labels);
+  enforceLabelsHidden();
 }
 function bmAfterLayerVis() { applyBaseVis(); }
 function bmAfterRepaint() {
@@ -259,7 +260,7 @@ function bmAfterRepaint() {
     map.setPaintProperty(id, 'raster-saturation', dark ? -0.15 : 0);
   }
   if (map.getLayer('vmhl-sites')) map.setPaintProperty('vmhl-sites', 'circle-stroke-color', TOK.highlight);
-  if (map.getLayer('jr-route')) map.setPaintProperty('jr-route', 'line-color', TOK.highlight);
+  if (map.getLayer('rj-route')) map.setPaintProperty('rj-route', 'line-color', TOK.highlight);
 }
 async function setBase(mode, opts = {}) {
   if (!map || !GH()) return;
@@ -323,15 +324,26 @@ function setTerrain3D(on, opts = {}) {
     map.setMaxPitch(80);
     map.setTerrain({ source: 'dem-terrain', exaggeration: BM.exag });
     S.keepCam = true;
-    map.touchZoomRotate.enableRotation();
+    map.touchPitch.enable();
     try { map.dragRotate._pitchWithRotate = true; map.dragRotate.enable(); } catch (e) { /* private API changed */ }
     if (!opts.instant && map.getPitch() < 30) map.easeTo({ pitch: 58, duration: MQ.rm.matches ? 0 : 900 });
   } else {
     map.setTerrain(null);
     S.keepCam = false;
-    map.touchZoomRotate.disableRotation();
-    const back = () => { map.setMaxPitch(55); map.setProjection({ type: 'globe' }); };
-    if (opts.instant || MQ.rm.matches) { map.jumpTo({ pitch: 0, bearing: 0 }); back(); } else map.easeTo({ pitch: 0, bearing: 0, duration: 700 }), map.once('moveend', back);
+    // keep twist-to-rotate; tilting is a 3D gesture only
+    map.touchPitch.disable();
+    try { map.dragRotate._pitchWithRotate = false; map.dragRotate.disable(); map.dragRotate.enable(); } catch (e) { /* private API changed */ }
+    // back to the globe only if 3D is still off by then (a journey or the sunlight explorer may have turned it on)
+    let done = false;
+    const back = () => {
+      if (done || BM.terrain) return;
+      done = true;
+      // level the camera even when the easing was interrupted or is still crawling on a slow device
+      if (map.getPitch() > 0.5 || Math.abs(map.getBearing()) > 0.5) { map.stop(); map.jumpTo({ pitch: 0, bearing: 0 }); }
+      map.setMaxPitch(55); map.setProjection({ type: 'globe' });
+    };
+    if (opts.instant || MQ.rm.matches) { map.jumpTo({ pitch: 0, bearing: 0 }); back(); }
+    else { map.easeTo({ pitch: 0, bearing: 0, duration: 700 }); map.once('moveend', back); setTimeout(back, 1100); }
   }
   $('#ctl3d').hidden = !on;
   updateAttrib();
@@ -441,7 +453,7 @@ const ICON = {
   tilt: '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M4 18h16L16 8H8z"/><path d="M8 8 12 4l4 4"/></svg>',
   rot: '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M18.5 12a6.5 6.5 0 1 1-2.2-4.9"/><path d="M17 3.5v4h-4"/></svg>',
   sun: '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>',
-  river: '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 4c5 2 2 6 7 8s3 6 9 8"/></svg>'
+  river: '<svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 7.5c2.2-1.6 4.3-1.6 6.5 0s4.3 1.6 6.5 0 4.3-1.6 5 -.6"/><path d="M3 12c2.2-1.6 4.3-1.6 6.5 0s4.3 1.6 6.5 0 4.3-1.6 5-.6"/><path d="M3 16.5c2.2-1.6 4.3-1.6 6.5 0s4.3 1.6 6.5 0 4.3-1.6 5-.6"/></svg>'
 };
 const BASES = [['standard', 'Standard'], ['satellite', 'Satellite'], ['topo', 'Topographic']];
 function bmControlsHTML(px) {
@@ -715,7 +727,8 @@ function jrActive(km) {
   const j = JR.cur;
   const apps = j.stops.filter(s => km >= s.a - 0.4 && km <= s.b + 0.4);
   const umb = apps.filter(s => !s.fine && s.area > 600).sort((a, b) => a.area - b.area);
-  const near = apps.filter(s => s.fine || s.area <= 600).sort((a, b) => (b.fine - a.fine) || (b.prof - a.prof) || (a.area - b.area)).slice(0, 4);
+  // closest first (each stop keeps its nearest distance to the route), named crus and profiled units ahead of ties
+  const near = apps.filter(s => s.fine || s.area <= 600).sort((a, b) => ((a.d ?? 1) - (b.d ?? 1)) * 2 + (b.prof - a.prof) * 0.3 + (b.fine - a.fine) * 0.2).slice(0, 4);
   const site = j.sites.filter(s => Math.abs(s.km - km) <= 1.1).sort((a, b) => Math.abs(a.km - km) - Math.abs(b.km - km))[0];
   const town = j.towns.filter(t => Math.abs(t.km - km) <= 1.8).sort((a, b) => Math.abs(a.km - km) - Math.abs(b.km - km))[0];
   return { umb: umb[0] || null, near, site, town };
@@ -790,9 +803,9 @@ async function startJourney(id) {
   jrCamera(true);
   // the route as a faint gold thread
   const line = { type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: j.line } };
-  if (map.getSource('jr-route')) map.getSource('jr-route').setData(line);
-  else { map.addSource('jr-route', { type: 'geojson', data: line }); map.addLayer({ id: 'jr-route', type: 'line', source: 'jr-route', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': TOK.highlight, 'line-width': 2, 'line-opacity': 0.55, 'line-dasharray': [1, 2.4] } }, 'anchor-points'); }
-  setVis('jr-route', true);
+  if (map.getSource('rj-route')) map.getSource('rj-route').setData(line);
+  else { map.addSource('rj-route', { type: 'geojson', data: line }); map.addLayer({ id: 'rj-route', type: 'line', source: 'rj-route', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': TOK.highlight, 'line-width': 2, 'line-opacity': 0.55, 'line-dasharray': [1, 2.4] } }, 'anchor-points'); }
+  setVis('rj-route', true);
   renderJourneyDock();
   if (!MQ.rm.matches) setTimeout(() => { if (JR.cur === j && !JR.playing && JR.km === 0) jrPlay(); }, 1200);
   return j;
@@ -822,7 +835,7 @@ function stopJourney(quiet) {
   jrPause();
   for (const r of JR.lit) stateSet(r, { hover: false });
   JR.lit = [];
-  setVis('jr-route', false);
+  setVis('rj-route', false);
   const prev = JR.prev; JR.cur = null; JR.prev = null;
   if (!quiet) closeDock();
   if (prev) {

@@ -12,19 +12,34 @@ os.makedirs(BACKUP, exist_ok=True)
 INTEGRATION_KEYS = ('style', 'prof', 'lvl', 'clim')
 
 
-def all_ids():
-    """Every id already used in the index and in every geo file (main and fine)."""
-    ids = set()
-    try:
-        ids |= {x['id'] for x in json.load(open(GEO + '/_index.json'))}
-    except Exception:
-        pass
+def all_ids(exclude_src=None):
+    """Every id already used in every geo file (main and fine) and in the index, except features of the
+    source(s) a script is about to replace (so re-runs keep the same ids)."""
+    ex = set([exclude_src] if isinstance(exclude_src, str) else (exclude_src or []))
+    ids, mine = set(), set()
     for fn in os.listdir(GEO):
         if fn.endswith('.geojson') and not fn.startswith('_'):
             with open(GEO + '/' + fn) as f:
                 for ft in json.load(f)['features']:
-                    ids.add(ft['properties']['id'])
+                    p = ft['properties']
+                    (mine if p.get('src') in ex else ids).add(p['id'])
+    try:
+        ids |= {x['id'] for x in json.load(open(GEO + '/_index.json'))} - mine
+    except Exception:
+        pass
     return ids
+
+
+def unique_id(base, taken, alt_suffix=None):
+    fid = base
+    if fid in taken and alt_suffix:
+        fid = f'{base}-{alt_suffix}'
+    i = 2
+    while fid in taken:
+        fid = f'{base}-{i}'
+        i += 1
+    taken.add(fid)
+    return fid
 
 
 def backup_once(iso2):

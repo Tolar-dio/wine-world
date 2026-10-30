@@ -165,7 +165,7 @@
       </div>
       <div class="tg-ar">${VM.h.sec('Aromas and flavours')}
         <div class="chips tg-chosen">${[...T.aromas].map(a => `<button type="button" class="chip sm-on" data-rm="${esc(a)}" aria-label="Remove ${esc(a)}">${esc(a)} <span aria-hidden="true">×</span></button>`).join('')}</div>
-        <input class="vm-input" id="tg-q" type="search" placeholder="Add an aroma (cherry, petrol, tar…)" aria-label="Add an aroma" autocomplete="off" spellcheck="false">
+        <input class="vm-input" id="tg-q" type="search" placeholder="Add an aroma" aria-label="Add an aroma" autocomplete="off" spellcheck="false">
         <ul class="chips tg-sug" id="tg-sug" aria-label="Suggested aromas"></ul>
         <details class="tg-fam"><summary>Browse by family</summary><div id="tg-fams"></div></details>
       </div>

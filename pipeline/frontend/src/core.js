@@ -41,11 +41,13 @@ function fmtLat(lat, d = 2) { return lat == null ? '' : `${Math.abs(lat).toFixed
 function fmtLon(lon, d = 2) { return lon == null ? '' : `${Math.abs(lon).toFixed(d)}°${lon >= 0 ? 'E' : 'W'}`; }
 function fmtArea(km2) {
   if (km2 == null) return null;
-  if (km2 >= 1000) return { v: `${fmt(km2)} km²`, s: `${fmt(km2 * 0.386102)} sq mi` };
+  if (km2 >= 1000) return { v: `${fmt(km2)} km²`, s: `${fmt(sig3(km2 * 0.386102))} sq mi` };
   const ha = km2 * 100;
-  return { v: `${fmt(ha, ha < 10 ? 1 : 0)} ha`, s: `${fmt(ha * 2.47105, ha < 10 ? 1 : 0)} acres` };
+  return { v: `${fmt(ha, ha < 10 ? 1 : 0)} ha`, s: `${fmt(sig3(ha * 2.47105), ha < 10 ? 1 : 0)} acres` };
 }
-function fmtHa(ha) { return ha == null ? null : { v: `${fmt(ha)} ha`, s: `${fmt(ha * 2.47105)} acres` }; }
+/* converted figures are no more precise than their source: 3 significant figures above 10,000 */
+const sig3 = v => (v == null || Math.abs(v) < 10000) ? v : Number(v.toPrecision(3));
+function fmtHa(ha) { return ha == null ? null : { v: `${fmt(ha)} ha`, s: `${fmt(sig3(ha * 2.47105))} acres` }; }
 function fmtM(m) { return m == null ? '' : `${fmt(m)} m`; }
 function fmtFt(m) { return m == null ? '' : `${fmt(m * 3.28084)} ft`; }
 function yearOf(v) { const m = String(v ?? '').match(/(1[0-9]{3}|20[0-9]{2})/); return m ? m[1] : null; }
@@ -201,11 +203,31 @@ function getContent(iso) {
       c.regions = arr(c.regions);
       c.sites = arr(c.sites);
       c.profiles = c.profiles || {};
+      // fine-unit profiles written inline (integrate.py --inline-fine-profiles) join the main map
+      if (c.fine_profiles && typeof c.fine_profiles === 'object') for (const [k, v] of Object.entries(c.fine_profiles)) if (!c.profiles[k]) c.profiles[k] = v;
       for (const r of c.regions) { if (!r.id) r.id = `region-${iso}-${slug(r.name)}`; }
       return c;
     }));
   }
   return D.content.get(iso);
+}
+/* fine-unit profiles (Burgundy climats, Einzellagen, Rieden, MGAs...) live in data/content/{iso2}_fine.json, loaded
+   the first time a fine unit (or a site inside one) is opened, and merged into the country's profiles */
+const _fineContent = new Map();
+function getFineContent(iso) {
+  if (!iso) return Promise.resolve(null);
+  if (!_fineContent.has(iso)) {
+    _fineContent.set(iso, getContent(iso).then(async c => {
+      if (!c) return null;
+      const file = c.fine_content || D.countries[iso]?.fine_content;
+      if (!file || !has('data/content/' + file)) return c;
+      const j = await getJSON('data/content/' + file);
+      const fp = j && (j.fine_profiles || j.profiles);
+      if (fp && typeof fp === 'object') for (const [k, v] of Object.entries(fp)) if (!c.profiles[k]) c.profiles[k] = v;
+      return c;
+    }));
+  }
+  return _fineContent.get(iso);
 }
 function setIndex(list) {
   D.index = arr(list);
@@ -378,7 +400,7 @@ function lev(a, b, max) {
   }
   return prev[b.length];
 }
-const TYPE_BOOST = { country: 14, grape: 10, region: 9, app: 4, site: 2, term: 3 };
+const TYPE_BOOST = { country: 14, grape: 10, region: 9, app: 4, site: 2, term: 3, soil: 3 };
 function search(q, limit = 24) {
   const f = fold(q);
   if (!f) return [];
@@ -400,24 +422,60 @@ function search(q, limit = 24) {
       if (whole <= max) s = 40 - whole * 6;
       else {
         let pre = 9;
-        for (const c of [it.f, ...it.w, ...it.fa]) if (c.length >= f.length - max) pre = Math.min(pre, lev(f, c.slice(0, f.length), max));
+        // a misspelt word start must at least begin with the same letter ("brunello" is not "jeunellotte")
+        for (const c of [it.f, ...it.w, ...it.fa]) if (c.length >= f.length - max && c[0] === f[0]) pre = Math.min(pre, lev(f, c.slice(0, f.length), max));
         if (pre <= max) s = 30 - pre * 6;
       }
     }
     if (!s) continue;
+    const base = s;
     s += TYPE_BOOST[it.t] || 0;
     if (it.t === 'app') s += Math.min(8, Math.log10((it.area || 0) + 1) * 2.4) + (it.prof ? 3 : 0) - (it.fine ? 3 : 0);
-    out.push([s, it]);
+    out.push([s, it, base]);
   }
+  // when the query matches names properly, drop the typo-tolerant guesses
+  const strong = out.some(x => x[2] >= 45);
+  if (strong) for (let i = out.length - 1; i >= 0; i--) if (out[i][2] <= 40) out.splice(i, 1);
   out.sort((a, b) => b[0] - a[0] || a[1].name.length - b[1].name.length);
   return out.slice(0, limit).map(x => x[1]);
 }
+/* where a same-named unit lies, to tell "Ried Kellerberg" (Dürnstein) from "Ried Kellerberg" (Augenthal):
+   the integrator's ctx when present, else the village in an alias ("Augenthal Kellerberg"), else the parent */
+function placeCtx(a) {
+  if (!a) return '';
+  if (a.ctx) return String(a.ctx);
+  const base = fold(String(a.name || '').replace(/^(ried|lage|lieu-dit|climat|vigna|mga)\s+/i, ''));
+  for (const al of arr(a.alt)) {
+    const f = fold(al);
+    if (base && f.endsWith(' ' + base) && f !== base) {
+      const words = String(al).trim().split(/\s+/);
+      const n = base.split(' ').length;
+      const pre = words.slice(0, Math.max(1, words.length - n)).join(' ');
+      if (pre && fold(pre) !== fold(a.name)) return pre;
+    }
+  }
+  const par = a.parent && (D.byId.get(a.parent) || D.feat.get(a.parent));
+  return par ? par.name : '';
+}
 function rebuildSearch() {
   searchAdd('country', Object.entries(D.countries).map(([iso, m]) => ({ id: iso, name: m.name || countryName(iso), meta: m.tier ? TIER[m.tier] || 'Country' : 'Country' })));
-  searchAdd('app', D.index.map(a => ({ id: a.id, name: a.name, alt: a.alt, area: a.area, prof: a.prof, fine: a.fine, meta: [a.subcat || a.cat, countryName(a.country)].filter(Boolean).join(' · ') }))
-    .concat(D.extra.filter(e => !D.byId.has(e.id)).map(e => ({ id: e.id, name: e.name, prof: 1, area: 1, meta: [e.cat, countryName(e.country)].filter(Boolean).join(' · ') }))));
+  const same = new Map();
+  for (const a of D.index) { const k = a.country + '|' + fold(a.name); same.set(k, (same.get(k) || 0) + 1); }
+  searchAdd('app', D.index.map(a => {
+    // ctx (from integration) names the village, commune or zone; without it, a same-named unit borrows its
+    // village from an alias or its parent's name
+    let where = a.ctx || '';
+    if (!where) {
+      const dup = same.get(a.country + '|' + fold(a.name)) > 1, par = a.parent && D.byId.get(a.parent);
+      where = dup ? [placeCtx(a), par && par.name !== placeCtx(a) ? par.name : ''].filter(Boolean).join(', ') : a.fine && par ? par.name : '';
+    }
+    // "goldberg langenlois" finds the right Ried: the name with its qualifier is searchable too
+    return { id: a.id, name: a.name, alt: arr(a.alt).concat(a.ctx ? [a.name + ' ' + a.ctx] : []), area: a.area, prof: a.prof, fine: a.fine, meta: [a.subcat || a.cat, where, countryName(a.country)].filter(Boolean).join(' · ') };
+  })
+    .concat(D.extra.filter(e => !D.byId.has(e.id)).map(e => ({ id: e.id, name: e.name, alt: e.ctx ? [e.name + ' ' + e.ctx] : [], prof: 1, area: 1, fine: e.fine ? 1 : 0, meta: [e.cat, e.ctx, countryName(e.country)].filter(Boolean).join(' · ') }))));
   searchAdd('region', D.regions.map(r => ({ id: r.id, name: r.name, alt: r.alt, meta: `Wine region · ${countryName(r.country)}` })));
-  searchAdd('site', D.sites.map(s => ({ id: s.id, name: s.name, meta: [KIND[s.kind] || 'Site', countryName(s.country)].join(' · ') })));
+  searchAdd('site', D.sites.map(s => ({ id: s.id, name: s.name, alt: s.ctx ? [s.name + ' ' + s.ctx] : [], meta: [KIND[s.kind] || 'Site', s.ctx, countryName(s.country)].filter(Boolean).join(' · ') })));
   searchAdd('grape', D.grapes.map(g => ({ id: 'grape-' + g.id, name: g.name, alt: g.synonyms, meta: `Grape${g.color ? ' · ' + g.color : ''}` })));
   searchAdd('term', D.glossary.map(t => ({ id: 'term-' + slug(t.term), name: t.term, meta: `Glossary${t.lang ? ' · ' + t.lang : ''}` })));
+  searchAdd('soil', D.soils.map(s => ({ id: 'soil-' + slug(s.id || s.name), name: s.name, meta: 'Soil' })));
 }

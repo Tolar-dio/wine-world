@@ -5,9 +5,9 @@
 function photoHTML(list, name) {
   const p = list[0];
   const ratio = clamp((+p.w || 4) / (+p.h || 3), 4 / 3, 2.2);
-  const credit = ph => `${ph.caption ? `${inl(ph.caption)} ` : ''}<span class="ph-by">${esc(ph.author || 'Unknown author')}, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license || 'licence')}</a>` : esc(ph.license || '')}, <a href="${esc(ph.page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span>`;
+  const credit = ph => `${ph.caption ? `<span class="ph-txt">${inl(ph.caption)}</span>` : ''}<span class="ph-by">${esc(ph.author || 'Unknown author')}, ${ph.license_url ? `<a href="${esc(ph.license_url)}" target="_blank" rel="noopener noreferrer">${esc(ph.license || 'licence')}</a>` : esc(ph.license || '')}, <a href="${esc(ph.page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span>`;
   let out = `<figure class="ph"><div class="ph-hero" style="aspect-ratio:${ratio.toFixed(3)}"><img src="${esc(p.thumb)}" width="${+p.w || 640}" height="${+p.h || 427}" alt="${esc(p.caption || name)}" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer"></div><figcaption class="ph-cap">${credit(p)}</figcaption></figure>`;
-  if (list.length > 1) out += `<ul class="ph-gal" aria-label="More photos">${list.map((x, i) => `<li><button type="button" class="ph-th${i ? '' : ' on'}" data-ph="${i}" aria-label="Show photo ${i + 1}: ${esc(x.caption || name)}"><img src="${esc(x.thumb)}" alt="" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer"></button></li>`).join('')}</ul>`;
+  if (list.length > 1) out += `<ul class="ph-gal" aria-label="More photos">${list.map((x, i) => `<li><button type="button" class="ph-th${i ? '' : ' on'}" data-ph="${i}" aria-label="Show photo ${i + 1}: ${esc(x.caption || name)}"><img src="${esc(/^https:\/\/upload\.wikimedia\.org\//.test(x.thumb_small || '') ? x.thumb_small : x.thumb)}" alt="" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer"></button></li>`).join('')}</ul>`;
   return out;
 }
 function bindPhotos(el, list, name) {
@@ -20,7 +20,7 @@ function bindPhotos(el, list, name) {
     el.querySelectorAll('.ph-th').forEach(t => t.classList.toggle('on', t === b));
   }));
   // a photo that fails to load (renamed or deleted on Commons) removes itself
-  el.querySelectorAll('img').forEach(img => img.addEventListener('error', () => { const li = img.closest('li'); if (li) li.remove(); else el.hidden = true; }, { once: true }));
+  el.querySelectorAll('img').forEach(img => img.addEventListener('error', () => { const li = img.closest('li'); if (li) li.remove(); else { (el.closest('.vm-sec') || el).hidden = true; } }, { once: true }));
 }
 
 /* ---------- terrain (Copernicus DEM GLO-30 sidecar) ---------- */
@@ -154,6 +154,16 @@ function bindVintage(el, v, ev, e) {
   for (const x of ev) { if (!byYear.has(x.year)) byYear.set(x.year, []); byYear.get(x.year).push(x); }
   const sgn = x => VM.fmt.signed(x, 1, ' °C');
   const show = y => {
+    if (y < years[0] || y > years[n - 1]) {
+      // a researched vintage from before the weather record: its notes only
+      cur.hidden = true;
+      const evs = byYear.get(y) || [];
+      det.innerHTML = `<p class="vt-yr"><span class="vt-year">${y}</span> <span class="note">Before the weather record, which starts in ${years[0]}.</span></p>` + evs.map(x => `<p class="vt-note"><span class="vt-kind"><i class="ek ek-${esc(EV_KIND[x.kind] ? x.kind : 'other')}" aria-hidden="true"></i>${esc(EV_KIND[x.kind] || 'Note')}</span> ${inl(x.text)}${x.src && /^https?:/.test(x.src) ? ` <a href="${esc(x.src)}" target="_blank" rel="noopener noreferrer" class="vt-src">source</a>` : ''}</p>`).join('');
+      el.querySelectorAll('.vt-y').forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.y === y)));
+      show.y = clamp(y, years[0], years[n - 1]);
+      return;
+    }
+    cur.hidden = false;
     const i = clamp(y - years[0], 0, n - 1); y = years[i];
     cur.style.left = ((i + 0.5) / n * 100).toFixed(2) + '%';
     box.setAttribute('aria-valuenow', y);
@@ -243,14 +253,25 @@ function regsHTML(r, e) {
   return out;
 }
 
+const PH_NODES = new Map();
 /* ---------- registration ---------- */
 (function registerSections() {
   VM.panel.addSection(['appellation', 'site', 'region', 'country', 'grape', 'event'], async (el, e) => {
     if (VM.mode !== 'gh') return false;
     const list = (await VM.data.photos(e.id)).filter(p => p && p.thumb && /^https:\/\/upload\.wikimedia\.org\//.test(p.thumb) && p.page);
     if (!list.length) return false;
-    el.innerHTML = photoHTML(list.slice(0, 4), e.name);
-    bindPhotos(el, list.slice(0, 4), e.name);
+    // a re-render of the same profile (late data, back) moves the existing nodes back in: the images are not
+    // requested again (Commons rate-limits), and any photo the reader hid changes the key
+    const key = e.id + '|' + list.slice(0, 4).map(p => p.file || p.thumb).join('|');
+    const cached = PH_NODES.get(key);
+    if (cached) { el.appendChild(cached); return; }
+    const wrap = document.createElement('div');
+    wrap.className = 'ph-wrap';
+    wrap.innerHTML = photoHTML(list.slice(0, 4), e.name);
+    bindPhotos(wrap, list.slice(0, 4), e.name);
+    el.appendChild(wrap);
+    PH_NODES.set(key, wrap);
+    if (PH_NODES.size > 6) PH_NODES.delete(PH_NODES.keys().next().value);
   }, { id: 'photos', slot: 'hero', order: 10 });
 
   VM.panel.addSection(['appellation', 'site'], async (el, e) => {
@@ -309,6 +330,7 @@ function aboutV2HTML() {
     ${li('TerraClimate yearly weather, 1950 to 2025 (Abatzoglou, Dobrowski, Parks and Hegewisch 2018, Scientific Data 5:170191), built on ERA5 and WorldClim', 'CC0', 'https://www.climatologylab.org/terraclimate.html')}
     ${li('GHCN-Daily weather stations (Menne et al. 2012, NOAA NCEI), used only to calibrate and check the frost and heat estimates', 'public domain', 'https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily')}
     ${li('Vintage notes: published vintage reports and charts, each linked from its note', '', '')}
+    ${li('Drinking windows: typical ageing profiles and published vintage charts (Wine Spectator, Systembolaget and others), each linked from its window. For years without a report, the typical window shifts by at most three years for the season’s weather (TerraClimate).', '', '')}
     ${li('Rules: summarised from the official specifications (EU eAmbrosia register, national registers and laws), each linked from its card. Summaries, not legal advice.', '', 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/')}
     ${VM.mode === 'gh' ? li('Photos: Wikimedia Commons; each photo shows its author and licence', 'CC BY, CC BY-SA, CC0 or public domain, per photo', 'https://commons.wikimedia.org') : ''}
   </ul>`;
@@ -323,4 +345,22 @@ function aboutV2HTML() {
     out += H.sec('Install') + installHTML();
   }
   return out;
+}
+
+/* ---------- soil photos in the Lexicon (Pages build): one lazy photo per soil, via VM.data.photos so any
+   module filter (the photo review's hidden marks) applies ---------- */
+async function soilPhotos(root) {
+  if (VM.mode !== 'gh' || !root) return;
+  const arts = [...root.querySelectorAll('article.soil[id^="soil-"]')];
+  for (const art of arts) {
+    if (art.querySelector('.ph')) continue;
+    const list = (await VM.data.photos(art.id)).filter(p => p && p.thumb && /^https:\/\/upload\.wikimedia\.org\//.test(p.thumb) && p.page);
+    if (!list.length || !art.isConnected) continue;
+    const p = list[0], small = /^https:\/\/upload\.wikimedia\.org\//.test(p.thumb_small || '') ? p.thumb_small : p.thumb;
+    const fig = document.createElement('figure');
+    fig.className = 'ph ph-soil';
+    fig.innerHTML = `<div class="ph-hero" style="aspect-ratio:${clamp((+p.w || 4) / (+p.h || 3), 4 / 3, 2.2).toFixed(3)}"><img src="${esc(small)}" alt="${esc(p.caption || art.querySelector('h3')?.textContent || '')}" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer"></div><figcaption class="ph-cap">${p.caption ? `<span class="ph-txt">${inl(p.caption)}</span>` : ''}<span class="ph-by">${esc(p.author || 'Unknown author')}, ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener noreferrer">${esc(p.license || 'licence')}</a>` : esc(p.license || '')}, <a href="${esc(p.page)}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></span></figcaption>`;
+    fig.querySelector('img').addEventListener('error', () => fig.remove(), { once: true });
+    art.querySelector('h3')?.after(fig);
+  }
 }

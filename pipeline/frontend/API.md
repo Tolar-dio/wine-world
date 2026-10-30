@@ -45,8 +45,10 @@ VM.online   // mode === 'gh' && navigator.onLine
 | `VM.highlight(ids, opts?)` | lights the given appellation ids on the map (polygons, overview points, points-only appellations), loading their countries' polygons if needed. `opts`: `{dimOthers = true, label, labelHTML, fit, onClear, owner}`. `label` shows the pill at the top ("Label · 12 · Clear"). Replaces any grape highlight. |
 | `VM.clearHighlight()` | |
 | `VM.map.captureTap(fn) → release()` | while active, a tap or click on the map calls `fn({lngLat, point, features})` instead of opening a profile, and the hover tooltip is off (`#app[data-capture]` is set). |
-| `VM.map.labels(false / true)` | hides every place-name layer (appellations, fine units, regions, towns, rivers, countries, site labels) and restores exactly the previous visibility. |
+| `VM.map.labels(false / true)` | hides every place-name layer (appellations, fine units, fine-unit points, regions, towns, rivers, countries, site labels, contour labels) and restores exactly the previous visibility. The hidden state persists until `labels(true)`: layers added later (second data wave, a country's fine units) and layers the base map or the Layers view would switch on stay hidden too. |
 | `VM.map.pulse(lon, lat)`, `VM.map.clearPulse()` | the core pulsing marker. |
+| `VM.map.onLayerTap(layerIds, fn, {hover})` → `release()` | non-exclusive taps on your own layers (pins that stay on the map): runs before the profile hit test when one of `layerIds` is under the finger (8 px desktop, 12 px touch); `fn({feature, features, lngLat, point})`. `hover(feature)` returns `{name, meta}` for the shared tooltip on desktop. Ignored while a `captureTap` is active. |
+| `VM.layers.add({id, label, note?, order?, get(), set(on)})` → `remove()` | adds a toggle for your map layer to the Layers view, under Show. `get()` gives the current state when the view renders, `set(on)` is called on change. |
 
 `VM.highlight` accepts site ids too: they get a gold ring on the map (the pill count includes them).
 
@@ -81,6 +83,8 @@ All getters are synchronous views of what has loaded; functions return promises.
 | `VM.data.feature(id)` | full feature properties when the country is loaded |
 | `VM.data.geometry(id)` | Promise → the GeoJSON feature (fetches the country file; cached) |
 | `VM.data.ensureGeo(iso2, {fine})` | Promise<bool> → the country's polygons (and fine units) are on the map, through the map's own queue. |
+| `VM.data.loadSites()`, `VM.data.loadRegions()` | Promise → sites / regions (starts the second data wave if needed) |
+| `VM.data.fineContent(iso2)` | Promise → the country content with its fine-unit profiles (`{iso2}_fine.json`) merged into `profiles` |
 | `VM.data.ancestry(id)`, `children(id)` | geometric parents (outermost first) and children |
 | `VM.data.countryName(iso2)` | |
 | `VM.data.chain(id)` | Promise → `[id, …parents, …content regions]` used for fallbacks |
@@ -95,7 +99,7 @@ Sidecars (each resolves to `null`/`[]` when the file is missing):
 | `VM.data.events(id)` | vintage events for the id and its parents, sorted by year |
 | `VM.data.drift(id)` | `{id, data, inherited}` from `_drift.json` |
 | `VM.data.regs(id)` | `{id, data, inherited, national}` from `data/regs/{iso2}.json` |
-| `VM.data.photos(id)` | array of photo records |
+| `VM.data.photos(id)` | array of photo records. Places use `data/photos/{iso2}.json`; grapes, timeline events and soils use `_global.json`, keyed without the route prefix (`'grape-nebbiolo'`, `'event-…'` and `'soil-albariza'` all resolve). Profiles render them for appellations, sites, regions, countries, grapes and events; the Lexicon shows one photo per soil. Modules may wrap this function (the photo review does, to hide flagged photos); the core and the Lexicon always call it through `VM.data.photos`. |
 | `VM.data.study(name)` | `data/study/{name}.json` (`'decks'`, `'tasting'`) |
 
 ## Navigation and the panel
@@ -110,7 +114,7 @@ Sidecars (each resolves to `null`/`[]` when the file is missing):
 | `VM.panel.refresh()` | re-render the current route without adding history |
 | `VM.panel.close()`, `snap(name)`, `setCrumb(text)` | |
 | `VM.panel.el` / `current` / `isOpen` | the sheet body; the current entity `{type, id, …}` or `{type: 'view', id, arg}` |
-| `VM.panel.addSection(types, fn(el, entity), {id, slot, order})` | adds a section to profiles. `types`: one type, an array, or `'*'`. `slot`: `'hero'` (under the title), `'top'` (after the ledger and coordinates, before the prose), `'mid'` (after the climate block on appellations, before the varieties), `'end'` (default, just before the source line). Lower `order` first; the lead's own sections use 10–40, modules should use 50+. `fn` may be async; return `false` or leave `el` empty to hide it. `entity` is `VM.data.entity(id)` plus `type`. Returns an unregister function. |
+| `VM.panel.addSection(types, fn(el, entity), {id, slot, order})` | adds a section to profiles. `types`: one type, an array, or `'*'` (which does not include `'about'`). **`'about'`** targets the About view: its sections render into the About view's `'end'` slot, after the credits, each time About opens; `entity` is `{type: 'about', id: 'about'}`. Use this rather than watching the DOM (the photo-review module's "Help check photos" block can move to it; its MutationObserver keeps working, since the About markup is unchanged above the slot). `slot`: `'hero'` (under the title), `'top'` (after the ledger and coordinates, before the prose), `'mid'` (after the climate block on appellations, before the varieties), `'end'` (default, just before the source line). Lower `order` first; the lead's own sections use 10–40 (photos 10 in `hero`; terrain 10, vintages 20, climate drift 30 in `mid`; rules 10 in `end`), and **21–29 in `mid` are reserved for the drinking window (`40_ageing`, order 25)**. Other modules use 50+. `fn` may be async; return `false` or leave `el` empty to hide it. `entity` is `VM.data.entity(id)` plus `type`. Returns an unregister function. |
 | `VM.nav.add({id, label, icon?, onClick?, order?, title?})` | adds a button to the top views bar (it scrolls sideways on phones). Without `onClick`, it navigates to `#id`, so register a view with the same id. `icon`: inline SVG string (16 px, `stroke="currentColor"`). |
 
 Example module:
@@ -150,7 +154,9 @@ Example module:
 | `data:index` | `VM.data.index` | yes |
 | `data:globals` | grapes array | yes |
 | `data:geo` | iso2, each time a country's polygons (or fine units) were added to the map | no |
+| `data:sites`, `data:regions` | `VM.data.sites` / `VM.data.regions` once loaded | yes |
 | `profile:open` | `{type, id, entity, el}` after a profile renders and sections were started | no |
+| `about:render` | `{el}` after the About view renders and its `'about'` sections were started | no |
 | `view` | `{id, arg}` after a custom view renders | no |
 | `panel:close` | the entity or view that was open | no |
 | `theme` | `{dark, tokens}` after the theme changed and the map was repainted | no |
@@ -220,6 +226,7 @@ Pages build only. In the artifact build `VM.journal.available` is `false`, reads
 | `signIn(email)` | sends an email magic link (PKCE). Promise `{ok, error?}` with a readable `error` |
 | `verifyCode(email, code)` | signs in with the six-digit code from the same email, for when the link opens in another browser |
 | `signOut()` | Promise |
+| `storedUser()` | `{id, email}` of the session supabase-js keeps in this browser, read synchronously without loading the library (or `null`). Unconfirmed: use it only to show cached data early, then follow `auth`. |
 | `client` / `getClient()` | the supabase-js v2 client (`null` until loaded) / Promise that loads it. Use it for your own tables (`study_cards`, `study_sessions`, `saved_filters`): RLS fills and checks `user_id`. Only write when `VM.auth.user` is set. |
 
 The `auth` event is emitted after every module has registered (on DOMContentLoaded), so a top-level `VM.on('auth', …)` replays the state safely.
@@ -246,6 +253,24 @@ Records have the same shape locally and in Supabase (`public.bottles`, `place_no
 
 Hash routes: `#journal…` as above, `#journal-bottle-<uuid>` (bottle card), `#journal-edit-<uuid>`, `#journal-from-<entity id>` (all bottles from a place).
 
-Map: sources `jr-bottles` (clustered) and `jr-places`, layers `jr-place`, `jr-pin-ring`, `jr-pin`, `jr-cluster`, `jr-cluster-n` under `anchor-top`. Taps on them open the bottle card or place, except while another module holds `VM.map.captureTap`.
+Map: sources `jr-bottles` (clustered) and `jr-places`, layers `jr-place`, `jr-pin-ring`, `jr-pin`, `jr-cluster`, `jr-cluster-n` under `anchor-top`. Taps and hover go through `VM.map.onLayerTap` (pin → bottle card, cluster → zoom in or the shared place, place → its profile), so they stand aside while another module holds `VM.map.captureTap`. Toggles "My bottles" and "My places" are registered with `VM.layers.add` (ids `journal-bottles`, `journal-places`).
 
 Profile sections: `journal-place` (slot `hero`, order 58: list toggles, a note field that saves itself, "+ Bottle") and `journal-bottles` (slot `top`, order 58, hidden when empty).
+
+### Photo review: `VM.photoFlags` (modules/25_photos_review.js, 25_photos_review.css)
+
+Pages build only (`available` is `false` in the artifact build, and `#photo-review` shows a note). Marks live in `public.photo_flags` when signed in through `VM.auth` (owner-only RLS, unique per user, `target_id` and `file`), otherwise in this browser; marks made while signed out move into the account on sign-in.
+
+| Member | Notes |
+|---|---|
+| `available`, `mode()` | `'local'`, `'cloud'` or `'off'` |
+| `keyOf(entityId)` | the photo sidecar key, used as `target_id`: atlas ids as they are (`'fr'`, `'fr-sauternes'`, `'region-…'`, `'site-…'`); grapes, events and soils without their prefix (the keys of `data/photos/_global.json`) |
+| `verdict(id, file)` | `'good' | 'wrong' | 'irrelevant' | 'poor' | null`. `id` may be an entity id or a sidecar key; `file` is the record's `file` (`'File:….jpg'`) |
+| `isHidden(id, file)` | `true` for wrong, irrelevant and poor |
+| `set(id, file, verdict, note?)` | `verdict: null` clears. Synchronous; the cloud write follows, batched, with an offline outbox |
+| `list()` | `[{target_id, file, verdict, note, at}]` |
+| `onChange(fn)` | `fn({what})` after any change (`flags`, `auth`, `sync`); returns unsubscribe. Also `VM.emit('photos:flags', …)` |
+
+`VM.data.photos(id)` is wrapped: photos marked wrong, irrelevant or poor for that place are filtered out for every caller (profile photos, Compare). The filter is per place, because 621 Commons files are used by more than one place.
+
+Views and sections: `#photo-review` (the review grid; linked from About, no top-bar entry). The profile section `photo-flag` (slot `hero`, order 11) adds a "Wrong photo?" control to the credit row of the lead's `photos` section, and shows an undo line after a flag.

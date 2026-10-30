@@ -31,7 +31,7 @@ VINE = re.compile(r'\b(vineyards?|vines?|grapevines?|vignobles?|vignes?|vigne|we
                   r'cru|crus|terroir|aoc|doc|docg|ava|wijngaard\w*|vinicola|vitivinicol\w*|viticultur\w*|viticol\w*|'
                   r'αμπελ\w*|κρασ\w*|виноград\w*|винар\w*|ვენახ\w*|ღვინ\w*|խաղող\w*|葡萄\w*|ブドウ|ワイン|포도)\b', re.I)
 VINE_STRICT = re.compile(r'\b(vineyards?|vines?|grapevines?|vignobles?|vignes?|vigne|weinbergs?|weinberge|weinlagen?|reben|rebberg\w*|rebhang\w*|'
-                         r'weinhang\w*|weingarten|weingarten|vigneti?|vigna|vinedos?|vina|vinas|vinhas?|vinhedos?|vinya|vinyes|szolo\w*|'
+                         r'weinhang\w*|weingarten|weinanbau|weinbau|vigneti?|vigneto|vignet[io]|vigna|vignes?|vinedos?|vina|vinas|vinhas?|vinhedos?|vinya|vinyes|szolo\w*|'
                          r'vinograd\w*|vinohrad\w*|vinice|winnic\w*|wijngaard\w*|terroir|harvest|vendang\w*|vendemmia|vendimia|weinlese|'
                          r'grapes|grape vines?|trauben|grappes?|uvas|'
                          r'αμπελ\w*|виноградник\w*|ვენახ\w*|葡萄园|ブドウ畑|포도밭)\b', re.I)
@@ -64,13 +64,18 @@ REJECT = re.compile(r'\b(maps?|karte|karten|carte|cartes|mapa|mappa|locator|loca
                     r'stammtisch|wikipedians?|editathon|tutorial|exhibition stand|trade fair|parade|procession|demonstration|'
                     r'protest|police|soldiers?|army|parking|car park|gas station|petrol|logo|sticker|graffiti|manhole|'
                     r'bench|toilet|interior design|bedroom|hotel room|swimming pool|pool|soil samples?|samples?|youtube|video|screenshot|'
-                    r'costumes?|traditional dress|folk dance|dancers?|dance|carnival|karneval)\b', re.I)
+                    r'costumes?|traditional dress|folk dance|dancers?|dance|carnival|karneval|ministers?|ministro|ministre|visita|visits?|visited|'
+                    r'president|presidente|mayor|alcalde|party|parties|fiesta|blend|360|equirectangular|photosphere|fotosfera|'
+                    r'talatat|relief|reliefs|artefacts?|artifacts?|gare|bahnhof|estacion|stazione|tournante|feria|sagra|weinfest|winzerfest|'
+                    r'on sale|for sale|market|mercado|mercato|stall|selection|\w+karte|lageplan|uebersicht|infotafel|informationstafel|'
+                    r'information board|lehrpfad|parcellaire|wagon|cart|disney|theme park|7e art|cinema|film|actors?|actress|actrice|acteur|'
+                    r'singer|chanteur|politician|celebrity|nursery tag|receipt|invoice|locomotive|comboio|freight|festa|feast|cartaz|cartel|sold|selling|vendors?)\b', re.I)
 ART = re.compile(r'\b(engraving|gravure|painting|peinture|gemalde|drawing|dessin|zeichnung|illustration|lithograph\w*|postcard|'
                  r'carte postale|ansichtskarte|cartolina|postal|woodcut|etching|fresco|mosaic|manuscript|codex|miniature|'
                  r'tapestry|watercolou?r|aquarelle|ampelograph\w*|herbarium|botanical|plate from|planche|tafel|viala|vermorel|'
                  r'scan|scanned|from the book|book page|page from|brevet|charter|diploma|certificate|letter|lettre|document|acte|deed|'
                  r'newspaper|journal|catalogue|catalog|advertisement|chromolitho\w*)\b', re.I)
-OTHER_SUBJ = re.compile(r'\b(centro|center|centre|interpretation|visitors?|homestead|bikeway|cycleway|trail|church|chapel|eglise|kirche|chiesa|iglesia|igreja|cathedral|castle|schloss|castello|castillo|burg|ruins?|'
+OTHER_SUBJ = re.compile(r'\b(brunnen|brunndl|quelle|sauerbrunn|hotel|camara municipal|clock|reloj|horloge|komp|ferry|fahre|lakohaza|lakohaz|kuria|kastely|monastery|monastir|monastere|chapel|oratoire|oratory|dom|fassade|facade|pontoon|ponton|quay|pier|centro|center|centre|interpretation|visitors?|homestead|bikeway|cycleway|trail|church|chapel|eglise|kirche|chiesa|iglesia|igreja|cathedral|castle|schloss|castello|castillo|burg|ruins?|'
                         r'tower|turm|torre|bridge|pont|brucke|ponte|puente|river|riviere|fluss|fiume|lake|lac|lago|tank|tanks|press|pressoir|'
                         r'kelter|torchio|house|houses|street|rue|strasse|via|calle|square|piazza|plaza|monument|cross|croix|kreuz|'
                         r'wall|walls|fence|gate|door|portal|well|fountain|mill|moulin|muhle|mulino|road|path|museum|town hall|mairie|'
@@ -79,8 +84,7 @@ OTHER_SUBJ = re.compile(r'\b(centro|center|centre|interpretation|visitors?|homes
 SOILW = re.compile(r'\b(soil|soils|boden|suelo|suelos|pebbles|galets|kies|gravel|stones|cailloux)\b', re.I)
 VINE_HEAD = re.compile(r'^(vineyards?|vignobles?|vignes|weinberge?|weinlagen?|rebberge?|vigneti|vigne|vinedos|vinhas|vinhedos|vinyes|wijngaarden|vinohrady|vinogradi|szololtetveny\w*)\b')
 ARTICLE_NAME = re.compile(r'(\b(valley|coast|hills|mountains|plains|islands|highlands|lakes|peninsula|riviera|basin|bench|range|foothills|'
-                          r'heights|plateau|delta|downs|lowlands|uplands|isthmus|archipelago|interior|wolds)$|^(northern|southern|eastern|western|'
-                          r'central|mid-|mid |upper|lower|north |south |east |west |greater ))', re.I)
+                          r'heights|plateau|delta|downs|lowlands|uplands|isthmus|archipelago|wolds)$)', re.I)
 INTERIOR = re.compile(r'\b(interior|interieur|innenansicht|innenraum|nave|choir|chancel|crypt|inside)\b', re.I)
 BAD_CATS = re.compile(r'(wine bottles|wine labels|bottles of|labels of|maps of|locator maps|logos|coats of arms|portrait|people of|people in|'
                       r'men of|women of|men in|women in|wine tasting|cuisine|dishes|food of|interiors? of|information boards|'
@@ -109,7 +113,7 @@ COUNTRY_ALT = {'fr': 'france frankreich francia', 'it': 'italy italia italien it
                'mt': 'malta', 'ru': 'russia', 'ua': 'ukraine crimea'}
 KEEP_ART_TYPES = {'event', 'grape'}
 GRAPE_NAMES = []
-ART_CATS = re.compile(r'(postcards|engravings|lithographs|drawings|paintings|illustrations|documents|manuscripts|letters|'
+ART_CATS = re.compile(r'(artworks|museum of art|metropolitan museum|objects in the|archaeological artefacts|reliefs|postcards|engravings|lithographs|drawings|paintings|illustrations|documents|manuscripts|letters|'
                       r'costumes|dances|videos|screenshots|book scans|scans|newspapers|advertising)', re.I)
 OK_MIME = ('image/jpeg', 'image/png', 'image/webp', 'image/tiff')
 
@@ -136,7 +140,19 @@ def load_geoms():
     for ft in json.load(open(f'{D}/geo/_regions.geojson'))['features']:
         if ft.get('geometry'):
             G[ft['properties']['id']] = shape(ft['geometry'])
+    if FINE_GEOMS[0]:
+        for f in glob.glob(f'{D}/geo/*_fine.geojson'):
+            for ft in json.load(open(f))['features']:
+                i = ft['properties']['id']
+                if ft.get('geometry') and i not in G:
+                    try:
+                        G[i] = shape(ft['geometry'])
+                    except Exception:
+                        pass
     return G
+
+
+FINE_GEOMS = [False]
 
 
 def title_stem(t):
@@ -190,7 +206,7 @@ def strict_site_match(ent, label, dist_km=None):
     if m and ent.get('kind') == 'historic':
         names.append(m.group(1))
     b = core(label)
-    close = dist_km is not None and dist_km < 0.3
+    close = dist_km is not None and dist_km < 0.3 and ent.get('cq') == 'precise' and ent.get('kind') in ('historic', 'landscape', 'village', 'museum')
     for n in names:
         a = core(n)
         if not a or not b:
@@ -497,10 +513,10 @@ class Gazetteer:
         for k in self.by:
             self.by[k].sort(key=lambda x: -len(x[0]))
 
-    def find(self, iso, text, exclude_ids=()):
+    def find(self, iso, text, exclude_ids=(), types=('site', 'appellation')):
         t = ' ' + text + ' '
         for n, ent in self.by.get(iso, []):
-            if ent['id'] in exclude_ids:
+            if ent['id'] in exclude_ids or ent['type'] not in types:
                 continue
             if ' ' + n + ' ' in t:
                 return ent
@@ -522,7 +538,7 @@ def describe(ent, m, txt_title_desc, txt_all, src, gaz, names_cache):
             return f'{name} vine in flower'
         if re.search(r'\b(plant|whole vine|vine stock|rebstock|cep|ceps|pianta|cepa|stock)\b', txt_title_desc) and not GRAPES.search(txt_title_desc):
             return f'{name} vine'
-        if GRAPES.search(txt_title_desc) or src.startswith('wd'):
+        if GRAPES.search(txt_title_desc):
             return f'{name} grapes'
         if VINE_STRICT.search(txt_title_desc):
             return f'{name} vines'
@@ -540,24 +556,32 @@ def describe(ent, m, txt_title_desc, txt_all, src, gaz, names_cache):
     place = name
     near = None
     if typ in ('country', 'region', 'appellation'):
-        near = gaz.find(ent['country'], txt_title_desc, exclude_ids={ent['id']})
+        near = gaz.find(ent['country'], txt_title_desc, exclude_ids={ent['id']}, types=('site',) if typ == 'appellation' else ('site', 'appellation'))
         if near is not None and typ == 'appellation' and (norm(near['name']) in norm(name) or norm(name) in norm(near['name'])):
             near = None
     season = season_of(txt_title_desc)
-    aerial = bool(AERIAL.search(txt_title_desc)) or ':P8592' in src
-    if typ == 'site' and (src.startswith('wd') or any(n in txt_title_desc for n in names_cache) or BUILDING.search(txt_title_desc)):
+    aerial = bool(AERIAL.search(txt_title_desc))
+    if typ == 'site':
         # the estate itself
         kind = ent.get('kind') or ''
+        vy = re.search(r'\b(vineyards?|vines|vignobles?|vignes|vigne|weinberge?|weinlagen?|rebberge?|vigneti|vigna|vinedos?|vinhas?|'
+                       r'vinhedos?|vinyes|szolo\w*|vinograd\w*|vinohrad\w*)\b', txt_title_desc)
+        own_cellar = bool(CELLAR.search(norm(name)))
+        vkinds = ('vineyard', 'cru', 'grand_cru', 'premier_cru', 'lieu_dit', 'mga')
         if aerial:
             base = f'Aerial view of {name}'
-        elif CELLAR.search(txt_title_desc) and kind not in ('village', 'landscape'):
+        elif re.search(r'\b(museum|musee|museo|muzeum)\b', txt_title_desc) and kind != 'museum':
+            base = f'The museum at {name}'
+        elif re.search(r'\bcellar door\b', txt_title_desc):
+            base = f'The cellar door at {name}'
+        elif CELLAR.search(txt_title_desc) and not own_cellar and kind not in ('village', 'landscape') and not vy:
             base = f'Cellar at {name}'
-        elif VINE_STRICT.search(txt_title_desc) and kind in ('chateau', 'estate', 'quinta', 'house', 'cellar', 'museum', 'historic'):
+        elif vy and kind in ('chateau', 'estate', 'quinta', 'house', 'cellar', 'museum', 'historic'):
             base = f'{name} and its vineyards'
-        elif BUILDING.search(txt_title_desc) and not VINE_STRICT.search(txt_title_desc):
+        elif BUILDING.search(txt_title_desc) and not vy:
             base = name
-        elif VINE_STRICT.search(txt_title_desc) or kind in ('vineyard', 'cru', 'grand_cru', 'premier_cru', 'lieu_dit', 'mga'):
-            base = f'The {name} vineyard' if kind in ('vineyard', 'cru', 'grand_cru', 'premier_cru', 'lieu_dit', 'mga') and not re.match(r'(the|le|la|les|il|el|der|die|das|clos|chateau|domaine)\b', norm(name)) else f'Vineyards of {name}'
+        elif vy or kind in vkinds:
+            base = f'The {name} vineyard' if kind in vkinds and not re.match(r'(the|le|la|les|il|el|der|die|das|clos|chateau|domaine)\b', norm(name)) else f'Vineyards of {name}'
         elif kind == 'village' and LAND.search(txt_title_desc):
             base = f'View of {name}'
         else:
@@ -579,7 +603,10 @@ def describe(ent, m, txt_title_desc, txt_all, src, gaz, names_cache):
     other = bool(OTHER_SUBJ.search(txt_title_desc)) or bool(BUILDING.search(txt_title_desc))
     vine_cat = cat_vine_head(m) and not other and not CELLAR.search(txt_title_desc)
     vine = vine_td or vine_cat
-    if aerial:
+    title_only = norm(re.sub(r'\.(jpe?g|png|tiff?|webp)$', '', m['title'][5:], flags=re.I))
+    if CELLAR.search(title_only) and not VINE_STRICT.search(title_only):
+        cap = f'A wine cellar {loc_phrase}'
+    elif aerial:
         cap = f'Aerial view of vineyards {loc_phrase}' if vine else f'Aerial view of {with_article(near["name"]) if near is not None else where}'
     elif SOILW.search(txt_title_desc) and (vine_td or VINE.search(txt_title_desc)):
         cap = f'Vineyard soil {loc_phrase}'
@@ -587,6 +614,8 @@ def describe(ent, m, txt_title_desc, txt_all, src, gaz, names_cache):
         cap = f'Harvest {loc_phrase}'
     elif vine_td and TERRACE.search(txt_title_desc):
         cap = f'Terraced vineyards {loc_phrase}'
+    elif GRAPES.search(txt_title_desc) and re.search(r'\b(baskets?|crates?|boxes|bins?|lugs?|harvested|picked|cagettes?|caisses?|cassette)\b', txt_title_desc):
+        cap = f'Harvested grapes {loc_phrase}'
     elif vine_td and GRAPES.search(txt_title_desc) and not re.search(r'\b(vineyards?|vignobles?|weinberge?|vigneti|vinedos|vinhas|vinhedos)\b', txt_title_desc):
         cap = f'Grapes on the vine {loc_phrase}'
     elif vine:

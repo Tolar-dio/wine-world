@@ -3,7 +3,11 @@
 Builds: `python3 -I frontend/build.py` writes `site/index.html` (Claude artifact, `VM_CONFIG.mode = 'artifact'`) and
 `dist-gh/index.html` (GitHub Pages, `mode = 'gh'`) plus the PWA files in `dist-gh/` (manifest, `sw.js`, icons).
 `--out DIR` makes a private pair (`DIR/index.html` artifact, `DIR/gh.html` Pages). `frontend/deploy_gh.py` copies
-the Pages site into `/home/claude/wine-world/docs` (no git). `frontend/make_mapdata.py` precomputes
+the Pages site into `/home/claude/wine-world/docs` (no git). **For front-end-only deploys, use
+`deploy_gh.py --skip-data`** (alias `--only-frontend`). It copies only `index.html`, `sw.js`, the manifest, icons,
+`.nojekyll` and `fonts/`, leaves `docs/data/` untouched and removes nothing. It also warns about any data file the
+new page lists that `docs/` lacks. Full data deploys only after `integrate.py` has run: other agents append raw
+features to `site/data/geo/*_fine.geojson`, and those lack `clim` and `prof` until integration. `frontend/make_mapdata.py` precomputes
 `site/data/map/{cover,journeys}.json` (rerun after geo or river changes).
 
 Sources: `frontend/src/` core.js, map.js, ui.js (v1, with small hooks), vm.js (the `window.VM` API, see `API.md`),
@@ -72,7 +76,7 @@ Sonnenuhr on a June evening, Hermitage on a January afternoon, Pinhão at harves
 switches to the standard base, so the light and shade read clearly; closing it restores the previous base.
 
 ### River journeys (Pages; `#journeys`, `#journey-<id>`)
-Nine journeys:
+Nine journeys (corridors: 2 km for appellations, 1.6 km for fine units, 1 km for sites; chips are closest first):
 - Mosel: Trier to Koblenz
 - Douro: Barca d'Alva to Porto
 - Rhône: Vienne to Avignon
@@ -147,9 +151,86 @@ Playback:
 - Registered only in the Pages build, on https or localhost. About shows an install box: a button when
   `beforeinstallprompt` fired, iOS instructions otherwise. A toast appears when the connection drops.
 
+### Fixes from the live QA (work/qa_live/report.md)
+- National imagery: the tile protocol no longer assumes an AbortController (`abort?.signal`). MapLibre sometimes
+  passes none, which threw 38 uncaught errors during journeys.
+- Bottles: `mhl × 100 / 0.75` million bottles. Italy now shows about 5,920 m; it was 10 times too low.
+- Late data: a profile drawn before the country list, the index, the sites or `meta.json` had arrived re-renders
+  once in place when they land, keeping its scroll and snap. This fixes the cold `#site-fr-chambertin` ("not on the
+  map") and the cold "IT" for Italy. Sites wait up to 4 s for the index and site list.
+- Same-named units: search rows and colliding map labels name the place. The order of preference is `ctx` from the
+  index (when integration adds it), then the village in an alias ("Augenthal Kellerberg"), then the parent. Map
+  labels get a second, smaller line only where a name repeats within a country.
+- Desktop views bar: wraps into hairline-ruled rows, so Cellar, Filter, Compare and Study are always visible.
+  Phones keep the sideways scroll with a fade.
+- Unknown links (`#zz`, `#it-barolo-cannubi`): a "Nothing at this link" panel with a search button pre-filled
+  from the link.
+- After a journey or 3D ends, the camera levels (pitch and bearing 0) even if the easing was interrupted.
+- Source lines show `meta.json` titles instead of raw keys, and no bare `#id`.
+- Ledgers never break words. Four-figure ledgers sit two by two. Converted acres and square miles keep three
+  significant figures.
+- Phone tap targets are at least 24 px: breadcrumbs, credits and licence links, glossary See, notes, the
+  attribution line and "Show key".
+- New river-journey icon (three waves; the old one drew as a slash).
+- Photos are not requested twice: a re-render moves the existing photo nodes back in.
+- Soils are searchable. Fuzzy search keeps typo guesses only when nothing matches properly, and a misspelt word
+  start must begin with the same letter ("brunello" no longer finds "La Jeunellotte").
+- Desktop: the open side sheet pads the map, so the globe centres in the space left of it.
+- Memory: country sources out of view for 60 s are unloaded beyond 12 loaded (6 on phones), and fine-unit sources
+  out of view for 20 s beyond 3 (2 on phones). The open profile's country and the selection are kept; profile data
+  stays. Raster tile caches are capped at 120 tiles per source (48 on phones).
+- The journey route layer is renamed `rj-route` to stay out of the journal's `jr-*` namespace.
+- `ctx` (from integration) appears in the meta of appellation, point and site results, and "name ctx" is
+  searchable ("goldberg langenlois"). It also gives colliding map labels their second line, and appears in the
+  sheet bar.
+- The sheet bar names the place: "Cannubi · Barolo", "Ried Kellerberg · Dürnstein", "Quinta do Vesuvio ·
+  Porto", "Burgundy · France". Before, it showed only the country or the kind.
+- Leaving 3D: when the easing hasn't finished after 1.1 s, a timer stops the camera and levels it. On a slow
+  device (the Rhône journey under SwiftShader) `moveend` never came, and the camera stayed at 63°.
+- Custom views (`#journal…`, `#photo-review`) route at once at boot. They no longer wait for the country list.
+- `deploy_gh.py --skip-data --include data/map` ships the front end's own map data (journey texts, coverage)
+  without touching integration's files.
+- Drinking window (`40_ageing`): its section keeps order 25 in `mid`, and 21–29 are reserved for it (API.md). Its
+  sources are credited in About. The journal render hooks, cellar filter API and Compare hook it asked for belong
+  to the journal and somm modules.
+- Testing under load: with the machine at load 12 (other agents), cold deep links took 23–80 s under SwiftShader,
+  48 s of it map initialisation. The panel follows within seconds of the data arriving.
+- Left for other owners: ASCII-transliterated rules text (regs data), wiki signatures in photo credits and bad
+  photos (photos data), stale country statistics (content), the climate outliers in `it-alto-adige-vetzaner` and
+  `cn-shangri-la-deqin` (climate/topo data).
+- Not done: the optional detailed vector basemap. It is worth doing, but it adds memory on phones, which the QA
+  flagged as the main risk.
+
+### Gestures
+A two-finger twist rotates the map in every mode (globe and flat). Two-finger tilt is on only with 3D terrain, so
+a twist cannot tip the map by accident. On desktop, right-drag or ctrl-drag rotates, and adds tilt only in 3D. The
+compass resets to north (keeping the tilt in 3D) and turns gold, with a spoken bearing, while the map is turned.
+Gestures on the bottom sheet never reach the map. Tested with CDP two-point touch on a 390 px phone: twist on the
+globe and at z12.5, compass reset, no tilt from a two-finger drag outside 3D, tilt inside it, and a twist on the
+sheet.
+
+### Back keeps your place
+Every route remembers the panel's scroll position and phone snap point. Going back, by the panel's back button or
+the browser's, restores both after the re-render and keeps trying while async sections (terrain, vintages, photos)
+grow the page, for up to 4 s or until the reader touches the panel. `history.scrollRestoration = 'manual'`.
+Forward navigation starts at the top. Tested: Napa Valley to Oakville and back, and Gevrey-Chambertin to Aux
+Combottes and back, on desktop and phone, with the button and with browser back. A route opened before
+`_countries.json` arrives waits for it for up to 2.5 s, so profiles never show bare iso codes.
+
+### Fine-unit profiles
+Opening a fine unit (Burgundy climat, Einzellage, Ried, MGA...), a fine-only point, or a site inside a fine unit
+lazy-loads `data/content/{iso2}_fine.json` (named by `fine_content` in the content file or in `_countries.json`)
+and merges its `fine_profiles` into the country's profiles. Inline `fine_profiles` (integrate.py
+`--inline-fine-profiles`) also work. Fine-only extra points (`fine: 1`) have their own layers, shown from fine zoom.
+Fine units were already in search, and those with `prof: 1` rank higher.
+
 ### API additions for the module engineers (all in `API.md`)
 - `VM.map.captureTap`, `VM.map.labels`, `VM.map.pulse` and `clearPulse`
-- `VM.data.ensureGeo`
+- `VM.data.ensureGeo`, `VM.data.loadSites` and `loadRegions`, `VM.data.fineContent`
+- `VM.layers.add` (module toggles in Layers) and `VM.map.onLayerTap` (non-exclusive taps and hovers on module
+  layers)
+- the sticky `data:sites` and `data:regions` events
+- `VM.map.labels(false)` stays in force for label layers added later
 - the `data:geo` event
 - site ids in `VM.highlight`
 - `VM.data.events` with the sibling rule
@@ -188,9 +269,65 @@ Checked but not used:
   using the AWS tiles.
 
 ## Verified (Playwright + SwiftShader through the agent proxy; screenshots in `work/fe_v2_shots/`)
-(filled in below by the test runs)
+Harness: `frontend/test_v2.py <scenario>` (serve `site/` on :8791 and the Pages build on :8792 first).
+- In tests, Commons thumbnails are served from a local placeholder, because Wikimedia's robot policy refuses
+  headless browsers.
+- There is no `response` listener: Playwright would keep every Response object alive, and tile-heavy pages run to
+  gigabytes. Chrome logs 4xx and 5xx to the console anyway, and the console is captured.
+- 3D views run at 1100×720 in their own process, because SwiftShader under the machine's shared memory limit
+  crashes at 1440×900 with terrain.
+
+Screenshots:
+- **Satellite over Burgundy:** IGN BD ORTHO at z15, vine rows visible, light fills, credit "Sentinel-2 cloudless
+  2025 by EOX · IGN France": `sat-burgundy-z15.png`. Also `sat-burgundy-z11.png`, `sat-rhone-z8.png`, and on a
+  phone `final-phone-dark-sat-burgundy.png`.
+- **3D terrain:** the Mosel at Wehlen (light theme, the Einzellagen draped on relief, credits for EOX, IGN, RLP
+  and the terrain tiles): `3d-mosel-wehlen.png`. The Douro gorge at Pinhão (dark): `3d-douro-pinhao.png`.
+- **Topographic:**
+  - The Wachau on basemap.at at z13, with the Rieden in dark ink: `topo-wachau-z13.png`.
+  - Barolo on OpenTopoMap: `topo-barolo-contours.png`.
+- **Sunlight explorer:** Côte-Rôtie on 5 October at 08:30 solar time. The south-east-facing Côte Brune and Côte
+  Blonde are lit and the rest is in shade, in 3D: `dbg-sun.png`. The earlier bug is fixed: the shading sat under
+  the appellation fills.
+- **River journeys:** `journey-mosel-km44.png`, `journey-douro-pinhao.png`. Corridors were widened to 1.6 km for
+  fine units and 2 km for main appellations, because the smoothed Natural Earth line cuts across meanders (the
+  Bernkasteler Doctor is 2.6 km from it). At km 44 the chips now name Lieser, Zeltingen and the Wehlener
+  Sonnenuhr.
+- **Profile sections** (artifact build):
+  - terrain card with rose and reading: `prof-wehlen-terrain.png`
+  - vintage strip inherited from the Mosel, with regional notes: `prof-wehlen-vintage.png`
+  - Barbaresco showing Barolo's events: `prof-barbaresco-vintage.png`
+  - Hermitage drift and twins: `prof-hermitage-drift.png`
+  - Napa's whole-legal-area wording: `prof-napa-terrain.png`
+  - Wachau rules: `prof-wachau-rules.png`
+- **PWA:** the service worker takes control on reload, and the caches fill on use (page, data, libraries,
+  tiles). Then, offline: reload and open the Douro, and the profile renders with every section (terrain, vintages,
+  drift, rules, journal, compare). `pwa-offline-douro.png`.
+- **Phone docks (360):** base-map popover, Wachau journey dock, Wehlen sunlight dock: `phone-bm-popover.png`,
+  `phone-journey-wachau.png`, `phone-sun-wehlen.png`. The popover and journey dock overflowed at 360 (content-box
+  sizing; a grid column stretched by the chip row); both are fixed.
+- **Phone 360 light:** Quinta do Vesuvio with terrain, vintages via Porto and drift: `phone-prof-vesuvio-*.png`.
+  About credits: `phone-about-credits.png`. No horizontal scroll (360/360/360).
+- **Integrated passes with all modules (journal, compare, filter, study, tasting).** Each one visits the globe, an
+  appellation, a site, a country, Layers, Cellar, Compare, Filter, Study, journeys, About, a grape and a region:
+  - phone 390×844 dark and light, desktop 1440×900 light and 1280×800 dark, artifact phone
+  - screenshots `final-<tag>-*.png`
+  - result on 2026-10-29: **no console errors or warnings in any pass**, and no horizontal scroll. Deployed to
+    `wine-world/docs` twice (checkpoint, then this state).
 
 ## Limits and follow-ups
+- Memory, carried over from v1: country polygon sources are never unloaded. A country profile at country scale
+  (Italy) loads about 24 neighbouring countries' polygons. That is fine on desktops; on older phones this, plus 3D
+  terrain, is the first place to look if tabs reload. Unloading far sources is the next step.
+- Photos of grapes, timeline events and soils come from `_global.json`, which is keyed without the route prefix.
+  The lookup strips `grape-`, `event-`, `soil-` and `term-`; before this fix the 108 event and 76 soil photos never
+  showed. Events show them in their profile; the Lexicon shows one lazy photo per soil (31 of 33 have one), read
+  through `VM.data.photos`, so the photo-review module's hide-flagged filter applies there too.
+- About has a section slot: `VM.panel.addSection('about', fn)` and the `about:render` event (About does not fire
+  `profile:open`, and `'*'` sections skip it).
+- Photos: hero and gallery load lazily from the stored Commons URLs, and the gallery uses `thumb_small` when it is
+  there. A photo that fails removes itself, and the section hides when an id has no photos. Wikimedia refuses
+  headless browsers, so tests use a local placeholder.
 - National imagery appears from z12.5 only (z13 tiles), so between z10 and z12.5 the Sentinel-2 mosaic shows
   everywhere. This is a deliberate choice: below z13 several services serve their own satellite mosaics.
 - Coverage polygons are simplified to about 800 m (3 km for the US), so tiles right at a border may show a strip of

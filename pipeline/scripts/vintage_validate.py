@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Validation of the vintage record (prints a report; results copied into work/vintage-log.md).
-Run: python3 -I scripts/vintage_validate.py"""
+Run: python3 -I scripts/vintage_validate.py [--geo DIR]   (DIR: geo files whose clim to compare, default site/data/geo)"""
 import json
 import sys
 from pathlib import Path
@@ -41,7 +41,8 @@ def main():
     print("entities with records:", len(D))
     # ---- A. consistency with v1 normals (TerraClimate 1991-2020 climatology file)
     clim = {}
-    for p in sorted((ROOT / "site/data/geo").glob("*.geojson")):
+    geo = Path(sys.argv[sys.argv.index("--geo") + 1]) if "--geo" in sys.argv else ROOT / "site/data/geo"
+    for p in sorted(geo.glob("*.geojson")):
         if p.name.startswith("_") or p.name.endswith("_fine.geojson"):
             continue
         for f in json.load(open(p, encoding="utf-8"))["features"]:

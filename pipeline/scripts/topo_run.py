@@ -391,6 +391,7 @@ def safe_process(task):
 
 
 def main():
+    global PARTS
     import multiprocessing as mp
     args = sys.argv[1:]
     only = None; nworkers = 3
@@ -404,6 +405,19 @@ def main():
     with open(f'{WORK}/prep.pkl', 'wb') as fh:
         pickle.dump(dict(groups=groups, feats=feats, tiles=sorted(t for t, _ in tasks)), fh)
     print(f'prep: {len(feats)} features/sites, {len(groups)} unique geometries, {len(tasks)} tiles, {time.time()-t0:.0f}s', flush=True)
+    if '--incremental' in args:
+        # keys already computed in earlier runs: never recomputed (identical geometry -> identical stats)
+        done = set()
+        for d in [f'{WORK}/parts'] + sorted(glob.glob(f'{WORK}/parts_inc*')):
+            for p in glob.glob(f'{d}/*.pkl'):
+                done.update(k.split('@')[0] for k in pickle.load(open(p, 'rb'))['out'])
+        tag = args[args.index('--incremental') + 1]
+        PARTS = f'{WORK}/parts_inc{tag}'
+        os.makedirs(PARTS, exist_ok=True)
+        tasks = {t: [it for it in v if it[0] not in done] for t, v in tasks.items()}
+        tasks = {t: v for t, v in tasks.items() if v}
+        newkeys = set(it[0] for v in tasks.values() for it in v)
+        print(f'incremental {tag}: {len(done)} keys already done, {len(newkeys)} geometries to compute on {len(tasks)} tiles', flush=True)
     todo = [(k, v) for k, v in tasks.items() if (only is None or any(o in k[0] for o in only))]
     todo = [t for t in todo if not os.path.exists(f'{PARTS}/{t[0][0]}.pkl')]
     # heavy tiles first-ish but interleaved

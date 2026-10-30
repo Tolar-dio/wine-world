@@ -178,7 +178,8 @@
 .jr-agroup { display: grid; gap: 5px; padding: 6px 10px 0; }
 .jr-agl { font-family: var(--f-sc); font-size: 13px; letter-spacing: .04em; color: var(--muted); }
 
-/* the sticky save bar */
+/* the sticky save bar; scroll padding keeps a focused or scrolled-to field above it */
+#sheet-body[data-view="journal"]:has(.jr-form) { scroll-padding-bottom: 96px; }
 .jr-savebar { position: sticky; bottom: -40px; z-index: 3; display: flex; gap: 8px; align-items: center;
   margin: 22px -24px -40px !important; padding: 12px 24px 14px; background: var(--panel); border-top: 1px solid var(--rule-strong); }
 .jr-savebar .btn { justify-content: center; }

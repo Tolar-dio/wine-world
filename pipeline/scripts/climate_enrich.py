@@ -33,14 +33,24 @@ clim keys:
            range (Jones 2006)
   n        "area" (zonal mean over the polygon) or "point" (sampled at lp: polygon smaller
            than a climate grid cell, or no valid land cells inside)
-Viability weighting: large boundaries (admin proxies especially) often take in high mountains
-or deserts where no vines grow (e.g. Lujan de Cuyo reaches 6,100 m). Climate values and `elev`
-are therefore coverage-weighted means over the cells with GST 12-24 deg C only; when a polygon
-has no such cell (vf = 0, e.g. tropical or very cool areas) the plain mean is used.
-elev_min / elev_max always describe the whole polygon.
-Indices are computed per grid cell first, then averaged over the polygon (coverage-weighted
-via exactextract), so nonlinear thresholds (GDD, HI) are honoured cell by cell. Hemisphere
-(season) and Huglin K are chosen from the feature's label point latitude.
+  dz       m, mean elevation shift applied by the lapse-rate correction (cell mean elevation minus
+           target elevation; positive = the vineyards lie below the TerraClimate cell's mean)
+
+v2 (2026-10-30): ELEVATION (LAPSE-RATE) CORRECTION. TerraClimate values describe a ~4 km cell at the
+cell's mean elevation; small units and valley vineyards often lie far below it (Vetzaner, Vinschgau: cell
+1,600-1,800 m, vineyards 688-860 m, GST read 9.4 C instead of ~15). Now (scripts/climate_downscale.py):
+  * every 30" (~1 km) WorldClim DEM cell inside the polygon gets its TerraClimate cell's monthly normals
+    shifted to its own elevation with monthly Tmax/Tmin lapse rates fitted on 1,019 GHCN stations
+    (work/climate_lapse.json; e.g. Apr-Oct below-cell rates Tmax ~6.4, Tmin ~4.4 C/km);
+  * the viability rule (GST 12-24 C, Jones 2006) is applied to those 1 km cells, not to 4 km cells;
+  * small features (<= 25 km2) with Copernicus 30 m terrain stats (site/data/topo) are shifted to their
+    30 m mean elevation `e` instead (lieux-dits, Einzellagen, UGAs, grand crus); elev / elev_min / elev_max
+    then come from the 30 m stats (e, e5, e95);
+  * indices are computed per (feature, TerraClimate cell) pair from the shifted monthly values and then
+    weight-averaged, so GDD/Huglin thresholds still act cell by cell; precipitation is not adjusted.
+  * vf = viable fraction of the polygon's 1 km land cells after downscaling.
+The v1 script is archived at work/climate_enrich.v1.py.
+Hemisphere (season) and Huglin K are chosen from the feature's label point latitude.
 """
 import json
 import math
@@ -160,6 +170,35 @@ def build_climate_cache():
     print(f"climate cache built in {time.time() - t0:.0f}s")
 
 
+NORM = {"tmax": "int16", "tmin": "int16", "ppt": "uint16"}
+
+
+def build_normals_cache():
+    """Monthly 1991-2020 normals as raw integer memmaps (12, 4320, 8640): tmax/tmin int16 as stored
+    (x0.1 - 73 C, -32768 = no data); ppt as uint16 tenths of mm (65535 = no data)."""
+    import netCDF4
+    CACHE.mkdir(parents=True, exist_ok=True)
+    for v, dt in NORM.items():
+        with netCDF4.Dataset(TC / f"TerraClimate_19912020_{v}.nc") as d:
+            var = d[v]
+            var.set_auto_maskandscale(False)
+            fill = var._FillValue
+            assert abs(float(var.scale_factor) - 0.1) < 1e-9
+            mm = np.lib.format.open_memmap(CACHE / f"norm_{v}.tmp.npy", mode="w+", dtype=dt, shape=(12, TC_NY, TC_NX))
+            for m in range(12):
+                a = var[m]
+                if v == "ppt":
+                    b = np.where(a == fill, 65535, np.clip(a, 0, 65534)).astype(np.uint16)
+                else:
+                    assert abs(float(var.add_offset) + 73.0) < 1e-9
+                    b = a.astype(np.int16)
+                mm[m] = b
+            mm.flush()
+            del mm
+        os.replace(CACHE / f"norm_{v}.tmp.npy", CACHE / f"norm_{v}.npy")
+    print("monthly normals cache built")
+
+
 def build_dem_cache():
     import rasterio
     from rasterio.windows import Window
@@ -214,6 +253,12 @@ def ensure_cache(rebuild=False):
         build_viability_cache()
     if rebuild or not (CACHE / "elev.npy").exists():
         build_dem_cache()
+    if rebuild or not all((CACHE / f"norm_{v}.npy").exists() for v in NORM):
+        build_normals_cache()
+    if rebuild or not (CACHE / "tc_elev.npy").exists():
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import climate_downscale
+        climate_downscale.build_tc_elev()
 
 
 # ---------------------------------------------------------------- helpers
@@ -300,94 +345,87 @@ def fin(x):
 
 # ---------------------------------------------------------------- main computation
 class Enricher:
-    def __init__(self):
-        from exactextract.raster import NumPyRasterSource
-        self.grids = {g: np.load(CACHE / f"{g}.npy", mmap_mode="r") for g in GRIDS}
-        self.via = {h: np.load(CACHE / f"via_{h}.npy", mmap_mode="r") for h in "ns"}
-        self.wt = {h: np.load(CACHE / f"wt_{h}.npy", mmap_mode="r") for h in "ns"}
-        self.elev = np.load(CACHE / "elev.npy", mmap_mode="r")
-        E = (-180, -90, 180, 90)
-        self.tc_src = [NumPyRasterSource(self.grids[g], *E, nodata=np.nan, name=g) for g in GRIDS]
-        self.via_src = {h: NumPyRasterSource(self.via[h], *E, nodata=np.nan, name="via") for h in "ns"}
-        self.wt_src = {h: NumPyRasterSource(self.wt[h], *E, name="wt") for h in "ns"}
-        self.dem_src = NumPyRasterSource(self.elev, *E, nodata=-32768, name="elev")
+    """v2: lapse-rate downscaled normals per (feature, TerraClimate cell) pair (see module docstring)."""
 
-    def zonal(self, feats, hemis):
-        """Per feature: plain and viability-weighted means of every climate grid, viable
-        fraction, DEM min/max/mean/weighted mean. Features grouped by hemisphere because
-        the viability weights depend on the season."""
-        from exactextract import exact_extract
-        from exactextract.feature import JSONFeatureSource
-        res = {i: {} for i in range(len(feats))}
-        for h in "ns":
-            idx = [i for i in range(len(feats)) if hemis[i] == h]
-            if not idx:
-                continue
-            fs = [{"type": "Feature", "properties": {"_i": i}, "geometry": feats[i]["geometry"]} for i in idx]
-            for r in exact_extract(self.tc_src, JSONFeatureSource(fs), ["mean", "weighted_mean"],
-                                   weights=self.wt_src[h], include_cols=["_i"]):
-                res[r["properties"]["_i"]].update(r["properties"])
-            for r in exact_extract([self.via_src[h]], JSONFeatureSource(fs), ["mean"], include_cols=["_i"]):
-                res[r["properties"]["_i"]]["vf"] = r["properties"].get("via_mean", r["properties"].get("mean"))
-            for r in exact_extract([self.dem_src], JSONFeatureSource(fs), ["mean", "min", "max", "weighted_mean"],
-                                   weights=self.wt_src[h], include_cols=["_i"]):
-                p = r["properties"]
-                res[p["_i"]].update({k if k.startswith("elev_") else "elev_" + k: v
-                                     for k, v in p.items() if k != "_i"})
-        return res
+    def __init__(self):
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import climate_downscale as cd
+        self.cd = cd
+        self.L = cd.lapse()
+        self.topo = cd.load_topo()
+        self.norm = {v: np.load(CACHE / f"norm_{v}.npy", mmap_mode="r") for v in NORM}
+
+    def cellvals(self, cells):
+        rows, cols = cells // TC_NX, cells % TC_NX
+        tx = self.norm["tmax"][:, rows, cols].astype(np.float64)
+        tn = self.norm["tmin"][:, rows, cols].astype(np.float64)
+        pr = self.norm["ppt"][:, rows, cols].astype(np.float64)
+        bad = (tx == -32768) | (tn == -32768) | (pr == 65535)
+        tx, tn, pr = tx * 0.1 - 73.0, tn * 0.1 - 73.0, pr * 0.1
+        tx[bad] = np.nan; tn[bad] = np.nan; pr[bad] = np.nan
+        return tx, tn, pr
+
+    def indices(self, r):
+        """Normal climate indices for one feature's pairs (weighted means of per-pair values)."""
+        h = r["h"]
+        tx, tn, pr = self.cellvals(r["cell"])
+        dz = (r["zc"] - r["zt"]) / 1000.0
+        tx = tx + self.cd.shift(self.L, h, "tmax", dz)
+        tn = tn + self.cd.shift(self.L, h, "tmin", dz)
+        tm = (tx + tn) * 0.5
+        d = DAYS[:, None].astype(np.float64)
+        m, mh = SEASON[h], HUGLIN[h]
+        per = {
+            "gst": tm[m].mean(axis=0),
+            "gdd": (np.maximum(tm[m] - 10, 0) * d[m]).sum(axis=0),
+            "hi": (np.maximum((tm[mh] + tx[mh]) * 0.5 - 10, 0) * d[mh]).sum(axis=0),
+            "gsp": pr[m].sum(axis=0),
+            "prec": pr.sum(axis=0),
+        }
+        k = np.argmax(np.where(np.isfinite(tm), tm, -999), axis=0)
+        per["mjt"] = np.take_along_axis(tm, k[None], axis=0)[0]
+        per["dtr"] = np.take_along_axis(tx - tn, k[None], axis=0)[0]
+        ok = np.isfinite(per["gst"]) & np.isfinite(per["prec"])
+        if not ok.any():
+            return None
+        w = r["w"] * ok
+        w = w / w.sum()
+        out = {g: float(np.dot(w, np.where(ok, v, 0))) for g, v in per.items()}
+        out["zt"] = float(np.dot(w, r["zt"]))
+        out["dz"] = float(np.dot(w, r["zc"] - r["zt"]))
+        return out
 
     def compute(self, feats):
-        pts = [label_point(f) for f in feats]
-        hemis = ["n" if lat >= 0 else "s" for _, lat in pts]
-        z = self.zonal(feats, hemis)
+        pairs = self.cd.feature_pairs(feats, ["poly"] * len(feats), topo=self.topo, L=self.L)
         out = []
-        for i, f in enumerate(feats):
-            lon, lat = pts[i]
-            h = hemis[i]
-            area = approx_area_km2(f)
-            cell_tc = (1 / 24 * 111.32) ** 2 * max(0.05, math.cos(math.radians(lat)))
-            cell_dem = (1 / 120 * 111.32) ** 2 * max(0.05, math.cos(math.radians(lat)))
-            t = z[i]
-            vf = t.get("vf")
-            weighted = isinstance(vf, float) and math.isfinite(vf) and vf > 0
-            if weighted:   # exactextract names weighted outputs "{value}_{weight}_weighted_mean"
-                vals = {g: t.get(f"{g}_wt_weighted_mean", t.get(f"{g}_weighted_mean")) for g in GRIDS}
-            else:
-                vals = {g: t.get(f"{g}_mean") for g in GRIDS}
-            mode = "area"
-            if area < cell_tc or not all(fin(vals[g]) for g in GRIDS):
-                mode = "point"
-                vals = {g: sample(self.grids[g], 1 / 24, lon, lat) for g in GRIDS}
-                vf = sample(self.via[h], 1 / 24, lon, lat)
-            em = (t.get("elev_wt_weighted_mean", t.get("elev_weighted_mean"))
-                  if weighted and mode == "area" else t.get("elev_mean"))
-            if area < cell_dem or not fin(em):
-                em = emin = emax = sample(self.elev, 1 / 120, lon, lat, max_r=6)
-            else:
-                emin, emax = t.get("elev_min"), t.get("elev_max")
-            if not fin(vals["gst_" + h]):
+        for f, r in zip(feats, pairs):
+            if r is None:
                 out.append(None)
                 continue
-            gst = vals["gst_" + h]
-            gdd = vals["gdd_" + h]
-            hi = vals["hi_" + h] * huglin_k(lat)
+            v = self.indices(r)
+            if v is None:
+                out.append(None)
+                continue
+            t = self.topo.get(f["properties"].get("id"), {})
             c = {}
-            if fin(em):
-                c["elev"] = int(round(em))
-                c["elev_min"] = int(round(emin))
-                c["elev_max"] = int(round(emax))
+            if r["ztype"] == "topo30" and fin(t.get("e5")) and fin(t.get("e95")):
+                c.update({"elev": int(round(v["zt"])), "elev_min": int(round(t["e5"])), "elev_max": int(round(t["e95"]))})
+            else:
+                c.update({"elev": int(round(v["zt"])), "elev_min": int(round(r["zmin"])), "elev_max": int(round(r["zmax"]))})
+            gst, gdd = v["gst"], v["gdd"]
             c.update({
                 "gst": round(gst, 1),
                 "gdd": int(round(gdd)),
                 "winkler": winkler_class(gdd),
-                "hi": int(round(hi)),
+                "hi": int(round(v["hi"] * huglin_k(r["lat"]))),
                 "gst_class": gst_class(gst),
-                "prec": int(round(vals["prec"])),
-                "gsp": int(round(vals["gsp_" + h])),
-                "mjt": round(vals["mjt"], 1),
-                "dtr": round(vals["dtr"], 1),
-                "vf": round(vf, 2) if fin(vf) else None,
-                "n": mode,
+                "prec": int(round(v["prec"])),
+                "gsp": int(round(v["gsp"])),
+                "mjt": round(v["mjt"], 1),
+                "dtr": round(v["dtr"], 1),
+                "vf": round(r["vf"], 2) if fin(r["vf"]) else None,
+                "n": "point" if r["mode"] == "point" else "area",
+                "dz": int(round(v["dz"])),
             })
             out.append(c)
         return out
@@ -429,9 +467,29 @@ def process_file(enr, path, retries=2):
     raise RuntimeError(f"{path} kept changing")
 
 
+def report(ids):
+    """--report id1,id2: print old and new clim for these ids without writing anything."""
+    enr = Enricher()
+    want = set(ids)
+    for p in sorted(GEO.glob("*.geojson")):
+        if p.name.startswith("_"):
+            continue
+        feats = [f for f in json.load(open(p, encoding="utf-8"))["features"]
+                 if f.get("geometry") and f["properties"].get("id") in want]
+        if not feats:
+            continue
+        for f, c in zip(feats, enr.compute(feats)):
+            o = f["properties"].get("clim") or {}
+            print(json.dumps({"id": f["properties"]["id"], "old": {k: o.get(k) for k in ("gst", "gdd", "hi", "elev", "mjt", "dtr", "n")},
+                              "new": c}, ensure_ascii=False))
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     ensure_cache("--rebuild-cache" in sys.argv)
+    if "--report" in sys.argv:
+        report(args[0].split(","))
+        return
     files = [Path(a) for a in args] if args else sorted(
         p for p in GEO.glob("*.geojson") if not p.name.startswith("_"))
     t0 = time.time()

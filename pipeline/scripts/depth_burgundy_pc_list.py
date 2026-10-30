@@ -25,7 +25,7 @@ for f in d['features']:
     ha = geom_area(f['geometry'])
     nm = p['name']
     short = nm.split(' premier cru ')[-1] if ' premier cru ' in nm else nm
-    out.append(dict(id=p['id'], name=nm, short=short, app=p['reg'].get('dgc_of'), parent=p['parent'], ha=round(ha,2), styles=p.get('styles'), lp=p.get('lp'), subcat=p['subcat']))
+    out.append(dict(id=p['id'], name=nm, short=short, app=p['reg'].get('dgc_of') or 'Chablis', parent=p['parent'], ha=round(ha,2), styles=p.get('styles') or ['white'], lp=p.get('lp'), subcat=p['subcat'], vine_ha=p['reg'].get('vine_ha'), reg_communes=p['reg'].get('communes'), principal=p['reg'].get('principal_climat')))
 json.dump(out, open('/home/claude/winesite/work/depth_burgundy_pc/_units.json','w'), ensure_ascii=False, indent=0)
 for o in sorted(out, key=lambda o:(o['app'], o['short'])):
     print(f"{o['app']}|{o['short']}|{o['id']}|{o['parent'].replace('fr-','')}|{o['ha']}|{','.join(o['styles'])}|{o['lp']}")

@@ -14,8 +14,7 @@ import requests
 
 ROOT = '/home/claude/winesite'
 CACHE = f'{ROOT}/work/photos_cache'
-UA = ('Vitis Mundi atlas (tolar-dio.github.io/wine-world) photo-sidecar/1.0 '
-      '(non-commercial wine atlas; credits every image) python-requests/2.34')
+UA = 'VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)'
 S = requests.Session()
 S.headers['User-Agent'] = UA
 for d in ('sparql', 'api', 'misc'):

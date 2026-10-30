@@ -23,11 +23,11 @@ The journal is enabled only in the Pages build (`VM_CONFIG.mode === 'gh'`). In t
   - Signed out, or offline, it is stored in IndexedDB as `local/<uuid>.jpg` and uploaded later.
   - Replacing or deleting a photo removes the old file unless another record still uses it.
 - **Map.** "My bottles" is a clustered GeoJSON layer of pins coloured by style, placed at the site, the appellation label point, the region or the country. "Places" shows visited (filled) and want to visit (ring) for appellations, sites, regions and countries.
-  - Tapping a pin opens the bottle card.
+  - Taps and hover use the lead's `VM.map.onLayerTap`, which runs before the profile hit test and drives the shared tooltip. Tapping a pin opens the bottle card.
   - Tapping a cluster zooms in, or, when all its bottles share one place, opens that place's profile, where "Your bottles from here" lists them.
   - Hovering on desktop shows the shared tooltip.
   - Pins yield to `VM.map.captureTap`, so study quizzes are not disturbed.
-  - Toggles sit at the foot of the journal panel, because the Layers view has no module hook yet (request 1).
+  - "My bottles" and "My places" toggles are in the Layers view under Show (`VM.layers.add`). On a build without that hook they fall back to the foot of the journal panel.
   - Pins are put back if the style is replaced.
 - **Profile sections.** Every country, region, appellation, site and grape profile gets a single quiet line under the title: Visited, To visit, To taste, Favourite (grapes get only To taste and Favourite), "+ Note" and "+ Bottle". The line scrolls sideways with a fade on phones.
   - A note opens as an inline field that saves itself 0.7 s after typing stops, on blur and on page hide.
@@ -133,6 +133,28 @@ The checks ran with Playwright and Chromium (SwiftShader) against `python3 -I fr
 ## Known limits
 
 - Exports carry photo paths, not the photos.
+- Sites arrive with the map's second data wave: pins at a cru sit at the appellation point until `data:sites`, then move. Forms and profiles that need sites call `VM.data.loadSites()`.
 - Region membership for "Your bottles from here" on region profiles uses the content regions' `app_ids`, loaded per country on demand.
 - Name matching for the classic lists is deliberately conservative: picking the site always works, and free text can miss unusual spellings.
 - The tasting timeline uses the tasted date; undated tastings are counted in the ledger but not on the chart.
+
+## Reload on a bottle card (live QA fix, 30 Oct)
+
+**The reported problems.** After a reload on `#journal-bottle-…`, the crumbs showed a raw id ("Italy › Langhe › it-barolo"), the Cannubi site was missing, and the card stayed blank for about 10 s. There were three causes:
+- **Names.** They came only from atlas data that loads in waves (index, sites, regions, grapes), and the card did not re-render when it arrived.
+- **The cru.** A site the data had not delivered yet was dropped from the crumbs.
+- **The wait.** Signed in, the bottles were in memory only after supabase-js had loaded from the CDN and confirmed the session. On top of that, the core opens a deep link only once the globe's country list is in (or after 8 s).
+
+**The fixes:**
+- **Names cache.** Every name the card resolves is remembered in `vm:journal:v1:names` (capped at 3,000). Until the atlas data arrives, the card uses, in order: the remembered name, the record's own `appellation_name`, then a tidied id (`site-it-cannubi` becomes Cannubi, `it` becomes Italy through `Intl.DisplayNames`). A raw id never shows, and the cru always stays in the crumbs.
+- **Re-render on arrival.** Views re-render on `data:index`, `data:sites`, `data:regions`, `data:globals` and `data:countries`, but only if a name was missing. A card with missing names also asks for each source once (index, `_sites.geojson` through the shared cache, the country's content regions, grapes), so an id that is genuinely absent cannot loop.
+- **Journal ready at load.** The journal is in memory as the module loads:
+  - Signed out, it is the browser's copy.
+  - Signed in, it is the account copy cached for the user of the stored supabase-js session (`sb-<ref>-auth-token`, read without the library), marked provisional until supabase-js confirms the session. If the session turns out invalid, the journal falls back to the browser's copy, and queued writes stay in that user's outbox.
+  - The photo-review module primes its marks the same way (`VM.auth.storedUser()`).
+- **No blank card.** A card that cannot be found yet shows "Opening the bottle…" rather than nothing or "Not found".
+- **Early routing.** `#journal…` and `#photo-review` links are opened by the modules themselves on DOMContentLoaded. They still pay the core's 2.5 s wait for the country list; removing that wait is request 1 of "round 2" in `API_REQUESTS.md`.
+
+**Tested** with `work/journal_test.py reloadcard reloadcloud`: Barolo with Cannubi, the atlas index, sites, regions, countries and grapes delayed 8 s, reloaded cold and then with the names cache warm. Both runs ended with no console problems. Results:
+- **Signed out:** crumbs "Italy › Langhe › Barolo › Cannubi" on the first card render, no raw id, Cannubi present in every render.
+- **Signed in:** a fake supabase-js session in localStorage, with the project's REST and auth endpoints stubbed by Playwright, so no live user exists. The same crumbs appeared from the cached account copy, before the stubbed fetch returned. The session was then confirmed (`VM.auth.user` is the stub user, mode `cloud`).

@@ -10,6 +10,7 @@ def fetch(url, out, tries=12, timeout=180, min_bytes=1, quiet=False):
     tmp = out + '.part'
     for i in range(tries):
         r = subprocess.run(['curl', '-sS', '-L', '--compressed', '-m', str(timeout), '-o', tmp,
+                            '-A', 'VitisMundiResearch/1.0 (+https://tolar-dio.github.io/wine-world/)',
                             '-w', '%{http_code}', url], capture_output=True, text=True)
         code = r.stdout.strip()
         if r.returncode == 0 and code.startswith('2') and os.path.exists(tmp) and os.path.getsize(tmp) >= min_bytes:

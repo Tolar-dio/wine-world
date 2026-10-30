@@ -96,7 +96,7 @@ def build_cover():
 JOURNEYS = [
     {"id": "mosel", "title": "The Mosel, Trier to Koblenz", "river": "Mosel", "rivers": ["Mosel"],
      "from": [6.64, 49.76], "to": [7.60, 50.36], "iso": ["de"], "zoom": 12.4,
-     "text": "Some 200 km of meanders cut into Devonian slate, where Europe's steepest vineyards lean south over the water: the amphitheatre of Piesport, the Doctor above Bernkastel, Wehlen's sundial, Erden's red-slate Prälat and the walled terraces of the Terrassenmosel before Koblenz."},
+     "text": "Meander after meander cut into Devonian slate, where Europe's steepest vineyards lean south over the water: the amphitheatre of Piesport, the Doctor above Bernkastel, Wehlen's sundial, Erden's red-slate Prälat and the walled terraces of the Terrassenmosel before Koblenz."},
     {"id": "douro", "title": "The Douro, Barca d'Alva to Porto", "river": "Douro", "rivers": ["Douro/Duero"],
      "from": [-6.97, 41.03], "to": [-8.62, 41.14], "iso": ["pt"], "zoom": 12.2,
      "text": "Downstream from the dry schist of the Douro Superior, through the Pinhão terraces of the Cima Corgo and the greener Baixo Corgo, to the lodges of Vila Nova de Gaia, where Port rests in casks across the river from Porto."},
@@ -269,12 +269,12 @@ def build_journeys():
             raise SystemExit(f"journey {J['id']}: no path")
         smooth, length = resample(chaikin(path, 3), 0.25)
         line_km = LineString(smooth)
-        # appellations passed: main polygons within 1.2 km of the route, fine units within 0.5 km
+        # appellations passed: main polygons within 2 km of the route, fine units within 1.6 km
         key = tuple(J["iso"])
         if key not in geo_cache:
             geo_cache[key] = load_geo(J["iso"])
         feats = geo_cache[key]
-        corridor = line_km.buffer(1.3)
+        corridor = line_km.buffer(2.2)
         cand = []
         for pr, g, fine in feats:
             gk = shapely.transform(g, lambda a: a * [P.kx, P.ky])
@@ -286,9 +286,10 @@ def build_journeys():
         step = 0.25
         for i, pt in enumerate(smooth):
             p = Point(pt)
-            for j in tree.query(p.buffer(1.2)):
+            for j in tree.query(p.buffer(2.0)):
                 pr, gk, fine = cand[j]
-                lim = 0.5 if fine else 1.2
+                # the smoothed Natural Earth line cuts across meanders, so allow for vineyards a bend away
+                lim = 1.6 if fine else 2.0
                 d = gk.distance(p)
                 if d <= lim:
                     h = hits.setdefault(pr["id"], {"pr": pr, "fine": fine, "a": i * step, "b": i * step, "d": d})
@@ -299,7 +300,7 @@ def build_journeys():
             pr = h["pr"]
             area = float(pr.get("area") or 0)
             stops.append({"id": id_, "name": pr.get("name"), "a": round(h["a"], 2), "b": round(h["b"], 2),
-                          "area": round(area, 2), "fine": h["fine"], "prof": int(pr.get("prof") or 0),
+                          "area": round(area, 2), "fine": h["fine"], "prof": int(pr.get("prof") or 0), "d": round(h["d"], 2),
                           "cat": pr.get("subcat") or pr.get("cat") or "", "style": pr.get("style") or "mixed"})
         stops.sort(key=lambda x: (x["a"], -x["area"]))
         # sites (quintas, châteaux, named vineyards) within 1 km

@@ -15,6 +15,7 @@ extraction.
 Untrusted downloads go to raw/terraclimate_monthly/dl/ ; extracted cell values to
 work/vintage/cells/{var}_{year}.npy (raw integers, shape 12 x ncell) + {var}_{year}.json
 (scale_factor, add_offset, fill, time stamps).
+Each year is re-extracted when work/vintage/cells.npy changes (cells_sha in the per-file json).
 Run: python3 -I scripts/vintage_fetch.py [first_year] [last_year]
 """
 import json
@@ -35,10 +36,23 @@ VARS = ("tmax", "tmin", "ppt")
 NY, NX = 4320, 8640
 
 
-def download(var, year):
+def cells_sha():
+    import hashlib
+    return hashlib.sha1(np.load(ROOT / "work/vintage/cells.npy").tobytes()).hexdigest()[:16]
+
+
+def done(var, year, sha):
+    """Extracted already for the current cell set?"""
+    m = OUTC / f"{var}_{year}.json"
+    if not (OUTC / f"{var}_{year}.npy").exists() or not m.exists():
+        return False
+    return json.load(open(m)).get("cells_sha") == sha
+
+
+def download(var, year, sha=None):
     name = f"TerraClimate_{var}_{year}.nc"
     dst = DL / name
-    if (OUTC / f"{var}_{year}.npy").exists():
+    if sha and done(var, year, sha):
         return None
     if dst.exists() and dst.stat().st_size > 10_000_000:
         return dst
@@ -54,7 +68,7 @@ def download(var, year):
     raise RuntimeError(f"download failed: {name}")
 
 
-def extract(var, year, path, cells, ref_lat, ref_lon):
+def extract(var, year, path, cells, ref_lat, ref_lon, sha=None):
     import netCDF4
     rows, cols = cells // NX, cells % NX
     with netCDF4.Dataset(path) as d:
@@ -77,7 +91,7 @@ def extract(var, year, path, cells, ref_lat, ref_lon):
                 "fill": int(getattr(v, "_FillValue")), "missing": int(getattr(v, "missing_value", getattr(v, "_FillValue"))),
                 "dtype": str(v.dtype), "units": getattr(v, "units", ""),
                 "date_created": getattr(d, "date_created", None), "version": getattr(d, "version", None),
-                "nmissing": int((out == getattr(v, "_FillValue")).sum())}
+                "nmissing": int((out == getattr(v, "_FillValue")).sum()), "cells_sha": sha, "ncell": int(len(cells))}
     np.save(OUTC / f"{var}_{year}.tmp.npy", out)
     os.replace(OUTC / f"{var}_{year}.tmp.npy", OUTC / f"{var}_{year}.npy")
     json.dump(meta, open(OUTC / f"{var}_{year}.json", "w"))
@@ -94,16 +108,32 @@ def main():
     cells = np.load(ROOT / "work/vintage/cells.npy")
     with netCDF4.Dataset(ROOT / "raw/terraclimate_1991_2020/TerraClimate_19912020_tmax.nc") as c:
         ref_lat, ref_lon = c["lat"][:], c["lon"][:]
-    jobs = [(v, y) for y in range(y1, y0 - 1, -1) for v in VARS if not (OUTC / f"{v}_{y}.npy").exists()]
+    sha = cells_sha()
+    jobs = [(v, y) for y in range(y1, y0 - 1, -1) for v in VARS if not done(v, y, sha)]
     print(f"{len(jobs)} files to fetch", flush=True)
     t0 = time.time()
+    # at most MAX_AHEAD files downloaded but not yet extracted (each ~100-150 MB): downloads can outrun
+    # the extraction (zlib-9 decompression) and would otherwise fill the disk
+    MAX_AHEAD = 6
+    from collections import deque
     with ThreadPoolExecutor(3) as pool:
-        futs = [(v, y, pool.submit(download, v, y)) for v, y in jobs]
-        for v, y, f in futs:
+        q = deque()
+        it = iter(jobs)
+        def refill():
+            while len(q) < MAX_AHEAD:
+                try:
+                    v, y = next(it)
+                except StopIteration:
+                    return
+                q.append((v, y, pool.submit(download, v, y, sha)))
+        refill()
+        while q:
+            v, y, f = q.popleft()
             p = f.result()
+            refill()
             if p is None:
                 continue
-            m = extract(v, y, p, cells, ref_lat, ref_lon)
+            m = extract(v, y, p, cells, ref_lat, ref_lon, sha)
             print(f"{v} {y}: ok, missing values {m['nmissing']}, created {m['date_created']} "
                   f"({time.time() - t0:.0f}s)", flush=True)
     print("done", flush=True)

@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Vitis Mundi integration step: research JSON + geodata -> the site data contract.
 
-Run:    python3 -I /home/claude/winesite/scripts/integrate.py [--root DIR] [--no-clim] [--force-clim] [-v]
+Run:    python3 -I /home/claude/winesite/scripts/integrate.py [--root DIR] [--no-clim] [--force-clim] [--no-topo] [-v]
 
 Reads   site/data/geo/{iso2}.geojson, {iso2}_fine.geojson   (agent outputs; pristine copies kept in
                                                              work/geo_src/, outputs always rebuilt from them)
         site/data/base/countries.geojson                     (country names + coordinate validation)
         data/content/*.json, data/content/global/*.json      (research JSON, never modified)
-        scripts/climate_enrich.py                            (optional; run on outputs lacking `clim`)
+        scripts/climate_enrich.py, scripts/topo_merge.py     (optional; climate for features lacking a cached value)
         work/*-log.md, work/*/*log*                          (geodata source citations)
 Writes  site/data/geo/{iso2}[_fine].geojson + _countries/_index/_overview/_regions/_sites/
         _extra_points/_varieties/_climrefs, site/data/content/{iso2}.json + global/, site/data/meta.json,
@@ -17,9 +17,13 @@ Rerunnable and idempotent. Geo refresh rules (work/geo_src/_manifest.json, _outp
   * site file unchanged since our last write -> use the pristine copy;
   * changed and carrying no derived keys (style/prof/lvl) -> a fresh agent delivery, copied;
   * changed but built from our output: if features were appended, removed or had name/geometry edited
-    (V2 depth agents append to {iso2}_fine.geojson in place), the pristine copy is rebuilt from it (derived
-    keys stripped, clim dropped only where geometry changed); if only properties changed (climate_enrich.py
-    ran in place), its `clim` values are harvested into work/geo_src/_clim_cache.json.
+    (V2 depth agents append to {iso2}_fine.geojson in place), the pristine copy is rebuilt from it.
+Climate: `clim` is derived data. It is never taken from geo inputs or pristine copies; it comes from the
+versioned cache work/geo_src/_clim_v.json (key = id + geometry + lp + area + 30 m topo target; the cache is
+dropped when climate_enrich.py / climate_downscale.py / work/climate_lapse.json change), and missing values
+are computed by running climate_enrich.py on temporary files of just those features. Values written into our
+outputs by a direct climate_enrich.py run are accepted when that file is newer than the climate code.
+scripts/topo_merge.py (if present) runs first; site/data/topo/_attrs.json clim columns are re-synced at the end.
 Profiles join polygons and fine units by explicit `id` first (V2 depth files), then by name. Fine-unit profiles
 go to site/data/content/{iso2}_fine.json (`fine_profiles`), or inline with --inline-fine-profiles. Missing,
 partial or malformed inputs are skipped with a warning. Tests: work/fixtures/make_fixtures.py (v1) and
@@ -64,7 +68,7 @@ STYLES = ("red", "white", "rose", "sparkling", "sweet", "fortified", "orange")
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 GEO_FILE_RE = re.compile(r"^([a-z]{2})(_fine)?\.geojson$")
 CONTENT_KEYS = ("countries", "regions", "appellations", "sites")
-DERIVED_KEYS = ("style", "prof", "lvl", "fine", "pref")
+DERIVED_KEYS = ("style", "prof", "lvl", "fine", "pref", "ctx")
 BQ_RANK = {"official": 0, "commune": 1, "admin": 2, "approx": 3}
 METHOD_RANK = {"id": 0, "exact": 1, "variant": 2, "translit": 3, "fuzzy": 4}
 TRANSLIT_COUNTRIES = {"gr", "cy", "bg", "mk", "rs", "me", "ru", "ua", "by", "ge", "am", "kz", "md"}
@@ -801,15 +805,6 @@ def carries_derived(fc):
     return False
 
 
-def harvest_clim(fc):
-    out = {}
-    for f in fc.get("features") or []:
-        p = (f or {}).get("properties") or {}
-        if isinstance(p.get("clim"), dict) and p.get("id"):
-            out[p["id"]] = p["clim"]
-    return out
-
-
 def feature_print(p, g):
     """Fingerprint of what an agent controls in a feature: name + geometry (+ parent/cat/subcat)."""
     s = json.dumps([p.get("name"), p.get("parent"), p.get("cat"), p.get("subcat"), g], ensure_ascii=False,
@@ -857,8 +852,7 @@ def rebuild_from_integrated(ctx, n, fc, cp, m):
         p = dict(f.get("properties") or {})
         for k in DERIVED_KEYS:
             p.pop(k, None)
-        if p.get("id") in stale:
-            p.pop("clim", None)
+        p.pop("clim", None)  # derived: recomputed or taken from the versioned cache, never from inputs
         feats.append({"type": "Feature", "properties": p, "geometry": f.get("geometry")})
     with open(cp + ".tmp", "w", encoding="utf-8") as fh:
         json.dump({"type": "FeatureCollection", "features": feats}, fh, ensure_ascii=False, separators=(",", ":"))
@@ -877,9 +871,10 @@ def rebuild_from_integrated(ctx, n, fc, cp, m):
 def sync_geo_sources(ctx):
     os.makedirs(ctx.geo_src, exist_ok=True)
     ctx.manifest_path = os.path.join(ctx.geo_src, "_manifest.json")
-    ctx.clim_cache_path = os.path.join(ctx.geo_src, "_clim_cache.json")
     ctx.manifest = (read_json(ctx.manifest_path, ctx) or {}) if os.path.exists(ctx.manifest_path) else {}
-    ctx.clim_cache = (read_json(ctx.clim_cache_path, ctx) or {}) if os.path.exists(ctx.clim_cache_path) else {}
+    ctx.outclim_path = os.path.join(ctx.geo_src, "_outclim.json")
+    ctx.outclim = (read_json(ctx.outclim_path, ctx) or {}) if os.path.exists(ctx.outclim_path) else {}
+    ctx.clim_external = []
     ctx.outprints_path = os.path.join(ctx.geo_src, "_outprints.json")
     ctx.outprints = (read_json(ctx.outprints_path, ctx) or {}) if os.path.exists(ctx.outprints_path) else {}
     names = set()
@@ -913,17 +908,12 @@ def sync_geo_sources(ctx):
                 if not have_copy:
                     continue
                 status = "unreadable, previous copy used"
-            elif carries_derived(fc) and have_copy and rebuild_from_integrated(ctx, n, fc, cp, m):
-                status = m.pop("_status")
             elif carries_derived(fc) and have_copy:
-                cl = harvest_clim(fc)
-                if cl and m.get("src_sha"):
-                    ent = ctx.clim_cache.setdefault(n, {})
-                    if ent.get("src_sha") != m["src_sha"]:
-                        ent.clear()
-                        ent["src_sha"] = m["src_sha"]
-                    ent.setdefault("clim", {}).update(cl)
-                status = f"output modified in place, {len(cl)} clim values harvested"
+                note_external_clim(ctx, n, fc, sp)
+                if rebuild_from_integrated(ctx, n, fc, cp, m):
+                    status = m.pop("_status")
+                else:
+                    status = "output modified in place (properties only)"
             else:
                 shutil.copyfile(sp, cp + ".tmp")
                 os.replace(cp + ".tmp", cp)
@@ -950,15 +940,11 @@ def load_geo(ctx, srcs):
         if not isinstance(fc, dict) or not isinstance(fc.get("features"), list):
             ctx.warn(f"geo {s['name']}: not a FeatureCollection, skipped")
             continue
-        cache = ctx.clim_cache.get(s["name"]) or {}
-        cache_clim = cache.get("clim", {}) if cache.get("src_sha") == s["src_sha"] else {}
         n_ok = 0
         for i, f in enumerate(fc["features"]):
             rec = normalize_feature(ctx, f, s, used, i)
             if rec is None:
                 continue
-            if "clim" not in rec["p"] and rec["p"]["id"] in cache_clim:
-                rec["p"]["clim"] = cache_clim[rec["p"]["id"]]
             feats[s["iso2"]]["fine" if s["fine"] else "main"].append(rec)
             n_ok += 1
         s["n"] = n_ok
@@ -1012,7 +998,7 @@ def normalize_feature(ctx, f, s, used, i):
     if shp is None or shp.is_empty:
         ctx.warn(f"{tag} ({name}): empty after repair, skipped")
         return None
-    props = {k: v for k, v in p.items() if k not in DERIVED_KEYS}
+    props = {k: v for k, v in p.items() if k not in DERIVED_KEYS and k != "clim"}
     fid = p.get("id")
     if not (isinstance(fid, str) and ID_RE.match(fid) and fid.startswith(iso + "-")):
         new = f"{iso}-{slugify(name)}"
@@ -2213,6 +2199,8 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
     st["sites"] = len(sites)
     if M:
         out["content"][iso] = assemble_content(ctx, iso, M, profs, regions, sites, countries, country_bbox, resolve, sites_by_name)
+    for pr in profs:
+        out["prof_ctx"][pr["_id"]] = (pr.get("subregion"), pr.get("region"))
     return extra
 
 
@@ -2296,8 +2284,310 @@ def assemble_content(ctx, iso, M, profs, regions, sites, countries, country_bbox
     return {"country": c, "regions": regs, "profiles": profiles, "sites": out_sites, "fine_profiles": fine_profiles}
 
 
+# ====================================================================== ctx (search disambiguation)
+CTX_MAX = 30
+# reg keys that name the place a fine unit belongs to, by unit type (normalised subcat); first usable wins
+CTX_REG_KEYS = {
+    "einzellage": ["gemarkungen", "gemeinden"],
+    "ried": ["kg", "weinbauflur", "gemeinde"],
+    "mga": ["communes", "comuni"],
+    "uga": ["comuni", "communes"],
+    "pieve": ["comuni", "communes"],
+    "premier cru": ["dgc_of"], "grand cru": ["dgc_of"], "dgc": ["dgc_of"],
+    "cru village": ["subregion", "terroir"],
+    "lieu dit": ["aoc", "communes"],
+    "municipio": ["zona"],
+}
+CTX_REG_DEFAULT = ["kg", "gemarkungen", "gemeinde", "gemeinden", "communes", "comuni", "commune", "village",
+                   "dgc_of", "aoc", "subregion", "zona"]
+CTX_REG_LATE = ["bereich", "grosslage", "bezirk", "doc", "county", "province", "state"]
+US_STATES = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California",
+             "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii",
+             "ID": "Idaho", "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky",
+             "LA": "Louisiana", "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan",
+             "MN": "Minnesota", "MS": "Mississippi", "MO": "Missouri", "MT": "Montana", "NE": "Nebraska",
+             "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York",
+             "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma", "OR": "Oregon",
+             "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina", "SD": "South Dakota",
+             "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington",
+             "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming",
+             "NSW": "New South Wales", "VIC": "Victoria", "SA": "South Australia",
+             "TAS": "Tasmania", "QLD": "Queensland", "ACT": "Australian Capital Territory", "NT": "Northern Territory",
+             "ON": "Ontario", "BC": "British Columbia", "QC": "Quebec", "NS": "Nova Scotia"}
+AU_STATES = {"WA": "Western Australia", "SA": "South Australia"}
+
+
+def ctx_values(v):
+    """reg value -> list of place strings (handles lists, "['A', 'B']" reprs and "A, B")."""
+    if v is None:
+        return []
+    if isinstance(v, (int, float)):
+        return []
+    if isinstance(v, list):
+        items = v
+    else:
+        t = str(v).strip()
+        if t.startswith("[") and t.endswith("]"):
+            items = [a or b for a, b in re.findall(r"'([^']*)'|\"([^\"]*)\"", t)]
+        else:
+            items = re.split(r"\s*[,;|]\s*", t)
+    return [str(x).strip() for x in items if str(x).strip() and not re.fullmatch(r"[\d .-]+", str(x).strip())]
+
+
+def ctx_short(vals):
+    vals = [v for v in dict.fromkeys(vals) if v]
+    if not vals:
+        return None
+    if len(vals) > 1:
+        j = ", ".join(vals)
+        if len(j) <= CTX_MAX:
+            return j
+        first = vals[0] if len(vals[0]) <= CTX_MAX - 4 else ctx_short([vals[0]])[:CTX_MAX - 4].rstrip("… ") + "…"
+        return f"{first} +{len(vals) - 1}"
+    v = re.sub(r"\s+", " ", vals[0]).strip()
+    if len(v) <= CTX_MAX:
+        return v
+    cut = v[:CTX_MAX - 1].rsplit(" ", 1)[0].rstrip(",;:/-( ")
+    return (cut if len(cut) >= 8 else v[:CTX_MAX - 1]) + "…"
+
+
+class Admin1:
+    """Natural Earth admin-1 units (raw/ne_10m), loaded lazily per country, for a last-resort ctx."""
+
+    def __init__(self, ctx):
+        self.path = os.path.join(ctx.root, "raw", "ne_10m", "ne_10m_admin_1_states_provinces",
+                                 "ne_10m_admin_1_states_provinces.shp")
+        self.reader, self.by_iso, self.trees = None, None, {}
+        try:
+            import shapefile  # pyshp
+            if os.path.exists(self.path):
+                self.reader = shapefile.Reader(self.path, encoding="utf-8")
+                names = [f[0] for f in self.reader.fields[1:]]
+                self.by_iso = defaultdict(list)
+                for i, rec in enumerate(self.reader.iterRecords(fields=["iso_a2", "name", "region"])):
+                    self.by_iso[str(rec[0]).lower()].append((i, (rec[1], rec[2])))
+        except Exception as e:  # pragma: no cover
+            ctx.warn(f"ctx: admin-1 units unavailable ({e})")
+            self.reader = None
+
+    def lookup(self, iso, lon, lat):
+        if self.reader is None or lon is None or lat is None:
+            return None
+        if iso not in self.trees:
+            geoms, labels = [], []
+            for i, nm in self.by_iso.get(iso, []):
+                try:
+                    g = fix_geom(shape(self.reader.shape(i).__geo_interface__))
+                except Exception:
+                    g = None
+                if g is not None and nm:
+                    geoms.append(g)
+                    labels.append(nm)
+            self.trees[iso] = (STRtree(geoms), geoms, labels) if geoms else None
+        t = self.trees[iso]
+        if t is None:
+            return None
+        pt = Point(lon, lat)
+        hits = [j for j in t[0].query(pt, predicate="intersects")]
+        if not hits:
+            hits = [j for j in t[0].query(pt.buffer(0.05), predicate="intersects")]
+        return t[2][min(hits, key=lambda j: t[1][j].distance(pt))] if hits else None
+
+
+def assign_ctx(ctx, feats, out, countries):
+    """Short `ctx` string per appellation, fine unit, extra point and site, so same-named units can be told apart
+    in search ("Ried Goldberg · Langenlois"). Candidates are tried in order, skipping ones the name already
+    contains; same-named units that still collide get a second qualifier."""
+    recs = {}
+    for iso, d in feats.items():
+        for r in d["main"] + d["fine"]:
+            recs[r["p"]["id"]] = r["p"]
+    names = {i: p["name"] for i, p in recs.items()}
+    for e in out["extra"]:
+        names.setdefault(e["id"], e["name"])
+    region_names = {f["properties"]["id"]: f["properties"]["name"] for f in out["regions"]}
+    pctx = out["prof_ctx"]
+    member_region = {}
+    for c in out["content"].values():
+        for rg in c.get("regions", []):
+            for aid in rg.get("app_ids") or []:
+                cur = member_region.get(aid)
+                if cur is None or len(rg["app_ids"]) < cur[0]:
+                    member_region[aid] = (len(rg["app_ids"]), rg["name"])
+    admin1 = Admin1(ctx)
+
+    def adm(iso, ll):
+        if not ll:
+            return []
+        hit = admin1.lookup(iso, ll[0], ll[1])
+        return [[x] for x in (hit or ()) if isinstance(x, str) and x.strip()]
+
+    def member(pid):
+        return [[member_region[pid][1]]] if pid in member_region else []
+
+    def place_names(p, keys):
+        reg = p.get("reg") or {}
+        outv = []
+        for k in keys:
+            vals = ctx_values(reg.get(k))
+            if k == "state":
+                vals = [US_STATES.get(v.upper(), v) if p.get("country") in ("us", "ca") else
+                        AU_STATES.get(v.upper(), US_STATES.get(v.upper(), v)) for v in vals]
+            if k == "bereich":
+                vals = [re.sub(r"^(Bereich|Ber\.)\s*", "Bereich ", v).replace("Dt.", "Deutsche") for v in vals]
+            if vals:
+                outv.append(vals)
+        return outv
+
+    def ancestors_names(pid, depth=3):
+        res, cur, seen = [], recs.get(pid, {}).get("parent"), set()
+        while cur and cur in recs and cur not in seen and len(res) < depth:
+            seen.add(cur)
+            res.append([names[cur]])
+            cur = recs[cur].get("parent")
+        return res
+
+    def prof_regions(pid):
+        sub, reg = pctx.get(pid, (None, None))
+        return [[x] for x in (sub, reg) if isinstance(x, str) and x.strip()]
+
+    def cands_poly(p, fine):
+        sc = norm(p.get("subcat") or "")
+        c = []
+        if fine:
+            c += place_names(p, CTX_REG_KEYS.get(sc, CTX_REG_DEFAULT))
+            anc = ancestors_names(p["id"])
+            par = p.get("parent")
+            c += anc[:1] + prof_regions(p["id"]) + (prof_regions(par) if par else []) + anc[1:]
+            c += place_names(p, CTX_REG_LATE)
+            c += adm(p["country"], p.get("lp"))
+        else:
+            sub, reg = pctx.get(p["id"], (None, None))
+            if sub:
+                c.append([sub])
+            c += ancestors_names(p["id"], depth=1)
+            if reg:
+                c.append([reg])
+            c += member(p["id"])
+            c += place_names(p, ["state", "province", "county"])
+            c += ancestors_names(p["id"])[1:]
+            par = p.get("parent")
+            c += prof_regions(par) if par else []
+            c += adm(p["country"], p.get("lp"))
+            c += place_names(p, ["comunas", "gu"])
+        return c
+
+    def usable(name, cands):
+        nk = " " + norm(name) + " "
+        res = []
+        for vals in cands:
+            vals = [v for v in vals if (" " + norm(v) + " ") not in nk and nk.strip() not in norm(v)]
+            if not vals:
+                continue
+            sh = ctx_short(vals)
+            if sh and sh not in res:
+                res.append(sh)
+        return res
+
+    items = []  # (kind, country, name, cand list, setter)
+    for iso, d in feats.items():
+        for r in d["main"] + d["fine"]:
+            p = r["p"]
+            items.append(("app", iso, p["name"], usable(p["name"], cands_poly(p, r["fine"])), p))
+    for e in out["extra"]:
+        c = prof_regions(e["id"]) + ([[names[e["parent"]]]] if e.get("parent") in names else [])
+        if e.get("parent"):
+            c += ancestors_names(e["parent"], depth=1)
+        c += member(e["id"]) + adm(e["country"], e.get("pt"))
+        items.append(("app", e["country"], e["name"], usable(e["name"], c), e))
+    site_props, f_coords = {}, {}
+    for f in out["sites"]:
+        sp = f["properties"]
+        site_props[sp["id"]] = sp
+        f_coords[sp["id"]] = f["geometry"]["coordinates"]
+    content_sites = {s["id"]: s for c in out["content"].values() for s in c.get("sites", [])}
+    for sid, sp in site_props.items():
+        s = content_sites.get(sid, {})
+        c = []
+        for k in ("app", "app_main"):
+            if s.get(k) in names:
+                c.append([names[s[k]]])
+        if s.get("app_label"):
+            c.append([re.sub(r"\s*\(.*?\)", "", s["app_label"]).strip()])
+        if s.get("region_hint") in region_names:
+            c.append([region_names[s["region_hint"]]])
+        if s.get("app") in recs:
+            c += ancestors_names(s["app"], depth=2)
+        if s.get("app"):
+            c += prof_regions(s["app"])
+        c += adm(sp["country"], (f_coords.get(sid)))
+        items.append(("site", sp["country"], sp["name"], usable(sp["name"], c), sp))
+
+    # primary choice: first candidate that fits, else the first one shortened (ctx_short already shortens)
+    for kind, iso, name, cands, obj in items:
+        whole = [c for c in cands if not c.endswith("…")]
+        obj["ctx"] = (whole or cands or [None])[0]
+        if whole and cands and whole[0] != cands[0]:
+            cands.remove(whole[0])
+            cands.insert(0, whole[0])
+    # same-named units of one kind in one country that still share a ctx get a second qualifier
+    groups = defaultdict(list)
+    for it in items:
+        groups[(it[0], it[1], norm(it[2]))].append(it)
+    items = [it[1:] for it in items]
+    groups = {k: [it[1:] for it in v] for k, v in groups.items()}
+    st = Counter()
+    for key, lst in groups.items():
+        if len(lst) < 2:
+            continue
+        st["groups"] += 1
+        st["members"] += len(lst)
+        def sig(it):
+            o = it[3]
+            return (o.get("ctx"), o.get("cat"), o.get("subcat"), o.get("kind"))
+        by = defaultdict(list)
+        for it in lst:
+            by[sig(it)].append(it)
+        for sg, sub in by.items():
+            cv = sg[0]
+            if len(sub) < 2:
+                continue
+            # try a single later candidate that separates them, else a combination of the first two
+            for j in range(1, 4):
+                alt = [it[2][j] if len(it[2]) > j else None for it in sub]
+                if None not in alt and len(set(alt)) == len(alt):
+                    for it, a in zip(sub, alt):
+                        it[3]["ctx"] = a
+                    break
+            else:
+                for it in sub:
+                    extra_c = [c for c in it[2][1:] if c != cv]
+                    if cv and extra_c:
+                        comb = f"{cv}, {extra_c[0]}"
+                        it[3]["ctx"] = comb if len(comb) <= CTX_MAX else ctx_short([cv])[:14].rstrip("… ") + "…, " + \
+                            ctx_short([extra_c[0]])[:CTX_MAX - 17]
+        final = Counter(sig(it) for it in lst)
+        dup = sum(n for n in final.values() if n > 1)
+        if dup:
+            st["unresolved"] += dup
+            ctx.rep["ctx_dups"].append(f"- {key[1]} {key[0]} '{lst[0][1]}' x{len(lst)}: " +
+                                       ", ".join(f"{k[0] or '(none)'} x{n}" for k, n in final.items() if n > 1))
+    for it in items:
+        if it[3].get("ctx") is None:
+            it[3].pop("ctx", None)
+            st["no_ctx"] += 1
+        elif len(it[3]["ctx"]) > CTX_MAX:
+            it[3]["ctx"] = ctx_short([it[3]["ctx"]])
+    for c in out["content"].values():
+        for s in c.get("sites", []):
+            if site_props.get(s["id"], {}).get("ctx"):
+                s["ctx"] = site_props[s["id"]]["ctx"]
+    ctx.notes.append(f"ctx: {len(items)} entries, {st['groups']} same-name groups ({st['members']} entries), "
+                     f"{st['unresolved']} still ambiguous, {st['no_ctx']} without ctx")
+
+
 # ====================================================================== geo output writing + climate
-PROP_FIRST = ["id", "name", "alt", "country", "cat", "subcat", "src", "bq", "area", "parent", "lp", "bbox",
+PROP_FIRST = ["id", "name", "ctx", "alt", "country", "cat", "subcat", "src", "bq", "area", "parent", "lp", "bbox",
               "varieties", "styles", "reg", "style", "prof", "pref", "lvl", "clim"]
 
 
@@ -2325,86 +2615,259 @@ def write_geo_outputs(ctx, srcs, feats):
         written[s["name"]] = write_json(sp, fc)
         ctx.outprints[s["name"]] = {f["properties"]["id"]: feature_print(f["properties"], f["geometry"])
                                     for f in fc["features"]}
+        ctx.outclim[s["name"]] = {f["properties"]["id"]: clim_hash(f["properties"]["clim"])
+                                  for f in fc["features"] if isinstance(f["properties"].get("clim"), dict)}
         ctx.manifest[s["name"]]["out_sha"] = sha_file(sp)
         s["seen_sha"] = ctx.manifest[s["name"]]["out_sha"]
     return written
 
 
-def climate_step(ctx, srcs, feats):
-    script = ctx.clim_script
-    missing = {}
-    for s in srcs:
-        recs = feats.get(s["iso2"], {}).get("fine" if s["fine"] else "main", [])
-        ids = [r["p"]["id"] for r in recs if "clim" not in r["p"]]
-        if ids and os.path.exists(s["site_path"]):
-            missing[s["name"]] = ids
-    have = sum(1 for d in feats.values() for r in d["main"] + d["fine"] if "clim" in r["p"])
-    if not os.path.exists(script):
-        ctx.notes.append(f"climate: {rel(ctx, script)} not present; {have} features carry clim from inputs/cache")
-        return False
-    if ctx.args.no_clim:
-        ctx.notes.append("climate: skipped (--no-clim)")
-        return False
-    ssha = sha_file(script)[:16]
-    todo = []
-    for name, ids in missing.items():
-        ent = ctx.clim_cache.get(name) or {}
-        tried = set((ent.get("tried") or {}).get(ssha, [])) if ent.get("src_sha") == ctx.manifest[name].get("src_sha") else set()
-        if ctx.args.force_clim or not set(ids) <= tried:
-            todo.append(name)
-    if ctx.args.force_clim:
-        todo = sorted({s["name"] for s in srcs if os.path.exists(s["site_path"])})
-    if not todo:
-        ctx.notes.append(f"climate: nothing to do ({have} features with clim)")
-        return False
-    paths = [os.path.join(ctx.geo, n) for n in todo]
-    src = open(script, encoding="utf-8", errors="replace").read()
-    py = sys.executable
-    loader = ("import sys, importlib.util as u; sys.path.insert(0, %r); s = u.spec_from_file_location('climate_enrich', %r); "
-              "m = u.module_from_spec(s); s.loader.exec_module(m); " % (os.path.dirname(script), script))
-    if re.search(r"^def\s+enrich_files\s*\(", src, re.M):
-        cmds = [[py, "-I", "-c", loader + "m.enrich_files(%r)" % paths]]
-    elif re.search(r"^def\s+enrich_file\s*\(", src, re.M):
-        cmds = [[py, "-I", "-c", loader + "[m.enrich_file(p) for p in %r]" % paths]]
-    elif "argv" in src or "argparse" in src:
-        cmds = [[py, "-I", script] + paths, [py, "-I", script]]
+# ---------------------------------------------------------------------- climate (derived data, versioned cache)
+# `clim` is never taken from geo inputs. It is reused only from work/geo_src/_clim_v.json, whose entries are
+# keyed by a hash of everything climate_enrich.py reads for a feature (id, geometry, lp, area, the feature's
+# 30 m topo e/e5/e95/w) and which is discarded as a whole when the climate code version changes (hash of
+# climate_enrich.py, climate_downscale.py, work/climate_lapse.json). Features without an entry are computed by
+# running climate_enrich.py on temporary files (work/clim_tmp/) holding only those features; site files are
+# never handed to it. clim written in place into our outputs by someone else (a manual climate_enrich run) is
+# accepted only if that file is newer than the climate code and the value differs from what we last wrote.
+CLIM_CODE = ("scripts/climate_enrich.py", "scripts/climate_downscale.py", "work/climate_lapse.json")
+
+
+def clim_version(ctx):
+    if not os.path.exists(ctx.clim_script):
+        return None, 0.0
+    h, newest = hashlib.sha256(), 0.0
+    paths = [ctx.clim_script] + [os.path.join(ctx.root, x) for x in CLIM_CODE[1:]]
+    paths += [os.path.join(os.path.dirname(ctx.clim_script), "climate_downscale.py")]
+    for path in dict.fromkeys(paths):
+        if os.path.exists(path):
+            h.update(os.path.basename(path).encode())
+            with open(path, "rb") as f:
+                h.update(f.read())
+            newest = max(newest, os.path.getmtime(path))
+    return h.hexdigest()[:16], newest
+
+
+def load_topo_targets(ctx):
+    """The topo fields climate_enrich.py uses per feature id (site/data/topo/*.json, like climate_downscale)."""
+    out = {}
+    d = os.path.join(ctx.site_data, "topo")
+    if not os.path.isdir(d):
+        return out
+    for n in sorted(os.listdir(d)):
+        if not n.endswith(".json") or (n.startswith("_") and n != "_sites.json"):
+            continue
+        obj = read_json(os.path.join(d, n), ctx, lenient=False)
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                if isinstance(v, dict):
+                    out[k] = [v.get("e"), v.get("e5"), v.get("e95"), v.get("w")]
+    return out
+
+
+def clim_key(ctx, fid, geom, lp, area):
+    s = json.dumps([fid, geom, lp, area, ctx.topo_targets.get(fid)], ensure_ascii=False, separators=(",", ":"),
+                   sort_keys=True)
+    return hashlib.md5(s.encode("utf-8")).hexdigest()
+
+
+def clim_hash(c):
+    return hashlib.md5(json.dumps(c, sort_keys=True, separators=(",", ":")).encode()).hexdigest()[:12]
+
+
+def note_external_clim(ctx, n, fc, site_path):
+    """Remember clim values that someone wrote into our output after our last write (validated later)."""
+    ours = ctx.outclim.get(n) or {}
+    got = []
+    for f in fc.get("features") or []:
+        p = (f or {}).get("properties") if isinstance(f, dict) else None
+        if not isinstance(p, dict) or not isinstance(p.get("clim"), dict) or p.get("id") not in ours:
+            continue
+        if clim_hash(p["clim"]) != ours[p["id"]]:
+            got.append((p["id"], f.get("geometry"), p.get("lp"), p.get("area"), p["clim"]))
+    if got:
+        ctx.clim_external.append((n, os.path.getmtime(site_path), got))
+
+
+def init_clim(ctx):
+    ctx.clim_ver, ctx.clim_code_mtime = clim_version(ctx)
+    path = os.path.join(ctx.geo_src, "_clim_v.json")
+    ctx.clim_cache_path = path
+    old = read_json(path, ctx, lenient=False) if os.path.exists(path) else None
+    if isinstance(old, dict) and old.get("version") == ctx.clim_ver and isinstance(old.get("entries"), dict):
+        ctx.clim_entries = old["entries"]
     else:
-        cmds = [[py, "-I", script]]
+        ctx.clim_entries = {}
+        if isinstance(old, dict) and old.get("entries"):
+            ctx.notes.append(f"climate: code version changed ({old.get('version')} -> {ctx.clim_ver}), "
+                             f"{len(old['entries'])} cached values dropped")
+    if ctx.args.force_clim:
+        ctx.clim_entries = {}
+    ctx.topo_targets = load_topo_targets(ctx)
+    # external in-place climate runs: accept only if newer than the climate code
+    acc = rej = 0
+    for n, mtime, got in ctx.clim_external:
+        if ctx.clim_ver is None or mtime <= ctx.clim_code_mtime or ctx.args.force_clim:
+            rej += len(got)
+            continue
+        for fid, geom, lp, area, c in got:
+            ctx.clim_entries[clim_key(ctx, fid, geom, lp, area)] = c
+            acc += 1
+    if acc or rej:
+        ctx.notes.append(f"climate: {acc} values written into outputs by a climate run accepted, {rej} rejected "
+                         f"(older than the climate code)")
+
+
+def apply_clim(ctx, feats):
+    """Set p['clim'] from the versioned cache; return the records still lacking an entry."""
+    missing = []
+    for d in feats.values():
+        for r in d["main"] + d["fine"]:
+            p = r["p"]
+            r["ck"] = clim_key(ctx, p["id"], r["g"], p.get("lp"), p.get("area"))
+            if r["ck"] in ctx.clim_entries:
+                c = ctx.clim_entries[r["ck"]]
+                if c:
+                    p["clim"] = c
+                else:
+                    p.pop("clim", None)
+            else:
+                p.pop("clim", None)
+                missing.append(r)
+    return missing
+
+
+def climate_step(ctx, srcs, feats):
+    missing = apply_clim(ctx, feats)
+    total = sum(len(d["main"]) + len(d["fine"]) for d in feats.values())
+    if not missing:
+        ctx.notes.append(f"climate: all {total} features from the cache (version {ctx.clim_ver})")
+        return
+    if ctx.clim_ver is None:
+        ctx.notes.append(f"climate: {rel(ctx, ctx.clim_script)} not present; {len(missing)} features without clim")
+        return
+    if ctx.args.no_clim:
+        ctx.notes.append(f"climate: skipped (--no-clim); {len(missing)} of {total} features without clim")
+        return
+    tmp = os.path.join(ctx.work, "clim_tmp")
+    shutil.rmtree(tmp, ignore_errors=True)
+    os.makedirs(tmp, exist_ok=True)
+    groups = defaultdict(list)
+    for r in missing:
+        groups[r["file"]].append(r)
+    paths, by_ck = [], {}
+    for n, recs in sorted(groups.items()):
+        for i in range(0, len(recs), 2000):
+            part = recs[i:i + 2000]
+            path = os.path.join(tmp, f"{n[:-8]}_{i // 2000}.geojson")
+            fc = {"type": "FeatureCollection", "features": [
+                {"type": "Feature", "properties": {"id": r["p"]["id"], "lp": r["p"].get("lp"), "area": r["p"].get("area")},
+                 "geometry": r["g"]} for r in part]}
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(fc, f, ensure_ascii=False, separators=(",", ":"))
+            paths.append(path)
+            for r in part:
+                by_ck.setdefault(r["p"]["id"], []).append(r)
     t = time.time()
     ok = False
-    for cmd in cmds:
-        try:
-            r = subprocess.run(cmd, capture_output=True, text=True, timeout=ctx.args.clim_timeout)
-        except subprocess.TimeoutExpired:
-            ctx.warn("climate_enrich timed out")
-            break
-        if r.returncode == 0:
-            ok = True
-            break
-        ctx.warn(f"climate_enrich failed (rc {r.returncode}): {(r.stderr or '').strip()[-300:]}")
-    ctx.notes.append(f"climate: ran {os.path.basename(script)} on {len(todo)} files in {time.time() - t:.0f}s, ok={ok}")
-    # harvest clim from every output the script touched (it may ignore the paths it was given)
-    for s in srcs:
-        if not os.path.exists(s["site_path"]):
-            continue
-        if s["name"] not in todo and sha_file(s["site_path"]) == s["seen_sha"]:
-            continue
-        fc = read_json(s["site_path"], ctx, lenient=False)
-        if not isinstance(fc, dict) or not carries_derived(fc):
-            continue
-        cl = harvest_clim(fc)
-        ent = ctx.clim_cache.setdefault(s["name"], {})
-        if ent.get("src_sha") != s["src_sha"]:
-            ent.clear()
-            ent["src_sha"] = s["src_sha"]
-        ent.setdefault("clim", {}).update(cl)
-        if ok and s["name"] in todo:
-            ent.setdefault("tried", {})[ssha] = sorted(missing.get(s["name"], []))
-        for r in feats[s["iso2"]]["fine" if s["fine"] else "main"]:
-            if r["p"]["id"] in cl:
-                r["p"]["clim"] = cl[r["p"]["id"]]
-        s["seen_sha"] = sha_file(s["site_path"])
-    return True
+    try:
+        res = subprocess.run([sys.executable, "-I", ctx.clim_script] + paths, capture_output=True, text=True,
+                             timeout=ctx.args.clim_timeout)
+        ok = res.returncode == 0
+        if not ok:
+            ctx.warn(f"climate_enrich failed (rc {res.returncode}): {(res.stderr or '').strip()[-400:]}")
+    except subprocess.TimeoutExpired:
+        ctx.warn("climate_enrich timed out")
+    got = nodata = 0
+    if ok:
+        for path in paths:
+            fc = read_json(path, ctx, lenient=False) or {}
+            for f in fc.get("features") or []:
+                p = f.get("properties") or {}
+                for r in by_ck.get(p.get("id"), []):
+                    c = p.get("clim") if isinstance(p.get("clim"), dict) else None
+                    ctx.clim_entries[r["ck"]] = c
+                    if c:
+                        r["p"]["clim"] = c
+                        got += 1
+                    else:
+                        nodata += 1
+    shutil.rmtree(tmp, ignore_errors=True)
+    ctx.notes.append(f"climate: computed {got} features ({nodata} without data) with {os.path.basename(ctx.clim_script)} "
+                     f"in {time.time() - t:.0f}s, {total - len(missing)} from the cache, ok={ok}")
+
+
+def save_clim_cache(ctx, feats):
+    if ctx.clim_ver is None:
+        return
+    used = {r["ck"] for d in feats.values() for r in d["main"] + d["fine"] if r.get("ck")}
+    entries = {k: v for k, v in ctx.clim_entries.items() if k in used}
+    write_json(ctx.clim_cache_path, {"version": ctx.clim_ver, "entries": entries})
+
+
+# ---------------------------------------------------------------------- terrain sidecars (topo_merge.py)
+def topo_step(ctx):
+    script = os.path.join(ctx.root, "scripts", "topo_merge.py")
+    wt = os.path.join(ctx.work, "topo")
+    if ctx.args.no_topo or not os.path.exists(script) or not os.path.exists(os.path.join(wt, "prep.pkl")):
+        if os.path.exists(script) and not ctx.args.no_topo:
+            ctx.notes.append("topo: work/topo/prep.pkl missing, topo_merge.py not run")
+        return
+    loader = ("import sys, importlib.util as u; s = u.spec_from_file_location('topo_merge', %r); "
+              "m = u.module_from_spec(s); s.loader.exec_module(m); m.W = %r; m.WORK = %r; m.OUT = %r; m.main()"
+              % (script, ctx.root, wt, os.path.join(ctx.site_data, "topo")))
+    t = time.time()
+    try:
+        r = subprocess.run([sys.executable, "-I", "-c", loader], capture_output=True, text=True, timeout=1800)
+        if r.returncode:
+            ctx.warn(f"topo_merge.py failed (rc {r.returncode}): {(r.stderr or '').strip()[-300:]}")
+        else:
+            ctx.notes.append(f"topo: topo_merge.py ran in {time.time() - t:.0f}s")
+    except subprocess.TimeoutExpired:
+        ctx.warn("topo_merge.py timed out")
+
+
+ATTR_CLIM = ("gst", "gdd", "hi", "prec", "gsp", "dtr", "mjt")
+
+
+def sync_attrs(ctx, feats):
+    """site/data/topo/_attrs.json: rewrite the climate columns (and country/area/fine) from the clim we just
+    wrote, add rows for polygons topo has not seen yet, drop rows of polygons that no longer exist."""
+    path = os.path.join(ctx.site_data, "topo", "_attrs.json")
+    if not os.path.exists(path):
+        return
+    a = read_json(path, ctx, lenient=False)
+    if not isinstance(a, dict) or not isinstance(a.get("_cols"), list):
+        ctx.warn("topo/_attrs.json unreadable, not synced")
+        return
+    cols = a["_cols"]
+    ix = {c: i for i, c in enumerate(cols)}
+    out = {"_cols": cols}
+    added = changed = 0
+    for iso in sorted(feats):
+        for r in feats[iso]["main"] + feats[iso]["fine"]:
+            p = r["p"]
+            row = list(a.get(p["id"]) or [None] * len(cols))
+            row += [None] * (len(cols) - len(row))
+            old = list(row)
+            c = p.get("clim") or {}
+            for k in ATTR_CLIM:
+                if k in ix:
+                    row[ix[k]] = c.get(k)
+            if "country" in ix:
+                row[ix["country"]] = iso
+            if "fine" in ix:
+                row[ix["fine"]] = 1 if r["fine"] else 0
+            if "area_km2" in ix and row[ix["area_km2"]] is None:
+                row[ix["area_km2"]] = p.get("area")
+            if p["id"] not in a:
+                added += 1
+            elif row != old:
+                changed += 1
+            out[p["id"]] = row
+    dropped = sum(1 for k in a if k != "_cols" and k not in out)
+    write_json(path, out)
+    ctx.notes.append(f"topo: _attrs.json synced ({changed} rows updated, {added} added, {dropped} dropped)")
 
 
 # ====================================================================== global files, sources
@@ -2484,8 +2947,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--root", default=DEFAULT_ROOT)
     ap.add_argument("--no-clim", action="store_true", help="do not run scripts/climate_enrich.py")
-    ap.add_argument("--force-clim", action="store_true", help="run climate_enrich.py on every geo output")
+    ap.add_argument("--force-clim", action="store_true", help="recompute clim for every feature (ignore the cache)")
     ap.add_argument("--clim-script", default=None)
+    ap.add_argument("--no-topo", action="store_true", help="do not run scripts/topo_merge.py")
     ap.add_argument("--clim-timeout", type=int, default=3600)
     ap.add_argument("-v", "--verbose", action="store_true")
     ap.add_argument("--inline-fine-profiles", action="store_true",
@@ -2508,18 +2972,21 @@ def main():
         ctx.warn("grapes.json present but no usable grapes found")
 
     isos = sorted(set(k for k, v in feats.items() if v["main"] or v["fine"]) | set(merged))
-    out = {"site_ids": set(), "extra": [], "regions": [], "sites": [], "content": {}, "varieties_src": {}}
+    out = {"site_ids": set(), "extra": [], "regions": [], "sites": [], "content": {}, "varieties_src": {},
+           "prof_ctx": {}}
     for iso in isos:
         F = feats.get(iso) or {"main": [], "fine": []}
         build_country(ctx, iso, F, merged.get(iso), countries, grapes, out)
+    assign_ctx(ctx, feats, out, countries)
 
     # geo outputs, then climate enrichment on them, then rewrite with harvested clim
+    topo_step(ctx)
+    init_clim(ctx)
+    climate_step(ctx, srcs, feats)
     sizes = write_geo_outputs(ctx, srcs, feats)
     write_json(ctx.manifest_path, ctx.manifest, pretty=True)
-    if climate_step(ctx, srcs, feats):
-        sizes = write_geo_outputs(ctx, srcs, feats)
-    write_json(ctx.manifest_path, ctx.manifest, pretty=True)
-    write_json(ctx.clim_cache_path, ctx.clim_cache)
+    save_clim_cache(ctx, feats)
+    write_json(ctx.outclim_path, ctx.outclim)
     write_json(ctx.outprints_path, ctx.outprints)
 
     # ---- derived geo files
@@ -2532,6 +2999,8 @@ def main():
             e = {"id": p["id"], "name": p["name"], "alt": str_list(p.get("alt")), "country": iso, "cat": p.get("cat"),
                  "subcat": p.get("subcat"), "area": p["area"], "parent": p.get("parent"), "lp": p["lp"],
                  "bbox": p["bbox"], "bq": p.get("bq"), "style": p["style"], "prof": p["prof"], "lvl": p["lvl"]}
+            if p.get("ctx"):
+                e["ctx"] = p["ctx"]
             if p.get("pref"):
                 e["pref"] = p["pref"]
             if r["fine"]:
@@ -2548,6 +3017,8 @@ def main():
                       "bq": "approx", "style": e["style"], "prof": 1, "lvl": e["lvl"], "pt": 1, "cq": e["cq"]})
         if e.get("subcat"):
             index[-1]["subcat"] = e["subcat"]
+        if e.get("ctx"):
+            index[-1]["ctx"] = e["ctx"]
         if e.get("fine"):
             index[-1]["fine"] = 1
     write_json(os.path.join(G, "_index.json"), index)
@@ -2556,6 +3027,7 @@ def main():
     write_json(os.path.join(G, "_sites.geojson"), {"type": "FeatureCollection", "features": out["sites"]})
     write_json(os.path.join(G, "_extra_points.geojson"), {"type": "FeatureCollection", "features": [
         {"type": "Feature", "properties": {**{k: e[k] for k in ("id", "name", "country", "cat", "style", "cq")},
+                                           **({"ctx": e["ctx"]} if e.get("ctx") else {}),
                                            **({"fine": 1} if e.get("fine") else {})},
          "geometry": {"type": "Point", "coordinates": list(e["pt"])}} for e in out["extra"]]})
 
@@ -2676,6 +3148,8 @@ def main():
             "sources": collect_sources(ctx, used_src, clim_present, bool(grapes and grapes.ok))}
     write_json(os.path.join(ctx.site_data, "meta.json"), meta, pretty=True)
 
+    sync_attrs(ctx, feats)
+
     # ---- sizes, report, summary
     total, big, nfiles = 0, [], 0
     for dp, _, fns in os.walk(ctx.site_data):
@@ -2736,6 +3210,7 @@ def write_report(ctx, isos, cmeta, counts, grapes, total, nfiles, site_files):
         ("id_missing", "Explicit profile ids not found in the geo files (kept as points/content; rerun joins them)", ""),
         ("id_names", "Explicit id joins whose names differ from the polygon (check the id)", ""),
         ("geo_append", "Geo outputs edited in place by agents (pristine copies rebuilt)", ""),
+        ("ctx_dups", "Same-named units whose ctx still collides", ""),
         ("dedupe", "Duplicate profiles across research files (longer kept)", ""),
         ("noprof_poly", "Profiles without polygons", "| iso2 | profile | placement |\n|---|---|---|"),
         ("unplaced", "Profiles that could not be placed (content only)", ""),

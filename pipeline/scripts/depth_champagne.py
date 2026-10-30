@@ -158,7 +158,7 @@ def main():
         else:
             units.append((r.nom, r.dep, r.code, r.geometry, [], NOTES.get(r.nom)))
     print('units', len(units))
-    taken = all_ids()
+    taken = all_ids(SRC)
     feats = []
     pc_set, gc_set = set(PREMIER), set(GRAND)
     found = set()
@@ -188,10 +188,7 @@ def main():
             a = ['Villeneuve-Renneville'] + a
         if disp == 'Vaudemange':
             a = ['Vaudemanges'] + a
-        fid = f'fr-champagne-{slug(disp)}'
-        if fid in taken:
-            fid = f'fr-champagne-{slug(disp)}-{code}'
-        taken.add(fid)
+        fid = unique_id(f'fr-champagne-{slug(disp)}', taken, code)
         pct = '100%' if status == 'Grand Cru' else '90-99%' if status == 'Premier Cru' else '80-89%'
         reg = {'echelle': status, 'echelle_pct': pct, 'subregion': sub, 'terroir': ter, 'insee': code}
         if note:

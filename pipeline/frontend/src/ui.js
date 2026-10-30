@@ -48,7 +48,7 @@ const APP = {
     if (this._more) return this._more;
     const g = p => has(p) ? getJSON(p) : Promise.resolve(null);
     this._more = Promise.all([g('data/content/global/timeline.json'), g('data/content/global/soils.json'), g('data/content/global/systems.json')])
-      .then(([tl, so, sy]) => { setTimeline(tl); setSoils(so); setSystems(sy); });
+      .then(([tl, so, sy]) => { setTimeline(tl); setSoils(so); setSystems(sy); rebuildSearch(); });
     return this._more;
   }
 };
@@ -132,7 +132,14 @@ function openSheet(snap, force) {
     const want = snap || (was ? SHEET.snap : 'half');
     const order = ['peek', 'half', 'full'];
     setSnap(was && order.indexOf(SHEET.snap) > order.indexOf(want) ? SHEET.snap : want);
-  } else { $('#snap').hidden = true; setSnap('side'); }
+  } else { $('#snap').hidden = true; setSnap('side'); sidePad(true); }
+}
+/* desktop: the open side sheet takes the right of the map, so the globe's centre moves into the space left of it */
+function sidePad(on) {
+  if (!map || isPhone()) return;
+  const pad = map.getPadding(), right = on ? ($('#sheet').offsetWidth || 448) + 24 : 0;
+  if (map.isMoving() || Math.abs((pad.right || 0) - right) < 2) return;   /* a flight sets its own padding */
+  map.easeTo({ padding: { ...pad, right }, duration: MQ.rm.matches ? 0 : 350, essential: false });
 }
 function closeSheet(keepHash) {
   const sh = $('#sheet');
@@ -140,6 +147,7 @@ function closeSheet(keepHash) {
   $('#app').dataset.sheet = 'closed';
   $('#app').dataset.snap = 'closed';
   SHEET.snap = 'closed';
+  sidePad(false);
   APP.hist = []; APP.cur = '';
   const was = VMX.cur;
   if (was && was.type === 'view') { const d = VMX.views.get(was.id); if (d && d.onClose) try { d.onClose(); } catch (e) { console.warn(e); } }
@@ -161,6 +169,73 @@ function renderSheet(html, crumb) {
   body.scrollTop = 0;
   $('#sheet-crumb').textContent = crumb || '';
   $('#back').hidden = APP.hist.length === 0;
+  if (APP._restore && APP._restore.key === APP.cur) { const r = APP._restore; APP._restore = null; restoreScroll(r); }
+}
+/* data a profile names that may not have arrived when it is first drawn (cold deep links): the country list,
+   the appellation index, sites, and the source titles in meta.json */
+function lateNeeds(h) {
+  const need = [];
+  if (!D.countriesLoaded && map) need.push(COUNTRIES_READY);
+  if (!D.indexLoaded) need.push(APP.loadIndex());
+  if (/^site-|^region-/.test(h) && !D.sites.length) need.push(VM.data.loadSites());
+  if (!D.meta) need.push(APP.loadGlobals());
+  return need;
+}
+/* re-render the current route in place: same scroll and snap, no history entry, no camera move */
+function refreshProfile() {
+  if (!APP.cur) return;
+  SCROLLS.set(APP.cur, { top: $('#sheet-body').scrollTop, snap: SHEET.snap });
+  APP._opts = { back: true, stay: true, refresh: true };
+  route();
+}
+function srcTitle(k) {
+  if (!k) return 'atlas data';
+  if (SRC[k]) return SRC[k];
+  const m = arr(D.meta?.sources).find(s => s.key === k);
+  return m ? String(m.title || k).replace(/^(.{0,140}?[.)])\s.*$/, '$1') : 'atlas data';
+}
+/* a link that matches nothing: say so in the panel and offer the search, pre-filled from the link */
+function notFound(h) {
+  setView(null);
+  openSheet(isPhone() ? 'half' : null);
+  const words = String(h).replace(/^(grape|event|term|soil|region|site)-/, '').replace(/^[a-z]{2}-/, '').replace(/-/g, ' ').trim();
+  renderSheet(`<div class="head"><p class="eyebrow">Not found</p><h2 class="title">Nothing at this link</h2></div>
+    <p class="note"><span class="mono">#${esc(h)}</span> does not match a place, grape or moment in the atlas. It may have been renamed, or the link may be cut short.</p>
+    <div class="btn-row"><button type="button" class="btn solid" id="nf-search">Search${words ? ` for “${esc(words)}”` : ' the atlas'}</button></div>`, 'Not found');
+  $('#nf-search').addEventListener('click', () => { const q = $('#q'); q.value = words; q.focus(); renderResults(); });
+}
+/* scroll positions per route; restored on back once the content (async sections, photos) is tall enough */
+const SCROLLS = new Map();
+let _restoreStop = null;
+function restoreScroll(r) {
+  if (_restoreStop) _restoreStop();
+  const body = $('#sheet-body'), key = APP.cur, t0 = performance.now();
+  if (isPhone() && r.snap && ['peek', 'half', 'full'].includes(r.snap)) setSnap(r.snap);
+  let done = false, raf = 0;
+  const stop = () => {
+    if (done) return; done = true;
+    cancelAnimationFrame(raf); mo.disconnect(); ro.disconnect();
+    for (const ev of ['wheel', 'touchstart', 'pointerdown', 'keydown']) body.removeEventListener(ev, stop);
+    if (_restoreStop === stop) _restoreStop = null;
+  };
+  const tryIt = () => {
+    if (done) return;
+    if (APP.cur !== key || performance.now() - t0 > 4000) { stop(); return; }
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(() => {
+      if (done) return;
+      body.scrollTop = r.top || 0;
+      // reached: wait a little longer in case a late section above the target still grows the page
+      if (Math.abs(body.scrollTop - (r.top || 0)) < 2 && performance.now() - t0 > 1200) stop();
+    });
+  };
+  const mo = new MutationObserver(tryIt), ro = new ResizeObserver(tryIt);
+  mo.observe(body, { childList: true, subtree: true, attributes: true, attributeFilter: ['hidden'] });
+  ro.observe(body);
+  for (const ev of ['wheel', 'touchstart', 'pointerdown', 'keydown']) body.addEventListener(ev, stop, { passive: true });
+  _restoreStop = stop;
+  tryIt();
+  setTimeout(tryIt, 400); setTimeout(tryIt, 1300); setTimeout(tryIt, 2500);
 }
 function bindSheetDrag() {
   const sh = $('#sheet'), app = $('#app');
@@ -243,30 +318,46 @@ function clearMarkers() { if (MK.pulse) MK.pulse.remove(); if (MK.pin) MK.pin.re
 /* ---------- router ---------- */
 const VIEWS = ['grapes', 'timeline', 'lexicon', 'layers', 'about'];
 let _routeN = 0;
+/* profiles name countries; a link opened before the country list has arrived waits for it briefly */
+const COUNTRIES_READY = new Promise(r => APP.on('countries', r));
 async function route() {
   const h = decodeURIComponent(location.hash.slice(1)).trim();
   const opts = APP._opts || {}; APP._opts = null;
   const n = ++_routeN;
   if (!h) { if (!$('#sheet').hidden) closeSheet(true); return; }
-  if (APP.cur && APP.cur !== h && !opts.back && !$('#sheet').hidden) { APP.hist.push(APP.cur); if (APP.hist.length > 30) APP.hist.shift(); }
+  const open = !$('#sheet').hidden;
+  // remember where the reader was in the profile being left, so going back returns there
+  if (APP.cur && APP.cur !== h && open) SCROLLS.set(APP.cur, { top: $('#sheet-body').scrollTop, snap: SHEET.snap });
+  // back: the panel's back button, or the browser's (the target is the entry on top of the panel history)
+  const browserBack = !opts.back && !opts.tour && open && APP.hist.length && APP.hist[APP.hist.length - 1] === h && APP.cur !== h;
+  if (browserBack) APP.hist.pop();
+  const isBack = !!(opts.back || browserBack);
+  if (APP.cur && APP.cur !== h && !isBack && open) { APP.hist.push(APP.cur); if (APP.hist.length > 30) APP.hist.shift(); }
+  APP._restore = isBack && SCROLLS.has(h) ? { key: h, ...SCROLLS.get(h) } : null;
+  if (isBack) opts.back = true;
   APP.cur = h;
   hideResults();
   if (!opts.tour) stopTour();
   if (!/^event-/.test(h) && !/^grape-/.test(h) && MK.pulse) MK.pulse.remove();
   if (!/^grape-/.test(h) && MK.pin) MK.pin.remove();
   try {
-    if (VIEWS.includes(h)) return await showView(h, opts);
     const cv = typeof viewFor === 'function' ? viewFor(h) : null;
     if (cv) return await showCustomView(cv, h, opts);
+    if (!D.countriesLoaded && map) { await Promise.race([COUNTRIES_READY, sleep(2500)]); if (n !== _routeN) return; }
+    if (VIEWS.includes(h)) return await showView(h, opts);
     if (/^grape-/.test(h)) return await showGrape(h.slice(6), opts);
     if (/^event-/.test(h)) return await showEvent(h, opts);
     if (/^term-/.test(h)) return await showView('lexicon', { ...opts, term: h });
     if (/^soil-/.test(h)) return await showView('lexicon', { ...opts, tab: 'soils', term: h });
-    if (/^region-/.test(h)) return await showRegion(h, opts, n);
-    if (/^site-/.test(h)) return await showSite(h, opts, n);
-    if (/^[a-z]{2}$/.test(h)) return await showCountry(h, opts, n);
-    if (/^[a-z]{2}-/.test(h)) return await showApp(h, opts, n);
-    APP.toast('That link does not match anything in the atlas.');
+    const late = opts.refresh ? [] : lateNeeds(h);
+    let r;
+    if (/^region-/.test(h)) r = await showRegion(h, opts, n);
+    else if (/^site-/.test(h)) r = await showSite(h, opts, n);
+    else if (/^[a-z]{2}$/.test(h)) r = await showCountry(h, opts, n);
+    else if (/^[a-z]{2}-/.test(h)) r = await showApp(h, opts, n);
+    else { notFound(h); return; }
+    if (late.length) Promise.all(late).then(() => { if (n === _routeN && APP.cur === h && !$('#sheet').hidden) refreshProfile(); });
+    return r;
   } catch (e) { console.warn('[route]', e); }
 }
 function setView(v) {
@@ -292,9 +383,9 @@ async function showApp(id, opts, n) {
   let a = appData(id);
   if (!a && D.countries[iso]?.file) { await ensureCountryGeo(iso, true); a = appData(id); }
   if (!a) {
-    const c = await getContent(iso);
+    const c = await getFineContent(iso);
     const p = c?.profiles?.[id];
-    if (!p) { APP.toast('That appellation is not in the atlas.'); return; }
+    if (!p) { notFound(id); return; }
     a = { id, name: p.name, country: iso, cat: p.cat };
   }
   const stack = APP.pendingStack && APP.pendingStack.includes(id) ? APP.pendingStack : null;
@@ -306,19 +397,22 @@ async function showApp(id, opts, n) {
     return showApp(a.pref, { ...opts, prefFrom: a.id, prefStack: stack }, n);
   }
   const from = opts.prefFrom ? (D.byId.get(opts.prefFrom) || D.feat.get(opts.prefFrom)) : null;
+  const isFine = !!(a.fine || D.byId.get(id)?.fine || D.extraById.get(id)?.fine);
   const draw = async () => {
-    const c = await getContent(iso);
+    const c = await (isFine ? getFineContent(iso) : getContent(iso));
     if (n !== _routeN) return;
     const full = appData(id) || a;
     let html = appHTML(full, c?.profiles?.[id], c, stack || opts.prefStack);
     if (from) html = `<p class="pref-note">You chose <b>${esc(from.name)}</b>${from.subcat ? ` (${esc(from.subcat)})` : ''}. It has no profile of its own, so here is the profile of ${esc(full.name)}, which covers it. <button type="button" class="linkish" data-own="${esc(from.id)}">Show ${esc(from.name)} on its own</button></p>` + html;
-    renderSheet(html, countryName(iso));
+    // the bar names the place once its title has scrolled away: "Cannubi · Barolo", "Chambertin · Grand cru"
+    const where = full.ctx || placeCtx(full) || countryName(iso);
+    renderSheet(html, where && fold(where) !== fold(full.name) ? `${full.name} · ${where}` : full.name);
     bindProfile();
     runSections('appellation', id, from ? { chosen: from.id } : {});
   };
   openSheet(opts.fromMap ? 'peek' : 'half');
   await draw();
-  if (!D.grapes.length) APP.loadGlobals().then(() => { if (n === _routeN && D.grapes.length) { const st = $('#sheet-body').scrollTop; draw().then(() => { $('#sheet-body').scrollTop = st; }); } });
+  /* a profile drawn before the grapes arrived is re-rendered once by route() (lateNeeds), with its scroll kept */
   if (map) {
     const focus = from || a;
     if (!opts.fromMap && !opts.back) {
@@ -405,7 +499,7 @@ function appHTML(a, p, c, stack) {
     }).join('')}</dl>`;
   }
   out += slotHTML('end');
-  out += `<p class="src" style="margin-top:22px">Boundary: ${esc(SRC[a.src] || a.src || 'atlas data')}.${p ? ' Profile: Vitis Mundi research notes.' : ''} <span class="mono">#${esc(a.id)}</span></p>`;
+  out += `<p class="src" style="margin-top:22px">Boundary: ${esc(srcTitle(a.src))}.${p ? ' Profile: Vitis Mundi research notes.' : ''}</p>`;
   return out;
 }
 /* ---------- where an appellation sits ----------
@@ -598,8 +692,8 @@ function countryHTML(iso, m, c) {
     <h2 class="title" style="font-family:var(--f-sc);font-style:normal;letter-spacing:.02em">${esc(name)}</h2>${k.tagline ? `<p class="tagline">${inl(k.tagline)}</p>` : ''}</div>` + slotHTML('hero');
   out += `<div class="btn-row">${m.file || m.bbox ? `<button type="button" class="btn solid" data-fly="${esc(JSON.stringify(mainBbox(iso) || m.bbox || null))}" data-iso="${esc(iso)}">Explore the map</button>` : ''}</div>`;
   out += H.ledger([
-    st.vineyard_ha && { k: 'Vineyards', v: `${fmt(st.vineyard_ha)} ha`, s: `${fmt(st.vineyard_ha * 2.47105)} acres` },
-    st.production_mhl && { k: 'Production', v: `${fmt(st.production_mhl, st.production_mhl < 10 ? 2 : 1)} mhl`, s: `${fmt(st.production_mhl * 100 / 0.75 / 10, 0)} m bottles` },
+    st.vineyard_ha && { k: 'Vineyards', v: `${fmt(st.vineyard_ha)} ha`, s: `${fmt(sig3(st.vineyard_ha * 2.47105))} acres` },
+    st.production_mhl && { k: 'Production', v: `${fmt(st.production_mhl, st.production_mhl < 10 ? 2 : 1)} mhl`, s: `${fmt(st.production_mhl * 100 / 0.75, 0)} m bottles` },
     st.world_rank_production && { k: 'World rank', v: `No. ${st.world_rank_production}`, s: 'by volume' },
     count && { k: 'In the atlas', v: fmt(count), s: m.points && !m.count ? 'appellations, as points' : 'appellations' }
   ]);
@@ -645,9 +739,9 @@ async function showRegion(id, opts, n) {
   if (n !== _routeN) return;
   const geo = D.regionById.get(id) || {};
   const r = arr(c?.regions).find(x => x.id === id) || {};
-  if (!geo.name && !r.name) { APP.toast('That region is not in the atlas yet.'); return; }
+  if (!geo.name && !r.name) { notFound(id); return; }
   openSheet(opts.fromMap ? 'peek' : 'half');
-  renderSheet(regionHTML(id, iso, geo, r, c), countryName(iso));
+  renderSheet(regionHTML(id, iso, geo, r, c), `${r.name || geo.name} · ${countryName(iso)}`);
   bindProfile();
   runSections('region', id);
   selectCountry(null); setSel(null);
@@ -690,13 +784,14 @@ function regionHTML(id, iso, geo, r, c) {
 async function showSite(id, opts, n) {
   setView(null);
   const iso = id.slice(5, 7);
-  const c = await getContent(iso);
-  await Promise.race([APP.loadIndex(), sleep(1500)]);
+  let c = await getContent(iso);
+  await Promise.race([Promise.all([APP.loadIndex(), D.sites.length ? null : VM.data.loadSites()]), sleep(4000)]);
   if (n !== _routeN) return;
   const g = D.siteById.get(id) || {};
+  if (g.app && D.byId.get(g.app)?.fine) { c = await getFineContent(iso); if (n !== _routeN) return; }
   const t = arr(c?.sites).find(s => s.id === id) || {};
   const s = { ...t, ...g, lat: g.lat ?? num(t.lat), lon: g.lon ?? num(t.lon), cq: g.cq || t.coord_quality };
-  if (!s.name) { APP.toast('That site is not in the atlas yet.'); return; }
+  if (!s.name) { notFound(id); return; }
   openSheet(opts.fromMap ? 'peek' : 'half');
   const look = x => x ? (D.byId.get(x) || D.feat.get(x) || null) : null;
   const app = look(s.app);                 // finest unit holding the site (a climat, Einzellage, MGA...) or its appellation
@@ -723,9 +818,9 @@ async function showSite(id, opts, n) {
   const near = D.sites.filter(x => x.id !== id && x.app && (x.app === s.app || (main && x.app === main.id))).slice(0, 12);
   if (near.length) out += H.sec(`Nearby in ${(app || main).name}`) + `<ul class="list">${near.map(H.siteRow).join('')}</ul>`;
   out += slotHTML('end');
-  renderSheet(out, KIND[s.kind] || 'Site');
+  renderSheet(out, `${s.name} · ${s.ctx || (app && app.name) || KIND[s.kind] || 'Site'}`);
   bindProfile();
-  runSections('site', id);
+  runSections('site', id, { app: s.app || t.app_main || null, lp: s.lon != null ? [s.lon, s.lat] : null, name: s.name, kind: s.kind });
   selectCountry(null);
   if (map) {
     if (app) { ensureCountryGeo(iso, !!app.fine || !!D.byId.get(app.id)?.fine).then(() => { if (n === _routeN) setSel(app.id); }); }
@@ -889,6 +984,7 @@ async function showView(v, opts = {}) {
   openSheet(isPhone() ? (v === 'layers' ? 'half' : 'full') : null, v === 'layers');
   renderSheet(html, { grapes: 'Grapes', lexicon: 'Lexicon', layers: 'Layers and colour', about: 'About' }[v]);
   bindView(v);
+  if (v === 'about') runSections('about', 'about');
   if (opts.term) {
     const el = document.getElementById(opts.term);
     if (el) { el.classList.add('flash'); el.scrollIntoView({ block: 'start' }); setTimeout(() => el.classList.remove('flash'), 2400); }
@@ -919,6 +1015,7 @@ function hideSheetOnly() {
   $('#app').dataset.sheet = 'closed';
   $('#app').dataset.snap = 'closed';
   SHEET.snap = 'closed';
+  sidePad(false);
   APP.hist = [];
 }
 async function showEvent(id, opts) {
@@ -1036,7 +1133,7 @@ function layersHTML() {
     ${typeof bmLayersSection === 'function' ? bmLayersSection() : ''}
     ${H.sec('Colour appellations by')}<div class="seg" role="radiogroup" aria-label="Colour appellations by">${MODES.map(([k, l]) => `<label><input type="radio" name="mode" value="${k}" ${S.mode === k ? 'checked' : ''}>${l}</label>`).join('')}</div>
     <p class="note" id="mode-note">${esc(modeNote())}</p>
-    ${H.sec('Show')}<div class="toggles">${LAYER_UI.map(([k, l]) => `<label class="tog" for="ly-${k}"><span>${esc(l)}</span><input type="checkbox" id="ly-${k}" data-ly="${k}" ${S.layers[k] ? 'checked' : ''}></label>`).join('')}</div>
+    ${H.sec('Show')}<div class="toggles">${LAYER_UI.map(([k, l]) => `<label class="tog" for="ly-${k}"><span>${esc(l)}</span><input type="checkbox" id="ly-${k}" data-ly="${k}" ${S.layers[k] ? 'checked' : ''}></label>`).join('')}${VMX.layerToggles.map((t, i) => { let on = false; try { on = !!t.get(); } catch (e) { /* module */ } return `<label class="tog" for="vml-${esc(t.id)}"><span>${esc(t.label || t.id)}${t.note ? `<small>${esc(t.note)}</small>` : ''}</span><input type="checkbox" id="vml-${esc(t.id)}" data-vml="${i}" ${on ? 'checked' : ''}></label>`; }).join('')}</div>
     <p class="note" style="margin-top:18px">The belts mark the latitudes where most of the world's wine is made. Altitude, ocean currents and new cool-climate frontiers increasingly blur them.</p>
     <p class="note"><button type="button" class="btn" data-nav="about">About the data</button></p>`;
 }
@@ -1081,6 +1178,7 @@ function aboutHTML() {
   const srcs = arr(m.sources);
   out += H.sec('Sources and licences') + (srcs.length ? `<ul class="list">${srcs.map(s => `<li class="src" style="padding:8px 0">${s.url && /^https?:/.test(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.key)}</a>` : esc(s.title || s.key)}${s.licence ? `<br><span class="mono" style="font-size:12px">${esc(s.licence)}</span>` : ''}</li>`).join('')}</ul>` : `<ul class="list">${Object.values(SRC).map(s => `<li class="src" style="padding:8px 0">${esc(s)}</li>`).join('')}<li class="src" style="padding:8px 0">TerraClimate 1991–2020 normals; WorldClim 2.1 elevation; OpenStreetMap contributors (ODbL) for selected rivers and towns.</li></ul>`);
   if (typeof aboutV2HTML === 'function') out += aboutV2HTML();
+  out += slotHTML('end');
   out += `<p class="src" style="margin-top:18px">Type: IM Fell English, digitised by Igino Marini from the Fell types; Literata; IBM Plex Mono. Map engine: MapLibre GL JS.</p>`;
   return out;
 }
@@ -1141,6 +1239,7 @@ function bindView(v) {
     body.querySelectorAll('input[name="mode"]').forEach(r => r.addEventListener('change', () => { setMode(r.value); $('#mode-note').textContent = modeNote(); }));
     body.querySelectorAll('[data-ly]').forEach(c => c.addEventListener('change', () => { S.layers[c.dataset.ly] = c.checked; applyLayerVis(); }));
     const bms = body.querySelector('.bm-section'); if (bms && typeof bindBmControls === 'function') bindBmControls(bms);
+    body.querySelectorAll('[data-vml]').forEach(c => c.addEventListener('change', () => { const t = VMX.layerToggles[+c.dataset.vml]; if (t) try { t.set(c.checked); } catch (e) { console.warn('[VM layers]', e); } }));
     body.querySelectorAll('[data-nav]').forEach(b => b.addEventListener('click', () => APP.nav(b.dataset.nav)));
   }
   if (v === 'about' && typeof bindInstall === 'function') bindInstall(body);
@@ -1154,6 +1253,7 @@ function bindView(v) {
 }
 function bindLex() {
   const body = $('#sheet-body');
+  if (typeof soilPhotos === 'function') soilPhotos($('#lexbody'));
   body.querySelectorAll('[data-goto]').forEach(b => b.addEventListener('click', () => {
     const [lon, lat] = b.dataset.goto.split(',').map(Number);
     if (isPhone()) setSnap('peek');
@@ -1169,7 +1269,7 @@ function bindLex() {
 
 /* ---------- search UI ---------- */
 let SR = { list: [], sel: -1 };
-const TYPE_LABEL = { country: 'Country', app: 'Appellation', region: 'Region', site: 'Site', grape: 'Grape', term: 'Glossary' };
+const TYPE_LABEL = { country: 'Country', app: 'Appellation', region: 'Region', site: 'Site', grape: 'Grape', term: 'Glossary', soil: 'Soil' };
 function hideResults() { $('#results').hidden = true; $('#q').setAttribute('aria-expanded', 'false'); SR.sel = -1; }
 function hl(name, q) {
   const f = fold(q); if (!f) return esc(name);
@@ -1206,7 +1306,7 @@ function pickResult(i) {
 function bindSearch() {
   const q = $('#q');
   let t = 0;
-  q.addEventListener('focus', () => { wave2(); APP.loadIndex(); APP.loadGlobals(); if (q.value) renderResults(); });
+  q.addEventListener('focus', () => { wave2(); APP.loadIndex(); APP.loadGlobals(); APP.loadReference(); if (q.value) renderResults(); });
   q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(renderResults, 50); });
   q.addEventListener('keydown', e => {
     const ul = $('#results');
@@ -1240,7 +1340,8 @@ function bindChrome() {
   $('#brand').addEventListener('click', () => APP.nav('about'));
   $('#zin').addEventListener('click', () => { stopSpin(); map?.zoomIn({ duration: MQ.rm.matches ? 0 : 300 }); });
   $('#zout').addEventListener('click', () => { stopSpin(); map?.zoomOut({ duration: MQ.rm.matches ? 0 : 300 }); });
-  $('#compass').addEventListener('click', () => map?.easeTo({ bearing: 0, pitch: 0, duration: MQ.rm.matches ? 0 : 400 }));
+  // face north; in 3D terrain keep the tilt (the tilt button levels it)
+  $('#compass').addEventListener('click', () => map?.easeTo({ bearing: 0, ...(S.keepCam ? {} : { pitch: 0 }), duration: MQ.rm.matches ? 0 : 400 }));
   $('#home').addEventListener('click', () => { if (!map) return; stopSpin(); move({ center: [map.getCenter().lng, 30], zoom: isPhone() ? 1.2 : 2.05 }); });
   const lt = $('#legend-toggle');
   const setLeg = c => { $('#legend').dataset.collapsed = String(c); lt.textContent = c ? 'Show key' : 'Hide key'; lt.setAttribute('aria-expanded', String(!c)); store.set('legend', c); };
@@ -1271,6 +1372,7 @@ function bindChrome() {
   return hint;
 }
 function boot() {
+  try { history.scrollRestoration = 'manual'; } catch (e) { /* older browsers */ }
   readTokens();
   const hint = bindChrome();
   renderLegend();
@@ -1287,8 +1389,11 @@ function boot() {
   }
   if (location.hash.length > 1) {
     const go = () => { APP._opts = {}; route(); };
-    // route once the country list is in, so a deep link can fly to the right place
-    if (map) { let done = false; const once = () => { if (!done) { done = true; setTimeout(go, 30); } }; APP.on('countries', once); setTimeout(once, 8000); } else go();
+    const h0 = decodeURIComponent(location.hash.slice(1));
+    // module views (journal, photo review...) route at once; places wait for the country list, so a deep link
+    // can fly to the right place
+    if (typeof viewFor === 'function' && viewFor(h0)) go();
+    else if (map) { let done = false; const once = () => { if (!done) { done = true; setTimeout(go, 30); } }; APP.on('countries', once); setTimeout(once, 8000); } else go();
   }
   // second wave of reference data once the globe is up
   // grapes and the glossary are fetched when first needed (search, a profile, the grape view), or when idle
