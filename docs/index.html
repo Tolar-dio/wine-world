@@ -1194,7 +1194,8 @@ details.wg .list li:first-child { border-top: 0; }
 .jr-agroup { display: grid; gap: 5px; padding: 6px 10px 0; }
 .jr-agl { font-family: var(--f-sc); font-size: 13px; letter-spacing: .04em; color: var(--muted); }
 
-/* the sticky save bar */
+/* the sticky save bar; scroll padding keeps a focused or scrolled-to field above it */
+#sheet-body[data-view="journal"]:has(.jr-form) { scroll-padding-bottom: 96px; }
 .jr-savebar { position: sticky; bottom: -40px; z-index: 3; display: flex; gap: 8px; align-items: center;
   margin: 22px -24px -40px !important; padding: 12px 24px 14px; background: var(--panel); border-top: 1px solid var(--rule-strong); }
 .jr-savebar .btn { justify-content: center; }
@@ -2144,7 +2145,7 @@ li.ag-off { display: none !important; }
   <div id="toast" role="status" hidden></div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
-<script>window.__VM_MANIFEST={"files":["data/ageing/profiles.json","data/ageing/vintages.json","data/base/admin1_lines.geojson","data/base/countries.geojson","data/base/countries_low.geojson","data/base/country_labels.geojson","data/base/lakes.geojson","data/base/places.geojson","data/base/rivers.geojson","data/content/al.json","data/content/am.json","data/content/ar.json","data/content/at.json","data/content/at_fine.json","data/content/au.json","data/content/az.json","data/content/ba.json","data/content/be.json","data/content/bg.json","data/content/bo.json","data/content/br.json","data/content/ca.json","data/content/ch.json","data/content/cl.json","data/content/cn.json","data/content/co.json","data/content/cv.json","data/content/cy.json","data/content/cz.json","data/content/de.json","data/content/de_fine.json","data/content/dk.json","data/content/dz.json","data/content/ec.json","data/content/eg.json","data/content/es.json","data/content/et.json","data/content/fr.json","data/content/fr_fine.json","data/content/gb.json","data/content/ge.json","data/content/global/glossary.json","data/content/global/grapes.json","data/content/global/soils.json","data/content/global/systems.json","data/content/global/timeline.json","data/content/gr.json","data/content/hr.json","data/content/hu.json","data/content/id.json","data/content/il.json","data/content/in.json","data/content/iq.json","data/content/ir.json","data/content/it.json","data/content/it_fine.json","data/content/jo.json","data/content/jp.json","data/content/ke.json","data/content/kg.json","data/content/kh.json","data/content/kr.json","data/content/kz.json","data/content/lb.json","data/content/lu.json","data/content/ly.json","data/content/ma.json","data/content/md.json","data/content/me.json","data/content/mg.json","data/content/mk.json","data/content/mm.json","data/content/mt.json","data/content/mx.json","data/content/na.json","data/content/nl.json","data/content/no.json","data/content/nz.json","data/content/pe.json","data/content/pl.json","data/content/ps.json","data/content/pt.json","data/content/py.json","data/content/ro.json","data/content/rs.json","data/content/ru.json","data/content/se.json","data/content/si.json","data/content/sk.json","data/content/sy.json","data/content/th.json","data/content/tj.json","data/content/tm.json","data/content/tn.json","data/content/tr.json","data/content/tw.json","data/content/tz.json","data/content/ua.json","data/content/us.json","data/content/uy.json","data/content/uz.json","data/content/ve.json","data/content/vn.json","data/content/xk.json","data/content/za.json","data/content/zw.json","data/geo/_climrefs.json","data/geo/_countries.json","data/geo/_extra_points.geojson","data/geo/_index.json","data/geo/_overview.geojson","data/geo/_regions.geojson","data/geo/_sites.geojson","data/geo/_varieties.json","data/geo/ar.geojson","data/geo/at.geojson","data/geo/at_fine.geojson","data/geo/au.geojson","data/geo/be.geojson","data/geo/bg.geojson","data/geo/br.geojson","data/geo/ca.geojson","data/geo/ch.geojson","data/geo/cl.geojson","data/geo/cy.geojson","data/geo/cz.geojson","data/geo/de.geojson","data/geo/de_fine.geojson","data/geo/dk.geojson","data/geo/es.geojson","data/geo/es_fine.geojson","data/geo/fr.geojson","data/geo/fr_fine.geojson","data/geo/gb.geojson","data/geo/gr.geojson","data/geo/hr.geojson","data/geo/hu.geojson","data/geo/it.geojson","data/geo/it_fine.geojson","data/geo/jp.geojson","data/geo/lu.geojson","data/geo/md.geojson","data/geo/mt.geojson","data/geo/nl.geojson","data/geo/nz.geojson","data/geo/pt.geojson","data/geo/ro.geojson","data/geo/si.geojson","data/geo/sk.geojson","data/geo/us.geojson","data/geo/uy.geojson","data/geo/za.geojson","data/map/cover.json","data/map/journeys.json","data/meta.json","data/photos/_global.json","data/photos/al.json","data/photos/am.json","data/photos/ar.json","data/photos/at.json","data/photos/au.json","data/photos/az.json","data/photos/ba.json","data/photos/be.json","data/photos/bg.json","data/photos/bo.json","data/photos/br.json","data/photos/ca.json","data/photos/ch.json","data/photos/cl.json","data/photos/cn.json","data/photos/co.json","data/photos/cv.json","data/photos/cy.json","data/photos/cz.json","data/photos/de.json","data/photos/dk.json","data/photos/dz.json","data/photos/eg.json","data/photos/es.json","data/photos/fr.json","data/photos/gb.json","data/photos/ge.json","data/photos/gr.json","data/photos/hr.json","data/photos/hu.json","data/photos/id.json","data/photos/il.json","data/photos/in.json","data/photos/iq.json","data/photos/ir.json","data/photos/it.json","data/photos/jo.json","data/photos/jp.json","data/photos/lb.json","data/photos/lu.json","data/photos/ly.json","data/photos/ma.json","data/photos/md.json","data/photos/me.json","data/photos/mg.json","data/photos/mk.json","data/photos/mm.json","data/photos/mt.json","data/photos/mx.json","data/photos/na.json","data/photos/nl.json","data/photos/nz.json","data/photos/pe.json","data/photos/pl.json","data/photos/ps.json","data/photos/pt.json","data/photos/py.json","data/photos/ro.json","data/photos/rs.json","data/photos/ru.json","data/photos/se.json","data/photos/si.json","data/photos/sk.json","data/photos/sy.json","data/photos/th.json","data/photos/tj.json","data/photos/tn.json","data/photos/tr.json","data/photos/tw.json","data/photos/ua.json","data/photos/us.json","data/photos/uy.json","data/photos/uz.json","data/photos/vn.json","data/photos/xk.json","data/photos/za.json","data/regs/ar.json","data/regs/at.json","data/regs/au.json","data/regs/br.json","data/regs/ca.json","data/regs/ch.json","data/regs/cl.json","data/regs/cn.json","data/regs/cy.json","data/regs/de.json","data/regs/es.json","data/regs/fr.json","data/regs/gb.json","data/regs/ge.json","data/regs/gr.json","data/regs/hr.json","data/regs/hu.json","data/regs/it.json","data/regs/jp.json","data/regs/md.json","data/regs/nz.json","data/regs/pt.json","data/regs/si.json","data/regs/us.json","data/regs/uy.json","data/regs/za.json","data/study/decks.json","data/study/tasting.json","data/topo/_attrs.json","data/topo/_sites.json","data/topo/ar.json","data/topo/at.json","data/topo/au.json","data/topo/be.json","data/topo/bg.json","data/topo/br.json","data/topo/ca.json","data/topo/ch.json","data/topo/cl.json","data/topo/cy.json","data/topo/cz.json","data/topo/de.json","data/topo/dk.json","data/topo/es.json","data/topo/fr.json","data/topo/gb.json","data/topo/gr.json","data/topo/hr.json","data/topo/hu.json","data/topo/it.json","data/topo/jp.json","data/topo/lu.json","data/topo/md.json","data/topo/mt.json","data/topo/nl.json","data/topo/nz.json","data/topo/pt.json","data/topo/ro.json","data/topo/si.json","data/topo/sk.json","data/topo/us.json","data/topo/uy.json","data/topo/za.json","data/vintage/_drift.json","data/vintage/_events.json","data/vintage/al.json","data/vintage/am.json","data/vintage/ar.json","data/vintage/at.json","data/vintage/au.json","data/vintage/ba.json","data/vintage/be.json","data/vintage/bg.json","data/vintage/bo.json","data/vintage/br.json","data/vintage/ca.json","data/vintage/ch.json","data/vintage/cl.json","data/vintage/cn.json","data/vintage/cv.json","data/vintage/cy.json","data/vintage/cz.json","data/vintage/de.json","data/vintage/dk.json","data/vintage/dz.json","data/vintage/es.json","data/vintage/fr.json","data/vintage/gb.json","data/vintage/ge.json","data/vintage/gr.json","data/vintage/hr.json","data/vintage/hu.json","data/vintage/il.json","data/vintage/in.json","data/vintage/it.json","data/vintage/jp.json","data/vintage/lb.json","data/vintage/lu.json","data/vintage/ma.json","data/vintage/md.json","data/vintage/me.json","data/vintage/mk.json","data/vintage/mt.json","data/vintage/mx.json","data/vintage/nl.json","data/vintage/nz.json","data/vintage/pe.json","data/vintage/pl.json","data/vintage/pt.json","data/vintage/ro.json","data/vintage/rs.json","data/vintage/ru.json","data/vintage/se.json","data/vintage/si.json","data/vintage/sk.json","data/vintage/th.json","data/vintage/tn.json","data/vintage/tr.json","data/vintage/ua.json","data/vintage/us.json","data/vintage/uy.json","data/vintage/xk.json","data/vintage/za.json"],"glyphs":{"atlas-italic":[0,256,512,7680,8192],"atlas-regular":[0,256,512,7680,8192],"atlas-sc":[0,256,512,7680,8192]}};window.__VM_BUILD={mode:'gh'};</script>
+<script>window.__VM_MANIFEST={"files":["data/ageing/profiles.json","data/ageing/vintages.json","data/base/admin1_lines.geojson","data/base/countries.geojson","data/base/countries_low.geojson","data/base/country_labels.geojson","data/base/lakes.geojson","data/base/places.geojson","data/base/rivers.geojson","data/content/al.json","data/content/am.json","data/content/ar.json","data/content/at.json","data/content/at_fine.json","data/content/au.json","data/content/az.json","data/content/ba.json","data/content/be.json","data/content/bg.json","data/content/bo.json","data/content/br.json","data/content/ca.json","data/content/ch.json","data/content/cl.json","data/content/cn.json","data/content/co.json","data/content/cv.json","data/content/cy.json","data/content/cz.json","data/content/de.json","data/content/de_fine.json","data/content/dk.json","data/content/dz.json","data/content/ec.json","data/content/eg.json","data/content/es.json","data/content/es_fine.json","data/content/et.json","data/content/fr.json","data/content/fr_fine.json","data/content/gb.json","data/content/ge.json","data/content/global/glossary.json","data/content/global/grapes.json","data/content/global/soils.json","data/content/global/systems.json","data/content/global/timeline.json","data/content/gr.json","data/content/hr.json","data/content/hu.json","data/content/id.json","data/content/il.json","data/content/in.json","data/content/iq.json","data/content/ir.json","data/content/it.json","data/content/it_fine.json","data/content/jo.json","data/content/jp.json","data/content/ke.json","data/content/kg.json","data/content/kh.json","data/content/kr.json","data/content/kz.json","data/content/lb.json","data/content/lu.json","data/content/ly.json","data/content/ma.json","data/content/md.json","data/content/me.json","data/content/mg.json","data/content/mk.json","data/content/mm.json","data/content/mt.json","data/content/mx.json","data/content/na.json","data/content/nl.json","data/content/no.json","data/content/nz.json","data/content/pe.json","data/content/pl.json","data/content/ps.json","data/content/pt.json","data/content/py.json","data/content/ro.json","data/content/rs.json","data/content/ru.json","data/content/se.json","data/content/si.json","data/content/sk.json","data/content/sy.json","data/content/th.json","data/content/tj.json","data/content/tm.json","data/content/tn.json","data/content/tr.json","data/content/tw.json","data/content/tz.json","data/content/ua.json","data/content/us.json","data/content/uy.json","data/content/uz.json","data/content/ve.json","data/content/vn.json","data/content/xk.json","data/content/za.json","data/content/zw.json","data/geo/_climrefs.json","data/geo/_countries.json","data/geo/_extra_points.geojson","data/geo/_index.json","data/geo/_overview.geojson","data/geo/_regions.geojson","data/geo/_sites.geojson","data/geo/_varieties.json","data/geo/ar.geojson","data/geo/at.geojson","data/geo/at_fine.geojson","data/geo/au.geojson","data/geo/be.geojson","data/geo/bg.geojson","data/geo/br.geojson","data/geo/ca.geojson","data/geo/ch.geojson","data/geo/cl.geojson","data/geo/cy.geojson","data/geo/cz.geojson","data/geo/de.geojson","data/geo/de_fine.geojson","data/geo/dk.geojson","data/geo/es.geojson","data/geo/es_fine.geojson","data/geo/fr.geojson","data/geo/fr_fine.geojson","data/geo/gb.geojson","data/geo/gr.geojson","data/geo/hr.geojson","data/geo/hu.geojson","data/geo/it.geojson","data/geo/it_fine.geojson","data/geo/jp.geojson","data/geo/lu.geojson","data/geo/md.geojson","data/geo/mt.geojson","data/geo/nl.geojson","data/geo/nz.geojson","data/geo/pt.geojson","data/geo/ro.geojson","data/geo/si.geojson","data/geo/sk.geojson","data/geo/us.geojson","data/geo/uy.geojson","data/geo/za.geojson","data/map/cover.json","data/map/journeys.json","data/meta.json","data/photos/_global.json","data/photos/al.json","data/photos/am.json","data/photos/ar.json","data/photos/at.json","data/photos/au.json","data/photos/az.json","data/photos/ba.json","data/photos/be.json","data/photos/bg.json","data/photos/bo.json","data/photos/br.json","data/photos/ca.json","data/photos/ch.json","data/photos/cl.json","data/photos/cn.json","data/photos/co.json","data/photos/cv.json","data/photos/cy.json","data/photos/cz.json","data/photos/de.json","data/photos/dk.json","data/photos/eg.json","data/photos/es.json","data/photos/fr.json","data/photos/gb.json","data/photos/ge.json","data/photos/gr.json","data/photos/hr.json","data/photos/hu.json","data/photos/id.json","data/photos/il.json","data/photos/in.json","data/photos/iq.json","data/photos/ir.json","data/photos/it.json","data/photos/jo.json","data/photos/jp.json","data/photos/lb.json","data/photos/lu.json","data/photos/ly.json","data/photos/ma.json","data/photos/md.json","data/photos/me.json","data/photos/mg.json","data/photos/mk.json","data/photos/mm.json","data/photos/mt.json","data/photos/mx.json","data/photos/na.json","data/photos/nl.json","data/photos/nz.json","data/photos/pe.json","data/photos/pl.json","data/photos/ps.json","data/photos/pt.json","data/photos/ro.json","data/photos/rs.json","data/photos/ru.json","data/photos/se.json","data/photos/si.json","data/photos/sk.json","data/photos/sy.json","data/photos/th.json","data/photos/tj.json","data/photos/tn.json","data/photos/tr.json","data/photos/tw.json","data/photos/ua.json","data/photos/us.json","data/photos/uy.json","data/photos/uz.json","data/photos/vn.json","data/photos/xk.json","data/photos/za.json","data/regs/ar.json","data/regs/at.json","data/regs/au.json","data/regs/br.json","data/regs/ca.json","data/regs/ch.json","data/regs/cl.json","data/regs/cn.json","data/regs/cy.json","data/regs/de.json","data/regs/es.json","data/regs/fr.json","data/regs/gb.json","data/regs/ge.json","data/regs/gr.json","data/regs/hr.json","data/regs/hu.json","data/regs/it.json","data/regs/jp.json","data/regs/md.json","data/regs/nz.json","data/regs/pt.json","data/regs/si.json","data/regs/us.json","data/regs/uy.json","data/regs/za.json","data/study/decks.json","data/study/tasting.json","data/topo/_attrs.json","data/topo/_sites.json","data/topo/ar.json","data/topo/at.json","data/topo/au.json","data/topo/be.json","data/topo/bg.json","data/topo/br.json","data/topo/ca.json","data/topo/ch.json","data/topo/cl.json","data/topo/cy.json","data/topo/cz.json","data/topo/de.json","data/topo/dk.json","data/topo/es.json","data/topo/fr.json","data/topo/gb.json","data/topo/gr.json","data/topo/hr.json","data/topo/hu.json","data/topo/it.json","data/topo/jp.json","data/topo/lu.json","data/topo/md.json","data/topo/mt.json","data/topo/nl.json","data/topo/nz.json","data/topo/pt.json","data/topo/ro.json","data/topo/si.json","data/topo/sk.json","data/topo/us.json","data/topo/uy.json","data/topo/za.json","data/vintage/_drift.json","data/vintage/_events.json","data/vintage/al.json","data/vintage/am.json","data/vintage/ar.json","data/vintage/at.json","data/vintage/au.json","data/vintage/ba.json","data/vintage/be.json","data/vintage/bg.json","data/vintage/bo.json","data/vintage/br.json","data/vintage/ca.json","data/vintage/ch.json","data/vintage/cl.json","data/vintage/cn.json","data/vintage/cv.json","data/vintage/cy.json","data/vintage/cz.json","data/vintage/de.json","data/vintage/dk.json","data/vintage/dz.json","data/vintage/es.json","data/vintage/fr.json","data/vintage/gb.json","data/vintage/ge.json","data/vintage/gr.json","data/vintage/hr.json","data/vintage/hu.json","data/vintage/il.json","data/vintage/in.json","data/vintage/it.json","data/vintage/jp.json","data/vintage/lb.json","data/vintage/lu.json","data/vintage/ma.json","data/vintage/md.json","data/vintage/me.json","data/vintage/mk.json","data/vintage/mt.json","data/vintage/mx.json","data/vintage/nl.json","data/vintage/nz.json","data/vintage/pe.json","data/vintage/pl.json","data/vintage/pt.json","data/vintage/ro.json","data/vintage/rs.json","data/vintage/ru.json","data/vintage/se.json","data/vintage/si.json","data/vintage/sk.json","data/vintage/th.json","data/vintage/tn.json","data/vintage/tr.json","data/vintage/ua.json","data/vintage/us.json","data/vintage/uy.json","data/vintage/xk.json","data/vintage/za.json"],"glyphs":{"atlas-italic":[0,256,512,7680,8192],"atlas-regular":[0,256,512,7680,8192],"atlas-sc":[0,256,512,7680,8192]}};window.__VM_BUILD={mode:'gh'};</script>
 <script>
 /* Vitis Mundi: core (utilities, tokens, data store, search) */
 'use strict';
@@ -2610,14 +2611,19 @@ function rebuildSearch() {
   const same = new Map();
   for (const a of D.index) { const k = a.country + '|' + fold(a.name); same.set(k, (same.get(k) || 0) + 1); }
   searchAdd('app', D.index.map(a => {
-    const dup = same.get(a.country + '|' + fold(a.name)) > 1;
-    const par = a.parent && D.byId.get(a.parent);
-    const where = dup ? [placeCtx(a), par && par.name !== placeCtx(a) ? par.name : ''].filter(Boolean).join(', ') : a.fine && par ? par.name : '';
-    return { id: a.id, name: a.name, alt: a.alt, area: a.area, prof: a.prof, fine: a.fine, meta: [a.subcat || a.cat, where, countryName(a.country)].filter(Boolean).join(' \u00b7 ') };
+    // ctx (from integration) names the village, commune or zone; without it, a same-named unit borrows its
+    // village from an alias or its parent's name
+    let where = a.ctx || '';
+    if (!where) {
+      const dup = same.get(a.country + '|' + fold(a.name)) > 1, par = a.parent && D.byId.get(a.parent);
+      where = dup ? [placeCtx(a), par && par.name !== placeCtx(a) ? par.name : ''].filter(Boolean).join(', ') : a.fine && par ? par.name : '';
+    }
+    // "goldberg langenlois" finds the right Ried: the name with its qualifier is searchable too
+    return { id: a.id, name: a.name, alt: arr(a.alt).concat(a.ctx ? [a.name + ' ' + a.ctx] : []), area: a.area, prof: a.prof, fine: a.fine, meta: [a.subcat || a.cat, where, countryName(a.country)].filter(Boolean).join(' \u00b7 ') };
   })
-    .concat(D.extra.filter(e => !D.byId.has(e.id)).map(e => ({ id: e.id, name: e.name, prof: 1, area: 1, meta: [e.cat, countryName(e.country)].filter(Boolean).join(' \u00b7 ') }))));
+    .concat(D.extra.filter(e => !D.byId.has(e.id)).map(e => ({ id: e.id, name: e.name, alt: e.ctx ? [e.name + ' ' + e.ctx] : [], prof: 1, area: 1, fine: e.fine ? 1 : 0, meta: [e.cat, e.ctx, countryName(e.country)].filter(Boolean).join(' \u00b7 ') }))));
   searchAdd('region', D.regions.map(r => ({ id: r.id, name: r.name, alt: r.alt, meta: `Wine region \u00b7 ${countryName(r.country)}` })));
-  searchAdd('site', D.sites.map(s => ({ id: s.id, name: s.name, meta: [KIND[s.kind] || 'Site', countryName(s.country)].join(' \u00b7 ') })));
+  searchAdd('site', D.sites.map(s => ({ id: s.id, name: s.name, alt: s.ctx ? [s.name + ' ' + s.ctx] : [], meta: [KIND[s.kind] || 'Site', s.ctx, countryName(s.country)].filter(Boolean).join(' \u00b7 ') })));
   searchAdd('grape', D.grapes.map(g => ({ id: 'grape-' + g.id, name: g.name, alt: g.synonyms, meta: `Grape${g.color ? ' \u00b7 ' + g.color : ''}` })));
   searchAdd('term', D.glossary.map(t => ({ id: 'term-' + slug(t.term), name: t.term, meta: `Glossary${t.lang ? ' \u00b7 ' + t.lang : ''}` })));
   searchAdd('soil', D.soils.map(s => ({ id: 'soil-' + slug(s.id || s.name), name: s.name, meta: 'Soil' })));
@@ -4074,11 +4080,11 @@ async function route() {
   if (!opts.tour) stopTour();
   if (!/^event-/.test(h) && !/^grape-/.test(h) && MK.pulse) MK.pulse.remove();
   if (!/^grape-/.test(h) && MK.pin) MK.pin.remove();
-  if (!D.countriesLoaded && map) { await Promise.race([COUNTRIES_READY, sleep(2500)]); if (n !== _routeN) return; }
   try {
-    if (VIEWS.includes(h)) return await showView(h, opts);
     const cv = typeof viewFor === 'function' ? viewFor(h) : null;
     if (cv) return await showCustomView(cv, h, opts);
+    if (!D.countriesLoaded && map) { await Promise.race([COUNTRIES_READY, sleep(2500)]); if (n !== _routeN) return; }
+    if (VIEWS.includes(h)) return await showView(h, opts);
     if (/^grape-/.test(h)) return await showGrape(h.slice(6), opts);
     if (/^event-/.test(h)) return await showEvent(h, opts);
     if (/^term-/.test(h)) return await showView('lexicon', { ...opts, term: h });
@@ -4138,7 +4144,9 @@ async function showApp(id, opts, n) {
     const full = appData(id) || a;
     let html = appHTML(full, c?.profiles?.[id], c, stack || opts.prefStack);
     if (from) html = `<p class="pref-note">You chose <b>${esc(from.name)}</b>${from.subcat ? ` (${esc(from.subcat)})` : ''}. It has no profile of its own, so here is the profile of ${esc(full.name)}, which covers it. <button type="button" class="linkish" data-own="${esc(from.id)}">Show ${esc(from.name)} on its own</button></p>` + html;
-    renderSheet(html, countryName(iso));
+    // the bar names the place once its title has scrolled away: "Cannubi \u00b7 Barolo", "Chambertin \u00b7 Grand cru"
+    const where = full.ctx || placeCtx(full) || countryName(iso);
+    renderSheet(html, where && fold(where) !== fold(full.name) ? `${full.name} \u00b7 ${where}` : full.name);
     bindProfile();
     runSections('appellation', id, from ? { chosen: from.id } : {});
   };
@@ -4473,7 +4481,7 @@ async function showRegion(id, opts, n) {
   const r = arr(c?.regions).find(x => x.id === id) || {};
   if (!geo.name && !r.name) { notFound(id); return; }
   openSheet(opts.fromMap ? 'peek' : 'half');
-  renderSheet(regionHTML(id, iso, geo, r, c), countryName(iso));
+  renderSheet(regionHTML(id, iso, geo, r, c), `${r.name || geo.name} \u00b7 ${countryName(iso)}`);
   bindProfile();
   runSections('region', id);
   selectCountry(null); setSel(null);
@@ -4550,7 +4558,7 @@ async function showSite(id, opts, n) {
   const near = D.sites.filter(x => x.id !== id && x.app && (x.app === s.app || (main && x.app === main.id))).slice(0, 12);
   if (near.length) out += H.sec(`Nearby in ${(app || main).name}`) + `<ul class="list">${near.map(H.siteRow).join('')}</ul>`;
   out += slotHTML('end');
-  renderSheet(out, KIND[s.kind] || 'Site');
+  renderSheet(out, `${s.name} \u00b7 ${s.ctx || (app && app.name) || KIND[s.kind] || 'Site'}`);
   bindProfile();
   runSections('site', id, { app: s.app || t.app_main || null, lp: s.lon != null ? [s.lon, s.lat] : null, name: s.name, kind: s.kind });
   selectCountry(null);
@@ -5121,8 +5129,11 @@ function boot() {
   }
   if (location.hash.length > 1) {
     const go = () => { APP._opts = {}; route(); };
-    // route once the country list is in, so a deep link can fly to the right place
-    if (map) { let done = false; const once = () => { if (!done) { done = true; setTimeout(go, 30); } }; APP.on('countries', once); setTimeout(once, 8000); } else go();
+    const h0 = decodeURIComponent(location.hash.slice(1));
+    // module views (journal, photo review...) route at once; places wait for the country list, so a deep link
+    // can fly to the right place
+    if (typeof viewFor === 'function' && viewFor(h0)) go();
+    else if (map) { let done = false; const once = () => { if (!done) { done = true; setTimeout(go, 30); } }; APP.on('countries', once); setTimeout(once, 8000); } else go();
   }
   // second wave of reference data once the globe is up
   // grapes and the glossary are fetched when first needed (search, a profile, the grape view), or when idle
@@ -6047,12 +6058,16 @@ function setTerrain3D(on, opts = {}) {
     map.touchPitch.disable();
     try { map.dragRotate._pitchWithRotate = false; map.dragRotate.disable(); map.dragRotate.enable(); } catch (e) { /* private API changed */ }
     // back to the globe only if 3D is still off by then (a journey or the sunlight explorer may have turned it on)
+    let done = false;
     const back = () => {
-      if (BM.terrain) return;
-      if (map.getPitch() > 0.5 || Math.abs(map.getBearing()) > 0.5) map.jumpTo({ pitch: 0, bearing: 0 });
+      if (done || BM.terrain) return;
+      done = true;
+      // level the camera even when the easing was interrupted or is still crawling on a slow device
+      if (map.getPitch() > 0.5 || Math.abs(map.getBearing()) > 0.5) { map.stop(); map.jumpTo({ pitch: 0, bearing: 0 }); }
       map.setMaxPitch(55); map.setProjection({ type: 'globe' });
     };
-    if (opts.instant || MQ.rm.matches) { map.jumpTo({ pitch: 0, bearing: 0 }); back(); } else map.easeTo({ pitch: 0, bearing: 0, duration: 700 }), map.once('moveend', back);
+    if (opts.instant || MQ.rm.matches) { map.jumpTo({ pitch: 0, bearing: 0 }); back(); }
+    else { map.easeTo({ pitch: 0, bearing: 0, duration: 700 }); map.once('moveend', back); setTimeout(back, 1100); }
   }
   $('#ctl3d').hidden = !on;
   updateAttrib();
@@ -6937,6 +6952,7 @@ function aboutV2HTML() {
     ${li('TerraClimate yearly weather, 1950 to 2025 (Abatzoglou, Dobrowski, Parks and Hegewisch 2018, Scientific Data 5:170191), built on ERA5 and WorldClim', 'CC0', 'https://www.climatologylab.org/terraclimate.html')}
     ${li('GHCN-Daily weather stations (Menne et al. 2012, NOAA NCEI), used only to calibrate and check the frost and heat estimates', 'public domain', 'https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily')}
     ${li('Vintage notes: published vintage reports and charts, each linked from its note', '', '')}
+    ${li('Drinking windows: typical ageing profiles and published vintage charts (Wine Spectator, Systembolaget and others), each linked from its window. For years without a report, the typical window shifts by at most three years for the season\u2019s weather (TerraClimate).', '', '')}
     ${li('Rules: summarised from the official specifications (EU eAmbrosia register, national registers and laws), each linked from its card. Summaries, not legal advice.', '', 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/')}
     ${VM.mode === 'gh' ? li('Photos: Wikimedia Commons; each photo shows its author and licence', 'CC BY, CC BY-SA, CC0 or public domain, per photo', 'https://commons.wikimedia.org') : ''}
   </ul>`;
@@ -13620,6 +13636,7 @@ window.VM_CONFIG = Object.assign({
     }));
     if (!list) return;
     list.addEventListener('click', ev => {
+      const tp = el.querySelector('.ag-tip'); if (tp) tp.hidden = true;
       const b = ev.target.closest('.ag-row');
       if (b) { if (st.sel === +b.dataset.y && b.getAttribute('aria-pressed') === 'true') { closeDetail(st); return; } select(st, +b.dataset.y, false); return; }
       const a = ev.target.closest('[data-ag]');
@@ -13641,7 +13658,8 @@ window.VM_CONFIG = Object.assign({
     list.addEventListener('pointermove', ev => {
       if (ev.pointerType !== 'mouse') return;
       const b = ev.target.closest('.ag-row');
-      if (!b) { tip.hidden = true; return; }
+      /* the open row already shows its story below */
+      if (!b || b.getAttribute('aria-pressed') === 'true') { tip.hidden = true; return; }
       const r = st.rows.find(x => x.y === +b.dataset.y);
       tip.innerHTML = r && r.w ? `<b class="vm-num">${r.y}</b> ${stBadge(r.w.status)}<span>${esc(cap(windowText(r.w)))}</span><small>${esc(provText(r.w))}</small>` : `<b class="vm-num">${b.dataset.y}</b><span>no report</span>`;
       tip.hidden = false;
