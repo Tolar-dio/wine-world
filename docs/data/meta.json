@@ -1,11 +1,11 @@
 {
- "built": "2026-10-30T01:44:09+00:00",
+ "built": "2026-10-30T01:49:18+00:00",
  "counts": {
   "countries": 88,
   "countries_with_polygons": 33,
   "countries_with_content": 88,
   "appellations": 2174,
-  "fine_units": 9251,
+  "fine_units": 9487,
   "profiles": 3913,
   "fine_profiles": 1331,
   "fine_units_with_profile": 1331,
@@ -16,7 +16,7 @@
   "sites": 2712,
   "sites_total": 2712,
   "grapes": 266,
-  "with_clim": 11425,
+  "with_clim": 11661,
   "timeline": 148,
   "glossary": 204,
   "soils": 33,
@@ -64,6 +64,12 @@
    "title": "Chile DO comuna lists transcribed from Spanish Wikipedia (Anexo: Regiones vitícolas de Chile), which cites LeyChile Decreto 464/1994 and amendments",
    "licence": "CC BY-SA 4.0 (Wikipedia text)",
    "url": "https://es.wikipedia.org/wiki/Anexo:Regiones_vit%C3%ADcolas_de_Chile"
+  },
+  {
+   "key": "consmap",
+   "title": "Consorzio di Tutela Barolo Barbaresco Alba Langhe e Dogliani, official MGA maps (2019, langhevini.it), digitised. bq is approx.",
+   "licence": "",
+   "url": ""
   },
   {
    "key": "embrapa",
