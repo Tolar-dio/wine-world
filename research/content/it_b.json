@@ -297,7 +297,7 @@
    "terroir": "Tuscany is mostly hills, and the hill is the unit that matters. Inland, the Chianti Classico zone sits on a jumble of Apennine sediments: *galestro*, a flaky, friable schistous clay that shatters in the hand and drains fast, gives perfumed, taut Sangiovese; *alberese*, a hard, pale limestone-marl, gives power and structure; sandstone (*macigno*) in the north and west gives lighter, aromatic wines; the Pliocene marine sands and clays south of Siena and around Montepulciano give rounder fruit. Altitude runs from about 200 m to the 700 m legal ceiling of Chianti Classico, and with warming summers the high, cool sites around Radda, Lamole and Gaiole have gained prestige.\n\nMontalcino is a single isolated hill (to 661 m) with very different flanks: cooler, galestro-rich north slopes near the town, warmer clay and sand to the south near Sant'Angelo in Colle and Castelnuovo dell'Abate, all sheltered from storms by Monte Amiata. On the coast, Bolgheri's amphitheatre of alluvial gravel, clay and sand faces the sea, ripening Cabernet and Merlot under sea breezes, while the Maremma's warm, drier hills give riper, earlier Sangiovese (Morellino) and plenty of international blends.",
    "grapes": "Sangiovese dominates (in Montalcino the local biotype is called Brunello, at Montepulciano Prugnolo Gentile, in Scansano Morellino). Traditional partners are Canaiolo Nero, Colorino, Mammolo, Ciliegiolo and Malvasia Nera; the 2027 Gran Selezione rules list a handful of these as the only permitted blenders. Cabernet Sauvignon, Cabernet Franc, Merlot and Syrah are central on the coast (Bolgheri, Suvereto, Val di Cornia) and appear in many IGT Toscana wines. Whites are a minority: Vernaccia di San Gimignano, Vermentino on the coast, Trebbiano Toscano and Malvasia Bianca Lunga (the classic Vin Santo grapes), Ansonica on the islands and Argentario, and Chardonnay and Pinot Bianco at Pomino. Aleatico makes the sweet red passito of Elba.",
    "styles": "Mostly dry red, from bright, cherry-scented Chianti to long-lived Brunello and Gran Selezione. The coast makes Bordeaux-style blends and varietal Cabernet Franc and Merlot (Masseto, Paleo, Messorio). Whites range from saline Vernaccia to Vermentino. Vin Santo, made from grapes dried on mats or hung from rafters and aged for years in small sealed *caratelli*, is the region's sweet tradition; Occhio di Pernice is its rare red-grape version. Rosé is growing: the Chianti DOCG added a rosato in its 2026 rules.",
-   "classification": "Tuscany runs on DOCG, DOC and IGT (IGT Toscana, Costa Toscana and others give freedom to Super Tuscans). Chianti Classico has a three-tier pyramid: Annata, Riserva (24 months) and Gran Selezione (30 months, estate grapes only, minimum 90% Sangiovese from the 2027 vintage with international grapes banned). Gran Selezione can name one of 11 UGAs (*unità geografiche aggiuntive*), all approved together and in the rules since July 2023: Castellina, Castelnuovo Berardenga, Gaiole, Greve, Lamole, Montefioralle, Panzano, Radda, San Casciano, San Donato in Poggio and Vagliagli. Vino Nobile di Montepulciano has 12 Pievi (UGAs, approved 2023, published 2024) for an 85% Sangiovese estate-grown tier, first vintage 2021. Brunello di Montalcino has no official subzones; producers informally talk about north, south, east and west slopes and the hamlets of Castelnuovo dell'Abate, Sant'Angelo in Colle, Tavernelle, Camigliano, Torrenieri and Castelgiocondo. Chianti has eight subzones (Terre di Vinci added in 2026). Bolgheri Sassicaia is a DOC for a single estate.",
+   "classification": "Tuscany runs on DOCG, DOC and IGT (IGT Toscana, Costa Toscana and others give freedom to Super Tuscans). Chianti Classico has a three-tier pyramid: Annata, Riserva (24 months) and Gran Selezione (30 months, estate grapes only, minimum 90% Sangiovese from the 2027 vintage with international grapes banned). Gran Selezione can name one of 11 UGAs (*unità geografiche aggiuntive*), all written into the rules in July 2023: Castellina, Castelnuovo Berardenga, Gaiole, Greve, Lamole, Montefioralle, Panzano, Radda, San Casciano, San Donato in Poggio and Vagliagli. Eight could be used at once; Lamole, Montefioralle and Vagliagli only become usable from 2027. Vino Nobile di Montepulciano has 12 Pievi (UGAs, approved 2023, published 2024) for an 85% Sangiovese estate-grown tier, first vintage 2021. Brunello di Montalcino has no official subzones; producers informally talk about north, south, east and west slopes and the hamlets of Castelnuovo dell'Abate, Sant'Angelo in Colle, Tavernelle, Camigliano, Torrenieri and Castelgiocondo. Chianti has eight subzones (Terre di Vinci added in 2026). Bolgheri Sassicaia is a DOC for a single estate.",
    "appellations": [
     "Chianti Classico",
     "Castellina",
@@ -1069,7 +1069,7 @@
    "cat": "DOCG",
    "region": "Tuscany",
    "subregion": "Chianti Classico",
-   "created": "UGA of Chianti Classico (approved June 2021; effective 2023 rules)",
+   "created": "UGA of Chianti Classico (approved June 2021; in the 2023 rules, usable on labels from 2027)",
    "styles": [
     "red"
    ],
@@ -1093,7 +1093,7 @@
    "cat": "DOCG",
    "region": "Tuscany",
    "subregion": "Chianti Classico",
-   "created": "UGA of Chianti Classico (approved June 2021; effective 2023 rules)",
+   "created": "UGA of Chianti Classico (approved June 2021; in the 2023 rules, usable on labels from 2027)",
    "styles": [
     "red"
    ],
@@ -1217,7 +1217,7 @@
    "cat": "DOCG",
    "region": "Tuscany",
    "subregion": "Chianti Classico",
-   "created": "UGA of Chianti Classico (approved June 2021; effective 2023 rules)",
+   "created": "UGA of Chianti Classico (approved June 2021; in the 2023 rules, usable on labels from 2027)",
    "styles": [
     "red"
    ],
@@ -1695,7 +1695,7 @@
    "cat": "DOC",
    "region": "Tuscany",
    "subregion": "Bolgheri",
-   "created": "1984 (white and rosé); reds 1994",
+   "created": "1983 (white and rosé; DPR of 1 August 1983, published January 1984); reds 1994",
    "area_ha": 1379,
    "styles": [
     "red",
@@ -1740,7 +1740,7 @@
    ],
    "dominant_style": "red",
    "grapes": "Cabernet Sauvignon (minimum 80%), with Cabernet Franc; in practice about 85% Cabernet Sauvignon and 15% Cabernet Franc.",
-   "summary": "The only Italian DOC owned, in practice, by a single estate. Marchese Mario Incisa della Rocchetta, a Piedmontese aristocrat who married into the Gherardesca family, planted Cabernet cuttings (said to come from Château Lafite) at Tenuta San Guido in the 1940s to make a claret for family use; the wine was drunk at home for two decades. His nephew Piero Antinori and the oenologist Giacomo Tachis helped refine it, and the 1968 vintage was released commercially in 1971. In 1978 a Decanter blind tasting in London put the 1972 Sassicaia first among 33 Cabernet-based wines from 11 countries, and Italian wine was never the same.\n\nSassicaia became a subzone of Bolgheri in 1994 and its own DOC in 2013. About 80 ha, roughly 85% Cabernet Sauvignon and 15% Cabernet Franc, aged about two years in French barriques. Compared with its neighbours it is lean, cedar-scented and tense, a wine of finesse that needs 15 years.",
+   "summary": "The only Italian DOC owned, in practice, by a single estate. Marchese Mario Incisa della Rocchetta, a Piedmontese aristocrat who married into the Gherardesca family, planted Cabernet cuttings from a friend's estate near Pisa (by the estate's account the Salviati property at Migliarino; the often-told Château Lafite origin is a legend) at Tenuta San Guido in the 1940s to make a claret for family use; the wine was drunk at home for two decades. His nephew Piero Antinori and the oenologist Giacomo Tachis helped refine it, and the 1968 vintage was released commercially in 1971. In 1978 a Decanter blind tasting in London put the 1972 Sassicaia first among 33 Cabernet-based wines from 11 countries, and Italian wine was never the same.\n\nSassicaia became a subzone of Bolgheri in 1994 and its own DOC in 2013. About 80 ha, roughly 85% Cabernet Sauvignon and 15% Cabernet Franc, aged about two years in French barriques. Compared with its neighbours it is lean, cedar-scented and tense, a wine of finesse that needs 15 years.",
    "terroir": "The vineyards spread over several parcels at roughly 80 to 400 m between the coast and the hills of Castiglioncello di Bolgheri, on stony alluvial soils (the original Sassicaia plot was named for its stones) with limestone and clay higher up.",
    "producers": [
     "Tenuta San Guido"

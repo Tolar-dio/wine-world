@@ -549,14 +549,14 @@
    "dominant_style": "red",
    "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
    "area_ha": 37.7,
-   "summary": "La Crau is the high, exposed plateau in the east of Châteauneuf-du-Pape, the classic image of the appellation: a thick layer of *galets roulés*, rounded quartzite pebbles left by the ancient Rhône, over red clay. The stones store the day's heat and protect the soil from drying, the clay holds water for dry summers, and the mistral blows through unhindered. Grenache here gives powerful, spicy, long-lived wine with garrigue and kirsch.\n\nThe plateau runs across the commune boundary into Bédarrides and Courthézon (mapped as separate La Crau units). Domaine du Vieux Télégraphe, named after the optical telegraph tower built on the plateau in the 1790s, Domaine du Pegau and Henri Bonneau's Réserve des Célestins draw on La Crau.",
+   "summary": "La Crau is the high, exposed plateau in the east of Châteauneuf-du-Pape, the classic image of the appellation: a thick layer of *galets roulés*, rounded quartzite pebbles left by the ancient Rhône, over red clay. The stones store the day's heat and protect the soil from drying, the clay holds water for dry summers, and the mistral blows through unhindered. Grenache here gives powerful, spicy, long-lived wine with garrigue and kirsch.\n\nThe plateau runs across the commune boundary into Bédarrides and Courthézon (mapped as separate La Crau units). Domaine du Vieux Télégraphe, named after the optical telegraph tower Claude Chappe built on the plateau in 1821, Domaine du Pegau and Henri Bonneau's Réserve des Célestins draw on La Crau.",
    "terroir": "The lieu-dit's 37.7 ha of AOC-delimited land lies at about 95 to 125 m, with a mean slope of about 5%, facing broadly south-west (Copernicus DEM).",
    "producers": [
     "Domaine du Vieux Télégraphe",
     "Domaine du Pegau",
     "Domaine Henri Bonneau"
    ],
-   "nerd_note": "The Brunier family of Vieux Télégraphe have farmed the plateau since 1898; their estate takes its name from the Chappe telegraph station that stood on La Crau.",
+   "nerd_note": "The Brunier family of Vieux Télégraphe have farmed the plateau since 1891; their estate takes its name from the Chappe telegraph station that stood on La Crau.",
    "classification": "Lieu-dit (named place in the land register) within the Châteauneuf-du-Pape AOC. It is not a separate appellation, but the name may appear on the label after Châteauneuf-du-Pape when all the grapes come from it."
   },
   {
@@ -2104,7 +2104,7 @@
    "dominant_style": "red",
    "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
    "area_ha": 7.4,
-   "summary": "A small lieu-dit on the plateau east of the village, on galets over clay. Domaine La Roquette, owned by the Brunier family of Vieux Télégraphe since 1986, takes its name from it.",
+   "summary": "A small lieu-dit north-east of the village, next to Rayas and Pignan, where sandy soils dominate. Domaine La Roquette, owned by the Brunier family of Vieux Télégraphe since 1986, takes its name from it.",
    "terroir": "The lieu-dit's 7.4 ha of AOC-delimited land lies at about 110 to 125 m, with a mean slope of about 6%, mostly east-facing (Copernicus DEM).",
    "producers": [
     "Domaine La Roquette"
@@ -2240,7 +2240,7 @@
    "dominant_style": "red",
    "grapes": "Grenache with Syrah, Mourvèdre and the other permitted varieties (13 named in the decree)",
    "area_ha": 15.1,
-   "summary": "The lieu-dit of Château Rayas, the most singular estate in Châteauneuf-du-Pape. Unlike the stony plateaus, Rayas lies on sandy soils (weathered sandstone) in clearings among pine and oak woods, on slopes that face north. Cool, sheltered and low-yielding, it gives Grenache of extraordinary perfume and transparency, closer to great Burgundy than to the dark, heady style of the appellation.\n\nThe Reynaud family has owned Rayas since the late nineteenth century; Jacques Reynaud made it a cult wine, and since 1997 his nephew Emmanuel Reynaud has run it, also making Château des Tours and Château de Fonsalette.",
+   "summary": "The lieu-dit of Château Rayas, the most singular estate in Châteauneuf-du-Pape. Unlike the stony plateaus, Rayas lies on sandy soils (weathered sandstone) in clearings among pine and oak woods, on slopes that face north. Cool, sheltered and low-yielding, it gives Grenache of extraordinary perfume and transparency, closer to great Burgundy than to the dark, heady style of the appellation.\n\nThe Reynaud family has owned Rayas since the late nineteenth century; Jacques Reynaud made it a cult wine, and his nephew Emmanuel Reynaud ran it from 1997 until his death in November 2025, also making Château des Tours and Château de Fonsalette.",
    "terroir": "The lieu-dit's 15.1 ha of AOC-delimited land lies at about 65 to 110 m, with a mean slope of about 11%, facing broadly north (Copernicus DEM).",
    "producers": [
     "Château Rayas"
