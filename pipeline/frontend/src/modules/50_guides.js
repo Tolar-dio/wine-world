@@ -123,7 +123,9 @@
     if (!GHm() || !id) return '';
     const p = PH.get(id);
     if (!p || !p.thumb) return '';
-    return `<img class="${cls}" src="${esc(p.thumb)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+    // same attributes as the profile photos (CORS request; Safari refuses the opaque copy the service worker hands back otherwise)
+    const small = cls === 'gd-cover' && /^https:\/\/upload\.wikimedia\.org\//.test(p.thumb_small || '') ? p.thumb_small : p.thumb;
+    return `<img class="${cls}" src="${esc(small)}" alt="" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer" onerror="this.remove()">`;
   }
   async function preloadPhotos(ids) {
     if (!GHm()) return;
@@ -135,6 +137,8 @@
 
   /* ---------- map state ---------- */
   const MS = { prev: null, step: null, key: '' };
+  /* guides default to satellite (you can see what the text describes); the reader can switch to the drawn map */
+  const basePref = () => (VM.store.get('guides:base', 'satellite') === 'standard' ? 'standard' : 'satellite');
   const hasV2 = () => GHm() && typeof setTerrain3D === 'function' && typeof setBase === 'function' && typeof BM === 'object';
   function rememberMap() {
     if (MS.prev || !hasV2()) return;
@@ -159,7 +163,7 @@
     try { if (typeof stopSpin === 'function') stopSpin(); } catch (e) { /* none */ }
     if (hasV2()) {
       try { if (typeof JR === 'object' && JR.cur && typeof stopJourney === 'function') stopJourney(true); } catch (e) { /* none */ }
-      const want = m.base || 'standard';
+      const want = basePref() === 'standard' ? (m.base === 'topo' ? 'topo' : 'standard') : (m.base || 'satellite');
       if (want !== BM.base) await setBase(want, { temp: true });
       if (m.terrain && !BM.terrain) setTerrain3D(true, { force: true, instant: true });
       else if (!m.terrain && BM.terrain) setTerrain3D(false, { instant: true });
@@ -333,6 +337,7 @@
     gp(gid).last = cid; saveProg(gid);
     const partLabel = ch.part === 'deeper' ? 'Going deeper · ' : '';
     el.innerHTML = `<div class="head"><p class="eyebrow"><a href="#guide-${esc(gid)}">${esc(g.title)}</a> · ${partLabel}Chapter ${ci + 1} of ${g.chapters.length}</p><h2 class="title">${esc(ch.title)}</h2></div>
+      ${hasV2() ? `<div class="seg seg-inline gd-base" role="radiogroup" aria-label="Map style for this path" style="--cols:2">${[['satellite', 'Satellite'], ['standard', 'Drawn map']].map(([v, l]) => `<label><input type="radio" name="gd-base" value="${v}"${basePref() === v ? ' checked' : ''}><span>${l}</span></label>`).join('')}</div>` : ''}
       <ol class="gd-steps">${ch.steps.map((st, i) => `<li class="gd-step" data-i="${i}">${rich(st.text)}${st.map ? `<button type="button" class="gd-show" aria-label="Show stop ${i + 1} on the map">${PIN}<span>${esc(st.map.label || 'Show on the map')}</span></button>` : ''}</li>`).join('')}</ol>
       ${tasteHTML(gid, ch)}${deeperHTML(ch)}${checkHTML(gid, ch)}
       <div class="gd-nav">${prev ? `<a class="btn ghost" href="#guide-${esc(gid)}--${esc(prev.id)}">Previous</a>` : `<a class="btn ghost" href="#guide-${esc(gid)}">Contents</a>`}
@@ -341,6 +346,12 @@
     await VM.data.loadGlobals?.();
     bindChapter(el, g, ch, next);
     bindReader(el, g, ch);
+    el.querySelectorAll('input[name="gd-base"]').forEach(r => r.addEventListener('change', () => {
+      if (!r.checked) return;
+      VM.store.set('guides:base', r.value);
+      MS.key = '';
+      if (RD && RD.steps[RD.cur]) applyStep(RD.steps[RD.cur].st);
+    }));
   }
   function nextGuidesHTML(g) {
     const n = arr(g.next).map(metaOf).filter(Boolean);
