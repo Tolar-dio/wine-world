@@ -1,0 +1,1402 @@
+{
+  "id": "new-zealand",
+  "kind": "region",
+  "title": "New Zealand",
+  "subtitle": "The youngest great wine country",
+  "tagline": "Fifty years ago Marlborough was sheep pasture; today its Sauvignon Blanc is one of the most recognisable wines on earth, and the same islands make Pinot Noir from gold-rush schist and Syrah from a dry riverbed.",
+  "minutes": 14,
+  "deeper_minutes": 10,
+  "cover": "nz-central-otago",
+  "countries": [
+    "nz"
+  ],
+  "intro": "New Zealand made mostly sweet 'sherry' and Müller-Thurgau until the 1970s. Then, in one generation, it invented a wine style the whole world now recognises. This path starts with missionaries and Dalmatian gum diggers, flies to Marlborough to taste why its Sauvignon Blanc smells the way it does, then heads north to Hawke's Bay's gravels and Martinborough's terraces and south to the schist gorges of Central Otago.",
+  "chapters": [
+    {
+      "id": "origins",
+      "part": "intro",
+      "title": "Missionaries, gum diggers and a late start",
+      "steps": [
+        {
+          "text": "Look at the whole country first. Two long, thin islands stretch from about 35 degrees south in Northland to 45 degrees in Central Otago, and no vineyard is more than about 130 km from the sea. A spine of mountains runs down both islands. The prevailing westerlies from the Tasman Sea hit those mountains and drop their rain on the west, so almost every vineyard is on the drier, sunnier east side.\n\nNew Zealand has about 44,000 hectares of vines, less than Bordeaux, and almost three quarters of them are in one region, [Marlborough](nz-marlborough). About seven in ten hectares are one grape, [Sauvignon Blanc](grape-sauvignon-blanc). Few wine countries are so concentrated, and none of the major ones is younger.",
+          "map": {
+            "fly": "nz",
+            "highlight": [
+              "nz-marlborough",
+              "nz-hawkes-bay",
+              "nz-central-otago",
+              "nz-wairarapa",
+              "nz-gisborne",
+              "nz-nelson",
+              "nz-north-canterbury",
+              "nz-auckland"
+            ],
+            "label": "New Zealand's wine regions"
+          }
+        },
+        {
+          "text": "The vine arrived with the church. On 25 September 1819 the Anglican missionary Samuel Marsden noted that he had planted about a hundred vines at the [Kerikeri mission](site-nz-kerikeri-mission-station) in the Bay of Islands. In the 1830s James Busby, the British Resident (and the same Busby who had [collected vines for Australia](event-busby-australia)), planted a vineyard at his house at [Waitangi](site-nz-waitangi-treaty-grounds), where the Treaty of Waitangi was signed in 1840. That year the French explorer Dumont d'Urville tasted Busby's wine and described a light, sparkling white.\n\nFrench Marist missionaries planted in Hawke's Bay from 1851; their [Mission Estate](site-nz-mission-estate) is still making wine. But a humid climate, vine diseases and a strong temperance movement kept the industry tiny for a century.",
+          "map": {
+            "fly": {
+              "lon": 174.03,
+              "lat": -35.27,
+              "zoom": 10.6
+            },
+            "highlight": [
+              "site-nz-kerikeri-mission-station",
+              "site-nz-waitangi-treaty-grounds",
+              "nz-northland"
+            ],
+            "label": "Bay of Islands"
+          }
+        },
+        {
+          "text": "The families who kept it going came from the Adriatic. From the 1890s, Croatians from Dalmatia arrived to dig kauri gum, the fossil resin of ancient forests, in the north. Many settled in West Auckland, planted small vineyards and sold wine to their neighbours. Josip Babich made his first wine in 1916; [Babich Wines](site-nz-babich-wines) is still family-run. The Nobilos, Selaks, Delegats and the Brajkoviches of [Kumeu River](site-nz-kumeu-river) followed, alongside the Lebanese Corban family.\n\nKumeu River shows how far that tradition has come. Michael Brajkovich, son of a Dalmatian immigrant, became New Zealand's first Master of Wine in 1989, and his family's Chardonnays from the heavy clays of [Kumeu](nz-kumeu) are among the finest in the New World.",
+          "map": {
+            "fly": {
+              "lon": 174.58,
+              "lat": -36.83,
+              "zoom": 10.4
+            },
+            "highlight": [
+              "site-nz-babich-wines",
+              "site-nz-kumeu-river",
+              "nz-kumeu"
+            ],
+            "label": "West Auckland"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Kumeu River Estate Chardonnay",
+          "why": "Start with the Dalmatian story in a glass. This is Chardonnay made in a Burgundian way, fermented with wild yeasts and aged in older barrels: citrus, white peach, a toasty, nutty note and a fine line of acidity. Keep it in mind when people tell you New Zealand only makes Sauvignon.",
+          "price": "$35–42",
+          "try": [
+            "Kumeu River"
+          ],
+          "place": "nz-kumeu"
+        },
+        {
+          "wine": "Kumeu River Village Chardonnay",
+          "why": "The family's entry-level bottle, unoaked or lightly oaked. A good-value way to see the same house style.",
+          "price": "$18–24",
+          "try": [
+            "Kumeu River"
+          ],
+          "place": "nz-auckland"
+        }
+      ],
+      "deeper": [
+        "site-nz-kerikeri-mission-station",
+        "site-nz-waitangi-treaty-grounds",
+        "site-nz-mission-estate",
+        "site-nz-babich-wines",
+        "site-nz-kumeu-river",
+        "nz-auckland",
+        "site-nz-te-kauwhata-viticultural-research-station"
+      ],
+      "check": [
+        {
+          "q": "Why are almost all New Zealand vineyards on the eastern side of the islands?",
+          "options": [
+            "The soils are volcanic there",
+            "Mountains block the westerly winds and rain, leaving the east drier and sunnier",
+            "The east coast is warmer because of a hot current",
+            "Planting on the west is forbidden"
+          ],
+          "answer": 1,
+          "why": "The Southern Alps and the North Island ranges create a rain shadow on the east, where vines get sun and stay healthy."
+        },
+        {
+          "q": "Who planted the first recorded vines in New Zealand, in 1819?",
+          "options": [
+            "James Busby",
+            "Samuel Marsden",
+            "Romeo Bragato",
+            "Josip Babich"
+          ],
+          "answer": 1,
+          "why": "The Anglican missionary Samuel Marsden planted about a hundred vines at Kerikeri."
+        },
+        {
+          "q": "Which immigrant community built much of New Zealand's 20th-century wine industry in West Auckland?",
+          "options": [
+            "German",
+            "French",
+            "Dalmatian Croatian",
+            "Italian"
+          ],
+          "answer": 2,
+          "why": "Croatians from Dalmatia, many of whom came to dig kauri gum, founded wineries such as Babich, Nobilo and Kumeu River."
+        }
+      ]
+    },
+    {
+      "id": "marlborough",
+      "part": "intro",
+      "title": "Marlborough, 1973",
+      "steps": [
+        {
+          "text": "Fly to the north-east tip of the South Island. [Marlborough](nz-marlborough) is a broad, flat valley, the Wairau, opening east to the sea at Cloudy Bay, with dry brown hills on either side. Until the 1970s it was sheep country. Experts thought it too cold and too dry for wine.\n\nThe company that proved them wrong was Montana, run by Frank Yukich, son of a Dalmatian winemaking family. On 11 August 1973 Montana began planting its first Marlborough vineyard at Brancott, south of the town of Blenheim, on land it had bought for little more than a thousand dollars a hectare. The first Montana Marlborough Sauvignon Blanc came from the 1979 vintage. Nobody had tasted anything quite like it.",
+          "map": {
+            "fly": "nz-marlborough",
+            "highlight": [
+              "nz-marlborough"
+            ],
+            "label": "Marlborough"
+          }
+        },
+        {
+          "text": "Switch to satellite over [Brancott Estate](site-nz-brancott-estate), as the Montana vineyard is now called (Pernod Ricard owns it). The rows on the flat run straight for hundreds of metres, trained on tall trellises and picked by machine, which is how Marlborough makes so much wine so cheaply.\n\nWhat was new about the wine? Most white wine in the 1970s was either neutral or sweet. Marlborough Sauvignon smelled loudly of passion fruit, gooseberry, lime and fresh-cut grass, with acidity so sharp it almost tingled. British critics in particular fell for it: Hunter's Fumé Blanc won gold at the Sunday Times Vintage Festival in 1986, the first of three years running.",
+          "map": {
+            "fly": {
+              "lon": 173.84,
+              "lat": -41.548,
+              "zoom": 14.3
+            },
+            "highlight": [
+              "site-nz-brancott-estate"
+            ],
+            "label": "Brancott Estate",
+            "base": "satellite"
+          }
+        },
+        {
+          "text": "The wine that made Marlborough famous came in 1985. David Hohnen, who ran Cape Mentelle in Western Australia, founded [Cloudy Bay](event-cloudy-bay-1985) with winemaker Kevin Judd, naming it after the bay Captain Cook named in 1770. Its first Sauvignon Blanc, with a label of misty blue mountains, sold out almost instantly in London and Sydney and became the first New Zealand wine with cult status.\n\nWhat followed was a gold rush. Marlborough's vineyards grew from a few hundred hectares to about 32,000 today, around 73 percent of the national total, spread across more than 1,100 vineyards. A government-funded vine pull in the mid-1980s, aimed at a glut of Müller-Thurgau, paid growers to clear old vines just as Sauvignon Blanc was taking off.",
+          "map": {
+            "fly": {
+              "lon": 173.86,
+              "lat": -41.5,
+              "zoom": 11.8
+            },
+            "highlight": [
+              "site-nz-cloudy-bay",
+              "site-nz-wairau-valley",
+              "site-nz-brancott-estate"
+            ],
+            "label": "Wairau Valley"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Marlborough Sauvignon Blanc, big-brand",
+          "why": "The style that conquered the world. Smell first: passion fruit, grapefruit, cut grass, maybe a jalapeño note. Then feel the acidity. Every chapter after this builds on these two sensations.",
+          "price": "$13–20",
+          "try": [
+            "Brancott Estate",
+            "Kim Crawford",
+            "Whitehaven"
+          ],
+          "place": "nz-marlborough"
+        },
+        {
+          "wine": "Cloudy Bay Sauvignon Blanc",
+          "why": "The wine that made Marlborough famous, now owned by LVMH. A little riper and more textured than the big brands (a small part is barrel-fermented), with the same zesty spine.",
+          "price": "$35–40",
+          "try": [
+            "Cloudy Bay"
+          ],
+          "place": "nz-marlborough"
+        }
+      ],
+      "deeper": [
+        "nz-marlborough",
+        "site-nz-brancott-estate",
+        "site-nz-cloudy-bay",
+        "event-cloudy-bay-1985",
+        "site-nz-wairau-valley",
+        "grape-sauvignon-blanc"
+      ],
+      "check": [
+        {
+          "q": "When did Montana plant the first commercial vineyard in Marlborough?",
+          "options": [
+            "1819",
+            "1951",
+            "1973",
+            "1985"
+          ],
+          "answer": 2,
+          "why": "Planting at Brancott began in August 1973; the first Sauvignon Blanc came from the 1979 vintage."
+        },
+        {
+          "q": "Who founded Cloudy Bay in 1985?",
+          "options": [
+            "Frank Yukich of Montana",
+            "David Hohnen of Cape Mentelle",
+            "Michael Brajkovich of Kumeu River",
+            "Ross Lawson of Lawson's Dry Hills"
+          ],
+          "answer": 1,
+          "why": "Hohnen founded it with winemaker Kevin Judd."
+        },
+        {
+          "q": "Roughly what share of New Zealand's vineyard is in Marlborough today?",
+          "options": [
+            "About 10 percent",
+            "About a third",
+            "About three quarters",
+            "Almost all"
+          ],
+          "answer": 2,
+          "why": "Marlborough has about 32,000 ha, around 73 percent of the national vineyard."
+        }
+      ]
+    },
+    {
+      "id": "why-it-tastes",
+      "part": "intro",
+      "title": "Why it smells like passion fruit",
+      "steps": [
+        {
+          "text": "Tilt the map and look up the Wairau Valley. The secret of Marlborough Sauvignon is a combination of bright sun and cold nights. The region gets about 2,400 hours of sunshine a year, among the most in the country, yet nights stay cool, because it is maritime and far south. That large swing between day and night (the [diurnal range](term-diurnal-range)) lets grapes build sugar and aroma by day while keeping acidity by night.\n\nThe soil helps too. The north side of the valley around Rapaura is old riverbed: stones and gravel of greywacke, the grey sandstone of the Southern Alps, laid down by the Wairau River. It drains fast and warms quickly, giving the riper, more tropical style.",
+          "map": {
+            "fly": {
+              "lon": 173.8,
+              "lat": -41.55,
+              "zoom": 11.4
+            },
+            "highlight": [
+              "site-nz-wairau-valley"
+            ],
+            "label": "Up the Wairau",
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 250
+          }
+        },
+        {
+          "text": "The aromas themselves come from two families of compounds. Green notes (grass, green pepper, tomato leaf) are [methoxypyrazines](term-methoxypyrazine), which grapes make in cool conditions and sunlight breaks down. Tropical notes (passion fruit, grapefruit, guava) are [thiols](term-thiol), released during fermentation from odourless precursors in the grape. Marlborough's grapes are rich in both.\n\nWinemaking amplifies them. New Zealand research found that machine harvesting, which bruises the berries on the way to the winery, increases thiol precursors. Cool fermentation in stainless steel then protects the aromas, and the wine is bottled young.\n\nNow fly south-east to the [Awatere Valley](site-nz-awatere-valley), higher, windier and colder, first planted by Vavasour in 1986. Its Sauvignon is leaner and more herbal, with tomato leaf and a saline edge.",
+          "map": {
+            "fly": {
+              "lon": 174.06,
+              "lat": -41.7,
+              "zoom": 11.3
+            },
+            "highlight": [
+              "site-nz-awatere-valley",
+              "site-nz-yealands-estate"
+            ],
+            "label": "Awatere Valley",
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 230
+          }
+        },
+        {
+          "text": "Those fragile aromas are why New Zealand changed the way the world seals wine. Cork can carry [TCA](term-tca), the compound that makes wine smell of wet cardboard, and lets in oxygen at uneven rates. In early 2001 Ross Lawson of Lawson's Dry Hills called a meeting in Marlborough, and a couple of dozen producers formed the New Zealand Screwcap Wine Seal Initiative, a year after Clare Valley Riesling makers in Australia had [made the same move](event-screwcaps-clare-2000).\n\nBy 2011 more than 90 percent of New Zealand wine was under screwcap; today almost all of it is. For a wine whose whole point is fresh aroma, that was the right call, and it pushed screwcaps into the mainstream worldwide.",
+          "map": {
+            "fly": {
+              "lon": 173.95,
+              "lat": -41.55,
+              "zoom": 10.0
+            },
+            "highlight": [
+              "site-nz-wairau-valley",
+              "site-nz-awatere-valley",
+              "site-nz-southern-valleys"
+            ],
+            "label": "Marlborough's three valleys"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Wairau Valley Sauvignon Blanc from a quality grower",
+          "why": "Riper and more concentrated than the big brands, with passion fruit and stone fruit rather than just grass. Dog Point's fruit comes from vineyards first planted in the 1970s.",
+          "price": "$20–28",
+          "try": [
+            "Dog Point",
+            "Greywacke"
+          ],
+          "place": "nz-marlborough"
+        },
+        {
+          "wine": "Awatere Valley Sauvignon Blanc",
+          "why": "Pour it next to the Wairau wine. It is paler, with tomato leaf, fresh herbs and a salty finish: the same grape and region, but a colder, windier valley. You have just tasted a sub-region.",
+          "price": "$15–24",
+          "try": [
+            "Vavasour",
+            "Yealands"
+          ],
+          "place": "nz-marlborough"
+        }
+      ],
+      "deeper": [
+        "term-thiol",
+        "term-methoxypyrazine",
+        "term-diurnal-range",
+        "site-nz-awatere-valley",
+        "site-nz-wairau-valley",
+        "term-tca",
+        "event-screwcaps-clare-2000"
+      ],
+      "check": [
+        {
+          "q": "Which compounds give Marlborough Sauvignon its passion-fruit and grapefruit aromas?",
+          "options": [
+            "Methoxypyrazines",
+            "Thiols",
+            "Tannins",
+            "Esters from oak"
+          ],
+          "answer": 1,
+          "why": "Thiols are released during fermentation from precursors in the grape; methoxypyrazines give the green, grassy notes."
+        },
+        {
+          "q": "How does the Awatere Valley's Sauvignon usually differ from the Wairau's?",
+          "options": [
+            "Riper and more tropical",
+            "Leaner and more herbal, from a higher, windier, colder valley",
+            "Always oaked",
+            "Sweeter"
+          ],
+          "answer": 1,
+          "why": "The Awatere is higher, cooler and windier, so its wines show more tomato leaf, herbs and salinity."
+        },
+        {
+          "q": "Why did New Zealand producers switch to screwcaps from 2001?",
+          "options": [
+            "Screwcaps were cheaper than cork",
+            "To avoid cork taint and uneven oxidation that dulled fresh aromas",
+            "The government required it",
+            "Cork was banned for export"
+          ],
+          "answer": 1,
+          "why": "The New Zealand Screwcap Wine Seal Initiative was formed for quality reasons: to protect fresh, aromatic wines from TCA and oxygen."
+        }
+      ]
+    },
+    {
+      "id": "hawkes-bay",
+      "part": "intro",
+      "title": "Hawke's Bay and the gravel that ripens Syrah",
+      "steps": [
+        {
+          "text": "Fly north to the east coast of the North Island. [Hawke's Bay](nz-hawkes-bay) is the country's second-largest region (about 4,500 ha) and its oldest: after the Marists came [Te Mata Estate](site-nz-te-mata-estate), founded in 1896 at Havelock North and New Zealand's oldest winery in continuous production. Sheltered from the westerlies by the Ruahine and Kaweka ranges, it is warmer and sunnier than most of New Zealand.\n\nThis is red-wine country. Hawke's Bay grows most of the country's [Merlot](grape-merlot), Cabernet and [Syrah](grape-syrah), and its Bordeaux-style blends are the most famous reds in New Zealand. Te Mata's Coleraine, a Cabernet-Merlot first made in 1982, is the icon.",
+          "map": {
+            "fly": "nz-hawkes-bay",
+            "highlight": [
+              "nz-hawkes-bay",
+              "site-nz-mission-estate",
+              "site-nz-te-mata-estate"
+            ],
+            "label": "Hawke's Bay"
+          }
+        },
+        {
+          "text": "Now the strangest vineyard ground in the country. In 1867 a great flood shifted the course of the Ngaruroro River west of Hastings and left behind a bed of bare stones. The [Gimblett Gravels](site-nz-gimblett-gravels), about 800 ha, were thought worthless; a concrete company wanted to quarry them. Switch to satellite: the grey, stony soil shows between the rows.\n\nThat stone is the point. It soaks up heat by day, radiates it at night and drains instantly, so vines ripen Syrah and Cabernet that would struggle elsewhere in a cool, maritime country. Alan Limmer of [Stonecroft](site-nz-stonecroft) released New Zealand's first modern Syrah from the 1989 vintage. In 2001 local growers trademarked the [Gimblett Gravels](term-gimblett-gravels) name; a wine using it must contain at least 95 percent fruit from the district's defined soils.",
+          "map": {
+            "fly": {
+              "lon": 176.745,
+              "lat": -39.612,
+              "zoom": 14.0
+            },
+            "highlight": [
+              "site-nz-gimblett-gravels",
+              "site-nz-trinity-hill",
+              "site-nz-stonecroft"
+            ],
+            "label": "Gimblett Gravels",
+            "base": "satellite"
+          }
+        },
+        {
+          "text": "Gimblett Gravels Syrah is often compared with the northern Rhône: black pepper, violets, dark plum and a firm, fresh frame, lighter and more perfumed than Australian Shiraz. The peppery note is a compound called rotundone, which Syrah builds up in cool seasons.\n\nTilt the map toward Te Mata Peak, the limestone ridge above Havelock North where Te Mata and [Craggy Range](site-nz-craggy-range) have their wineries. The hills give the region its other face, Chardonnay with real power (Te Mata's Elston), while the [Bridge Pa Triangle](site-nz-bridge-pa-triangle), on iron-stained 'red metal' gravels south of the Gimblett, makes softer, fragrant Merlot.",
+          "map": {
+            "fly": {
+              "lon": 176.89,
+              "lat": -39.7,
+              "zoom": 12.2
+            },
+            "highlight": [
+              "site-nz-te-mata-estate",
+              "site-nz-craggy-range"
+            ],
+            "label": "Te Mata Peak",
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 130
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gimblett Gravels Syrah",
+          "why": "Smell for cracked black pepper and violets over dark fruit, and notice how fresh it is for a red that ripened on hot stones. This is the bottle to convince a friend that New Zealand makes great reds.",
+          "price": "$28–45",
+          "try": [
+            "Trinity Hill Gimblett Gravels",
+            "Craggy Range Gimblett Gravels"
+          ],
+          "place": "nz-hawkes-bay"
+        },
+        {
+          "wine": "Hawke's Bay Merlot-Cabernet blend",
+          "why": "Te Mata's Estate Vineyards blend, Merlot-led, is a junior Coleraine: red and black currant, cedar and a cool, leafy freshness that sets it apart from Napa.",
+          "price": "$18–25",
+          "try": [
+            "Te Mata Estate Vineyards Merlot/Cabernets"
+          ],
+          "place": "nz-hawkes-bay"
+        }
+      ],
+      "deeper": [
+        "nz-hawkes-bay",
+        "site-nz-gimblett-gravels",
+        "soil-gimblett-gravels",
+        "site-nz-te-mata-estate",
+        "site-nz-stonecroft",
+        "site-nz-trinity-hill",
+        "site-nz-bridge-pa-triangle",
+        "term-rotundone"
+      ],
+      "check": [
+        {
+          "q": "How were the Gimblett Gravels formed?",
+          "options": [
+            "By a volcanic eruption",
+            "When an 1867 flood shifted the Ngaruroro River and left its old bed exposed",
+            "By glaciers",
+            "By quarrying for concrete"
+          ],
+          "answer": 1,
+          "why": "The river changed course after the 1867 flood, leaving a bed of stones that is now vineyard."
+        },
+        {
+          "q": "Why can Hawke's Bay ripen Syrah and Cabernet in a cool country?",
+          "options": [
+            "Irrigation with warm water",
+            "Sheltering ranges plus heat-storing, free-draining gravel",
+            "It is in the tropics",
+            "Vines are grown under plastic"
+          ],
+          "answer": 1,
+          "why": "The ranges keep off the westerlies, and the stones store heat and drain quickly."
+        },
+        {
+          "q": "What causes the black-pepper aroma in cool-climate Syrah?",
+          "options": [
+            "Rotundone",
+            "Thiols",
+            "New oak",
+            "Botrytis"
+          ],
+          "answer": 0,
+          "why": "Rotundone, a compound Syrah accumulates in cooler seasons, smells of black pepper."
+        }
+      ]
+    },
+    {
+      "id": "martinborough",
+      "part": "intro",
+      "title": "Martinborough and the first Pinot Noir",
+      "steps": [
+        {
+          "text": "Drop to the southern tip of the North Island, an hour over the hills from Wellington. The [Wairarapa](nz-wairarapa) sits in a rain shadow behind the Remutaka and Tararua ranges, and its little town of [Martinborough](nz-martinborough) was laid out in the 1870s in the pattern of a Union Jack. In 1979 a soil scientist, Dr Derek Milne, reported that its climate and its free-draining river terrace looked a lot like Burgundy.\n\nA handful of amateurs took him at his word. Neil and Dawn McCallum planted [Dry River](site-nz-dry-river) in 1979; the next year Clive Paton planted [Ata Rangi](site-nz-ata-rangi) on a stony sheep paddock. Martinborough Vineyard and Palliser followed. In the 1990s their [Pinot Noir](grape-pinot-noir) was the first in New Zealand to be taken seriously abroad.",
+          "map": {
+            "fly": "nz-wairarapa",
+            "highlight": [
+              "nz-wairarapa",
+              "nz-martinborough",
+              "nz-gladstone"
+            ],
+            "label": "Wairarapa"
+          }
+        },
+        {
+          "text": "Zoom in on satellite and you can see why. The Martinborough Terrace is an old river terrace: a thin layer of silt over deep, stony gravel, so roots go down and water drains away. Strong north-westerly winds blow most springs, cutting yields and keeping disease low. Days are warm, nights cool, rain is low.\n\nThe Pinot here is savoury rather than fruity: dark cherry, dried herbs, a little earth and spice, with firm structure. Ata Rangi's is built on the 'Abel' clone, which local legend says a customs officer named Malcolm Abel confiscated from a traveller's gumboot at Auckland airport and propagated. The atlas's ageing data gives Martinborough Pinot a peak of roughly 5 to 12 years, among the longest in the country.",
+          "map": {
+            "fly": {
+              "lon": 175.462,
+              "lat": -41.215,
+              "zoom": 14.2
+            },
+            "highlight": [
+              "site-nz-ata-rangi",
+              "nz-martinborough"
+            ],
+            "label": "The Martinborough Terrace",
+            "base": "satellite"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Martinborough Pinot Noir",
+          "why": "Look for the savoury side of Pinot: cherry and plum, but also dried herbs, earth and a firm, fine tannin. A lesson in how a terrace and wind shape a wine.",
+          "price": "$30–45",
+          "try": [
+            "Craggy Range Martinborough",
+            "Ata Rangi Crimson"
+          ],
+          "place": "nz-martinborough"
+        },
+        {
+          "wine": "Ata Rangi Pinot Noir (splurge)",
+          "why": "One of New Zealand's great reds, from vines planted from 1980. Deep, layered and long; keep it for a decade if you can.",
+          "price": "$65–90",
+          "try": [
+            "Ata Rangi"
+          ],
+          "place": "nz-martinborough"
+        }
+      ],
+      "deeper": [
+        "nz-martinborough",
+        "nz-wairarapa",
+        "site-nz-ata-rangi",
+        "site-nz-dry-river",
+        "site-nz-escarpment",
+        "grape-pinot-noir"
+      ],
+      "check": [
+        {
+          "q": "What did Dr Derek Milne's 1979 report suggest about Martinborough?",
+          "options": [
+            "That it was too wet for vines",
+            "That its climate and soils resembled Burgundy's",
+            "That it should grow Sauvignon Blanc only",
+            "That it had phylloxera"
+          ],
+          "answer": 1,
+          "why": "Milne compared Martinborough's climate and free-draining terrace to Burgundy, which inspired the first Pinot Noir plantings."
+        },
+        {
+          "q": "What is the Martinborough Terrace?",
+          "options": [
+            "A limestone escarpment",
+            "An old river terrace of silt over deep gravel",
+            "A volcanic crater",
+            "A man-made terraced hillside"
+          ],
+          "answer": 1,
+          "why": "Thin silt over free-draining gravel lets roots go deep and keeps vigour in check."
+        },
+        {
+          "q": "How would you describe classic Martinborough Pinot Noir?",
+          "options": [
+            "Light and sweet",
+            "Savoury, with herbs, earth and firm structure",
+            "Heavily oaked and jammy",
+            "Sparkling"
+          ],
+          "answer": 1,
+          "why": "Wind, poor soils and cool nights give a savoury, structured style that ages well."
+        }
+      ]
+    },
+    {
+      "id": "central-otago",
+      "part": "intro",
+      "title": "Central Otago: Pinot from the gold fields",
+      "steps": [
+        {
+          "text": "Now go as far south as wine goes in New Zealand. [Central Otago](nz-central-otago), around Queenstown, Cromwell and Alexandra at about 45 degrees south, has long called itself the world's most southerly commercial wine region (young Patagonian vineyards near Sarmiento in Argentina, at about 45.6 degrees, now dispute the title). It is the only New Zealand region with a semi-continental climate: far from the sea behind the Southern Alps, it has hot, dry summer days, cold nights, frost in spring and autumn, and often less than 400 mm of rain a year.\n\nFrench gold miner Jean Désiré Feraud planted vines at Clyde in 1864, but the modern story starts with Rolfe and Lois Mills at [Rippon](site-nz-rippon) on Lake Wanaka (1975) and Alan Brady at Gibbston (1981). Today about 2,000 hectares are planted, roughly three quarters of it Pinot Noir.",
+          "map": {
+            "fly": {
+              "lon": 169.15,
+              "lat": -45.08,
+              "zoom": 8.9
+            },
+            "highlight": [
+              "nz-central-otago",
+              "nz-bannockburn",
+              "site-nz-rippon",
+              "site-nz-gibbston",
+              "site-nz-bendigo",
+              "site-nz-alexandra"
+            ],
+            "label": "Central Otago"
+          }
+        },
+        {
+          "text": "Tilt the map into the Kawarau Gorge. [Gibbston](site-nz-gibbston), near Queenstown, is the coolest and highest sub-region, with vineyards up to about 420 m on north-facing slopes of schist (a flaky, mica-rich metamorphic rock) above the river. Here Pinot is lighter and more perfumed, with red cherry and wild herbs. [Chard Farm](site-nz-chard-farm), reached by a cliff-edge road, and [Gibbston Valley](site-nz-gibbston-valley-winery), whose first commercial wine came in 1987, pioneered the gorge.\n\nNotice how the vineyards sit on slopes and terraces, never on the valley floor. In a frost-prone place, cold air flows downhill like water at night and pools in hollows; vines on a slope stay above it.",
+          "map": {
+            "fly": {
+              "lon": 168.94,
+              "lat": -45.045,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "site-nz-gibbston",
+              "site-nz-chard-farm",
+              "site-nz-gibbston-valley-winery"
+            ],
+            "label": "Gibbston",
+            "terrain": true,
+            "pitch": 62,
+            "bearing": 175
+          }
+        },
+        {
+          "text": "Follow the Kawarau east to [Bannockburn](nz-bannockburn), one of the warmest and driest corners of the region and, since February 2022, its own registered sub-GI. Gold miners sluiced these hills in the 1860s and 1870s and left cliffs and tailings behind. Stewart Elms planted [Felton Road](site-nz-felton-road) here in 1991 and 1992, and with neighbours Mount Difficulty, Carrick and Akarua it made Bannockburn's ripe, structured, mineral Pinot the region's benchmark.\n\nAcross Lake Dunstan, [Bendigo](site-nz-bendigo), another old mining settlement, has warm, north-facing schist terraces planted since the late 1990s. Central Otago Pinot as a whole is vivid and dark-fruited, with spice and fine tannin, riper than Martinborough's and more perfumed than California's.",
+          "map": {
+            "fly": {
+              "lon": 169.18,
+              "lat": -45.11,
+              "zoom": 12.4
+            },
+            "highlight": [
+              "nz-bannockburn",
+              "site-nz-felton-road"
+            ],
+            "label": "Bannockburn",
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 185
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bannockburn Pinot Noir",
+          "why": "Dark cherry and plum, wild thyme, a stony, almost graphite note and firm but silky tannin. Compare with the Martinborough: riper fruit, more flamboyance, just as fresh.",
+          "price": "$38–50",
+          "try": [
+            "Mt Difficulty Bannockburn",
+            "Carrick"
+          ],
+          "place": "nz-bannockburn"
+        },
+        {
+          "wine": "Felton Road Bannockburn Pinot Noir",
+          "why": "The region's reference estate, biodynamically farmed. More depth and length; it opens over five to ten years.",
+          "price": "$55–75",
+          "try": [
+            "Felton Road"
+          ],
+          "place": "nz-bannockburn"
+        }
+      ],
+      "deeper": [
+        "nz-central-otago",
+        "nz-bannockburn",
+        "site-nz-felton-road",
+        "site-nz-rippon",
+        "site-nz-gibbston",
+        "site-nz-bendigo",
+        "soil-schist",
+        "term-continentality"
+      ],
+      "check": [
+        {
+          "q": "What makes Central Otago's climate unusual for New Zealand?",
+          "options": [
+            "It is tropical",
+            "It is semi-continental, with hot days, cold nights and frost",
+            "It has the highest rainfall",
+            "It is entirely maritime"
+          ],
+          "answer": 1,
+          "why": "Far inland behind the Southern Alps, it has large temperature swings and frost risk, unlike the maritime rest of the country."
+        },
+        {
+          "q": "Why are Central Otago vineyards planted on slopes and terraces?",
+          "options": [
+            "To catch more rain",
+            "Because cold air drains downhill at night and pools in hollows",
+            "Because the valley floors are protected parkland",
+            "To avoid phylloxera"
+          ],
+          "answer": 1,
+          "why": "Slopes let frosty air drain away, protecting the vines."
+        },
+        {
+          "q": "Which Central Otago sub-region became a registered GI in 2022?",
+          "options": [
+            "Gibbston",
+            "Bendigo",
+            "Bannockburn",
+            "Alexandra"
+          ],
+          "answer": 2,
+          "why": "Bannockburn was registered on 1 February 2022; Gibbston, Bendigo and Alexandra remain informal sub-regions."
+        }
+      ]
+    },
+    {
+      "id": "rest-of-map",
+      "part": "intro",
+      "title": "The rest of the map, and the rules on the label",
+      "steps": [
+        {
+          "text": "Before going deeper, learn how New Zealand names its wine. Since the Geographical Indications Act came into force in 2017, the government's intellectual property office (IPONZ) has registered wine [GIs](term-gi), protected place names, from the national 'New Zealand' down to small districts. The atlas draws the larger ones as shapes and several small sub-GIs, such as [Kumeu](nz-kumeu), [Martinborough](nz-martinborough), [Waipara Valley](nz-waipara-valley) and Bannockburn, as points.\n\nA GI is only a boundary. To use one, at least 85 percent of the wine must come from it, the same 85 percent rule that applies to grape and vintage claims. There are no rules on grapes, yields or winemaking. Famous informal names such as the Awatere Valley or Gibbston are not GIs, and the Gimblett Gravels uses a trademark instead. The other label signal to know: about 98 percent of the vineyard area is certified by Sustainable Winegrowing New Zealand, a scheme begun in the mid-1990s.",
+          "map": {
+            "fly": "nz",
+            "highlight": [
+              "nz-kumeu",
+              "nz-matakana",
+              "nz-waiheke-island",
+              "nz-gladstone",
+              "nz-martinborough",
+              "nz-waipara-valley",
+              "nz-waitaki-valley-north-otago",
+              "nz-bannockburn",
+              "nz-central-hawkes-bay"
+            ],
+            "label": "Registered sub-GIs"
+          }
+        },
+        {
+          "text": "A few smaller regions deserve a stop. [Gisborne](nz-gisborne), on the East Cape, calls itself the Chardonnay capital and grows much of the country's sparkling base; there James and Annie Millton started New Zealand's first certified organic estate, [Millton Vineyards](site-nz-millton-vineyards), in 1984, now [biodynamic](term-biodynamic), with a Chenin Blanc of real distinction. [Waiheke Island](nz-waiheke-island), a ferry ride from Auckland, is warmer and drier than the mainland and makes expensive Bordeaux blends such as [Stonyridge](site-nz-stonyridge) Larose.\n\nOn the South Island, [Nelson](nz-nelson) is a sunny, artistic little region whose clay-bound Moutere gravels give Neudorf's superb Chardonnay. [North Canterbury](nz-north-canterbury), including the Waipara Valley north of Christchurch, is home to Pegasus Bay's Riesling and some rare limestone vineyards.",
+          "map": {
+            "fly": "nz",
+            "highlight": [
+              "nz-gisborne",
+              "nz-waiheke-island",
+              "nz-nelson",
+              "nz-north-canterbury",
+              "site-nz-millton-vineyards",
+              "site-nz-stonyridge"
+            ],
+            "label": "Smaller regions"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gisborne Chenin Blanc from a biodynamic estate",
+          "why": "Honey, quince and lemon with lively acidity: a reminder that the smaller regions follow their own path. Chenin is rare in New Zealand, and Millton's is the benchmark.",
+          "price": "$25–35",
+          "try": [
+            "Millton Te Arai Chenin Blanc"
+          ],
+          "place": "nz-gisborne"
+        },
+        {
+          "wine": "Waipara Valley Riesling",
+          "why": "Lime, white flowers and a touch of sweetness balanced by acidity. Pegasus Bay's is off-dry and ages for a decade.",
+          "price": "$24–35",
+          "try": [
+            "Pegasus Bay"
+          ],
+          "place": "nz-waipara-valley"
+        }
+      ],
+      "deeper": [
+        "term-gi",
+        "nz-gisborne",
+        "nz-waiheke-island",
+        "nz-nelson",
+        "nz-north-canterbury",
+        "site-nz-millton-vineyards",
+        "site-nz-neudorf-vineyards",
+        "site-nz-pegasus-bay"
+      ],
+      "check": [
+        {
+          "q": "What does a New Zealand GI on a label guarantee?",
+          "options": [
+            "That the wine is organic",
+            "That at least 85 percent of the wine comes from that area",
+            "That only certain grapes were used",
+            "That yields were limited"
+          ],
+          "answer": 1,
+          "why": "New Zealand GIs are boundaries only, with an 85 percent origin rule."
+        },
+        {
+          "q": "Which of these is NOT a registered GI?",
+          "options": [
+            "Martinborough",
+            "Bannockburn",
+            "Awatere Valley",
+            "Waipara Valley"
+          ],
+          "answer": 2,
+          "why": "The Awatere Valley is an informal sub-region of the Marlborough GI."
+        },
+        {
+          "q": "Which region calls itself New Zealand's Chardonnay capital?",
+          "options": [
+            "Central Otago",
+            "Gisborne",
+            "Marlborough",
+            "Wairarapa"
+          ],
+          "answer": 1,
+          "why": "Gisborne, on the East Cape, has long been a major source of Chardonnay."
+        }
+      ]
+    },
+    {
+      "id": "marlborough-deep",
+      "part": "deeper",
+      "title": "Marlborough beyond the big brands",
+      "steps": [
+        {
+          "text": "Back to Marlborough, to the part most visitors miss. South of the Wairau, a fan of side valleys (Brancott, Omaka, Fairhall, Ben Morven, Waihopai) runs up into the hills. These [Southern Valleys](site-nz-southern-valleys) have older, clay-rich soils and slopes that face north toward the sun. Clay holds water and gives wines more texture and weight.\n\nThat is where Marlborough's best [Pinot Noir](grape-pinot-noir) and [Chardonnay](grape-chardonnay) grow, and where the most ambitious Sauvignon comes from. Pinot Noir is the region's second grape, and Southern Valleys Pinot is fragrant and red-fruited, lighter than Central Otago's. Tilt the map to see the long ridges between the valleys.",
+          "map": {
+            "fly": {
+              "lon": 173.82,
+              "lat": -41.6,
+              "zoom": 11.8
+            },
+            "highlight": [
+              "site-nz-southern-valleys",
+              "site-nz-brancott-estate"
+            ],
+            "label": "Southern Valleys",
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 200
+          }
+        },
+        {
+          "text": "Some growers make Sauvignon as if it were white Bordeaux or Sancerre. They ferment with wild yeasts in older barrels, leave the wine on its lees and let it go through some malolactic conversion, so the pungency drops and texture, smoke and citrus pith take over. Cloudy Bay's Te Koko, Dog Point's Section 94 (named after a land-survey section) and Greywacke's Wild Sauvignon are the classics.\n\nThe atlas's ageing profiles show what that changes. A standard Marlborough Sauvignon is best in its first two years and fading by four; a barrel-fermented, wild-yeast version is best from about three to six years and can go to ten. Dog Point was founded by Ivan Sutherland and James Healy, who left Cloudy Bay to farm vineyards Sutherland had planted in the 1970s.",
+          "map": {
+            "fly": {
+              "lon": 173.86,
+              "lat": -41.53,
+              "zoom": 12.0
+            },
+            "highlight": [
+              "site-nz-southern-valleys",
+              "site-nz-cloudy-bay",
+              "site-nz-wairau-valley"
+            ],
+            "label": "Serious Sauvignon"
+          }
+        },
+        {
+          "text": "Marlborough's challenge is its success. In 2025 the region produced a huge crop after excellent flowering, a year after the dry, frost-hit 2024 vintage (when Marlborough harvested 312,812 tonnes, 21 percent less than in 2023). Swinging volumes, one dominant grape and dependence on a few export markets leave growers exposed to price drops.\n\nThe answer the best producers give is the same as elsewhere in this atlas: show the place. Labels increasingly name the sub-region (Awatere, Southern Valleys, Rapaura) or the vineyard. When you see one, you are probably holding a more interesting wine than the region name alone would suggest.",
+          "map": {
+            "fly": "nz-marlborough",
+            "highlight": [
+              "site-nz-wairau-valley",
+              "site-nz-southern-valleys",
+              "site-nz-awatere-valley"
+            ],
+            "label": "Marlborough sub-regions"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Wild-fermented, barrel-aged Marlborough Sauvignon",
+          "why": "Taste it next to the big-brand bottle from chapter two. Less passion fruit, more grapefruit pith, smoke and creamy texture. Same grape, completely different philosophy.",
+          "price": "$32–45",
+          "try": [
+            "Greywacke Wild Sauvignon",
+            "Dog Point Section 94"
+          ],
+          "place": "nz-marlborough"
+        },
+        {
+          "wine": "Southern Valleys Pinot Noir",
+          "why": "Fragrant red cherry and raspberry, a silky texture and lighter body than Central Otago. Easier to enjoy young than the Central Otago bottles to come.",
+          "price": "$35–50",
+          "try": [
+            "Dog Point Pinot Noir"
+          ],
+          "place": "nz-marlborough"
+        },
+        {
+          "wine": "Cloudy Bay Te Koko (splurge)",
+          "why": "The original barrel-fermented Marlborough Sauvignon, released with some bottle age. Proof that the grape can be profound.",
+          "price": "$65–85",
+          "try": [
+            "Cloudy Bay"
+          ],
+          "place": "nz-marlborough"
+        }
+      ],
+      "deeper": [
+        "site-nz-southern-valleys",
+        "site-nz-wairau-valley",
+        "site-nz-awatere-valley",
+        "site-nz-cloudy-bay",
+        "term-malolactic-fermentation",
+        "term-sur-lie"
+      ],
+      "check": [
+        {
+          "q": "What distinguishes the Southern Valleys from the main Wairau Valley floor?",
+          "options": [
+            "Volcanic soils",
+            "Older, clay-rich soils on north-facing slopes",
+            "Higher rainfall from the west",
+            "Limestone"
+          ],
+          "answer": 1,
+          "why": "The clay soils hold water and give more textured Sauvignon and the region's best Pinot and Chardonnay."
+        },
+        {
+          "q": "How does a wild-fermented, barrel-aged Sauvignon differ from a standard one?",
+          "options": [
+            "It is sweeter",
+            "Less pungent fruit, more texture, smoke and ageing potential",
+            "It is always sparkling",
+            "It has more methoxypyrazine"
+          ],
+          "answer": 1,
+          "why": "Barrels, lees and wild yeast trade some aroma for texture and complexity, and the wine ages longer."
+        },
+        {
+          "q": "According to the atlas's ageing profiles, when is a standard Marlborough Sauvignon at its best?",
+          "options": [
+            "In its first two years",
+            "After five years",
+            "After ten years",
+            "Never before three years"
+          ],
+          "answer": 0,
+          "why": "Its appeal is fresh aroma, which peaks young and fades within a few years."
+        }
+      ]
+    },
+    {
+      "id": "aromatics-chardonnay",
+      "part": "deeper",
+      "title": "Riesling, limestone and Chardonnay",
+      "steps": [
+        {
+          "text": "North of Christchurch, the [Waipara Valley](nz-waipara-valley) is warm for its latitude, sheltered from cool easterly sea breezes by the Teviotdale Hills and dried by the nor'wester, a hot foehn wind off the Alps. Long, dry autumns let [Riesling](grape-riesling) hang late, and [Pegasus Bay](site-nz-pegasus-bay), planted by the Donaldson family in 1985, makes it in every style from dry to the botrytised Aria, made from grapes shrivelled by [noble rot](term-noble-rot).\n\nPinot Gris, New Zealand's third white (about 6 percent of the vineyard), and Gewürztraminer also do well in North Canterbury, Nelson and Central Otago: these are the country's aromatic whites, often made with a touch of sweetness to balance their acidity.",
+          "map": {
+            "fly": {
+              "lon": 172.74,
+              "lat": -43.09,
+              "zoom": 12.0
+            },
+            "highlight": [
+              "nz-waipara-valley",
+              "site-nz-pegasus-bay"
+            ],
+            "label": "Waipara Valley",
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 300
+          }
+        },
+        {
+          "text": "Inland from Waipara, around Waikari and the Weka Pass, is something almost unique in New Zealand: limestone. Burgundy-obsessed growers searched the country for it. Marcel Giesen and Sherwyn Veldhuizen planted [Bell Hill](site-nz-bell-hill) on an old lime quarry in 1997, densely spaced like a Burgundy vineyard, and Mike and Claudia Weersing planted [Pyramid Valley](site-nz-pyramid-valley) in 2000 after a long soil search.\n\nTheir Pinot Noir and Chardonnay, made in tiny amounts, are among the most sought-after wines in the country: taut, chalky and long. They show what the next generation of New Zealand wine looks like: smaller, site-specific and farmed organically or biodynamically.",
+          "map": {
+            "fly": {
+              "lon": 172.66,
+              "lat": -42.99,
+              "zoom": 11.8
+            },
+            "highlight": [
+              "site-nz-bell-hill",
+              "site-nz-pyramid-valley"
+            ],
+            "label": "Limestone at Waikari"
+          }
+        },
+        {
+          "text": "Further south, between Canterbury and Otago, the [Waitaki Valley North Otago](nz-waitaki-valley-north-otago) GI is one of the country's newest and most marginal regions. Its first vines went in around 2001, around Kurow and Duntroon, drawn by more limestone and by a cold, frost-prone climate with a short season. With fewer than 50 hectares, it is tiny, and some years it barely ripens at all.\n\nWhy bother? Because in a warming world, cool, limestone-rich sites like this one and Waikari are where growers expect to find the next great Pinot Noir and Chardonnay. Waitaki's wines (Ostler is the best-known name) are pale, taut and stony, with Pinot Gris and Riesling of piercing acidity.",
+          "map": {
+            "fly": {
+              "lon": 170.55,
+              "lat": -44.76,
+              "zoom": 10.2
+            },
+            "highlight": [
+              "nz-waitaki-valley-north-otago"
+            ],
+            "label": "Waitaki Valley"
+          }
+        },
+        {
+          "text": "Chardonnay is the country's quiet star. It covers only about 7 percent of the vineyard, but it is grown everywhere and changes with the place. [Kumeu River](site-nz-kumeu-river)'s single-vineyard Maté's, from vines planted in 1990, is rich and Burgundian. [Neudorf](site-nz-neudorf-vineyards) in Nelson, planted by Tim and Judy Finn in 1978, makes a dense, mineral Moutere Chardonnay from clay-bound gravels. Te Mata's Elston from Hawke's Bay is powerful; [Millton](site-nz-millton-vineyards)'s Clos de Ste Anne in Gisborne grows on clay-limestone.\n\nAcross all of them runs a New Zealand signature: ripe fruit with high natural acidity, and a growing taste for wild yeast, older barrels and a struck-match, flinty note.",
+          "map": {
+            "fly": "nz",
+            "highlight": [
+              "site-nz-kumeu-river",
+              "site-nz-neudorf-vineyards",
+              "site-nz-te-mata-estate",
+              "site-nz-millton-vineyards"
+            ],
+            "label": "Chardonnay across the country"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Nelson Moutere Chardonnay",
+          "why": "Dense and savoury, with grapefruit, white peach, flint and a long, mineral finish from clay-gravel soils. It ages for eight to ten years.",
+          "price": "$60–85",
+          "try": [
+            "Neudorf Home Block Moutere"
+          ],
+          "place": "nz-nelson"
+        },
+        {
+          "wine": "North Canterbury Pinot Gris or aromatic white",
+          "why": "Pear, ginger and honeysuckle with a silky texture and a hint of sweetness. A good partner for spicy food.",
+          "price": "$22–30",
+          "try": [
+            "Pegasus Bay Pinot Gris",
+            "Greystone"
+          ],
+          "place": "nz-north-canterbury"
+        }
+      ],
+      "deeper": [
+        "nz-waipara-valley",
+        "nz-north-canterbury",
+        "site-nz-bell-hill",
+        "site-nz-pyramid-valley",
+        "site-nz-neudorf-vineyards",
+        "grape-riesling",
+        "grape-pinot-gris",
+        "term-noble-rot"
+      ],
+      "check": [
+        {
+          "q": "What protects the Waipara Valley from cool easterly sea breezes?",
+          "options": [
+            "The Southern Alps",
+            "The Teviotdale Hills",
+            "Lake Wanaka",
+            "Banks Peninsula"
+          ],
+          "answer": 1,
+          "why": "The Teviotdale Hills shelter the valley, so it ripens grapes well for its latitude."
+        },
+        {
+          "q": "Why did growers seek out Waikari and the Weka Pass?",
+          "options": [
+            "For its volcanic soils",
+            "For its rare limestone",
+            "For irrigation water",
+            "Because it is frost-free"
+          ],
+          "answer": 1,
+          "why": "Limestone is rare in New Zealand, and Burgundy-minded growers wanted it for Pinot Noir and Chardonnay."
+        },
+        {
+          "q": "What do New Zealand Chardonnays from very different regions tend to share?",
+          "options": [
+            "Low acidity",
+            "Ripe fruit with high natural acidity",
+            "Heavy new oak",
+            "Residual sugar"
+          ],
+          "answer": 1,
+          "why": "A cool, sunny maritime climate gives ripe fruit while preserving acidity everywhere."
+        }
+      ]
+    },
+    {
+      "id": "sparkling-waiheke",
+      "part": "deeper",
+      "title": "Bubbles, and an island of reds",
+      "steps": [
+        {
+          "text": "Marlborough's cool nights and high acidity make it natural sparkling-wine country, and Champagne houses noticed early: Deutz partnered with Montana from the late 1980s, and Cloudy Bay makes Pelorus. Today a group of producers sells wines under the Méthode Marlborough name, with rules stricter than many sparkling regions: the [traditional method](term-methode-traditionnelle) (second fermentation in the bottle, as in Champagne), only Chardonnay, Pinot Noir and Pinot Meunier, everything grown, made, aged and disgorged in Marlborough, and at least 18 months on the lees before disgorgement. Members average about three years.\n\nThe wines are fresh and citrusy with a fine, persistent mousse, and they cost a fraction of Champagne. Look for the words Méthode Marlborough on the back label, and for vintage-dated bottles, which spend longer on their lees and gain toast and depth.",
+          "map": {
+            "fly": "nz-marlborough",
+            "highlight": [
+              "nz-marlborough",
+              "site-nz-southern-valleys"
+            ],
+            "label": "Méthode Marlborough"
+          }
+        },
+        {
+          "text": "End in the north, on an island. [Waiheke Island](nz-waiheke-island), 40 minutes by ferry from downtown Auckland, is warmer and drier than the mainland, with steep clay slopes over weathered greywacke falling to sheltered bays. Goldwater planted the first modern vineyard in 1978, and Stephen White's [Stonyridge](site-nz-stonyridge) (1981) made its Larose blend of Cabernet, Merlot and friends a cult wine. [Man O' War](site-nz-man-o-war) farms the wild eastern end.\n\nTilt the map: you can see how the vineyards cling to north-facing slopes above the Hauraki Gulf, with the sea all around. Waiheke reds are expensive (the island's holiday-home land prices see to that) but they are the closest New Zealand comes to a Mediterranean wine.",
+          "map": {
+            "fly": {
+              "lon": 175.08,
+              "lat": -36.82,
+              "zoom": 11.8
+            },
+            "highlight": [
+              "nz-waiheke-island",
+              "site-nz-stonyridge",
+              "site-nz-man-o-war"
+            ],
+            "label": "Waiheke Island",
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 10
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Marlborough traditional-method sparkling wine",
+          "why": "Lemon, green apple and brioche with a crisp, fine bead. Compare it with a non-vintage Champagne at twice the price.",
+          "price": "$28–40",
+          "try": [
+            "No. 1 Family Estate Cuvée No. 1",
+            "Nautilus Cuvée Marlborough",
+            "Cloudy Bay Pelorus"
+          ],
+          "place": "nz-marlborough"
+        },
+        {
+          "wine": "Waiheke Island Bordeaux blend (splurge)",
+          "why": "Cabernet and Merlot ripened by sea and sun: cassis, cedar and a fresh, maritime lift. Man O' War's Ironclad is the easier bottle to find and afford; Stonyridge Larose, the classic, costs two to three times as much and is scarce in the US.",
+          "price": "$50–150",
+          "try": [
+            "Man O' War Ironclad",
+            "Stonyridge Larose"
+          ],
+          "place": "nz-waiheke-island"
+        }
+      ],
+      "deeper": [
+        "term-methode-traditionnelle",
+        "nz-waiheke-island",
+        "site-nz-stonyridge",
+        "site-nz-man-o-war",
+        "nz-auckland",
+        "grape-meunier"
+      ],
+      "check": [
+        {
+          "q": "What is the minimum lees ageing for a Méthode Marlborough wine?",
+          "options": [
+            "3 months",
+            "9 months",
+            "18 months",
+            "60 months"
+          ],
+          "answer": 2,
+          "why": "Méthode Marlborough requires at least 18 months on lees before disgorgement; members average about 36."
+        },
+        {
+          "q": "Which grapes are allowed in Méthode Marlborough?",
+          "options": [
+            "Sauvignon Blanc and Riesling",
+            "Chardonnay, Pinot Noir and Pinot Meunier",
+            "Any grape grown in Marlborough",
+            "Pinot Gris only"
+          ],
+          "answer": 1,
+          "why": "The rules follow Champagne's three classic varieties."
+        },
+        {
+          "q": "Why can Waiheke Island ripen Cabernet and Merlot?",
+          "options": [
+            "It has volcanic heat",
+            "It is warmer and drier than mainland Auckland, with sheltered north-facing slopes",
+            "It is irrigated with sea water",
+            "It has a continental climate"
+          ],
+          "answer": 1,
+          "why": "The island's warmth, lower rainfall and sunny slopes give Bordeaux varieties enough heat."
+        }
+      ]
+    },
+    {
+      "id": "vintages-producers",
+      "part": "deeper",
+      "title": "Vintages and producers to know",
+      "steps": [
+        {
+          "text": "In a maritime country vintages matter, and the atlas's vintage timeline shows the main swings. For Marlborough Sauvignon, which you drink young, the question is mostly about size and rot: 2014 was the region's largest crop up to then; 2018 was warm, then heavy rain at harvest brought rot and forced quick picking; 2021 was small after spring frost and poor flowering; 2023 saw poor fruit set but clean, loose bunches; 2024 was dry and small; 2025 was cooler, with high yields.\n\nFor reds the cooler, rot-free years are the ones to hunt. Central Otago is a different story: frost is its great risk (2004 lost much of the crop), 2020 was its coolest season on record, and 2023 was one of its driest and warmest.",
+          "map": {
+            "fly": "nz-marlborough",
+            "highlight": [
+              "nz-marlborough",
+              "nz-central-otago"
+            ],
+            "label": "Vintage swings"
+          }
+        },
+        {
+          "text": "Look at the national numbers too, because they explain prices on the shelf. The 2021 harvest fell about 19 percent, to roughly 370,000 tonnes, after a cool spring, late frosts and poor flowering; Marlborough Sauvignon was briefly scarce and prices rose. The 2022 crop bounced back to about 532,000 tonnes. 2024 was small again, and 2025, according to the OIV, was the second-largest harvest in the country's history, at about 3.7 million hectolitres.\n\nThose swings matter most for Sauvignon Blanc, which is sold within a year or two. When a big vintage meets slow export markets, bulk wine piles up and supermarket prices fall; when a short one follows, they jump. For the fine-wine producers in this guide, quality varies far less than volume.",
+          "map": {
+            "fly": "nz",
+            "highlight": [
+              "nz-marlborough",
+              "nz-hawkes-bay",
+              "nz-central-otago"
+            ],
+            "label": "National harvest"
+          }
+        },
+        {
+          "text": "How long to keep them? The atlas's ageing data is a useful guide. Central Otago Pinot is ready at about 3 years and best from 4 to 10; top single vineyards from about 5 to 12. Martinborough Pinot peaks a little later, about 5 to 12. Hawke's Bay Bordeaux blends from the Gimblett Gravels want 4 years and are best from about 6 to 15; Syrah peaks between 4 and 10. Riesling from Waipara or Marlborough keeps from about 3 to 10 years.\n\nAs everywhere, style changes the clock: riper, oakier wines are seductive young and peak sooner, while estates that pick earlier and use less new oak make wines that age longer.",
+          "map": {
+            "fly": "nz",
+            "highlight": [
+              "nz-central-otago",
+              "nz-martinborough",
+              "nz-hawkes-bay",
+              "nz-waipara-valley"
+            ],
+            "label": "Ageing windows"
+          }
+        },
+        {
+          "text": "Finally, names to look for, by style. For classic Marlborough Sauvignon: Cloudy Bay, Dog Point, Greywacke, Te Whare Ra, Astrolabe. For textured, barrel-aged Sauvignon: Te Koko, Section 94, Greywacke Wild, Clos Henri. For Pinot Noir: Felton Road, Burn Cottage, Rippon, Mount Difficulty and Prophet's Rock in Central Otago; Ata Rangi, Dry River and Escarpment in Martinborough; Pyramid Valley and Bell Hill in North Canterbury. For reds from Hawke's Bay: Te Mata, Craggy Range, Trinity Hill, Stonecroft. For Chardonnay: Kumeu River, Neudorf, Millton.\n\nMany of the best are farmed organically or biodynamically, and almost all are under screwcap, which makes them unusually reliable to cellar. Start with the regional wines, then follow the names you like to their single vineyards.",
+          "map": {
+            "fly": "nz",
+            "highlight": [
+              "site-nz-felton-road",
+              "site-nz-burn-cottage",
+              "site-nz-ata-rangi",
+              "site-nz-te-mata-estate",
+              "site-nz-craggy-range",
+              "site-nz-kumeu-river",
+              "site-nz-neudorf-vineyards",
+              "site-nz-cloudy-bay",
+              "site-nz-pyramid-valley"
+            ],
+            "label": "Producers to know"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Te Mata Coleraine (splurge)",
+          "why": "New Zealand's most celebrated red, first made in 1982: a Cabernet-Merlot of cedar, blackcurrant and cool elegance, built for 15 years and more.",
+          "price": "$90–120",
+          "try": [
+            "Te Mata Estate"
+          ],
+          "place": "nz-hawkes-bay"
+        },
+        {
+          "wine": "Single-block Central Otago Pinot Noir (splurge)",
+          "why": "Felton Road's Block 5 or Burn Cottage's estate wine: concentrated, structured, biodynamically farmed, and the best argument for cellaring New Zealand Pinot.",
+          "price": "$70–100",
+          "try": [
+            "Felton Road Block 5",
+            "Burn Cottage"
+          ],
+          "place": "nz-bannockburn"
+        }
+      ],
+      "deeper": [
+        "nz-marlborough",
+        "nz-central-otago",
+        "nz-hawkes-bay",
+        "site-nz-felton-road",
+        "site-nz-burn-cottage",
+        "site-nz-te-mata-estate",
+        "site-nz-craggy-range"
+      ],
+      "check": [
+        {
+          "q": "What is Central Otago's biggest vintage risk?",
+          "options": [
+            "Hail",
+            "Frost",
+            "Smoke",
+            "Monsoon rain"
+          ],
+          "answer": 1,
+          "why": "Its semi-continental climate brings spring and autumn frost; 2004 lost much of the crop."
+        },
+        {
+          "q": "According to the atlas's ageing data, when are Gimblett Gravels Bordeaux blends at their best?",
+          "options": [
+            "Within a year",
+            "From about 6 to 15 years",
+            "Only after 30 years",
+            "From 2 to 4 years"
+          ],
+          "answer": 1,
+          "why": "They are ready at about 4 years and peak from roughly 6 to 15."
+        },
+        {
+          "q": "Which Marlborough vintage was marked by heavy rain and rot at harvest?",
+          "options": [
+            "2014",
+            "2018",
+            "2024",
+            "2025"
+          ],
+          "answer": 1,
+          "why": "A warm 2018 summer was followed by heavy rain at harvest, forcing quick picking and hard sorting."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "pinot-noir",
+    "syrah",
+    "napa-sonoma",
+    "burgundy"
+  ],
+  "sources": [
+    {
+      "title": "New Zealand Winegrowers: Vineyard Report 2026",
+      "url": "https://www.nzwine.com/media/5fzng52v/vineyard-report-2026-final.pdf"
+    },
+    {
+      "title": "New Zealand Winegrowers: Sustainability Report 2025 fact sheet",
+      "url": "https://www.nzwine.com/media/swgord3r/sustainability-report_2025_fact-sheet.pdf"
+    },
+    {
+      "title": "IPONZ: Bannockburn wine GI register entry",
+      "url": "https://www.iponz.govt.nz/get-ip/geographical-indications/register/bannockburn/"
+    },
+    {
+      "title": "IPONZ: Geographical Indications register",
+      "url": "https://www.iponz.govt.nz/get-ip/geographical-indications/register/"
+    },
+    {
+      "title": "Wine With Seth: GI (Geographical Indication) New Zealand, 85 percent rule",
+      "url": "https://www.winewithseth.com/winewiki/gi-geographical-indication-new-zealand/"
+    },
+    {
+      "title": "Wine Marlborough: Marlborough's wine history",
+      "url": "https://marlboroughwinenz.com/press-releases/marlboroughs-wine-history"
+    },
+    {
+      "title": "Wine Marlborough: Screwcap initiative",
+      "url": "https://www.marlboroughwinenz.com/winetimeline/screwcap-initiative"
+    },
+    {
+      "title": "Jancis Robinson: Aren't screwcaps mahvellous (NZ Screwcap Initiative)",
+      "url": "https://www.jancisrobinson.com/articles/arent-screwcaps-mahvellous"
+    },
+    {
+      "title": "Wine Anorak: New Zealand Screwcap Initiative",
+      "url": "https://wineanorak.com/new_zealand_screwcap_initiative.htm"
+    },
+    {
+      "title": "Gimblett Gravels Winegrowers Association: the association and designation",
+      "url": "https://thegimblettgravels.com/about-us/the-association/"
+    },
+    {
+      "title": "Méthode Marlborough: about",
+      "url": "https://www.methodemarlborough.org/about"
+    },
+    {
+      "title": "Bubbly Professor: Mind your latitude, 45 to 46 degrees south",
+      "url": "https://bubblyprofessor.com/2020/01/25/mind-your-latitude-45-to-46-south/"
+    },
+    {
+      "title": "Wikipedia: New Zealand wine",
+      "url": "https://en.wikipedia.org/wiki/New_Zealand_wine"
+    },
+    {
+      "title": "Jancis Robinson: New Zealand vintages",
+      "url": "https://www.jancisrobinson.com/learn/vintages/new-zealand"
+    },
+    {
+      "title": "New Zealand Winegrowers: Vintage indicators 2024",
+      "url": "https://www.nzwine.com/media/bapikee2/vintage-indicators2024_new.pdf"
+    },
+    {
+      "title": "NZHistory: first grapevines planted at Kerikeri, 25 September 1819",
+      "url": "https://nzhistory.govt.nz/first-grape-vines-planted-in-new-zealand-at-kerikeri"
+    },
+    {
+      "title": "Wikipedia: Deutz (wine), 1988 partnership with Montana",
+      "url": "https://en.wikipedia.org/wiki/Deutz_(wine)"
+    },
+    {
+      "title": "K&L Wine Merchants: Ata Rangi Pinot Noir 2022",
+      "url": "https://shop.klwines.com/products/details/1994263"
+    },
+    {
+      "title": "K&L Wine Merchants: Kumeu River Estate Chardonnay 2023",
+      "url": "https://shop.klwines.com/products/details/1843340"
+    },
+    {
+      "title": "Westgate Wine Store: Dog Point Section 94 2020",
+      "url": "https://westgatewinestore.com/2020-dog-point-section-94-sauvignon-blanc"
+    }
+  ]
+}

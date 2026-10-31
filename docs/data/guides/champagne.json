@@ -1,0 +1,1492 @@
+{
+  "id": "champagne",
+  "kind": "region",
+  "title": "Champagne",
+  "subtitle": "Chalk, cold and the art of the blend",
+  "tagline": "Find out how a region too cold for still wine made the world's most famous sparkling wine, and how to read every bottle.",
+  "minutes": 20,
+  "deeper_minutes": 13,
+  "cover": "fr-champagne",
+  "countries": [
+    "fr"
+  ],
+  "intro": "Champagne is one appellation, three main grapes and a cold, chalky landscape east of Paris. This path tours its four main areas, goes underground into the chalk cellars, explains the traditional method and the grand cru villages step by step, and then meets the growers, the widows and the rioters who made it what it is.",
+  "chapters": [
+    {
+      "id": "map",
+      "part": "intro",
+      "title": "Four corners of a cold region",
+      "steps": [
+        {
+          "text": "[Champagne](region-fr-champagne) lies about 130 to 150 km east of Paris, at the northern edge of serious winemaking. One appellation covers it all: about 34,300 hectares of vines in 319 villages, called *crus*, mostly in the Marne but also in the Aube, the Aisne, the Haute-Marne and the Seine-et-Marne. The atlas draws every historical cru as its own shape, 324 in all once merged communes are split back into the old villages.\n\nThe vines belong mostly to more than 16,000 growers, who farm about 90% of the land, while some 360 houses make and ship more than 70% of the wine. That split, growers who own the grapes and houses who blend and sell them, explains much of what follows. Champagne has four main areas, plus the smaller Côte de Sézanne, and each grows a different grape best.",
+          "map": {
+            "fly": {
+              "lon": 4.05,
+              "lat": 48.7,
+              "zoom": 7.8
+            },
+            "highlight": [
+              "region-fr-montagne-de-reims",
+              "region-fr-vallee-de-la-marne",
+              "region-fr-cote-des-blancs",
+              "region-fr-cote-des-bar",
+              "region-fr-cote-de-sezanne"
+            ],
+            "label": "Champagne's main areas"
+          }
+        },
+        {
+          "text": "Zoom in on the core around Reims and Épernay. The [Montagne de Reims](region-fr-montagne-de-reims), a low, wooded plateau, is ringed by [Pinot Noir](grape-pinot-noir) villages that give structure and red-fruit depth. The [Vallée de la Marne](region-fr-vallee-de-la-marne) follows the river west from Aÿ, and the further west you go the more it belongs to [Meunier](grape-meunier), a Pinot relative that buds late, escapes spring frost and gives supple, fruity wine. South of Épernay, the [Côte des Blancs](region-fr-cote-des-blancs) is an east-facing chalk slope planted almost entirely with [Chardonnay](grape-chardonnay), the source of taut, citrus blanc de blancs.\n\nAcross the region the three grapes are roughly balanced: about 38% Pinot Noir, 32% Meunier and 30% Chardonnay. Most Champagne blends all three.",
+          "map": {
+            "fly": {
+              "lon": 4.03,
+              "lat": 49.07,
+              "zoom": 9.6
+            },
+            "highlight": [
+              "region-fr-montagne-de-reims",
+              "region-fr-vallee-de-la-marne",
+              "region-fr-cote-des-blancs"
+            ],
+            "label": "Montagne, Vallée, Côte des Blancs"
+          }
+        },
+        {
+          "text": "Now jump about 110 km southeast to the [Côte des Bar](region-fr-cote-des-bar) in the Aube, nearer to Chablis than to Reims and built on the same Kimmeridgian marl. It holds nearly a quarter of the vineyard, and Pinot Noir covers most of it. For a century its grapes went north to the houses of the Marne; since the 2000s growers such as Cédric Bouchard and Vouette et Sorbée, alongside old Aube houses such as Drappier, have shown what its ripe, broad Pinot can do on its own.\n\n[Les Riceys](fr-champagne-les-riceys), the largest wine commune in Champagne, is the only village in France with three appellations: Champagne, Coteaux Champenois and Rosé des Riceys. The Aube was not even part of Champagne when the region was first delimited in 1908, a story you will meet in the history chapter.",
+          "map": {
+            "fly": "region-fr-cote-des-bar",
+            "highlight": [
+              "region-fr-cote-des-bar",
+              "fr-champagne-les-riceys",
+              "fr-champagne-celles-sur-ource",
+              "fr-champagne-urville",
+              "fr-champagne-buxieres-sur-arce"
+            ],
+            "label": "The Côte des Bar"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Crémant de Bourgogne brut",
+          "why": "Learn the method cheaply. Crémant is made exactly like Champagne, with a second fermentation in the bottle, but from Burgundy grapes and with at least nine months on the lees. Notice the fine bubbles and the hint of toast; then see what Champagne adds.",
+          "price": "$20–28",
+          "try": [
+            "Louis Bouillot",
+            "Simonnet-Febvre"
+          ],
+          "place": "fr-cremant-de-bourgogne"
+        },
+        {
+          "wine": "A big-house non-vintage brut",
+          "why": "The benchmark most of the world knows: a blend of all three grapes from many villages and years. Beside the Crémant, look for more acidity, more depth and a longer, more yeasty finish.",
+          "price": "$55–80",
+          "try": [
+            "Moët & Chandon Impérial",
+            "Veuve Clicquot Yellow Label",
+            "Taittinger Brut Réserve"
+          ],
+          "place": "fr-champagne"
+        }
+      ],
+      "deeper": [
+        "region-fr-champagne",
+        "region-fr-montagne-de-reims",
+        "region-fr-vallee-de-la-marne",
+        "region-fr-cote-des-blancs",
+        "region-fr-cote-des-bar",
+        "grape-meunier",
+        "grape-pinot-noir",
+        "grape-chardonnay"
+      ],
+      "check": [
+        {
+          "q": "Which grape dominates the Côte des Blancs?",
+          "options": [
+            "Pinot Noir",
+            "Meunier",
+            "Chardonnay",
+            "Pinot Blanc"
+          ],
+          "answer": 2,
+          "why": "The Côte des Blancs is named for its white grape: Chardonnay covers almost all of it."
+        },
+        {
+          "q": "Why does Meunier suit the western Vallée de la Marne?",
+          "options": [
+            "It buds late and escapes spring frost on the cooler, clay-rich slopes",
+            "It needs the most heat",
+            "It is the only grape allowed there",
+            "It makes the best still red"
+          ],
+          "answer": 0,
+          "why": "Meunier's late budding and reliable ripening suit the frost-prone valley floor and heavier soils."
+        },
+        {
+          "q": "Who farms most of Champagne's vineyard?",
+          "options": [
+            "About 360 houses",
+            "More than 16,000 growers",
+            "The French state",
+            "The co-operatives alone"
+          ],
+          "answer": 1,
+          "why": "Growers farm about 90% of the land; the houses buy grapes from them and ship more than 70% of the wine."
+        }
+      ]
+    },
+    {
+      "id": "chalk",
+      "part": "intro",
+      "title": "Chalk above and below ground",
+      "steps": [
+        {
+          "text": "The key to Champagne is [chalk](term-chalk) ([soil](soil-chalk)), a soft, porous limestone made of the skeletons of marine plankton in a Cretaceous sea. On the Côte des Blancs, belemnite chalk, named for the bullet-shaped fossils of squid-like animals, lies only a few centimetres to a metre under the vines.\n\nChalk does three useful things. It drains, so roots never sit in water. It also stores water like a sponge and releases it slowly, so vines rarely suffer in dry summers. And its pale surface reflects light and heat back to the grapes. Tilt the map over [Cramant](fr-champagne-cramant), [Avize](fr-champagne-avize), [Oger](fr-champagne-oger) and [Le Mesnil-sur-Oger](fr-champagne-le-mesnil-sur-oger): the east-facing slope catches the morning sun, and the chalk underneath gives the wines their chalky, saline precision.",
+          "map": {
+            "fly": {
+              "lon": 3.996,
+              "lat": 48.965,
+              "zoom": 12.4
+            },
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 270,
+            "highlight": [
+              "fr-champagne-chouilly",
+              "fr-champagne-cramant",
+              "fr-champagne-avize",
+              "fr-champagne-oger",
+              "fr-champagne-le-mesnil-sur-oger",
+              "fr-champagne-cuis"
+            ],
+            "label": "The Côte des Blancs chalk slope"
+          }
+        },
+        {
+          "text": "Chalk also made the cellars. Under the Saint-Nicaise hill in Reims, quarrymen of the Roman and later periods cut chalk blocks for building, leaving bottle-shaped pits called [crayères](term-crayeres), some more than 30 metres deep. Houses such as Ruinart, Taittinger, Veuve Clicquot and Pommery turned them into cellars that hold about 10 to 12°C all year, perfect for the slow second fermentation and years of ageing that Champagne needs. In 1868 Louise Pommery began converting the chalk pits of her estate into cellars, the largest building project in Reims at the time.\n\nDuring the First World War the front line ran just north of Reims, and the crayères sheltered schools, hospitals and families from the bombardment.",
+          "map": {
+            "fly": {
+              "lon": 4.047,
+              "lat": 49.243,
+              "zoom": 14.0
+            },
+            "highlight": [
+              "site-fr-champagne-colline-saint-nicaise",
+              "site-fr-champagne-ruinart",
+              "site-fr-champagne-pommery",
+              "site-fr-champagne-taittinger",
+              "site-fr-champagne-veuve-clicquot"
+            ],
+            "label": "The chalk cellars of Reims"
+          }
+        },
+        {
+          "text": "Épernay, on the Marne, is the other capital. Along and just off the Avenue de Champagne the great houses built their mansions above kilometres of galleries tunnelled into the chalk: [Moët & Chandon](site-fr-champagne-moet-chandon), [Perrier-Jouët](site-fr-champagne-perrier-jouet), [Pol Roger](site-fr-champagne-pol-roger) and [De Castellane](site-fr-champagne-de-castellane) among them. Between Reims and Épernay, the region's cellars together run for hundreds of kilometres.\n\nOn 4 July 2015, the same day as Burgundy's climats, UNESCO listed the Champagne Hillsides, Houses and Cellars as World Heritage: the historic vineyards of Hautvillers, Aÿ and Mareuil-sur-Aÿ, the Avenue de Champagne, and the Saint-Nicaise hill ([UNESCO](event-unesco-landscapes-2015)). The listing honours the whole system: chalk slopes to grow the grapes, chalk cellars to make the wine, and the towns that sold it.",
+          "map": {
+            "fly": {
+              "lon": 3.962,
+              "lat": 49.039,
+              "zoom": 13.4
+            },
+            "highlight": [
+              "fr-champagne-epernay",
+              "site-fr-champagne-moet-chandon",
+              "site-fr-champagne-perrier-jouet",
+              "site-fr-champagne-pol-roger",
+              "site-fr-champagne-de-castellane"
+            ],
+            "label": "Épernay and the Avenue de Champagne"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Grower blanc de blancs from the Côte des Blancs",
+          "why": "All Chardonnay, from chalk: lemon, green apple and a chalky, almost salty finish, with less of the bready richness of a Pinot-based blend. This is the slope you just tilted over, in a glass.",
+          "price": "$60–80",
+          "try": [
+            "Pierre Gimonnet (Cuis 1er Cru)",
+            "Pierre Péters (Cuvée de Réserve)"
+          ],
+          "place": "fr-champagne-cuis"
+        }
+      ],
+      "deeper": [
+        "soil-chalk",
+        "term-chalk",
+        "term-crayeres",
+        "site-fr-champagne-colline-saint-nicaise",
+        "event-unesco-landscapes-2015",
+        "region-fr-cote-des-blancs",
+        "fr-champagne-avize"
+      ],
+      "check": [
+        {
+          "q": "How does chalk help Champagne vines in a dry summer?",
+          "options": [
+            "It is impermeable, so rain runs off",
+            "It stores water like a sponge and releases it slowly",
+            "It warms the roots",
+            "It adds sugar to the soil"
+          ],
+          "answer": 1,
+          "why": "Porous chalk drains well yet holds a reserve of water that roots can draw on."
+        },
+        {
+          "q": "What are crayères?",
+          "options": [
+            "Riddling racks",
+            "Old chalk quarries under Reims turned into cellars",
+            "Grand cru villages",
+            "A style of rosé"
+          ],
+          "answer": 1,
+          "why": "The bottle-shaped chalk pits keep about 10 to 12°C all year, and houses converted them into cellars."
+        },
+        {
+          "q": "What did UNESCO list in 2015?",
+          "options": [
+            "Only the Côte des Blancs",
+            "The Champagne Hillsides, Houses and Cellars",
+            "Every grand cru village",
+            "The Aube vineyards only"
+          ],
+          "answer": 1,
+          "why": "The listing covers historic slopes at Hautvillers, Aÿ and Mareuil, the Avenue de Champagne and the Saint-Nicaise hill."
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "part": "intro",
+      "title": "Why cold makes blenders",
+      "steps": [
+        {
+          "text": "At 49 degrees north, Champagne averages only about 11°C over the year, with spring frost and frequent hail. Grapes struggle to ripen: for most of history they came in with high acidity and too little sugar to make a satisfying still wine. Turned into a base wine of around 10 to 11% alcohol and then refermented in bottle, that sharpness becomes Champagne's great virtue, the tension that carries bubbles, yeast flavours and years of age.\n\nLook at the north-facing slopes of the Montagne at [Verzenay](fr-champagne-verzenay), [Verzy](fr-champagne-verzy) and [Mailly-Champagne](fr-champagne-mailly-champagne). Anywhere else a north-facing slope would be a poor site for wine; here they are grand crus, prized for Pinot Noir with backbone and acidity. The old [lighthouse of Verzenay](site-fr-champagne-phare-de-verzenay), built in 1909 as an advertisement, stands among the vines.",
+          "map": {
+            "fly": {
+              "lon": 4.14,
+              "lat": 49.175,
+              "zoom": 12.5
+            },
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 180,
+            "highlight": [
+              "fr-champagne-verzenay",
+              "fr-champagne-verzy",
+              "fr-champagne-mailly-champagne",
+              "site-fr-champagne-phare-de-verzenay"
+            ],
+            "label": "North-facing grand crus of the Montagne"
+          }
+        },
+        {
+          "text": "A cold, variable climate makes every vintage different, and a house that sells the same wine every year cannot rely on one harvest. The answer is [assemblage](term-assemblage), blending. In the spring after the harvest a cellar master tastes dozens, sometimes hundreds, of still base wines, separated by grape, village and plot, and assembles them into a *cuvée*.\n\nEach part brings something: Pinot Noir from the Montagne for body and red fruit, Meunier from the Vallée for roundness and early charm, Chardonnay from the Côte des Blancs for finesse and long life. The idea that a great wine could be built from several villages rather than one is often credited to the monk Dom Pérignon at Hautvillers in the late seventeenth century, and it is the opposite of Burgundy's philosophy of the single climat.",
+          "map": {
+            "fly": {
+              "lon": 4.03,
+              "lat": 49.06,
+              "zoom": 10.0
+            },
+            "highlight": [
+              "fr-champagne-verzenay",
+              "fr-champagne-bouzy",
+              "fr-champagne-ay",
+              "fr-champagne-cumieres",
+              "fr-champagne-cramant",
+              "fr-champagne-le-mesnil-sur-oger",
+              "fr-champagne-damery"
+            ],
+            "label": "One blend, many villages"
+          }
+        },
+        {
+          "text": "The second tool is time. Houses keep back [reserve wine](term-reserve-wine), still wine from earlier harvests, and blend it into each year's non-vintage cuvée. Most non-vintage Champagne contains about 20 to 50% reserve wine, which smooths over a poor year and adds depth: older wine tastes rounder and nuttier than young base wine.\n\nSome houses make a signature of it. [Krug](site-fr-champagne-krug) builds its Grande Cuvée from a library of reserve wines covering many years; [Bollinger](site-fr-champagne-bollinger) in Aÿ ages part of its reserves in magnums; [Charles Heidsieck](site-fr-champagne-charles-heidsieck) is known for a high share of old reserves. A few growers keep a perpetual reserve, topped up every year like a sherry solera. Taste a reserve-rich Champagne and you will notice notes of brioche, toasted nuts and baked apple even when the wine is young.",
+          "map": {
+            "fly": {
+              "lon": 4.02,
+              "lat": 49.16,
+              "zoom": 10.2
+            },
+            "highlight": [
+              "site-fr-champagne-krug",
+              "site-fr-champagne-bollinger",
+              "site-fr-champagne-charles-heidsieck"
+            ],
+            "label": "Houses built on reserve wine"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Charles Heidsieck Brut Réserve",
+          "why": "A non-vintage built on a large share of old reserve wine: look for brioche, praline and dried fruit over the fresh acidity. A lesson in what time adds to a blend.",
+          "price": "$70–90",
+          "try": [
+            "Charles Heidsieck"
+          ],
+          "place": "fr-champagne"
+        },
+        {
+          "wine": "Bollinger Special Cuvée",
+          "why": "Pinot Noir-led, partly oak-fermented and rich with reserve wine from magnums: weighty, toasty and red-fruited. Compare it with the Chardonnay-led blanc de blancs from the last chapter.",
+          "price": "$65–80",
+          "try": [
+            "Bollinger"
+          ],
+          "place": "fr-champagne-ay"
+        },
+        {
+          "wine": "Krug Grande Cuvée (splurge)",
+          "why": "The extreme of the blending idea: many vintages and plots in one bottle, each edition numbered. Dense, nutty and long; worth splitting with friends once.",
+          "price": "$230–280",
+          "try": [
+            "Krug"
+          ],
+          "place": "fr-champagne"
+        }
+      ],
+      "deeper": [
+        "term-assemblage",
+        "term-reserve-wine",
+        "fr-champagne-verzenay",
+        "site-fr-champagne-phare-de-verzenay",
+        "site-fr-champagne-krug",
+        "site-fr-champagne-bollinger"
+      ],
+      "check": [
+        {
+          "q": "Why are north-facing slopes at Verzenay rated grand cru?",
+          "options": [
+            "They are the warmest in France",
+            "In Champagne's cold climate their Pinot Noir keeps prized acidity and structure",
+            "The houses are based there",
+            "They grow only Chardonnay"
+          ],
+          "answer": 1,
+          "why": "Champagne values acidity and backbone; the north slopes of the Montagne give Pinot with both."
+        },
+        {
+          "q": "What is reserve wine?",
+          "options": [
+            "Wine held back from earlier harvests to blend into non-vintage cuvées",
+            "Wine reserved for export",
+            "A sweet dessert style",
+            "Wine from a reserved vineyard"
+          ],
+          "answer": 0,
+          "why": "Reserve wines smooth vintage variation and add depth; most non-vintage blends contain 20 to 50%."
+        },
+        {
+          "q": "What does blending across villages and years give a house?",
+          "options": [
+            "A higher alcohol level",
+            "A consistent style every year despite a variable climate",
+            "A grand cru label",
+            "A sweeter wine"
+          ],
+          "answer": 1,
+          "why": "Assemblage and reserve wines let houses repeat their style whatever the vintage."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "part": "intro",
+      "title": "The méthode champenoise, step by step",
+      "steps": [
+        {
+          "text": "Champagne's rules start in the vineyard. Harvesting is by hand, in whole bunches; machines are banned, because split black grapes would stain the juice. Presses sit close to the vines, many of them in villages such as [Aÿ](fr-champagne-ay) and [Hautvillers](fr-champagne-hautvillers), and each load, a *marc*, is exactly 4,000 kg of grapes.\n\nFrom that marc only 2,550 litres may be used: the first 2,050 litres, the *cuvée*, are the purest and most delicate juice, and the next 500, the *taille*, are fruitier and less fine. Pressed quickly and gently, even Pinot Noir and Meunier give almost colourless juice, which is how most Champagne is white though two-thirds of its grapes are black. The juice ferments into still, dry, sharp base wines, and most go through [malolactic fermentation](term-malolactic-fermentation) to soften their acidity.",
+          "map": {
+            "fly": {
+              "lon": 3.995,
+              "lat": 49.067,
+              "zoom": 14.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "fr-champagne-ay",
+              "fr-champagne-mareuil-sur-ay"
+            ],
+            "label": "Aÿ's vines above the Marne"
+          }
+        },
+        {
+          "text": "After blending, the bubbles are made in the very bottle you buy. The base wine receives the [liqueur de tirage](term-liqueur-de-tirage), wine with about 24 grams of sugar per litre plus yeast, and is capped like a beer bottle. Over the next weeks the yeast ferments the sugar, adding about 1.2% alcohol and enough carbon dioxide to build a pressure of about 6 atmospheres, roughly three times a car tyre.\n\nThen the bottles rest on their dead yeast, the lees, in the cold chalk cellars. The yeast slowly breaks down, a process called autolysis, releasing the flavours of brioche, biscuit and toast and making the bubbles finer. The rules demand at least 15 months in the cellar for non-vintage Champagne, 12 of them on the lees, and three years for vintage wine. Good houses keep their wines far longer.",
+          "map": {
+            "fly": {
+              "lon": 4.037,
+              "lat": 49.25,
+              "zoom": 13.4
+            },
+            "highlight": [
+              "site-fr-champagne-veuve-clicquot",
+              "site-fr-champagne-ruinart",
+              "site-fr-champagne-krug",
+              "site-fr-champagne-g-h-mumm",
+              "site-fr-champagne-lanson"
+            ],
+            "label": "Cellars of Reims"
+          }
+        },
+        {
+          "text": "The lees must then come out without losing the fizz. In 1816 Barbe-Nicole Clicquot and her cellar master developed [remuage](term-remuage), riddling: bottles sit neck-down in a slanted wooden rack and are turned and tilted a little each day until the sediment slides into the neck ([the riddling table](event-clicquot-riddling)). By hand it took about six weeks; since the 1970s machines called gyropalettes do it in about a week.\n\nFor [disgorgement](term-disgorgement) the neck is frozen, the cap removed, and the pressure shoots out a plug of ice and yeast. The bottle is topped up with the *liqueur d'expédition*, wine with a measured amount of sugar, the [dosage](term-dosage). Finally comes the cork, squeezed into its mushroom shape and held by a wire cage.",
+          "map": {
+            "fly": "site-fr-champagne-veuve-clicquot",
+            "highlight": [
+              "site-fr-champagne-veuve-clicquot"
+            ],
+            "label": "Veuve Clicquot, Reims"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Prosecco and a non-vintage Champagne, side by side",
+          "why": "Prosecco gets its bubbles in a pressurised tank (the Charmat method) and is bottled young: fresh pear and flowers, frothy bubbles. The Champagne got its bubbles in the bottle and aged on the lees: finer, creamier mousse and notes of toast. The difference is the method you just read.",
+          "price": "$15–20 and $55–70",
+          "try": [
+            "Bisol or Nino Franco (Prosecco)",
+            "Taittinger Brut Réserve",
+            "Pol Roger Brut Réserve"
+          ],
+          "place": "fr-champagne"
+        }
+      ],
+      "deeper": [
+        "term-methode-traditionnelle",
+        "term-liqueur-de-tirage",
+        "term-remuage",
+        "term-disgorgement",
+        "term-dosage",
+        "event-clicquot-riddling",
+        "term-charmat-method"
+      ],
+      "check": [
+        {
+          "q": "How many litres of juice may be taken from a 4,000 kg marc of grapes?",
+          "options": [
+            "1,000",
+            "2,550",
+            "3,500",
+            "4,000"
+          ],
+          "answer": 1,
+          "why": "2,050 litres of cuvée plus 500 litres of taille, 2,550 in all."
+        },
+        {
+          "q": "Where does Champagne's second fermentation take place?",
+          "options": [
+            "In a pressurised tank",
+            "In oak barrels",
+            "In the bottle that is sold",
+            "In the vineyard"
+          ],
+          "answer": 2,
+          "why": "The traditional method requires the second fermentation in the bottle in which the wine is sold."
+        },
+        {
+          "q": "What is the minimum cellar ageing for non-vintage Champagne?",
+          "options": [
+            "3 months",
+            "15 months, 12 of them on the lees",
+            "3 years",
+            "10 years"
+          ],
+          "answer": 1,
+          "why": "Non-vintage needs at least 15 months (12 on the lees); vintage needs three years."
+        }
+      ]
+    },
+    {
+      "id": "crus",
+      "part": "intro",
+      "title": "Grand cru villages and the échelle des crus",
+      "steps": [
+        {
+          "text": "Burgundy ranks single vineyards; Champagne ranks whole villages. The [échelle des crus](term-echelle-des-crus), the ladder of growths, took shape in the years after the 1911 riots as a way for growers and houses to set the price of grapes. Each village got a percentage: grand cru villages earned 100% of the reference price, premier cru villages 90 to 99%, and the rest down to 80%.\n\nThe fixed price system ended in 1990 and the scale itself was later retired, but the words survive on labels. Today 17 villages are grand cru and 42 premier cru, and a Champagne labelled *Grand Cru* must come entirely from grand cru villages. The map shows the pattern: grand crus cluster on the Montagne de Reims, in the Grande Vallée around Aÿ and on the Côte des Blancs, with none at all in the Aube.",
+          "map": {
+            "fly": {
+              "lon": 4.06,
+              "lat": 49.07,
+              "zoom": 9.8
+            },
+            "highlight": [
+              "fr-champagne-ambonnay",
+              "fr-champagne-avize",
+              "fr-champagne-ay",
+              "fr-champagne-beaumont-sur-vesle",
+              "fr-champagne-bouzy",
+              "fr-champagne-chouilly",
+              "fr-champagne-cramant",
+              "fr-champagne-louvois",
+              "fr-champagne-mailly-champagne",
+              "fr-champagne-le-mesnil-sur-oger",
+              "fr-champagne-oger",
+              "fr-champagne-oiry",
+              "fr-champagne-puisieulx",
+              "fr-champagne-sillery",
+              "fr-champagne-tours-sur-marne",
+              "fr-champagne-verzenay",
+              "fr-champagne-verzy"
+            ],
+            "label": "The 17 grand cru villages"
+          }
+        },
+        {
+          "text": "On the southern flank of the Montagne, [Bouzy](fr-champagne-bouzy) and [Ambonnay](fr-champagne-ambonnay) face south over the Marne plain, and their Pinot Noir ripens fuller and richer than Verzenay's on the north side. Bouzy is so warm by Champagne standards that it is also famous for still red wine. Nearby [Louvois](fr-champagne-louvois) and [Tours-sur-Marne](fr-champagne-tours-sur-marne), and [Aÿ](fr-champagne-ay) to the west, complete the Pinot grand crus of the south.\n\nTilt the map and you can see why: the south-facing slopes take the full afternoon sun. Grand cru Pinot from here is the backbone of blanc de noirs and of many prestige blends. Not every grand cru plot is great, though; a village rating covers good and ordinary corners alike, which is one reason the grower movement now names single plots.",
+          "map": {
+            "fly": {
+              "lon": 4.155,
+              "lat": 49.07,
+              "zoom": 12.4
+            },
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 0,
+            "highlight": [
+              "fr-champagne-bouzy",
+              "fr-champagne-ambonnay",
+              "fr-champagne-louvois",
+              "fr-champagne-tours-sur-marne"
+            ],
+            "label": "Bouzy and Ambonnay"
+          }
+        },
+        {
+          "text": "Now zoom right down to [Le Mesnil-sur-Oger](fr-champagne-le-mesnil-sur-oger) on the Côte des Blancs, in satellite. Just behind the houses lies the [Clos du Mesnil](site-fr-champagne-clos-du-mesnil), a walled plot of 1.84 hectares enclosed since 1698. Krug made its first single-vineyard Champagne from it in the 1979 vintage, a radical idea in a region built on blending.\n\nLe Mesnil also gave its name to [Salon](site-fr-champagne-salon), a house that makes only one wine: a vintage blanc de blancs from Le Mesnil, first made in 1905 and released only in fine years. Its Chardonnay is the most austere and longest-lived in Champagne, needing a decade or more to open. Look at the vine rows running up toward the woods: this east-facing chalk is the most valuable white-wine land in the region.",
+          "map": {
+            "fly": {
+              "lon": 4.0205,
+              "lat": 48.945,
+              "zoom": 15.8
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-champagne-clos-du-mesnil",
+              "site-fr-champagne-salon",
+              "fr-champagne-le-mesnil-sur-oger"
+            ],
+            "label": "Le Mesnil and the Clos du Mesnil"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Grand cru blanc de noirs or Pinot-led brut from Bouzy",
+          "why": "South-facing Montagne Pinot Noir: red apple, cherry and a broad, vinous palate. Compare it with the Côte des Blancs Chardonnay from chapter 2 and you have tasted Champagne's two poles.",
+          "price": "$60–75",
+          "try": [
+            "Paul Bara (Brut Réserve Grand Cru)",
+            "Pierre Paillard"
+          ],
+          "place": "fr-champagne-bouzy"
+        },
+        {
+          "wine": "Le Mesnil blanc de blancs",
+          "why": "The most severe Chardonnay in Champagne: lemon, chalk and a long, saline line. Give it a few years after you buy it.",
+          "price": "$75–95",
+          "try": [
+            "Pierre Péters (Cuvée de Réserve)"
+          ],
+          "place": "fr-champagne-le-mesnil-sur-oger"
+        }
+      ],
+      "deeper": [
+        "term-echelle-des-crus",
+        "fr-champagne-bouzy",
+        "fr-champagne-ambonnay",
+        "fr-champagne-le-mesnil-sur-oger",
+        "site-fr-champagne-clos-du-mesnil",
+        "site-fr-champagne-salon",
+        "fr-champagne-ay"
+      ],
+      "check": [
+        {
+          "q": "What does Champagne's grand cru status apply to?",
+          "options": [
+            "Single vineyards, as in Burgundy",
+            "Whole villages",
+            "Houses",
+            "Vintages"
+          ],
+          "answer": 1,
+          "why": "The échelle rated villages; 17 are grand cru and 42 premier cru."
+        },
+        {
+          "q": "What did the échelle des crus originally set?",
+          "options": [
+            "The price paid for grapes from each village",
+            "The alcohol level",
+            "The dosage",
+            "The bottle size"
+          ],
+          "answer": 0,
+          "why": "Grand cru villages earned 100% of the reference grape price, premier crus 90 to 99%."
+        },
+        {
+          "q": "Which house makes only one wine, a vintage blanc de blancs from Le Mesnil?",
+          "options": [
+            "Salon",
+            "Moët & Chandon",
+            "Bollinger",
+            "Drappier"
+          ],
+          "answer": 0,
+          "why": "Salon, first made in 1905, is declared only in fine years."
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "part": "intro",
+      "title": "Houses, growers and the label code",
+      "steps": [
+        {
+          "text": "Every Champagne label carries a small code that tells you who made the wine. *NM*, [négociant-manipulant](term-negociant-manipulant), is a house that buys grapes and usually owns some vines too: Moët, Bollinger and Krug are NM. *RM*, [récoltant-manipulant](term-recoltant-manipulant), is a grower who makes Champagne only from their own grapes. *CM* is a co-operative; *RC* a grower selling wine made by their co-operative; *SR* a family company of growers; *ND* a merchant who sells wine made by others; and *MA*, *marque auxiliaire*, a brand owned by a buyer such as a supermarket.\n\nHouses own only about a tenth of the vineyard and buy the rest. Their strength is blending across many villages for a consistent style. A grower's strength is the opposite: one village, sometimes one plot, and the farmer's own hands from vine to bottle.",
+          "map": {
+            "fly": {
+              "lon": 4.0,
+              "lat": 49.02,
+              "zoom": 11.0
+            },
+            "highlight": [
+              "site-fr-champagne-moet-chandon",
+              "site-fr-champagne-bollinger",
+              "site-fr-champagne-pol-roger",
+              "site-fr-champagne-jacques-selosse",
+              "site-fr-champagne-pierre-peters",
+              "site-fr-champagne-larmandier-bernier"
+            ],
+            "label": "Houses and growers around Épernay"
+          }
+        },
+        {
+          "text": "Next read the sweetness, which comes from the dosage. The categories, in grams of sugar per litre: *brut nature* or zero dosage, under 3 and none added; *extra brut*, 0 to 6; *brut*, under 12; *extra dry*, 12 to 17 (confusingly sweeter than brut); *sec*, 17 to 32; *demi-sec*, 32 to 50; *doux*, over 50.\n\nIn the nineteenth century most Champagne was sweet, and the Russian market liked it very sweet. Louise Pommery helped change that: [Pommery](site-fr-champagne-pommery)'s Nature of 1874 is remembered as the first commercially successful brut, made for British drinkers. Today brut dominates, and warmer vintages with riper grapes have made extra brut and zero dosage fashionable. Sugar is not a flaw in itself: in a cold year a little dosage balances fierce acidity.",
+          "map": {
+            "fly": "site-fr-champagne-pommery",
+            "highlight": [
+              "site-fr-champagne-pommery",
+              "site-fr-champagne-colline-saint-nicaise"
+            ],
+            "label": "Pommery, Reims"
+          }
+        },
+        {
+          "text": "Grower bottles reward reading the back label. Many give the disgorgement date, so you know how long the wine has rested since it left its lees; the base year, the vintage that makes up most of a non-vintage blend; the dosage in grams; and often the village or plot. *Blanc de blancs* means white grapes only, usually Chardonnay; *blanc de noirs* means white wine from black grapes, Pinot Noir or Meunier.\n\n[Avize](fr-champagne-avize) and its neighbours are good places to learn these names, because so many growers bottle there, and the region's wine school, the Lycée Viticole de la Champagne, is in Avize too. A premier cru label tells you the grapes came from premier or grand cru villages; a single-village name tells you far more.",
+          "map": {
+            "fly": {
+              "lon": 4.005,
+              "lat": 48.955,
+              "zoom": 12.0
+            },
+            "highlight": [
+              "fr-champagne-avize",
+              "fr-champagne-cramant",
+              "fr-champagne-oger",
+              "fr-champagne-le-mesnil-sur-oger",
+              "fr-champagne-vertus",
+              "site-fr-champagne-jacques-selosse"
+            ],
+            "label": "Grower country, the Côte des Blancs"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A récoltant-manipulant (RM) non-vintage",
+          "why": "Check the code and the back label: one estate's own grapes, often with the base year and disgorgement date printed. Compare it with your big-house brut from chapter 1 for a more place-specific, often drier style.",
+          "price": "$55–85",
+          "try": [
+            "Chartogne-Taillet (Sainte Anne)",
+            "Pierre Gimonnet",
+            "Larmandier-Bernier"
+          ],
+          "place": "fr-champagne"
+        },
+        {
+          "wine": "A demi-sec Champagne",
+          "why": "Taste what sugar does: 32 to 50 grams per litre turns Champagne into a partner for fruit desserts and blue cheese, and shows how acidity keeps even a sweet wine from tasting heavy.",
+          "price": "$60–80",
+          "try": [
+            "Veuve Clicquot Demi-Sec",
+            "Laurent-Perrier Harmony"
+          ],
+          "place": "fr-champagne"
+        }
+      ],
+      "deeper": [
+        "term-negociant-manipulant",
+        "term-recoltant-manipulant",
+        "term-dosage",
+        "site-fr-champagne-pommery",
+        "fr-champagne-avize",
+        "site-fr-champagne-jacques-selosse"
+      ],
+      "check": [
+        {
+          "q": "What does RM on a Champagne label mean?",
+          "options": [
+            "A house buying grapes",
+            "A grower making Champagne from their own grapes",
+            "A supermarket brand",
+            "A co-operative"
+          ],
+          "answer": 1,
+          "why": "Récoltant-manipulant: the grower farms the vines and makes the wine."
+        },
+        {
+          "q": "Which is the sweetest of these?",
+          "options": [
+            "Brut",
+            "Extra brut",
+            "Extra dry",
+            "Brut nature"
+          ],
+          "answer": 2,
+          "why": "Extra dry is 12 to 17 g/L, sweeter than brut (under 12), extra brut (0 to 6) and brut nature (under 3)."
+        },
+        {
+          "q": "What does blanc de noirs mean?",
+          "options": [
+            "Red Champagne",
+            "White Champagne made only from black grapes",
+            "Champagne aged in black bottles",
+            "Champagne from the Aube only"
+          ],
+          "answer": 1,
+          "why": "Blanc de noirs is white wine made from Pinot Noir and/or Meunier."
+        }
+      ]
+    },
+    {
+      "id": "styles",
+      "part": "intro",
+      "title": "Non-vintage, vintage and rosé",
+      "steps": [
+        {
+          "text": "Most Champagne is non-vintage: a blend built around one harvest with reserve wines from earlier years, designed to taste the same every year. Vintage Champagne comes from a single harvest, declared only when a house thinks the year is good enough on its own, and it must age at least three years before release. It shows the character of the year rather than the house: the atlas's vintage notes single out 1996, 2002 and 2008 as classics, with 2008 especially fresh and long-lived.\n\nLook at the Grande Vallée, the south-facing slopes of [Aÿ](fr-champagne-ay), [Mareuil-sur-Aÿ](fr-champagne-mareuil-sur-ay), [Dizy](fr-champagne-dizy), [Hautvillers](fr-champagne-hautvillers) and [Cumières](fr-champagne-cumieres) above the Marne. In warm, ripe years these sun traps carry vintage blends; in cold years houses need the reserve cellar more.",
+          "map": {
+            "fly": {
+              "lon": 3.985,
+              "lat": 49.06,
+              "zoom": 12.2
+            },
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 0,
+            "highlight": [
+              "fr-champagne-ay",
+              "fr-champagne-mareuil-sur-ay",
+              "fr-champagne-dizy",
+              "fr-champagne-hautvillers",
+              "fr-champagne-cumieres"
+            ],
+            "label": "The Grande Vallée de la Marne"
+          }
+        },
+        {
+          "text": "Rosé Champagne is made in two ways. Most is *rosé d'assemblage*: a little still red wine, usually Pinot Noir from villages such as [Bouzy](fr-champagne-bouzy), [Aÿ](fr-champagne-ay) or [Cumières](fr-champagne-cumieres), is blended into the white base before the second fermentation. Champagne is one of the few places in Europe where rosé may be made this way, and Veuve Clicquot made the first known blended rosé in 1818. The alternative, *rosé de [saignée](term-saignee)*, lets black grapes macerate briefly so the juice takes colour from the skins; it tends to be deeper, fruitier and more vinous.\n\nRosé costs more because the red wine is scarce and costly to make in such a cold region. The atlas window for non-vintage rosé is short: drink within about three years of disgorgement.",
+          "map": {
+            "fly": {
+              "lon": 4.04,
+              "lat": 49.07,
+              "zoom": 11.0
+            },
+            "highlight": [
+              "fr-champagne-bouzy",
+              "fr-champagne-ambonnay",
+              "fr-champagne-ay",
+              "fr-champagne-cumieres"
+            ],
+            "label": "Red-wine villages for rosé"
+          }
+        },
+        {
+          "text": "The west of the Vallée de la Marne, past Damery toward Château-Thierry, is Meunier country, where clay and sand replace much of the chalk. For decades Meunier was the workhorse grape that houses used and rarely named. Growers such as Jérôme Prévost in Gueux, Laherte Frères in Chavot and Christophe Mignon in Festigny have since bottled it on its own, and a 100% Meunier Champagne, all ripe apple and soft spice, is now a style to look for.\n\nHow long to keep each style? The atlas windows: non-vintage brut is best within about four years of disgorgement; vintage Champagne is ready at about seven years from harvest and best from ten to twenty-five; prestige cuvées from about twelve to thirty. With age the citrus turns to toast, hazelnut and honey, and the bubbles soften.",
+          "map": {
+            "fly": {
+              "lon": 3.72,
+              "lat": 49.05,
+              "zoom": 10.4
+            },
+            "highlight": [
+              "fr-champagne-damery",
+              "fr-champagne-festigny",
+              "fr-champagne-leuvrigny",
+              "fr-champagne-mareuil-le-port",
+              "fr-champagne-chateau-thierry"
+            ],
+            "label": "Meunier country"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A vintage Champagne from a major house",
+          "why": "One year's character: deeper and more layered than non-vintage, with the brioche of long lees ageing. Look for a year such as 2012, 2013 or 2015 that is now starting to open.",
+          "price": "$110–150",
+          "try": [
+            "Pol Roger Brut Vintage",
+            "Louis Roederer Vintage",
+            "Charles Heidsieck Millésime"
+          ],
+          "place": "fr-champagne"
+        },
+        {
+          "wine": "Rosé Champagne",
+          "why": "Blended rosé (Billecart-Salmon) is delicate and strawberry-scented; saignée (Laurent-Perrier) is deeper and redder. Try one of each if you can.",
+          "price": "$95–130",
+          "try": [
+            "Billecart-Salmon Brut Rosé",
+            "Laurent-Perrier Cuvée Rosé"
+          ],
+          "place": "fr-champagne"
+        },
+        {
+          "wine": "Crémant de Bourgogne rosé",
+          "why": "The under-$30 way to taste traditional-method rosé: Pinot Noir from Burgundy, bright red fruit, fine bubbles.",
+          "price": "$20–28",
+          "try": [
+            "Louis Bouillot (Perle d'Aurore)",
+            "Simonnet-Febvre"
+          ],
+          "place": "fr-cremant-de-bourgogne"
+        }
+      ],
+      "deeper": [
+        "fr-champagne-ay",
+        "fr-champagne-cumieres",
+        "term-saignee",
+        "grape-meunier",
+        "region-fr-vallee-de-la-marne",
+        "fr-champagne-damery"
+      ],
+      "check": [
+        {
+          "q": "How is most rosé Champagne made?",
+          "options": [
+            "By blending a little red wine into the white base",
+            "By adding grape juice after disgorgement",
+            "By ageing in red-wine barrels",
+            "From pink grapes"
+          ],
+          "answer": 0,
+          "why": "Rosé d'assemblage is the common method; rosé de saignée is the alternative."
+        },
+        {
+          "q": "What is the minimum ageing for vintage Champagne?",
+          "options": [
+            "9 months",
+            "15 months",
+            "3 years",
+            "7 years"
+          ],
+          "answer": 2,
+          "why": "Vintage Champagne must spend at least three years in the cellar."
+        },
+        {
+          "q": "Where is Meunier most at home?",
+          "options": [
+            "The Côte des Blancs",
+            "The western Vallée de la Marne",
+            "Le Mesnil-sur-Oger",
+            "Bouzy"
+          ],
+          "answer": 1,
+          "why": "Its late budding and reliability suit the cooler, clay-rich valley west of Damery."
+        }
+      ]
+    },
+    {
+      "id": "growers",
+      "part": "deeper",
+      "title": "Grower Champagne and single plots",
+      "steps": [
+        {
+          "text": "For most of the twentieth century growers sold grapes and houses made the famous wines. The change began in [Avize](fr-champagne-avize). Anselme Selosse took over his family estate in 1980 after studying in Beaune, and farmed and vinified like a Burgundian: low yields, ploughed soils, fermentation in barrels, long ageing and very little dosage. His [Jacques Selosse](site-fr-champagne-jacques-selosse) wines are rich, oxidative and polarising, and they became cult bottles.\n\nImporters spread the idea. In the United States, Terry Theise championed grower Champagne from the 1990s, and wine lists followed. Selosse's later cuvées name single lieux-dits in different villages, from Le Mesnil to Mareuil-sur-Aÿ, the opposite of the house principle that greatness comes from blending.",
+          "map": {
+            "fly": "fr-champagne-avize",
+            "highlight": [
+              "fr-champagne-avize",
+              "site-fr-champagne-jacques-selosse"
+            ],
+            "label": "Avize, Selosse's village"
+          }
+        },
+        {
+          "text": "The movement now runs across the map. On the Montagne, Egly-Ouriet in [Ambonnay](fr-champagne-ambonnay) makes deep, Pinot-rich wines, and Bérêche in [Ludes](fr-champagne-ludes) and Chartogne-Taillet in [Merfy](fr-champagne-merfy) show the lesser-known northern villages. On the Côte des Blancs, Pierre Péters in Le Mesnil and Larmandier-Bernier in [Vertus](fr-champagne-vertus) make precise blanc de blancs. In the Aube, Vouette et Sorbée in [Buxières-sur-Arce](fr-champagne-buxieres-sur-arce) and Cédric Bouchard in [Celles-sur-Ource](fr-champagne-celles-sur-ource) bottle single plots, single grapes and single years.\n\nWhat unites them is the vineyard: organic or biodynamic farming is common, dosage is low, and labels give the village, the plot and the disgorgement date. You buy a place and a farmer, as in Burgundy.",
+          "map": {
+            "fly": {
+              "lon": 4.15,
+              "lat": 48.65,
+              "zoom": 7.9
+            },
+            "highlight": [
+              "fr-champagne-ambonnay",
+              "fr-champagne-ludes",
+              "fr-champagne-merfy",
+              "fr-champagne-le-mesnil-sur-oger",
+              "fr-champagne-vertus",
+              "fr-champagne-buxieres-sur-arce",
+              "fr-champagne-celles-sur-ource"
+            ],
+            "label": "Grower villages"
+          }
+        },
+        {
+          "text": "Growers also taught drinkers to taste villages within a single slope, and the Côte des Blancs is the classroom. In the north, [Chouilly](fr-champagne-chouilly) and [Cramant](fr-champagne-cramant) tend to give rounder, more floral Chardonnay. [Avize](fr-champagne-avize) is often called the most complete, rich and tense at once; [Oger](fr-champagne-oger) is riper and more generous; [Le Mesnil-sur-Oger](fr-champagne-le-mesnil-sur-oger) is the most austere and the slowest to open. South of them, [Vertus](fr-champagne-vertus), a premier cru, has more clay and even grows some Pinot Noir.\n\nThese are tendencies argued over by growers, not rules, and a producer's hand matters as much. But open two single-village blanc de blancs from neighbouring communes, from the same grower and year, and the differences are easy to taste. That is the case for naming villages on the label.",
+          "map": {
+            "fly": {
+              "lon": 4.0,
+              "lat": 48.955,
+              "zoom": 11.4
+            },
+            "highlight": [
+              "fr-champagne-chouilly",
+              "fr-champagne-cramant",
+              "fr-champagne-avize",
+              "fr-champagne-oger",
+              "fr-champagne-le-mesnil-sur-oger",
+              "fr-champagne-vertus"
+            ],
+            "label": "Village by village down the Côte des Blancs"
+          }
+        },
+        {
+          "text": "Houses answered with single vineyards of their own. Tilt the map over [Mareuil-sur-Aÿ](fr-champagne-mareuil-sur-ay): the steep, south-facing slope above the Marne canal holds Philipponnat's Clos des Goisses, a plot of about 5.5 hectares that the [house](site-fr-champagne-philipponnat) has farmed since 1935, one of the warmest sites in Champagne. Krug added the tiny Clos d'Ambonnay, 0.68 hectares of Pinot Noir bought in 1994, to its Clos du Mesnil. In Aÿ, Bollinger's Vieilles Vignes Françaises comes from Pinot Noir on its own roots, ungrafted vines that survived phylloxera.\n\nThese are among the most expensive Champagnes made, but the lesson is cheap: Champagne's villages and slopes differ as much as Burgundy's, and a growing share of the region's wine says so on the label.",
+          "map": {
+            "fly": {
+              "lon": 4.04,
+              "lat": 49.042,
+              "zoom": 13.8
+            },
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 0,
+            "highlight": [
+              "fr-champagne-mareuil-sur-ay",
+              "site-fr-champagne-philipponnat",
+              "fr-champagne-ay"
+            ],
+            "label": "Mareuil-sur-Aÿ and the Clos des Goisses"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Larmandier-Bernier Longitude (premier cru blanc de blancs)",
+          "why": "Biodynamic Chardonnay from several Côte des Blancs villages, low dosage: a clear, chalky introduction to grower style.",
+          "price": "$70–120",
+          "try": [
+            "Larmandier-Bernier"
+          ],
+          "place": "fr-champagne-vertus"
+        },
+        {
+          "wine": "Egly-Ouriet Brut Tradition Grand Cru",
+          "why": "Ambonnay Pinot Noir, long on the lees: vinous, deep and toasty, a grower wine that drinks like a prestige cuvée.",
+          "price": "$100–140",
+          "try": [
+            "Egly-Ouriet"
+          ],
+          "place": "fr-champagne-ambonnay"
+        },
+        {
+          "wine": "Jacques Selosse Initial (splurge)",
+          "why": "Avize and neighbouring grand crus, barrel-fermented and oxidative: the wine that started the movement. Serve it in a white-wine glass, not too cold.",
+          "price": "$500–650",
+          "try": [
+            "Jacques Selosse"
+          ],
+          "place": "fr-champagne-avize"
+        }
+      ],
+      "deeper": [
+        "term-recoltant-manipulant",
+        "site-fr-champagne-jacques-selosse",
+        "site-fr-champagne-egly-ouriet",
+        "site-fr-champagne-larmandier-bernier",
+        "site-fr-champagne-philipponnat",
+        "fr-champagne-mareuil-sur-ay",
+        "fr-champagne-celles-sur-ource"
+      ],
+      "check": [
+        {
+          "q": "Who is usually credited with starting the grower Champagne movement?",
+          "options": [
+            "Dom Pérignon",
+            "Anselme Selosse in Avize",
+            "Louise Pommery",
+            "Krug"
+          ],
+          "answer": 1,
+          "why": "Selosse took over his family estate in 1980 and brought a Burgundian, terroir-first approach."
+        },
+        {
+          "q": "What is unusual about Bollinger's Vieilles Vignes Françaises?",
+          "options": [
+            "It is a still wine",
+            "Its Pinot Noir vines are ungrafted, on their own roots",
+            "It is made from Meunier only",
+            "It comes from the Aube"
+          ],
+          "answer": 1,
+          "why": "The tiny plots in Aÿ escaped phylloxera and are not grafted onto American rootstock."
+        },
+        {
+          "q": "Where is Philipponnat's Clos des Goisses?",
+          "options": [
+            "Le Mesnil-sur-Oger",
+            "Mareuil-sur-Aÿ",
+            "Les Riceys",
+            "Reims"
+          ],
+          "answer": 1,
+          "why": "It is a steep, south-facing slope above the Marne canal at Mareuil-sur-Aÿ."
+        }
+      ]
+    },
+    {
+      "id": "still",
+      "part": "deeper",
+      "title": "Still Champagne: Coteaux Champenois and Rosé des Riceys",
+      "steps": [
+        {
+          "text": "Before bubbles took over, Champagne was famous for still wine, pale reds that rivalled Burgundy at the court of Paris. That tradition lives on in [Coteaux Champenois](fr-coteaux-champenois), the appellation since 1974 for still red, white and rosé wine from the Champagne zone. It is rare, often well under 1% of the harvest, because every grape used for it could fetch more as Champagne.\n\nThe reds come mostly from warm, south-facing Pinot Noir villages such as [Bouzy](fr-champagne-bouzy), [Ambonnay](fr-champagne-ambonnay), [Aÿ](fr-champagne-ay) and [Cumières](fr-champagne-cumieres), and labels often add the village, as in Bouzy Rouge. Warmer vintages since 2015 have made riper, more serious reds possible; Bollinger's La Côte aux Enfants in Aÿ, Egly-Ouriet and Bérêche make them in a Burgundian style. The atlas window for a good one: four to ten years.",
+          "map": {
+            "fly": {
+              "lon": 4.07,
+              "lat": 49.07,
+              "zoom": 10.9
+            },
+            "highlight": [
+              "fr-champagne-bouzy",
+              "fr-champagne-ambonnay",
+              "fr-champagne-ay",
+              "fr-champagne-cumieres"
+            ],
+            "label": "Still-red villages"
+          }
+        },
+        {
+          "text": "At the far south of the region, [Les Riceys](fr-champagne-les-riceys) makes one of the rarest wines in France, [Rosé des Riceys](fr-rose-des-riceys), an appellation since 1947. It is a still, dark rosé of Pinot Noir from the Kimmeridgian slopes around the village. Grapes macerate in open vats while the winemaker tastes constantly, waiting for the *goût des Riceys*, a flavour of hazelnut, red fruit and spice, before drawing off the juice. Only a few tens of thousands of bottles are made, and only in good years.\n\nLook at the map: Les Riceys sits closer to Chablis than to Reims. Its three appellations in one commune sum up Champagne's variety, from sparkling to still, and from chalk in the north to marl in the south.",
+          "map": {
+            "fly": "fr-champagne-les-riceys",
+            "highlight": [
+              "fr-champagne-les-riceys",
+              "fr-rose-des-riceys"
+            ],
+            "label": "Les Riceys, three appellations"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Coteaux Champenois rouge (Bouzy Rouge or Aÿ)",
+          "why": "Pale, high-acid, perfumed Pinot Noir with a chalky finish: think cool-year Burgundy. It shows what Champagne's red grapes taste like before they become bubbles.",
+          "price": "$60–150",
+          "try": [
+            "Paul Bara (Bouzy Rouge)",
+            "Egly-Ouriet",
+            "Bollinger (La Côte aux Enfants)"
+          ],
+          "place": "fr-coteaux-champenois"
+        },
+        {
+          "wine": "Rosé des Riceys",
+          "why": "A curiosity worth chasing: deep pink, savoury and nutty, closer to a light red than a summer rosé.",
+          "price": "$60–90",
+          "try": [
+            "Olivier Horiot",
+            "Alexandre Bonnet"
+          ],
+          "place": "fr-rose-des-riceys"
+        }
+      ],
+      "deeper": [
+        "fr-coteaux-champenois",
+        "fr-rose-des-riceys",
+        "fr-champagne-les-riceys",
+        "fr-champagne-bouzy",
+        "region-fr-cote-des-bar"
+      ],
+      "check": [
+        {
+          "q": "Why is Coteaux Champenois so rare?",
+          "options": [
+            "It is banned outside France",
+            "Its grapes would earn more as Champagne",
+            "Only one producer makes it",
+            "It can only be made from Meunier"
+          ],
+          "answer": 1,
+          "why": "Still wine uses grapes that could become far more valuable sparkling wine."
+        },
+        {
+          "q": "What is the goût des Riceys?",
+          "options": [
+            "The flavour of hazelnut, red fruit and spice the winemaker waits for in maceration",
+            "A sweet dosage",
+            "A grape variety",
+            "A Reims cellar"
+          ],
+          "answer": 0,
+          "why": "Winemakers taste constantly during maceration and stop when the characteristic goût appears."
+        },
+        {
+          "q": "How many appellations share the commune of Les Riceys?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Five"
+          ],
+          "answer": 2,
+          "why": "Champagne, Coteaux Champenois and Rosé des Riceys."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "part": "deeper",
+      "title": "Monks, widows and riots",
+      "steps": [
+        {
+          "text": "Champagne's bubbles began as a fault. Cold winters stopped fermentation in the barrel, and in spring it restarted, sometimes bursting the casks. The English, who imported the wine in barrel and bottled it in strong coal-fired glass, were the first to enjoy it fizzy: on 17 December 1662 Christopher Merret told the Royal Society in London how adding sugar made wine 'brisk and sparkling' ([Merret](event-merret-sparkling)).\n\nDom Pierre Pérignon became cellarer at the [abbey of Hautvillers](site-fr-champagne-abbaye-saint-pierre-d-hautvillers) in 1668 and served until his death in 1715 ([Dom Pérignon](event-dom-perignon)). He did not invent sparkling Champagne and spent years trying to prevent unwanted refermentation. His real gifts were blending grapes from different villages and pressing black grapes gently to make white wine. The line 'Come quickly, I am drinking the stars' was invented by later marketing.",
+          "map": {
+            "fly": {
+              "lon": 3.9435,
+              "lat": 49.0812,
+              "zoom": 14.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-champagne-abbaye-saint-pierre-d-hautvillers",
+              "fr-champagne-hautvillers"
+            ],
+            "label": "Hautvillers abbey"
+          }
+        },
+        {
+          "text": "The eighteenth and nineteenth centuries built the houses: Ruinart in 1729, the oldest, then Moët in 1743, and later houses founded by Germans such as Krug, Bollinger and Mumm. Widows ran some of the greatest. Barbe-Nicole Ponsardin, widowed at 27 in 1805, took over [Veuve Clicquot](site-fr-champagne-veuve-clicquot) (*veuve* means widow), developed riddling in 1816 and made the first known blended rosé in 1818.\n\nLouise Pommery, widowed in 1858, dug the chalk pits of Reims into cellars from 1868 and launched [Pommery](site-fr-champagne-pommery) Nature in 1874, the first commercially successful brut. In the twentieth century Lily Bollinger ran her family house from 1941 to 1971, cycling through the vineyards of Aÿ. Their names are still on the labels.",
+          "map": {
+            "fly": {
+              "lon": 4.045,
+              "lat": 49.247,
+              "zoom": 13.6
+            },
+            "highlight": [
+              "site-fr-champagne-veuve-clicquot",
+              "site-fr-champagne-pommery",
+              "site-fr-champagne-ruinart",
+              "site-fr-champagne-krug"
+            ],
+            "label": "The widows' Reims"
+          }
+        },
+        {
+          "text": "Success brought fraud and anger. [Phylloxera](term-phylloxera) reached Champagne in 1890 ([phylloxera](event-phylloxera-champagne)), poor harvests followed, and some houses bought cheap wine from the Loire and the Midi and sold it as Champagne. When the region was delimited in 1908, the Aube was left out. In January 1911 Marne growers rioted at Damery and Hautvillers, and in April they sacked cellars in [Aÿ](fr-champagne-ay), where fire spread through the village; the government sent more than 40,000 troops ([the riots](event-champagne-riots-1911)).\n\nThe Aube growers rioted too, demanding inclusion. They were granted a second-tier status first and full membership only in 1927. The crisis produced the échelle des crus and the strict controls on where grapes come from that still define the appellation, confirmed when Champagne became an AOC in 1936.",
+          "map": {
+            "fly": "site-fr-champagne-ay-1911-riots",
+            "highlight": [
+              "site-fr-champagne-ay-1911-riots",
+              "fr-champagne-ay",
+              "fr-champagne-damery",
+              "fr-champagne-hautvillers"
+            ],
+            "label": "Aÿ and Damery, 1911"
+          }
+        },
+        {
+          "text": "Out of the Depression came the prestige cuvée. In 1936 Moët & Chandon released the 1921 vintage of Dom Pérignon in a replica eighteenth-century bottle, the first prestige Champagne, and showed that luxury could be sold on a story ([Dom Pérignon](event-moet-dom-perignon-1936)). Louis Roederer's Cristal, created in 1876 for Tsar Alexander II, went on general sale after the Second World War, and other houses followed: Taittinger Comtes de Champagne, Veuve Clicquot La Grande Dame, Pommery Cuvée Louise.\n\nPrestige cuvées are usually vintage blends from the best grand cru plots, aged long on the lees. The atlas window: ready at about ten years, best from twelve to thirty, which is why the young bottles in shop windows rarely show what they can do.",
+          "map": {
+            "fly": "site-fr-champagne-moet-chandon",
+            "highlight": [
+              "site-fr-champagne-moet-chandon",
+              "site-fr-champagne-louis-roederer",
+              "site-fr-champagne-taittinger"
+            ],
+            "label": "Prestige houses"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Dom Pérignon (prestige cuvée)",
+          "why": "The wine that invented the category: a vintage blend of Chardonnay and Pinot Noir, smoky and creamy when young, far deeper after fifteen years.",
+          "price": "$240–360",
+          "try": [
+            "Moët & Chandon (Dom Pérignon)"
+          ],
+          "place": "fr-champagne"
+        },
+        {
+          "wine": "Veuve Clicquot La Grande Dame",
+          "why": "Named for Barbe-Nicole Ponsardin and led by Pinot Noir from grand cru villages: a taste of the widow's house at its best.",
+          "price": "$160–260",
+          "try": [
+            "Veuve Clicquot"
+          ],
+          "place": "fr-champagne"
+        }
+      ],
+      "deeper": [
+        "event-merret-sparkling",
+        "event-dom-perignon",
+        "site-fr-champagne-abbaye-saint-pierre-d-hautvillers",
+        "event-clicquot-riddling",
+        "event-phylloxera-champagne",
+        "event-champagne-riots-1911",
+        "site-fr-champagne-ay-1911-riots",
+        "event-moet-dom-perignon-1936"
+      ],
+      "check": [
+        {
+          "q": "What was Dom Pérignon's real contribution?",
+          "options": [
+            "He invented the bubbles",
+            "He blended grapes from different villages and pressed black grapes gently for white wine",
+            "He invented the riddling rack",
+            "He founded Moët & Chandon"
+          ],
+          "answer": 1,
+          "why": "He worked to improve still wine and even to prevent refermentation; the 'drinking the stars' story is later marketing."
+        },
+        {
+          "q": "Who developed riddling in 1816?",
+          "options": [
+            "Louise Pommery",
+            "Barbe-Nicole Clicquot and her cellar master",
+            "Christopher Merret",
+            "Lily Bollinger"
+          ],
+          "answer": 1,
+          "why": "The widow Clicquot's team developed the slanted rack that clears the sediment."
+        },
+        {
+          "q": "Which area was excluded from the 1908 delimitation and admitted fully only in 1927?",
+          "options": [
+            "The Côte des Blancs",
+            "The Aube",
+            "The Montagne de Reims",
+            "Épernay"
+          ],
+          "answer": 1,
+          "why": "The Aube's exclusion fuelled the 1911 riots; it was granted second-tier status and then full membership in 1927."
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "part": "deeper",
+      "title": "Yields, stocks and a warming Champagne",
+      "steps": [
+        {
+          "text": "Champagne controls its supply like no other region. Each summer growers and houses agree on the maximum yield that may be sold as Champagne, in kilograms of grapes per hectare, to match the harvest to demand. It was 12,000 kg for 2022, a boom year when shipments reached a record of nearly 326 million bottles, then 11,400 for 2023, 10,000 for 2024 and 9,000 for 2025.\n\nDemand has slipped. Shipments fell to 271.4 million bottles in 2024 and about 266 million in 2025, of which nearly 152 million went abroad and the United States, at 26.4 million, was the largest export market. For 2026 the yield was cut for a fourth year in a row, with the aim of selling about 250 million bottles ([2026](event-champagne-2026-yield)). Lower yields protect grape prices, but they squeeze the incomes of growers.",
+          "map": {
+            "fly": {
+              "lon": 4.05,
+              "lat": 48.75,
+              "zoom": 8.0
+            },
+            "highlight": [
+              "fr-champagne"
+            ],
+            "label": "One appellation, one yield"
+          }
+        },
+        {
+          "text": "The climate that once made ripeness a struggle is changing fast. The atlas's climate record for Champagne shows the average growing-season temperature rising from 14.0°C in 1961–1990 to 15.2°C in 1991–2020, and the average harvest date has moved about two weeks earlier since the 1980s. In 2020 picking began on 17 August. In 2026 the official opening dates ran from 8 to 22 August, the earliest ever set, and growers at Montgueux in the Aube had cut their first grapes on 6 August.\n\nRiper grapes mean less need for sugar, so dosage has fallen, and warm years such as 2015, 2018 and 2022 give broader, more generous wines. They also bring heat spikes, drought and mildew, as 2024 showed. The appellation has admitted Voltis, a disease-resistant hybrid, for limited, trial-scale planting, the first such variety accepted in any French appellation, and growers are rethinking rootstocks, vine training and harvest timing to keep the acidity that is Champagne's signature.",
+          "map": {
+            "fly": {
+              "lon": 4.03,
+              "lat": 49.06,
+              "zoom": 9.3
+            },
+            "highlight": [
+              "region-fr-montagne-de-reims",
+              "region-fr-vallee-de-la-marne",
+              "region-fr-cote-des-blancs"
+            ],
+            "label": "A warming Marne"
+          }
+        },
+        {
+          "text": "Warming has also opened a new front across the Channel. Southern England sits on the same chalk as Champagne, and its summers are now warm enough for sparkling wine grapes. Taittinger planted its Domaine Evremond in Kent from 2017 and released its first wine in 2025; Pommery made an English sparkling wine with Hattingley Valley ([Champagne buys into England](event-champagne-buys-england)).\n\nFor a drinker, the lesson of the whole guide comes together here. Champagne is a place before it is a brand: chalk, cold and a single, tightly ruled appellation, now read village by village and vintage by vintage. Taste a warm-year Champagne beside an English sparkling wine from chalk and you can feel the frontier moving north.",
+          "map": {
+            "fly": {
+              "lon": 2.9,
+              "lat": 50.1,
+              "zoom": 6.0
+            },
+            "highlight": [
+              "fr-champagne"
+            ],
+            "label": "Chalk on both sides of the Channel"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A warm-year vintage Champagne (2015, 2018 or 2020)",
+          "why": "Riper, rounder and lower in acidity than classic years, often with lower dosage: the taste of a warming region.",
+          "price": "$90–150",
+          "try": [
+            "Louis Roederer Vintage",
+            "Pol Roger Brut Vintage",
+            "Charles Heidsieck Millésime"
+          ],
+          "place": "fr-champagne"
+        },
+        {
+          "wine": "English traditional-method sparkling wine",
+          "why": "The same grapes and method on similar chalk, a little cooler: compare its acidity with your Champagne.",
+          "price": "$45–75",
+          "try": [
+            "Nyetimber",
+            "Gusbourne",
+            "Hattingley Valley"
+          ],
+          "place": "gb"
+        }
+      ],
+      "deeper": [
+        "event-champagne-2026-yield",
+        "event-champagne-buys-england",
+        "fr-champagne",
+        "region-fr-champagne",
+        "term-dosage",
+        "soil-chalk"
+      ],
+      "check": [
+        {
+          "q": "How does Champagne match supply to demand?",
+          "options": [
+            "By banning exports",
+            "By setting a maximum saleable yield in kilograms per hectare each year",
+            "By pulling up vines every year",
+            "By fixing retail prices"
+          ],
+          "answer": 1,
+          "why": "The interprofession sets the marketable yield each summer: 12,000 kg/ha for 2022, 9,000 for 2025, and lower again for 2026."
+        },
+        {
+          "q": "Which was Champagne's largest export market by volume in 2025?",
+          "options": [
+            "China",
+            "The United States",
+            "Japan",
+            "Russia"
+          ],
+          "answer": 1,
+          "why": "The United States took about 26.4 million bottles in 2025."
+        },
+        {
+          "q": "Why has dosage generally fallen in recent decades?",
+          "options": [
+            "Sugar was banned",
+            "Warmer vintages give riper grapes that need less sugar to balance",
+            "Bottles became smaller",
+            "Consumers prefer sweeter wine"
+          ],
+          "answer": 1,
+          "why": "Riper grapes mean less sharp acidity, so less dosage is needed for balance."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "burgundy",
+    "pinot-noir",
+    "wines-long-road",
+    "start-here"
+  ],
+  "sources": [
+    {
+      "title": "Comité Champagne, The Champagne sector (2021 key figures)",
+      "url": "https://spotmedia.ro/wp-content/uploads/2021/10/filiere_champagne_en_2021.pdf"
+    },
+    {
+      "title": "Comité Champagne, 2025 global shipments press release",
+      "url": "https://www.winebusiness.com/content/file/2025-global-champagne-shipments-press-release-uk.pdf"
+    },
+    {
+      "title": "Wine Industry Advisor, U.S. Champagne shipments reach 26.4 million bottles in 2025",
+      "url": "https://wineindustryadvisor.com/2026/04/07/us-champagne-shipments-reach-26-4-million-bottles-in-2025/"
+    },
+    {
+      "title": "Champagne Education (Comité Champagne), Fiche élaboration du champagne",
+      "url": "https://champagne.education/sites/default/files/2024-05/Fiche-Elaboration-Champagne-FR.pdf"
+    },
+    {
+      "title": "Champagne Education, Understanding Champagne dosage",
+      "url": "https://www.champagne.education/en/understanding-champagne-dosage"
+    },
+    {
+      "title": "Pernod Ricard, Champagne terroir (crus and varieties)",
+      "url": "https://www.pernod-ricard.com/en/media/champagne-terroir"
+    },
+    {
+      "title": "UNESCO World Heritage: Champagne Hillsides, Houses and Cellars",
+      "url": "https://whc.unesco.org/en/list/1465/"
+    },
+    {
+      "title": "Wine Spectator, Madame Pommery",
+      "url": "https://www.winespectator.com/pages/madame-pommery"
+    },
+    {
+      "title": "LVMH, Veuve Clicquot celebrates 200 years of blended rosé",
+      "url": "https://www.lvmh.com/news-documents/news/veuve-clicquot-celebrates-200th-anniversary-of-blended-rose-champagne/"
+    },
+    {
+      "title": "Champagne Riots (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Champagne_Riots"
+    },
+    {
+      "title": "JSTOR Daily, Terroir terror: the 1911 Champagne riots",
+      "url": "https://daily.jstor.org/terroir-terror-the-1911-champagne-riots"
+    },
+    {
+      "title": "Lyndhurst Wine, Krug Clos d'Ambonnay vs Clos du Mesnil",
+      "url": "https://lyndhurstwine.com/blogs/the-champagne-diaries/krug-clos-dambonnay-vs-clos-du-mesnil"
+    },
+    {
+      "title": "INAO, Cahier des charges AOC Champagne",
+      "url": "https://www.inao.gouv.fr/"
+    },
+    {
+      "title": "Price check: Louis Bouillot Perle d'Ivoire (Wine On Sale)",
+      "url": "https://wineonsale.com/products/louis-bouillot-perle-divoire-blanc-de-blancs-brut-750-ml"
+    },
+    {
+      "title": "Price check: Moët & Chandon Impérial (Wooden Cork)",
+      "url": "https://woodencork.com/products/moet-chandon-imperial-brut"
+    },
+    {
+      "title": "Price check: Pierre Gimonnet Cuis 1er Cru (Champion Wine Cellars)",
+      "url": "https://championwinecellars.com/nv-pierre-gimmonet-cuis-1er-cru"
+    },
+    {
+      "title": "Price check: Pierre Péters Cuvée de Réserve (Houston Wine Merchant)",
+      "url": "https://houstonwines.com/wines/Pierre-Peters-Brut-Blanc-de-Blancs-Champagne-Cuvee-de-Reserve-w71946522g"
+    },
+    {
+      "title": "Price check: Charles Heidsieck Brut Réserve (Wooden Cork)",
+      "url": "https://woodencork.com/products/charles-heidsieck-brut-reserve"
+    },
+    {
+      "title": "Price check: Bollinger Special Cuvée (Total Wine)",
+      "url": "https://www.totalwine.com/wine/champagne-sparkling-wine/champagne/brut/bollinger-brut-special-cuvee/p/1475750"
+    },
+    {
+      "title": "Price check: Krug Grande Cuvée 173ème Édition (Millesima USA)",
+      "url": "https://www.millesima-usa.com/champagne-krug-grande-cuvee-173th-edition-0000-c-gb-1.html"
+    },
+    {
+      "title": "Price check: Paul Bara Brut Réserve Grand Cru (Hudson Lights)",
+      "url": "https://hudsonlights.linwood.wine/wines/Champagne-Paul-Bara-Grand-Cru-Reserve-Brut-NV-w8109183g6"
+    }
+  ]
+}

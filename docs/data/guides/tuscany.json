@@ -1,0 +1,806 @@
+{
+  "id": "tuscany",
+  "kind": "region",
+  "title": "Tuscany",
+  "subtitle": "Sangiovese and its many faces",
+  "tagline": "One grape, a few hundred hills and three centuries of rule-making and rule-breaking: learn to read Tuscany from the cheapest Chianti to a single-village Gran Selezione.",
+  "minutes": 13,
+  "deeper_minutes": 8,
+  "cover": "it-chianti-classico-panzano",
+  "countries": ["it"],
+  "intro": "Almost every great red in Tuscany is made from one grape, Sangiovese, and almost every argument in Tuscan wine is about what that grape should taste like. This path starts with the name everyone knows, Chianti, walks through the hill of Montalcino and the town of Montepulciano, takes a detour to the coast where a marquis planted Cabernet, and ends with villages, vintages and the bottles worth keeping.",
+  "chapters": [
+    {
+      "id": "sangiovese",
+      "part": "intro",
+      "title": "One grape, many faces",
+      "steps": [
+        {
+          "text": "[Sangiovese](grape-sangiovese) is the thread that runs through Tuscany. It is a grape of high acidity, firm tannin and thin skins, so its wines are rarely deep in colour: they are ruby or garnet, smelling of sour cherry, violets, dried herbs and, with age, leather and tobacco. Its name is often said to come from *sanguis Jovis*, the blood of Jupiter, though nobody has proved it.\n\nWhat makes Tuscany interesting is that the same grape changes with the hill. Locally it even changes its name: in Montalcino it is called Brunello, in Montepulciano Prugnolo Gentile, in the Maremma Morellino. Learn to taste the differences between those places and you have learned Tuscany.",
+          "map": {
+            "fly": "region-it-tuscany",
+            "highlight": ["it-chianti-classico", "it-brunello-di-montalcino", "it-vino-nobile-di-montepulciano", "it-morellino-di-scansano", "it-bolgheri"],
+            "label": "Tuscany's great names"
+          }
+        },
+        {
+          "text": "Look at the map from north to south. Between Florence and Siena lie the wooded hills of [Chianti Classico](it-chianti-classico), the historic heart. Around it, in a ring that reaches from Pisa to Arezzo, sprawls the much bigger [Chianti](it-chianti) zone. Forty kilometres south of Siena rises the lone hill of [Montalcino](it-brunello-di-montalcino), and east of it the hill town of [Montepulciano](it-vino-nobile-di-montepulciano). Further south still, the Maremma runs down to the sea around [Scansano](it-morellino-di-scansano).\n\nOut on the west coast is [Bolgheri](it-bolgheri), the exception: a strip of gravel where Cabernet Sauvignon and Merlot, not Sangiovese, make the famous wines. Keep that split in mind. Inland is Sangiovese country; the coast is where Tuscany borrowed from Bordeaux.",
+          "map": {
+            "fly": {"lon": 11.25, "lat": 43.15, "zoom": 7.8},
+            "highlight": ["it-chianti", "it-chianti-classico", "it-brunello-di-montalcino", "it-vino-nobile-di-montepulciano", "it-morellino-di-scansano", "it-bolgheri"],
+            "label": "Inland Sangiovese, coastal Cabernet"
+          }
+        },
+        {
+          "text": "Why does the hill matter so much? Sangiovese ripens late and unevenly, and it shows its soil plainly. The Chianti hills are a jumble of old seabed. [Galestro](soil-galestro), a flaky clay-schist that crumbles in the hand, drains fast and gives perfumed, taut wines. [Alberese](soil-alberese), a hard pale limestone, gives broader, more structured ones. Sandstone gives lighter, fragrant wines, and the marine sands and clays further south give rounder fruit.\n\nAltitude is the other dial. Chianti Classico vineyards climb from about 200 metres to a legal ceiling of 700, and every 100 metres buys cooler nights and fresher acidity. In hot summers the high sites now make the most balanced wines, which is why villages once thought too cold have become fashionable.",
+          "map": {
+            "fly": {"lon": 11.34, "lat": 43.47, "zoom": 9.6},
+            "highlight": ["it-chianti-classico"],
+            "label": "Chianti Classico's hills"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Chianti Rùfina from a good estate",
+          "why": "Your baseline Sangiovese. Rùfina is the coolest, highest corner of the Chianti zone, so the wine shows the grape's skeleton clearly: sour cherry, a bitter-orange edge, bright acidity and dusty tannin, with no oak make-up. Notice how the acidity, not the fruit, makes you want food.",
+          "price": "$18–28",
+          "try": ["Fattoria Selvapiana", "Frescobaldi Castello di Nipozzano"],
+          "place": "it-chianti-rufina"
+        }
+      ],
+      "deeper": ["grape-sangiovese", "soil-galestro", "soil-alberese", "term-galestro", "it-chianti-rufina", "region-it-tuscany"],
+      "check": [
+        {
+          "q": "In Montalcino, Sangiovese is locally called…",
+          "options": ["Morellino", "Brunello", "Prugnolo Gentile", "Sangioveto Grosso Nero"],
+          "answer": 1,
+          "why": "Brunello is Montalcino's name for its Sangiovese; Prugnolo Gentile is Montepulciano's and Morellino is Scansano's."
+        },
+        {
+          "q": "Which famous Tuscan zone is built on Cabernet and Merlot rather than Sangiovese?",
+          "options": ["Chianti Rùfina", "Montepulciano", "Bolgheri", "Montalcino"],
+          "answer": 2,
+          "why": "Bolgheri, on the coast, became famous for Bordeaux grapes after Sassicaia; the inland zones are Sangiovese country."
+        },
+        {
+          "q": "Galestro is…",
+          "options": ["A hard pale limestone", "A flaky, crumbly clay-schist that drains fast", "Volcanic ash", "River gravel"],
+          "answer": 1,
+          "why": "Galestro breaks into thin plates and drains quickly; alberese is the hard limestone it often alternates with."
+        }
+      ]
+    },
+    {
+      "id": "chianti",
+      "part": "intro",
+      "title": "Chianti and Chianti Classico: one name, two wines",
+      "steps": [
+        {
+          "text": "In 1716 the Grand Duke of Tuscany, Cosimo III de' Medici, did something new. A proclamation of 18 July set up a body to police the wine trade, and a second of [24 September 1716](event-chianti-1716) drew the borders of four zones: Chianti, [Carmignano](it-carmignano), [Pomino](it-pomino) and the [Val d'Arno di Sopra](it-val-d-arno-di-sopra). Wine from outside could not be sold under their names.\n\nIt is often called the first legal delimitation of a wine region, forty years before the Douro's. The Chianti of 1716 was only the hills between Florence and Siena, roughly today's Chianti Classico. Remember that, because the rest of the story is about how the name escaped those hills.",
+          "map": {
+            "fly": {"lon": 11.3, "lat": 43.6, "zoom": 8.4},
+            "highlight": ["it-chianti-classico", "it-carmignano", "it-pomino", "it-val-d-arno-di-sopra"],
+            "label": "Cosimo III's four zones of 1716"
+          }
+        },
+        {
+          "text": "Every bottle of Chianti Classico carries a black rooster, the *gallo nero*. It was the emblem of the medieval Lega del Chianti, the military league Florence formed to hold these hills, whose core was Castellina, Radda and Gaiole; Giorgio Vasari painted it on the ceiling of the Palazzo Vecchio. A local legend says the border with Siena was settled by a race between two riders who set off at cockcrow, and that Florence starved its black rooster so it crowed early.\n\nThe symbol became a brand in the 20th century. On 14 May 1924, 33 growers met in Radda to found a consortium to defend the wine of the original zone, and the rooster became its mark. Only Chianti Classico may use it.",
+          "map": {
+            "fly": "it-chianti-classico-radda",
+            "highlight": ["it-chianti-classico-radda", "it-chianti-classico-gaiole", "it-chianti-classico-castellina"],
+            "label": "The old Lega del Chianti: Radda, Gaiole, Castellina"
+          }
+        },
+        {
+          "text": "The recipe came from a castle. Baron Bettino Ricasoli, twice prime minister of the new Kingdom of Italy, spent years experimenting at [Brolio](site-it-castello-di-brolio) in Gaiole. In a letter of 26 September 1872 to Professor Cesare Studiati he wrote that Sangiovese gave the wine its aroma and vigour, Canaiolo softened its harshness, and Malvasia, a white grape, could be left out of wines meant for ageing.\n\nThat last clause was soon forgotten. Later rules turned his idea into an obligation to add white grapes, and merchants swapped Malvasia for cheaper Trebbiano. Ricasoli is often credited with a 70/20/10 formula, but his own letters do not support it. The castle is still the Ricasoli family's winery; by the family's own account they have held Brolio since the 12th century.",
+          "map": {
+            "fly": {"lon": 11.465, "lat": 43.408, "zoom": 13.2},
+            "highlight": ["site-it-castello-di-brolio", "it-chianti-classico-gaiole"],
+            "label": "Castello di Brolio"
+          }
+        },
+        {
+          "text": "In 1932 a decree redrew Chianti as seven zones around the original heart, which took the suffix *Classico*. The 1967 [DOC](term-doc) rules then froze a recipe that required 10 to 30% white grapes in a red wine. After the war the share-cropping farms emptied, yields soared, and Chianti became cheap wine in a straw-covered flask, the *fiasco*: charming on a checked tablecloth, ruinous for the name.\n\nThe climb back took decades. Chianti became a [DOCG](term-docg) in 1984, pure Sangiovese was allowed from 1995, Chianti Classico split off as its own DOCG in 1996, and white grapes were banned from it from the 2006 vintage. The big Chianti DOCG, about 13,600 hectares, now has eight subzones; new rules of 2026 added [Terre di Vinci](it-chianti-terre-di-vinci), a rosé, and a lower minimum of 60% Sangiovese.",
+          "map": {
+            "fly": "it-chianti",
+            "highlight": ["it-chianti-rufina", "it-chianti-colli-fiorentini", "it-chianti-colli-senesi", "it-chianti-colli-aretini", "it-chianti-colline-pisane", "it-chianti-montalbano", "it-chianti-montespertoli", "it-chianti-terre-di-vinci"],
+            "label": "Chianti's eight subzones"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Chianti Classico *annata* (the basic, unaged level)",
+          "why": "Put it next to your Rùfina. Classico must be at least 80% Sangiovese and is usually more; look for a fuller middle, violets and dried herbs, and a savoury, almost salty finish. The black rooster on the neck is your guarantee of the 1716 hills.",
+          "price": "$25–35",
+          "try": ["Fèlsina Berardenga", "Castello di Volpaia", "Badia a Coltibuono"],
+          "place": "it-chianti-classico"
+        }
+      ],
+      "deeper": ["event-chianti-1716", "it-chianti", "it-chianti-classico", "site-it-castello-di-brolio", "it-chianti-terre-di-vinci", "it-pomino", "term-governo"],
+      "check": [
+        {
+          "q": "What did Cosimo III's proclamation of 24 September 1716 do?",
+          "options": ["Created the DOCG category", "Defined the borders of four wine zones, including Chianti", "Banned white grapes from Chianti", "Founded the black rooster consortium"],
+          "answer": 1,
+          "why": "It delimited Chianti, Carmignano, Pomino and the Val d'Arno di Sopra; the consortium came in 1924 and DOCG in the 1980s."
+        },
+        {
+          "q": "What did Ricasoli's 1872 letter say about Malvasia?",
+          "options": ["It must make up 30% of the blend", "It could be left out of wines meant for ageing", "It should replace Canaiolo", "It was the source of Chianti's aroma"],
+          "answer": 1,
+          "why": "He saw Malvasia as useful only for wines drunk young; later rules turned white grapes into a requirement."
+        },
+        {
+          "q": "From which vintage were white grapes banned from Chianti Classico?",
+          "options": ["1967", "1984", "1996", "2006"],
+          "answer": 3,
+          "why": "Chianti Classico banned white grapes from the 2006 vintage, ten years after becoming its own DOCG."
+        }
+      ]
+    },
+    {
+      "id": "pyramid",
+      "part": "intro",
+      "title": "Annata, Riserva, Gran Selezione and the villages",
+      "steps": [
+        {
+          "text": "Chianti Classico is a three-step ladder, and the label tells you which step you are on. The plain wine, called *annata*, ages about a year and may be released from 1 October after the harvest year. [Riserva](term-riserva) needs 24 months, including three in bottle. [Gran Selezione](term-gran-selezione), created in 2014, needs 30 months and must come only from the estate's own vineyards.\n\nThe ladder is about time and selection more than oak. A Riserva is usually the best lots of a vintage; a Gran Selezione is often a single vineyard or the estate's finest parcels. Prices roughly double at each step, and so does the time the wine needs in your cellar before it opens up.",
+          "map": {
+            "fly": "it-chianti-classico",
+            "highlight": ["it-chianti-classico"],
+            "label": "Chianti Classico DOCG"
+          }
+        },
+        {
+          "text": "Gran Selezione is being tightened. From the 2027 vintage it must be at least 90% Sangiovese, and the rest may come only from native Tuscan grapes such as Canaiolo, Colorino and Ciliegiolo. Cabernet and Merlot, once the secret behind many glossy Chianti Classicos, will be out at the top of the pyramid.\n\nThe bigger change is geography. Producers voted in 2021, and the rules approved in 2023 let a Gran Selezione name its village: these are the 11 [UGAs](term-uga), *unità geografiche aggiuntive* or additional geographical units. Eight could be used straight away; Lamole, Montefioralle and Vagliagli, split from Greve and Castelnuovo Berardenga, join from January 2027. For the first time the law says that Radda and Castelnuovo Berardenga taste different.",
+          "map": {
+            "fly": "it-chianti-classico",
+            "highlight": ["it-chianti-classico-castellina", "it-chianti-classico-castelnuovo-berardenga", "it-chianti-classico-gaiole", "it-chianti-classico-greve", "it-chianti-classico-lamole", "it-chianti-classico-montefioralle", "it-chianti-classico-panzano", "it-chianti-classico-radda", "it-chianti-classico-san-casciano", "it-chianti-classico-san-donato-in-poggio", "it-chianti-classico-vagliagli"],
+            "label": "The 11 UGAs of Chianti Classico"
+          }
+        },
+        {
+          "text": "To see why the villages matter, stand below Panzano. The Conca d'Oro, the golden shell, is a south-facing amphitheatre of galestro and alberese that traps the sun. [Fontodi](site-it-fontodi-conca-doro), whose Flaccianello della Pieve is a reference for pure Sangiovese, farms the bowl alongside [Castello dei Rampolla](site-it-castello-dei-rampolla), and most of [Panzano](it-chianti-classico-panzano) is farmed organically.\n\nWines from here are dark-cherried and complete, with a firm, mineral frame. Swing north and east to the higher woods of Radda and Gaiole and the wines get paler and more nervy; drop south to Castelnuovo Berardenga and they get riper and broader. That spread, from one consortium's map, is what the UGAs are trying to put on the label.",
+          "map": {
+            "fly": {"lon": 11.306, "lat": 43.523, "zoom": 13.4},
+            "highlight": ["it-chianti-classico-panzano", "site-it-fontodi-conca-doro", "site-it-castello-dei-rampolla"],
+            "label": "Panzano's Conca d'Oro",
+            "pitch": 60,
+            "bearing": 0,
+            "terrain": true
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Chianti Classico Riserva",
+          "why": "Taste it beside the annata from the same estate if you can. The extra year in wood and bottle adds dried cherry, tobacco and a longer, finer finish; the acidity is still there, but it now carries more.",
+          "price": "$35–45",
+          "try": ["Fèlsina Berardenga Riserva", "Castello di Volpaia Riserva"],
+          "place": "it-chianti-classico"
+        },
+        {
+          "wine": "Chianti Classico Gran Selezione",
+          "why": "The top step. Look on the label for a UGA name; if it says Gaiole or Castelnuovo Berardenga, you can already guess whether to expect tension or ripeness. Give it a decanter and an hour.",
+          "price": "$70–115",
+          "try": ["Castello di Ama San Lorenzo (Gaiole)", "Fontodi Vigna del Sorbo (Panzano)"],
+          "place": "it-chianti-classico-gaiole"
+        }
+      ],
+      "deeper": ["term-gran-selezione", "term-uga", "term-riserva", "it-chianti-classico-panzano", "site-it-fontodi-conca-doro", "it-chianti-classico-lamole", "it-chianti-classico-vagliagli"],
+      "check": [
+        {
+          "q": "Which Chianti Classico tier must come only from the estate's own vineyards and age at least 30 months?",
+          "options": ["Annata", "Riserva", "Gran Selezione", "Superiore"],
+          "answer": 2,
+          "why": "Gran Selezione, created in 2014, requires estate fruit and 30 months; Riserva needs 24 months."
+        },
+        {
+          "q": "From the 2027 vintage, a Gran Selezione must be…",
+          "options": ["100% Sangiovese", "At least 90% Sangiovese, the rest native grapes only", "At least 80% Sangiovese with Cabernet allowed", "A blend with 10% white grapes"],
+          "answer": 1,
+          "why": "The reform raises the minimum to 90% and keeps international grapes out of the top tier."
+        },
+        {
+          "q": "How many UGAs (village units) does Chianti Classico have?",
+          "options": ["7", "8", "11", "12"],
+          "answer": 2,
+          "why": "There are 11 UGAs; eight were usable from 2023 and Lamole, Montefioralle and Vagliagli join from 2027. Twelve is the number of Montepulciano's Pievi."
+        }
+      ]
+    },
+    {
+      "id": "montalcino",
+      "part": "intro",
+      "title": "Brunello: a hill and a family",
+      "steps": [
+        {
+          "text": "Forty kilometres south of Siena, the medieval town of Montalcino sits on a hill bounded by the Orcia, Asso and Ombrone rivers, with the extinct volcano of Monte Amiata to the south-east shielding it from storms. Here Sangiovese is called Brunello, after the dark, brownish skins of the local vines, and here it is made alone: [Brunello di Montalcino](it-brunello-di-montalcino) must be 100% Sangiovese.\n\nThe story starts at the [Greppo](site-it-biondi-santi-tenuta-greppo). Clemente Santi was showing a 'Brunello' by the 1860s, and his grandson Ferruccio Biondi-Santi bottled pure Sangiovese built for long ageing from the 1888 vintage. Other families made it too, but the Greppo's old Riservas set the template: a wine meant to last decades.",
+          "map": {
+            "fly": "it-brunello-di-montalcino",
+            "highlight": ["it-brunello-di-montalcino", "site-it-biondi-santi-tenuta-greppo"],
+            "label": "Brunello di Montalcino"
+          }
+        },
+        {
+          "text": "Now tilt the map. The hill is not one terroir but several. The northern flank below the town, around [Montosoli](site-it-montosoli) and Canalicchio, is cooler and richer in galestro, and gives the most perfumed, finely drawn Brunello, red-fruited and long. The slopes here catch cooler air from the north and ripen later.\n\nThis matters on the label because Brunello has no official subzones. A bottle says only 'Brunello di Montalcino', so nerds learn the hamlets: Montosoli and Canalicchio in the north, Torrenieri to the north-east, Castelnuovo dell'Abate in the south-east, Sant'Angelo in Colle and Tavernelle in the south-west, Camigliano and Castelgiocondo in the west.",
+          "map": {
+            "fly": {"lon": 11.487, "lat": 43.095, "zoom": 12.6},
+            "highlight": ["site-it-montosoli", "site-it-biondi-santi-tenuta-greppo", "site-it-cerbaiona"],
+            "label": "Montalcino's cool north side",
+            "pitch": 60,
+            "bearing": 180,
+            "terrain": true
+          }
+        },
+        {
+          "text": "Swing round to the south and everything warms up. Below Sant'Angelo in Colle and Castelnuovo dell'Abate the slopes face the sea air and Amiata, the soils carry more clay and sand, and harvest comes earlier. Wines from estates such as [Il Poggione](site-it-il-poggione), [Lisini](site-it-lisini) and [Poggio di Sotto](site-it-poggio-di-sotto) are rounder and darker, with more flesh around the same firm frame.\n\nNeither side is better: in a hot year the north wins on freshness, in a cool year the south wins on ripeness. The Romanesque [abbey of Sant'Antimo](site-it-abbazia-di-santantimo), in the valley below Castelnuovo, is a reminder that monks farmed here centuries before anyone wrote 'Brunello' on a label.",
+          "map": {
+            "fly": {"lon": 11.485, "lat": 42.97, "zoom": 12.3},
+            "highlight": ["site-it-il-poggione", "site-it-lisini", "site-it-poggio-di-sotto", "site-it-abbazia-di-santantimo"],
+            "label": "Montalcino's warm south side",
+            "pitch": 60,
+            "bearing": 0,
+            "terrain": true
+          }
+        },
+        {
+          "text": "Brunello is a patient wine by law. It must spend at least two years in wood and cannot be sold until 1 January of the fifth year after the harvest (the sixth for Riserva), so the 2021 vintage reached shops only in 2026. Brunello was one of Italy's first four DOCGs in 1980; today about 2,100 hectares are registered.\n\nThat wait is why [Rosso di Montalcino](it-rosso-di-montalcino) exists. Same zone, same grape, but it can be released from 1 September after the harvest with no minimum time in wood. In 2024 the consortium moved 352 hectares of existing vineyard to Rosso, taking it to about 872 hectares. It is the cheapest way to taste Montalcino, and the best estates treat it seriously.",
+          "map": {
+            "fly": "it-rosso-di-montalcino",
+            "highlight": ["it-rosso-di-montalcino"],
+            "label": "Rosso di Montalcino"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Rosso di Montalcino",
+          "why": "Brunello's character without the wait: bright cherry, blood orange and a firm, savoury finish. Compare it with your Chianti Classico and notice the extra weight and warmth that Montalcino's southern sun gives the same grape.",
+          "price": "$25–35",
+          "try": ["Il Poggione", "Col d'Orcia", "Baricci"],
+          "place": "it-rosso-di-montalcino"
+        },
+        {
+          "wine": "Brunello di Montalcino from a classic estate",
+          "why": "The grown-up version: brick at the rim even when young, cherry, leather, dried herbs and tannin that needs years. Drink a recent vintage with a steak, or keep it ten years and watch it turn to tobacco and earth.",
+          "price": "$60–90",
+          "try": ["Il Poggione", "Col d'Orcia", "Canalicchio di Sopra"],
+          "place": "it-brunello-di-montalcino"
+        }
+      ],
+      "deeper": ["it-brunello-di-montalcino", "it-rosso-di-montalcino", "site-it-biondi-santi-tenuta-greppo", "site-it-montosoli", "site-it-abbazia-di-santantimo", "it-sant-antimo", "it-moscadello-di-montalcino"],
+      "check": [
+        {
+          "q": "When can a Brunello di Montalcino (not Riserva) first be sold?",
+          "options": ["1 September after the harvest", "After two years", "1 January of the fifth year after the harvest", "After ten years"],
+          "answer": 2,
+          "why": "Brunello is released from 1 January of the fifth year (the 2021 vintage in 2026); Riserva waits a year longer."
+        },
+        {
+          "q": "Which side of the Montalcino hill usually gives the most perfumed, finely drawn wines?",
+          "options": ["The cooler north, around Montosoli", "The warm south, around Sant'Angelo in Colle", "The flat valley floor", "The coast"],
+          "answer": 0,
+          "why": "The northern slopes are cooler with more galestro; the south is warmer, with riper, rounder wines."
+        },
+        {
+          "q": "Which family made Brunello famous from the Greppo estate?",
+          "options": ["Antinori", "Frescobaldi", "Biondi-Santi", "Ricasoli"],
+          "answer": 2,
+          "why": "Clemente Santi and his grandson Ferruccio Biondi-Santi created the long-lived Brunello style at the Greppo."
+        }
+      ]
+    },
+    {
+      "id": "montepulciano",
+      "part": "intro",
+      "title": "Vino Nobile and the twelve Pievi",
+      "steps": [
+        {
+          "text": "Twenty-five kilometres east of Montalcino, the Renaissance town of Montepulciano stands on a ridge between the Val d'Orcia and the Val di Chiana. Do not confuse it with Montepulciano d'Abruzzo, which is a grape grown far away on the Adriatic; here Montepulciano is a place, and its wine is [Vino Nobile di Montepulciano](it-vino-nobile-di-montepulciano).\n\nThe poet Francesco Redi, in 1685, called it the king of all wines, and it was one of the first four DOCGs with Brunello, Barolo and Barbaresco. The grape is Sangiovese, locally Prugnolo Gentile, at least 70% of the blend. On the town's marine sands and clays it gives a softer, more aromatic wine than Montalcino's: plum, cherry, earth and spice.",
+          "map": {
+            "fly": "it-vino-nobile-di-montepulciano",
+            "highlight": ["it-vino-nobile-di-montepulciano", "it-brunello-di-montalcino"],
+            "label": "Montepulciano and its neighbour Montalcino"
+          }
+        },
+        {
+          "text": "Montepulciano has done what Montalcino has not: it has drawn its villages on the map. The new top tier, *Vino Nobile di Montepulciano Pieve*, is named after the 12 ancient parish churches (*pievi*) of the territory, whose boundaries were drawn from old land registers, landform and geology. Approved nationally in 2024, the first wines, from the 2021 vintage, went on sale in February 2025.\n\nA Pieve wine must be at least 85% Sangiovese with only native partners, from the bottler's own vines at least 15 years old inside a single Pieve. Look for [Cervognano](it-vino-nobile-di-montepulciano-cervognano), south-east toward the Chiana, which had the largest group of first releases, or [Valiano](it-vino-nobile-di-montepulciano-valiano), an island apart east of the valley.",
+          "map": {
+            "fly": {"lon": 11.83, "lat": 43.105, "zoom": 10.9},
+            "highlight": ["it-vino-nobile-di-montepulciano-ascianello", "it-vino-nobile-di-montepulciano-badia", "it-vino-nobile-di-montepulciano-caggiole", "it-vino-nobile-di-montepulciano-cerliana", "it-vino-nobile-di-montepulciano-cervognano", "it-vino-nobile-di-montepulciano-gracciano", "it-vino-nobile-di-montepulciano-le-grazie", "it-vino-nobile-di-montepulciano-san-biagio", "it-vino-nobile-di-montepulciano-sant-albino", "it-vino-nobile-di-montepulciano-sant-ilario", "it-vino-nobile-di-montepulciano-valardegna", "it-vino-nobile-di-montepulciano-valiano"],
+            "label": "The 12 Pievi of Vino Nobile"
+          }
+        },
+        {
+          "text": "Zoom in on the town itself. Below its walls to the west stands the [Tempio di San Biagio](site-it-tempio-di-san-biagio), Antonio da Sangallo the Elder's domed Renaissance church; the [San Biagio](it-vino-nobile-di-montepulciano-san-biagio) Pieve takes its name from it. Under the main street, cellars cut into the soft rock hold casks in vaults that date from the Renaissance; [Contucci](site-it-cantine-contucci) still ages wine there.\n\nVino Nobile needs two years of ageing before release (three for Riserva). Its younger sibling, [Rosso di Montepulciano](it-rosso-di-montepulciano), is the everyday wine, and the town also makes one of Tuscany's most famous Vin Santos.",
+          "map": {
+            "fly": {"lon": 11.778, "lat": 43.088, "zoom": 14.6},
+            "highlight": ["site-it-tempio-di-san-biagio", "site-it-cantine-contucci", "it-vino-nobile-di-montepulciano-san-biagio"],
+            "label": "San Biagio and the town cellars",
+            "base": "satellite"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Vino Nobile di Montepulciano",
+          "why": "Place it between your Chianti Classico and your Brunello. It is softer in acid than Chianti and less powerful than Brunello, with plum, dark cherry and a sandy, earthy warmth. Montepulciano is often the best value of the three big Sangiovese names.",
+          "price": "$25–42",
+          "try": ["Poderi Boscarelli", "Avignonesi", "Poliziano"],
+          "place": "it-vino-nobile-di-montepulciano"
+        }
+      ],
+      "deeper": ["it-vino-nobile-di-montepulciano", "it-rosso-di-montepulciano", "it-vin-santo-di-montepulciano", "site-it-tempio-di-san-biagio", "site-it-poderi-boscarelli", "site-it-avignonesi-le-capezzine", "it-vino-nobile-di-montepulciano-cervognano"],
+      "check": [
+        {
+          "q": "Vino Nobile di Montepulciano is made mainly from…",
+          "options": ["The Montepulciano grape", "Sangiovese (Prugnolo Gentile)", "Canaiolo", "Merlot"],
+          "answer": 1,
+          "why": "Here Montepulciano is the town; the grape is Sangiovese, called Prugnolo Gentile locally. The Montepulciano grape belongs to Abruzzo."
+        },
+        {
+          "q": "What are the Pievi?",
+          "options": ["Riserva bottlings aged in the town cellars", "12 village units named after ancient parish churches", "Single vineyards owned by the church", "A type of Vin Santo"],
+          "answer": 1,
+          "why": "The 12 Pievi are additional geographical units named after historic parish churches; a Pieve wine must come from one of them."
+        },
+        {
+          "q": "From which vintage were the first Pieve wines made?",
+          "options": ["2016", "2019", "2021", "2025"],
+          "answer": 2,
+          "why": "The first Pieve wines were from the 2021 vintage, released in February 2025."
+        }
+      ]
+    },
+    {
+      "id": "coast",
+      "part": "intro",
+      "title": "The coast: Super Tuscans and Bolgheri",
+      "steps": [
+        {
+          "text": "By the 1960s the Chianti rules were a cage, and the boldest producers simply walked out. If you broke the rules you could only call your wine *vino da tavola*, table wine, the lowest category in Italy. Antinori's [Tignanello](site-it-tenuta-tignanello-antinori), from the 1971 vintage a Sangiovese aged in French barriques that soon took in Cabernet, was one such wine; Montevertine's pure-Sangiovese Le Pergole Torte (1977) was another.\n\nThey sold for more than any Chianti, and English-speaking writers called them [Super Tuscans](term-super-tuscan). The law eventually followed: the IGT Toscana category now gives them a legal home. But the most famous rebel of all came from the coast, from a marquis who had never meant to sell his wine.",
+          "map": {
+            "fly": {"lon": 11.0, "lat": 43.4, "zoom": 8.2},
+            "highlight": ["site-it-tenuta-tignanello-antinori", "site-it-montevertine", "site-it-tenuta-san-guido-sassicaia"],
+            "label": "The first Super Tuscans"
+          }
+        },
+        {
+          "text": "In the early 1940s Marchese Mario Incisa della Rocchetta planted Cabernet Sauvignon, from cuttings from the Salviati estate near Pisa, at Castiglioncello above Bolgheri, to make a Bordeaux-style wine for his family. They drank it for two decades. The 1968 vintage was the first sold, in 1971, and in a 1978 Decanter tasting in London the 1972 [Sassicaia](it-bolgheri-sassicaia) came first among 33 Cabernet-based wines from 11 countries.\n\nThe name means 'stony place', and the satellite shows why: alluvial fans of gravel washed down from the hills, draining like the Médoc. Drive the five-kilometre [cypress avenue](site-it-viale-dei-cipressi) from San Guido to Bolgheri village and you pass the vines.",
+          "map": {
+            "fly": {"lon": 10.603, "lat": 43.229, "zoom": 14.6},
+            "highlight": ["site-it-tenuta-san-guido-sassicaia", "site-it-viale-dei-cipressi", "it-bolgheri-sassicaia"],
+            "label": "Tenuta San Guido and the cypress avenue",
+            "base": "satellite"
+          }
+        },
+        {
+          "text": "Sassicaia's success turned a cattle coast into a wine region. Lodovico Antinori planted [Ornellaia](site-it-tenuta-dellornellaia) from 1981 and made its first vintage in 1985, and estates such as [Grattamacco](site-it-grattamacco), [Le Macchiole](site-it-le-macchiole) and Antinori's Guado al Tasso grew up around it. Until 1994 the reds had no DOC at all. That year [Bolgheri](it-bolgheri) Rosso and Superiore were created around Cabernet Sauvignon, Cabernet Franc and Merlot, with Sassicaia as a subzone; in 2013 Bolgheri Sassicaia became its own DOC, the first in Italy held by a single estate.\n\nLook at the amphitheatre from the sea: gravel near the coast, clay and sand higher up toward the hills, about 1,379 hectares in all. The wines are riper and plusher than Bordeaux, with blackcurrant, cedar and Mediterranean scrub.",
+          "map": {
+            "fly": {"lon": 10.585, "lat": 43.19, "zoom": 11.6},
+            "highlight": ["it-bolgheri", "it-bolgheri-sassicaia", "site-it-tenuta-dellornellaia", "site-it-le-macchiole", "site-it-grattamacco"],
+            "label": "Bolgheri's amphitheatre",
+            "pitch": 58,
+            "bearing": 90,
+            "terrain": true
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bolgheri Rosso",
+          "why": "Your first coastal Tuscan. Notice how different it is from everything else on this path: blackcurrant instead of sour cherry, softer acidity, rounder tannin and a whiff of rosemary and scrub. Same region, different grapes, different world.",
+          "price": "$35–50",
+          "try": ["Guado al Tasso Il Bruciato", "Le Macchiole Bolgheri Rosso", "Grattamacco Bolgheri Rosso"],
+          "place": "it-bolgheri"
+        },
+        {
+          "wine": "Sassicaia (splurge)",
+          "why": "The wine that started it: lean, cedar-scented and tense when young, closer to a classic Médoc than to its plush neighbours. It needs 15 years; a half-bottle of an older vintage at a restaurant is the gentlest way in.",
+          "price": "$250–350",
+          "try": ["Tenuta San Guido"],
+          "place": "it-bolgheri-sassicaia"
+        }
+      ],
+      "deeper": ["event-sassicaia-tignanello", "term-super-tuscan", "term-igt", "it-bolgheri", "it-bolgheri-sassicaia", "site-it-tenuta-san-guido-sassicaia", "it-suvereto", "grape-cabernet-franc"],
+      "check": [
+        {
+          "q": "Why were the first Super Tuscans labelled vino da tavola?",
+          "options": ["They were cheap", "They broke the DOC rules, so table wine was the only category open to them", "They came from outside Tuscany", "They were made from white grapes"],
+          "answer": 1,
+          "why": "Wines outside the DOC rules (for example with Cabernet, or without white grapes in Chianti) could only be table wine until IGT and new DOCs gave them a home."
+        },
+        {
+          "q": "What does Sassicaia mean?",
+          "options": ["Cypress avenue", "Stony place", "Little rascal", "Golden shell"],
+          "answer": 1,
+          "why": "Sassicaia is named for its stones; the gravel fans of Bolgheri drain like the Médoc."
+        },
+        {
+          "q": "When did Bolgheri Sassicaia become a DOC of its own?",
+          "options": ["1968", "1978", "1994", "2013"],
+          "answer": 3,
+          "why": "It was a subzone of Bolgheri from 1994 and became an autonomous DOC in 2013, the first in Italy for a single estate."
+        }
+      ]
+    },
+    {
+      "id": "maremma",
+      "part": "intro",
+      "title": "Maremma, Vernaccia and Vin Santo",
+      "steps": [
+        {
+          "text": "The Maremma is Tuscany's deep south, the province of Grosseto, malarial marsh until it was drained in the 19th and 20th centuries. Its wines are warmer and earlier-ripening than Chianti. [Morellino di Scansano](it-morellino-di-scansano), around the hill village of Scansano about 20 kilometres from the sea, is at least 85% Sangiovese and tastes of plum and red cherry with gentle tannin, mostly for drinking young.\n\nInland, on the western slopes of Monte Amiata just across the Orcia from Montalcino, [Montecucco](it-montecucco-sangiovese) makes a Brunello-like Sangiovese at a fraction of the price, much of it organic. The umbrella [Maremma Toscana](it-maremma-toscana) DOC covers the whole province, from Vermentino to Cabernet.",
+          "map": {
+            "fly": {"lon": 11.3, "lat": 42.78, "zoom": 9.2},
+            "highlight": ["it-morellino-di-scansano", "it-montecucco-sangiovese", "it-brunello-di-montalcino", "site-it-fattoria-le-pupille"],
+            "label": "Morellino and Montecucco"
+          }
+        },
+        {
+          "text": "Tuscany is a red-wine region, but its oldest famous wine is white. [Vernaccia di San Gimignano](it-vernaccia-di-san-gimignano), grown around the town of medieval towers, was the first wine in Italy to receive DOC status, in 1966, and it is Tuscany's only white DOCG. Dante put Pope Martin IV in Purgatory for gorging on eels drowned in Vernaccia.\n\nThe [grape](grape-vernaccia-di-san-gimignano) grows on yellow marine sands full of fossil shells, and good Vernaccia is waxy, almond-scented and slightly bitter at the finish, with a saline edge. Producers such as [Montenidoli](site-it-montenidoli) showed decades ago that it can age.",
+          "map": {
+            "fly": {"lon": 11.035, "lat": 43.46, "zoom": 12.2},
+            "highlight": ["it-vernaccia-di-san-gimignano", "site-it-san-gimignano", "site-it-montenidoli"],
+            "label": "San Gimignano"
+          }
+        },
+        {
+          "text": "Every Tuscan farm once made [Vin Santo](term-vin-santo), 'holy wine'. White grapes, usually Trebbiano and Malvasia, are dried on straw mats or hung from rafters until winter, then pressed and sealed into small barrels called *caratelli*, often with a little of the old sediment, the *madre*. The barrels sit under the roof, not in a cool cellar, so the wine lives through hot summers and cold winters for years.\n\n[Vin Santo del Chianti Classico](it-vin-santo-del-chianti-classico) must age at least three years. The good ones are amber, nutty and tangy rather than simply sweet: dried apricot, walnut, orange peel. The cheap almond-biscuit dunker in tourist shops is a different thing.",
+          "map": {
+            "fly": "it-vin-santo-del-chianti-classico",
+            "highlight": ["it-vin-santo-del-chianti-classico", "it-vin-santo-del-chianti", "it-vin-santo-di-montepulciano"],
+            "label": "Tuscany's Vin Santo zones"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Morellino di Scansano",
+          "why": "The sunny, easy face of Sangiovese: ripe plum, soft tannin, ready now. Put it beside your Rùfina from chapter one and taste how much warmth and sea air change the grape.",
+          "price": "$18–22",
+          "try": ["Fattoria Le Pupille", "Moris Farms"],
+          "place": "it-morellino-di-scansano"
+        },
+        {
+          "wine": "Vernaccia di San Gimignano",
+          "why": "Almond, citrus pith and a salty, slightly bitter finish. Serve it cool, not ice cold, with fried fish or white beans; the bitterness is the point.",
+          "price": "$18–32",
+          "try": ["Montenidoli", "Panizzi", "Il Colombaio di Santa Chiara"],
+          "place": "it-vernaccia-di-san-gimignano"
+        },
+        {
+          "wine": "Vin Santo del Chianti Classico (375 ml)",
+          "why": "Taste the oxidative, attic-aged character: walnut, dried apricot and a tangy finish that keeps the sweetness in check. A small glass is enough.",
+          "price": "$50–100",
+          "try": ["Badia a Coltibuono", "Isole e Olena"],
+          "place": "it-vin-santo-del-chianti-classico"
+        }
+      ],
+      "deeper": ["it-maremma-toscana", "it-montecucco-sangiovese", "it-vernaccia-di-san-gimignano", "grape-vernaccia-di-san-gimignano", "term-vin-santo", "it-carmignano", "it-suvereto"],
+      "check": [
+        {
+          "q": "Which was the first wine in Italy to receive DOC status, in 1966?",
+          "options": ["Chianti Classico", "Brunello di Montalcino", "Vernaccia di San Gimignano", "Vino Nobile di Montepulciano"],
+          "answer": 2,
+          "why": "Vernaccia di San Gimignano was the first DOC (1966); it became a DOCG in 1993."
+        },
+        {
+          "q": "Why are Vin Santo barrels traditionally kept under the roof?",
+          "options": ["To keep them cold", "So the wine lives through hot summers and cold winters, which drives its slow oxidative development", "To hide them from tax collectors", "To dry the grapes"],
+          "answer": 1,
+          "why": "The temperature swings of the attic shape Vin Santo's nutty, oxidative style over years in sealed caratelli."
+        },
+        {
+          "q": "Montecucco lies…",
+          "options": ["On the Bolgheri coast", "Just across the Orcia from Montalcino, on Monte Amiata's western slopes", "Inside Chianti Classico", "Next to San Gimignano"],
+          "answer": 1,
+          "why": "Montecucco sits on Amiata's western slopes next to Montalcino, which is why its Sangiovese can resemble Brunello."
+        }
+      ]
+    },
+    {
+      "id": "ugas",
+      "part": "deeper",
+      "title": "Going deeper: Chianti Classico village by village",
+      "steps": [
+        {
+          "text": "Start high. [Radda](it-chianti-classico-radda), the old capital of the Lega del Chianti, has vineyards from roughly 350 to 650 metres among oak woods, on galestro, alberese and sandstone. Its wines are pale, perfumed and nervy, sometimes austere in youth, with red fruit, orange peel and a long saline line; warmer summers have made it one of the most sought-after names. [Montevertine](site-it-montevertine), [Castello di Volpaia](site-it-castello-di-volpaia) and [Monteraponi](site-it-monteraponi) are references.\n\nNext door, [Gaiole](it-chianti-classico-gaiole) spreads across the eastern Monti del Chianti, a commune of castles and abbeys: Brolio, [Badia a Coltibuono](site-it-badia-a-coltibuono), [Castello di Ama](site-it-castello-di-ama). Firm and structured in the south, fragrant and lean in the north.",
+          "map": {
+            "fly": {"lon": 11.395, "lat": 43.455, "zoom": 11.8},
+            "highlight": ["it-chianti-classico-radda", "it-chianti-classico-gaiole", "site-it-montevertine", "site-it-castello-di-volpaia", "site-it-monteraponi", "site-it-castello-di-ama", "site-it-badia-a-coltibuono"],
+            "label": "Radda and Gaiole",
+            "pitch": 55,
+            "bearing": 20,
+            "terrain": true
+          }
+        },
+        {
+          "text": "Move west to [Castellina](it-chianti-classico-castellina), on the ridge between the Pesa and Elsa valleys. Its soils are the most varied of the zone, alberese and galestro to the east, sands and clays on the western slopes, and the wines sit in the middle: balanced and fruity, between Radda's tension and the ripeness of the south. The Mazzei family has owned [Fonterutoli](site-it-castello-di-fonterutoli) since 1435.\n\nFurther north, [San Casciano](it-chianti-classico-san-casciano) is the gentle gateway toward Florence, lower and milder, on sands, clays and river pebbles; its wines are round and early to charm. [San Donato in Poggio](it-chianti-classico-san-donato-in-poggio), home of [Isole e Olena](site-it-isole-e-olena), gives firm, medium-bodied Sangiovese from the ridge between the Pesa and Elsa.",
+          "map": {
+            "fly": {"lon": 11.24, "lat": 43.52, "zoom": 10.8},
+            "highlight": ["it-chianti-classico-castellina", "it-chianti-classico-san-casciano", "it-chianti-classico-san-donato-in-poggio", "site-it-castello-di-fonterutoli", "site-it-isole-e-olena", "site-it-tenuta-tignanello-antinori"],
+            "label": "Castellina, San Casciano, San Donato"
+          }
+        },
+        {
+          "text": "Greve commune is now four units. [Panzano](it-chianti-classico-panzano), with the Conca d'Oro, gives the most complete wines. [Lamole](it-chianti-classico-lamole), the smallest and highest, is a hamlet of dry-stone terraces at roughly 450 to 650 metres on poor sandstone (*macigno*), giving pale, floral, high-toned Sangiovese, almost a mountain wine. [Montefioralle](it-chianti-classico-montefioralle), around a walled village on the hill west of Greve, gives fragrant mid-weight wines, and the rest is [Greve](it-chianti-classico-greve) itself, rising to the high Ruffoli ridge where [Querciabella](site-it-querciabella-ruffoli) farms biodynamically.\n\nThe lesson: one commune can hold four styles, because altitude and rock change within a few kilometres.",
+          "map": {
+            "fly": {"lon": 11.33, "lat": 43.565, "zoom": 11.9},
+            "highlight": ["it-chianti-classico-panzano", "it-chianti-classico-lamole", "it-chianti-classico-montefioralle", "it-chianti-classico-greve", "site-it-querciabella-ruffoli", "site-it-fontodi-conca-doro"],
+            "label": "Greve's four units",
+            "pitch": 55,
+            "bearing": 20,
+            "terrain": true
+          }
+        },
+        {
+          "text": "End in the south. [Castelnuovo Berardenga](it-chianti-classico-castelnuovo-berardenga) is the warmest and lowest UGA, running down toward the clay hills of the Crete Senesi east of Siena. More clay, marine sands and alberese give the ripest, fullest Sangiovese of the zone, dark-fruited and broad. [Fèlsina](site-it-felsina), which put 'Berardenga' on its labels for decades, [Castell'in Villa](site-it-castellin-villa) and [San Giusto a Rentennano](site-it-san-giusto-a-rentennano) (just over the Gaiole line) are here.\n\nIts western part, [Vagliagli](it-chianti-classico-vagliagli), sits higher and cooler, on alberese and sandstone, with more tension and perfume. It will appear on labels from 2027.",
+          "map": {
+            "fly": {"lon": 11.45, "lat": 43.385, "zoom": 11.2},
+            "highlight": ["it-chianti-classico-castelnuovo-berardenga", "it-chianti-classico-vagliagli", "site-it-felsina", "site-it-castellin-villa", "site-it-san-giusto-a-rentennano"],
+            "label": "Castelnuovo Berardenga and Vagliagli"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A three-village flight of Chianti Classico",
+          "why": "Buy three annatas of the same vintage: one from Radda, one from Panzano, one from Castelnuovo Berardenga. Taste from north-east to south and you will feel the shift from pale and taut to dark and generous. This is the UGA argument in three glasses.",
+          "price": "$28–50 each",
+          "try": ["Monteraponi (Radda)", "Fontodi (Panzano)", "Fèlsina Berardenga (Castelnuovo Berardenga)"],
+          "place": "it-chianti-classico-radda"
+        }
+      ],
+      "deeper": ["it-chianti-classico-radda", "it-chianti-classico-lamole", "it-chianti-classico-castelnuovo-berardenga", "it-chianti-classico-san-casciano", "it-chianti-classico-gaiole", "site-it-montevertine", "site-it-felsina", "term-uga"],
+      "check": [
+        {
+          "q": "Which UGA is the smallest and highest, on sandstone terraces?",
+          "options": ["San Casciano", "Lamole", "Castelnuovo Berardenga", "Castellina"],
+          "answer": 1,
+          "why": "Lamole, high above Greve, has terraces at about 450 to 650 metres on macigno sandstone."
+        },
+        {
+          "q": "Which UGA usually gives the ripest, fullest Chianti Classico?",
+          "options": ["Radda", "Lamole", "Castelnuovo Berardenga", "Gaiole"],
+          "answer": 2,
+          "why": "Castelnuovo Berardenga is the southernmost, lowest and warmest unit, toward the Crete Senesi."
+        },
+        {
+          "q": "Which three UGAs can be used on labels only from January 2027?",
+          "options": ["Radda, Gaiole, Castellina", "Lamole, Montefioralle, Vagliagli", "Panzano, Greve, San Casciano", "San Donato, Castellina, Panzano"],
+          "answer": 1,
+          "why": "Lamole and Montefioralle are split from Greve and Vagliagli from Castelnuovo Berardenga, effective from January 2027."
+        }
+      ]
+    },
+    {
+      "id": "brunellopoli",
+      "part": "deeper",
+      "title": "Going deeper: Montalcino's boom, scandal and styles",
+      "steps": [
+        {
+          "text": "For most of the 20th century Montalcino was poor and almost forgotten; in 1960 there were barely a dozen bottlers. The DOCG of 1980 and the arrival of the American-owned [Castello Banfi](site-it-castello-banfi) and a wave of new growers in the 1970s and 1980s turned it into a boom town, and a strong American market made Brunello Italy's most famous Sangiovese.\n\nThe boom brought pressure. Buyers wanted dark, soft, oaky wine, and Sangiovese, pale and tannic by nature, does not give that easily. In 2007 the Siena prosecutor quietly sent the financial police to check whether some estates were blending in other grapes.",
+          "map": {
+            "fly": {"lon": 11.45, "lat": 43.02, "zoom": 11.4},
+            "highlight": ["it-brunello-di-montalcino", "site-it-castello-banfi", "site-it-col-dorcia"],
+            "label": "Montalcino's big estates"
+          }
+        },
+        {
+          "text": "The story broke in March 2008 and the press called it *Brunellopoli*. Investigators said some Brunello and Rosso had been blended with grapes other than Sangiovese. About 6.5 million litres of Brunello were impounded, and big names, among them Argiano, Frescobaldi's Castelgiocondo, Antinori's Pian delle Vigne and Banfi, were reported to have had wine seized. In May 2008 the United States said it would block Brunello without lab proof of 100% Sangiovese.\n\nIn October 2008 producers voted to keep the 100% rule, with only 4% for change. Most of the accused settled with plea bargains and small fines, and part of the impounded wine was sold as IGT Toscana. The result was a firmer commitment to pure Sangiovese.",
+          "map": {
+            "fly": "it-brunello-di-montalcino",
+            "highlight": ["it-brunello-di-montalcino", "it-rosso-di-montalcino"],
+            "label": "Brunellopoli, 2008"
+          }
+        },
+        {
+          "text": "Today the debate is about style. The classic school ages in large casks of Slavonian or French oak: Biondi-Santi, [Case Basse](site-it-case-basse-soldera) (Gianfranco Soldera, whose wines are sold as IGT), Poggio di Sotto, [Cerbaiona](site-it-cerbaiona), Il Poggione. Small new barriques, fashionable in the 1990s, have largely retreated toward bigger wood.\n\nThe other axis is place. A north-side Brunello from Montosoli or Canalicchio drinks red and fragrant; a Castelnuovo dell'Abate wine from Poggio di Sotto is darker and broader. [Lisini](site-it-lisini) even keeps a tiny plot of ungrafted vines that survived phylloxera. Learn the estate, then its hamlet, and Brunello stops being one wine.\n\nThe next argument is already under way: whether Montalcino should map its hamlets the way Chianti Classico and Montepulciano have, and whether the enlarged Rosso is a second wine or a terroir wine in its own right.",
+          "map": {
+            "fly": {"lon": 11.49, "lat": 43.01, "zoom": 11.6},
+            "highlight": ["site-it-biondi-santi-tenuta-greppo", "site-it-case-basse-soldera", "site-it-poggio-di-sotto", "site-it-cerbaiona", "site-it-il-poggione", "site-it-lisini", "site-it-montosoli"],
+            "label": "Montalcino's classic estates",
+            "pitch": 50,
+            "bearing": 0,
+            "terrain": true
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Brunello from a large-cask traditionalist (splurge)",
+          "why": "Pale for its age, with sour cherry, tea, blood orange and fine, insistent tannin. This is what all the fuss in 2008 was about protecting: Sangiovese alone, slowly aged.",
+          "price": "$190–380",
+          "try": ["Poggio di Sotto", "Biondi-Santi"],
+          "place": "it-brunello-di-montalcino"
+        }
+      ],
+      "deeper": ["it-brunello-di-montalcino", "site-it-castello-banfi", "site-it-case-basse-soldera", "site-it-poggio-di-sotto", "site-it-lisini", "term-ungrafted"],
+      "check": [
+        {
+          "q": "What was Brunellopoli about?",
+          "options": ["Fake labels on Chianti", "Allegations that some Brunello and Rosso contained grapes other than Sangiovese", "A hailstorm in 2008", "Tax fraud on Vin Santo"],
+          "answer": 1,
+          "why": "Investigators alleged blending with other grapes in wines that must be 100% Sangiovese."
+        },
+        {
+          "q": "How did producers vote in October 2008?",
+          "options": ["To allow 15% Merlot", "To keep Brunello 100% Sangiovese, with only 4% for change", "To abolish Rosso di Montalcino", "To create subzones"],
+          "answer": 1,
+          "why": "An overwhelming majority voted to keep the 100% Sangiovese rule."
+        },
+        {
+          "q": "Which country threatened to block Brunello imports without proof of 100% Sangiovese?",
+          "options": ["Germany", "Japan", "The United States", "The United Kingdom"],
+          "answer": 2,
+          "why": "In May 2008 US authorities announced they would block Brunello lacking lab proof of 100% Sangiovese."
+        }
+      ]
+    },
+    {
+      "id": "producers",
+      "part": "deeper",
+      "title": "Going deeper: the names on the labels",
+      "steps": [
+        {
+          "text": "Tuscan wine is still shaped by Florentine dynasties. The Antinori have made wine since 1385 and the Frescobaldi for even longer. Piero Antinori's [Tignanello](site-it-tenuta-tignanello-antinori), in the San Casciano hills, helped launch the Super Tuscans, and the family's cellar at [Bargino](site-it-antinori-nel-chianti-classico-bargino), dug into a hillside and opened in 2012, is the boldest piece of wine architecture in Chianti. The Frescobaldi own [Nipozzano](site-it-castello-di-nipozzano) in Rùfina and [Pomino](site-it-castello-pomino-frescobaldi), one of Cosimo III's four zones.\n\nThe Ricasoli are at Brolio, the Mazzei at Fonterutoli. These houses make wine at every price, so their names are a safe first step; the excitement often lies with smaller growers.",
+          "map": {
+            "fly": {"lon": 11.33, "lat": 43.68, "zoom": 9.4},
+            "highlight": ["site-it-tenuta-tignanello-antinori", "site-it-antinori-nel-chianti-classico-bargino", "site-it-castello-di-nipozzano", "site-it-castello-pomino-frescobaldi", "site-it-castello-di-brolio", "site-it-castello-di-fonterutoli"],
+            "label": "The Florentine houses"
+          }
+        },
+        {
+          "text": "The growers who redefined Sangiovese worked against the rules. At [Montevertine](site-it-montevertine) in Radda, Sergio Manetti made Le Pergole Torte from pure Sangiovese in 1977, and the estate has sold its wines outside the Chianti Classico denomination since 1981; his son Martino still ages them in large casks. At [Isole e Olena](site-it-isole-e-olena), Paolo De Marchi's Cepparello became a benchmark pure Sangiovese, and at [Fontodi](site-it-fontodi-conca-doro) Giovanni Manetti's Flaccianello did the same for Panzano.\n\nTheir point, now accepted by the law, was that Sangiovese alone, from a good site, needs no Cabernet and no white grapes. The 2027 Gran Selezione rules are, in a way, their victory.",
+          "map": {
+            "fly": {"lon": 11.31, "lat": 43.5, "zoom": 10.6},
+            "highlight": ["site-it-montevertine", "site-it-isole-e-olena", "site-it-fontodi-conca-doro", "site-it-felsina", "site-it-san-giusto-a-rentennano"],
+            "label": "The Sangiovese purists"
+          }
+        },
+        {
+          "text": "For value, look beside the famous names. [Chianti Rùfina](it-chianti-rufina), in the cool Sieve valley north-east of Florence, makes Riservas that last decades: [Selvapiana](site-it-fattoria-selvapiana) first bottled its Bucerchiale vineyard alone in 1979. [Carmignano](it-carmignano), west of Florence, was one of Cosimo's four zones and in 1975 became the first Italian DOC to require Cabernet, grown there since the 18th century; [Capezzana](site-it-tenuta-di-capezzana) did most to save the name. And [Montecucco](it-montecucco-sangiovese) and Rosso di Montalcino give Montalcino-style Sangiovese for half the price.\n\nThe rule of thumb: in Tuscany, a great producer's humble wine usually beats a humble producer's grand one.",
+          "map": {
+            "fly": {"lon": 11.25, "lat": 43.8, "zoom": 9.6},
+            "highlight": ["it-chianti-rufina", "it-carmignano", "site-it-fattoria-selvapiana", "site-it-tenuta-di-capezzana", "it-pomino"],
+            "label": "Rùfina and Carmignano"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A pure-Sangiovese Toscana from a Chianti Classico grower",
+          "why": "Taste what the rebels were fighting for: a single estate's Sangiovese with no blending partners, aged in large wood. It shows how far the grape can go on its own, and why the law moved toward it.",
+          "price": "$130–230",
+          "try": ["Montevertine", "Fontodi Flaccianello della Pieve"],
+          "place": "it-chianti-classico-radda"
+        },
+        {
+          "wine": "Carmignano",
+          "why": "Sangiovese with 10 to 20% Cabernet by law: red cherry and cassis with a herbal, slightly austere finish. A historic blend that predates the Super Tuscans by two centuries.",
+          "price": "$25–35",
+          "try": ["Tenuta di Capezzana Villa di Capezzana", "Piaggia"],
+          "place": "it-carmignano"
+        }
+      ],
+      "deeper": ["site-it-tenuta-tignanello-antinori", "site-it-antinori-nel-chianti-classico-bargino", "site-it-montevertine", "site-it-isole-e-olena", "it-carmignano", "it-chianti-rufina", "it-montecucco-sangiovese"],
+      "check": [
+        {
+          "q": "Which zone became the first Italian DOC to require Cabernet in the blend, in 1975?",
+          "options": ["Bolgheri", "Carmignano", "Chianti Rùfina", "Suvereto"],
+          "answer": 1,
+          "why": "Carmignano, where Cabernet had grown since the 18th century, required it from its 1975 DOC."
+        },
+        {
+          "q": "Le Pergole Torte (1977) is…",
+          "options": ["A Bolgheri Merlot", "A pure Sangiovese from Montevertine in Radda", "A Vin Santo", "A Brunello Riserva"],
+          "answer": 1,
+          "why": "Sergio Manetti's Le Pergole Torte was one of the first pure-Sangiovese Super Tuscans."
+        },
+        {
+          "q": "Which family owns the castles of Nipozzano and Pomino?",
+          "options": ["Antinori", "Frescobaldi", "Ricasoli", "Mazzei"],
+          "answer": 1,
+          "why": "The Frescobaldi own Castello di Nipozzano in Rùfina and Castello Pomino."
+        }
+      ]
+    },
+    {
+      "id": "vintages",
+      "part": "deeper",
+      "title": "Going deeper: vintages and when to drink",
+      "steps": [
+        {
+          "text": "Sangiovese is a weather vane. It needs a long, even season to ripen its tannins without losing its acidity, so vintages swing more than the label suggests. The atlas gives its top rating in both Chianti Classico and Montalcino to 2015, 2016, 2019 and 2021. Three were long seasons with cool nights that gave perfumed, structured wines; 2015 was the hot, generous one. 2018 was rainy and lighter, 2017 frost and drought.\n\nSome years tell a story. In 2014, a wet and difficult summer, Biondi-Santi announced it would make no Brunello at all. In 2017 frost and drought cut Chianti Classico's output by 27%, the smallest crop in 40 years. In 2023 downy mildew hit hard after a wet spring.",
+          "map": {
+            "fly": {"lon": 11.4, "lat": 43.25, "zoom": 8.9},
+            "highlight": ["it-chianti-classico", "it-brunello-di-montalcino", "it-vino-nobile-di-montepulciano"],
+            "label": "Tuscany's vintage map"
+          }
+        },
+        {
+          "text": "Time in bottle matters as much as the year. The atlas's ageing profiles give a rough curve from a good producer: a Chianti Classico annata is ready at about two years and best from three to eight; a Riserva opens at about four and peaks from six to fifteen; a Gran Selezione needs about six. A classic Brunello is approachable at about seven years, peaks from ten to twenty and good bottles last thirty-five; Riserva runs longer still.\n\nSo the 2019 Chianti Classico Riserva is drinking now (window about 2023–2040), while the great 2016 Brunello is only opening (about 2026–2055). The 2021 Brunello, released in 2026, wants a few more years: about 2028–2055.",
+          "map": {
+            "fly": "it-brunello-di-montalcino",
+            "highlight": ["it-brunello-di-montalcino"],
+            "label": "Brunello: patient by law and by nature"
+          }
+        },
+        {
+          "text": "Older vintages follow the same logic. 2002 was a washout: persistent rain, rot and no Riserva at many estates. 2003 was the hottest summer in 150 years and the earliest Tuscan harvest since 1945; only the highest Chianti Classico vineyards escaped the heatwave, and most of those wines are now past their best. 2004 and 2006 were classic, 2010 cool and fresh, 2011 forward after an August heatwave.\n\nNotice the pattern. In a hot year, look to Radda, Lamole, Montalcino's north side and Rùfina, where altitude keeps the acidity. In a cool or wet year, the warm south of Montalcino and Castelnuovo Berardenga ripen best. The map you have been flying over is also a vintage guide.",
+          "map": {
+            "fly": {"lon": 11.42, "lat": 43.3, "zoom": 9.0},
+            "highlight": ["it-chianti-classico-radda", "it-chianti-classico-lamole", "it-chianti-rufina", "it-chianti-classico-castelnuovo-berardenga", "site-it-montosoli", "site-it-il-poggione"],
+            "label": "Cool sites for hot years, warm sites for cool ones"
+          }
+        },
+        {
+          "text": "A practical rule for buying: in a great year, buy the humbler wines and drink them young, and keep the Riservas. In a weak year, the best estates declassify their Brunello into Rosso, so the Rosso can be a bargain.\n\nVino Nobile sits in between: the atlas has it ready at about four years and best from five to twelve, with the new Pieve wines needing longer. And for Bolgheri, think like Bordeaux: a Bolgheri Rosso is best within about eight years, a Superiore needs six or more, and Sassicaia, at its classical best, wants twelve to thirty.",
+          "map": {
+            "fly": {"lon": 11.2, "lat": 43.2, "zoom": 8.4},
+            "highlight": ["it-vino-nobile-di-montepulciano", "it-bolgheri", "it-bolgheri-sassicaia", "it-rosso-di-montalcino"],
+            "label": "When to open what"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A mature Chianti Classico Riserva or Brunello (10+ years old)",
+          "why": "Find a 2013 or 2015 Riserva, or an older Brunello, on a restaurant list or at auction. Compare it with a young bottle: the fruit turns to dried cherry, the tannin to silk, and leather, tobacco and earth come up. That is why Tuscans wait.",
+          "price": "$60–120",
+          "try": ["Fèlsina Rancia", "Castello di Volpaia Riserva", "Il Poggione Brunello"],
+          "place": "it-chianti-classico"
+        }
+      ],
+      "deeper": ["it-chianti-classico", "it-brunello-di-montalcino", "it-vino-nobile-di-montepulciano", "it-bolgheri-sassicaia", "term-downy-mildew", "term-riserva"],
+      "check": [
+        {
+          "q": "Which of these is rated an exceptional Tuscan vintage in the atlas?",
+          "options": ["2014", "2017", "2019", "2023"],
+          "answer": 2,
+          "why": "2015, 2016, 2019 and 2021 are rated exceptional; 2014 was wet, 2017 frost and drought, 2023 mildew."
+        },
+        {
+          "q": "What did Biondi-Santi do in the difficult 2014 vintage?",
+          "options": ["Made only Riserva", "Made no Brunello at all", "Blended in Merlot", "Sold the estate"],
+          "answer": 1,
+          "why": "It announced it would make no Brunello from 2014."
+        },
+        {
+          "q": "In a weak vintage, why can Rosso di Montalcino be a bargain?",
+          "options": ["It is aged longer", "Good estates declassify fruit they would have used for Brunello into Rosso", "It is made from Merlot", "The rules lower its price"],
+          "answer": 1,
+          "why": "In poor years estates move Brunello-worthy lots into Rosso rather than release a weak Brunello."
+        }
+      ]
+    }
+  ],
+  "next": ["piedmont", "bordeaux", "wines-long-road"],
+  "sources": [
+    { "title": "Consorzio Vino Chianti Classico: founding of the consortium (14 May 1924, Radda)", "url": "https://www.chianticlassico.com/en/century-en/nasce-il-consorzio-per-la-difesa-del-vino-tipico-del-chianti-e-della-sua-marca-di-origine" },
+    { "title": "Consorzio Vino Chianti Classico: history of the black rooster trademark", "url": "https://www.chianticlassico.com/en/milestone_category/trademark-history-en" },
+    { "title": "Italian Wine Central: Chianti Classico DOCG", "url": "https://italianwinecentral.com/denomination/chianti-classico-docg/" },
+    { "title": "Italian Wine Central: Chianti Classico zonation and new blend", "url": "https://italianwinecentral.com/chianti-classico-zonation-and-new-blend/" },
+    { "title": "WeChianti: the 1716 proclamations of Cosimo III", "url": "https://www.wechianti.com/2016/09/24/8805/?lang=en" },
+    { "title": "Do Bianchi: Ricasoli's 1872 letter to Cesare Studiati", "url": "https://dobianchi.com/2020/08/05/white-grapes-tuscan-wine/" },
+    { "title": "Wikipedia: Chianti", "url": "https://en.wikipedia.org/wiki/Chianti" },
+    { "title": "Wein.plus: new Chianti production rules, 60% Sangiovese and Terre di Vinci", "url": "https://magazine.wein.plus/news/tuscany-region-blesses-new-production-rules-for-chianti-smaller-minimum-percentage-of-sangiovese-new-terre-di-vinci-subzone" },
+    { "title": "Vinetur: Chianti DOCG adds rosé after Italy approves new rules (June 2026)", "url": "https://www.vinetur.com/en/20260616102711/chianti-docg-adds-rose-after-italy-approves-new-production-rules.html" },
+    { "title": "Club Oenologique: Behind the bottle, Biondi-Santi", "url": "https://cluboenologique.com/story/behind-the-bottle-biondi-santi-brunello-di-montalcino-wine/" },
+    { "title": "Wine Spectator: Brunello investigation ends", "url": "https://www.winespectator.com/webfeature/show/id/40300" },
+    { "title": "Jancis Robinson: Six indicted over Brunellogate", "url": "https://jancisrobinson.com/articles/six-indicted-over-brunellogate" },
+    { "title": "Wikipedia: Brunellopoli", "url": "https://en.wikipedia.org/wiki/Brunellopoli" },
+    { "title": "Il Sole 24 Ore: Vino Nobile di Montepulciano Pieve turns one", "url": "https://en.ilsole24ore.com/art/vino-nobile-montepulciano-denominazione-pieve-turns-one-year-old-AIXFdZR" },
+    { "title": "Tenuta San Guido: Bolgheri Sassicaia DOC", "url": "https://www.tenutasanguido.com/en/blog/bolgheri-sassicaia-doc" },
+    { "title": "Wikipedia: Tenuta San Guido", "url": "https://en.wikipedia.org/wiki/Tenuta_San_Guido" },
+    { "title": "Consorzio Tutela Vini Bolgheri DOC", "url": "https://bolgheridoc.com/en/the-consortium" },
+    { "title": "Wine.com: Fèlsina, Il Poggione, Boscarelli, Le Pupille listings (Oct 2026)", "url": "https://www.wine.com/product/Felsina-Berardenga-Chianti-Classico-2022/2742072" },
+    { "title": "Wikipedia: Ornellaia (planted 1981, first vintage 1985)", "url": "https://en.wikipedia.org/wiki/Ornellaia" },
+    { "title": "Millesima USA: Castello di Ama San Lorenzo Gran Selezione 2021 (Oct 2026)", "url": "https://www.millesima-usa.com/castello-di-ama-san-lorenzo-gran-selezione-2021.html" },
+    { "title": "Total Wine: Biondi-Santi Brunello di Montalcino 2020 (Oct 2026)", "url": "https://www.totalwine.com/wine/red-wine/sangiovese/biondi-santi-brunello-di-montalcino-docg/p/2126286065" }
+  ]
+}

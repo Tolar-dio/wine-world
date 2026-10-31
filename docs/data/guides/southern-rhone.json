@@ -1,0 +1,1480 @@
+{
+  "id": "southern-rhone",
+  "kind": "region",
+  "title": "Southern Rhône",
+  "subtitle": "Grenache, galets and the popes' wine",
+  "tagline": "Below Montélimar the Rhône valley opens into sun, wind and stones, and Grenache becomes some of the most generous wine in France.",
+  "minutes": 18,
+  "deeper_minutes": 12,
+  "cover": "fr-chateauneuf-du-pape",
+  "countries": [
+    "fr"
+  ],
+  "intro": "This Path follows the Rhône from the point where its valley opens out below Montélimar to the walls of Avignon. You will taste your way up the region's ladder, from a $12 Côtes du Rhône to Châteauneuf-du-Pape, and by the end you will be reading lieux-dits, producers and vintages like a local.",
+  "chapters": [
+    {
+      "id": "valley",
+      "part": "intro",
+      "title": "Where the valley opens",
+      "steps": [
+        {
+          "text": "The Rhône vineyards run about 250 km from Vienne, just south of Lyon, to Avignon, and they are really two regions sharing one river. In the north, Syrah clings to granite terraces in a narrow gorge. Then, after a stretch of some 50 km with few vines around Montélimar, the hills step back and the valley opens into a wide, bright plain of garrigue, olive trees and pebbles. That is the Southern Rhône, and it makes most of the region's wine.\n\nThe numbers show the imbalance. Inter Rhône counted 60,223 ha of appellation vineyards in 2025. The eight northern crus, famous as they are, cover 4,631 ha between them. The plain Côtes du Rhône appellation alone covers 26,777 ha, most of it in the south.",
+          "map": {
+            "fly": "region-fr-rhone-valley"
+          }
+        },
+        {
+          "text": "Zoom in and the south has a shape. The Rhône runs down the middle. East of it, in the Vaucluse, the land rises toward the limestone teeth of the Dentelles de Montmirail and the bald summit of Mont Ventoux, and most of the famous villages sit on the slopes and terraces between: Gigondas, Vacqueyras, Beaumes de Venise, Rasteau, Cairanne, Vinsobres. Châteauneuf-du-Pape lies on its plateau just north of Avignon. West of the river, in the Gard, are Lirac, Tavel and Laudun.\n\nThe climate is Mediterranean: hot, dry summers, mild winters and most of the rain in autumn and spring. That is why the grapes here are southern grapes, led by [Grenache](grape-grenache), and why the wines taste of ripe fruit, warm stones and the wild herbs the French call *garrigue*.",
+          "map": {
+            "fly": {
+              "lon": 4.86,
+              "lat": 44.16,
+              "zoom": 9.1
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape",
+              "fr-gigondas",
+              "fr-vacqueyras",
+              "fr-beaumes-de-venise",
+              "fr-rasteau",
+              "fr-cairanne",
+              "fr-vinsobres",
+              "fr-lirac",
+              "fr-tavel",
+              "fr-laudun"
+            ],
+            "label": "The ten southern crus"
+          }
+        },
+        {
+          "text": "Then there is the wind. The mistral forms when high pressure over the Bay of Biscay meets low pressure over the Gulf of Genoa, and cold air from the north is squeezed down the Rhône corridor like water through a funnel. Andrew Jefford, using weather records from Avignon, counts an average of 39 days a year of strong mistral (above 57 km/h), with gusts that have reached 116 km/h.\n\nGrowers curse it in April, when it snaps young shoots, and bless it the rest of the year. After 50 to 60 mm of rain, a mistral can dry a vineyard in three or four days, so rot and mildew struggle to take hold, and the wind keeps grape moths away. It is one reason 35 percent of Châteauneuf's vineyards are now farmed organically or biodynamically.",
+          "map": {
+            "fly": {
+              "lon": 4.8,
+              "lat": 44.3,
+              "zoom": 8.3
+            },
+            "highlight": [
+              "fr-cotes-du-rhone"
+            ],
+            "label": "The mistral's corridor"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Côtes du Rhône Rouge from a good estate",
+          "why": "Your baseline. Look for the strawberry and raspberry fruit of Grenache, a peppery edge, soft tannin and warmth on the finish. Everything else in this Path is a more concentrated or more specific version of this bottle.",
+          "price": "$12–28",
+          "try": [
+            "Famille Perrin (Réserve)",
+            "Château Mont-Redon (Réserve)",
+            "Domaine de la Janasse (Réserve)"
+          ],
+          "place": "fr-cotes-du-rhone"
+        }
+      ],
+      "deeper": [
+        "region-fr-southern-rhone",
+        "fr-cotes-du-rhone",
+        "site-fr-mont-ventoux",
+        "site-fr-dentelles-de-montmirail",
+        "grape-grenache",
+        "term-terroir"
+      ],
+      "check": [
+        {
+          "q": "Roughly where does the Rhône valley open out into the broad southern plain?",
+          "options": [
+            "Below Lyon",
+            "Below Montélimar",
+            "Below Avignon",
+            "Below Valence"
+          ],
+          "answer": 1,
+          "why": "North of Montélimar the river runs through a narrow granite corridor; south of it, after a gap with few vines, the land opens into the Mediterranean plain."
+        },
+        {
+          "q": "What makes the mistral?",
+          "options": [
+            "Hot air rising off the Sahara",
+            "Cold northern air funnelled down the Rhône between high pressure over Biscay and low pressure over Genoa",
+            "Sea breezes from the Gulf of Lion",
+            "Night air sliding off Mont Ventoux"
+          ],
+          "answer": 1,
+          "why": "The pressure difference between the Bay of Biscay and the Gulf of Genoa pulls cold air south, and the Rhône valley funnels it."
+        },
+        {
+          "q": "Why do growers welcome the mistral for most of the year?",
+          "options": [
+            "It raises sugar by heating the grapes",
+            "It dries vineyards quickly after rain, keeping rot and mildew away",
+            "It brings summer rain",
+            "It protects the young shoots in April"
+          ],
+          "answer": 1,
+          "why": "A mistral can dry a vineyard in three or four days after heavy rain. April is the exception, when it can snap young shoots."
+        }
+      ]
+    },
+    {
+      "id": "grenache",
+      "part": "intro",
+      "title": "Grenache and its partners",
+      "steps": [
+        {
+          "text": "Grenache is the engine of the south. Inter Rhône counted 32,379 ha of Grenache Noir in the valley's appellations in 2025, against 22,189 ha of Syrah, and in the south the gap is far wider. It is a grape of heat and drought: it ripens late to high sugar, so 14 to 15 percent alcohol comes naturally, and it gives sweet red fruit, white pepper and herbs with modest colour and gentle tannin.\n\nOn the flat, pebbly terrace of the Plan de Dieu, between Orange and Vaison-la-Romaine, you can see how it is grown: old vines trained as freestanding bushes ([gobelet](term-head-trained)) with no wires, low to the ground, shading their own grapes. Its weakness is [coulure](term-coulure): in a cold, wet spring the flowers fail to set and the crop collapses.",
+          "map": {
+            "fly": "fr-cotes-du-rhone-villages-plan-de-dieu",
+            "highlight": [
+              "fr-cotes-du-rhone-villages-plan-de-dieu",
+              "site-fr-cdrv-plan-de-dieu"
+            ],
+            "label": "Plan de Dieu"
+          }
+        },
+        {
+          "text": "Grenache alone can be soft and heady, so the south blends. [Syrah](grape-syrah) adds colour, a firmer frame and black-pepper spice. [Mourvèdre](grape-mourvedre), a late-ripening Spanish grape that needs all the heat it can get, brings dark fruit, a gamey, leathery depth and the tannin that lets a wine age. [Cinsault](grape-cinsault) adds perfume and lightness and is prized for rosé, and old Carignan adds acidity.\n\nThe Perrin family's Château de Beaucastel, on the stony northern edge of Châteauneuf near Courthézon, shows how far the partners can be pushed: its red uses all 13 of the appellation's traditional varieties and an unusually high share of Mourvèdre. Its Coudoulet de Beaucastel comes from vines just outside the boundary, a cheaper way to taste the house style.",
+          "map": {
+            "fly": {
+              "lon": 4.852,
+              "lat": 44.101,
+              "zoom": 14.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-chateau-de-beaucastel",
+              "fr-chateauneuf-du-pape-coudoulet"
+            ],
+            "label": "Château de Beaucastel"
+          }
+        },
+        {
+          "text": "Most southern reds you will meet are Grenache-led blends, and the rules write that in: a Côtes du Rhône Villages red must be built on Grenache, with a required minimum of Syrah and Mourvèdre as its partners. The village names on many labels, such as Séguret and Sablet below the Dentelles, tell you the grapes came from one commune's hillsides rather than the whole valley, at lower yields.\n\nThat is the difference to taste next: a wine from a named village against the generic Côtes du Rhône. Expect more concentration, more garrigue and a longer finish, but the same red-fruited Grenache voice. Whites exist too, from Grenache Blanc, [Clairette](grape-clairette), [Roussanne](grape-roussanne), Bourboulenc and [Viognier](grape-viognier), but across the Rhône nearly nine bottles in ten are red or rosé.",
+          "map": {
+            "fly": {
+              "lon": 5.02,
+              "lat": 44.195,
+              "zoom": 11.6
+            },
+            "highlight": [
+              "fr-cotes-du-rhone-villages-seguret",
+              "fr-cotes-du-rhone-villages-sablet",
+              "site-fr-cdrv-seguret",
+              "site-fr-cdrv-sablet"
+            ],
+            "label": "Séguret and Sablet"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Côtes du Rhône Villages with a village name",
+          "why": "Step two of the ladder. Against the chapter 1 bottle, the Grenache fruit is the same, but the wine is deeper, more herbal and longer, because the grapes come from one village's slopes at lower yields.",
+          "price": "$25–30",
+          "try": [
+            "Domaine de Mourchon (Séguret Grande Réserve)"
+          ],
+          "place": "fr-cotes-du-rhone-villages-seguret"
+        },
+        {
+          "wine": "Coudoulet de Beaucastel Côtes du Rhône Rouge",
+          "why": "A Mourvèdre-rich blend from just outside Châteauneuf: darker, meatier and firmer than a Grenache-led Côtes du Rhône. Notice what Mourvèdre adds.",
+          "price": "$40–45",
+          "try": [
+            "Famille Perrin (Château de Beaucastel)"
+          ],
+          "place": "fr-cotes-du-rhone"
+        }
+      ],
+      "deeper": [
+        "grape-syrah",
+        "grape-mourvedre",
+        "grape-cinsault",
+        "fr-cotes-du-rhone-villages",
+        "site-fr-chateau-de-beaucastel",
+        "term-coulure",
+        "term-head-trained"
+      ],
+      "check": [
+        {
+          "q": "Which grape covers the most ground in the Rhône's appellations?",
+          "options": [
+            "Syrah",
+            "Grenache Noir",
+            "Mourvèdre",
+            "Carignan"
+          ],
+          "answer": 1,
+          "why": "Inter Rhône counted 32,379 ha of Grenache Noir in 2025 against 22,189 ha of Syrah, and Grenache dominates the south even more."
+        },
+        {
+          "q": "What does Mourvèdre add to a southern blend?",
+          "options": [
+            "Pale colour and perfume",
+            "Dark fruit, gamey depth and tannin",
+            "Acidity and lower alcohol",
+            "Apricot aromas"
+          ],
+          "answer": 1,
+          "why": "Mourvèdre ripens late and gives dark, meaty, leathery wine with the tannin that helps a blend age."
+        },
+        {
+          "q": "What is coulure?",
+          "options": [
+            "A fungal rot spread by humid air",
+            "Flowers failing to set fruit after cold, wet weather",
+            "Sunburn on bush vines",
+            "A way of blending at harvest"
+          ],
+          "answer": 1,
+          "why": "Grenache is especially prone: a cold, wet spell at flowering leaves bunches with few berries and cuts the crop."
+        }
+      ]
+    },
+    {
+      "id": "chateauneuf",
+      "part": "intro",
+      "title": "The popes' new castle",
+      "steps": [
+        {
+          "text": "Châteauneuf-du-Pape means 'the pope's new castle', and the name is literal. From 1309 to 1377 the popes lived in Avignon rather than Rome, and their court of cardinals, bankers and diplomats made the wines of the surrounding hills fashionable. Pope John XXII, elected in 1316, built a summer castle on the hill above a village about 15 km north of the city, with vines around it, and under him the local wine became known simply as *vin du Pape*.\n\nThe castle was damaged in the Wars of Religion, and in 1944 retreating German troops blew up the keep, leaving the single tall wall that now appears on postcards and labels. Find [the popes' move to Avignon](event-avignon-popes) on the timeline.",
+          "map": {
+            "fly": {
+              "lon": 4.82,
+              "lat": 43.99,
+              "zoom": 10.3
+            },
+            "highlight": [
+              "site-fr-palais-des-papes",
+              "site-fr-chateau-des-papes-ruins",
+              "fr-chateauneuf-du-pape"
+            ],
+            "label": "Avignon to Châteauneuf"
+          }
+        },
+        {
+          "text": "The village's second claim to fame is legal. After phylloxera, fraud flourished, and wine from anywhere was sold as Châteauneuf. On 4 October 1923 the growers formed a syndicate and chose as president Baron Pierre Le Roy de Boiseaumarié of Château Fortia. Under him they wrote rules that sound obvious now and were radical then: a defined area (legend says he drew it where lavender and thyme grew together, on land too poor for other crops), a short list of permitted grapes, rules for growing them, a minimum natural alcohol of 12.5 percent and compulsory sorting of the harvest.\n\nFrance's highest court upheld the delimitation on 21 November 1933, and the approach became the template for the national [appellation](term-aoc) law of 1935.",
+          "map": {
+            "fly": {
+              "lon": 4.836,
+              "lat": 44.051,
+              "zoom": 14
+            },
+            "highlight": [
+              "site-fr-chateau-fortia",
+              "site-fr-chateau-des-papes-ruins"
+            ],
+            "label": "Château Fortia"
+          }
+        },
+        {
+          "text": "The appellation decree followed on 15 May 1936, making Châteauneuf one of France's first AOCs, alongside Tavel, Arbois, Monbazillac and Cassis. A year later the syndicate designed its own heavy bottle, embossed with the papal arms: the triple tiara over the crossed keys of Saint Peter, ringed by the words 'Châteauneuf-du-Pape contrôlé'. Most estates still use it, so you can recognise the wine by touch.\n\nToday about 300 growers farm some 3,150 ha in five communes. Thirteen grape varieties are permitted (18 if you count the colour variants of Grenache, Clairette and Picpoul separately), and yields are capped at 35 hl/ha, among the lowest in France; in 2025 growers averaged just 28. About 93 percent of the wine is red.",
+          "map": {
+            "fly": "fr-chateauneuf-du-pape",
+            "highlight": [
+              "fr-chateauneuf-du-pape"
+            ],
+            "label": "Châteauneuf-du-Pape"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Châteauneuf-du-Pape from a classic estate",
+          "why": "Step three of the ladder. Against the Villages bottle, look for more of everything: riper kirsch fruit, leather, liquorice and dried herbs, with alcohol often above 14.5 percent carried by a broad, warm texture.",
+          "price": "$50–70",
+          "try": [
+            "Clos du Mont-Olivet",
+            "Mas de Boislauzon (Tradition)",
+            "Domaine du Vieux Télégraphe (Télégramme)"
+          ],
+          "place": "fr-chateauneuf-du-pape"
+        }
+      ],
+      "deeper": [
+        "fr-chateauneuf-du-pape",
+        "event-chateauneuf-1923",
+        "event-aoc-1935",
+        "site-fr-chateau-fortia",
+        "site-fr-palais-des-papes",
+        "site-fr-chateau-des-papes-ruins",
+        "term-inao"
+      ],
+      "check": [
+        {
+          "q": "Who led the Châteauneuf growers when they wrote their rules in 1923?",
+          "options": [
+            "Pope John XXII",
+            "Baron Pierre Le Roy de Boiseaumarié",
+            "Joseph Ducos of La Nerthe",
+            "Jacques Reynaud of Rayas"
+          ],
+          "answer": 1,
+          "why": "Baron Le Roy of Château Fortia became president of the growers' syndicate on 4 October 1923, and its rules became the model for the AOC system."
+        },
+        {
+          "q": "What is embossed on the traditional Châteauneuf bottle?",
+          "options": [
+            "A bunch of grapes over the Rhône",
+            "The papal tiara over the crossed keys of Saint Peter",
+            "The castle's surviving wall",
+            "A wind-bent cypress"
+          ],
+          "answer": 1,
+          "why": "The syndicate's 1937 bottle carries the papal arms, ringed by 'Châteauneuf-du-Pape contrôlé'."
+        },
+        {
+          "q": "What is the maximum yield for Châteauneuf-du-Pape?",
+          "options": [
+            "35 hl/ha",
+            "50 hl/ha",
+            "60 hl/ha",
+            "80 hl/ha"
+          ],
+          "answer": 0,
+          "why": "35 hl/ha is one of the lowest caps in France, and in 2025 growers averaged only 28 hl/ha."
+        }
+      ]
+    },
+    {
+      "id": "stones",
+      "part": "intro",
+      "title": "Pebbles, sand and safre",
+      "steps": [
+        {
+          "text": "Photographs of Châteauneuf always show the stones: fist-sized, rounded [galets roulés](term-galets-roules) of quartzite, rolled down from the Alps by the ancient Rhône and left on terraces as the river cut lower. On the plateau of La Crau, in the east of the appellation, they lie so thick that you cannot see the soil. On the satellite view the vine rows run across a pale, stony skin.\n\nThe stones matter twice. They soak up heat by day and give it back at dusk, helping Grenache ripen fully, and they act as a mulch that slows evaporation. Underneath, red, iron-rich clay holds winter rain, and roots can reach three metres down to find it in August. The result is the classic Châteauneuf: dark, broad, spicy and built to last.",
+          "map": {
+            "fly": {
+              "lon": 4.865,
+              "lat": 44.054,
+              "zoom": 14.4
+            },
+            "base": "satellite",
+            "highlight": [
+              "fr-chateauneuf-du-pape-la-crau",
+              "fr-chateauneuf-du-pape-la-crau-ouest-bedarrides",
+              "fr-chateauneuf-du-pape-la-crau-sud-courthezon",
+              "fr-chateauneuf-du-pape-la-crau-ouest-courthezon",
+              "site-fr-la-crau-plateau"
+            ],
+            "label": "The La Crau plateau"
+          }
+        },
+        {
+          "text": "Now move a couple of kilometres north to the woods around Château Rayas. Here the ground is sand, weathered from soft sandstone, and the vineyards are clearings among pines and oaks. Jefford reports growers on sand picking about two weeks earlier than their neighbours on the pebbles, and the wines are paler, finer and more perfumed, with silkier tannin. Grenache on sand is the reason some writers compare great Châteauneuf to Burgundy.\n\nMost of this sandy country lies in the northeast, in Courthézon and in lieux-dits such as Pignan and Le Grès. Rayas itself faces north, on ground many growers would have avoided, and makes almost pure Grenache from old vines that has become one of the most sought-after wines in the world.",
+          "map": {
+            "fly": {
+              "lon": 4.849,
+              "lat": 44.073,
+              "zoom": 14.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "fr-chateauneuf-du-pape-le-rayas",
+              "fr-chateauneuf-du-pape-pignan",
+              "fr-chateauneuf-du-pape-le-gres",
+              "site-fr-chateau-rayas"
+            ],
+            "label": "Rayas in the woods"
+          }
+        },
+        {
+          "text": "The third soil is *safre*, a soft, sandy sandstone that crumbles when you rub it, found in the east and north of the appellation; it gives delicate textures and silky tannin. And in the west, Cretaceous limestone breaks into splinters at the surface. Limestone keeps acidity, so growers there make some of the freshest reds and many of the best whites.\n\nThe syndicate counts five broad terroirs, and many estates own parcels on several. That is the second reason Châteauneuf blends: not only grapes but soils. A wine from the stones of La Crau and one from the sands of Courthézon can share a label and taste like cousins rather than twins. Chapter 8 goes through the appellation parcel by parcel.",
+          "map": {
+            "fly": {
+              "lon": 4.835,
+              "lat": 44.064,
+              "zoom": 12.3
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape-montredon",
+              "fr-chateauneuf-du-pape-cabrieres",
+              "fr-chateauneuf-du-pape-la-crau",
+              "fr-chateauneuf-du-pape-le-rayas",
+              "fr-chateauneuf-du-pape-pignan",
+              "fr-chateauneuf-du-pape-les-terres-blanches",
+              "fr-chateauneuf-du-pape-pierre-a-feu"
+            ],
+            "label": "Pebbles, sand, limestone"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Lirac red",
+          "why": "Lirac's eastern terraces, across the river from Châteauneuf, carry the same rolled pebbles. Taste warm, dark, spicy Grenache from the stones at well under half the price of Châteauneuf.",
+          "price": "$22–30",
+          "try": [
+            "Château Mont-Redon (Lirac)",
+            "Les Vignerons du Castelas (Respelido)"
+          ],
+          "place": "fr-lirac"
+        }
+      ],
+      "deeper": [
+        "soil-galets-roules",
+        "soil-sand",
+        "fr-chateauneuf-du-pape-la-crau",
+        "fr-chateauneuf-du-pape-le-rayas",
+        "site-fr-la-crau-plateau",
+        "site-fr-domaine-du-vieux-telegraphe",
+        "fr-lirac"
+      ],
+      "check": [
+        {
+          "q": "Where did Châteauneuf's galets roulés come from?",
+          "options": [
+            "Volcanic eruptions in the Massif Central",
+            "Alpine quartzite rolled down by the ancient Rhône",
+            "Roman road builders",
+            "Glaciers on Mont Ventoux"
+          ],
+          "answer": 1,
+          "why": "The ancient Rhône carried quartzite from the Alps and left it on terraces that now stand above the river."
+        },
+        {
+          "q": "How does Grenache from sand tend to differ from Grenache grown on the pebbles?",
+          "options": [
+            "Darker and more tannic",
+            "Paler, finer and more perfumed",
+            "Sweeter and fortified",
+            "No different at all"
+          ],
+          "answer": 1,
+          "why": "Sand gives lighter colour, silkier tannin and more perfume, the style of Rayas."
+        },
+        {
+          "q": "Why are limestone parcels prized for white Châteauneuf?",
+          "options": [
+            "Limestone keeps acidity and freshness",
+            "Limestone raises alcohol",
+            "Limestone blocks the mistral",
+            "The law requires white grapes on limestone"
+          ],
+          "answer": 0,
+          "why": "Limestone soils help grapes keep their acidity in the heat, which suits whites and fresher reds."
+        }
+      ]
+    },
+    {
+      "id": "pyramid",
+      "part": "intro",
+      "title": "Climbing the pyramid",
+      "steps": [
+        {
+          "text": "The south sells its wine through a ladder of names. At the bottom is Côtes du Rhône, one of the largest appellations in France: 26,777 ha in 2025 across 167 communes in six departments, making about 920,000 hl. The name is old. A royal edict of 1737 ordered casks shipped from the right bank around Roquemaure to be branded C.D.R., for Côte du Rhône, one of the earliest attempts anywhere to guarantee a wine's origin.\n\nModern Côtes du Rhône became an AOC in 1937, and quality runs from co-operative bulk wine to bottles of real character. The appellation is also shrinking: it lost about 4,400 ha between 2020 and 2025 as growers pulled out vines under France's grubbing-up scheme, a sign of how hard the cheap end of the market has become.",
+          "map": {
+            "fly": "fr-cotes-du-rhone",
+            "highlight": [
+              "fr-cotes-du-rhone"
+            ],
+            "label": "Côtes du Rhône"
+          }
+        },
+        {
+          "text": "One step up is Côtes du Rhône Villages (8,019 ha), created in 1966, with lower yields and stricter grape rules. About 2,700 ha are sold under the plain Villages name, and about 5,300 ha add one of 21 village names, such as Séguret, Visan, Plan de Dieu or Valréas. These named villages are the waiting room.\n\nAt the top sit the [crus](term-cru), villages allowed to use their own name alone. Châteauneuf-du-Pape and Tavel were among the first AOCs in 1936 and Lirac followed in 1947, but every other southern cru climbed up from the Villages tier: Gigondas in 1971, Vacqueyras in 1990, Beaumes de Venise in 2005, Vinsobres in 2006, Rasteau in 2010, Cairanne in 2015 and Laudun in 2024. The Rhône now has 18 crus, ten of them in the south.",
+          "map": {
+            "fly": "fr-cotes-du-rhone-villages",
+            "highlight": [
+              "fr-cotes-du-rhone-villages-chusclan",
+              "fr-cotes-du-rhone-villages-gadagne",
+              "fr-cotes-du-rhone-villages-massif-d-uchaux",
+              "fr-cotes-du-rhone-villages-nyons",
+              "fr-cotes-du-rhone-villages-plan-de-dieu",
+              "fr-cotes-du-rhone-villages-puymeras",
+              "fr-cotes-du-rhone-villages-roaix",
+              "fr-cotes-du-rhone-villages-rochegude",
+              "fr-cotes-du-rhone-villages-rousset-les-vignes",
+              "fr-cotes-du-rhone-villages-sablet",
+              "fr-cotes-du-rhone-villages-saint-andeol",
+              "fr-cotes-du-rhone-villages-saint-gervais",
+              "fr-cotes-du-rhone-villages-saint-maurice",
+              "fr-cotes-du-rhone-villages-saint-pantaleon-les-vignes",
+              "fr-cotes-du-rhone-villages-sainte-cecile",
+              "fr-cotes-du-rhone-villages-seguret",
+              "fr-cotes-du-rhone-villages-signargues",
+              "fr-cotes-du-rhone-villages-suze-la-rousse",
+              "fr-cotes-du-rhone-villages-vaison-la-romaine",
+              "fr-cotes-du-rhone-villages-valreas",
+              "fr-cotes-du-rhone-villages-visan"
+            ],
+            "label": "The named villages"
+          }
+        },
+        {
+          "text": "The best value in the south lives on these middle steps. Cairanne, a hill north of Rasteau, campaigned for decades before its promotion in 2015, led by Marcel Richaud, who began bottling his own wine in the 1970s. Vinsobres, at 200 to 500 m among the olive groves near Nyons, became the Drôme's first cru in 2006 and makes fresher, more structured reds. Rasteau's south-facing amphitheatre is one of the warmest spots in the region, and its dry reds are dark and powerful.\n\nEast of them all, the foothills of Mont Ventoux (the appellation was called Côtes du Ventoux until 2009) climb to about 500 m, and cold air off the mountain keeps the reds bright and juicy. For everyday drinking, Ventoux and the newer crus deliver much of the pleasure of Gigondas at half the price or less.",
+          "map": {
+            "fly": {
+              "lon": 5.08,
+              "lat": 44.18,
+              "zoom": 9.7
+            },
+            "highlight": [
+              "fr-cairanne",
+              "fr-vinsobres",
+              "fr-rasteau",
+              "fr-ventoux",
+              "site-fr-domaine-marcel-richaud"
+            ],
+            "label": "Cairanne, Vinsobres, Rasteau, Ventoux"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Ventoux red",
+          "why": "Altitude in a glass: the same southern grapes as a Côtes du Rhône, but juicier, brighter and fresher than wines from the plain.",
+          "price": "$15–20",
+          "try": [
+            "Château Pesquié (Terrasses)"
+          ],
+          "place": "fr-ventoux"
+        },
+        {
+          "wine": "Vinsobres red",
+          "why": "A cru grown at 200 to 500 m: notice the fresher line and firmer grip compared with the Côtes du Rhône Villages from chapter 2.",
+          "price": "$20–26",
+          "try": [
+            "Famille Perrin (Les Cornuds)"
+          ],
+          "place": "fr-vinsobres"
+        },
+        {
+          "wine": "Cairanne red",
+          "why": "A recently promoted cru from the grower who fought for it: spicy, sumptuous Grenache with the depth of a pricier wine.",
+          "price": "$28–35",
+          "try": [
+            "Domaine Marcel Richaud"
+          ],
+          "place": "fr-cairanne"
+        }
+      ],
+      "deeper": [
+        "fr-cotes-du-rhone",
+        "fr-cotes-du-rhone-villages",
+        "fr-cairanne",
+        "fr-vinsobres",
+        "fr-rasteau",
+        "fr-ventoux",
+        "fr-laudun",
+        "site-fr-domaine-marcel-richaud"
+      ],
+      "check": [
+        {
+          "q": "What did the 1737 royal edict require of casks from around Roquemaure?",
+          "options": [
+            "That they carry the papal arms",
+            "That they be branded C.D.R.",
+            "That they be shipped only to Paris",
+            "That they hold exactly 225 litres"
+          ],
+          "answer": 1,
+          "why": "Branding casks C.D.R. (Côte du Rhône) was one of the earliest legal guarantees of a wine's origin."
+        },
+        {
+          "q": "Which village was the most recent to be promoted to cru?",
+          "options": [
+            "Gigondas",
+            "Cairanne",
+            "Laudun",
+            "Vacqueyras"
+          ],
+          "answer": 2,
+          "why": "Laudun became the Rhône's 18th cru in 2024; Cairanne came in 2015, Vacqueyras in 1990 and Gigondas in 1971."
+        },
+        {
+          "q": "Why do Ventoux reds taste fresher than wines from the Rhône plain?",
+          "options": [
+            "They are made from white grapes",
+            "Altitude and cold air off Mont Ventoux",
+            "They are aged under flor",
+            "They are picked in winter"
+          ],
+          "answer": 1,
+          "why": "The foothills reach about 500 m, and cool air from the mountain keeps acidity and fruit bright."
+        }
+      ]
+    },
+    {
+      "id": "dentelles",
+      "part": "intro",
+      "title": "Gigondas and Vacqueyras under the Dentelles",
+      "steps": [
+        {
+          "text": "East of Orange the plain buckles into the Dentelles de Montmirail, 'the lace of Montmirail': beds of Jurassic limestone that were folded almost upright and then eroded into a jagged crest, topped by Saint-Amand at 734 m. Around their skirts lie three crus. Gigondas climbs the western slopes; Vacqueyras spreads over the flatter terraces just below it; Beaumes de Venise curls round the southern foot, where it makes reds as well as its famous sweet Muscat.\n\nGigondas was the first village in the south to rise from the Villages tier to cru, in 1971, and it is often called Châteauneuf's mountain cousin. It covered 1,184 ha in 2025.",
+          "map": {
+            "fly": {
+              "lon": 5.0,
+              "lat": 44.14,
+              "zoom": 11.2
+            },
+            "highlight": [
+              "fr-gigondas",
+              "fr-vacqueyras",
+              "fr-beaumes-de-venise",
+              "site-fr-dentelles-de-montmirail"
+            ],
+            "label": "Under the Dentelles"
+          }
+        },
+        {
+          "text": "Tilt the map and look east from the plain toward the cliffs. Gigondas vineyards run from about 100 m to more than 500 m, among the highest in the Southern Rhône, on limestone, marl and sandy terraces. Height means cooler nights, and cooler nights mean grapes that keep their acidity while they ripen. The rules ask for Grenache with at least 15 percent Syrah and/or Mourvèdre, and the reds are dark, spicy and firm, with a fresh, almost mineral edge that Châteauneuf from the plateau rarely shows.\n\nChâteau de Saint Cosme, owned by the Barruol family since 1490, has Gallo-Roman vats cut into the rock and bottles single sites such as Le Claux. Since the 2023 vintage Gigondas can also be white, from at least 70 percent Clairette.",
+          "map": {
+            "fly": {
+              "lon": 5.005,
+              "lat": 44.155,
+              "zoom": 12.9
+            },
+            "terrain": true,
+            "pitch": 62,
+            "bearing": 80,
+            "highlight": [
+              "fr-gigondas",
+              "site-fr-dentelles-de-montmirail",
+              "site-fr-chateau-de-saint-cosme"
+            ],
+            "label": "Gigondas climbs the Dentelles"
+          }
+        },
+        {
+          "text": "Below the cliffs, Vacqueyras (1,421 ha, a cru since 1990) spreads across Vacqueyras and Sarrians on terraces of rolled pebbles and red clay much like Châteauneuf's, grading into sandy limestone toward the Dentelles. Its reds are generous, dark and spicy, a little softer than Gigondas and usually cheaper. The twelfth-century troubadour Raimbaut de Vaqueiras was born here.\n\nTasting Gigondas beside Vacqueyras is the clearest lesson in the region on altitude. Same grapes, same sun, a few kilometres apart: the higher wine is tighter and fresher, the lower one rounder and warmer. Beaumes de Venise, a red cru since 2005, sits between them in style, on soils that change from gypsum to limestone to sand within a single estate.",
+          "map": {
+            "fly": {
+              "lon": 4.985,
+              "lat": 44.115,
+              "zoom": 12.2
+            },
+            "terrain": true,
+            "pitch": 50,
+            "bearing": 60,
+            "highlight": [
+              "fr-vacqueyras",
+              "fr-beaumes-de-venise"
+            ],
+            "label": "Vacqueyras and Beaumes de Venise"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gigondas",
+          "why": "Step four of the flight. Beside the Châteauneuf, notice the firmer tannin and the cooler, mineral edge that altitude gives, with the same dark Grenache fruit.",
+          "price": "$45–60",
+          "try": [
+            "Château de Saint Cosme"
+          ],
+          "place": "fr-gigondas"
+        },
+        {
+          "wine": "Vacqueyras",
+          "why": "The altitude comparison: open it beside the Gigondas and taste a rounder, warmer wine from the terraces below.",
+          "price": "$30–40",
+          "try": [
+            "Domaine Le Sang des Cailloux (Floureto)",
+            "Domaine Franck Balthazar"
+          ],
+          "place": "fr-vacqueyras"
+        }
+      ],
+      "deeper": [
+        "fr-gigondas",
+        "fr-vacqueyras",
+        "fr-beaumes-de-venise",
+        "site-fr-dentelles-de-montmirail",
+        "site-fr-chateau-de-saint-cosme",
+        "term-altitude",
+        "term-diurnal-range"
+      ],
+      "check": [
+        {
+          "q": "What are the Dentelles de Montmirail made of?",
+          "options": [
+            "Granite",
+            "Folded, eroded Jurassic limestone",
+            "Volcanic basalt",
+            "River gravel"
+          ],
+          "answer": 1,
+          "why": "Limestone beds were tilted almost upright and eroded into the jagged 'lace' that gives the range its name."
+        },
+        {
+          "q": "In what year did Gigondas become a cru?",
+          "options": [
+            "1936",
+            "1971",
+            "1990",
+            "2015"
+          ],
+          "answer": 1,
+          "why": "Gigondas was the first southern village to rise from Côtes du Rhône Villages to cru, in 1971."
+        },
+        {
+          "q": "Why is Gigondas usually fresher than Vacqueyras?",
+          "options": [
+            "It is made from Pinot Noir",
+            "Its vineyards climb higher, so nights are cooler",
+            "It is fortified",
+            "It is aged in new oak"
+          ],
+          "answer": 1,
+          "why": "Gigondas reaches above 500 m under the cliffs, while Vacqueyras lies on lower terraces."
+        }
+      ]
+    },
+    {
+      "id": "pink-and-sweet",
+      "part": "intro",
+      "title": "Tavel, Lirac and the sweet wines",
+      "steps": [
+        {
+          "text": "Cross the river into the Gard and you reach the only Rhône appellation devoted entirely to rosé. Tavel (781 ha) has been famous since the Middle Ages, and its fans are said to have included the Avignon popes, Louis XIV and Ernest Hemingway. It is a different animal from pale Provence rosé: the juice stays longer on the skins, so the wine comes out deep pink to light red, with red fruit, spice and real grip.\n\nThat makes Tavel a rosé for the table, good with grilled lamb or a fish stew, and able to keep for a few years. Fashion has turned against dark rosé, though, and Tavel's area fell by about a fifth between 2020 and 2024. Some producers now make paler versions.",
+          "map": {
+            "fly": "fr-tavel",
+            "highlight": [
+              "fr-tavel",
+              "site-fr-chateau-d-aqueria"
+            ],
+            "label": "Tavel"
+          }
+        },
+        {
+          "text": "Tavel's neighbour Lirac (848 ha) makes all three colours across four communes, and its eastern terraces face Châteauneuf across the river on the same rolled pebbles. For a long time it was a quiet place. Since the 2000s, estates such as Château Mont-Redon from Châteauneuf and Domaine de la Mordorée from Tavel have invested here, and Lirac reds have become one of the south's best buys.\n\nRoquemaure, at the river's edge, was the port that shipped the branded C.D.R. casks of 1737, and nearby, at Pujaut, vines began dying of [phylloxera](event-phylloxera-france) in 1863, the first sign of it in France. The louse that would destroy most of Europe's vineyards began its French career a few kilometres from the popes' palace.",
+          "map": {
+            "fly": {
+              "lon": 4.74,
+              "lat": 44.03,
+              "zoom": 11.2
+            },
+            "highlight": [
+              "fr-lirac",
+              "fr-tavel",
+              "fr-chateauneuf-du-pape",
+              "site-fr-pujaut-phylloxera-first-found"
+            ],
+            "label": "Lirac faces Châteauneuf"
+          }
+        },
+        {
+          "text": "The south also makes sweet wine, by a method it shares with Roussillon: [vin doux naturel](term-vin-doux-naturel-vdn). Muscat grapes start to ferment, and partway through, neutral grape spirit of at least 96 percent alcohol is added ([mutage](term-mutage)). The yeasts die, the natural sugar stays, and the wine ends at 15 percent alcohol or more with at least 100 g/l of sugar.\n\nMuscat de Beaumes-de-Venise (227 ha, an AOC since 1945) uses only Muscat à Petits Grains, white- and red-berried. It smells of orange blossom, apricot, peach and lychee, and the best keep a floral lift that stops the sweetness from cloying. Drink it young and well chilled, with fruit tarts or blue cheese.",
+          "map": {
+            "fly": {
+              "lon": 5.05,
+              "lat": 44.115,
+              "zoom": 12.2
+            },
+            "highlight": [
+              "fr-muscat-de-beaumes-de-venise"
+            ],
+            "label": "Muscat de Beaumes-de-Venise"
+          }
+        },
+        {
+          "text": "Rasteau, the hill village above the Ouvèze, was a sweet-wine village first: its fortified Grenache became an AOC in 1944, long before the dry red cru of 2010. The vin doux naturel comes as *grenat* (young, red and plummy), as *tuilé* or *ambré* after more than 30 months of ageing, as *hors d'âge* after five years, and as a rare [rancio](term-rancio) with the nutty, oxidised tang of long ageing.\n\nIt has almost vanished. Inter Rhône counted only 18 ha and 482 hl in 2025, against 861 ha of dry red Rasteau. If you find a bottle, buy it: it is a living link to the Mediterranean tradition of Banyuls and Maury, and one of the rarest appellation wines in France.",
+          "map": {
+            "fly": "fr-rasteau",
+            "highlight": [
+              "fr-rasteau"
+            ],
+            "label": "Rasteau"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Tavel rosé",
+          "why": "A deep-coloured, vinous rosé with grip. Drink it with dinner rather than as an aperitif and notice how it behaves like a light red.",
+          "price": "$17–24",
+          "try": [
+            "Château d'Aquéria"
+          ],
+          "place": "fr-tavel"
+        },
+        {
+          "wine": "Muscat de Beaumes-de-Venise (half bottle)",
+          "why": "Fortified sweetness with floral freshness: orange blossom and apricot, served cold.",
+          "price": "$19–25 (375 ml)",
+          "try": [
+            "Domaine de Durban"
+          ],
+          "place": "fr-muscat-de-beaumes-de-venise"
+        },
+        {
+          "wine": "Rasteau red",
+          "why": "Compare Rasteau's warm amphitheatre with the altitude of Vinsobres from chapter 5: darker, riper and more powerful.",
+          "price": "$22–25",
+          "try": [
+            "Domaine des Escaravailles (La Ponce)"
+          ],
+          "place": "fr-rasteau"
+        }
+      ],
+      "deeper": [
+        "fr-tavel",
+        "fr-lirac",
+        "fr-muscat-de-beaumes-de-venise",
+        "fr-rasteau",
+        "site-fr-chateau-d-aqueria",
+        "site-fr-pujaut-phylloxera-first-found",
+        "event-phylloxera-france",
+        "term-rancio"
+      ],
+      "check": [
+        {
+          "q": "What makes Tavel darker than Provence rosé?",
+          "options": [
+            "Red wine is blended in",
+            "The juice stays longer on the skins",
+            "It is aged in new oak",
+            "It is made only from Syrah"
+          ],
+          "answer": 1,
+          "why": "Longer skin contact gives Tavel its colour, tannin and ability to age."
+        },
+        {
+          "q": "How is a vin doux naturel made?",
+          "options": [
+            "Grapes are dried on straw mats",
+            "Grape spirit is added during fermentation to stop it",
+            "Sugar is added after fermentation",
+            "Grapes are frozen on the vine"
+          ],
+          "answer": 1,
+          "why": "Mutage kills the yeasts partway through fermentation, keeping the grapes' natural sugar."
+        },
+        {
+          "q": "Where did phylloxera first show itself in France?",
+          "options": [
+            "Pujaut, near Avignon",
+            "Bordeaux",
+            "Beaune",
+            "Reims"
+          ],
+          "answer": 0,
+          "why": "Vines began dying at Pujaut, on the Gard bank near Avignon, in 1863; Jules-Émile Planchon identified the insect in 1868."
+        }
+      ]
+    },
+    {
+      "id": "lieux-dits",
+      "part": "deeper",
+      "title": "Châteauneuf parcel by parcel",
+      "steps": [
+        {
+          "text": "Châteauneuf has no official crus within it, but its land register is divided into well over a hundred [lieux-dits](term-lieu-dit), named places that the atlas maps one by one. Any of them may appear on a label after the appellation name when all the grapes come from it, and growers increasingly bottle them separately, the way Burgundians bottle their climats.\n\nRead the map like a geologist. The high terraces of rolled pebbles run across the northwest (Montredon, Cabrières) and the east (La Crau). Sands and safres cover the northeast, around Courthézon. Limestone crops out in the west. A lieu-dit name on a label is a clue to which of these the wine came from, and once you know a handful you can predict the style before you pull the cork.",
+          "map": {
+            "fly": {
+              "lon": 4.836,
+              "lat": 44.066,
+              "zoom": 12.2
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape-la-crau",
+              "fr-chateauneuf-du-pape-cabrieres",
+              "fr-chateauneuf-du-pape-montredon",
+              "fr-chateauneuf-du-pape-le-rayas",
+              "fr-chateauneuf-du-pape-pignan",
+              "fr-chateauneuf-du-pape-le-gres",
+              "fr-chateauneuf-du-pape-coudoulet",
+              "fr-chateauneuf-du-pape-la-nerthe",
+              "fr-chateauneuf-du-pape-les-terres-blanches",
+              "fr-chateauneuf-du-pape-pierre-a-feu",
+              "fr-chateauneuf-du-pape-vaudieu",
+              "fr-chateauneuf-du-pape-la-gardine",
+              "fr-chateauneuf-du-pape-font-de-michelle",
+              "fr-chateauneuf-du-pape-bois-lauzon",
+              "fr-chateauneuf-du-pape-la-solitude",
+              "fr-chateauneuf-du-pape-le-cristia-courthezon"
+            ],
+            "label": "Lieux-dits of Châteauneuf"
+          }
+        },
+        {
+          "text": "Start with La Crau, the classic. The core lieu-dit covers 37.7 ha of delimited land at about 95 to 125 m, the highest and most exposed plateau in the appellation, and the same pebble terrace runs on across the commune boundary into Bédarrides and Courthézon. The Brunier family has farmed here since the 1890s; their Domaine du Vieux Télégraphe is named after a Chappe optical telegraph tower built on the plateau in 1821. Domaine du Pegau and Henri Bonneau's legendary Réserve des Célestins also draw on La Crau.\n\nWines from here are dense, spicy and slow to open, with garrigue and kirsch. In 2022, August hailstorms hit the plateau so hard that Vieux Télégraphe brought in no grapes for its flagship La Crau red.",
+          "map": {
+            "fly": {
+              "lon": 4.868,
+              "lat": 44.054,
+              "zoom": 13.7
+            },
+            "base": "satellite",
+            "highlight": [
+              "fr-chateauneuf-du-pape-la-crau",
+              "fr-chateauneuf-du-pape-la-crau-est-bedarrides",
+              "fr-chateauneuf-du-pape-la-crau-ouest-bedarrides",
+              "fr-chateauneuf-du-pape-la-crau-sud-bedarrides",
+              "fr-chateauneuf-du-pape-la-crau-est-courthezon",
+              "fr-chateauneuf-du-pape-la-crau-ouest-courthezon",
+              "fr-chateauneuf-du-pape-la-crau-sud-courthezon",
+              "site-fr-domaine-du-vieux-telegraphe"
+            ],
+            "label": "La Crau, across three communes"
+          }
+        },
+        {
+          "text": "In the northwest, a second pebble terrace carries the two biggest lieux-dits. Cabrières, the largest of all with 217.3 ha of delimited land, spreads around the Mont de Cabrières and across into Orange: deep galets over red clay in the full force of the mistral. Next door, Montredon (78.4 ha) is home to Château Mont-Redon, one of the largest single estates in the appellation and a byword for reliable, classic, Grenache-led red.\n\nThese are wines of power and structure. Now look at the lower ground to the south and west, where Pierre à Feu ('fire stone', for flints that spark when struck) lies at only 30 to 40 m. Same appellation, very different drainage, heat and light.",
+          "map": {
+            "fly": {
+              "lon": 4.812,
+              "lat": 44.074,
+              "zoom": 13
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape-cabrieres",
+              "fr-chateauneuf-du-pape-montredon",
+              "fr-chateauneuf-du-pape-pierre-a-feu",
+              "site-fr-chateau-mont-redon"
+            ],
+            "label": "Cabrières and Montredon"
+          }
+        },
+        {
+          "text": "Swing to the northeast. Le Rayas (15.1 ha) faces north among woods at 65 to 110 m on sand, and its neighbour Pignan (54.9 ha) gives Château Rayas the name of its second wine. Le Grès, a small lieu-dit named for its sandstone, shows the same soil in miniature. Farther north, on flat land at 55 to 60 m, Coudoulet lies beside the Perrins' Château de Beaucastel, on pebbles again.\n\nSo within about 3 km you have the coolest, sandiest corner of the appellation and one of its stoniest, with two of its most famous estates making completely different wines from them. Taste a sand-grown wine beside La Crau once and you will never again think of Châteauneuf as a single taste.",
+          "map": {
+            "fly": {
+              "lon": 4.85,
+              "lat": 44.083,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape-le-rayas",
+              "fr-chateauneuf-du-pape-pignan",
+              "fr-chateauneuf-du-pape-le-gres",
+              "fr-chateauneuf-du-pape-coudoulet",
+              "site-fr-chateau-rayas",
+              "site-fr-chateau-de-beaucastel"
+            ],
+            "label": "Sand around Rayas, stones at Beaucastel"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Domaine du Vieux Télégraphe Châteauneuf-du-Pape La Crau",
+          "why": "The textbook wine of the pebble plateau: dense, spicy, garrigue-scented and long-lived. Decant it, and keep a glass for the next day.",
+          "price": "$95–110",
+          "try": [
+            "Domaine du Vieux Télégraphe"
+          ],
+          "place": "fr-chateauneuf-du-pape-la-crau"
+        },
+        {
+          "wine": "Château Rayas Châteauneuf-du-Pape (the dream bottle)",
+          "why": "The benchmark for sand-grown Grenache: pale, perfumed, transparent and astonishingly long-lived. Rare and very expensive; Millesima USA listed the 2009 at $2,995 in 2026.",
+          "price": "about $3,000 (mature vintage)",
+          "try": [
+            "Château Rayas"
+          ],
+          "place": "fr-chateauneuf-du-pape-le-rayas"
+        }
+      ],
+      "deeper": [
+        "fr-chateauneuf-du-pape-la-crau",
+        "fr-chateauneuf-du-pape-cabrieres",
+        "fr-chateauneuf-du-pape-montredon",
+        "fr-chateauneuf-du-pape-le-rayas",
+        "fr-chateauneuf-du-pape-pignan",
+        "fr-chateauneuf-du-pape-coudoulet",
+        "fr-chateauneuf-du-pape-pierre-a-feu",
+        "site-fr-la-crau-plateau"
+      ],
+      "check": [
+        {
+          "q": "What is the largest lieu-dit in Châteauneuf-du-Pape?",
+          "options": [
+            "La Crau",
+            "Cabrières",
+            "Le Rayas",
+            "Le Grès"
+          ],
+          "answer": 1,
+          "why": "Cabrières has 217.3 ha of delimited land on the northwestern pebble terrace, against 37.7 ha for the core of La Crau."
+        },
+        {
+          "q": "What gave Domaine du Vieux Télégraphe its name?",
+          "options": [
+            "A telegraph office in the village",
+            "A Chappe optical telegraph tower built on La Crau in 1821",
+            "A founder who worked as a telegraph operator",
+            "Wine once sold by telegram"
+          ],
+          "answer": 1,
+          "why": "Claude Chappe's optical telegraph network put a signal tower on the plateau in 1821."
+        },
+        {
+          "q": "When may a lieu-dit name appear on a Châteauneuf label?",
+          "options": [
+            "Never",
+            "When all the grapes come from it",
+            "Only on white wine",
+            "Only if INAO classifies it as a grand cru"
+          ],
+          "answer": 1,
+          "why": "Lieux-dits are not separate appellations, but the name may follow Châteauneuf-du-Pape when all the fruit comes from that place."
+        }
+      ]
+    },
+    {
+      "id": "producers",
+      "part": "deeper",
+      "title": "Traditional and modern Châteauneuf",
+      "steps": [
+        {
+          "text": "Châteauneuf's legends were made in old cellars. Château Rayas, founded by Albert Reynaud in 1880, became a cult under his grandson Jacques, who died suddenly in 1997. His nephew Emmanuel then ran Rayas and Château de Fonsalette until his own death on 25 November 2025, aged 61, and his sons now succeed him. Rayas red is pure Grenache from about 12 ha of old, low-yielding vines, aged in foudres more than 70 years old, never new oak, and bottled without fining or filtration.\n\nHenri Bonneau, who died in 2016, made his Réserve des Célestins from old Grenache on La Crau in a tiny cellar in the village, ageing it for years in old casks. Laurence Féraud's Domaine du Pegau keeps the traditional style alive in its Cuvée Réservée.",
+          "map": {
+            "fly": {
+              "lon": 4.838,
+              "lat": 44.06,
+              "zoom": 13.1
+            },
+            "highlight": [
+              "site-fr-chateau-rayas",
+              "site-fr-domaine-henri-bonneau",
+              "site-fr-domaine-du-pegau"
+            ],
+            "label": "Rayas, Bonneau, Pegau"
+          }
+        },
+        {
+          "text": "Beaucastel is traditional in a different way. The Perrins have farmed organically for decades, they use all 13 varieties, and their red relies on a high share of Mourvèdre, which ages slowly and gives the wine its gamey, leathery depth. The family also heats the grapes briefly before fermentation, an old technique that lets them use less sulphur. Their Hommage à Jacques Perrin, first made in 1989 and only in the best years, is one of the most coveted wines of the south.\n\nThe Perrins took Châteauneuf abroad, too. At the end of the 1980s, with the importer Robert Haas, they founded [Tablas Creek](site-us-tablas-creek) in Paso Robles, California, and its imported Rhône vine cuttings went on to supply hundreds of American wineries.",
+          "map": {
+            "fly": {
+              "lon": 4.852,
+              "lat": 44.102,
+              "zoom": 14.2
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-chateau-de-beaucastel",
+              "fr-chateauneuf-du-pape-coudoulet"
+            ],
+            "label": "Château de Beaucastel"
+          }
+        },
+        {
+          "text": "From the 1980s, American critics led by [Robert Parker](event-parker-1982) fell for ripe, opulent Châteauneuf, and the market followed. Estates launched *prestige cuvées*, special bottlings from their oldest vines, often picked very late and aged in new oak barrels, some at 16 percent alcohol. They impress young; the atlas's ageing notes warn that some turn porty with time.\n\nThe pendulum is swinging back. Many growers now pick earlier, favour older and larger casks, and blend in white grapes or more Mourvèdre and Counoise for freshness. Clos des Papes, the Avril family estate with about 40 ha spread across some 30 parcels, stands for the middle path: one red, no prestige cuvée, built to age, and Wine Spectator's Wine of the Year for its 2005 vintage.",
+          "map": {
+            "fly": {
+              "lon": 4.836,
+              "lat": 44.05,
+              "zoom": 14
+            },
+            "highlight": [
+              "site-fr-clos-des-papes",
+              "fr-chateauneuf-du-pape-le-village"
+            ],
+            "label": "Clos des Papes"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château de Beaucastel Châteauneuf-du-Pape Rouge",
+          "why": "The Mourvèdre-driven classic: savoury, smoky and earthy, closed when young. Open it beside a Grenache-led Châteauneuf to taste what Mourvèdre does.",
+          "price": "$80–100",
+          "try": [
+            "Famille Perrin"
+          ],
+          "place": "fr-chateauneuf-du-pape"
+        },
+        {
+          "wine": "Clos des Papes Châteauneuf-du-Pape Rouge",
+          "why": "One red from some 30 parcels across the appellation: the argument for blending soils, made to age for decades.",
+          "price": "$130–150",
+          "try": [
+            "Clos des Papes (Paul-Vincent Avril)"
+          ],
+          "place": "fr-chateauneuf-du-pape"
+        }
+      ],
+      "deeper": [
+        "site-fr-chateau-rayas",
+        "site-fr-domaine-henri-bonneau",
+        "site-fr-domaine-du-pegau",
+        "site-fr-chateau-de-beaucastel",
+        "site-fr-clos-des-papes",
+        "site-us-tablas-creek",
+        "event-parker-1982"
+      ],
+      "check": [
+        {
+          "q": "What is unusual about Château Rayas red?",
+          "options": [
+            "It is mostly Syrah",
+            "It is pure Grenache from sandy, north-facing sites",
+            "It is aged in new oak",
+            "It is a rosé"
+          ],
+          "answer": 1,
+          "why": "Rayas makes 100 percent Grenache from old vines on sand, aged in very old foudres."
+        },
+        {
+          "q": "Which grape gives Beaucastel's red its gamey, slow-ageing depth?",
+          "options": [
+            "Cinsault",
+            "Mourvèdre",
+            "Clairette",
+            "Viognier"
+          ],
+          "answer": 1,
+          "why": "Beaucastel uses all 13 varieties but an unusually high share of Mourvèdre."
+        },
+        {
+          "q": "What is a prestige cuvée?",
+          "options": [
+            "A co-operative's basic wine",
+            "A special bottling, often from old vines and new oak",
+            "A wine from outside the appellation",
+            "A rosé bled from the tank"
+          ],
+          "answer": 1,
+          "why": "Prestige cuvées spread from the 1990s: late-picked old-vine selections, often in new oak."
+        }
+      ]
+    },
+    {
+      "id": "white",
+      "part": "deeper",
+      "title": "White Châteauneuf and the southern whites",
+      "steps": [
+        {
+          "text": "Only about 7 percent of Châteauneuf is white, and it is one of the most underrated wines in France. The blend is built from [Grenache Blanc](grape-grenache-blanc), [Clairette](grape-clairette), [Roussanne](grape-roussanne) and Bourboulenc, with a little Picpoul and Picardan. Clairette and Bourboulenc bring freshness and a bitter-almond grip, Roussanne brings texture, honey and the ability to age, and Grenache Blanc brings weight.\n\nLimestone helps. Les Terres Blanches, the 'white earths' near the village, is named for its pale limestone and marl, and growers prize such soils for whites because they keep acidity in the heat. To the southeast, Château La Nerthe, documented since 1560 and one of the first estates to sell wine under its own name, makes one of the most widely available white Châteauneufs.",
+          "map": {
+            "fly": {
+              "lon": 4.848,
+              "lat": 44.054,
+              "zoom": 13
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape-les-terres-blanches",
+              "fr-chateauneuf-du-pape-la-nerthe",
+              "site-fr-chateau-la-nerthe"
+            ],
+            "label": "Terres Blanches and La Nerthe"
+          }
+        },
+        {
+          "text": "White Châteauneuf has a strange life in bottle. It is lovely in its first year or two, all white flowers, pear and fennel; then it often closes up and tastes flat for several years, and it re-emerges after about eight years with honey, beeswax and nuts. The atlas's ageing profile puts its best drinking at 2 to 10 years, with the best bottles lasting about 18. Beaucastel's Roussanne Vieilles Vignes is the famous long-lived example.\n\nWhite grapes have another job now: freshening the reds. Châteauneuf has always allowed white varieties in the red blend, and as summers get hotter some growers are adding more Clairette, Bourboulenc or Picpoul to their reds again, for acidity and lower alcohol, reviving an old local habit.",
+          "map": {
+            "fly": {
+              "lon": 4.853,
+              "lat": 44.104,
+              "zoom": 13.6
+            },
+            "highlight": [
+              "site-fr-chateau-de-beaucastel"
+            ],
+            "label": "Beaucastel's Roussanne"
+          }
+        },
+        {
+          "text": "Beyond Châteauneuf, whites are the south's quiet growth story. Laudun, promoted to cru in 2024, makes about 30 percent white from limestone and sandy soils on the Gard bank: fresh and floral. Lirac makes rich whites from Clairette, Grenache Blanc and Bourboulenc. And in September 2022 INAO's national committee voted to allow white Gigondas for the first time, from the 2023 vintage, with at least 70 percent Clairette, a grape that keeps its freshness at altitude.\n\nThese whites tell the same terroir story as the reds: limestone and height for freshness, pebbles and heat for weight. If you like full, textured Mediterranean whites, they are some of the most interesting in France.",
+          "map": {
+            "fly": "fr-laudun",
+            "highlight": [
+              "fr-laudun",
+              "fr-lirac"
+            ],
+            "label": "Laudun and Lirac"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "White Châteauneuf-du-Pape",
+          "why": "Weight without heaviness: pear, fennel, white flowers and a bitter-almond finish. Drink one young; keep one for eight years.",
+          "price": "$60–90",
+          "try": [
+            "Château La Nerthe"
+          ],
+          "place": "fr-chateauneuf-du-pape"
+        },
+        {
+          "wine": "Domaine du Pegau Cuvée Réservée Blanc",
+          "why": "Clairette-led (about 60 percent) white from a red specialist: taut, citrus and white flowers, with a long, juicy finish.",
+          "price": "$110–120",
+          "try": [
+            "Domaine du Pegau"
+          ],
+          "place": "fr-chateauneuf-du-pape"
+        }
+      ],
+      "deeper": [
+        "fr-chateauneuf-du-pape-les-terres-blanches",
+        "fr-chateauneuf-du-pape-la-nerthe",
+        "site-fr-chateau-la-nerthe",
+        "grape-clairette",
+        "grape-roussanne",
+        "grape-grenache-blanc",
+        "fr-laudun"
+      ],
+      "check": [
+        {
+          "q": "About what share of Châteauneuf-du-Pape is white?",
+          "options": [
+            "7 percent",
+            "25 percent",
+            "50 percent",
+            "None; white is not allowed"
+          ],
+          "answer": 0,
+          "why": "The syndicate counts 93 percent red and 7 percent white."
+        },
+        {
+          "q": "Which grape gives white Châteauneuf texture, honey and the ability to age?",
+          "options": [
+            "Clairette",
+            "Roussanne",
+            "Bourboulenc",
+            "Picpoul"
+          ],
+          "answer": 1,
+          "why": "Clairette and Bourboulenc bring freshness; Roussanne brings texture and longevity."
+        },
+        {
+          "q": "From which vintage may Gigondas be white?",
+          "options": [
+            "1971",
+            "2005",
+            "2023",
+            "It may not"
+          ],
+          "answer": 2,
+          "why": "INAO approved white Gigondas in September 2022 for the 2023 vintage, with at least 70 percent Clairette."
+        }
+      ]
+    },
+    {
+      "id": "vintages",
+      "part": "deeper",
+      "title": "Vintages, heat and when to drink",
+      "steps": [
+        {
+          "text": "The atlas's weather record for Châteauneuf, built from TerraClimate data, shows the change plainly. The average temperature of the April to October growing season was 18.9°C in 1961–1990 and 20.2°C in 1991–2020, and 2022 reached 22.4°C, the warmest season since the series begins in 1950. Days above 35°C averaged about 13 a season in 1961–1990 and 32 in 2016–2025; 2003 had 48 and 2022 had 47.\n\nGrenache loves heat, but there are limits. Hotter seasons mean riper sugars, higher alcohol, lower acidity and a risk of cooked, raisined flavours, and drought can shut the vines down altogether. Some 2016 Châteauneufs from Domaine de la Charbonnière reached 16 percent alcohol.",
+          "map": {
+            "fly": "fr-chateauneuf-du-pape",
+            "highlight": [
+              "fr-chateauneuf-du-pape"
+            ],
+            "label": "Châteauneuf's weather record"
+          }
+        },
+        {
+          "text": "Vintage still matters here, because the south's weather swings between drought, rain and frost. A quick tour from the atlas's vintage notes: 2003 brought extreme heat, drought and shrivelled berries. 2005 combined warm days with cold nights, for structure. 2007, one of the driest years on record, was kept healthy by more than two weeks of mistral. 2010 lost crop to coulure but gave fresh, ripe wines. A cold flowering in 2013 meant a tiny crop of lighter wine. 2016 was hot but finished with cool nights: fresh, firm, balanced. 2018 brought downy mildew after a wet spring. 2019 and 2022 were scorching droughts, and 2022 added hail. 2023 gave a long, healthy harvest, 2024 a small, fresh crop after frost and coulure, and 2025 heatwaves and smaller yields.",
+          "map": {
+            "fly": {
+              "lon": 4.85,
+              "lat": 44.06,
+              "zoom": 11.4
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape",
+              "fr-gigondas",
+              "fr-vacqueyras"
+            ],
+            "label": "Vintage by vintage"
+          }
+        },
+        {
+          "text": "Growers are adapting. Many now pick earlier, keep more leaves to shade the grapes, and replant Mourvèdre and Counoise, which ripen later and hold their acidity. Higher and north-facing sites that were once second-best, the kind of ground Rayas has always farmed, look better every decade, which is good news for Ventoux, Vinsobres and Gigondas.\n\nThe rules are moving too. Since autumn 2024 the Côtes du Rhône and Côtes du Rhône Villages rules include four 'varieties of interest for adaptation' on a ten-year trial: Carignan Blanc, Rolle (Vermentino) and two disease-resistant newcomers, Floréal and Vidoc. Growers may plant them on up to 5 percent of an estate and use up to 10 percent in a blend.",
+          "map": {
+            "fly": "fr-cotes-du-rhone",
+            "highlight": [
+              "fr-cotes-du-rhone",
+              "fr-ventoux",
+              "fr-vinsobres"
+            ],
+            "label": "Adapting to heat"
+          }
+        },
+        {
+          "text": "So when should you open the bottles from this Path? The atlas's ageing profiles give a rough map. Côtes du Rhône and Ventoux reds are best within about four years. Côtes du Rhône Villages, Rasteau, Cairanne and Lirac reds open after two years and peak from about three to eight. Vacqueyras peaks at 4 to 10 years and Gigondas at 6 to 15. Standard red Châteauneuf is approachable at five and best from 8 to 18 years, while top estates and old-vine cuvées need about eight years and run from 10 to 25, with great bottles going to 40. Tavel and Muscat de Beaumes-de-Venise are best within three.\n\nThe best experiment is the simplest: buy two bottles of the same Châteauneuf, drink one now and one in eight years.",
+          "map": {
+            "fly": {
+              "lon": 4.865,
+              "lat": 44.055,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape-la-crau",
+              "site-fr-domaine-du-vieux-telegraphe"
+            ],
+            "label": "Built to age"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Two bottles of the same classic Châteauneuf-du-Pape",
+          "why": "Open one now and lay the other down until about 2034. The young wine shows fruit and alcohol; the older one should show leather, dried herbs, truffle and a calmer texture.",
+          "price": "$50–70 each",
+          "try": [
+            "Clos du Mont-Olivet",
+            "Mas de Boislauzon (Tradition)"
+          ],
+          "place": "fr-chateauneuf-du-pape"
+        }
+      ],
+      "deeper": [
+        "fr-chateauneuf-du-pape",
+        "fr-gigondas",
+        "fr-ventoux",
+        "term-growing-degree-days-gdd",
+        "term-downy-mildew",
+        "term-coulure",
+        "term-huglin-index"
+      ],
+      "check": [
+        {
+          "q": "In the atlas's record, how did Châteauneuf's growing-season average change between 1961–1990 and 1991–2020?",
+          "options": [
+            "It fell by about 1°C",
+            "It rose from 18.9°C to 20.2°C",
+            "It stayed the same",
+            "It rose from 15°C to 22°C"
+          ],
+          "answer": 1,
+          "why": "The April to October mean rose by 1.3°C between the two normals, and 2022 reached 22.4°C."
+        },
+        {
+          "q": "Which vintage was kept healthy by more than two weeks of mistral in a very dry year?",
+          "options": [
+            "2002",
+            "2007",
+            "2013",
+            "2018"
+          ],
+          "answer": 1,
+          "why": "2007 was one of the driest years on record, and long mistral spells in late August and early September kept the grapes clean and concentrated."
+        },
+        {
+          "q": "Roughly when is a standard red Châteauneuf at its best?",
+          "options": [
+            "Within two years",
+            "About 8 to 18 years after the vintage",
+            "Only after 50 years",
+            "On release and never after"
+          ],
+          "answer": 1,
+          "why": "The atlas profile gives ready at about five years and a peak from 8 to 18, with top cuvées lasting longer."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "syrah",
+    "rioja",
+    "burgundy"
+  ],
+  "sources": [
+    {
+      "title": "Inter Rhône, Chiffres clés 2025 / Key figures 2025",
+      "url": "https://www.vins-rhone.com/sites/vignoble/files/documentation/2026-05/INTER-RHONE-CHIFFRES-CLES-2025-EN.pdf"
+    },
+    {
+      "title": "Châteauneuf-du-Pape growers' federation: the 90th anniversary of the first six AOCs",
+      "url": "https://en.chateauneuf.com/the-90th-anniversary-of-the-first-6-controlled-appellations-in-france/"
+    },
+    {
+      "title": "Châteauneuf-du-Pape growers' federation: the bottle",
+      "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/history-chateauneuf-du-pape/bottle-chateauneuf-du-pape/"
+    },
+    {
+      "title": "Châteauneuf-du-Pape growers' federation: the association and Baron Le Roy",
+      "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/history-chateauneuf-du-pape/association-chateauneuf-du-pape/"
+    },
+    {
+      "title": "Châteauneuf-du-Pape growers' federation: soil map",
+      "url": "https://en.chateauneuf.com/appellation-chateauneuf-du-pape/soil-vineyard-map/"
+    },
+    {
+      "title": "Andrew Jefford, Jefford on Monday: the mistral (Decanter)",
+      "url": "https://www.decanter.com/wine-news/opinion/jefford-on-monday/andrew-jefford-on-monday-mistral-wind-300232/"
+    },
+    {
+      "title": "Andrew Jefford, Jefford on Monday: fine, fresh wines from Châteauneuf sand (Decanter)",
+      "url": "https://www.decanter.com/wine-news/opinion/jefford-on-monday/jefford-on-monday-fine-fresh-wines-chateauneuf-sand-394654/"
+    },
+    {
+      "title": "Châteauneuf-du-Pape AOC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teauneuf-du-Pape_AOC"
+    },
+    {
+      "title": "Domaine du Vieux Télégraphe: history",
+      "url": "https://www.vieux-telegraphe.fr/en/?p=1233"
+    },
+    {
+      "title": "Wine Spectator: Château Rayas' Emmanuel Reynaud dies at 61 (26 November 2025)",
+      "url": "https://www.winespectator.com/articles/chateau-rayas-emmanuel-reynaud-obituary"
+    },
+    {
+      "title": "Château de Beaucastel (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Beaucastel"
+    },
+    {
+      "title": "The Drinks Business: Gigondas AOC extended to white wines from 2023 vintage",
+      "url": "https://www.thedrinksbusiness.com/2022/09/gigondas-aoc-extended-to-white-wines-from-2023-vintage/"
+    },
+    {
+      "title": "Dentelles de Montmirail (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Dentelles_de_Montmirail"
+    },
+    {
+      "title": "INAO, cahier des charges AOC Muscat de Beaumes-de-Venise",
+      "url": "https://extranet.inao.gouv.fr/fichier/CDCMuscatBeaumedeVenisePNO2020.pdf"
+    },
+    {
+      "title": "Syndicat des vins de Beaumes de Venise: Muscat de Beaumes de Venise",
+      "url": "https://www.beaumesdevenise-aoc.fr/our-wines/aoc-muscat-de-beaumes-de-venise/?lang=en"
+    },
+    {
+      "title": "Inter Rhône: AOC Vin Doux Naturel Rasteau",
+      "url": "https://www.vins-rhone.com/en/aoc-vin-doux-naturel-rasteau"
+    },
+    {
+      "title": "Côtes du Rhône growers: VIFA, four new grape varieties under trial",
+      "url": "https://www.cotesdurhone.com/en/vifa-4-new-grape-varieties-under-trial-cotes-du-rhone"
+    },
+    {
+      "title": "Wein.plus: Châteauneuf-du-Pape reds to include more white wine against climate change",
+      "url": "https://magazine.wein-plus.eu/news/rotweine-aus-chateauneuf-du-pape-enthalten-kuenftig-weisswein-weniger-alkohol-mehr-saeure-und-frische-gegen-folgen-des-klimawandels"
+    },
+    {
+      "title": "The Wine Cellar Insider: Châteauneuf-du-Pape vintage chart (atlas vintage notes)",
+      "url": "https://www.thewinecellarinsider.com/rhone-wines-cote-rotie-hermitage-chateauneuf-du-pape/chateauneuf-du-pape-wine-producer-profiles/chateauneuf-du-pape-southern-rhone-vintage-chart-1978-today/"
+    },
+    {
+      "title": "Wine With Seth: Southern Rhône vintages (atlas vintage notes)",
+      "url": "https://www.winewithseth.com/winewiki/vintages/southern-rhone/"
+    },
+    {
+      "title": "Houston Wine Merchant: Vieux Télégraphe La Crau 2023 (price; no 2022 after hail)",
+      "url": "https://www.houstonwines.com/wines/Domaine-du-Vieux-Telegraphe-Chateauneuf-du-Pape-La-Crau-2023-w8337565ig"
+    },
+    {
+      "title": "Allendale Wine: Château de Beaucastel 2022, Saint Cosme Gigondas 2023, Aquéria Tavel 2024 (prices)",
+      "url": "https://www.allendalewine.com/products/13545144/chateau-de-beaucastel-chateauneuf-du-pape-2022"
+    },
+    {
+      "title": "Bassins: Southern Rhône and Syrah listings (prices)",
+      "url": "https://bassins.com/search?q=syrah&type=product"
+    },
+    {
+      "title": "67 Wine: Côtes du Rhône, Châteauneuf and Muscat listings (prices)",
+      "url": "https://67wine.com/search?q=syrah&type=product"
+    },
+    {
+      "title": "Millesima USA: Château Rayas 2009 (price)",
+      "url": "https://www.millesima-usa.com/chateau-rayas-chateauneuf-du-pape-2009-c-nc-1.html"
+    },
+    {
+      "title": "Skurnik Wines: Clos des Papes producer page",
+      "url": "https://www.skurnik.com/producer/clos-des-papes-2/"
+    },
+    {
+      "title": "Kermit Lynch: The return of one of the greats (Vieux Télégraphe and the 2022 hail)",
+      "url": "https://shop.kermitlynch.com/newsletter-article/the-return-of-one-of-the-greats"
+    }
+  ]
+}

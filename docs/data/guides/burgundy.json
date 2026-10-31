@@ -1,0 +1,1575 @@
+{
+  "id": "burgundy",
+  "kind": "region",
+  "title": "Burgundy",
+  "subtitle": "From the Côte d'Or to a single climat",
+  "tagline": "Learn why a few rows of Pinot Noir on one hillside can be worth a hundred times the rows below them, and taste the difference.",
+  "minutes": 20,
+  "deeper_minutes": 16,
+  "cover": "fr-vosne-romanee",
+  "countries": [
+    "fr"
+  ],
+  "intro": "Burgundy is two grapes, Pinot Noir and Chardonnay, and a thousand years of arguing about which patch of hillside grows them best. This path flies from the whole region down to single vineyards in 3D, explains the pyramid of regional, village, premier cru and grand cru wine, and builds a tasting flight that climbs it one bottle at a time.",
+  "chapters": [
+    {
+      "id": "map",
+      "part": "intro",
+      "title": "Two grapes and one long hill",
+      "steps": [
+        {
+          "text": "Start with the whole map. [Burgundy](region-fr-burgundy) runs south from [Chablis](region-fr-chablis-and-the-grand-auxerrois), about 120 km northwest of Beaune and closer to Champagne than to the rest of the region, through the [Côte de Nuits](region-fr-cote-de-nuits) and the [Côte de Beaune](region-fr-cote-de-beaune), then the [Côte Chalonnaise](region-fr-cote-chalonnaise) and the [Mâconnais](region-fr-maconnais). Its 32,000 hectares of vines are about a third of Bordeaux's, and the region sells about 200 million bottles a year.\n\nBurgundy's fame is out of all proportion to that size, and the reason is not a grape or a cellar trick. It is an idea: that a named patch of hillside, sometimes smaller than a football field, makes a wine you can recognise year after year. This guide walks you from the whole region down to those patches, with something to drink at every step.",
+          "map": {
+            "fly": {
+              "lon": 4.35,
+              "lat": 47.05,
+              "zoom": 6.9
+            },
+            "highlight": [
+              "region-fr-chablis-and-the-grand-auxerrois",
+              "region-fr-cote-de-nuits",
+              "region-fr-cote-de-beaune",
+              "region-fr-cote-chalonnaise",
+              "region-fr-maconnais"
+            ],
+            "label": "Burgundy, Chablis to the Mâconnais"
+          }
+        },
+        {
+          "text": "Two grapes do almost everything. [Chardonnay](grape-chardonnay) covers 57% of the vineyard and [Pinot Noir](grape-pinot-noir) 34%; sharp, lemony [Aligoté](grape-aligote) takes 6%, and Gamay and a few others the rest. So Burgundy today is mostly a white-wine region: 61% of its wine is white, 27% red or rosé and 12% sparkling Crémant de Bourgogne.\n\nPinot Noir is why the region is famous and why it is difficult. Its thin skins give pale, perfumed wine with modest tannin, so it shows every difference of soil, slope and weather instead of covering them with power. Chardonnay is more neutral, which makes it a mirror too: lean and saline in [Chablis](fr-chablis), broad and nutty in [Meursault](fr-meursault), ripe and round in the [Mâconnais](fr-macon-villages). Same grape, three accents.",
+          "map": {
+            "fly": "region-fr-burgundy",
+            "highlight": [
+              "fr-chablis",
+              "fr-meursault",
+              "fr-puligny-montrachet",
+              "fr-macon-villages",
+              "fr-pouilly-fuisse",
+              "fr-gevrey-chambertin",
+              "fr-vosne-romanee"
+            ],
+            "label": "White north and south, red in the middle"
+          }
+        },
+        {
+          "text": "Now look at the heart of it in 3D. The Côte d'Or, usually read as the golden slope, is a single escarpment about 50 km long from Dijon to the Maranges, often only a few hundred metres wide. It is a fault scarp: as the Alps rose, the Bresse plain to the east sank along the Saône fault, and the edge of the limestone plateau was left standing as one long step.\n\nVines climb its east and southeast flank. They get the sun from dawn, while the wooded plateau of the Hautes-Côtes behind shelters them from western rain. On the map you can read the three bands: forest on top, a strip of vines, then the flat plain with the old N74 road (now the D974) along its edge. Almost every rule in Burgundy's classification is about where on that strip a vine stands.",
+          "map": {
+            "fly": {
+              "lon": 4.905,
+              "lat": 47.112,
+              "zoom": 10.4
+            },
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 290,
+            "highlight": [
+              "region-fr-cote-de-nuits",
+              "region-fr-cote-de-beaune"
+            ],
+            "label": "The Côte d'Or escarpment"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bourgogne Rouge (Pinot Noir) from a reliable house",
+          "why": "Step one of a red flight that runs through this guide. Notice the colour you can read a page through, the red cherry, and the acidity that makes your mouth water. That transparency is Pinot Noir; every later bottle adds place on top of it. The atlas window: drink from two to six years after the vintage.",
+          "price": "$20–35",
+          "try": [
+            "Joseph Drouhin (Laforêt)",
+            "Louis Jadot",
+            "Domaine Faiveley"
+          ],
+          "place": "fr-bourgogne"
+        },
+        {
+          "wine": "Mâcon-Villages",
+          "why": "Step one of the white flight, from Burgundy's warm south: ripe apple and melon, a soft texture and little or no new oak. Keep its taste in mind; in chapter 5 you will meet the same grape in Chablis and Meursault.",
+          "price": "$15–30",
+          "try": [
+            "Louis Jadot",
+            "Héritiers du Comte Lafon"
+          ],
+          "place": "fr-macon-villages"
+        }
+      ],
+      "deeper": [
+        "region-fr-burgundy",
+        "grape-pinot-noir",
+        "grape-chardonnay",
+        "grape-aligote",
+        "fr-bourgogne",
+        "fr-bourgogne-cote-d-or",
+        "soil-limestone-marl-cote-dor"
+      ],
+      "check": [
+        {
+          "q": "Which grape covers the most vineyard in Burgundy today?",
+          "options": [
+            "Pinot Noir",
+            "Chardonnay",
+            "Gamay",
+            "Aligoté"
+          ],
+          "answer": 1,
+          "why": "Chardonnay covers 57% of the vineyard against 34% for Pinot Noir, and 61% of Burgundy's wine is white."
+        },
+        {
+          "q": "What made the Côte d'Or slope?",
+          "options": [
+            "A river cutting a valley",
+            "A fault, where the Bresse plain sank as the Alps rose",
+            "An ancient volcano",
+            "Glaciers scraping the hills"
+          ],
+          "answer": 1,
+          "why": "The Côte d'Or is a fault scarp: the plain dropped along the Saône fault and left the edge of the limestone plateau standing."
+        },
+        {
+          "q": "Roughly what share of Burgundy's wine is white?",
+          "options": [
+            "About a quarter",
+            "About 40%",
+            "About 60%",
+            "Nearly 90%"
+          ],
+          "answer": 2,
+          "why": "The BIVB puts white at 61%, red and rosé at 27% and Crémant at 12%."
+        }
+      ]
+    },
+    {
+      "id": "climats",
+      "part": "intro",
+      "title": "Monks, dukes and the idea of the climat",
+      "steps": [
+        {
+          "text": "Burgundy's way of thinking about land was built by monks. The Benedictine abbey of Cluny was founded in 910 in the Mâconnais hills, and the Cistercians' abbey of Cîteaux in 1098, on the plain just east of the Côte de Nuits. Gifts of land gave the Cistercians their first plots at Vougeot early in the twelfth century, and by 1336 they had assembled about 50 hectares and walled them in.\n\nThat is the [Clos de Vougeot](fr-clos-de-vougeot). On satellite you can follow the stone wall drawing its long rectangle around the vines, with the monks' château and presses at the top corner. A [clos](term-clos) is simply a walled vineyard, and the Côte is full of them: Clos de Bèze, Clos de Tart, Clos Saint-Jacques. Walls mattered because they marked land someone had judged worth protecting.",
+          "map": {
+            "fly": {
+              "lon": 4.9578,
+              "lat": 47.1715,
+              "zoom": 15.2
+            },
+            "base": "satellite",
+            "highlight": [
+              "fr-clos-de-vougeot",
+              "site-fr-chateau-du-clos-de-vougeot"
+            ],
+            "label": "The monks' wall at Vougeot"
+          }
+        },
+        {
+          "text": "The monks had generations and no deadlines. Working the same plots year after year, they saw that wine from one parcel tasted different from its neighbour's, with the same grape, the same cellar and the same weather. A plot whose wine has a steady personality, a name and a history became a [climat](term-climat). The word has nothing to do with weather here: it means a delimited, named piece of vineyard.\n\nOn 4 July 2015 UNESCO inscribed the climats of the slopes from Dijon to the Maranges, 1,247 of them, on its World Heritage list, together with the old centres of Dijon and Beaune ([UNESCO](event-unesco-landscapes-2015)). Every small shape lit up on this stretch of slope, from [Musigny](fr-musigny) to [La Tâche](fr-la-tache), is a climat with its own name, owners and reputation.",
+          "map": {
+            "fly": {
+              "lon": 4.952,
+              "lat": 47.17,
+              "zoom": 12.7
+            },
+            "highlight": [
+              "fr-musigny",
+              "fr-chambolle-musigny-premier-cru-les-amoureuses",
+              "fr-clos-de-vougeot",
+              "fr-echezeaux",
+              "fr-grands-echezeaux",
+              "fr-romanee-conti",
+              "fr-la-tache",
+              "fr-richebourg",
+              "fr-romanee-saint-vivant",
+              "fr-la-romanee",
+              "fr-la-grande-rue",
+              "fr-vosne-romanee-premier-cru-les-suchots",
+              "fr-vosne-romanee-premier-cru-aux-brulees",
+              "fr-vosne-romanee-premier-cru-les-beaux-monts",
+              "fr-vosne-romanee-premier-cru-cros-parantoux",
+              "fr-vosne-romanee-premier-cru-aux-malconsorts"
+            ],
+            "label": "Climats from Chambolle to Vosne"
+          }
+        },
+        {
+          "text": "The Valois dukes, who ruled Burgundy from 1363 to 1477, used its wine as diplomacy and policed its quality. On 31 July 1395 Philip the Bold ordered growers to uproot the 'very bad and disloyal' [Gamay](grape-gamay) and keep Pinot ([the edict](event-gamay-edict-1395)), which is why Gamay now lives in Beaujolais.\n\nCenturies later the villages borrowed fame from their best climats. Gevrey became [Gevrey-Chambertin](fr-gevrey-chambertin) in 1847, Chambolle added Musigny in 1878, and Puligny and Chassagne added Montrachet in 1879. So a hyphenated village name is the village, not the famous vineyard: Gevrey-Chambertin on a label sits a step below [Chambertin](fr-chambertin) itself. In 1936 and 1937 the new AOC system wrote the whole hierarchy into law ([1937](event-burgundy-grand-crus-1937)).",
+          "map": {
+            "fly": "fr-gevrey-chambertin",
+            "highlight": [
+              "fr-gevrey-chambertin",
+              "fr-chambertin"
+            ],
+            "label": "Gevrey borrows Chambertin's name"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Marsannay rouge",
+          "why": "Step two of the red flight: the first village appellation south of Dijon, promoted to village status only in 1987 and still priced well below its famous neighbours. Next to your chapter 1 bottle, look for more density and a firmer, stonier finish. That is what a named place adds, before you ever reach a premier cru.",
+          "price": "$40–80",
+          "try": [
+            "Domaine Bruno Clair",
+            "Domaine Sylvain Pataille"
+          ],
+          "place": "fr-marsannay"
+        }
+      ],
+      "deeper": [
+        "fr-clos-de-vougeot",
+        "site-fr-chateau-du-clos-de-vougeot",
+        "term-climat",
+        "term-clos",
+        "event-cistercians-clos-vougeot",
+        "event-gamay-edict-1395",
+        "event-unesco-landscapes-2015",
+        "event-burgundy-grand-crus-1937"
+      ],
+      "check": [
+        {
+          "q": "In Burgundy, what is a climat?",
+          "options": [
+            "The weather of a given year",
+            "A named, delimited vineyard plot with its own character",
+            "A size of oak barrel",
+            "A growers' co-operative"
+          ],
+          "answer": 1,
+          "why": "A climat is a named plot whose wine shows a consistent personality. UNESCO listed 1,247 of them in 2015."
+        },
+        {
+          "q": "Who walled the Clos de Vougeot by 1336?",
+          "options": [
+            "The dukes of Burgundy",
+            "The Cistercian monks of Cîteaux",
+            "Napoleon's generals",
+            "The Hospices de Beaune"
+          ],
+          "answer": 1,
+          "why": "Monks from Cîteaux assembled about 50 hectares at Vougeot from the twelfth century and enclosed them by 1336."
+        },
+        {
+          "q": "A label reads Gevrey-Chambertin. What is in the bottle?",
+          "options": [
+            "The grand cru Chambertin",
+            "A village wine from Gevrey, which added Chambertin to its name in 1847",
+            "A premier cru by definition",
+            "A regional Bourgogne"
+          ],
+          "answer": 1,
+          "why": "Villages hyphenated their names to their most famous vineyard; the grand cru itself is labelled simply Chambertin."
+        }
+      ]
+    },
+    {
+      "id": "pyramid",
+      "part": "intro",
+      "title": "The pyramid on a real slope",
+      "steps": [
+        {
+          "text": "Burgundy ranks land, not producers, in four tiers. At the base, regional appellations such as [Bourgogne](fr-bourgogne) can come from anywhere in the region and make just over half the wine. Next come 44 village appellations named after a commune, such as [Vosne-Romanée](fr-vosne-romanee). Inside the villages, more than 600 [premier cru](term-premier-cru) climats add their name after the village's. At the top, 33 [grand crus](term-grand-cru) are appellations in their own right and make about 1% of the wine.\n\nVosne shows the whole pyramid in under two kilometres. Its grand crus together cover only about 28 hectares, yet they include [Romanée-Conti](fr-romanee-conti), usually the most expensive red wine in the world. An old local saying, still quoted by growers, holds that there are no common wines in Vosne.",
+          "map": {
+            "fly": "fr-vosne-romanee",
+            "highlight": [
+              "fr-vosne-romanee"
+            ],
+            "label": "Vosne-Romanée"
+          }
+        },
+        {
+          "text": "Tilt the map and look west, up the slope. The grand crus sit in a band at about 260 to 300 metres, in the middle of the hill: Romanée-Conti, [La Tâche](fr-la-tache), [Richebourg](fr-richebourg), [Romanée-Saint-Vivant](fr-romanee-saint-vivant), [La Romanée](fr-la-romanee) and [La Grande Rue](fr-la-grande-rue). Above them, where the slope steepens toward the woods, lie premiers crus such as [Aux Reignots](fr-vosne-romanee-premier-cru-aux-raignots) and [Cros Parantoux](fr-vosne-romanee-premier-cru-cros-parantoux).\n\nBelow, toward the houses and the road, the land becomes village Vosne-Romanée, and across the N74 on the flat plain it is plain Bourgogne. One continuous field of Pinot Noir, four price levels, separated by a few hundred metres of height and drainage. A bottle from the top band can cost hundreds of times as much as one from the plain.",
+          "map": {
+            "fly": {
+              "lon": 4.9525,
+              "lat": 47.158,
+              "zoom": 13.7
+            },
+            "terrain": true,
+            "pitch": 62,
+            "bearing": 280,
+            "highlight": [
+              "fr-romanee-conti",
+              "fr-la-tache",
+              "fr-richebourg",
+              "fr-romanee-saint-vivant",
+              "fr-la-romanee",
+              "fr-la-grande-rue",
+              "fr-vosne-romanee-premier-cru-aux-raignots",
+              "fr-vosne-romanee-premier-cru-cros-parantoux",
+              "fr-vosne-romanee-premier-cru-les-petis-monts"
+            ],
+            "label": "Vosne: grand crus mid-slope"
+          }
+        },
+        {
+          "text": "Why does the middle win? Up top the soil is a thin skin over hard limestone, the wind is colder and grapes ripen late. At the bottom the soil is deep clay washed down from above: vines grow too vigorously, water lingers, and cold air pooling on the plain brings spring frost. In the middle, a mix of limestone scree and clay is deep enough to feed the vine and thin enough to drain, the slope meets the morning sun at a good angle, and cold air slides past instead of settling.\n\nZoom in on satellite. The small rectangle of Romanée-Conti, 1.81 hectares with a stone cross at its corner, sits right in that sweet spot, with La Romanée just above it and Romanée-Saint-Vivant below. The Prince de Conti bought it in 1760 and gave it his name.",
+          "map": {
+            "fly": {
+              "lon": 4.9503,
+              "lat": 47.1604,
+              "zoom": 15.8
+            },
+            "base": "satellite",
+            "highlight": [
+              "fr-romanee-conti",
+              "fr-la-romanee",
+              "fr-romanee-saint-vivant",
+              "site-fr-romanee-conti"
+            ],
+            "label": "Romanée-Conti, 1.81 ha"
+          }
+        },
+        {
+          "text": "[Gevrey-Chambertin](fr-gevrey-chambertin), 7 km north, draws the same pyramid with a twist. Its nine grand crus line the gentle middle slope south of the village, from [Chambertin-Clos de Bèze](fr-chambertin-clos-de-beze) and [Chambertin](fr-chambertin) down to [Charmes-Chambertin](fr-charmes-chambertin). But its most famous premier cru, [Clos Saint-Jacques](fr-gevrey-chambertin-premier-cru-clos-saint-jacques), sits on a separate southeast-facing slope northwest of the village, beside [Lavaut Saint-Jacques](fr-gevrey-chambertin-premier-cru-lavaut-saint-jacques) and [Les Cazetiers](fr-gevrey-chambertin-premier-cru-les-cazetiers), and it often sells for more than several of the grand crus.\n\nGevrey's village appellation even crosses the N74 onto the plain, an exception to the rule. Treat the pyramid as a strong guide, not a law of nature: the slope explains most of the ranking, and history and politics explain the rest.",
+          "map": {
+            "fly": {
+              "lon": 4.963,
+              "lat": 47.219,
+              "zoom": 13.0
+            },
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 280,
+            "highlight": [
+              "fr-chambertin",
+              "fr-chambertin-clos-de-beze",
+              "fr-chapelle-chambertin",
+              "fr-charmes-chambertin",
+              "fr-mazoyeres-chambertin",
+              "fr-griotte-chambertin",
+              "fr-latricieres-chambertin",
+              "fr-mazis-chambertin",
+              "fr-ruchottes-chambertin",
+              "fr-gevrey-chambertin-premier-cru-clos-saint-jacques",
+              "fr-gevrey-chambertin-premier-cru-lavaut-saint-jacques",
+              "fr-gevrey-chambertin-premier-cru-les-cazetiers"
+            ],
+            "label": "Gevrey's grand crus and the Saint-Jacques slope"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gevrey-Chambertin (village)",
+          "why": "Step three: the village level. Gevrey is the Côte de Nuits at its most muscular, with darker fruit than your Marsannay, more tannin and a savoury, earthy edge. Set it beside the chapter 1 Bourgogne and the jump in depth is the slope talking. The atlas window: approachable at about four years, best from six to fifteen.",
+          "price": "$65–100",
+          "try": [
+            "Louis Jadot",
+            "Domaine Faiveley",
+            "Domaine Trapet"
+          ],
+          "place": "fr-gevrey-chambertin"
+        }
+      ],
+      "deeper": [
+        "fr-vosne-romanee",
+        "fr-romanee-conti",
+        "fr-la-tache",
+        "fr-gevrey-chambertin",
+        "fr-chambertin",
+        "fr-gevrey-chambertin-premier-cru-clos-saint-jacques",
+        "term-grand-cru",
+        "term-premier-cru"
+      ],
+      "check": [
+        {
+          "q": "Roughly what share of Burgundy's wine is grand cru?",
+          "options": [
+            "About 1%",
+            "About 10%",
+            "About 25%",
+            "About half"
+          ],
+          "answer": 0,
+          "why": "The 33 grand crus make about 1% of the wine; regional appellations make just over half."
+        },
+        {
+          "q": "Why are most grand crus on the middle of the slope?",
+          "options": [
+            "They are closest to the village cellars",
+            "The soil drains well yet feeds the vine, and frost-prone cold air slides past",
+            "The monks planted only there",
+            "The middle is the highest point"
+          ],
+          "answer": 1,
+          "why": "Mid-slope combines moderate soil depth, good drainage, morning sun and air movement; the top is thin and cold, the bottom deep, rich and frosty."
+        },
+        {
+          "q": "Which Gevrey premier cru often sells for more than several grand crus?",
+          "options": [
+            "Clos Saint-Jacques",
+            "Clos de Vougeot",
+            "Marsannay",
+            "Les Amoureuses"
+          ],
+          "answer": 0,
+          "why": "Clos Saint-Jacques, on the southeast-facing slope by the Combe Lavaux, is the premier cru many consider grand cru quality. Clos de Vougeot is a grand cru and Les Amoureuses is in Chambolle."
+        }
+      ]
+    },
+    {
+      "id": "two-cotes",
+      "part": "intro",
+      "title": "Côte de Nuits and Côte de Beaune",
+      "steps": [
+        {
+          "text": "The Côte d'Or has two halves. The [Côte de Nuits](region-fr-cote-de-nuits), from the edge of Dijon to Corgoloin, is narrow, steep and built of harder limestone, and it is almost entirely red: 24 of the 32 grand crus of the Côte d'Or lie here.\n\nEach village has a voice. [Marsannay](fr-marsannay) is fresh and floral; [Gevrey-Chambertin](fr-gevrey-chambertin) dark and muscular; [Morey-Saint-Denis](fr-morey-saint-denis) sits between Gevrey's power and Chambolle's grace; [Chambolle-Musigny](fr-chambolle-musigny) is silk and perfume; [Vosne-Romanée](fr-vosne-romanee) is rich and spicy; [Nuits-Saint-Georges](fr-nuits-saint-georges) is firmer and earthier. These are generalisations, and a producer's hand can blur them, but taste enough bottles side by side and they hold.",
+          "map": {
+            "fly": "region-fr-cote-de-nuits",
+            "highlight": [
+              "fr-marsannay",
+              "fr-fixin",
+              "fr-gevrey-chambertin",
+              "fr-morey-saint-denis",
+              "fr-chambolle-musigny",
+              "fr-vougeot",
+              "fr-vosne-romanee",
+              "fr-nuits-saint-georges"
+            ],
+            "label": "Villages of the Côte de Nuits"
+          }
+        },
+        {
+          "text": "Look closely at Chambolle. Its two grand crus sit at opposite ends of the village. [Bonnes-Mares](fr-bonnes-mares), to the north on heavier clay, gives wine with grip and darkness; [Musigny](fr-musigny), to the south on thin soil over limestone, gives what many think the most graceful red in Burgundy. Between Musigny and the wall of the Clos de Vougeot lies [Les Amoureuses](fr-chambolle-musigny-premier-cru-les-amoureuses), a premier cru priced like a grand cru.\n\nChambolle's soils have more limestone and less clay than most of the Côte de Nuits, the usual explanation for its lace-like texture: aroma and length rather than weight. Taste a Chambolle after a Gevrey and you will feel the difference before you can name it.",
+          "map": {
+            "fly": {
+              "lon": 4.957,
+              "lat": 47.183,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "fr-chambolle-musigny",
+              "fr-musigny",
+              "fr-bonnes-mares",
+              "fr-chambolle-musigny-premier-cru-les-amoureuses",
+              "fr-chambolle-musigny-premier-cru-les-charmes"
+            ],
+            "label": "Chambolle-Musigny"
+          }
+        },
+        {
+          "text": "South of Corgoloin, the hill of Corton announces the [Côte de Beaune](region-fr-cote-de-beaune). It is broader and gentler, with wider combes and more marl, and most villages make both colours. The reds are lighter on their feet than the Côte de Nuits'. [Savigny-lès-Beaune](fr-savigny-les-beaune) and [Beaune](fr-beaune) are fragrant and supple; [Pommard](fr-pommard), on heavier clay, is the sturdiest; [Volnay](fr-volnay), higher on the slope with thinner limestone soils, is the most delicate red of the Côte.\n\nOnly eight grand crus lie here, and only one of them, [Corton](fr-corton), makes red; the other seven are white. That imbalance is the Côte de Beaune's identity: it is where Burgundy's great whites live, and the next chapter goes there.",
+          "map": {
+            "fly": "region-fr-cote-de-beaune",
+            "highlight": [
+              "fr-aloxe-corton",
+              "fr-corton",
+              "fr-savigny-les-beaune",
+              "fr-beaune",
+              "fr-pommard",
+              "fr-volnay"
+            ],
+            "label": "Red villages of the Côte de Beaune"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gevrey-Chambertin premier cru",
+          "why": "Step four of the red flight: a premier cru from the same village as chapter 3. Expect the same dark fruit with more concentration, finer tannin and a longer finish. The atlas window: ready at about seven years, best from ten to twenty, so decant a young bottle for an hour or two.",
+          "price": "$130–250",
+          "try": [
+            "Louis Jadot",
+            "Domaine Faiveley (Les Cazetiers)"
+          ],
+          "place": "fr-gevrey-chambertin-premier-cru-les-cazetiers"
+        },
+        {
+          "wine": "Volnay (village)",
+          "why": "The Côte de Beaune answer: paler, more floral, red cherry rather than black, with a silky, airy texture. Tasted after Gevrey it shows how the softer southern slope changes Pinot Noir.",
+          "price": "$60–110",
+          "try": [
+            "Joseph Drouhin",
+            "Bouchard Père & Fils",
+            "Domaine Michel Lafarge"
+          ],
+          "place": "fr-volnay"
+        },
+        {
+          "wine": "Savigny-lès-Beaune rouge",
+          "why": "One of the Côte d'Or's best-value red villages: fragrant, light-bodied Pinot from the valley behind Beaune, often half the price of Volnay.",
+          "price": "$40–65",
+          "try": [
+            "Domaine Chandon de Briailles",
+            "Domaine Simon Bize"
+          ],
+          "place": "fr-savigny-les-beaune"
+        }
+      ],
+      "deeper": [
+        "region-fr-cote-de-nuits",
+        "region-fr-cote-de-beaune",
+        "fr-chambolle-musigny",
+        "fr-musigny",
+        "fr-chambolle-musigny-premier-cru-les-amoureuses",
+        "fr-volnay",
+        "fr-pommard",
+        "fr-nuits-saint-georges"
+      ],
+      "check": [
+        {
+          "q": "Which half of the Côte d'Or holds most of its grand crus?",
+          "options": [
+            "Côte de Nuits",
+            "Côte de Beaune",
+            "They are split evenly",
+            "The Côte Chalonnaise"
+          ],
+          "answer": 0,
+          "why": "24 of the 32 Côte d'Or grand crus are in the Côte de Nuits."
+        },
+        {
+          "q": "Which is the only red grand cru of the Côte de Beaune?",
+          "options": [
+            "Montrachet",
+            "Corton",
+            "Musigny",
+            "Pommard"
+          ],
+          "answer": 1,
+          "why": "Corton makes red (and some white); the other seven Côte de Beaune grand crus are white. Musigny is in the Côte de Nuits and Pommard has no grand cru."
+        },
+        {
+          "q": "Chambolle-Musigny is best known for…",
+          "options": [
+            "Dark, tannic power",
+            "Perfume and a silky texture",
+            "Sweet wine",
+            "Sparkling wine"
+          ],
+          "answer": 1,
+          "why": "Limestone-rich, low-clay soils give Chambolle its fragrant, lace-like style."
+        }
+      ]
+    },
+    {
+      "id": "white",
+      "part": "intro",
+      "title": "White Burgundy, from Meursault to Chablis",
+      "steps": [
+        {
+          "text": "Just south of Volnay the slope turns southeast, the soils grow marlier and stonier, and Chardonnay takes over. [Meursault](fr-meursault), [Puligny-Montrachet](fr-puligny-montrachet) and [Chassagne-Montrachet](fr-chassagne-montrachet) make the reference whites of the world.\n\nMeursault, the largest, has no grand cru but a famous trio of premiers crus on its southern slope toward Puligny: [Perrières](fr-meursault-premier-cru-perrieres), the most mineral; [Genevrières](fr-meursault-premier-cru-genevrieres), more floral; [Charmes](fr-meursault-premier-cru-charmes), the broadest. Village Meursault is the classic picture of white Burgundy: hazelnut, butter and baked apple from fermentation and ageing in barrel on the lees, held up by the acidity of a limestone site. Its cellars are deep and cold, which helps the long, slow ageing.",
+          "map": {
+            "fly": {
+              "lon": 4.758,
+              "lat": 46.96,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "fr-meursault",
+              "fr-meursault-premier-cru-perrieres",
+              "fr-meursault-premier-cru-genevrieres",
+              "fr-meursault-premier-cru-charmes",
+              "fr-puligny-montrachet",
+              "fr-chassagne-montrachet"
+            ],
+            "label": "Meursault, Puligny, Chassagne"
+          }
+        },
+        {
+          "text": "Tilt the map over the border between Puligny and Chassagne. [Montrachet](fr-montrachet), about 8 hectares split almost equally between the two villages, sits on a mid-slope bench of thin soil over hard limestone. [Chevalier-Montrachet](fr-chevalier-montrachet) lies above it on stonier, steeper ground and [Bâtard-Montrachet](fr-batard-montrachet) below on deeper soil, with [Bienvenues](fr-bienvenues-batard-montrachet) and [Criots](fr-criots-batard-montrachet) at its corners. The same mid-slope logic you saw in Vosne, applied to white wine.\n\nPuligny is the cooler, more precise style: lemon, white flowers and a stony line. Its water table is high, so cellars stay shallow. Chassagne is a little rounder and, unusually for this stretch, makes red wine too.",
+          "map": {
+            "fly": {
+              "lon": 4.739,
+              "lat": 46.9425,
+              "zoom": 14.3
+            },
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 290,
+            "highlight": [
+              "fr-montrachet",
+              "fr-chevalier-montrachet",
+              "fr-batard-montrachet",
+              "fr-bienvenues-batard-montrachet",
+              "fr-criots-batard-montrachet",
+              "fr-puligny-montrachet-premier-cru-le-cailleret",
+              "fr-puligny-montrachet-premier-cru-les-pucelles"
+            ],
+            "label": "The five Montrachets"
+          }
+        },
+        {
+          "text": "Now jump about 120 km north to [Chablis](fr-chablis), where Chardonnay grows on [Kimmeridgian](term-kimmeridgian) marl, beds of limestone and clay about 155 million years old packed with tiny fossil oysters. It is cold enough here that spring frost decides many vintages.\n\nThe seven grand crus, from [Bougros](fr-chablis-grand-cru-bougros) to [Blanchot](fr-chablis-grand-cru-blanchot), share one southwest-facing slope above the town on the right bank of the Serein; [Les Clos](fr-chablis-grand-cru-les-clos) is the most structured. Premiers crus such as [Montée de Tonnerre](fr-chablis-premier-cru-montee-de-tonnerre) and [Fourchaume](fr-chablis-premier-cru-fourchaume) flank them. Most Chablis sees little or no new oak, so what you taste is acidity, lemon and a saline, chalky edge often compared to oyster shell.",
+          "map": {
+            "fly": {
+              "lon": 3.808,
+              "lat": 47.815,
+              "zoom": 13.0
+            },
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 45,
+            "highlight": [
+              "fr-chablis-grand-cru-blanchot",
+              "fr-chablis-grand-cru-bougros",
+              "fr-chablis-grand-cru-les-clos",
+              "fr-chablis-grand-cru-grenouilles",
+              "fr-chablis-grand-cru-preuses",
+              "fr-chablis-grand-cru-valmur",
+              "fr-chablis-grand-cru-vaudesir",
+              "fr-chablis-premier-cru-montee-de-tonnerre",
+              "fr-chablis-premier-cru-fourchaume"
+            ],
+            "label": "Chablis grand crus above the Serein"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Chablis (village)",
+          "why": "Step two of the white flight. Next to the Mâcon from chapter 1: less fruit, more acid, a salty, stony finish. Same grape, nearly 200 km further north, on fossil marl. The atlas window: two to six years.",
+          "price": "$25–45",
+          "try": [
+            "Domaine William Fèvre",
+            "Jean-Marc Brocard",
+            "Domaine Laroche"
+          ],
+          "place": "fr-chablis"
+        },
+        {
+          "wine": "Meursault (village)",
+          "why": "Step three: the Côte de Beaune at village level. Fuller, nuttier and creamier than the Chablis, with the oak in the background. The atlas window: ready at about three years, best from four to ten.",
+          "price": "$75–120",
+          "try": [
+            "Louis Jadot",
+            "Domaine Matrot",
+            "Domaine Ballot-Millot"
+          ],
+          "place": "fr-meursault"
+        }
+      ],
+      "deeper": [
+        "fr-meursault",
+        "fr-puligny-montrachet",
+        "fr-chassagne-montrachet",
+        "fr-montrachet",
+        "fr-chablis",
+        "fr-chablis-grand-cru",
+        "soil-kimmeridgian-marl",
+        "term-batonnage"
+      ],
+      "check": [
+        {
+          "q": "Where is Montrachet?",
+          "options": [
+            "Entirely in Meursault",
+            "Split between Puligny-Montrachet and Chassagne-Montrachet",
+            "In Chablis",
+            "In the Côte de Nuits"
+          ],
+          "answer": 1,
+          "why": "Its roughly 8 hectares straddle the boundary of Puligny and Chassagne, both of which added Montrachet to their names in 1879."
+        },
+        {
+          "q": "What rock gives Chablis its character?",
+          "options": [
+            "Granite",
+            "Kimmeridgian marl full of fossil oysters",
+            "Volcanic basalt",
+            "Gravel"
+          ],
+          "answer": 1,
+          "why": "Chablis's grand and premier crus grow on Kimmeridgian marl and limestone about 155 million years old."
+        },
+        {
+          "q": "Which Chablis grand cru is usually the most structured?",
+          "options": [
+            "Les Clos",
+            "Petit Chablis",
+            "Fourchaume",
+            "Bougros"
+          ],
+          "answer": 0,
+          "why": "Les Clos is the largest and firmest grand cru. Fourchaume is a premier cru, Petit Chablis the lowest tier, and Bougros a lighter grand cru."
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "part": "intro",
+      "title": "Reading the label: place, then producer",
+      "steps": [
+        {
+          "text": "A Burgundy label leads with the place, and one village shows the whole code. *Bourgogne* is regional and can come from anywhere in the region. *Gevrey-Chambertin* is a village wine. *Gevrey-Chambertin Premier Cru Lavaut Saint-Jacques* (often written *1er Cru*) names the village, the rank and the climat; without a climat name, a premier cru is a blend of several. And plain *Chambertin, Grand Cru* carries no village name at all, because a grand cru is its own appellation.\n\nIn between, a village wine may name an unranked [lieu-dit](term-lieu-dit), a place name from the land register, such as Gevrey-Chambertin *Les Seuvrées*, in smaller letters. The rule to remember is odd but simple: the greatest wine has the shortest name.",
+          "map": {
+            "fly": {
+              "lon": 4.963,
+              "lat": 47.222,
+              "zoom": 12.8
+            },
+            "highlight": [
+              "fr-gevrey-chambertin",
+              "fr-gevrey-chambertin-premier-cru-lavaut-saint-jacques",
+              "fr-chambertin"
+            ],
+            "label": "One village, three ranks"
+          }
+        },
+        {
+          "text": "The second thing to read is who made it, and in Burgundy that matters as much as the place. A [domaine](term-domaine) grows its own grapes and bottles its own wine: look for *mis en bouteille au domaine* or *à la propriété*. A [négociant](term-negociant) buys grapes, juice or finished wine from growers and sells it under its own name. The big houses of Beaune, such as Louis Jadot, Joseph Drouhin, Bouchard Père & Fils and Louis Latour, also own large vineyards, so many of their best wines are domaine wines in all but name.\n\nUntil the 1930s négociants sold almost everything. Then growers such as the Marquis d'Angerville in Volnay, Henri Gouges in Nuits and Armand Rousseau in Gevrey began bottling their own, and since the 1980s domaine bottling has become the norm at the top.",
+          "map": {
+            "fly": {
+              "lon": 4.838,
+              "lat": 47.019,
+              "zoom": 13.6
+            },
+            "highlight": [
+              "fr-beaune",
+              "site-fr-hospices-de-beaune-hotel-dieu",
+              "site-fr-chateau-de-beaune-bouchard-pere-et-fils",
+              "site-fr-cite-des-climats-et-vins-de-bourgogne-beaune"
+            ],
+            "label": "Beaune, the trading town"
+          }
+        },
+        {
+          "text": "Because one climat can have dozens of owners, the same name on two bottles can mean very different wines. Family names repeat too: Domaine Leflaive and Maison Olivier Leflaive are separate businesses, and Vosne alone has four separate Gros domaines, run by branches of one family. That is why buyers learn growers as carefully as vineyards. A fine producer's Bourgogne often beats a careless one's premier cru.\n\nThe exception is the [monopole](term-monopole), a climat with a single owner. [Romanée-Conti](fr-romanee-conti) and [La Tâche](fr-la-tache) belong entirely to the Domaine de la Romanée-Conti, and [Clos de Tart](fr-clos-de-tart) in Morey to one estate. There the name and the maker are the same thing.",
+          "map": {
+            "fly": {
+              "lon": 4.954,
+              "lat": 47.176,
+              "zoom": 12.3
+            },
+            "highlight": [
+              "fr-romanee-conti",
+              "fr-la-tache",
+              "fr-clos-de-tart",
+              "site-fr-domaine-de-la-romanee-conti"
+            ],
+            "label": "Monopoles"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bourgogne Blanc Les Sétilles from Maison Olivier Leflaive (négociant)",
+          "why": "A négociant blend from Puligny and Meursault vineyards, and the cheapest way into the family's style: citrus, a little butter and a clean, chalky finish. Read the back label: it is bottled by the house, not a domaine.",
+          "price": "$25–35",
+          "try": [
+            "Olivier Leflaive"
+          ],
+          "place": "fr-bourgogne"
+        },
+        {
+          "wine": "Bourgogne Blanc from Domaine Leflaive (domaine)",
+          "why": "Same appellation, same family name, different business: estate vines farmed biodynamically in Puligny. Tasted beside Les Sétilles, it shows what a grower's own farming and selection add, and what you pay for them.",
+          "price": "$100–140",
+          "try": [
+            "Domaine Leflaive"
+          ],
+          "place": "fr-bourgogne"
+        }
+      ],
+      "deeper": [
+        "term-domaine",
+        "term-negociant",
+        "term-monopole",
+        "term-lieu-dit",
+        "site-fr-hospices-de-beaune-hotel-dieu",
+        "event-hospices-de-beaune",
+        "fr-beaune"
+      ],
+      "check": [
+        {
+          "q": "A label reads only 'Chambertin, Grand Cru'. Why is there no village name?",
+          "options": [
+            "The producer left it off",
+            "Grand crus are appellations in their own right",
+            "It is a regional wine",
+            "It is a négociant wine"
+          ],
+          "answer": 1,
+          "why": "Grand crus carry only their own name; the village name appears on village and premier cru labels."
+        },
+        {
+          "q": "What does 'mis en bouteille au domaine' tell you?",
+          "options": [
+            "The grower who farmed the grapes bottled the wine",
+            "It is a grand cru",
+            "It comes from Beaune",
+            "It was aged in new oak"
+          ],
+          "answer": 0,
+          "why": "Domaine bottling means the estate grew the grapes and bottled the wine itself."
+        },
+        {
+          "q": "What is a monopole?",
+          "options": [
+            "A climat owned entirely by one producer",
+            "A single-grape blend",
+            "A Chablis premier cru",
+            "A négociant's cheapest wine"
+          ],
+          "answer": 0,
+          "why": "Romanée-Conti, La Tâche and Clos de Tart are monopoles: one owner for the whole climat."
+        }
+      ]
+    },
+    {
+      "id": "fragments",
+      "part": "deeper",
+      "title": "Why every grand cru is a jigsaw",
+      "steps": [
+        {
+          "text": "Burgundy's patchwork began with a revolution. From 1789 the new French state seized the property of the church, and the monks' vineyards were sold as *biens nationaux*, national property, to merchants and wealthy townspeople. The Clos de Vougeot was sold in one piece. The Ouvrard family, financiers to Napoleon, bought it in 1818, and in 1889 their heirs sold it to a group of merchants from Beaune, Dijon and Nuits. It has never been reunited: today its roughly 50 hectares belong to about 80 owners.\n\nTilt the map. The top of the Clos, near the château, is light limestone gravel; the bottom, by the N74, is almost flat clay that drains slowly. A bottle labelled Clos de Vougeot can come from either end, which is why the name alone guarantees so little.",
+          "map": {
+            "fly": {
+              "lon": 4.9595,
+              "lat": 47.1705,
+              "zoom": 14.4
+            },
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 270,
+            "highlight": [
+              "fr-clos-de-vougeot",
+              "site-fr-chateau-du-clos-de-vougeot"
+            ],
+            "label": "Clos de Vougeot: about 80 owners"
+          }
+        },
+        {
+          "text": "Inheritance law kept slicing. The Revolution ended the eldest son's right to inherit everything, and the Napoleonic Code of 1804 required estates to be divided equally among all the children. Each generation split each vineyard again, often in strips running from the top of the slope to the bottom so that every heir got a fair share of good and poorer ground.\n\n[Échezeaux](fr-echezeaux), about 37 hectares made of eleven lieux-dits, is shared among dozens of owners; some growers own a few rows in a grand cru and make one or two barrels from it. To stop each death from breaking an estate apart, many families now hold their vines in companies, so heirs inherit shares rather than rows. Inheritance tax on land valued at grand cru prices is still the biggest threat to family domaines.",
+          "map": {
+            "fly": {
+              "lon": 4.952,
+              "lat": 47.1715,
+              "zoom": 14.0
+            },
+            "highlight": [
+              "fr-echezeaux",
+              "fr-grands-echezeaux",
+              "fr-clos-de-vougeot"
+            ],
+            "label": "Échezeaux, shared by dozens"
+          }
+        },
+        {
+          "text": "Fragmentation shaped the trade. A grower with half a hectare in each of six appellations makes six tiny wines; a négociant can buy from twenty growers and make one consistent cuvée. That is why houses such as Jadot, Drouhin and Faiveley built their reputations on assembling small lots, and why their labels are a fair bet in big appellations.\n\nToday the line blurs. Many domaines run a small négociant business alongside the estate to buy grapes when frost cuts their crop or land is too expensive to buy, and those bottles say *Maison* rather than *Domaine*. Grand cru land changes hands rarely and for enormous sums, often to wealthy outside investors. [Chambertin](fr-chambertin), under 13 hectares, is split among many owners, and every new sale makes headlines in the region.",
+          "map": {
+            "fly": {
+              "lon": 4.9655,
+              "lat": 47.213,
+              "zoom": 14.4
+            },
+            "highlight": [
+              "fr-chambertin",
+              "fr-chambertin-clos-de-beze",
+              "site-fr-chambertin"
+            ],
+            "label": "Chambertin and Clos de Bèze"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Clos de Vougeot grand cru",
+          "why": "Taste the problem and the promise: two Clos de Vougeots from different owners can differ more than two villages do. Ask where in the Clos the vines are; upper parcels next to Musigny and Grands-Échezeaux are prized. The atlas window: best from twelve to thirty years.",
+          "price": "$150–300",
+          "try": [
+            "Château de la Tour",
+            "Louis Jadot",
+            "Domaine Faiveley"
+          ],
+          "place": "fr-clos-de-vougeot"
+        }
+      ],
+      "deeper": [
+        "fr-clos-de-vougeot",
+        "fr-echezeaux",
+        "fr-grands-echezeaux",
+        "fr-chambertin",
+        "site-fr-chateau-du-clos-de-vougeot",
+        "term-negociant",
+        "term-domaine"
+      ],
+      "check": [
+        {
+          "q": "Roughly how many owners share the Clos de Vougeot today?",
+          "options": [
+            "One",
+            "About 10",
+            "About 80",
+            "About 500"
+          ],
+          "answer": 2,
+          "why": "Sold intact after the Revolution and broken up from 1889, the Clos now has about 80 owners."
+        },
+        {
+          "q": "Which law drove the division of vineyards among heirs?",
+          "options": [
+            "The 1855 classification",
+            "The Napoleonic Code of 1804, with equal inheritance",
+            "The 1935 AOC law",
+            "Philip the Bold's edict of 1395"
+          ],
+          "answer": 1,
+          "why": "The Code required equal shares for all children, so holdings were split generation after generation."
+        },
+        {
+          "q": "Why can two Clos de Vougeot wines differ so much?",
+          "options": [
+            "Different grapes are allowed",
+            "Owners farm parcels from the gravelly top to the flat clay bottom, and make wine differently",
+            "One is always white",
+            "Half the Clos is premier cru"
+          ],
+          "answer": 1,
+          "why": "Both the site within the Clos and the producer change the wine; the grand cru name covers the whole 50 hectares."
+        }
+      ]
+    },
+    {
+      "id": "rock",
+      "part": "deeper",
+      "title": "Limestone, marl and the combes",
+      "steps": [
+        {
+          "text": "Under the vines lie Jurassic seabeds, laid down 150 to 200 million years ago and tilted when the Saône fault opened. Two kinds of rock alternate. [Limestone](term-limestone), hard and cracked, drains fast and sends roots deep. [Marl](term-marl), a crumbly mix of clay and lime, holds water and gives the wine more body ([limestone and marl of the Côte d'Or](soil-limestone-marl-cote-dor)).\n\nIn the Côte de Nuits the slope is mostly Middle Jurassic: Bajocian limestone, including the *calcaire à entroques* made of broken sea-lily fossils, together with marls at the foot and middle, and harder Bathonian limestones such as the pale Comblanchien higher up. That firm rock near the surface is one reason Côte de Nuits reds are structured and long-lived. In the Côte de Beaune younger Callovian and Oxfordian marls open the slope into gentler hills.",
+          "map": {
+            "fly": {
+              "lon": 4.94,
+              "lat": 47.145,
+              "zoom": 11.4
+            },
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 285,
+            "highlight": [
+              "fr-gevrey-chambertin",
+              "fr-morey-saint-denis",
+              "fr-chambolle-musigny",
+              "fr-vougeot",
+              "fr-vosne-romanee",
+              "fr-nuits-saint-georges"
+            ],
+            "label": "Côte de Nuits limestone"
+          }
+        },
+        {
+          "text": "Every few kilometres a side valley, a *combe*, cuts back into the plateau. Combes do two things: they channel cool air down from the hills at night, keeping acidity in the grapes below them, and they spill fans of limestone scree onto the slope at their mouths.\n\nThe Combe Lavaux behind Gevrey explains the Saint-Jacques slope. [Clos Saint-Jacques](fr-gevrey-chambertin-premier-cru-clos-saint-jacques), [Estournelles Saint-Jacques](fr-gevrey-chambertin-premier-cru-estournelles-saint-jacques), [Les Cazetiers](fr-gevrey-chambertin-premier-cru-les-cazetiers) and [Combe au Moine](fr-gevrey-chambertin-premier-cru-combe-au-moine) face southeast on its northern flank, catching morning sun and cool evening air. In Chambolle the Combe d'Orveau and its premier cru [La Combe d'Orveau](fr-chambolle-musigny-premier-cru-la-combe-d-orveau) do the same beside Musigny. Combe sites tend to give fresher, more aromatic wine, an advantage that grows as summers warm.",
+          "map": {
+            "fly": {
+              "lon": 4.956,
+              "lat": 47.226,
+              "zoom": 13.8
+            },
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 280,
+            "highlight": [
+              "fr-gevrey-chambertin-premier-cru-clos-saint-jacques",
+              "fr-gevrey-chambertin-premier-cru-estournelles-saint-jacques",
+              "fr-gevrey-chambertin-premier-cru-les-cazetiers",
+              "fr-gevrey-chambertin-premier-cru-lavaut-saint-jacques",
+              "fr-gevrey-chambertin-premier-cru-combe-au-moine"
+            ],
+            "label": "Mouth of the Combe Lavaux"
+          }
+        },
+        {
+          "text": "The hill of [Corton](fr-corton) shows geology in the glass better than anywhere. It is a rounded dome capped with woods on hard limestone. Below the trees, a band of pale, clay-rich marl curves around the upper slopes facing southeast, south and west: this is [Corton-Charlemagne](fr-corton-charlemagne), white wine country, with climats such as [Les Pougets](fr-corton-les-pougets) and [Les Languettes](fr-corton-les-languettes).\n\nLower down, on redder, iron-rich, stonier soils, Pinot Noir takes over in red Corton climats such as [Le Clos du Roi](fr-corton-le-clos-du-roi), [Les Bressandes](fr-corton-les-bressandes) and [Les Renardes](fr-corton-les-renardes). Corton is the largest grand cru, about 160 hectares, and its 28 climats vary so much that the name printed after the word Corton is the one to read.",
+          "map": {
+            "fly": {
+              "lon": 4.862,
+              "lat": 47.0685,
+              "zoom": 13.7
+            },
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 330,
+            "highlight": [
+              "fr-corton-charlemagne",
+              "fr-charlemagne",
+              "fr-corton-les-pougets",
+              "fr-corton-les-languettes",
+              "fr-corton-le-corton",
+              "fr-corton-le-clos-du-roi",
+              "fr-corton-les-bressandes",
+              "fr-corton-les-renardes"
+            ],
+            "label": "Corton: white above, red below"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Corton grand cru rouge",
+          "why": "Firm, earthy and slow to open, with darker fruit than the Côte de Beaune villages around it. A named climat such as Bressandes or Clos du Roi tells you where on the hill it grew.",
+          "price": "$90–160",
+          "try": [
+            "Louis Latour (Château Corton Grancey)",
+            "Domaine Chandon de Briailles",
+            "Domaine Comte Senard"
+          ],
+          "place": "fr-corton"
+        },
+        {
+          "wine": "Corton-Charlemagne grand cru",
+          "why": "The marl band in a glass: steely, slow-developing white with a mineral bite. The atlas window: best from eight to twenty years.",
+          "price": "$150–350",
+          "try": [
+            "Louis Latour",
+            "Bonneau du Martray",
+            "Domaine Rapet"
+          ],
+          "place": "fr-corton-charlemagne"
+        },
+        {
+          "wine": "Pernand-Vergelesses blanc",
+          "why": "The value play on the same hill: Chardonnay from the cool, west-facing side of Corton, taut and citrusy, at a fraction of the grand cru's price.",
+          "price": "$40–65",
+          "try": [
+            "Domaine Rapet",
+            "Domaine Rollin"
+          ],
+          "place": "fr-pernand-vergelesses"
+        }
+      ],
+      "deeper": [
+        "soil-limestone-marl-cote-dor",
+        "term-limestone",
+        "term-marl",
+        "fr-corton",
+        "fr-corton-charlemagne",
+        "fr-gevrey-chambertin-premier-cru-clos-saint-jacques",
+        "fr-chambolle-musigny-premier-cru-la-combe-d-orveau"
+      ],
+      "check": [
+        {
+          "q": "What is a combe?",
+          "options": [
+            "A side valley cutting into the plateau",
+            "A barrel size",
+            "A type of clay",
+            "A Burgundian négociant"
+          ],
+          "answer": 0,
+          "why": "Combes bring cool night air and scree fans onto the vineyards at their mouths."
+        },
+        {
+          "q": "On the hill of Corton, where does the white Corton-Charlemagne grow?",
+          "options": [
+            "On the flat land by the road",
+            "On the marly upper slopes below the woods",
+            "Inside the Clos de Vougeot",
+            "In Chablis"
+          ],
+          "answer": 1,
+          "why": "A band of pale marl below the wooded summit suits Chardonnay; redder, stonier soils lower down suit Pinot Noir."
+        },
+        {
+          "q": "How does marl differ from limestone?",
+          "options": [
+            "It is volcanic",
+            "It contains clay and holds more water",
+            "It is pure sand",
+            "It is found only in Champagne"
+          ],
+          "answer": 1,
+          "why": "Marl is a mix of clay and lime; it retains water and tends to give wines more body."
+        }
+      ]
+    },
+    {
+      "id": "makers-years",
+      "part": "deeper",
+      "title": "Producers, vintages and a warming climate",
+      "steps": [
+        {
+          "text": "Once you know the map, learn the hands. In Vosne, Henri Jayer, who died in 2006, made [Cros Parantoux](fr-vosne-romanee-premier-cru-cros-parantoux) famous with destemmed, ripe, pure Pinot Noir; Méo-Camuzet and Emmanuel Rouget carry his style on. The Domaine de la Romanée-Conti, Leroy and Dujac in Morey ferment with many or all of the stems, [whole-bunch fermentation](term-whole-bunch-fermentation), which adds spice, freshness and grip.\n\nIn Gevrey, Armand Rousseau sets the standard for clarity; Chambolle has Roumier, Mugnier and Comte Georges de Vogüé; Volnay has Lafarge and d'Angerville. You do not need their grand crus to learn their styles. A top domaine's Bourgogne Rouge, often from good vines just outside a village boundary, is the cheapest way in.",
+          "map": {
+            "fly": {
+              "lon": 4.948,
+              "lat": 47.162,
+              "zoom": 14.3
+            },
+            "highlight": [
+              "fr-vosne-romanee-premier-cru-cros-parantoux",
+              "fr-richebourg",
+              "fr-vosne-romanee-premier-cru-aux-brulees",
+              "site-fr-domaine-de-la-romanee-conti"
+            ],
+            "label": "Cros Parantoux, Jayer's vineyard"
+          }
+        },
+        {
+          "text": "White Burgundy has its own pantheon, centred on Meursault and Puligny. Jean-François Coche-Dury and Domaine Roulot in Meursault make taut, smoky wines with a struck-match note from controlled reduction; Domaine des Comtes Lafon is richer. In Puligny, Domaine Leflaive is the reference; in Chassagne, Ramonet. In Chablis, Raveneau and Vincent Dauvissat age their wines in old barrels, and they last for decades.\n\nThese bottles now cost hundreds of dollars. The smart buys are one tier down: village wines and premiers crus such as Meursault [Charmes](fr-meursault-premier-cru-charmes) or Puligny [Les Folatières](fr-puligny-montrachet-premier-cru-les-folatieres) from good family domaines, and the négociant bottlings of the big Beaune houses in large vintages.",
+          "map": {
+            "fly": {
+              "lon": 4.752,
+              "lat": 46.957,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "fr-meursault-premier-cru-perrieres",
+              "fr-meursault-premier-cru-genevrieres",
+              "fr-meursault-premier-cru-charmes",
+              "fr-puligny-montrachet-premier-cru-les-folatieres",
+              "fr-puligny-montrachet-premier-cru-les-pucelles",
+              "fr-puligny-montrachet-premier-cru-le-cailleret"
+            ],
+            "label": "Meursault and Puligny premiers crus"
+          }
+        },
+        {
+          "text": "Then learn the years, and the climate behind them. The atlas's climate record for Vosne shows the average growing-season temperature rising from 14.8°C in 1961–1990 to 16.1°C in 1991–2020. The vines have answered: a study of Beaune's harvest dates, kept since 1354, found that since 1988 picking has started about 13 days earlier than in the previous six centuries.\n\nRecent vintages swing hard. 2015, 2018, 2019, 2020 and 2022 were hot and ripe; 2017 and 2023 were generous and healthy, and 2023 brought a record crop. 2016 and 2021 were cut by April frost, and 2021 gave light, fresh wines in tiny quantities. 2024 was soaked, with mildew taking up to 80% of the red crop in the north; in 2025 some estates began picking on 19 August.",
+          "map": {
+            "fly": {
+              "lon": 4.88,
+              "lat": 47.1,
+              "zoom": 9.6
+            },
+            "highlight": [
+              "fr-bourgogne-cote-d-or"
+            ],
+            "label": "Côte d'Or vintages"
+          }
+        },
+        {
+          "text": "Warmth brings new dangers, not just riper grapes. Budburst now comes earlier, so April frosts do more harm: in April 2021 temperatures fell to about minus 7°C in Chablis, and some estates lost up to 95% of their crop ([the 2021 frost](event-frost-2021)). Growers light candles and braziers, run wind machines and, in Chablis, spray water so that a shell of ice protects the buds. Hail, which can strip a village in minutes, struck the Côte de Beaune in 2012, 2013 and 2014.\n\nFor a drinker the lessons are practical. Burgundy vintages differ more than most, small crops push prices up fast, and lighter years such as 2021 are often the most charming to drink young while the ripe years wait in the cellar.",
+          "map": {
+            "fly": {
+              "lon": 3.8,
+              "lat": 47.805,
+              "zoom": 11.5
+            },
+            "highlight": [
+              "fr-chablis",
+              "fr-chablis-grand-cru",
+              "fr-petit-chablis"
+            ],
+            "label": "Chablis, frost country"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bourgogne Rouge from a famous domaine",
+          "why": "The cheapest seat at the top table: the same hands, cellar and philosophy as the domaine's grand crus, applied to regional vines. Compare it with the chapter 1 house Bourgogne.",
+          "price": "$50–90",
+          "try": [
+            "Domaine Méo-Camuzet",
+            "Domaine Fourrier"
+          ],
+          "place": "fr-bourgogne-cote-d-or"
+        },
+        {
+          "wine": "The same village red in two vintages, 2021 and 2022",
+          "why": "Frost-shrunk, cool 2021 against ripe, generous 2022 from the same producer and vineyard: the clearest lesson in how much weather changes Pinot Noir.",
+          "price": "$60–100 a bottle",
+          "try": [
+            "Louis Jadot",
+            "Domaine Faiveley"
+          ],
+          "place": "fr-gevrey-chambertin"
+        }
+      ],
+      "deeper": [
+        "fr-vosne-romanee-premier-cru-cros-parantoux",
+        "term-whole-bunch-fermentation",
+        "fr-bourgogne-cote-d-or",
+        "event-frost-2021",
+        "fr-chablis",
+        "fr-meursault",
+        "fr-puligny-montrachet"
+      ],
+      "check": [
+        {
+          "q": "Since 1988, Beaune's harvests have started how much earlier than in the previous six centuries?",
+          "options": [
+            "About 2 days",
+            "About 13 days",
+            "About 40 days",
+            "They have become later"
+          ],
+          "answer": 1,
+          "why": "Labbé and colleagues (2019) found harvests about 13 days earlier since 1988 in the Beaune record that begins in 1354."
+        },
+        {
+          "q": "What does whole-bunch fermentation tend to add to Pinot Noir?",
+          "options": [
+            "Sweetness",
+            "Spice, freshness and grip from the stems",
+            "Bubbles",
+            "Oak flavour"
+          ],
+          "answer": 1,
+          "why": "Fermenting with stems adds aromatic spice, a fresh, sappy note and some tannin, as at the DRC, Leroy and Dujac."
+        },
+        {
+          "q": "Why has spring frost become more damaging?",
+          "options": [
+            "Warmer springs bring budburst earlier, so buds are out when frost comes",
+            "Vines are older",
+            "Burgundy has moved north",
+            "Frost never struck Burgundy before 2000"
+          ],
+          "answer": 0,
+          "why": "Earlier budburst leaves tender shoots exposed to the April frosts that still arrive."
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "part": "deeper",
+      "title": "Value: the Chalonnaise, the Mâconnais and Beaujolais",
+      "steps": [
+        {
+          "text": "Burgundy's prices push curious drinkers south, and that is where the bargains are. The [Côte Chalonnaise](region-fr-cote-chalonnaise) is not one escarpment but a jumble of limestone and marl hills west of Chalon-sur-Saône, a little higher and more exposed than the Côte d'Or.\n\nFive villages carry the name. [Bouzeron](fr-bouzeron) is the only village appellation for Aligoté, since 1997, helped by Aubert de Villaine of the Domaine de la Romanée-Conti, who bought an estate there in 1971 and made his first vintage in 1973. [Rully](fr-rully) makes crisp whites and much Crémant; [Mercurey](fr-mercurey) and [Givry](fr-givry) make firm, red-fruited Pinot; [Montagny](fr-montagny) is white only. A Mercurey or Givry premier cru often costs less than a Bourgogne with a famous name on it.",
+          "map": {
+            "fly": "region-fr-cote-chalonnaise",
+            "highlight": [
+              "fr-bouzeron",
+              "fr-rully",
+              "fr-mercurey",
+              "fr-givry",
+              "fr-montagny"
+            ],
+            "label": "The Côte Chalonnaise"
+          }
+        },
+        {
+          "text": "Further south, the [Mâconnais](region-fr-maconnais) is Burgundy's biggest white-wine zone, rolling limestone ridges where co-operatives make most of the wine. Its crown is [Pouilly-Fuissé](fr-pouilly-fuisse), an amphitheatre of vines under the limestone cliffs of Solutré and Vergisson; tilt the map and you can see the rock rising above the slopes.\n\nSince the 2020 vintage Pouilly-Fuissé has had 22 premiers crus, the first in the Mâconnais, among them [Sur la Roche](fr-pouilly-fuisse-premier-cru-sur-la-roche) right under the cliff and [Les Ménétrières](fr-pouilly-fuisse-premier-cru-les-menetrieres). The wines are riper than Côte d'Or whites, yellow fruit over a stony finish, and the atlas puts the premiers crus at their best from about five to twelve years.",
+          "map": {
+            "fly": {
+              "lon": 4.728,
+              "lat": 46.3,
+              "zoom": 12.6
+            },
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 300,
+            "highlight": [
+              "fr-pouilly-fuisse",
+              "fr-pouilly-fuisse-premier-cru-sur-la-roche",
+              "fr-pouilly-fuisse-premier-cru-les-menetrieres",
+              "fr-pouilly-fuisse-premier-cru-les-crays",
+              "fr-pouilly-fuisse-premier-cru-le-clos-de-solutre"
+            ],
+            "label": "Pouilly-Fuissé under Solutré"
+          }
+        },
+        {
+          "text": "Beyond the Mâconnais the limestone gives way to pink granite, and [Beaujolais](region-fr-beaujolais) begins: Gamay country. Forget Nouveau. In the north, ten crus each have their own appellation, from [Saint-Amour](fr-saint-amour) and [Juliénas](fr-julienas) through [Moulin-à-Vent](fr-moulin-a-vent), [Fleurie](fr-fleurie) and [Morgon](fr-morgon) to [Côte de Brouilly](fr-cote-de-brouilly).\n\nOn poor, acidic granite and schist, Gamay makes wine of juicy red fruit and low tannin, and the more structured crus turn savoury, almost Pinot-like, with age. Since 2011 the crus may even be declared as Bourgogne rouge, a disputed rule that admits what drinkers already knew: these are the cheapest serious reds in greater Burgundy.",
+          "map": {
+            "fly": "region-fr-beaujolais",
+            "highlight": [
+              "fr-saint-amour",
+              "fr-julienas",
+              "fr-chenas",
+              "fr-moulin-a-vent",
+              "fr-fleurie",
+              "fr-chiroubles",
+              "fr-morgon",
+              "fr-regnie",
+              "fr-brouilly",
+              "fr-cote-de-brouilly"
+            ],
+            "label": "The ten Beaujolais crus"
+          }
+        },
+        {
+          "text": "Morgon proves Beaujolais has climats too, and the atlas maps its lieux-dits. The most famous is the [Côte du Py](fr-morgon-cotes-du-py), a dome of crumbling blue schist that locals call *roche pourrie*, rotten rock, which gives Morgon's firmest, longest-lived wines. [Javernières](fr-morgon-javernieres) and [Corcelette](fr-morgon-corcelette) appear on labels too.\n\nHere in the 1980s Marcel Lapierre, Jean Foillard, Guy Breton and Jean-Paul Thévenet, the Gang of Four named by the importer Kermit Lynch, followed the chemist Jules Chauvet in making wine with native yeasts and little or no added sulphur, and Morgon became a cradle of natural wine. The atlas window for a named Morgon climat: best from five to twelve years.",
+          "map": {
+            "fly": {
+              "lon": 4.68,
+              "lat": 46.1485,
+              "zoom": 13.6
+            },
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 300,
+            "highlight": [
+              "fr-morgon-cotes-du-py",
+              "fr-morgon-javernieres",
+              "fr-morgon-corcelette"
+            ],
+            "label": "Morgon's Côte du Py"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Mercurey premier cru rouge",
+          "why": "Firm, red-fruited Pinot with a mineral snap, from a village most drinkers skip. Ready sooner than Côte d'Or premiers crus: the atlas puts it at its best from four to ten years.",
+          "price": "$35–55",
+          "try": [
+            "Domaine Faiveley (Clos des Myglands)",
+            "Domaine Michel Juillot"
+          ],
+          "place": "fr-mercurey-premier-cru-clos-des-myglands"
+        },
+        {
+          "wine": "Pouilly-Fuissé",
+          "why": "Riper and rounder than Meursault, with the same limestone backbone. Look for a premier cru name from 2020 on.",
+          "price": "$30–60",
+          "try": [
+            "Château de Fuissé",
+            "Domaine Ferret",
+            "Louis Jadot"
+          ],
+          "place": "fr-pouilly-fuisse"
+        },
+        {
+          "wine": "Morgon, ideally Côte du Py",
+          "why": "Dark cherry, earth and a firm, granite-and-schist structure: Gamay at its most serious, at a price a premier cru Burgundy cannot touch.",
+          "price": "$30–60",
+          "try": [
+            "Marcel Lapierre",
+            "Jean Foillard",
+            "Domaine Jean-Paul Thévenet"
+          ],
+          "place": "fr-morgon-cotes-du-py"
+        }
+      ],
+      "deeper": [
+        "region-fr-cote-chalonnaise",
+        "fr-bouzeron",
+        "fr-givry",
+        "fr-pouilly-fuisse",
+        "region-fr-beaujolais",
+        "fr-morgon",
+        "fr-moulin-a-vent",
+        "fr-morgon-cotes-du-py"
+      ],
+      "check": [
+        {
+          "q": "Which village has the only village appellation for Aligoté?",
+          "options": [
+            "Bouzeron",
+            "Givry",
+            "Meursault",
+            "Chablis"
+          ],
+          "answer": 0,
+          "why": "Bouzeron in the Côte Chalonnaise became a village appellation for Aligoté in 1997."
+        },
+        {
+          "q": "Since which vintage has Pouilly-Fuissé had premiers crus?",
+          "options": [
+            "1937",
+            "1990",
+            "2020",
+            "It has none"
+          ],
+          "answer": 2,
+          "why": "Its 22 premiers crus, the first in the Mâconnais, apply from the 2020 vintage."
+        },
+        {
+          "q": "What soils underlie the Beaujolais crus?",
+          "options": [
+            "Kimmeridgian marl",
+            "Granite and schist",
+            "Chalk",
+            "Gravel terraces"
+          ],
+          "answer": 1,
+          "why": "Poor, acidic granite and schist restrain Gamay and give the crus their structure."
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "part": "deeper",
+      "title": "Ageing, premox and when to open",
+      "steps": [
+        {
+          "text": "Burgundy rewards patience, though not endlessly, and the right moment depends on the tier. The atlas's drinking windows, counted from the vintage, give a working rule. Bourgogne Rouge: drink from two to six years. Village reds such as Gevrey or Vosne: approachable at about four, best from six to fifteen. Premiers crus: ready at about seven, best from ten to twenty. Grand crus such as [Chambertin](fr-chambertin) or [Romanée-Conti](fr-romanee-conti): best from fifteen to thirty-five years, and often closed and tight between about four and ten.\n\nPinot Noir has little tannin, so its life depends on acidity and concentration. That is why the best sites, cropped low, age longest, and why an over-cropped grand cru can fade faster than a fine village wine.",
+          "map": {
+            "fly": {
+              "lon": 4.962,
+              "lat": 47.219,
+              "zoom": 12.7
+            },
+            "highlight": [
+              "fr-gevrey-chambertin",
+              "fr-gevrey-chambertin-premier-cru-clos-saint-jacques",
+              "fr-chambertin"
+            ],
+            "label": "Village to grand cru: 4 to 35 years"
+          }
+        },
+        {
+          "text": "White Burgundy carries a warning. From the 1995 and 1996 vintages on, collectors began opening Meursault, Puligny and Chassagne that should have been in their prime and finding them brown, flat and sherry-like: premature oxidation, or *premox*. Critics raised the alarm in the early 2000s.\n\nNo single cause was ever proven. Suspects included lower sulphur at bottling, inconsistent corks, gentle pneumatic pressing that removed protective compounds, riper fruit and heavy lees stirring ([bâtonnage](term-batonnage)). Producers answered with more sulphur, firmer pressing and, in many cellars, technical Diam corks or glass stoppers. Things have improved, though the Burgundy writer Jasper Morris concluded in 2015 that the problem had not been eradicated.",
+          "map": {
+            "fly": {
+              "lon": 4.745,
+              "lat": 46.949,
+              "zoom": 13.0
+            },
+            "highlight": [
+              "fr-puligny-montrachet",
+              "fr-puligny-montrachet-premier-cru-les-pucelles",
+              "fr-puligny-montrachet-premier-cru-les-folatieres",
+              "fr-puligny-montrachet-premier-cru-le-cailleret",
+              "fr-montrachet"
+            ],
+            "label": "Puligny-Montrachet"
+          }
+        },
+        {
+          "text": "So drink white Burgundy a little younger than the old books said. The atlas windows: village Meursault or Puligny is ready at about three years and best from four to ten; premiers crus from six to fifteen; [Montrachet](fr-montrachet) from ten to twenty-five.\n\nChablis keeps longer than its lightness suggests. Village Chablis is best from two to six years, premiers crus from five to twelve and [grand crus](fr-chablis-grand-cru) from eight to twenty, when the lemon turns to honey, toast and the smell growers call *pierre à fusil*, gunflint. Store bottles cool and dark, favour producers who use reliable closures, and when you hold a case, open one bottle early to see where it stands.",
+          "map": {
+            "fly": {
+              "lon": 3.807,
+              "lat": 47.818,
+              "zoom": 12.8
+            },
+            "highlight": [
+              "fr-chablis-grand-cru-blanchot",
+              "fr-chablis-grand-cru-bougros",
+              "fr-chablis-grand-cru-les-clos",
+              "fr-chablis-grand-cru-grenouilles",
+              "fr-chablis-grand-cru-preuses",
+              "fr-chablis-grand-cru-valmur",
+              "fr-chablis-grand-cru-vaudesir"
+            ],
+            "label": "Chablis grand crus age longest"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Chablis premier cru with five or more years of age",
+          "why": "Watch acid-driven Chardonnay turn complex without oak: lemon becomes honey and toast, the saline edge stays. Buy young and wait, or look for library releases.",
+          "price": "$45–75",
+          "try": [
+            "Domaine William Fèvre (Vaillons or Montmains)",
+            "Domaine Christian Moreau",
+            "Samuel Billaud"
+          ],
+          "place": "fr-chablis-premier-cru-vaillons"
+        },
+        {
+          "wine": "A village red from a ripe, well-stored vintage such as 2015 or 2017",
+          "why": "Mature Pinot Noir: the fruit softens into forest floor, mushroom and spice while the acidity keeps it alive. Buy from a merchant who can vouch for storage.",
+          "price": "$80–150",
+          "try": [
+            "Louis Jadot",
+            "Joseph Drouhin",
+            "Domaine Faiveley"
+          ],
+          "place": "fr-gevrey-chambertin"
+        }
+      ],
+      "deeper": [
+        "term-batonnage",
+        "fr-montrachet",
+        "fr-chablis-grand-cru",
+        "fr-chambertin",
+        "fr-puligny-montrachet",
+        "fr-chablis-premier-cru-vaillons"
+      ],
+      "check": [
+        {
+          "q": "From which vintages did premature oxidation of white Burgundy first appear?",
+          "options": [
+            "1945 and 1947",
+            "1995 and 1996",
+            "2015 and 2016",
+            "It was never documented"
+          ],
+          "answer": 1,
+          "why": "Premox showed up in bottles from the mid-1990s and was widely discussed by the early 2000s."
+        },
+        {
+          "q": "When is a red premier cru Burgundy usually at its best, by the atlas windows?",
+          "options": [
+            "One to three years after the vintage",
+            "About ten to twenty years after the vintage",
+            "Only after fifty years",
+            "Within months of release"
+          ],
+          "answer": 1,
+          "why": "Premiers crus are ready at about seven years and peak from roughly ten to twenty."
+        },
+        {
+          "q": "Which change did many producers make to fight premox?",
+          "options": [
+            "Stopped making Chardonnay",
+            "More sulphur, firmer pressing and better closures",
+            "Moved production to Chablis",
+            "Added sugar at bottling"
+          ],
+          "answer": 1,
+          "why": "Higher sulphur, firmer pressing and closures such as Diam or glass stoppers were the main responses."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "pinot-noir",
+    "champagne",
+    "southern-rhone",
+    "wines-long-road"
+  ],
+  "sources": [
+    {
+      "title": "BIVB, Bourgogne key figures (September 2024)",
+      "url": "https://info-beaune.com/media/Jeannette/BOURGOGNEBIVBCHIFFRESCLE__S_SEPT_2024.pdf"
+    },
+    {
+      "title": "UNESCO World Heritage: The Climats, terroirs of Burgundy",
+      "url": "https://whc.unesco.org/en/list/1425/"
+    },
+    {
+      "title": "BIVB, Vins de Bourgogne: appellations",
+      "url": "https://www.bourgogne-wines.com/"
+    },
+    {
+      "title": "Clos de Vougeot (Wikipedia, English)",
+      "url": "https://en.wikipedia.org/wiki/Clos_de_Vougeot"
+    },
+    {
+      "title": "Clos de Vougeot (Wikipédia, français)",
+      "url": "https://fr.wikipedia.org/wiki/Clos_de_Vougeot"
+    },
+    {
+      "title": "iDealwine, Burgundy grand crus: Clos de Vougeot, its history and characteristics",
+      "url": "https://www.idealwine.info/?p=19025"
+    },
+    {
+      "title": "ScienceDaily, Burgundy grape harvest dates 1354–2018 (Labbé et al., Climate of the Past, 2019)",
+      "url": "https://www.sciencedaily.com/releases/2019/08/190829081411.htm"
+    },
+    {
+      "title": "Jasper Morris, White Burgundy out of the woods? (World of Fine Wine)",
+      "url": "https://worldoffinewine.com/news-features/white-burgundy-out-of-the-woods-4717208"
+    },
+    {
+      "title": "Union des Producteurs de Pouilly-Fuissé: premiers crus",
+      "url": "https://www.pouilly-fuisse.net/"
+    },
+    {
+      "title": "Inter Beaujolais",
+      "url": "https://www.beaujolais.com"
+    },
+    {
+      "title": "INAO, Délimitation parcellaire des AOC viticoles (data.gouv.fr)",
+      "url": "https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/"
+    },
+    {
+      "title": "Price check: Louis Jadot Gevrey-Chambertin (Mid Valley Wine)",
+      "url": "https://www.midvalleywine.com/wines/Louis-Jadot-Gevrey-Chambertin-2019-w2731917ja"
+    },
+    {
+      "title": "Price check: Louis Jadot Gevrey-Chambertin 1er Cru Petite Chapelle (K&D Wines)",
+      "url": "https://www.kdwine.com/wines/Louis-Jadot-Gevrey-Chambertin-Petite-Chapelle-Premier-Cru-2018-w871396110"
+    },
+    {
+      "title": "Price check: Faiveley Gevrey-Chambertin 1er Cru Les Cazetiers (Morrell)",
+      "url": "https://morrellwine.com/wines/Domaine-Faiveley-Gevrey-Chambertin-1er-Cru-Les-Cazetiers-2022-w3187134b9"
+    },
+    {
+      "title": "Price check: William Fèvre Chablis (Millesima USA)",
+      "url": "https://www.millesima-usa.com/william-fevre-chablis-village-domaine-2023.html"
+    },
+    {
+      "title": "Price check: Domaine Matrot Meursault (Houston Wine Merchant)",
+      "url": "https://store.houstonwines.com/wines/Domaine-Thierry-and-Pascal-Matrot-Meursault-2022-w4895026e4"
+    },
+    {
+      "title": "Price check: Joseph Drouhin Laforêt (Wine.com)",
+      "url": "https://www.wine.com/list/wine/joseph-drouhin/screw-caps/7155-8415-44"
+    }
+  ]
+}

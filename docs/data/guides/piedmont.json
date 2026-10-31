@@ -1,0 +1,783 @@
+{
+  "id": "piedmont",
+  "kind": "region",
+  "title": "Piedmont",
+  "subtitle": "Nebbiolo and the Langhe",
+  "tagline": "A pale, ferociously tannic grape, two seabeds, eleven villages and 236 named hillsides: learn Barolo and Barbaresco the way locals do, slope by slope.",
+  "minutes": 12,
+  "deeper_minutes": 8,
+  "cover": "it-barolo",
+  "countries": ["it"],
+  "intro": "Piedmont is Italy's Burgundy: a land of small growers, one noble grape and hillsides with names. This path starts in the autumn fog around Alba, climbs into Barbaresco and the five great villages of Barolo, follows the quarrel between traditionalists and modernists, and stops for the everyday wines Piedmontese actually drink. The tasting flight runs from Langhe Nebbiolo to a Produttori Barbaresco to a single-vineyard Barolo.",
+  "chapters": [
+    {
+      "id": "fog",
+      "part": "intro",
+      "title": "Fog, Nebbiolo and Alba",
+      "steps": [
+        {
+          "text": "Piedmont means 'the foot of the mountains', and the mountains explain its wine. The Alps curl round it to the west and north and the Apennines close it off to the south, so cold air pools in the basin and autumn fog settles in the valleys. That long, cool, misty season suits one grape above all: [Nebbiolo](grape-nebbiolo), whose name probably comes from *nebbia*, fog.\n\nNebbiolo buds early and ripens late, often in October. It gives pale wine, garnet rather than purple, yet with towering tannin and high acidity, smelling of roses, dried cherry, tar and licorice. It is also fussy: outside a few hills in northern Italy it rarely makes great wine. Those hills are what this path is about.",
+          "map": {
+            "fly": "region-it-piedmont",
+            "highlight": ["it-barolo", "it-barbaresco", "it-roero", "it-gattinara", "it-ghemme", "it-carema", "it-gavi"],
+            "label": "Piedmont's Nebbiolo country and more"
+          }
+        },
+        {
+          "text": "Now come down to Alba, the market town on the Tanaro river, famous for white truffles in autumn and for its wine school, opened in 1881. Look at the map: the river runs north-east past the town. South-west of Alba rise the ridges of [Barolo](it-barolo); north-east, closer to the river, the hills of [Barbaresco](it-barbaresco). Across the Tanaro to the north lies the sandier [Roero](it-roero).\n\nThese hills, the Langhe, are uplifted seabed, layers of marl and sandstone laid down millions of years ago. In the Pleistocene the Tanaro changed course, and the drop in its level made every stream cut down hard, carving the steep slopes and amphitheatres where the best vineyards lie.",
+          "map": {
+            "fly": {"lon": 8.02, "lat": 44.68, "zoom": 10.4},
+            "highlight": ["it-barolo", "it-barbaresco", "it-roero", "site-it-scuola-enologica-alba"],
+            "label": "Barolo, Barbaresco and Roero around Alba"
+          }
+        },
+        {
+          "text": "Before Barolo, start with the [Langhe](it-langhe) DOC, the umbrella for the whole of these hills. A *Langhe Nebbiolo* can come from young vines inside the Barolo or Barbaresco zones, from declassified lots, or from slopes just outside them, and it is aged briefly so that it can be drunk young.\n\nIt is the best value in Piedmont and the right first glass. It has the grape's whole personality, the rose and cherry nose, the pale colour, the grip of tannin, in a lighter frame and at a quarter of the price of Barolo. [Nebbiolo d'Alba](it-nebbiolo-d-alba), from a ring of communes around the town, is a similar step up.",
+          "map": {
+            "fly": "it-langhe",
+            "highlight": ["it-langhe", "it-nebbiolo-d-alba"],
+            "label": "Langhe and Nebbiolo d'Alba"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Langhe Nebbiolo",
+          "why": "Your first Nebbiolo. Hold it to the light: pale, almost orange at the rim. Then smell roses and red cherry, and feel the tannin grip your gums even though the wine looks light. That contrast between colour and grip is Nebbiolo's signature.",
+          "price": "$25–30",
+          "try": ["Produttori del Barbaresco", "G.D. Vajra"],
+          "place": "it-langhe"
+        }
+      ],
+      "deeper": ["grape-nebbiolo", "region-it-piedmont", "region-it-langhe", "it-langhe", "it-nebbiolo-d-alba", "site-it-scuola-enologica-alba", "term-docg"],
+      "check": [
+        {
+          "q": "Nebbiolo's name probably comes from…",
+          "options": ["A village near Alba", "*Nebbia*, fog", "A Roman general", "The word for 'black'"],
+          "answer": 1,
+          "why": "The usual explanation is the autumn fog (nebbia) that settles over the hills at harvest."
+        },
+        {
+          "q": "Relative to Alba, where is Barbaresco?",
+          "options": ["South-west", "North-east, closer to the Tanaro", "Across the river in the Roero", "In the Alps"],
+          "answer": 1,
+          "why": "Barbaresco lies north-east of Alba toward the river; Barolo lies to the south-west."
+        },
+        {
+          "q": "A Langhe Nebbiolo is…",
+          "options": ["Always declassified Barolo", "A blend of Nebbiolo and Barbera", "Nebbiolo from anywhere in the Langhe hills, made for earlier drinking", "A sparkling wine"],
+          "answer": 2,
+          "why": "It can come from young vines, declassified lots or sites outside the DOCGs; it is the lighter, earlier face of the grape."
+        }
+      ]
+    },
+    {
+      "id": "barbaresco",
+      "part": "intro",
+      "title": "Barbaresco: the river side",
+      "steps": [
+        {
+          "text": "[Barbaresco](it-barbaresco) is made in three communes, Barbaresco, Neive and Treiso, plus the hamlet of San Rocco Seno d'Elvio in Alba. Closer to the Tanaro and a little lower than Barolo, its vineyards ripen slightly earlier, and the law asks for less time: 26 months of ageing with nine in wood (50 months for Riserva), against Barolo's 38.\n\nThe result is often described as Barolo's more graceful sibling: finer tannin, more red fruit and violets, earlier to open. The best are every bit as long-lived. Production is about a third of Barolo's, some 4.3 million bottles in 2024 against Barolo's 13.75 million.",
+          "map": {
+            "fly": "it-barbaresco",
+            "highlight": ["it-barbaresco"],
+            "label": "Barbaresco DOCG"
+          }
+        },
+        {
+          "text": "Tilt the map and look north-east at Barbaresco village. Just south of its medieval tower, a row of slopes faces south-west toward the river: [Asili](it-barbaresco-asili), the most perfumed, [Martinenga](it-barbaresco-martinenga), a bowl owned by the Marchesi di Grésy, and [Rabajà](it-barbaresco-rabaja), fuller and more muscular. Further east, [Montestefano](it-barbaresco-montestefano) gives the most structured wines of the commune.\n\nThese named slopes are MGAs, the official vineyard areas you will meet again in Barolo. Barbaresco drew its 66 in 2007 (65, plus one in 2010), three years before Barolo. Notice how close they are: a few hundred metres apart, and yet growers can tell them blind.",
+          "map": {
+            "fly": {"lon": 8.077, "lat": 44.709, "zoom": 13.6},
+            "highlight": ["it-barbaresco-asili", "it-barbaresco-martinenga", "it-barbaresco-rabaja", "it-barbaresco-montestefano", "it-barbaresco-pora", "it-barbaresco-secondine", "site-it-torre-di-barbaresco"],
+            "label": "Barbaresco village and its crus",
+            "pitch": 60,
+            "bearing": 45,
+            "terrain": true
+          }
+        },
+        {
+          "text": "Barbaresco owes its name on the label to a cooperative. In 1894 Domizio Cavazza, director of the Alba wine school, gathered nine growers into the Cantina Sociale di Barbaresco to sell wine under the village name instead of selling grapes to Barolo merchants. Fascism closed it; in 1958 the parish priest, Don Fiorino Marengo, founded the [Produttori del Barbaresco](site-it-produttori-del-barbaresco) with 19 growers.\n\nToday more than 50 member families farm about 120 hectares, a large slice of the appellation. In good years the Produttori bottle nine single-MGA Riservas: Asili, Montefico, Montestefano, Muncagota, Ovello, Pajè, Pora, Rabajà and Rio Sordo. Same cellar, same method, nine slopes: the clearest lesson in terroir in Italy.",
+          "map": {
+            "fly": {"lon": 8.082, "lat": 44.72, "zoom": 12.9},
+            "highlight": ["site-it-produttori-del-barbaresco", "it-barbaresco-asili", "it-barbaresco-montefico", "it-barbaresco-montestefano", "it-barbaresco-muncagota", "it-barbaresco-ovello", "it-barbaresco-paje", "it-barbaresco-pora", "it-barbaresco-rabaja", "it-barbaresco-rio-sordo"],
+            "label": "The Produttori's nine Riservas"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Barbaresco from the Produttori del Barbaresco",
+          "why": "The second step of the flight. Compared with your Langhe Nebbiolo, expect more depth and a longer finish, with violets, red cherry and spice, and tannin that is firm but fine. It is a blend from members' vineyards across the commune: the village voice before the single slopes.",
+          "price": "$50–60",
+          "try": ["Produttori del Barbaresco"],
+          "place": "it-barbaresco"
+        }
+      ],
+      "deeper": ["it-barbaresco", "site-it-produttori-del-barbaresco", "it-barbaresco-asili", "it-barbaresco-rabaja", "it-barbaresco-montestefano", "term-mga", "site-it-enoteca-regionale-barbaresco"],
+      "check": [
+        {
+          "q": "Which communes make Barbaresco?",
+          "options": ["Barolo, La Morra and Serralunga", "Barbaresco, Neive and Treiso (plus part of Alba)", "Canelli and Asti", "Gattinara and Ghemme"],
+          "answer": 1,
+          "why": "Barbaresco comes from Barbaresco, Neive and Treiso, plus the San Rocco Seno d'Elvio hamlet of Alba."
+        },
+        {
+          "q": "Who founded the Produttori del Barbaresco in 1958?",
+          "options": ["Angelo Gaja", "Domizio Cavazza", "The parish priest, Don Fiorino Marengo", "Bruno Giacosa"],
+          "answer": 2,
+          "why": "Don Fiorino Marengo founded it; Cavazza had founded the earlier Cantina Sociale in 1894."
+        },
+        {
+          "q": "Minimum ageing for Barbaresco (not Riserva) is…",
+          "options": ["12 months", "26 months, nine in wood", "38 months, 18 in wood", "62 months"],
+          "answer": 1,
+          "why": "Barbaresco needs 26 months with nine in wood; 38 months is Barolo's minimum."
+        }
+      ]
+    },
+    {
+      "id": "communes",
+      "part": "intro",
+      "title": "Barolo: two seabeds, five villages",
+      "steps": [
+        {
+          "text": "[Barolo](it-barolo) is made from 100% Nebbiolo in eleven communes, but five of them, La Morra, Barolo, Castiglione Falletto, Monforte d'Alba and Serralunga d'Alba, make most of it. The law asks for 38 months of ageing, 18 in wood (62 months for Riserva). Barolo was one of Italy's first four DOCGs in 1980.\n\nThe key to the map is geology. A line runs roughly north to south through Castiglione Falletto. West of it, La Morra and Barolo sit on younger [Tortonian marls](soil-tortonian-serravallian-marls), bluish, calcareous and relatively fertile. East of it, Serralunga and much of Monforte sit on older, poorer Serravallian (once called Helvetian) marls and sandstones. West gives perfume and earlier charm; east gives power and longevity.",
+          "map": {
+            "fly": "it-barolo",
+            "highlight": ["it-barolo"],
+            "label": "Barolo DOCG"
+          }
+        },
+        {
+          "text": "Start west. La Morra's village sits high on the ridge with a famous belvedere, and only Serralunga has more MGAs. Its vineyards, on Tortonian marl, give the most aromatic, supple Barolo: roses, red cherry, silky tannin. Brunate and Cerequio, on the border with Barolo village, are the exceptions that add depth.\n\nBelow, in the valley, is the village of Barolo itself, home of the castle of the Falletti family and its wine museum. Here the two geologies begin to mix, and the commune's most famous hill, Cannubi, sits right on the seam. Barolo-village wines tend to be balanced: perfumed but with a firmer frame than La Morra.",
+          "map": {
+            "fly": {"lon": 7.935, "lat": 44.627, "zoom": 12.2},
+            "highlight": ["it-barolo-annunziata", "it-barolo-arborina", "it-barolo-brunate", "it-barolo-cerequio", "it-barolo-rocche-dell-annunziata", "it-barolo-la-serra", "it-barolo-galina", "it-barolo-conca", "it-barolo-case-nere", "it-barolo-santa-maria", "it-barolo-cannubi", "it-barolo-sarmassa", "it-barolo-bricco-delle-viole", "it-barolo-ravera", "site-it-la-morra-belvedere", "site-it-castello-falletti-wimu"],
+            "label": "The west: La Morra and Barolo village"
+          }
+        },
+        {
+          "text": "In the middle stands Castiglione Falletto, a small commune on a ridge between two valleys. It blends both geologies, and its wines often combine western perfume with eastern weight: [Villero](it-barolo-villero), [Monprivato](it-barolo-monprivato) and [Rocche di Castiglione](it-barolo-rocche-di-castiglione) are the great names.\n\nTo the south, Monforte d'Alba is a big, varied commune of high amphitheatres; [Bussia](it-barolo-bussia), almost 300 hectares, sweeps from the Barolo border toward Castiglione, and [Ginestra](it-barolo-ginestra), just east of the village, faces south-east and east. Monforte wines are deep and long-lived, with a cool lift from the higher sites.",
+          "map": {
+            "fly": {"lon": 7.97, "lat": 44.605, "zoom": 12.3},
+            "highlight": ["it-barolo-villero", "it-barolo-monprivato", "it-barolo-rocche-di-castiglione", "it-barolo-bricco-boschis", "it-barolo-fiasco", "it-barolo-scarrone", "it-barolo-bussia", "it-barolo-ginestra", "it-barolo-mosconi", "it-barolo-perno", "it-barolo-castelletto", "it-barolo-le-coste-di-monforte"],
+            "label": "The centre: Castiglione Falletto and Monforte"
+          }
+        },
+        {
+          "text": "Finally, Serralunga d'Alba, the long, narrow ridge on the east side, crowned by a 14th-century castle. Its soils are the poorest and most compact in Barolo, calcareous Serravallian marl, and its wines are the most powerful and slow to open: dense, mineral, savoury, with tannins that can need a decade.\n\nGreat names line both flanks of the ridge: [Francia](it-barolo-francia), Giacomo Conterno's monopole and the source of Monfortino; [Vignarionda](it-barolo-vignarionda), long thought Serralunga's finest; [Lazzarito](it-barolo-lazzarito) and [Falletto](it-barolo-falletto). Tilt the map and you can see why: the ridge falls steeply to west and east, giving almost every vineyard a strong slope.",
+          "map": {
+            "fly": {"lon": 7.985, "lat": 44.606, "zoom": 12.6},
+            "highlight": ["it-barolo-francia", "it-barolo-vignarionda", "it-barolo-lazzarito", "it-barolo-falletto", "it-barolo-margheria", "it-barolo-gabutti", "it-barolo-parafada", "it-barolo-ornato", "it-barolo-cerretta", "it-barolo-arione", "it-barolo-baudana", "it-barolo-fontanafredda", "site-it-castello-serralunga"],
+            "label": "The east: Serralunga d'Alba",
+            "pitch": 58,
+            "bearing": 90,
+            "terrain": true
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A classic blended Barolo",
+          "why": "The third step. Many great Barolos were traditionally blends of several slopes, and many still are. Compare it with the Barbaresco: darker, firmer, with tar and licorice joining the roses, and tannin that dries your mouth. Decant it for two hours, or keep it ten years.",
+          "price": "$50–65",
+          "try": ["Vietti Castiglione", "Oddero", "Massolino"],
+          "place": "it-barolo"
+        }
+      ],
+      "deeper": ["it-barolo", "soil-tortonian-serravallian-marls", "term-marl", "site-it-castello-falletti-wimu", "site-it-castello-serralunga", "site-it-la-morra-belvedere", "it-barolo-villero"],
+      "check": [
+        {
+          "q": "Which communes sit mostly on the younger Tortonian marls?",
+          "options": ["Serralunga and Monforte", "La Morra and Barolo", "Neive and Treiso", "Castiglione Falletto only"],
+          "answer": 1,
+          "why": "La Morra and Barolo village are Tortonian, giving more perfume; Serralunga and Monforte are Serravallian, giving more power."
+        },
+        {
+          "q": "Barolo's minimum ageing is…",
+          "options": ["26 months", "38 months, 18 in wood", "50 months", "Five years in bottle"],
+          "answer": 1,
+          "why": "Barolo needs 38 months from 1 November of the harvest year, 18 of them in wood; Riserva needs 62."
+        },
+        {
+          "q": "Which commune is known for the most powerful, slow-maturing Barolo?",
+          "options": ["La Morra", "Verduno", "Serralunga d'Alba", "Barolo village"],
+          "answer": 2,
+          "why": "Serralunga's poor, compact Serravallian marl gives the densest, longest-lived wines."
+        }
+      ]
+    },
+    {
+      "id": "mgas",
+      "part": "intro",
+      "title": "MGAs: naming the hillsides",
+      "steps": [
+        {
+          "text": "For most of the 20th century Barolo was a blend sold under a merchant's or grower's name. Single-vineyard labels appeared in the 1960s, and in 2010 the law caught up: the label may now name one of 181 *menzioni geografiche aggiuntive* or [MGAs](term-mga), 170 named vineyard areas plus 11 commune names such as 'Barolo del Comune di Serralunga d'Alba'. Add Barbaresco's 66 to Barolo's 170 named areas and you have the 236 hillsides on this map.\n\nAn MGA is a place, not a rank. Unlike Burgundy's grands crus, nobody has decided which are best, and some are huge. But a few names come up again and again, and they are worth learning: they are Barolo's vocabulary.",
+          "map": {
+            "fly": {"lon": 7.965, "lat": 44.615, "zoom": 11.6},
+            "highlight": ["it-barolo-cannubi", "it-barolo-brunate", "it-barolo-cerequio", "it-barolo-rocche-dell-annunziata", "it-barolo-bussia", "it-barolo-vignarionda", "it-barolo-francia", "it-barolo-monprivato", "it-barolo-villero", "it-barolo-ginestra", "it-barolo-lazzarito", "it-barolo-rocche-di-castiglione", "it-barolo-monvigliero"],
+            "label": "Barolo's best-known MGAs"
+          }
+        },
+        {
+          "text": "Start with [Cannubi](it-barolo-cannubi), the most famous name in Barolo: a long, low whaleback hill running north-east out of Barolo village, its south-east-facing slopes right on the seam between the two geologies. A bottle labelled 'Cannubi 1752' is said to survive. Its wines combine western perfume with a firm, fine frame.\n\nWhen the MGAs were drawn, the whole hill was allowed to use the name, alone or hyphenated with Boschis, Muscatel, San Lorenzo or Valletta. Core growers sued; in 2013 Italy's highest administrative court let the hill-wide name stand. A slope's name is worth that much money.",
+          "map": {
+            "fly": {"lon": 7.952, "lat": 44.6155, "zoom": 14.1},
+            "highlight": ["it-barolo-cannubi", "it-barolo-cannubi-boschis", "it-barolo-cannubi-muscatel", "it-barolo-cannubi-san-lorenzo", "it-barolo-cannubi-valletta"],
+            "label": "The Cannubi hill",
+            "pitch": 62,
+            "bearing": 315,
+            "terrain": true
+          }
+        },
+        {
+          "text": "Now the other extreme. [Bussia](it-barolo-bussia), in Monforte, is the largest MGA in Barolo at almost 300 hectares, sweeping through a chain of amphitheatres with every exposure. Its historic heart, Bussia Soprana, gives some of Monforte's most complete Barolo, and Prunotto's 1961 Bussia was one of the first single-vineyard Barolos ever labelled; outer sectors are far less prized.\n\nSo a big MGA is a starting point, not a guarantee. Many producers add a *vigna* name inside it. The lesson for shopping: learn the producer first, then the MGA, then, for the biggest ones, the parcel.",
+          "map": {
+            "fly": {"lon": 7.952, "lat": 44.607, "zoom": 12.9},
+            "highlight": ["it-barolo-bussia", "it-barolo-monrobiolo-di-bussia", "site-it-aldo-conterno"],
+            "label": "Bussia, Barolo's largest MGA",
+            "pitch": 55,
+            "bearing": 80,
+            "terrain": true
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A single-MGA Barolo",
+          "why": "The top of the flight. Taste it after the blended Barolo and look for a narrower, more specific voice: the dark, mineral grip of Serralunga in Margheria, or the perfumed weight of Castiglione in Villero. Write down the MGA and find it on the map.",
+          "price": "$90–130",
+          "try": ["Massolino Margheria", "Oddero Villero", "G.D. Vajra Bricco delle Viole"],
+          "place": "it-barolo-villero"
+        }
+      ],
+      "deeper": ["term-mga", "it-barolo-cannubi", "it-barolo-bussia", "it-barolo-brunate", "it-barolo-vignarionda", "it-barolo-monvigliero", "term-cru"],
+      "check": [
+        {
+          "q": "How many MGAs does Barolo have?",
+          "options": ["66", "170 vineyard areas plus 11 commune names, 181 in all", "236", "11"],
+          "answer": 1,
+          "why": "Barolo has 181 MGAs (170 named areas plus 11 commune names); Barbaresco has 66; 236 is the named vineyard areas of both together."
+        },
+        {
+          "q": "An MGA is…",
+          "options": ["A quality ranking like grand cru", "An officially delimited place name that may appear on the label", "A type of cask", "A producers' cooperative"],
+          "answer": 1,
+          "why": "MGAs are geographical mentions, not quality ranks."
+        },
+        {
+          "q": "Which is the largest MGA in Barolo?",
+          "options": ["Cannubi", "Francia", "Bussia", "Monprivato"],
+          "answer": 2,
+          "why": "Bussia, in Monforte, covers almost 300 hectares; Monprivato is about 7."
+        }
+      ]
+    },
+    {
+      "id": "wars",
+      "part": "intro",
+      "title": "The Barolo Wars",
+      "steps": [
+        {
+          "text": "Traditional Barolo was made slowly: weeks of maceration on the skins, then years in large old casks of Slavonian oak (*botti*). The wines were often hard for a decade. In the 1980s a group of young growers decided that was not good enough. Elio Altare, back from visits to Burgundy, cut macerations short and bought small new French barriques, and in 1983 took a chainsaw to his father's old casks; his father disinherited him.\n\nAltare's [Arborina](it-barolo-arborina), from vines around his house in La Morra, became a founding wine of the modernists, the 'Barolo Boys': Altare, Domenico Clerico, Roberto Voerzio, Paolo Scavino, Luciano Sandrone and others. Their wines were darker, softer and approachable young.",
+          "map": {
+            "fly": {"lon": 7.949, "lat": 44.64, "zoom": 14.4},
+            "highlight": ["it-barolo-arborina", "site-it-elio-altare"],
+            "label": "Elio Altare and Arborina",
+            "base": "satellite"
+          }
+        },
+        {
+          "text": "The traditionalists dug in. In Barolo village, [Bartolo Mascarello](site-it-bartolo-mascarello) kept making a single Barolo blended from several slopes, including Cannubi, San Lorenzo and Rué, by the old method, and drew labels by hand, one reading 'No Barrique, No Berlusconi'. [Giuseppe Rinaldi](site-it-giuseppe-rinaldi), next door, Giacomo Conterno in Monforte and Cappellano in Serralunga held the same line.\n\nThe argument was about more than oak. It was about whether Barolo should taste of the place and the grape, or of what the international market wanted in the 1990s. Critics took sides, and prices of the modern wines soared first.",
+          "map": {
+            "fly": {"lon": 7.944, "lat": 44.612, "zoom": 13.4},
+            "highlight": ["site-it-bartolo-mascarello", "site-it-giuseppe-rinaldi", "it-barolo-cannubi", "it-barolo-san-lorenzo", "it-barolo-rue"],
+            "label": "The traditionalists of Barolo village"
+          }
+        },
+        {
+          "text": "Peace came gradually. By the late 2000s most modernists had moved from new barriques toward used barrels and larger casks, and most traditionalists had shortened their macerations a little and cleaned up their cellars. Today many producers describe themselves as classical or place-driven rather than modern or traditional, and the argument has moved to site: which MGA, which parcel, how old the vines.\n\nThe wars left a gift: you can still taste the two schools side by side. A barrique-aged Barolo from the 1990s and a large-cask one from the same year are a lesson in how much a cellar can change a vineyard's voice.",
+          "map": {
+            "fly": {"lon": 7.965, "lat": 44.62, "zoom": 11.8},
+            "highlight": ["site-it-elio-altare", "site-it-roberto-voerzio", "site-it-paolo-scavino", "site-it-luciano-sandrone", "site-it-bartolo-mascarello", "site-it-giuseppe-rinaldi", "site-it-giacomo-conterno"],
+            "label": "Modernists and traditionalists"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A Barolo from a former modernist",
+          "why": "Look for sweeter, riper fruit, a deeper colour and a smoother texture, sometimes with a vanilla or toast note from small barrels. Even today these wines usually open sooner.",
+          "price": "$80–110",
+          "try": ["Elio Altare Barolo", "Paolo Scavino Ravera"],
+          "place": "it-barolo-arborina"
+        },
+        {
+          "wine": "Bartolo Mascarello Barolo (splurge)",
+          "why": "The traditional benchmark: pale, high-toned, with roses, tar, sour cherry and tannin that unfolds over decades. Proof that a blend of great slopes and a patient cellar can rival any single vineyard.",
+          "price": "$250–350",
+          "try": ["Bartolo Mascarello"],
+          "place": "it-barolo"
+        }
+      ],
+      "deeper": ["it-barolo-arborina", "site-it-elio-altare", "site-it-bartolo-mascarello", "site-it-giuseppe-rinaldi", "site-it-roberto-voerzio", "site-it-luciano-sandrone"],
+      "check": [
+        {
+          "q": "What did Elio Altare famously do in 1983?",
+          "options": ["Bought Cannubi", "Took a chainsaw to his father's old casks", "Founded the Produttori", "Planted Cabernet in La Morra"],
+          "answer": 1,
+          "why": "He destroyed the family's old botti to switch to small French barrels, and his father disinherited him."
+        },
+        {
+          "q": "Traditional Barolo is typically aged in…",
+          "options": ["New French barriques", "Large old Slavonian oak casks (botti)", "Stainless steel only", "Amphorae"],
+          "answer": 1,
+          "why": "Long macerations and large botti define the traditional school; barriques were the modernists' tool."
+        },
+        {
+          "q": "Where has the Barolo debate moved today?",
+          "options": ["To screw caps", "To site: which MGA, which parcel", "To blending with Barbera", "To sparkling Barolo"],
+          "answer": 1,
+          "why": "Most producers now sit between the camps, and the conversation is about place."
+        }
+      ]
+    },
+    {
+      "id": "everyday",
+      "part": "intro",
+      "title": "What the Piedmontese drink on Tuesday",
+      "steps": [
+        {
+          "text": "Nobody in Alba drinks Barolo every night. The table wines are [Dolcetto](grape-dolcetto) and [Barbera](grape-barbera). Dolcetto ripens weeks before Nebbiolo, so it was the grape that paid the bills while the Barolo aged: soft acidity, dark cherry and a bitter-almond finish, drunk young with *tajarin* and *vitello tonnato*. In [Dogliani](it-dogliani), on the high hills south of Monforte, it is treated as a serious wine.\n\nBarbera is the opposite: very high acidity, little tannin, juicy dark fruit. [Barbera d'Alba](it-barbera-d-alba) is usually grown on slopes not sunny enough for Nebbiolo and tends to be darker and fuller; [Dolcetto d'Alba](it-dolcetto-d-alba) shares the same hills.",
+          "map": {
+            "fly": {"lon": 7.98, "lat": 44.6, "zoom": 9.6},
+            "highlight": ["it-barbera-d-alba", "it-dolcetto-d-alba", "it-dogliani"],
+            "label": "Barbera and Dolcetto around Alba"
+          }
+        },
+        {
+          "text": "Barbera's true home is the Monferrato, the softer hills around Asti, where it is the most planted red grape in Piedmont. Its reputation was low until 1982, when Giacomo Bologna of [Braida](site-it-braida) released Bricco dell'Uccellone, a barrique-aged Barbera that showed the grape could be grand. Then, in 1986, cheap Barbera laced with [methanol](event-methanol-1986) killed 23 people, and the quality growers had to rebuild the name almost from scratch.\n\nToday [Nizza](it-nizza), carved out of Barbera d'Asti as its own DOCG, is the grape's top address: dark, juicy, high-acid wines that love food.",
+          "map": {
+            "fly": {"lon": 8.33, "lat": 44.82, "zoom": 10.4},
+            "highlight": ["it-nizza", "site-it-braida"],
+            "label": "Barbera's Monferrato: Nizza"
+          }
+        },
+        {
+          "text": "Cross the Tanaro to the [Roero](it-roero), where loose marine sands crumble into ravines called *rocche*. Its Nebbiolo is lighter and more floral, and its white grape, [Arneis](grape-arneis), 'little rascal' in dialect, was almost extinct until Alfredo Currado at Vietti and Bruno Giacosa bottled it alone in the late 1960s. Roero Arneis tastes of pear, chamomile and almond.\n\nEast of Alba, in the Belbo valley around Canelli, Moscato Bianco makes [Asti](it-asti) and its gentler sibling, Moscato d'Asti: barely sparkling, about 5% alcohol, sealed with an ordinary cork and tasting of fresh grapes, peach and sage. And in the far south-east, [Gavi](it-gavi) makes Cortese, Piedmont's crisp, lemony white for Genoa's seafood.",
+          "map": {
+            "fly": {"lon": 8.3, "lat": 44.73, "zoom": 8.9},
+            "highlight": ["it-roero", "it-asti", "it-canelli", "it-gavi"],
+            "label": "Roero, Moscato and Gavi"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Barbera d'Alba",
+          "why": "Bright, juicy, mouth-watering: dark cherry and plum with almost no tannin and a lot of acidity. Drink it with tomato sauce or pizza and notice how the acidity cuts through. It is the opposite of Nebbiolo, and that is why locals love both.",
+          "price": "$22–30",
+          "try": ["Vietti Tre Vigne", "G.D. Vajra"],
+          "place": "it-barbera-d-alba"
+        },
+        {
+          "wine": "Roero Arneis",
+          "why": "A soft, aromatic white with pear, chamomile and a gently bitter almond finish. A good aperitivo before the Nebbiolo.",
+          "price": "$20–25",
+          "try": ["Vietti", "Malvirà", "Matteo Correggia"],
+          "place": "it-roero"
+        },
+        {
+          "wine": "Moscato d'Asti",
+          "why": "Fresh grape, peach and sage, low alcohol, a soft prickle. Serve it cold with fruit or at brunch; it is one of the few wines where the sweetness is pure grape sugar.",
+          "price": "$13–22",
+          "try": ["Paolo Saracco", "Vietti Cascinetta", "Ca' d'Gal"],
+          "place": "it-asti"
+        }
+      ],
+      "deeper": ["grape-barbera", "grape-dolcetto", "grape-arneis", "it-nizza", "it-dogliani", "event-methanol-1986", "it-gavi", "term-charmat-method"],
+      "check": [
+        {
+          "q": "Why was Dolcetto called the cash-flow grape?",
+          "options": ["It is the most expensive", "It ripens weeks before Nebbiolo and could be sold while the Barolo aged", "It is used for sparkling wine", "It grows only in Dogliani"],
+          "answer": 1,
+          "why": "Early-ripening Dolcetto paid the farm's bills long before the Nebbiolo was ready to sell."
+        },
+        {
+          "q": "What does Moscato d'Asti taste like?",
+          "options": ["Dry and tannic", "Lightly sparkling, sweet, low in alcohol, of fresh grapes and peach", "Oaky and buttery", "Smoky and salty"],
+          "answer": 1,
+          "why": "Moscato d'Asti is frizzante, around 5% alcohol, with fresh grape, peach and sage."
+        },
+        {
+          "q": "Which event in 1986 nearly destroyed Barbera's reputation?",
+          "options": ["A hailstorm", "Methanol added to cheap Barbera, which killed 23 people", "Phylloxera", "A frost"],
+          "answer": 1,
+          "why": "The methanol scandal forced a crackdown and a rebuilding led by quality growers."
+        }
+      ]
+    },
+    {
+      "id": "north",
+      "part": "intro",
+      "title": "Northern Nebbiolo: mountains and volcanoes",
+      "steps": [
+        {
+          "text": "Nebbiolo has a second home 100 kilometres north, below Monte Rosa. In the Alto Piemonte, [Gattinara](it-gattinara) grows it, locally called Spanna, on steep slopes of acidic volcanic rock from an ancient supervolcano; the wines are racy, iron-tinged and fragrant, aged at least 35 months. Across the Sesia river, [Ghemme](it-ghemme) sits on glacial moraine and gives a slightly rounder style, and small names such as [Boca](it-boca), [Lessona](it-lessona) and [Bramaterra](it-bramaterra) are reviving.\n\nIn the 19th century these were among Piedmont's most important wines; by the 1990s Gattinara had shrunk to under 100 hectares. When Roberto Conterno of Giacomo Conterno bought the Nervi estate in Gattinara in 2018, the world noticed.",
+          "map": {
+            "fly": "region-it-alto-piemonte",
+            "highlight": ["it-gattinara", "it-ghemme", "it-boca", "it-lessona", "it-bramaterra", "site-it-travaglini", "site-it-antoniolo"],
+            "label": "Alto Piemonte"
+          }
+        },
+        {
+          "text": "At the mouth of the Aosta Valley, the village of [Carema](it-carema) grows Nebbiolo on [pergolas](term-pergola) held up by stone-and-lime pillars called *pilun*, on terraces cut from the rock. Switch to satellite and you can see them climbing the slope. The pillars soak up the day's heat and release it at night, which lets the grape ripen at the very edge of its range.\n\nCarema is one of the smallest DOCs in Italy, about 17 hectares, and almost all of it is made by Ferrando and the village cooperative. The wines are pale, fragrant and long-lived: Nebbiolo with mountain air.",
+          "map": {
+            "fly": {"lon": 7.8085, "lat": 45.5805, "zoom": 15.2},
+            "highlight": ["site-it-carema-pergolas", "it-carema"],
+            "label": "Carema's stone pillars",
+            "base": "satellite"
+          }
+        },
+        {
+          "text": "Over the border in Lombardy, Valtellina is an Alpine valley along the Adda river just south of Switzerland, where Nebbiolo, called Chiavennasca, grows on some 2,500 kilometres of dry-stone terraces on the south-facing slope. Tilt the map and look north from the river: the whole mountainside faces the sun.\n\n[Valtellina Superiore](it-valtellina-superiore) has five historic subzones, of which [Sassella](it-valtellina-superiore-sassella), west of Sondrio, is often called the finest. The wines are lighter and more transparent than Barolo, with rose, red currant and a slatey bite. Sforzato is the valley's rich, dried-grape version.",
+          "map": {
+            "fly": {"lon": 9.83, "lat": 46.152, "zoom": 12.6},
+            "highlight": ["it-valtellina-superiore-sassella", "site-it-sassella-santuario"],
+            "label": "Valtellina's terraces: Sassella",
+            "pitch": 60,
+            "bearing": 0,
+            "terrain": true
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gattinara",
+          "why": "Compare it with your Langhe Nebbiolo: more acidity, an iron and orange-peel edge, finer and more angular tannin. Same grape, different rock.",
+          "price": "$40–55",
+          "try": ["Travaglini", "Antoniolo"],
+          "place": "it-gattinara"
+        },
+        {
+          "wine": "Valtellina Superiore or Rosso di Valtellina",
+          "why": "Mountain Nebbiolo: pale, high-toned, red-fruited and stony. Lovely slightly cool with bresaola or pizzoccheri.",
+          "price": "$25–45",
+          "try": ["Ar.Pe.Pe.", "Nino Negri", "Mamete Prevostini"],
+          "place": "it-valtellina-superiore"
+        }
+      ],
+      "deeper": ["region-it-alto-piemonte", "it-gattinara", "it-ghemme", "it-carema", "site-it-carema-pergolas", "it-valtellina-superiore", "it-sforzato-di-valtellina", "grape-vespolina"],
+      "check": [
+        {
+          "q": "What is Nebbiolo called in Gattinara?",
+          "options": ["Chiavennasca", "Spanna", "Picotener", "Prugnolo"],
+          "answer": 1,
+          "why": "Spanna is the Alto Piemonte name; Chiavennasca is Valtellina's."
+        },
+        {
+          "q": "What are Carema's pilun?",
+          "options": ["Stone-and-lime pillars that hold up pergolas and store heat", "Large oak casks", "Hilltop chapels", "Fog banks"],
+          "answer": 0,
+          "why": "The pillars support the pergolas and release the day's warmth at night."
+        },
+        {
+          "q": "Gattinara's soils are mainly…",
+          "options": ["Tortonian marl", "Acidic volcanic rock", "Chalk", "River sand"],
+          "answer": 1,
+          "why": "Gattinara sits on volcanic rock from an ancient supervolcano; Ghemme, across the river, is glacial moraine."
+        }
+      ]
+    },
+    {
+      "id": "mga-3d",
+      "part": "deeper",
+      "title": "Going deeper: MGA by MGA in 3D",
+      "steps": [
+        {
+          "text": "Fly to La Morra and look north-west at the slopes below the village. [Brunate](it-barolo-brunate), about 25 hectares facing south to south-east on compact, limestone-rich marl, is the exception to La Morra's softness: depth, dark fruit and firm tannin wrapped in perfume. Next to it, [Cerequio](it-barolo-cerequio) is a warm bowl that gives ripe, broad wines. Further north, [Rocche dell'Annunziata](it-barolo-rocche-dell-annunziata) drops in crumbling slopes toward the Annunziata valley and gives the most seductive wine of the commune: rose, red cherry, silky but persistent tannin.\n\nRinaldi's Brunate and Renato Ratti's Rocche dell'Annunziata are the classic references.",
+          "map": {
+            "fly": {"lon": 7.949, "lat": 44.625, "zoom": 13.6},
+            "highlight": ["it-barolo-brunate", "it-barolo-cerequio", "it-barolo-rocche-dell-annunziata", "it-barolo-arborina", "it-barolo-annunziata", "site-it-renato-ratti"],
+            "label": "La Morra's great slopes",
+            "pitch": 60,
+            "bearing": 320,
+            "terrain": true
+          }
+        },
+        {
+          "text": "Now Castiglione Falletto, from the south. [Villero](it-barolo-villero) is a big amphitheatre facing south-west, combining western perfume with eastern weight; Vietti has made a Villero Riserva only in top years since 1982. Just below the village, [Monprivato](it-barolo-monprivato), about 7 hectares, is almost entirely Giuseppe Mascarello's, first bottled alone in 1970. To the east, the narrow escarpment of [Rocche di Castiglione](it-barolo-rocche-di-castiglione) faces south-east, with little topsoil over sandstone and marl, and gives the commune's most elegant, high-toned wines.\n\nThree sites within a kilometre, three expressions. This is why MGAs matter.",
+          "map": {
+            "fly": {"lon": 7.972, "lat": 44.614, "zoom": 13.7},
+            "highlight": ["it-barolo-villero", "it-barolo-monprivato", "it-barolo-rocche-di-castiglione", "it-barolo-bricco-boschis", "site-it-vietti", "site-it-cavallotto"],
+            "label": "Castiglione Falletto",
+            "pitch": 60,
+            "bearing": 10,
+            "terrain": true
+          }
+        },
+        {
+          "text": "Turn to Monforte and look west at [Ginestra](it-barolo-ginestra), a broad amphitheatre east of the village at about 300 to 500 metres, on compact sandstone and marl. Its name comes from the broom that once grew on the poor soil. The wines are deep, dark and powerful, lifted by the cool upper sectors; its sub-sites, Domenico Clerico's Ciabot Mentin and Pajana, Elio Grasso's Casa Maté, Conterno Fantino's Sorì Ginestra, are famous in their own right.\n\nNorth along the same ridge, [Mosconi](it-barolo-mosconi) and [Perno](it-barolo-perno) show how much variety Monforte holds.",
+          "map": {
+            "fly": {"lon": 7.998, "lat": 44.594, "zoom": 13.4},
+            "highlight": ["it-barolo-ginestra", "it-barolo-mosconi", "it-barolo-perno", "site-it-elio-grasso", "site-it-conterno-fantino"],
+            "label": "Monforte: Ginestra",
+            "pitch": 60,
+            "bearing": 270,
+            "terrain": true
+          }
+        },
+        {
+          "text": "End on Serralunga's western flank, looking east. [Francia](it-barolo-francia), 14 hectares facing west at about 350 to 450 metres on poor calcareous marl, was bought by Giovanni Conterno in 1974 and has produced Monfortino since 1978; his son Roberto runs the estate. Just north, [Falletto](it-barolo-falletto) is Bruno Giacosa's estate vineyard, bought in 1982, source of the coveted Le Rocche del Falletto. Further north still, [Vignarionda](it-barolo-vignarionda), about 10 hectares of south to south-west amphitheatre, gives dense, balsamic, extremely long-lived Barolo; Massolino's Riserva is the reference.\n\nTop Barolo vineyard land now trades at well over a million euros a hectare, and these slopes are why: a few hectares of west-facing marl that the whole wine world wants.",
+          "map": {
+            "fly": {"lon": 7.992, "lat": 44.6, "zoom": 13.3},
+            "highlight": ["it-barolo-francia", "it-barolo-falletto", "it-barolo-vignarionda", "it-barolo-margheria", "it-barolo-lazzarito", "site-it-massolino"],
+            "label": "Serralunga: Francia, Falletto, Vignarionda",
+            "pitch": 60,
+            "bearing": 90,
+            "terrain": true
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Giacomo Conterno Barolo Francia (splurge)",
+          "why": "Serralunga at full strength: dark, savoury, tightly wound, with tannin that needs a decade. Taste it beside a La Morra MGA and you will never again confuse the two sides of Barolo.",
+          "price": "$280–380",
+          "try": ["Giacomo Conterno"],
+          "place": "it-barolo-francia"
+        }
+      ],
+      "deeper": ["it-barolo-brunate", "it-barolo-rocche-dell-annunziata", "it-barolo-villero", "it-barolo-monprivato", "it-barolo-ginestra", "it-barolo-francia", "it-barolo-vignarionda", "term-monopole"],
+      "check": [
+        {
+          "q": "Monfortino comes from which MGA?",
+          "options": ["Cannubi", "Francia", "Brunate", "Bussia"],
+          "answer": 1,
+          "why": "Giacomo Conterno has made Monfortino from its Francia monopole in Serralunga since 1978."
+        },
+        {
+          "q": "Which family owns almost all of Monprivato?",
+          "options": ["Giuseppe Mascarello e Figlio", "Gaja", "Vietti", "Oddero"],
+          "answer": 0,
+          "why": "Giuseppe Mascarello e Figlio pieced together the slope and first bottled it alone in 1970."
+        },
+        {
+          "q": "Which La Morra MGA breaks the commune's reputation for softness?",
+          "options": ["Arborina", "Brunate", "Annunziata", "Rive"],
+          "answer": 1,
+          "why": "Brunate's compact, limestone-rich marl gives depth and firm tannin wrapped in La Morra's perfume."
+        }
+      ]
+    },
+    {
+      "id": "three-communes",
+      "part": "deeper",
+      "title": "Going deeper: Barbaresco's three communes",
+      "steps": [
+        {
+          "text": "Barbaresco commune holds the most famous names, 25 MGAs packed around the village: Asili, Martinenga, Rabajà and Pora toward the river, Montestefano, Montefico and Ovello to the north-east. Its wines are the classic Barbaresco: perfume and fine tannin on top, real structure underneath.\n\nIt is also the home of [Gaja](site-it-gaja), whose Angelo Gaja made Barbaresco world-famous from the 1960s with single-vineyard wines and new oak, and of [Roagna](site-it-roagna), whose old-school Pajè and Montefico Vecchie Viti are fermented for weeks and aged for years. Roagna and the Produttori both bottle Pajè and Montefico, so the same slope can be tasted from two cellars a few hundred metres apart. Barbaresco is small enough to walk across in an afternoon.",
+          "map": {
+            "fly": {"lon": 8.08, "lat": 44.714, "zoom": 12.8},
+            "highlight": ["it-barbaresco-asili", "it-barbaresco-ca-grossa", "it-barbaresco-cars", "it-barbaresco-cavanna", "it-barbaresco-cole", "it-barbaresco-faset", "it-barbaresco-martinenga", "it-barbaresco-montaribaldi", "it-barbaresco-montefico", "it-barbaresco-montestefano", "it-barbaresco-muncagota", "it-barbaresco-ovello", "it-barbaresco-paje", "it-barbaresco-pora", "it-barbaresco-rabaja", "it-barbaresco-rabaja-bas", "it-barbaresco-rio-sordo", "it-barbaresco-roccalini", "it-barbaresco-roncaglie", "it-barbaresco-roncagliette", "it-barbaresco-ronchi", "it-barbaresco-secondine", "it-barbaresco-tre-stelle", "it-barbaresco-trifolera", "it-barbaresco-vicenziana", "site-it-gaja", "site-it-roagna"],
+            "label": "Barbaresco commune: 25 MGAs"
+          }
+        },
+        {
+          "text": "Neive, to the east, is the largest commune and the most varied, with 20 MGAs. [Gallina](it-barbaresco-gallina), a hill north-west of the village, gives rich, ripe wines with dark fruit and firm structure; La Spinetta made it famous in the 1990s and Ugo Lequio and Oddero bottle it too. [Albesani](it-barbaresco-albesani) holds Bruno Giacosa's legendary Santo Stefano parcel; [Serraboella](it-barbaresco-serraboella), high and ventilated, gives perfumed, long-lived wines from Cigliuti and Paitin; [Starderi](it-barbaresco-starderi) is dark and dense.\n\nNeive's Nebbiolo vineyard has nearly doubled since 1995 as Barbaresco grew, so it is also where you find new names.",
+          "map": {
+            "fly": {"lon": 8.115, "lat": 44.725, "zoom": 12.6},
+            "highlight": ["it-barbaresco-albesani", "it-barbaresco-balluri", "it-barbaresco-basarin", "it-barbaresco-bordini", "it-barbaresco-bric-micca", "it-barbaresco-bricco-di-neive", "it-barbaresco-canova", "it-barbaresco-cotta", "it-barbaresco-curra", "it-barbaresco-fausoni", "it-barbaresco-gaia-principe", "it-barbaresco-gallina", "it-barbaresco-marcorino", "it-barbaresco-rivetti", "it-barbaresco-san-cristoforo", "it-barbaresco-san-giuliano", "it-barbaresco-serraboella", "it-barbaresco-serracapelli", "it-barbaresco-serragrilli", "it-barbaresco-starderi", "site-it-castello-di-neive", "site-it-bruno-giacosa"],
+            "label": "Neive: 20 MGAs"
+          }
+        },
+        {
+          "text": "Treiso, to the south, is the highest and coolest of the three, with 19 MGAs. Its vineyards reach the top of the appellation's range, around 400 metres, and its wines are taut and fine-boned, with lifted aromatics; in hot vintages that freshness is gold, and growers elsewhere have started to envy it. [Pajorè](it-barbaresco-pajore), on the border with Barbaresco, was famous in the 19th century and has been restored by Sottimano and Rizzi; [Bernadot](it-barbaresco-bernadot) and [Valeirano](it-barbaresco-valeirano) are other names to know.\n\nThe last two MGAs, [Montersino](it-barbaresco-montersino) and [Rocche Massalupo](it-barbaresco-rocche-massalupo), lie in Alba's hamlet of San Rocco Seno d'Elvio. That makes 66 in all.",
+          "map": {
+            "fly": {"lon": 8.082, "lat": 44.69, "zoom": 12.6},
+            "highlight": ["it-barbaresco-ausario", "it-barbaresco-bernadot", "it-barbaresco-bricco-di-treiso", "it-barbaresco-casot", "it-barbaresco-castellizzano", "it-barbaresco-ferrere", "it-barbaresco-garassino", "it-barbaresco-giacone", "it-barbaresco-giacosa", "it-barbaresco-manzola", "it-barbaresco-marcarini", "it-barbaresco-meruzzano", "it-barbaresco-nervo", "it-barbaresco-pajore", "it-barbaresco-rizzi", "it-barbaresco-rombone", "it-barbaresco-san-stunet", "it-barbaresco-valeirano", "it-barbaresco-vallegrande", "it-barbaresco-montersino", "it-barbaresco-rocche-massalupo"],
+            "label": "Treiso and San Rocco Seno d'Elvio"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Produttori del Barbaresco single-MGA Riserva",
+          "why": "Buy two from the same vintage, say Asili and Montestefano, and taste them together: perfume and silk against grip and depth, from the same cellar a kilometre apart.",
+          "price": "$95–145",
+          "try": ["Produttori del Barbaresco Asili", "Produttori del Barbaresco Montestefano", "Produttori del Barbaresco Ovello"],
+          "place": "it-barbaresco-asili"
+        }
+      ],
+      "deeper": ["it-barbaresco-gallina", "it-barbaresco-albesani", "it-barbaresco-pajore", "it-barbaresco-martinenga", "it-barbaresco-montefico", "site-it-gaja", "site-it-roagna", "site-it-bruno-giacosa"],
+      "check": [
+        {
+          "q": "Which Barbaresco commune is highest and coolest?",
+          "options": ["Barbaresco", "Neive", "Treiso", "Alba"],
+          "answer": 2,
+          "why": "Treiso's higher vineyards give taut, fresh wines."
+        },
+        {
+          "q": "Bruno Giacosa's Santo Stefano parcel lies in which MGA?",
+          "options": ["Asili", "Albesani", "Rabajà", "Pajè"],
+          "answer": 1,
+          "why": "Santo Stefano is a parcel within the Albesani MGA in Neive."
+        },
+        {
+          "q": "How many MGAs does Barbaresco have in all?",
+          "options": ["11", "25", "66", "181"],
+          "answer": 2,
+          "why": "66: 25 in Barbaresco, 20 in Neive, 19 in Treiso and 2 in Alba."
+        }
+      ]
+    },
+    {
+      "id": "producers",
+      "part": "deeper",
+      "title": "Going deeper: the names on the labels",
+      "steps": [
+        {
+          "text": "Barolo's great houses are mostly families, and their styles are part of what you are buying. [Giacomo Conterno](site-it-giacomo-conterno) in Monforte is the high temple of tradition: long macerations, years in big casks, Monfortino in the best vintages. [Bartolo Mascarello](site-it-bartolo-mascarello), now run by Bartolo's daughter Maria Teresa, still makes one blended Barolo. [Giuseppe Rinaldi](site-it-giuseppe-rinaldi), run by Beppe Rinaldi's daughters, is known above all for Brunate.\n\n[Oddero](site-it-oddero) in La Morra, one of the oldest estates, farms Vignarionda, Villero and Bussia; [Vietti](site-it-vietti) in Castiglione Falletto, the house of Alfredo Currado who rescued Arneis, makes a whole range of MGAs and has been owned by the American Krause family since 2016.",
+          "map": {
+            "fly": {"lon": 7.958, "lat": 44.615, "zoom": 11.8},
+            "highlight": ["site-it-giacomo-conterno", "site-it-bartolo-mascarello", "site-it-giuseppe-rinaldi", "site-it-oddero", "site-it-vietti", "site-it-giuseppe-mascarello", "site-it-g-d-vajra"],
+            "label": "Barolo's family names"
+          }
+        },
+        {
+          "text": "In Barbaresco, three names shaped the modern wine. [Gaja](site-it-gaja) made single-vineyard Barbaresco (Sorì San Lorenzo, Sorì Tildin, Costa Russi) and took it to the world's best tables; from 1996 to 2012 those three were sold as Langhe Nebbiolo so he could add a little Barbera, and from 2013 they returned to the DOCG as pure Nebbiolo. [Bruno Giacosa](site-it-bruno-giacosa), first a buyer of grapes from the best growers, then owner of Falletto and Asili vines, made classic large-cask wines; his red-label Riservas are among Italy's most collected. And the Produttori showed that a cooperative can be world class.\n\nA red label on a Giacosa bottle means Riserva, released only in the finest years. And between Asili and Rabajà, the Marchesi di Grésy have owned the Martinenga amphitheatre since the 18th century and bottled it alone from 1973, among the earliest single-vineyard Barbarescos.",
+          "map": {
+            "fly": {"lon": 8.09, "lat": 44.72, "zoom": 12.4},
+            "highlight": ["site-it-gaja", "site-it-bruno-giacosa", "site-it-produttori-del-barbaresco", "site-it-roagna", "site-it-marchesi-di-gresy"],
+            "label": "Barbaresco's great houses"
+          }
+        },
+        {
+          "text": "Between the extremes are dozens of growers whose wines are easier to find and still classical: [G.D. Vajra](site-it-g-d-vajra) in the high Barolo village sector of Vergne, whose Bricco delle Viole is one of the coolest sites in the zone; [Cavallotto](site-it-cavallotto) on Bricco Boschis; [Massolino](site-it-massolino) in Serralunga; [G.B. Burlotto](site-it-burlotto) in Verduno, whose Monvigliero is fermented with whole bunches and foot-trodden.\n\nThe shopping lesson is the same as in Burgundy: a good grower's Langhe Nebbiolo is a better buy than an anonymous Barolo, and a grower's basic Barolo is often the best value in the cellar.",
+          "map": {
+            "fly": {"lon": 7.955, "lat": 44.635, "zoom": 11.4},
+            "highlight": ["site-it-g-d-vajra", "site-it-cavallotto", "site-it-massolino", "site-it-burlotto", "it-barolo-bricco-delle-viole", "it-barolo-monvigliero"],
+            "label": "Growers to know"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gaja Barbaresco (splurge)",
+          "why": "The wine that put Barbaresco on the world's wine lists: polished, precise, perfumed and long. Compare its finish with the Produttori's to see what a famous name, and its price, buy.",
+          "price": "$300–400",
+          "try": ["Gaja"],
+          "place": "it-barbaresco"
+        }
+      ],
+      "deeper": ["site-it-giacomo-conterno", "site-it-oddero", "site-it-vietti", "site-it-gaja", "site-it-bruno-giacosa", "site-it-burlotto", "it-langhe"],
+      "check": [
+        {
+          "q": "Why were Gaja's single-vineyard Barbarescos labelled Langhe Nebbiolo from 1996 to 2012?",
+          "options": ["They failed the tasting panel", "They contained a little Barbera, which Barbaresco DOCG forbids", "They came from outside the zone", "They were sparkling"],
+          "answer": 1,
+          "why": "Gaja added a few per cent of Barbera; from 2013 the wines returned to the DOCG as 100% Nebbiolo."
+        },
+        {
+          "q": "On a Bruno Giacosa bottle, a red label means…",
+          "options": ["Barbera", "A Riserva from a great year", "A wine for export", "A white wine"],
+          "answer": 1,
+          "why": "Giacosa's red-label Riservas were released only in the finest vintages."
+        },
+        {
+          "q": "Which Verduno producer is famous for whole-bunch, foot-trodden Monvigliero?",
+          "options": ["G.B. Burlotto", "Massolino", "Vietti", "Cavallotto"],
+          "answer": 0,
+          "why": "Burlotto's Monvigliero became one of the most sought-after Barolos of the 2010s."
+        }
+      ]
+    },
+    {
+      "id": "vintages",
+      "part": "deeper",
+      "title": "Going deeper: vintages and the long curve",
+      "steps": [
+        {
+          "text": "Nebbiolo needs a long, even season, and Piedmont's weather has swung wildly. The atlas gives its top rating to 2016, 2019 and 2021: long seasons with cool nights that gave perfumed, structured wines built for decades. It rates 2010, 2013, 2004 and 2001 just as highly. 2015 and 2020 were warm and generous; 2017 and 2022 were drought years; 2018 and 2024 were wet.\n\nSome years were disasters. In 2002 a September hailstorm struck the heart of the Barolo zone after a wet summer, and several leading producers made no single-vineyard wines at all. In 2003 heat and drought brought the earliest harvest in two centuries. In 2014, Barbaresco escaped the hail that hit parts of Barolo and made fragrant, balanced wines.",
+          "map": {
+            "fly": {"lon": 8.0, "lat": 44.66, "zoom": 10.3},
+            "highlight": ["it-barolo", "it-barbaresco"],
+            "label": "Barolo and Barbaresco vintages"
+          }
+        },
+        {
+          "text": "Now the curve. The atlas's ageing profiles, for a good producer, run roughly like this. A Langhe Nebbiolo is ready at about two years and best from three to eight. A classic Barbaresco opens at about five and peaks from seven to eighteen; an MGA Barbaresco needs seven. A classic Barolo needs about eight years and peaks from ten to twenty-five; a single-MGA Barolo about ten, peaking from twelve to thirty; a Riserva twelve, peaking from fifteen to thirty-five.\n\nOn the map, [Gallina](it-barbaresco-gallina) 2011, from a hot, early vintage, drinks from 2018 to 2038 in the atlas: a ripe year from a ripe slope, already at its plateau.",
+          "map": {
+            "fly": {"lon": 8.1, "lat": 44.729, "zoom": 13.6},
+            "highlight": ["it-barbaresco-gallina"],
+            "label": "Barbaresco Gallina: 2011 drinks 2018–2038"
+          }
+        },
+        {
+          "text": "Read the harvest notes and the wines make sense. 2013 was so cool and late that Barolo was picked as late as 22 October, the latest harvest in 20 years, and the wines were underrated at release; they are now emerging as classics. In 2021 two nights of April frost hit the Monferrato hard, then a long, dry summer gave Barolo its great vintage. 2022 was extreme drought, with only about 120 millimetres of rain in Barolo in June and July. In 2025 two heatwaves brought Barolo in from 4 October.\n\nThe pattern: cool, late years make the most classic Nebbiolo; hot years make generous wines that open early.",
+          "map": {
+            "fly": {"lon": 7.975, "lat": 44.61, "zoom": 11.2},
+            "highlight": ["it-barolo-brunate", "it-barolo-villero", "it-barolo-francia", "it-barolo-ginestra", "it-barolo-cannubi"],
+            "label": "Reading the weather in the wine"
+          }
+        },
+        {
+          "text": "Put the two together and you can plan a cellar. A single-MGA Barolo from 2016 should open around 2030 and keep until about 2070; the 2019 and 2021 classic Barolos open around 2029 to 2031. The 2018 Barolo, a lighter, rainy year, is drinking now, and so are the 2015s. The great 2010s, after a long closed phase, are just opening.\n\nThe practical rule: drink Langhe Nebbiolo and Barbera while you wait, open Barbaresco a few years before Barolo, and in a light year enjoy the Barolos young. In a great year, buy, and forget them for a decade.",
+          "map": {
+            "fly": "it-barolo",
+            "highlight": ["it-barolo"],
+            "label": "When to open what"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A mature Barolo (12+ years old)",
+          "why": "Find a 2010 or 2013 on a restaurant list or at auction. The colour will be brick and orange, the fruit dried cherry and orange peel, with tar, truffle, leather and roses, and the tannin finally soft. This is what all the waiting is for.",
+          "price": "$100–200",
+          "try": ["Oddero", "Vietti", "Produttori di Terre del Barolo"],
+          "place": "it-barolo"
+        }
+      ],
+      "deeper": ["it-barolo", "it-barbaresco", "it-barbaresco-gallina", "it-langhe", "term-riserva", "term-cru"],
+      "check": [
+        {
+          "q": "Which of these is an exceptional Barolo vintage in the atlas?",
+          "options": ["2002", "2014", "2016", "2024"],
+          "answer": 2,
+          "why": "2016 is one of the atlas's top-rated years, with 2019 and 2021; 2002 was hail, 2014 difficult in Barolo, 2024 wet."
+        },
+        {
+          "q": "Roughly when is a classic Barolo from a good producer ready to drink?",
+          "options": ["After 1 year", "After about 3 years", "After about 8 years", "Never before 30 years"],
+          "answer": 2,
+          "why": "The atlas profile has a classic Barolo ready at about eight years, peaking from ten to twenty-five."
+        },
+        {
+          "q": "In 2014, why did Barbaresco do better than Barolo?",
+          "options": ["It harvested in July", "It largely escaped the hail that struck parts of Barolo", "It used more barriques", "It was not affected by rain at all"],
+          "answer": 1,
+          "why": "Barbaresco escaped most of the summer storms and hail and made fragrant, balanced wines."
+        }
+      ]
+    }
+  ],
+  "next": ["burgundy", "tuscany", "pinot-noir"],
+  "sources": [
+    { "title": "Wikipedia: Barolo", "url": "https://en.wikipedia.org/wiki/Barolo" },
+    { "title": "Wikipedia: Barbaresco", "url": "https://en.wikipedia.org/wiki/Barbaresco" },
+    { "title": "Produttori del Barbaresco", "url": "https://www.produttoridelbarbaresco.com/" },
+    { "title": "Wine with Seth: Produttori del Barbaresco", "url": "https://www.winewithseth.com/winewiki/produttori-del-barbaresco/" },
+    { "title": "Wine Spectator: 2019 Produttori del Barbaresco single-vineyard Riservas", "url": "https://www.winespectator.com/articles/9-benchmark-nebbiolos-2019-produttori-del-barbaresco-riserva-wine-scores" },
+    { "title": "Wine with Seth: traditionalist and modernist Barolo", "url": "https://www.winewithseth.com/winewiki/traditionalist-modernist-barolo/" },
+    { "title": "ItaliaOggi: Barolo bottlings 2024 (13.75 million) and Barbaresco (4.3 million)", "url": "https://www.italiaoggi.it/settori/agroalimentare/il-barolo-torna-a-crescere-in-bottiglia-e-chiude-il-2024-con-un-3-8-hn189gqj" },
+    { "title": "CAI Scuola, Gabriella Forno: la tracimazione del Tanaro ed evoluzione del paesaggio", "url": "https://caiscuola.cai.it/wp-content/uploads/2025/10/2025.10.-74-LANGHE-Corso-CAI-Scuola-Gabriella-Forno-La-tracimazione-del-Tanaro-ed-evoluzione-paesaggio.pdf" },
+    { "title": "Disciplinare di produzione Barolo DOCG (Regione Piemonte)", "url": "https://www.regione.piemonte.it/web/media/6424/download" },
+    { "title": "Wein.plus: Cru in Piedmontese, the vineyard designations of Barolo and Barbaresco", "url": "https://magazine.wein.plus/cru-in-piedmontese-the-vineyard-designations-of-barolo-and-barbaresco" },
+    { "title": "Michele Chiarlo harvest notes (vintage weather)", "url": "https://www.michelechiarlo.it/en/harvest-notes/" },
+    { "title": "Total Wine: Vietti Barolo Castiglione and Produttori del Barbaresco listings (Oct 2026)", "url": "https://www.totalwine.com/wine/red-wine/nebbiolo/vietti-barolo-castiglione/p/19548750" },
+    { "title": "Wine Library: Bartolo Mascarello Barolo 2021 (Oct 2026)", "url": "https://winelibrary.com/wines/nebbiolo/2021-bartolo-mascarello-barolo-148957" },
+    { "title": "Saratoga Wine Exchange: Gaja Barbaresco 2021 (Oct 2026)", "url": "https://www.saratogawine.com/?p=553459" }
+  ]
+}

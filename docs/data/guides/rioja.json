@@ -1,0 +1,1446 @@
+{
+  "id": "rioja",
+  "kind": "region",
+  "title": "Rioja",
+  "subtitle": "The Ebro, Tempranillo and the art of time",
+  "tagline": "Spain's great red, where months in barrel used to be the whole story, and village and vineyard are now writing the next chapter.",
+  "minutes": 15,
+  "deeper_minutes": 10,
+  "cover": "region-es-rioja-alavesa",
+  "countries": [
+    "es"
+  ],
+  "intro": "Rioja is a valley sheltered by mountains, a grape that ripens early, and a habit of ageing wine for years before anyone drinks it. This tour follows the Ebro through the three zones, the Bordeaux-trained houses of Haro and the modern revolution, and builds a tasting flight from Crianza to Gran Reserva of one house along the way.",
+  "chapters": [
+    {
+      "id": "ebro",
+      "part": "intro",
+      "title": "A valley between two mountain walls",
+      "steps": [
+        {
+          "text": "Rioja is the Spanish wine most people meet first, and for good reason. It is Spain's oldest regulated wine region and, since 1991, its first DOCa (*Denominación de Origen Calificada*, the top tier of Spanish [appellations](term-doca)). In 2026 it had about 66,500 registered hectares, 12,704 growers and 719 wineries, and by the agriculture ministry's count it earns about 27% of all the money made by Spain's protected wines.\n\nThe name covers more than one province. The DOCa spreads across three autonomous communities, La Rioja itself, Álava in the Basque Country and a slice of Navarra, plus a tiny enclave of Burgos. What ties them together is a river: the Ebro, which the vineyards follow for about 120 km, from the Conchas de Haro in the north-west to Alfaro in the south-east.",
+          "map": {
+            "fly": "es-rioja",
+            "highlight": [
+              "es-rioja"
+            ],
+            "label": "DOCa Rioja"
+          }
+        },
+        {
+          "text": "Two mountain walls make Rioja possible. To the north, the Sierra de Cantabria and the Montes Obarenes, rising to about 1,400 m, block the cold, wet winds from the Bay of Biscay. Here at the Conchas de Haro the Ebro cuts through them in a narrow gorge, the door through which it enters the wine country.\n\nBehind that wall the climate changes. Rain falls on the Basque side; the valley below is drier and sunnier, yet still cool enough at 400 to 700 m to keep acidity in the grapes. Downstream the river drops below 300 m at Alfaro and the climate turns from Atlantic to Mediterranean, warmer and drier. Almost every difference between Rioja wines follows that gradient from west to east.",
+          "map": {
+            "fly": {
+              "lon": -2.86,
+              "lat": 42.607,
+              "zoom": 12.0
+            },
+            "pitch": 58,
+            "bearing": 315,
+            "terrain": true,
+            "highlight": [
+              "es-rioja-haro",
+              "es-rioja-brinas",
+              "es-rioja-labastida"
+            ],
+            "label": "The Conchas de Haro"
+          }
+        },
+        {
+          "text": "To the south, the Sierra de la Demanda and the Sierra de Cameros send down a series of cool tributaries: the Tirón and the Oja (the *Río Oja* usually said to have given Rioja its name), then the Najerilla, the Iregua, the Leza, the Cidacos and the Alhama. Each cuts a valley of terraces and slopes climbing toward the mountains, and growers now follow those valleys uphill in search of freshness. A label may call a vineyard *viñedo de altura*, high-altitude, only from 550 m.\n\nSouth bank and north bank, high and low, west and east: the region has three official zones that try to capture the differences. Before we go there, taste the grape in its simplest form.",
+          "map": {
+            "fly": {
+              "lon": -2.45,
+              "lat": 42.31,
+              "zoom": 8.9
+            },
+            "highlight": [
+              "es-rioja-casalarreina",
+              "es-rioja-najera",
+              "es-rioja-nalda",
+              "es-rioja-murillo-de-rio-leza",
+              "es-rioja-arnedo",
+              "es-rioja-cervera-del-rio-alhama"
+            ],
+            "label": "Villages on the southern tributaries"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Artuke, Rioja (carbonic maceration)",
+          "why": "Whole bunches from Baños de Ebro in Rioja Alavesa fermented by carbonic maceration and bottled young, the old cosechero style. Purple, juicy, all strawberry and violets with soft tannin and no oak: Tempranillo almost naked. Every later bottle in this tour adds time in barrel or a sense of place to this.",
+          "price": "$17–25",
+          "try": [
+            "Artuke"
+          ],
+          "place": "es-rioja-banos-de-ebro"
+        }
+      ],
+      "deeper": [
+        "es-rioja",
+        "region-es-rioja",
+        "term-doca",
+        "es-rioja-haro",
+        "es-rioja-alfaro",
+        "grape-tempranillo"
+      ],
+      "check": [
+        {
+          "q": "Which river ties the Rioja DOCa together?",
+          "options": [
+            "The Duero",
+            "The Ebro",
+            "The Tagus",
+            "The Garonne"
+          ],
+          "answer": 1,
+          "why": "The vineyards follow the Ebro for about 120 km, from the Conchas de Haro to Alfaro."
+        },
+        {
+          "q": "What role does the Sierra de Cantabria play?",
+          "options": [
+            "It supplies irrigation water",
+            "It marks the border with France",
+            "It shelters the vineyards from cold, wet Atlantic winds",
+            "It is the source of the Ebro"
+          ],
+          "answer": 2,
+          "why": "The Sierra de Cantabria and the Montes Obarenes block the weather from the Bay of Biscay, leaving the valley drier and sunnier."
+        },
+        {
+          "q": "From what altitude may a Rioja label say 'viñedo de altura'?",
+          "options": [
+            "300 m",
+            "450 m",
+            "550 m",
+            "800 m"
+          ],
+          "answer": 2,
+          "why": "The 2019 labelling rules reserve the high-altitude term for vineyards at 550 m or more."
+        }
+      ]
+    },
+    {
+      "id": "zones",
+      "part": "intro",
+      "title": "Three zones, three climates",
+      "steps": [
+        {
+          "text": "[Rioja Alta](es-rioja-alta) is the cool western part of the region, mostly on the south bank of the Ebro around Haro, Briones, Cenicero, Fuenmayor and Nájera, plus the Sonsierra on the north bank. Its vineyards sit at about 450 to 700 m with an Atlantic influence and 400 to 500 mm of rain a year, on clay-limestone, iron-rich clay and old river terraces.\n\nThis is the commercial heart of classic Rioja: most of the historic houses are here, and it supplies the backbone of most great Gran Reservas. Its Tempranillo is structured and slow to age, with red fruit, firm acidity and fine-grained tannin that can carry a wine through years in barrel and decades in bottle.",
+          "map": {
+            "fly": "es-rioja-alta",
+            "highlight": [
+              "es-rioja-alta"
+            ],
+            "label": "Rioja Alta"
+          }
+        },
+        {
+          "text": "North of the river, in the Basque province of Álava, [Rioja Alavesa](es-rioja-alavesa) is the smallest zone: about 13,000 ha in 15 municipalities, among them Laguardia, Elciego, Labastida, Samaniego and Lanciego. Its vines climb south-facing terraces between about 400 and 700 m, right under the cliffs of the Sierra de Cantabria, on the region's chalkiest clay-limestone.\n\nAlavesa Tempranillo tends to be perfumed and fresh. The zone also kept alive the farmer's style of Rioja, the *cosechero* ('harvester's') wine: whole bunches fermented by [carbonic maceration](term-carbonic-maceration), sealed in tanks so the berries start fermenting inside their skins, and drunk young. That is the style of the Artuke you just tasted. Many of Rioja's most ambitious modern estates are here too.",
+          "map": {
+            "fly": "es-rioja-alavesa",
+            "highlight": [
+              "es-rioja-alavesa",
+              "site-es-laguardia"
+            ],
+            "label": "Rioja Alavesa"
+          }
+        },
+        {
+          "text": "Downstream, [Rioja Oriental](es-rioja-oriental) is warmer and drier, with a Mediterranean climate and often less than 400 mm of rain. Until 2018 it was called Rioja Baja, 'low Rioja'; the Consejo Regulador, Rioja's governing council, renamed it partly because 'low' sounded like low quality. It also takes in the DOCa's Navarrese villages, from Viana to San Adrián.\n\nThis is Garnacha country, long a source of bulk wine and blending components. Its reputation is changing from the hills: high vineyards on Monte Yerga and around Alfaro, Quel and Tudelilla give some of Rioja's most exciting Garnacha, led by Álvaro Palacios at [Palacios Remondo](site-es-palacios-remondo-alfaro) in Alfaro, his family's winery since 1945.",
+          "map": {
+            "fly": "es-rioja-oriental",
+            "highlight": [
+              "es-rioja-oriental",
+              "site-es-palacios-remondo-alfaro"
+            ],
+            "label": "Rioja Oriental"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Palacios Remondo La Montesa, Rioja",
+          "why": "About 94% Garnacha from organic estate vineyards near Alfaro at around 550 m, aged a year in mostly French barrels. Riper, rounder and spicier than Alavesa Tempranillo, with red-berry warmth: the taste of Rioja Oriental.",
+          "price": "$20–25",
+          "try": [
+            "Palacios Remondo"
+          ],
+          "place": "es-rioja-alfaro"
+        },
+        {
+          "wine": "LZ, Rioja (Telmo Rodríguez, Bodega Lanzaga)",
+          "why": "A young, mostly Tempranillo red from Lanciego in Rioja Alavesa. Beside La Montesa it should feel cooler and more perfumed, with brighter acidity: the north bank against the east.",
+          "price": "$25–30",
+          "try": [
+            "Telmo Rodríguez (Bodega Lanzaga)"
+          ],
+          "place": "es-rioja-lanciego"
+        }
+      ],
+      "deeper": [
+        "es-rioja-alta",
+        "es-rioja-alavesa",
+        "es-rioja-oriental",
+        "region-es-rioja-alavesa",
+        "site-es-palacios-remondo-alfaro",
+        "term-carbonic-maceration"
+      ],
+      "check": [
+        {
+          "q": "Which zone was called Rioja Baja until 2018?",
+          "options": [
+            "Rioja Alta",
+            "Rioja Alavesa",
+            "The Sonsierra",
+            "Rioja Oriental"
+          ],
+          "answer": 3,
+          "why": "The Consejo renamed the warm eastern zone Rioja Oriental, partly to shed the suggestion of lower quality."
+        },
+        {
+          "q": "In which autonomous community is Rioja Alavesa?",
+          "options": [
+            "Navarra",
+            "The Basque Country",
+            "La Rioja",
+            "Castilla y León"
+          ],
+          "answer": 1,
+          "why": "Rioja Alavesa is the part of the DOCa in the province of Álava, in the Basque Country."
+        },
+        {
+          "q": "Which grape is the signature of Rioja Oriental's warm hills?",
+          "options": [
+            "Garnacha",
+            "Graciano",
+            "Viura",
+            "Maturana Blanca"
+          ],
+          "answer": 0,
+          "why": "Garnacha thrives in the warm, dry east, and high sites such as Monte Yerga have lifted its reputation."
+        }
+      ]
+    },
+    {
+      "id": "grapes",
+      "part": "intro",
+      "title": "Tempranillo and its partners",
+      "steps": [
+        {
+          "text": "[Tempranillo](grape-tempranillo) is about 88% of Rioja's red vines. Its name comes from *temprano*, early: it buds and ripens ahead of most Spanish grapes, which is exactly why it suits a valley where the season can close with autumn rain or cold. It has thick skins, good colour, moderate acidity and a savoury red-fruit character, strawberry and cherry that turn to leather and tobacco with age.\n\nOn its own, though, Tempranillo can lack acidity in hot years and aromatic lift in cool ones. For most of Rioja's history it grew in mixed vineyards beside other grapes, and the classic wines are blends.",
+          "map": {
+            "fly": {
+              "lon": -2.8,
+              "lat": 42.565,
+              "zoom": 10.6
+            },
+            "highlight": [
+              "es-rioja-haro",
+              "es-rioja-briones",
+              "es-rioja-san-vicente-de-la-sonsierra",
+              "es-rioja-labastida",
+              "es-rioja-abalos",
+              "es-rioja-brinas"
+            ],
+            "label": "Tempranillo's heartland"
+          }
+        },
+        {
+          "text": "Three partners matter. [Garnacha](grape-grenache) adds body, warmth and ripe red fruit, and grows best in Rioja Oriental. Mazuelo, Rioja's name for [Carignan](grape-carignan), brings acidity, colour and tannin. [Graciano](grape-graciano) is the treasure: only about 2% of the red vines, hard to grow and low-yielding, but it gives perfume, blue fruit and the high acidity that keeps old Rioja fresh. It nearly disappeared, and [Contino](site-es-vinedos-del-contino), the single estate CVNE founded with local partners on a loop of the Ebro in 1973, helped revive it with a varietal Graciano.\n\nMaturana Tinta, an old local variety, completes the list, and growers now map and replant the forgotten grapes they find in century-old field blends.",
+          "map": {
+            "fly": {
+              "lon": -2.497,
+              "lat": 42.502,
+              "zoom": 13.4
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-es-vinedos-del-contino"
+            ],
+            "label": "Contino, on the Ebro"
+          }
+        },
+        {
+          "text": "Why blend? The historic houses of Haro rarely owned all their vineyards. They bought grapes and wine from hundreds of growers across the region and built a house style by mixing them: Tempranillo from Rioja Alta for structure, Garnacha from the warmer east for flesh, a little Graciano and Mazuelo for perfume and bite. A brand such as Viña Ardanza or Muga Reserva is a recipe repeated every year.\n\nThat habit explains a lot about Rioja labels. Until recently they told you the house and how long the wine spent in barrel, but rarely where the grapes grew. The next chapter is about that time in barrel.",
+          "map": {
+            "fly": {
+              "lon": -2.8478,
+              "lat": 42.5838,
+              "zoom": 15.4
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-es-r-lopez-de-heredia-vina-tondonia",
+              "site-es-cvne-compania-vinicola-del-norte-de-espana",
+              "site-es-la-rioja-alta-s-a",
+              "site-es-bodegas-muga",
+              "site-es-bodegas-bilbainas",
+              "site-es-bodegas-gomez-cruzado",
+              "site-es-bodegas-roda",
+              "site-es-barrio-de-la-estacion-haro"
+            ],
+            "label": "The houses that blend"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Muga Reserva, Rioja",
+          "why": "Mostly Tempranillo with Garnacha and smaller amounts of Mazuelo and Graciano, fermented in oak vats and aged in Muga's own barrels. Look for the layers: red cherry from Tempranillo, a warm, spicy middle from Garnacha, and a lift of acidity on the finish.",
+          "price": "$30–35",
+          "try": [
+            "Bodegas Muga"
+          ],
+          "place": "es-rioja-haro"
+        }
+      ],
+      "deeper": [
+        "grape-tempranillo",
+        "grape-grenache",
+        "grape-graciano",
+        "grape-carignan",
+        "site-es-vinedos-del-contino",
+        "site-es-bodegas-muga"
+      ],
+      "check": [
+        {
+          "q": "What does the name Tempranillo refer to?",
+          "options": [
+            "Its dark colour",
+            "Its home village",
+            "Its thin skin",
+            "Its early ripening"
+          ],
+          "answer": 3,
+          "why": "Temprano means early in Spanish: the grape buds and ripens earlier than most Spanish varieties."
+        },
+        {
+          "q": "Which grape is only about 2% of Rioja's red vines but prized for perfume and high acidity?",
+          "options": [
+            "Garnacha",
+            "Graciano",
+            "Viura",
+            "Tempranillo"
+          ],
+          "answer": 1,
+          "why": "Graciano is difficult and low-yielding, but a little of it keeps blends fresh and fragrant."
+        },
+        {
+          "q": "Why were classic Rioja wines blended from many places?",
+          "options": [
+            "Houses bought grapes and wine from many growers and built a consistent house style",
+            "The law banned single-village wines",
+            "Tempranillo cannot be fermented alone",
+            "To meet Bordeaux rules"
+          ],
+          "answer": 0,
+          "why": "The big houses relied on purchased grapes and wine and sold a brand and an ageing category rather than a place."
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "part": "intro",
+      "title": "Oak and time: the ageing categories",
+      "steps": [
+        {
+          "text": "Rioja's other signature is oak. Its houses learned barrel ageing from Bordeaux and adopted the Bordeaux *barrica* of 225 litres, and although the first barrels were French, most bodegas came to rely on American oak as French wood grew dearer. American staves were cheaper, Spain had long trade links with the Americas, and the houses had the barrels made in Spanish cooperages; López de Heredia, La Rioja Alta and Muga still keep their own coopers.\n\nAmerican oak tastes different. It carries more of the aromatic compounds called oak lactones, which smell of coconut, vanilla and dill. Combined with years of slow oxygen exchange through the wood, it gives classic Rioja its savoury sweetness: dried cherry, vanilla, sweet spice and leather.",
+          "map": {
+            "fly": {
+              "lon": -2.8481,
+              "lat": 42.585,
+              "zoom": 16.2
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-es-r-lopez-de-heredia-vina-tondonia"
+            ],
+            "label": "López de Heredia, Haro"
+          }
+        },
+        {
+          "text": "Those years became law. Rioja's ageing categories for red wine are stricter than Spain's national minimums. A *[crianza](term-crianza)* must age for at least two years, at least one of them in 225-litre oak. A *[reserva](term-reserva)* needs at least three years, with at least one in oak and six months in bottle. A *gran reserva* needs at least five years, with at least two in oak and two in bottle.\n\nWine with no ageing claim is *genérico*, often called *joven*, young; a wine with some cellar time but no category may now say *madurado en bodega*. Whites and rosados have shorter minimums. The categories run on top of everything else, so any zone, village or vineyard wine can also carry one.",
+          "map": {
+            "fly": "es-rioja-haro",
+            "highlight": [
+              "es-rioja-haro"
+            ],
+            "label": "Haro"
+          }
+        },
+        {
+          "text": "Why build a hierarchy on time? Because for a century time was what the houses sold. A house blended wine from many villages, aged it in its own cellars and released it ready to drink. The category on the label was a promise of patience the buyer did not have to supply: a Gran Reserva arrived already mature, its tannin softened and its fruit turned to spice. Bordeaux sells young wine for you to age; classic Rioja does the ageing for you.\n\nThe best houses go far beyond the minimums. López de Heredia keeps its Viña Tondonia red for six or more years in barrel, and the Consejo's official vintage ratings tell you which years deserve a Gran Reserva: the recent *Excelente* years are 2001, 2004, 2005, 2010, 2011 and 2019.",
+          "map": {
+            "fly": {
+              "lon": -2.849,
+              "lat": 42.5837,
+              "zoom": 14.6
+            },
+            "highlight": [
+              "site-es-r-lopez-de-heredia-vina-tondonia",
+              "site-es-cvne-compania-vinicola-del-norte-de-espana",
+              "site-es-la-rioja-alta-s-a",
+              "site-es-bodegas-muga",
+              "site-es-bodegas-bilbainas",
+              "site-es-bodegas-gomez-cruzado",
+              "site-es-bodegas-roda",
+              "site-es-barrio-de-la-estacion-haro"
+            ],
+            "label": "Barrio de la Estación"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "CVNE Cune Crianza, Rioja",
+          "why": "Start the flight here. One year in barrel gives a light vanilla and coconut frame around bright cherry fruit; the wine is still mostly about Tempranillo.",
+          "price": "$14–18",
+          "try": [
+            "CVNE"
+          ],
+          "place": "es-rioja-haro"
+        },
+        {
+          "wine": "CVNE Cune Reserva, Rioja",
+          "why": "The same house one step up. With a year more in cellar the fruit darkens toward dried cherry, the oak integrates, and the first savoury, leathery notes appear. Taste it right after the Crianza and the effect of time is obvious.",
+          "price": "$20–30",
+          "try": [
+            "CVNE"
+          ],
+          "place": "es-rioja-haro"
+        }
+      ],
+      "deeper": [
+        "term-crianza",
+        "term-reserva",
+        "site-es-r-lopez-de-heredia-vina-tondonia",
+        "site-es-cvne-compania-vinicola-del-norte-de-espana",
+        "es-rioja-haro"
+      ],
+      "check": [
+        {
+          "q": "What is the minimum ageing for a red Rioja Gran Reserva?",
+          "options": [
+            "Two years, one in oak",
+            "Three years, one in oak",
+            "Five years, with at least two in oak and two in bottle",
+            "Ten years in oak"
+          ],
+          "answer": 2,
+          "why": "Rioja's red Gran Reserva needs five years in all, at least two in 225-litre barrels and two in bottle."
+        },
+        {
+          "q": "Why did Rioja houses come to favour American oak?",
+          "options": [
+            "It was cheaper, and Spain had long trade links with the Americas",
+            "The law requires it",
+            "It grows in the Sierra de Cantabria",
+            "It adds acidity"
+          ],
+          "answer": 0,
+          "why": "As French oak grew expensive, houses imported American staves and had them coopered in Spain."
+        },
+        {
+          "q": "How does classic Rioja's approach to ageing differ from Bordeaux's?",
+          "options": [
+            "Rioja is never aged in oak",
+            "Bordeaux ages its wine longer before release",
+            "They are identical",
+            "Rioja houses age the wine before release so it is ready to drink"
+          ],
+          "answer": 3,
+          "why": "Bordeaux sells young wine for the buyer to cellar; the Rioja categories guarantee the ageing has been done before release."
+        }
+      ]
+    },
+    {
+      "id": "haro",
+      "part": "intro",
+      "title": "The Bordeaux connection and the station quarter",
+      "steps": [
+        {
+          "text": "The modern story starts in the 1850s with two aristocrats who had seen Bordeaux. Luciano de Murrieta, who trained there, made the first aged Rioja for export in 1852 and founded his bodega at [Finca Ygay](site-es-marques-de-murrieta-finca-ygay), south-east of Logroño, in 1872. Camilo Hurtado de Amézaga, the Marqués de Riscal, built his winery at [Elciego](site-es-marques-de-riscal-and-the-gehry-hotel) in 1858 with Bordeaux advice; its cellar still holds bottles from 1862.\n\nThey brought the barrica, racking (moving wine off its sediment from barrel to barrel) and the idea of a wine aged to travel far. It was an elite experiment, until a disaster in France turned it into an industry.",
+          "map": {
+            "fly": {
+              "lon": -2.5,
+              "lat": 42.48,
+              "zoom": 10.0
+            },
+            "highlight": [
+              "site-es-marques-de-riscal-and-the-gehry-hotel",
+              "site-es-marques-de-murrieta-finca-ygay",
+              "es-rioja-elciego",
+              "es-rioja-logrono"
+            ],
+            "label": "Riscal and Murrieta"
+          }
+        },
+        {
+          "text": "From the 1860s [phylloxera](term-phylloxera), an American root louse, destroyed the vineyards of France, and French merchants came south looking for wine ([how they transformed Rioja](event-rioja-french-boom)). The Tudela to Bilbao railway, opened through Haro in 1863, gave them a way out. Around Haro's station grew a cluster of bodegas that could load casks straight onto trains: [López de Heredia](site-es-r-lopez-de-heredia-vina-tondonia) (1877), [CVNE](site-es-cvne-compania-vinicola-del-norte-de-espana) (1879), Gómez Cruzado (1886), [La Rioja Alta](site-es-la-rioja-alta-s-a) (1890) and Bodegas Bilbaínas (1901). Muga moved here in the early 1970s and Roda arrived in 1987.\n\nNo other wine town has so many historic houses within a few hundred metres, and once a year the [Barrio de la Estación](site-es-barrio-de-la-estacion-haro) opens their doors together for a weekend of tastings.",
+          "map": {
+            "fly": {
+              "lon": -2.8485,
+              "lat": 42.5843,
+              "zoom": 16.0
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-es-r-lopez-de-heredia-vina-tondonia",
+              "site-es-cvne-compania-vinicola-del-norte-de-espana",
+              "site-es-la-rioja-alta-s-a",
+              "site-es-bodegas-muga",
+              "site-es-bodegas-bilbainas",
+              "site-es-bodegas-gomez-cruzado",
+              "site-es-bodegas-roda",
+              "site-es-barrio-de-la-estacion-haro"
+            ],
+            "label": "The station quarter"
+          }
+        },
+        {
+          "text": "The boom did not last. [Phylloxera reached Rioja](event-phylloxera-rioja) itself around 1899 to 1901, first found near Sajazarra, and as France replanted on resistant American rootstocks the French buyers went home. Rioja replanted too, helped by a viticultural station opened at Haro in 1892.\n\nWhat stayed was the method. A royal decree defined the origin of Rioja wine in 1902, and the Consejo Regulador, the first in Spain, was created in 1925. The houses kept their barrels and their long cellar times. In the 1910s Rafael López de Heredia planted the 100-ha [Viña Tondonia](site-es-vina-tondonia-vineyard) on a meander of the Ebro opposite Haro, one of the few historic Rioja brands named after a real vineyard.",
+          "map": {
+            "fly": {
+              "lon": -2.8267,
+              "lat": 42.5975,
+              "zoom": 14.4
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-es-vina-tondonia-vineyard"
+            ],
+            "label": "Viña Tondonia"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "López de Heredia Viña Cubillo Crianza, Rioja",
+          "why": "A 'crianza' from the most traditional house that spends far longer in old American oak than the law asks. Pale, savoury and tangy, it shows that the categories are minimums, not descriptions.",
+          "price": "$29–32",
+          "try": [
+            "R. López de Heredia"
+          ],
+          "place": "es-rioja-haro"
+        },
+        {
+          "wine": "López de Heredia Viña Tondonia Reserva, Rioja",
+          "why": "Released a decade or more after the harvest: brick-edged, with dried cherry, leather, tobacco and a bright, almost sour acidity that keeps it alive. This is nineteenth-century Rioja, still made the same way.",
+          "price": "$44–55",
+          "try": [
+            "R. López de Heredia"
+          ],
+          "place": "es-rioja-haro"
+        },
+        {
+          "wine": "La Rioja Alta Viña Ardanza Reserva, Rioja",
+          "why": "Tempranillo from Rioja Alta with Garnacha, aged in barrels from the house's own cooperage. Rounder and riper than Tondonia, with sweet spice; compare the two Haro neighbours.",
+          "price": "$38–45",
+          "try": [
+            "La Rioja Alta S.A."
+          ],
+          "place": "es-rioja-haro"
+        }
+      ],
+      "deeper": [
+        "event-rioja-french-boom",
+        "event-phylloxera-rioja",
+        "site-es-barrio-de-la-estacion-haro",
+        "site-es-la-rioja-alta-s-a",
+        "site-es-marques-de-riscal-and-the-gehry-hotel",
+        "site-es-marques-de-murrieta-finca-ygay",
+        "term-phylloxera"
+      ],
+      "check": [
+        {
+          "q": "What first brought French merchants to Rioja in large numbers?",
+          "options": [
+            "The 1855 Bordeaux classification",
+            "A Spanish export subsidy",
+            "Phylloxera destroying French vineyards",
+            "A new motorway"
+          ],
+          "answer": 2,
+          "why": "From the 1860s phylloxera wrecked French production, and Bordeaux merchants crossed the Pyrenees to buy wine."
+        },
+        {
+          "q": "Why did so many bodegas settle around Haro's railway station?",
+          "options": [
+            "The soil there is the best in Rioja",
+            "The trains could carry their wine to Bilbao and France",
+            "The Consejo required it",
+            "It was the only flat land"
+          ],
+          "answer": 1,
+          "why": "The Tudela to Bilbao line, open from 1863, let houses load casks straight onto trains."
+        },
+        {
+          "q": "Who made the first aged Rioja for export, in 1852?",
+          "options": [
+            "Luciano de Murrieta",
+            "The Marqués de Riscal",
+            "Rafael López de Heredia",
+            "Isaac Muga"
+          ],
+          "answer": 0,
+          "why": "Luciano de Murrieta, trained in Bordeaux, shipped aged Rioja in 1852 and founded his bodega at Ygay in 1872."
+        }
+      ]
+    },
+    {
+      "id": "modern",
+      "part": "intro",
+      "title": "The modern revolution",
+      "steps": [
+        {
+          "text": "By the 1980s classic Rioja had a problem: too much of it was tired, oaky and anonymous, sold on the category rather than the taste. A new generation answered by making wine like a Bordeaux or Burgundy estate. [Remelluri](site-es-remelluri), bought by the Rodríguez family in 1967, and [Contino](site-es-vinedos-del-contino), founded by CVNE and local partners in 1973, pioneered the single estate in the modern sense. Then came [Roda](site-es-bodegas-roda) (1987), [Remírez de Ganuza](site-es-remirez-de-ganuza) (1989), [Artadi](site-es-artadi) in Laguardia, [Finca Allende](site-es-finca-allende-briones) in Briones (1995) and the Eguren family's [Sierra Cantabria](site-es-sierra-cantabria).\n\nTheir wines were darker and riper, aged for less time in new French oak, and sold on the name of a vineyard or a cuvée rather than a category: *vino de autor*, 'author's wine'.",
+          "map": {
+            "fly": {
+              "lon": -2.7,
+              "lat": 42.57,
+              "zoom": 10.9
+            },
+            "highlight": [
+              "site-es-vinedos-del-contino",
+              "site-es-remelluri",
+              "site-es-bodegas-roda",
+              "site-es-remirez-de-ganuza",
+              "site-es-artadi",
+              "site-es-finca-allende-briones",
+              "site-es-sierra-cantabria"
+            ],
+            "label": "Modern Rioja's estates"
+          }
+        },
+        {
+          "text": "This is [Viña El Pisón](site-es-vina-el-pison), 2.4 ha below Laguardia, planted by the López de Lacalle family in 1945. Artadi's wine from it, first bottled on its own in the early 1990s, became one of the defining single-vineyard Tempranillos of modern Spain and a test case for the argument that Rioja should be labelled by place.\n\nThe argument got sharp. Rioja's rules then left little room for a label to name a village or a vineyard, and in 2015 Artadi announced it was leaving the DOCa in protest; since the 2016 vintage it has sold its wines outside the Rioja name. Others stayed and pushed from inside, among them the winemaker Telmo Rodríguez and a group of growers in the Sonsierra and Rioja Alavesa.",
+          "map": {
+            "fly": {
+              "lon": -2.577,
+              "lat": 42.5405,
+              "zoom": 15.2
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-es-vina-el-pison",
+              "site-es-laguardia"
+            ],
+            "label": "Viña El Pisón, Laguardia"
+          }
+        },
+        {
+          "text": "[Remelluri](site-es-remelluri), in Labastida, shows where that road led. It was once a farm of the medieval monastery of Toloño, with stone presses cut into the rock. Telmo Rodríguez, son of the family that bought it, returned in 2010 and turned it toward village and vineyard wines, grown organically on terraces up to about 800 m under the Sierra.\n\nToday's most interesting movement is less about oak than about old vineyards. Small growers such as [Abel Mendoza](site-es-abel-mendoza-san-vicente-de-la-sonsierra) in San Vicente de la Sonsierra bottle single plots and field blends from [bush vines](term-head-trained), free-standing vines trained low without wires, many of them [old vines](term-old-vines) of mixed grapes. In Rioja, 'modern' now often means old.",
+          "map": {
+            "fly": {
+              "lon": -2.774,
+              "lat": 42.603,
+              "zoom": 12.8
+            },
+            "pitch": 58,
+            "bearing": 350,
+            "terrain": true,
+            "highlight": [
+              "site-es-remelluri",
+              "es-rioja-labastida"
+            ],
+            "label": "Remelluri, under the Toloño"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bodegas Roda Sela, Rioja",
+          "why": "The youngest wine of one of the 1990s modernists, from old Tempranillo around Haro and the Sonsierra. Darker fruit, French oak, a silkier texture: put it beside the Viña Ardanza and you taste the two schools of Haro, a few hundred metres apart.",
+          "price": "$30–38",
+          "try": [
+            "Bodegas Roda"
+          ],
+          "place": "es-rioja-haro"
+        }
+      ],
+      "deeper": [
+        "site-es-artadi",
+        "site-es-vina-el-pison",
+        "site-es-remelluri",
+        "site-es-bodegas-roda",
+        "site-es-remirez-de-ganuza",
+        "term-old-vines",
+        "term-head-trained"
+      ],
+      "check": [
+        {
+          "q": "What did the 1990s 'vino de autor' wines change?",
+          "options": [
+            "They used more American oak and longer ageing",
+            "They were all white",
+            "Riper fruit, new French oak, and vineyard or cuvée names instead of ageing categories",
+            "They were sold in bulk"
+          ],
+          "answer": 2,
+          "why": "The modernists aimed for darker, riper wines aged in new French oak and sold on a name rather than on months in barrel."
+        },
+        {
+          "q": "Why did Artadi leave the Rioja DOCa?",
+          "options": [
+            "It moved its vineyards to Navarra",
+            "To protest that Rioja's rules did not recognise villages and vineyards on labels",
+            "It was expelled for fraud",
+            "It switched to making Cava"
+          ],
+          "answer": 1,
+          "why": "Artadi announced its exit in 2015, arguing for place-based labelling, and since the 2016 vintage sells its wines outside the DOCa."
+        },
+        {
+          "q": "Which single estate did CVNE found with local partners on a loop of the Ebro in 1973?",
+          "options": [
+            "Muga",
+            "Marqués de Riscal",
+            "Roda",
+            "Contino"
+          ],
+          "answer": 3,
+          "why": "CVNE and local partners founded Contino on its own loop of the Ebro in 1973; with Remelluri it pioneered the modern single estate in Rioja."
+        }
+      ]
+    },
+    {
+      "id": "place",
+      "part": "intro",
+      "title": "Zone, village and single vineyard",
+      "steps": [
+        {
+          "text": "In 2017 Rioja answered the place argument with a reform that lets labels name smaller pieces of land. A *vino de zona* names one of the three zones. A *vino de municipio*, since renamed *vino de pueblo* (village wine), names a village: the grapes must come from it, with up to 15% from neighbouring villages under strict conditions, and the wine must be made and bottled there. At the top sits the *[viñedo singular](term-vinedo-singular)*, the single vineyard.\n\nThe reform runs alongside the ageing categories rather than replacing them, so a bottle can be both a village wine and a Reserva. Rioja now classifies its wines in two directions at once: by time and by place.",
+          "map": {
+            "fly": "es-rioja",
+            "highlight": [
+              "es-rioja-alta",
+              "es-rioja-alavesa",
+              "es-rioja-oriental"
+            ],
+            "label": "The three zones"
+          }
+        },
+        {
+          "text": "A viñedo singular has to earn its name. Its vines must be at least 35 years old, hand-harvested, held long-term by the winery and cropped at no more than 5,000 kg/ha for reds, against the DOCa's general limit of 6,500; each wine must also pass tasting panels. The first were recognised in 2019. By 24 September 2026 the ministry had approved 167, covering about 270 ha for 101 wineries: 91 in La Rioja, 73 in Álava and 3 in Navarra.\n\nThat map says a lot. Álava has about a fifth of Rioja's vineyard but more than 40% of its single vineyards, a sign of how strongly its growers identify with place.",
+          "map": {
+            "fly": "es-rioja-alavesa",
+            "highlight": [
+              "es-rioja-banos-de-ebro",
+              "es-rioja-elciego",
+              "es-rioja-elvillar",
+              "es-rioja-kripan",
+              "es-rioja-labastida",
+              "es-rioja-laguardia",
+              "es-rioja-lanciego",
+              "es-rioja-lapuebla-de-labarca",
+              "es-rioja-leza",
+              "es-rioja-moreda-de-alava",
+              "es-rioja-navaridas",
+              "es-rioja-oyon",
+              "es-rioja-samaniego",
+              "es-rioja-villabuena-de-alava",
+              "es-rioja-yecora"
+            ],
+            "label": "Álava: 73 single vineyards"
+          }
+        },
+        {
+          "text": "Labels gained other protected terms in 2019: old vines (today, planted in 1980 or earlier, rising to a 50-year minimum from 2030), centenarian vines (100 years or more), pre-phylloxera vines (planted before 1900), high-altitude vineyards (550 m and up), and terms for estate-grown and estate-bottled wine.\n\nSo a modern Rioja label can be read like a map. 'Rioja Alta' tells you the zone; a village name such as San Vicente de la Sonsierra or Labastida tells you the village; a vineyard name with the words *viñedo singular* tells you the plot. And 'Gran Reserva' still tells you the time. The best way to feel the difference is to taste the two philosophies side by side.",
+          "map": {
+            "fly": "es-rioja-san-vicente-de-la-sonsierra",
+            "highlight": [
+              "es-rioja-san-vicente-de-la-sonsierra",
+              "site-es-abel-mendoza-san-vicente-de-la-sonsierra",
+              "site-es-sierra-cantabria"
+            ],
+            "label": "San Vicente de la Sonsierra"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "CVNE Cune Gran Reserva, Rioja",
+          "why": "The end of the CVNE flight: five or more years of ageing before release. Tertiary flavours take over (tobacco, leather, dried fig, sweet spice) and the tannin is silky. Taste it after the Crianza and Reserva and you have tasted the whole ageing ladder of one house.",
+          "price": "$37–45",
+          "try": [
+            "CVNE"
+          ],
+          "place": "es-rioja-haro"
+        },
+        {
+          "wine": "Lanzaga, Rioja (Telmo Rodríguez)",
+          "why": "A wine of place from the vineyards of Lanciego in Rioja Alavesa: less oak, more fruit and stone, a fresh, chalky finish. Pour it next to the Gran Reserva and choose: time or place.",
+          "price": "$40–50",
+          "try": [
+            "Telmo Rodríguez (Bodega Lanzaga)"
+          ],
+          "place": "es-rioja-lanciego"
+        }
+      ],
+      "deeper": [
+        "term-vinedo-singular",
+        "es-rioja-alavesa",
+        "es-rioja-san-vicente-de-la-sonsierra",
+        "es-rioja-lanciego",
+        "es-rioja-labastida",
+        "term-old-vines"
+      ],
+      "check": [
+        {
+          "q": "What is a vino de pueblo?",
+          "options": [
+            "A wine from one village, made and bottled there",
+            "A cheap table wine",
+            "A wine aged five years",
+            "A cooperative's blend"
+          ],
+          "answer": 0,
+          "why": "Village wines come from a single municipality (with up to 15% from neighbours under strict conditions) and are made and bottled there."
+        },
+        {
+          "q": "What is the minimum vine age for a viñedo singular?",
+          "options": [
+            "10 years",
+            "20 years",
+            "35 years",
+            "100 years"
+          ],
+          "answer": 2,
+          "why": "Single vineyards need vines at least 35 years old, lower yields, hand harvesting and tasting approval."
+        },
+        {
+          "q": "Which province holds more than 40% of Rioja's single vineyards?",
+          "options": [
+            "La Rioja",
+            "Álava",
+            "Navarra",
+            "Burgos"
+          ],
+          "answer": 1,
+          "why": "Of 167 viñedos singulares in September 2026, 73 were in Álava, which has only about a fifth of the vineyard."
+        }
+      ]
+    },
+    {
+      "id": "whites",
+      "part": "deeper",
+      "title": "White and rosado Rioja",
+      "steps": [
+        {
+          "text": "About a tenth of Rioja's vineyard is white, roughly double the share of twenty years ago. The main grape is Viura, Rioja's name for [Macabeo](grape-macabeo): neutral and fresh when young, nutty and waxy with age. Around it grow Malvasía Riojana for aroma, [Garnacha Blanca](grape-grenache-blanc), Maturana Blanca, Turruntés and Tempranillo Blanco, a white mutation of Tempranillo found in 1988 in a vineyard at [Murillo de Río Leza](es-rioja-murillo-de-rio-leza). Since 2008 Chardonnay, Sauvignon Blanc and [Verdejo](grape-verdejo) have been allowed too.\n\nMost white Rioja today is young and crisp, or barrel-fermented in a modern, creamy style. The old style is stranger, and greater.",
+          "map": {
+            "fly": "es-rioja-murillo-de-rio-leza",
+            "highlight": [
+              "es-rioja-murillo-de-rio-leza"
+            ],
+            "label": "Murillo de Río Leza"
+          }
+        },
+        {
+          "text": "Traditional white Rioja is aged like red. López de Heredia's Viña Tondonia Blanco, mostly Viura with some Malvasía from the vineyard on the Ebro meander, spends years in old American oak before release, and its Gran Reserva comes out a decade or more after the harvest. Marqués de Murrieta's Castillo Ygay Blanco is the other benchmark. The result is golden, oxidative and savoury, smelling of hazelnut, beeswax, chamomile and sea salt, with acidity that keeps it alive for decades.\n\nMany drinkers find these wines shocking at first. Try one with fried fish, ham or mushrooms and they suddenly make sense.",
+          "map": {
+            "fly": {
+              "lon": -2.8267,
+              "lat": 42.5975,
+              "zoom": 14.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-es-vina-tondonia-vineyard",
+              "site-es-r-lopez-de-heredia-vina-tondonia"
+            ],
+            "label": "Viña Tondonia"
+          }
+        },
+        {
+          "text": "Rosado is changing too. The modern style is pale and delicate, often led by Garnacha with Viura, in the image of Provence; Muga's is the classic example. At the same time the old *clarete*, a light red made by fermenting red and white grapes together, is being revived, and López de Heredia even makes a rosado Gran Reserva.\n\nSince 2017 Rioja has also allowed quality sparkling wine made by the traditional method (*Espumoso de Calidad de Rioja*), with at least 15 months on the lees and a 36-month *Gran Añada* tier at the top. Like the village wines, it is part of a region learning to sell more than one idea of itself.",
+          "map": {
+            "fly": {
+              "lon": -2.25,
+              "lat": 42.33,
+              "zoom": 9.2
+            },
+            "highlight": [
+              "es-rioja-oriental"
+            ],
+            "label": "Garnacha country"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Muga Rosado, Rioja",
+          "why": "Pale, dry and crisp, Garnacha-led with Viura and Tempranillo: strawberry, citrus and a saline finish. The modern face of Rioja rosado.",
+          "price": "$14–16",
+          "try": [
+            "Bodegas Muga"
+          ],
+          "place": "es-rioja-haro"
+        },
+        {
+          "wine": "Muga Blanco Fermentado en Barrica, Rioja",
+          "why": "Mostly Viura, fermented in barrel: fresh pear and white flowers with a light creamy texture. The everyday modern white.",
+          "price": "$17–19",
+          "try": [
+            "Bodegas Muga"
+          ],
+          "place": "es-rioja-haro"
+        },
+        {
+          "wine": "López de Heredia Viña Gravonia Crianza Blanco, Rioja",
+          "why": "Viura aged for years in old barrel: honey, hazelnut, lemon peel and a tangy, almost salty edge. The door into traditional white Rioja.",
+          "price": "$50–65",
+          "try": [
+            "R. López de Heredia"
+          ],
+          "place": "es-rioja-haro"
+        }
+      ],
+      "deeper": [
+        "grape-macabeo",
+        "grape-grenache-blanc",
+        "grape-verdejo",
+        "site-es-vina-tondonia-vineyard",
+        "es-rioja-murillo-de-rio-leza"
+      ],
+      "check": [
+        {
+          "q": "What is Tempranillo Blanco?",
+          "options": [
+            "A white mutation of Tempranillo found in 1988",
+            "Another name for Viura",
+            "A rosado style",
+            "A French import"
+          ],
+          "answer": 0,
+          "why": "It was discovered as a natural mutation in a vineyard at Murillo de Río Leza in 1988."
+        },
+        {
+          "q": "How is traditional white Rioja such as Viña Tondonia Blanco made?",
+          "options": [
+            "Bottled young without oak",
+            "Aged for years in old American oak before release",
+            "Fermented with red grapes",
+            "Made sparkling"
+          ],
+          "answer": 1,
+          "why": "The traditional houses age their whites like reds, giving golden, oxidative, long-lived wines."
+        },
+        {
+          "q": "What is a Rioja clarete?",
+          "options": [
+            "A sweet white",
+            "A sparkling wine",
+            "A light red made by fermenting red and white grapes together",
+            "A Gran Reserva rosado"
+          ],
+          "answer": 2,
+          "why": "Clarete is the old style of pale red from mixed red and white grapes, now being revived."
+        }
+      ]
+    },
+    {
+      "id": "villages",
+      "part": "deeper",
+      "title": "Villages and single vineyards",
+      "steps": [
+        {
+          "text": "Switch on the 3D and look north across the Ebro at San Vicente de la Sonsierra. The village and its neighbours Briñas and Ábalos lie on the north bank, under the Sierra de Cantabria, yet they belong to Rioja Alta because they are in the province of La Rioja; the border with Álava runs across the slopes just east of them. San Vicente's castle and church stand on a rock above the river.\n\nThe Sonsierra is a patchwork of small terraces of old bush vines on clay-limestone, many of them field blends, and it is a cradle of the grower movement. The Eguren family of Sierra Cantabria, Abel Mendoza and dozens of small producers bottle wine here plot by plot, and the area holds many of Rioja Alta's single vineyards.",
+          "map": {
+            "fly": {
+              "lon": -2.745,
+              "lat": 42.59,
+              "zoom": 12.8
+            },
+            "pitch": 60,
+            "bearing": 0,
+            "terrain": true,
+            "highlight": [
+              "es-rioja-san-vicente-de-la-sonsierra",
+              "es-rioja-abalos",
+              "es-rioja-brinas",
+              "site-es-sierra-cantabria",
+              "site-es-abel-mendoza-san-vicente-de-la-sonsierra"
+            ],
+            "label": "The Sonsierra"
+          }
+        },
+        {
+          "text": "Across the river on the south bank, Briones is a walled hill town above a bend of the Ebro. Miguel Ángel de Gregorio founded [Finca Allende](site-es-finca-allende-briones) here in 1995 and showed, with wines such as Aurus and Calvario, what the village's old vineyards could do. Below the town, the [Dinastía Vivanco museum](site-es-dinastia-vivanco-museum-of-wine-culture) is one of the largest wine museums in the world.\n\nBetween Briones and Haro, Ollauri and Rodezno sit on the same clay-limestone slopes that the old houses bought from for a century. Many of the grapes in a classic Gran Reserva came from villages like these, and now their names appear on labels.",
+          "map": {
+            "fly": "es-rioja-briones",
+            "highlight": [
+              "es-rioja-briones",
+              "site-es-finca-allende-briones",
+              "site-es-dinastia-vivanco-museum-of-wine-culture",
+              "es-rioja-ollauri",
+              "es-rioja-rodezno"
+            ],
+            "label": "Briones, Ollauri and Rodezno"
+          }
+        },
+        {
+          "text": "East along the north bank, inside Álava, Labastida and Samaniego hold some of the highest vineyards in Rioja, under the Toloño and the cliffs of the Sierra. Here village names carry real weight: Remelluri bottles a village wine from Labastida, and Remírez de Ganuza, founded by a former vineyard broker who knew every plot in the area, works from Samaniego.\n\nVillage wines can be very good value, because they often come from the same old vines as the top cuvées, with less time in barrel and a lower price. They are also how a new generation of growers is making a name without a famous house behind them.",
+          "map": {
+            "fly": {
+              "lon": -2.73,
+              "lat": 42.59,
+              "zoom": 11.6
+            },
+            "highlight": [
+              "es-rioja-labastida",
+              "es-rioja-samaniego",
+              "site-es-remelluri",
+              "site-es-remirez-de-ganuza"
+            ],
+            "label": "Labastida and Samaniego"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "CVNE Imperial Gran Reserva, Rioja",
+          "why": "The splurge at the top of the CVNE ladder, built mostly on Rioja Alta Tempranillo. Compare it with the Cune Gran Reserva: same house, same category, finer fruit and more length.",
+          "price": "$100–125",
+          "try": [
+            "CVNE"
+          ],
+          "place": "es-rioja-haro"
+        },
+        {
+          "wine": "La Rioja Alta Gran Reserva 904, Rioja",
+          "why": "Named after the 1904 merger with Bodegas Ardanza and aged for years in the house's own American oak barrels: the reference for traditional Gran Reserva, silky and spicy, with decades ahead of it.",
+          "price": "$100–115",
+          "try": [
+            "La Rioja Alta S.A."
+          ],
+          "place": "es-rioja-haro"
+        }
+      ],
+      "deeper": [
+        "es-rioja-san-vicente-de-la-sonsierra",
+        "es-rioja-briones",
+        "es-rioja-labastida",
+        "es-rioja-samaniego",
+        "site-es-sierra-cantabria",
+        "site-es-finca-allende-briones",
+        "site-es-dinastia-vivanco-museum-of-wine-culture"
+      ],
+      "check": [
+        {
+          "q": "Why does San Vicente de la Sonsierra belong to Rioja Alta although it is on the north bank?",
+          "options": [
+            "It is in the province of La Rioja",
+            "It was moved there in 2017",
+            "Its soils are alluvial",
+            "It is in Navarra"
+          ],
+          "answer": 0,
+          "why": "The zones follow provinces as well as the river: the Sonsierra is the north-bank part of La Rioja province."
+        },
+        {
+          "q": "Why can village wines be good value?",
+          "options": [
+            "They are always from young vines",
+            "They often come from the same old vines as top cuvées, with less time in barrel",
+            "They are subsidised",
+            "They skip the tasting panel"
+          ],
+          "answer": 1,
+          "why": "A village wine can share the fruit of famous plots without the cost of long ageing or a single-vineyard name."
+        },
+        {
+          "q": "Who founded Finca Allende in Briones in 1995?",
+          "options": [
+            "Telmo Rodríguez",
+            "Abel Mendoza",
+            "Miguel Ángel de Gregorio",
+            "Álvaro Palacios"
+          ],
+          "answer": 2,
+          "why": "Miguel Ángel de Gregorio's Allende, with Aurus and Calvario, helped launch modern Rioja Alta."
+        }
+      ]
+    },
+    {
+      "id": "alavesa",
+      "part": "deeper",
+      "title": "Alavesa's terraces and Basque politics",
+      "steps": [
+        {
+          "text": "Here is Rioja Alavesa in three dimensions. The walled town of [Laguardia](site-es-laguardia), founded as a Navarrese frontier town in 1164, sits on a ridge with more than 300 old cellars and tunnels under its streets. Behind it the Sierra de Cantabria rises like a wall, and the land in between is a staircase of terraces facing south toward the Ebro.\n\nThose terraces explain Alavesa's style. The soils are chalky clay-limestone, the slopes catch the sun, and the mountain blocks the north wind, so the wines are perfumed and fine rather than heavy. The undulating roof of Santiago Calatrava's [Ysios](site-es-bodegas-ysios) winery, built in 2001 at the foot of the slope, copies the line of the mountain behind it.",
+          "map": {
+            "fly": {
+              "lon": -2.582,
+              "lat": 42.556,
+              "zoom": 12.6
+            },
+            "pitch": 58,
+            "bearing": 0,
+            "terrain": true,
+            "highlight": [
+              "site-es-laguardia",
+              "es-rioja-laguardia",
+              "site-es-bodegas-ysios",
+              "site-es-vina-el-pison",
+              "site-es-artadi"
+            ],
+            "label": "Laguardia under the Sierra"
+          }
+        },
+        {
+          "text": "Down toward the river, Elciego holds Rioja's first modern winery, [Marqués de Riscal](site-es-marques-de-riscal-and-the-gehry-hotel) (1858), now wrapped in Frank Gehry's ribbons of titanium (2006). Nearby, in Baños de Ebro and Lapuebla de Labarca, families still make cosechero wine by carbonic maceration in stone *lagos*, the open tanks of old farmhouse cellars.\n\nÁlava is also Basque, and that matters. Rioja Alavesa has its own Basque name, *Arabako Errioxa*, and many of its growers have long argued that a Consejo based in Logroño, in the neighbouring region of La Rioja, served the big houses better than Álava's small family wineries.",
+          "map": {
+            "fly": "es-rioja-elciego",
+            "highlight": [
+              "es-rioja-elciego",
+              "site-es-marques-de-riscal-and-the-gehry-hotel",
+              "es-rioja-lapuebla-de-labarca",
+              "es-rioja-banos-de-ebro"
+            ],
+            "label": "Elciego and the river villages"
+          }
+        },
+        {
+          "text": "That argument became a legal fight. A group of about 40 Alavesa wineries applied for their own appellation, *Arabako Mahastiak / Viñedos de Álava*, which would have let the same vineyards sell wine under a second name. The Basque government backed the application; in November 2024 the Basque high court annulled its favourable decision. The Basque government chose not to appeal, and when the Alavesa wineries' association took the case to Spain's Supreme Court, the court closed the door in June 2025.\n\nNavarra's eight villages in the DOCa, from Viana and Bargota in the west to Azagra and San Adrián in the east, are a quieter reminder of the same truth: Rioja is defined by a valley and a grape, not by a provincial border.",
+          "map": {
+            "fly": "es-rioja",
+            "highlight": [
+              "es-rioja-banos-de-ebro",
+              "es-rioja-elciego",
+              "es-rioja-elvillar",
+              "es-rioja-kripan",
+              "es-rioja-labastida",
+              "es-rioja-laguardia",
+              "es-rioja-lanciego",
+              "es-rioja-lapuebla-de-labarca",
+              "es-rioja-leza",
+              "es-rioja-moreda-de-alava",
+              "es-rioja-navaridas",
+              "es-rioja-oyon",
+              "es-rioja-samaniego",
+              "es-rioja-villabuena-de-alava",
+              "es-rioja-yecora",
+              "es-rioja-andosilla",
+              "es-rioja-aras",
+              "es-rioja-azagra",
+              "es-rioja-bargota",
+              "es-rioja-mendavia",
+              "es-rioja-san-adrian",
+              "es-rioja-sartaguda",
+              "es-rioja-viana"
+            ],
+            "label": "Álava and Navarra inside the DOCa"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Remelluri Reserva, Rioja",
+          "why": "From Remelluri's high terraces in Labastida under the Toloño, grown organically: perfumed, fresh and fine-boned, with a chalky finish. It tastes like an argument for Alavesa's identity.",
+          "price": "$50–60",
+          "try": [
+            "Remelluri"
+          ],
+          "place": "es-rioja-labastida"
+        }
+      ],
+      "deeper": [
+        "region-es-rioja-alavesa",
+        "site-es-laguardia",
+        "site-es-bodegas-ysios",
+        "es-rioja-elciego",
+        "es-rioja-viana",
+        "es-rioja-labastida"
+      ],
+      "check": [
+        {
+          "q": "What lies under the streets of Laguardia?",
+          "options": [
+            "Roman baths",
+            "More than 300 old cellars and tunnels",
+            "A railway",
+            "Salt mines"
+          ],
+          "answer": 1,
+          "why": "Laguardia's medieval core sits on hundreds of cellars, some still used for wine."
+        },
+        {
+          "q": "What happened to the proposed 'Viñedos de Álava' appellation?",
+          "options": [
+            "It was approved by the EU in 2024",
+            "It replaced Rioja Alavesa",
+            "The Basque high court annulled it in 2024 and the Supreme Court closed the case in 2025",
+            "It is still pending in 2026"
+          ],
+          "answer": 2,
+          "why": "The TSJPV annulled the Basque government's favourable decision in November 2024; an appeal to the Supreme Court failed in June 2025."
+        },
+        {
+          "q": "How many Navarrese villages belong to the Rioja DOCa?",
+          "options": [
+            "None",
+            "Three",
+            "Eight",
+            "Fifteen"
+          ],
+          "answer": 2,
+          "why": "Eight Navarra municipalities, from Viana to San Adrián, lie inside the DOCa, in Rioja Oriental."
+        }
+      ]
+    },
+    {
+      "id": "cellar",
+      "part": "deeper",
+      "title": "Vintages, climate and when to drink",
+      "steps": [
+        {
+          "text": "Rioja's weather is steadier than Bordeaux's, but vintages still matter, and the Consejo publishes an official rating every year. In the atlas's vintage chart the legendary older years are 1964, 1970, 1981 and 1982; the official *Excelente* years since then are 1994, 1995, 2001, 2004, 2005, 2010, 2011 and 2019. Weaker, wetter years such as 2013, 2014, 2018 and 2024 were rated *Buena*, and they are the vintages to drink young rather than to buy as Gran Reserva.\n\nThe climate is shifting under the ratings. In the atlas's climate data, Rioja's growing-season average rose from 15.8°C in 1961 to 1990 to 18.0°C in 2011 to 2025, while growing-season rain fell. Rioja's old climate resembles Oregon's Dundee Hills today; its recent climate resembles Sardinia's Cannonau country a generation ago. 2017 brought the earliest harvest on record, and 2022 was the hottest year on record.",
+          "map": {
+            "fly": "es-rioja",
+            "highlight": [
+              "es-rioja-alta",
+              "es-rioja-alavesa",
+              "es-rioja-oriental"
+            ],
+            "label": "Rioja's vintages"
+          }
+        },
+        {
+          "text": "Because the houses age the wine before release, Rioja is unusually easy to drink at the right moment. The atlas's ageing profiles give typical windows, counted from the vintage: a joven is best within two years; a crianza peaks at 3 to 7; a reserva at 7 to 18 and can last 30; a gran reserva peaks at 12 to 30 and good examples reach 50. Traditional white reservas and gran reservas behave like the reds, peaking from about 10 to 30 years, while modern single-vineyard wines in new French oak are built for 5 to 15.\n\nAs of October 2026 that puts the Excelente 2010 and 2011 at their peak, the 2001, 2004 and 2005 in a long mature plateau, and the 2019 just approachable. A great old Gran Reserva is one of the few fine wines a merchant can still sell you ready to open tonight.",
+          "map": {
+            "fly": {
+              "lon": -2.8485,
+              "lat": 42.5843,
+              "zoom": 15.0
+            },
+            "highlight": [
+              "site-es-r-lopez-de-heredia-vina-tondonia",
+              "site-es-cvne-compania-vinicola-del-norte-de-espana",
+              "site-es-la-rioja-alta-s-a",
+              "site-es-bodegas-muga",
+              "site-es-bodegas-bilbainas",
+              "site-es-bodegas-gomez-cruzado",
+              "site-es-bodegas-roda",
+              "site-es-barrio-de-la-estacion-haro"
+            ],
+            "label": "The cellars of Haro"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "An older Viña Tondonia Reserva (2005 or 2006)",
+          "why": "Twenty years on, the fruit has become dried cherry and orange peel, with tobacco, leather and forest floor, and the acidity is still bright. This is what the ageing categories were invented to deliver.",
+          "price": "$80–100",
+          "try": [
+            "R. López de Heredia"
+          ],
+          "place": "es-rioja-haro"
+        }
+      ],
+      "deeper": [
+        "es-rioja",
+        "term-reserva",
+        "term-crianza",
+        "site-es-r-lopez-de-heredia-vina-tondonia",
+        "site-es-la-rioja-alta-s-a"
+      ],
+      "check": [
+        {
+          "q": "Which of these was an official 'Excelente' Rioja vintage?",
+          "options": [
+            "2013",
+            "2019",
+            "2024",
+            "2018"
+          ],
+          "answer": 1,
+          "why": "The Consejo rated 2019 Excelente, the first since 2011; 2013, 2018 and 2024 were rated Buena."
+        },
+        {
+          "q": "In the atlas's climate data, how much warmer is Rioja's growing season now than in 1961 to 1990?",
+          "options": [
+            "About 0.5°C",
+            "About 2°C",
+            "About 5°C",
+            "It is cooler"
+          ],
+          "answer": 1,
+          "why": "The average rose from 15.8°C to 18.0°C, about 2.2°C, with less growing-season rain."
+        },
+        {
+          "q": "When does a red Rioja Gran Reserva typically reach its peak, by the atlas profile?",
+          "options": [
+            "Within two years",
+            "At 3 to 7 years",
+            "At 12 to 30 years",
+            "After 60 years"
+          ],
+          "answer": 2,
+          "why": "Gran Reservas are released mature and usually drink best from about 12 to 30 years after the vintage."
+        }
+      ]
+    },
+    {
+      "id": "calificada",
+      "part": "deeper",
+      "title": "What 'Calificada' means, and Ribera del Duero",
+      "steps": [
+        {
+          "text": "What does *Calificada* add? Spain's ordinary [DO](term-do) (*denominación de origen*) protects a name and sets rules for grapes, yields and methods. A DOCa demands more: a long track record, grape and wine prices well above the national average, and stricter control, including bottling only inside the region so that every bottle can be traced. Rioja got the status first, in 1991. [Priorat](es-priorat) in Catalonia is the only other, using the Catalan form, DOQ.\n\nFor the drinker it is a guarantee of origin and control more than of style. A DOCa Rioja can be a $15 crianza or a $300 Gran Reserva.",
+          "map": {
+            "fly": "es",
+            "highlight": [
+              "es-rioja",
+              "es-priorat"
+            ],
+            "label": "Spain's two DOCa"
+          }
+        },
+        {
+          "text": "The obvious comparison is [Ribera del Duero](es-ribera-del-duero), Spain's other great Tempranillo region, a couple of hours' drive south-west on the Duero. It is a plain DO, created only in 1982, yet its top wines, from [Vega Sicilia](site-es-vega-sicilia) (founded in 1864) and [Pingus](site-es-dominio-de-pingus), sell for more than almost any Rioja.\n\nThe two grow the same grape in different worlds. Ribera's vineyards sit on a high plateau at 720 to 1,000 m, with a short, hot season, nights cold enough to bring frost in May and September, and about 450 mm of rain. Its local strain of Tempranillo, Tinto Fino or Tinta del País, is thick-skinned, and the wines are darker, denser and firmer, usually aged in French oak and sometimes blended with a little Cabernet or Merlot.",
+          "map": {
+            "fly": "es-ribera-del-duero",
+            "highlight": [
+              "es-ribera-del-duero",
+              "site-es-vega-sicilia",
+              "site-es-dominio-de-pingus"
+            ],
+            "label": "Ribera del Duero"
+          }
+        },
+        {
+          "text": "Taste them side by side and the differences are easy to find. Classic Rioja is about time and blending: lighter body, higher acidity, red fruit turned to spice and leather by years in American oak. Ribera is about altitude and power: black fruit, liquorice and a mineral grip from a continental climate. Ribera's ageing categories use the same words, and a crianza in both needs at least a year in oak, but very long ageing before release is Rioja's habit.\n\nWhich is better is the wrong question. Rioja's argument with itself, between the house and the vineyard, time and place, is the story of European wine told in one valley.",
+          "map": {
+            "fly": {
+              "lon": -3.25,
+              "lat": 42.1,
+              "zoom": 7.1
+            },
+            "highlight": [
+              "es-rioja",
+              "es-ribera-del-duero"
+            ],
+            "label": "Two Tempranillo regions"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Tinto Pesquera Crianza, Ribera del Duero",
+          "why": "From Alejandro Fernández's family, who helped found the DO. Pour it beside the Cune Reserva or Viña Ardanza: blacker fruit, more tannin, more weight. Same grape, different altitude, different oak.",
+          "price": "$30–40",
+          "try": [
+            "Tinto Pesquera"
+          ],
+          "place": "es-ribera-del-duero"
+        }
+      ],
+      "deeper": [
+        "term-doca",
+        "term-do",
+        "es-ribera-del-duero",
+        "es-priorat",
+        "site-es-vega-sicilia",
+        "grape-tempranillo"
+      ],
+      "check": [
+        {
+          "q": "Which requirement is part of DOCa status?",
+          "options": [
+            "All wines must be Gran Reserva",
+            "Bottling only within the region",
+            "Only Tempranillo is allowed",
+            "No oak ageing"
+          ],
+          "answer": 1,
+          "why": "A DOCa requires bottling in the region, along with a quality track record and above-average grape prices."
+        },
+        {
+          "q": "Which is the only other Spanish region with DOCa (DOQ) status?",
+          "options": [
+            "Ribera del Duero",
+            "Rías Baixas",
+            "Jerez",
+            "Priorat"
+          ],
+          "answer": 3,
+          "why": "Priorat, in Catalonia, uses the Catalan form DOQ; Ribera del Duero is a DO."
+        },
+        {
+          "q": "Why are Ribera del Duero wines typically darker and firmer than classic Rioja?",
+          "options": [
+            "They are aged longer in American oak",
+            "Altitude, a short hot season and cold nights give thick-skinned, concentrated Tempranillo",
+            "They are made from Garnacha",
+            "They are fortified"
+          ],
+          "answer": 1,
+          "why": "Ribera's high, continental plateau gives thick-skinned Tinto Fino and dense, structured wines."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "bordeaux",
+    "southern-rhone",
+    "wines-long-road"
+  ],
+  "sources": [
+    {
+      "title": "MAPA press note: three new viñedos singulares and totals for DOCa Rioja (24 September 2026)",
+      "url": "https://www.mapa.gob.es/dam/mapa/contenido/prensa/notas-de-prensa/documentos/documentos-2026/26-09-24-vi-edos-singulares-2026.pdf"
+    },
+    {
+      "title": "DOP Rioja, documento único (MAPA)",
+      "url": "https://mapa.gob.es/gl/alimentacion/temas/calidad-diferenciada/documento_unico_doca_rioja_tcm37-655340.pdf"
+    },
+    {
+      "title": "Consejo Regulador DOCa Rioja: vintage ratings",
+      "url": "https://riojawine.com/doca-rioja/anadas"
+    },
+    {
+      "title": "Foods & Wines from Spain, Haro's railway station district (2019)",
+      "url": "https://www.foodswinesfromspain.com/en/wine/articles/2019/july/haro-rioja-station-district"
+    },
+    {
+      "title": "Foods & Wines from Spain, Singular vineyards of Rioja (2023)",
+      "url": "https://www.foodswinesfromspain.com/en/wine/articles/2023/april/singular-vineyards-rioja"
+    },
+    {
+      "title": "Nuevecuatrouno, the Consejo ratifies 'Rioja Oriental' as the official name (April 2018)",
+      "url": "https://nuevecuatrouno.com/2018/04/12/sin-marcha-atras-el-consejo-ratifica-rioja-oriental-como-nombre-oficial/"
+    },
+    {
+      "title": "El Derecho, TSJPV annuls the favourable resolution on the DOP Viñedos de Álava (November 2024)",
+      "url": "https://elderecho.com/anulada-resolucion-favorable-a-la-solicitud-de-la-dop-vinedos-de-alava"
+    },
+    {
+      "title": "Nuevecuatrouno, the Basque government will not appeal the Viñedos de Álava ruling (December 2024)",
+      "url": "https://nuevecuatrouno.com/2024/12/03/el-gobierno-vasco-no-recurrira-la-sentencia-que-rechaza-la-creacion-de-vinedos-de-alava/"
+    },
+    {
+      "title": "Nuevecuatrouno, the Supreme Court closes the door on Viñedos de Álava (June 2025)",
+      "url": "https://nuevecuatrouno.com/2025/06/18/el-tribunal-supremo-da-el-portazo-definitivo-a-vinedos-de-alava/"
+    },
+    {
+      "title": "Wikipedia, Rioja (wine)",
+      "url": "https://en.wikipedia.org/wiki/Rioja_(wine)"
+    },
+    {
+      "title": "Skurnik Wines, Palacios Remondo La Montesa technical sheet",
+      "url": "https://www.skurnik.com/sku/rioja-crianza-finca-la-montesa-j-palacios-remondo/"
+    },
+    {
+      "title": "Wine.com, CVNE listings (US retail prices)",
+      "url": "https://www.wine.com/list/wine/cvne/red-wine/7155-8101-124"
+    },
+    {
+      "title": "PJ Wine, López de Heredia, La Rioja Alta and Muga listings (US retail prices)",
+      "url": "https://pjwine.com/collections/lopez-de-heredia-1"
+    }
+  ]
+}

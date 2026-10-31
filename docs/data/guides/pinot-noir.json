@@ -1,0 +1,1280 @@
+{
+  "id": "pinot-noir",
+  "kind": "grape",
+  "title": "Pinot Noir",
+  "subtitle": "Following the heartbreak grape around the world",
+  "tagline": "One fickle, thin-skinned grape, from the monks' slopes of Burgundy to Oregon's red hills and the schist of the world's southernmost vineyards, and why it tastes different everywhere it goes.",
+  "minutes": 20,
+  "deeper_minutes": 0,
+  "cover": "fr-gevrey-chambertin",
+  "countries": [
+    "fr",
+    "de",
+    "us",
+    "nz",
+    "au",
+    "cl",
+    "za"
+  ],
+  "intro": "Pinot Noir is the hardest great grape to grow and the most rewarding to drink, because it shows the place it grew in more clearly than any other red. This path starts on Burgundy's golden slope, then follows the grape into Champagne, Germany, Oregon, California, New Zealand, Australia, Chile and South Africa. It ends with a three-bottle flight you can pour at home.",
+  "chapters": [
+    {
+      "id": "cote-d-or",
+      "part": "intro",
+      "title": "The benchmark: Burgundy's Côte d'Or",
+      "steps": [
+        {
+          "text": "Every Pinot Noir on earth is measured against one strip of hillside. The Côte d'Or, the 'golden slope', runs about 50 kilometres from Dijon to the Maranges, a narrow band of east-facing limestone and marl rarely more than a kilometre or two wide. Its northern half, the Côte de Nuits, is almost entirely red and holds 24 of the Côte d'Or's 32 grand crus; the southern half, the Côte de Beaune, mixes red and white.\n\n[Pinot Noir](grape-pinot-noir) is very likely a child of this place: an ancient grape, a parent-offspring relative of Savagnin, and itself the parent, with the peasant grape Gouais Blanc, of [Chardonnay](grape-chardonnay), Gamay and Aligoté. In 1395 Duke Philip the Bold ordered growers to rip out the 'disloyal' [Gamay](event-gamay-edict-1395) to protect it.",
+          "map": {
+            "fly": "fr-bourgogne-cote-d-or",
+            "highlight": [
+              "fr-bourgogne-cote-d-or"
+            ],
+            "label": "The Côte d'Or"
+          }
+        },
+        {
+          "text": "Tilt the map and look west into the slope at Gevrey-Chambertin. The grand crus, Chambertin and Clos de Bèze at their heart, sit in a band at mid-slope, mostly between about 250 and 300 metres, just above the road. Below, on flatter, deeper soils, lies village land; above, on thinner, cooler ground near the woods, more village land and premier crus.\n\nThat mid-slope band is the whole story. Drainage is good, the soil thin over fissured limestone, the morning sun direct. Move 50 metres downhill and the wine is softer and simpler; move uphill and it is leaner. Burgundians call each precisely bounded patch a [climat](term-climat), and Pinot, more than any other grape, tastes of the climat it grew in.",
+          "map": {
+            "fly": {
+              "lon": 4.972,
+              "lat": 47.214,
+              "zoom": 13.4
+            },
+            "pitch": 60,
+            "bearing": 280,
+            "terrain": true,
+            "highlight": [
+              "fr-chambertin",
+              "fr-chambertin-clos-de-beze",
+              "fr-mazis-chambertin",
+              "fr-charmes-chambertin",
+              "fr-griotte-chambertin",
+              "fr-chapelle-chambertin",
+              "fr-latricieres-chambertin",
+              "fr-ruchottes-chambertin",
+              "fr-mazoyeres-chambertin"
+            ],
+            "label": "Gevrey-Chambertin's grand crus"
+          }
+        },
+        {
+          "text": "Who drew those lines? Largely monks. From the early twelfth century the Cistercians of Cîteaux assembled the [Clos de Vougeot](fr-clos-de-vougeot), about 50 hectares that they had walled by 1336, and they noticed that wine from one part of the slope tasted different from another. Switch to satellite and you can still see the wall and the château in the middle of the vines.\n\nCenturies of such observation became law in 1936 and 1937, when the new appellations ranked Burgundy as a pyramid: regional Bourgogne, village wines, [premier cru](term-premier-cru) and [grand cru](term-grand-cru). The premier crus were added to the system in the 1940s.",
+          "map": {
+            "fly": {
+              "lon": 4.9588,
+              "lat": 47.1715,
+              "zoom": 15.0
+            },
+            "base": "satellite",
+            "highlight": [
+              "fr-clos-de-vougeot",
+              "site-fr-clos-de-vougeot",
+              "site-fr-chateau-du-clos-de-vougeot"
+            ],
+            "label": "Clos de Vougeot"
+          }
+        },
+        {
+          "text": "You do not need grand cru prices to taste the pyramid. Fly south to Savigny-lès-Beaune, where the little Rhoin valley opens onto the plain. Its premier crus, highlighted here, wrap around village vineyards, with regional Bourgogne land at the foot of the slopes.\n\nSavigny's reds are fresh, fragrant and modestly priced, which makes the village a perfect classroom. The tasting flight for this chapter comes from one family domaine, Camus-Bruchon, at three levels: a Bourgogne Côte d'Or, a Savigny village wine and the Savigny premier cru Aux Gravains. Same grower, same cellar, same year if you can find it: the only thing that changes is the land.",
+          "map": {
+            "fly": "fr-savigny-les-beaune",
+            "highlight": [
+              "fr-savigny-les-beaune-premier-cru-aux-gravains",
+              "fr-savigny-les-beaune-premier-cru-les-lavieres",
+              "fr-savigny-les-beaune-premier-cru-aux-serpentieres",
+              "fr-savigny-les-beaune-premier-cru-aux-guettes",
+              "fr-savigny-les-beaune-premier-cru-les-vergelesses",
+              "fr-savigny-les-beaune-premier-cru-basses-vergelesses",
+              "fr-savigny-les-beaune-premier-cru-les-marconnets",
+              "fr-savigny-les-beaune-premier-cru-les-hauts-marconnets",
+              "fr-savigny-les-beaune-premier-cru-les-narbantons",
+              "fr-savigny-les-beaune-premier-cru-les-peuillets",
+              "fr-savigny-les-beaune-premier-cru-la-dominode",
+              "fr-savigny-les-beaune-premier-cru-les-jarrons",
+              "fr-savigny-les-beaune-premier-cru-les-hauts-jarrons",
+              "fr-savigny-les-beaune-premier-cru-les-talmettes",
+              "fr-savigny-les-beaune-premier-cru-aux-fourneaux",
+              "fr-savigny-les-beaune-premier-cru-aux-clous",
+              "fr-savigny-les-beaune-premier-cru-les-charnieres",
+              "fr-savigny-les-beaune-premier-cru-les-rouvrettes",
+              "fr-savigny-les-beaune-premier-cru-petits-godeaux",
+              "fr-savigny-les-beaune-premier-cru-redrescul",
+              "fr-savigny-les-beaune-premier-cru-bataillere",
+              "fr-savigny-les-beaune-premier-cru-champ-chevrey"
+            ],
+            "label": "Savigny-lès-Beaune premier crus"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Domaine Camus-Bruchon Bourgogne Côte d'Or Rouge",
+          "why": "The base of the pyramid from a Savigny grower: red cherry, a little earth, light tannin. This is also the Burgundy bottle in the comparative flight in the last chapter.",
+          "price": "$32–36",
+          "try": [
+            "Domaine Camus-Bruchon",
+            "Louis Jadot (Bourgogne Pinot Noir, about $25)"
+          ],
+          "place": "fr-bourgogne-cote-d-or"
+        },
+        {
+          "wine": "Camus-Bruchon Savigny-lès-Beaune Aux Grands Liards (village)",
+          "why": "One step up: more perfume, more depth, firmer finish, from a named village vineyard.",
+          "price": "$45–50",
+          "try": [
+            "Domaine Camus-Bruchon"
+          ],
+          "place": "fr-savigny-les-beaune"
+        },
+        {
+          "wine": "Camus-Bruchon Savigny-lès-Beaune premier cru Aux Gravains",
+          "why": "The top of this ladder: denser fruit, more spice and length. If the three wines line up in that order for you, you have tasted why Burgundy is mapped vineyard by vineyard.",
+          "price": "$50–55",
+          "try": [
+            "Domaine Camus-Bruchon"
+          ],
+          "place": "fr-savigny-les-beaune-premier-cru-aux-gravains"
+        }
+      ],
+      "deeper": [
+        "fr-bourgogne-cote-d-or",
+        "region-fr-cote-de-nuits",
+        "fr-gevrey-chambertin",
+        "fr-chambertin",
+        "fr-clos-de-vougeot",
+        "event-cistercians-clos-vougeot",
+        "event-burgundy-grand-crus-1937",
+        "fr-savigny-les-beaune"
+      ],
+      "check": [
+        {
+          "q": "Where do the Côte d'Or's grand crus mostly sit?",
+          "options": [
+            "On the flat land below the road",
+            "In a band at mid-slope",
+            "On the hilltops in the woods",
+            "Along the Saône river"
+          ],
+          "answer": 1,
+          "why": "The best drainage, thin soils and exposure are at mid-slope, about 250 to 300 metres in Gevrey."
+        },
+        {
+          "q": "What is a climat?",
+          "options": [
+            "A Burgundian weather forecast",
+            "A precisely bounded vineyard site with its own character",
+            "A type of barrel",
+            "A cooperative winery"
+          ],
+          "answer": 1,
+          "why": "Burgundy's climats are named, mapped patches of slope recognised for distinct wines."
+        },
+        {
+          "q": "Who walled the Clos de Vougeot?",
+          "options": [
+            "The Romans",
+            "The Cistercian monks of Cîteaux",
+            "Napoleon",
+            "The dukes of Savoy"
+          ],
+          "answer": 1,
+          "why": "The Cistercians assembled about 50 hectares and had enclosed them by 1336."
+        }
+      ]
+    },
+    {
+      "id": "heartbreak",
+      "part": "intro",
+      "title": "Why they call it the heartbreak grape",
+      "steps": [
+        {
+          "text": "Pinot Noir is difficult from bud to bottle. It buds early, so spring frost can kill the crop. Its bunches are tight and its skins thin, so rain at harvest brings rot. It needs a long, cool season to ripen slowly: too hot and it tastes of jam, too cold and it is green and thin. Thin skins also mean pale colour and soft tannin, so there is little to hide behind.\n\nAnd it is genetically restless. Pinot mutates so readily that Pinot Gris, Pinot Blanc and Meunier are colour or growth mutations of the same plant, and France recognises more than 50 official clones of Pinot Noir itself. André Tchelistcheff, the great Napa winemaker, put it simply: God made Cabernet Sauvignon, but the devil made Pinot Noir.",
+          "map": {
+            "fly": "fr-pommard",
+            "highlight": [
+              "fr-pommard-premier-cru-les-rugiens-bas",
+              "fr-pommard-premier-cru-les-rugiens-hauts",
+              "fr-pommard-premier-cru-les-grands-epenots",
+              "fr-pommard-premier-cru-les-petits-epenots",
+              "fr-pommard-premier-cru-clos-des-epeneaux",
+              "fr-pommard-premier-cru-les-pezerolles",
+              "fr-pommard-premier-cru-les-jarolieres",
+              "fr-pommard-premier-cru-les-fremiers",
+              "fr-pommard-premier-cru-les-arvelets",
+              "fr-pommard-premier-cru-les-boucherottes"
+            ],
+            "label": "Pommard premier crus"
+          }
+        },
+        {
+          "text": "Clones are plants propagated from a single chosen mother vine, and in Pinot they matter. The *Pommard* clone, grown from cuttings that Harold Olmo of UC Davis brought from a vineyard in Pommard in the 1940s, gives dark fruit and structure; it became one of the foundations of Oregon. The *Wädenswil* clone, from the Swiss research station of that name on Lake Zurich, is more floral and red-fruited. Then came the *Dijon* clones, selected in Burgundy by Raymond Bernard and known by numbers such as 113, 114, 115, 667 and 777, which ripen earlier and reached Oregon State University in 1984.\n\nNew World growers often plant several clones side by side and blend them, the way a cook layers spices. Some labels even list them.",
+          "map": {
+            "fly": {
+              "lon": 4.985,
+              "lat": 47.27,
+              "zoom": 11.0
+            },
+            "highlight": [
+              "fr-marsannay",
+              "fr-gevrey-chambertin"
+            ],
+            "label": "North towards Dijon"
+          }
+        },
+        {
+          "text": "Site matters as much as clone. Pinot shows the difference between vineyards a few metres apart better than any other red grape, which is a blessing in the right place and a curse in the wrong one. In California, Josh Jensen went looking for Burgundy's limestone and in 1975 began planting Pinot Noir high in the Gabilan Range, next to an old lime kiln that gave his winery its name, [Calera](site-us-calera).\n\nThe writer Marq de Villiers called his book about that quest *The Heartbreak Grape*, and the name stuck. The rest of this path follows growers on four continents who accepted the heartbreak in exchange for the reward.",
+          "map": {
+            "fly": {
+              "lon": -121.4194,
+              "lat": 36.7135,
+              "zoom": 12.0
+            },
+            "highlight": [
+              "site-us-calera"
+            ],
+            "label": "Calera, Mt. Harlan"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A clone-labelled Pinot Noir",
+          "why": "Several California producers name their clones on the label. Wrath, a Monterey County producer, builds its 115/667 bottling on two Dijon clones; Morgan's Twelve Clones blends a dozen. Notice how the Dijon fruit tastes darker and riper than the Burgundy from chapter 1.",
+          "price": "$30–39",
+          "try": [
+            "Wrath (115/667)",
+            "Morgan (Twelve Clones)"
+          ],
+          "place": "us-santa-lucia-highlands"
+        }
+      ],
+      "deeper": [
+        "grape-pinot-noir",
+        "grape-pinot-gris",
+        "grape-meunier",
+        "fr-pommard",
+        "site-us-calera",
+        "term-whole-bunch-fermentation",
+        "event-gamay-edict-1395"
+      ],
+      "check": [
+        {
+          "q": "Which trait does NOT make Pinot Noir hard to grow?",
+          "options": [
+            "Early budding, so spring frost is a danger",
+            "Thin skins and tight bunches, so rot is a danger",
+            "Very thick skins that need a hot climate",
+            "Genetic instability"
+          ],
+          "answer": 2,
+          "why": "Pinot has thin skins and prefers cool climates; thick skins and heat are Cabernet's world."
+        },
+        {
+          "q": "Where does the Wädenswil clone come from?",
+          "options": [
+            "A Swiss research station on Lake Zurich",
+            "A village in the Côte de Nuits",
+            "UC Davis",
+            "New Zealand"
+          ],
+          "answer": 0,
+          "why": "Wädenswil is the Swiss station where the clone was selected."
+        },
+        {
+          "q": "Who said that God made Cabernet Sauvignon but the devil made Pinot Noir?",
+          "options": [
+            "André Tchelistcheff",
+            "David Lett",
+            "Philip the Bold",
+            "Robert Drouhin"
+          ],
+          "answer": 0,
+          "why": "The Russian-born Napa winemaker André Tchelistcheff."
+        }
+      ]
+    },
+    {
+      "id": "champagne",
+      "part": "intro",
+      "title": "Pinot in bubbles: Champagne",
+      "steps": [
+        {
+          "text": "Many of the world's greatest sparkling wines are part Pinot. In [Champagne](fr-champagne), France's northernmost classic region, Pinot Noir is the most planted grape, about 38 percent of the vineyard, ahead of Meunier and Chardonnay. Here it is pressed gently and quickly so that its red skins give almost no colour, and the clear juice becomes a white wine.\n\nWhat Pinot brings to the blend is body, red-fruit depth and length; Chardonnay brings finesse and acidity, Meunier fruitiness. A Champagne made only from black grapes is a blanc de noirs, 'white from blacks'.",
+          "map": {
+            "fly": "fr-champagne",
+            "highlight": [
+              "fr-champagne"
+            ],
+            "label": "Champagne"
+          }
+        },
+        {
+          "text": "Pinot's heartland is the chalk of the Montagne de Reims and the slopes above the Marne. At [Aÿ](fr-champagne-ay), the historic capital of Champagne Pinot, steep south-facing slopes give powerful, vinous wine; Bollinger, based here, keeps tiny plots of ungrafted Pinot for its Vieilles Vignes Françaises. On the south flank of the Montagne, [Bouzy](fr-champagne-bouzy) and Ambonnay are grand crus famous for Pinot.\n\nBouzy also makes Champagne's most famous still red, Bouzy Rouge, a Coteaux Champenois that needs a warm year and low yields: a reminder that this region once rivalled Burgundy for red wine.",
+          "map": {
+            "fly": {
+              "lon": 4.08,
+              "lat": 49.055,
+              "zoom": 11.3
+            },
+            "highlight": [
+              "fr-champagne-ay",
+              "fr-champagne-bouzy",
+              "fr-champagne-ambonnay",
+              "site-fr-champagne-gc-ay",
+              "site-fr-champagne-gc-bouzy"
+            ],
+            "label": "Aÿ, Bouzy, Ambonnay"
+          }
+        },
+        {
+          "text": "Far to the south, in the Aube, the Côte des Bar is Pinot country of a different kind: Kimmeridgian marl and limestone, the same rock as Chablis, rather than chalk. For a long time its grapes went anonymously into the big houses' blends; today more and more of its growers bottle their own, often rich, fruit-forward blanc de noirs.\n\nPinot's role in bubbles goes far beyond Champagne: it is a pillar of Crémant, of England's sparkling wine, and of the traditional-method wines of Tasmania and California's Anderson Valley that you will meet later on this path.",
+          "map": {
+            "fly": {
+              "lon": 4.45,
+              "lat": 48.115,
+              "zoom": 9.6
+            },
+            "highlight": [
+              "fr-champagne-bar-sur-seine",
+              "fr-champagne-bar-sur-aube"
+            ],
+            "label": "Côte des Bar"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bollinger Special Cuvée Brut",
+          "why": "The house of Aÿ, and a Pinot-led blend (about 60 percent Pinot Noir, 25 percent Chardonnay, 15 percent Meunier). Taste for the weight and red-apple, toasted-brioche depth that Pinot gives, then compare a Chardonnay-led house if you have one.",
+          "price": "$80–120",
+          "try": [
+            "Bollinger"
+          ],
+          "place": "fr-champagne-ay"
+        }
+      ],
+      "deeper": [
+        "fr-champagne",
+        "region-fr-champagne",
+        "fr-champagne-ay",
+        "fr-champagne-bouzy",
+        "region-fr-cote-des-bar",
+        "grape-meunier",
+        "term-methode-traditionnelle"
+      ],
+      "check": [
+        {
+          "q": "What share of Champagne's vineyard is Pinot Noir?",
+          "options": [
+            "About 5 percent",
+            "About 38 percent",
+            "About 75 percent",
+            "None; it is banned"
+          ],
+          "answer": 1,
+          "why": "Pinot Noir is Champagne's most planted grape, ahead of Meunier and Chardonnay."
+        },
+        {
+          "q": "What is a blanc de noirs?",
+          "options": [
+            "A red sparkling wine",
+            "A white wine made from black grapes",
+            "A sweet Champagne",
+            "A Champagne aged in black bottles"
+          ],
+          "answer": 1,
+          "why": "Gentle pressing keeps the colour out, so black grapes can make white wine."
+        },
+        {
+          "q": "The Côte des Bar in the Aube sits mainly on...",
+          "options": [
+            "Chalk",
+            "Granite",
+            "Kimmeridgian marl and limestone",
+            "Volcanic basalt"
+          ],
+          "answer": 2,
+          "why": "The same rock as Chablis, unlike the chalk of the Marne."
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "part": "intro",
+      "title": "Spätburgunder: Germany, and a look at Alsace",
+      "steps": [
+        {
+          "text": "It surprises most people: Germany is the world's third-largest grower of Pinot Noir, after France and the United States, with about 12,000 hectares in the mid-2010s. The Germans call it Spätburgunder, the 'late Burgundian', and it is their most planted red grape. For decades much of it was pale and sweetish; since the 1990s it has become some of the most exciting Pinot in Europe.\n\nThree regions lead: the Ahr, a slate gorge in the north; Baden, warm and sunny in the far southwest; and the southern Pfalz along the French border.",
+          "map": {
+            "fly": "de",
+            "highlight": [
+              "de-ahr",
+              "de-baden",
+              "de-pfalz"
+            ],
+            "label": "Germany's Pinot regions"
+          }
+        },
+        {
+          "text": "Start with the improbable one. The [Ahr](de-ahr) is a narrow valley of about 530 hectares south of Bonn, one of the most northerly places on earth for serious red wine, and Spätburgunder covers about two thirds of it. Tilt the map: the vines climb south-facing terraces of slate and greywacke that soak up heat in a sheltered gorge.\n\nIn July 2021 a catastrophic flood tore through the valley, destroying cellars and killing many people. At Dernau, the sisters Meike and Dörte Näkel of Meyer-Näkel clung to a tree for hours before rescue, then rebuilt and released their wines again. Their Pfarrwingert and Kräuterberg bottlings define the Ahr's dark-fruited, smoky style.",
+          "map": {
+            "fly": {
+              "lon": 7.062,
+              "lat": 50.5325,
+              "zoom": 13.0
+            },
+            "pitch": 58,
+            "bearing": 0,
+            "terrain": true,
+            "highlight": [
+              "de-dernau-pfarrwingert",
+              "de-ahrweiler-krauterberg",
+              "site-de-walporzheimer-krauterberg",
+              "site-de-weingut-meyer-nakel"
+            ],
+            "label": "The Ahr at Dernau and Walporzheim"
+          }
+        },
+        {
+          "text": "Far to the south, [Baden](de-baden) is the warmest German region and the home of German Pinot. On the [Kaiserstuhl](de-kaiserstuhl), an extinct volcano rising from the Rhine plain, terraces such as the Ihringer Winklerberg bake in some of the country's hottest summers; Dr. Heger's Spätburgunder from here is a benchmark. Further north at Malterdingen, the Bernhard Huber estate, now run by his son Julian, makes Pinot of Burgundian finesse on limestone.\n\nIn the southern [Pfalz](de-pfalz), Friedrich Becker of Schweigen farms vineyards, about two thirds of the estate, that lie across the border in France, yet sells their wine as German under a 1955 Franco-German accord, a quirk of history the label quietly carries.",
+          "map": {
+            "fly": {
+              "lon": 7.66,
+              "lat": 48.075,
+              "zoom": 11.4
+            },
+            "highlight": [
+              "de-kaiserstuhl",
+              "site-de-kaiserstuhl",
+              "site-de-ihringer-winklerberg"
+            ],
+            "label": "Kaiserstuhl"
+          }
+        },
+        {
+          "text": "Across the Rhine, Alsace is white-wine country, about 90 percent white, but Pinot Noir is its one red grape and it is rising. Since the 2022 vintage it may carry a grand cru name for the first time, in three sites: [Hengst](fr-alsace-grand-cru-hengst), [Kirchberg de Barr](fr-alsace-grand-cru-kirchberg-de-barr) and [Vorbourg](fr-alsace-grand-cru-vorbourg). Growers such as Albert Mann had made celebrated Pinot from Hengst for years before the law caught up.\n\nAustria grows Pinot too, mostly in the Thermenregion south of Vienna and in Burgenland, but in small quantities. The Rhine valley, on both banks, is where Central Europe's Pinot story is being written now.",
+          "map": {
+            "fly": {
+              "lon": 7.36,
+              "lat": 48.18,
+              "zoom": 9.3
+            },
+            "highlight": [
+              "fr-alsace-grand-cru-hengst",
+              "fr-alsace-grand-cru-kirchberg-de-barr",
+              "fr-alsace-grand-cru-vorbourg"
+            ],
+            "label": "Alsace's three Pinot Noir grands crus"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Friedrich Becker Pfalz Pinot Noir",
+          "why": "An entry-level Spätburgunder from the Pfalz's border village: light, crunchy red fruit and a cool finish. A good value way to meet German Pinot.",
+          "price": "$22–26",
+          "try": [
+            "Friedrich Becker"
+          ],
+          "place": "de-pfalz"
+        },
+        {
+          "wine": "Meyer-Näkel Ahr Pinot Noir",
+          "why": "Slate-grown Pinot from the rebuilt Dernau estate: darker fruit, a smoky, savoury edge and fine tannin. Compare it with the Burgundy from chapter 1.",
+          "price": "$45–52",
+          "try": [
+            "Meyer-Näkel"
+          ],
+          "place": "de-ahr"
+        }
+      ],
+      "deeper": [
+        "de-ahr",
+        "site-de-weingut-meyer-nakel",
+        "de-baden",
+        "site-de-ihringer-winklerberg",
+        "de-pfalz",
+        "fr-alsace-grand-cru-hengst",
+        "fr-alsace",
+        "at-thermenregion"
+      ],
+      "check": [
+        {
+          "q": "Where does Germany rank among the world's Pinot Noir growers?",
+          "options": [
+            "First",
+            "Third, after France and the United States",
+            "Tenth",
+            "It grows almost none"
+          ],
+          "answer": 1,
+          "why": "With about 12,000 hectares in the mid-2010s, Germany ranks behind only France and the US."
+        },
+        {
+          "q": "What happened in the Ahr valley in July 2021?",
+          "options": [
+            "A record heat wave",
+            "A catastrophic flood",
+            "An Eiswein harvest",
+            "A phylloxera outbreak"
+          ],
+          "answer": 1,
+          "why": "The flood destroyed cellars and wineries; estates such as Meyer-Näkel rebuilt."
+        },
+        {
+          "q": "Since which vintage may Alsace Pinot Noir carry a grand cru name?",
+          "options": [
+            "1945",
+            "1983",
+            "2022",
+            "Never"
+          ],
+          "answer": 2,
+          "why": "From 2022, in Hengst, Kirchberg de Barr and Vorbourg."
+        }
+      ]
+    },
+    {
+      "id": "oregon",
+      "part": "intro",
+      "title": "Oregon's Willamette Valley",
+      "steps": [
+        {
+          "text": "In the 1960s the experts at UC Davis told would-be winemakers that Oregon was too cold and wet for fine wine grapes. A young Davis graduate, David Lett, decided that was the point: Pinot needs a cool, long season. In 1965 he planted the first Pinot Noir in the [Willamette Valley](us-willamette-valley), and in 1966 he bought hillside land near Dundee for The Eyrie Vineyards.\n\nToday the Willamette Valley (an AVA since 1983) holds most of Oregon's vineyards, and Pinot Noir covered about 24,700 of the state's 44,500 vineyard acres in 2022, well over half. The valley is now split into eleven nested AVAs, drawn largely by soil and by exposure to Pacific wind.",
+          "map": {
+            "fly": "us-willamette-valley",
+            "highlight": [
+              "us-willamette-valley",
+              "us-dundee-hills",
+              "us-eola-amity-hills",
+              "us-chehalem-mountains",
+              "us-ribbon-ridge",
+              "us-yamhill-carlton",
+              "us-van-duzer-corridor"
+            ],
+            "label": "Willamette Valley AVAs"
+          }
+        },
+        {
+          "text": "The shock came in Paris. At the 1979 Gault-Millau 'Wine Olympics', Eyrie's 1975 South Block Reserve Pinot Noir placed in the top ten among Pinots, against Burgundies. Robert Drouhin of Beaune, unconvinced, staged a rematch in Burgundy in 1980; Eyrie came second, two-tenths of a point behind Drouhin's own 1959 Chambolle-Musigny.\n\nDrouhin drew the conclusion that mattered. In 1987 he bought land in the Dundee Hills, made a first vintage in 1988 and built [Domaine Drouhin Oregon](site-us-domaine-drouhin-oregon), the first major Burgundian investment in the state. Others followed, and Oregon became the New World's closest spiritual cousin to the Côte d'Or.",
+          "map": {
+            "fly": {
+              "lon": -123.058,
+              "lat": 45.258,
+              "zoom": 13.0
+            },
+            "highlight": [
+              "site-us-eyrie-vineyards",
+              "site-us-domaine-drouhin-oregon"
+            ],
+            "label": "Eyrie and Domaine Drouhin Oregon"
+          }
+        },
+        {
+          "text": "Tilt into the [Dundee Hills](us-dundee-hills), the birthplace of Oregon Pinot. The AVA's boundary follows roughly the 200-foot contour, where the valley's flood sediments give way to red [Jory](term-jory) soil: deep, iron-rich clay loam weathered from Columbia River basalt that flowed here about 15 million years ago, and Oregon's official state soil since 2011.\n\nJory drains well but holds enough water for vines to be dry-farmed, and its Pinot is classically red-fruited, perfumed and silky. The slopes face mostly southeast, catching morning sun, while the Coast Range to the west blocks the worst Pacific storms.",
+          "map": {
+            "fly": {
+              "lon": -123.065,
+              "lat": 45.277,
+              "zoom": 12.4
+            },
+            "pitch": 60,
+            "bearing": 300,
+            "terrain": true,
+            "highlight": [
+              "us-dundee-hills",
+              "site-us-eyrie-vineyards",
+              "site-us-domaine-drouhin-oregon"
+            ],
+            "label": "Dundee Hills"
+          }
+        },
+        {
+          "text": "Go south and west. The [Eola-Amity Hills](us-eola-amity-hills) are a ridge northwest of Salem that sits directly in line with the [Van Duzer Corridor](us-van-duzer-corridor), a gap in the Coast Range through which cold ocean air pours most summer afternoons. The wind thickens grape skins and holds acidity, and the thin volcanic soils add grip: Eola-Amity Pinot is darker, firmer and more taut than Dundee's.\n\nOther sub-regions add their own accents: marine-sediment soils in Yamhill-Carlton and Ribbon Ridge, wind-blown loess in the Chehalem Mountains. Soil, as in Burgundy, is the language Oregon uses to divide itself.",
+          "map": {
+            "fly": {
+              "lon": -123.2,
+              "lat": 45.025,
+              "zoom": 10.4
+            },
+            "highlight": [
+              "us-eola-amity-hills",
+              "us-van-duzer-corridor"
+            ],
+            "label": "Eola-Amity Hills and the Van Duzer Corridor"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Willamette Valley Pinot Noir from a pioneer family",
+          "why": "The second bottle of this path's flight. Expect brighter red fruit than California, fine acidity and a little earth. Cristom and Adelsheim are reliable, widely available and fairly priced.",
+          "price": "$28–35",
+          "try": [
+            "Cristom",
+            "Adelsheim",
+            "Elk Cove"
+          ],
+          "place": "us-willamette-valley"
+        },
+        {
+          "wine": "Dundee Hills Pinot Noir",
+          "why": "Pinot from red Jory soil: silky, perfumed, red-cherry fruit. A taste of the hills where Oregon began.",
+          "price": "$27–30",
+          "try": [
+            "Stoller (Dundee Hills Estate)"
+          ],
+          "place": "us-dundee-hills"
+        },
+        {
+          "wine": "Eola-Amity Hills Pinot Noir",
+          "why": "Wind-cooled Pinot: darker fruit, firmer frame. Put it beside the Dundee bottle to taste the Van Duzer winds.",
+          "price": "$25–48",
+          "try": [
+            "Evening Land (Eola-Amity Hills)",
+            "Bethel Heights (Aeolian)"
+          ],
+          "place": "us-eola-amity-hills"
+        }
+      ],
+      "deeper": [
+        "us-willamette-valley",
+        "us-dundee-hills",
+        "us-eola-amity-hills",
+        "site-us-eyrie-vineyards",
+        "site-us-domaine-drouhin-oregon",
+        "soil-jory-willakenzie",
+        "term-jory",
+        "us-van-duzer-corridor"
+      ],
+      "check": [
+        {
+          "q": "What happened at the 1980 rematch organised by Robert Drouhin?",
+          "options": [
+            "Eyrie came second, two-tenths of a point behind Drouhin's 1959 Chambolle-Musigny",
+            "Eyrie was disqualified",
+            "Oregon wines took the top five places",
+            "Drouhin refused to taste American wine"
+          ],
+          "answer": 0,
+          "why": "The narrow result persuaded Drouhin to invest in Oregon in 1987."
+        },
+        {
+          "q": "What is Jory?",
+          "options": [
+            "An Oregon clone of Pinot Noir",
+            "A red, iron-rich soil weathered from Columbia River basalt",
+            "A type of oak barrel",
+            "A wind through the Coast Range"
+          ],
+          "answer": 1,
+          "why": "Oregon's state soil, typical of the Dundee Hills."
+        },
+        {
+          "q": "Why is Eola-Amity Pinot often darker and firmer than Dundee Hills Pinot?",
+          "options": [
+            "Cold afternoon wind through the Van Duzer Corridor",
+            "It is grown on chalk",
+            "It is always aged longer",
+            "The vines are older"
+          ],
+          "answer": 0,
+          "why": "Ocean wind thickens skins and keeps acidity high."
+        }
+      ]
+    },
+    {
+      "id": "california",
+      "part": "intro",
+      "title": "California's cool corners",
+      "steps": [
+        {
+          "text": "California is mostly too warm for Pinot, so its Pinot story is a hunt for cold: fog, wind and the Pacific. The [Russian River Valley](us-russian-river-valley) (an AVA since 1983) is the classic. Fog rolls up the river and through the Petaluma Gap most summer nights, so mornings are cold, afternoons warm and evenings cool again.\n\nJoseph Swan, the Rochioli family and, from 1981, the garage project of Burt Williams and Ed Selyem made Westside Road the state's Pinot 'golden mile'. Russian River Pinot is riper than Oregon's, with red berry, black cherry and a cola note, held together by bright acidity.",
+          "map": {
+            "fly": "us-russian-river-valley",
+            "highlight": [
+              "us-russian-river-valley",
+              "us-green-valley-of-russian-river-valley",
+              "site-us-williams-selyem"
+            ],
+            "label": "Russian River Valley"
+          }
+        },
+        {
+          "text": "West of it, the [Sonoma Coast](us-sonoma-coast) AVA (1987) was drawn so broadly that it lumped cold ocean ridges with warm inland flats. Growers on the true coast fought back with [Fort Ross-Seaview](us-fort-ross-seaview) in 2011 and the [West Sonoma Coast](us-west-sonoma-coast) in 2022.\n\nUp on those ridges, often above the fog and between redwoods, David Hirsch planted vines in 1980 astride the San Andreas fault, and the fruit he sold to Kistler, Littorai and Williams Selyem proved the extreme coast could ripen Pinot. Wines from here are lean, saline and intensely perfumed.",
+          "map": {
+            "fly": "us-west-sonoma-coast",
+            "highlight": [
+              "us-west-sonoma-coast",
+              "us-fort-ross-seaview",
+              "site-us-hirsch"
+            ],
+            "label": "West Sonoma Coast"
+          }
+        },
+        {
+          "text": "At the top of San Pablo Bay, [Los Carneros](us-los-carneros) straddles Napa and Sonoma counties: low hills of shallow clay swept by wind and fog off the bay. It was one of the first AVAs drawn by climate rather than county lines (1983), and its cool conditions drew Pinot growers and, later, sparkling-wine houses from Champagne and Spain, such as Domaine Carneros (Taittinger) and Gloria Ferrer (Freixenet).\n\nCarneros Pinot tends to be juicy and approachable, and much of it goes into sparkling wine.",
+          "map": {
+            "fly": "us-los-carneros",
+            "highlight": [
+              "us-los-carneros",
+              "site-us-domaine-carneros"
+            ],
+            "label": "Los Carneros"
+          }
+        },
+        {
+          "text": "North in Mendocino County, the [Anderson Valley](us-anderson-valley) is a narrow 25-kilometre valley along the Navarro River that opens toward the Pacific, so cool air pours in every evening. Roederer Estate arrived from Champagne in 1982 and showed it could make world-class sparkling wine; Pinot from the 'deep end' near Philo and Navarro is tense, floral and savoury.\n\nFar south, in Santa Barbara County, the [Sta. Rita Hills](us-sta-rita-hills) get their cold from an east-west corridor that funnels ocean wind straight inland. Richard Sanford and Michael Benedict planted there in 1971; the AVA, approved in 2001, was shortened from 'Santa Rita' in 2005 after Chile's Viña Santa Rita objected.",
+          "map": {
+            "fly": "us-anderson-valley",
+            "highlight": [
+              "us-anderson-valley"
+            ],
+            "label": "Anderson Valley"
+          }
+        },
+        {
+          "text": "Tilt the map and look west down the Sta. Rita Hills corridor toward the Pacific. Hills of sand, marine sediment and white diatomaceous earth line a valley that runs the 'wrong' way for California, east to west, so the ocean's wind and fog have a straight road in. Many growing-season days here stay below 25°C.\n\nThe Pinots combine dark fruit with high acidity, herbs and a saline edge. Sandhi, Brewer-Clifton, Melville and Sanford are names to look for.",
+          "map": {
+            "fly": {
+              "lon": -120.33,
+              "lat": 34.64,
+              "zoom": 11.8
+            },
+            "pitch": 55,
+            "bearing": 265,
+            "terrain": true,
+            "highlight": [
+              "us-sta-rita-hills"
+            ],
+            "label": "Sta. Rita Hills"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Russian River Valley Pinot Noir",
+          "why": "Riper and rounder than Oregon or Burgundy: black cherry, cola, a touch of oak, fresh acidity underneath.",
+          "price": "$30–35",
+          "try": [
+            "Davis Bynum",
+            "La Crema (Russian River)"
+          ],
+          "place": "us-russian-river-valley"
+        },
+        {
+          "wine": "Sonoma Coast Pinot Noir from a coastal specialist",
+          "why": "Leaner and more perfumed: compare it with the Russian River bottle to taste what the true coast does.",
+          "price": "$38–49",
+          "try": [
+            "Failla (Sonoma Coast)",
+            "Peay (West Sonoma Coast)"
+          ],
+          "place": "us-sonoma-coast"
+        },
+        {
+          "wine": "Sta. Rita Hills or Anderson Valley Pinot Noir",
+          "why": "Two cold corners, north and south. Sandhi's Sta. Rita Hills is dark-fruited and saline; Husch's Anderson Valley is a lighter, everyday take.",
+          "price": "$25–40",
+          "try": [
+            "Sandhi (Sta. Rita Hills)",
+            "Husch (Anderson Valley)",
+            "Goldeneye (Anderson Valley)"
+          ],
+          "place": "us-sta-rita-hills"
+        }
+      ],
+      "deeper": [
+        "us-russian-river-valley",
+        "site-us-williams-selyem",
+        "us-west-sonoma-coast",
+        "site-us-hirsch",
+        "us-los-carneros",
+        "us-anderson-valley",
+        "us-sta-rita-hills",
+        "site-us-chalone"
+      ],
+      "check": [
+        {
+          "q": "What cools the Russian River Valley?",
+          "options": [
+            "Snowmelt",
+            "Fog that rolls up the river and through the Petaluma Gap",
+            "High altitude",
+            "Irrigation"
+          ],
+          "answer": 1,
+          "why": "Fog brings cold nights and mornings, with warm afternoons between."
+        },
+        {
+          "q": "Why was the West Sonoma Coast AVA created in 2022?",
+          "options": [
+            "To separate the cold coastal band from the much broader Sonoma Coast AVA",
+            "To ban Pinot Noir",
+            "To join Napa",
+            "For sparkling wine only"
+          ],
+          "answer": 0,
+          "why": "The 1987 Sonoma Coast AVA lumped cold ridges with warm inland flats."
+        },
+        {
+          "q": "Why did 'Santa Rita Hills' become 'Sta. Rita Hills' in 2005?",
+          "options": [
+            "A spelling error",
+            "Chile's Viña Santa Rita objected to the name",
+            "A new saint was declared",
+            "The hills were renamed by the state"
+          ],
+          "answer": 1,
+          "why": "The Chilean winery's trademark led to the abbreviation."
+        }
+      ]
+    },
+    {
+      "id": "new-zealand",
+      "part": "intro",
+      "title": "New Zealand: Martinborough to Central Otago",
+      "steps": [
+        {
+          "text": "New Zealand's Pinot story began with a report. In 1979 the soil scientist Derek Milne compared the climate and free-draining terrace soils of [Martinborough](nz-martinborough), a small village at the southern tip of the North Island, to Burgundy. Neil McCallum of Dry River and Clive Paton of [Ata Rangi](site-nz-ata-rangi) planted that year and the next; Paton's vines went onto a stony former sheep paddock in 1980.\n\nTheir savoury, firm, long-lived Pinots set the standard for New Zealand red in the 1990s. Ata Rangi's is built on the 'Abel' clone, which, the story goes, a customs officer named Malcolm Abel confiscated from a traveller's gumboot at Auckland airport and propagated.",
+          "map": {
+            "fly": {
+              "lon": 175.455,
+              "lat": -41.225,
+              "zoom": 11.8
+            },
+            "highlight": [
+              "nz-martinborough",
+              "site-nz-ata-rangi",
+              "site-nz-dry-river",
+              "site-nz-escarpment"
+            ],
+            "label": "Martinborough"
+          }
+        },
+        {
+          "text": "Now fly south to the bottom of the world's wine map. [Central Otago](nz-central-otago), at around 45 degrees south, is the most southerly commercial wine region on earth, a landscape of brown schist hills, lakes, rivers and gold-rush ruins. Pinot Noir covers the great majority of its vineyards, roughly three quarters to four fifths.\n\nThe climate is semi-continental: hot, dry, very sunny days, cold nights and frost in spring and autumn, with rainfall often under 400 millimetres, so most vineyards are irrigated. Sub-regions differ sharply. Gibbston, in the Kawarau Gorge near Queenstown, is the coolest and highest; Bannockburn and the Cromwell Basin are the warmest; Wanaka is lakeside and cool, where Rippon has grown vines since the 1970s.",
+          "map": {
+            "fly": "nz-central-otago",
+            "highlight": [
+              "nz-central-otago",
+              "nz-bannockburn",
+              "site-nz-gibbston",
+              "site-nz-rippon",
+              "site-nz-felton-road"
+            ],
+            "label": "Central Otago"
+          }
+        },
+        {
+          "text": "Tilt the map at [Bannockburn](nz-bannockburn), on the southern bank of the Kawarau River near Cromwell, and look south across the slopes. In the southern hemisphere the sunny slopes face north, toward you. Gold miners sluiced these hills in the 1860s and 1870s, leaving cliffs and tailings; in 1991 and 1992 Stewart Elms planted [Felton Road](site-nz-felton-road) here.\n\nBannockburn became a registered geographical indication in February 2022. Its Pinot is ripe and structured, with dark cherry, wild thyme and a mineral, schist-dust finish. Felton Road, farmed biodynamically, bottles individual blocks of the original planting.",
+          "map": {
+            "fly": {
+              "lon": 169.16,
+              "lat": -45.082,
+              "zoom": 12.4
+            },
+            "pitch": 60,
+            "bearing": 180,
+            "terrain": true,
+            "highlight": [
+              "nz-bannockburn",
+              "site-nz-felton-road"
+            ],
+            "label": "Bannockburn"
+          }
+        },
+        {
+          "text": "Finally, [Marlborough](nz-marlborough), at the north-eastern tip of the South Island. It is world-famous for Sauvignon Blanc, but it also grows more Pinot Noir by area than Central Otago. The best comes from the clay-rich Southern Valleys, where the soil gives the wine more texture and structure than the stony Wairau plain.\n\nMarlborough Pinot is usually lighter and more red-fruited than Central Otago's, and much of it also goes into sparkling wine.",
+          "map": {
+            "fly": "nz-marlborough",
+            "highlight": [
+              "nz-marlborough",
+              "site-nz-southern-valleys",
+              "site-nz-wairau-valley"
+            ],
+            "label": "Marlborough"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Mt. Difficulty Bannockburn Pinot Noir",
+          "why": "The third bottle of this path's flight. Central Otago in full: dark cherry, spice and fine tannin from sunny schist slopes. Felton Road's Bannockburn is the benchmark if you want to spend more (about $59).",
+          "price": "$39–43",
+          "try": [
+            "Mt. Difficulty",
+            "Felton Road"
+          ],
+          "place": "nz-bannockburn"
+        },
+        {
+          "wine": "Marlborough Pinot Noir",
+          "why": "Lighter and more red-fruited than Otago; Greywacke and Dog Point are serious, Wairau River is an everyday option.",
+          "price": "$28–45",
+          "try": [
+            "Greywacke",
+            "Dog Point",
+            "Wairau River"
+          ],
+          "place": "nz-marlborough"
+        },
+        {
+          "wine": "Martinborough Pinot Noir",
+          "why": "Savoury and firm, from old river terraces at the bottom of the North Island.",
+          "price": "$41–47",
+          "try": [
+            "Craggy Range (Te Muna Road)"
+          ],
+          "place": "nz-martinborough"
+        }
+      ],
+      "deeper": [
+        "nz-central-otago",
+        "nz-bannockburn",
+        "site-nz-felton-road",
+        "site-nz-gibbston",
+        "site-nz-rippon",
+        "nz-martinborough",
+        "site-nz-ata-rangi",
+        "nz-marlborough"
+      ],
+      "check": [
+        {
+          "q": "What sparked Pinot planting in Martinborough?",
+          "options": [
+            "A 1979 soil and climate report comparing it to Burgundy",
+            "A gold rush",
+            "A French investment",
+            "A government ban on Sauvignon Blanc"
+          ],
+          "answer": 0,
+          "why": "Derek Milne's report led Dry River and Ata Rangi to plant in 1979 and 1980."
+        },
+        {
+          "q": "In Central Otago, which way do the sunniest slopes face?",
+          "options": [
+            "South",
+            "North",
+            "East only",
+            "It makes no difference"
+          ],
+          "answer": 1,
+          "why": "In the southern hemisphere the sun is to the north."
+        },
+        {
+          "q": "Which New Zealand region grows the most Pinot Noir by area?",
+          "options": [
+            "Central Otago",
+            "Martinborough",
+            "Marlborough",
+            "Hawke's Bay"
+          ],
+          "answer": 2,
+          "why": "Marlborough's sheer size gives it more Pinot than Central Otago, though Otago is more famous for it."
+        }
+      ]
+    },
+    {
+      "id": "southern",
+      "part": "intro",
+      "title": "Australia, Chile and South Africa",
+      "steps": [
+        {
+          "text": "Australia is hot, so its Pinot lives where the cold is. The [Yarra Valley](au-yarra-valley), an hour east of Melbourne, was Victoria's first wine region, first planted in 1838 and built up by Swiss settlers from the 1840s, abandoned in the early twentieth century and revived by doctors and scientists from the 1960s: Dr Bailey Carrodus at Yarra Yering (1969), Dr John Middleton at Mount Mary (1971).\n\nWine Australia puts its warmth at about 1,440 growing degree days, among the coolest of the mainland's major regions. The higher, wetter Upper Yarra, on red volcanic soils, makes the tautest Pinot.",
+          "map": {
+            "fly": "au-yarra-valley",
+            "highlight": [
+              "au-yarra-valley",
+              "site-au-yarra-yering",
+              "site-au-yeringberg"
+            ],
+            "label": "Yarra Valley"
+          }
+        },
+        {
+          "text": "South of Melbourne, the [Mornington Peninsula](au-mornington-peninsula) is surrounded by water on three sides. Its modern wine story began in the 1970s, and today about 200 small vineyards make Pinot with a tense, saline freshness, from cool Red Hill and Main Ridge on red volcanic soil to warmer, sandier Moorooduc.\n\nAcross Bass Strait, [Tasmania](au-tasmania) is cooler still, with under 800 growing degree days on Wine Australia's figures: the only part of Australia truly comparable to Champagne or Burgundy. It supplies most of the country's best traditional-method sparkling wine and a growing share of its best Pinot, from vineyards such as [Tolpuddle](site-au-tolpuddle-vineyard) in the Coal River Valley.",
+          "map": {
+            "fly": "au-tasmania",
+            "highlight": [
+              "au-tasmania",
+              "au-mornington-peninsula",
+              "site-au-tolpuddle-vineyard"
+            ],
+            "label": "Mornington and Tasmania"
+          }
+        },
+        {
+          "text": "In Chile, cool climate means coast. In 1982 Pablo Morandé planted vines in the [Casablanca Valley](cl-valle-de-casablanca), halfway between Santiago and Valparaíso, against almost everyone's advice, because the Pacific 20 to 30 kilometres away pushes cold fog and wind through the coastal hills every afternoon. It became Chile's first truly cool-climate region, and as growers moved onto its slopes, Pinot Noir followed.\n\nJust south, the [Leyda Valley](cl-valle-de-leyda), even closer to the ocean, makes some of the country's crispest Pinot.",
+          "map": {
+            "fly": {
+              "lon": -71.5,
+              "lat": -33.45,
+              "zoom": 9.3
+            },
+            "highlight": [
+              "cl-valle-de-casablanca",
+              "cl-valle-de-leyda"
+            ],
+            "label": "Casablanca and Leyda"
+          }
+        },
+        {
+          "text": "At the southern tip of Africa, the Hemel-en-Aarde ('heaven and earth') valley runs inland from the whale-watching town of Hermanus. In 1975 Tim Hamilton Russell bought land in its lower section to make Burgundy-style wine; Bouchard Finlayson followed in 1989. Today three wards climb the valley: [Hemel-en-Aarde Valley](za-hemel-en-aarde-valley), nearest the sea on clay-rich shale; the [Upper Hemel-en-Aarde Valley](za-upper-hemel-en-aarde-valley) on lighter granite and shale; and the higher, cooler [Hemel-en-Aarde Ridge](za-hemel-en-aarde-ridge).\n\nThe best Pinots here are firm, mineral and savoury, closer to Burgundy in spirit than to Central Otago.",
+          "map": {
+            "fly": {
+              "lon": 19.29,
+              "lat": -34.385,
+              "zoom": 11.2
+            },
+            "highlight": [
+              "za-hemel-en-aarde-valley",
+              "za-upper-hemel-en-aarde-valley",
+              "za-hemel-en-aarde-ridge",
+              "site-za-hamilton-russell-vineyards"
+            ],
+            "label": "Hemel-en-Aarde"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Yering Station Paddock Rise Pinot Noir (Yarra Valley)",
+          "why": "An affordable Yarra Pinot from one of the valley's historic names: bright cherry, light body, fresh acid.",
+          "price": "$25–30",
+          "try": [
+            "Yering Station"
+          ],
+          "place": "au-yarra-valley"
+        },
+        {
+          "wine": "Leyda Reserva Pinot Noir (Chile)",
+          "why": "Coastal Chilean Pinot at a bargain price: crunchy red fruit and a herbal, salty edge.",
+          "price": "$14–18",
+          "try": [
+            "Viña Leyda"
+          ],
+          "place": "cl-valle-de-leyda"
+        },
+        {
+          "wine": "Hamilton Russell Vineyards Pinot Noir",
+          "why": "South Africa's benchmark: dark cherry, earth and a firm, stony structure from clay-rich shale. A serious Pinot at a fair price.",
+          "price": "$55–63",
+          "try": [
+            "Hamilton Russell Vineyards"
+          ],
+          "place": "za-hemel-en-aarde-valley"
+        }
+      ],
+      "deeper": [
+        "au-yarra-valley",
+        "au-mornington-peninsula",
+        "au-tasmania",
+        "site-au-tolpuddle-vineyard",
+        "cl-valle-de-casablanca",
+        "cl-valle-de-leyda",
+        "za-hemel-en-aarde-valley",
+        "site-za-hamilton-russell-vineyards"
+      ],
+      "check": [
+        {
+          "q": "Why is Tasmania special in Australian wine?",
+          "options": [
+            "It is the hottest region",
+            "Its cool climate, under 800 growing degree days, resembles Champagne or Burgundy",
+            "It grows only Shiraz",
+            "It has no vineyards"
+          ],
+          "answer": 1,
+          "why": "Tasmania is Australia's coolest major wine area and its sparkling and Pinot powerhouse."
+        },
+        {
+          "q": "What makes Chile's Casablanca Valley cool?",
+          "options": [
+            "Altitude in the Andes",
+            "Pacific fog and wind through the coastal hills",
+            "Snowmelt rivers",
+            "It is near the South Pole"
+          ],
+          "answer": 1,
+          "why": "The ocean is only 20 to 30 kilometres away, and its fog pours in every afternoon."
+        },
+        {
+          "q": "Who bought land in the Hemel-en-Aarde in 1975 to make Burgundy-style wine?",
+          "options": [
+            "Tim Hamilton Russell",
+            "Pablo Morandé",
+            "David Lett",
+            "Bailey Carrodus"
+          ],
+          "answer": 0,
+          "why": "The advertising executive bought land in the lower valley to make Burgundy-style wine."
+        }
+      ]
+    },
+    {
+      "id": "flight",
+      "part": "intro",
+      "title": "The flight: Burgundy, Oregon, Central Otago",
+      "steps": [
+        {
+          "text": "Now put three bottles side by side, at similar prices: a Bourgogne Côte d'Or from a grower, a Willamette Valley Pinot from a pioneering estate and a Bannockburn Pinot from Central Otago. Taste them blind if you can, at cellar temperature, in the same glasses.\n\nBegin with Burgundy. From the Côte d'Or's limestone and marl and a cool, often cloudy continental climate, expect the palest colour, red cherry and raspberry, a savoury note of earth or forest floor, light tannin and fresh acidity. The fruit is not the point; texture and length are.",
+          "map": {
+            "fly": "fr-bourgogne-cote-d-or",
+            "highlight": [
+              "fr-bourgogne-cote-d-or"
+            ],
+            "label": "1: Bourgogne Côte d'Or"
+          }
+        },
+        {
+          "text": "Next, Oregon. From volcanic and marine soils in a valley with wet winters and long, dry, mild autumns, the Willamette bottle will probably be a shade darker and a touch riper: brighter red fruit, sometimes cranberry or pomegranate, a hint of spice, silky texture and acid that feels similar to Burgundy's. It is often the most 'Burgundian' New World Pinot, which is exactly what David Lett hoped.\n\nNote anything that tastes of place: the earthy note in the Burgundy, the bright fruit here.",
+          "map": {
+            "fly": "us-willamette-valley",
+            "highlight": [
+              "us-willamette-valley",
+              "us-dundee-hills",
+              "us-eola-amity-hills"
+            ],
+            "label": "2: Willamette Valley"
+          }
+        },
+        {
+          "text": "Last, Central Otago. Intense sunshine, cool nights and very dry air on schist give the deepest colour of the three, darker cherry and plum, wild herbs such as thyme, riper tannin and often a little more alcohol, with freshness from the cold nights.\n\nNow taste back across the line. The same grape has given three accents: savoury and pale, bright and silky, dark and vivid. That is the lesson of Pinot Noir. More than any other red grape, it is a translator of place, and its heartbreaks are the price of that honesty.",
+          "map": {
+            "fly": {
+              "lon": 169.2,
+              "lat": -45.05,
+              "zoom": 9.6
+            },
+            "highlight": [
+              "nz-central-otago",
+              "nz-bannockburn"
+            ],
+            "label": "3: Central Otago"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Bourgogne Côte d'Or Rouge from a grower",
+          "why": "Pale, savoury, red-fruited. The reference point.",
+          "price": "$25–36",
+          "try": [
+            "Domaine Camus-Bruchon",
+            "Louis Jadot"
+          ],
+          "place": "fr-bourgogne-cote-d-or"
+        },
+        {
+          "wine": "Willamette Valley Pinot Noir",
+          "why": "Brighter fruit, silky, similar acidity. The bridge.",
+          "price": "$28–35",
+          "try": [
+            "Cristom",
+            "Adelsheim"
+          ],
+          "place": "us-willamette-valley"
+        },
+        {
+          "wine": "Central Otago (Bannockburn) Pinot Noir",
+          "why": "Darkest, most vivid and sun-soaked of the three.",
+          "price": "$39–43",
+          "try": [
+            "Mt. Difficulty (Bannockburn)"
+          ],
+          "place": "nz-bannockburn"
+        }
+      ],
+      "deeper": [
+        "grape-pinot-noir",
+        "fr-bourgogne-cote-d-or",
+        "us-willamette-valley",
+        "nz-central-otago",
+        "term-terroir",
+        "term-climat"
+      ],
+      "check": [
+        {
+          "q": "In the flight, which wine is most likely the palest and most savoury?",
+          "options": [
+            "The Bourgogne Côte d'Or",
+            "The Willamette Valley",
+            "The Central Otago",
+            "They will look identical"
+          ],
+          "answer": 0,
+          "why": "Burgundy's cool, cloudy climate and limestone typically give the palest, most earthy wine."
+        },
+        {
+          "q": "Which of the three regions has the driest, sunniest climate?",
+          "options": [
+            "Burgundy",
+            "Willamette Valley",
+            "Central Otago",
+            "All are the same"
+          ],
+          "answer": 2,
+          "why": "Central Otago's semi-continental climate is very sunny and dry, often under 400 mm of rain."
+        },
+        {
+          "q": "What is the main lesson of the flight?",
+          "options": [
+            "Pinot always tastes the same",
+            "Pinot Noir translates place more clearly than most red grapes",
+            "Only Burgundy makes good Pinot",
+            "Price decides flavour"
+          ],
+          "answer": 1,
+          "why": "Same grape, similar prices, three distinct accents shaped by soil and climate."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "burgundy",
+    "champagne",
+    "new-zealand",
+    "mosel",
+    "syrah"
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Pinot noir (clones, Tchelistcheff quote, Champagne share, country rankings)",
+      "url": "https://en.wikipedia.org/wiki/Pinot_noir"
+    },
+    {
+      "title": "Wikipedia: Oregon wine (Pinot Noir acreage 2022)",
+      "url": "https://en.wikipedia.org/wiki/Oregon_wine"
+    },
+    {
+      "title": "Wikipedia: The Eyrie Vineyards (1979 Wine Olympics, Drouhin rematch)",
+      "url": "https://en.wikipedia.org/wiki/The_Eyrie_Vineyards"
+    },
+    {
+      "title": "Wikipedia: David Lett",
+      "url": "https://en.wikipedia.org/wiki/David_Lett"
+    },
+    {
+      "title": "Wikipedia: Central Otago wine region",
+      "url": "https://en.wikipedia.org/wiki/Central_Otago_wine_region"
+    },
+    {
+      "title": "Wikipedia: Champagne (wine)",
+      "url": "https://en.wikipedia.org/wiki/Champagne_(wine)"
+    },
+    {
+      "title": "Wikipedia: Adelsheim Vineyard",
+      "url": "https://en.wikipedia.org/wiki/Adelsheim_Vineyard"
+    },
+    {
+      "title": "Vitis Mundi atlas profiles: Côte d'Or, Champagne, Ahr, Baden, Pfalz, Alsace grands crus, Willamette and sub-AVAs, Sonoma, Anderson Valley, Sta. Rita Hills, Carneros, Central Otago, Bannockburn, Martinborough, Marlborough, Yarra, Mornington, Tasmania, Casablanca, Hemel-en-Aarde (cross-checked)",
+      "url": "https://vitismundi.app"
+    },
+    {
+      "title": "Wine.com Pinot Noir and Champagne listings (US retail prices, October 2026)",
+      "url": "https://www.wine.com/list/wine/pinot-noir/7155-143"
+    }
+  ]
+}

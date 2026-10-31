@@ -1,0 +1,1442 @@
+{
+  "id": "mosel",
+  "kind": "region",
+  "title": "Mosel",
+  "subtitle": "Riesling at the edge",
+  "tagline": "Slate cliffs above a looping river, white wines at 8 percent alcohol that outlive their makers, and the world's most baffling labels, decoded.",
+  "minutes": 17,
+  "deeper_minutes": 10,
+  "cover": "site-de-wehlener-sonnenuhr",
+  "countries": [
+    "de"
+  ],
+  "intro": "Germany's oldest wine region makes the lightest great wine on earth: Riesling from slate slopes so steep that Romans, monks and today's growers have all worked them by hand. This path follows the river from Trier to the Rhine, climbs the famous slopes in 3D and teaches you to read a German label. Taste as you go: a Kabinett, then a Spätlese from the same slope, then dry Riesling, then the Saar.",
+  "chapters": [
+    {
+      "id": "roman",
+      "part": "intro",
+      "title": "A Roman river",
+      "steps": [
+        {
+          "text": "Start wide. The Mosel rises in the Vosges mountains of France, slides past Luxembourg and spends its last, most dramatic stretch in Germany, coiling between the Eifel and Hunsrück hills until it meets the Rhine at Koblenz. Along that stretch, and up two small side valleys called the Saar and the Ruwer, grow roughly 8,300 hectares of vines, the German Wine Institute's 2025 figure. That makes the [Mosel](de-mosel) only Germany's fifth-largest wine region, yet none is more famous and none is so devoted to one grape: [Riesling](grape-riesling) covers about 62 percent of the vineyard.\n\nWhat you will learn to taste on this path is Riesling at the edge of ripeness: a white wine that can be as light as 8 percent alcohol and still last half a century.",
+          "map": {
+            "fly": "region-de-mosel",
+            "highlight": [
+              "de-mosel"
+            ],
+            "label": "The Mosel wine region"
+          }
+        },
+        {
+          "text": "Why so far north? Follow the customers. From the late third century Trier, then Augusta Treverorum, was one of the capitals of the Roman Empire, the seat from which emperors governed the western provinces. A court, an army and a large city needed wine, and hauling it from the Mediterranean was slow and costly, so the vine came to them.\n\nAround 371 the poet Ausonius, a Bordeaux man serving at the court in Trier, wrote the *Mosella*, a long Latin poem that describes vines climbing the steep slopes above the river and their reflections shivering in the water. It is the first portrait of this landscape, and it still fits. ([Ausonius](event-ausonius-mosella) also lent his name, much later, to Château Ausone in Saint-Émilion.)",
+          "map": {
+            "fly": {
+              "lon": 6.6439,
+              "lat": 49.7555,
+              "zoom": 12.2
+            },
+            "highlight": [
+              "site-de-trier-augusta-treverorum",
+              "site-de-rheinisches-landesmuseum-trier"
+            ],
+            "label": "Augusta Treverorum (Trier)"
+          }
+        },
+        {
+          "text": "Downstream at Neumagen the Romans left a vivid piece of evidence. In 1878 excavators found the tomb monument of a wine merchant, carved around AD 220 and later built into the walls of a late Roman fort: a ship rowed by a crew of oarsmen and loaded with wooden casks. The original is in the [Rheinisches Landesmuseum](site-de-rheinisches-landesmuseum-trier) in Trier; a replica stands in the village.\n\nLook at the cargo. These are barrels, the northern container, not clay amphorae from Italy. By the third century wine was already big business on this river, moving by boat towards Gaul and the Rhineland.",
+          "map": {
+            "fly": {
+              "lon": 6.8945,
+              "lat": 49.849,
+              "zoom": 13.4
+            },
+            "highlight": [
+              "site-de-neumagener-weinschiff"
+            ],
+            "label": "The Neumagen wine ship"
+          }
+        },
+        {
+          "text": "And it was made right here. In 1985, while clearing land at the foot of the Goldtröpfchen slope at Piesport, workers uncovered a fourth-century press house 44 metres long. The German Wine Institute calls it the biggest Roman wine press north of the Alps and estimates that it could make 30,000 to 40,000 litres of wine a year.\n\nNotice where it sits: at the bottom of the same steep, south-facing bowl that still makes one of the Mosel's most famous wines. The Roman growers had already learned the rule this whole path is about. On the cold edge of viticulture, the slope that catches the sun is everything.",
+          "map": {
+            "fly": {
+              "lon": 6.9265,
+              "lat": 49.8835,
+              "zoom": 14.0
+            },
+            "highlight": [
+              "site-de-romische-kelteranlage-piesport",
+              "de-dhron-goldtropfchen"
+            ],
+            "label": "Roman press house, Piesport"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Dr. L Riesling (Loosen Bros.)",
+          "why": "Your baseline: a fruity, gently sweet Mosel Riesling from bought-in slate-slope grapes, well under 10 percent alcohol. Notice green apple and peach, a lick of sugar and acidity that makes your mouth water. Every later bottle on this path is a more specific version of this one.",
+          "price": "$10–17",
+          "try": [
+            "Loosen Bros. (Dr. L)"
+          ],
+          "place": "de-mosel"
+        }
+      ],
+      "deeper": [
+        "site-de-trier-augusta-treverorum",
+        "event-ausonius-mosella",
+        "site-de-neumagener-weinschiff",
+        "site-de-romische-kelteranlage-piesport",
+        "event-probus-280",
+        "site-de-rheinisches-landesmuseum-trier",
+        "grape-riesling"
+      ],
+      "check": [
+        {
+          "q": "Where was the Roman press house found in 1985?",
+          "options": [
+            "At the foot of the Goldtröpfchen slope at Piesport",
+            "Under Trier cathedral",
+            "On the summit of the Calmont",
+            "In the Ruwer valley"
+          ],
+          "answer": 0,
+          "why": "Workers clearing land below Piesport's Goldtröpfchen uncovered the fourth-century press house, 44 metres long."
+        },
+        {
+          "q": "What does the Neumagen wine ship carry?",
+          "options": [
+            "Clay amphorae from Italy",
+            "Wooden casks",
+            "Sacks of grain",
+            "Slate roof tiles"
+          ],
+          "answer": 1,
+          "why": "The carving, from around AD 220, shows a rowed ship loaded with wine barrels, the container of the north."
+        },
+        {
+          "q": "Why did vines reach the Mosel in Roman times?",
+          "options": [
+            "The climate was warmer than Italy's",
+            "Trier was an imperial capital with a thirsty court and army",
+            "Riesling grew wild there",
+            "Wine could not travel by river"
+          ],
+          "answer": 1,
+          "why": "Trier was one of the Empire's capitals from the late third century, and growing wine nearby was cheaper than shipping it north."
+        }
+      ]
+    },
+    {
+      "id": "slate",
+      "part": "intro",
+      "title": "Meanders, slate and the angle of the sun",
+      "steps": [
+        {
+          "text": "Zoom in on the Middle Mosel between Trittenheim and Ürzig and look at the shape of the river. It does not so much flow as wander, swinging through tight loops. Every loop has an outer bank, cut steep by the current, and an inner bank of gentle, fertile flats. Where a steep outer bank happens to face south, you get a great vineyard. Where it faces north, you get forest.\n\nThat is why the famous names jump from one side of the water to the other, and why a village and its best vineyard often face each other across the river: Wehlen looks across at its Sonnenuhr, Brauneberg at its Juffer. On a map of the Middle Mosel, the highlighted shapes are the south-facing bends.",
+          "map": {
+            "fly": {
+              "lon": 7.0,
+              "lat": 49.935,
+              "zoom": 10.4
+            },
+            "highlight": [
+              "de-dhron-goldtropfchen",
+              "de-brauneberg-juffer",
+              "de-brauneberg-juffer-sonnenuhr",
+              "de-bernkastel-doctor",
+              "de-graach-domprobst",
+              "de-graach-himmelreich",
+              "de-wehlen-sonnenuhr",
+              "de-urzig-wurzgarten",
+              "de-erden-treppchen",
+              "de-erden-pralat",
+              "de-trittenheim-apotheke"
+            ],
+            "label": "The Middle Mosel's great slopes"
+          }
+        },
+        {
+          "text": "The rock is [Devonian slate](soil-devonian-slate), mud laid down in a sea about 400 million years ago and pressed into thin, dark plates. On the slopes it breaks into shards that cover the ground like broken roof tiles, and that matters in three ways. Dark stone absorbs the day's heat and gives some back at night. Shards drain fast, so roots chase water deep into cracks in the rock. And the soil is poor, so vines carry small crops of concentrated grapes.\n\nGrowers distinguish blue-grey slate (Bernkastel, Graach, Wehlen), red slate (Ürzig, Erden) and grey slate laced with volcanic diabase (parts of the Saar). Whether you can taste [slate](term-slate) in the glass is debated. That slate lets Riesling ripen this far north is not.",
+          "map": {
+            "fly": {
+              "lon": 7.062,
+              "lat": 49.934,
+              "zoom": 12.4
+            },
+            "highlight": [
+              "de-graach-domprobst",
+              "de-graach-himmelreich",
+              "de-graach-josephshofer",
+              "de-wehlen-sonnenuhr",
+              "de-bernkastel-doctor"
+            ],
+            "label": "Blue slate: Bernkastel, Graach, Wehlen"
+          }
+        },
+        {
+          "text": "Now tilt the map. This is the [Bernkasteler Doctor](de-bernkastel-doctor), Germany's most famous vineyard, rising straight from the rooftops of Bernkastel. Legend says its wine cured the fourteenth-century Archbishop Boemund II of Trier of a fever, hence the name. In 1900 Carl Wegeler is said to have paid 100 gold marks a vine for a third of it.\n\nLook at the angle. The slope faces south-southwest, so on an October afternoon the sun strikes it almost square on, and the town below shelters it. The registered site is only about 3.3 hectares. When the 1971 wine law redrew its boundaries to enlarge it, the owners went to court, and the fight was settled only in 1984.",
+          "map": {
+            "fly": {
+              "lon": 7.0776,
+              "lat": 49.9145,
+              "zoom": 14.6
+            },
+            "pitch": 62,
+            "bearing": 15,
+            "terrain": true,
+            "highlight": [
+              "de-bernkastel-doctor",
+              "site-de-bernkasteler-doctor"
+            ],
+            "label": "Bernkasteler Doctor"
+          }
+        },
+        {
+          "text": "Downstream, switch to satellite. The striped hillside is the [Wehlener Sonnenuhr](de-wehlen-sonnenuhr), about 43 hectares of slate on slopes of up to 60 percent, facing south to southwest across the river from Wehlen. Look for rows running straight up the hill and the dots of individual vines: on the steepest Mosel slopes each vine is traditionally tied to its own stake, because there is no room for wires and tractors.\n\nThe name means sundial. In 1842 Jodocus Prüm built one among the vines so that pickers on the slope could tell the time. The family's Kabinett and Spätlese from here are the archetype of the Mosel style: feather-light, floral and very long-lived.",
+          "map": {
+            "fly": {
+              "lon": 7.0445,
+              "lat": 49.9452,
+              "zoom": 15.2
+            },
+            "base": "satellite",
+            "highlight": [
+              "de-wehlen-sonnenuhr",
+              "site-de-wehlener-sonnenuhr"
+            ],
+            "label": "Wehlener Sonnenuhr"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Dr. Loosen Wehlener Sonnenuhr Riesling Kabinett",
+          "why": "The first bottle of this path's flight. A Kabinett from one of the great slopes: about as heavy as water, low in alcohol, yet intense, with white peach, lime and a cool, stony finish. Keep the producer and the site in mind, because chapter 4 pours the Spätlese from the same slope.",
+          "price": "$30–35",
+          "try": [
+            "Dr. Loosen"
+          ],
+          "place": "de-wehlen-sonnenuhr"
+        }
+      ],
+      "deeper": [
+        "soil-devonian-slate",
+        "term-slate",
+        "de-bernkastel-doctor",
+        "de-wehlen-sonnenuhr",
+        "de-graach-domprobst",
+        "de-graach-himmelreich",
+        "term-einzellage"
+      ],
+      "check": [
+        {
+          "q": "Why do the Mosel's great vineyards hop from one bank to the other?",
+          "options": [
+            "Only the steep outer bank of a loop that faces south ripens grapes well",
+            "The law allows one bank per village",
+            "The river changes course every century",
+            "Monks owned one bank and nobles the other"
+          ],
+          "answer": 0,
+          "why": "Each meander has a steep outer bank and a gentle inner one. The great sites are steep outer banks that happen to face south."
+        },
+        {
+          "q": "Which of these is NOT one of the ways slate helps the vine?",
+          "options": [
+            "It stores heat",
+            "It drains fast",
+            "It is rich and fertile, pushing big crops",
+            "It sends roots deep"
+          ],
+          "answer": 2,
+          "why": "Slate soils are poor, which keeps crops small and concentrated; the heat, drainage and deep rooting are its gifts."
+        },
+        {
+          "q": "What gave the Wehlener Sonnenuhr its name?",
+          "options": [
+            "A sundial built among the vines in 1842",
+            "A Roman sun temple",
+            "Its east-facing aspect",
+            "A chapel on the summit"
+          ],
+          "answer": 0,
+          "why": "Jodocus Prüm built the sundial in 1842 so that workers on the slope could tell the time."
+        }
+      ]
+    },
+    {
+      "id": "great-sites",
+      "part": "intro",
+      "title": "Four slopes, four characters",
+      "steps": [
+        {
+          "text": "Back upstream, Piesport shows what a meander can do. The river bends around the village, and the [Goldtröpfchen](de-dhron-goldtropfchen) ('little gold drop') curves behind it as a south-facing amphitheatre of about 64 hectares that collects sun from morning to evening. The weathered slate here is a little deeper and richer than at Bernkastel, and the wines are among the juiciest and most aromatic on the river: peach, blackcurrant, citrus, a hint of spice.\n\nThe Roman press house sits at the foot of this bowl. Remember the name Piesport, too: chapter 6 shows how the 1971 law borrowed it for wines that never came near this slope.",
+          "map": {
+            "fly": {
+              "lon": 6.918,
+              "lat": 49.8832,
+              "zoom": 13.4
+            },
+            "pitch": 58,
+            "bearing": 345,
+            "terrain": true,
+            "highlight": [
+              "de-dhron-goldtropfchen",
+              "site-de-piesporter-goldtropfchen",
+              "site-de-romische-kelteranlage-piesport"
+            ],
+            "label": "Piesporter Goldtröpfchen"
+          }
+        },
+        {
+          "text": "A few loops downstream the river widens, and across from the village of Brauneberg rises a long wall of grey slate: the [Juffer](de-brauneberg-juffer), with its steepest core, the [Juffer-Sonnenuhr](de-brauneberg-juffer-sonnenuhr), marked by another sundial. The broad water throws extra light back onto the vines.\n\nThe village was called Dusemond until 1925, when it renamed itself after its hill to trade on the fame of these wines; in the nineteenth century they were among the most expensive on the Mosel. Expect a fuller, riper, spicier Riesling than at Wehlen, with a creamy texture in the best years.",
+          "map": {
+            "fly": {
+              "lon": 6.991,
+              "lat": 49.9105,
+              "zoom": 13.6
+            },
+            "pitch": 58,
+            "bearing": 345,
+            "terrain": true,
+            "highlight": [
+              "de-brauneberg-juffer",
+              "de-brauneberg-juffer-sonnenuhr"
+            ],
+            "label": "Brauneberger Juffer"
+          }
+        },
+        {
+          "text": "At Ürzig the rock turns red. The [Ürziger Würzgarten](de-urzig-wurzgarten) ('spice garden') is a near-vertical slope where iron-red Rotliegend soil and volcanic rock overlie the slate, and vines grow in pockets between cliffs. Many are [ungrafted](term-ungrafted), on their own roots, because the vine-killing aphid [phylloxera](term-phylloxera) struggles in this rocky ground. The wines smell of exotic spice and red fruit, unlike anything else on the river.\n\nNext door, squeezed between rock walls and the water, the 1.5-hectare [Erdener Prälat](de-erden-pralat) is the warmest corner of the Middle Mosel: the cliffs store heat, the river reflects light and frost rarely reaches it. Its Auslese is opulent, almost tropical.",
+          "map": {
+            "fly": {
+              "lon": 7.0135,
+              "lat": 49.9775,
+              "zoom": 13.5
+            },
+            "pitch": 60,
+            "bearing": 10,
+            "terrain": true,
+            "highlight": [
+              "de-urzig-wurzgarten",
+              "de-erden-pralat",
+              "de-erden-treppchen",
+              "site-de-urziger-wurzgarten",
+              "site-de-erdener-pralat"
+            ],
+            "label": "Ürzig and Erden: red slate"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Fritz Haag Brauneberger Juffer Riesling Kabinett",
+          "why": "Pour it next to the Wehlener Sonnenuhr Kabinett from chapter 2: same grape, same Prädikat, slopes a few kilometres apart. The Juffer is broader and riper, the Sonnenuhr finer and more floral. That difference is what the Mosel means by site.",
+          "price": "$27–35",
+          "try": [
+            "Weingut Fritz Haag"
+          ],
+          "place": "de-brauneberg-juffer"
+        }
+      ],
+      "deeper": [
+        "de-dhron-goldtropfchen",
+        "de-brauneberg-juffer-sonnenuhr",
+        "de-urzig-wurzgarten",
+        "de-erden-pralat",
+        "de-erden-treppchen",
+        "term-ungrafted",
+        "term-phylloxera"
+      ],
+      "check": [
+        {
+          "q": "What makes the Ürziger Würzgarten unusual on the Mosel?",
+          "options": [
+            "Red Rotliegend soil and volcanic rock over the slate",
+            "It faces north",
+            "It is almost flat",
+            "It is planted with Pinot Noir"
+          ],
+          "answer": 0,
+          "why": "Iron-red soil and volcanic rock give the 'spice garden' its colour and its exotic, spicy wines."
+        },
+        {
+          "q": "Why did Dusemond rename itself Brauneberg in 1925?",
+          "options": [
+            "To trade on the fame of its vineyard hill",
+            "After a great flood",
+            "Napoleon ordered it",
+            "To merge with Bernkastel"
+          ],
+          "answer": 0,
+          "why": "The village took the name of its hill because the Brauneberger Juffer wines were already famous."
+        },
+        {
+          "q": "Why is the Erdener Prälat the Middle Mosel's warmest site?",
+          "options": [
+            "Rock walls store heat and the river reflects light",
+            "It sits on a hot spring",
+            "It is the highest vineyard on the river",
+            "Forest shelters it from the south"
+          ],
+          "answer": 0,
+          "why": "The narrow strip between cliffs and water is a heat trap where frost rarely reaches."
+        }
+      ]
+    },
+    {
+      "id": "pradikat",
+      "part": "intro",
+      "title": "The ripeness ladder",
+      "steps": [
+        {
+          "text": "Now the label. Classic German wine is ranked not by vineyard but by how ripe the grapes were when picked, measured as must weight in degrees Oechsle (a gauge of sugar in the juice). The 1971 law made this a ladder of [Prädikat](term-pradikat) levels, words that follow the grape on the label. For Mosel Riesling the legal minimums are [Kabinett](term-kabinett) 70°, [Spätlese](term-spatlese) ('late harvest') 76°, [Auslese](term-auslese) ('selected harvest') 83°, [Beerenauslese](term-beerenauslese) (BA, 'berry selection') 110°, [Trockenbeerenauslese](term-trockenbeerenauslese) (TBA, 'dried-berry selection') 150°, and [Eiswein](term-eiswein) 110°.\n\nIn a country where ripeness was rare and precious, this made sense. Prädikat wines may not be [chaptalised](term-chaptalisation): no sugar may be added before fermentation.",
+          "map": {
+            "fly": {
+              "lon": 7.058,
+              "lat": 49.936,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "de-wehlen-sonnenuhr",
+              "de-graach-himmelreich",
+              "de-graach-domprobst"
+            ],
+            "label": "Wehlen and Graach"
+          }
+        },
+        {
+          "text": "Here is the trap: a Prädikat tells you how ripe the grapes were, not how sweet the wine is. A traditional Mosel Kabinett stops fermenting with plenty of natural grape sugar left, often 30 to 50 grams per litre, at only 8 or 9 percent alcohol. But a grower can ferment the same grapes dry and sell a Kabinett *trocken*.\n\nBy law, *trocken* allows at most 9 grams of sugar per litre when acidity is high, *halbtrocken* up to 18; *feinherb* is an unregulated word for off-dry. What keeps the sweet styles from tasting sugary is acidity. Mosel Riesling carries so much of it that the sugar reads as ripe fruit rather than syrup, and the finish stays clean.",
+          "map": {
+            "fly": "de-wehlen-sonnenuhr",
+            "highlight": [
+              "de-wehlen-sonnenuhr"
+            ],
+            "label": "Wehlener Sonnenuhr"
+          }
+        },
+        {
+          "text": "Higher up the ladder, nature does the concentrating. Auslese comes from selected very ripe bunches, often touched by [noble rot](term-botrytis), a fungus that shrivels berries in misty, sunny autumns. BA and TBA are picked berry by berry from shrivelled, rotten-looking grapes; a TBA may yield only a few hundred litres per hectare, thick as honey yet bright with acid.\n\nEiswein comes from grapes frozen on the vine at minus 7°C or colder and pressed while frozen, so only concentrated juice runs out. These wines are rare and costly. At the VDP auction in Trier in September 2015, a bottle of Egon Müller's 2003 Scharzhofberger TBA sold for 12,000 euros before fees.",
+          "map": {
+            "fly": {
+              "lon": 6.6125,
+              "lat": 49.6505,
+              "zoom": 13.0
+            },
+            "highlight": [
+              "de-wiltingen-scharzhofberg"
+            ],
+            "label": "Scharzhofberg, home of famous TBA"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Dr. Loosen Wehlener Sonnenuhr Riesling Spätlese",
+          "why": "Same producer and same slope as your Kabinett from chapter 2, one rung higher. The Spätlese is riper, rounder, a little sweeter and more concentrated, yet still low in alcohol and driven by acid. Tasting the two side by side is the quickest way to understand the ladder.",
+          "price": "$39–45",
+          "try": [
+            "Dr. Loosen"
+          ],
+          "place": "de-wehlen-sonnenuhr"
+        }
+      ],
+      "deeper": [
+        "term-pradikat",
+        "term-kabinett",
+        "term-spatlese",
+        "term-auslese",
+        "term-beerenauslese",
+        "term-trockenbeerenauslese",
+        "term-eiswein",
+        "term-botrytis"
+      ],
+      "check": [
+        {
+          "q": "A Prädikat such as Spätlese tells you...",
+          "options": [
+            "How sweet the wine is",
+            "How ripe the grapes were at harvest",
+            "Which vineyard it came from",
+            "How long it was aged"
+          ],
+          "answer": 1,
+          "why": "The ladder measures must weight at harvest; the same Spätlese grapes can make a sweet or a dry wine."
+        },
+        {
+          "q": "What is the minimum must weight for Mosel Riesling Kabinett?",
+          "options": [
+            "50° Oechsle",
+            "70° Oechsle",
+            "110° Oechsle",
+            "150° Oechsle"
+          ],
+          "answer": 1,
+          "why": "Kabinett needs 70°, Spätlese 76°, Auslese 83°, BA and Eiswein 110°, TBA 150°."
+        },
+        {
+          "q": "At what temperature, or below, must Eiswein grapes be picked in Germany?",
+          "options": [
+            "0°C",
+            "Minus 3°C",
+            "Minus 7°C",
+            "Minus 15°C"
+          ],
+          "answer": 2,
+          "why": "German law requires minus 7°C, so that the water in the berries stays frozen during pressing."
+        }
+      ]
+    },
+    {
+      "id": "dry",
+      "part": "intro",
+      "title": "Dry Riesling and the growers' pyramid",
+      "steps": [
+        {
+          "text": "For most of the twentieth century the Mosel's fame rested on fruity-sweet wine, and floods of cheap sweet blends gave sweetness a bad name. Since the 1990s a generation of growers has shown that the slate makes great dry Riesling too.\n\nClemens Busch, who turned to organic farming in 1984 and has been certified biodynamic since 2015, works the [Pündericher Marienburg](de-punderich-marienburg), a steep slope facing south to southeast across the river from Pünderich. His family bottles three dry village-level wines named for the colour of their slate, red, grey and blue, a rare chance to taste what the rock seems to do: the red spicier, the grey creamier, the blue the most saline.",
+          "map": {
+            "fly": {
+              "lon": 7.12,
+              "lat": 50.033,
+              "zoom": 13.4
+            },
+            "pitch": 58,
+            "bearing": 330,
+            "terrain": true,
+            "highlight": [
+              "de-punderich-marienburg"
+            ],
+            "label": "Pündericher Marienburg"
+          }
+        },
+        {
+          "text": "The growers' answer to the 1971 law came from the [VDP](term-vdp), an association of about 200 leading estates founded in 1910, whose bottles carry an eagle on the capsule. Borrowing from Burgundy, it ranks wine by origin: Gutswein (estate wine), Ortswein (village wine), [Erste Lage](term-erste-lage) (roughly premier cru) and [Grosse Lage](term-grosse-lage) (roughly grand cru), the class held by the Doctor, the Sonnenuhr and the Domprobst.\n\nA dry wine from a Grosse Lage is a [Grosses Gewächs](term-grosses-gewachs), marked GG, released no earlier than September of the year after the harvest. At VDP estates the Prädikat words are kept for wines with natural sweetness, so a VDP Spätlese from a top site is a sweet wine.",
+          "map": {
+            "fly": {
+              "lon": 7.06,
+              "lat": 49.932,
+              "zoom": 12.5
+            },
+            "highlight": [
+              "de-bernkastel-doctor",
+              "de-wehlen-sonnenuhr",
+              "de-graach-domprobst",
+              "de-graach-himmelreich",
+              "de-graach-josephshofer"
+            ],
+            "label": "VDP Grosse Lagen around Graach"
+          }
+        },
+        {
+          "text": "The national law followed. A reform passed in 2021 and binding from the 2026 vintage rebuilt German wine on the same principle, 'the smaller the origin, the higher the quality': a pyramid that runs from the region (Mosel) through smaller areas and villages to the single vineyard, with stricter rules at each step. A wine named after a single vineyard, for instance, may not be sold before 1 March of the year after the harvest.\n\nThe Prädikat ladder survives beside the new pyramid. That is why a German label can carry two hierarchies at once, origin and ripeness, and why the next chapter is worth your time.",
+          "map": {
+            "fly": "region-de-mosel",
+            "highlight": [
+              "de-mosel"
+            ],
+            "label": "Mosel: the region at the base of the pyramid"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Dr. Loosen Red Slate Dry Riesling",
+          "why": "A fully dry Mosel Riesling from Dr. Loosen's iron-rich red-slate sites at Ürzig and Erden. Without sugar the acidity feels sharper and the fruit leaner: yellow apple, citrus, a stony, faintly herbal edge. Compare it with the sweet Kabinett and you feel what residual sugar does to balance.",
+          "price": "$20–24",
+          "try": [
+            "Dr. Loosen"
+          ],
+          "place": "de-urzig-wurzgarten"
+        },
+        {
+          "wine": "Clemens Busch Riesling trocken vom blauen Schiefer",
+          "why": "Blue-slate dry Riesling from the Marienburg, partly from parcels that did not go into the Fahrlay GG. Lighter-bodied and saline. If you can, find its red-slate sibling and taste the two together.",
+          "price": "$38–42",
+          "try": [
+            "Clemens Busch"
+          ],
+          "place": "de-punderich-marienburg"
+        }
+      ],
+      "deeper": [
+        "term-vdp",
+        "term-grosse-lage",
+        "term-grosses-gewachs",
+        "term-erste-lage",
+        "de-punderich-marienburg",
+        "event-germany-law-reform-2021"
+      ],
+      "check": [
+        {
+          "q": "What does GG on a German label mean?",
+          "options": [
+            "A sweet wine from a Grosslage",
+            "A dry wine from a VDP Grosse Lage",
+            "A gold medal",
+            "A sparkling wine"
+          ],
+          "answer": 1,
+          "why": "Grosses Gewächs is the VDP's name for dry wine from its top-ranked vineyards."
+        },
+        {
+          "q": "The VDP pyramid rises from Gutswein through...",
+          "options": [
+            "Kabinett, Spätlese and Auslese",
+            "Ortswein, Erste Lage and Grosse Lage",
+            "Bereich, Grosslage and Einzellage",
+            "Landwein, Qualitätswein and Sekt"
+          ],
+          "answer": 1,
+          "why": "Estate, village, premier-cru-like Erste Lage and grand-cru-like Grosse Lage: a ranking by origin, not ripeness."
+        },
+        {
+          "q": "Clemens Busch's three dry village wines are named after...",
+          "options": [
+            "The colours of their slate",
+            "Three saints",
+            "The months they were picked",
+            "Three generations of the family"
+          ],
+          "answer": 0,
+          "why": "Red, grey and blue slate bottlings come from different parts of the Marienburg."
+        }
+      ]
+    },
+    {
+      "id": "label",
+      "part": "intro",
+      "title": "Reading the label, and the Grosslage trap",
+      "steps": [
+        {
+          "text": "A classic Mosel label reads like an address. Take *Zeltinger Schlossberg Riesling Kabinett*. *Zeltinger* is the village, Zeltingen, with the suffix -er, the way a Londoner comes from London; *Schlossberg* is the [Einzellage](term-einzellage), the registered single vineyard; then the grape; then the Prädikat. So Wehlener Sonnenuhr is the Sonnenuhr of Wehlen.\n\nSomewhere on the bottle is the A.P. Nr., the number each quality wine receives after passing an official test. Read it left to right: the testing region, the village, the producer, the producer's submission number and, last, the year of testing. Two bottles with identical names but different A.P. numbers are different lots, and estates such as J.J. Prüm and Fritz Haag sometimes bottle casks of the same site and Prädikat separately.",
+          "map": {
+            "fly": {
+              "lon": 7.025,
+              "lat": 49.954,
+              "zoom": 13.4
+            },
+            "highlight": [
+              "de-zeltingen-rachtig-schlossberg",
+              "de-zeltingen-rachtig-sonnenuhr"
+            ],
+            "label": "Zeltingen's vineyards"
+          }
+        },
+        {
+          "text": "Now the trap. The same 1971 law merged roughly 30,000 old vineyard names into about 2,600 Einzellagen, many stretched far beyond their historic borders, and it invented the [Grosslage](term-grosslage), a collective site joining the vineyards of many villages under one name. A Grosslage name looks exactly like a single vineyard.\n\n*Piesporter Michelsberg*, sold by the tanker-load in the 1970s and 1980s, could blend wine from up to 20 villages; it had nothing to do with the Goldtröpfchen except the word Piesporter. *Bernkasteler Kurfürstlay* did the same for Bernkastel. A rule of thumb that still works on old bottles: a famous village, a vineyard name you have never heard of, and a cheap price usually mean a Grosslage.",
+          "map": {
+            "fly": {
+              "lon": 6.93,
+              "lat": 49.874,
+              "zoom": 11.6
+            },
+            "highlight": [
+              "de-dhron-goldtropfchen",
+              "de-trittenheim-apotheke"
+            ],
+            "label": "Piesport's real stars"
+          }
+        },
+        {
+          "text": "From the 2026 harvest the trick ends. Under the reformed law a former Grosslage must carry the word *Region* in front of its name, in the same type and colour, so the old *Piesporter Michelsberg* becomes *Region Michelsberg*. The reform also scraps the custom that let a vineyard spanning several villages borrow the name of its most famous one: at least 85 percent of the grapes must now come from the village actually named.\n\nThe Goldtröpfchen, which the register spreads across Piesport, Niederemmel and Dhron, is exactly the kind of site this affects. Expect old and new labels to share the shelf for years, and read them slowly.",
+          "map": {
+            "fly": "de-dhron-goldtropfchen",
+            "highlight": [
+              "de-dhron-goldtropfchen"
+            ],
+            "label": "Goldtröpfchen: three villages, one site"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Selbach-Oster Zeltinger Schlossberg Riesling Kabinett",
+          "why": "Decode it before you open it: village Zeltingen, vineyard Schlossberg, grape, Prädikat, then find the A.P. number on the back. In the glass, flint and slate, lively acid and a balance of sweetness and salinity. Selbach-Oster is one of the most reliable names on US shelves.",
+          "price": "$25–28",
+          "try": [
+            "Selbach-Oster"
+          ],
+          "place": "de-zeltingen-rachtig-schlossberg"
+        }
+      ],
+      "deeper": [
+        "term-einzellage",
+        "term-grosslage",
+        "term-bereich",
+        "event-germany-1971-law",
+        "event-germany-law-reform-2021",
+        "de-dhron-goldtropfchen"
+      ],
+      "check": [
+        {
+          "q": "On a bottle of Graacher Himmelreich, what is 'Graacher'?",
+          "options": [
+            "The producer",
+            "The village, Graach, with the suffix -er",
+            "The grape",
+            "The Grosslage"
+          ],
+          "answer": 1,
+          "why": "German labels give the village in adjective form, then the vineyard."
+        },
+        {
+          "q": "What was Piesporter Michelsberg?",
+          "options": [
+            "A Grosslage that could blend wine from up to 20 villages",
+            "Piesport's best single vineyard",
+            "A Roman temple",
+            "A VDP Grosse Lage"
+          ],
+          "answer": 0,
+          "why": "It borrowed Piesport's fame for wines that had nothing to do with the Goldtröpfchen."
+        },
+        {
+          "q": "From the 2026 harvest, which word must stand before a former Grosslage name?",
+          "options": [
+            "Bereich",
+            "Region",
+            "Lage",
+            "Gemeinde"
+          ],
+          "answer": 1,
+          "why": "The reformed rules require 'Region' in the same type, so Piesporter Michelsberg becomes Region Michelsberg."
+        }
+      ]
+    },
+    {
+      "id": "saar-ruwer",
+      "part": "intro",
+      "title": "The Saar, the Ruwer and the Terrassenmosel",
+      "steps": [
+        {
+          "text": "Above Trier the Saar joins the Mosel at Konz, and its lower valley holds some of the most coveted Riesling vineyards anywhere: Scharzhofberg, Bockstein, Rausch, Kupp, Altenberg. The valley is cooler and windier than the Middle Mosel and open to cold air off the Hunsrück. For much of the twentieth century only a few vintages a decade ripened fully; in those years the Saar made the most electric wines in Germany, and in the rest it struggled.\n\nClimate change has made ripeness reliable, and the Saar has become one of the hottest addresses in German wine, both for sweet Kabinett and for dry Riesling.",
+          "map": {
+            "fly": "region-de-saar",
+            "highlight": [
+              "de-wiltingen-scharzhofberg",
+              "de-ockfen-bockstein",
+              "de-saarburg-rausch",
+              "de-ayl-kupp",
+              "de-wiltingen-braune-kupp",
+              "de-filzen-altenberg",
+              "de-kanzem-sonnenberg",
+              "de-wiltingen-gottesfuss"
+            ],
+            "label": "The Saar's great sites"
+          }
+        },
+        {
+          "text": "The crown is the [Scharzhofberg](de-wiltingen-scharzhofberg), about 28 hectares of grey slate on a single south-facing hill in a side valley near Wiltingen, so famous that the label needs no village name. At its foot stands the Scharzhof, church property until the French secularised it; in 1797 an ancestor of the Müller family bought it.\n\nLook at the slope from the valley floor: open, exposed, forest on the crest. This is a cool site that needs a long autumn, and in the hands of Egon Müller it gives a Kabinett of white flowers, lime and wet stone that weighs almost nothing and lasts for decades.",
+          "map": {
+            "fly": {
+              "lon": 6.6125,
+              "lat": 49.6505,
+              "zoom": 14.0
+            },
+            "pitch": 60,
+            "bearing": 0,
+            "terrain": true,
+            "highlight": [
+              "de-wiltingen-scharzhofberg",
+              "site-de-weingut-egon-muller-scharzhof"
+            ],
+            "label": "Scharzhofberg"
+          }
+        },
+        {
+          "text": "The Ruwer, a stream that meets the Mosel just below Trier, has only a couple of hundred hectares of vines but two legendary estates. Maximin Grünhaus belonged to Trier's abbey of St. Maximin from 966 until secularisation, and its slope is still divided as the monks divided it: [Abtsberg](de-mertesdorf-abtsberg) for the abbot, Herrenberg for the monks, Bruderberg for the lay brothers. Just upstream, the Karthäuserhof belonged to the Carthusians from 1335.\n\nRuwer Riesling is the most delicate of the family: very low alcohol, notes of blackcurrant leaf and herbs, and fine-boned acidity that ages for decades.",
+          "map": {
+            "fly": {
+              "lon": 6.716,
+              "lat": 49.7685,
+              "zoom": 13.8
+            },
+            "pitch": 58,
+            "bearing": 345,
+            "terrain": true,
+            "highlight": [
+              "de-mertesdorf-abtsberg",
+              "de-mertesdorf-herrenberg",
+              "de-mertesdorf-bruderberg",
+              "de-eitelsbach-karthauserhofberg",
+              "site-de-maximin-grunhaus",
+              "site-de-karthauserhof"
+            ],
+            "label": "The Ruwer's monastery slopes"
+          }
+        },
+        {
+          "text": "Finally, go downstream past Zell, where the valley narrows and the slopes become stairs of dry-stone terraces: the Terrassenmosel, a name popularised by Reinhard Löwenstein of Heymann-Löwenstein. Above the tight loop at Bremm rises the [Calmont](de-bremm-calmont), generally billed as Europe's steepest vineyard, a wall of slate crossed by a via ferrata. The German Wine Institute puts its labour at up to 1,800 hours per hectare.\n\nNear Koblenz, Winningen's [Uhlen](de-kobern-uhlen) is so varied that the EU now protects three of its sections, Blaufüßer Lay, Laubach and Roth Lay, as names of their own. The Terrassenmosel's wines are mostly dry, dense and smoky.",
+          "map": {
+            "fly": {
+              "lon": 7.1185,
+              "lat": 50.1035,
+              "zoom": 14.4
+            },
+            "pitch": 60,
+            "bearing": 20,
+            "terrain": true,
+            "base": "satellite",
+            "highlight": [
+              "de-bremm-calmont",
+              "site-de-bremmer-calmont"
+            ],
+            "label": "Bremmer Calmont"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Peter Lauer Barrel X Riesling (Saar)",
+          "why": "Your Saar Riesling: an off-dry (feinherb) blend from Ayl and neighbouring villages, made by Florian Lauer. Compare it with the Middle Mosel bottles: the Saar's acidity is more piercing, the fruit more citrus than peach, the finish cooler and longer.",
+          "price": "$25–28",
+          "try": [
+            "Peter Lauer"
+          ],
+          "place": "de-ayl-kupp"
+        },
+        {
+          "wine": "Zilliken Butterfly Riesling",
+          "why": "A medium-dry Saar Riesling from the Saarburg estate famous for its Rausch. Bright lime and green apple, low alcohol and a zippy finish: the Saar style at an everyday price.",
+          "price": "$20–25",
+          "try": [
+            "Forstmeister Geltz Zilliken"
+          ],
+          "place": "de-saarburg-rausch"
+        }
+      ],
+      "deeper": [
+        "region-de-saar",
+        "de-wiltingen-scharzhofberg",
+        "region-de-ruwer",
+        "site-de-maximin-grunhaus",
+        "site-de-karthauserhof",
+        "de-bremm-calmont",
+        "de-kobern-uhlen",
+        "de-uhlen-roth-lay"
+      ],
+      "check": [
+        {
+          "q": "Why did the Saar ripen fully only a few vintages a decade for much of the twentieth century?",
+          "options": [
+            "It is cooler and windier than the Middle Mosel",
+            "Its soils are limestone",
+            "Its slopes face north",
+            "Vines were banned there"
+          ],
+          "answer": 0,
+          "why": "Cold air and wind lengthen the season; climate change has since made ripeness reliable."
+        },
+        {
+          "q": "At Maximin Grünhaus, which slope belonged to the abbot?",
+          "options": [
+            "Herrenberg",
+            "Bruderberg",
+            "Abtsberg",
+            "Calmont"
+          ],
+          "answer": 2,
+          "why": "Abtsberg for the abbot, Herrenberg for the monks, Bruderberg for the lay brothers."
+        },
+        {
+          "q": "Which grower popularised the name Terrassenmosel?",
+          "options": [
+            "Reinhard Löwenstein",
+            "Ausonius",
+            "Egon Müller",
+            "Napoleon"
+          ],
+          "answer": 0,
+          "why": "The Winningen grower used it for the terraced slopes of the lower Mosel."
+        }
+      ]
+    },
+    {
+      "id": "producers",
+      "part": "deeper",
+      "title": "The growers who matter",
+      "steps": [
+        {
+          "text": "Start in Wehlen. Weingut Joh. Jos. Prüm was founded in 1911 when the Prüm family estate was divided, and under Dr. Manfred Prüm and now his daughter Katharina its Sonnenuhr Kabinett, Spätlese and Auslese became some of the most collected white wines on earth. Young, they can smell of sulphur and yeast, a reductive note that fades with years in bottle.\n\nAcross the river in Bernkastel, Ernst Loosen took over his family's Dr. Loosen estate in 1988, cut yields hard and built a range around old, largely ungrafted vines in the Prälat, Treppchen, Würzgarten and Sonnenuhr. Up the hill in Graach, Willi Schaefer's tiny family estate, run with his son Christoph and Christoph's wife Andrea since 2001, makes sweet Kabinett and Spätlese of rare finesse from about 3 hectares.",
+          "map": {
+            "fly": {
+              "lon": 7.052,
+              "lat": 49.935,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "site-de-weingut-joh-jos-prum",
+              "site-de-weingut-dr-loosen",
+              "de-wehlen-sonnenuhr",
+              "de-graach-domprobst",
+              "de-graach-himmelreich"
+            ],
+            "label": "Wehlen, Graach, Bernkastel"
+          }
+        },
+        {
+          "text": "Downstream at Ürzig, the Joh. Jos. Christoffel name is a reference for the Würzgarten; since 2001 the Christoffel heirs have leased their vineyards to the neighbouring Mönchhof estate of Robert Eymael, which still bottles under both names.\n\nUpstream at Brauneberg, Weingut Fritz Haag, documented since 1605, is the master of the Juffer-Sonnenuhr. Wilhelm Haag built its modern fame; his son Oliver has run it since 2005. Haag's gold-capsule Auslesen (the *Goldkapsel*, a private estate mark rather than a legal category) are among the great sweet wines of Germany.",
+          "map": {
+            "fly": {
+              "lon": 7.0,
+              "lat": 49.948,
+              "zoom": 11.4
+            },
+            "highlight": [
+              "de-urzig-wurzgarten",
+              "de-erden-pralat",
+              "de-brauneberg-juffer",
+              "de-brauneberg-juffer-sonnenuhr"
+            ],
+            "label": "Ürzig and Brauneberg"
+          }
+        },
+        {
+          "text": "On the Saar, Egon Müller IV has run the Scharzhof since 1991. His family owns about 7 of the Scharzhofberg's 28 hectares and also farms about 6.5 hectares in the Kupp and Braune Kupp at Wiltingen; its Kabinett is the benchmark, its TBA an auction legend.\n\nAt Saarburg, the Forstmeister Geltz Zilliken estate takes its name from Ferdinand Geltz, a Prussian forestry official who helped found the growers' association that became today's VDP Mosel-Saar-Ruwer. Hanno Zilliken handed the estate to his daughter Dorothee in 2016. Its heart is the Saarburger Rausch, slate laced with greenish diabase, and its wines ferment in old casks in a cellar that stays around 11°C.",
+          "map": {
+            "fly": {
+              "lon": 6.578,
+              "lat": 49.637,
+              "zoom": 11.8
+            },
+            "highlight": [
+              "de-wiltingen-scharzhofberg",
+              "de-wiltingen-braune-kupp",
+              "de-saarburg-rausch",
+              "site-de-weingut-egon-muller-scharzhof"
+            ],
+            "label": "Wiltingen and Saarburg"
+          }
+        },
+        {
+          "text": "Two Ruwer estates are monopoles in the old sense: each owns its slope outright. Maximin Grünhaus has belonged to the von Schubert family since 1882, and its Abtsberg gives one of the most delicate Rieslings in Germany, superb both dry and sweet. The Karthäuserhof at Eitelsbach was auctioned in 1811, after secularisation, to Valentin Leonardy, whose descendants ran it for two centuries; every wine comes from the one hill behind the house, and its bottles wear only a neck label, a nineteenth-century design that leaves the glass bare.\n\nOn the Saar, newer names matter too: Van Volxem, revived by Roman Niewodniczanski, and Florian Lauer at Peter Lauer in Ayl have rescued old slopes and pushed the valley's dry wines to the front rank.",
+          "map": {
+            "fly": {
+              "lon": 6.72,
+              "lat": 49.772,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "de-mertesdorf-abtsberg",
+              "de-eitelsbach-karthauserhofberg",
+              "site-de-maximin-grunhaus",
+              "site-de-karthauserhof"
+            ],
+            "label": "Grünhaus and the Karthäuserhof"
+          }
+        },
+        {
+          "text": "Two estates further downstream changed what the river is known for. At Pünderich, Clemens and Rita Busch built an organic, now biodynamic, estate of about 20 hectares, mostly in the Marienburg, now run with their son Johannes. At Winningen, Reinhard Löwenstein and Cornelia Heymann-Löwenstein founded Heymann-Löwenstein in 1980 and championed dry, long-aged Riesling from the Uhlen sections and the Röttgen.\n\nIn 2025 the Löwensteins sold the estate to Stuttgart wine merchant Jochen Heigoldt and two family companies; Thomas Dörr took over management in January 2026, with Reinhard staying on as an adviser. Watch whether the style holds.",
+          "map": {
+            "fly": {
+              "lon": 7.32,
+              "lat": 50.19,
+              "zoom": 9.6
+            },
+            "highlight": [
+              "de-punderich-marienburg",
+              "de-kobern-uhlen",
+              "de-uhlen-roth-lay",
+              "de-guls-rottgen"
+            ],
+            "label": "Pünderich and Winningen"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Joh. Jos. Prüm Wehlener Sonnenuhr Riesling Kabinett",
+          "why": "The archetype. Floral, filigree, slate-cool and often a little reductive when young; give it air or, better, five years. Recent acclaimed vintages have pushed prices up.",
+          "price": "$55–65",
+          "try": [
+            "Joh. Jos. Prüm"
+          ],
+          "place": "de-wehlen-sonnenuhr"
+        },
+        {
+          "wine": "Egon Müller Scharzhof Riesling",
+          "why": "The estate's entry wine, from its Saar holdings: saline, spicy slate notes and a lean, focused finish. A glimpse of the Scharzhofberg style for a fraction of the Kabinett's price.",
+          "price": "$80–110",
+          "try": [
+            "Egon Müller"
+          ],
+          "place": "de-wiltingen-scharzhofberg"
+        },
+        {
+          "wine": "Willi Schaefer Graacher Himmelreich Riesling Kabinett",
+          "why": "Wet slate, dense, juicy fruit and a long finish from one of the Mosel's smallest great estates. Drinkable now, better with ten years.",
+          "price": "$45–55",
+          "try": [
+            "Willi Schaefer"
+          ],
+          "place": "de-graach-himmelreich"
+        }
+      ],
+      "deeper": [
+        "site-de-weingut-joh-jos-prum",
+        "site-de-weingut-dr-loosen",
+        "site-de-weingut-egon-muller-scharzhof",
+        "de-saarburg-rausch",
+        "de-wiltingen-braune-kupp",
+        "de-punderich-marienburg",
+        "de-kobern-uhlen"
+      ],
+      "check": [
+        {
+          "q": "Who has leased the Joh. Jos. Christoffel vineyards since 2001?",
+          "options": [
+            "The Mönchhof estate of Robert Eymael",
+            "Dr. Loosen",
+            "Egon Müller",
+            "The VDP"
+          ],
+          "answer": 0,
+          "why": "The Christoffel heirs leased their Ürzig vineyards to neighbouring Mönchhof, which bottles both labels."
+        },
+        {
+          "q": "What is a Goldkapsel Auslese?",
+          "options": [
+            "A legal Prädikat above Auslese",
+            "A private estate mark for an especially fine Auslese",
+            "An Eiswein",
+            "A dry GG"
+          ],
+          "answer": 1,
+          "why": "Gold capsules are estates' own signals, older than the 1971 law and not legal categories."
+        },
+        {
+          "q": "What happened to Heymann-Löwenstein in 2025?",
+          "options": [
+            "It was sold to a Stuttgart wine merchant and partners",
+            "It joined Egon Müller",
+            "It stopped making Riesling",
+            "It moved to the Saar"
+          ],
+          "answer": 0,
+          "why": "Jochen Heigoldt and two family companies bought it; Thomas Dörr has managed it since January 2026."
+        }
+      ]
+    },
+    {
+      "id": "ageing",
+      "part": "deeper",
+      "title": "Why light wines live so long",
+      "steps": [
+        {
+          "text": "It seems backwards. Big red wines need tannin and alcohol to age; a Mosel Kabinett has almost no tannin and about the alcohol of a strong beer, yet it can outlive them. The reasons are acidity and sugar. Riesling keeps very high acidity even when ripe, and acid slows the chemical and microbial changes that tire a wine. In the sweet styles, residual sugar adds body and a further buffer, and as the decades pass the wine seems to taste drier, because the fruit and sugar fold into the acid instead of standing apart.\n\nCellars help. Many top estates ferment with wild yeasts in old 1,000-litre Fuder casks and leave the wine on its lees, which gives the reductive, sulphur-scented youth that clears with time.",
+          "map": {
+            "fly": {
+              "lon": 7.0445,
+              "lat": 49.9445,
+              "zoom": 13.6
+            },
+            "highlight": [
+              "de-wehlen-sonnenuhr"
+            ],
+            "label": "Wehlener Sonnenuhr"
+          }
+        },
+        {
+          "text": "The atlas's ageing data for the Mosel puts numbers on it, counted in years from the vintage. A good Kabinett is approachable at about 3, best from 5 to 15, and can last 25. Spätlese: ready at 5, best from 8 to 25, outer limit 40. Auslese: 8, then 10 to 35, limit 50. BA and TBA: 10, then 15 to 50, and 80 or more for the greatest. Eiswein: 8, then 10 to 40.\n\nDry wines run faster. Simple trocken Riesling is best within about 6 years; a Grosses Gewächs is ready at around 4, peaks from 6 to 15 and often goes through a sulky, closed phase between years three and six. Plan your corkscrew accordingly.",
+          "map": {
+            "fly": {
+              "lon": 6.6125,
+              "lat": 49.65,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "de-wiltingen-scharzhofberg",
+              "de-wiltingen-braune-kupp"
+            ],
+            "label": "Saar: built for the long haul"
+          }
+        },
+        {
+          "text": "What does age do? Fresh peach and lime turn to dried apricot, honey and baked apple; the slate note becomes smoke; and many Rieslings develop a whiff of petrol from a compound called [TDN](term-tdn), usually stronger in sunnier climates than on the Mosel. The sweetness recedes on the palate while the acid stays, so an old Spätlese can taste startlingly fresh.\n\nThis is why German wine lists and auction catalogues are full of twenty- and thirty-year-old sweet Riesling, and why such bottles are still among the best values in mature fine wine.",
+          "map": {
+            "fly": "de-graach-domprobst",
+            "highlight": [
+              "de-graach-domprobst",
+              "de-graach-himmelreich"
+            ],
+            "label": "Graach"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Two bottles of the same Mosel Kabinett",
+          "why": "The cheapest lesson in ageing: buy two, drink one now and lay the other on its side somewhere cool and dark for eight to ten years. Write a note on the first so you can compare. Good candidates are firm, high-acid Kabinetts from great slopes.",
+          "price": "$25–35 each",
+          "try": [
+            "Selbach-Oster",
+            "Fritz Haag",
+            "Dr. Loosen"
+          ],
+          "place": "de-mosel"
+        }
+      ],
+      "deeper": [
+        "term-tdn",
+        "term-kabinett",
+        "term-spatlese",
+        "term-grosses-gewachs",
+        "de-wiltingen-scharzhofberg",
+        "de-graach-domprobst"
+      ],
+      "check": [
+        {
+          "q": "What chiefly lets a light Mosel Riesling age for decades?",
+          "options": [
+            "High tannin",
+            "High alcohol",
+            "High acidity, helped by residual sugar",
+            "New oak barrels"
+          ],
+          "answer": 2,
+          "why": "Riesling's acidity, with sugar as a buffer in the sweet styles, preserves it; it has little tannin and modest alcohol."
+        },
+        {
+          "q": "According to the atlas data, when is a good Mosel Spätlese usually at its best?",
+          "options": [
+            "In its first year",
+            "About 8 to 25 years after the vintage",
+            "Only after 60 years",
+            "Never; it should be drunk at once"
+          ],
+          "answer": 1,
+          "why": "Ready around year 5, best from 8 to 25, with an outer limit near 40."
+        },
+        {
+          "q": "A Grosses Gewächs Riesling often goes through a closed phase...",
+          "options": [
+            "In the first months",
+            "Between about years three and six",
+            "After 40 years",
+            "Only in magnum"
+          ],
+          "answer": 1,
+          "why": "Dry GG often shuts down for a few years before opening again."
+        }
+      ]
+    },
+    {
+      "id": "vintages",
+      "part": "deeper",
+      "title": "Vintages and a warming river",
+      "steps": [
+        {
+          "text": "The Mosel's legends are hot, botrytis-touched years, because heat was what it lacked. In 1921 a scorching summer gave the Thanisch estate's Bernkasteler Doctor what is recorded as the first Trockenbeerenauslese of the Mosel. 1959 became the yardstick for ripe sweet wine; 1971, with botrytis in a fine autumn, was the best since; 1976 brought the hottest summer in a century and legendary sweet wines; 1990 gave a small, concentrated crop called the finest since 1971.\n\nIn those decades, a ripe year was something to celebrate and a cold, wet one meant thin, sour wine.",
+          "map": {
+            "fly": {
+              "lon": 7.0776,
+              "lat": 49.914,
+              "zoom": 14.2
+            },
+            "highlight": [
+              "de-bernkastel-doctor"
+            ],
+            "label": "Bernkasteler Doctor"
+          }
+        },
+        {
+          "text": "Then the climate moved. The atlas's climate series for the Mosel shows the average growing-season temperature rising from 13.6°C (1961–1990) to 14.6°C (1991–2020), and growing degree days (accumulated warmth above 10°C) from about 842 to 1,038, a jump of nearly a quarter. 2018 was the warmest season in the series, at 16.5°C.\n\nThe results cut both ways. Cool sites such as the Saar and Ruwer now ripen every year. But true Kabinett, light and early-picked, has become harder to make, and growers now pick specifically for it. Eiswein is vanishing: 2019 was the first vintage in which no German region managed any, and in the 2024 vintage only seven Mosel estates managed to pick any.",
+          "map": {
+            "fly": "region-de-saar",
+            "highlight": [
+              "de-wiltingen-scharzhofberg",
+              "de-ockfen-bockstein",
+              "de-saarburg-rausch"
+            ],
+            "label": "The Saar: winner of the warming"
+          }
+        },
+        {
+          "text": "Recent vintages in brief. 2021: cool and wet, small and disease-ridden, but with classic high-acid Kabinett for those who sorted hard, and late-December cold allowed some Eiswein. 2022: hot and very dry. 2023: at the time Germany's warmest year on record (2024 has since beaten it), a wet August with rot, rescued by a dry September. 2024: April frost and May hail cut the Mosel's crop to about 510,000 hectolitres, 30 percent below 2023 and the smallest in 50 years. 2025: heavy mid-September rain elsewhere in Germany, but Mosel yields came in above average.\n\nOpen the vintage layer on the map to see these years against the climate record.",
+          "map": {
+            "fly": "region-de-mosel",
+            "highlight": [
+              "de-mosel"
+            ],
+            "label": "Mosel vintages"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "One producer's Kabinett from a cool and a warm vintage",
+          "why": "Look for 2021 beside 2022 or 2023 from the same estate and site. The cool year is tauter, more citrus and slate; the warm one rounder and riper, sometimes with less tension. Which you prefer says a lot about the Mosel you love.",
+          "price": "$25–35 each",
+          "try": [
+            "Selbach-Oster",
+            "Dr. Loosen",
+            "Fritz Haag"
+          ],
+          "place": "de-mosel"
+        }
+      ],
+      "deeper": [
+        "de-bernkastel-doctor",
+        "region-de-saar",
+        "term-eiswein",
+        "term-botrytis",
+        "term-growing-degree-days-gdd",
+        "term-kabinett"
+      ],
+      "check": [
+        {
+          "q": "Which vintage was the first in which no German region made Eiswein?",
+          "options": [
+            "1976",
+            "2003",
+            "2019",
+            "2023"
+          ],
+          "answer": 2,
+          "why": "In the 2019 vintage no region reached minus 7°C in time."
+        },
+        {
+          "q": "Roughly how much did the Mosel's growing degree days rise between 1961–1990 and 1991–2020?",
+          "options": [
+            "Not at all",
+            "About a quarter",
+            "They doubled",
+            "They fell by a third"
+          ],
+          "answer": 1,
+          "why": "From about 842 to 1,038, a rise of nearly 25 percent in the atlas's series."
+        },
+        {
+          "q": "What cut the Mosel's 2024 crop to its smallest in 50 years?",
+          "options": [
+            "Drought",
+            "April frost and May hail",
+            "A flood",
+            "Phylloxera"
+          ],
+          "answer": 1,
+          "why": "Frost and hailstorms, in a wet, mildew-prone season, left about 510,000 hectolitres."
+        }
+      ]
+    },
+    {
+      "id": "steep",
+      "part": "deeper",
+      "title": "The economics of a cliff",
+      "steps": [
+        {
+          "text": "A Mosel slope is beautiful and ruinously expensive. Steep sites, officially those over 30 percent gradient, need about two and a half to almost four times the labour of land a tractor can drive, and the old plots are tiny: an average steep-slope parcel is around 1,200 square metres, and in some villages half that, scattered across the hill by centuries of inheritance.\n\nThe state's answer is *Flurbereinigung*, land consolidation: an official procedure that redraws the tiny plots into workable parcels, cuts access tracks across the slope and rebuilds walls, with the costs subsidised. On steep slopes it can cost up to 90,000 euros per hectare. Graach and Bernkastel are among the places where it has been planned.",
+          "map": {
+            "fly": {
+              "lon": 7.068,
+              "lat": 49.927,
+              "zoom": 13.0
+            },
+            "highlight": [
+              "de-graach-himmelreich",
+              "de-graach-domprobst",
+              "de-bernkastel-doctor"
+            ],
+            "label": "Graach and Bernkastel"
+          }
+        },
+        {
+          "text": "Where no track can go, the Mosel uses the monorail (*Monorackbahn*): a single toothed rail laid up the slope, on which a small motorised trolley hauls tools, workers' gear and grapes. The idea came from Japanese orchard rails of the 1960s. Regional planners counted about 80 built on the Mosel; about 300 metres of rail serves a hectare.\n\nSwitch to satellite on the Calmont and look for the thin lines running straight up between the terraces. On the Calmont itself a monorack railway has carried the picked grapes down since the 1990s, and the German Wine Institute puts the labour at up to 1,800 hours per hectare.",
+          "map": {
+            "fly": {
+              "lon": 7.12,
+              "lat": 50.1045,
+              "zoom": 15.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "de-bremm-calmont"
+            ],
+            "label": "Calmont terraces and rails"
+          }
+        },
+        {
+          "text": "The arithmetic has been brutal. The Mosel had about 12,300 hectares of vines in the early 1990s; the German Wine Institute counted about 8,300 in 2025. When sales stagnated in the late 1990s and prices fell, families without successors gave up, and the steep slopes, the costliest to farm and the best for wine, were often abandoned first.\n\nThe counter-current is young growers and newcomers replanting forgotten terraces, often organic, often dry, selling to export markets that pay for the story. When you pay $30 for a Kabinett from a hand-worked cliff, you are paying far less than its labour costs anywhere else in fine wine.",
+          "map": {
+            "fly": {
+              "lon": 7.13,
+              "lat": 50.1,
+              "zoom": 11.4
+            },
+            "pitch": 55,
+            "bearing": 20,
+            "terrain": true,
+            "highlight": [
+              "de-bremm-calmont",
+              "de-punderich-marienburg"
+            ],
+            "label": "The Terrassenmosel"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Clemens Busch Riesling trocken vom blauen Schiefer",
+          "why": "A bottle from steep, hand-worked, biodynamically farmed slate. Taste it thinking of the labour: light, mineral and saline, the kind of wine that only exists because someone still climbs that hill.",
+          "price": "$38–42",
+          "try": [
+            "Clemens Busch"
+          ],
+          "place": "de-punderich-marienburg"
+        }
+      ],
+      "deeper": [
+        "de-bremm-calmont",
+        "site-de-bremmer-calmont",
+        "de-graach-himmelreich",
+        "de-punderich-marienburg",
+        "region-de-mosel"
+      ],
+      "check": [
+        {
+          "q": "What is Flurbereinigung?",
+          "options": [
+            "A pesticide",
+            "Official land consolidation that redraws tiny plots and builds access",
+            "A late-harvest category",
+            "A Roman law"
+          ],
+          "answer": 1,
+          "why": "It merges scattered parcels into workable ones, with tracks and rebuilt walls, subsidised by the state."
+        },
+        {
+          "q": "What does a Monorackbahn do?",
+          "options": [
+            "Pumps water uphill",
+            "Hauls tools and grapes on a single rail up steep slopes",
+            "Measures must weight",
+            "Protects vines from frost"
+          ],
+          "answer": 1,
+          "why": "A toothed single rail carries a small trolley where tractors cannot go."
+        },
+        {
+          "q": "How has the Mosel's vineyard area changed since the early 1990s?",
+          "options": [
+            "It doubled",
+            "It stayed the same",
+            "It fell from about 12,300 to about 8,300 hectares",
+            "It grew by 10 percent"
+          ],
+          "answer": 2,
+          "why": "Abandonment, often of steep sites, cut roughly a third of the vineyard."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "pinot-noir",
+    "champagne",
+    "burgundy",
+    "wines-long-road"
+  ],
+  "sources": [
+    {
+      "title": "Deutsches Weininstitut (Wines of Germany): Mosel region profile and facts",
+      "url": "https://www.ch.deutscheweine.de/regionen/anbaugebiet/72/mosel"
+    },
+    {
+      "title": "Wines of Germany: Roman wine ship of Neumagen",
+      "url": "https://www.winesofgermany.com/our-regions/highlight-of-wine-culture/402/roman-wine-ship-of-neumagen"
+    },
+    {
+      "title": "Wines of Germany: Roman wine press at Piesport",
+      "url": "https://www.winesofgermany.com/our-regions/highlight-of-wine-culture/360/roman-wine-press-at-piesport"
+    },
+    {
+      "title": "Wines of Germany: The Bremmer Calmont vineyard",
+      "url": "https://www.winesofgermany.com/our-regions/highlight-of-wine-culture/159/der-calmont"
+    },
+    {
+      "title": "Wines of Germany: 2024 ice wine a rarity",
+      "url": "https://www.winesofgermany.com/news-media/news/news/1398/2024er-eiswein-eine-rarit%C3%A4t"
+    },
+    {
+      "title": "The Local: Germany's ice wine harvest fails for first time (2019 vintage)",
+      "url": "https://www.thelocal.de/20200302/climate-change-germanys-ice-wine-harvest-fails-for-first-time"
+    },
+    {
+      "title": "Wikipedia: German wine classification (Mosel must weights, sweetness terms, A.P. number)",
+      "url": "https://en.wikipedia.org/wiki/German_wine_classification"
+    },
+    {
+      "title": "Regierungspräsidium Darmstadt: Weinbezeichnungsrecht ab Ernte 2026",
+      "url": "https://rp-darmstadt.hessen.de/sites/rp-darmstadt.hessen.de/files/2026-07/weinbezeichnungsrecht_ab_ernte_2026.pdf"
+    },
+    {
+      "title": "Jancis Robinson: The end of the Grosslage",
+      "url": "https://www.jancisrobinson.com/articles/end-grosslage"
+    },
+    {
+      "title": "DLR Rheinland-Pfalz: Vermerk Steillagenweinbau (Mosel steep slopes, Flurbereinigung, monorails)",
+      "url": "https://www.dlr.rlp.de/Internet/global/themen.nsf/(Web_P_ALR_Kat_XP)/8BAE4B2D521DF6B7C1257611002C9C50/$FILE/01_vermerk_steillagenweinbau.pdf"
+    },
+    {
+      "title": "DLR Rheinland-Pfalz: Steillagenkonzept, history of the Mosel region",
+      "url": "https://www.dlr.rlp.de/Steillagenkonzept/Anbaugebiet/Historie"
+    },
+    {
+      "title": "Wikipedia: Monorackbahn",
+      "url": "https://en.wikipedia.org/wiki/Monorackbahn"
+    },
+    {
+      "title": "Schiller's wine blog: The wines of the Bernkasteler Doctor (boundary case settled 1984)",
+      "url": "https://schiller-wine.blogspot.com/2013/02/the-wines-of-berncasteler-doctor.html"
+    },
+    {
+      "title": "wein.plus glossary: Doctor",
+      "url": "https://glossary.wein.plus/doctor"
+    },
+    {
+      "title": "The Drinks Business: Mosel TBA smashes auction record (2015)",
+      "url": "https://www.thedrinksbusiness.com/2015/09/mosel-tba-smashes-auction-record/"
+    },
+    {
+      "title": "Best of Wines: 10 things you should know about Egon Müller",
+      "url": "https://bestofwines.com/blog/10-things-you-should-know-about-egon-muller"
+    },
+    {
+      "title": "Weingut Fritz Haag: history",
+      "url": "https://weingut-fritz-haag.de/en/history/"
+    },
+    {
+      "title": "wein.plus: Mönchhof Robert Eymael (Christoffel lease 2001)",
+      "url": "https://glossary.wein-plus.eu/moenchhof-robert-eymael"
+    },
+    {
+      "title": "Wikipedia: Willi Schaefer",
+      "url": "https://en.wikipedia.org/wiki/Willi_Schaefer"
+    },
+    {
+      "title": "wein.plus wine guide: Weingut Dr. Loosen",
+      "url": "https://wineguide.wein.plus/weingut-dr-loosen"
+    },
+    {
+      "title": "wein.plus wine guide: Weingut Heymann-Löwenstein",
+      "url": "https://wineguide.wein.plus/weingut-heymann-loewenstein"
+    },
+    {
+      "title": "wein.plus magazine: Reinhard Löwenstein sells VDP winery",
+      "url": "https://magazine.wein.plus/news/mosel-pioneer-reinhard-loewenstein-sells-vdp-winery-thomas-doerr-new-managing-director-at-heymann-loewenstein"
+    },
+    {
+      "title": "Wine With Seth: Clemens Busch",
+      "url": "https://www.winewithseth.com/winewiki/clemens-busch/"
+    },
+    {
+      "title": "Wine With Seth: Forstmeister Geltz Zilliken",
+      "url": "https://www.winewithseth.com/winewiki/forstmeister-geltz-zilliken/"
+    },
+    {
+      "title": "Prices: Bottle Barn, Allendale Wine, Saratoga Wine, Plum Market, Vessel Liquor, Lincoln Fine Wines, Flatiron Wines, Surdyk's, Leon & Son, Houston Wines (October 2026 listings)",
+      "url": "https://bottlebarn.com/collections/mosel"
+    }
+  ]
+}

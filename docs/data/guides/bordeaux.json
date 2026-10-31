@@ -1,0 +1,1576 @@
+{
+  "id": "bordeaux",
+  "kind": "region",
+  "title": "Bordeaux",
+  "subtitle": "Three rivers, two banks and the classed growths",
+  "tagline": "The region that invented the château, the classification and the wine future, read from its gravel, its clay and its rivers.",
+  "minutes": 18,
+  "deeper_minutes": 11,
+  "cover": "site-fr-chateau-margaux",
+  "countries": [
+    "fr"
+  ],
+  "intro": "Bordeaux is the reference point for most of the world's red wine: Cabernet Sauvignon and Merlot were planted from Napa to Coonawarra because of what they do here. This tour follows the water from the estuary to the gravel of the Médoc and the clay of Pomerol, then through the classifications, the châteaux and the sweet wines, with a bottle to taste at every stop.",
+  "chapters": [
+    {
+      "id": "water",
+      "part": "intro",
+      "title": "A wine made by rivers",
+      "steps": [
+        {
+          "text": "Bordeaux is a gift of three rivers. The Garonne flows up from the Pyrenees past the city; the Dordogne comes in from the Massif Central past Libourne; and just north of the city, at the Bec d'Ambès, they join to form the Gironde, an estuary about 75 km long and up to 12 km wide that opens onto the Atlantic.\n\nAlmost the whole Gironde department can make [Bordeaux](fr-bordeaux), the regional [AOC](term-aoc) (*appellation d'origine contrôlée*, France's protected place name). In 2025 it had 91,543 ha of vines in production, down from roughly 120,000 around 2005; we will come back to the missing land. The rivers also draw the map for the rest of this tour: the Left Bank west of the Garonne and Gironde, the Right Bank east of the Dordogne, and between the two rivers the Entre-Deux-Mers, 'between two seas'.",
+          "map": {
+            "fly": "region-fr-bordeaux",
+            "highlight": [
+              "fr-bordeaux"
+            ],
+            "label": "The Bordeaux AOC"
+          }
+        },
+        {
+          "text": "Water made the trade before it made the wine. In 1152 Eleanor of Aquitaine married Henry Plantagenet, who became Henry II of England two years later, and for three centuries Bordeaux was English ([the marriage that made claret](event-eleanor-claret)). Every autumn wine fleets carried the new vintage down the Gironde to London and Bristol: light, pale reds the English called claret, from the French *clairet*. The merchant city grew rich on its quays and protected itself by holding back the wines of the upriver 'Haut-Pays' (Bergerac, Cahors, Gaillac) until its own were sold.\n\nThe English era ended at [Castillon](event-castillon-1453), on the Dordogne, in 1453. The customers did not disappear. They changed nationality.",
+          "map": {
+            "fly": {
+              "lon": -0.55,
+              "lat": 45.05,
+              "zoom": 10.2
+            },
+            "highlight": [
+              "fr-cotes-de-bourg",
+              "fr-margaux",
+              "fr-haut-medoc"
+            ],
+            "label": "Where the Garonne and Dordogne meet"
+          }
+        },
+        {
+          "text": "In the seventeenth century the Dutch became Bordeaux's best customers, and they reshaped the land. Dutch engineers, working under an edict of Henri IV in 1599, drained the marshes of the Médoc and exposed the gravel ridges where the great estates now stand. Dutch merchants also wanted dry white, sweet white and wine for distilling, which is why the Entre-Deux-Mers and the Sauternais still make them.\n\nLater, Irish, English, German and Dutch families settled on the Chartrons quays and built the [négociant](term-negociant) houses that bought, aged and sold the wine. The water helps in the vineyard too: the estuary and rivers soften frost and heat, and the pine forest of the Landes shields the vines from Atlantic gales. Bordeaux is cool, wet and maritime, with about 900 mm of rain a year, so the weather of each vintage matters.",
+          "map": {
+            "fly": {
+              "lon": -0.566,
+              "lat": 44.859,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "site-fr-musee-du-vin-et-du-negoce-chartrons",
+              "site-fr-la-cite-du-vin"
+            ],
+            "label": "The Chartrons quays"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A Merlot-led Bordeaux Supérieur from a family estate",
+          "why": "This is your baseline. Expect plum and blackcurrant, a hint of leaf, modest tannin and fresh acidity: Atlantic weather keeps even inexpensive claret from tasting jammy. Bordeaux Supérieur is the same area as plain Bordeaux with lower yields and longer ageing. Keep a note, because every later bottle on this tour is a refinement of this one.",
+          "price": "$15–20",
+          "try": [
+            "Château Recougne",
+            "Château Bonnet (Bordeaux Rouge)"
+          ],
+          "place": "fr-bordeaux-superieur"
+        }
+      ],
+      "deeper": [
+        "region-fr-bordeaux",
+        "fr-bordeaux",
+        "fr-bordeaux-superieur",
+        "event-eleanor-claret",
+        "event-castillon-1453",
+        "site-fr-la-cite-du-vin",
+        "term-negociant"
+      ],
+      "check": [
+        {
+          "q": "Which two rivers meet at the Bec d'Ambès to form the Gironde estuary?",
+          "options": [
+            "The Lot and the Garonne",
+            "The Garonne and the Dordogne",
+            "The Dordogne and the Isle",
+            "The Loire and the Garonne"
+          ],
+          "answer": 1,
+          "why": "The Garonne (from the Pyrenees) and the Dordogne (from the Massif Central) meet just north of the city of Bordeaux and become the Gironde."
+        },
+        {
+          "q": "Why did 'claret' become the English word for red Bordeaux?",
+          "options": [
+            "It is the name of the first Médoc château",
+            "It was coined for the 1855 Paris Exposition",
+            "Bordeaux belonged to the English crown from 1152 to 1453 and shipped them its pale red clairet",
+            "Dutch merchants used it for all French wine"
+          ],
+          "answer": 2,
+          "why": "Eleanor of Aquitaine's marriage put Gascony under the English crown for three centuries, and the light red clairet shipped to England became 'claret'."
+        },
+        {
+          "q": "What did Dutch engineers do for the Médoc after 1599?",
+          "options": [
+            "Drained its marshes, exposing the gravel ridges",
+            "Built the railway to Pauillac",
+            "Planted the first Merlot",
+            "Drew up the first classification"
+          ],
+          "answer": 0,
+          "why": "Under an edict of Henri IV, Dutch drainage opened up the marshy Médoc and revealed the gravel croupes that the great châteaux were later built on."
+        }
+      ]
+    },
+    {
+      "id": "left-bank",
+      "part": "intro",
+      "title": "The Left Bank: gravel and Cabernet",
+      "steps": [
+        {
+          "text": "Follow the Gironde north from the city and you are on the Médoc, a low peninsula between the estuary and the pine forest. Its wine strip is rarely more than 10 to 12 km wide and runs about 80 km. The secret is [gravel](soil-gravel-medoc-graves): pebbles and sand washed down from the Pyrenees and the Massif Central by the ancestral rivers and left in low mounds called *croupes*.\n\nGravel drains fast after rain, warms quickly in the sun and pushes vine roots several metres down in search of water. That matters because [Cabernet Sauvignon](grape-cabernet-sauvignon) ripens late, and this far north, at 45°N, it struggles anywhere cooler or wetter. On the best gravel it gives small, thick-skinned berries: deep colour, blackcurrant, cedar and plenty of tannin, the drying grip you feel on your gums.",
+          "map": {
+            "fly": "region-fr-medoc",
+            "highlight": [
+              "fr-medoc",
+              "fr-haut-medoc",
+              "fr-saint-estephe",
+              "fr-pauillac",
+              "fr-saint-julien",
+              "fr-margaux",
+              "fr-listrac-medoc",
+              "fr-moulis"
+            ],
+            "label": "The Médoc's eight appellations"
+          }
+        },
+        {
+          "text": "The southern two thirds of the peninsula is the [Haut-Médoc](fr-haut-medoc), and inside it four villages carry most of the fame. Read them north to south. [Saint-Estèphe](fr-saint-estephe) has more clay under its gravel, so its wines are firm, fresh and slow to open. [Pauillac](fr-pauillac), with three of the five first growths on about 1,200 ha, is the Cabernet template: cassis, pencil shavings, tobacco and power. [Saint-Julien](fr-saint-julien) is small and consistent, its eleven classed growths farming most of its 900-odd hectares. [Margaux](fr-margaux), the largest, has the thinnest gravel and the most perfume, violets over the blackcurrant.\n\nLittle streams called *jalles* drain the land between the gravel ridges and mark the borders. Listrac and Moulis sit inland toward the forest, and the flatter, clay-rich north is plain [Médoc](fr-medoc).",
+          "map": {
+            "fly": {
+              "lon": -0.73,
+              "lat": 45.15,
+              "zoom": 10.3
+            },
+            "highlight": [
+              "fr-saint-estephe",
+              "fr-pauillac",
+              "fr-saint-julien",
+              "fr-margaux"
+            ],
+            "label": "Saint-Estèphe, Pauillac, Saint-Julien, Margaux"
+          }
+        },
+        {
+          "text": "South of the city the gravel continues along the Garonne as the Graves, the only major French region named after its soil, and the place where Bordeaux's fine-wine fame began. Its northern half, around Pessac and Léognan, became its own appellation, [Pessac-Léognan](fr-pessac-leognan), in 1987 and holds every estate of the Graves classification. [Château Haut-Brion](site-fr-chateau-haut-brion) and [La Mission Haut-Brion](site-fr-chateau-la-mission-haut-brion) face each other across a suburban avenue, with tram lines and a university campus around their vines.\n\nThe reds here blend Cabernet Sauvignon and Merlot in near-equal parts and have a smoky, tobacco-leaf edge that tasters call 'hot gravel'. Unusually for Bordeaux, the dry whites are as serious as the reds; we will taste one later.",
+          "map": {
+            "fly": "fr-pessac-leognan",
+            "highlight": [
+              "fr-pessac-leognan",
+              "fr-graves",
+              "site-fr-chateau-haut-brion",
+              "site-fr-chateau-la-mission-haut-brion"
+            ],
+            "label": "Graves and Pessac-Léognan"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château Lanessan, Haut-Médoc",
+          "why": "From Cussac, just south of Saint-Julien, a Cabernet and Merlot blend at an everyday price. Beside the Bordeaux Supérieur from chapter 1 it should taste darker and firmer: blackcurrant and cedar rather than plum, with tannin that grips the gums. That grip is gravel and Cabernet talking.",
+          "price": "$22–30",
+          "try": [
+            "Château Lanessan"
+          ],
+          "place": "fr-haut-medoc"
+        },
+        {
+          "wine": "Château Sociando-Mallet, Haut-Médoc",
+          "why": "An unclassified estate on gravel above the estuary north of Saint-Estèphe that ages like a classed growth. Notice the structure: it is built to improve for ten years or more.",
+          "price": "$40–50",
+          "try": [
+            "Château Sociando-Mallet"
+          ],
+          "place": "fr-haut-medoc"
+        }
+      ],
+      "deeper": [
+        "fr-pauillac",
+        "fr-margaux",
+        "fr-saint-julien",
+        "fr-saint-estephe",
+        "fr-pessac-leognan",
+        "soil-gravel-medoc-graves",
+        "grape-cabernet-sauvignon",
+        "term-gravel"
+      ],
+      "check": [
+        {
+          "q": "Why does Cabernet Sauvignon do best on the Médoc's gravel?",
+          "options": [
+            "Gravel holds water, which Cabernet needs",
+            "Gravel drains fast and warms quickly, helping a late-ripening grape ripen",
+            "Gravel adds acidity to the grapes",
+            "Gravel keeps phylloxera away"
+          ],
+          "answer": 1,
+          "why": "Cabernet Sauvignon ripens late. Free-draining, heat-storing gravel and deep roots give it the best chance to ripen fully this far north."
+        },
+        {
+          "q": "Which Médoc commune has the most classed growths and the thinnest gravel?",
+          "options": [
+            "Pauillac",
+            "Saint-Estèphe",
+            "Margaux",
+            "Saint-Julien"
+          ],
+          "answer": 2,
+          "why": "Margaux has 21 classed growths on the Médoc's finest, thinnest gravel, which gives its perfumed style."
+        },
+        {
+          "q": "What makes Pessac-Léognan unusual in Bordeaux?",
+          "options": [
+            "Its estates make great dry whites as well as reds",
+            "Only Merlot is allowed there",
+            "It has no gravel",
+            "It is on the Right Bank"
+          ],
+          "answer": 0,
+          "why": "Pessac-Léognan is the one Bordeaux appellation equally famous for red and dry white wine, from Haut-Brion to Domaine de Chevalier."
+        }
+      ]
+    },
+    {
+      "id": "right-bank",
+      "part": "intro",
+      "title": "The Right Bank: clay, limestone and Merlot",
+      "steps": [
+        {
+          "text": "Cross the Dordogne and the ground changes under your feet. Around Libourne, an English *bastide* (planned town) founded in 1270, the vines grow on limestone and clay: cool, heavy soils that hold water through a dry summer. They suit [Merlot](grape-merlot), which buds and ripens early and likes cool feet, and [Cabernet Franc](grape-cabernet-franc), which adds perfume and freshness. Merlot is now about two thirds of all Bordeaux's red plantings.\n\nThe scale changes too. Many Médoc estates are large, while here most are family farms of a few hectares. The frost of February 1956, which killed vines across the Right Bank, settled the grape question: growers replanted with Merlot.",
+          "map": {
+            "fly": "region-fr-libournais",
+            "highlight": [
+              "fr-saint-emilion-grand-cru",
+              "fr-pomerol",
+              "fr-lalande-de-pomerol",
+              "fr-fronsac",
+              "fr-canon-fronsac",
+              "fr-montagne-saint-emilion",
+              "fr-lussac-saint-emilion",
+              "fr-puisseguin-saint-emilion",
+              "fr-saint-georges-saint-emilion"
+            ],
+            "label": "The Libournais"
+          }
+        },
+        {
+          "text": "[Saint-Émilion](fr-saint-emilion-grand-cru) is a medieval hill town built on its own quarries. Its old jurisdiction of nine communes became, in 1999, the first vineyard landscape on UNESCO's World Heritage list. About 5,400 ha are shared by more than 800 estates.\n\nThe town sits on a plateau of *calcaire à astéries*, limestone packed with fossil starfish. Its edges fall away in steep clay-limestone slopes, the *côtes*, that face south toward the river, and below them the soil turns to sand. Plateau and côtes give taut, mineral wines that age for decades; the sandy plain gives soft, early ones. One quirk to learn now: on a Saint-Émilion label, 'Grand Cru' is an appellation with stricter rules, not a rank. The ranking is a separate classification, which comes in the next chapter.",
+          "map": {
+            "fly": "fr-saint-emilion-grand-cru",
+            "highlight": [
+              "fr-saint-emilion-grand-cru",
+              "site-fr-monolithic-church-of-saint-emilion"
+            ],
+            "label": "Saint-Émilion"
+          }
+        },
+        {
+          "text": "North-west of the town lies [Pomerol](fr-pomerol): about 800 ha of flat plateau, no real village, no grand buildings, no classification, and the most expensive red wines in Bordeaux. Around 130 producers share it, many with fewer than 10 ha.\n\nThe reason is clay. At the plateau's highest point a lens of dense, swelling [blue clay](soil-blue-clay-pomerol) carries [Petrus](site-fr-petrus); around it lie gravel and clay over an iron-rich hardpan, the *crasse de fer*. Clay keeps Merlot supplied with water in drought and gives the wine its velvet: plum, black cherry, truffle, iron. The fame is young. In the nineteenth century Pomerol was Saint-Émilion's hinterland, and Petrus's legend was built after 1925 by its owner Madame Loubat and the Libourne merchant Jean-Pierre Moueix.",
+          "map": {
+            "fly": "fr-pomerol",
+            "highlight": [
+              "fr-pomerol",
+              "site-fr-petrus",
+              "site-fr-chateau-le-pin",
+              "site-fr-chateau-lafleur",
+              "site-fr-vieux-chateau-certan",
+              "site-fr-chateau-l-evangile"
+            ],
+            "label": "Pomerol's plateau"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château La Fleur de Boüard, Lalande-de-Pomerol",
+          "why": "Pour it beside the Haut-Médoc from chapter 2. The fruit shifts from blackcurrant to plum and black cherry, and the tannin feels rounder, more velvet than sandpaper. That is Merlot on clay and gravel, from Pomerol's northern neighbour across the Barbanne stream, made by the family behind Angélus.",
+          "price": "$30–40",
+          "try": [
+            "Château La Fleur de Boüard"
+          ],
+          "place": "fr-lalande-de-pomerol"
+        },
+        {
+          "wine": "Château Grand Corbin-Despagne, Saint-Émilion Grand Cru Classé",
+          "why": "A family estate on the sandy clay north of the town, toward Pomerol. Look for plum, a floral lift from Cabernet Franc and fresh acidity; it shows what Saint-Émilion's middle ground tastes like before the famous names.",
+          "price": "$38–50",
+          "try": [
+            "Château Grand Corbin-Despagne"
+          ],
+          "place": "fr-saint-emilion-grand-cru"
+        }
+      ],
+      "deeper": [
+        "fr-saint-emilion-grand-cru",
+        "fr-pomerol",
+        "fr-lalande-de-pomerol",
+        "soil-blue-clay-pomerol",
+        "grape-merlot",
+        "grape-cabernet-franc",
+        "region-fr-libournais"
+      ],
+      "check": [
+        {
+          "q": "Why does Merlot dominate the Right Bank?",
+          "options": [
+            "Law forbids Cabernet Sauvignon there",
+            "It needs hot, dry gravel",
+            "Cool clay and limestone suit an early-ripening grape that likes water",
+            "The Dutch planted it in 1599"
+          ],
+          "answer": 2,
+          "why": "Merlot ripens early and thrives on cool, water-retaining clay and limestone; the 1956 frost then led growers to replant with it."
+        },
+        {
+          "q": "On a Saint-Émilion label, 'Grand Cru' on its own means...",
+          "options": [
+            "The estate is in the top tier of the classification",
+            "It is an appellation with stricter rules, not a ranking",
+            "The wine is 100% Merlot",
+            "The vineyard is on the limestone plateau"
+          ],
+          "answer": 1,
+          "why": "Saint-Émilion Grand Cru is an appellation. Only 'Grand Cru Classé' and 'Premier Grand Cru Classé' come from the classification."
+        },
+        {
+          "q": "What is unusual about Pomerol?",
+          "options": [
+            "It has never had a classification, yet makes Bordeaux's most expensive reds",
+            "It is the largest Bordeaux appellation",
+            "It makes only white wine",
+            "It lies on the Left Bank"
+          ],
+          "answer": 0,
+          "why": "Pomerol is small, flat and unclassified; the market and its clay soils rank its wines, led by Petrus, Le Pin and Lafleur."
+        }
+      ]
+    },
+    {
+      "id": "classifications",
+      "part": "intro",
+      "title": "1855 and the ranking habit",
+      "steps": [
+        {
+          "text": "In 1855 Napoleon III wanted Bordeaux's best wines on show at the Exposition Universelle in Paris. The city's brokers produced a ranking in about two weeks, and they tasted nothing: they listed the châteaux by the prices their wines had fetched for decades. The [1855 classification](term-1855-classification) ranks the red wines in five tiers, or growths, and today counts 61: sixty from the Médoc plus Haut-Brion in the Graves.\n\nIt has hardly moved since. Cantemerle was added soon afterwards, and in 1973 [Mouton Rothschild](event-mouton-1973) was promoted to join Lafite, Latour, Margaux and Haut-Brion as a first growth. Remember what it ranks: estates, not vineyards. A [classed growth](term-cru-classe) can buy or sell land and keep its rank, so the list is really a hierarchy of brands, a record of 1855 prices that the market still broadly agrees with.",
+          "map": {
+            "fly": {
+              "lon": -0.7,
+              "lat": 45.03,
+              "zoom": 9.0
+            },
+            "highlight": [
+              "site-fr-chateau-lafite-rothschild",
+              "site-fr-chateau-latour",
+              "site-fr-chateau-mouton-rothschild",
+              "site-fr-chateau-margaux",
+              "site-fr-chateau-haut-brion"
+            ],
+            "label": "The five first growths"
+          }
+        },
+        {
+          "text": "The brokers made a second list in 1855, for the sweet whites of Sauternes and Barsac. [Château d'Yquem](site-fr-chateau-d-yquem) stands alone as *Premier Cru Supérieur*, above the Premiers and Deuxièmes Crus: 27 châteaux today, after some estates split.\n\nThe Graves waited a century. Its classification was published in 1953 and adjusted in 1959, naming sixteen estates for red, white or both, with no tiers inside the list. Two have since been absorbed into La Mission Haut-Brion, so it now counts fourteen, all within Pessac-Léognan. Haut-Brion sits on both lists, as a Graves classed growth and as an 1855 first growth.",
+          "map": {
+            "fly": {
+              "lon": -0.46,
+              "lat": 44.68,
+              "zoom": 9.4
+            },
+            "highlight": [
+              "fr-sauternes",
+              "fr-barsac",
+              "fr-pessac-leognan",
+              "site-fr-chateau-d-yquem"
+            ],
+            "label": "The Sauternes and Graves lists"
+          }
+        },
+        {
+          "text": "Saint-Émilion's classification, created in 1955, is the only one in Bordeaux designed to change. It is revised about every ten years, so estates can be promoted or demoted, and that has made it a magnet for lawsuits: the 2006 edition was annulled, and the 2012 one was fought in the courts until March 2024.\n\nThe 2022 list names 85 estates: two *Premiers Grands Crus Classés A*, [Figeac](site-fr-chateau-figeac) and [Pavie](site-fr-chateau-pavie), then twelve 'B' and 71 Grands Crus Classés. Three of the most famous names are missing on purpose. [Cheval Blanc](site-fr-chateau-cheval-blanc) and [Ausone](site-fr-chateau-ausone) withdrew in 2021 and [Angélus](site-fr-chateau-angelus) in 2022, objecting to criteria that weighed reputation and marketing alongside tasting. Next door, Pomerol has never had a classification at all.",
+          "map": {
+            "fly": "fr-saint-emilion-grand-cru",
+            "highlight": [
+              "site-fr-chateau-figeac",
+              "site-fr-chateau-pavie",
+              "site-fr-chateau-cheval-blanc",
+              "site-fr-chateau-ausone",
+              "site-fr-chateau-angelus"
+            ],
+            "label": "Saint-Émilion's revisable ranking"
+          }
+        },
+        {
+          "text": "Below the classed growths sit hundreds of serious Médoc estates. The Crus Bourgeois, first listed in 1932, are now a three-tier classification renewed every five years. The 2025 edition, valid for the 2023 to 2027 vintages, names 170 wines: 14 *Exceptionnels*, 36 *Supérieurs* and the rest plain Cru Bourgeois.\n\nFor a drinker this is the most useful list in Bordeaux, because it is current and it is where the value lives. And some estates that were never classified at all, such as Chasse-Spleen and Poujeaux in [Moulis](fr-moulis) or Sociando-Mallet in the Haut-Médoc, make wines that stand beside classed growths at a fraction of their price.",
+          "map": {
+            "fly": "fr-medoc",
+            "highlight": [
+              "site-fr-chateau-la-cardonne",
+              "site-fr-chateau-castera",
+              "site-fr-chateau-laujac",
+              "site-fr-chateau-le-crock",
+              "site-fr-chateau-lafitte-carcasset",
+              "site-fr-chateau-malescasse",
+              "site-fr-chateau-de-malleret",
+              "site-fr-chateau-paloumey",
+              "site-fr-chateau-reysson",
+              "site-fr-chateau-du-taillan",
+              "site-fr-chateau-reverdi"
+            ],
+            "label": "Some 2025 Crus Bourgeois Exceptionnels"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château Cantemerle, Haut-Médoc (fifth growth)",
+          "why": "The estate squeezed onto the 1855 list as a late addition after its owner protested. Taste it blind beside the next bottle and ask which is the classed growth.",
+          "price": "$35–45",
+          "try": [
+            "Château Cantemerle"
+          ],
+          "place": "fr-haut-medoc"
+        },
+        {
+          "wine": "Château Chasse-Spleen, Moulis",
+          "why": "Never classified in 1855, yet from the deep Grand Poujeaux gravel. If you can't tell it from Cantemerle, you have learned the real lesson of 1855: rank records old prices, the glass records the vineyard and the winemaker.",
+          "price": "$35–45",
+          "try": [
+            "Château Chasse-Spleen",
+            "Château Poujeaux"
+          ],
+          "place": "fr-moulis"
+        }
+      ],
+      "deeper": [
+        "term-1855-classification",
+        "term-cru-classe",
+        "event-bordeaux-1855",
+        "event-mouton-1973",
+        "site-fr-chateau-mouton-rothschild",
+        "site-fr-chateau-figeac",
+        "fr-medoc"
+      ],
+      "check": [
+        {
+          "q": "How did the brokers decide the 1855 ranking?",
+          "options": [
+            "By a blind tasting in Paris",
+            "By decades of trading prices",
+            "By soil maps",
+            "By the size of each vineyard"
+          ],
+          "answer": 1,
+          "why": "The courtiers used the prices each château's wine had fetched over many years, not a tasting or a soil survey."
+        },
+        {
+          "q": "Which estate was promoted to first growth in 1973?",
+          "options": [
+            "Château Palmer",
+            "Château Lynch-Bages",
+            "Château Mouton Rothschild",
+            "Château Léoville Las Cases"
+          ],
+          "answer": 2,
+          "why": "Mouton Rothschild's promotion, after a fifty-year campaign by Baron Philippe de Rothschild, is the only change to the top tier."
+        },
+        {
+          "q": "Which Bordeaux classification is revised about every ten years?",
+          "options": [
+            "Saint-Émilion",
+            "The 1855 Médoc list",
+            "The Graves list",
+            "Pomerol"
+          ],
+          "answer": 0,
+          "why": "Saint-Émilion's classification is built to be revised, most recently in 2022; Pomerol has none at all."
+        }
+      ]
+    },
+    {
+      "id": "chateau",
+      "part": "intro",
+      "title": "Châteaux, blends, second wines and futures",
+      "steps": [
+        {
+          "text": "In Bordeaux a [château](term-chateau) is a wine estate with its own vineyards and cellar. Many are farmhouses; a few are palaces, like the Palladian house of [Château Margaux](site-fr-chateau-margaux). What matters is that the estate's name, not a vineyard's, carries the reputation. The idea began in the 1660s, when Arnaud III de Pontac sold the wine of Haut-Brion under its own name in London, and on 10 April 1663 Samuel Pepys drank 'a sort of French wine called Ho Bryan' at the Royal Oak tavern ([his diary entry](event-haut-brion-pepys)).\n\nEvery château makes a *grand vin*, its main wine, from its best parcels and barrels. Look at the satellite view: the vineyard is a patchwork of blocks, each picked and fermented separately so the winemaker can choose later.",
+          "map": {
+            "fly": {
+              "lon": -0.6688,
+              "lat": 45.0452,
+              "zoom": 15.2
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-chateau-margaux"
+            ],
+            "label": "Château Margaux"
+          }
+        },
+        {
+          "text": "The grand vin is almost always a blend, an [assemblage](term-assemblage), and the reason is the weather. Merlot flowers and ripens first, Cabernet Franc next and Cabernet Sauvignon last, with [Petit Verdot](grape-petit-verdot) and a little [Malbec](grape-malbec) or Carmenère in some cellars. A wet flowering, a hot August or September rain rarely hits all of them equally, so several grapes are insurance.\n\nProportions follow the soil: a Pauillac grand vin is often 70 to 90% Cabernet Sauvignon, a Pomerol often 70 to 100% Merlot. In the spring after the harvest the team tastes every lot and decides what goes in. At Le Pouyalet, Lafite and Mouton face each other across a lane and build very different wines from similar gravel.",
+          "map": {
+            "fly": {
+              "lon": -0.772,
+              "lat": 45.218,
+              "zoom": 13.0
+            },
+            "highlight": [
+              "site-fr-chateau-lafite-rothschild",
+              "site-fr-chateau-mouton-rothschild",
+              "site-fr-chateau-pontet-canet",
+              "site-fr-chateau-d-armailhac",
+              "site-fr-chateau-clerc-milon",
+              "site-fr-chateau-duhart-milon"
+            ],
+            "label": "Le Pouyalet, northern Pauillac"
+          }
+        },
+        {
+          "text": "What doesn't make the grand vin becomes the second wine: young vines, lighter lots, barrels that didn't fit the blend. Carruades de Lafite, Les Forts de Latour and Le Petit Mouton are famous examples. Second wines began as a way to tidy up and are now brands in their own right, made to drink at roughly five to fifteen years.\n\nFor a learner they are the best way into a great estate. [Château Lagrange](site-fr-chateau-lagrange), a third growth on the higher inland gravel of Saint-Julien, makes Les Fiefs de Lagrange, and most classed growths have an equivalent at a fraction of the grand vin's price.",
+          "map": {
+            "fly": {
+              "lon": -0.758,
+              "lat": 45.152,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "site-fr-chateau-lagrange",
+              "site-fr-chateau-gruaud-larose",
+              "site-fr-chateau-talbot",
+              "site-fr-chateau-saint-pierre",
+              "site-fr-chateau-branaire-ducru"
+            ],
+            "label": "Inland Saint-Julien"
+          }
+        },
+        {
+          "text": "Then comes the strangest part of the system. Each spring the trade tastes barrel samples of the previous autumn's wine, and from about May the châteaux release part of it at an opening price. They sell it *[en primeur](term-en-primeur)*, as futures, through the Place de Bordeaux: brokers (*courtiers*) place the wine with négociant houses, which sell it on to merchants around the world. The buyer pays now and receives the bottles about two years later.\n\nWhen opening prices rose faster than the wines gained value, buyers walked away. Release prices for the 2024 vintage fell by about 16% on average, some by 30 to 40%, and many top estates released their 2025s in spring 2026 at the lowest levels in about fifteen years.",
+          "map": {
+            "fly": {
+              "lon": -0.562,
+              "lat": 44.857,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "site-fr-la-cite-du-vin",
+              "site-fr-musee-du-vin-et-du-negoce-chartrons"
+            ],
+            "label": "The Place de Bordeaux"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Les Fiefs de Lagrange, Saint-Julien (second wine of Château Lagrange)",
+          "why": "A classed-growth estate's second wine: Saint-Julien's cedar and blackcurrant in a softer, earlier-drinking frame. Compare it with the Lanessan from chapter 2 and notice the extra polish and length that come from the same team and similar gravel.",
+          "price": "$30–40",
+          "try": [
+            "Les Fiefs de Lagrange"
+          ],
+          "place": "fr-saint-julien"
+        }
+      ],
+      "deeper": [
+        "term-chateau",
+        "term-assemblage",
+        "term-en-primeur",
+        "event-haut-brion-pepys",
+        "grape-petit-verdot",
+        "site-fr-chateau-lagrange",
+        "site-fr-chateau-haut-brion"
+      ],
+      "check": [
+        {
+          "q": "Why do most Bordeaux châteaux blend several grape varieties?",
+          "options": [
+            "The law requires at least four",
+            "They flower and ripen at different times, which spreads the weather risk",
+            "Merlot cannot be bottled alone",
+            "To lower the alcohol"
+          ],
+          "answer": 1,
+          "why": "Merlot, Cabernet Franc and Cabernet Sauvignon ripen at different moments, so a bad spell rarely ruins all of them."
+        },
+        {
+          "q": "What usually goes into a château's second wine?",
+          "options": [
+            "Wine bought from neighbours",
+            "Last year's unsold wine",
+            "Only Merlot",
+            "Younger vines and lots not chosen for the grand vin"
+          ],
+          "answer": 3,
+          "why": "Second wines come from young vines and from lots the winemaker leaves out of the grand vin; they are made to drink sooner."
+        },
+        {
+          "q": "Buying Bordeaux 'en primeur' means...",
+          "options": [
+            "Paying for the wine about two years before the bottles arrive",
+            "Buying old vintages at auction",
+            "Buying at the château gate",
+            "Buying only first growths"
+          ],
+          "answer": 0,
+          "why": "En primeur wine is sold as futures in the spring after the harvest and delivered after bottling, roughly two years later."
+        }
+      ]
+    },
+    {
+      "id": "whites",
+      "part": "intro",
+      "title": "White Bordeaux and the miracle of noble rot",
+      "steps": [
+        {
+          "text": "Bordeaux makes white wine too, and much of it comes from the rolling farmland between the rivers. [Entre-deux-Mers](fr-entre-deux-mers) is a country of clay-limestone hills, bastide towns and Romanesque churches, organised in the Middle Ages by the great [abbey of La Sauve-Majeure](site-fr-abbaye-de-la-sauve-majeure). Its white is crisp, dry and unoaked, led by [Sauvignon Blanc](grape-sauvignon-blanc), with [Sémillon](grape-semillon) for body and [Muscadelle](grape-muscadelle) for a floral lift: Bordeaux's classic partner for oysters from the Arcachon basin.\n\nThe appellation was white-only from 1937. From the 2023 vintage it may also make red, under stricter rules than basic Bordeaux, an attempt to rescue a district hit hard when bulk red prices collapsed.",
+          "map": {
+            "fly": "region-fr-entre-deux-mers",
+            "highlight": [
+              "fr-entre-deux-mers",
+              "fr-entre-deux-mers-haut-benauge",
+              "site-fr-abbaye-de-la-sauve-majeure"
+            ],
+            "label": "Entre-Deux-Mers"
+          }
+        },
+        {
+          "text": "The serious dry whites come from the Graves and Pessac-Léognan, where vineyards sit in clearings in the pine forest and cool nights keep the grapes fresh. Here Sauvignon Blanc and Sémillon are often fermented and aged in barrel on their lees (the spent yeast), which adds a creamy, waxy texture. The best, from Haut-Brion, La Mission Haut-Brion, Domaine de Chevalier and Smith Haut Lafitte, can age for twenty years. Research at the University of Bordeaux by the late Denis Dubourdieu on skin contact, lees and aroma compounds called [thiols](term-thiol) reshaped white Bordeaux.\n\nMédoc estates make whites too, but their communal appellations are red-only, so Pavillon Blanc de Château Margaux is sold as plain Bordeaux.",
+          "map": {
+            "fly": {
+              "lon": -0.592,
+              "lat": 44.735,
+              "zoom": 13.0
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-chateau-smith-haut-lafitte",
+              "site-fr-chateau-haut-bailly",
+              "site-fr-domaine-de-chevalier",
+              "site-fr-chateau-carbonnieux",
+              "site-fr-chateau-malartic-lagraviere",
+              "site-fr-chateau-olivier"
+            ],
+            "label": "Léognan's forest clearings"
+          }
+        },
+        {
+          "text": "Forty kilometres upriver from the city, a small stream makes one of the world's great wines. The Ciron rises in the Landes forest and runs under a canopy of trees, so its water stays cold. In autumn it meets the warmer Garonne, and on clear nights the difference breeds thick morning fog.\n\nFog lets a fungus, *Botrytis cinerea*, settle on ripe Sémillon; afternoon sun then dries the grapes so the fungus does no harm. This is [noble rot](term-noble-rot): the [botrytis](term-botrytis) pierces the skins, water evaporates, and the berries shrivel into brown, sticky raisins whose sugar, acidity and glycerol concentrate. The rot never arrives evenly, so pickers pass through the vines again and again, sometimes berry by berry, over six to ten weeks. These passes are the *tries*.",
+          "map": {
+            "fly": {
+              "lon": -0.305,
+              "lat": 44.578,
+              "zoom": 11.6
+            },
+            "highlight": [
+              "fr-sauternes",
+              "fr-barsac",
+              "fr-cerons"
+            ],
+            "label": "Where the Ciron meets the Garonne"
+          }
+        },
+        {
+          "text": "[Sauternes](fr-sauternes) and its neighbour [Barsac](fr-barsac), whose estates may use either name, are the heart of it. The rules demand hand picking by successive tries, must with at least 221 g/l of sugar and a yield of no more than 25 hl/ha; Yquem's rule of thumb is a glass of wine per vine. Fermentation stops at around 13.5 to 14% alcohol with 100 to 150 g/l of sugar left, and the wine ages in oak.\n\nYoung Sauternes tastes of apricot, pineapple, honey and orange marmalade; with decades it turns amber and tastes of crème brûlée, tea and spice. Barsac's thin red sand over limestone gives a fresher, more citrus style. Demand has fallen for decades, which makes Sauternes one of the bargains of the wine world.",
+          "map": {
+            "fly": {
+              "lon": -0.33,
+              "lat": 44.552,
+              "zoom": 13.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-chateau-d-yquem",
+              "site-fr-chateau-rieussec",
+              "site-fr-chateau-suduiraut",
+              "site-fr-chateau-guiraud",
+              "site-fr-chateau-lafaurie-peyraguey",
+              "site-fr-chateau-la-tour-blanche"
+            ],
+            "label": "Yquem's hill and its neighbours"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château Bonnet Blanc, Entre-deux-Mers",
+          "why": "André Lurton's family estate and the textbook Entre-deux-Mers: grapefruit, cut grass and a saline snap. Drink it cold, young, with shellfish.",
+          "price": "$14–18",
+          "try": [
+            "Château Bonnet"
+          ],
+          "place": "fr-entre-deux-mers"
+        },
+        {
+          "wine": "Clos Floridène, Graves Blanc",
+          "why": "Created by Denis and Florence Dubourdieu: Sémillon and Sauvignon partly aged in barrel. Notice the waxy, lemony weight that Sémillon and lees bring, the style that makes white Graves age.",
+          "price": "$30–35",
+          "try": [
+            "Clos Floridène"
+          ],
+          "place": "fr-graves"
+        },
+        {
+          "wine": "Sauternes or Barsac in a half bottle (375 ml)",
+          "why": "Taste for apricot, honey and marmalade, then look for the acidity underneath that keeps the sweetness from cloying. Serve it chilled with blue cheese or a fruit tart.",
+          "price": "$22–35 (375 ml)",
+          "try": [
+            "Carmes de Rieussec",
+            "Château Doisy-Daëne",
+            "Château Doisy-Védrines"
+          ],
+          "place": "fr-sauternes"
+        }
+      ],
+      "deeper": [
+        "fr-sauternes",
+        "fr-barsac",
+        "fr-entre-deux-mers",
+        "term-noble-rot",
+        "term-botrytis",
+        "grape-semillon",
+        "grape-sauvignon-blanc",
+        "site-fr-chateau-d-yquem"
+      ],
+      "check": [
+        {
+          "q": "What creates the morning fog that brings noble rot to Sauternes?",
+          "options": [
+            "Sea fog from the Arcachon basin",
+            "Irrigation canals",
+            "The cold Ciron meeting the warmer Garonne",
+            "Smoke from the Landes forest"
+          ],
+          "answer": 2,
+          "why": "The Ciron's cold, shaded water meets the warmer Garonne, and autumn nights produce fog; dry afternoons then keep the botrytis 'noble'."
+        },
+        {
+          "q": "What are the 'tries' of Sauternes?",
+          "options": [
+            "Tasting trials before bottling",
+            "Successive passes through the vines to pick only botrytised grapes",
+            "Barrel sizes",
+            "The tiers of the 1855 Sauternes list"
+          ],
+          "answer": 1,
+          "why": "Botrytis spreads unevenly, so pickers go through the vineyard several times over weeks, taking only shrivelled, rotten berries."
+        },
+        {
+          "q": "Why is Pavillon Blanc de Château Margaux labelled as plain Bordeaux?",
+          "options": [
+            "The Margaux appellation is for red wine only",
+            "It is a blend of several regions",
+            "It is sweet",
+            "It is made from bought grapes"
+          ],
+          "answer": 0,
+          "why": "The Médoc's communal appellations cover only red wine, so the estates' whites use the regional Bordeaux AOC."
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "part": "intro",
+      "title": "Where the value is",
+      "steps": [
+        {
+          "text": "Most of the Gironde is neither Médoc gravel nor Pomerol clay, and its wine costs a fraction of the famous names. The best place to look is the hills. *Côtes* means slopes, and since 2009 several hillside appellations on the right banks of the rivers have shared one name, [Côtes de Bordeaux](fr-cotes-de-bordeaux): Blaye, facing the Médoc across the estuary; Cadillac, above the Garonne; Castillon and Francs, east of Saint-Émilion; and Sainte-Foy, which joined in 2016. A label can say plain Côtes de Bordeaux or put the area's name first.\n\nThe wines are mostly Merlot-based, ripe and fresh, and the slopes drain well. A good estate here often beats a mediocre one from a famous commune.",
+          "map": {
+            "fly": {
+              "lon": -0.3,
+              "lat": 44.92,
+              "zoom": 8.7
+            },
+            "highlight": [
+              "fr-cotes-de-bordeaux-blaye",
+              "fr-cotes-de-bordeaux-cadillac",
+              "fr-cotes-de-bordeaux-castillon",
+              "fr-cotes-de-bordeaux-francs",
+              "fr-sainte-foy-cotes-de-bordeaux",
+              "fr-cotes-de-bourg"
+            ],
+            "label": "The Côtes and Bourg"
+          }
+        },
+        {
+          "text": "Castillon is the obvious first stop. It lies just east of Saint-Émilion and continues the same limestone plateau and clay-limestone slopes, which is why Saint-Émilion owners moved in from the 1990s: Stephan von Neipperg at Château d'Aiguilhe, the consultant Stéphane Derenoncourt at Domaine de l'A. The town is also where the English lost Bordeaux in 1453.\n\nNorth-east of it, [Francs](fr-cotes-de-bordeaux-francs) is the smallest and one of the coolest of the Côtes. Château Puygueraud put it on the map; it belongs to the Belgian Thienpont family, whose relatives own Vieux Château Certan and Le Pin in Pomerol. Château Le Puy, farmed without chemicals for generations, is a cult name among natural-wine drinkers.",
+          "map": {
+            "fly": "fr-cotes-de-bordeaux-castillon",
+            "highlight": [
+              "fr-cotes-de-bordeaux-castillon",
+              "fr-cotes-de-bordeaux-francs",
+              "site-fr-battle-of-castillon-monument"
+            ],
+            "label": "Castillon and Francs"
+          }
+        },
+        {
+          "text": "West of Libourne, the hills of [Fronsac](fr-fronsac) rise above the Dordogne. In the eighteenth century its wines were fashionable at Versailles and priced above Saint-Émilion; today they are some of the best value on the Right Bank: firm, dark, mineral Merlot with Cabernet Franc, from limestone capped with clay and sandstone. [Canon-Fronsac](fr-canon-fronsac), on the steepest south-facing slopes, is deeper still.\n\nDownstream, the steep slopes of [Côtes de Bourg](fr-cotes-de-bourg) were planted long before the Médoc was drained. François Mitjavile of Tertre Rôteboeuf in Saint-Émilion showed their potential at Roc de Cambes, a natural amphitheatre of vines facing the Gironde. On the Left Bank, the Crus Bourgeois of the Médoc, Moulis and Listrac remain the classic place to find gravel-grown Cabernet for $20 to $45.",
+          "map": {
+            "fly": {
+              "lon": -0.43,
+              "lat": 44.99,
+              "zoom": 10.3
+            },
+            "highlight": [
+              "fr-fronsac",
+              "fr-canon-fronsac",
+              "fr-cotes-de-bourg",
+              "site-fr-chateau-de-la-dauphine",
+              "site-fr-chateau-roc-de-cambes"
+            ],
+            "label": "Fronsac and Bourg"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château Puygueraud, Francs Côtes de Bordeaux",
+          "why": "Merlot with Cabernet Franc from high, cool clay-limestone. Fresh, dark-fruited and savoury, it tastes like a small Saint-Émilion at half the price.",
+          "price": "$18–25",
+          "try": [
+            "Château Puygueraud"
+          ],
+          "place": "fr-cotes-de-bordeaux-francs"
+        },
+        {
+          "wine": "Château d'Aiguilhe, Castillon Côtes de Bordeaux",
+          "why": "From the von Neipperg family of Canon-la-Gaffelière, on the limestone that runs east from Saint-Émilion. Look for the same taut, mineral finish as a Saint-Émilion côtes wine.",
+          "price": "$27–35",
+          "try": [
+            "Château d'Aiguilhe"
+          ],
+          "place": "fr-cotes-de-bordeaux-castillon"
+        },
+        {
+          "wine": "Château de la Dauphine, Fronsac",
+          "why": "Firm, dark Fronsac Merlot from limestone hills above the Dordogne. Serve it with lamb and notice the grip a limestone hillside gives Merlot.",
+          "price": "$25–35",
+          "try": [
+            "Château de la Dauphine"
+          ],
+          "place": "fr-fronsac"
+        }
+      ],
+      "deeper": [
+        "fr-cotes-de-bordeaux",
+        "fr-cotes-de-bordeaux-castillon",
+        "fr-cotes-de-bordeaux-francs",
+        "fr-fronsac",
+        "fr-canon-fronsac",
+        "fr-cotes-de-bourg",
+        "fr-moulis",
+        "fr-listrac-medoc"
+      ],
+      "check": [
+        {
+          "q": "Since 2009, the Côtes de Bordeaux name brings together...",
+          "options": [
+            "The Médoc's Crus Bourgeois",
+            "Bordeaux's sweet-wine appellations",
+            "All the Left Bank communes",
+            "Hillside appellations on the right banks of the rivers, such as Blaye, Cadillac, Castillon and Francs"
+          ],
+          "answer": 3,
+          "why": "Côtes de Bordeaux unites several hillside districts on the right banks of the Garonne, Dordogne and Gironde; Sainte-Foy joined in 2016."
+        },
+        {
+          "q": "Why did Saint-Émilion owners invest in Castillon from the 1990s?",
+          "options": [
+            "It has Pomerol's blue clay",
+            "It continues Saint-Émilion's limestone plateau and slopes",
+            "Its gravel suits Cabernet Sauvignon",
+            "It has no appellation rules"
+          ],
+          "answer": 1,
+          "why": "Castillon is the eastward continuation of Saint-Émilion's limestone, at much lower land prices."
+        },
+        {
+          "q": "Which Right Bank appellation was fashionable at Versailles in the eighteenth century?",
+          "options": [
+            "Entre-deux-Mers",
+            "Blaye",
+            "Fronsac",
+            "Listrac-Médoc"
+          ],
+          "answer": 2,
+          "why": "Fronsac's wines, helped by the Maréchal de Richelieu, Duc de Fronsac, were once priced above Saint-Émilion."
+        }
+      ]
+    },
+    {
+      "id": "croupes",
+      "part": "deeper",
+      "title": "Reading the gravel in 3D",
+      "steps": [
+        {
+          "text": "Now look at the gravel in three dimensions. You are on the estuary meadows facing west, inland, toward southern Pauillac. The relief is gentle (nothing here rises much above 30 m) but every metre counts. The croupes are mounds of gravel several metres deep over marl, clay and an iron-cemented layer called *alios*; their crests drain best and their slopes face the water.\n\n[Château Latour](site-fr-chateau-latour)'s 47-ha Enclos, the heart of its vineyard, runs down toward the meadows. The estuary next to it reduces frost and cools hot nights, one reason Latour is famous for consistency in difficult years. Across the road sit the two Pichons; just south, past the little Juillac stream, the walled Grand Clos of [Léoville Las Cases](site-fr-chateau-leoville-las-cases) begins: the same gravel, a different commune.",
+          "map": {
+            "fly": {
+              "lon": -0.745,
+              "lat": 45.177,
+              "zoom": 13.4
+            },
+            "pitch": 62,
+            "bearing": 280,
+            "terrain": true,
+            "highlight": [
+              "site-fr-chateau-latour",
+              "site-fr-chateau-pichon-baron",
+              "site-fr-chateau-pichon-longueville-comtesse-de-lalande",
+              "site-fr-chateau-leoville-las-cases",
+              "site-fr-chateau-leoville-poyferre",
+              "fr-pauillac",
+              "fr-saint-julien"
+            ],
+            "label": "Latour, the Pichons and Las Cases"
+          }
+        },
+        {
+          "text": "Move north to the border with Saint-Estèphe. [Lafite Rothschild](site-fr-chateau-lafite-rothschild) sits on the last croupes of Pauillac; across the Jalle du Breuil, a stream in a shallow valley, [Cos d'Estournel](site-fr-chateau-cos-d-estournel) faces it from the next mound, its cellars topped with pagodas by Louis-Gaspard d'Estournel, who sold his wine as far as India in the early nineteenth century.\n\nThe wines differ more than the distance suggests. Saint-Estèphe has more clay under its gravel, which holds water and keeps the soil cooler: its wines are fresher, firmer and slower to open, and Merlot often makes up 30 to 50% of the blend. Lafite, on lighter gravel, is famous for perfume and finesse rather than power.",
+          "map": {
+            "fly": {
+              "lon": -0.776,
+              "lat": 45.23,
+              "zoom": 13.3
+            },
+            "pitch": 60,
+            "bearing": 275,
+            "terrain": true,
+            "highlight": [
+              "site-fr-chateau-lafite-rothschild",
+              "site-fr-chateau-cos-d-estournel",
+              "site-fr-chateau-cos-labory",
+              "site-fr-chateau-lafon-rochet",
+              "site-fr-chateau-duhart-milon",
+              "fr-saint-estephe",
+              "fr-pauillac"
+            ],
+            "label": "Across the Jalle du Breuil"
+          }
+        },
+        {
+          "text": "Switch to satellite over Margaux village and the pattern changes: small parcels interleaved like a jigsaw. Margaux's 21 classed growths often own plots side by side, the result of three centuries of sales, swaps and inheritances, which is a reminder that a château is a brand and a cellar more than a single block of land.\n\nThe gravel here is the thinnest and finest in the Médoc, often over limestone, with little clay. Poor soil restrains the vine and gives delicacy rather than power, and the best Margaux (Château Margaux, [Palmer](site-fr-chateau-palmer), [Rauzan-Ségla](site-fr-chateau-rauzan-segla)) smell of violets and roses over the cassis. Palmer, a third growth, routinely sells for more than most seconds: proof that the 1855 order is a starting point, not a verdict.",
+          "map": {
+            "fly": {
+              "lon": -0.672,
+              "lat": 45.04,
+              "zoom": 14.4
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-chateau-margaux",
+              "site-fr-chateau-palmer",
+              "site-fr-chateau-rauzan-segla",
+              "site-fr-chateau-rauzan-gassies",
+              "site-fr-chateau-durfort-vivens",
+              "site-fr-chateau-malescot-saint-exupery",
+              "site-fr-chateau-lascombes",
+              "site-fr-chateau-marquis-de-terme",
+              "site-fr-chateau-ferriere",
+              "site-fr-chateau-marquis-d-alesme"
+            ],
+            "label": "Margaux village"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château Grand-Puy-Lacoste, Pauillac (fifth growth)",
+          "why": "Classic, unshowy Pauillac from the inland Bages area: cassis, cedar, graphite and firm tannin. The splurge that shows what deep gravel and Cabernet do, at well under the price of the famous neighbours. Keep it ten years if you can.",
+          "price": "$85–100",
+          "try": [
+            "Château Grand-Puy-Lacoste"
+          ],
+          "place": "fr-pauillac"
+        },
+        {
+          "wine": "Château Potensac, Médoc",
+          "why": "For contrast, gravel islands among the clays of the northern Médoc: more Merlot, fresher and more savoury, at a third of the price.",
+          "price": "$30–35",
+          "try": [
+            "Château Potensac"
+          ],
+          "place": "fr-medoc"
+        }
+      ],
+      "deeper": [
+        "site-fr-chateau-latour",
+        "site-fr-chateau-leoville-las-cases",
+        "site-fr-chateau-cos-d-estournel",
+        "site-fr-chateau-lafite-rothschild",
+        "site-fr-chateau-palmer",
+        "soil-gravel-medoc-graves"
+      ],
+      "check": [
+        {
+          "q": "Why is being close to the estuary an advantage for vineyards like Latour's?",
+          "options": [
+            "The water reduces frost and cools hot nights",
+            "The tide irrigates the vines",
+            "Salt spray protects against mildew",
+            "Ships can load the wine directly"
+          ],
+          "answer": 0,
+          "why": "The broad Gironde moderates temperature: fewer frosts in spring and cooler nights in heatwaves."
+        },
+        {
+          "q": "What separates Lafite Rothschild from Cos d'Estournel?",
+          "options": [
+            "The Juillac stream",
+            "The Jalle du Breuil, which is also the Pauillac and Saint-Estèphe border",
+            "The Dordogne",
+            "A motorway"
+          ],
+          "answer": 1,
+          "why": "The Jalle du Breuil runs between the two estates and marks the boundary between Pauillac and Saint-Estèphe."
+        },
+        {
+          "q": "Why are Saint-Estèphe's wines typically firmer and slower to open than Pauillac's?",
+          "options": [
+            "They are made from Malbec",
+            "They spend longer in barrel by law",
+            "More clay under the gravel keeps soils cooler and wetter",
+            "The vines are younger"
+          ],
+          "answer": 2,
+          "why": "Clay retains water and keeps the soil cool, so grapes ripen a little later and keep more acidity and grip."
+        }
+      ]
+    },
+    {
+      "id": "plateau",
+      "part": "deeper",
+      "title": "Saint-Émilion's limestone in 3D",
+      "steps": [
+        {
+          "text": "On the Right Bank the relief is real. You are on the sandy plain looking north at the town. The limestone plateau, 60 to 100 m up, ends in steep slopes, the côtes, that face south to the Dordogne, and the town sits in a notch in its edge. The vines on the rim and the slopes ([Ausone](site-fr-chateau-ausone), named after the Roman poet Ausonius; [Pavie](site-fr-chateau-pavie); [Canon](site-fr-chateau-canon); [Bélair-Monange](site-fr-chateau-belair-monange)) get sun and drainage, and their roots reach into fissured rock.\n\nLimestone stores water and releases it slowly, and it seems to keep wines fresh even in hot years. Plateau and côtes wines are taut and mineral, slow to open and long-lived, a different animal from the soft wines of the sand below.",
+          "map": {
+            "fly": {
+              "lon": -0.156,
+              "lat": 44.887,
+              "zoom": 13.5
+            },
+            "pitch": 60,
+            "bearing": 355,
+            "terrain": true,
+            "highlight": [
+              "site-fr-chateau-ausone",
+              "site-fr-chateau-pavie",
+              "site-fr-chateau-canon",
+              "site-fr-chateau-belair-monange",
+              "site-fr-chateau-la-gaffeliere",
+              "site-fr-chateau-canon-la-gaffeliere",
+              "site-fr-chateau-larcis-ducasse",
+              "site-fr-chateau-troplong-mondot",
+              "site-fr-chateau-pavie-macquin",
+              "site-fr-chateau-tertre-roteboeuf",
+              "site-fr-chateau-beausejour",
+              "site-fr-chateau-beau-sejour-becot",
+              "site-fr-chateau-angelus"
+            ],
+            "label": "The côtes and the plateau"
+          }
+        },
+        {
+          "text": "Zoom into the town. For centuries Saint-Émilion's limestone was quarried to build Bordeaux, and the plateau is honeycombed with about 200 km of tunnels, some now used as cellars, where the roots of old vines hang from the ceilings. The [monolithic church](site-fr-monolithic-church-of-saint-emilion), carved out of the rock in the twelfth century, is the most spectacular hole of all, and [Clos Fourtet](site-fr-clos-fourtet), just outside the walls, ages its wine in old quarries under its vines.\n\nThis is the landscape UNESCO protected in 1999: not one estate but the whole medieval jurisdiction, nine communes of vines, walls, churches and hamlets.",
+          "map": {
+            "fly": {
+              "lon": -0.1575,
+              "lat": 44.8945,
+              "zoom": 15.6
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-fr-monolithic-church-of-saint-emilion",
+              "site-fr-clos-fourtet",
+              "site-fr-chateau-beau-sejour-becot",
+              "site-fr-chateau-canon"
+            ],
+            "label": "A town built on its quarries"
+          }
+        },
+        {
+          "text": "Three kilometres north-west, Saint-Émilion turns into something else. Next to the Pomerol border a band of gravel and sand carries [Cheval Blanc](site-fr-chateau-cheval-blanc) and [Figeac](site-fr-chateau-figeac), and across the line sit L'Évangile and La Conseillante. Cheval Blanc is built on Cabernet Franc, often around half the blend, which gives it a famous perfume; Figeac grows all three main grapes, with an unusually large share of Cabernet Sauvignon for the Right Bank.\n\nFigeac was promoted to the top 'A' rank in 2022 after decades of campaigning, while Cheval Blanc had left the classification the year before. On this gravel the appellation line, not the soil, decides whether a wine is called Saint-Émilion or Pomerol.",
+          "map": {
+            "fly": {
+              "lon": -0.192,
+              "lat": 44.921,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "site-fr-chateau-cheval-blanc",
+              "site-fr-chateau-figeac",
+              "site-fr-chateau-la-conseillante",
+              "site-fr-chateau-l-evangile",
+              "site-fr-petrus",
+              "site-fr-vieux-chateau-certan"
+            ],
+            "label": "The gravel border with Pomerol"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château Larcis Ducasse, Saint-Émilion Premier Grand Cru Classé",
+          "why": "A terraced amphitheatre on the south-facing côtes next to Pavie. Taste for the cool, chalky tension under the ripe Merlot: that is limestone at work.",
+          "price": "$90–105",
+          "try": [
+            "Château Larcis Ducasse"
+          ],
+          "place": "fr-saint-emilion-grand-cru"
+        },
+        {
+          "wine": "Château La Pointe, Pomerol",
+          "why": "A gentler Pomerol from gravel and sand near Libourne. Put it beside the Larcis Ducasse: velvet against chalk, the two faces of Right Bank Merlot.",
+          "price": "$50–60",
+          "try": [
+            "Château La Pointe"
+          ],
+          "place": "fr-pomerol"
+        }
+      ],
+      "deeper": [
+        "fr-saint-emilion-grand-cru",
+        "site-fr-chateau-ausone",
+        "site-fr-chateau-cheval-blanc",
+        "site-fr-chateau-figeac",
+        "site-fr-monolithic-church-of-saint-emilion",
+        "term-limestone",
+        "term-garagiste"
+      ],
+      "check": [
+        {
+          "q": "Which way do Saint-Émilion's côtes mostly face?",
+          "options": [
+            "North, away from the sun",
+            "South, toward the Dordogne",
+            "West, toward the Atlantic",
+            "East, toward Castillon"
+          ],
+          "answer": 1,
+          "why": "The steep clay-limestone slopes at the edge of the plateau face south toward the river, catching the sun."
+        },
+        {
+          "q": "Why is Saint-Émilion's plateau riddled with tunnels?",
+          "options": [
+            "Its limestone was quarried for centuries to build Bordeaux",
+            "They were dug to drain the vineyards",
+            "They are Roman aqueducts",
+            "They were air-raid shelters"
+          ],
+          "answer": 0,
+          "why": "Quarrying left about 200 km of tunnels, now partly used as cellars."
+        },
+        {
+          "q": "Which grape gives Cheval Blanc its signature perfume?",
+          "options": [
+            "Malbec",
+            "Petit Verdot",
+            "Carmenère",
+            "Cabernet Franc"
+          ],
+          "answer": 3,
+          "why": "Cheval Blanc, on gravel next to Pomerol, often uses around half Cabernet Franc."
+        }
+      ]
+    },
+    {
+      "id": "icons",
+      "part": "deeper",
+      "title": "The famous names, and why",
+      "steps": [
+        {
+          "text": "Each first growth is famous for a reason beyond its rank. [Haut-Brion](site-fr-chateau-haut-brion) invented the estate brand in the 1660s and has belonged to the American Dillon family since 1935. [Lafite](site-fr-chateau-lafite-rothschild), bought by Baron James de Rothschild in 1868, is the byword for perfume, and in the 2000s for the Chinese demand that sent its price soaring. [Latour](site-fr-chateau-latour) means power and consistency; after the 2011 vintage it stopped selling en primeur and now releases its wines when it judges them ready to drink. [Château Margaux](site-fr-chateau-margaux) was revived by the Mentzelopoulos family after 1977. [Mouton](site-fr-chateau-mouton-rothschild) bottled its whole crop at the château from 1924, when that was rare, and has commissioned an artist for each label since 1945.",
+          "map": {
+            "fly": {
+              "lon": -0.7,
+              "lat": 45.03,
+              "zoom": 9.1
+            },
+            "highlight": [
+              "site-fr-chateau-lafite-rothschild",
+              "site-fr-chateau-latour",
+              "site-fr-chateau-mouton-rothschild",
+              "site-fr-chateau-margaux",
+              "site-fr-chateau-haut-brion"
+            ],
+            "label": "The first growths"
+          }
+        },
+        {
+          "text": "Below the firsts, the market draws its own lines. The 'super seconds' are second growths priced, and often judged, close to the firsts: [Léoville Las Cases](site-fr-chateau-leoville-las-cases), [Ducru-Beaucaillou](site-fr-chateau-ducru-beaucaillou), [Pichon Comtesse](site-fr-chateau-pichon-longueville-comtesse-de-lalande), [Cos d'Estournel](site-fr-chateau-cos-d-estournel) and [Montrose](site-fr-chateau-montrose), joined in practice by Palmer, a third growth.\n\n[Lynch-Bages](site-fr-chateau-lynch-bages), a fifth growth on the Bages plateau, became a different kind of legend. The Cazes family made it so reliably rich and generous that British merchants called it 'the poor man's Latour', though today it costs as much as many seconds. Another fifth, [Pontet-Canet](site-fr-chateau-pontet-canet), became in 2010 the first Médoc classed growth certified biodynamic.",
+          "map": {
+            "fly": {
+              "lon": -0.74,
+              "lat": 45.15,
+              "zoom": 10.0
+            },
+            "highlight": [
+              "site-fr-chateau-leoville-las-cases",
+              "site-fr-chateau-ducru-beaucaillou",
+              "site-fr-chateau-pichon-longueville-comtesse-de-lalande",
+              "site-fr-chateau-cos-d-estournel",
+              "site-fr-chateau-montrose",
+              "site-fr-chateau-lynch-bages",
+              "site-fr-chateau-pontet-canet"
+            ],
+            "label": "Super seconds and over-performers"
+          }
+        },
+        {
+          "text": "On the Right Bank, fame was built in the twentieth century. [Petrus](site-fr-petrus), about 11.5 ha mostly on blue clay, was made a luxury name by Madame Loubat and then by the Moueix family, whose company also owns [Trotanoy](site-fr-chateau-trotanoy). [Le Pin](site-fr-chateau-le-pin), bought by the Thienpont family in 1979, makes a few hundred cases from a tiny plot and became the model for the 1990s [garagistes](term-garagiste), tiny producers of concentrated, expensive wine. [Lafleur](site-fr-chateau-lafleur), the Guinaudeau family's farm, is the connoisseur's choice.\n\nAnd in Sauternes, Yquem has been the reference sweet wine since before Thomas Jefferson ordered it in 1787.",
+          "map": {
+            "fly": "fr-pomerol",
+            "highlight": [
+              "site-fr-petrus",
+              "site-fr-chateau-le-pin",
+              "site-fr-chateau-lafleur",
+              "site-fr-chateau-trotanoy",
+              "site-fr-vieux-chateau-certan",
+              "site-fr-chateau-l-eglise-clinet",
+              "site-fr-chateau-la-conseillante"
+            ],
+            "label": "Pomerol's icons"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Château Lynch-Bages, Pauillac (fifth growth)",
+          "why": "The 'poor man's Latour' that no longer is: opulent cassis, mint and cedar over firm Pauillac tannin. A splurge that tells you more about the gap between rank and reputation than any book.",
+          "price": "$130–160",
+          "try": [
+            "Château Lynch-Bages"
+          ],
+          "place": "fr-pauillac"
+        }
+      ],
+      "deeper": [
+        "site-fr-chateau-haut-brion",
+        "site-fr-chateau-mouton-rothschild",
+        "site-fr-chateau-lynch-bages",
+        "site-fr-petrus",
+        "site-fr-chateau-le-pin",
+        "event-jefferson-bordeaux",
+        "term-garagiste"
+      ],
+      "check": [
+        {
+          "q": "Which first growth stopped selling its wine en primeur after the 2011 vintage?",
+          "options": [
+            "Château Margaux",
+            "Château Lafite Rothschild",
+            "Château Haut-Brion",
+            "Château Latour"
+          ],
+          "answer": 3,
+          "why": "Latour now holds its wine back and releases it when it judges it ready to drink."
+        },
+        {
+          "q": "What were the 'garagistes'?",
+          "options": [
+            "Tiny 1990s producers of concentrated, expensive wine, with Le Pin as a model",
+            "Mechanics who repaired tractors",
+            "Merchants who stored wine in garages in London",
+            "The brokers of the 1855 classification"
+          ],
+          "answer": 0,
+          "why": "The term described small-scale producers such as Valandraud; Le Pin, from 1979, was the forerunner."
+        },
+        {
+          "q": "Which fifth growth was nicknamed 'the poor man's Latour'?",
+          "options": [
+            "Château Cantemerle",
+            "Château Lynch-Bages",
+            "Château Pontet-Canet",
+            "Château Grand-Puy-Lacoste"
+          ],
+          "answer": 1,
+          "why": "British merchants used the nickname for Lynch-Bages's generous, reliable Pauillac."
+        }
+      ]
+    },
+    {
+      "id": "vintages",
+      "part": "deeper",
+      "title": "Vintages, and when to open the bottle",
+      "steps": [
+        {
+          "text": "In Bordeaux the year on the label matters more than in most places, because Atlantic weather is so changeable. The atlas's vintage charts, built from critics' and merchants' assessments, give the Médoc's top score to 1945, 1949, 1959, 1961, 1982, 1986, 1989, 1990, 1996, 2000, 2005, 2009, 2010, 2016, 2018, 2019, 2020 and 2022. The worst recent years are 1991 and 1992, ruined by frost and rain, and 2013, a wet year of rot and the smallest crop since 1991.\n\nThe two banks don't always agree. Early-ripening Merlot can be picked before autumn rain catches the Cabernet, so 1998 and 2012 were better on the Right Bank, while 1996 was a great Cabernet year on the Left. In 2021, after frost and mildew hit the Merlot, estates rich in Cabernet Franc did best.",
+          "map": {
+            "fly": {
+              "lon": -0.45,
+              "lat": 44.97,
+              "zoom": 8.6
+            },
+            "highlight": [
+              "fr-pauillac",
+              "fr-margaux",
+              "fr-pomerol",
+              "fr-saint-emilion-grand-cru"
+            ],
+            "label": "Left Bank and Right Bank vintages"
+          }
+        },
+        {
+          "text": "Sweet wine keeps its own calendar, because it needs autumn humidity after a good summer. The atlas rates 2001 legendary in Sauternes, a cool, damp year that was only middling for reds, while 2000, great for reds, was spoiled for sweet wine by rain after the red harvest. Among older years, 1921, 1929, 1937, 1945, 1959, 1967 and the run of 1986, 1988, 1989 and 1990 are the classics; recent highs are 2009, 2011, 2015 and 2017. In some wet years, such as 1992 and 2012, Yquem made no wine at all.\n\nThe heatwave of 2003, which stressed the reds, brought an early harvest of very rich, heavy Sauternes with low acidity; the best still taste surprisingly fresh.",
+          "map": {
+            "fly": "region-fr-sauternais",
+            "highlight": [
+              "fr-sauternes",
+              "fr-barsac"
+            ],
+            "label": "Sauternes vintages"
+          }
+        },
+        {
+          "text": "How long should you wait? The atlas's ageing profiles give typical drinking windows, counted from the vintage. A Pauillac classed growth is usually approachable at about 10 years, at its best from 15 to 35 and can last 50; a first growth needs about 15 years to open and peaks from 20 to 45. Second wines peak at 7 to 15, a Saint-Émilion Grand Cru Classé at 10 to 25, a top Pomerol at 12 to 30, plain Bordeaux red at 2 to 6, and a classed Sauternes from 10 to 40, with a limit near 80.\n\nAs of October 2026 that puts the 2000, 2005 and 2009 Médocs at their peak, the 2010s and 2015s just opening, and the 2016, the 2018 to 2020 trio and the 2022 still young.",
+          "map": {
+            "fly": "fr-pauillac",
+            "highlight": [
+              "fr-pauillac"
+            ],
+            "label": "Pauillac"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A classed growth or Cru Bourgeois from the 2014 to 2016 vintages",
+          "why": "Taste what a decade does. The fruit moves from cassis to dried currant and cedar, tobacco and earth appear, and the tannin turns from grip to silk. Merchants still list these back vintages at prices close to new releases.",
+          "price": "$40–60",
+          "try": [
+            "Château Cantemerle 2015",
+            "Château Poujeaux",
+            "Château Chasse-Spleen"
+          ],
+          "place": "fr-haut-medoc"
+        }
+      ],
+      "deeper": [
+        "fr-pauillac",
+        "fr-sauternes",
+        "fr-pomerol",
+        "fr-saint-emilion-grand-cru",
+        "region-fr-medoc",
+        "region-fr-sauternais"
+      ],
+      "check": [
+        {
+          "q": "Why can a vintage be better on the Right Bank than on the Left?",
+          "options": [
+            "Early-ripening Merlot can be picked before autumn rain reaches the late Cabernet",
+            "The Right Bank never gets rain",
+            "The Right Bank harvests in summer",
+            "Right Bank wines are blended across vintages"
+          ],
+          "answer": 0,
+          "why": "In years like 1998 and 2012, Merlot was in before the rain; Cabernet-based Left Bank wines suffered more."
+        },
+        {
+          "q": "Which vintage was great for Bordeaux reds but spoiled for Sauternes by rain?",
+          "options": [
+            "2001",
+            "2009",
+            "2000",
+            "1990"
+          ],
+          "answer": 2,
+          "why": "Rain after the red harvest in 2000 stopped clean botrytis from developing; the next year, 2001, was legendary for Sauternes."
+        },
+        {
+          "q": "Roughly when does a Pauillac classed growth usually start to open?",
+          "options": [
+            "After 2 years",
+            "After about 10 years",
+            "After 50 years",
+            "It should be drunk on release"
+          ],
+          "answer": 1,
+          "why": "The atlas profile puts a Pauillac classed growth's approachability at about 10 years, with a peak from 15 to 35."
+        }
+      ]
+    },
+    {
+      "id": "climate",
+      "part": "deeper",
+      "title": "Bordeaux in a warming world",
+      "steps": [
+        {
+          "text": "The atlas's climate data, downscaled weather records for every appellation, show how far Bordeaux has already moved. In Pauillac the average temperature of the growing season (April to October) was 16.5°C in 1961 to 1990 and 17.8°C in 2011 to 2025; its heat accumulation in [growing degree days](term-growing-degree-days-gdd) rose from about 1,390 to 1,675. Saint-Émilion went from 16.6 to 18.2°C. In 2022, the hottest season on record, Pauillac averaged 19.4°C.\n\nPut another way, Pauillac's climate of 1961 to 1990 resembles Alsace's today, and its recent climate resembles that of Offida, in Italy's Marche, a generation ago. Harvests now start weeks earlier than in the 1980s, and alcohol levels have risen with them.",
+          "map": {
+            "fly": {
+              "lon": -0.75,
+              "lat": 45.12,
+              "zoom": 9.6
+            },
+            "highlight": [
+              "fr-pauillac",
+              "fr-saint-julien",
+              "fr-margaux",
+              "fr-saint-estephe"
+            ],
+            "label": "The Médoc, warmer by 1.3°C"
+          }
+        },
+        {
+          "text": "The rules are moving too. In January 2021 the INAO, France's appellation authority, approved six 'varieties of interest for adaptation' for Bordeaux and Bordeaux Supérieur: the reds [Touriga Nacional](grape-touriga-nacional), [Marselan](grape-marselan), Arinarnoa and Castets, and the whites Alvarinho and Liliorila ([the decision](event-bordeaux-new-varieties-2021)). They may fill at most 5% of an estate's vineyard and 10% of a blend, and they may not be named on the label. Castets is a near-forgotten Gironde grape, so the list mixes imports from hotter places with local history.\n\nIn the vineyard, many growers are replanting Cabernet Franc on the Right Bank, keeping more leaves to shade the bunches and picking earlier to keep freshness.",
+          "map": {
+            "fly": "region-fr-bordeaux",
+            "highlight": [
+              "fr-bordeaux",
+              "fr-bordeaux-superieur"
+            ],
+            "label": "Where the new grapes are allowed"
+          }
+        },
+        {
+          "text": "The other change is economic. Demand for everyday red Bordeaux collapsed after 2018, in France and in China, and bulk prices fell below the cost of growing the grapes. From 2023 the state and the wine council paid growers to [pull up vines](event-bordeaux-grubbing-2023): by the official count about 21,000 ha went between August 2023 and May 2026, much of it regional Bordeaux land in the Entre-Deux-Mers and the outer Libournais, and the vineyard in production shrank by 9% in 2025 alone.\n\nSo Bordeaux in 2026 is two regions in one: a few hundred famous estates that sell through the Place, and thousands of family growers making honest wine at prices that look like bargains beside the rest of the wine world.",
+          "map": {
+            "fly": "region-fr-entre-deux-mers",
+            "highlight": [
+              "fr-entre-deux-mers",
+              "fr-graves-de-vayres",
+              "fr-cotes-de-bordeaux-cadillac",
+              "fr-sainte-foy-bordeaux"
+            ],
+            "label": "The heart of the grubbing-up"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Two vintages of one Cru Bourgeois: 2021 and 2020",
+          "why": "2021 was cool, frosty and late; 2020 was a drought year with small, concentrated berries. Open them side by side and you taste climate directly: lower alcohol and brighter acidity in 2021, denser fruit and riper tannin in 2020.",
+          "price": "$22–30 each",
+          "try": [
+            "Château Lanessan"
+          ],
+          "place": "fr-haut-medoc"
+        }
+      ],
+      "deeper": [
+        "event-bordeaux-new-varieties-2021",
+        "event-bordeaux-grubbing-2023",
+        "grape-touriga-nacional",
+        "grape-marselan",
+        "term-growing-degree-days-gdd",
+        "fr-bordeaux"
+      ],
+      "check": [
+        {
+          "q": "By how much did Pauillac's growing-season average temperature rise between 1961–1990 and 2011–2025, in the atlas data?",
+          "options": [
+            "About 0.3°C",
+            "About 1.3°C",
+            "About 3°C",
+            "It fell"
+          ],
+          "answer": 1,
+          "why": "It went from 16.5°C to 17.8°C, roughly 1.3°C warmer."
+        },
+        {
+          "q": "How much of a Bordeaux blend may the new climate-adaptation varieties make up?",
+          "options": [
+            "Up to 10%",
+            "Up to 50%",
+            "Any amount, if named on the label",
+            "None until 2030"
+          ],
+          "answer": 0,
+          "why": "INAO's 2021 approval caps them at 5% of an estate's vineyard and 10% of a blend, and they cannot be named on the label."
+        },
+        {
+          "q": "Why did Bordeaux pay growers to pull up vines from 2023?",
+          "options": [
+            "To replant with Chardonnay",
+            "Phylloxera returned",
+            "Demand and prices for everyday red Bordeaux collapsed",
+            "A new motorway"
+          ],
+          "answer": 2,
+          "why": "Falling sales in France and China left bulk prices below production costs; about 21,000 ha were removed by May 2026."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "rioja",
+    "napa-sonoma",
+    "wines-long-road"
+  ],
+  "sources": [
+    {
+      "title": "Agreste Nouvelle-Aquitaine, L'Essentiel n°80: la filière viticole girondine, chiffres clés (June 2026)",
+      "url": "https://draaf.nouvelle-aquitaine.agriculture.gouv.fr/IMG/pdf/essentiel_no80_-_la_filiere_viticole_girondine___chiffres_cles.pdf"
+    },
+    {
+      "title": "CIVB, Bordeaux classifications: the Graves classification",
+      "url": "https://www.bordeaux.com/en/classifications/graves"
+    },
+    {
+      "title": "CIVB, The Médoc Crus Bourgeois classification",
+      "url": "https://www.bordeaux.com/en/classifications/crus-bourgeois-du-medoc"
+    },
+    {
+      "title": "En Primeur Club, 2025 Cru Bourgeois classification: 170 wines, three tiers",
+      "url": "https://www.enprimeurclub.com/guide/2025-cru-bourgeois-classification-170-wines-three-tiers"
+    },
+    {
+      "title": "Decanter, Eight new estates upgraded to top of Cru Bourgeois classification as 2025 results revealed",
+      "url": "https://www.decanter.com/wine-news/eight-new-estates-upgraded-to-top-of-cru-bourgeois-classification-as-2025-results-revealed-550748/"
+    },
+    {
+      "title": "INAO, Saint-Émilion grand cru: the classification for the next decade (8 September 2022)",
+      "url": "https://www.inao.gouv.fr/en/saint-emilion-grand-cru-classement-next-decade"
+    },
+    {
+      "title": "INAO, Conseil d'État ruling on the 2012 Saint-Émilion Grand Cru classification (15 March 2024)",
+      "url": "https://www.inao.gouv.fr/en/cp-classement-aop-saint-emilion-grand-cru-conseil-etat-15-mars-2024"
+    },
+    {
+      "title": "Wine Industry Advisor, Bordeaux receives national approval to introduce six new grape varieties (26 January 2021)",
+      "url": "https://wineindustryadvisor.com/2021/01/26/bordeaux-introduce-six-grape-varieties"
+    },
+    {
+      "title": "Jane Anson, Entre-deux-Mers introduces red as well as white wines under the AOC",
+      "url": "https://janeanson.com/entre-deux-mers-introduces-red-as-well-as-white-wines-under-the-aoc"
+    },
+    {
+      "title": "Origin-GI dossier: Sauternes (INAO specification summary)",
+      "url": "https://www.origin-gi.com/wp-content/uploads/2014/08/france_sauternes.pdf"
+    },
+    {
+      "title": "Rue Pinard, Bordeaux 2025 en primeur: price discipline (June 2026)",
+      "url": "https://ruepinard.com/blog/2026-06-05/bordeaux-2025-ep-price-discipline"
+    },
+    {
+      "title": "Vinetur, Bordeaux offers its cheapest top wines in 15 years (June 2026)",
+      "url": "https://www.vinetur.com/en/20260608102256/bordeaux-offers-its-cheapest-top-wines-in-15-years.html"
+    },
+    {
+      "title": "Wikipedia, Bordeaux Wine Official Classification of 1855",
+      "url": "https://en.wikipedia.org/wiki/Bordeaux_Wine_Official_Classification_of_1855"
+    },
+    {
+      "title": "Wikipedia, Classification of Graves wine",
+      "url": "https://en.wikipedia.org/wiki/Classification_of_Graves_wine"
+    },
+    {
+      "title": "Millesima USA (US retail prices, October 2026)",
+      "url": "https://www.millesima-usa.com/"
+    },
+    {
+      "title": "Wine.com, CVNE, Château Bonnet and Château Puygueraud listings (US retail prices)",
+      "url": "https://www.wine.com/list/wine/chateau-bonnet/7155-102351"
+    },
+    {
+      "title": "Vintus, Château Recougne (US importer, SRP)",
+      "url": "https://vintus.com/wines/chateau-recougne-2/"
+    }
+  ]
+}

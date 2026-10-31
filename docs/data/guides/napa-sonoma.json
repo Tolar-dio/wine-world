@@ -1,0 +1,1395 @@
+{
+  "id": "napa-sonoma",
+  "kind": "region",
+  "title": "Napa and Sonoma",
+  "subtitle": "Two valleys, one ocean, and the wines that made America matter",
+  "tagline": "An hour north of San Francisco, a cold ocean and a hot valley fight over every vine, and the result is the most famous Cabernet in the New World and some of its finest Pinot Noir.",
+  "minutes": 14,
+  "deeper_minutes": 10,
+  "cover": "us-oakville",
+  "countries": [
+    "us"
+  ],
+  "intro": "Napa and Sonoma sit side by side, separated by a single mountain range, yet they could hardly be more different. Napa is a narrow, warm valley that bet everything on Cabernet Sauvignon and won. Sonoma is twice the size, closer to the Pacific and far more varied, from foggy Pinot Noir ridges to old Zinfandel vines planted by Italian families. This path follows the cold air in from the sea, then walks you through the history, the labels, the famous tasting of 1976 and the bottles that teach each lesson.",
+  "chapters": [
+    {
+      "id": "fog",
+      "part": "intro",
+      "title": "The ocean's air conditioner",
+      "steps": [
+        {
+          "text": "Start wide. North of San Francisco Bay, two parallel ranges run north-west: the Mayacamas Mountains, and east of them the Vaca Range. Between them lies the [Napa Valley](us-napa-valley), about 50 km long and only a few kilometres wide. West of the Mayacamas, [Sonoma County](region-us-sonoma-county) spreads all the way to the Pacific.\n\nEvery summer the same thing happens. Inland California bakes, hot air rises, and cold, heavy air from the ocean is sucked in to replace it, carrying the marine fog that San Franciscans call Karl. Where that air can get in, grapes ripen slowly and keep their acidity. Where it can't, they ripen fast and rich. Almost everything you will taste in this guide follows from that one daily exchange.",
+          "map": {
+            "fly": "us-north-coast",
+            "highlight": [
+              "us-napa-valley",
+              "us-sonoma-coast",
+              "us-northern-sonoma",
+              "us-sonoma-valley"
+            ],
+            "label": "Napa and Sonoma"
+          }
+        },
+        {
+          "text": "The cold air has three main doors. From the south, San Pablo Bay (the northern lobe of San Francisco Bay) pushes fog and wind into [Los Carneros](us-los-carneros), the low hills that straddle the bottom of both counties. From the west, a break in the coastal hills between Bodega Bay and the city of Petaluma acts as a wind tunnel; it is now its own appellation, the [Petaluma Gap](us-petaluma-gap) (approved in December 2017), one of the few in the world defined largely by wind.\n\nThe third door is the Russian River, which cuts clean through the coast range and lets fog roll up its valley most summer nights. Napa has no such door on its western side. That is the whole difference between the two counties in one sentence.",
+          "map": {
+            "fly": {
+              "lon": -122.62,
+              "lat": 38.26,
+              "zoom": 9.6
+            },
+            "highlight": [
+              "us-petaluma-gap",
+              "us-los-carneros"
+            ],
+            "label": "Petaluma Gap and Carneros"
+          }
+        },
+        {
+          "text": "Follow the river fog inland and you reach the [Russian River Valley](us-russian-river-valley). Summer mornings here are grey and cold, afternoons warm into the high 20s °C, and by evening the fog is back. The atlas's climate layer puts the valley at roughly 1,700 growing degree days (a [measure of seasonal heat](term-growing-degree-days-gdd)) against about 2,000 for the Napa Valley as a whole, and only about 1,100 out on the West Sonoma Coast ridges.\n\nThose numbers are why [Pinot Noir](grape-pinot-noir) and [Chardonnay](grape-chardonnay), grapes that lose their perfume in heat, thrive in western Sonoma, while Napa gives [Cabernet Sauvignon](grape-cabernet-sauvignon), a late ripener that needs warmth, every chance it wants.",
+          "map": {
+            "fly": "us-russian-river-valley",
+            "highlight": [
+              "us-russian-river-valley",
+              "us-green-valley-of-russian-river-valley"
+            ],
+            "label": "Russian River Valley"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Sonoma Coast Pinot Noir",
+          "why": "Your first fog wine. Look for red cherry and cranberry rather than jammy black fruit, and a fresh, mouth-watering finish: that acidity is the marine air at work. Keep a note of it; you will compare it with Napa Cabernet in the next chapter.",
+          "price": "$20–28",
+          "try": [
+            "La Crema"
+          ],
+          "place": "us-sonoma-coast"
+        },
+        {
+          "wine": "Russian River Valley Chardonnay",
+          "why": "Fog-cooled Chardonnay keeps citrus and green apple under its oak and butter. Taste for the lift at the end that stops it feeling heavy.",
+          "price": "$20–28",
+          "try": [
+            "Sonoma-Cutrer Russian River Ranches"
+          ],
+          "place": "us-russian-river-valley"
+        }
+      ],
+      "deeper": [
+        "us-petaluma-gap",
+        "us-los-carneros",
+        "us-russian-river-valley",
+        "us-sonoma-coast",
+        "term-diurnal-range",
+        "term-growing-degree-days-gdd"
+      ],
+      "check": [
+        {
+          "q": "Why does Sonoma's Russian River Valley get much more fog than the Napa Valley?",
+          "options": [
+            "It is at a higher altitude",
+            "The Russian River cuts through the coast range and lets ocean air in",
+            "It receives more winter rain",
+            "Its soils hold more water"
+          ],
+          "answer": 1,
+          "why": "The river valley is a gap through the coastal hills, so cold marine air and fog flow up it most summer nights. Napa is sealed off on the west by the Mayacamas."
+        },
+        {
+          "q": "What makes the Petaluma Gap AVA unusual?",
+          "options": [
+            "It is defined largely by wind funnelled from the ocean",
+            "It is the oldest AVA in California",
+            "It only allows Zinfandel",
+            "It lies entirely in Napa County"
+          ],
+          "answer": 0,
+          "why": "The petition rested on the strong afternoon winds that pour through a break in the coastal hills between Bodega Bay and San Pablo Bay."
+        },
+        {
+          "q": "Which grape needs the most warmth to ripen fully?",
+          "options": [
+            "Pinot Noir",
+            "Chardonnay",
+            "Cabernet Sauvignon",
+            "Sauvignon Blanc"
+          ],
+          "answer": 2,
+          "why": "Cabernet Sauvignon buds and ripens late, so it needs the warmer, fog-sheltered Napa Valley; Pinot Noir and Chardonnay prefer the cool west."
+        }
+      ]
+    },
+    {
+      "id": "ava",
+      "part": "intro",
+      "title": "What an AVA does (and doesn't) tell you",
+      "steps": [
+        {
+          "text": "Every place you have seen so far is an [AVA](term-ava), an American Viticultural Area. AVAs are approved by the [TTB](term-ttb), a branch of the US Treasury, after a grower petition shows that an area has a name people use and features (climate, soil, elevation) that set it apart. The atlas draws the official TTB boundary for each one.\n\nThe rule on the label is simple: a wine naming an AVA must contain at least 85 percent grapes grown inside it. A county name, like Sonoma County, needs 75 percent. That's it. Unlike a French appellation, an AVA says nothing about which grapes you may plant, how much you may harvest or how you make the wine. It is a promise about place, not about style or quality.",
+          "map": {
+            "fly": "us-napa-valley",
+            "highlight": [
+              "us-napa-valley"
+            ],
+            "label": "Napa Valley AVA"
+          }
+        },
+        {
+          "text": "AVAs nest like Russian dolls. The vast North Coast AVA holds the Napa Valley AVA, which holds 17 smaller ones, from Calistoga in the north to Coombsville by the city of Napa. The newest, [Crystal Springs of Napa Valley](us-crystal-springs-of-napa-valley), took effect in November 2024. California law adds a twist: a wine labelled with a Napa sub-AVA such as [Rutherford](us-rutherford) must also say Napa Valley, and a Sonoma sub-AVA must also say Sonoma County.\n\nSonoma has 19 AVAs, some huge and vague, some tiny and precise. The [Sonoma Coast](us-sonoma-coast) AVA of 1987 sprawled so far inland that it swallowed warm sites along with cold ones, and growers on the true coast later carved out [Fort Ross-Seaview](us-fort-ross-seaview) (2011) and [West Sonoma Coast](us-west-sonoma-coast) (2022). The smaller the name on the label, the more it tells you.",
+          "map": {
+            "fly": {
+              "lon": -122.62,
+              "lat": 38.45,
+              "zoom": 9.3
+            },
+            "highlight": [
+              "us-calistoga",
+              "us-st-helena",
+              "us-rutherford",
+              "us-oakville",
+              "us-yountville",
+              "us-stags-leap-district",
+              "us-howell-mountain",
+              "us-spring-mountain-district",
+              "us-mt-veeder",
+              "us-atlas-peak",
+              "us-coombsville",
+              "us-los-carneros",
+              "us-crystal-springs-of-napa-valley",
+              "us-sonoma-coast",
+              "us-west-sonoma-coast",
+              "us-fort-ross-seaview"
+            ],
+            "label": "Nested AVAs"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A Sonoma County Cabernet and a Napa Valley Cabernet from the same producer",
+          "why": "Same family, same grape, two labels. The Sonoma County bottle (75 percent rule, grapes from anywhere in the county) is softer and cheaper; the Napa Valley bottle is denser, with more tannin and oak. The price gap is the market's opinion of the Napa name.",
+          "price": "$17–22 and $40–55",
+          "try": [
+            "Prati by Louis M. Martini (Sonoma County)",
+            "Louis M. Martini Napa Valley"
+          ],
+          "place": "us-napa-valley"
+        }
+      ],
+      "deeper": [
+        "term-ava",
+        "term-ttb",
+        "event-ava-1980",
+        "us-north-coast",
+        "us-sonoma-coast",
+        "us-crystal-springs-of-napa-valley"
+      ],
+      "check": [
+        {
+          "q": "What must be true of a wine labelled with an AVA name?",
+          "options": [
+            "It must be made from approved grape varieties",
+            "At least 85 percent of its grapes must come from that AVA",
+            "It must be aged for two years",
+            "Yields must be below a legal maximum"
+          ],
+          "answer": 1,
+          "why": "The 85 percent origin rule is the main requirement. AVAs set no rules on varieties, yields or winemaking."
+        },
+        {
+          "q": "A wine labelled 'Rutherford' must also show which name on its label, under California law?",
+          "options": [
+            "North Coast",
+            "California",
+            "Napa Valley",
+            "Sonoma County"
+          ],
+          "answer": 2,
+          "why": "Napa's conjunctive labelling law requires any Napa sub-AVA to be accompanied by 'Napa Valley'."
+        },
+        {
+          "q": "Why did growers push for the West Sonoma Coast AVA?",
+          "options": [
+            "To allow higher yields",
+            "Because the 1987 Sonoma Coast AVA included warm inland sites as well as cold coastal ones",
+            "To ban Pinot Noir",
+            "Because Sonoma Coast was abolished"
+          ],
+          "answer": 1,
+          "why": "The original Sonoma Coast AVA reached far inland, so its name promised more coolness than many of its wines delivered."
+        }
+      ]
+    },
+    {
+      "id": "napa-story",
+      "part": "intro",
+      "title": "Napa's rise, fall and second rise",
+      "steps": [
+        {
+          "text": "George Yount, the valley's first American settler, planted Mission grapes around 1838. The commercial story starts in 1861, when the Prussian immigrant [Charles Krug](site-us-charles-krug) opened a winery at St. Helena. By the 1880s there were well over a hundred wineries, among them the Beringer brothers' Rhine House and [Inglenook](site-us-inglenook), founded in 1879 near Rutherford by Gustave Niebaum, a Finnish sea captain rich from the Alaska fur trade, who set out to make wine to rival Bordeaux.\n\nThen came two disasters. [Phylloxera](term-phylloxera), the root-eating louse, swept through in the 1890s, and [Prohibition](event-prohibition-us) (1920 to 1933) closed almost everyone. [Beaulieu Vineyard](site-us-beaulieu-vineyard), founded in 1900 by Georges de Latour, survived by selling sacramental wine to the Catholic Church.",
+          "map": {
+            "fly": "us-st-helena",
+            "highlight": [
+              "site-us-charles-krug",
+              "site-us-beringer-rhine-house",
+              "site-us-inglenook",
+              "site-us-beaulieu-vineyard"
+            ],
+            "label": "Napa's historic cellars"
+          }
+        },
+        {
+          "text": "Recovery had a Russian accent. In 1938 de Latour hired André Tchelistcheff, a Russian émigré trained in France, who brought cold fermentation, hygiene and small French oak barrels to [Beaulieu](site-us-beaulieu-vineyard). His Georges de Latour Private Reserve, from vines on the gravelly west side of Rutherford, became the model for Napa Cabernet, and he is the source of the valley's favourite saying: it takes Rutherford dust to grow great Cabernet.\n\nThe second founder of modern Napa was a Krug heir. After a family quarrel, Robert Mondavi left Charles Krug and in 1966 built the [first major new winery in the valley since Prohibition](event-mondavi-1966), on the To Kalon vineyard at Oakville. He preached varietal labels, French oak and open tasting rooms, and he sold dry, oaked Sauvignon Blanc under a name he invented, Fumé Blanc.",
+          "map": {
+            "fly": {
+              "lon": -122.42,
+              "lat": 38.452,
+              "zoom": 12.2
+            },
+            "highlight": [
+              "site-us-beaulieu-vineyard",
+              "site-us-inglenook",
+              "site-us-robert-mondavi-winery",
+              "site-us-to-kalon"
+            ],
+            "label": "Rutherford and Oakville"
+          }
+        },
+        {
+          "text": "One more date explains why the valley still looks the way it does. In 1968 Napa County created the Agricultural Preserve, the first of its kind in the United States, which zoned the valley floor for farming and forbade carving it into small lots. Look at the satellite view: vines run almost unbroken from Yountville to Calistoga, while about 110 km south, Silicon Valley's orchards became parking lots.\n\nThe preserve is why Napa land is so expensive (there will never be more of it), and why the valley's 475-odd wineries, about 95 percent of them family-owned according to the Napa Valley Vintners, sit among vineyards rather than subdivisions.",
+          "map": {
+            "fly": {
+              "lon": -122.4,
+              "lat": 38.435,
+              "zoom": 13.4
+            },
+            "highlight": [
+              "us-oakville"
+            ],
+            "label": "Valley floor, Oakville",
+            "base": "satellite"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Robert Mondavi Napa Valley Cabernet Sauvignon",
+          "why": "The house that rebuilt Napa still makes a benchmark valley blend. Notice the cassis and plum, the cedar and vanilla of French oak, and a soft, ripe tannin: the style Mondavi set out to sell to America.",
+          "price": "$38–55",
+          "try": [
+            "Robert Mondavi Winery"
+          ],
+          "place": "us-oakville"
+        },
+        {
+          "wine": "Napa Valley Fumé Blanc or Sauvignon Blanc",
+          "why": "Mondavi's invention: Sauvignon Blanc with some barrel age, rounder than New Zealand's version, with melon, citrus and a smoky edge. An affordable way to taste Napa's warmth.",
+          "price": "$25–35",
+          "try": [
+            "Robert Mondavi Fumé Blanc",
+            "Frog's Leap Sauvignon Blanc"
+          ],
+          "place": "us-napa-valley"
+        }
+      ],
+      "deeper": [
+        "site-us-charles-krug",
+        "site-us-inglenook",
+        "site-us-beaulieu-vineyard",
+        "site-us-robert-mondavi-winery",
+        "event-prohibition-us",
+        "event-mondavi-1966",
+        "event-phylloxera-california"
+      ],
+      "check": [
+        {
+          "q": "How did Beaulieu Vineyard survive Prohibition?",
+          "options": [
+            "By exporting to France",
+            "By making sacramental wine for the Church",
+            "By selling grape juice concentrate only",
+            "By closing and reopening in 1933"
+          ],
+          "answer": 1,
+          "why": "Georges de Latour won a contract to supply altar wine, which was legal throughout Prohibition."
+        },
+        {
+          "q": "What did Napa's 1968 Agricultural Preserve do?",
+          "options": [
+            "Created the first AVA",
+            "Banned new wineries",
+            "Zoned the valley floor for agriculture and stopped subdivision into small lots",
+            "Set maximum yields for Cabernet"
+          ],
+          "answer": 2,
+          "why": "It protected farmland from development, which is why the valley floor is still continuous vineyard."
+        },
+        {
+          "q": "Robert Mondavi's 1966 winery was built on which famous vineyard?",
+          "options": [
+            "To Kalon",
+            "Martha's Vineyard",
+            "Monte Rosso",
+            "Eisele"
+          ],
+          "answer": 0,
+          "why": "To Kalon, first planted by H.W. Crabb in the 19th century, lies on the western bench of Oakville."
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "part": "intro",
+      "title": "Paris, 1976",
+      "steps": [
+        {
+          "text": "On 24 May 1976 Steven Spurrier, an English wine merchant in Paris, set up a blind tasting to show off California wines he admired. He expected them to lose. Nine French judges (two more, including Spurrier, tasted but were not counted) scored ten Cabernet-based reds and ten Chardonnays without knowing which were French. Only one journalist, George Taber of *Time*, bothered to come.\n\nThe winning red was the 1973 S.L.V. Cabernet from [Stag's Leap Wine Cellars](site-us-stags-leap-wine-cellars), from vines Warren Winiarski, a former Chicago lecturer, had planted only in 1970. It beat Mouton Rothschild 1970 and Haut-Brion 1970. The story, under the headline \"Judgment of Paris\", went around the world, and the [tasting](event-judgment-of-paris) became the founding myth of New World wine.",
+          "map": {
+            "fly": {
+              "lon": -122.325,
+              "lat": 38.395,
+              "zoom": 13.2
+            },
+            "highlight": [
+              "us-stags-leap-district",
+              "site-us-stags-leap-wine-cellars"
+            ],
+            "label": "Stags Leap District"
+          }
+        },
+        {
+          "text": "Why here? The [Stags Leap District](us-stags-leap-district), a small bowl on the Silverado Trail, sits under bare volcanic palisades that soak up the day's heat, while the afternoon wind from San Pablo Bay funnels through and cools the vines. The result is Cabernet that is ripe and silky on the outside with a firm core. Tilt the map and look east at the cliffs that give the place its name.\n\nThe atlas spells it without an apostrophe for a reason: Stag's Leap Wine Cellars and its neighbour Stags' Leap Winery fought for years over the name, and the government drew the AVA in 1989 with no apostrophe at all.",
+          "map": {
+            "fly": {
+              "lon": -122.335,
+              "lat": 38.398,
+              "zoom": 13.4
+            },
+            "highlight": [
+              "us-stags-leap-district"
+            ],
+            "label": "The palisades",
+            "terrain": true,
+            "pitch": 62,
+            "bearing": 75
+          }
+        },
+        {
+          "text": "The white flight went to [Chateau Montelena](site-us-chateau-montelena), a stone château built in 1882 under Mount St. Helena at the hot northern end of the valley, near [Calistoga](us-calistoga). Jim Barrett had revived it in 1972, and his winemaker Mike Grgich, a Croatian immigrant, made the 1973 Chardonnay that beat Meursault Charmes and Bâtard-Montrachet. Three of the top four whites were Californian.\n\nThe lesson the French drew was not that California was better, but that it could compete. Within three years Baron Philippe de Rothschild of Mouton, the château that came second, had joined Robert Mondavi to make Opus One, first vintage 1979, across the road from To Kalon.",
+          "map": {
+            "fly": "site-us-chateau-montelena",
+            "highlight": [
+              "site-us-chateau-montelena",
+              "us-calistoga"
+            ],
+            "label": "Chateau Montelena"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Stag's Leap Wine Cellars Artemis Cabernet Sauvignon",
+          "why": "The estate's Napa Valley blend, built around its Stags Leap fruit. Feel the texture: fine, velvety tannin with dark cherry and a little dried herb. The S.L.V. that won in Paris costs four times as much.",
+          "price": "$55–80",
+          "try": [
+            "Stag's Leap Wine Cellars"
+          ],
+          "place": "us-stags-leap-district"
+        },
+        {
+          "wine": "Chateau Montelena Napa Valley Chardonnay",
+          "why": "Still made in a restrained style without full malolactic softening, so it tastes of lemon, pear and stone rather than butter. It ages well for a decade.",
+          "price": "$65–80",
+          "try": [
+            "Chateau Montelena"
+          ],
+          "place": "us-calistoga"
+        }
+      ],
+      "deeper": [
+        "event-judgment-of-paris",
+        "site-us-stags-leap-wine-cellars",
+        "site-us-chateau-montelena",
+        "us-stags-leap-district",
+        "us-calistoga",
+        "site-us-mayacamas",
+        "site-us-ridge-monte-bello"
+      ],
+      "check": [
+        {
+          "q": "Which wine won the red flight at the 1976 Paris tasting?",
+          "options": [
+            "Château Mouton Rothschild 1970",
+            "Stag's Leap Wine Cellars S.L.V. 1973",
+            "Ridge Monte Bello 1971",
+            "Heitz Martha's Vineyard 1970"
+          ],
+          "answer": 1,
+          "why": "Winiarski's 1973 Cabernet, from vines planted only three years earlier, finished first; Mouton was second."
+        },
+        {
+          "q": "Why does Stags Leap Cabernet tend to be both ripe and fresh?",
+          "options": [
+            "It is grown above the fog line",
+            "Bare volcanic cliffs radiate heat while afternoon bay winds cool the vines",
+            "It is always harvested in August",
+            "It grows on chalk"
+          ],
+          "answer": 1,
+          "why": "The palisades warm the bowl and the bay breeze tempers it, giving ripe fruit with a firm core."
+        },
+        {
+          "q": "Who made Chateau Montelena's winning 1973 Chardonnay?",
+          "options": [
+            "André Tchelistcheff",
+            "Mike Grgich",
+            "Robert Mondavi",
+            "Warren Winiarski"
+          ],
+          "answer": 1,
+          "why": "Mike Grgich was Montelena's winemaker; he later founded Grgich Hills."
+        }
+      ]
+    },
+    {
+      "id": "floor",
+      "part": "intro",
+      "title": "Benches, cult wines and the price of Napa",
+      "steps": [
+        {
+          "text": "Back to Rutherford dust. On the west side of the valley floor, streams draining the Mayacamas have spread gravel fans (called [alluvial fans](soil-alluvial-fans), wedges of stony debris left where a creek leaves the hills) across the flat. Locals call this strip the Rutherford Bench. Gravel drains fast, so vines stay moderately stressed, berries stay small and the wine gains that fine, cocoa-powder tannin Tchelistcheff called dust.\n\nSwitch to satellite. Rutherford's famous names line this strip along Highway 29: Inglenook, Beaulieu, and further south, in [Oakville](us-oakville), the [To Kalon](site-us-to-kalon) vineyard, [Opus One](site-us-opus-one) and the old [Martha's Vineyard](site-us-heitz-marthas-vineyard) that Heitz bottled separately from 1966, one of the first single-vineyard Cabernets in America.",
+          "map": {
+            "fly": {
+              "lon": -122.418,
+              "lat": 38.448,
+              "zoom": 14.0
+            },
+            "highlight": [
+              "site-us-to-kalon",
+              "site-us-opus-one",
+              "site-us-heitz-marthas-vineyard",
+              "site-us-inglenook"
+            ],
+            "label": "The western bench",
+            "base": "satellite"
+          }
+        },
+        {
+          "text": "In the 1990s Napa invented a new kind of wine: the cult Cabernet. Tiny estates making a few hundred cases, sold only to a mailing list, scored perfect marks from critics and resold for many times their release price. The archetype is [Screaming Eagle](site-us-screaming-eagle), whose first wine was the 1992 from a small Oakville vineyard Jean Phillips bought in 1986. [Harlan Estate](site-us-harlan-estate), on the hills west of Oakville, is its peer. Today a bottle of either changes hands for well over $1,000, Screaming Eagle for several thousand, while Opus One sits around $350–450.\n\nThat is the top of a steep pyramid. Napa grows only about 4 percent of California's wine grapes, yet a ton of its Cabernet sells for several times the state average, so even an ordinary Napa Valley Cabernet rarely costs under $35.",
+          "map": {
+            "fly": {
+              "lon": -122.4,
+              "lat": 38.432,
+              "zoom": 12.6
+            },
+            "highlight": [
+              "site-us-screaming-eagle",
+              "site-us-harlan-estate",
+              "site-us-opus-one",
+              "site-us-dominus-napanook",
+              "us-oakville"
+            ],
+            "label": "Oakville's famous names"
+          }
+        },
+        {
+          "text": "If Napa is too dear, look south and to the edges. [Los Carneros](us-los-carneros), the windy clay hills on the bay, was one of the first AVAs drawn by climate rather than by county (1983) and is where Champagne and Cava houses planted for sparkling wine: Taittinger's [Domaine Carneros](site-us-domaine-carneros), Freixenet's Gloria Ferrer. [Coombsville](us-coombsville), a cool bowl of volcanic hills east of the city of Napa, gives fresher, cheaper Cabernet than the famous middle valley.\n\nThe general rule for value in Napa: cooler sub-AVAs, lesser-known grapes (Merlot, Cabernet Franc, Sauvignon Blanc) and sparkling wine all cost far less than Cabernet from Oakville or Rutherford.",
+          "map": {
+            "fly": {
+              "lon": -122.33,
+              "lat": 38.28,
+              "zoom": 10.8
+            },
+            "highlight": [
+              "us-los-carneros",
+              "us-coombsville",
+              "site-us-domaine-carneros"
+            ],
+            "label": "Carneros and Coombsville"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Oakville or Rutherford Cabernet Sauvignon",
+          "why": "Now taste the bench. Compared with the Mondavi valley blend, look for more concentration and a drier, chalkier grip on the finish: the 'dust'. It will improve for 10 to 20 years.",
+          "price": "$60–90",
+          "try": [
+            "Groth Oakville",
+            "Beaulieu Vineyard Rutherford Reserve",
+            "Frog's Leap Rutherford"
+          ],
+          "place": "us-oakville"
+        },
+        {
+          "wine": "Carneros traditional-method sparkling wine",
+          "why": "Bay wind keeps Carneros Chardonnay and Pinot Noir crisp enough for bubbles made the Champagne way. A brilliant value, and a reminder that Napa is not only Cabernet.",
+          "price": "$25–40",
+          "try": [
+            "Domaine Carneros Brut",
+            "Gloria Ferrer Sonoma Brut"
+          ],
+          "place": "us-los-carneros"
+        }
+      ],
+      "deeper": [
+        "us-rutherford",
+        "us-oakville",
+        "site-us-to-kalon",
+        "site-us-screaming-eagle",
+        "site-us-harlan-estate",
+        "us-los-carneros",
+        "soil-alluvial-fans",
+        "term-garagiste"
+      ],
+      "check": [
+        {
+          "q": "What is the Rutherford Bench?",
+          "options": [
+            "A mountain AVA above the fog",
+            "Gravelly alluvial fans on the west side of the valley floor",
+            "A row of wineries on the Silverado Trail",
+            "A sandbar in San Pablo Bay"
+          ],
+          "answer": 1,
+          "why": "Gravel washed down from the Mayacamas forms well-drained fans along Highway 29, the ground that made Beaulieu and Inglenook famous."
+        },
+        {
+          "q": "What defined a 1990s Napa 'cult Cabernet'?",
+          "options": [
+            "Large production sold in supermarkets",
+            "Tiny production sold by mailing list at very high prices",
+            "Organic certification",
+            "Grapes from Sonoma"
+          ],
+          "answer": 1,
+          "why": "Screaming Eagle and its peers made a few hundred cases, sold to mailing lists, and became trophies on the resale market."
+        },
+        {
+          "q": "Where in Napa are you most likely to find good-value sparkling wine?",
+          "options": [
+            "Howell Mountain",
+            "Calistoga",
+            "Los Carneros",
+            "Stags Leap District"
+          ],
+          "answer": 2,
+          "why": "Cool, windy Carneros suits Chardonnay and Pinot Noir for traditional-method sparkling wine."
+        }
+      ]
+    },
+    {
+      "id": "sonoma-valley",
+      "part": "intro",
+      "title": "Sonoma: where it began, and the cool west",
+      "steps": [
+        {
+          "text": "Cross the Mayacamas west and you are in the [Sonoma Valley](us-sonoma-valley), the 'Valley of the Moon', where wine in northern California really began. Franciscans founded [Mission San Francisco Solano](site-us-mission-san-francisco-solano) here in 1823, the last and northernmost of California's 21 missions. In 1856 the Hungarian adventurer Agoston Haraszthy bought land nearby, called it [Buena Vista](site-us-buena-vista) and dug the first stone wine cellars in the state. In 1861 he came back from Europe with more than [100,000 vine cuttings](event-haraszthy) of over 350 varieties.\n\nUp the valley at Glen Ellen, Jack London bought a ranch in 1905 that included the ruins of an old winery, and in 1913 published a novel, *The Valley of the Moon*, that made the old nickname famous.",
+          "map": {
+            "fly": {
+              "lon": -122.48,
+              "lat": 38.33,
+              "zoom": 11.0
+            },
+            "highlight": [
+              "site-us-mission-san-francisco-solano",
+              "site-us-buena-vista",
+              "site-us-gundlach-bundschu",
+              "site-us-hanzell",
+              "us-sonoma-mountain"
+            ],
+            "label": "Sonoma Valley"
+          }
+        },
+        {
+          "text": "Prohibition hit Sonoma even harder than Napa: of roughly 256 wineries in the county in the 1920s, fewer than 50 survived to 1933. The modern revival came from Burgundy lovers. James Zellerbach planted [Hanzell](site-us-hanzell) above the town of Sonoma in 1953 and brought French oak barrels to California. In the 1970s and 1980s Joseph Swan, the Rochioli family, [Williams Selyem](site-us-williams-selyem), Dehlinger and [Kistler](site-us-kistler) proved that the foggy [Russian River Valley](us-russian-river-valley) could make Pinot Noir and Chardonnay of real class.\n\nWestside Road, which follows the river south of Healdsburg, is the valley's Pinot Noir 'golden mile', with [Rochioli](site-us-rochioli) and Williams Selyem a few hundred metres apart on the river terraces.",
+          "map": {
+            "fly": {
+              "lon": -122.86,
+              "lat": 38.52,
+              "zoom": 12.4
+            },
+            "highlight": [
+              "site-us-rochioli",
+              "site-us-williams-selyem",
+              "site-us-kistler",
+              "us-russian-river-valley"
+            ],
+            "label": "Westside Road"
+          }
+        },
+        {
+          "text": "What makes Russian River Pinot taste the way it does? Part is the fog, and part is the soil. Much of the valley, and especially the small [Green Valley](us-green-valley-of-russian-river-valley) sub-AVA around Forestville and Sebastopol, sits on Goldridge sandy loam, the weathered sandstone of an ancient sea floor. It drains freely and holds little nutrient, which keeps vines in check.\n\nThe classic style is riper than Burgundy and darker than the true coast: black cherry, raspberry, cola and baking spice, with bright acidity underneath. Cooler Green Valley gives tauter wines and some of the state's best sparkling wine, from [Iron Horse](site-us-iron-horse), whose bubbles were poured at the Reagan-Gorbachev summits.",
+          "map": {
+            "fly": {
+              "lon": -122.88,
+              "lat": 38.43,
+              "zoom": 11.8
+            },
+            "highlight": [
+              "us-green-valley-of-russian-river-valley",
+              "site-us-iron-horse"
+            ],
+            "label": "Green Valley"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Russian River Valley Pinot Noir",
+          "why": "Put it beside the Sonoma Coast Pinot from chapter one. This one is deeper and spicier, with cola and black cherry, because the valley floor warms up more in the afternoon. Same fog, different dose.",
+          "price": "$40–60",
+          "try": [
+            "Gary Farrell Russian River Selection",
+            "Williams Selyem (splurge)"
+          ],
+          "place": "us-russian-river-valley"
+        },
+        {
+          "wine": "Sonoma Valley red blend from a historic estate",
+          "why": "An easy, juicy blend from one of California's oldest family wineries, farmed on the Rhinefarm vineyard planted in 1858. Drink it for the history and the value.",
+          "price": "$17–28",
+          "try": [
+            "Gundlach Bundschu Mountain Cuvée",
+            "Buena Vista"
+          ],
+          "place": "us-sonoma-valley"
+        }
+      ],
+      "deeper": [
+        "us-sonoma-valley",
+        "site-us-buena-vista",
+        "event-haraszthy",
+        "site-us-hanzell",
+        "us-russian-river-valley",
+        "us-green-valley-of-russian-river-valley",
+        "site-us-williams-selyem",
+        "event-missions-california"
+      ],
+      "check": [
+        {
+          "q": "What did Agoston Haraszthy bring back from Europe in 1861?",
+          "options": [
+            "Oak barrels from Burgundy",
+            "More than 100,000 vine cuttings of over 350 varieties",
+            "The first Champagne press",
+            "Phylloxera-resistant rootstocks"
+          ],
+          "answer": 1,
+          "why": "His collecting trip widened the range of European varieties grown in California."
+        },
+        {
+          "q": "Which soil is associated with Russian River Valley and Green Valley Pinot Noir?",
+          "options": [
+            "Goldridge sandy loam",
+            "Kimmeridgian marl",
+            "Basalt",
+            "Chalk"
+          ],
+          "answer": 0,
+          "why": "Goldridge is a fine, sandy, free-draining loam from ancient marine sandstone."
+        },
+        {
+          "q": "Where did James Zellerbach plant Hanzell in 1953?",
+          "options": [
+            "On Howell Mountain",
+            "In the Sonoma Valley above the town of Sonoma",
+            "On the Sonoma Coast",
+            "In Carneros"
+          ],
+          "answer": 1,
+          "why": "Hanzell sits in the Mayacamas foothills above Sonoma; it pioneered French oak in California."
+        }
+      ]
+    },
+    {
+      "id": "sonoma-north",
+      "part": "intro",
+      "title": "Zinfandel country and the warm north",
+      "steps": [
+        {
+          "text": "North of Healdsburg the fog thins out and the valleys warm up. [Dry Creek Valley](us-dry-creek-valley) is a narrow valley running 25 km north-west, settled in the late 19th century by Italian families who planted [Zinfandel](grape-zinfandel) on its gravelly red benches. Zinfandel is a European grape (DNA testing showed it is the Croatian [Tribidrag, or Crljenak Kaštelanski](site-hr-kastel-novi), the same vine as Italy's Primitivo), but California made it its own.\n\nDry Creek Zinfandel is the archetype: brambly blackberry, black pepper and spice, ripe but rarely jammy. Many old vines here are [head-trained](term-head-trained), grown as free-standing bushes without a trellis, and dry-farmed, meaning they live on winter rain alone.",
+          "map": {
+            "fly": "us-dry-creek-valley",
+            "highlight": [
+              "us-dry-creek-valley",
+              "us-rockpile",
+              "site-us-ridge-lytton-springs"
+            ],
+            "label": "Dry Creek Valley"
+          }
+        },
+        {
+          "text": "Those old vineyards are rarely pure Zinfandel. Planted before anyone labelled wine by grape, they are field blends: Zinfandel interplanted with Petite Sirah, Carignan, Alicante Bouschet and Mourvèdre (called Mataro here), picked and fermented together. [Ridge Lytton Springs](site-us-ridge-lytton-springs), planted around 1900, is the famous example, and in the Sonoma Valley [Monte Rosso](site-us-monte-rosso), on red volcanic soil high in the [Moon Mountain District](us-moon-mountain-district-sonoma-county), still has [old vines](term-old-vines) from the 1880s.\n\nA field blend tastes more complex than any single grape: Zinfandel's fruit, Petite Sirah's colour and tannin, Carignan's acidity. Growers such as Bedrock's Morgan Twain-Peterson now hunt down these survivors before they are pulled out.",
+          "map": {
+            "fly": {
+              "lon": -122.47,
+              "lat": 38.34,
+              "zoom": 12.0
+            },
+            "highlight": [
+              "site-us-monte-rosso",
+              "us-moon-mountain-district-sonoma-county"
+            ],
+            "label": "Monte Rosso"
+          }
+        },
+        {
+          "text": "East of Dry Creek, the broad upper Russian River forms [Alexander Valley](us-alexander-valley), one of Sonoma's warmest corners and its Cabernet heartland. Its Cabernet is rounder and softer than Napa's, with black cherry and cocoa and gentle tannin. Jordan (founded 1972) and Silver Oak made the style famous, and [Simi](site-us-simi) has made wine at Healdsburg since 1876.\n\nThe warm north has paid a price in fire. On the night of 8 October 2017, wind-driven fires (Tubbs in Sonoma, Atlas in Napa) burned through the hills; most grapes were already picked. In 2020 lightning fires in August and the Glass Fire in late September filled both valleys with smoke, which can taint grapes with ashy flavours. Napa's wine production fell by almost 40 percent that year.",
+          "map": {
+            "fly": "us-alexander-valley",
+            "highlight": [
+              "us-alexander-valley",
+              "us-knights-valley",
+              "site-us-simi"
+            ],
+            "label": "Alexander Valley"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Dry Creek Valley or Sonoma County Zinfandel",
+          "why": "Brambles, pepper and warmth. Notice how it feels fuller and rounder than the Pinots you've had, with sweet-seeming fruit even though it is dry. Drink young, within six years or so.",
+          "price": "$18–28",
+          "try": [
+            "Dry Creek Vineyard Heritage Vines",
+            "Bedrock Old Vine Zinfandel",
+            "Seghesio Sonoma Zinfandel"
+          ],
+          "place": "us-dry-creek-valley"
+        },
+        {
+          "wine": "Ridge Lytton Springs",
+          "why": "A field blend from vines planted around 1900: Zinfandel's fruit, Petite Sirah's grip and Carignan's freshness in one glass. It ages for 15 years, unusual for Zinfandel.",
+          "price": "$40–55",
+          "try": [
+            "Ridge Vineyards"
+          ],
+          "place": "us-dry-creek-valley"
+        },
+        {
+          "wine": "Alexander Valley Cabernet Sauvignon",
+          "why": "Compare with your Napa Cabernet: softer tannin, more cherry than cassis, an easier, rounder wine to drink on release.",
+          "price": "$50–75",
+          "try": [
+            "Jordan",
+            "Silver Oak Alexander Valley"
+          ],
+          "place": "us-alexander-valley"
+        }
+      ],
+      "deeper": [
+        "us-dry-creek-valley",
+        "us-alexander-valley",
+        "us-rockpile",
+        "site-us-ridge-lytton-springs",
+        "site-us-monte-rosso",
+        "grape-zinfandel",
+        "term-old-vines",
+        "term-dry-farming"
+      ],
+      "check": [
+        {
+          "q": "What is a field blend?",
+          "options": [
+            "A blend of wines from different AVAs",
+            "Several grape varieties planted together in one vineyard and fermented together",
+            "A wine made from purchased grapes",
+            "A blend of red and white wine"
+          ],
+          "answer": 1,
+          "why": "Old California vineyards mixed Zinfandel with Petite Sirah, Carignan and others in the same rows."
+        },
+        {
+          "q": "Zinfandel is genetically identical to which grape?",
+          "options": [
+            "Primitivo",
+            "Grenache",
+            "Syrah",
+            "Petite Sirah"
+          ],
+          "answer": 0,
+          "why": "DNA work showed Zinfandel, Italy's Primitivo and Croatia's Tribidrag (Crljenak Kaštelanski) are the same variety."
+        },
+        {
+          "q": "How does Alexander Valley Cabernet usually compare with Napa Cabernet?",
+          "options": [
+            "Lighter in colour and higher in acid",
+            "Rounder and softer, with gentler tannin",
+            "Always sweeter",
+            "More herbaceous and green"
+          ],
+          "answer": 1,
+          "why": "Alexander Valley's warmth and deep valley soils give plush, approachable Cabernet."
+        }
+      ]
+    },
+    {
+      "id": "mountains",
+      "part": "deeper",
+      "title": "Mountain versus valley, in 3D",
+      "steps": [
+        {
+          "text": "Most Napa visitors only see the valley floor. Above them, on both ranges, are five mountain AVAs that make Napa's longest-lived wines. The key line is the top of the summer fog, roughly 300 to 450 m. Above it, vines get more hours of sun but cooler afternoons and nights, thinner, rockier soil and less water. Berries are smaller, skins thicker, so the wine has more colour, more tannin and higher acidity.\n\n[Howell Mountain](us-howell-mountain), on the Vaca side above St. Helena, was the first to be defined by elevation: its boundary follows the 1,400-foot (about 430 m) contour. Tilt the map and look north-east from the valley floor: the plateau rises abruptly above the town. Randy Dunn's Cabernet, from 1979, set the style: dense, iron-edged and closed for a decade.",
+          "map": {
+            "fly": {
+              "lon": -122.47,
+              "lat": 38.55,
+              "zoom": 12.2
+            },
+            "highlight": [
+              "us-howell-mountain",
+              "us-crystal-springs-of-napa-valley"
+            ],
+            "label": "Howell Mountain",
+            "terrain": true,
+            "pitch": 62,
+            "bearing": 45
+          }
+        },
+        {
+          "text": "Turn around and face west. On the Mayacamas side, three mountain AVAs climb above the valley. [Spring Mountain District](us-spring-mountain-district), directly behind St. Helena, rises to nearly 800 m with terraced vineyards in forest clearings; Stony Hill's unoaked Chardonnay (first vintage 1952) and Smith-Madrone's Riesling and Cabernet come from here. To the north, [Diamond Mountain District](us-diamond-mountain-district), on volcanic ash above Calistoga, is home to [Diamond Creek](site-us-diamond-creek), where Al Brounstein bottled separate Cabernets from neighbouring blocks from 1972, a very Burgundian idea.\n\nThe soils differ from the floor: weathered volcanic rock in the north, uplifted seabed sandstone and shale further south. Neither holds much water, which is the point.",
+          "map": {
+            "fly": {
+              "lon": -122.475,
+              "lat": 38.515,
+              "zoom": 12.0
+            },
+            "highlight": [
+              "us-spring-mountain-district",
+              "us-diamond-mountain-district",
+              "site-us-diamond-creek"
+            ],
+            "label": "Spring and Diamond Mountains",
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 280
+          }
+        },
+        {
+          "text": "Far to the south, [Mt. Veeder](us-mt-veeder) is the most rugged of all, steep forest west of the city of Napa with vineyards from about 150 to 750 m on thin marine sandstone. [Mayacamas Vineyards](site-us-mayacamas), around a stone winery of 1889, made the 1971 Cabernet that took seventh in Paris and tied for third in the 2006 rematch, by which time most of the French wines had faded.\n\nThat is the mountain bargain: wines that are hard work young and magnificent at 20. The atlas's ageing data gives Napa mountain and cult Cabernet about eight years before it opens, a peak from roughly 10 to 25 years and an outer limit near 40, against 3 years to approachability for a standard Napa Valley bottle.",
+          "map": {
+            "fly": {
+              "lon": -122.4,
+              "lat": 38.35,
+              "zoom": 12.3
+            },
+            "highlight": [
+              "us-mt-veeder",
+              "site-us-mayacamas"
+            ],
+            "label": "Mt. Veeder",
+            "terrain": true,
+            "pitch": 58,
+            "bearing": 290
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Spring Mountain District Cabernet Sauvignon",
+          "why": "A fair-priced way into mountain Napa: firm, savoury, with blackcurrant, cedar and a herbal, forest-floor note. Decant it, or better, cellar it for eight years.",
+          "price": "$55–80",
+          "try": [
+            "Smith-Madrone"
+          ],
+          "place": "us-spring-mountain-district"
+        },
+        {
+          "wine": "Mt. Veeder or Howell Mountain Cabernet (splurge)",
+          "why": "The real thing: tight, tannic and mineral now, with decades ahead of it. Buy one bottle and forget it until the 2040s.",
+          "price": "$180–250",
+          "try": [
+            "Mayacamas",
+            "Dunn Howell Mountain"
+          ],
+          "place": "us-mt-veeder"
+        }
+      ],
+      "deeper": [
+        "us-howell-mountain",
+        "us-spring-mountain-district",
+        "us-diamond-mountain-district",
+        "us-mt-veeder",
+        "us-atlas-peak",
+        "site-us-mayacamas",
+        "site-us-diamond-creek"
+      ],
+      "check": [
+        {
+          "q": "Howell Mountain's boundary follows which feature?",
+          "options": [
+            "The county line",
+            "The 1,400-foot (about 430 m) contour, near the top of the summer fog",
+            "A river",
+            "The San Andreas fault"
+          ],
+          "answer": 1,
+          "why": "It was one of the first AVAs defined by elevation, drawn to include only vineyards above the fog layer."
+        },
+        {
+          "q": "Why do mountain Cabernets usually have more tannin than valley-floor wines?",
+          "options": [
+            "Winemakers add more oak",
+            "Thin, poor soils and sun give smaller berries with thicker skins",
+            "They are made with stems",
+            "They are picked earlier in summer"
+          ],
+          "answer": 1,
+          "why": "Less water and nutrient means small berries, and a higher ratio of skin to juice gives more colour and tannin."
+        },
+        {
+          "q": "What did Al Brounstein do at Diamond Creek from 1972?",
+          "options": [
+            "Bottled Cabernets from neighbouring blocks separately",
+            "Made the first Napa sparkling wine",
+            "Planted Zinfandel",
+            "Founded the Agricultural Preserve"
+          ],
+          "answer": 0,
+          "why": "Volcanic Hill, Red Rock Terrace and Gravelly Meadow were bottled apart to show differences of site."
+        }
+      ]
+    },
+    {
+      "id": "true-coast",
+      "part": "deeper",
+      "title": "The true coast and the newer AVAs",
+      "steps": [
+        {
+          "text": "Now go to the edge. On the ridges above the Pacific, between redwood forest and the sea, some of California's most exciting Pinot Noir grows above the fog. In 1980 David Hirsch planted on a ridge where the San Andreas fault runs along the bottom of the slope; [Hirsch Vineyards](site-us-hirsch) sits a few kilometres from the old Russian colony at [Fort Ross](site-us-fort-ross), founded in 1812, where settlers are said to have planted vines by 1817.\n\n[Fort Ross-Seaview](us-fort-ross-seaview), approved in 2011, takes in ridgetops mostly above about 280 m (920 feet). Up there the sun shines while the fog fills the valleys below, and cold air drains off at night. Yields are tiny and the wines combine coastal brightness with real concentration: Flowers, Marcassin and Hirsch made the name.",
+          "map": {
+            "fly": {
+              "lon": -123.24,
+              "lat": 38.535,
+              "zoom": 12.0
+            },
+            "highlight": [
+              "us-fort-ross-seaview",
+              "site-us-hirsch",
+              "site-us-fort-ross"
+            ],
+            "label": "Fort Ross-Seaview",
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 60
+          }
+        },
+        {
+          "text": "The AVA map keeps getting more precise, and the newer names are worth knowing because they tell you more than the old ones. [West Sonoma Coast](us-west-sonoma-coast) (2022) is the cold band nearest the ocean that the 1987 Sonoma Coast name never really described. The [Petaluma Gap](us-petaluma-gap) (2017) is the windy south. [Moon Mountain District](us-moon-mountain-district-sonoma-county) (2013) carves the steep Mayacamas slopes out of the Sonoma Valley, and [Fountaingrove District](us-fountaingrove-district) (2015) covers the hills above Santa Rosa that the Tubbs Fire swept through in 2017.\n\nIn Napa, [Coombsville](us-coombsville) (2011) and [Crystal Springs of Napa Valley](us-crystal-springs-of-napa-valley) (2024) did the same job: Crystal Springs is an all-hillside strip whose boundary stops exactly where Howell Mountain begins.",
+          "map": {
+            "fly": {
+              "lon": -122.85,
+              "lat": 38.42,
+              "zoom": 8.9
+            },
+            "highlight": [
+              "us-west-sonoma-coast",
+              "us-petaluma-gap",
+              "us-moon-mountain-district-sonoma-county",
+              "us-fountaingrove-district",
+              "us-coombsville",
+              "us-crystal-springs-of-napa-valley"
+            ],
+            "label": "Newer AVAs"
+          }
+        },
+        {
+          "text": "Look closely at the [Petaluma Gap](us-petaluma-gap) in 3D. The low ground between Bodega Bay and the Petaluma River is a trough in the coastal hills, and most summer afternoons the wind picks up as the inland valleys heat and pull ocean air through it. The petition that created the AVA rested on wind speeds well above those of the surrounding areas.\n\nWind does more than cool. Vines exposed to it partly close the pores on their leaves, so ripening slows, and grapes grow thicker skins as protection. That is why Petaluma Gap Pinot Noir is darker and firmer than its fog-only neighbours, and why the gap makes some of California's most peppery, northern-Rhône-like [Syrah](grape-syrah). About 4,000 acres are planted inside an AVA of some 200,000.",
+          "map": {
+            "fly": {
+              "lon": -122.76,
+              "lat": 38.22,
+              "zoom": 11.0
+            },
+            "highlight": [
+              "us-petaluma-gap"
+            ],
+            "label": "The wind gap",
+            "terrain": true,
+            "pitch": 55,
+            "bearing": 110
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Sonoma Coast Pinot Noir from a ridge-top estate",
+          "why": "Compare with the La Crema from chapter one: paler, more perfumed, with cranberry, blood orange and a salty, stony finish. This is what the coast name was supposed to mean.",
+          "price": "$45–60",
+          "try": [
+            "Flowers Sonoma Coast"
+          ],
+          "place": "us-west-sonoma-coast"
+        },
+        {
+          "wine": "Fort Ross-Seaview estate Pinot Noir (splurge)",
+          "why": "Fault-line Pinot: taut and savoury, with real tannin for a Pinot. It needs five years to show its best.",
+          "price": "$75–90",
+          "try": [
+            "Hirsch San Andreas Fault"
+          ],
+          "place": "us-fort-ross-seaview"
+        }
+      ],
+      "deeper": [
+        "us-west-sonoma-coast",
+        "us-fort-ross-seaview",
+        "site-us-hirsch",
+        "site-us-fort-ross",
+        "us-petaluma-gap",
+        "us-moon-mountain-district-sonoma-county",
+        "us-fountaingrove-district",
+        "us-coombsville"
+      ],
+      "check": [
+        {
+          "q": "Why do Fort Ross-Seaview vineyards sit mostly above about 280 m?",
+          "options": [
+            "To avoid phylloxera",
+            "To stay above the marine fog and get sun while cold air drains away",
+            "Because the law requires it for Pinot Noir",
+            "To be closer to the redwoods"
+          ],
+          "answer": 1,
+          "why": "Ridgetops above the marine layer get sunshine and cool nights, while the valleys below stay foggy."
+        },
+        {
+          "q": "Which is the newest AVA in this list?",
+          "options": [
+            "Sonoma Coast",
+            "Petaluma Gap",
+            "West Sonoma Coast",
+            "Crystal Springs of Napa Valley"
+          ],
+          "answer": 3,
+          "why": "Crystal Springs of Napa Valley took effect in 2024; West Sonoma Coast dates from 2022, Petaluma Gap from 2017, Sonoma Coast from 1987."
+        },
+        {
+          "q": "What runs along the base of the ridges at Hirsch Vineyards?",
+          "options": [
+            "The Russian River",
+            "The San Andreas fault",
+            "Highway 29",
+            "The Napa River"
+          ],
+          "answer": 1,
+          "why": "Hirsch sits on the fault zone, which is why its entry-level Pinot is called San Andreas Fault."
+        }
+      ]
+    },
+    {
+      "id": "vintages",
+      "part": "deeper",
+      "title": "Fire, smoke and reading a vintage",
+      "steps": [
+        {
+          "text": "California has a reputation for sunshine every year, and in one sense it's true: Napa ripens Cabernet fully almost every season. But vintages still differ, and the atlas's vintage timeline for Napa shows how. 2011 was cool and wet, with rain at flowering and mid-October rain that brought rot. 2012, 2013, 2016, 2018 and 2019 were near-ideal, long, even seasons. 2021 was a drought year that gave tiny berries and concentrated, tannic wines. 2022 had five days of triple-digit heat in early September. 2023 was the longest, coolest season in a decade, with picking from Labor Day to mid-November.\n\nFor a newcomer the rule is simple: in a warm region, cool years are the classics. Wines from 2019 and 2023 tend to be fresher and more balanced than those from hot, fast years.",
+          "map": {
+            "fly": "us-napa-valley",
+            "highlight": [
+              "us-napa-valley"
+            ],
+            "label": "Napa Valley vintages"
+          }
+        },
+        {
+          "text": "Then there is fire. On 8 October 2017 the Atlas Fire started on [Atlas Peak](us-atlas-peak) and the Tubbs Fire swept from Calistoga into Santa Rosa; nearly 90 percent of Napa's grapes were already in, so 2017 is mostly fine. 2020 was different. The LNU Lightning Complex fires from 17 August and the Glass Fire from 27 September, which burned estates on Spring Mountain and Howell Mountain, sent smoke through the valleys while the Cabernet was still hanging.\n\nSmoke compounds (volatile phenols) pass through grape skins and bind to sugars, then show up in the wine as ash, campfire or a bitter, dry finish. Many wineries made no 2020 red at all. If you see a 2020 Napa Cabernet, it was sorted and lab-tested; some are lovely, but buy from producers you trust.",
+          "map": {
+            "fly": {
+              "lon": -122.4,
+              "lat": 38.5,
+              "zoom": 10.4
+            },
+            "highlight": [
+              "us-atlas-peak",
+              "us-spring-mountain-district",
+              "us-howell-mountain",
+              "us-fountaingrove-district"
+            ],
+            "label": "2017 and 2020 fire country"
+          }
+        },
+        {
+          "text": "How long to keep what you buy? The atlas's ageing profiles give a sensible frame. A standard Napa Valley Cabernet is ready at about 3 years and best from 4 to 10. A premium estate Cabernet wants 6 years and peaks from about 8 to 20. Russian River Pinot Noir is ready at 3 and best to about 10, single vineyards to 14. Most Zinfandel is best by year 6, though old-vine field blends like Lytton Springs peak up to about year 10 and keep to 15.\n\nOne caveat from the same data: riper, higher-alcohol, new-oak styles are seductive young and peak earlier, while estates that pick earlier and use less new oak make wines that age more like their European models. Style matters as much as place.",
+          "map": {
+            "fly": "region-us-sonoma-county",
+            "highlight": [
+              "us-russian-river-valley",
+              "us-dry-creek-valley",
+              "us-alexander-valley",
+              "us-sonoma-valley"
+            ],
+            "label": "Sonoma ageing"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "A cool-vintage Napa Cabernet to cellar (2019 or 2023)",
+          "why": "Buy two bottles of the same wine, open one now and one in 2035. Beaulieu's Georges de Latour Private Reserve, the wine Tchelistcheff built, is the historic choice.",
+          "price": "$150–180",
+          "try": [
+            "Beaulieu Vineyard Georges de Latour Private Reserve"
+          ],
+          "place": "us-rutherford"
+        },
+        {
+          "wine": "Napa Valley Cabernet, classic style",
+          "why": "From estates that never chased extreme ripeness. Expect moderate alcohol, more red fruit and a lighter touch of new oak than the blockbusters; these age gracefully for 15 to 20 years.",
+          "price": "$55–90",
+          "try": [
+            "Chateau Montelena Napa Valley",
+            "Frog's Leap Napa Valley"
+          ],
+          "place": "us-napa-valley"
+        }
+      ],
+      "deeper": [
+        "us-napa-valley",
+        "us-atlas-peak",
+        "us-fountaingrove-district",
+        "region-us-sonoma-county",
+        "us-rutherford",
+        "term-old-vines"
+      ],
+      "check": [
+        {
+          "q": "Why was 2020 more damaging than 2017 for Napa reds?",
+          "options": [
+            "The 2017 fires happened in spring",
+            "In 2017 most grapes were already picked; in 2020 smoke arrived while Cabernet was still on the vine",
+            "2020 had frost as well",
+            "2017 had no fires in Napa"
+          ],
+          "answer": 1,
+          "why": "Timing is everything: the October 2017 fires came after nearly 90 percent of the crop was in, while 2020's fires began in August."
+        },
+        {
+          "q": "How does smoke taint show up in wine?",
+          "options": [
+            "As a sweet, jammy taste",
+            "As ash, campfire or a bitter, dry finish",
+            "As fizziness",
+            "As a brown colour"
+          ],
+          "answer": 1,
+          "why": "Volatile phenols from smoke bind to grape sugars and are released in the wine as smoky, ashy flavours."
+        },
+        {
+          "q": "According to the atlas's ageing profiles, when is a standard Napa Valley Cabernet usually ready?",
+          "options": [
+            "Immediately on release",
+            "About 3 years after the vintage",
+            "After 15 years",
+            "Never; it should be drunk within a year"
+          ],
+          "answer": 1,
+          "why": "Standard Napa Cabernet is approachable at about 3 years and best from 4 to 10."
+        }
+      ]
+    },
+    {
+      "id": "styles",
+      "part": "deeper",
+      "title": "Producers by style, and where the value is",
+      "steps": [
+        {
+          "text": "By now you've tasted the range. The last skill is reading a producer's style, because in California it often matters more than the AVA. Since the 1990s Napa has argued with itself over ripeness. One camp picks late for lush, very ripe fruit, 15 percent alcohol or more and lots of new oak: think Caymus, whose dark, sweet-seeming Napa Valley Cabernet is one of the best-selling luxury reds in America. The other camp picks earlier for freshness and lower alcohol: Cathy Corison at St. Helena, Mayacamas, Matthiasson, Dominus at [Yountville](us-yountville).\n\nNeither is wrong. The ripe style is generous on release; the restrained style ages longer and pairs better with food. Labels rarely tell you which you're buying, so learn the names.",
+          "map": {
+            "fly": {
+              "lon": -122.43,
+              "lat": 38.46,
+              "zoom": 11.4
+            },
+            "highlight": [
+              "us-st-helena",
+              "us-rutherford",
+              "us-yountville",
+              "site-us-dominus-napanook"
+            ],
+            "label": "Mid-valley producers"
+          }
+        },
+        {
+          "text": "In Sonoma the same split runs through Pinot Noir: plush, cola-and-cherry Russian River wines on one side, and on the other the coastal growers who pick early and use whole clusters (fermenting the bunches with their stems for spice and freshness). Ridge-top estates like Hirsch, Littorai and Peay lead that camp.\n\nFor value, Sonoma beats Napa almost every time. A Sonoma County Cabernet costs half a Napa one; Dry Creek Zinfandel and old-vine field blends from Bedrock or Ridge give real character for $20–45; Carneros sparkling wine and Russian River Chardonnay are among the best deals in California. Keep Napa for the special bottles, and drink Sonoma the rest of the week.",
+          "map": {
+            "fly": "region-us-sonoma-county",
+            "highlight": [
+              "us-west-sonoma-coast",
+              "us-russian-river-valley",
+              "us-dry-creek-valley",
+              "us-los-carneros"
+            ],
+            "label": "Sonoma value"
+          }
+        },
+        {
+          "text": "A last word on how these wines are sold, because it explains many prices. Much of the best wine from both counties never reaches a shop. Small estates sell most of their production directly, through a mailing list or a wine club, and the top Napa names are 'allocated': you may wait years to be offered a few bottles. Shop prices for those wines are resale prices, sometimes several times the winery's own.\n\nSo shop the other way round. Buy the second wines and appellation blends of great estates (Stag's Leap's Artemis rather than S.L.V., Ridge's Lytton Springs rather than Monte Bello), look for single-vineyard names you have met in this guide, such as To Kalon, Monte Rosso, Rochioli or Hirsch, on the labels of smaller producers who buy grapes there, and visit: tasting rooms in both valleys sell library wines you will not see elsewhere.",
+          "map": {
+            "fly": {
+              "lon": -122.62,
+              "lat": 38.44,
+              "zoom": 9.4
+            },
+            "highlight": [
+              "site-us-to-kalon",
+              "site-us-monte-rosso",
+              "site-us-rochioli",
+              "site-us-hirsch",
+              "site-us-stags-leap-wine-cellars",
+              "site-us-ridge-lytton-springs"
+            ],
+            "label": "Names to look for"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Two Napa Cabernets, two philosophies",
+          "why": "Taste a ripe-style and a restrained-style Napa Cabernet side by side. The first is darker, sweeter-tasting and velvety; the second has more red fruit, acidity and tannic grip. Decide which camp you're in.",
+          "price": "$80–140",
+          "try": [
+            "Caymus Napa Valley (ripe)",
+            "Corison Napa Valley (restrained)"
+          ],
+          "place": "us-st-helena"
+        }
+      ],
+      "deeper": [
+        "us-st-helena",
+        "us-yountville",
+        "site-us-dominus-napanook",
+        "term-whole-bunch-fermentation",
+        "us-dry-creek-valley",
+        "us-los-carneros"
+      ],
+      "check": [
+        {
+          "q": "What is the main stylistic argument in modern Napa Cabernet?",
+          "options": [
+            "Screwcap versus cork",
+            "Very ripe, high-alcohol wines versus earlier-picked, fresher ones",
+            "Oak versus no oak at all",
+            "Blending with Zinfandel"
+          ],
+          "answer": 1,
+          "why": "Producers divide over picking dates: ripe and lush versus restrained and age-worthy."
+        },
+        {
+          "q": "What does whole-cluster fermentation add to Pinot Noir?",
+          "options": [
+            "Sweetness",
+            "Spice, freshness and firmer structure from the stems",
+            "Bubbles",
+            "Deeper colour"
+          ],
+          "answer": 1,
+          "why": "Fermenting intact bunches with stems adds aromatic spice and a firmer frame."
+        },
+        {
+          "q": "Where will you usually find better value: Napa or Sonoma?",
+          "options": [
+            "Napa",
+            "Sonoma",
+            "They cost the same",
+            "Neither sells wine under $50"
+          ],
+          "answer": 1,
+          "why": "Sonoma's larger, more varied vineyard and less famous name make its wines cheaper for comparable quality."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "pinot-noir",
+    "bordeaux",
+    "burgundy",
+    "new-zealand"
+  ],
+  "sources": [
+    {
+      "title": "TTB: Wine labeling, appellation of origin (85 percent AVA, 75 percent county rules)",
+      "url": "https://ttb.gov/regulated-commodities/beverage-alcohol/wine/labeling-wine/wine-labeling-appellation-of-origin"
+    },
+    {
+      "title": "TTB: Established American Viticultural Areas",
+      "url": "https://www.ttb.gov/wine/established-avas"
+    },
+    {
+      "title": "Napa Valley Vintners: Napa Valley fast facts",
+      "url": "https://napavintners.com/press/docs/napa_valley_fast_facts.pdf"
+    },
+    {
+      "title": "Napa Valley Vintners: vintage charts",
+      "url": "https://napavintners.com/napa_valley/vintage_charts.asp"
+    },
+    {
+      "title": "Sonoma County Winegrape Commission: fact sheet (2026)",
+      "url": "https://sonomawinegrape.org/wp-content/uploads/2026/05/Fact-Sheet.pdf"
+    },
+    {
+      "title": "Sonoma County Tourism: wine areas and AVAs",
+      "url": "https://www.sonomacounty.com/wine/wine-areas-avas/"
+    },
+    {
+      "title": "Federal Register: West Sonoma Coast AVA final rule (2022)",
+      "url": "https://www.federalregister.gov/documents/2022/05/23/2022-10590/establishment-of-the-west-sonoma-coast-viticultural-area"
+    },
+    {
+      "title": "Federal Register: Petaluma Gap AVA final rule (2017)",
+      "url": "https://www.federalregister.gov/documents/2017/12/07/2017-26410/establishment-of-the-petaluma-gap-viticultural-area-and-modification-of-the-north-coast-viticultural-area"
+    },
+    {
+      "title": "Federal Register: Crystal Springs of Napa Valley AVA final rule (2024)",
+      "url": "https://www.federalregister.gov/documents/2024/10/16/2024-23655/establishment-of-the-crystal-springs-of-napa-valley-viticultural-area-modification-of-the-calistoga"
+    },
+    {
+      "title": "Wikipedia: Judgment of Paris (wine)",
+      "url": "https://en.wikipedia.org/wiki/Judgment_of_Paris_(wine)"
+    },
+    {
+      "title": "Wikipedia: Napa Valley AVA",
+      "url": "https://en.wikipedia.org/wiki/Napa_Valley_AVA"
+    },
+    {
+      "title": "Wikipedia: Beaulieu Vineyard",
+      "url": "https://en.wikipedia.org/wiki/Beaulieu_Vineyard"
+    },
+    {
+      "title": "Wikipedia: Agoston Haraszthy",
+      "url": "https://en.wikipedia.org/wiki/Agoston_Haraszthy"
+    },
+    {
+      "title": "Wikipedia: Sonoma County wine",
+      "url": "https://en.wikipedia.org/wiki/Sonoma_County_wine"
+    },
+    {
+      "title": "Wikipedia: Jack London State Historic Park",
+      "url": "https://en.wikipedia.org/wiki/Jack_London_State_Historic_Park"
+    },
+    {
+      "title": "Napa Valley Register: wineries bridge the 2020 production gap",
+      "url": "https://napavalleyregister.com/news/as-wine-releases-begin-napa-valleys-wineries-must-bridge-the-production-gap-left-by-2020/article_d57a89fd-589e-51b9-92d1-4516cf35d831.html"
+    },
+    {
+      "title": "Wine Library: Stag's Leap Artemis, Robert Mondavi Napa Cabernet, Groth Oakville, Mayacamas, Flowers, Bedrock prices",
+      "url": "https://winelibrary.com/"
+    },
+    {
+      "title": "Wine.com: Gary Farrell, Dry Creek Vineyard, Silver Oak, Caymus listings",
+      "url": "https://www.wine.com/list/wine/gary-farrell/vintage-2022/7155-8230-16000"
+    },
+    {
+      "title": "Wikipedia: Opus One Winery (first vintage 1979)",
+      "url": "https://en.wikipedia.org/wiki/Opus_One_Winery"
+    },
+    {
+      "title": "Wikipedia: Heitz Wine Cellars (Martha's Vineyard from 1966)",
+      "url": "https://en.wikipedia.org/wiki/Heitz_Wine_Cellars"
+    }
+  ]
+}

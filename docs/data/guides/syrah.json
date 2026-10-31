@@ -1,0 +1,1177 @@
+{
+  "id": "syrah",
+  "kind": "grape",
+  "title": "Syrah and Shiraz",
+  "subtitle": "One grape, many places",
+  "tagline": "Follow one grape from the granite terraces of the northern Rhône to Barossa, Hawke's Bay, Walla Walla, the Swartland and the Andes, and taste how place rewrites it.",
+  "minutes": 20,
+  "deeper_minutes": 0,
+  "cover": "fr-cote-rotie",
+  "countries": [
+    "fr",
+    "au",
+    "nz",
+    "us",
+    "za",
+    "cl"
+  ],
+  "intro": "Syrah is the best grape in the world for learning what 'place' means, because it changes so much from one climate to the next. This Path starts where Syrah was born and follows it across five continents. Two tasting flights run through it: a Crozes-Hermitage against a Barossa Shiraz at the same price, then cool-climate Syrah from three continents.",
+  "chapters": [
+    {
+      "id": "origins",
+      "part": "intro",
+      "title": "A Rhône native",
+      "steps": [
+        {
+          "text": "For centuries Syrah came with romantic origin stories. Some said crusaders brought it from Shiraz in Persia; others traced it to Syracuse in Sicily, or to the Roman legions. The truth turned out to be local. In 1998, DNA work by Carole Meredith's laboratory at the University of California, Davis, with French researchers including Jean-Michel Boursiquot in Montpellier, showed that Syrah is the child of two obscure grapes from southeastern France: [Dureza](grape-dureza), a dark, hard-skinned red from the Ardèche, and [Mondeuse Blanche](grape-mondeuse-blanche), a white from Savoie.\n\nBoth parents grow within reach of the northern Rhône, so Syrah was almost certainly born in or near the valley where it still makes its most famous wines. The Persian story survives on a few Australian back labels.",
+          "map": {
+            "fly": {
+              "lon": 5.0,
+              "lat": 45.15,
+              "zoom": 7.3
+            },
+            "highlight": [
+              "fr-cote-rotie",
+              "fr-condrieu",
+              "fr-saint-joseph",
+              "fr-hermitage",
+              "fr-crozes-hermitage",
+              "fr-cornas"
+            ],
+            "label": "Syrah's home ground"
+          }
+        },
+        {
+          "text": "The northern Rhône is a narrow corridor from Vienne to Valence, where the river cuts along the eastern edge of the Massif Central. Vineyards cling to granite, gneiss and schist terraces, mostly on the west bank, and Syrah is the only red grape allowed. The eight crus cover just 4,631 ha, less than a tenth of the Rhône's appellation land.\n\nHere Syrah tastes of black olive, violet, smoked meat and pepper. That peppery note has a name: [rotundone](term-rotundone), the compound that also flavours black peppercorns, identified in Syrah by Australian researchers in 2008 and most abundant in cool sites and cool years. Keep it in mind. The further Syrah travels from heat, the more pepper you will find.",
+          "map": {
+            "fly": "region-fr-northern-rhone",
+            "highlight": [
+              "fr-cote-rotie",
+              "fr-condrieu",
+              "fr-saint-joseph",
+              "fr-hermitage",
+              "fr-crozes-hermitage",
+              "fr-cornas",
+              "fr-saint-peray"
+            ],
+            "label": "The northern crus"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Northern Rhône Syrah, IGP Collines Rhodaniennes",
+          "why": "Syrah from the source at an everyday price, often from young vines or flatter parcels of serious growers. Look for black olive, violets and a peppery snap.",
+          "price": "$20–25",
+          "try": [
+            "Domaine Vincent Paris",
+            "Domaine Faury"
+          ]
+        }
+      ],
+      "deeper": [
+        "grape-syrah",
+        "grape-dureza",
+        "grape-mondeuse-blanche",
+        "region-fr-northern-rhone",
+        "term-rotundone",
+        "soil-granite"
+      ],
+      "check": [
+        {
+          "q": "What did DNA show about Syrah's origin?",
+          "options": [
+            "It came from Shiraz in Persia",
+            "It is a cross of Dureza and Mondeuse Blanche from southeastern France",
+            "It was brought from Syracuse by the Romans",
+            "It is a mutation of Pinot Noir"
+          ],
+          "answer": 1,
+          "why": "Work at UC Davis and Montpellier in 1998 identified the Ardèche red Dureza and the Savoie white Mondeuse Blanche as its parents."
+        },
+        {
+          "q": "Which compound gives Syrah its peppery aroma?",
+          "options": [
+            "Pyrazine",
+            "Rotundone",
+            "TDN",
+            "Thiol"
+          ],
+          "answer": 1,
+          "why": "Rotundone, also found in black pepper, is strongest in Syrah from cool sites and seasons."
+        },
+        {
+          "q": "What share of the Rhône's appellation land do the eight northern crus cover?",
+          "options": [
+            "About half",
+            "Less than a tenth",
+            "About a third",
+            "Over 80 percent"
+          ],
+          "answer": 1,
+          "why": "4,631 ha out of 60,223 ha in 2025, according to Inter Rhône."
+        }
+      ]
+    },
+    {
+      "id": "cote-rotie",
+      "part": "intro",
+      "title": "Côte-Rôtie: the roasted slope",
+      "steps": [
+        {
+          "text": "At the northern end, just south of Vienne, the west bank rises in a wall of terraces facing southeast over the town of Ampuis. This is Côte-Rôtie, 'the roasted slope', named for the sun it soaks up. Its 342 ha (2025) are among the steepest vineyards in France, with gradients up to 60 percent, so every job is done by hand, and each vine is traditionally tied to its own wooden stake, an *échalas*.\n\nRomans grew wine near Vienne, but the modern story is one of near-death and revival. By the 1970s the slope had shrunk to about 70 ha, because few young people would work it. The Guigal family's single-vineyard wines La Mouline (first vintage 1966), La Landonne (1978) and La Turque (1985) changed that, winning huge scores and prices and pulling the whole appellation back up the hill.",
+          "map": {
+            "fly": "fr-cote-rotie",
+            "highlight": [
+              "fr-cote-rotie"
+            ],
+            "label": "Côte-Rôtie"
+          }
+        },
+        {
+          "text": "Tilt the map and look northwest from across the river. The terraces stack up in narrow steps held by dry-stone walls, from about 180 m to 325 m, and you can see why machines are useless here. By tradition the slope splits into two halves. North of Ampuis, the Côte Brune has darker, iron-rich mica-schist and gives firmer, more tannic wines; La Landonne is here. South of the village, the Côte Blonde, on paler granite and gneiss, gives softer, more perfumed ones. Legend says a local lord left the slopes to his two daughters, one dark-haired, one blonde.\n\nMost growers blend both halves, but more and more of them bottle single lieux-dits, as Burgundians do.",
+          "map": {
+            "fly": {
+              "lon": 4.812,
+              "lat": 45.486,
+              "zoom": 13.6
+            },
+            "terrain": true,
+            "pitch": 62,
+            "bearing": 315,
+            "highlight": [
+              "fr-cote-rotie-cote-brune",
+              "fr-cote-rotie-la-landonne",
+              "site-fr-chateau-d-ampuis",
+              "site-fr-e-guigal"
+            ],
+            "label": "Côte Brune above Ampuis"
+          }
+        },
+        {
+          "text": "Côte-Rôtie has one more trick. Its rules allow up to 20 percent [Viognier](grape-viognier), the perfumed white grape of neighbouring Condrieu, if it is fermented together with the Syrah rather than blended in later. Co-fermenting a few percent of white grapes stabilises the red's colour and lifts its aroma with apricot and violet; most growers use far less than the limit.\n\nThere may be a family reason it works so well. DNA profiling suggests a parent-offspring link between Viognier and Mondeuse Blanche, Syrah's mother, which would make the two grapes in a Côte-Rôtie vat close relatives. Copy this trick in Australia and you get Shiraz Viognier, as you will see in chapter 6.",
+          "map": {
+            "fly": {
+              "lon": 4.785,
+              "lat": 45.47,
+              "zoom": 12.2
+            },
+            "highlight": [
+              "fr-cote-rotie",
+              "fr-condrieu",
+              "site-fr-chateau-grillet"
+            ],
+            "label": "Côte-Rôtie meets Condrieu"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Côte-Rôtie from a classic grower",
+          "why": "Perfume first: violet, bacon fat, black olive and pepper, with silky, fine tannin. This is the elegant pole of Syrah.",
+          "price": "$80–95",
+          "try": [
+            "Domaine René Rostaing (Ampodium)",
+            "Château de Saint Cosme"
+          ],
+          "place": "fr-cote-rotie"
+        },
+        {
+          "wine": "Guigal La Mouline, La Landonne or La Turque",
+          "why": "The single-vineyard wines that rescued the slope. A bottle for a celebration, ideally with 15 years of age.",
+          "price": "$380–500",
+          "try": [
+            "E. Guigal"
+          ],
+          "place": "fr-cote-rotie-la-landonne"
+        }
+      ],
+      "deeper": [
+        "fr-cote-rotie",
+        "fr-cote-rotie-cote-brune",
+        "fr-cote-rotie-la-landonne",
+        "site-fr-e-guigal",
+        "site-fr-chateau-d-ampuis",
+        "fr-condrieu",
+        "grape-viognier",
+        "soil-schist"
+      ],
+      "check": [
+        {
+          "q": "What does 'Côte-Rôtie' mean?",
+          "options": [
+            "The stony coast",
+            "The roasted slope",
+            "The red hill",
+            "The Roman road"
+          ],
+          "answer": 1,
+          "why": "The southeast-facing terraces soak up the sun, hence 'roasted'."
+        },
+        {
+          "q": "How much Viognier may go into Côte-Rôtie, and how?",
+          "options": [
+            "None",
+            "Up to 20 percent, co-fermented with the Syrah",
+            "Up to 50 percent, blended after ageing",
+            "Exactly 5 percent, added at bottling"
+          ],
+          "answer": 1,
+          "why": "The rules allow up to 20 percent Viognier fermented with the Syrah, though most growers use much less."
+        },
+        {
+          "q": "Which half of the slope gives firmer, more tannic wine?",
+          "options": [
+            "Côte Blonde",
+            "Côte Brune",
+            "Both are identical",
+            "Neither; tannin comes only from oak"
+          ],
+          "answer": 1,
+          "why": "The Côte Brune's dark, iron-rich schist gives more structure than the granite of the Côte Blonde."
+        }
+      ]
+    },
+    {
+      "id": "hermitage",
+      "part": "intro",
+      "title": "Hermitage, Cornas and the long road south",
+      "steps": [
+        {
+          "text": "About 50 km farther south, the river bends around a single granite hill on the east bank, facing due south above Tain-l'Hermitage. Hermitage covers only 137 ha (2025), yet for three centuries it has been one of France's most famous wines. Legend says a knight, Gaspard de Stérimberg, came home wounded from the Albigensian crusade in 1224 and lived here as a hermit; the little chapel of Saint-Christophe on the summit recalls him. In the eighteenth and nineteenth centuries Hermitage sold for prices close to the best Bordeaux, and some claret was quietly 'hermitagé', strengthened with it.\n\nThe west end of the hill, Les Bessards, is pure granite and gives the wine its backbone. Le Méal, in the middle, on pebbles and loess, gives richness.",
+          "map": {
+            "fly": {
+              "lon": 4.84,
+              "lat": 45.071,
+              "zoom": 13.6
+            },
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 0,
+            "highlight": [
+              "fr-hermitage-les-bessards",
+              "fr-hermitage-le-meal",
+              "fr-hermitage-l-hermite",
+              "fr-hermitage-les-greffieux",
+              "site-fr-chapelle-saint-christophe-hermitage"
+            ],
+            "label": "The hill of Hermitage"
+          }
+        },
+        {
+          "text": "Red Hermitage is the most powerful, longest-lived Syrah of the Rhône: black fruit, smoke, leather and spice under firm tannin, best from about 12 to 30 years. The great houses read the hill differently. Jean-Louis Chave, whose family has made wine at Mauves across the river since 1481, blends from up to nine lieux-dits, each adding one element. Paul Jaboulet Aîné named its flagship La Chapelle after the hilltop chapel, and its 1961 is one of the legendary wines of the twentieth century. Chapoutier bottles single sites under the old spelling *Ermitage*.\n\nAbout a third of the hill grows white grapes, mostly [Marsanne](grape-marsanne), and red Hermitage may include up to 15 percent white grapes, though few growers use any.",
+          "map": {
+            "fly": {
+              "lon": 4.835,
+              "lat": 45.058,
+              "zoom": 12.4
+            },
+            "highlight": [
+              "fr-hermitage",
+              "site-fr-domaine-jean-louis-chave",
+              "site-fr-paul-jaboulet-aine-vineum"
+            ],
+            "label": "Tain and Mauves"
+          }
+        },
+        {
+          "text": "Back on the west bank, opposite Valence, Cornas (162 ha) is an amphitheatre of granite terraces facing southeast, sheltered from the north wind and one of the warmest corners of the north. Its name is said to come from a Celtic word for burnt earth. Unlike its neighbours, Cornas must be 100 percent Syrah, and it makes the wildest, most tannic Syrah in the valley: black fruit, iron and wild herbs.\n\nAuguste Clape kept traditional Cornas alive through lean decades, and Thierry Allemand, who started in 1982 renting terraces nobody else wanted, made lieux-dits such as Reynard and Chaillot famous. Today Franck Balthazar, Guillaume Gilles and Domaine Alain Voge make some of the best values in serious Syrah.",
+          "map": {
+            "fly": {
+              "lon": 4.838,
+              "lat": 44.963,
+              "zoom": 13.4
+            },
+            "terrain": true,
+            "pitch": 60,
+            "bearing": 285,
+            "highlight": [
+              "fr-cornas",
+              "fr-cornas-reynard",
+              "fr-cornas-chaillot",
+              "site-fr-domaine-auguste-clape"
+            ],
+            "label": "The Cornas amphitheatre"
+          }
+        },
+        {
+          "text": "Two big appellations fill the gaps, and they are where most of us drink northern Syrah. Saint-Joseph (1,504 ha) runs about 60 km down the west bank, a long ribbon of granite terraces whose heart lies around Mauves and Tournon, opposite Hermitage. Crozes-Hermitage (2,139 ha), the largest appellation of the north, surrounds Hermitage on the east bank, mostly on flatter terraces and gentle hills of loess, clay and glacial pebbles.\n\nCrozes is fresh, juicy, peppery Syrah to drink within a few years, and the best, from the granite hills in the north or the pebble terraces of Les Chassis in the south, come close to their famous neighbour. Buy a bottle now: it is the first half of this Path's main flight.",
+          "map": {
+            "fly": {
+              "lon": 4.85,
+              "lat": 45.07,
+              "zoom": 9.9
+            },
+            "highlight": [
+              "fr-saint-joseph",
+              "fr-crozes-hermitage",
+              "fr-hermitage"
+            ],
+            "label": "Saint-Joseph and Crozes-Hermitage"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Crozes-Hermitage",
+          "why": "Flight A, bottle one. Note the medium body, fresh acidity, red and black fruit, violets and a clear peppery snap. Keep your notes: in chapter 5 you will open a Barossa Shiraz at the same price beside it.",
+          "price": "$25–35",
+          "try": [
+            "Paul Jaboulet Aîné (Les Jalets)",
+            "Domaine Yann Chave",
+            "Domaine Jean-François Jacouton"
+          ],
+          "place": "fr-crozes-hermitage"
+        },
+        {
+          "wine": "Saint-Joseph from a hillside grower",
+          "why": "Granite Syrah with more depth and grip than most Crozes, for a fraction of the price of Hermitage.",
+          "price": "$35–45",
+          "try": [
+            "Domaine Faury (Les Ribaudes)"
+          ],
+          "place": "fr-saint-joseph"
+        },
+        {
+          "wine": "Cornas",
+          "why": "Wilder and more tannic: iron, black fruit and herbs. Decant it, or keep it for five years.",
+          "price": "$60–80",
+          "try": [
+            "Domaine Alain Voge (Les Chailles)",
+            "Guillaume Gilles",
+            "Franck Balthazar (Casimir)"
+          ],
+          "place": "fr-cornas"
+        }
+      ],
+      "deeper": [
+        "fr-hermitage",
+        "fr-hermitage-les-bessards",
+        "fr-hermitage-le-meal",
+        "site-fr-chapelle-saint-christophe-hermitage",
+        "site-fr-domaine-jean-louis-chave",
+        "fr-cornas",
+        "fr-saint-joseph",
+        "fr-crozes-hermitage"
+      ],
+      "check": [
+        {
+          "q": "Which way does the hill of Hermitage face?",
+          "options": [
+            "North",
+            "Due south",
+            "West",
+            "East"
+          ],
+          "answer": 1,
+          "why": "The hill faces due south above Tain-l'Hermitage, catching the sun all day."
+        },
+        {
+          "q": "What must Cornas be made from?",
+          "options": [
+            "Syrah with up to 20 percent Viognier",
+            "100 percent Syrah",
+            "Syrah and Grenache",
+            "Any Rhône variety"
+          ],
+          "answer": 1,
+          "why": "Unlike Côte-Rôtie, Hermitage or Crozes, Cornas allows no white grapes at all."
+        },
+        {
+          "q": "Which is the largest appellation of the northern Rhône?",
+          "options": [
+            "Hermitage",
+            "Côte-Rôtie",
+            "Crozes-Hermitage",
+            "Cornas"
+          ],
+          "answer": 2,
+          "why": "Crozes-Hermitage had 2,139 ha in 2025, against 137 ha for Hermitage itself."
+        }
+      ]
+    },
+    {
+      "id": "southern-blend",
+      "part": "intro",
+      "title": "Syrah as a team player",
+      "steps": [
+        {
+          "text": "South of Montélimar, Syrah changes jobs. In the hot, windy Southern Rhône, Grenache leads, and Syrah becomes the partner that adds what Grenache lacks: deep colour, a firmer frame of tannin, black fruit and spice. Across the Rhône's appellations, Inter Rhône counted 22,189 ha of Syrah in 2025 against 32,379 ha of Grenache, and most of that Syrah grows in the south, where it is usually blended.\n\nThe rules write the partnership in. Gigondas requires at least 15 percent Syrah and/or Mourvèdre, and Côtes du Rhône Villages reds must be built on Grenache, with a required minimum of Syrah and Mourvèdre. In the hottest spots Syrah can lose acidity and turn jammy, so growers often give it the cooler corners of an estate.",
+          "map": {
+            "fly": {
+              "lon": 4.88,
+              "lat": 44.18,
+              "zoom": 9
+            },
+            "highlight": [
+              "fr-chateauneuf-du-pape",
+              "fr-gigondas",
+              "fr-vacqueyras",
+              "fr-vinsobres",
+              "fr-cairanne",
+              "fr-rasteau"
+            ],
+            "label": "The Southern Rhône"
+          }
+        },
+        {
+          "text": "Some southern estates prove Syrah can stand alone here too. Château de Fonsalette, owned by the Reynaud family of Château Rayas at Lagarde-Paréol, makes a famous pure-Syrah Côtes du Rhône. And the southern recipe, Grenache plus Syrah plus Mourvèdre, became one of the world's great templates. Australians call it GSM and make it from old vines of all three in the Barossa and McLaren Vale; Californians copied it from the 1980s.\n\nTaste a southern blend before you leave France. You will recognise Syrah's contribution by its colour, its darker fruit and its peppery, savoury finish, sitting on top of Grenache's strawberry warmth. It is the same grape you met in Crozes, playing a supporting role. The Southern Rhône Path goes much deeper into [Châteauneuf-du-Pape](fr-chateauneuf-du-pape) and its neighbours.",
+          "map": {
+            "fly": {
+              "lon": 4.85,
+              "lat": 44.22,
+              "zoom": 12
+            },
+            "highlight": [
+              "site-fr-chateau-de-fonsalette",
+              "fr-cotes-du-rhone"
+            ],
+            "label": "Château de Fonsalette"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Côtes du Rhône from a northern Rhône master",
+          "why": "Jean-Louis Chave's southern blend: Grenache warmth with Syrah's frame and spice on top. Compare the colour and finish with the Crozes.",
+          "price": "$22–27",
+          "try": [
+            "Domaine Jean-Louis Chave Sélection (Mon Coeur)"
+          ],
+          "place": "fr-cotes-du-rhone"
+        },
+        {
+          "wine": "Gigondas",
+          "why": "Syrah and Mourvèdre at work inside a high-altitude Grenache blend: dark, spicy and firm.",
+          "price": "$45–60",
+          "try": [
+            "Château de Saint Cosme"
+          ],
+          "place": "fr-gigondas"
+        }
+      ],
+      "deeper": [
+        "region-fr-southern-rhone",
+        "fr-chateauneuf-du-pape",
+        "fr-gigondas",
+        "site-fr-chateau-de-fonsalette",
+        "grape-grenache",
+        "grape-mourvedre"
+      ],
+      "check": [
+        {
+          "q": "In the Southern Rhône, what does Syrah usually add to Grenache?",
+          "options": [
+            "Sweetness and paler colour",
+            "Colour, tannic structure, dark fruit and spice",
+            "Bubbles",
+            "Floral white-wine aromas"
+          ],
+          "answer": 1,
+          "why": "Grenache is generous but pale and soft; Syrah adds colour, frame and spice."
+        },
+        {
+          "q": "What does GSM stand for?",
+          "options": [
+            "Grenache, Syrah, Mourvèdre",
+            "Gamay, Sangiovese, Merlot",
+            "Grenache, Sémillon, Muscat",
+            "Graves, Saint-Émilion, Médoc"
+          ],
+          "answer": 0,
+          "why": "The Southern Rhône's classic red recipe, adopted under that name in Australia."
+        },
+        {
+          "q": "Which estate makes a famous pure-Syrah Côtes du Rhône?",
+          "options": [
+            "Château de Fonsalette",
+            "Château d'Aquéria",
+            "Château La Nerthe",
+            "Château Fortia"
+          ],
+          "answer": 0,
+          "why": "Fonsalette belongs to the Reynaud family of Château Rayas."
+        }
+      ]
+    },
+    {
+      "id": "barossa",
+      "part": "intro",
+      "title": "Barossa and the Australian way",
+      "steps": [
+        {
+          "text": "Syrah reached Australia early. James Busby, the Scottish-born pioneer of Australian viticulture, gathered a large collection of vine cuttings in Europe and brought it to Sydney in 1832, Syrah among them. In Australia the grape took the name Shiraz, and for much of the twentieth century it was also sold as 'Hermitage'. It is now the country's most planted grape and its signature red.\n\nThe classic heartland is South Australia, which has kept [phylloxera](term-phylloxera) out to this day. That one fact explains much of what follows. Without the louse, vineyards planted in the nineteenth century never had to be pulled up and grafted, so Australia holds some of the oldest producing Syrah vines on earth, still growing on their own roots.",
+          "map": {
+            "fly": "au",
+            "highlight": [
+              "au-barossa-valley",
+              "au-eden-valley",
+              "au-mclaren-vale",
+              "au-canberra-district",
+              "au-yarra-valley",
+              "au-heathcote",
+              "au-grampians"
+            ],
+            "label": "Australian Shiraz"
+          }
+        },
+        {
+          "text": "The Barossa Valley, a shallow valley about 60 km northeast of Adelaide, was settled from 1842 by Lutheran farmers from Prussian Silesia, who planted vines among their wheat and orchards. Some of those vines still crop. Langmeil's Freedom vineyard at Tanunda takes its name from its Shiraz planting of 1843, and the winery presents it as possibly the oldest surviving Shiraz vineyard in the world; Turkey Flat, by Bethany Creek, has Shiraz from 1847. The Barossa Old Vine Charter now registers vines by age, from Old (35 years) to Ancestor (125 years and more).\n\nFor decades this fruit went into fortified wine and anonymous blends, and a 1980s government vine-pull scheme paid growers to grub up old vines. Peter Lehmann, Rockford and Charlie Melton saved what they could.",
+          "map": {
+            "fly": "au-barossa-valley",
+            "highlight": [
+              "au-barossa-valley",
+              "au-eden-valley",
+              "site-au-langmeil-freedom-1843-vineyard",
+              "site-au-turkey-flat"
+            ],
+            "label": "The Barossa"
+          }
+        },
+        {
+          "text": "Look closely at the satellite view: the oldest blocks are bush vines or low, sprawling trellises, widely spaced and often dry-grown, relying on deep soils that store winter rain. The Barossa is warm and dry, with about 1,970 growing degree days and only 209 mm of rain in the growing season on Wine Australia's figures.\n\nThat heat writes the style. Barossa Shiraz is dense and ripe, with blackberry, plum, chocolate, mocha and sweet spice, alcohol often above 14.5 percent, soft acidity and ripe, velvety tannin. Peppery rotundone is mostly absent. Now open the Barossa bottle next to the Crozes-Hermitage from chapter 3: the same grape at a similar price, and two completely different wines.",
+          "map": {
+            "fly": {
+              "lon": 138.9637,
+              "lat": -34.509,
+              "zoom": 15.4
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-au-langmeil-freedom-1843-vineyard"
+            ],
+            "label": "Freedom 1843"
+          }
+        },
+        {
+          "text": "Australia's most famous wine began as a rebellion. In 1950 Max Schubert, Penfolds' chief winemaker, toured Europe and came home determined to make a red that could age like the great Bordeaux. His first experimental Grange, from Shiraz, was the 1951, made at the Magill Estate in Adelaide's suburbs; the 1952 was the first sold. Critics disliked it, and in 1957 Penfolds' management ordered him to stop. He carried on in secret until the early vintages matured and won the company over.\n\nGrange Hermitage became plain Grange from the 1990 vintage, after European objections to the French name. It is blended from several regions, mostly Shiraz with a little Cabernet Sauvignon, and it is the only wine listed by the National Trust of South Australia.",
+          "map": {
+            "fly": {
+              "lon": 138.82,
+              "lat": -34.72,
+              "zoom": 8.8
+            },
+            "highlight": [
+              "site-au-penfolds-magill-estate",
+              "site-au-penfolds-kalimna-block-42",
+              "au-barossa-valley"
+            ],
+            "label": "Magill to Kalimna"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Barossa Valley Shiraz at the Crozes price",
+          "why": "Flight A, bottle two. Beside the Crozes, notice the darker, riper fruit, chocolate and sweet spice, the fuller body and softer acidity, and how little pepper there is. Heat, not the grape, made the difference.",
+          "price": "$20–33",
+          "try": [
+            "Yalumba (Samuel's Collection)",
+            "Glaetzer (Bishop)"
+          ],
+          "place": "au-barossa-valley"
+        },
+        {
+          "wine": "Penfolds Grange",
+          "why": "The icon: dense, oak-framed Shiraz built for decades. If you ever share one, choose a bottle at least 15 years old.",
+          "price": "$740–900",
+          "try": [
+            "Penfolds"
+          ]
+        }
+      ],
+      "deeper": [
+        "au-barossa-valley",
+        "au-eden-valley",
+        "au-mclaren-vale",
+        "site-au-langmeil-freedom-1843-vineyard",
+        "site-au-penfolds-magill-estate",
+        "event-busby-australia",
+        "event-barossa-silesians",
+        "event-penfolds-grange"
+      ],
+      "check": [
+        {
+          "q": "Why does South Australia have so many very old vines?",
+          "options": [
+            "Its vines are replanted every decade",
+            "Phylloxera never arrived, so vines were never pulled up and grafted",
+            "It has no summer heat",
+            "The law forbids harvesting old vines"
+          ],
+          "answer": 1,
+          "why": "South Australia has kept phylloxera out, so nineteenth-century vines still grow on their own roots."
+        },
+        {
+          "q": "Who made the first Grange, and in what vintage?",
+          "options": [
+            "James Busby, 1832",
+            "Max Schubert, 1951",
+            "Peter Lehmann, 1980",
+            "Cyril Henschke, 1958"
+          ],
+          "answer": 1,
+          "why": "Schubert made the experimental 1951 at Magill after his 1950 trip to Europe; the 1952 was the first sold."
+        },
+        {
+          "q": "Compared with Crozes-Hermitage, a typical Barossa Shiraz is…",
+          "options": [
+            "Lighter and more peppery",
+            "Riper, darker and fuller, with less pepper",
+            "Sweet and fortified",
+            "Paler and more acidic"
+          ],
+          "answer": 1,
+          "why": "Barossa heat gives ripe, dense, chocolatey Shiraz with little of the pepper of cooler Syrah."
+        }
+      ]
+    },
+    {
+      "id": "cool-australia",
+      "part": "intro",
+      "title": "Cooler Australia: when Shiraz becomes Syrah",
+      "steps": [
+        {
+          "text": "Australia is not all Barossa. In the cooler southeast, in Victoria and the high country around Canberra, Shiraz grows in seasons with far less heat, and the wines move toward the Rhône: lighter, more perfumed, more peppery. Many producers signal the change by calling the grape Syrah on the label. Wine Australia's growing degree day figures, a measure of seasonal warmth, show the spread: about 1,970 in the Barossa, 1,880 in Heathcote, 1,650 in the Canberra District, 1,540 in the Grampians and about 1,440 in the Yarra Valley.\n\nThe Grampians, around Great Western in western Victoria, has made cool, peppery Shiraz since the gold-rush years: Henry Best planted his Concongella vineyard in 1866, and Best's is still a reference point.",
+          "map": {
+            "fly": {
+              "lon": 145.9,
+              "lat": -36.8,
+              "zoom": 6.2
+            },
+            "highlight": [
+              "au-canberra-district",
+              "au-yarra-valley",
+              "au-heathcote",
+              "au-grampians",
+              "site-au-bests-great-western-concongella"
+            ],
+            "label": "Cooler Shiraz country"
+          }
+        },
+        {
+          "text": "The Canberra District sits at 500 to 850 m, frosty in winter and dry in summer, and most of its vineyards lie across the border in New South Wales around Murrumbateman. Scientists founded it: in 1971 John Kirk, a CSIRO researcher, planted Clonakilla. His son Tim, inspired by Côte-Rôtie, began co-fermenting Shiraz with a little Viognier in 1992, the northern Rhône trick from chapter 2.\n\nThe Clonakilla Shiraz Viognier became one of Australia's most admired wines and inspired a generation of copies: medium-bodied, fragrant with violets and apricot skin, peppery, silky. It showed that Australia could make Syrah in the image of the Rhône rather than of the Barossa, and Canberra is now one of the country's best sources of cool-climate Shiraz.",
+          "map": {
+            "fly": "au-canberra-district",
+            "highlight": [
+              "au-canberra-district",
+              "site-au-clonakilla"
+            ],
+            "label": "Canberra District"
+          }
+        },
+        {
+          "text": "Two Victorian regions show the range. The Yarra Valley, an hour east of Melbourne, is cool and relatively wet, famous for Pinot Noir and Chardonnay, but its medium-bodied Shiraz is fragrant and fine; Dr Bailey Carrodus, who planted Yarra Yering in 1969, built his Dry Red No. 2 around it. Heathcote, north of the Great Dividing Range, is warmer and drier, and its fame rests on a band of deep red soil derived from Cambrian greenstone about 500 million years old. On it Ron and Elva Laughton planted Jasper Hill in 1975, dry-grown and own-rooted.\n\nHeathcote Shiraz is dense yet fresh, with dark fruit, spice and fine tannin. Think of it as the bridge between the Barossa's power and the Yarra's perfume.",
+          "map": {
+            "fly": {
+              "lon": 145.05,
+              "lat": -37.3,
+              "zoom": 7.9
+            },
+            "highlight": [
+              "au-yarra-valley",
+              "au-heathcote",
+              "site-au-jasper-hill",
+              "site-au-yarra-yering"
+            ],
+            "label": "Yarra Valley and Heathcote"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Canberra District Shiraz",
+          "why": "Flight B, bottle one (Oceania). Medium body, red and black fruit, violets and a pepper note. Compare it with the Barossa bottle and you will see why some producers call the grape Syrah.",
+          "price": "$35–40",
+          "try": [
+            "Clonakilla (O'Riada)"
+          ],
+          "place": "au-canberra-district"
+        },
+        {
+          "wine": "Clonakilla Shiraz Viognier",
+          "why": "The Australian answer to Côte-Rôtie: fragrant, silky and co-fermented with a little Viognier.",
+          "price": "$95–120",
+          "try": [
+            "Clonakilla"
+          ],
+          "place": "au-canberra-district"
+        }
+      ],
+      "deeper": [
+        "au-canberra-district",
+        "site-au-clonakilla",
+        "au-yarra-valley",
+        "au-heathcote",
+        "site-au-jasper-hill",
+        "au-grampians",
+        "site-au-bests-great-western-concongella",
+        "term-growing-degree-days-gdd"
+      ],
+      "check": [
+        {
+          "q": "What did Tim Kirk of Clonakilla borrow from Côte-Rôtie in 1992?",
+          "options": [
+            "Steep stone terraces",
+            "Co-fermenting Shiraz with a little Viognier",
+            "The name Hermitage",
+            "Fortification"
+          ],
+          "answer": 1,
+          "why": "Co-fermenting a few percent of Viognier with Syrah is the Côte-Rôtie tradition."
+        },
+        {
+          "q": "Which of these regions is the coolest by growing degree days?",
+          "options": [
+            "Barossa Valley",
+            "Heathcote",
+            "Yarra Valley",
+            "Canberra District"
+          ],
+          "answer": 2,
+          "why": "The Yarra Valley has about 1,440 growing degree days, against about 1,970 in the Barossa."
+        },
+        {
+          "q": "What is special about Heathcote's best soil?",
+          "options": [
+            "It is pure chalk",
+            "It is a deep red soil from Cambrian greenstone about 500 million years old",
+            "It is volcanic pumice",
+            "It is beach sand"
+          ],
+          "answer": 1,
+          "why": "The red Cambrian soils hold water well, which allows dry-farming."
+        }
+      ]
+    },
+    {
+      "id": "hawkes-bay",
+      "part": "intro",
+      "title": "Hawke's Bay and the Gimblett Gravels",
+      "steps": [
+        {
+          "text": "New Zealand is famous for cool-climate whites and Pinot Noir, but on the east coast of the North Island, Hawke's Bay is sunny and dry enough for reds. It is the country's second-largest wine region, with about 4,450 ha of producing vines in 2025, and its oldest: Marist missionaries planted vines in 1851, and their Mission Estate still makes wine at Taradale. Merlot and Cabernet blends made its name, but Syrah is the newer star, and a cool one, with pepper, violets and bright acidity.\n\nThe man who started it was a soil scientist. Alan Limmer planted Syrah at Stonecroft in 1984 and released the first modern New Zealand Syrah from the 1989 vintage, at a time when most people believed the grape could not ripen there.",
+          "map": {
+            "fly": "nz-hawkes-bay",
+            "highlight": [
+              "nz-hawkes-bay",
+              "site-nz-stonecroft",
+              "site-nz-te-mata-estate"
+            ],
+            "label": "Hawke's Bay"
+          }
+        },
+        {
+          "text": "The secret is gravel. West of Hastings, a great flood in 1867 shifted the course of the Ngaruroro River and left behind about 800 ha of stony former riverbed. For a century it was considered nearly worthless, and a concrete company wanted to quarry it. On the satellite view you can see the pale, stony ground between the vine rows.\n\nThose stones do what the galets do in Châteauneuf: they store the day's heat and drain freely, so vines on them ripen red grapes in a climate that would otherwise be marginal. In 2001 the growers trademarked the name [Gimblett Gravels](term-gimblett-gravels), and a wine needs 95 percent fruit from the district to use it. The result is Syrah with dark fruit and real ripeness that still carries pepper and fresh acidity.",
+          "map": {
+            "fly": {
+              "lon": 176.745,
+              "lat": -39.616,
+              "zoom": 14.1
+            },
+            "base": "satellite",
+            "highlight": [
+              "site-nz-gimblett-gravels",
+              "site-nz-stonecroft"
+            ],
+            "label": "Gimblett Gravels"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Gimblett Gravels Syrah",
+          "why": "Gravel-warmed but cool-climate: dark cherry, violets, black pepper and bright acidity. It sits between the Crozes and the Canberra bottle in style.",
+          "price": "$25–35",
+          "try": [
+            "Trinity Hill",
+            "Craggy Range"
+          ],
+          "place": "nz-hawkes-bay"
+        }
+      ],
+      "deeper": [
+        "nz-hawkes-bay",
+        "site-nz-gimblett-gravels",
+        "site-nz-stonecroft",
+        "site-nz-te-mata-estate",
+        "soil-gimblett-gravels",
+        "term-gimblett-gravels"
+      ],
+      "check": [
+        {
+          "q": "How were the Gimblett Gravels created?",
+          "options": [
+            "Glaciers left moraine",
+            "An 1867 flood shifted the Ngaruroro River and exposed its old bed",
+            "A volcanic eruption",
+            "Quarrying by a concrete company"
+          ],
+          "answer": 1,
+          "why": "The flood moved the river and left about 800 ha of free-draining gravel."
+        },
+        {
+          "q": "Who released New Zealand's first modern Syrah, from the 1989 vintage?",
+          "options": [
+            "Te Mata Estate",
+            "Alan Limmer of Stonecroft",
+            "The Marist missionaries",
+            "Craggy Range"
+          ],
+          "answer": 1,
+          "why": "Limmer, a soil scientist, planted Syrah at Stonecroft in 1984."
+        },
+        {
+          "q": "How much fruit from the district does a 'Gimblett Gravels' wine need?",
+          "options": [
+            "51 percent",
+            "75 percent",
+            "95 percent",
+            "100 percent"
+          ],
+          "answer": 2,
+          "why": "The growers' trademark rules require 95 percent Gimblett Gravels fruit."
+        }
+      ]
+    },
+    {
+      "id": "america",
+      "part": "intro",
+      "title": "Washington and California",
+      "steps": [
+        {
+          "text": "Washington came to Syrah late and fast. In the mid-1980s Mike Sauer of Red Willow Vineyard, on the western edge of the Yakima Valley, worked with David Lake of Columbia Winery to plant some of the state's first Syrah. East of the Cascades, the Columbia Valley is a near-desert of long, hot, sunny days and cold nights, irrigated from the rivers, and Syrah took to it.\n\nRed Mountain, a low ridge near Benton City at the east end of the Yakima Valley, is one of the warmest and windiest spots in the state, and its reds are dark and tannic. Walla Walla, at the foot of the Blue Mountains on the Oregon border, built its name with Leonetti (1977), Woodward Canyon and L'Ecole No 41 before Syrah made it famous among sommeliers.",
+          "map": {
+            "fly": {
+              "lon": -119.3,
+              "lat": 46.15,
+              "zoom": 7.1
+            },
+            "highlight": [
+              "us-columbia-valley",
+              "us-yakima-valley",
+              "us-red-mountain",
+              "us-walla-walla-valley",
+              "site-us-red-willow"
+            ],
+            "label": "Washington Syrah"
+          }
+        },
+        {
+          "text": "Just across the state line in Oregon lies one of the strangest vineyards in America. In 1996 Christophe Baron, a Frenchman from Champagne, saw fields south of Walla Walla covered in round basalt cobbles, the alluvial fan of the Walla Walla River, and thought of Châteauneuf. He planted Cayuse in 1997 and farms it biodynamically. Zoom in: the vine rows grow straight out of stones.\n\nIn 2015 the area became The Rocks District of Milton-Freewater, the first American AVA defined almost entirely by a single soil feature. Its Syrahs taste unlike anything else in the New World: savoury and smoky, with olive, iron and smoked meat, a character fans call 'funk' and others compare to the northern Rhône.",
+          "map": {
+            "fly": {
+              "lon": -118.385,
+              "lat": 45.961,
+              "zoom": 14.4
+            },
+            "base": "satellite",
+            "highlight": [
+              "us-the-rocks-district-of-milton-freewater",
+              "site-us-cayuse"
+            ],
+            "label": "The Rocks"
+          }
+        },
+        {
+          "text": "California's Syrah story belongs to the Rhône Rangers, winemakers who in the 1980s championed Rhône grapes against the Cabernet and Chardonnay establishment. Their figurehead was Randall Grahm, who founded Bonny Doon in 1983, made a Châteauneuf-style blend called Le Cigare Volant from 1984 and appeared on the cover of Wine Spectator in 1989 as 'the Rhone Ranger'. The Perrins of Beaucastel later brought Rhône vine cuttings to Paso Robles at [Tablas Creek](site-us-tablas-creek).\n\nSanta Barbara County shows Syrah's range in a few miles. Ballard Canyon (AVA 2013), whose growers chose to focus on Syrah, makes dark, savoury, peppery wines. At the cold western end of the Santa Ynez Valley, Sta. Rita Hills, open to Pacific wind and fog, gives taut Syrah beside its famous Pinot Noir.",
+          "map": {
+            "fly": {
+              "lon": -120.25,
+              "lat": 34.7,
+              "zoom": 9.4
+            },
+            "highlight": [
+              "us-ballard-canyon",
+              "us-sta-rita-hills",
+              "us-santa-ynez-valley",
+              "us-santa-maria-valley",
+              "site-us-bien-nacido"
+            ],
+            "label": "Santa Barbara County"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Coastal California Syrah",
+          "why": "Flight B, bottle two (North America). Ocean wind and fog keep acidity high and bring out pepper and violets; compare it with the Canberra bottle.",
+          "price": "$22–36",
+          "try": [
+            "Pax (Sonoma Coast)",
+            "Brewer-Clifton (Ex Post Facto)"
+          ],
+          "place": "us-sonoma-coast"
+        },
+        {
+          "wine": "Central Coast Syrah",
+          "why": "A long-running Santa Barbara Syrah specialist at an everyday price: medium-bodied, savoury and peppery.",
+          "price": "$18–22",
+          "try": [
+            "Qupé (Central Coast)"
+          ],
+          "place": "us-central-coast"
+        },
+        {
+          "wine": "The Rocks District Syrah",
+          "why": "Cobble-grown funk: olive, smoked meat and iron. One of America's most distinctive wines; Cayuse itself runs $115–200.",
+          "price": "$50–60",
+          "try": [
+            "Martin Woods",
+            "Cayuse"
+          ],
+          "place": "us-the-rocks-district-of-milton-freewater"
+        }
+      ],
+      "deeper": [
+        "us-walla-walla-valley",
+        "us-the-rocks-district-of-milton-freewater",
+        "site-us-cayuse",
+        "us-red-mountain",
+        "site-us-red-willow",
+        "us-ballard-canyon",
+        "us-sta-rita-hills",
+        "site-us-tablas-creek"
+      ],
+      "check": [
+        {
+          "q": "What defines The Rocks District of Milton-Freewater?",
+          "options": [
+            "A single soil feature: rounded basalt cobbles",
+            "Altitude above 1,000 m",
+            "A river island",
+            "Volcanic ash"
+          ],
+          "answer": 0,
+          "why": "It was the first US AVA defined almost entirely by one soil, the cobbles of the Walla Walla River's alluvial fan."
+        },
+        {
+          "q": "Who appeared on Wine Spectator's cover in 1989 as 'the Rhone Ranger'?",
+          "options": [
+            "Christophe Baron",
+            "Randall Grahm",
+            "Max Schubert",
+            "Alan Limmer"
+          ],
+          "answer": 1,
+          "why": "Grahm, founder of Bonny Doon, became the face of California's Rhône movement."
+        },
+        {
+          "q": "Why is Sta. Rita Hills Syrah taut and fresh?",
+          "options": [
+            "High altitude in the Sierra Nevada",
+            "Cold Pacific wind and fog at the western end of the Santa Ynez Valley",
+            "Fortification",
+            "Volcanic soils"
+          ],
+          "answer": 1,
+          "why": "The valley opens straight to the ocean, so the western end is one of the coolest places in California to grow red grapes."
+        }
+      ]
+    },
+    {
+      "id": "southern-hemisphere",
+      "part": "intro",
+      "title": "The Swartland and Chile's far north",
+      "steps": [
+        {
+          "text": "An hour north of Cape Town, the Swartland ('black land', after the dark renosterbos shrub that once covered it) was wheat country whose grapes went to big co-operatives. Then winemakers found what the farmers had kept: old, dry-farmed bush vines of Chenin Blanc, Grenache, Cinsault and Syrah on granite and schist. Eben Sadie's Columella, a Syrah-led red first made in 2000 on the Paardeberg, showed what they could do, and a new generation followed: Chris and Andrea Mullineux from 2007, Callie Louw at Porseleinberg from 2010, Adi Badenhorst and Donovan Rall.\n\nThe Swartland is warm and dry, with 400 to 600 mm of rain, yet its best Syrahs are picked early and made with whole bunches in old casks and concrete: savoury, spicy and fine-boned.",
+          "map": {
+            "fly": "za-swartland",
+            "highlight": [
+              "za-swartland",
+              "za-paardeberg-perdeberg",
+              "za-porseleinberg",
+              "za-riebeekberg",
+              "site-za-sadie-family-wines",
+              "site-za-mullineux-roundstone",
+              "site-za-porseleinberg"
+            ],
+            "label": "The Swartland"
+          }
+        },
+        {
+          "text": "Chile's newest Syrah frontier lies 400 to 500 km north of Santiago, at the southern edge of the Atacama. The Elqui Valley has some of the clearest skies on Earth, which is why astronomers built observatories here, and less than 100 mm of rain a year; every vine is drip-irrigated with Andean snowmelt. Most of its grapes still go to pisco, but in 1998 two cousins from Trentino founded Viña Falernia beside the Puclaro reservoir and showed that the valley could make serious Syrah.\n\nNear the coast, the cold Pacific fog called *camanchaca* rolls up the valleys each morning. Limarí, just to the south, adds something rare in Chile, limestone in its coastal hills, and makes cool, savoury Syrah beside its chalky Chardonnay.",
+          "map": {
+            "fly": {
+              "lon": -70.95,
+              "lat": -30.35,
+              "zoom": 7.9
+            },
+            "highlight": [
+              "cl-valle-del-elqui",
+              "cl-valle-del-limari",
+              "site-cl-vina-falernia-vicuna"
+            ],
+            "label": "Elqui and Limarí"
+          }
+        },
+        {
+          "text": "Tilt the map and follow the Elqui up into the Andes. Above Vicuña the valley narrows into steep granite side valleys, and at Alcohuaz, at the top of the Claro valley in Paiguano, Viñedos de Alcohuaz farms terraced vineyards at roughly 1,700 to 2,200 m, among the highest in Chile, fermenting Syrah, Garnacha and others in open stone lagares.\n\nUp here the light is intense and the nights are cold, so Syrah ripens with thick, dark skins and keeps its acidity and pepper. That ends this Path's second flight: open an Elqui or Limarí Syrah beside the Canberra and California bottles. Three continents, three cool climates and one family resemblance: violets, pepper, fresh acidity. Then pour the Crozes again and see where it sits.",
+          "map": {
+            "fly": {
+              "lon": -70.497,
+              "lat": -30.255,
+              "zoom": 12.4
+            },
+            "terrain": true,
+            "pitch": 62,
+            "bearing": 180,
+            "highlight": [
+              "site-cl-alcohuaz",
+              "cl-paiguano"
+            ],
+            "label": "Alcohuaz, about 2,000 m"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Swartland Syrah",
+          "why": "Warm-climate Syrah made for freshness: early picking, whole bunches, old wood. Savoury, spicy and fine, a counterpoint to the Barossa.",
+          "price": "$28–45",
+          "try": [
+            "Rall",
+            "Mullineux"
+          ],
+          "place": "za-swartland"
+        },
+        {
+          "wine": "Elqui or Limarí Syrah",
+          "why": "Flight B, bottle three (South America): intense light and cold nights give dark colour with pepper and bright acidity. US stock is patchy, so a good shop may need to order one.",
+          "price": "$15–30",
+          "try": [
+            "Viña Falernia",
+            "Tabalí"
+          ],
+          "place": "cl-valle-del-elqui"
+        },
+        {
+          "wine": "Porseleinberg Syrah",
+          "why": "Whole-bunch Syrah from schist, aged in large foudres: one of South Africa's finest reds.",
+          "price": "$90–100",
+          "try": [
+            "Porseleinberg (Boekenhoutskloof)"
+          ],
+          "place": "za-porseleinberg"
+        }
+      ],
+      "deeper": [
+        "za-swartland",
+        "site-za-sadie-family-wines",
+        "site-za-mullineux-roundstone",
+        "site-za-porseleinberg",
+        "cl-valle-del-elqui",
+        "cl-valle-del-limari",
+        "site-cl-vina-falernia-vicuna",
+        "site-cl-alcohuaz"
+      ],
+      "check": [
+        {
+          "q": "What did Swartland winemakers find that sparked the region's revival?",
+          "options": [
+            "New irrigation dams",
+            "Old, dry-farmed bush vines",
+            "Limestone hills",
+            "Conditions for ice wine"
+          ],
+          "answer": 1,
+          "why": "Old bush vines of Chenin, Grenache, Cinsault and Syrah, long sold to co-operatives, became the raw material of the new wave."
+        },
+        {
+          "q": "Why must every vine in the Elqui Valley be irrigated?",
+          "options": [
+            "It has less than 100 mm of rain a year",
+            "The soils are salty",
+            "All the vines are young",
+            "The law requires it"
+          ],
+          "answer": 0,
+          "why": "The Elqui sits at the edge of the Atacama; snowmelt from the Andes waters the vines."
+        },
+        {
+          "q": "Across the cool-climate flight (Canberra, coastal California, northern Chile), what tends to unite the wines?",
+          "options": [
+            "Chocolate and jammy fruit",
+            "Violets, pepper and fresh acidity",
+            "Sweetness",
+            "Nutty, oxidative flavours"
+          ],
+          "answer": 1,
+          "why": "Cool climates keep acidity and rotundone, the pepper compound, whatever the continent."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "southern-rhone",
+    "pinot-noir",
+    "wines-long-road"
+  ],
+  "sources": [
+    {
+      "title": "Vitis Mundi grape profile: Syrah (parentage per Bowers et al., Vitis 2000; VIVC 11748)",
+      "url": "https://www.vivc.de/index.php?r=passport%2Fview&id=11748"
+    },
+    {
+      "title": "Syrah (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Syrah"
+    },
+    {
+      "title": "Inter Rhône, Chiffres clés 2025 / Key figures 2025",
+      "url": "https://www.vins-rhone.com/sites/vignoble/files/documentation/2026-05/INTER-RHONE-CHIFFRES-CLES-2025-EN.pdf"
+    },
+    {
+      "title": "Côte-Rôtie AOC (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/C%C3%B4te-R%C3%B4tie_AOC"
+    },
+    {
+      "title": "Penfolds Grange (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Penfolds_Grange"
+    },
+    {
+      "title": "Bonny Doon Vineyard (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Bonny_Doon_Vineyard"
+    },
+    {
+      "title": "Château de Beaucastel and Tablas Creek (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Beaucastel"
+    },
+    {
+      "title": "Bassins: Syrah and Shiraz listings (prices)",
+      "url": "https://bassins.com/search?q=shiraz&type=product"
+    },
+    {
+      "title": "Vin Chicago: Crozes-Hermitage and Syrah listings (prices)",
+      "url": "https://vinchicago.com/search?q=crozes&type=product"
+    },
+    {
+      "title": "Thief Wine Shop: Washington Syrah and Mullineux listings (prices)",
+      "url": "https://thiefshop.com/search?q=syrah&type=product"
+    },
+    {
+      "title": "Merchant of Wine: Grange, Clonakilla and California Syrah listings (prices)",
+      "url": "https://merchantofwine.com/search?q=shiraz&type=product"
+    },
+    {
+      "title": "67 Wine: Côte-Rôtie, Grange and Collines Rhodaniennes listings (prices)",
+      "url": "https://67wine.com/search?q=cote+rotie&type=product"
+    },
+    {
+      "title": "Decanter: Tim Atkin MW on New Zealand Syrah",
+      "url": "https://www.decanter.com/features/tim-atkin-mw-on-new-zealand-syrah-246293/"
+    },
+    {
+      "title": "New Zealand Winegrowers: Vineyard Report 2026",
+      "url": "https://www.nzwine.com/media/5fzng52v/vineyard-report-2026-final.pdf"
+    },
+    {
+      "title": "Cayuse Vineyards: About",
+      "url": "https://cayusevineyards.com/static/about.aspx"
+    },
+    {
+      "title": "Wikipedia: Turkey Flat",
+      "url": "https://en.wikipedia.org/wiki/Turkey_Flat"
+    }
+  ]
+}

@@ -1,0 +1,1155 @@
+{
+  "id": "wines-long-road",
+  "kind": "history",
+  "title": "Wine's long road",
+  "subtitle": "Eight thousand years across the map",
+  "tagline": "From a clay jar in a Georgian village to a chalk hill in Kent: follow wine across the globe and through time, one bottle at a time.",
+  "minutes": 19,
+  "deeper_minutes": 0,
+  "cover": "ge",
+  "countries": [
+    "ge",
+    "am",
+    "gr",
+    "fr",
+    "de",
+    "pt",
+    "us",
+    "gb"
+  ],
+  "intro": "Wine is older than writing, and its history is a journey across this map: out of the Caucasus, along the Mediterranean in Phoenician and Greek ships, north with Rome, into the cellars of monks, onto merchant fleets, through the catastrophe of phylloxera and out to California and southern England. Nine stops, each with a bottle that lets you taste the chapter.",
+  "chapters": [
+    {
+      "id": "cradle",
+      "part": "intro",
+      "title": "The cradle: Georgia and Armenia",
+      "steps": [
+        {
+          "text": "Every bottle on this globe descends from a wild climbing plant that still tangles through the forests between the Black Sea and the Caspian. Wild vines come as separate male and female plants and bear small, sour, unreliable fruit. Domestication meant finding the rare vines whose flowers had both sexes, so they fruited every year, and multiplying them from cuttings.\n\nWhen and where did that happen? A 2023 study in *Science*, led by Yang Dong and Wei Chen, sequenced 3,525 wild and cultivated vines and concluded that it happened about 11,000 years ago in two places at once: the South Caucasus, where grapes were bred for wine, and western Asia, where they were bred for eating. The map of wine begins here, in the valleys of what is now Georgia.",
+          "map": {
+            "fly": "ge"
+          }
+        },
+        {
+          "text": "About 50 km south of Tbilisi, two low mounds hold the earliest chemical proof of grape wine yet found. At Gadachrili Gora and Shulaveris Gora, villages of round mudbrick houses, archaeologists recovered pottery jars from about 6000 to 5800 BC whose residues held tartaric acid, the fingerprint of grapes, along with malic, succinic and citric acids. One jar carries what look like clusters of grapes in relief. The results, published in 2017 by Patrick McGovern, Stephen Batiuk, Mindia Jalabadze and colleagues, pushed the record back several centuries.\n\nThese farmers had no barrels and no glass. They had clay, and clay is still the heart of Georgian wine. Eight thousand years of the same basic idea is what makes this corner of the map special.",
+          "map": {
+            "fly": "site-ge-gadachrili-gora",
+            "highlight": [
+              "site-ge-gadachrili-gora",
+              "site-ge-shulaveris-gora"
+            ],
+            "label": "Neolithic villages"
+          }
+        },
+        {
+          "text": "East of Tbilisi, in Kakheti, the tradition is alive. Grapes are crushed into a [qvevri](term-qvevri), a huge egg-shaped clay jar lined with beeswax and buried up to its neck in the cellar floor, and left to ferment with their skins, stems and pips. The jar is sealed and the wine rests on the skins for months, cool in the earth. White grapes such as Rkatsiteli come out deep amber, with tannin like a red, smelling of dried apricot, walnut and black tea.\n\nThe monks of Alaverdi, whose restored cellar holds more than 40 qvevri, still make wine this way. In 2013 UNESCO listed qvevri winemaking as Intangible Cultural Heritage, and the amber style Georgia never abandoned became the model for what the rest of the world calls [orange wine](term-orange-wine).",
+          "map": {
+            "fly": "ge-kakheti",
+            "highlight": [
+              "ge-kakheti",
+              "site-ge-alaverdi-monastery-cellar"
+            ],
+            "label": "Kakheti"
+          }
+        },
+        {
+          "text": "South across the mountains, in a cave above the Arpa river in Armenia, wine became an industry. From 2007 a team led by Boris Gasparyan excavated Areni-1 and found a clay basin about a metre long for treading grapes, draining into a vat about 60 cm deep, with storage jars, cups, grape seeds and pressed skins around it. Radiocarbon dates put it at about 4100 to 4000 BC: the oldest known winery, built to make wine in volume rather than for a single household.\n\nBurials in the same cave suggest the wine was poured for the dead. The village below gives its name to Armenia's signature red grape, Areni, still grown in the valley today.",
+          "map": {
+            "fly": "site-am-areni-1-cave-winery",
+            "highlight": [
+              "site-am-areni-1-cave-winery",
+              "site-am-noravank-monastery"
+            ],
+            "label": "Areni-1 cave"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Georgian amber Rkatsiteli (qvevri-made)",
+          "why": "White grapes made like a red, on the skins for months: deep amber, grippy tannin, dried apricot, walnut and tea. Serve it cool, not cold, and taste the oldest winemaking method still in use.",
+          "price": "$20–30",
+          "try": [
+            "Pheasant's Tears",
+            "Kapistoni",
+            "Orgo"
+          ],
+          "place": "ge-kakheti"
+        },
+        {
+          "wine": "Armenian Areni Noir",
+          "why": "A red from the valley of the Areni-1 cave, grown high in the mountains: light to medium body, sour cherry, pepper and fresh acidity, a little like a cross between Pinot Noir and Nebbiolo.",
+          "price": "$20–30",
+          "try": [
+            "Zulal",
+            "NOA",
+            "Oshin"
+          ],
+          "place": "region-am-vayots-dzor"
+        }
+      ],
+      "deeper": [
+        "ge",
+        "ge-kakheti",
+        "site-ge-alaverdi-monastery-cellar",
+        "site-am-areni-1-cave-winery",
+        "event-domestication-two-centres",
+        "term-qvevri",
+        "term-orange-wine",
+        "grape-rkatsiteli"
+      ],
+      "check": [
+        {
+          "q": "What did the 2023 Science study conclude about the domestication of the grapevine?",
+          "options": [
+            "It happened once, in southern France",
+            "It happened about 11,000 years ago in two places: the South Caucasus and western Asia",
+            "It happened in Egypt around 3000 BC",
+            "Grapes were never truly domesticated"
+          ],
+          "answer": 1,
+          "why": "Sequencing 3,525 vines pointed to two simultaneous centres: the South Caucasus for wine grapes and western Asia for table grapes."
+        },
+        {
+          "q": "What is a qvevri?",
+          "options": [
+            "An oak barrel",
+            "A large clay jar buried in the ground",
+            "A stone treading floor",
+            "A Georgian grape variety"
+          ],
+          "answer": 1,
+          "why": "The qvevri is an egg-shaped clay vessel lined with beeswax and buried to its neck, in which Georgian wine ferments and ages, often on its skins."
+        },
+        {
+          "q": "What makes Areni-1 in Armenia famous?",
+          "options": [
+            "It is the oldest known winery, about 4100 BC",
+            "It holds the first Roman amphorae",
+            "It is a medieval monastery cellar",
+            "It produced the first sparkling wine"
+          ],
+          "answer": 0,
+          "why": "The cave held a treading basin, a fermentation vat and storage jars from about 4100 to 4000 BC, the oldest known installation built to make wine."
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "part": "intro",
+      "title": "By sea: Egypt, Phoenicians and Greeks",
+      "steps": [
+        {
+          "text": "From the mountains, wine travelled down to the first cities, and it arrived as a luxury. In Sumer the everyday drink was beer; wine came down from the Zagros in jars, and at Godin Tepe, a walled trading post in western Iran, jars of about 3500 BC lay on their sides with red stains and holes near the base. Around 3150 BC a ruler of Upper Egypt known as Scorpion I was buried at Abydos with some 700 jars of resinated wine, imported from the southern Levant.\n\nBy the time of Tutankhamun, who died around 1323 BC, Egypt grew its own. Jars in his tomb record the year of his reign, the estate and the chief vintner: among the world's earliest wine labels, and an early sign that who made a wine, and where, mattered.",
+          "map": {
+            "fly": {
+              "lon": 38.5,
+              "lat": 30.5,
+              "zoom": 4.0
+            }
+          }
+        },
+        {
+          "text": "The people who carried wine west were sailors. From Tyre, Sidon and Byblos, on the coast of today's Lebanon, Phoenician traders spread across the Mediterranean from about 900 BC, founding Carthage (traditionally in 814 BC), Gadir (modern Cádiz, a short ride from Jerez) and trading posts on Sardinia. Where they settled, vines and amphorae followed: North Africa, southern Spain, the islands.\n\nCarthage produced the ancient world's great farming manual. Its author, Mago, wrote 28 books on agriculture, vines included. When Rome destroyed Carthage in 146 BC, the Senate ordered Mago translated into Latin, which tells you how much the conquerors valued what the conquered knew.",
+          "map": {
+            "fly": {
+              "lon": 10.33,
+              "lat": 36.7,
+              "zoom": 5.5
+            },
+            "highlight": [
+              "site-tn-carthage"
+            ],
+            "label": "Carthage"
+          }
+        },
+        {
+          "text": "The Greeks made wine a culture. At an Athenian symposium, an all-male drinking party, wine was mixed with water in a large bowl, usually three parts water to one of wine; drinking it neat was for barbarians. On the island of Thasos, inscriptions of about 425 BC regulate when and how wine could be sold, an early ancestor of appellation law, and Thasian wine travelled in stamped [amphorae](term-amphora), the two-handled clay jars that let archaeologists trace ancient trade.\n\nSantorini shows how deep the Greek roots go. An eruption around 1600 BC buried the Bronze Age town of Akrotiri, and its ash and pumice became vineyard soil that [phylloxera](term-phylloxera) has never managed to colonise. Growers still coil Assyrtiko into low baskets, the *kouloura*, to shield the grapes from the wind.",
+          "map": {
+            "fly": "gr-santorini",
+            "highlight": [
+              "gr-santorini",
+              "site-gr-gaia-wines-santorini"
+            ],
+            "label": "Santorini"
+          }
+        },
+        {
+          "text": "Around 600 BC, Greek colonists from Phocaea in Asia Minor founded Massalia, today's Marseille, and planted vines. They sold wine up the Rhône to the Celts, who paid dearly: the historian Diodorus Siculus claimed a Celtic chief would trade a slave for a single amphora. At Lattara, near Montpellier, archaeologists found a wine press of about 425 BC, the oldest yet found in France.\n\nThe appellations lit up east of Marseille, Cassis, Bandol and Palette, grow on a coast first planted by those Greeks. From this foothold the vine would travel north up the Rhône, but it took a far bigger power to carry it all the way to the Mosel.",
+          "map": {
+            "fly": {
+              "lon": 5.5,
+              "lat": 43.3,
+              "zoom": 8.6
+            },
+            "highlight": [
+              "fr-cassis",
+              "fr-bandol",
+              "fr-palette"
+            ],
+            "label": "Provence's Greek coast"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Santorini Assyrtiko",
+          "why": "Bone-dry, salty and electric, from ungrafted vines on volcanic pumice. Notice how a hot, windy island still makes a white with searing acidity: the soil and the old basket-trained vines keep yields tiny and flavours concentrated.",
+          "price": "$40–70",
+          "try": [
+            "Domaine Sigalas",
+            "Gaia (Thalassitis)",
+            "Estate Argyros"
+          ],
+          "place": "gr-santorini"
+        },
+        {
+          "wine": "Mainland Greek Assyrtiko",
+          "why": "The same grape grown off the island, for a fraction of the price: lighter and fruitier, but with Assyrtiko's citrus snap. Taste it beside the Santorini to hear what the volcano adds.",
+          "price": "$17–22",
+          "try": [
+            "Papagiannakos",
+            "Kir-Yianni",
+            "Alexakis"
+          ],
+          "place": "gr"
+        }
+      ],
+      "deeper": [
+        "event-tutankhamun",
+        "site-tn-carthage",
+        "event-thasos-laws",
+        "gr-santorini",
+        "soil-pumice-aspa",
+        "fr-cassis",
+        "fr-bandol",
+        "term-amphora"
+      ],
+      "check": [
+        {
+          "q": "In ancient Sumer, what was the everyday drink?",
+          "options": [
+            "Wine",
+            "Beer",
+            "Mead",
+            "Milk"
+          ],
+          "answer": 1,
+          "why": "Wine was a luxury brought down from the mountains; beer was what most Sumerians drank."
+        },
+        {
+          "q": "After Rome destroyed Carthage in 146 BC, what did the Senate order translated into Latin?",
+          "options": [
+            "Homer's poems",
+            "Mago's books on agriculture",
+            "The laws of Thasos",
+            "A Phoenician wine list"
+          ],
+          "answer": 1,
+          "why": "Mago's 28-volume farming manual, vines included, was considered too valuable to lose."
+        },
+        {
+          "q": "Who founded Massalia (Marseille) around 600 BC?",
+          "options": [
+            "Phoenicians from Tyre",
+            "Greeks from Phocaea",
+            "Romans",
+            "Celts"
+          ],
+          "answer": 1,
+          "why": "Phocaean Greeks founded Massalia, planted vines and traded wine up the Rhône to the Celts."
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "part": "intro",
+      "title": "Rome carries the vine north",
+      "steps": [
+        {
+          "text": "Rome turned the vine into an imperial crop. Cato, Columella and Pliny the Elder wrote manuals on varieties, soils, pruning and yields that monks would copy for the next 1,500 years. Romans tracked vintages by the name of the year's consul: the Opimian wine of 121 BC was still talked about two centuries later, and Falernian from Campania was the most prized wine of its age.\n\nWine followed the legions. Merchants shipped it to Gaul in amphorae, soldiers needed their ration, and conquered provinces began to plant their own. Not everyone liked the competition: in AD 92 the emperor Domitian ordered that no new vines be planted in Italy and that half the vineyards in the provinces be pulled up. The order was widely ignored, and around AD 280 the emperor Probus is said to have lifted it.",
+          "map": {
+            "fly": {
+              "lon": 8.5,
+              "lat": 45.5,
+              "zoom": 4.4
+            }
+          }
+        },
+        {
+          "text": "The Rhône was the first highway north. Vienne was the capital of the Allobroges, a Gaulish tribe, and Pliny the Elder wrote of a recently discovered vine whose wine tasted naturally of pitch and had made the Vienne district famous; Roman writers named a vine *allobrogica* after the tribe. Just south of the town, across the river, the steep schist and granite slopes of Côte-Rôtie now grow Syrah; whether that Roman vine was its ancestor nobody can prove, but the town and the hill are the same.\n\nFollow the river down and you reach Hermitage and Crozes-Hermitage, where Syrah makes dark, peppery wine on granite and stony terraces. Like most of the vineyards in the rest of this chapter, these slopes were probably first planted under Roman rule.",
+          "map": {
+            "fly": {
+              "lon": 4.83,
+              "lat": 45.25,
+              "zoom": 9.2
+            },
+            "highlight": [
+              "fr-cote-rotie",
+              "fr-hermitage",
+              "fr-crozes-hermitage"
+            ],
+            "label": "Northern Rhône"
+          }
+        },
+        {
+          "text": "In Bordeaux, Romans planted vines around *Burdigala* in the first century AD, probably with a vine Pliny calls *Biturica*. The city's most famous Roman was the poet Ausonius, born there around 310, tutor to the future emperor Gratian and owner of vineyard estates near the Garonne. Château Ausone, a 7-hectare estate on the limestone edge of Saint-Émilion with cellars cut into the rock, takes his name, though no one can prove his villa stood on that spot.\n\nAusonius matters to this story for another reason: he is the poet who first described the vineyards of the Mosel.",
+          "map": {
+            "fly": "site-fr-chateau-ausone",
+            "highlight": [
+              "site-fr-chateau-ausone",
+              "fr-saint-emilion-grand-cru"
+            ],
+            "label": "Château Ausone"
+          }
+        },
+        {
+          "text": "Around AD 371 Ausonius, then at the imperial court in Trier, wrote the *Mosella*, a long Latin poem about vines climbing the steep river slopes and their reflection in the water. Tilt into 3D at Piesport and compare. Beside the great south-facing bowl of the Goldtröpfchen, builders in 1985 uncovered the largest Roman press house yet found north of the Alps, its basins sized for wine made in volume in the fourth century.\n\nDownstream at Neumagen, a stone relief of about AD 220 shows a ship loaded with casks, steered by a grinning helmsman. Wood had begun to replace clay: the barrel, a Celtic invention, would carry wine for the next two thousand years.",
+          "map": {
+            "fly": {
+              "lon": 6.922,
+              "lat": 49.879,
+              "zoom": 13.2
+            },
+            "pitch": 58,
+            "bearing": 10,
+            "terrain": true,
+            "highlight": [
+              "site-de-romische-kelteranlage-piesport",
+              "site-de-piesporter-goldtropfchen"
+            ],
+            "label": "Roman Piesport"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Crozes-Hermitage Rouge",
+          "why": "Northern Rhône Syrah from slopes the Romans knew: black olive, pepper, violets and fresh, savoury fruit. The best-value door into the region that also gives you Côte-Rôtie and Hermitage.",
+          "price": "$25–35",
+          "try": [
+            "E. Guigal",
+            "Domaine des Entrefaux",
+            "Maison Les Alexandrins"
+          ],
+          "place": "fr-crozes-hermitage"
+        },
+        {
+          "wine": "Piesporter Goldtröpfchen Riesling Kabinett",
+          "why": "From the slope above the Roman press house: peach, slate and a gentle sweetness held up by acidity. Raise a glass to Ausonius, who wrote about this river 1,650 years ago.",
+          "price": "$30–40",
+          "try": [
+            "A.J. Adam"
+          ],
+          "place": "site-de-piesporter-goldtropfchen"
+        }
+      ],
+      "deeper": [
+        "fr-cote-rotie",
+        "fr-crozes-hermitage",
+        "site-fr-chateau-ausone",
+        "site-de-romische-kelteranlage-piesport",
+        "site-de-neumagener-weinschiff",
+        "event-ausonius-mosella",
+        "event-domitian-edict",
+        "event-probus-280"
+      ],
+      "check": [
+        {
+          "q": "How did Romans identify a vintage?",
+          "options": [
+            "By the name of that year's consul",
+            "By the emperor's age",
+            "By the number of amphorae made",
+            "They did not record vintages"
+          ],
+          "answer": 0,
+          "why": "Romans named years after their consuls, so the famous vintage of 121 BC is remembered as Opimian, after the consul Lucius Opimius."
+        },
+        {
+          "q": "Which river did the poet Ausonius describe around AD 371?",
+          "options": [
+            "The Rhône",
+            "The Mosel",
+            "The Marne",
+            "The Ebro"
+          ],
+          "answer": 1,
+          "why": "His Latin poem Mosella is the first literary portrait of the valley's vineyards."
+        },
+        {
+          "q": "What does the Neumagen relief show?",
+          "options": [
+            "Amphorae on a cart",
+            "A ship carrying casks of wine",
+            "Monks harvesting grapes",
+            "A Greek symposium"
+          ],
+          "answer": 1,
+          "why": "The carved wine ship, about AD 220, shows barrels replacing clay jars on the Mosel."
+        }
+      ]
+    },
+    {
+      "id": "monks",
+      "part": "intro",
+      "title": "Monks and dukes: Burgundy learns to listen",
+      "steps": [
+        {
+          "text": "When Roman rule collapsed in the West, the Church kept the vineyards going. Wine was needed for the Mass, for hospitality and for income, and the Rule that Benedict of Nursia wrote for his monks at Monte Cassino, founded in 529, allowed them a measured daily ration. In 1098 a group of reforming monks founded a new abbey in the marshes east of Nuits-Saint-Georges, at Cîteaux, and the Cistercian order was born: austere, hard-working and, it turned out, superb at farming.\n\nMonks had one thing no single grower had: centuries. An abbey could note which plot gave the best wine, year after year, for generations, and act on it.",
+          "map": {
+            "fly": "site-fr-abbaye-de-citeaux",
+            "highlight": [
+              "site-fr-abbaye-de-citeaux"
+            ],
+            "label": "Cîteaux Abbey"
+          }
+        },
+        {
+          "text": "The monks of Cîteaux received their first vineyard land at Vougeot in gifts between about 1109 and 1115, then bought and swapped parcels until, by 1336, they had a single block of about 50 hectares enclosed by a stone wall: a [clos](term-clos). Their press house in the middle still holds four huge medieval presses.\n\nLook at the slope in 3D. The Clos runs from the top, next to Musigny and Grands-Échezeaux, almost down to the main road, and the monks learned that wine from the upper part was the best. That habit of tasting plot by plot is the root of the Burgundian [climat](term-climat). Seized and sold off at the Revolution, the Clos today has more than 80 owners, and quality still depends on where a grower's rows lie.",
+          "map": {
+            "fly": {
+              "lon": 4.9625,
+              "lat": 47.1722,
+              "zoom": 14.0
+            },
+            "pitch": 55,
+            "bearing": 280,
+            "terrain": true,
+            "highlight": [
+              "fr-clos-de-vougeot",
+              "site-fr-chateau-du-clos-de-vougeot"
+            ],
+            "label": "Clos de Vougeot"
+          }
+        },
+        {
+          "text": "Dukes enforced what monks discovered. On 31 July 1395 Philip the Bold, Duke of Burgundy, ordered growers to uproot Gamay, 'a very bad and disloyal plant', and banned manuring the vines, because both raised yields at the expense of quality. Burgundy's Pinot-based wine was a diplomatic gift and a ducal brand, and the duke wanted it protected. It is one of the first laws anywhere about which grape may grow where.\n\nGamay retreated south to the granite hills of Beaujolais, where it makes the juicy, floral reds of crus such as Morgon, Fleurie and Moulin-à-Vent. More than six centuries later, the grape and the place still follow the duke's map.",
+          "map": {
+            "fly": "region-fr-beaujolais",
+            "highlight": [
+              "fr-morgon",
+              "fr-fleurie",
+              "fr-moulin-a-vent"
+            ],
+            "label": "Beaujolais crus"
+          }
+        },
+        {
+          "text": "Monks shaped other regions too. In the Rheingau, Cistercians founded Kloster Eberbach in 1136 and ran a fleet of wine ships on the Rhine. In Champagne, a Benedictine named Pierre Pérignon became cellarer of the abbey of Hautvillers in 1668 and kept the post until his death in 1715.\n\nLegend says Dom Pérignon invented sparkling Champagne. He did not; he spent much of his career trying to stop his wine refermenting in spring. What he did was blend grapes from different villages, press black grapes gently to make white wine and lift the reputation of Hautvillers. The bubbles came from elsewhere, as two chapters on will show.",
+          "map": {
+            "fly": "site-fr-champagne-abbaye-saint-pierre-d-hautvillers",
+            "highlight": [
+              "site-fr-champagne-abbaye-saint-pierre-d-hautvillers",
+              "fr-champagne-hautvillers"
+            ],
+            "label": "Hautvillers"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Morgon (Beaujolais cru)",
+          "why": "The 'disloyal' Gamay, exiled to granite and thriving: dark cherry, violets, a mineral firmness and enough structure to age. Taste the grape a duke banned and decide for yourself.",
+          "price": "$20–32",
+          "try": [
+            "Jean Foillard",
+            "Georges Descombes",
+            "Georges Duboeuf"
+          ],
+          "place": "fr-morgon"
+        },
+        {
+          "wine": "Clos de Vougeot Grand Cru (a splurge)",
+          "why": "The monks' walled vineyard. With more than 80 owners, the name guarantees less than the grower and where their rows lie, which is exactly the lesson the Cistercians left behind.",
+          "price": "$150–300",
+          "try": [
+            "Louis Jadot"
+          ],
+          "place": "fr-clos-de-vougeot"
+        }
+      ],
+      "deeper": [
+        "site-fr-abbaye-de-citeaux",
+        "fr-clos-de-vougeot",
+        "site-fr-chateau-du-clos-de-vougeot",
+        "event-gamay-edict-1395",
+        "fr-morgon",
+        "site-de-kloster-eberbach",
+        "site-fr-champagne-abbaye-saint-pierre-d-hautvillers",
+        "term-clos"
+      ],
+      "check": [
+        {
+          "q": "Which monks built the Clos de Vougeot?",
+          "options": [
+            "Benedictines of Cluny",
+            "Cistercians of Cîteaux",
+            "Jesuits",
+            "Knights Templar"
+          ],
+          "answer": 1,
+          "why": "Monks of Cîteaux, founded in 1098, assembled the 50-hectare walled vineyard by 1336."
+        },
+        {
+          "q": "Why did Philip the Bold ban Gamay in 1395?",
+          "options": [
+            "It was an Italian import",
+            "To protect the quality and reputation of Burgundy's Pinot-based wine",
+            "It spread disease",
+            "It ripened too late"
+          ],
+          "answer": 1,
+          "why": "The duke saw high-yielding Gamay as a threat to the Pinot wines he used as diplomatic gifts."
+        },
+        {
+          "q": "What did Dom Pérignon actually do at Hautvillers?",
+          "options": [
+            "Invent the riddling table",
+            "Improve blending and pressing while trying to prevent refermentation",
+            "Create the first rosé Champagne",
+            "Found Moët & Chandon"
+          ],
+          "answer": 1,
+          "why": "He improved still wine and fought unwanted bubbles; sparkling Champagne developed later."
+        }
+      ]
+    },
+    {
+      "id": "claret",
+      "part": "intro",
+      "title": "Merchants' Bordeaux",
+      "steps": [
+        {
+          "text": "Bordeaux's great châteaux were built by trade. In 1152 Eleanor of Aquitaine married Henry Plantagenet, who two years later became Henry II of England, and for three centuries Bordeaux was English. Each autumn, wine fleets carried its light red *clairet* to London and Bristol; in peak years of the early 1300s the port shipped tens of thousands of *tonneaux*, casks of about 900 litres, and English drinkers turned *clairet* into claret. The city protected itself by holding back the wines of upriver regions such as Cahors and Bergerac until its own were sold.\n\nIt ended on 17 July 1453 at Castillon, upstream on the Dordogne, where a French army destroyed the English force in the last battle of the Hundred Years' War.",
+          "map": {
+            "fly": "region-fr-bordeaux",
+            "highlight": [
+              "site-fr-battle-of-castillon-monument"
+            ],
+            "label": "Castillon, 1453"
+          }
+        },
+        {
+          "text": "New customers reshaped the land. In the seventeenth century the Dutch were Bordeaux's biggest buyers, and engineers led by Humphrey Bradley, working under an edict of Henri IV from 1599, began draining the marshes of the Médoc. What emerged were the gravel ridges perfect for Cabernet. Irish, English, German and Dutch merchants built cellars in the Chartrons quarter, outside the city walls, and became the [négociants](term-negociant) who still sell most of Bordeaux.\n\nThen came the idea of an estate as a brand. On 10 April 1663 Samuel Pepys drank at the Royal Oak tavern in London 'a sort of French wine called Ho Bryan, that hath a good and most particular taste'. Arnaud III de Pontac had begun selling the wine of Haut-Brion under its own name: the first château wine.",
+          "map": {
+            "fly": {
+              "lon": -0.75,
+              "lat": 45.0,
+              "zoom": 8.6
+            },
+            "highlight": [
+              "fr-medoc",
+              "fr-haut-medoc",
+              "site-fr-musee-du-vin-et-du-negoce-chartrons",
+              "site-fr-chateau-haut-brion"
+            ],
+            "label": "Médoc and the city"
+          }
+        },
+        {
+          "text": "For the 1855 Exposition Universelle in Paris, Napoleon III wanted Bordeaux's best wines on show, ranked. The city's brokers produced the list in about two weeks, using what each château's wine had sold for over decades: reds in five tiers of growths (*crus*), plus the sweet wines of Sauternes and Barsac. Four reds were first growths: Lafite, Latour, Margaux and Haut-Brion.\n\nApart from the late addition of Cantemerle, the [1855 classification](term-1855-classification) has changed only once: in 1973 Mouton Rothschild, after half a century of lobbying by Baron Philippe de Rothschild, became a first growth. It now lists 61 reds and 27 sweet wines, because some estates have split. A price list from the reign of Napoleon III still sets the value of land in the Médoc.",
+          "map": {
+            "fly": {
+              "lon": -0.72,
+              "lat": 45.03,
+              "zoom": 8.9
+            },
+            "highlight": [
+              "site-fr-chateau-lafite-rothschild",
+              "site-fr-chateau-latour",
+              "site-fr-chateau-mouton-rothschild",
+              "site-fr-chateau-margaux",
+              "site-fr-chateau-haut-brion"
+            ],
+            "label": "The five first growths"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Médoc Cru Bourgeois",
+          "why": "Classic claret without the 1855 price: cassis, cedar, a firm, dry finish, made by the kind of estates that supplied the London trade for centuries. A good one improves for a decade.",
+          "price": "$15–28",
+          "try": [
+            "Château Patache d'Aux",
+            "Château Pey de Pont",
+            "Château Tour du Haut Moulin"
+          ],
+          "place": "fr-medoc"
+        }
+      ],
+      "deeper": [
+        "region-fr-bordeaux",
+        "fr-medoc",
+        "site-fr-chateau-haut-brion",
+        "site-fr-musee-du-vin-et-du-negoce-chartrons",
+        "event-castillon-1453",
+        "event-bordeaux-1855",
+        "term-1855-classification",
+        "term-negociant"
+      ],
+      "check": [
+        {
+          "q": "What made Bordeaux English for three centuries?",
+          "options": [
+            "Eleanor of Aquitaine's marriage to Henry Plantagenet in 1152",
+            "The Methuen Treaty",
+            "The Battle of Castillon",
+            "A Dutch loan"
+          ],
+          "answer": 0,
+          "why": "Eleanor brought Aquitaine to Henry, soon Henry II of England, and the link lasted until Castillon in 1453."
+        },
+        {
+          "q": "Which wine did Pepys drink in 1663, the first known by its estate's name?",
+          "options": [
+            "Lafite",
+            "Haut-Brion",
+            "Margaux",
+            "Petrus"
+          ],
+          "answer": 1,
+          "why": "'Ho Bryan' was Château Haut-Brion, sold under its own name by Arnaud III de Pontac."
+        },
+        {
+          "q": "What was the 1855 classification based on?",
+          "options": [
+            "Blind tastings by a jury",
+            "Decades of trading prices",
+            "Vineyard size",
+            "Soil surveys"
+          ],
+          "answer": 1,
+          "why": "Brokers ranked the wines by what they had fetched over many years."
+        }
+      ]
+    },
+    {
+      "id": "ports",
+      "part": "intro",
+      "title": "War, treaties and bubbles: Port and Champagne",
+      "steps": [
+        {
+          "text": "England's long wars with France sent its merchants looking for other wine. Portugal was an old ally, and from the late seventeenth century English traders in Porto were buying the dark, tough reds of the Douro valley. Brandy helped them survive the voyage north, and over the following century shippers learned to add it during fermentation, a step called [mutage](term-mutage): the spirit kills the yeast and leaves the wine sweet and strong. That is Port, the most famous [fortified wine](term-fortified-wine).\n\nOn 27 December 1703 the Methuen Treaty made the switch official: Portugal let in English woollens, and England promised that Portuguese wine would never pay more than two-thirds of the duty on French wine. British names still hang over the lodges of Vila Nova de Gaia: Taylor, Graham, Cockburn, Sandeman.",
+          "map": {
+            "fly": {
+              "lon": -8.613,
+              "lat": 41.137,
+              "zoom": 14.2
+            },
+            "highlight": [
+              "site-pt-cais-de-gaia",
+              "site-pt-sandeman-lodge",
+              "site-pt-offley-lodge",
+              "site-pt-calem-lodge"
+            ],
+            "label": "The Gaia lodges"
+          }
+        },
+        {
+          "text": "Success brought fraud: by the 1750s Port was being stretched with cheap wine, and prices collapsed. In 1756 Portugal's chief minister, the Marquis of Pombal, created a state company that drew a boundary round the vineyards allowed to make Port, ranked them by quality and marked the line with granite posts, some still standing. The Douro is often called the world's first demarcated and regulated wine region, almost two centuries before the AOC.\n\nFly up the valley in 3D to the terraces around Quinta do Noval. The schist slopes are so steep that every vineyard had to be built by hand into walls and steps, and the new wine once came down to Gaia on flat-bottomed *rabelo* boats, through the rapids.",
+          "map": {
+            "fly": {
+              "lon": -7.54,
+              "lat": 41.2,
+              "zoom": 13.0
+            },
+            "pitch": 60,
+            "bearing": 0,
+            "terrain": true,
+            "highlight": [
+              "site-pt-quinta-do-noval",
+              "pt-porto"
+            ],
+            "label": "Douro terraces"
+          }
+        },
+        {
+          "text": "Bubbles were an English idea before they were a French one. In 1662 the scientist Christopher Merret told the Royal Society in London that coopers and merchants added sugar to wine to make it 'drink brisk and sparkling', and English glassmakers, using coal-fired furnaces, already made bottles strong enough to hold the pressure. In Champagne's cold cellars, still wine often began fermenting again in spring; what the monks saw as a fault, London saw as fashion.\n\nThe snag was the cloudy yeast sediment left in each bottle. In Reims around 1816, Barbe-Nicole Ponsardin, the widow Clicquot, and her cellar master Antoine de Müller built a table with angled holes in which bottles were turned and tilted daily until the sediment slid into the neck, ready to be removed. [Riddling](term-remuage) made clear sparkling wine possible at scale, and the great Champagne houses grew on it.",
+          "map": {
+            "fly": "region-fr-montagne-de-reims",
+            "highlight": [
+              "site-fr-champagne-veuve-clicquot",
+              "fr-champagne-reims",
+              "site-fr-champagne-abbaye-saint-pierre-d-hautvillers"
+            ],
+            "label": "Reims and Hautvillers"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Late Bottled Vintage (LBV) Port",
+          "why": "Port from a single year, aged four to six years in wood before bottling: sweet black fruit, chocolate and spice, with the warmth of added brandy. It is ready to drink, unlike a young Vintage Port.",
+          "price": "$22–30",
+          "try": [
+            "Taylor's",
+            "Dow's",
+            "Niepoort"
+          ],
+          "place": "pt-porto"
+        },
+        {
+          "wine": "Non-vintage Brut Champagne",
+          "why": "Wine made sparkling by a second fermentation in its own bottle and cleared by the riddling the widow Clicquot devised. Notice the fine bubbles, the bread and brioche notes from yeast ageing and the bright, cool-climate acidity.",
+          "price": "$45–65",
+          "try": [
+            "Veuve Clicquot",
+            "Deutz",
+            "Piper-Heidsieck"
+          ],
+          "place": "fr-champagne"
+        }
+      ],
+      "deeper": [
+        "pt-porto",
+        "pt-douro",
+        "site-pt-cais-de-gaia",
+        "site-pt-quinta-do-noval",
+        "event-douro-1756",
+        "region-fr-champagne",
+        "site-fr-champagne-veuve-clicquot",
+        "term-methode-traditionnelle"
+      ],
+      "check": [
+        {
+          "q": "What did the Methuen Treaty of 1703 promise?",
+          "options": [
+            "Portuguese wine would never pay more than two-thirds of the duty on French wine",
+            "A total ban on French wine in England",
+            "Free trade in brandy",
+            "English ownership of the Douro"
+          ],
+          "answer": 0,
+          "why": "The duty preference tied English drinkers, and the Douro's economy, to Port for two centuries."
+        },
+        {
+          "q": "What makes Port sweet?",
+          "options": [
+            "Sugar added after fermentation",
+            "Grape brandy added during fermentation, which stops the yeast",
+            "Drying the grapes on mats",
+            "Blending in honey"
+          ],
+          "answer": 1,
+          "why": "Mutage halts fermentation and leaves natural grape sugar, raising alcohol to around 20 percent."
+        },
+        {
+          "q": "What problem did Veuve Clicquot's riddling table solve?",
+          "options": [
+            "Bottles exploding",
+            "Removing yeast sediment to make clear sparkling wine",
+            "Stopping the second fermentation",
+            "Shipping wine to Russia"
+          ],
+          "answer": 1,
+          "why": "Turning and tilting bottles gathered the sediment in the neck so it could be removed."
+        }
+      ]
+    },
+    {
+      "id": "phylloxera",
+      "part": "intro",
+      "title": "The plague and the rebuild",
+      "steps": [
+        {
+          "text": "In the mid-nineteenth century, faster steamships began carrying American vines to European collectors, and with them came American pests. First came powdery mildew (oidium), spotted in an English greenhouse in 1845, which slashed French harvests in the early 1850s until growers learned to dust their vines with sulphur. Then, in 1863, vines began to die near Pujaut and Roquemaure, on the Rhône opposite Châteauneuf-du-Pape, where Lirac and Tavel now grow.\n\nIn July 1868 the botanist Jules-Émile Planchon and colleagues from Montpellier dug up dying vines and found the roots crawling with a tiny yellow insect. They named it *Phylloxera vastatrix*, the devastator. It feeds on the roots of European vines, which swell and rot, and the vine dies within a few years.",
+          "map": {
+            "fly": {
+              "lon": 4.74,
+              "lat": 44.05,
+              "zoom": 10.0
+            },
+            "highlight": [
+              "fr-lirac",
+              "fr-tavel",
+              "fr-chateauneuf-du-pape"
+            ],
+            "label": "Where it began"
+          }
+        },
+        {
+          "text": "The cure came from the insect's homeland. In Missouri, the state entomologist Charles Valentine Riley showed that the pest was American, and that native American vines had evolved to live with it. The answer was to graft European varieties onto American roots. Hermann Jaeger in Missouri and Thomas Volney Munson in Denison, Texas, sent millions of cuttings of wild species such as *Vitis berlandieri*, *riparia* and *rupestris* to France, and France honoured both; Munson was made a Chevalier du Mérite Agricole in 1888.\n\nThere was a catch: early American [rootstocks](term-rootstock) sickened in the chalky soils of Cognac and Champagne. In 1887 France sent Pierre Viala of Montpellier to search; with Munson's help he found *berlandieri* growing on the limestone hills of Texas, and its crosses made it possible to replant chalk country.",
+          "map": {
+            "fly": "site-us-munson-vineyard",
+            "highlight": [
+              "site-us-munson-vineyard"
+            ],
+            "label": "Munson's vineyard"
+          }
+        },
+        {
+          "text": "By about 1900 most of France had been replanted on grafted vines, and almost every vine you see on this globe now grows on American roots. The map changed: some regions shrank for good, others switched grapes, and vineyards were laid out in straight rows for ploughs. During the shortage, fraud filled the gap with sugar wine, raisin wine and false names, and growers' anger exploded in the Midi in 1907 and in Champagne in 1911.\n\nThe answer was law. The decree-law of 30 July 1935 created the [AOC](term-aoc) system, tying each name to a delimited place and to rules on grapes, yields and methods. The first AOCs, in 1936, included Arbois, Cassis, Châteauneuf-du-Pape, Tavel and Monbazillac. Italy, Spain and finally the EU copied the model.",
+          "map": {
+            "fly": "fr",
+            "highlight": [
+              "fr-arbois",
+              "fr-cassis",
+              "fr-chateauneuf-du-pape",
+              "fr-tavel",
+              "fr-monbazillac"
+            ],
+            "label": "The first AOCs, 1936"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Chilean Cabernet Sauvignon",
+          "why": "Chile is one of the few major wine countries phylloxera never reached, so many of its vines still grow on their own roots. Taste for ripe cassis, a touch of mint and supple tannin, and toast the vines that never needed an American rescue.",
+          "price": "$15–25",
+          "try": [
+            "Cousiño-Macul",
+            "Odfjell",
+            "Undurraga"
+          ],
+          "place": "cl-valle-del-maipo"
+        }
+      ],
+      "deeper": [
+        "event-phylloxera-france",
+        "event-riley-phylloxera",
+        "event-munson-jaeger-rootstocks",
+        "event-viala-mission",
+        "event-aoc-1935",
+        "term-phylloxera",
+        "term-rootstock",
+        "term-own-rooted"
+      ],
+      "check": [
+        {
+          "q": "Where did phylloxera come from?",
+          "options": [
+            "North America",
+            "China",
+            "North Africa",
+            "Australia"
+          ],
+          "answer": 0,
+          "why": "The insect is native to North America, where wild vines evolved resistance; it reached France on imported vines."
+        },
+        {
+          "q": "How was Europe's vineyard saved?",
+          "options": [
+            "Dusting with sulphur",
+            "Grafting European vines onto American rootstocks",
+            "Flooding every vineyard",
+            "Replanting only hybrid grapes"
+          ],
+          "answer": 1,
+          "why": "Grafting gave European varieties phylloxera-tolerant American roots; sulphur was the cure for oidium, not phylloxera."
+        },
+        {
+          "q": "What did the 1935 AOC law tie together?",
+          "options": [
+            "A place name, its boundary and rules on grapes, yields and methods",
+            "A grape name and a brand",
+            "Tax rates and export quotas",
+            "Bottle shapes"
+          ],
+          "answer": 0,
+          "why": "Each appellation joined a delimited place to production rules, the model later copied across Europe."
+        }
+      ]
+    },
+    {
+      "id": "new-world",
+      "part": "intro",
+      "title": "The New World talks back",
+      "steps": [
+        {
+          "text": "Vines crossed the Atlantic with the conquistadors. In 1524 Hernán Cortés ordered settlers in Mexico to plant vines, and the Listán Prieto grape, later called Mission in California and País in Chile, spread with the Spanish north and south. Franciscan friars made California's first wine around 1779 to 1782 at Mission San Juan Capistrano. In 1857 the Hungarian émigré Agoston Haraszthy founded Buena Vista in Sonoma, and in 1861 he brought back cuttings of some 350 European varieties.\n\nThen the United States shut the door. Prohibition, from January 1920 to December 1933, closed most wineries. When it ended the skills were gone, and sweet fortified wine dominated American drinking for a generation.",
+          "map": {
+            "fly": "site-us-buena-vista",
+            "highlight": [
+              "site-us-buena-vista"
+            ],
+            "label": "Buena Vista, 1857"
+          }
+        },
+        {
+          "text": "The revival had a face. In 1966 Robert Mondavi, after a falling-out with his brother at the family's Charles Krug winery, built his own winery in Oakville, the first major new winery in Napa since Prohibition. He pushed cold fermentation, French oak barrels and labels that named the grape, and he welcomed visitors when tasting rooms were rare. California began to measure itself against Bordeaux and Burgundy rather than against itself.\n\nIt also chose a different model from Europe: a place plus a grape on the label, and freedom in the vineyard. The American Viticultural Area system that followed (the first AVA came in 1980, Napa Valley in 1981) draws boundaries but leaves the choice of grapes to growers.",
+          "map": {
+            "fly": "site-us-robert-mondavi-winery",
+            "highlight": [
+              "site-us-robert-mondavi-winery",
+              "us-oakville"
+            ],
+            "label": "Oakville"
+          }
+        },
+        {
+          "text": "On 24 May 1976 Steven Spurrier, an English wine merchant in Paris, and his colleague Patricia Gallagher held a blind tasting of California against France. Nine of the eleven judges were French. When the scores were added up, the top white was Chateau Montelena's 1973 Chardonnay and the top red was Stag's Leap Wine Cellars' 1973 Cabernet Sauvignon, made from three-year-old vines. George Taber, the only journalist present, reported it in *Time*.\n\nThe Judgment of Paris showed that great wine did not need a European address. Within twenty years Australia, Chile, Argentina, South Africa and New Zealand were exporting bright, fruit-forward wines labelled by grape, and the map you are looking at filled in across the Southern Hemisphere.",
+          "map": {
+            "fly": "us-napa-valley",
+            "highlight": [
+              "site-us-chateau-montelena",
+              "site-us-stags-leap-wine-cellars"
+            ],
+            "label": "The Paris winners"
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "Napa Valley Cabernet Sauvignon",
+          "why": "The wine that made Napa's name: ripe blackcurrant, cocoa, sweet oak and dense, polished tannin. Stag's Leap Wine Cellars and Chateau Montelena still make the wines that won in Paris; these are easier to find and kinder to the wallet.",
+          "price": "$45–75",
+          "try": [
+            "Duckhorn",
+            "Hall",
+            "Matthiasson"
+          ],
+          "place": "us-napa-valley"
+        }
+      ],
+      "deeper": [
+        "us-napa-valley",
+        "site-us-buena-vista",
+        "site-us-robert-mondavi-winery",
+        "site-us-chateau-montelena",
+        "site-us-stags-leap-wine-cellars",
+        "event-prohibition-us",
+        "event-judgment-of-paris",
+        "event-new-world-boom"
+      ],
+      "check": [
+        {
+          "q": "Which grape did the Spanish spread through the Americas first?",
+          "options": [
+            "Cabernet Sauvignon",
+            "Listán Prieto (Mission, País)",
+            "Zinfandel",
+            "Malbec"
+          ],
+          "answer": 1,
+          "why": "Listán Prieto travelled with the conquest from Mexico to Peru, Chile and Argentina, and to California's missions."
+        },
+        {
+          "q": "Which wines won the 1976 Judgment of Paris?",
+          "options": [
+            "Haut-Brion and Montrachet",
+            "Chateau Montelena 1973 Chardonnay and Stag's Leap Wine Cellars 1973 Cabernet Sauvignon",
+            "Opus One and Ridge Monte Bello",
+            "Penfolds Grange and Cloudy Bay"
+          ],
+          "answer": 1,
+          "why": "Both Napa wines topped their flights in front of a mostly French jury."
+        },
+        {
+          "q": "When did US Prohibition end?",
+          "options": [
+            "1919",
+            "1933",
+            "1945",
+            "1966"
+          ],
+          "answer": 1,
+          "why": "Repeal came in December 1933, after nearly fourteen years in which most wineries closed."
+        }
+      ]
+    },
+    {
+      "id": "frontiers",
+      "part": "intro",
+      "title": "New frontiers: England and a warming world",
+      "steps": [
+        {
+          "text": "The last stop is a country that drank the world's wine for centuries and made almost none. In 1952 Major-General Sir Guy Salisbury-Jones planted Seyval Blanc and other cold-hardy grapes at Hambledon in Hampshire, England's first commercial vineyard since the Middle Ages. Then in 1988 Stuart and Sandy Moss planted Chardonnay, Pinot Noir and Meunier at Nyetimber in West Sussex, and their 1992 sparkling wine began winning international awards.\n\nThe chalk under Champagne dips beneath the Channel and resurfaces in the North and South Downs. Add summers now warm enough to ripen Champagne's grapes most years and southern England has become sparkling wine country: about 4,840 hectares of vines in 2024, more than double the area of ten years earlier. In 2022 Sussex became the UK's first regional PDO.",
+          "map": {
+            "fly": {
+              "lon": -0.55,
+              "lat": 50.95,
+              "zoom": 8.0
+            },
+            "highlight": [
+              "gb-sussex",
+              "site-gb-nyetimber",
+              "site-gb-hambledon-vineyard"
+            ],
+            "label": "English sparkling"
+          }
+        },
+        {
+          "text": "The French noticed. Taittinger bought farmland at Chilham near Canterbury in 2015, planted its Domaine Evremond vineyard from 2017 and released its first English sparkling wine in 2025; Pommery partnered with Hattingley Valley in Hampshire. For a Champagne house, buying chalk in Kent is a bet on the future climate.\n\nThat bet is visible all over this map. Harvests across much of Europe now start weeks earlier than in the 1980s, and an early spring brings a new danger. On 6 to 8 April 2021, after a warm March had pushed the vines into bud, temperatures fell to around minus 6 °C across France, and growers from Chablis to Bordeaux lit thousands of candles among the vines to save the crop.",
+          "map": {
+            "fly": "event-champagne-buys-england"
+          }
+        },
+        {
+          "text": "Appellation rules are starting to bend. Bordeaux's growers voted in 2019 to allow six heat-tolerant grapes, among them Touriga Nacional from the Douro and Marselan, and the INAO confirmed them in 2021, capped at 5 percent of the vineyard and 10 percent of a blend. Meanwhile Bordeaux is paying growers to pull up vines as demand for everyday claret collapses, and the world made less wine in 2024 than in any year since 1961.\n\nSo the long road goes on. From a clay jar in the Caucasus to a chalk hill in Kent, wine has always moved to wherever climate, soil and markets allowed. Switch the map to *Climate* under *Layers and colour* and you can watch the next chapter forming.",
+          "map": {
+            "fly": {
+              "lon": 6,
+              "lat": 46,
+              "zoom": 3.6
+            }
+          }
+        }
+      ],
+      "taste": [
+        {
+          "wine": "English traditional-method sparkling wine",
+          "why": "Chardonnay, Pinot Noir and Meunier from chalk and greensand, made like Champagne: very fresh, with green apple, lemon and toasty lees. Taste it next to the Champagne from chapter six; many people can't tell them apart.",
+          "price": "$45–65",
+          "try": [
+            "Digby",
+            "Henners"
+          ],
+          "place": "gb-english-wine"
+        }
+      ],
+      "deeper": [
+        "gb-english-wine",
+        "gb-sussex",
+        "site-gb-nyetimber",
+        "site-gb-hambledon-vineyard",
+        "event-champagne-buys-england",
+        "event-frost-2021",
+        "event-bordeaux-new-varieties-2021",
+        "event-oiv-2024-low"
+      ],
+      "check": [
+        {
+          "q": "Why has southern England become sparkling wine country?",
+          "options": [
+            "Volcanic soils and hot summers",
+            "Chalk like Champagne's and a cool climate now warm enough to ripen its grapes",
+            "High-altitude vineyards",
+            "Almost no rain"
+          ],
+          "answer": 1,
+          "why": "The same chalk runs under the Channel, and warmer summers now ripen Chardonnay and Pinot Noir most years."
+        },
+        {
+          "q": "Which Champagne house planted Domaine Evremond in Kent?",
+          "options": [
+            "Moët & Chandon",
+            "Taittinger",
+            "Bollinger",
+            "Krug"
+          ],
+          "answer": 1,
+          "why": "Taittinger bought land at Chilham in 2015, planted from 2017 and released its first wine in 2025."
+        },
+        {
+          "q": "How is Bordeaux adapting its rules to hotter summers?",
+          "options": [
+            "Banning Merlot",
+            "Allowing a few heat-tolerant grapes in a small share of vineyards and blends",
+            "Moving its appellation north",
+            "Requiring irrigation"
+          ],
+          "answer": 1,
+          "why": "Six varieties such as Touriga Nacional and Marselan are allowed, capped at 5 percent of plantings and 10 percent of a blend."
+        }
+      ]
+    }
+  ],
+  "next": [
+    "burgundy",
+    "bordeaux",
+    "champagne",
+    "mosel",
+    "napa-sonoma"
+  ],
+  "sources": [
+    {
+      "title": "Dong, Chen et al. (2023), Dual domestications and origin of traits in grapevine evolution, Science 379",
+      "url": "https://boa.unimib.it/bitstream/10281/405955/2/Dong-2023-Science-VoR.pdf"
+    },
+    {
+      "title": "Gadachrili Gora (McGovern, Batiuk, Jalabadze et al. 2017, PNAS: Early Neolithic wine of Georgia)",
+      "url": "https://en.wikipedia.org/wiki/Gadachrili_Gora"
+    },
+    {
+      "title": "Areni-1 winery (excavation 2007–2010; Barnard et al. 2011, Journal of Archaeological Science)",
+      "url": "https://en.wikipedia.org/wiki/Areni-1_winery"
+    },
+    {
+      "title": "UNESCO: Ancient Georgian traditional Qvevri wine-making method (2013)",
+      "url": "https://ich.unesco.org/en/RL/ancient-georgian-traditional-qvevri-wine-making-method-00870"
+    },
+    {
+      "title": "Mago (agronomist)",
+      "url": "https://en.wikipedia.org/wiki/Mago_(agronomist)"
+    },
+    {
+      "title": "Lattara and Massalia",
+      "url": "https://en.wikipedia.org/wiki/Lattara"
+    },
+    {
+      "title": "Mosella (poem) by Ausonius",
+      "url": "https://en.wikipedia.org/wiki/Mosella_(poem)"
+    },
+    {
+      "title": "Clos de Vougeot (donations 1109–1115, wall by 1336, 50.6 ha)",
+      "url": "https://en.wikipedia.org/wiki/Clos_de_Vougeot"
+    },
+    {
+      "title": "Dom Pérignon (monk)",
+      "url": "https://en.wikipedia.org/wiki/Dom_P%C3%A9rignon_(monk)"
+    },
+    {
+      "title": "Château Haut-Brion and Pepys's diary entry of 10 April 1663",
+      "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Haut-Brion"
+    },
+    {
+      "title": "Bordeaux Wine Official Classification of 1855",
+      "url": "https://en.wikipedia.org/wiki/Bordeaux_Wine_Official_Classification_of_1855"
+    },
+    {
+      "title": "Methuen Treaty (27 December 1703)",
+      "url": "https://en.wikipedia.org/wiki/Methuen_Treaty"
+    },
+    {
+      "title": "Companhia Geral da Agricultura das Vinhas do Alto Douro (1756)",
+      "url": "https://en.wikipedia.org/wiki/Companhia_Geral_da_Agricultura_das_Vinhas_do_Alto_Douro"
+    },
+    {
+      "title": "Christopher Merret",
+      "url": "https://en.wikipedia.org/wiki/Christopher_Merret"
+    },
+    {
+      "title": "Barbe-Nicole Ponsardin and riddling",
+      "url": "https://en.wikipedia.org/wiki/Barbe-Nicole_Ponsardin"
+    },
+    {
+      "title": "Great French Wine Blight (phylloxera, 1863–1868 onwards)",
+      "url": "https://en.wikipedia.org/wiki/Great_French_Wine_Blight"
+    },
+    {
+      "title": "Thomas Volney Munson",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Volney_Munson"
+    },
+    {
+      "title": "Appellation d'origine contrôlée (decree-law of 30 July 1935)",
+      "url": "https://en.wikipedia.org/wiki/Appellation_d%27origine_contr%C3%B4l%C3%A9e"
+    },
+    {
+      "title": "Judgment of Paris (wine), 24 May 1976",
+      "url": "https://en.wikipedia.org/wiki/Judgment_of_Paris_(wine)"
+    },
+    {
+      "title": "Robert Mondavi Winery",
+      "url": "https://en.wikipedia.org/wiki/Robert_Mondavi_Winery"
+    },
+    {
+      "title": "Hambledon Vineyard",
+      "url": "https://en.wikipedia.org/wiki/Hambledon_Vineyard"
+    },
+    {
+      "title": "Jamie Goode: Taittinger's Domaine Evremond releases its first wine (2025)",
+      "url": "https://wineanorak.com/2025/01/28/taittingers-foray-into-england-domaine-evremond-releases-its-first-wine/"
+    },
+    {
+      "title": "Vitis Mundi atlas: timeline events, United Kingdom country profile (WineGB Industry Report 2025: 4,841 ha), Georgia country profile",
+      "url": "https://vitismundi.app"
+    },
+    {
+      "title": "Saratoga Wine Exchange, US retail listings checked October 2026 (Georgian amber, Areni, Assyrtiko, Crozes-Hermitage, Kabinett, Morgon, Médoc Cru Bourgeois, LBV Port, Champagne, Chilean and Napa Cabernet, English sparkling)",
+      "url": "https://www.saratogawine.com/"
+    }
+  ]
+}
