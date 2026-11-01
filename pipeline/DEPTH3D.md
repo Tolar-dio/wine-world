@@ -1,4 +1,4 @@
-# Depth packs (high-resolution 3D terrain + vectors)
+﻿# Depth packs (high-resolution 3D terrain + vectors)
 
 Lazy-loading "depth packs" that upgrade six flagship appellations inside the Vitis Mundi globe. Zooming into a
 packed region serves lidar/DTM-derived terrain tiles (instead of the 30 m Terrarium), drapes the national
@@ -23,20 +23,20 @@ the globe is exactly what it was.
 
 | Region | id | Terrain | Vectors | Imagery |
 |---|---|---|---|---|
-| Napa Valley | `us-napa-valley` | USGS 3DEP 1/3 arc-sec (~10 m), z9–13 | vineyards + buildings | NAIP (`ni-us`) |
-| Sonoma Valley | `us-sonoma-valley` | USGS 3DEP 1/3 arc-sec (~10 m), z9–13 | vineyards + buildings | NAIP (`ni-us`) |
-| Médoc | `fr-medoc` | IGN RGE ALTI 5 m, z9–14, 4 chunks | vineyards + buildings | IGN ortho (`ni-fr`) |
-| Southern Rhône | `region-fr-southern-rhone` | IGN RGE ALTI (~10 m), z9–13 | vineyards + buildings | IGN ortho (`ni-fr`) |
-| Chianti Classico | `it-chianti-classico` | TINITALY 10 m, z9–13 | vineyards | AGEA Toscana (`ni-it-to`) |
-| Barolo | `it-barolo` | TINITALY 10 m, z9–13 | vineyards | — (Geoportale Piemonte AGEA, pending) |
+| Napa Valley | `us-napa-valley` | USGS 3DEP 1/3 arc-sec (~10 m), z9â€“13 | vineyards + buildings | NAIP (`ni-us`) |
+| Sonoma Valley | `us-sonoma-valley` | USGS 3DEP 1/3 arc-sec (~10 m), z9â€“13 | vineyards + buildings | NAIP (`ni-us`) |
+| MÃ©doc | `fr-medoc` | IGN RGE ALTI 5 m, z9â€“14, 4 chunks | vineyards + buildings | IGN ortho (`ni-fr`) |
+| Southern RhÃ´ne | `region-fr-southern-rhone` | IGN RGE ALTI (~10 m), z9â€“13 | vineyards + buildings | IGN ortho (`ni-fr`) |
+| Chianti Classico | `it-chianti-classico` | TINITALY 10 m, z9â€“13 | vineyards | AGEA Toscana (`ni-it-to`) |
+| Barolo | `it-barolo` | TINITALY 10 m, z9â€“13 | vineyards | â€” (Geoportale Piemonte AGEA, pending) |
 
 ## Sources and licences
 
 - **USGS 3DEP** 1/3 arc-second DEM, `https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/13/TIFF/current/`
-  (public domain). US tiles are named by their north-west corner (`n39w122` = 38–39 N, 122–121 W).
+  (public domain). US tiles are named by their north-west corner (`n39w122` = 38â€“39 N, 122â€“121 W).
 - **NAIP** aerial imagery via USGS The National Map (`basemap.nationalmap.gov`, public domain).
-- **IGN France** ortho via Géoplateforme WMTS (`data.geopf.fr`, Licence Ouverte 2.0); already wired as `ni-fr`.
-- **IGN RGE ALTI** elevation via Géoplateforme WMS (`data.geopf.fr/wms-r`, layer
+- **IGN France** ortho via GÃ©oplateforme WMTS (`data.geopf.fr`, Licence Ouverte 2.0); already wired as `ni-fr`.
+- **IGN RGE ALTI** elevation via GÃ©oplateforme WMS (`data.geopf.fr/wms-r`, layer
   `ELEVATION.ELEVATIONGRIDCOVERAGE.HIGHRES`, `format=image/tiff`, Licence Ouverte 2.0). Keyless. The server returns
   float32 metres without a geotransform, so `depth3d_fetch_dem.py` assigns the transform from the requested bbox.
 - **INGV TINITALY** 10 m DTM via WCS (`tinitaly.pi.ingv.it/TINItaly_1_1/wcs`, coverage `tinitaly_dem`,
@@ -72,13 +72,13 @@ python -I pipeline/scripts/depth3d_fetch_dem.py --service tinitaly --bbox=7.7493
 
 - **France** uses RGE ALTI via WMS (the `HIGHRES` layer is the 1 m RGE ALTI, downsampled by the server to the
   `--res` you ask for). **Italy** uses TINITALY 10 m via WCS (native resolution).
-- The packs are output at z9–13 (≈10 m) because GitHub Pages caps files at 100 MB.
+- The packs are output at z9â€“13 (â‰ˆ10 m) because GitHub Pages caps files at 100 MB.
 
 ## Chunking a region for more detail
 
 `depth3d_terrain.py --chunks N` splits one region's tile pyramid into N PMTiles files by latitude, each under the
 100 MB limit, and writes a `chunks.json` manifest. The whole grid is feathered **once** at the outer boundary, so
-the seams between chunks are invisible — the chunks are just file boundaries, not resolution changes. The
+the seams between chunks are invisible â€” the chunks are just file boundaries, not resolution changes. The
 front end (60_depth.js) already reads chunked packs (an array of `{file, bbox}` in `index.json`).
 
 ```bat
@@ -89,11 +89,11 @@ python -I pipeline/scripts/depth3d_registry.py --docs docs   # picks up chunks.j
 ```
 
 This is the pattern for the whole catalogue: any appellation too large for one high-res file is built chunk by
-chunk (a Médoc commune at a time, a Chianti Classico UGA at a time), and the loader treats the chunks as one
+chunk (a MÃ©doc commune at a time, a Chianti Classico UGA at a time), and the loader treats the chunks as one
 seamless pack. The only remaining lever for Italy is a sub-10 m DEM (TINITALY is 10 m); France can go to 1 m
 by fetching RGE ALTI at `--res=2` and `--zmax=16` with enough chunks.
 
-- Italian ortho is now wired for Tuscany: `ni-it-to` (Regione Toscana Geoscopio WMS, AGEA 2016–2022, keyless,
+- Italian ortho is now wired for Tuscany: `ni-it-to` (Regione Toscana Geoscopio WMS, AGEA 2016â€“2022, keyless,
   HTTPS, EPSG:3857, CORS `*`), clipped to a `cover.json` `it-to` polygon (Natural Earth province union). Piemonte
   (Barolo) has AGEA 2024 / ARPA 2015 services on the Geoportale Piemonte but they were unreachable from the build
   machine; add a `ni-it-pm` entry the same way and a `cover.json` `it-pm` polygon (already present).
@@ -103,18 +103,3 @@ by fetching RGE ALTI at `--res=2` and `--zmax=16` with enough chunks.
 `pipeline/frontend/test_depth.py` renders the gh build in headless Chrome with 3D terrain + satellite on, then
 reports the map state (terrain source loaded, vineyard/building feature counts) plus console, request and HTTP
 errors. The `ERR_ABORTED` requests are MapLibre cancelling stale tile fetches on the camera jump and are ignored.
-
-## Napa Valley 3D scene
-
-`docs/3d/napa.html` is a standalone, heavy free-camera three.js scene over a 16 km stretch of the valley
-(Rutherford/Oakville/St. Helena). It renders, on top of the NAIP ortho draped over a 10 m USGS DEM:
-
-- ~4,000,000 instanced vines placed inside the real OSM vineyard parcels (`vines.bin`),
-- instanced trees scattered inside OSM woods/forest (`trees.bin`),
-- ~6,500 extruded building footprints with heights (`buildings.json`),
-- a stylised Napa River ribbon, sun + hemisphere light with PCF soft shadows, ACES tone mapping, fog and a
-  gradient sky.
-
-`pipeline/scripts/depth3d_napa3d_full.py` builds the heightfield, ortho and vines; `depth3d_napa3d_osm.py`
-fetchs woods + buildings and writes `trees.bin`/`buildings.json`. A `?limit=N` URL parameter caps the instance
-count for low-end devices and headless QA. Reload it with a static server (`python -m http.server` in `docs/`).
