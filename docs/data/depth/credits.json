@@ -1,0 +1,32 @@
+{
+ "us-napa-valley": {
+  "name": "USGS 3DEP 1/3 arc-second DEM; NAIP imagery; OpenStreetMap",
+  "url": "https://www.usgs.gov/3d-elevation-program",
+  "license": "public domain (USGS/NAIP) / ODbL (OpenStreetMap)"
+ },
+ "us-sonoma-valley": {
+  "name": "USGS 3DEP 1/3 arc-second DEM; NAIP imagery; OpenStreetMap",
+  "url": "https://www.usgs.gov/3d-elevation-program",
+  "license": "public domain (USGS/NAIP) / ODbL (OpenStreetMap)"
+ },
+ "fr-medoc": {
+  "name": "IGN RGE ALTI DEM; IGN ortho; OpenStreetMap",
+  "url": "https://geoservices.ign.fr",
+  "license": "Licence Ouverte 2.0 (IGN) / ODbL (OpenStreetMap)"
+ },
+ "region-fr-southern-rhone": {
+  "name": "IGN RGE ALTI DEM; IGN ortho; OpenStreetMap",
+  "url": "https://geoservices.ign.fr",
+  "license": "Licence Ouverte 2.0 (IGN) / ODbL (OpenStreetMap)"
+ },
+ "it-chianti-classico": {
+  "name": "INGV TINITALY 10 m DTM; Regione Toscana AGEA ortho; OpenStreetMap",
+  "url": "https://tinitaly.pi.ingv.it",
+  "license": "CC BY (TINITALY) / CC BY 4.0 (Regione Toscana) / ODbL (OpenStreetMap)"
+ },
+ "it-barolo": {
+  "name": "INGV TINITALY 10 m DTM; OpenStreetMap",
+  "url": "https://tinitaly.pi.ingv.it",
+  "license": "CC BY (TINITALY) / ODbL (OpenStreetMap)"
+ }
+}

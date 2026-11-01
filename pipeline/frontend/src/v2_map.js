@@ -40,7 +40,8 @@ const CREDIT = {
   bw: { t: 'LGL-BW (2026)', u: 'https://www.lgl-bw.de', l: 'dl-de/by-2-0' },
   by: { t: 'Bayerische Vermessungsverwaltung', u: 'https://geodaten.bayern.de', l: 'CC BY 4.0' },
   lu: { t: 'Administration du cadastre et de la topographie', u: 'https://geoportail.lu', l: 'open data' },
-  nsw: { t: '© Spatial Services NSW', u: 'https://www.spatial.nsw.gov.au', l: 'CC BY 4.0' }
+  nsw: { t: '© Spatial Services NSW', u: 'https://www.spatial.nsw.gov.au', l: 'CC BY 4.0' },
+  rtosc: { t: 'Regione Toscana · AGEA ortho', u: 'https://www.regione.toscana.it/-/geoscopio', l: 'CC BY 4.0 (regional open data)' }
 };
 
 /* ---------- national services, clipped to their country (or state) ---------- */
@@ -59,6 +60,7 @@ const NAT = {
   'ni-de-by': { cover: 'de-by', max: 18, c: 'by', url: wms('https://geoservices.bayern.de/od/wms/dop/v1/dop40', 'by_dop40c', 'image/jpeg') },
   'ni-lu': { cover: 'lu', max: 19, c: 'lu', url: (z, x, y) => `https://wmts.geoportail.lu/opendata/wmts/ortho_latest/GLOBAL_WEBMERCATOR_4_V3/${z}/${x}/${y}.jpeg` },
   'ni-au-nsw': { cover: 'au-nsw', max: 19, c: 'nsw', url: (z, x, y) => `https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Imagery/MapServer/tile/${z}/${y}/${x}` },
+  'ni-it-to': { cover: 'it-to', max: 17, c: 'rtosc', url: wms('https://www502.regione.toscana.it/ows_ofc/com.rt.wms.RTmap/wms?map=owsofc', 'rt_ofc.5k22.32bit', 'image/jpeg') },
   'nt-fr': { cover: 'fr', min: 8, max: 18, c: 'ign', topo: 1, url: wmts('https://data.geopf.fr/wmts', 'GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2', 'image/png') },
   'nt-ch': { cover: 'ch', min: 8, max: 18, c: 'swiss', topo: 1, url: (z, x, y) => `https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/${z}/${x}/${y}.jpeg` },
   'nt-at': { cover: 'at', min: 8, max: 18, c: 'bmap', topo: 1, url: (z, x, y) => `https://mapsneu.wien.gv.at/basemap/geolandbasemap/normal/google3857/${z}/${y}/${x}.png` },
@@ -278,10 +280,14 @@ async function setBase(mode, opts = {}) {
 /* relief shading: a raster-dem source of its own (3D terrain uses another, as MapLibre recommends) */
 function ensureDem() {
   if (map.getSource('dem-shade')) return;
-  const dem = MT() ? { url: mtURL('terrain-rgb-v2'), encoding: 'mapbox' } : { tiles: [TERRARIUM], encoding: 'terrarium', tileSize: 256 };
-  map.addSource('dem-shade', { type: 'raster-dem', ...dem, maxzoom: MT() ? 14 : 15 });
-  // the 3D mesh does not need the shading's detail: 512 px tiles from 256 px images quarter the requests and memory
-  map.addSource('dem-terrain', { type: 'raster-dem', ...dem, ...(MT() ? {} : { tileSize: 512 }), maxzoom: 14 });
+  /* depth packs (modules/60_depth.js) register a vmterrain:// protocol that serves their lidar/DTM tiles inside
+     a region and the 30 m Terrarium outside; maxzoom 16 lets high-res pack tiles be requested while the fallback
+     overzooms the z15 Terrarium just as the old maxzoom-14/15 sources did. */
+  const dem = MT() ? { url: mtURL('terrain-rgb-v2'), encoding: 'mapbox' }
+                   : { tiles: ['vmterrain://{z}/{x}/{y}'], encoding: 'terrarium', tileSize: 256 };
+  map.addSource('dem-shade', { type: 'raster-dem', ...dem, maxzoom: MT() ? 14 : 16 });
+  // the 3D mesh needs less shading detail: 512 px tiles quarter the requests and memory
+  map.addSource('dem-terrain', { type: 'raster-dem', ...dem, ...(MT() ? {} : { tileSize: 512 }), maxzoom: MT() ? 14 : 16 });
   map.addLayer({ id: 'hillshade', type: 'hillshade', source: 'dem-shade', minzoom: 5, layout: { visibility: 'none' }, paint: {} }, 'grat-line');
   paintShade();
 }

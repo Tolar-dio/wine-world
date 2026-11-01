@@ -15,7 +15,9 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path("/home/claude/winesite")
+# The pipeline lives in Tolar-dio/wine-world now; keep the original layout as the default and let VITIS_ROOT
+# point at a working tree that mirrors it (frontend/ + site/ + work/ + dist-gh/).
+ROOT = Path(os.environ.get("VITIS_ROOT", "/home/claude/winesite"))
 SRC = ROOT / "frontend" / "src"
 SITE = ROOT / "site"
 OUT = SITE / "index.html"

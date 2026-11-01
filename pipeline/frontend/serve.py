@@ -11,7 +11,7 @@ import sys
 from functools import partial
 from pathlib import Path
 
-ROOT = Path("/home/claude/winesite")
+ROOT = Path(os.environ.get("VITIS_ROOT", "/home/claude/winesite"))
 SITE = ROOT / "site"
 FIX = ROOT / "work" / "fe_fixtures"
 USE_FIX = "--no-fixtures" not in sys.argv and "--root" not in sys.argv and "--gh" not in sys.argv

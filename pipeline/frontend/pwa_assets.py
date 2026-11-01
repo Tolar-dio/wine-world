@@ -8,11 +8,12 @@ The icon is the atlas in miniature: a night globe with a gold rim, a faint grati
 import hashlib
 import json
 import math
+import os
 from pathlib import Path
 
 from PIL import Image, ImageDraw
 
-ROOT = Path("/home/claude/winesite")
+ROOT = Path(os.environ.get("VITIS_ROOT", "/home/claude/winesite"))
 OCEAN = (15, 20, 34)
 SPACE = (8, 11, 20)
 GOLD = (224, 176, 76)
@@ -101,7 +102,7 @@ const BUILD = '__BUILD__';
 const C = { page: 'vm-page-1', data: 'vm-data-1', tiles: 'vm-tiles-1', libs: 'vm-libs-1' };
 const CAP = { 'vm-data-1': 400, 'vm-tiles-1': 2500, 'vm-libs-1': 60 };
 const SHELL = ['./', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
-const TILE_HOSTS = /(^|\.)(tiles\.maps\.eox\.at|tile\.opentopomap\.org|s3\.amazonaws\.com|data\.geopf\.fr|wmts\.geo\.admin\.ch|mapsneu\.wien\.gv\.at|ign\.es|dgterritorio\.gov\.pt|nationalmap\.gov|service24\.rlp\.de|gds-srv\.hessen\.de|lgl-bw\.de|geoservices\.bayern\.de|geoportail\.lu|six\.nsw\.gov\.au|upload\.wikimedia\.org)$/;
+const TILE_HOSTS = /(^|\.)(tiles\.maps\.eox\.at|tile\.opentopomap\.org|s3\.amazonaws\.com|data\.geopf\.fr|wmts\.geo\.admin\.ch|mapsneu\.wien\.gv\.at|ign\.es|dgterritorio\.gov\.pt|nationalmap\.gov|service24\.rlp\.de|gds-srv\.hessen\.de|lgl-bw\.de|geoservices\.bayern\.de|geoportail\.lu|six\.nsw\.gov\.au|wms\.pcn\.minambiente\.it|www502\.regione\.toscana\.it|upload\.wikimedia\.org)$/;
 const LIB_HOSTS = /^(cdn\.jsdelivr\.net|cdnjs\.cloudflare\.com|unpkg\.com|fonts\.googleapis\.com|fonts\.gstatic\.com)$/;
 
 self.addEventListener('install', e => {
@@ -145,6 +146,7 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
+  if (url.pathname.endsWith('.pmtiles')) return;   /* PMTiles: byte-range requests pass straight to the network */
   if (req.mode === 'navigate') { e.respondWith(networkFirst(req, C.page)); return; }
   if (url.origin === self.location.origin) {
     if (/\/(data|fonts)\//.test(url.pathname)) { e.respondWith(cacheFirst(req, C.data, true)); return; }

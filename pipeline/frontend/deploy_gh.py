@@ -25,10 +25,10 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path("/home/claude/winesite")
+ROOT = Path(os.environ.get("VITIS_ROOT", "/home/claude/winesite"))
 DIST = ROOT / "dist-gh"
 SITE = ROOT / "site"
-DOCS = Path("/home/claude/wine-world/docs")
+DOCS = Path(os.environ.get("VITIS_DOCS", "/home/claude/wine-world/docs"))
 KEEP = {"CNAME"}
 GH_LIMIT = 100 * 1024 * 1024      # GitHub rejects files over 100 MB
 GH_WARN = 50 * 1024 * 1024
