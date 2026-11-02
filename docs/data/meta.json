@@ -220,42 +220,6 @@
    "title": "Fick SE, Hijmans RJ (2017). WorldClim 2, 30 arc-second elevation",
    "licence": "Free for research and non-commercial use",
    "url": "https://www.worldclim.org/"
-  },
-  {
-   "key": "usgs3dep",
-   "title": "USGS 3DEP 1/3 arc-second elevation (high-resolution terrain for the Napa and Sonoma depth packs)",
-   "licence": "Public domain",
-   "url": "https://www.usgs.gov/3d-elevation-program"
-  },
-  {
-   "key": "naip",
-   "title": "USDA NAIP aerial imagery via USGS The National Map (vine-row resolution over the depth packs)",
-   "licence": "Public domain",
-   "url": "https://www.usgs.gov/programs/national-geospatial-program/national-map"
-  },
-  {
-   "key": "terrarium",
-   "title": "Mapzen Terrain Tiles (AWS Open Data), the global 30 m terrain the depth packs feather into and fall back to",
-   "licence": "AWS Open Data (USGS 3DEP/SRTM/Copernicus EU-DEM)",
-   "url": "https://registry.opendata.aws/terrain-tiles/"
-  },
-  {
-   "key": "ign-rgealti",
-   "title": "IGN RGE ALTI elevation (Geoplateforme WMS, keyless) - terrain for the Medoc and Southern Rhone depth packs",
-   "licence": "Licence Ouverte / Open Licence 2.0",
-   "url": "https://geoservices.ign.fr/"
-  },
-  {
-   "key": "tinitaly",
-   "title": "INGV TINITALY 10 m DTM (WCS, keyless) - terrain for the Chianti Classico and Barolo depth packs",
-   "licence": "CC BY",
-   "url": "https://tinitaly.pi.ingv.it/"
-  },
-  {
-   "key": "regione-toscana",
-   "title": "Regione Toscana, AGEA 2016-2022 orthophoto (Geoscopio WMS, keyless) - satellite imagery for Tuscany/Chianti Classico",
-   "licence": "CC BY 4.0 (regional open data)",
-   "url": "https://www.regione.toscana.it/-/geoscopio"
   }
  ]
 }

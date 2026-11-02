@@ -30,6 +30,8 @@ DIST = ROOT / "dist-gh"
 SITE = ROOT / "site"
 DOCS = Path(os.environ.get("VITIS_DOCS", "/home/claude/wine-world/docs"))
 KEEP = {"CNAME"}
+# built outside this tree (depth packs: pipeline/DEPTH3D.md); never delete them on deploy
+KEEP_PREFIX = ("data/depth/",)
 GH_LIMIT = 100 * 1024 * 1024      # GitHub rejects files over 100 MB
 GH_WARN = 50 * 1024 * 1024
 
@@ -95,7 +97,7 @@ def main():
     if DOCS.exists() and not skip:
         for p in sorted(DOCS.rglob("*"), reverse=True):
             rel = p.relative_to(DOCS).as_posix()
-            if p.is_file() and rel not in files and rel not in KEEP:
+            if p.is_file() and rel not in files and rel not in KEEP and not rel.startswith(KEEP_PREFIX):
                 removed.append(rel)
                 if not dry:
                     p.unlink()

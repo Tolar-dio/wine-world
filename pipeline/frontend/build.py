@@ -61,6 +61,14 @@ def manifest(site: Path, glyphs_packed):
             if p.stat().st_size == 0:
                 continue
             files.append(r)
+    # depth packs are built straight into the Pages tree (pipeline/DEPTH3D.md): list them too, so the page knows they exist
+    depth = Path(os.environ.get("VITIS_DOCS", "/home/claude/wine-world/docs")) / "data" / "depth"
+    if depth.is_dir():
+        for p in sorted(depth.rglob("*")):
+            if p.is_file() and p.stat().st_size:
+                r = "data/depth/" + p.relative_to(depth).as_posix()
+                if r not in files:
+                    files.append(r)
     glyphs = {stack: sorted(int(k.split("-")[0]) for k in ranges) for stack, ranges in glyphs_packed.items()}
     return {"files": files, "glyphs": glyphs}
 
