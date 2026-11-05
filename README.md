@@ -30,6 +30,9 @@ The GitHub Pages build (`docs/`) adds what a sandboxed page can't do:
 - **Rules cards:** about 1,450 production-rule cards (varieties, yields, ageing, labelling), verified October 2026.
 - **Sommelier tools:** compare up to three places, climate twins, multi-criteria filters, study mode with spaced repetition and map quizzes, and a deductive tasting trainer.
 - **Cellar journal:** bottles with structured tasting notes, label photos, notes on any place, visited and wishlist lists, and a passport of classic lists. Stored in Supabase with owner-only row-level security (schema in `pipeline/supabase/migrations/`); works locally when signed out.
+- **Vector tiles:** appellation, fine-unit and base layers are pre-tiled (`pipeline/scripts/build_tiles.py`, PMTiles in `docs/data/tiles/`), so the browser only fetches and keeps what is on screen.
+- **Italian aerial imagery:** AGEA 20 cm orthophotos (CC BY 4.0 since August 2026), Alto Adige 2023 and Regione Toscana 2023 flights.
+- **Paths:** 14 guided tours on the map (regions, grapes, history).
 - **Photos:** freely licensed Wikimedia Commons photos, credited on every profile.
 - **Installable** as a phone app (PWA), with offline access to places already viewed.
 
@@ -73,6 +76,8 @@ Boundaries and base data:
 - geoBoundaries (William & Mary geoLab), per-country licences (CC BY 3.0 IGO, CC BY 4.0, OGL v3, ODbL).
 - Eurostat GISCO LAU, © EuroGeographics.
 - Natural Earth (public domain). © OpenStreetMap contributors (ODbL) for added rivers, lakes and towns.
+- Agenzia delle Entrate cadastral map (CC BY 4.0) for the Roero and Dogliani MGAs; ISTAT boundaries (CC BY 3.0 IT); Regione Siciliana SITR / IGM toponyms for Etna contrade.
+- Imagery: AGEA orthophotos (CC BY 4.0), Provincia autonoma di Bolzano orthophoto 2023, Regione Toscana orthophoto 2023 (CC BY 4.0).
 - TerraClimate 1991–2020 climatology (Abatzoglou et al. 2018), CC0. WorldClim 2.1 elevation (Fick & Hijmans 2017).
 - Fonts: Literata and IM FELL via Google Fonts, SIL Open Font License.
 
