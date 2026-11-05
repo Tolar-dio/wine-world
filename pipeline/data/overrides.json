@@ -1,5 +1,6 @@
 {
  "_doc": "Hand fixes read by scripts/integrate.py on every run, so re-integration keeps them. Sections and semantics are documented at the top of the 'hand-fix overrides' block in integrate.py. Verify with: python3 -I scripts/integrate.py --check-overrides (reads only). Keys starting with '_' are comments. Every entry is logged in work/atlas-fixes-guides-log.md or work/boundary-sweep-log.md.",
+ "_note_barolo_barbaresco_mga": "Source note, no override needed: the 236 Barolo (src aecad) and Barbaresco (src aecadtext) MGA polygons in site/data/geo/it_fine.geojson were rebuilt on 5 Nov 2026 from the Agenzia delle Entrate cadastre (work/barolo-mga-cadastre-log.md). integrate.py keeps them: an in-place geometry change makes it rebuild work/geo_src/it_fine.geojson from the site file. Do not re-run scripts/depth_mga_fine.py (the old consortium-map digitisation, src consmap): it would bring back polygons offset by about 100 m in Barolo.",
  "parent": {
   "_why_nz": "IPONZ: New Zealand, North Island and South Island are national/island GIs containing the regions; point-in-polygon of their approximate points gave Marlborough/Hawke's Bay (atlas-fixes-guides-log, item 12)",
   "nz-new-zealand": null,

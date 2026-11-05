@@ -271,7 +271,13 @@
   },
   {
    "key": "aecad",
-   "title": "MGA boundaries: parcels listed in the Roero and Dogliani DOCG disciplinari (MASAF), drawn on the cadastral map of the Agenzia delle Entrate (CC BY 4.0).",
+   "title": "MGA boundaries: parcels listed in the Barolo, Roero and Dogliani DOCG disciplinari (MASAF; Barolo annex as published in GU n. 31 of 8 Feb 2010), drawn on the cadastral map of the Agenzia delle Entrate (CC BY 4.0).",
+   "licence": "CC BY 4.0",
+   "url": "https://www.agenziaentrate.gov.it/portale/cartografia-catastale-wms"
+  },
+  {
+   "key": "aecadtext",
+   "title": "Barbaresco MGA boundaries: Agenzia delle Entrate cadastral parcels (CC BY 4.0) assigned to each MGA from the boundary description of the disciplinare annex (DM 21.02.2007) and the consortium MGA map. Approximate.",
    "licence": "CC BY 4.0",
    "url": "https://www.agenziaentrate.gov.it/portale/cartografia-catastale-wms"
   },
