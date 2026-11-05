@@ -131,7 +131,8 @@ def build(out=OUT, extra_files=(), wrap=False, mode="artifact"):
         + "<style>\n/* maplibre-gl@" + MAPLIBRE + " */\n" + css_ml.strip() + "\n/* Vitis Mundi */\n" + css + "</style>\n"
         + body
         + f'<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@{MAPLIBRE}/dist/maplibre-gl.js"></script>\n'
-        + "<script>window.__VM_MANIFEST=" + man + ";window.__VM_BUILD={mode:'" + mode + "'};</script>\n"
+        + (f'<script src="https://cdn.jsdelivr.net/npm/pmtiles@{PMTILES}/dist/pmtiles.js"></script>\n' if mode == "gh" else "")
+        + "<script>window.__VM_MANIFEST=" + man + ";window.__VM_BUILD={mode:'" + mode + "',tiles:'" + tiles_hash() + "'};</script>\n"
         + "".join(scripts)
     )
     if wrap:
@@ -145,6 +146,18 @@ def build(out=OUT, extra_files=(), wrap=False, mode="artifact"):
 
 
 GLYPHS = {}
+PMTILES = "3.2.1"
+
+
+def tiles_hash():
+    """short hash of the tile archives, appended to their URLs so caches never mix two builds"""
+    import hashlib
+    h = hashlib.sha1()
+    d = SITE / "data" / "tiles"
+    for p in sorted(d.glob("*.pmtiles")) if d.exists() else []:
+        st = p.stat()
+        h.update(f"{p.name}:{st.st_size}:{int(st.st_mtime)}".encode())
+    return h.hexdigest()[:8]
 
 def arg(name, default=None):
     if name in sys.argv:

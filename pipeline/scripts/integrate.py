@@ -636,11 +636,234 @@ class Ctx:
         self.stat = defaultdict(Counter)
         self.notes = []
         self.t0 = time.time()
+        self.ov = load_overrides(os.path.join(root, "data", "overrides.json"), self.warn)
+        self.ov_used = Counter()
 
     def warn(self, msg):
         self.warnings.append(msg)
         if self.args.verbose:
             print("WARN", msg, file=sys.stderr)
+
+
+# ====================================================================== hand-fix overrides (data/overrides.json)
+# Hand fixes that the derivation below would otherwise undo on every run. Each section is keyed by id; keys
+# starting with "_" are comments. Sections:
+#   parent         {app id: parent id | null}   forced parent of a polygon, fine unit or extra point (lvl follows)
+#   ctx            {app/site id: "text"}        forced search-disambiguation ctx (applied after assign_ctx)
+#   profile        {app id: {field: value}}     profile fields set after merging, before region membership
+#                                               (e.g. "subregion": "Vallée de la Marne")
+#   alt_remove     {app id: ["name", ...]}      names dropped from the polygon's alt and from the profile's
+#                                               match/alt lists (stops "Saint-Aubin" joining Burgundy)
+#   region_exclude {region id: [app id, ...]}   removed from that region's members (app_ids and outline)
+#   outline_clip   {region id: {app id: [w,s,e,n]}}  the member is clipped to this box in the region outline only
+#   geometry       [{"id", "drop_parts_within": [[w,s,e,n], ...], "add_parts": [polygon coords, ...], "reason"}]
+#                  polygon parts lying wholly inside one of the boxes are dropped (EU commune-layer homonym
+#                  strays), then add_parts (the right commune, WGS84 Polygon coordinates) are unioned in unless
+#                  already covered; area, bbox and (if needed) lp are recomputed. A spec that changes nothing is a
+#                  no-op (already fixed upstream).
+# Check without building: python3 -I scripts/integrate.py --check-overrides
+OVERRIDE_SECTIONS = ("parent", "ctx", "profile", "alt_remove", "region_exclude", "outline_clip", "geometry")
+
+
+def load_overrides(path, warn=None):
+    ov = {k: ({} if k != "geometry" else []) for k in OVERRIDE_SECTIONS}
+    ov["_geom_by_id"] = defaultdict(lambda: {"drop": [], "add": []})
+    if not os.path.exists(path):
+        return ov
+    with open(path, encoding="utf-8") as fh:
+        raw = json.load(fh)
+    for k in OVERRIDE_SECTIONS:
+        v = raw.get(k)
+        if v is None:
+            continue
+        if k == "geometry":
+            ov[k] = [x for x in v if isinstance(x, dict) and isinstance(x.get("id"), str)]
+        else:
+            ov[k] = {i: x for i, x in v.items() if not i.startswith("_")}
+    for k in raw:
+        if not k.startswith("_") and k not in OVERRIDE_SECTIONS and warn:
+            warn(f"overrides: unknown section {k!r} ignored")
+    for spec in ov["geometry"]:
+        ov["_geom_by_id"][spec["id"]]["drop"].extend(spec.get("drop_parts_within") or [])
+        ov["_geom_by_id"][spec["id"]]["add"].extend(spec.get("add_parts") or [])
+    return ov
+
+
+def apply_geom_patch(gj, patch):
+    """Apply one feature's `geometry` override to a rounded GeoJSON (Multi)Polygon: drop the parts inside the
+    `drop` boxes, then union the `add` polygons (Polygon coordinate arrays, WGS84) unless they are already
+    covered (so a rerun is a no-op); holes under 0.2 km2 left by the union are filled. Returns (geometry or None,
+    dropped part bboxes, added: bool)."""
+    adds = [a for a in patch.get("add") or [] if a]
+    extra = fix_geom(shape({"type": "MultiPolygon", "coordinates": adds})) if adds else None
+    gj, dropped = drop_parts(gj, patch.get("drop") or [], keep_if_within=extra)
+    added = False
+    if gj is not None and extra is not None:
+        base = fix_geom(shape(gj))
+        if base is not None and extra.difference(base).area > 0.01 * extra.area:
+            u = fix_geom(base.union(extra))
+            ps = []
+            for poly in (u.geoms if isinstance(u, MultiPolygon) else [u]):
+                keep = [r for r in poly.interiors if area_km2(Polygon(r)) >= 0.2]
+                ps.append(Polygon(poly.exterior, keep))
+            new = round_geometry(geom_json(MultiPolygon(ps) if len(ps) > 1 else ps[0]))
+            if new is not None:
+                gj, added = new, True
+    return gj, dropped, added
+
+
+def drop_parts(gj, boxes, tol=0.002, keep_if_within=None):
+    """Drop the Polygon parts of a GeoJSON (Multi)Polygon lying wholly inside one of boxes ([w,s,e,n], padded by
+    tol degrees), except parts that are (99%) the geometry keep_if_within (an added commune from an earlier run).
+    Returns (new geometry or None if nothing would remain, list of dropped part bboxes)."""
+    if not boxes:
+        return gj, []
+    polys = [gj["coordinates"]] if gj["type"] == "Polygon" else list(gj["coordinates"])
+    keep, dropped = [], []
+    for poly in polys:
+        xs = [c[0] for c in poly[0]]
+        ys = [c[1] for c in poly[0]]
+        b = (min(xs), min(ys), max(xs), max(ys))
+        inbox = any(b[0] >= w - tol and b[1] >= s - tol and b[2] <= e + tol and b[3] <= n + tol
+                    for w, s, e, n in boxes)
+        if inbox and keep_if_within is not None:
+            pg = fix_geom(Polygon(poly[0], poly[1:]))
+            if pg is not None and pg.area > 0 and pg.difference(keep_if_within.buffer(1e-4)).area < 0.01 * pg.area:
+                inbox = False
+        if inbox:
+            dropped.append([round(x, 4) for x in b])
+        else:
+            keep.append(poly)
+    if not dropped:
+        return gj, []
+    if not keep:
+        return None, dropped
+    return ({"type": "Polygon", "coordinates": keep[0]} if len(keep) == 1 else
+            {"type": "MultiPolygon", "coordinates": keep}), dropped
+
+
+def check_overrides(root):
+    """--check-overrides: load data/overrides.json and verify every target against the current site data and
+    the pristine geo copies. Reads only; writes nothing. Returns the number of problems."""
+    path = os.path.join(root, "data", "overrides.json")
+    probs, notes = [], []
+    if not os.path.exists(path):
+        print(f"check-overrides: {path} not found")
+        return 1
+    ov = load_overrides(path, warn=probs.append)
+    geo = os.path.join(root, "site", "data", "geo")
+    with open(os.path.join(geo, "_index.json"), encoding="utf-8") as fh:
+        index = {e["id"]: e for e in json.load(fh)}
+    with open(os.path.join(geo, "_sites.geojson"), encoding="utf-8") as fh:
+        sites = {f["properties"]["id"] for f in json.load(fh)["features"]}
+    regions, region_members = set(), {}
+    for fn in glob.glob(os.path.join(root, "site", "data", "content", "*.json")):
+        if fn.endswith("_fine.json"):
+            continue
+        with open(fn, encoding="utf-8") as fh:
+            c = json.load(fh)
+        for rg in c.get("regions") or []:
+            regions.add(rg["id"])
+            region_members[rg["id"]] = set(rg.get("app_ids") or [])
+
+    def need_app(sec, i):
+        if i not in index:
+            probs.append(f"{sec}: {i} is not an appellation / fine unit / point id in _index.json")
+            return False
+        return True
+
+    for i, par in ov["parent"].items():
+        if need_app("parent", i) and par is not None:
+            if need_app(f"parent[{i}] target", par) and index[par]["country"] != index[i]["country"]:
+                probs.append(f"parent: {i} -> {par} crosses countries")
+        if i in index:
+            notes.append(f"parent {i}: now {index[i].get('parent')!r}, override {par!r}")
+    for i, v in ov["ctx"].items():
+        if i not in index and i not in sites:
+            probs.append(f"ctx: {i} is neither an appellation nor a site id")
+        elif not isinstance(v, str) or not v.strip():
+            probs.append(f"ctx: {i} value must be a non-empty string")
+    for i, fields in ov["profile"].items():
+        need_app("profile", i)
+        if not isinstance(fields, dict):
+            probs.append(f"profile: {i} value must be an object")
+            continue
+        for k, v in fields.items():
+            if k in ("subregion", "region") and v and i in index:
+                if f"region-{index[i]['country']}-{slugify(v)}" not in regions:
+                    probs.append(f"profile: {i}.{k} = {v!r} names no region of that country")
+    for i, names in ov["alt_remove"].items():
+        if need_app("alt_remove", i):
+            have = set(index[i].get("alt") or [])
+            left = [n for n in names if n in have]
+            notes.append(f"alt_remove {i}: {left or 'already absent'} in current alt {sorted(have)}")
+    for rid, ids in ov["region_exclude"].items():
+        if rid not in regions:
+            probs.append(f"region_exclude: {rid} is not a region id")
+        for i in ids:
+            need_app(f"region_exclude[{rid}]", i)
+            if i in region_members.get(rid, ()):
+                notes.append(f"region_exclude {rid}: {i} currently a member (will be removed)")
+    for rid, m in ov["outline_clip"].items():
+        if rid not in regions:
+            probs.append(f"outline_clip: {rid} is not a region id")
+        for i, b in m.items():
+            need_app(f"outline_clip[{rid}]", i)
+            if not (isinstance(b, list) and len(b) == 4 and b[0] < b[2] and b[1] < b[3]):
+                probs.append(f"outline_clip: {rid}/{i} box must be [w,s,e,n]")
+            elif i not in region_members.get(rid, ()):
+                notes.append(f"outline_clip {rid}: {i} is not a member now (clip is a no-op)")
+    feats_cache = {}
+
+    def geo_feature(path, fid):
+        if path not in feats_cache:
+            feats_cache[path] = None
+            if os.path.exists(path):
+                with open(path, encoding="utf-8") as fh:
+                    feats_cache[path] = {(f.get("properties") or {}).get("id"): f for f in json.load(fh)["features"]}
+        return (feats_cache[path] or {}).get(fid)
+
+    for spec in ov["geometry"]:
+        i = spec["id"]
+        boxes = spec.get("drop_parts_within") or []
+        adds = spec.get("add_parts") or []
+        if not need_app("geometry", i):
+            continue
+        if index[i].get("pt"):
+            probs.append(f"geometry: {i} is a point, not a polygon")
+            continue
+        if not (boxes or adds) or not all(isinstance(b, list) and len(b) == 4 for b in boxes):
+            probs.append(f"geometry: {i} needs drop_parts_within [[w,s,e,n], ...] and/or add_parts")
+            continue
+        for a in adds:
+            try:
+                ag = shape({"type": "Polygon", "coordinates": a})
+                if not ag.is_valid or ag.is_empty:
+                    probs.append(f"geometry: {i} add_parts polygon invalid")
+            except Exception as e:
+                probs.append(f"geometry: {i} add_parts polygon unreadable ({e})")
+        iso = index[i]["country"]
+        fname = f"{iso}_fine.geojson" if index[i].get("fine") else f"{iso}.geojson"
+        for label, p in (("site", os.path.join(geo, fname)), ("geo_src", os.path.join(root, "work", "geo_src", fname))):
+            f = geo_feature(p, i)
+            if f is None:
+                if os.path.exists(p):
+                    probs.append(f"geometry: {i} not found in {label} {fname}")
+                continue
+            ng, dropped, added = apply_geom_patch(round_geometry(f["geometry"]), {"drop": boxes, "add": adds})
+            if ng is None:
+                probs.append(f"geometry: {i} boxes would drop every part in {label} {fname}")
+            else:
+                notes.append(f"geometry {i} [{label}]: {len(dropped)} part(s) still to drop"
+                             + (f" {dropped}" if dropped else "")
+                             + (f", {len(adds)} add part(s) " + ("still to add" if added else "already in place") if adds else "")
+                             + (" (already fixed)" if not dropped and not added else ""))
+    for n in notes:
+        print("  ok  " + n)
+    for p in probs:
+        print("  ERR " + p)
+    print(f"check-overrides: {sum(len(ov[k]) for k in OVERRIDE_SECTIONS)} overrides, {len(probs)} problem(s)")
+    return len(probs)
 
 
 # ====================================================================== basemap / countries
@@ -987,6 +1210,17 @@ def normalize_feature(ctx, f, s, used, i):
     if gj is None:
         ctx.warn(f"{tag} ({name}): empty geometry, skipped")
         return None
+    regeom = False
+    patch = ctx.ov["_geom_by_id"].get(p.get("id"))
+    if patch:  # data/overrides.json `geometry`: drop homonym-commune strays, add the right communes
+        ng, dropped, added = apply_geom_patch(gj, patch)
+        if ng is None:
+            ctx.warn(f"{tag} ({name}): override would drop every part, ignored")
+        elif dropped or added:
+            gj, regeom = ng, True
+            ctx.ov_used["geometry"] += 1
+            ctx.rep["overrides"].append(f"- geometry {p.get('id')}: dropped {len(dropped)} part(s) {dropped}"
+                                        + (f", added {len(patch['add'])} part(s)" if added else ""))
     try:
         shp = shape(gj)
         if not shp.is_valid:
@@ -1014,22 +1248,28 @@ def normalize_feature(ctx, f, s, used, i):
     if p.get("country") and str(p.get("country")).lower() != iso:
         ctx.warn(f"{tag}: country {p.get('country')!r} != file {iso}, using {iso}")
     props.update(id=fid, name=name, country=iso)
-    props["alt"] = [a for a in str_list(p.get("alt")) if a != name]
+    drop_alt = set(ctx.ov["alt_remove"].get(fid) or [])
+    props["alt"] = [a for a in str_list(p.get("alt")) if a != name and a not in drop_alt]
+    if drop_alt and len(props["alt"]) != len([a for a in str_list(p.get("alt")) if a != name]):
+        ctx.ov_used["alt_remove"] += 1
     if not props["alt"]:
         props.pop("alt")
-    if to_float(p.get("area")) is None:
+    if to_float(p.get("area")) is None or regeom:
         props["area"] = round(area_km2(shp), 1)
     else:
         props["area"] = round(float(p["area"]), 1)
-    if not valid_pair(p.get("lp")):
+    if not valid_pair(p.get("lp")) or (regeom and not shp.buffer(1e-4).contains(Point(*p["lp"]))):
         props["lp"] = label_point(shp)
     else:
         props["lp"] = [round(float(x), 4) for x in p["lp"]]
     b = p.get("bbox")
     props["bbox"] = [round(float(x), 4) for x in b] if isinstance(b, list) and len(b) == 4 and all(
-        to_float(x) is not None for x in b) else bbox4(shp.bounds)
+        to_float(x) is not None for x in b) and not regeom else bbox4(shp.bounds)
     if not isinstance(props.get("parent"), str):
         props["parent"] = None
+    if fid in ctx.ov["parent"]:  # data/overrides.json `parent`
+        props["parent"] = ctx.ov["parent"][fid]
+        ctx.ov_used["parent"] += 1
     for k in ("cat", "bq", "src"):
         if not props.get(k):
             props[k] = {"bq": "approx"}.get(k, "")
@@ -1629,6 +1869,13 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
         return not ctx_ids or bool(ctx_ids & set(ancestors(fid)))
 
     for pr in profs:
+        oid = pr.get("id") if isinstance(pr.get("id"), str) and pr.get("id") else f"{iso}-{slugify(pr['name'])}"
+        drop_alt = set(ctx.ov["alt_remove"].get(oid) or [])
+        if drop_alt:  # data/overrides.json `alt_remove` (profile side)
+            for key in ("match", "alt"):
+                if pr.get(key):
+                    pr[key] = [x for x in str_list(pr[key]) if x not in drop_alt]
+            ctx.ov_used["alt_remove_profile"] += 1
         pr["_k0"], pr["_k1"] = keys_of(profile_names(pr))
         pr["_poly"], pr["_how"], pr["_also"] = None, None, []
         pid = pr.get("id")
@@ -1999,6 +2246,9 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
             ctx.rep["regions"].append(f"- {iso} region '{rg['name']}': {len(unresolved)} unresolved: " + ", ".join(unresolved[:12]) + (" ..." if len(unresolved) > 12 else ""))
             st["region_names_unresolved"] += len(unresolved)
     for pr in profs:
+        for k, v in (ctx.ov["profile"].get(pr["_id"]) or {}).items():  # data/overrides.json `profile`
+            pr[k] = v
+            ctx.ov_used["profile"] += 1
         for key in ("subregion", "region"):
             rid = resolve_region(pr.get(key))
             if rid:
@@ -2018,6 +2268,11 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
     for rg in regions:
         ids = list(dict.fromkeys(closure(rg["_id"])))
         ids.sort(key=lambda i: (0 if i in by_id else 1, -(by_id[i]["p"]["area"] if i in by_id else 0), i))
+        excl = set(ctx.ov["region_exclude"].get(rg["_id"]) or [])  # data/overrides.json `region_exclude`
+        if excl & set(ids):
+            ctx.ov_used["region_exclude"] += len(excl & set(ids))
+            ctx.rep["overrides"].append(f"- region_exclude {rg['_id']}: " + ", ".join(sorted(excl & set(ids))))
+            ids = [i for i in ids if i not in excl]
         rg["_app_ids"] = ids
 
     # ---- 6. extra points for profiles without polygons
@@ -2099,6 +2354,10 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
         pr["_cq"] = "approx" if cq not in ("precise", "approx") else cq
         style, _ = derive_style(pr, None, grapes, gmap.get(pr["_id"]))
         parent = pip(*pr["_pt"])
+        if pr["_id"] in ctx.ov["parent"]:  # data/overrides.json `parent` (extra points)
+            parent = ctx.ov["parent"][pr["_id"]]
+            parent = parent if parent in by_id else None
+            ctx.ov_used["parent"] += 1
         par_lvl = by_id[parent]["p"]["lvl"] + 1 if parent else 0
         extra.append({"id": pr["_id"], "name": pr["name"], "country": iso, "cat": pr.get("cat") or "",
                       "subcat": pr.get("subcat"), "style": style, "cq": pr["_cq"], "parent": parent,
@@ -2150,7 +2409,18 @@ def build_country(ctx, iso, F, M, countries, grapes, out):
                 if out_l and len(out_l) < len(polys):
                     ctx.rep["regions"].append(f"- {iso} region '{rg['name']}': outline ignores outlier members " + ", ".join(r["p"]["id"] for r in out_l))
                     polys = [r for r in polys if r not in out_l]
-            geom = outline_union([r["shp"] for r in polys])
+            clips = ctx.ov["outline_clip"].get(rg["_id"]) or {}  # data/overrides.json `outline_clip`
+            shapes = []
+            for r in polys:
+                b = clips.get(r["p"]["id"])
+                if b:
+                    ctx.ov_used["outline_clip"] += 1
+                    c = fix_geom(r["shp"].intersection(box(*b)))
+                    if c is not None and not c.is_empty:
+                        shapes.append(c)
+                else:
+                    shapes.append(r["shp"])
+            geom = outline_union(shapes)
             src = "union"
         if geom is None:
             pts = [(s["lon"], s["lat"]) for i in rg["_app_ids"] for s in sites_by_app.get(i, [])]
@@ -2578,6 +2848,11 @@ def assign_ctx(ctx, feats, out, countries):
             st["no_ctx"] += 1
         elif len(it[3]["ctx"]) > CTX_MAX:
             it[3]["ctx"] = ctx_short([it[3]["ctx"]])
+    for it in items:  # data/overrides.json `ctx`
+        obj = it[-1]
+        if obj.get("id") in ctx.ov["ctx"]:
+            obj["ctx"] = ctx.ov["ctx"][obj["id"]]
+            ctx.ov_used["ctx"] += 1
     for c in out["content"].values():
         for s in c.get("sites", []):
             if site_props.get(s["id"], {}).get("ctx"):
@@ -2952,10 +3227,14 @@ def main():
     ap.add_argument("--no-topo", action="store_true", help="do not run scripts/topo_merge.py")
     ap.add_argument("--clim-timeout", type=int, default=3600)
     ap.add_argument("-v", "--verbose", action="store_true")
+    ap.add_argument("--check-overrides", action="store_true",
+                    help="only verify data/overrides.json against the current site data (writes nothing)")
     ap.add_argument("--inline-fine-profiles", action="store_true",
                     help="put fine-unit profiles in {iso2}.json under fine_profiles instead of {iso2}_fine.json")
     args = ap.parse_args()
     root = os.path.abspath(args.root)
+    if args.check_overrides:
+        sys.exit(1 if check_overrides(root) else 0)
     ctx = Ctx(root, args)
     os.makedirs(ctx.geo, exist_ok=True)
     os.makedirs(ctx.content_out, exist_ok=True)
@@ -3186,6 +3465,7 @@ def write_report(ctx, isos, cmeta, counts, grapes, total, nfiles, site_files):
          f"(root `{ctx.root}`).", "", "## Summary", ""]
     L += [f"- {k}: {v}" for k, v in counts.items()]
     L += [f"- site/data: {nfiles} files, {total / 1e6:.2f} MB; site/ total files: {site_files}"] + [f"- {n}" for n in ctx.notes]
+    L += [f"- overrides applied: " + (", ".join(f"{k} {v}" for k, v in sorted(ctx.ov_used.items())) or "none")]
     L += ["", "## Per country", "",
           "| iso2 | polys | fine | profiles (fine) | exact | variant | translit | fuzzy | points | unplaced | no-profile polys | regions | outlines | sites | site app by name/fine/pip/none | coords dropped |",
           "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
@@ -3203,6 +3483,7 @@ def write_report(ctx, isos, cmeta, counts, grapes, total, nfiles, site_files):
     L += ["", "Style derivation sources (polygons): " + ", ".join(f"{k} {v}" for k, v in styles.most_common()), ""]
     sections = [
         ("geo_files", "Geo inputs", "| file | status |\n|---|---|"),
+        ("overrides", "Hand-fix overrides applied (data/overrides.json)", ""),
         ("content_files", "Research files", "| file | records |\n|---|---|"),
         ("fuzzy", "Fuzzy matches (review these)", "| iso2 | profile | polygon | score |\n|---|---|---|---|"),
         ("ambiguous", "Ambiguous matches", ""),

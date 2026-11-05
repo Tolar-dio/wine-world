@@ -41,8 +41,13 @@ const CREDIT = {
   by: { t: 'Bayerische Vermessungsverwaltung', u: 'https://geodaten.bayern.de', l: 'CC BY 4.0' },
   lu: { t: 'Administration du cadastre et de la topographie', u: 'https://geoportail.lu', l: 'open data' },
   nsw: { t: '© Spatial Services NSW', u: 'https://www.spatial.nsw.gov.au', l: 'CC BY 4.0' },
-  rtosc: { t: 'Regione Toscana · AGEA ortho', u: 'https://www.regione.toscana.it/-/geoscopio', l: 'CC BY 4.0 (regional open data)' }
+  rtosc: { t: 'Ortofoto 2023 © Regione Toscana', u: 'https://www502.regione.toscana.it/geoscopio/ortofoto.html', l: 'CC BY 4.0' },
+  agea: { t: 'Ortofoto AGEA 2022-2024', u: 'https://geoportale.agea.gov.it', l: 'CC BY 4.0 (AGEA GeoPortale, Note legali)' },
+  bz: { t: 'Orthofoto 2023 © Autonome Provinz Bozen-Südtirol', u: 'https://data.civis.bz.it/it/dataset/ortofoto-2023', l: 'CC BY 4.0 (Open Data Alto Adige, also listed as CC0)' }
 };
+/* AGEA flies a third of Italy each year at 20 cm; its tiled ImageServer is Web Mercator (GoogleMapsCompatible
+   levels, cached to z18) and returns a transparent tile where that year was not flown */
+const agea = yr => (z, x, y) => `https://geoportale.agea.gov.it/image/rest/services/AgEA/Ortofoto_AgEA_${yr}/ImageServer/tile/${z}/${y}/${x}`;
 
 /* ---------- national services, clipped to their country (or state) ---------- */
 const wmts = (base, layer, fmt, tms = 'PM') => (z, x, y) => `${base}?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=${layer}&STYLE=normal&TILEMATRIXSET=${tms}&TILEMATRIX=${z}&TILEROW=${y}&TILECOL=${x}&FORMAT=${fmt}`;
@@ -60,7 +65,12 @@ const NAT = {
   'ni-de-by': { cover: 'de-by', max: 18, c: 'by', url: wms('https://geoservices.bayern.de/od/wms/dop/v1/dop40', 'by_dop40c', 'image/jpeg') },
   'ni-lu': { cover: 'lu', max: 19, c: 'lu', url: (z, x, y) => `https://wmts.geoportail.lu/opendata/wmts/ortho_latest/GLOBAL_WEBMERCATOR_4_V3/${z}/${x}/${y}.jpeg` },
   'ni-au-nsw': { cover: 'au-nsw', max: 19, c: 'nsw', url: (z, x, y) => `https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Imagery/MapServer/tile/${z}/${y}/${x}` },
-  'ni-it-to': { cover: 'it-to', max: 17, c: 'rtosc', url: wms('https://www502.regione.toscana.it/ows_ofc/com.rt.wms.RTmap/wms?map=owsofc', 'rt_ofc.5k22.32bit', 'image/jpeg') },
+  /* Italy: AGEA by flight year (later entries draw on top), then the newer or sharper regional flights */
+  'ni-it-ag22': { cover: 'it-ag22', max: 18, c: 'agea', url: agea(2022) },
+  'ni-it-ag23': { cover: 'it-ag23', max: 18, c: 'agea', url: agea(2023) },
+  'ni-it-ag24': { cover: 'it-ag24', max: 18, c: 'agea', url: agea(2024) },
+  'ni-it-to': { cover: 'it-to', max: 19, c: 'rtosc', url: wms('https://www502.regione.toscana.it/ows_ofc/com.rt.wms.RTmap/wms?map=owsofc_rt', 'rt_ofc.5k23.32bit', 'image/jpeg') },
+  'ni-it-bz': { cover: 'it-bz', max: 19, c: 'bz', url: (z, x, y) => `https://geoservices.buergernetz.bz.it/mapproxy/root/wmts/p_bz-Orthoimagery:Aerial-2023-RGB/EPSG_3857/${String(z).padStart(2, '0')}/${x}/${y}.png` },
   'nt-fr': { cover: 'fr', min: 8, max: 18, c: 'ign', topo: 1, url: wmts('https://data.geopf.fr/wmts', 'GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2', 'image/png') },
   'nt-ch': { cover: 'ch', min: 8, max: 18, c: 'swiss', topo: 1, url: (z, x, y) => `https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-farbe/default/current/3857/${z}/${x}/${y}.jpeg` },
   'nt-at': { cover: 'at', min: 8, max: 18, c: 'bmap', topo: 1, url: (z, x, y) => `https://mapsneu.wien.gv.at/basemap/geolandbasemap/normal/google3857/${z}/${y}/${x}.png` },
@@ -146,7 +156,7 @@ function registerImgProtocol() {
   if (registerImgProtocol.done) return;
   registerImgProtocol.done = true;
   maplibregl.addProtocol('vmimg', async (params, abort) => {
-    const m = params.url.match(/^vmimg:\/\/([a-z-]+)\/(\d+)\/(\d+)\/(\d+)/);
+    const m = params.url.match(/^vmimg:\/\/([a-z0-9-]+)\/(\d+)\/(\d+)\/(\d+)/);
     const svc = m && NAT[m[1]];
     if (!svc) return { data: await emptyTile() };
     const z = +m[2], x = +m[3], y = +m[4];

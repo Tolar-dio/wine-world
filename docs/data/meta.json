@@ -85,9 +85,9 @@
   },
   {
    "key": "etnacontr",
-   "title": "| Etna contrade | 107 of 133 | `etnacontr` | approx | rough, see below |",
-   "licence": "CC BY 4.0",
-   "url": "https://wfs.cartografia.agenziaentrate.gov.it/inspire/wfs/owfs01.php"
+   "title": "Etna DOC contrade: the disciplinare's list of menzioni geografiche aggiuntive, drawn on real roads and streams (OpenStreetMap, ODbL); assignment approximate.",
+   "licence": "ODbL",
+   "url": "https://www.openstreetmap.org/copyright"
   },
   {
    "key": "eupdo",
@@ -139,7 +139,7 @@
   },
   {
    "key": "nobilepieve",
-   "title": "| Vino Nobile Pievi | 12 | `nobilepieve` | approx | real roads and streams, assignment approximate |",
+   "title": "Vino Nobile di Montepulciano Pievi: Consorzio del Vino Nobile maps, drawn on real roads and streams; assignment approximate.",
    "licence": "CC BY 4.0",
    "url": "https://www.consorziovinonobile.it/"
   },
@@ -163,7 +163,7 @@
   },
   {
    "key": "osmcom",
-   "title": "| Montepulciano d'Abruzzo sottozone and UGAs | 9 + 4 | `osmcom` | commune | comune unions; five sottozone are larger than the legal zone |",
+   "title": "Italian sottozone and UGAs as unions of comuni (OpenStreetMap boundaries, ODbL); some are larger than the legal zone.",
    "licence": "ODbL",
    "url": "https://www.openstreetmap.org/copyright"
   },
@@ -193,7 +193,7 @@
   },
   {
    "key": "veneto",
-   "title": "| Veneto DOC/DOCG zones (it.geojson) | 32 | `veneto` | official (Lison, Lison-Pramaggiore, Lugana, Prosecco, Valdadige: commune) | schedario vitivinicolo line |",
+   "title": "Regione Veneto, DOC/DOCG production zones (KML), Rive and UGA delimitations.",
    "licence": "",
    "url": "https://www.regione.veneto.it/web/agricoltura-e-foreste/disciplinari-docg-doc-igt"
   },
@@ -252,10 +252,46 @@
    "url": "https://tinitaly.pi.ingv.it/"
   },
   {
+   "key": "agea-ortho",
+   "title": "AGEA (Agenzia per le Erogazioni in Agricoltura), Ortofoto AGEA 2022, 2023 and 2024 (20 cm RGB; GeoPortale AGEA tiled ImageServer, keyless) - satellite imagery for every Italian region at vine-row detail",
+   "licence": "CC BY 4.0",
+   "url": "https://geoportale.agea.gov.it"
+  },
+  {
    "key": "regione-toscana",
-   "title": "Regione Toscana, AGEA 2016-2022 orthophoto (Geoscopio WMS, keyless) - satellite imagery for Tuscany/Chianti Classico",
-   "licence": "CC BY 4.0 (regional open data)",
-   "url": "https://www.regione.toscana.it/-/geoscopio"
+   "title": "Regione Toscana, Ortofoto 2023 (20 cm, region-owned flight; Geoscopio WMS owsofc_rt, keyless) - satellite imagery for Tuscany",
+   "licence": "CC BY 4.0",
+   "url": "https://www502.regione.toscana.it/geoscopio/ortofoto.html"
+  },
+  {
+   "key": "bz-ortho",
+   "title": "Autonome Provinz Bozen-Südtirol / Provincia autonoma di Bolzano, Orthofoto 2023 (20 cm; geoservices.buergernetz.bz.it WMTS, keyless) - satellite imagery for Alto Adige",
+   "licence": "CC BY 4.0 (Open Data Alto Adige; the catalogue also lists CC0)",
+   "url": "https://data.civis.bz.it/it/dataset/ortofoto-2023"
+  },
+  {
+   "key": "aecad",
+   "title": "MGA boundaries: parcels listed in the Roero and Dogliani DOCG disciplinari (MASAF), drawn on the cadastral map of the Agenzia delle Entrate (CC BY 4.0).",
+   "licence": "CC BY 4.0",
+   "url": "https://www.agenziaentrate.gov.it/portale/cartografia-catastale-wms"
+  },
+  {
+   "key": "osmtrace",
+   "title": "Italian sottozone traced from the disciplinare's delimitation text on OpenStreetMap roads, streams and ISTAT borders (ODbL; ISTAT CC BY 3.0 IT). Approximate.",
+   "licence": "ODbL",
+   "url": "https://www.openstreetmap.org/copyright"
+  },
+  {
+   "key": "istatcom",
+   "title": "ISTAT 2026 administrative boundaries (CC BY 3.0 IT), comuni clipped to the appellation.",
+   "licence": "CC BY 3.0 IT",
+   "url": "https://www.istat.it/notizia/confini-delle-unita-amministrative-a-fini-statistici-al-1-gennaio-2018-2/"
+  },
+  {
+   "key": "sitrtopo",
+   "title": "Etna contrade located from IGM 1:25,000 and Regione Siciliana CTR toponyms (SITR). Points, approximate.",
+   "licence": "",
+   "url": "https://www.sitr.regione.sicilia.it/"
   }
  ]
 }

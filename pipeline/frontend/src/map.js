@@ -3,6 +3,32 @@ const Z_APP = 4.5;          /* appellation polygons fade in from here */
 const Z_FINE = 9.8;         /* finer units (Einzellagen, MGAs...) */
 const F_IT = ['atlas-italic'], F_RG = ['atlas-regular'], F_SC = ['atlas-sc'];
 const has = p => (MANIFEST.files && MANIFEST.files.length) ? MANIFEST.files.includes(p) : true;
+/* Pages build: appellation layers come as pre-built vector tiles (scripts/build_tiles.py), one PMTiles archive per
+   country source, so the phone only fetches and keeps what is on screen. The artifact build keeps the GeoJSON path. */
+const VEC = new Map();                 /* vector-tile source key -> its feature-state layer */
+const TILES_OK = () => !!window.pmtiles && window.__VM_BUILD && window.__VM_BUILD.mode === 'gh';
+/* merged: every country in two archives (tiles/app.pmtiles, tiles/fine.pmtiles) drawn by two sources and six layers;
+   per country only the properties load (labels, profiles). Per-country archives remain a fallback. */
+const MERGED = () => TILES_OK() && has('data/tiles/app.pmtiles') && has('data/tiles/fine.pmtiles');
+const useTiles = key => TILES_OK() && has(`data/tiles/props/${key}.json`) && (MERGED() || has(`data/tiles/${key}.pmtiles`));
+const tileURL = name => 'pmtiles://' + new URL(BASE + `data/tiles/${name}.pmtiles?v=${(window.__VM_BUILD && window.__VM_BUILD.tiles) || ''}`, location.href).href;
+function addMergedTiles() {
+  if (!MERGED() || map.getSource('vt-app')) return;
+  registerTileProtocol();
+  for (const [key, fine] of [['vt-app', false], ['vt-fine', true]]) {
+    VEC.set(key, 'a');
+    map.addSource(key, { type: 'vector', url: tileURL(key.slice(3)), promoteId: 'id' });
+    for (const [before, layer] of appLayers(key, fine)) map.addLayer(layer, before);
+    S.sources.push(key);
+  }
+}
+const fsT = (source, id) => VEC.has(source) ? { source, sourceLayer: VEC.get(source), id } : { source, id };
+const fsAll = source => VEC.has(source) ? { source, sourceLayer: VEC.get(source) } : { source };
+function registerTileProtocol() {
+  if (registerTileProtocol.done || !window.pmtiles) return;
+  registerTileProtocol.done = true;
+  try { maplibregl.addProtocol('pmtiles', new pmtiles.Protocol({ metadata: false }).tile); } catch (e) { console.warn('[tiles]', e); }
+}
 let map = null;
 const S = {
   mode: store.get('mode', 'style'),
@@ -123,6 +149,11 @@ function lineOpacity(fine) {
 function appLayers(src, fine) {
   const minzoom = fine ? Z_FINE - 0.3 : Z_APP - 0.3;
   const vis = S.layers.apps ? 'visible' : 'none';
+  const L = appLayerDefs(src, fine, minzoom, vis);
+  if (VEC.has(src)) for (const [, l] of L) l['source-layer'] = 'a';
+  return L;
+}
+function appLayerDefs(src, fine, minzoom, vis) {
   return [
     ['anchor-fill', { id: src + '-fill', type: 'fill', source: src, minzoom, layout: { visibility: vis, 'fill-sort-key': ['-', 0, ['get', 'area']] }, paint: { 'fill-color': colorExpr(), 'fill-opacity': fillOpacity(fine), 'fill-antialias': false } }],
     ['anchor-line', { id: src + '-line', type: 'line', source: src, minzoom, layout: { visibility: vis, 'line-join': 'round' }, paint: { 'line-color': colorExpr(), 'line-opacity': lineOpacity(fine), 'line-width': ['interpolate', ['linear'], ['zoom'], 5, ['case', ['>', ['get', 'lvl'], 0], 0.5, 0.8], 9, ['case', ['>', ['get', 'lvl'], 0], 0.9, 1.3], 13, 1.8] } }],
@@ -284,6 +315,7 @@ function initMap() {
 }
 function addSourceSafe(id, spec) { if (!map.getSource(id)) map.addSource(id, spec); return map.getSource(id); }
 function addLayerSafe(layer, before) { if (!map.getLayer(layer.id)) map.addLayer(layer, before && map.getLayer(before) ? before : undefined); }
+function addLayerSafe0(layer, before) { return addLayerSafe(layer, before); }
 
 async function onMapLoad() {
   addIcons();
@@ -299,6 +331,7 @@ async function onMapLoad() {
   ]);
   setCountries(countries);
   addOverview(overview);
+  try { addMergedTiles(); } catch (e) { console.warn('[tiles]', e); }
   addCountryLabels();
   APP.emit('countries');
   // second wave once the globe is up
@@ -411,10 +444,23 @@ function clabPaint() {
 
 /* ---------- basemap extras, loaded after the globe is visible ---------- */
 function findBase(...names) { for (const n of names) if (has('data/base/' + n)) return 'data/base/' + n; return null; }
+/* Pages build: coastlines/borders, lakes, admin lines and rivers come from one tile archive (tiles/base.pmtiles),
+   so the browser no longer parses ~7 MB of GeoJSON before the appellation tiles can load */
+const BASE_VT = () => TILES_OK() && has('data/tiles/base.pmtiles');
+function baseSrc(name, geojsonSpec) {
+  if (BASE_VT()) {
+    registerTileProtocol();
+    if (!map.getSource('base-vt')) { map.addSource('base-vt', { type: 'vector', url: tileURL('base'), promoteId: { land: 'iso2' } }); VEC.set('base-vt', 'land'); }
+    return { source: 'base-vt', 'source-layer': name };
+  }
+  addSourceSafe(geojsonSpec[0], geojsonSpec[1]);
+  return { source: geojsonSpec[0] };
+}
 async function addBasemapExtras() {
   // detailed coastlines and borders replace the low-res ones from z 3.6
-  if (has('data/base/countries.geojson')) {
-    addSourceSafe('land-hi', { type: 'geojson', data: BASE + 'data/base/countries.geojson', promoteId: 'iso2', tolerance: 0.45 });
+  if (BASE_VT() || has('data/base/countries.geojson')) {
+    const LS = baseSrc('land', ['land-hi', { type: 'geojson', data: BASE + 'data/base/countries.geojson', promoteId: 'iso2', tolerance: 0.45 }]);
+    const addLayerSafe = (l, before) => addLayerSafe0({ ...l, ...LS }, before);
     addLayerSafe({ id: 'land-hi-fill', type: 'fill', source: 'land-hi', minzoom: 3.5, paint: { 'fill-color': TOK.land } }, 'grat-line');
     addLayerSafe({ id: 'land-hi-line', type: 'line', source: 'land-hi', minzoom: 3.5, paint: { 'line-color': TOK.border, 'line-width': ['interpolate', ['linear'], ['zoom'], 4, 0.8, 10, 1.6], 'line-opacity': 0.95 } }, 'anchor-border');
     addLayerSafe({ id: 'country-sel-hi', type: 'line', source: 'land-hi', minzoom: 3.5, filter: ['==', ['get', 'iso2'], '__none'], paint: { 'line-color': TOK.highlight, 'line-width': 1.8 } }, 'anchor-sel');
@@ -423,7 +469,7 @@ async function addBasemapExtras() {
     if (S.selCountry) selectCountry(S.selCountry);
     // hand over to the detailed layers once their data has arrived
     const handover = e => {
-      if (e.sourceId !== 'land-hi' || !e.isSourceLoaded) return;
+      if (e.sourceId !== LS.source || !e.isSourceLoaded) return;
       map.off('sourcedata', handover);
       for (const id of ['land-line', 'country-sel']) map.setLayerZoomRange(id, 0, 3.6);
     };
@@ -431,19 +477,19 @@ async function addBasemapExtras() {
   }
   const lakes = findBase('lakes.geojson', 'lakes_10m.geojson');
   if (lakes) {
-    addSourceSafe('lakes', { type: 'geojson', data: BASE + lakes, tolerance: 0.5 });
-    addLayerSafe({ id: 'lakes-fill', type: 'fill', source: 'lakes', minzoom: 3, layout: { visibility: S.layers.lakes ? 'visible' : 'none' }, paint: { 'fill-color': TOK.lake, 'fill-outline-color': TOK.river } }, 'anchor-lakes');
+    const LK = baseSrc('lakes', ['lakes', { type: 'geojson', data: BASE + lakes, tolerance: 0.5 }]);
+    addLayerSafe({ id: 'lakes-fill', type: 'fill', ...LK, minzoom: 3, layout: { visibility: S.layers.lakes ? 'visible' : 'none' }, paint: { 'fill-color': TOK.lake, 'fill-outline-color': TOK.river } }, 'anchor-lakes');
   }
   if (has('data/base/admin1_lines.geojson')) {
-    addSourceSafe('admin1', { type: 'geojson', data: BASE + 'data/base/admin1_lines.geojson', tolerance: 0.6 });
+    const AD = baseSrc('admin', ['admin1', { type: 'geojson', data: BASE + 'data/base/admin1_lines.geojson', tolerance: 0.6 }]);
     for (const [lv, mz, wd] of [[1, 4.5, 0.8], [2, 6.5, 0.5]]) {
-      addLayerSafe({ id: 'admin1-line-' + lv, type: 'line', source: 'admin1', minzoom: mz, filter: ['==', ['get', 'level'], lv], paint: {
+      addLayerSafe({ id: 'admin1-line-' + lv, type: 'line', ...AD, minzoom: mz, filter: ['==', ['get', 'level'], lv], paint: {
         'line-color': TOK.border, 'line-width': wd, 'line-opacity': ['interpolate', ['linear'], ['zoom'], mz, 0, mz + 1, 0.55, 9, 0.75], 'line-dasharray': [4, 3] } }, 'anchor-admin');
     }
   }
   const rivers = findBase('rivers.geojson', 'rivers_10m.geojson', 'wine_rivers.geojson');
   if (rivers) {
-    const fc = await getJSON(rivers);
+    const fc = BASE_VT() ? { features: [] } : await getJSON(rivers);
     if (fc) {
       for (const f of fc.features) {
         const p = f.properties || (f.properties = {});
@@ -452,18 +498,18 @@ async function addBasemapExtras() {
         const sr = +(p.sr ?? p.scalerank ?? p.rank ?? 8);
         p.t = p.w || sr <= 6 ? 0 : sr <= 9 ? 1 : 2;
       }
-      addSourceSafe('rivers', { type: 'geojson', data: fc, tolerance: 0.5 });
+      const RV = baseSrc('rivers', ['rivers', { type: 'geojson', data: fc, tolerance: 0.5 }]);
       const vis = S.layers.rivers ? 'visible' : 'none';
       for (const [t, mz] of [[0, 2.5], [1, 5.5], [2, 7.5]]) {
-        addLayerSafe({ id: 'rivers-line-' + t, type: 'line', source: 'rivers', minzoom: mz, filter: ['==', ['get', 't'], t], layout: { visibility: vis, 'line-cap': 'round', 'line-join': 'round' }, paint: {
+        addLayerSafe({ id: 'rivers-line-' + t, type: 'line', ...RV, minzoom: mz, filter: ['==', ['get', 't'], t], layout: { visibility: vis, 'line-cap': 'round', 'line-join': 'round' }, paint: {
           'line-color': ['case', ['==', ['get', 'w'], 1], TOK['river-wine'], TOK.river],
           'line-width': ['interpolate', ['linear'], ['zoom'], 3, ['case', ['==', ['get', 'w'], 1], 0.9, 0.5], 7, ['case', ['==', ['get', 'w'], 1], 1.8, 0.9], 12, ['case', ['==', ['get', 'w'], 1], 3.2, 1.6]],
           'line-opacity': ['interpolate', ['linear'], ['zoom'], mz, 0, mz + 1, 0.9] } }, 'anchor-rivers');
       }
-      addLayerSafe({ id: 'rivers-lab', type: 'symbol', source: 'rivers', minzoom: 6, filter: ['==', ['get', 'w'], 1], layout: {
+      addLayerSafe({ id: 'rivers-lab', type: 'symbol', ...RV, minzoom: 6, filter: ['==', ['get', 'w'], 1], layout: {
         visibility: S.layers.rivers && S.layers.labels ? 'visible' : 'none', 'symbol-placement': 'line', 'text-field': ['get', 'lab'], 'text-font': F_IT,
         'text-size': ['interpolate', ['linear'], ['zoom'], 6, 11.5, 12, 14.5], 'text-letter-spacing': 0.1, 'symbol-spacing': 280, 'text-max-angle': 40, 'text-padding': 1 }, paint: { 'text-color': TOK['river-wine'], 'text-halo-color': TOK.halo, 'text-halo-width': 1.3 } }, 'anchor-top');
-      addLayerSafe({ id: 'rivers-lab-2', type: 'symbol', source: 'rivers', minzoom: 8.5, filter: ['==', ['get', 'w'], 0], layout: {
+      addLayerSafe({ id: 'rivers-lab-2', type: 'symbol', ...RV, minzoom: 8.5, filter: ['==', ['get', 'w'], 0], layout: {
         visibility: S.layers.rivers && S.layers.labels ? 'visible' : 'none', 'symbol-placement': 'line', 'text-field': ['get', 'lab'], 'text-font': F_IT,
         'text-size': 11, 'text-letter-spacing': 0.1, 'symbol-spacing': 420, 'text-max-angle': 30 }, paint: { 'text-color': TOK.muted, 'text-halo-color': TOK.halo, 'text-halo-width': 1.2 } }, 'anchor-labels');
     }
@@ -635,7 +681,7 @@ function removeCountrySource(key) {
   for (const id of users) map.removeLayer(id);
   if (map.getSource(key)) map.removeSource(key);
   S.sources = S.sources.filter(k => k !== key);
-  S.geo.delete(key); S.geo.delete('p:' + key); S.seen.delete(key);
+  S.geo.delete(key); S.geo.delete('p:' + key); S.seen.delete(key); VEC.delete(key);
   if (key.startsWith('fine-')) {
     const iso = key.slice(5);
     S.fineLabs = S.fineLabs.filter(l => !String(l.properties.id).startsWith(iso + '-'));
@@ -662,9 +708,12 @@ function pump() {
   while (S.active < 2 && S.queue.length) {
     const job = S.queue.shift();
     S.active++;
-    fetch(BASE + 'data/geo/' + job.file).then(r => r.ok ? r.json() : null).catch(() => null).then(fc => {
+    const vec = useTiles(job.key);
+    fetch(BASE + (vec ? `data/tiles/props/${job.key}.json` : 'data/geo/' + job.file)).then(r => r.ok ? r.json() : null).catch(() => null).then(fc => {
       let ok = false;
-      if (fc && Array.isArray(fc.features) && map) {
+      if (vec && Array.isArray(fc) && map) {
+        try { addCountryTiles(job.key, fc, job.key.startsWith('fine-')); ok = true; } catch (e) { console.warn('[tiles]', job.key, e.message); }
+      } else if (fc && Array.isArray(fc.features) && map) {
         try { addCountrySource(job.key, fc, job.key.startsWith('fine-')); ok = true; } catch (e) { console.warn('[geo]', job.key, e.message); }
       }
       S.geo.set(job.key, ok ? 'loaded' : 'failed');
@@ -718,6 +767,43 @@ function addCountrySource(key, fc, fine) {
   if (S.sel && S.sel.id && srcFor(S.sel.id) === key) setSel(S.sel.id);
   if (S.grapeSet) for (const f of slim.features) if (S.grapeSet.has(f.properties.id)) map.setFeatureState({ source: key, id: f.properties.id }, { g: true });
 }
+function addCountryTiles(key, props, fine) {
+  registerTileProtocol();
+  const labs = [], ids = [];
+  for (const p of props) {
+    if (!p || !p.id) continue;
+    D.feat.set(p.id, fine ? { ...p, fine: 1 } : p);
+    S.srcOf.set(p.id, key);
+    ids.push(p.id);
+    if (fine && Array.isArray(p.lp)) labs.push({ type: 'Feature', properties: { id: p.id, lab: safeLabel(shortName(p), 'atlas-italic'), area: +p.area || 0, gc: /grand/i.test(p.subcat || '') ? 1 : 0, _p: p }, geometry: { type: 'Point', coordinates: p.lp } });
+  }
+  if (labs.length) {
+    const cnt = new Map();
+    for (const l of labs) { const k = fold(l.properties.lab); cnt.set(k, (cnt.get(k) || 0) + 1); }
+    for (const l of labs) {
+      const p = l.properties._p; delete l.properties._p;
+      if (cnt.get(fold(l.properties.lab)) > 1) { const c = placeCtx(p); if (c) l.properties.lab2 = safeLabel(c, 'atlas-regular'); }
+    }
+  }
+  if (MERGED()) {
+    /* geometry is already on the map (vt-app / vt-fine); this key only tracks the properties and labels */
+    const vk = fine ? 'vt-fine' : 'vt-app';
+    for (const id of ids) S.srcOf.set(id, vk);
+    S.sources.push(key);
+  } else {
+    VEC.set(key, 'a');
+    map.addSource(key, { type: 'vector', url: tileURL(key), promoteId: 'id' });
+    for (const [before, layer] of appLayers(key, fine)) map.addLayer(layer, before);
+    S.sources.push(key);
+  }
+  if (fine && labs.length) {
+    S.fineLabs = S.fineLabs.concat(labs);
+    const src = map.getSource('fine-lab');
+    if (src) src.setData({ type: 'FeatureCollection', features: S.fineLabs });
+  }
+  if (S.sel && S.sel.id && srcFor(S.sel.id) === key) setSel(S.sel.id);
+  if (S.grapeSet) for (const id of ids) if (S.grapeSet.has(id)) { const k = srcFor(id); if (map.getSource(k)) map.setFeatureState(fsT(k, id), { g: true }); }
+}
 /* "Gevrey-Chambertin premier cru Champeaux" -> "Champeaux": the parent is already labelled underneath */
 function shortName(p) {
   let n = String(p.name || '');
@@ -730,11 +816,12 @@ function srcFor(id) {
   if (!id) return null;
   if (S.srcOf.has(id)) return S.srcOf.get(id);
   const iso = id.slice(0, 2);
+  if (MERGED()) return D.byId.get(id)?.fine ? 'vt-fine' : 'vt-app';
   return (D.byId.get(id)?.fine ? 'fine-' : 'app-') + iso;
 }
 
 /* ---------- feature-state helpers ---------- */
-function stateSet(ref, st) { try { if (ref && map.getSource(ref.src)) map.setFeatureState({ source: ref.src, id: ref.id }, st); } catch (e) { /* source not ready */ } }
+function stateSet(ref, st) { try { if (ref && map.getSource(ref.src)) map.setFeatureState(fsT(ref.src, ref.id), st); } catch (e) { /* source not ready */ } }
 function setHover(ref) {
   if (S.hover && ref && S.hover.src === ref.src && S.hover.id === ref.id) return;
   if (S.hover) stateSet(S.hover, { hover: false });
@@ -765,11 +852,11 @@ function applyGrapeOverview() {
 }
 function setGrapeHighlight(ids) {
   if (!map) return;
-  for (const key of S.sources) map.removeFeatureState({ source: key });
+  for (const key of S.sources) if (map.getSource(key)) map.removeFeatureState(fsAll(key));
   if (map.getSource('extra')) map.removeFeatureState({ source: 'extra' });
   S.grapeSet = ids ? new Set(ids) : null;
   S.grape = ids ? true : null;
-  if (S.grapeSet) for (const id of S.grapeSet) { const k = srcFor(id); if (map.getSource(k)) map.setFeatureState({ source: k, id }, { g: true }); }
+  if (S.grapeSet) for (const id of S.grapeSet) { const k = srcFor(id); if (map.getSource(k)) map.setFeatureState(fsT(k, id), { g: true }); }
   if (S.sel) stateSet(S.sel, { sel: true });
   applyGrapeOverview();
   repaintApps();

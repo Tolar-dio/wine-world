@@ -1,0 +1,51 @@
+{
+ "_doc": "Hand fixes read by scripts/integrate.py on every run, so re-integration keeps them. Sections and semantics are documented at the top of the 'hand-fix overrides' block in integrate.py. Verify with: python3 -I scripts/integrate.py --check-overrides (reads only). Keys starting with '_' are comments. Every entry is logged in work/atlas-fixes-guides-log.md or work/boundary-sweep-log.md.",
+ "parent": {
+  "_why_nz": "IPONZ: New Zealand, North Island and South Island are national/island GIs containing the regions; point-in-polygon of their approximate points gave Marlborough/Hawke's Bay (atlas-fixes-guides-log, item 12)",
+  "nz-new-zealand": null,
+  "nz-north-island": null,
+  "nz-south-island": null,
+  "_why_waitaki": "Waitaki Valley North Otago is its own Region GI on the Canterbury/Otago boundary, not part of Canterbury (atlas-fixes-guides-log, item 12)",
+  "nz-waitaki-valley-north-otago": null,
+  "_why_wild_horse": "TTB polygon lies 34.1% in Napa Valley and 65.9% in Solano County Green Valley, 100% in North Coast; SPEC >= 85% rule gives North Coast (atlas-fixes-guides-log, item 12)",
+  "us-wild-horse-valley": "us-north-coast"
+ },
+ "ctx": {
+  "_why": "ctx values set by hand on 31 Oct (atlas-fixes-guides-log, items 12, 15, 17)",
+  "site-fr-chateau-margaux": "Margaux",
+  "nz-new-zealand": "New Zealand",
+  "nz-north-island": "North Island",
+  "nz-south-island": "South Island",
+  "fr-champagne-tours-sur-marne": "Vallée de la Marne"
+ },
+ "profile": {
+  "_why": "Tours-sur-Marne is a Vallée de la Marne grand cru, not Montagne de Reims (atlas-fixes-guides-log, item 15); also fixed at source in depth_champagne_crus.json",
+  "fr-champagne-tours-sur-marne": {"subregion": "Vallée de la Marne"}
+ },
+ "alt_remove": {
+  "_why": "The Anjou DGC's alt/match 'Saint-Aubin' resolved Burgundy's 'Saint-Aubin' region-list entry to it (followups 11 and 21)",
+  "fr-coteaux-du-layon-saint-aubin-de-luigne": ["Saint-Aubin"]
+ },
+ "region_exclude": {
+  "_why": "Belt and braces for the Layon/Saint-Aubin homonym (followups 11 and 21)",
+  "region-fr-burgundy": ["fr-coteaux-du-layon-saint-aubin-de-luigne"],
+  "region-fr-cote-de-beaune": ["fr-coteaux-du-layon-saint-aubin-de-luigne"]
+ },
+ "outline_clip": {
+  "_why": "fr-cotes-du-rhone covers the whole valley up to Vienne; the Southern Rhone outline keeps only its part south of 44.6 N (atlas-fixes-guides-log, item 18)",
+  "region-fr-southern-rhone": {"fr-cotes-du-rhone": [3.5, 43.0, 6.5, 44.6]}
+ },
+ "geometry": [
+  {"id": "it-barbera-d-asti", "drop_parts_within": [[11.0865, 45.901, 11.1258, 45.9468], [11.1096, 45.9529, 11.1468, 45.9754]], "reason": "Calliano (TN, Vallagarina) homonym of Calliano (AT); atlas-fixes-guides-log item 13"},
+  {"id": "it-barbera-del-monferrato", "drop_parts_within": [[11.0865, 45.901, 11.1258, 45.9468], [11.1096, 45.9529, 11.1468, 45.9754]], "reason": "Calliano (TN) homonym of Calliano (AT); atlas-fixes-guides-log item 13"},
+  {"id": "it-barbera-del-monferrato-superiore", "drop_parts_within": [[11.0865, 45.901, 11.1258, 45.9468], [11.1096, 45.9529, 11.1468, 45.9754]], "reason": "Calliano (TN) homonym of Calliano (AT); atlas-fixes-guides-log item 13"},
+  {"id": "it-monferrato", "drop_parts_within": [[11.0865, 45.901, 11.1258, 45.9468], [11.1096, 45.9529, 11.1468, 45.9754]], "reason": "Calliano (TN) homonym of Calliano (AT); atlas-fixes-guides-log item 13"},
+  {"id": "it-valdadige", "drop_parts_within": [[8.2096, 44.979, 8.2914, 45.0234]], "reason": "Calliano (AT) homonym of Calliano (TN); atlas-fixes-guides-log item 13"},
+  {"id": "it-garda", "drop_parts_within": [[7.4761, 45.039, 7.5799, 45.0957]], "reason": "Rivoli (TO) homonym of Rivoli Veronese (VR); atlas-fixes-guides-log item 13"},
+  {"id": "it-garda", "drop_parts_within": [[11.4026, 45.6725, 11.461, 45.7201]], "add_parts": [[[[10.9205, 45.5218], [10.9031, 45.5224], [10.9007, 45.5261], [10.8993, 45.5334], [10.9033, 45.5458], [10.894, 45.5519], [10.8937, 45.5581], [10.896, 45.5682], [10.9075, 45.5894], [10.9385, 45.5881], [10.941, 45.584], [10.9393, 45.5744], [10.9318, 45.571], [10.9331, 45.5664], [10.929, 45.5519], [10.9306, 45.5428], [10.9205, 45.5218]]], [[[10.7621, 45.5826], [10.7772, 45.583], [10.8035, 45.5923], [10.8088, 45.5852], [10.8242, 45.5878], [10.8311, 45.594], [10.8436, 45.6156], [10.8482, 45.6137], [10.8474, 45.6088], [10.8515, 45.6052], [10.844, 45.5971], [10.8425, 45.5857], [10.8223, 45.5788], [10.8198, 45.5689], [10.8253, 45.5669], [10.8298, 45.5561], [10.8138, 45.5402], [10.8052, 45.5273], [10.8058, 45.5264], [10.8006, 45.5274], [10.803, 45.5551], [10.7926, 45.5625], [10.7859, 45.5748], [10.767, 45.5752], [10.7621, 45.5826]]]], "reason": "EU layer joined 'Marano' to Marano Vicentino (VI); the Garda DOC disciplinare (art. 3) lists 'Marano' and 'Rivoli' among the province of Verona comuni, i.e. Marano di Valpolicella and Rivoli Veronese (Rivoli TO was dropped on 31 Oct); added: Marano di Valpolicella (023046), Rivoli Veronese (023062) (GISCO LAU 2021, simplified 40 m)"},
+  {"id": "hr-hrvatsko-primorje", "drop_parts_within": [[15.7632, 43.8036, 15.9898, 43.9505]], "reason": "Skradin (Sibenik-Knin) is a vinogorje of podregija Sjeverna Dalmacija, not Hrvatsko primorje (Pravilnik o zemljopisnim podrucjima uzgoja vinove loze, NN 76/2019)"},
+  {"id": "gr-mavrodafni-kefallinias", "drop_parts_within": [[20.6833, 38.6219, 20.7248, 38.6646]], "add_parts": [[[[20.768, 38.0965], [20.7549, 38.1094], [20.7717, 38.1245], [20.7726, 38.1381], [20.7401, 38.1338], [20.7412, 38.1274], [20.7284, 38.137], [20.731, 38.1464], [20.7392, 38.1449], [20.7411, 38.1473], [20.7359, 38.1516], [20.7274, 38.1528], [20.7432, 38.1659], [20.7654, 38.1703], [20.7701, 38.156], [20.7799, 38.1477], [20.7863, 38.1484], [20.7861, 38.1414], [20.7927, 38.1312], [20.8127, 38.1181], [20.799, 38.1036], [20.7871, 38.0994], [20.7766, 38.1018], [20.768, 38.0965]]]], "reason": "EU layer joined 'K. Poroy' to Poros on Lefkada (LAU 36010307); the Mavrodafni of Kefalonia zone means Poros on Kefalonia (LAU 35010209, already in Moschatos Kefallinias); added: Κοινότητα Πόρου (35010209) (GISCO LAU 2021, simplified 40 m)"},
+  {"id": "cz-cechy", "drop_parts_within": [[15.2486, 50.0124, 15.3353, 50.0795]], "add_parts": [[[[15.3014, 50.0649], [15.3026, 50.0576], [15.3067, 50.0518], [15.3022, 50.0473], [15.2996, 50.0399], [15.2891, 50.0356], [15.2877, 50.0216], [15.2902, 50.0198], [15.2833, 50.0172], [15.2834, 50.0134], [15.278, 50.0127], [15.274, 50.0151], [15.2734, 50.0207], [15.2643, 50.0322], [15.2498, 50.0396], [15.2518, 50.0459], [15.2545, 50.0471], [15.2557, 50.0489], [15.2605, 50.0478], [15.2628, 50.0494], [15.2724, 50.0507], [15.2765, 50.0518], [15.2812, 50.057], [15.288, 50.0581], [15.2933, 50.064], [15.3014, 50.0649]]]], "reason": "EU layer joined 'Belusice' twice: Belusice u Mostu (Litomericka, correct per vyhlaska 80/2018) and Belusice near Kolin (533190, not a vinarska obec); the part holding Konarovice + Belusice (Kolin) is replaced by Konarovice alone; added: Konárovice (533394) (GISCO LAU 2021, simplified 40 m)"},
+  {"id": "de-mittelrhein", "drop_parts_within": [[7.0891, 50.374, 7.1208, 50.3943]], "reason": "EU layer joined 'Langscheid' to Langscheid near Mayen (Eifel, LAU 07137061); the Mittelrhein Langscheid is the Gemarkung of Oberwesel holding the Einzellage Langscheider Hundert, already covered by Oberwesel"}
+ ]
+}
