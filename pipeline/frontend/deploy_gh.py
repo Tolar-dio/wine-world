@@ -30,8 +30,8 @@ DIST = ROOT / "dist-gh"
 SITE = ROOT / "site"
 DOCS = Path(os.environ.get("VITIS_DOCS", "/home/claude/wine-world/docs"))
 KEEP = {"CNAME"}
-# built outside this tree (depth packs: pipeline/DEPTH3D.md); never delete them on deploy
-KEEP_PREFIX = ("data/depth/",)
+# built outside this tree (depth packs: pipeline/DEPTH3D.md; the academy: pipeline/ACADEMY.md); never delete them on deploy
+KEEP_PREFIX = ("data/depth/", "academy/")
 GH_LIMIT = 100 * 1024 * 1024      # GitHub rejects files over 100 MB
 GH_WARN = 50 * 1024 * 1024
 

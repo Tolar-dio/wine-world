@@ -171,6 +171,7 @@ self.addEventListener('fetch', e => {
     if (url.origin === self.location.origin && /\/data\/tiles\//.test(url.pathname)) e.respondWith(rangeCached(req));
     return;   /* other PMTiles (depth packs): byte ranges pass straight to the network */
   }
+  if (url.origin === self.location.origin && /\/academy(\/|$)/.test(url.pathname)) return;   /* the academy (somm school) is its own app: straight to the network */
   if (req.mode === 'navigate') { e.respondWith(networkFirst(req, C.page)); return; }
   if (url.origin === self.location.origin) {
     if (/\/(data|fonts)\//.test(url.pathname)) { e.respondWith(cacheFirst(req, C.data, true)); return; }

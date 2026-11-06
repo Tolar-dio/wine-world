@@ -1,0 +1,38 @@
+// ===== CURRICULUM PART 19: the real exam formats (sources: WSET L2 Issue 2 2023, L3 Issue 2 2022, L4 Issue 1.4 Aug 2025; CMS-A guides 2023-2025; IMW 2026 papers; SWE, WSG; Nov 2026) =====
+L.push({id:"o4", unit:"O", title:"The Exams, Exactly", mins:16,
+summary:"What each real credential asks, how it's marked and how this academy mirrors it, from WSET Level 2 to the Master of Wine.",
+body:`
+<p>The same fact gets examined six ways. Level 2 asks that Sancerre is Sauvignon Blanc. Level 3 asks why the Central Loire climate makes it taste that way. The Diploma asks how frost management affects its price. CMS Advanced wants it on a map, in order with its neighbors, with benchmark producers, in about 30 seconds. The MW wants it identified blind among other Sauvignons, with its commercial position. Train every mode.</p>
+<h3>WSET (the Analyst track)</h3>
+<table class="t"><tr><th>Level</th><th>Exam</th><th>Pass and grades</th></tr>
+<tr><td>Level 2 (Issue 2, 2023)</td><td>50 multiple choice in 60 minutes. 31 of the 50 questions are on grapes and label terms.</td><td>55%; Merit 70%, Distinction 85%</td></tr>
+<tr><td>Level 3 (Issue 2, 2022)</td><td>2-hour theory: 50 MC plus four 25-mark short written answers; 2 blind wines in 30 minutes (white 20 marks, red 21)</td><td>55% in both parts; Merit 65%, Distinction 80%</td></tr>
+<tr><td>Diploma (Issue 1.4, 2025)</td><td>D1 Production 20%, D2 Business 10%, <b>D3 Wines of the World 50%</b> (two theory papers plus two 6-wine blind papers), D4 Sparkling 5%, D5 Fortified 5%, D6 3,000-word research 10%. All open-response. 500 hours minimum.</td><td>55% per unit; Merit 65%, Distinction 75%</td></tr></table>
+<p>At Level 3, production is never asked alone: every written question bundles viticulture or winemaking with a named region. The SAT is scored on exact scales (intensity pale/medium/deep; five-step acidity, tannin, body; quality faulty to outstanding; readiness too young to too old). The Diploma adds regions Level 3 skips: Jura, Ahr, Württemberg, Steiermark, Sardinia, Murcia, Aragón, Galicia, Setúbal, Tejo, Olifants River and China. D6 titles are released 1 August; AI-written text is an automatic fail.</p>
+<h3>Court of Master Sommeliers, Americas (the Floor track)</h3>
+<table class="t"><tr><th>Level</th><th>Theory</th><th>Tasting</th><th>Service</th><th>Pass</th></tr>
+<tr><td>Introductory</td><td>70 MC in 45 minutes</td><td>Taught, not examined</td><td>Taught</td><td>60%</td></tr>
+<tr><td>Certified</td><td>45 questions in 38 minutes: MC, short answer, business math, matching, maps, labels, list correction</td><td>4 wines (2 white, 2 red) in 45 minutes, written</td><td>About 16 minutes: still and sparkling, spirits and cocktails, pairing</td><td>60% each, one day</td></tr>
+<tr><td>Advanced</td><td>About 115 questions in 60 minutes (Pearson VUE): ordering, maps, vintages, producers; no essays, no business math</td><td>6 wines in 25 minutes, verbal</td><td>Practical including Business of the Sommelier</td><td>60% each</td></tr>
+<tr><td>Master</td><td>Oral</td><td>6 wines in 25 minutes, verbal</td><td>Practical including business</td><td>75% each</td></tr></table>
+<p><b>Certified business math</b> (calculator allowed): cost % (30% cost = $30 of product per $100 of sales); bottle sizes and pours per bottle; <b>COGS = beginning inventory + purchases - ending inventory</b>; cost % = COGS ÷ sales; correcting a menu's misspellings, miscategorized wines and wrong prices. Example: a bottle costs $20, you pour 5 glasses, target pour cost 25%: glass price = $20 ÷ 5 ÷ 0.25 = $16.</p>
+<p><b>The 2024 Advanced/MS grid</b> scores sight (including staining, tearing, gas), fruit condition (tart to jammy to oxidized), non-fruit, earth, mineral (wet stone, limestone, chalk, slate, flint), oak (French, American, Eastern European), a <b>seven-step sweetness scale</b>, then an initial conclusion (grapes, climate, countries, age range 1-3/3-5/5-10/10+) before the final call. Since 2024 CMS-A no longer uses "Old World/New World"; saying it costs nothing but earns nothing. Ordering questions ask north-to-south, youngest-to-oldest, least-to-most aging, and process order.</p>
+<h3>Master of Wine</h3>
+<p>Stage 2 has five theory papers (viticulture; vinification and pre-bottling; handling; business; contemporary issues) and <b>three 12-wine blind papers</b> marked on variety, origin, winemaking, quality, style and commercial position. 2026 essays included regenerative viticulture, stuck fermentations, risks of cutting SO2, Prosecco's success, whether falling consumption is cyclical or structural, and AI's winners and losers by 2035. The 2026 practical opened with six Chardonnays from five countries, from Meursault to a "buttery" Central Coast bottle. Candidates must often state abv and residual sugar. Stage 2 candidates fell from 145 (2024) to 111 (2026).</p>
+<h3>The appellation-recall exams</h3>
+<p>SWE's CSW: 100 MC in an hour from the annual study guide. Wine Scholar Guild's French Wine Scholar: 100 MC in an hour, 75% to pass. Both are harder on breadth (subzones, permitted grapes, minimum aging) than Level 3 but test no application. The deep-dive lesson quizzes here are pitched at that level.</p>
+<h3>How this academy mirrors them</h3>
+<p>Each credential's mock exam copies the real count, time and pass mark where the format allows (CMS Advanced: 115 questions in 60 minutes). The Lab's grids follow the CMS and SAT scales. What a website can't examine is the real thing: your palate on real wine and your hands at a real table. Taste weekly and film your service.</p>`,
+floor:`<p>Floor priorities: speed recall (ordering, maps, producers), the verbal six in 25 minutes, and the CMS 2025 service standards.</p>`,
+analyst:`<p>Analyst priorities: cause-and-effect writing, SAT accuracy, and from Diploma onward, essays that "evaluate" and "compare," not just describe.</p>`,
+terms:[["COGS","Cost of goods sold: beginning inventory + purchases - ending inventory."],["SWA","WSET short written answer."],["D3","Diploma unit 3, Wines of the World: 50% of the Diploma."],["S1A","MW Stage 1 Assessment."],["Initial conclusion","CMS grid step before the final identification."]],
+quiz:[
+[2,"WSET Level 3's tasting exam is:","2 blind wines in 30 minutes",["4 wines in 45 minutes","6 wines in 25 minutes","12 wines in 2 hours"],"White 20 marks, red 21."],
+[2,"CMS Certified's tasting is:","4 wines (2 white, 2 red) in 45 minutes, written",["6 wines in 25 minutes, verbal","2 wines in 30 minutes","Not examined"],"Same day as theory and service."],
+[2,"The CMS Advanced theory exam has about:","115 questions in 60 minutes",["70 questions in 45 minutes","45 questions in 38 minutes","4 essays in 2 hours"],"Pearson VUE, no business math."],
+[2,"COGS equals:","Beginning inventory + purchases - ending inventory",["Sales - purchases","Purchases x markup","Ending inventory - beginning inventory"],"Cost % = COGS ÷ sales."],
+[2,"A $20 bottle poured as 5 glasses at a 25% pour cost should sell for:","$16 a glass",["$4 a glass","$10 a glass","$20 a glass"],"$20 ÷ 5 ÷ 0.25."],
+[2,"What share of the WSET Diploma is D3, Wines of the World?","50%",["20%","10%","25%"],"Two theory and two tasting papers."],
+[2,"Since 2024, the CMS-A grid no longer uses:","Old World / New World",["Fruit condition","Oak","Initial conclusion"],"Using it earns nothing."],
+[2,"The MW Stage 2 practical has:","Three 12-wine papers",["One 6-wine paper","Two 4-wine papers","Five 12-wine papers"],"36 wines in all."]
+]});
