@@ -1,8 +1,8 @@
 // ===== Campus, Curriculum, Lessons, Planner, Library =====
 // The two-track choice sits in the hero, where a first-time visitor sees it before pressing Begin.
-const TRACK_FOR = { floor: "For working the floor: restaurant service, blind tasting, selling", analyst: "For buying, writing, teaching and the trade" };
+const TRACK_FOR = { floor: "Blind tasting out loud against the clock, tableside service exams, plus spirits, beer and sake. For the dining room.", analyst: "Written tasting notes, short answers and essays on why a wine tastes the way it does. For buying, writing and teaching." };
 function trackPicker() {
-  return `<div class="trackpick" role="group" aria-label="Choose your track">${Object.entries(TRACKS).map(([k, tr]) => `<button type="button" data-act="track" data-arg="${k}" aria-pressed="${S.track === k}"><span class="tp-k">${k === "floor" ? "Court of Master Sommeliers" : "WSET · Master of Wine"}</span><b>${tr.name} track</b><span class="tp-d">${TRACK_FOR[k]}</span></button>`).join("")}</div><p class="small muted tp-note">The tracks share most lessons but sit different exams. Switch anytime; passed lessons count on both.</p>`;
+  return `<div class="trackpick" role="group" aria-label="Choose your track">${Object.entries(TRACKS).map(([k, tr]) => `<button type="button" data-act="track" data-arg="${k}" aria-pressed="${S.track === k}"><span class="tp-k">${k === "floor" ? "Court of Master Sommeliers" : "WSET · Master of Wine"}</span><b>${tr.name} track</b><span class="tp-d">${TRACK_FOR[k]}</span></button>`).join("")}</div><p class="small muted tp-note">Different exams, different skills; the regions you study overlap. Switch anytime and passed lessons carry over.</p>`;
 }
 function viewCampus() {
   const t = TRACKS[S.track], c = currentCred(S.track), st = credStatus(c);
