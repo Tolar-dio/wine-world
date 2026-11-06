@@ -1,16 +1,16 @@
 // ===== Router, actions, boot =====
-const NAV = [["campus", "Progress"], ["curriculum", "Curriculum"], ["lab", "Tasting Lab"], ["night", "Tasting Night"], ["floor", "Service Floor"], ["drills", "Drills"], ["cards", "Flashcards"], ["exams", "Exam Hall"], ["library", "Library"]];
+const NAV = [["progress", "Progress"], ["curriculum", "Curriculum"], ["lab", "Tasting Lab"], ["night", "Tasting Night"], ["floor", "Service Floor"], ["drills", "Drills"], ["cards", "Flashcards"], ["exams", "Exam Hall"], ["library", "Library"]];
 let EX = null, postHooks = [];
 function postRender() { const hs = postHooks; postHooks = []; hs.forEach(f => f()); }
 function route() {
-  const h = decodeURIComponent((location.hash || "#campus").slice(1));
+  const h = decodeURIComponent((location.hash || "#progress").slice(1));
   const base = h.startsWith("host/") ? "host" : h.split("-")[0];
   document.querySelectorAll(".nav a").forEach(a => a.classList.toggle("on", a.dataset.v === (base === "lesson" ? "curriculum" : base)));
   if (EX && base !== "exam") { stopTimer(); EX = null; }
   window.onscroll = null;
   const m = $("#main");
   const views = { lesson: () => viewLesson(h.slice(7)), curriculum: viewCurriculum, lab: viewLab, night: viewNight, floor: viewFloor, drills: viewDrills, cards: viewCards, exams: viewExams, library: viewLibrary, host: () => viewHost((location.hash || "").slice(6)) };
-  m.innerHTML = base === "exam" && EX ? viewExam() : (views[base] || viewCampus)();
+  m.innerHTML = base === "exam" && EX ? viewExam() : (views[base] || viewProgress)();
   document.body.classList.toggle("hosting", base === "host");
   if (EX && !EX.done && EX.endAt) { if (!TIMER) startTimer(); else tick(); }
   postRender();
@@ -135,7 +135,7 @@ document.addEventListener("change", e => {
 
 function rail() {
   const theme = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
-  $("#rail").innerHTML = `<a class="brand" href="#campus">${MARK}<span><b>Vitis Mundi<br>Academy</b><i>a school for sommeliers</i></span></a>
+  $("#rail").innerHTML = `<a class="brand" href="#progress">${MARK}<span><b>Vitis Mundi<br>Academy</b><i>a school for sommeliers</i></span></a>
   <nav class="nav">${NAV.map(([k, n], i) => `<a href="#${k}" data-v="${k}"><span class="k">${String(i + 1).padStart(2, "0")}</span>${n}</a>`).join("")}<a class="atlas" href="https://vitismundi.app/" title="The Vitis Mundi atlas: every wine region on a 3D globe"><span class="k">&#8599;</span>The Atlas</a></nav>
   <div class="railfoot"><button data-act="theme">${theme === "dark" ? "Switch to paper" : "Switch to night study"}</button><div class="row" style="gap:6px"><button data-act="backup">Back up progress</button><button data-act="restore">Restore</button></div><input type="file" id="restorefile" accept="application/json" hidden>
   <div>Progress lives in this browser. Back it up to move devices.</div><div>Floor track models the Court of Master Sommeliers; Analyst track models WSET and the MW. Independent and unaffiliated.</div></div>`;

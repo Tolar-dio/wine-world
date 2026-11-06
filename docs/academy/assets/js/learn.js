@@ -1,10 +1,10 @@
-// ===== Campus, Curriculum, Lessons, Planner, Library =====
+// ===== Progress, Curriculum, Lessons, Planner, Library =====
 // The two-track choice sits in the hero, where a first-time visitor sees it before pressing Begin.
 const TRACK_FOR = { floor: "Blind tasting out loud against the clock, tableside service exams, plus spirits, beer and sake. For the dining room.", analyst: "Written tasting notes, short answers and essays on why a wine tastes the way it does. For buying, writing and teaching." };
 function trackPicker() {
   return `<div class="trackpick" role="group" aria-label="Choose your track">${Object.entries(TRACKS).map(([k, tr]) => `<button type="button" data-act="track" data-arg="${k}" aria-pressed="${S.track === k}"><span class="tp-k">${k === "floor" ? "Court of Master Sommeliers" : "WSET · Master of Wine"}</span><b>${tr.name} track</b><span class="tp-d">${TRACK_FOR[k]}</span></button>`).join("")}</div><p class="small muted tp-note">Different exams, different skills; the regions you study overlap. Switch anytime and passed lessons carry over.</p>`;
 }
-function viewCampus() {
+function viewProgress() {
   const t = TRACKS[S.track], c = currentCred(S.track), st = credStatus(c);
   const lp = Math.round(100 * st.done / st.total), nl = nextLesson(S.track), due = dueCards().length;
   const wk = Math.max(0, Math.floor((Date.now() - new Date(S.start).getTime()) / (7 * 864e5)));
