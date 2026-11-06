@@ -1,4 +1,9 @@
 // ===== Campus, Curriculum, Lessons, Planner, Library =====
+// The two-track choice sits in the hero, where a first-time visitor sees it before pressing Begin.
+const TRACK_FOR = { floor: "For working the floor: restaurant service, blind tasting, selling", analyst: "For buying, writing, teaching and the trade" };
+function trackPicker() {
+  return `<div class="trackpick" role="group" aria-label="Choose your track">${Object.entries(TRACKS).map(([k, tr]) => `<button type="button" data-act="track" data-arg="${k}" aria-pressed="${S.track === k}"><span class="tp-k">${k === "floor" ? "Court of Master Sommeliers" : "WSET · Master of Wine"}</span><b>${tr.name} track</b><span class="tp-d">${TRACK_FOR[k]}</span></button>`).join("")}</div><p class="small muted tp-note">Same lessons on both tracks; switch anytime and keep your progress.</p>`;
+}
 function viewCampus() {
   const t = TRACKS[S.track], c = currentCred(S.track), st = credStatus(c);
   const lp = Math.round(100 * st.done / st.total), nl = nextLesson(S.track), due = dueCards().length;
@@ -12,6 +17,7 @@ function viewCampus() {
       <div class="eyebrow">Vitis Mundi Academy · ${t.name} track</div>
       <div class="display">${S.xp ? "Back to the <em>cellar.</em>" : "Somm school, <em>uncorked.</em>"}</div>
       <p class="lede" style="margin-top:18px">A complete sommelier program modeled on the Court of Master Sommeliers and WSET: ${L.length} lessons, ${QS.length} exam questions, ${WINES.length} classic wine profiles, timed mock exams at the real pass marks, and a tasting-night planner for your study group.</p>
+      ${trackPicker()}
       <div class="row">${nl ? `<a class="btn pri" href="#lesson-${nl}">${S.done[ORDER[0]] ? "Continue" : "Begin"}: ${esc(LBY[nl].title)}</a>` : `<a class="btn pri" href="#exams">Sit the exam</a>`}<a class="btn" href="#night">Plan a tasting night</a></div>
     </div>
   </section>
@@ -30,8 +36,7 @@ function viewCampus() {
   ${viewPlannerCard()}
   <h2>Seals</h2>
   <div class="card"><div class="row" style="gap:12px">${seals}</div><p class="small muted" style="margin:14px 0 0">Floor: I · C · A · MS. Analyst: L2 · L3 · D · MW. Pass every component of a credential's exam to earn its seal. Each exam unlocks only after the seal before it, just like the real prerequisites.</p></div>
-  <div class="grid g2" style="margin-top:16px"><div class="card"><div class="eyebrow">Recent exams</div>${recent}</div>
-  <div class="card"><div class="eyebrow">Choose your track</div>${Object.entries(TRACKS).map(([k, tr]) => `<button class="card flat" data-act="track" data-arg="${k}" style="width:100%;text-align:left;cursor:pointer;margin-bottom:8px;padding:14px;${S.track === k ? "border-color:var(--gold)" : ""}"><b style="font-family:var(--f-display);font-size:20px">${tr.name}</b> <span class="small muted">· ${tr.model}</span>${S.track === k ? ' <span class="pill gold">current</span>' : ""}<div class="small muted" style="margin-top:4px">${tr.creds.map(x => x.name).join(" → ")}</div></button>`).join("")}<p class="small muted" style="margin:6px 0 0">Lessons are shared, so switching keeps your progress.</p></div></div>
+  <div class="card" style="margin-top:16px"><div class="eyebrow">Recent exams</div>${recent}</div>
   </div>`;
 }
 
@@ -86,14 +91,15 @@ function viewLesson(id) {
   const i = ORDER.indexOf(id), prev = ORDER[i - 1], next = ORDER[i + 1];
   LQ = { id, items: l.quiz.map(q => ({ q, opts: shuffle([q[2], ...q[3]]), pick: null })), checked: false };
   const lenses = S.track === "floor" ? [["Floor lens · The Court", l.floor, ""], ["Analyst lens · WSET", l.analyst, "an"]] : [["Analyst lens · WSET", l.analyst, "an"], ["Floor lens · The Court", l.floor, ""]];
-  const region = l.unit.startsWith("R");
+  const region = !!atlasScope(l);
+  if (region) postHooks.push(() => annotateLesson(id));
   postHooks.push(() => { const pb = $("#pb"); if (pb) { const f = () => { const h = document.documentElement; pb.style.width = Math.min(100, 100 * h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) + "%"; }; window.onscroll = f; f(); } });
   return `<div class="progressbar" id="pb"></div><div class="wrap read">
   <div class="eyebrow"><a href="#curriculum">${esc(UBY[l.unit].name)}</a> · Lesson ${i + 1} of ${ORDER.length} · ${l.mins} min${S.done[id] ? ' · <span style="color:var(--good)">passed</span>' : ""}</div>
   <h1>${esc(l.title)}</h1><p class="lede">${esc(l.summary)}</p><div class="rule" style="margin:8px 0 30px"></div>
+  ${region ? `<div class="atlas-strip" id="atlasstrip" hidden></div>` : ""}
   <div class="prose">${l.body.replace(/<table class="t">/g, '<div class="tw"><table class="t">').replace(/<\/table>/g, "</table></div>")}</div>
   ${lenses.map(([n, h, c]) => h ? `<div class="lens ${c}"><div class="eyebrow">${n}</div>${h}</div>` : "").join("")}
-  ${region ? `<p class="small muted" style="margin-top:18px">See these places on the map: <a href="https://vitismundi.app" target="_blank" rel="noopener">open Vitis Mundi</a>.</p>` : ""}
   ${l.terms && l.terms.length ? `<h2>Key terms</h2><div class="tw"><table class="t">${l.terms.map(t => `<tr><td style="width:34%"><b>${esc(t[0])}</b></td><td>${esc(t[1])}</td></tr>`).join("")}</table></div>` : ""}
   <h2>Examination</h2><p class="muted small">${l.quiz.length} questions. Score ${PASS_LESSON}% or better to pass the lesson; its terms join your flashcard deck.</p>
   <div id="lq">${renderLQ()}</div>

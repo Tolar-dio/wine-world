@@ -128,6 +128,22 @@ table.t tr:hover td{background:rgba(200,161,90,.03)}
 /* ---------- hero ---------- */
 .hero{position:relative;margin-bottom:46px;padding:20px 0 10px;max-width:760px}
 .hero>div{position:relative;z-index:1}
+.trackpick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:26px 0 8px;max-width:620px}
+.trackpick button{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:3px;padding:13px 16px 14px;border:1px solid var(--line);border-radius:12px;background:color-mix(in srgb,var(--bg2) 70%,transparent);transition:border-color .2s,background .2s}
+.trackpick button:hover{border-color:color-mix(in srgb,var(--gold) 55%,var(--line))}
+.trackpick button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.trackpick button[aria-pressed="true"]{border-color:var(--gold);background:color-mix(in srgb,var(--gold) 9%,var(--bg2))}
+.trackpick .tp-k{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.trackpick b{font-family:var(--f-display);font-size:22px;font-weight:600;color:var(--ink)}
+.trackpick .tp-d{font-size:13px;line-height:1.4;color:var(--muted)}
+.tp-note{margin:0 0 20px}
+.prose a.atlas-ref{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--gold) 55%,transparent);text-decoration-style:dotted;text-decoration-thickness:1.5px;text-underline-offset:3px}
+.prose a.atlas-ref:hover{color:var(--gold);text-decoration-style:solid}
+.atlas-strip{margin:-12px 0 30px}
+.atlas-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.atlas-chips .chip{font-size:13px;padding:5px 11px;border:1px solid var(--line2);border-radius:999px;color:var(--ink2);text-decoration:none;transition:border-color .2s,color .2s}
+.atlas-chips .chip:hover{border-color:var(--gold);color:var(--gold)}
+.atlas-chips .chip.more{color:var(--gold);border-color:color-mix(in srgb,var(--gold) 45%,var(--line))}
 .stain{position:absolute;z-index:0;width:min(440px,70vw);right:-40%;top:-50px;opacity:.45;pointer-events:none;transform:rotate(-14deg)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:30px 0 0}
 .stats div{padding:16px 14px;border-right:1px solid var(--line)}
@@ -247,6 +263,7 @@ body.hosting .shell{grid-template-columns:1fr}
   .nav{flex-direction:row}.nav a{grid-template-columns:1fr;padding:7px 10px;font-size:14px;white-space:nowrap}.nav a .k{display:none}
   main{padding:26px max(16px,env(safe-area-inset-right)) 80px max(16px,env(safe-area-inset-left))}
   .stain{right:-34%;top:-30px;width:300px;opacity:.35}
+  .trackpick b{font-size:19px}.trackpick button{padding:11px 12px 12px}
   .stats{grid-template-columns:repeat(2,1fr)}.stats div:nth-child(2){border-right:none}.stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .gl{grid-template-columns:1fr;gap:4px}
   .examtop{top:58px}

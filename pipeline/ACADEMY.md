@@ -7,3 +7,4 @@ The somm school (CMS-style Floor track, WSET-style Analyst track) lives in its o
 - **The service worker skips it:** `/academy/` requests go straight to the network (rule in `pwa_assets.py`), so academy updates show up on the next load.
 - **Navigation:** `frontend/src/modules/70_academy.js` adds the Academy tab (Pages build only). The academy's sidebar links back to the atlas.
 - **Storage:** the academy keeps progress in localStorage under `vitis-mundi-academy-v1`, on the same origin as the atlas. The planned next step is syncing that progress through the atlas's Supabase account.
+- **Atlas links in lessons:** region lessons link place names to `vitismundi.app/#<id>` using `assets/js/data/atlas-index.js`, generated in somm-school by `python3 -I tools/build_atlas_index.py /path/to/wine-world`. Rerun it (then sync) after adding regions, appellations or sites here, and keep atlas ids stable: a renamed id breaks the lesson links that point to it.
