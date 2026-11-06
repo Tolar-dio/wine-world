@@ -3424,7 +3424,7 @@ function pump() {
     const job = S.queue.shift();
     S.active++;
     const vec = useTiles(job.key);
-    fetch(BASE + (vec ? `data/tiles/props/${job.key}.json` : 'data/geo/' + job.file)).then(r => r.ok ? r.json() : null).catch(() => null).then(fc => {
+    fetch(BASE + (vec ? `data/tiles/props/${job.key}.json?v=${(window.__VM_BUILD && window.__VM_BUILD.tiles) || ''}` : 'data/geo/' + job.file)).then(r => r.ok ? r.json() : null).catch(() => null).then(fc => {
       let ok = false;
       if (vec && Array.isArray(fc) && map) {
         try { addCountryTiles(job.key, fc, job.key.startsWith('fine-')); ok = true; } catch (e) { console.warn('[tiles]', job.key, e.message); }
