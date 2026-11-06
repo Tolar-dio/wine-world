@@ -15,7 +15,7 @@ function viewCampus() {
   <section class="hero">${STAIN}
     <div>
       <div class="eyebrow">Vitis Mundi Academy · ${t.name} track</div>
-      <div class="display">${S.xp ? "Back to the <em>cellar.</em>" : "Somm school, <em>uncorked.</em>"}</div>
+      <div class="display">${S.xp ? "Back to your <em>studies.</em>" : "Somm school, <em>in earnest.</em>"}</div>
       <p class="lede" style="margin-top:18px">A complete sommelier program modeled on the Court of Master Sommeliers and WSET: ${L.length} lessons, ${QS.length} exam questions, ${WINES.length} classic wine profiles, timed mock exams at the real pass marks, and a tasting-night planner for your study group.</p>
       ${trackPicker()}
       <div class="row">${nl ? `<a class="btn pri" href="#lesson-${nl}">${S.done[ORDER[0]] ? "Continue" : "Begin"}: ${esc(LBY[nl].title)}</a>` : `<a class="btn pri" href="#exams">Sit the exam</a>`}<a class="btn" href="#night">Plan a tasting night</a></div>
@@ -40,8 +40,8 @@ function viewCampus() {
   </div>`;
 }
 
-// ---------- the stain: the ring a glass of old Brunello leaves on the tablecloth ----------
-const STAIN = `<svg class="stain" viewBox="0 0 400 400" aria-hidden="true"><defs><radialGradient id="stg" cx="50%" cy="50%" r="50%"><stop offset="78%" stop-color="var(--garnet)" stop-opacity="0"/><stop offset="93%" stop-color="var(--garnet)" stop-opacity=".22"/><stop offset="97%" stop-color="#A2442C" stop-opacity=".5"/><stop offset="100%" stop-color="#A2442C" stop-opacity="0"/></radialGradient></defs><circle cx="200" cy="200" r="168" fill="url(#stg)"/><path d="M58 236a146 146 0 0 0 96 104" fill="none" stroke="#A2442C" stroke-opacity=".35" stroke-width="2.4" stroke-linecap="round"/><circle cx="214" cy="190" r="186" fill="none" stroke="var(--garnet)" stroke-opacity=".12" stroke-width="1.2" stroke-dasharray="60 22 140 30"/></svg>`;
+// ---------- the hero mark: the academy's globe-and-grapes crest, drawn in hairline as a watermark ----------
+const STAIN = `<svg class="stain" viewBox="0 0 40 40" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="20" cy="20" r="18.5" stroke-width=".25"/><ellipse cx="20" cy="20" rx="8" ry="18.5" stroke-width=".2"/><path d="M1.5 20h37" stroke-width=".2"/><g stroke-width=".22"><circle cx="16.5" cy="15" r="3"/><circle cx="23.5" cy="15" r="3"/><circle cx="20" cy="20.5" r="3"/><circle cx="13.5" cy="20.5" r="2.6"/><circle cx="26.5" cy="20.5" r="2.6"/><circle cx="17" cy="26" r="2.6"/><circle cx="23" cy="26" r="2.6"/><circle cx="20" cy="31" r="2.3"/></g><path d="M20 12c0-3 1.5-5 4-6" stroke-width=".3"/></svg>`;
 
 // ---------- study planner ----------
 function viewPlannerCard() {

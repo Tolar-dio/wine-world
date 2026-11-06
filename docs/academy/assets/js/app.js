@@ -104,7 +104,7 @@ const ACT = {
   erub(el) { const [i, n] = el.dataset.arg.split(":").map(Number); EX.essay.scores[i] = n; rerender(); },
   esmark() { record(Math.round(100 * EX.essay.scores.reduce((a, b) => a + b, 0) / (RUBRIC.length * 4))); route(); window.scrollTo(0, 0); },
   // settings
-  theme() { const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"); const nx = cur === "dark" ? "light" : "dark"; document.documentElement.dataset.theme = nx; try { localStorage.setItem("tv-theme", nx); } catch (e) {} rail(); },
+  theme() { const cur = document.documentElement.dataset.theme === "dark" ? "dark" : "light"; const nx = cur === "dark" ? "light" : "dark"; document.documentElement.dataset.theme = nx; try { localStorage.setItem("tv-theme", nx); } catch (e) {} rail(); },
   backup() { const blob = new Blob([JSON.stringify(S, null, 1)], { type: "application/json" }); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `vitis-mundi-academy-progress-${today()}.json`; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500); toast("Progress file downloaded"); },
   restore() { $("#restorefile").click(); }
 };
@@ -134,10 +134,10 @@ document.addEventListener("change", e => {
 });
 
 function rail() {
-  const theme = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+  const theme = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
   $("#rail").innerHTML = `<a class="brand" href="#campus">${MARK}<span><b>Vitis Mundi<br>Academy</b><i>a school for sommeliers</i></span></a>
   <nav class="nav">${NAV.map(([k, n], i) => `<a href="#${k}" data-v="${k}"><span class="k">${String(i + 1).padStart(2, "0")}</span>${n}</a>`).join("")}<a class="atlas" href="https://vitismundi.app/" title="The Vitis Mundi atlas: every wine region on a 3D globe"><span class="k">&#8599;</span>The Atlas</a></nav>
-  <div class="railfoot"><button data-act="theme">${theme === "dark" ? "Switch to label-paper light" : "Switch to cellar dark"}</button><div class="row" style="gap:6px"><button data-act="backup">Back up progress</button><button data-act="restore">Restore</button></div><input type="file" id="restorefile" accept="application/json" hidden>
+  <div class="railfoot"><button data-act="theme">${theme === "dark" ? "Switch to paper" : "Switch to night study"}</button><div class="row" style="gap:6px"><button data-act="backup">Back up progress</button><button data-act="restore">Restore</button></div><input type="file" id="restorefile" accept="application/json" hidden>
   <div>Progress lives in this browser. Back it up to move devices.</div><div>Floor track models the Court of Master Sommeliers; Analyst track models WSET and the MW. Independent and unaffiliated.</div></div>`;
   route();
 }
