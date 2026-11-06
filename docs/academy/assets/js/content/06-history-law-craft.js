@@ -31,7 +31,7 @@ body:`
 <tr><td>Certified / Level 3</td><td>4-12 months; weekly tasting group</td></tr>
 <tr><td>Advanced / Diploma</td><td>1-3 years</td></tr>
 <tr><td>Master Sommelier / Master of Wine</td><td>Usually 5-10 years from the start</td></tr></table>
-<p>Use the Study Planner on Campus to set a target date and get a week-by-week schedule.</p>`,
+<p>Use the Study Planner on the Progress page to set a target date and get a week-by-week schedule.</p>`,
 floor:`<p>CMS candidates often study in "study groups" found through GuildSomm forums and local chapters. Certified candidates typically spend months tasting the examinable list. Many Advanced candidates find mentors among Master Sommeliers; CMS-A now runs a remote mentoring program.</p>`,
 analyst:`<p>WSET suggests guided learning hours plus private study: about 84 hours total for Level 3 and about 500 for the Diploma. WSET published an official eight-week Level 3 study plan in February 2026; the Study Planner here follows the same idea.</p>`,
 terms:[["Spaced repetition","Reviewing material at increasing intervals to move it into long-term memory."],["Pourer","The person who bags, numbers and serves wines blind for a tasting group."]],

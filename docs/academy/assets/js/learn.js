@@ -15,7 +15,7 @@ function viewCampus() {
   <section class="hero">${STAIN}
     <div>
       <div class="eyebrow">Vitis Mundi Academy · ${t.name} track</div>
-      <div class="display">${S.xp ? "Back to your <em>studies.</em>" : "Somm school, <em>in earnest.</em>"}</div>
+      <div class="display">${S.xp ? "Pick up where you <em>left off.</em>" : "Train like a <em>sommelier.</em>"}</div>
       <p class="lede" style="margin-top:18px">A complete sommelier program modeled on the Court of Master Sommeliers and WSET: ${L.length} lessons, ${QS.length} exam questions, ${WINES.length} classic wine profiles, timed mock exams at the real pass marks, and a tasting-night planner for your study group.</p>
       ${trackPicker()}
       <div class="row">${nl ? `<a class="btn pri" href="#lesson-${nl}">${S.done[ORDER[0]] ? "Continue" : "Begin"}: ${esc(LBY[nl].title)}</a>` : `<a class="btn pri" href="#exams">Sit the exam</a>`}<a class="btn" href="#night">Plan a tasting night</a></div>

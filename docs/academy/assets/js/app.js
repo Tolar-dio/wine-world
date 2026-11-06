@@ -1,5 +1,5 @@
 // ===== Router, actions, boot =====
-const NAV = [["campus", "Campus"], ["curriculum", "Curriculum"], ["lab", "Tasting Lab"], ["night", "Tasting Night"], ["floor", "Service Floor"], ["drills", "Drills"], ["cards", "Flashcards"], ["exams", "Exam Hall"], ["library", "Library"]];
+const NAV = [["campus", "Progress"], ["curriculum", "Curriculum"], ["lab", "Tasting Lab"], ["night", "Tasting Night"], ["floor", "Service Floor"], ["drills", "Drills"], ["cards", "Flashcards"], ["exams", "Exam Hall"], ["library", "Library"]];
 let EX = null, postHooks = [];
 function postRender() { const hs = postHooks; postHooks = []; hs.forEach(f => f()); }
 function route() {
