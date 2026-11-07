@@ -14842,6 +14842,15 @@ window.VM_CONFIG = Object.assign({
   if (!GH()) return;
 
   const REG = 'data/depth/index.json';
+  /* data/depth/remote.json (written by .github/workflows/terrain-r2.yml) maps each terrain file to its copy on
+     Cloudflare R2: { base, files: { "data/depth/<pack>/terrain.pmtiles": { key, size } } }. Files it does not
+     list, or every file when it is missing, load from the site itself. */
+  const REMOTE = 'data/depth/remote.json';
+  let remote = null;
+  const terrainURL = f => {
+    const e = remote && remote.base && remote.files && remote.files[f];
+    return e && e.key ? remote.base + e.key : BASE + f;
+  };
   const TERRARIUM = 'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png';
   const TERRARIUM_MAX = 15;                 /* the global Mapzen/AWS tiles go to z15 */
   const ACTIVE_MAX = 2;                     /* at most this many packs keep their terrain + vectors live */
@@ -15069,7 +15078,7 @@ window.VM_CONFIG = Object.assign({
     if (!p.terrain && !p.vectors) return;
     if (!DP.readers.has(id) && p.terrain) {
       const chunks = Array.isArray(p.terrain) ? p.terrain : [{ file: p.terrain, bbox: p.bbox }];
-      DP.readers.set(id, chunks.map(c => ({ reader: makeReader(BASE + c.file), bbox: c.bbox || p.bbox })));
+      DP.readers.set(id, chunks.map(c => ({ reader: makeReader(terrainURL(c.file)), bbox: c.bbox || p.bbox })));
     }
     addVectorLayers(id, p);
     DP.active.push(id);
@@ -15101,8 +15110,10 @@ window.VM_CONFIG = Object.assign({
     registerTerrainProtocol();
     if (typeof has === 'function' && !has(REG)) return;   /* no packs shipped */
     try {
-      const idx = await getJSON(REG);
+      const [idx, rem] = await Promise.all([getJSON(REG),
+        fetch(BASE + REMOTE).then(r => r.ok ? r.json() : null).catch(() => null)]);
       if (!idx) return;
+      remote = rem;
       DP.index = idx;
       DP.ready = true;
       map.on('moveend', updateActive);
