@@ -120,24 +120,34 @@ const fs = k => ['boolean', ['feature-state', k], false];
 function sizeTier(z, big, bigV, mid, midV, smallV) { return ['case', ['>', ['get', 'area'], big], bigV, ['>', ['get', 'area'], mid], midV, smallV]; }
 const FILL_STOPS = [[Z_APP + 0.65, 5000, 0.06, 500, 0.13, 0.2], [7.5, 2000, 0.05, 200, 0.11, 0.22], [10, 300, 0.035, 40, 0.1, 0.24], [12.5, 60, 0.025, 8, 0.08, 0.26]];
 const LINE_STOPS = [[Z_APP + 0.65, 5000, 0.45, 500, 0.6, 0.7], [7.5, 2000, 0.35, 200, 0.6, 0.75], [10, 300, 0.22, 40, 0.5, 0.8], [12.5, 60, 0.16, 8, 0.4, 0.85]];
-function withState(ex, kind) {
+/* Over imagery (S.fillK < 1) the selected and hovered appellation must not tint the photo up close: their extra
+   fill fades out with zoom and is gone by z10, where the gold outline (the -sel line layer) marks the selection
+   and the land underneath shows in true colour. On the drawn map the tint stays. */
+function imgBump(v, z) {
+  if (S.fillK >= 1 || z == null) return v;
+  return +(v * (z <= 7 ? 1 : z >= 10 ? 0 : (10 - z) / 3)).toFixed(3);
+}
+function withState(ex, kind, z) {
+  const img = S.fillK < 1 && z != null && z >= 10;
+  const sel = v => img ? 0 : ['+', ex, imgBump(v, z)];
+  const hov = v => img ? ex : ['+', ex, imgBump(v, z)];
   if (S.grape && S.dim === false) {
     return kind === 'fill'
-      ? ['case', fs('sel'), ['+', ex, 0.25], fs('g'), ['min', 0.6, ['*', 2.6, ex]], fs('hover'), ['+', ex, 0.16], ex]
+      ? ['case', fs('sel'), sel(0.25), fs('g'), ['min', 0.6, ['*', 2.6, ex]], fs('hover'), hov(0.16), ex]
       : ['case', fs('g'), 0.95, fs('hover'), 1, ex];
   }
   if (S.grape) {
     return kind === 'fill'
-      ? ['case', fs('sel'), ['+', ex, 0.25], fs('g'), ['min', 0.6, ['*', 2.6, ex]], fs('hover'), ['+', ex, 0.06], ['*', 0.25, ex]]
+      ? ['case', fs('sel'), sel(0.25), fs('g'), ['min', 0.6, ['*', 2.6, ex]], fs('hover'), hov(0.06), ['*', 0.25, ex]]
       : ['case', fs('g'), 0.95, fs('hover'), 0.8, 0.1];
   }
-  return kind === 'fill' ? ['case', fs('sel'), ['+', ex, 0.2], fs('hover'), ['+', ex, 0.16], ex] : ['case', fs('hover'), 1, ex];
+  return kind === 'fill' ? ['case', fs('sel'), sel(0.2), fs('hover'), hov(0.16), ex] : ['case', fs('hover'), 1, ex];
 }
 const kf = v => +(v * S.fillK).toFixed(3), kl = v => +Math.min(1, v * S.lineK).toFixed(3);
 function fillOpacity(fine) {
-  if (fine) { const z0 = Z_FINE - 0.3; return ['interpolate', ['linear'], ['zoom'], z0, 0, z0 + 0.9, withState(kf(0.2), 'fill')]; }
+  if (fine) { const z0 = Z_FINE - 0.3; return ['interpolate', ['linear'], ['zoom'], z0, 0, z0 + 0.9, withState(kf(0.2), 'fill', z0 + 0.9), 13, withState(kf(0.2), 'fill', 13)]; }
   const out = ['interpolate', ['linear'], ['zoom'], Z_APP - 0.25, 0];
-  for (const st of FILL_STOPS) out.push(st[0], withState(sizeTier(st[0], st[1], kf(st[2]), st[3], kf(st[4]), kf(st[5])), 'fill'));
+  for (const st of FILL_STOPS) out.push(st[0], withState(sizeTier(st[0], st[1], kf(st[2]), st[3], kf(st[4]), kf(st[5])), 'fill', st[0]));
   return out;
 }
 function lineOpacity(fine) {
