@@ -6,6 +6,8 @@
 #
 # Objects are named by content hash (terrain.<sha12>.pmtiles), so an upload never changes a file a
 # browser may already be reading; unchanged files are skipped. Old objects are left in the bucket.
+# After a file is uploaded and verified it is deleted from docs/ in the same commit as remote.json:
+# commit a new or rebuilt pack under docs/data/depth/, and this moves it to R2.
 name: Terrain packs to R2
 
 on:
@@ -73,12 +75,12 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: python3 .github/scripts/terrain_r2.py
 
-      - name: Commit remote.json
+      - name: Commit remote.json and drop uploaded files from docs/
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/depth/remote.json
+          git add -A docs/data/depth
           if git diff --cached --quiet; then echo "remote.json unchanged"; exit 0; fi
-          git commit -m "Terrain packs on R2: update remote.json"
+          git commit -m "Terrain packs on R2: update remote.json, remove uploaded files from Pages"
           for i in 1 2 3; do git pull --rebase --quiet origin main && git push origin HEAD:main && exit 0; sleep 5; done
           exit 1

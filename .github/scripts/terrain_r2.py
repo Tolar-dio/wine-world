@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Upload docs/data/depth/**/*.pmtiles to R2 under content-hashed keys, verify each one through the public
-URL with a cross-origin range request, and write docs/data/depth/remote.json:
+URL with a cross-origin range request, merge them into docs/data/depth/remote.json, then delete the uploaded
+files from docs/ (the Pages copy is no longer read; R2 is the only copy served):
 
   {"base": "https://pub-<id>.r2.dev/",
    "files": {"data/depth/<pack>/terrain.pmtiles": {"key": "depth/<pack>/terrain.<sha12>.pmtiles", "size": n}}}
@@ -46,9 +47,12 @@ def probe(url, rng="bytes=0-6"):
 
 def main():
     files = sorted(DEPTH.rglob("*.pmtiles"))
+    rj = DEPTH / "remote.json"
+    out = json.loads(rj.read_text()) if rj.exists() else {"files": {}}
+    out["base"] = BASE
+    out.setdefault("files", {})
     if not files:
-        sys.exit("no terrain packs under docs/data/depth")
-    out = {"base": BASE, "files": {}}
+        print("no new terrain packs under docs/data/depth; remote.json kept")
     for p in files:
         rel = p.relative_to(DOCS).as_posix()                      # data/depth/<pack>/terrain.pmtiles
         h = sha(p)[:12]
@@ -77,8 +81,11 @@ def main():
         else:
             sys.exit(f"verification failed for {key}: status {status}, allow-origin {acao!r}")
         out["files"][rel] = {"key": key, "size": size}
-    (DEPTH / "remote.json").write_text(json.dumps(out, indent=1, sort_keys=True) + "\n")
-    print(f"wrote {DEPTH / 'remote.json'} ({len(out['files'])} files)")
+    rj.write_text(json.dumps(out, indent=1, sort_keys=True) + "\n")
+    print(f"wrote {rj} ({len(out['files'])} files)")
+    for p in files:            # verified on R2 and listed in remote.json: drop the Pages copy
+        p.unlink()
+        print(f"removed    {p}")
 
 
 if __name__ == "__main__":
