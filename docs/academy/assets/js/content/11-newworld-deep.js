@@ -95,7 +95,7 @@ body:`
 <h3>How New Zealand got here</h3>
 <table class="t"><tr><th>Year</th><th>Event</th></tr>
 <tr><td>1819</td><td>The missionary Samuel Marsden plants the first vines at Kerikeri</td></tr>
-<tr><td>1836</td><td>James Busby makes the first recorded wine at Waitangi</td></tr>
+<tr><td>1830s</td><td>James Busby plants vines at Waitangi. His wine, praised by a French visitor in 1840, is the first on record</td></tr>
 <tr><td>Early 1900s</td><td>Croatian families (Babich, Brajkovich, Nobilo, Delegat, Selak) build the industry around Auckland</td></tr>
 <tr><td>1960s and 70s</td><td>Müller-Thurgau dominates; most wine is cheap and off-dry</td></tr>
 <tr><td>1973</td><td>Montana plants the first commercial vineyards in Marlborough; its first Sauvignon Blanc follows in 1979</td></tr>
@@ -141,7 +141,7 @@ quiz:[
 [2,"Who planted Marlborough's first commercial vineyards, in 1973?","Montana",["Cloudy Bay","Villa Maria","Kumeu River"],"Cloudy Bay arrived in 1985."],
 [2,"Appellation Marlborough Wine requires grapes that are:","100% from Marlborough",["85% from Marlborough","Hand harvested only","Grown organically only"],"Also sustainably certified vineyards and bottling in New Zealand."],
 [2,"Sauvignon Blanc covers about what share of New Zealand's vineyard?","Two-thirds",["One-tenth","One-quarter","One-third"],"About 28,700 of 42,500 hectares."],
-[3,"The first recorded New Zealand wine was made in 1836 by:","James Busby",["Samuel Marsden","David Hohnen","Romeo Bragato"],"Marsden planted the first vines in 1819."],
+[3,"The first New Zealand wine on record, praised by a French visitor in 1840, was made by:","James Busby",["Samuel Marsden","David Hohnen","Romeo Bragato"],"Busby planted at Waitangi in the 1830s. Marsden had planted the first vines in 1819."],
 [2,"Cloudy Bay Te Koko and Greywacke Wild Sauvignon are:","Barrel-fermented with wild yeast",["Late-harvest sweet wines","Traditional-method sparkling","Made by whole-bunch carbonic maceration"],"The broader, smokier alternative to the stainless-steel style."],
 [2,"Hawke's Bay Syrah is closest in style to:","The northern Rhône",["Barossa Shiraz","Amarone della Valpolicella","Zinfandel"],"Peppery and medium-bodied."]
 ]});

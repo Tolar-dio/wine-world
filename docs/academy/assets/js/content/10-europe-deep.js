@@ -201,7 +201,7 @@ body:`
 <li>In Styria, the STK growers use Erste STK Ried and Grosse STK Ried.</li></ul>
 <h3>Sekt Austria</h3>
 <table class="t"><tr><th>Tier</th><th>Time on lees</th><th>Origin and method</th></tr>
-<tr><td>Sekt Austria</td><td>9 months</td><td>One federal state; any method</td></tr>
+<tr><td>Sekt Austria</td><td>9 months in bottle, or 6 in tank</td><td>One federal state; any method</td></tr>
 <tr><td>Reserve</td><td>18 months</td><td>One state; traditional method, hand harvest</td></tr>
 <tr><td>Große Reserve</td><td>36 months</td><td>One municipality; traditional method</td></tr></table>
 <h3>The grapes in the glass</h3>

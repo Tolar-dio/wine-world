@@ -128,12 +128,13 @@ body:`
 <li><b>Fortification is no longer compulsory.</b> Since the EU approved the change in July 2025, Fino, Manzanilla, Amontillado, Oloroso and Palo Cortado may be bottled unfortified if they reach their strength naturally, with 15% as the floor.</li></ul>
 <h3>Serving Sherry</h3>
 <table class="t"><tr><th>Style</th><th>Temperature</th><th>Once opened</th></tr>
-<tr><td>Fino, Manzanilla</td><td>43 to 48°F</td><td>About a week, in the refrigerator</td></tr>
-<tr><td>Amontillado, Palo Cortado</td><td>54 to 57°F</td><td>Two to three weeks</td></tr>
-<tr><td>Oloroso, Cream</td><td>54 to 57°F</td><td>Four to six weeks</td></tr>
-<tr><td>Pedro Ximénez</td><td>About 55°F, or cooler over ice cream</td><td>One to two months</td></tr></table>
+<tr><td>Fino, Manzanilla</td><td>41 to 45°F</td><td>Up to a week, in the refrigerator</td></tr>
+<tr><td>Pale Cream</td><td>45 to 48°F</td><td>Up to two months</td></tr>
+<tr><td>Amontillado, Palo Cortado, Oloroso, Cream, Pedro Ximénez</td><td>54 to 57°F</td><td>Up to two months</td></tr>
+<tr><td>VOS and VORS</td><td>About 59°F</td><td>Up to three months</td></tr></table>
+<p>These are the Consejo Regulador's own figures. The CMS service chart is warmer for dry Sherry, 48 to 55°F, so on a Floor exam follow the chart.</p>
 <ul><li><b>Glass:</b> a white-wine glass, filled a third. The tiny schooner hides the aroma.</li>
-<li><b>Freshness:</b> buy Fino and Manzanilla young. They are best within about a year of bottling.</li>
+<li><b>Freshness:</b> buy Fino and Manzanilla young. They are best within about a year of bottling; other styles keep about three years unopened. Store every Sherry upright.</li>
 <li>The <b>venencia</b> is a narrow cup on a long flexible rod. A venenciador plunges it through the flor to draw a sample and pours it from height into the glass.</li></ul>
 <h3>Sherry at the table</h3>
 <p>The local rule: <i>if it swims, Fino; if it flies, Amontillado; if it runs, Oloroso.</i></p>
@@ -301,7 +302,7 @@ body:`
 <tr><td>2002</td><td>The first Grosses Gewächs wines are released</td></tr>
 <tr><td>2021</td><td>A new law moves toward origin: region, village, single vineyard</td></tr></table>
 <h3>Beyond Riesling</h3>
-<p>Germany has about 103,000 hectares, two-thirds of them white. Riesling is the leader at about 23%, which is around 40% of the world's Riesling. Spätburgunder is second: Germany is the world's third-largest grower of Pinot Noir.</p>
+<p>Germany has about 103,000 hectares, two-thirds of them white. Riesling is the leader at about 23%, which is about 45% of the world's Riesling. Spätburgunder is second: Germany is the world's third-largest grower of Pinot Noir.</p>
 <table class="t"><tr><th>Grape</th><th>Character</th></tr>
 <tr><td>Müller-Thurgau</td><td>Bred in 1882 from Riesling and Madeleine Royale; soft, floral, early</td></tr>
 <tr><td>Silvaner</td><td>Earthy, restrained, at its best in Franken</td></tr>

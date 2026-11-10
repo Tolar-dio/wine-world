@@ -162,7 +162,7 @@ body:`
 <li>Natural wine and the definition of "authentic."</li></ul>
 <h3>The evidence, in numbers</h3>
 <ul><li><b>Six centuries of harvest dates.</b> Records from Beaune run back to 1354. Until 1987 picking began on average on 28 September. Since 1988 it has begun <b>13 days earlier</b>.</li>
-<li><b>The frost paradox.</b> Mild winters wake the vine sooner, so buds are open when the usual April frosts arrive. In April 2021 France lost about a third of its crop, the smallest harvest since 1957.</li>
+<li><b>The frost paradox.</b> Mild winters wake the vine sooner, so buds are open when the usual April frosts arrive. In April 2021 frost cost France nearly 30% of its crop, the smallest harvest since 1957.</li>
 <li><b>The forecast.</b> A 2024 review in Nature Reviews Earth &amp; Environment concluded that about 90% of traditional wine regions in the coastal and lowland parts of Spain, Italy, Greece and southern California could be at risk of disappearing by the end of the century if warming is severe.</li></ul>
 <h3>Winners and losers so far</h3>
 <table class="t"><tr><th>Gaining</th><th>Under pressure</th></tr>

@@ -44,7 +44,7 @@ body:`
 <ol><li><b>Regional:</b> Bourgogne Rouge/Blanc, Bourgogne Côte d'Or, Bourgogne Aligoté. About half of production.</li>
 <li><b>Village:</b> e.g., Gevrey-Chambertin, Meursault.</li>
 <li><b>Premier Cru:</b> village + vineyard, e.g., "Meursault 1er Cru Les Perrières." About 10%.</li>
-<li><b>Grand Cru:</b> the vineyard name alone, e.g., "Montrachet," "Chambertin." About 1-2% of production; 33 Grand Cru AOCs including Chablis Grand Cru.</li></ol>
+<li><b>Grand Cru:</b> the vineyard name alone, e.g., "Montrachet," "Chambertin." About 1% of production; 33 Grand Cru AOCs including Chablis Grand Cru.</li></ol>
 <p>A <b>climat</b> is a named, delimited vineyard site. A <b>monopole</b> is a vineyard owned by a single producer (La Romanée-Conti, La Tâche). A <b>négociant</b> buys grapes or wine; a <b>domaine</b> grows its own.</p>
 <h3>Côte de Nuits (reds, Pinot Noir), north to south</h3>
 <ul><li><b>Marsannay</b> (also rosé), <b>Fixin</b></li>
@@ -76,9 +76,9 @@ body:`
 <tr><td>1936</td><td>The first Burgundy AOCs</td></tr>
 <tr><td>2015</td><td>The climats become a UNESCO World Heritage Site</td></tr></table>
 <h3>Burgundy by the numbers</h3>
-<ul><li>About 60% of production is white, under 30% red, and the rest Crémant.</li>
-<li>Chardonnay is about half of plantings and Pinot Noir about 40%; Aligoté and Gamay share the remainder.</li>
-<li>Regional wines are about half of all Burgundy, village wines over a third, Premiers Crus about a tenth, Grands Crus between 1 and 2%.</li>
+<ul><li>About 61% of production is white, 26% red and rosé, and 13% Crémant.</li>
+<li>Chardonnay is 57% of plantings, Pinot Noir 34% and Aligoté 6%; Gamay and a few others make up the rest.</li>
+<li>Regional wines are 54% of all Burgundy, village and Premier Cru wines together 45%, and Grands Crus about 1%.</li>
 <li>The Côte d'Or itself is a single east-facing slope about 30 miles long and seldom more than a mile wide.</li></ul>
 <h3>The wines in the glass</h3>
 <table class="t"><tr><th>Wine</th><th>Markers</th></tr>
@@ -156,7 +156,7 @@ body:`
 <tr><td>816 to 1825</td><td>French kings are crowned at Reims, which makes the local wine the wine of court</td></tr>
 <tr><td>1662</td><td>The English physician Christopher Merret describes adding sugar to wine to make it sparkle. England also had the coal-fired glass strong enough to hold it</td></tr>
 <tr><td>1728</td><td>A royal decree allows wine to be shipped in bottle; the first houses follow within a year</td></tr>
-<tr><td>1836</td><td>A pharmacist, André François, publishes a way to measure the sugar needed for the second fermentation. Fewer bottles explode</td></tr>
+<tr><td>1837</td><td>A pharmacist, Jean-Baptiste François, works out how to measure the sugar needed for the second fermentation. Fewer bottles explode</td></tr>
 <tr><td>1890s</td><td>Phylloxera arrives</td></tr>
 <tr><td>1911</td><td>Growers riot over which districts may call their wine Champagne. The Aube is first excluded, then let back in</td></tr>
 <tr><td>1927, 1936</td><td>The boundary is fixed in law; Champagne becomes an AOC</td></tr>
@@ -197,7 +197,7 @@ quiz:[
 [2,"Rosé des Riceys is:","A still rosé from the Aube",["A sparkling rosé from Reims","A Loire rosé","A sweet wine"],"One of the rare still Champagne AOCs."],
 [3,"How many Champagne villages are rated Grand Cru?","17",["7","33","51"],"Under the old échelle des crus."],
 [2,"Minimum lees aging for Crémant:","9 months",["3 months","15 months","24 months"],"Champagne requires 12 for NV."],
-[2,"Who described adding sugar to make wine sparkle in 1662?","Christopher Merret",["Dom Pierre Pérignon","Jean-Antoine Chaptal","André François"],"An English physician, writing before Dom Pérignon became cellarmaster."],
+[2,"Who described adding sugar to make wine sparkle in 1662?","Christopher Merret",["Dom Pierre Pérignon","Jean-Antoine Chaptal","Jean-Baptiste François"],"An English physician, writing before Dom Pérignon became cellarmaster."],
 [2,"In a Champagne blend, Meunier mainly contributes:","Early fruit and roundness",["Acidity and very long life","Deep color and firm tannin","Toast and brioche notes"],"It also buds late, which helps it avoid frost."],
 [2,"Which of these is a Grand Cru village of the Côte des Blancs?","Avize",["Bouzy","Verzenay","Ambonnay"],"The other three are Pinot Noir villages on the Montagne de Reims."],
 [2,"The 1911 Champagne riots were sparked by:","Disputes over the region's boundary",["A new tax on sugar and glass bottles","The first arrival of phylloxera","A ban on riddling by hand"],"The Aube was excluded, then readmitted."],
@@ -498,7 +498,7 @@ body:`
 <h3>How Tuscany changed</h3>
 <ul><li>Until the 1960s most Tuscan farms ran on <b>mezzadria</b>, sharecropping: tenants gave half the crop to the landowner and vines grew among olives and wheat. When it ended, estates were sold and replanted as specialist vineyards.</li>
 <li>For a generation Chianti meant thin wine in a straw-covered <b>fiasco</b>.</li>
-<li><b>Sassicaia</b> (first sold in 1968) and <b>Tignanello</b> (1971) showed what the land could do. In 1978 the 1972 Sassicaia won a Decanter tasting of the world's Cabernets.</li>
+<li><b>Sassicaia</b> (first vintage 1968, released in 1971) and <b>Tignanello</b> (first vintage 1971) showed what the land could do. In 1978 the 1972 Sassicaia won a Decanter tasting of the world's Cabernets.</li>
 <li>From the late 1980s the Chianti Classico 2000 project identified better clones of Sangiovese, and quality rose sharply.</li></ul>
 <h3>The south's long road back</h3>
 <ul><li>The Greeks called southern Italy <b>Enotria</b>, the land of wine.</li>
