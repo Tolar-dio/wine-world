@@ -141,6 +141,21 @@ table.t tr:hover td{background:var(--goldsoft)}
 .prose a.atlas-ref{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--gold) 55%,transparent);text-decoration-style:dotted;text-decoration-thickness:1.5px;text-underline-offset:3px}
 .prose a.atlas-ref:hover{color:var(--gold);text-decoration-style:solid}
 .atlas-strip{margin:-12px 0 30px}
+.lmaps{margin:0 0 34px;display:grid;gap:22px}
+.lmap{margin:0;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);overflow:hidden}
+.lmap svg{display:block;width:100%;height:auto;max-height:520px;background:var(--sunk)}
+.lmap .m-sea{fill:var(--sunk)}
+.lmap .m-land{fill:var(--bg2);stroke:var(--line2);stroke-width:.8}
+.lmap .m-other{fill:color-mix(in srgb,var(--gold) 9%,transparent);stroke:color-mix(in srgb,var(--gold) 35%,transparent);stroke-width:.6}
+.lmap .m-reg{fill:color-mix(in srgb,var(--garnet) 26%,transparent);stroke:var(--garnet);stroke-width:1.1;stroke-linejoin:round}
+.lmap .m-riv{fill:none;stroke:color-mix(in srgb,var(--muted) 55%,transparent);stroke-width:1.2;stroke-linecap:round}
+.lmap .m-no circle{fill:var(--surface);stroke:var(--garnet);stroke-width:1.2}
+.lmap .m-no text{font-family:var(--f-body);font-weight:600;fill:var(--ink);text-anchor:middle}
+.lmap figcaption{padding:12px 16px 14px;border-top:1px solid var(--line)}
+.lmap ol{margin:8px 0 0;padding-left:22px;columns:2;column-gap:28px;font-size:14px;line-height:1.7}
+.lmap ol a{color:var(--ink2);text-decoration:none;border-bottom:1px dotted var(--line2)}
+.lmap ol a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+@media (min-width:700px){.lmap ol{columns:3}}
 .atlas-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .atlas-chips .chip{font-size:13px;padding:5px 11px;border:1px solid var(--line2);border-radius:var(--r);color:var(--ink2);text-decoration:none;transition:border-color .2s,color .2s}
 .atlas-chips .chip:hover{border-color:var(--gold);color:var(--gold)}

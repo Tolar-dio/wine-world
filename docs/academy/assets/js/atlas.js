@@ -70,3 +70,26 @@ function annotateLesson(id) {
     if (strip) { strip.innerHTML = atlasStrip(places, ccs, l.title); strip.hidden = !strip.innerHTML; }
   }).catch(() => { /* offline or blocked: the lesson reads fine without links */ });
 }
+
+// ===== Region maps in lessons =====
+// Each map is a small generated file (tools/build_lesson_maps.py) loaded only when its lesson opens.
+// Numbers on the map match the list beneath it; each name opens that region on the atlas.
+const mapLoads = {};
+function loadMap(key) {
+  if (MAPDATA[key]) return Promise.resolve();
+  return mapLoads[key] || (mapLoads[key] = new Promise((ok, bad) => {
+    const s = document.createElement("script"); s.src = "assets/js/data/maps/" + key + ".js";
+    s.onload = ok; s.onerror = () => { delete mapLoads[key]; bad(); }; document.head.appendChild(s);
+  }));
+}
+function showLessonMaps(id) {
+  const keys = LESSON_MAPS[id], box = document.getElementById("lmaps");
+  if (!keys || !box) return;
+  Promise.all(keys.map(loadMap)).then(() => {
+    if (location.hash !== "#lesson-" + id) return;
+    box.innerHTML = keys.map(k => { const m = MAPDATA[k];
+      return `<figure class="lmap">${m.svg}<figcaption><span class="eyebrow">${esc(m.t)}</span><ol>${m.legend.map(([n, rid]) =>
+        `<li><a href="${ATLAS_URL}${rid}" target="_blank" rel="noopener">${esc(n)}</a></li>`).join("")}</ol></figcaption></figure>`; }).join("");
+    box.hidden = false;
+  }).catch(() => { /* offline or blocked: the lesson reads fine without a map */ });
+}

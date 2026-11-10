@@ -118,11 +118,14 @@ function viewLesson(id) {
   const lenses = S.track === "floor" ? [["Floor lens · The Court", l.floor, ""], ["Analyst lens · WSET", l.analyst, "an"]] : [["Analyst lens · WSET", l.analyst, "an"], ["Floor lens · The Court", l.floor, ""]];
   const region = !!atlasScope(l);
   if (region) postHooks.push(() => annotateLesson(id));
+  const maps = typeof LESSON_MAPS !== "undefined" && LESSON_MAPS[id];
+  if (maps) postHooks.push(() => showLessonMaps(id));
   postHooks.push(() => { const pb = $("#pb"); if (pb) { const f = () => { const h = document.documentElement; pb.style.width = Math.min(100, 100 * h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) + "%"; }; window.onscroll = f; f(); } });
   return `<div class="progressbar" id="pb"></div><div class="wrap read">
   <div class="eyebrow"><a href="#curriculum">${esc(UBY[l.unit].name)}</a> · Lesson ${i + 1} of ${ORDER.length} · about ${l.mins} min with the quiz${S.done[id] ? ' · <span style="color:var(--good)">passed</span>' : ""}</div>
   <h1>${esc(l.title)}</h1><p class="lede">${esc(l.summary)}</p><div class="rule" style="margin:8px 0 30px"></div>
   ${region ? `<div class="atlas-strip" id="atlasstrip" hidden></div>` : ""}
+  ${maps ? `<div class="lmaps" id="lmaps" hidden></div>` : ""}
   <div class="prose">${l.body.replace(/<table class="t">/g, '<div class="tw"><table class="t">').replace(/<\/table>/g, "</table></div>")}</div>
   ${lenses.map(([n, h, c]) => h ? `<div class="lens ${c}"><div class="eyebrow">${n}</div>${h}</div>` : "").join("")}
   ${l.terms && l.terms.length ? `<h2>Key terms</h2><div class="tw"><table class="t">${l.terms.map(t => `<tr><td style="width:34%"><b>${esc(t[0])}</b></td><td>${esc(t[1])}</td></tr>`).join("")}</table></div>` : ""}
