@@ -143,7 +143,7 @@ quiz:[
 [1,"Which method gives the palest rosé?","Direct pressing",["Saignée","Two-day maceration","Carbonic maceration"],"Grapes are pressed at once, so the juice has only minutes of skin contact."],
 [2,"In the saignée method, the rosé is:","Juice bled from a tank of red must",["A blend of red and white wine","Pressed from whole bunches","Made from red-fleshed grapes"],"Bleeding off juice also concentrates the red wine left in the tank."],
 [2,"Grapefruit and peach aromas in modern Provence rosé come largely from:","A cold, protected ferment",["New oak barrels","Malolactic conversion","Long skin maceration"],"Thiols and esters form in a cold ferment under inert gas; oak and malolactic conversion are usually avoided."],
-[2,"Which of these rosés is typically off-dry?","Cabernet d'Anjou",["Tavel","Bandol","Sancerre"],"Cabernet d'Anjou and Rosé d'Anjou keep some sweetness; Tavel, Bandol and Sancerre rosé are dry."],
+[2,"Which of these rosés is typically off-dry?","Cabernet d'Anjou",["Tavel","Bandol rosé","Sancerre rosé"],"Cabernet d'Anjou and Rosé d'Anjou keep some sweetness; Tavel, Bandol and Sancerre rosé are dry."],
 [2,"Bandol rosé is built on which grape?","Mourvèdre",["Cinsault","Gamay","Pinot Noir"],"Mourvèdre gives Bandol rosé its structure and ability to age."],
 [2,"Cerasuolo d'Abruzzo is made from:","Montepulciano",["Sangiovese","Negroamaro","Corvina"],"Deep cherry in color; almost a light red."],
 [3,"White Zinfandel began in 1975 with:","A stuck fermentation at Sutter Home",["A frost in Lodi","A blending error at Gallo","A Provence winemaker in Napa"],"The ferment stopped with sugar left, and the sweet pink wine sold out."],
@@ -214,7 +214,7 @@ quiz:[
 [2,"Which wines suit most cheeses best?","White and sweet wines",["Young tannic reds","Heavily oaked reds","High-alcohol reds"],"Salt and creamy fat make firm tannin taste metallic and bitter."],
 [2,"A cheese board should be eaten in what order?","Mildest to strongest",["Strongest to mildest","Hardest to softest","Oldest to youngest"],"A strong blue first would flatten everything after it."],
 [3,"Munster's classic Alsace partner is:","Gewurztraminer",["Sylvaner","Crémant d'Alsace","Pinot Blanc"],"An aromatic, often off-dry wine with the power to meet a pungent washed rind."],
-[2,"White truffle dishes classically call for:","Barolo or Barbaresco",["Amarone","Prosecco","Brunello"],"A Piedmont pairing: Nebbiolo's earth and perfume echo the truffle."]
+[2,"White truffle dishes classically call for:","Barolo or Barbaresco",["Amarone","Prosecco Superiore","Brunello di Montalcino"],"A Piedmont pairing: Nebbiolo's earth and perfume echo the truffle."]
 ]});
 
 L.push({id:"b9", unit:"S2", title:"Deep Dive: Cocktail Families and Bar Service", mins:9,

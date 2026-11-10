@@ -39,7 +39,12 @@ quiz:[
 [3,"How many châteaux are in the 2025 Cru Bourgeois classification?","170",["249","61","85"],"Down from 249 in 2020."],
 [2,"Sainte-Foy joined the Côtes de Bordeaux umbrella in:","2016",["2009","1987","2022"],"The others joined in 2009."],
 [3,"Which is a white-only Cru Classé de Graves?","Couhins-Lurton",["Haut-Bailly","Pape Clément","de Fieuzal"],"Couhins and Couhins-Lurton are the two estates classified for white only."],
-[2,"Which Saint-Émilion satellite is the smallest?","Saint-Georges",["Montagne","Lussac","Puisseguin"],"Saint-Georges-Saint-Émilion covers only about 185 ha; Montagne is the largest at about 1,600."]
+[2,"Which Saint-Émilion satellite is the smallest?","Saint-Georges",["Montagne","Lussac","Puisseguin"],"Saint-Georges-Saint-Émilion covers only about 185 ha; Montagne is the largest at about 1,600."],
+[3,"Tasting counts for what share of the Saint-Émilion classification score?","50%",["20%","35%","80%"],"The weight given to marketing and reputation is why three estates walked out."],
+[3,"The Côtes de Bordeaux umbrella AOP was created in:","2009",["1987","1999","2016"],"Sainte-Foy joined later."],
+[3,"How many Crus Classés de Graves does the syndicate count today?","14",["10","16","22"],"The 1959 list named 16; mergers at La Mission Haut-Brion reduced it."],
+[3,"Crémant de Bordeaux has been an AOC since:","1990",["1936","1975","2009"],"Traditional-method sparkling from the whole region."],
+[3,"Lalande-de-Pomerol includes which neighboring commune?","Néac",["Libourne","Fronsac","Lussac"],"About 1,130 ha north of Pomerol."]
 ]});
 
 L.push({id:"r2c", unit:"R1", title:"Deep Dive: Chablis, the Chalonnaise, Mâconnais and Beaujolais Crus", mins:20,
@@ -83,7 +88,7 @@ quiz:[
 [2,"On which bank of the Serein are all Chablis Grands Crus?","Right bank",["Left bank","Both","Neither; they're on the plateau"],"Southwest-facing slope."],
 [2,"Which Chalonnaise village is 100% white?","Montagny",["Mercurey","Givry","Rully"],"49 Premier Cru climats."],
 [2,"Pouilly-Fuissé Premiers Crus apply from which vintage?","2020",["1943","2010","2024"],"The 22 Premier Cru climats took effect with the 2020 vintage: Burgundy's first new Premier Cru tier since 1943."],
-[2,"Saint-Bris is Burgundy's AOC for:","Sauvignon Blanc",["Aligoté","Gamay","Pinot Gris"],"Grand Auxerrois."],
+[2,"Saint-Bris is Burgundy's AOC for:","Sauvignon Blanc",["Aligoté","Pinot Blanc","César and Gamay"],"Grand Auxerrois."],
 [2,"Which Beaujolais cru is the newest (1988)?","Régnié",["Chiroubles","Côte de Brouilly","Saint-Amour"],"Granite soils."],
 [3,"Côte de Brouilly's signature soil is:","Blue diorite",["Pink granite","Kimmeridgian marl","Schist only"],"On Mont Brouilly."],
 [2,"Which Beaujolais cru is highest in altitude?","Chiroubles",["Brouilly","Morgon","Fleurie"],"Up to about 600 m."]
@@ -122,7 +127,12 @@ quiz:[
 [2,"Bandol reds require at least:","50% Mourvèdre and 18 months in cask",["70% Grenache and 12 months in cask","100% Syrah and 24 months in cask","30% Cinsault and 6 months in cask"],"Hand harvest, 40 hl/ha."],
 [3,"Which Côtes du Roussillon Villages designation is on schist?","Latour-de-France",["Caramany","Lesquerde","Tautavel"],"Caramany gneiss, Lesquerde granite, Tautavel clay-limestone."],
 [3,"Which Côtes de Provence designation may also make white?","La Londe",["Fréjus","Pierrefeu","Notre-Dame des Anges"],"Coastal, near Hyères."],
-[2,"Pic Saint-Loup became a standalone AOC in:","2017",["2007","2013","2024"],"Red and rosé, Syrah-led."]
+[2,"Pic Saint-Loup became a standalone AOC in:","2017",["2007","2013","2024"],"Red and rosé, Syrah-led."],
+[3,"Coteaux du Languedoc became AOC Languedoc in:","2007",["1985","1999","2014"],"The regional base of today's three-step pyramid."],
+[3,"Blanquette Méthode Ancestrale finishes at about:","6-7% alcohol",["3-4% alcohol","9-10% alcohol","11-12% alcohol"],"One fermentation that ends in bottle, leaving the wine sweet."],
+[3,"Banyuls Grand Cru needs at least 75%:","Grenache Noir",["Mourvèdre","Carignan Noir","Syrah"],"The same terraced schist also gives dry Collioure."],
+[3,"Bandol became an AOC in:","1941",["1936","1955","1977"],"Eight communes of terraced restanques."],
+[3,"Terrasses du Larzac, a cru since 2014, makes:","Red only",["White only","Red and rosé","All three colors"],"From at least three varieties."]
 ]});
 
 L.push({id:"r4d", unit:"R1", title:"Deep Dive: Jura, Savoie, Corsica and the South West", mins:18,

@@ -36,7 +36,12 @@ quiz:[
 [2,"Mantinia is at least 85%:","Moschofilero",["Assyrtiko","Roditis","Malagousia"],"High plateau, aromatic."],
 [2,"Goumenissa requires more than 20%:","Negoska",["Krassato","Limnio","Mavrodaphne"],"With Xinomavro."],
 [3,"Rapsani blends Xinomavro, Krassato and:","Stavroto",["Negoska","Liatiko","Mandilaria"],"On Mount Olympus."],
-[2,"Greece's largest red PDO is:","Nemea",["Naoussa","Rapsani","Sitia"],"100% Agiorgitiko."]
+[2,"Greece's largest red PDO is:","Nemea",["Naoussa","Rapsani","Sitia"],"100% Agiorgitiko."],
+[3,"Santorini Vinsanto needs at least how long in oak?","24 months",["6 months","12 months","60 months"],"Aged oxidatively on Santorini or Thirasia."],
+[3,"Monemvasia-Malvasia, a PDO since 2010, is made from:","Sun-dried grapes",["Botrytized grapes","Frozen grapes","Late-picked, flor-aged grapes"],"At least 51% Monemvasia: the historic Malmsey."],
+[3,"Retsina's legal category is:","Traditional Appellation",["Protected Designation of Origin","Protected Geographical Indication","Varietal wine"],"It protects a style flavored with Aleppo pine resin, not a place."],
+[3,"On a Greek label, 'Cava' is reserved for wines:","Without a geographical indication",["From the island of Santorini only","Made sparkling by the traditional method","Aged ten years or more"],"An aging term for wines outside the PDO and PGI system."],
+[3,"Sitia's red PDO wine must be at least 80%:","Liatiko",["Kotsifali","Mandilaria","Vidiano"],"A pale, perfumed Cretan red grape."]
 ]});
 
 L.push({id:"r12e", unit:"R4", title:"Deep Dive: Hungary, Switzerland, the Balkans and the Caucasus", mins:20,

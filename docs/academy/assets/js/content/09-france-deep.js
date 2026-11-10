@@ -77,7 +77,11 @@ quiz:[
 [2,"Clos Sainte Hune comes from which Grand Cru?","Rosacker",["Osterberg","Geisberg","Brand"],"Trimbach, Hunawihr."],
 [3,"Marcel Deiss champions:","Complantation: field blends that express the site",["Single-variety wines from each Grand Cru","Carbonic maceration for Pinot Noir","New-oak aging for Pinot Blanc"],"Altenberg de Bergheim allows blends."],
 [2,"Olivier Humbrecht of Zind-Humbrecht was the first French:","Master of Wine",["Master Sommelier","Meilleur Sommelier du Monde","Wine Scholar"],"Biodynamic estate."],
-[1,"Most of Alsace's Grand Crus lie in:","The Haut-Rhin",["The Bas-Rhin","Lorraine","Jura"],"The southern département."]
+[1,"Most of Alsace's Grand Crus lie in:","The Haut-Rhin",["The Bas-Rhin","Lorraine","Jura"],"The southern département."],
+[3,"Alsace's two départements are:","Bas-Rhin and Haut-Rhin",["Moselle and Meurthe","Vosges and Haute-Saône","Doubs and Haut-Rhin"],"Bas-Rhin is the cooler north; Haut-Rhin holds most Grand Crus."],
+[3,"Colmar's annual rainfall is roughly:","500-600 mm",["250-300 mm","850-950 mm","1,200-1,300 mm"],"The Vosges rain shadow makes it one of France's driest cities."],
+[3,"Which Grand Cru may be made as a blend?","Altenberg de Bergheim",["Schlossberg at Kientzheim","Rangen de Thann","Brand at Turckheim"],"Kaefferkopf may too."],
+[2,"Alsace's vineyards mainly face:","East",["West","North","South-west"],"On the foothills of the Vosges, between about 175 and 420 m."]
 ]});
 
 L.push({id:"r5c", unit:"R1", title:"Deep Dive: The Rhône's Crus and Lieux-Dits", mins:22,

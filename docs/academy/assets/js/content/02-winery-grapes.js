@@ -62,10 +62,10 @@ quiz:[
 [1,"Which step guarantees microbiological stability?","Sterile filtration",["Fining with egg white","Racking","Cold soak"],"It removes yeast and bacteria."],
 [2,"The saignée method of making rosé:","Bleeds juice off a red wine ferment",["Blends red and white wine together","Presses black grapes directly","Uses carbonic maceration"],"Concentrates the remaining red as a side effect."],
 [2,"Blending red and white wine to make rosé is permitted in the EU for:","Rosé Champagne",["Provence rosé","Tavel","All rosé"],"Champagne is the famous exception."],
-[2,"Cool fermentation in stainless steel mainly preserves:","Fruity and floral aromas",["Tannin and color","Oak and spice","Body and alcohol"],"Volatile aromatics survive lower temperatures."],
+[2,"Cool fermentation in stainless steel mainly preserves:","Fruity and floral aromas",["Tannin and deep color","Oak and spice notes","Body and high alcohol"],"Volatile aromatics survive lower temperatures."],
 [2,"During red winemaking, tannin is extracted mainly:","Later, by alcohol and heat",["First, in the cold soak","Only during pressing","From the pulp, not the skins"],"Color comes out early in water; tannin follows as alcohol and temperature rise."],
 [2,"Settling white juice before fermentation is called:","Débourbage",["Bâtonnage","Remontage","Délestage"],"Clearer juice makes cleaner, fruitier wine."],
-[2,"Roughly how much sugar makes 1% alcohol?","17 g/L",["4 g/L","50 g/L","100 g/L"],"So 220 g/L of sugar gives about 13% alcohol."],
+[2,"Roughly how much sugar makes 1% alcohol?","17 g/L",["10 g/L","24 g/L","30 g/L"],"So 220 g/L of sugar gives about 13% alcohol."],
 [2,"Why are whole bunches pressed for Champagne?","Stems drain the juice, which stays pale",["Stems add tannin to the wine","It raises the sugar level","It starts carbonic maceration"],"Gentle pressing keeps color and phenolics out of juice from black grapes."],
 [3,"Most Beaujolais is made by:","Semi-carbonic maceration",["Full carbonic maceration in sealed tanks","Destemming and cold soak","Saignée"],"Whole bunches in an ordinary vat; the crushed bottom layer supplies the CO₂."],
 [2,"A 'stuck' fermentation is one that:","Stops with sugar still left",["Runs too fast and too hot","Never starts malolactic conversion","Has been filtered too early"],"Yeast fail from heat, lack of nutrients or high alcohol."]
@@ -125,7 +125,7 @@ quiz:[
 [1,"Malolactic conversion turns malic acid into:","Lactic acid",["Tartaric acid","Citric acid","Acetic acid"],"Lactic acid is softer, giving a creamier wine."],
 [2,"Which two techniques give butter, toast and vanilla in Chardonnay?","MLC and new oak maturation",["Carbonic maceration and lees aging","Cold fermentation and sterile filtration","Chaptalization and fining"],"MLC creates diacetyl; toasted new barrels give toast and vanilla."],
 [2,"A barrel's flavor contribution becomes negligible after roughly:","3-4 uses",["One use","10 uses","20 years"],"Older barrels still allow oxygen exchange."],
-[1,"Muscadet 'sur lie' is aged on:","Dead yeast cells",["Oak chips","Grape skins","Stems"],"Lees add texture and a light bready note."],
+[1,"Muscadet 'sur lie' is aged on:","Dead yeast cells",["Toasted oak chips","Pressed grape skins","A layer of flor"],"Lees add texture and a light bready note."],
 [3,"Traditional Barolo producers favor which vessel?","Large Slavonian oak botti",["New American barriques","Concrete eggs only","Amphora"],"Large casks give oxygen without overt oak flavor; modernists used barriques."],
 [2,"Why are oak staves left outdoors for two to three years?","Rain washes out harsh tannin",["To deepen their color","To raise the vanilla content","To kill woodworm"],"Seasoning softens the wood's raw tannin before the barrel is built."],
 [2,"Wide-grained Limousin oak is used mainly for:","Cognac",["Champagne","White Burgundy","Sherry"],"Tight-grained Allier, Tronçais and Vosges oak is preferred for wine."],
@@ -204,7 +204,7 @@ quiz:[
 [2,"Minimum total aging for non-vintage Champagne?","15 months, 12 on lees",["9 months, all on lees","36 months, 24 on lees","6 months, 3 on lees"],"Vintage Champagne requires 3 years."],
 [2,"Removing the sediment from a Champagne bottle is called:","Disgorgement",["Riddling","Dosage","Assemblage"],"WSET Level 3 official sample question."],
 [2,"Moscato d'Asti's sweetness comes from:","Stopping a single fermentation by chilling",["Adding sugar after the wine ferments dry","Leaving botrytis to concentrate the grapes","Fortifying the must with grape spirit"],"The Asti method leaves residual grape sugar."],
-[2,"The second fermentation raises alcohol by about:","1.2 to 1.5%",["0.1 to 0.2%","3 to 4%","5 to 6%"],"So base wines are picked for about 10 to 11% and very high acid."],
+[2,"The second fermentation raises alcohol by about:","1.2 to 1.5%",["0.2 to 0.3%","0.5 to 0.7%","2.5 to 3%"],"So base wines are picked for about 10 to 11% and very high acid."],
 [2,"Frizzante and pétillant wines have a pressure of roughly:","1 to 2.5 atmospheres",["3 to 4 atmospheres","5 to 6 atmospheres","8 atmospheres"],"Fully sparkling wine has 3 or more; Champagne about 5 to 6."],
 [2,"Blanc de Noirs is:","White wine from black grapes",["Rosé made by blending","White wine from white grapes","Red sparkling wine"],"In Champagne, Pinot Noir and Meunier pressed gently."],
 [3,"On a US label, 'fermented in the bottle' indicates:","The transfer method",["The traditional method","The tank method","Carbonation"],"'Fermented in this bottle' is the traditional method."],
@@ -441,7 +441,7 @@ quiz:[
 [2,"Mint or eucalyptus in a Cabernet Sauvignon most suggests:","Coonawarra",["Pauillac","Bolgheri","Pomerol"],"Eucalyptol comes from nearby trees: Australia, sometimes Napa and Chile."],
 [2,"With age, Cabernet Sauvignon develops:","Cedar and cigar box",["Banana and bubblegum","Lychee and rose","Mushroom and game only"],"Mushroom and forest floor are the classic notes of aged Pinot Noir."],
 [3,"Compared with Rioja, Ribera del Duero is usually:","Darker, firmer, with French oak",["Paler and lighter in body","Lower in alcohol and tannin","Made mainly from Garnacha"],"Both are Tempranillo; Ribera's altitude and extremes give thicker skins."],
-[2,"As a red wine ages, its color moves toward:","Garnet, then tawny",["Purple","Deeper ruby","Blue-black"],"Whites deepen with age; reds lose color and turn brick at the rim."]
+[2,"As a red wine ages, its color moves toward:","Garnet, then tawny",["Purple, then ruby","Deeper ruby, then purple","Ruby, then blue-black"],"Whites deepen with age; reds lose color and turn brick at the rim."]
 ]});
 
 L.push({id:"g3", unit:"F4", title:"Important Regional Grapes", mins:12,

@@ -297,7 +297,7 @@ quiz:[
 [2,"'Tied-house' laws restrict:","Suppliers giving things of value to retailers",["The size of a wine list","Corkage fees","The number of wines by the glass"],"They keep producers and wholesalers from controlling outlets."],
 [2,"A 'dram shop' law makes a business liable for:","Harm caused by a guest it over-served",["Wine that is corked","Late deliveries","Incorrect vintages on a list"],"Responsible service is a legal duty as well as a courtesy."],
 [2,"A sound by-the-glass list for most restaurants has about:","10 to 20 wines",["2 or 3 wines","50 to 60 wines","Every wine on the bottle list"],"Enough to cover the styles; few enough for staff to describe."],
-[2,"The most effective staff training is:","A five-minute tasting before each service",["A yearly exam","A printed binder","Reading critic scores aloud"],"Servers sell what they have tasted."]
+[2,"The most effective staff training is:","A five-minute tasting before each service",["A written exam once a year","A printed binder in the office","Reading critic scores aloud at lineup"],"Servers sell what they have tasted."]
 ]});
 
 L.push({id:"b4", unit:"S2", title:"Whisk(e)y in Depth", mins:18,
@@ -623,12 +623,12 @@ floor:`<p>At Advanced and Master, the pool can include sparkling, sweet and fort
 analyst:`<p>Diploma D4 and D5 each include 3 wines blind. Expect to identify method, style, likely region and quality, with reasons.</p>`,
 terms:[["Autolytic","Aromas from yeast breakdown: brioche, toast, biscuit."],["Rancio","Nutty, oxidative, slightly cheesy character in aged fortified wines and spirits."],["Palo Cortado","Rare Sherry with the finesse of Amontillado and the body of Oloroso."],["Colheita","A tawny Port from a single year."],["Sélection de Grains Nobles","Alsace's botrytized sweet wine category."],["Cream Sherry","Oloroso sweetened, usually with Pedro Ximénez."]],
 quiz:[
-[2,"Fine mousse with brioche and toast points to:","Traditional method",["Tank method","Carbonation","Asti method"],"Brioche and toast come from autolysis during long lees aging in the bottle."],
+[2,"Fine mousse with brioche and toast points to:","Traditional method",["Tank method","Carbonation","Ancestral method"],"Brioche and toast come from autolysis during long lees aging in the bottle."],
 [2,"Botrytis notes with very high acidity and orange peel suggest:","Tokaji Aszú",["Sauternes","Icewine","Vintage Port"],"Furmint's acid."],
 [2,"A sweet wine with searing acidity, caramel, nuts and smoke:","Madeira",["Ruby Port","Moscato d'Asti","Sauternes"],"Heat-aged and indestructible."],
-[1,"Dry, pale, tangy, saline and bready:","Fino or Manzanilla",["Oloroso","PX","Cream Sherry"],"Biological aging."],
+[1,"Dry, pale, tangy, saline and bready:","Fino or Manzanilla",["Oloroso","Pedro Ximénez","Pale Cream Sherry"],"Biological aging."],
 [3,"Pure tropical fruit, very high acid and no botrytis notes suggest:","Icewine",["Sauternes","Tawny Port","Amarone"],"Freezing concentrates without rot."],
-[2,"A sweet, botrytized wine at about 7% alcohol is most likely:","German Beerenauslese",["Sauternes","Tawny Port","Banyuls"],"Sauternes sits at 13 to 14%; the fortified wines are far higher."],
+[2,"A sweet, botrytized wine at about 7% alcohol is most likely:","German Beerenauslese",["Sauternes","Tokaji Aszú","Vin Santo"],"Sauternes sits at 13 to 14%; the fortified wines are far higher."],
 [2,"Amber color, hazelnut and caramel on a lean, bone-dry palate at 17%:","Amontillado",["Fino","Cream Sherry","Pedro Ximénez"],"It began under flor, then aged oxidatively."],
 [3,"Flor character, very high acid, 14.5% and no fortification suggest:","Vin Jaune",["Manzanilla","Fino","Dry Marsala"],"Fino and Manzanilla are fortified to 15% and lower in acid."],
 [2,"Opaque purple-black, massive tannin and violets in a sweet fortified wine:","Young Vintage Port",["Tawny 20 Year","Colheita","White Port"],"Tawny styles are amber, nutty and soft."],

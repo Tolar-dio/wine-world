@@ -79,13 +79,13 @@ quiz:[
 [2,"Which grape is Monastrell elsewhere?","Mourvèdre",["Grenache","Carignan","Cinsault"],"Jumilla's main grape."],
 [2,"Why does traditional Rioja smell of dill and coconut?","Aging in American oak",["Carbonic maceration","Garnacha in the blend","Lees aging"],"Introduced via Bordeaux merchants; American oak was cheaper."],
 [2,"Mencía is the key red of:","Bierzo and Ribeira Sacra",["Rioja and Navarra","Toro and Rueda","Priorat and Montsant"],"Fresh, floral, red-fruited."],
-[3,"Vega Sicilia Único comes from:","Ribera del Duero",["Rioja","Priorat","Toro"],"Spain's most famous red."],
+[3,"Vega Sicilia Único comes from:","Ribera del Duero",["Rioja Alavesa","Priorat","Castilla-La Mancha"],"Spain's most famous red."],
 [2,"Spain has the world's largest vineyard but ranks third in production mainly because:","Dry land and old vines yield little",["Most grapes are sold as fruit","Half the vineyards lie fallow","Most vines are under five years old"],"Low rainfall and wide spacing keep yields down."],
 [2,"Why are Albariño vines in Rías Baixas trained high on pergolas?","To lift fruit above the damp",["To shade it from desert heat","To allow machine harvesting","To bury canes against frost"],"Air under the canopy keeps rot down in a wet climate."],
 [2,"'Roble' on a Spanish red means:","A few months in oak",["No oak at all","Five years of aging","Fermented in amphora"],"Less oak time than a Crianza."],
 [2,"Verdejo is typically recognized by:","Fennel, grapefruit and a bitter finish",["Lychee, rose petal and very low acidity","Butter, toast and hazelnut","Petrol, lime and slate"],"It is the grape of Rueda."],
 [3,"Which Spanish wine beat Château Latour at the 1979 Gault-Millau Wine Olympiad?","Torres Gran Coronas Black Label",["Vega Sicilia Único","Marqués de Riscal Reserva","López de Heredia Viña Tondonia Reserva"],"It is now called Mas La Plana."],
-[2,"Lechazo, roast suckling lamb, is the regional match for:","Ribera del Duero",["Rías Baixas","Txakoli","Cava"],"Castilla y León's signature dish."],
+[2,"Lechazo, roast suckling lamb, is the regional match for:","Ribera del Duero",["Rías Baixas Albariño","Getariako Txakolina","Cava Gran Reserva"],"Castilla y León's signature dish."],
 [2,"A 'clarete' is:","A pale red from red and white grapes",["A sweet fortified white","A sparkling rosé from the Penedès hills","An oak-aged dry Sherry"],"The grapes are fermented together."],
 [2,"Who made the first Cava, in 1872?","Josep Raventós of Codorníu",["Miguel Torres of Penedès","Pedro Ferrer of Freixenet","Álvaro Palacios of Priorat"],"After seeing the method in Champagne."]
 ]});
@@ -243,7 +243,7 @@ quiz:[
 [1,"Which Madeira style is the sweetest?","Malmsey",["Sercial","Verdelho","Bual"],"Sercial is driest."],
 [2,"Port's soil and terraces are mainly:","Schist",["Granite","Limestone","Sand"],"Fractures let roots dig deep for water."],
 [2,"Which Douro subregion is hottest and driest?","Douro Superior",["Baixo Corgo","Cima Corgo","Dão"],"Furthest east, toward Spain."],
-[2,"Vinho Verde's best Alvarinho comes from:","Monção e Melgaço",["Dão","Bairrada","Alentejo"],"Just across the river from Rías Baixas."],
+[2,"Vinho Verde's best Alvarinho comes from:","Monção e Melgaço",["Baixo Corgo","Bairrada","Vale do Sousa"],"Just across the river from Rías Baixas."],
 [3,"Frasqueira Madeira must spend at least how long in cask?","20 years",["5 years","10 years","50 years"],"From a single vintage and noble variety."],
 [2,"Jaen in the Dão is the same grape as Spain's:","Mencía",["Monastrell","Garnacha","Graciano"],"Tinta Roriz and Aragonez are Tempranillo."],
 [2,"A cork oak's bark may be harvested about every:","Nine years",["Two years","Twenty years","Fifty years"],"The first harvest comes when the tree is about 25."],
@@ -328,11 +328,11 @@ quiz:[
 [2,"Which region is Germany's largest?","Rheinhessen",["Mosel","Pfalz","Rheingau"],"Once known for Liebfraumilch."],
 [2,"Spätburgunder is the German name for:","Pinot Noir",["Pinot Gris","Pinot Blanc","Lemberger"],"Baden and the Ahr are leading regions."],
 [2,"Germany's wine law originally ranked wines by:","Grape ripeness at harvest",["Vineyard site","Producer reputation","Aging time"],"Hence the Prädikat levels."],
-[3,"The Scharzhofberg, home of Egon Müller, is in:","The Saar (Mosel)",["Rheingau","Nahe","Pfalz"],"One of the world's most expensive sweet Rieslings."],
+[3,"The Scharzhofberg, home of Egon Müller, is in:","The Saar (Mosel)",["The Rheingau","The Nahe valley","The Mittelrhein"],"One of the world's most expensive sweet Rieslings."],
 [2,"A Mosel Riesling at 7.5% alcohol is almost certainly:","Noticeably sweet",["Completely dry","Lightly fortified","Aged under flor"],"Low alcohol means sugar was left unfermented."],
-[2,"Under German rules, 'trocken' allows at most about:","9 g/L of sugar",["2 g/L of sugar","25 g/L of sugar","45 g/L of sugar"],"And only if acidity is within 2 g/L of the sugar."],
+[2,"Under German rules, 'trocken' allows at most about:","9 g/L of sugar",["4 g/L of sugar","12 g/L of sugar","18 g/L of sugar"],"And only if acidity is within 2 g/L of the sugar."],
 [2,"Which monastery, founded in 1136, walled in the Rheingau's Steinberg?","Kloster Eberbach",["Kloster Andechs","Stift Klosterneuburg","Abbaye de Cîteaux"],"A Cistercian daughter house of Clairvaux."],
-[3,"The first written record of Riesling dates from:","1435",["1136","1775","1971"],"At Rüsselsheim, near the Rheingau."],
+[3,"The first written record of Riesling dates from:","1435",["1348","1552","1720"],"At Rüsselsheim, near the Rheingau."],
 [2,"A gold capsule (Goldkapsel) on a German bottle signals:","A producer's richer selection",["An officially classed Grosses Gewächs","A certified organic vineyard","A wine made for Sekt base"],"It is a private signal, not a legal term."],
 [2,"Scheurebe typically smells of:","Grapefruit and blackcurrant",["Butter and toasted hazelnut","Lychee and rose petal","Cherry and worn leather"],"Bred in 1916 by Georg Scheu."],
 [2,"Ruländer is the old German name for a sweeter style of:","Pinot Gris",["Pinot Blanc","Silvaner","Chasselas"],"Dry versions are sold as Grauburgunder."],
@@ -398,12 +398,12 @@ quiz:[
 [2,"Match Tokaj with its grape:","Furmint",["Corvina","Mourvèdre","Grenache"],"From the official CMS matching example."],
 [3,"Eszencia's alcohol is typically:","Very low (often under 5%)",["About 12%","About 20% (fortified)","About 15%"],"Its sugar is too high for yeast to ferment much."],
 [2,"Retsina's pine flavor began with:","Resin used to seal amphorae",["Barrels made of pine wood","Pine needles in the vineyard","A Byzantine tax on oak"],"The taste outlived the amphora."],
-[2,"Which dish is Grüner Veltliner's most famous partner?","Wiener Schnitzel",["Moussaka","Goulash","Baklava"],"It also copes with asparagus and artichoke."],
+[2,"Which dish is Grüner Veltliner's most famous partner?","Wiener Schnitzel",["Lamb moussaka","Beef goulash","Coq au vin"],"It also copes with asparagus and artichoke."],
 [2,"After 1990, Tokaj's revival was driven largely by:","Privatization and foreign investment",["A change from white to red grapes","New plantings of Chardonnay","An EU ban on fortified wine"],"Royal Tokaji, Disznókő and Oremus all date from the early 1990s."],
 [2,"Tokaj's autumn mists rise where which two rivers meet?","Bodrog and Tisza",["Danube and Drava","Rhine and Mosel","Sava and Kupa"],"Morning mist and sunny afternoons favor noble rot."],
 [2,"At a 2002 blind tasting in London, Grüner Veltliner famously outscored top:","White Burgundy",["Mosel Riesling","Sauternes","Champagne"],"Austrian wines took most of the top places."],
 [2,"Grilled octopus with lemon calls for:","Assyrtiko",["Agiorgitiko","Mavrodaphne","Xinomavro"],"High acid and a saline edge."],
-[2,"A Gönci barrel, traditional in Tokaj, holds about:","136 liters",["25 liters","225 liters","600 liters"],"Puttonyos once counted baskets of aszú per Gönci cask."],
+[2,"A Gönci barrel, traditional in Tokaj, holds about:","136 liters",["114 liters","225 liters","300 liters"],"Puttonyos once counted baskets of aszú per Gönci cask."],
 [3,"Unlike Tokaji Aszú, Santorini Vinsanto gets its sugar from:","Grapes dried in the sun",["Grapes hit by noble rot","Grapes frozen on the vine","Spirit added to the must"],"Botrytis plays no part on a dry, windy island."]
 ]});
 
@@ -679,7 +679,7 @@ quiz:[
 [2,"Torrontés smells like Muscat but usually tastes:","Dry",["Very sweet","Fortified","Tannic"],"The best comes from Salta."],
 [2,"Why does altitude deepen the color of Mendoza Malbec?","Stronger UV light thickens the skins",["Thin air adds more oxygen to the juice","Snowmelt carries iron to the roots","Cold nights double the sugar"],"Thicker skins hold more pigment and tannin."],
 [2,"Compared with Argentina, Chile's wine industry is more:","Dependent on exports",["Focused on white grapes","Reliant on summer rain","Planted with hybrids"],"Chile's home market is small."],
-[2,"Who identified much of Chile's 'Merlot' as Carmenère in 1994?","Jean-Michel Boursiquot",["Michel Rolland","Paul Hobbs","Aurelio Montes"],"A French ampelographer."],
+[2,"Who identified much of Chile's 'Merlot' as Carmenère in 1994?","Jean-Michel Boursiquot",["Michel Rolland","Carole Meredith","Aurelio Montes"],"A French ampelographer."],
 [2,"Asado, Argentina's wood-grilled beef, is the classic match for:","Malbec",["Torrontés","País","Pinot Noir"],"Soft tannin and dark fruit suit charred beef."],
 [2,"Chile's País is the same grape as California's:","Mission",["Zinfandel","Charbono","Petite Sirah"],"Listán Prieto, carried by Spanish missionaries."]
 ]});

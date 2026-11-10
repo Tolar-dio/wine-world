@@ -36,7 +36,12 @@ quiz:[
 [2,"Minimum lees aging for Franciacorta (non-vintage)?","18 months",["9 months","12 months","36 months"],"Franciacorta: NV 18 months on lees, Satèn and Rosé 24, Millesimato 30, Riserva 60."],
 [2,"Most rosé Champagne is made by:","Adding still red wine (assemblage)",["Saignée only","Carbonic maceration","Skin contact with white grapes"],"Champagne is the classic French appellation where blending red into white is the normal route to rosé."],
 [3,"A Methuselah holds:","6 liters",["3 liters","9 liters","15 liters"],"Eight standard bottles."],
-[3,"Why is hand harvesting mandatory in Champagne?","Whole bunches must reach the press intact",["Machine harvesters are banned across France","The tradition is protected by UNESCO","Organic certification requires hand picking"],"Prevents coloring and oxidation."]
+[3,"Why is hand harvesting mandatory in Champagne?","Whole bunches must reach the press intact",["Machine harvesters are banned across France","The tradition is protected by UNESCO","Organic certification requires hand picking"],"Prevents coloring and oxidation."],
+[3,"The taille is the next how many liters after the cuvée?","500 liters",["250 liters","800 liters","1,050 liters"],"2,050 liters of cuvée plus 500 of taille makes the 2,550-liter limit per marc."],
+[3,"Vintage Champagne must age at least:","36 months",["15 months","24 months","60 months"],"Non-vintage needs 15 months, 12 of them on lees."],
+[3,"Which Champagne pruning system is used mainly for Meunier?","Vallée de la Marne",["Taille Chablis","Cordon de Royat","Gobelet"],"Chablis pruning suits Chardonnay and Cordon de Royat Pinot Noir."],
+[2,"A Salmanazar holds:","9 liters",["4.5 liters","12 liters","15 liters"],"Twelve bottles: between the Methuselah (6 L) and the Balthazar (12 L)."],
+[3,"Franciacorta Satèn must spend at least how long on lees?","24 months",["9 months","18 months","30 months"],"Six months more than the non-vintage wine."]
 ]});
 
 L.push({id:"fo1", unit:"R3", title:"Deep Dive: Sherry Production, Pagos and Bodegas", mins:20,
@@ -180,11 +185,11 @@ analyst:`<p>Diploma D2 (10%) and MW Paper 4 test exactly this: routes to market,
 terms:[["OIV","International Organisation of Vine and Wine."],["Ex-cellar price","The price a producer receives at the winery."],["FOB / CIF","Free on board / cost, insurance and freight: stages in an export price."],["Landed cost","Price after shipping, duties and taxes on arrival."],["Liv-ex","Fine-wine trading exchange and index publisher."],["Flexitank","Large bladder in a shipping container for bulk wine."]],
 quiz:[
 [1,"The three largest wine-producing countries are:","Italy, France and Spain",["USA, China and Australia","France, Chile and Argentina","Germany, Portugal and Italy"],"Order varies by year."],
-[1,"The largest consuming country by volume is:","The United States",["France","China","Italy"],"Per capita, Portugal leads."],
+[1,"The largest consuming country by volume is:","The United States",["France","Germany","The United Kingdom"],"Per capita, Portugal leads."],
 [2,"Landed cost is the price:","After shipping, duties and taxes on arrival",["Paid to the producer at the winery","Printed on a restaurant wine list","Reached at a fine-wine auction"],"Before importer margins."],
 [2,"Liv-ex is:","A fine-wine exchange that publishes price indices",["A Bordeaux négociant on the Place","A critic's 100-point rating service","A London auction house for rare wine"],"Liv-ex Fine Wine 100."],
 [2,"Rudy Kurniawan was convicted in 2013 of:","Counterfeiting rare wines",["Tax evasion in Bordeaux","Smuggling Port","Price fixing in Champagne"],"A landmark fraud case."],
-[3,"Approximate world wine production in 2024 according to OIV estimates:","About 225 million hectoliters",["About 500 million hectoliters","About 50 million hectoliters","About 1 billion hectoliters"],"Among the smallest in decades."]
+[3,"Approximate world wine production in 2024 according to OIV estimates:","About 225 million hectoliters",["About 165 million hectoliters","About 295 million hectoliters","About 360 million hectoliters"],"Among the smallest in decades."]
 ]});
 
 L.push({id:"b6", unit:"S2", title:"Deep Dive: Vermouth, Amari, Liqueurs and Absinthe", mins:16,
@@ -255,7 +260,7 @@ quiz:[
 [3,"Noilly Prat ages part of its wine:","Outdoors in barrels at Marseillan",["Underground in the cellars of Turin","In glass bonbonnes in the sun","Under a film of flor yeast"],"French dry vermouth."],
 [2,"Grand Marnier differs from Cointreau because it is:","Cognac-based",["Clear and neutral","Made from cherries","Bitter"],"Cointreau is a triple sec."],
 [2,"The base wine for red (rosso) vermouth is normally:","White wine, colored with caramel",["Red wine from Nebbiolo","Rosé wine from Grenache","Unfermented must of red-fleshed grapes"],"The color does not come from red grapes."],
-[2,"Who sold the first commercial vermouth, in Turin in 1786?","Antonio Benedetto Carpano",["Gaspare Campari","Joseph Noilly","Bernardino Branca"],"Noilly created the French dry style in 1813."],
+[2,"Who sold the first commercial vermouth, in Turin in 1786?","Antonio Benedetto Carpano",["Gaspare Campari","Joseph Noilly","Bernardino Branca of Milan"],"Noilly created the French dry style in 1813."],
 [2,"Under EU rules, a 'crème de' liqueur must contain at least:","250 g/L of sugar",["100 g/L of sugar","15% dairy cream","40% alcohol"],"Crème de cassis needs 400 g/L. No cream is involved."],
 [2,"The least sweet and most bitter family of amaro is:","Fernet",["Aperitivo bitter","Carciofo","Alpine"],"Fernet-Branca is about 39% with mint, saffron and myrrh."],
 [2,"Which liqueur method best suits soft fruit such as raspberries?","Cold maceration",["Steam distillation","Percolation","Compounding"],"Heat would cook the fresh fruit character."],

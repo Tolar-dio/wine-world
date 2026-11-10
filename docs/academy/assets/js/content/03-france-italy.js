@@ -33,7 +33,12 @@ quiz:[
 [2,"Pomerol's classification system is:","There isn't one",["Revised every 10 years","Part of 1855","The 1959 Graves list"],"Pétrus needs no ranking."],
 [2,"Which river's cool water creates Sauternes' botrytis mists?","Ciron",["Dordogne","Gironde","Loire"],"Cold Ciron meets warmer Garonne."],
 [1,"How were the 1855 wines ranked?","By market price history",["By a blind tasting panel","By size of the vineyard","By a vote of merchants"],"Brokers used prices over many years."],
-[3,"Which estates withdrew from the Saint-Émilion classification before 2022?","Ausone, Cheval Blanc and Angélus",["Figeac, Pavie and Canon","Pétrus, Le Pin and Lafleur","Lafite, Latour and Margaux"],"They objected to the criteria."]
+[3,"Which estates withdrew from the Saint-Émilion classification before 2022?","Ausone, Cheval Blanc and Angélus",["Figeac, Pavie and Canon","Pétrus, Le Pin and Lafleur","Lafite, Latour and Margaux"],"They objected to the criteria."],
+[3,"How many red wines are in the 1855 classification?","61",["52","58","85"],"Sixty from the Médoc plus Haut-Brion from Graves."],
+[3,"Which château was added to the 1855 list in 1856?","Cantemerle",["Château Palmer","Lynch-Bages","Sociando-Mallet"],"One of only two changes; the other was Mouton's promotion in 1973."],
+[3,"Pessac-Léognan became its own AOC in:","1987",["1936","1959","2009"],"It holds every classified Graves estate."],
+[2,"Who drained the Médoc marshes in the 1600s?","Dutch engineers",["English wine merchants","Cistercian monks","Napoleon's army"],"Exposing the gravel banks."],
+[3,"The Cru Bourgeois classification relaunched in 2020 has how many tiers?","Three",["Two","Four","Five"],"Cru Bourgeois, Supérieur and Exceptionnel."]
 ]});
 
 L.push({id:"r2", unit:"R1", title:"Burgundy, Chablis and Beaujolais", mins:22,
@@ -271,7 +276,7 @@ quiz:[
 [1,"Muscadet is made from:","Melon de Bourgogne",["Chenin Blanc","Sauvignon Blanc","Folle Blanche"],"Sur lie aging adds texture."],
 [1,"Red Sancerre is made from:","Pinot Noir",["Cabernet Franc","Gamay","Malbec"],"Sancerre whites are Sauvignon Blanc."],
 [2,"Why is Alsace so dry and sunny?","The Vosges Mountains create a rain shadow",["The Atlantic moderates its weather","Mediterranean air reaches it in summer","Its vineyards lie above the cloud line"],"Colmar is one of France's driest cities."],
-[2,"Which Loire appellation is the region's only Grand Cru?","Quarts de Chaume",["Savennières","Vouvray","Sancerre"],"Sweet Chenin Blanc in Anjou."],
+[2,"Which Loire appellation is the region's only Grand Cru?","Quarts de Chaume",["Savennières","Coteaux du Layon","Bonnezeaux"],"Sweet Chenin Blanc in Anjou."],
 [1,"Chinon is primarily:","Cabernet Franc",["Chenin Blanc","Pinot Noir","Merlot"],"Raspberry, violet, graphite, green pepper."],
 [2,"Vin Jaune may not be sold until how long after harvest?","A little over six years",["Two years","Three and a half years","Ten years"],"It stays in barrel until the sixth December, with at least 60 months under the veil, and goes on sale the following January in the 62 cl clavelin."],
 [2,"Rosé d'Anjou's principal grape is:","Grolleau",["Cabernet Franc","Gamay","Pinot Noir"],"Official WSET Level 3 sample question."],
@@ -437,7 +442,7 @@ quiz:[
 [1,"Barolo is made from:","100% Nebbiolo",["Sangiovese","Barbera blended with Nebbiolo","Dolcetto"],"Same for Barbaresco."],
 [2,"Minimum aging for Barolo (non-Riserva)?","38 months, 18 in wood",["26 months, 9 in wood","24 months, 12 in wood","62 months, 18 in wood"],"Riserva: 62 months."],
 [1,"Amarone is made by:","Drying grapes before fermenting to dryness",["Leaving grapes to botrytize on the vine","Fortifying the wine during fermentation","Fermenting whole bunches under CO₂"],"Appassimento: the grapes dry for about 100 days, then ferment to dryness at 15% alcohol or more."],
-[2,"Which commune is known for the most structured Barolo?","Serralunga d'Alba",["La Morra","Barolo","Neive"],"Neive is a Barbaresco village."],
+[2,"Which commune is known for the most structured Barolo?","Serralunga d'Alba",["La Morra","Verduno","Barolo itself"],"Neive is a Barbaresco village."],
 [2,"Nebbiolo is called Chiavennasca in:","Valtellina",["Gattinara","Roero","Valpolicella"],"Lombardy's alpine terraces."],
 [1,"Gavi is made from:","Cortese",["Arneis","Garganega","Moscato"],"Lean, citrusy white."],
 [2,"What is Ripasso?","Valpolicella refermented on Amarone skins",["A sweet red made from dried grapes","A sparkling wine from Valpolicella","A dry rosé from the shores of Garda"],"Adds body, alcohol and dried-fruit notes."],

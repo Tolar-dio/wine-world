@@ -286,8 +286,8 @@ quiz:[
 [1,"The classic pairing for Stilton is:","Vintage Port",["Muscadet","Beaujolais","Prosecco"],"Contrast of salt and sweet."],
 [2,"Acidity in food makes wine taste:","Less acidic, fruitier",["More acidic and thinner","More tannic and drier","More bitter and hot"],"So the wine needs at least as much acid as the food."],
 [2,"A good wine for spicy Thai green curry:","Off-dry German Riesling Kabinett",["Barossa Shiraz at 15% alcohol","Amarone della Valpolicella","Young, tannic Barolo"],"Low alcohol, sweetness and acid tame the heat."],
-[2,"In most dishes, which element should drive the wine choice?","The sauce or cooking method",["The protein alone","The side vegetable","The plate's color"],"Chicken in cream and chicken in tomato need different wines."],
-[2,"Fried food pairs best with:","Bubbles and high acid",["Heavy oak","High tannin","High alcohol"],"Carbonation and acid cut through oil."],
+[2,"In most dishes, which element should drive the wine choice?","The sauce or cooking method",["The protein on its own","The side vegetables","The price of the dish"],"Chicken in cream and chicken in tomato need different wines."],
+[2,"Fried food pairs best with:","Bubbles and high acid",["Heavy new oak","High, firm tannin","Low acid and sweetness"],"Carbonation and acid cut through oil."],
 [2,"A red wine that works with seared tuna is:","Pinot Noir",["Young Cabernet Sauvignon","Tannat","Barolo"],"Low tannin avoids the metallic clash with fish."],
 [2,"Why does sake flatter umami-rich food?","It has no tannin to clash",["It is very high in acid","It is always served sweet","It is lightly carbonated"],"No tannin, low acid and plenty of amino acids: nothing in sake turns bitter against umami."],
 [2,"Which is one of the four 'universal' pairing wines?","Dry Riesling",["Oaked Chardonnay","Amarone","Zinfandel"],"Champagne, Riesling, Pinot Noir and dry rosé: high acid, modest tannin, little oak."],
@@ -522,7 +522,7 @@ terms:[["Ale","Beer from top-fermenting yeast at warmer temperatures."],["Lager"
 quiz:[
 [1,"Lager yeast ferments:","Cold, bottom-fermenting",["Warm, top-fermenting","Spontaneously","With koji"],"S. pastorianus."],
 [2,"Daiginjo sake requires rice polished to at most:","50% remaining",["70%","60%","90%"],"Ginjo is 60%; Honjozo 70%."],
-[2,"Junmai means:","No added brewer's alcohol",["Never pasteurized","Coarsely filtered","Aged for years"],"Pure rice, water, koji, yeast."],
+[2,"Junmai means:","No added brewer's alcohol",["Never pasteurized","Coarsely filtered and cloudy","Aged for several years"],"Pure rice, water, koji, yeast."],
 [1,"Pilsner was first brewed in:","Plzeň, Czech Republic",["Munich, Germany","Dublin, Ireland","Brussels, Belgium"],"The first pale lager was brewed in Plzeň (Pilsen), Bohemia, in 1842."],
 [2,"Lambic beer is fermented with:","Wild airborne yeast and bacteria",["Bottom-fermenting lager yeast","Koji mold and sake yeast","Champagne yeast in the bottle"],"Senne valley, Belgium."],
 [2,"Sake's simultaneous starch conversion and fermentation is called:","Multiple parallel fermentation",["Malolactic conversion","Carbonic maceration","Secondary fermentation"],"Koji and yeast work together."],
@@ -765,7 +765,7 @@ quiz:[
 [1,"The pass mark for each part of WSET Level 3 is:","55%",["60%","50%","70%"],"Merit from 65%, distinction from 80%."],
 [1,"Which command word asks for cause and effect?","Explain",["Name","State","Identify"],"Explain means why or how. Name, state and identify want a word or phrase."],
 [2,"A 25-mark question should contain roughly:","15 to 25 distinct points",["3 to 5 distinct points","One long paragraph","50 or more points"],"One mark per correct, relevant point."],
-[2,"About how long should one 25-mark answer take?","15 to 17 minutes",["5 minutes","30 minutes","45 minutes"],"Four answers plus 50 multiple-choice questions fit in two hours."],
+[2,"About how long should one 25-mark answer take?","15 to 17 minutes",["5 to 7 minutes","25 to 27 minutes","40 to 45 minutes"],"Four answers plus 50 multiple-choice questions fit in two hours."],
 [2,"'Compare the styles of Chablis and Meursault' is best answered:","Point by point, side by side",["With one paragraph on each","With a list of producers","With a tasting note for one wine"],"Compare means similarities and differences on the same criteria."],
 [2,"In the Mosel answer, why do south-facing slopes matter?","They catch more direct sunlight",["They drain water faster","They shelter vines from rain","They lower the acidity"],"More sun means more warmth for ripening in a cool climate."],
 [2,"An 8-mark question needs about:","Eight to ten scoring points",["Two or three long paragraphs","One sentence","Twenty-five points"],"Let the marks set the length."],
@@ -904,10 +904,10 @@ quiz:[
 [2,"What is MW Stage 3?","A research paper of about 10,000 words",["A tableside service examination","A six-wine verbal blind tasting","An oral examination before a panel"],"Formerly the dissertation."],
 [2,"The Diploma distinction threshold is:","75%",["80%","85%","70%"],"Merit 65%, pass 55%."],
 [3,"Which MW theory paper covers how wine is stored, shipped and kept?","Handling of wine",["Contemporary issues","Viticulture","Business of wine"],"One of five Stage 2 theory papers."],
-[2,"The question behind most Diploma answers links production and business choices to a wine's:","Style, quality and price",["Label design","Critic scores","Vintage chart"],"Learn every region as an answer to that question."],
+[2,"The question behind most Diploma answers links production and business choices to a wine's:","Style, quality and price",["Label and bottle design","Critic scores","Vintage chart rating"],"Learn every region as an answer to that question."],
 [2,"In MW tasting papers, most marks go to:","Reasoning from the glass",["Naming the producer","Speed","The correct vintage"],"Claim, evidence, argument."],
 [2,"Which example shows producers leaving an appellation to pursue quality?","The Super Tuscans",["Champagne's échelle des crus","The 1855 Classification","Cava's Reserva tier"],"They chose table-wine status in the 1970s to use Cabernet and barriques."],
-[3,"World wine production in 2024 was about:","225 million hectoliters",["25 million hectoliters","500 million hectoliters","1 billion hectoliters"],"The lowest in about sixty years, by OIV figures."],
+[3,"World wine production in 2024 was about:","225 million hectoliters",["165 million hectoliters","295 million hectoliters","360 million hectoliters"],"The lowest in about sixty years, by OIV figures."],
 [2,"A 'to what extent' essay should end with:","A position between yes and no",["A list of further reading","A restatement of the question","No conclusion at all"],"Commit to a degree and defend it."],
-[2,"About how many people have ever passed the Master of Wine exam?","A little over 500",["About 50","About 5,000","More than 20,000"],"Since the first exam in 1953."]
+[2,"About how many people have ever passed the Master of Wine exam?","A little over 500",["A little under 300","A little over 900","Roughly 1,400"],"Since the first exam in 1953."]
 ]});

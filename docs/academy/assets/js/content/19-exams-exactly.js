@@ -34,5 +34,9 @@ quiz:[
 [2,"A $20 bottle poured as 5 glasses at a 25% pour cost should sell for:","$16 a glass",["$4 a glass","$10 a glass","$20 a glass"],"$20 ÷ 5 ÷ 0.25."],
 [2,"What share of the WSET Diploma is D3, Wines of the World?","50%",["20%","10%","25%"],"Two theory and two tasting papers."],
 [2,"Since 2024, the CMS-A grid no longer uses:","Old World / New World",["Fruit condition","Oak","Initial conclusion"],"Using it earns nothing."],
-[2,"The MW Stage 2 practical has:","Three 12-wine papers",["One 6-wine paper","Two 4-wine papers","Five 12-wine papers"],"36 wines in all."]
+[2,"The MW Stage 2 practical has:","Three 12-wine papers",["One 6-wine paper","Two 4-wine papers","Five 12-wine papers"],"36 wines in all."],
+[3,"The CMS Advanced and Master tasting gives six wines in:","25 minutes",["15 minutes","40 minutes","60 minutes"],"About four minutes a wine, spoken aloud."],
+[3,"WSET Level 3's written paper has how many short-answer questions?","Four",["Two","Three","Six"],"Each worth 25 marks, alongside 50 multiple-choice questions."],
+[3,"How many candidates sat the MW Stage 2 exam in 2026?","111",["62","184","256"],"Down from 145 in 2024."],
+[2,"The Certified service exam lasts about:","16 minutes",["8 minutes","25 minutes","40 minutes"],"Sparkling service, by-the-glass pours and pairing questions."]
 ]});

@@ -75,7 +75,7 @@ quiz:[
 [2,"Which study method strengthens memory most?","Testing yourself from memory",["Rereading the lesson","Highlighting key lines","Copying out notes"],"Retrieval practice beats review."],
 [2,"Which Médoc commune is farthest north?","Saint-Estèphe",["Margaux","Saint-Julien","Pauillac"],"North to south: Saint-Estèphe, Pauillac, Saint-Julien, Margaux."],
 [3,"Which Beaujolais cru lies farthest south?","Brouilly",["Saint-Amour","Morgon","Fleurie"],"Saint-Amour is the northernmost."],
-[2,"Going north to south in the Côte de Beaune, which village follows Meursault?","Puligny-Montrachet",["Volnay","Pommard","Santenay"],"Pommard and Volnay lie north of Meursault; Chassagne and Santenay come after Puligny."],
+[2,"Going north to south in the Côte de Beaune, which village follows Meursault?","Puligny-Montrachet",["Volnay","Auxey-Duresses","Savigny-lès-Beaune"],"Pommard and Volnay lie north of Meursault; Chassagne and Santenay come after Puligny."],
 [2,"A candidate stuck at 70% on mocks should:","Work only on the two weakest units",["Reread the strongest units again","Sit a full mock exam every day","Stop studying for a month"],"Plateaus come from studying what you already know."],
 [2,"Mixing topics within one study session:","Feels harder and sticks better",["Wastes time","Works only for tasting","Should be avoided before exams"],"Interleaving mirrors the way exams mix subjects."]
 ]});
@@ -111,13 +111,18 @@ floor:`<p>History sells. Telling a guest that Clos de Vougeot was walled by monk
 analyst:`<p>WSET Diploma and MW essays reward historical context: the impact of phylloxera on grape choice, how the AOC system responded to fraud, and how Parker-era tastes shaped styles. Use history as evidence in arguments.</p>`,
 terms:[["Qvevri","Large buried clay vessel used for fermentation and aging in Georgia."],["Areni-1","Armenian cave holding the oldest known winery (~4000 BC)."],["Methuen Treaty","1703 Anglo-Portuguese trade treaty that boosted Port."],["INAO","French institute founded 1935 to govern AOCs."]],
 quiz:[
-[1,"Where does the oldest chemical evidence of grape wine come from?","Georgia, around 6000 BC",["France, around 500 BC","Egypt, around 1000 BC","Italy, around 200 BC"],"Neolithic jars in Georgia."],
+[1,"Where does the oldest chemical evidence of grape wine come from?","Georgia, around 6000 BC",["Armenia, around 4000 BC","Iran, around 5400 BC","Egypt, around 3000 BC"],"Neolithic jars in Georgia."],
 [2,"The oldest known winery was found in:","Areni-1 cave, Armenia",["Pompeii, in Italy","Knossos, on Crete","Shiraz, in Persia"],"About 4000 BC."],
 [2,"Why did Bordeaux ship so much wine to England in the Middle Ages?","Eleanor of Aquitaine's marriage made it an English possession",["The Methuen Treaty cut the duty on French wine","Phylloxera had destroyed England's own vineyards","The 1855 Classification made its wines fashionable"],"About three centuries of English rule from 1152."],
 [1,"Which pest destroyed most European vineyards from the 1860s?","Phylloxera",["Botrytis","Brettanomyces","Locusts"],"Solved by grafting onto American rootstock."],
 [2,"France's INAO, which governs AOCs, was founded in:","1935",["1855","1789","1976"],"A response to post-phylloxera fraud."],
 [2,"Who showed that yeast causes fermentation?","Louis Pasteur",["Émile Peynaud","Dom Pérignon","Jules Guyot"],"Pasteur's work between about 1857 and 1866 showed that living yeast, not spontaneous chemistry, drives fermentation."],
-[3,"Chianti's borders were first legally defined in 1716 by:","Cosimo III de' Medici",["Baron Bettino Ricasoli","Napoleon Bonaparte","Pope Clement XI"],"An early protected wine zone."]
+[3,"Chianti's borders were first legally defined in 1716 by:","Cosimo III de' Medici",["Baron Bettino Ricasoli","Napoleon Bonaparte","Pope Clement XI"],"An early protected wine zone."],
+[3,"Dutch demand for 'brandewijn' helped build the trade of:","Cognac",["Jerez","Madeira","Tokaj"],"Brandewijn, 'burnt wine', gave brandy its name."],
+[3,"The Greeks founded Massalia, today's Marseille, around:","600 BC",["1200 BC","100 BC","AD 300"],"Bringing vines to southern France."],
+[2,"Which of these American imports reached Europe's vineyards first?","Powdery mildew",["Phylloxera","Downy mildew","Black rot"],"Powdery mildew in the 1840s-50s, phylloxera from the 1860s, then downy mildew."],
+[3,"Italy created its DOC system in:","1963",["1935","1971","1992"],"France's INAO dates from 1935 and Germany's wine law from 1971."],
+[2,"The Greek name Oenotria, 'land of vines', referred to:","Southern Italy",["The Rhône valley","The Black Sea coast","Southern Spain"],"Greek colonists planted it heavily."]
 ]});
 
 L.push({id:"h2", unit:"H", title:"Wine Law and Reading a Label", mins:16,
@@ -206,7 +211,7 @@ quiz:[
 [2,"US wine labels have carried a government health warning since:","1989",["1933","1976","2006"],"It is required on every bottle sold in the country."],
 [2,"Which term has no legal definition on an American wine label?","Reserve",["Estate Bottled","Vintage date","AVA name"],"Old vine and barrel select are undefined too."],
 [2,"France's INAO, which added production rules to appellation law, dates from:","1935",["1855","1905","1973"],"The 1919 law had drawn boundaries only."],
-[3,"An EU still wine labeled 'dry' normally has no more than:","4 g/L of sugar",["1 g/L of sugar","20 g/L of sugar","45 g/L of sugar"],"Up to 9 g/L is allowed when acidity is high enough."],
+[3,"An EU still wine labeled 'dry' normally has no more than:","4 g/L of sugar",["2 g/L of sugar","12 g/L of sugar","18 g/L of sugar"],"Up to 9 g/L is allowed when acidity is high enough."],
 [2,"In the Médoc, a 'Premier Cru' is:","A First Growth, the top tier",["The second tier of vineyards","A village appellation","Any estate-bottled wine"],"In Burgundy the same words mean the second tier."],
 [2,"Chile's minimum for a named grape variety on domestic labels is:","75%",["51%","85%","100%"],"Wine exported to the EU must meet 85%."]
 ]});
@@ -379,7 +384,7 @@ quiz:[
 [3,"Pale-medium red with high alcohol, low acid, kirsch and garrigue:","Grenache (Southern Rhône)",["Nebbiolo (Piedmont)","Cabernet Franc (Loire)","Malbec (Mendoza)"],"Light color for its weight is a Grenache tell."],
 [2,"Deep color, very high acid and low tannin with sour cherry suggest:","Barbera",["Nebbiolo","Cabernet Sauvignon","Grenache"],"Barbera pairs high acid with little tannin; Nebbiolo is pale and very tannic."],
 [2,"When the evidence fits two wines equally, call:","The more classic one",["The rarer one","The more expensive one","Neither: leave it blank"],"Exam wines are chosen to be typical."],
-[2,"Banana and bubblegum on a light red are a marker for:","Carbonic maceration",["American oak","Botrytis","Brettanomyces"],"Think Beaujolais."],
+[2,"Banana and bubblegum on a light red are a marker for:","Carbonic maceration",["New American oak","Noble rot","Brettanomyces"],"Think Beaujolais."],
 [3,"A Brunello di Montalcino first released in January 2026 comes from which vintage?","2021",["2025","2024","2015"],"Brunello is released in January of the fifth year after harvest."],
 [2,"A bone-dry white at 10.5% with lemon and, with age, toast but no oak:","Hunter Valley Sémillon",["Meursault","Condrieu","Alsace Pinot Gris"],"Picked early, never oaked; toast comes from bottle age."],
 [2,"Garnet color with a brick rim, leather and tobacco puts a red at about:","8 to 15 years",["1 to 3 years","Under a year","Over 40 years"],"Rim and tertiary aromas are the age clues."],
@@ -448,7 +453,7 @@ quiz:[
 [2,"Which fining agent keeps a wine vegan?","Bentonite",["Isinglass","Casein","Gelatin"],"Bentonite is a clay; the others come from fish, milk and animal collagen."],
 [2,"Ramato is:","A copper-colored Pinot Grigio",["A sparkling red from Emilia","A sweet wine from dried grapes","A clay vessel from Georgia"],"The color comes from brief contact with the pink skins."],
 [2,"'Zero-zero' on a natural wine list means:","Nothing added, nothing removed",["No sugar and no alcohol","No new oak and no malolactic conversion","No vintage and no region"],"That includes sulfur dioxide."],
-[3,"'Contains sulfites' is required once total sulfur dioxide exceeds:","10 mg/L",["1 mg/L","100 mg/L","350 mg/L"],"Yeast produce some on their own."],
+[3,"'Contains sulfites' is required once total sulfur dioxide exceeds:","10 mg/L",["5 mg/L","25 mg/L","50 mg/L"],"Yeast produce some on their own."],
 [2,"Biodynamic preparation 500 is:","Cow manure aged in a horn",["Ground quartz in rainwater","A copper sulfate spray","Fermented nettle tea"],"Ground quartz is preparation 501."],
 [2,"Orange wine served ice cold tends to taste:","Hard and tannic, with little aroma",["Sweeter, rounder and noticeably softer","Fizzy, light and floral","Exactly as it does when warm"],"Serve it at 55 to 60°F."]
 ]});

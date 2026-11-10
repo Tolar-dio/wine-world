@@ -49,7 +49,12 @@ quiz:[
 [1,"What is the pass mark for each section of the Master Sommelier Diploma?","75%",["60%","55%","70%"],"Lower CMS levels pass at 60%; the MS demands 75% in theory, tasting and service."],
 [1,"The Court of Master Sommeliers was created mainly to examine:","People who sell and serve wine in restaurants",["People who import and distribute wine","People who grow grapes and make wine","People who write about and score wine"],"The Court's DNA is the dining room, which is why every level from Certified up includes service."],
 [2,"In the 2018 CMS cheating scandal, what did the board do?","Invalidated the tasting results and suspended the new titles",["Revoked every Master Sommelier title awarded that decade","Moved the tasting exam to Europe for five years","Dropped blind tasting from the Master exam altogether"],"All 54 candidates' tasting results were voided and 23 of 24 new titles suspended; affected candidates could resit."],
-[1,"Which is true of the title 'sommelier' in the US?","It is not regulated by any government license",["It requires a state license","Only CMS graduates may legally use it","It requires WSET Level 3"],"The title is unregulated. Credentials are private and their value comes from industry respect."]
+[1,"Which is true of the title 'sommelier' in the US?","It is not regulated by any government license",["It requires a state license","Only CMS graduates may legally use it","It requires WSET Level 3"],"The title is unregulated. Credentials are private and their value comes from industry respect."],
+[2,"The first Master Sommelier exam was held in the UK in:","1969",["1953","1977","1987"],"The Court itself formed in 1977; Monterey hosted the first exam outside the UK in 1987."],
+[3,"Who became the first woman Master of Wine, in 1970?","Sarah Morphew Stephen",["Jancis Robinson","Serena Sutcliffe","Mary Ewing-Mulligan"],"Seventeen years after the first exam."],
+[3,"How many of the 30 candidates passed the full Master Sommelier exam in 2026?","4",["9","14","21"],"Roughly one in eight."],
+[2,"The Institute of Masters of Wine was founded in:","1955",["1933","1969","1977"],"Two years after the first exam."],
+[3,"The first Master Sommelier exam outside the UK was held in 1987 in:","Monterey, California",["New York City, New York","Napa, California","Toronto, Ontario"],"The Americas chapter grew out of it."]
 ]});
 
 L.push({id:"o2", unit:"O", title:"Choosing Your Track", mins:8,
@@ -112,11 +117,11 @@ quiz:[
 [1,"WSET Level 2 includes a blind tasting exam.","False: it is a 50-question multiple-choice paper only",["True: two wines assessed in 30 minutes by SAT","True: one wine written up as a full tasting note","False: it is four written short answers only"],"Tasting is taught at Level 2 but not examined until Level 3."],
 [1,"Which track suits someone who wants to work a restaurant floor?","Floor (CMS)",["Analyst (WSET)","Wine Scholar Guild","Master of Wine"],"The Court examines service, selling and spoken blind tasting."],
 [2,"The Wine Scholar Guild is best known for:","Deep single-country programs",["A service practical","A 12-wine blind tasting","A spirits diploma"],"French, Italian, Spanish and German Wine Scholar: 100 questions, 75% to pass."],
-[2,"The Master of Wine research paper runs to about:","10,000 words",["1,000 words","3,000 words","50,000 words"],"The Diploma's D6 research assignment is 3,000 words."],
+[2,"The Master of Wine research paper runs to about:","10,000 words",["3,000 words","20,000 words","40,000 words"],"The Diploma's D6 research assignment is 3,000 words."],
 [2,"The Cicerone program certifies expertise in:","Beer",["Sake","Spirits","Coffee"],"Its top level is Master Cicerone."],
 [2,"Which body runs the Best Sommelier of the World competition?","ASI",["WSET","IMW","SWE"],"The Association de la Sommellerie Internationale."],
 [2,"A wine buyer for a supermarket chain is best served by which track?","Analyst",["Floor","Cicerone","Kikisake-shi"],"Quality judgment and written reasoning are the daily work."],
-[2,"WSET's stated study time for Level 3 is about:","84 hours",["8 hours","28 hours","500 hours"],"Level 2 is 28 hours and the Diploma at least 500."],
+[2,"WSET's stated study time for Level 3 is about:","84 hours",["28 hours","54 hours","150 hours"],"Level 2 is 28 hours and the Diploma at least 500."],
 [2,"CSS is a credential in:","Spirits",["Sake","Service","Sparkling wine"],"The Certified Specialist of Spirits, from the Society of Wine Educators."],
 [2,"What do employers generally weigh before any credential?","Real experience on a floor or in a shop",["The number of seals earned online","The price paid for the course","The age of the candidate"],"A title supports experience; it does not replace it."]
 ]});
@@ -439,9 +444,9 @@ quiz:[
 [2,"Large diurnal range mainly helps wines retain:","Acidity and aroma",["Tannin and color","Residual sugar","Alcohol and body"],"Cool nights slow the loss of acid and volatile aromatics."],
 [1,"Most of the world's vineyards lie between which latitudes?","30° and 50°",["10° and 20°","50° and 60°","0° and 15°"],"Both hemispheres."],
 [2,"The climate of one vineyard site is its:","Mesoclimate",["Macroclimate","Microclimate","Continentality"],"Macro is the region; micro is the air inside the vine's canopy."],
-[2,"The Winkler index sorts regions by:","Heat summed over the growing season",["Total annual rainfall","Hours of sunshine","Altitude above sea level"],"Growing degree days above 50°F, from Region I (coolest) to V (hottest)."],
+[2,"The Winkler index sorts regions by:","Heat summed over the growing season",["Rain summed over the growing season","Sunshine hours in the ripening month","Average altitude of the vineyards"],"Growing degree days above 50°F, from Region I (coolest) to V (hottest)."],
 [2,"Which mountains put Alsace in a rain shadow?","The Vosges",["The Alps","The Pyrenees","The Jura"],"They block Atlantic rain, making Colmar one of the driest places in France."],
-[2,"Why are valley floors prone to spring frost?","Cold air drains downhill and pools",["They get less sunlight","Their soils are wetter","Wind is stronger there"],"The mid-slope stays warmer at night, which is where the best sites sit."],
+[2,"Why are valley floors prone to spring frost?","Cold air drains downhill and pools",["They get less sunlight in spring","Their soils hold far more water","Wind is much stronger down there"],"The mid-slope stays warmer at night, which is where the best sites sit."],
 [2,"The hot, dry wind that blows off the Andes into Argentina is the:","Zonda",["Mistral","Levante","Poniente"],"The Mistral is the Rhône's; Levante and Poniente belong to Jerez."],
 [3,"Rain does most harm to quality when it falls:","At harvest",["In winter","Just after harvest","In early spring before budburst"],"It dilutes the grapes and starts rot. Winter rain recharges the soil."]
 ]});

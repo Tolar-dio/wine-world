@@ -209,5 +209,9 @@ quiz:[
 [2,"Hemel-en-Aarde is best known for:","Pinot Noir and Chardonnay",["Pinotage and Cinsault","Fortified Muscadel","Chenin Blanc and Colombard"],"Walker Bay district."],
 [2,"Meerlust Rubicon is a:","Bordeaux-style blend from Stellenbosch",["Single-vineyard Pinotage from Paarl","Sweet fortified Muscadel from Robertson","Cap Classique sparkling from Elgin"],"A South African classic."],
 [3,"A 'Cape Blend' typically includes:","A meaningful share of Pinotage",["Only Bordeaux varieties","Chenin Blanc and Viognier","No Pinotage at all"],"Informal term."],
-[2,"Constantia was founded in 1685 by:","Simon van der Stel",["Jan van Riebeeck","Cecil Rhodes","Charles Back"],"Van Riebeeck made the first wine in 1659."]
+[2,"Constantia was founded in 1685 by:","Simon van der Stel",["Jan van Riebeeck","Cecil Rhodes","Charles Back"],"Van Riebeeck made the first wine in 1659."],
+[3,"The Cape's first wine was pressed in 1659 by:","Jan van Riebeeck",["Simon van der Stel","Cecil John Rhodes","Abraham Perold"],"Van der Stel founded Constantia a generation later."],
+[3,"French Huguenots settled which valley from 1688?","Franschhoek",["Robertson","Hemel-en-Aarde","Tulbagh"],"The name means 'French corner'."],
+[2,"The KWV, which set prices and quotas for most of the 20th century, was founded in:","1918",["1855","1948","1994"],"It steered growers toward volume and brandy."],
+[3,"Méthode Cap Classique now requires at least how long on lees?","12 months",["6 months","9 months","18 months"],"The same time on lees as non-vintage Champagne."]
 ]});

@@ -81,7 +81,7 @@ analyst:`<p>Essay angles: compare Spain's new site pyramids (Rioja, Priorat, Bie
 terms:[["Vino de Pueblo","Rioja village-wine category (renamed from Vino de Municipio, 2024)."],["Viñedo Singular","Rioja single-vineyard category; vines 35+ years."],["Gran Vinya Classificada","Priorat's top site tier; three wines so far."],["Cava de Guarda Superior","Cava category for Reserva, Gran Reserva and Paraje Calificado."],["Corpinnat","Private organic sparkling brand outside the Cava DO."],["Albillo Mayor","White grape now allowed in Ribera del Duero whites and reds."]],
 quiz:[
 [2,"In 2024 Rioja renamed 'Vino de Municipio' to:","Vino de Pueblo",["Vino de Villa","Vino de Paraje","Viñedo Singular"],"February 2024."],
-[2,"How many Viñedos Singulares did Rioja have in September 2026?","167",["12","459","1,000"],"91 La Rioja, 73 Álava, 3 Navarra."],
+[2,"How many Viñedos Singulares did Rioja have in September 2026?","167",["84","133","212"],"91 La Rioja, 73 Álava, 3 Navarra."],
 [2,"What happened to the 'Viñedos de Álava' DO?","Courts annulled it and it was revoked",["It was upgraded to a DOCa in 2025","It merged with the Navarra DO","The EU registered it as a PDO"],"Final revocation December 2025."],
 [2,"Ribera del Duero whites must be at least 75%:","Albillo Mayor",["Verdejo","Viura","Godello"],"Allowed since 2019."],
 [2,"Which is one of Priorat's three Gran Vinyes Classificades?","L'Ermita",["Clos Mogador","Pingus","Vega Sicilia Único"],"Álvaro Palacios."],

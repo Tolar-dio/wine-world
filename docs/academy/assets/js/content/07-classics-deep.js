@@ -29,7 +29,7 @@ quiz:[
 [1,"How many châteaux are in the First Growth tier of 1855 reds?","Five",["Three","Seven","Ten"],"Lafite, Latour, Margaux, Haut-Brion, Mouton."],
 [2,"Which château is a Third Growth that often prices like a super second?","Palmer",["Lynch-Bages","Pontet-Canet","Talbot"],"Margaux appellation."],
 [2,"Which is a Fifth Growth?","Lynch-Bages",["Ducru-Beaucaillou","Cos d'Estournel","Léoville-Las Cases"],"The others are Seconds."],
-[2,"Carruades is the second wine of:","Lafite Rothschild",["Latour","Margaux","Mouton"],"Les Forts de Latour is Latour's."],
+[2,"Carruades is the second wine of:","Lafite Rothschild",["Château Latour","Château Margaux","Mouton Rothschild"],"Les Forts de Latour is Latour's."],
 [1,"En primeur means:","Selling wine as futures",["Bottling the wine at the estate","Using only the first pressing","Picking earlier than neighbors"],"The wine is sold in the spring after harvest, about 18 months before it is bottled and delivered."],
 [3,"Which two Sauternes First Growths are in Barsac?","Climens and Coutet",["Suduiraut and Rieussec","Guiraud and La Tour Blanche","Rayne-Vigneau and Sigalas-Rabaud"],"Barsac may label as Sauternes."],
 [2,"Pétrus is famous for nearly pure:","Merlot",["Cabernet Sauvignon","Cabernet Franc","Malbec"],"Blue clay in Pomerol."]
@@ -310,7 +310,7 @@ quiz:[
 [1,"Which is a DOC, not a DOCG?","Bolgheri",["Brunello di Montalcino","Carmignano","Vernaccia di San Gimignano"],"Bolgheri Sassicaia is its own DOC."],
 [2,"Italy's first white DOCG was:","Albana di Romagna",["Soave Superiore","Gavi","Vernaccia di San Gimignano"],"Albana di Romagna (now Romagna Albana) became Italy's first white DOCG in 1987."],
 [2,"Which region has no DOCG?","Trentino-Alto Adige",["Emilia-Romagna","Friuli-Venezia Giulia","Basilicata"],"Also Valle d'Aosta, Liguria, Molise."],
-[2,"The DOCG version of Primitivo di Manduria is:","Dolce Naturale (sweet)",["Riserva (aged)","Superiore (dry)","Rosato (pink)"],"The dry version is DOC."],
+[2,"The DOCG version of Primitivo di Manduria is:","Dolce Naturale (sweet)",["Riserva (long-aged)","Superiore (dry)","Rosato (pink)"],"The dry version is DOC."],
 [2,"Ramandolo is a sweet DOCG from which grape?","Verduzzo",["Picolit","Garganega","Moscato"],"Ramandolo is made from Verduzzo Friulano in the hills north of Udine, in Friuli."],
 [3,"Vernaccia di Serrapetrona is:","A sparkling red from Marche",["A white from Tuscany","A sweet white from Sardinia","A rosé from Puglia"],"Not to be confused with Vernaccia di San Gimignano."],
 [1,"Vermentino di Gallura is in:","Sardinia",["Sicily","Liguria","Tuscany"],"Granite soils in the northeast."],

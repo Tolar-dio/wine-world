@@ -121,7 +121,7 @@ analyst:`<p>D1 questions: compare fining agents; explain cold stabilization and 
 terms:[["Feuillette","Small Burgundian barrel: 114 L in the Côte d'Or, 132 L in Chablis."],["Gross lees / fine lees","Heavy early sediment versus fine yeast lees kept for texture."],["Crossflow filtration","Filtration with wine flowing parallel to the membrane."],["CMC","Carboxymethylcellulose, a tartrate stabilizer for whites."],["Spinning cone column","Technology for separating aromas and removing alcohol."],["OTR","Oxygen transmission rate of a closure."]],
 quiz:[
 [2,"Which fining agent removes proteins to prevent haze in whites?","Bentonite",["Egg white","Isinglass","Activated charcoal"],"Bentonite is a clay that binds proteins: the standard fining for protein stability, and vegan."],
-[2,"Sterile filtration typically uses membranes of about:","0.45 μm",["45 μm","5 mm","0.001 μm"],"Removes yeast and bacteria."],
+[2,"Sterile filtration typically uses membranes of about:","0.45 μm",["0.05 μm","1.2 μm","5 μm"],"Removes yeast and bacteria."],
 [2,"A pièce in Burgundy holds:","228 liters",["225 liters","500 liters","114 liters"],"A Bordeaux barrique is 225 L."],
 [3,"Why is sorbic acid not used in wines that went through MLC?","Lactic bacteria convert it to geranium off-odors",["It reacts with tannin to cause a haze","It breaks down into fermentable sugar","It strips color from red wines in bottle"],"Geranium taint."],
 [2,"Cold stabilization prevents:","Tartrate crystals",["Oxidation","Protein haze","Cork taint"],"Chilling near freezing."],
@@ -191,7 +191,7 @@ analyst:`<p>MW contemporary issues and Diploma D6 research topics often come fro
 terms:[["PIWI","German acronym for fungus-resistant grape varieties."],["Voltis","Disease-resistant hybrid approved for limited trial use in Champagne."],["Marselan","Cabernet Sauvignon × Grenache cross approved for trial in Bordeaux."],["Kaolin","Clay spray used to protect grapes from sunburn."],["Regenerative viticulture","Farming focused on soil health, biodiversity and carbon."],["Smoke taint","Ashy, burnt character from grapes exposed to wildfire smoke."],["Guaiacol","A volatile phenol that marks smoke taint."],["Frost paradox","Warmer winters bring earlier budburst and so more frost damage."],["Bottle Weight Accord","Pledge to bring the average still-wine bottle below 420 grams by 2026."],["IWCA","International Wineries for Climate Action, founded in 2019."]],
 quiz:[
 [1,"A widespread effect of warming in classic regions is:","Earlier harvests with higher sugar",["Later harvests with lower sugar","Lower alcohol and firmer acidity","More botrytis in every region"],"Weeks earlier than mid-20th century."],
-[2,"Which of these did Bordeaux approve for trial in generic AOCs?","Touriga Nacional",["Nebbiolo","Zinfandel","Pinotage"],"Also Marselan, Castets, Arinarnoa."],
+[2,"Which of these did Bordeaux approve for trial in generic AOCs?","Touriga Nacional",["Nebbiolo","Sangiovese","Tempranillo"],"Also Marselan, Castets, Arinarnoa."],
 [2,"Voltis is:","A disease-resistant Champagne hybrid",["A Bordeaux château in the trials","A drought-tolerant rootstock","A low-alcohol yeast strain"],"Limited trial use."],
 [2,"PIWI varieties are bred for:","Fungal disease resistance",["Higher alcohol levels","Natural sweetness","Deeper color"],"German acronym."],
 [1,"What drives much of wine's carbon footprint?","Glass bottles",["Corks","Labels","Grapes"],"Weight in production and transport."],
