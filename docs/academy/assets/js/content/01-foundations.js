@@ -104,16 +104,67 @@ body:`
 <li>Oak type and winemaking signatures point to the <b>region and style</b>.</li>
 </ul>
 <h3>Practical habits</h3>
-<ul><li>Taste at the same time of day, with no fragrance, gum or coffee.</li><li>Pour about 1.5 oz (45 ml) in an ISO or universal glass.</li><li>Say your notes aloud, in grid order, every time. The Advanced and Master tasting exams are spoken.</li><li>Spit. A Certified exam is four wines; a practice session can be twelve.</li></ul>`,
+<ul><li>Taste at the same time of day, with no fragrance, gum or coffee.</li><li>Pour about 1.5 oz (45 ml) in an ISO or universal glass.</li><li>Say your notes aloud, in grid order, every time. The Advanced and Master tasting exams are spoken.</li><li>Spit. A Certified exam is four wines; a practice session can be twelve.</li></ul>
+<h3>How smell works, and how to use it</h3>
+<p>You smell twice. <b>Orthonasal</b> smell is through the nostrils, glass to nose. <b>Retronasal</b> smell happens when you swallow or breathe out with wine in your mouth and aroma travels up the back of the throat. Most of what people call "taste" is retronasal smell: the tongue itself reads only sweet, sour, salty, bitter and umami.</p>
+<ul><li><b>Swirl</b> to coat the glass and release aroma, then take short sniffs. The nose tires of a smell within seconds, so three short sniffs tell you more than one long one.</li>
+<li><b>Reset</b> a tired nose by smelling your own sleeve or a glass of water.</li>
+<li><b>Draw a little air</b> through the wine in your mouth. It looks odd and it works: it drives aroma to the back of the nose.</li>
+<li><b>Your first impression</b> is the most reliable one. Write it down before you start to argue with it.</li></ul>
+<h3>What sight tells you</h3>
+<table class="t"><tr><th>You see</th><th>It suggests</th></tr>
+<tr><td>Green glints in a white</td><td>Youth; often a cool climate</td></tr>
+<tr><td>Deep gold in a white</td><td>Age, oak, botrytis or a warm climate</td></tr>
+<tr><td>Purple rim in a red</td><td>Youth. Very strong in Malbec and young Syrah</td></tr>
+<tr><td>Orange or brick rim</td><td>Age; in a young wine, Nebbiolo or Sangiovese</td></tr>
+<tr><td>Tears stained with color</td><td>Thick skins and high extract: Syrah, Malbec, Petite Sirah</td></tr>
+<tr><td>Thick, slow tears</td><td>High alcohol or sugar</td></tr>
+<tr><td>Tiny bubbles in a still white</td><td>Bottled young and cold with a little CO₂: Vinho Verde, young Riesling, Muscadet</td></tr>
+<tr><td>Sediment</td><td>Bottle age or an unfiltered wine</td></tr></table>
+<h3>A vocabulary by family</h3>
+<p>Run the families in the same order every time. For each, ask first "is it there?" and only then "which one?"</p>
+<table class="t"><tr><th>Family</th><th>Words to reach for</th></tr>
+<tr><td>Fruit (whites)</td><td>Citrus (lemon, lime, grapefruit); tree (apple, pear); stone (peach, apricot); tropical (pineapple, mango, passion fruit); melon</td></tr>
+<tr><td>Fruit (reds)</td><td>Red (cherry, raspberry, cranberry, strawberry); black (blackberry, cassis, plum); blue (blueberry); dried (fig, raisin, prune)</td></tr>
+<tr><td>Fruit condition</td><td>Tart, just ripe, ripe, jammy, baked, dried, stewed</td></tr>
+<tr><td>Floral and herbal</td><td>Rose, violet, orange blossom; mint, thyme, sage, cut grass, tomato leaf, green pepper</td></tr>
+<tr><td>Spice</td><td>Black or white pepper, licorice, clove, cinnamon</td></tr>
+<tr><td>Earth</td><td>Forest floor, mushroom, wet leaves, potting soil, barnyard, truffle</td></tr>
+<tr><td>Mineral</td><td>Wet stone, chalk, flint, slate, saline</td></tr>
+<tr><td>Oak</td><td>Vanilla, toast, smoke, clove, coconut, dill, coffee</td></tr></table>
+<h3>The two systems side by side</h3>
+<table class="t"><tr><th></th><th>Court grid (Floor)</th><th>WSET SAT (Analyst)</th></tr>
+<tr><td>Purpose</td><td>Deduce what the wine is</td><td>Describe the wine and judge its quality</td></tr>
+<tr><td>Form</td><td>Written at Certified; spoken at Advanced and Master</td><td>Always written</td></tr>
+<tr><td>Scales</td><td>Low to high, with plus and minus steps</td><td>Three steps at Level 2, five at Level 3</td></tr>
+<tr><td>Ends with</td><td>Grape, country, region, quality level, vintage</td><td>Quality level with reasons, and readiness to drink</td></tr></table>
+<p>The skills overlap almost entirely. A taster trained in one can learn the other's vocabulary in a week.</p>
+<h3>Setting up a tasting</h3>
+<ul><li>White surface, daylight or neutral light, a spit cup, water, plain crackers.</li>
+<li>Order: sparkling, then light whites, full whites, light reds, full reds, sweet, fortified. Dry before sweet; light before heavy.</li>
+<li>Pour the same amount in the same glass shape every time, so that depth of color means something.</li>
+<li>Cover the bottles and number them. Knowing even the price changes what you taste.</li></ul>
+<h3>Five habits that hold beginners back</h3>
+<ol><li>Naming the grape first and then finding evidence for it.</li>
+<li>Confusing ripe fruit with sweetness.</li>
+<li>Describing only fruit and skipping earth, mineral and oak.</li>
+<li>Sitting on "medium" for every structural call.</li>
+<li>Tasting without writing. Notes you cannot reread teach you nothing.</li></ol>`,
 floor:`<p>CMS rewards <b>speed and order</b>. At Certified you write a checkbox grid for 4 wines in 45 minutes, about 11 minutes each. At Advanced and Master you speak 6 wines in 25 minutes, about 4 minutes each. Every grid line is worth a point and nothing is deducted for a wrong answer, so never leave a line blank. If something is absent (no oak, no earth), you must say "no".</p>`,
 analyst:`<p>WSET rewards <b>precision and justification</b>. The SAT uses calibrated scales (light, medium(-), medium, medium(+), pronounced) and asks you to judge quality with <b>BLIC</b>: Balance, Length, Intensity, Complexity. At Level 3 you do not have to name the wine at all.</p>`,
-terms:[["Rim variation","Color difference between the core and edge of a red; a broad, bricking rim suggests age."],["Fruit condition","Tart, ripe, baked, jammy, dried. The best single clue to climate."],["Initial conclusion","Possible grapes, climate, possible countries and an age range, before committing."],["Vinous","CMS term for a nose that has lost primary fruit and shows age-derived character."]],
+terms:[["Rim variation","Color difference between the core and edge of a red; a broad, bricking rim suggests age."],["Fruit condition","Tart, ripe, baked, jammy, dried. The best single clue to climate."],["Initial conclusion","Possible grapes, climate, possible countries and an age range, before committing."],["Vinous","CMS term for a nose that has lost primary fruit and shows age-derived character."],["Retronasal","Smelling through the back of the throat while wine is in the mouth."],["Orthonasal","Smelling through the nostrils."],["Staining","Color left in the tears of a red wine; a sign of thick skins and extract."],["Aroma family","A group of related smells (fruit, floral, spice, earth, mineral, oak) checked in a fixed order."]],
 quiz:[
 [1,"Which observation is the strongest clue to climate?","The condition of the fruit",["The width and color of the rim","The speed and thickness of the tears","The presence of a few bubbles of gas"],"Tart, ripe, baked or jammy fruit tracks how much heat the grapes saw; confirm it with alcohol and acidity."],
 [1,"As a red wine ages, its hue generally moves:","From purple to ruby to garnet to brick",["From garnet to ruby to purple to black","From brick to garnet to ruby to purple","From ruby to purple and then to brown"],"Pigments polymerize and drop out; the wine browns, starting at the rim."],
 [2,"On a CMS grid, how are wrong answers penalized?","They are not: each correct line earns a point",["Each wrong line costs one point","A wrong line cancels a correct one","Two wrong lines fail the whole wine"],"Always tick something on every line, including an explicit 'no' for absent elements."],
 [2,"A red smells of ripe cherry but has high acid and very grippy tannin. Which is the better initial grape call?","Nebbiolo or Sangiovese",["Grenache or Zinfandel","Merlot or Malbec","Gamay or Dolcetto"],"Structure outranks aroma. High acid with high tannin points to the Italian pair."],
-[1,"What does BLIC stand for in WSET quality assessment?","Balance, Length, Intensity, Complexity",["Body, Length, Intensity, Color","Balance, Liveliness, Intensity, Clarity","Body, Lees, Intensity, Complexity"],"Each factor is evidence for the quality call."]
+[1,"What does BLIC stand for in WSET quality assessment?","Balance, Length, Intensity, Complexity",["Body, Length, Intensity, Color","Balance, Liveliness, Intensity, Clarity","Body, Lees, Intensity, Complexity"],"Each factor is evidence for the quality call."],
+[2,"Aroma that reaches the nose from inside the mouth is called:","Retronasal",["Orthonasal","Volatile","Tertiary"],"Most of what we call taste is retronasal smell."],
+[2,"Why take several short sniffs rather than one long one?","The nose tires within seconds",["Long sniffs warm the wine","Alcohol burns the nostrils","It keeps the glass still"],"Smell adapts quickly; reset with water or your own sleeve."],
+[2,"Color-stained tears on the glass suggest:","Thick skins and high extract",["A wine that is faulty","High acidity and low alcohol","Great age in the bottle"],"Typical of Syrah, Malbec and Petite Sirah."],
+[2,"In a mixed tasting, which order is correct?","Light whites, full reds, then sweet",["Sweet first, then dry whites","Full reds, then light whites","Fortified first to wake the palate"],"Dry before sweet and light before heavy."],
+[2,"An orange rim on a young, pale red most suggests:","Nebbiolo",["Malbec","Syrah","Zinfandel"],"Nebbiolo and Sangiovese show orange early; Malbec and Syrah have purple rims."],
+[2,"A beginner's most damaging habit is:","Naming the grape first",["Spitting every wine","Writing notes","Smelling before tasting"],"Collect all the evidence in order, then conclude. Otherwise you only find what you expect."]
 ]});
 
 L.push({id:"f2", unit:"F1", title:"Structure: Calibrating Your Palate", mins:14,
@@ -227,7 +278,7 @@ quiz:[
 [2,"A pale rosé in a clear bottle smells of cabbage and wet wool after an hour in the sun. The fault is:","Light strike",["Cork taint","Volatile acidity","Brettanomyces"],"Ultraviolet light forms sulfur compounds; clear glass gives no protection."],
 [3,"Which fault is tasted on the finish but often cannot be smelled?","Mousiness",["Cork taint","Reduction","Volatile acidity"],"It appears seconds after swallowing, mostly in low-sulfite, high-pH wines."],
 [2,"A sommelier keeps a corked bottle because:","The supplier will normally credit it",["It can be poured by the glass","Air will cure it overnight","The cork can be reused"],"Corked wine can't be served. Returned but sound bottles are the ones poured by the glass."],
-[2,"A trace of volatile acidity in Amarone is best described as:","Part of the style, unless it dominates",["Always a fault","A sign of cork taint","Proof of heat damage"],"Many faults are a matter of degree; the test is whether they hide the fruit."]
+[2,"A trace of volatile acidity in Amarone is best described as:","Part of the style, unless it dominates",["A fault at any level, always","A sure sign of cork taint","Proof of heat damage in transit"],"Many faults are a matter of degree; the test is whether they hide the fruit."]
 ]});
 
 // ---------- F2 VINEYARD ----------

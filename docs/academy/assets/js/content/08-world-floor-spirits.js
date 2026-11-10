@@ -237,10 +237,48 @@ body:`
 <li>Freezing when a guest changes the order mid-service.</li>
 <li>Silence. Narrate, engage, keep the table comfortable.</li></ul>
 <h3>Training like a candidate</h3>
-<p>Set a mock table with friends. Have them interrupt you with real questions from the Exam Hall. Film yourself. Practice pouring a 750 ml bottle evenly into 8 or 12 glasses until it's automatic (about 3 oz for 8; about 2 oz for 12). Rehearse spoken answers for each classic region in under 30 seconds.</p>`,
+<p>Set a mock table with friends. Have them interrupt you with real questions from the Exam Hall. Film yourself. Practice pouring a 750 ml bottle evenly into 8 or 12 glasses until it's automatic (about 3 oz for 8; about 2 oz for 12). Rehearse spoken answers for each classic region in under 30 seconds.</p>
+<h3>One table, start to finish</h3>
+<p>A realistic mock, for a table of four Masters:</p>
+<ol><li><b>Greeting and aperitif.</b> The host asks for Champagne "but not one of the big houses." You offer two growers by name, with village and style, and a price for each.</li>
+<li><b>Sparkling service</b> for four from one bottle, to the full standard, while a guest asks what dosage means.</li>
+<li><b>A cocktail order.</b> One guest wants a Sazerac. You confirm rye or Cognac and state the build.</li>
+<li><b>The menu.</b> Four courses. You propose a wine for each, with producer and vintage, and one alternative at a lower price.</li>
+<li><b>An old red is ordered.</b> You check the vintage on the list, fetch it in a cradle, and decant over a candle while answering a question about the vintage.</li>
+<li><b>A challenge.</b> A guest says the wine is not what he expected. You taste it, judge it sound, and offer a replacement without argument.</li>
+<li><b>After dinner.</b> Questions on the difference between Cognac and Armagnac, and a Madeira recommendation for the cheese.</li></ol>
+<p>Nothing in that list is obscure. The difficulty is doing all of it correctly, in order, while talking.</p>
+<h3>"Something like this, but less expensive"</h3>
+<p>The most common guest question, and a favorite of examiners. Know one honest alternative for each classic.</p>
+<table class="t"><tr><th>The guest likes</th><th>Offer</th></tr>
+<tr><td>Sancerre</td><td>Menetou-Salon, Quincy, Reuilly, Touraine Sauvignon</td></tr>
+<tr><td>Chablis Premier Cru</td><td>Village Chablis from a top grower; Petit Chablis</td></tr>
+<tr><td>Meursault</td><td>Saint-Aubin, Pouilly-Fuissé, Saint-Véran</td></tr>
+<tr><td>Côte de Nuits Pinot Noir</td><td>Mercurey, Givry, Marsannay, Bourgogne from a good grower</td></tr>
+<tr><td>Champagne</td><td>Crémant de Bourgogne, Franciacorta, English sparkling, Cap Classique</td></tr>
+<tr><td>Pauillac</td><td>Haut-Médoc cru bourgeois; a second wine of a classed growth</td></tr>
+<tr><td>Châteauneuf-du-Pape</td><td>Gigondas, Vacqueyras, Lirac</td></tr>
+<tr><td>Côte-Rôtie, Hermitage</td><td>Saint-Joseph, Crozes-Hermitage</td></tr>
+<tr><td>Barolo</td><td>Langhe Nebbiolo, Roero, Gattinara</td></tr>
+<tr><td>Brunello di Montalcino</td><td>Rosso di Montalcino</td></tr>
+<tr><td>Amarone</td><td>Valpolicella Ripasso</td></tr>
+<tr><td>Napa Cabernet</td><td>Paso Robles, Columbia Valley, Coonawarra</td></tr></table>
+<h3>Thirty-second answers to rehearse</h3>
+<ul><li><b>"Why is this Burgundy so expensive?"</b> Tiny vineyards split among many owners, low yields, world demand, and a classification that has ranked the land for centuries.</li>
+<li><b>"What is the difference between Cognac and Armagnac?"</b> Cognac: double-distilled in pot stills, mostly Ugni Blanc, north of Bordeaux. Armagnac: usually one pass through a continuous still, in Gascony; fuller and more rustic, often sold by vintage.</li>
+<li><b>"Should I decant this?"</b> Yes for an old wine with sediment or a young, closed, tannic one; no for a fragile old wine that will fade in air.</li>
+<li><b>"What does 'Brut' mean?"</b> Dry: under 12 grams of sugar per liter.</li>
+<li><b>"Which vintage should we drink tonight?"</b> Name one ready year and one that needs time, and say why.</li></ul>
+<h3>How the levels differ</h3>
+<table class="t"><tr><th>Level</th><th>What the practical asks</th></tr>
+<tr><td>Certified</td><td>One table: usually sparkling service, with questions on pairing, cocktails and classic regions</td></tr>
+<tr><td>Advanced</td><td>Several stations: service and decanting, sales and pairing, and the business of the sommelier</td></tr>
+<tr><td>Master</td><td>The same ground at 75%, with deeper questions, more interruptions and no margin for false statements</td></tr></table>
+<h3>Recovery is a skill</h3>
+<p>Something will go wrong: a drip, a crumbling cork, a question you cannot answer. The response examiners want has three parts. <b>Acknowledge</b> it without drama. <b>Fix</b> it by the standard: wipe, fetch the Ah-So, say "let me confirm that for you." <b>Continue</b> at the same pace. Candidates who apologize repeatedly or speed up lose more marks for the reaction than for the error.</p>`,
 floor:`<p>This is the Floor track's final boss. The Advanced practical is a shorter version; build the habits now.</p>`,
 analyst:`<p>Analyst-track students rarely face a service exam, but trade roles (sales reps, educators, brand ambassadors) demand the same composure presenting wine to buyers.</p>`,
-terms:[["Even pour","Dividing one bottle equally among all glasses at a table."],["Guéridon","Side table for decanting and service."]],
+terms:[["Even pour","Dividing one bottle equally among all glasses at a table."],["Guéridon","Side table for decanting and service."],["Second wine","A classed growth's lesser label, from younger vines or declassified lots."],["Cru bourgeois","A quality tier for Médoc estates outside the 1855 Classification."],["Recovery","Handling a service error calmly: acknowledge, fix, continue."]],
 quiz:[
 [2,"Pouring one 750 ml bottle of Champagne evenly for 8 guests gives about:","3 oz each",["5 oz each","1 oz each","6 oz each"],"A 750 ml bottle is 25.4 oz; divided among 8 guests that's about 3 oz each."],
 [1,"If you aren't sure of a fact during service, the best move is to:","Say you'll check rather than invent",["Guess confidently and move on","Change the subject to the food","Ask the guest what they think"],"False confidence is penalized."],
@@ -248,7 +286,13 @@ quiz:[
 [1,"What do examiners watch when something goes wrong?","How calmly you recover",["Whether you apologize repeatedly","Whether you stop the exam","Nothing"],"Composure is scored."],
 [2,"One 750 ml bottle poured evenly for 12 guests gives about:","2 oz each",["1 oz each","3 oz each","4 oz each"],"25.4 oz divided by 12."],
 [2,"The Master service exam lasts roughly:","45 minutes",["10 minutes","2 hours","A full day"],"About 45 minutes at a table of Master Sommeliers playing guests."],
-[2,"During service, silence at the table is:","A fault: keep guests engaged",["Preferred by examiners","Required while pouring","A sign of confidence"],"Narrate, engage and keep the table comfortable."]
+[2,"During service, silence at the table is:","A fault: keep guests engaged",["Preferred by examiners","Required while pouring","A sign of confidence"],"Narrate, engage and keep the table comfortable."],
+[2,"A guest likes Sancerre but wants to spend less. A sound offer is:","Menetou-Salon",["Meursault","Condrieu","Hermitage Blanc"],"Sauvignon Blanc from a neighboring Central Loire appellation."],
+[2,"A less expensive wine in the style of Barolo is:","Langhe Nebbiolo",["Barbera d'Asti","Dolcetto d'Alba","Chianti Classico"],"Same grape and region; Barbera and Dolcetto are different grapes."],
+[2,"Armagnac differs from Cognac mainly in being:","Distilled once, in a column still",["Made from apples and pears","Aged without any oak","Distilled three times in pots"],"Cognac is double-distilled in pot stills."],
+[2,"The three parts of a good recovery are:","Acknowledge, fix, continue",["Apologize, explain, restart","Ignore, continue, finish","Stop, apologize, ask to begin again"],"Examiners mark the reaction more than the error."],
+[2,"A guest who loves Châteauneuf-du-Pape might be offered:","Gigondas",["Chinon","Fleurie","Rioja Blanco"],"Grenache-led neighbors: Gigondas, Vacqueyras, Lirac."],
+[3,"Which should usually NOT be decanted for long?","A fragile, very old red",["A young Barolo","A young Vintage Port","A closed young Cabernet"],"Old wines can fade within minutes of meeting air."]
 ]});
 
 L.push({id:"c4", unit:"C1", title:"Blind Tasting Sparkling, Sweet and Fortified", mins:15,
@@ -272,14 +316,70 @@ body:`
 <li><b>VDN:</b> Muscat de Beaumes-de-Venise (grapey, floral, sweet, about 15%); Banyuls and Maury (Grenache, red fruit or oxidative).</li>
 <li><b>Rutherglen Muscat:</b> extremely sweet, dark, raisin, toffee, coffee.</li></ul>
 <h3>Why the structure tells the truth</h3>
-<p>In sweet wines, <b>acid level</b> separates Tokaji and German wines (very high) from Sauternes (moderate). In fortified wines, <b>alcohol warmth with sweetness</b> separates Port from unfortified sweet wines; <b>acidity</b> separates Madeira from everything.</p>`,
+<p>In sweet wines, <b>acid level</b> separates Tokaji and German wines (very high) from Sauternes (moderate). In fortified wines, <b>alcohol warmth with sweetness</b> separates Port from unfortified sweet wines; <b>acidity</b> separates Madeira from everything.</p>
+<h3>Start with alcohol</h3>
+<p>For sweet and fortified wines, alcohol is the fastest first sort. Feel the warmth before you think about flavor.</p>
+<table class="t"><tr><th>Alcohol</th><th>Sweet wines that live there</th></tr>
+<tr><td>5 to 8%</td><td>Moscato d'Asti; German Auslese, Beerenauslese and Trockenbeerenauslese</td></tr>
+<tr><td>9 to 12%</td><td>Tokaji Aszú, Icewine, Coteaux du Layon, Vouvray Moelleux</td></tr>
+<tr><td>13 to 14.5%</td><td>Sauternes and Barsac, Alsace Sélection de Grains Nobles, Vin Santo, Recioto</td></tr>
+<tr><td>15 to 17%</td><td>Vins Doux Naturels (Muscat de Beaumes-de-Venise, Banyuls, Maury); Pedro Ximénez</td></tr>
+<tr><td>17 to 18%</td><td>Rutherglen Muscat, Marsala</td></tr>
+<tr><td>19 to 22%</td><td>Port; Madeira (17 to 22%); sweetened Oloroso (Cream)</td></tr></table>
+<h3>A four-question tree</h3>
+<ol><li><b>Is it fortified?</b> Warmth of 15% and above with sweetness says yes.</li>
+<li><b>Is it oxidative?</b> Amber or brown, with nuts, caramel and dried fruit, means long wood aging.</li>
+<li><b>How high is the acid?</b> Searing: Madeira, Tokaji, German Riesling, Chenin. Moderate: Sauternes, Port, Muscat.</li>
+<li><b>Is the grape aromatic?</b> A grapey, floral nose means Muscat, whatever the method.</li></ol>
+<h3>Sparkling: finer distinctions</h3>
+<table class="t"><tr><th>Evidence</th><th>Points to</th></tr>
+<tr><td>Lemon, chalk, lean, laser acid</td><td>Blanc de Blancs Champagne</td></tr>
+<tr><td>Red apple, red berries, broader</td><td>Blanc de Noirs or a Pinot-led blend</td></tr>
+<tr><td>Riper, softer acid, creamy</td><td>Franciacorta; California</td></tr>
+<tr><td>Lime, petrol, very high acid</td><td>Riesling Sekt</td></tr>
+<tr><td>Red, frothy, bitter cherry, some tannin</td><td>Lambrusco</td></tr>
+<tr><td>Deep gold, honey, mushroom, nuts</td><td>Mature vintage Champagne</td></tr></table>
+<p>To judge dosage, ignore the first sip, which always seems sweet after water. On the second, ask whether the finish is bone dry (Brut Nature), clean with a rounded middle (Brut) or plainly sweet (Demi-Sec).</p>
+<h3>Port, by style</h3>
+<table class="t"><tr><th>Style</th><th>In the glass</th></tr>
+<tr><td>Ruby, Reserve</td><td>Deep ruby, simple black fruit, spirity</td></tr>
+<tr><td>Late Bottled Vintage</td><td>Deep ruby, more concentration, soft tannin, ready to drink</td></tr>
+<tr><td>Vintage, young</td><td>Opaque purple-black, massive tannin, violets, intense black fruit</td></tr>
+<tr><td>Vintage, mature</td><td>Garnet, sediment, dried fruit, spice, leather, great length</td></tr>
+<tr><td>Tawny 10 Year</td><td>Pale ruby-amber, dried red fruit, nuts</td></tr>
+<tr><td>Tawny 20 Year and older</td><td>Amber-brown, walnut, toffee, orange peel, very long</td></tr>
+<tr><td>Colheita</td><td>A tawny of one year: as aged Tawny, with a date</td></tr>
+<tr><td>White</td><td>Gold, honey and nuts, usually off-dry to sweet</td></tr></table>
+<h3>The dry-to-sweet Sherry line</h3>
+<table class="t"><tr><th>Style</th><th>Color and strength</th><th>Signature</th></tr>
+<tr><td>Manzanilla</td><td>Palest; 15%</td><td>Sea salt, chamomile, green almond; the lightest</td></tr>
+<tr><td>Fino</td><td>Pale; 15%</td><td>Bread dough, almond, green olive</td></tr>
+<tr><td>Amontillado</td><td>Amber; 16 to 18%</td><td>Hazelnut and caramel over a lean, dry, flor-born frame</td></tr>
+<tr><td>Palo Cortado</td><td>Amber-brown; 17 to 20%</td><td>The nose of an Amontillado, the body of an Oloroso</td></tr>
+<tr><td>Oloroso</td><td>Brown; 18 to 20%</td><td>Walnut, leather, toffee; dry but round with glycerol</td></tr>
+<tr><td>Cream</td><td>Brown; sweet</td><td>Oloroso sweetened with Pedro Ximénez</td></tr>
+<tr><td>Pedro Ximénez</td><td>Black-brown; syrupy</td><td>Raisin, fig, molasses</td></tr></table>
+<h3>Look-alikes</h3>
+<ul><li><b>Vin Jaune vs Fino:</b> both taste of flor. Vin Jaune is unfortified at 14 to 15%, far higher in acid, deeper gold, with walnut and curry spice.</li>
+<li><b>Madeira vs Marsala vs Oloroso:</b> all brown and nutty. Madeira has searing acid and a burnt-caramel tang; Marsala is softer and sweeter-fruited; Oloroso is dry.</li>
+<li><b>Banyuls vs Port:</b> both sweet reds. Banyuls is lighter at about 16%, with Grenache's red fruit and less tannin.</li>
+<li><b>Sauternes vs Tokaji vs Quarts de Chaume:</b> Sauternes shows oak and the waxy breadth of Sémillon at moderate acid. Tokaji has piercing acid with orange peel and tea. Chenin shows quince and honey with high acid and no new oak.</li>
+<li><b>Alsace Sélection de Grains Nobles:</b> botrytis with the grape still obvious: lychee for Gewurztraminer, smoke and pear for Pinot Gris, and low acid for both.</li></ul>`,
 floor:`<p>At Advanced and Master, the pool can include sparkling, sweet and fortified wines. Practice them as a group "bonus flight" once a month.</p>`,
 analyst:`<p>Diploma D4 and D5 each include 3 wines blind. Expect to identify method, style, likely region and quality, with reasons.</p>`,
-terms:[["Autolytic","Aromas from yeast breakdown: brioche, toast, biscuit."],["Rancio","Nutty, oxidative, slightly cheesy character in aged fortified wines and spirits."]],
+terms:[["Autolytic","Aromas from yeast breakdown: brioche, toast, biscuit."],["Rancio","Nutty, oxidative, slightly cheesy character in aged fortified wines and spirits."],["Palo Cortado","Rare Sherry with the finesse of Amontillado and the body of Oloroso."],["Colheita","A tawny Port from a single year."],["Sélection de Grains Nobles","Alsace's botrytized sweet wine category."],["Cream Sherry","Oloroso sweetened, usually with Pedro Ximénez."]],
 quiz:[
 [2,"Fine mousse with brioche and toast points to:","Traditional method",["Tank method","Carbonation","Asti method"],"Brioche and toast come from autolysis during long lees aging in the bottle."],
 [2,"Botrytis notes with very high acidity and orange peel suggest:","Tokaji Aszú",["Sauternes","Icewine","Vintage Port"],"Furmint's acid."],
 [2,"A sweet wine with searing acidity, caramel, nuts and smoke:","Madeira",["Ruby Port","Moscato d'Asti","Sauternes"],"Heat-aged and indestructible."],
 [1,"Dry, pale, tangy, saline and bready:","Fino or Manzanilla",["Oloroso","PX","Cream Sherry"],"Biological aging."],
-[3,"Pure tropical fruit, very high acid and no botrytis notes suggest:","Icewine",["Sauternes","Tawny Port","Amarone"],"Freezing concentrates without rot."]
+[3,"Pure tropical fruit, very high acid and no botrytis notes suggest:","Icewine",["Sauternes","Tawny Port","Amarone"],"Freezing concentrates without rot."],
+[2,"A sweet, botrytized wine at about 7% alcohol is most likely:","German Beerenauslese",["Sauternes","Tawny Port","Banyuls"],"Sauternes sits at 13 to 14%; the fortified wines are far higher."],
+[2,"Amber color, hazelnut and caramel on a lean, bone-dry palate at 17%:","Amontillado",["Fino","Cream Sherry","Pedro Ximénez"],"It began under flor, then aged oxidatively."],
+[3,"Flor character, very high acid, 14.5% and no fortification suggest:","Vin Jaune",["Manzanilla","Fino","Dry Marsala"],"Fino and Manzanilla are fortified to 15% and lower in acid."],
+[2,"Opaque purple-black, massive tannin and violets in a sweet fortified wine:","Young Vintage Port",["Tawny 20 Year","Colheita","White Port"],"Tawny styles are amber, nutty and soft."],
+[2,"Which sparkling wine is red, frothy and a little tannic?","Lambrusco",["Franciacorta","Crémant d'Alsace","Asti"],"From Emilia; usually tank-fermented and frizzante."],
+[2,"Among brown, nutty fortified wines, searing acidity points to:","Madeira",["Marsala","Oloroso","Cream Sherry"],"Madeira's acid survives heat and decades in cask."],
+[2,"A sweet red at about 16% with Grenache's red fruit and soft tannin:","Banyuls",["Vintage Port","Recioto della Valpolicella","Rutherglen Muscat"],"A Vin Doux Naturel from Roussillon; Port is stronger and more tannic."],
+[3,"Palo Cortado is best described as having:","An Amontillado nose and an Oloroso body",["A Fino nose and a sweet finish","The color of Manzanilla","Added Pedro Ximénez"],"A rare style that loses its flor early."]
 ]});

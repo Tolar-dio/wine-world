@@ -96,7 +96,7 @@ const BANK = [
 ["r4d",3,"Vin jaune is traditionally sold in a clavelin of:","62 cl",["50 cl","70 cl","75 cl"],"Represents what remains of 1 L after long ageing under voile."],
 ["r4d",3,"Roussette de Savoie is made from:","Altesse",["Jacquère","Mondeuse","Chasselas"],"Altesse is also called Roussette."],
 ["r13b",3,"Sta. Rita Hills AVA is a sub-region of:","Santa Ynez Valley",["Santa Maria Valley","Paso Robles","Edna Valley"],"Santa Barbara County; cool transverse valley."],
-["r16b",3,"Paraje Altamira lies within:","the Uco Valley (San Carlos), Mendoza",["Luján de Cuyo, Mendoza","Cafayate, Salta","Río Negro, Patagonia"],"Alluvial calcareous soils; an IG in San Carlos."],
+["r16b",3,"Paraje Altamira lies within:","the Uco Valley, Mendoza",["Luján de Cuyo, Mendoza","Cafayate, Salta","Río Negro, Patagonia"],"Paraje Altamira is a GI in San Carlos, at the southern end of the Uco Valley."],
 ["r16b",3,"Old-vine País and Cinsault are emblematic of:","Itata Valley",["Casablanca Valley","Elqui Valley","Leyda Valley"],"Southern Region dry-farmed bush vines."],
 ["v2",3,"TDN (1,1,6-trimethyl-1,2-dihydronaphthalene) is responsible for:","petrol/kerosene notes in Riesling",["green pepper notes in Cabernet","smoke taint in bushfire years","musty cork taint"],"Increases with sun exposure and age."],
 ["g1",3,"Grapefruit/passion fruit thiols like 3MH in Sauvignon Blanc are largely:","released by yeast from precursors in the must",["extracted from new oak during aging","produced by malolactic bacteria","present as free aromas in grape skins"],"Yeast strain and juice handling influence thiol release."],

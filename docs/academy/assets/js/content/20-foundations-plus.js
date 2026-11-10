@@ -147,7 +147,7 @@ quiz:[
 [2,"Bandol rosé is built on which grape?","Mourvèdre",["Cinsault","Gamay","Pinot Noir"],"Mourvèdre gives Bandol rosé its structure and ability to age."],
 [2,"Cerasuolo d'Abruzzo is made from:","Montepulciano",["Sangiovese","Negroamaro","Corvina"],"Deep cherry in color; almost a light red."],
 [3,"White Zinfandel began in 1975 with:","A stuck fermentation at Sutter Home",["A frost in Lodi","A blending error at Gallo","A Provence winemaker in Napa"],"The ferment stopped with sugar left, and the sweet pink wine sold out."],
-[2,"A pale color in rosé indicates:","A stylistic choice, not quality",["Higher quality","Lower alcohol","Residual sugar"],"Color follows grape and skin contact. Tavel and Cerasuolo are deep and serious."],
+[2,"A pale color in rosé indicates:","A stylistic choice, not quality",["A wine of higher quality","A wine lower in alcohol","Some residual sugar"],"Color follows grape and skin contact. Tavel and Cerasuolo are deep and serious."],
 [2,"Rosé des Riceys comes from:","The Aube, in Champagne",["The Loire, near Anjou","Provence, near Aix","Burgundy, near Dijon"],"A rare still Pinot Noir rosé."]
 ]});
 

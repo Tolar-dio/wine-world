@@ -216,7 +216,7 @@ quiz:[
 [1,"Which wines won the 1976 Judgment of Paris?","Stag's Leap Wine Cellars and Montelena",["Opus One and Kistler Vineyards","Ridge Monte Bello and Robert Mondavi","Screaming Eagle and Harlan Estate"],"Both 1973 vintages."],
 [2,"Which Napa sub-region is coolest?","Los Carneros",["Calistoga","Oakville","Rutherford"],"Near San Pablo Bay; shared with Sonoma."],
 [2,"Dry Creek Valley is most famous for:","Zinfandel",["Pinot Noir","Riesling","Chardonnay"],"Sonoma County."],
-[2,"Why do the Sta. Rita Hills grow cool-climate Pinot Noir so far south?","An east-west transverse valley funnels Pacific fog and wind",["Vineyards planted above 3,000 feet","A deep lake that cools the valley","A latitude north of San Francisco"],"Santa Barbara County."],
+[2,"Why do the Sta. Rita Hills grow cool-climate Pinot Noir so far south?","A transverse valley funnels in Pacific fog",["Vineyards planted above 3,000 feet","A deep lake that cools the valley","A latitude north of San Francisco"],"Santa Barbara County."],
 [3,"'Rutherford dust' refers to:","The dusty, fine tannin of Rutherford Cabernet",["A volcanic soil amendment used in Napa","A fault caused by harvest-time dust","A blessing held at the start of harvest"],"Coined by André Tchelistcheff."]
 ]});
 

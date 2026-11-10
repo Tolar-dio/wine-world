@@ -31,16 +31,53 @@ body:`
 <tr><td>Certified / Level 3</td><td>4-12 months; weekly tasting group</td></tr>
 <tr><td>Advanced / Diploma</td><td>1-3 years</td></tr>
 <tr><td>Master Sommelier / Master of Wine</td><td>Usually 5-10 years from the start</td></tr></table>
-<p>Use the Study Planner on the Progress page to set a target date and get a week-by-week schedule.</p>`,
+<p>Use the Study Planner on the Progress page to set a target date and get a week-by-week schedule.</p>
+<h3>What the research says about remembering</h3>
+<ul><li><b>Test yourself; don't reread.</b> Pulling a fact out of memory strengthens it far more than seeing it again. Close the lesson and write down everything you recall, then check.</li>
+<li><b>Space it.</b> You forget most new material within days. Each review just before you would forget pushes the next forgetting further away: a day, three days, a week, a month.</li>
+<li><b>Mix it.</b> Twenty minutes each on Burgundy, Sherry and service beats an hour on one. Mixing feels harder and sticks better, because exams mix too.</li>
+<li><b>Keep an error log.</b> Every wrong answer goes on one page with the right answer and why you missed it. Reread it weekly. The Exam Hall's "Review your misses" does this for you.</li></ul>
+<h3>Mnemonics that candidates really use</h3>
+<p>Order matters in wine geography, and examiners ask it.</p>
+<ul><li><b>Médoc communes, north to south:</b> Saint-Estèphe, Pauillac, Saint-Julien, Margaux.</li>
+<li><b>Côte de Nuits, north to south:</b> Marsannay, Fixin, Gevrey-Chambertin, Morey-Saint-Denis, Chambolle-Musigny, Vougeot, Vosne-Romanée, Nuits-Saint-Georges.</li>
+<li><b>Côte de Beaune, north to south:</b> Aloxe-Corton, Savigny, Beaune, Pommard, Volnay, Meursault, Puligny-Montrachet, Chassagne-Montrachet, Santenay.</li>
+<li><b>Beaujolais crus, north to south:</b> Saint-Amour, Juliénas, Chénas, Moulin-à-Vent, Fleurie, Chiroubles, Morgon, Régnié, Côte de Brouilly, Brouilly.</li>
+<li><b>German Prädikat, by ripeness:</b> Kabinett, Spätlese, Auslese, Beerenauslese, Eiswein, Trockenbeerenauslese.</li>
+<li><b>Sparkling sweetness, dry to sweet:</b> Brut Nature, Extra Brut, Brut, Extra Dry, Sec, Demi-Sec, Doux.</li></ul>
+<p>Make your own sentence from the first letters. A silly one you invented beats a clever one you read.</p>
+<h3>A week that works</h3>
+<table class="t"><tr><th>Day</th><th>Task</th><th>Time</th></tr>
+<tr><td>Daily</td><td>Flashcards due today</td><td>10 minutes</td></tr>
+<tr><td>Monday</td><td>One new lesson and its quiz</td><td>30 minutes</td></tr>
+<tr><td>Tuesday</td><td>Draw last week's region from memory; check it against the atlas</td><td>20 minutes</td></tr>
+<tr><td>Wednesday</td><td>One new lesson and its quiz</td><td>30 minutes</td></tr>
+<tr><td>Thursday</td><td>Tasting group, or a Lab flight against the clock</td><td>60 to 90 minutes</td></tr>
+<tr><td>Friday</td><td>Review your misses; a service sequence aloud</td><td>20 minutes</td></tr>
+<tr><td>Weekend</td><td>One unit quiz; once a month, a full mock exam</td><td>45 minutes</td></tr></table>
+<p>That is about four to five hours. It is enough for Introductory and Level 2 in two months, and the base of a Certified or Level 3 campaign.</p>
+<h3>Tasting on a budget</h3>
+<ul><li>Half bottles cost a little more than half and give two people a full exercise.</li>
+<li>A group of four with a wine preserver can run six bottles across three sessions.</li>
+<li>Restaurants with serious by-the-glass lists are classrooms: order three tastes, cover the menu, grid them.</li>
+<li>Buy the benchmark, not the bargain. One typical Chablis teaches more than three atypical ones.</li></ul>
+<h3>When progress stalls</h3>
+<p>Everyone hits a plateau, usually at about 70% on mocks. The cause is nearly always the same: studying what you already know because it feels good. Sort your misses by unit, find the weakest two, and spend the next two weeks only there. Scores move again.</p>`,
 floor:`<p>CMS candidates often study in "study groups" found through GuildSomm forums and local chapters. Certified candidates typically spend months tasting the examinable list. Many Advanced candidates find mentors among Master Sommeliers; CMS-A now runs a remote mentoring program.</p>`,
 analyst:`<p>WSET suggests guided learning hours plus private study: about 84 hours total for Level 3 and about 500 for the Diploma. WSET published an official eight-week Level 3 study plan in February 2026; the Study Planner here follows the same idea.</p>`,
-terms:[["Spaced repetition","Reviewing material at increasing intervals to move it into long-term memory."],["Pourer","The person who bags, numbers and serves wines blind for a tasting group."]],
+terms:[["Spaced repetition","Reviewing material at increasing intervals to move it into long-term memory."],["Pourer","The person who bags, numbers and serves wines blind for a tasting group."],["Retrieval practice","Recalling facts from memory instead of rereading them."],["Interleaving","Mixing different topics within one study session."],["Error log","A running list of wrong answers with the correction and the reason."],["Mnemonic","A memory aid, such as a sentence built from first letters."]],
 quiz:[
 [1,"What is the most efficient daily theory habit?","Short daily spaced-repetition review",["One long cramming session each week","Rereading the textbook cover to cover","Watching lectures at double speed"],"Frequent short reviews beat massed study for long-term recall."],
 [1,"In a blind tasting group, the pourer:","Bags, numbers and serves the wines",["Tastes first and announces the answer","Only takes notes","Chooses the wines after tasting"],"Rotating the role lets everyone taste blind most weeks."],
 [2,"On exam day, when unsure of a wine, the best tactic is to:","Commit to a logical conclusion and move on",["Leave the conclusion lines blank","Spend your spare minutes on that wine","Name the most famous wine you know"],"Grids reward each correct line; a logical conclusion often earns partial credit."],
 [1,"What should every region study template begin with?","Location and climate",["Benchmark producers","Typical price bands","Label and aging terms"],"Place explains climate, which explains grapes and style."],
-[2,"Typical time from first CMS exam to the Master Sommelier title:","5-10 years",["6 months","1 year","20 years"],"Most candidates spend years at the Advanced level."]
+[2,"Typical time from first CMS exam to the Master Sommelier title:","5-10 years",["6 months","1 year","20 years"],"Most candidates spend years at the Advanced level."],
+[2,"Which study method strengthens memory most?","Testing yourself from memory",["Rereading the lesson","Highlighting key lines","Copying out notes"],"Retrieval practice beats review."],
+[2,"Which Médoc commune is farthest north?","Saint-Estèphe",["Margaux","Saint-Julien","Pauillac"],"North to south: Saint-Estèphe, Pauillac, Saint-Julien, Margaux."],
+[3,"Which Beaujolais cru lies farthest south?","Brouilly",["Saint-Amour","Morgon","Fleurie"],"Saint-Amour is the northernmost."],
+[2,"Going north to south in the Côte de Beaune, which village follows Meursault?","Puligny-Montrachet",["Volnay","Pommard","Santenay"],"Pommard and Volnay lie north of Meursault; Chassagne and Santenay come after Puligny."],
+[2,"A candidate stuck at 70% on mocks should:","Work only on the two weakest units",["Reread the strongest units again","Sit a full mock exam every day","Stop studying for a month"],"Plateaus come from studying what you already know."],
+[2,"Mixing topics within one study session:","Feels harder and sticks better",["Wastes time","Works only for tasting","Should be avoided before exams"],"Interleaving mirrors the way exams mix subjects."]
 ]});
 
 L.push({id:"h1", unit:"H", title:"A Short History of Wine", mins:18,
@@ -209,17 +246,66 @@ body:`
 <ul><li>Calling sweetness on fruity aromas alone.</li>
 <li>Letting one aroma override structure ("it smells like cherries so it must be Pinot").</li>
 <li>Forgetting that oak can mask earth.</li>
-<li>Changing a correct initial conclusion at the last second without new evidence.</li></ul>`,
+<li>Changing a correct initial conclusion at the last second without new evidence.</li></ul>
+<h3>More paths: whites</h3>
+<table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
+<tr><td>Medium-plus acid, white pepper, lentil, citrus</td><td>Grüner Veltliner</td><td>Fuller and riper = Wachau Smaragd</td></tr>
+<tr><td>High acid, light, peach and salt, no oak</td><td>Albariño</td><td>vs Pinot Grigio (less aroma) and Muscadet (leesy, neutral)</td></tr>
+<tr><td>High acid, dry, quince, wax, bruised apple</td><td>Dry Chenin Blanc</td><td>Savennières (austere) vs South Africa (riper, often oak)</td></tr>
+<tr><td>Low alcohol (10 to 11%), bone dry, lemon; toast if aged</td><td>Hunter Valley Sémillon</td><td>No oak despite the toast</td></tr>
+<tr><td>Very high acid, saline, smoky, 13.5% or more</td><td>Assyrtiko</td><td>vs Chablis (lower alcohol, apple)</td></tr>
+<tr><td>Full, off-dry, smoky, pear and spice, low acid</td><td>Alsace Pinot Gris</td><td>vs Gewurztraminer (lychee, rose)</td></tr>
+<tr><td>Full, low acid, pear, almond paste, herbal</td><td>Marsanne and Roussanne</td><td>White Rhône; no lift of flowers as in Viognier</td></tr></table>
+<h3>More paths: reds</h3>
+<table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
+<tr><td>Deep, high acid, low tannin, sour cherry</td><td>Barbera</td><td>vs Sangiovese (more tannin, paler)</td></tr>
+<tr><td>Deep, firm tannin, dark fruit, French oak, ripe</td><td>Ribera del Duero</td><td>vs Bordeaux (graphite, greener)</td></tr>
+<tr><td>Medium-plus body, jammy bramble, 15% and up, a raisin note</td><td>Zinfandel</td><td>Uneven ripeness gives raisin and fresh berry together</td></tr>
+<tr><td>Dark, very tannic, meat, leather, blackberry</td><td>Mourvèdre (Bandol)</td><td>vs Syrah (pepper, olive, less tannin)</td></tr>
+<tr><td>Deep, soft, black fruit with green pepper and paprika</td><td>Carmenère</td><td>vs Cabernet Franc (lighter, red fruit)</td></tr>
+<tr><td>Deep, smoke, black fruit, a banana or varnish edge</td><td>Pinotage</td><td>South Africa</td></tr>
+<tr><td>Deep, very high tannin and acid, smoke, ash</td><td>Aglianico</td><td>vs Nebbiolo (paler, floral)</td></tr></table>
+<h3>Impact compounds: one smell, a short list</h3>
+<table class="t"><tr><th>If you smell</th><th>Think</th></tr>
+<tr><td>Green pepper, leaf</td><td>Cabernet Sauvignon, Cabernet Franc, Carmenère, Sauvignon Blanc</td></tr>
+<tr><td>Black or white pepper</td><td>Syrah, Grüner Veltliner</td></tr>
+<tr><td>Passion fruit, grapefruit</td><td>Sauvignon Blanc</td></tr>
+<tr><td>Lychee, rose, orange blossom</td><td>Gewürztraminer, Muscat, Torrontés</td></tr>
+<tr><td>Petrol</td><td>Riesling</td></tr>
+<tr><td>Banana, bubblegum</td><td>Carbonic maceration: Beaujolais</td></tr>
+<tr><td>Dill, coconut</td><td>American oak: Rioja first</td></tr>
+<tr><td>Honey, saffron, ginger</td><td>Botrytis</td></tr>
+<tr><td>Barnyard, bandage</td><td>Brettanomyces: traditional Rhône, Bordeaux, Rioja</td></tr></table>
+<h3>Play the odds</h3>
+<p>Examiners choose wines that are <b>classic and typical</b>, because a fair exam needs wines that taste the way the textbook says. The Court publishes a list of examinable grapes and regions for the Certified tasting. So when the evidence fits two answers, call the more classic one. Pale, high acid, red cherry, earth: Burgundy before Sancerre Rouge. When you hear hooves, think horses.</p>
+<h3>Reading age, then naming a year</h3>
+<table class="t"><tr><th>Stage</th><th>White</th><th>Red</th></tr>
+<tr><td>1 to 3 years</td><td>Lemon, green glints, fresh fruit only</td><td>Purple to ruby, primary fruit, firm tannin</td></tr>
+<tr><td>4 to 8 years</td><td>Gold; honey, toast, nuts beginning</td><td>Ruby to garnet; dried fruit, leather starting</td></tr>
+<tr><td>8 to 15 years</td><td>Deep gold; petrol, mushroom, dried fruit</td><td>Garnet with a brick rim; leather, tobacco, earth</td></tr>
+<tr><td>15 years and more</td><td>Amber</td><td>Tawny; sediment; fruit fading</td></tr></table>
+<p>Exam wines are usually current releases, so know when each region releases. Fresh whites and rosé: the year after harvest. Most reds: two to three years. Rioja Reserva: four or more. Barolo: in its fourth year. Brunello: in its fifth. Subtract from today's date and you have a vintage.</p>
+<h3>A worked deduction</h3>
+<p><b>Evidence.</b> Deep ruby, purple rim, stained tears. Blackberry and black plum, just ripe. Black pepper, olive, smoked meat, violet. No vanilla or toast. Dry, medium-plus acid, medium-plus tannin, alcohol about 13%.</p>
+<p><b>Reasoning.</b> Deep color and staining rule out thin-skinned grapes. Pepper, olive and meat point to Syrah. Just-ripe fruit, moderate alcohol and fresh acid say moderate climate, not Barossa. No new oak and savory character fit the Northern Rhône. The wine is good but not profound, with medium length: village level, not Hermitage. Purple rim and primary fruit: two to four years old.</p>
+<p><b>Conclusion.</b> Syrah, France, Northern Rhône, Crozes-Hermitage or Saint-Joseph, three years old.</p>`,
 floor:`<p>Under CMS time pressure, the initial conclusion is your safety net: even if the final grape is wrong, a correct climate, country shortlist and age range still score. Write the short list explicitly.</p>`,
 analyst:`<p>At the Diploma, "The Wine in Context" asks for origin and variety with justification. Use these paths to write the justification: "High acid and tannin with a pale, garnet color and tar indicate Nebbiolo from Piedmont."</p>`,
-terms:[["Short list","The two or three grapes consistent with the structural evidence."],["Deductive path","A fixed route from structure to grape to climate to age, used to turn evidence into a call."]],
+terms:[["Short list","The two or three grapes consistent with the structural evidence."],["Deductive path","A fixed route from structure to grape to climate to age, used to turn evidence into a call."],["Impact compound","A single aroma compound that points to a short list of grapes."],["Typicity","How closely a wine matches the classic style of its grape and place."],["Current release","The vintage a producer is selling now; set by each region's aging rules."]],
 quiz:[
 [1,"Pale red, high acid, high tannin, tar and roses:","Nebbiolo",["Pinot Noir","Gamay","Grenache"],"The only pale red with very high tannin."],
 [2,"Deep red, high tannin, cassis, mint, mocha, high alcohol:","Napa Cabernet Sauvignon",["Haut-Médoc Cabernet","Chinon","Rioja"],"Warm-climate ripeness, mint and new oak; Haut-Médoc would be leaner with graphite."],
 [2,"White, high acid, dry, no green notes, chalk and green apple:","Chablis",["Sancerre","Mosel Riesling","Gewürztraminer"],"Sancerre would show grass and gooseberry."],
 [1,"Which observation most reliably indicates a warm climate?","Baked or jammy fruit with high alcohol",["High acidity with tart, just-ripe fruit","Pale color with low alcohol and light body","Green pepper and herbs with firm acidity"],"Ripeness shows in fruit condition and alcohol."],
 [2,"A common blind-tasting trap is:","Calling a wine sweet because of fruity aromas",["Checking structure before naming a grape","Committing firmly to one final conclusion","Stating an initial conclusion before the final"],"Fruity is not sweet."],
-[3,"Pale-medium red with high alcohol, low acid, kirsch and garrigue:","Grenache (Southern Rhône)",["Nebbiolo (Piedmont)","Cabernet Franc (Loire)","Malbec (Mendoza)"],"Light color for its weight is a Grenache tell."]
+[3,"Pale-medium red with high alcohol, low acid, kirsch and garrigue:","Grenache (Southern Rhône)",["Nebbiolo (Piedmont)","Cabernet Franc (Loire)","Malbec (Mendoza)"],"Light color for its weight is a Grenache tell."],
+[2,"Deep color, very high acid and low tannin with sour cherry suggest:","Barbera",["Nebbiolo","Cabernet Sauvignon","Grenache"],"Barbera pairs high acid with little tannin; Nebbiolo is pale and very tannic."],
+[2,"When the evidence fits two wines equally, call:","The more classic one",["The rarer one","The more expensive one","Neither: leave it blank"],"Exam wines are chosen to be typical."],
+[2,"Banana and bubblegum on a light red are a marker for:","Carbonic maceration",["American oak","Botrytis","Brettanomyces"],"Think Beaujolais."],
+[3,"A current-release Brunello di Montalcino on an exam in 2026 is most likely from:","2021",["2025","2024","2015"],"Brunello is released in its fifth year after harvest."],
+[2,"A bone-dry white at 10.5% with lemon and, with age, toast but no oak:","Hunter Valley Sémillon",["Meursault","Condrieu","Alsace Pinot Gris"],"Picked early, never oaked; toast comes from bottle age."],
+[2,"Garnet color with a brick rim, leather and tobacco puts a red at about:","8 to 15 years",["1 to 3 years","Under a year","Over 40 years"],"Rim and tertiary aromas are the age clues."],
+[3,"Deep, very tannic, with meat, leather and blackberry from Provence:","Mourvèdre (Bandol)",["Grenache (Tavel)","Cinsault","Carignan"],"Syrah shows pepper and olive with less tannin."]
 ]});
 
 L.push({id:"f12", unit:"F3", title:"Natural, Orange and Low-Intervention Wine", mins:13,

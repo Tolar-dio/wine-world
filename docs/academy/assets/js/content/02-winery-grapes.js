@@ -440,7 +440,7 @@ quiz:[
 [2,"In a GSM blend, which grape supplies most tannin and gamey depth?","Mourvèdre",["Grenache","Cinsault","Syrah"],"Grenache gives fruit and alcohol; Syrah color and pepper."],
 [2,"Mint or eucalyptus in a Cabernet Sauvignon most suggests:","Coonawarra",["Pauillac","Bolgheri","Pomerol"],"Eucalyptol comes from nearby trees: Australia, sometimes Napa and Chile."],
 [2,"With age, Cabernet Sauvignon develops:","Cedar and cigar box",["Banana and bubblegum","Lychee and rose","Mushroom and game only"],"Mushroom and forest floor are the classic notes of aged Pinot Noir."],
-[3,"Compared with Rioja, Ribera del Duero is usually:","Darker, firmer and aged in French oak",["Paler and lighter","Lower in alcohol","Made from Garnacha"],"Both are Tempranillo; Ribera's altitude and extremes give thicker skins."],
+[3,"Compared with Rioja, Ribera del Duero is usually:","Darker, firmer, with French oak",["Paler and lighter in body","Lower in alcohol and tannin","Made mainly from Garnacha"],"Both are Tempranillo; Ribera's altitude and extremes give thicker skins."],
 [2,"As a red wine ages, its color moves toward:","Garnet, then tawny",["Purple","Deeper ruby","Blue-black"],"Whites deepen with age; reds lose color and turn brick at the rim."]
 ]});
 
