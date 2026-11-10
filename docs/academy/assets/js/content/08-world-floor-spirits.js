@@ -86,16 +86,56 @@ body:`
 <li><b>Guest dislikes a sound wine:</b> usually replace it and sell the bottle by the glass; offer an alternative that fits what they didn't like.</li>
 <li><b>Wrong vintage on the list:</b> tell the guest before opening and offer the alternative or a price adjustment.</li>
 <li><b>Corkage:</b> know the policy; taste the guest's wine if offered; treat their bottle with the same ceremony.</li>
-<li><b>Over-served guest:</b> responsible service is law and duty: slow down service, offer water and food, involve a manager.</li></ul>`,
+<li><b>Over-served guest:</b> responsible service is law and duty: slow down service, offer water and food, involve a manager.</li></ul>
+<h3>Reading the table</h3>
+<table class="t"><tr><th>Guest</th><th>Signals</th><th>Approach</th></tr>
+<tr><td>The enthusiast</td><td>Asks about producers and vintages; goes straight to a region</td><td>Talk as a peer. Offer something off the beaten path. Never correct them in front of the table.</td></tr>
+<tr><td>The nervous host</td><td>Holds the list closed; glances at prices</td><td>Take the pressure off: two safe choices, described simply, and a price shown by pointing.</td></tr>
+<tr><td>The business host</td><td>Wants it handled quickly and well</td><td>Recognizable names, no long stories, a discreet check on budget.</td></tr>
+<tr><td>The celebration</td><td>An anniversary, a birthday, a deal</td><td>Start with bubbles; suggest one special bottle rather than two ordinary ones.</td></tr>
+<tr><td>The table that "doesn't know wine"</td><td>Apologizes before ordering</td><td>Ask what they drink at home, and translate. Make them feel clever, not taught.</td></tr></table>
+<h3>Questions that open, questions that close</h3>
+<ul><li><b>Good:</b> "What do you usually enjoy?" "Lighter or richer tonight?" "Something familiar, or shall I show you something new?" "What are you thinking of eating?"</li>
+<li><b>Poor:</b> "What's your budget?" "Do you know much about wine?" "Red or white?" as the only question. Each puts the guest on the spot or tells you nothing.</li></ul>
+<h3>What guests say, and what they mean</h3>
+<table class="t"><tr><th>The guest says</th><th>Usually means</th><th>Offer</th></tr>
+<tr><td>"Dry"</td><td>Not sweet; sometimes "not fruity"</td><td>Clarify with an example: "like a Sancerre, or rounder like a Chardonnay?"</td></tr>
+<tr><td>"Smooth"</td><td>Low tannin, low acid</td><td>Merlot, Rioja Crianza, Pinot Noir, Malbec</td></tr>
+<tr><td>"Bold" or "big"</td><td>Full body, ripe fruit</td><td>Napa Cabernet, Barossa Shiraz, Zinfandel</td></tr>
+<tr><td>"I don't like Chardonnay"</td><td>Usually: I don't like heavy oak and butter</td><td>Chablis or an unoaked style, named by place, not grape</td></tr>
+<tr><td>"Something sweet"</td><td>Fruity, soft, low acid; sometimes truly sweet</td><td>Off-dry Riesling, Moscato d'Asti, or a ripe fruity red</td></tr>
+<tr><td>"Nothing too heavy"</td><td>Lower alcohol, less oak</td><td>Beaujolais, Loire reds, Albariño</td></tr>
+<tr><td>"Wine gives me a headache"</td><td>Often blames sulfites</td><td>Don't argue. Offer a lower-alcohol wine and water with it.</td></tr></table>
+<h3>The three-option answer</h3>
+<p>Give three wines and three reasons: a <b>safe</b> one close to what they named, a <b>step up</b> in quality or price, and a <b>discovery</b> that costs less than the first. Each gets one sentence: the wine, why it fits the food, how it tastes. Then stop talking and let the host choose. The discovery is what makes a guest trust the next recommendation.</p>
+<h3>Timing</h3>
+<ul><li>Reach the table within two minutes of the menus, even just to say you'll be back.</li>
+<li>Have the first wine poured before the first food arrives.</li>
+<li>Ask about a second bottle when the first is about two-thirds gone, not when it is empty.</li>
+<li>Two guests each on a second glass of the same wine: tell them the bottle costs less. They will remember that you saved them money.</li>
+<li>Offer dessert wine with the dessert menu, not after the plates land.</li></ul>
+<h3>Things a professional never does</h3>
+<ul><li>Disparage what the guest ordered, or what they usually drink.</li>
+<li>Recommend only from the top of the list.</li>
+<li>Pour the bottle out quickly to force a second one.</li>
+<li>Correct a guest's pronunciation.</li>
+<li>Promise a wine without checking that it is in the cellar.</li></ul>
+<p>Keep a note on regulars: what they drank, what they loved, what they spent. Greeting a returning guest with "we have the new vintage of the Barolo you enjoyed in March" sells more wine than any technique on this page.</p>`,
 floor:`<p>In the CMS practical, examiners play guests who change their minds, ask about producers, and test whether you remember who ordered what. Keep a mental map of the table, address the host, and keep conversation flowing while your hands work.</p>`,
 analyst:`<p>WSET Level 3 LO5 includes "advice to customers": recommending wines for occasions and foods with reasons. Diploma D2 frames the same skill commercially: consumer behavior, pricing psychology and channel strategy.</p>`,
-terms:[["Point-at-price","Letting the host point to a price on the list to signal budget discreetly."],["Corkage","Fee for opening a guest's own bottle."],["Guest language","Plain, sensory descriptions instead of technical terms."]],
+terms:[["Point-at-price","Letting the host point to a price on the list to signal budget discreetly."],["Corkage","Fee for opening a guest's own bottle."],["Guest language","Plain, sensory descriptions instead of technical terms."],["Three-option answer","A safe choice, a step up and a discovery, each with one reason."],["Guest notes","A record of what regular guests drank, liked and spent."],["Step up","A recommendation one level higher in quality or price."]],
 quiz:[
 [1,"A discreet way to learn a host's budget is to:","Show options and let them point at a price",["Ask them directly what they want to spend","Recommend the most expensive bottle first","Avoid the subject and pick for them"],"Nobody else at the table sees the number."],
 [1,"How many options should you usually recommend?","Two or three at different price points",["One only, the wine you like best","Ten, so every taste is covered","The whole list, page by page"],"Choice without overwhelm."],
 [2,"A guest dislikes a sound bottle. Common best practice:","Replace it and sell the bottle by the glass",["Insist politely that the wine is sound","Charge for both bottles at cost","Offer a discount on the same bottle"],"Hospitality first."],
 [2,"The listed vintage is unavailable. You should:","Tell the guest before opening and offer alternatives",["Open the other vintage without comment","Pour it and mention the change afterward","Bring it and charge the higher price"],"Transparency builds trust."],
-[1,"Who receives the wine list?","The host",["The oldest guest","The guest of honor","Whoever is nearest"],"The host also tastes the wine first."]
+[1,"Who receives the wine list?","The host",["The oldest guest","The guest of honor","Whoever is nearest"],"The host also tastes the wine first."],
+[2,"A guest who says \"I don't like Chardonnay\" most often dislikes:","Heavy oak and butter",["High acidity","White wine in general","Low alcohol"],"Offer Chablis or another unoaked style, named by place."],
+[2,"When a guest asks for something \"smooth\", look for:","Low tannin and soft acid",["High tannin","High acidity","Bone-dry sparkling"],"Merlot, Malbec, Pinot Noir or Rioja Crianza."],
+[2,"The 'discovery' in a three-option answer should cost:","Less than the safe choice",["More than the step up","The same as the most expensive","Whatever is slowest to sell"],"Saving the guest money earns trust for next time."],
+[2,"The best moment to suggest a second bottle is when the first is:","About two-thirds gone",["Just opened","Completely empty","Half gone"],"Early enough that glasses never sit empty."],
+[2,"Which opening question is weakest?","\"What's your budget?\"",["\"What do you usually enjoy?\"","\"Lighter or richer tonight?\"","\"What are you thinking of eating?\""],"It puts the host on the spot in front of the table."],
+[2,"Two guests each order a second glass of the same wine. You should:","Mention that a bottle costs less",["Say nothing and pour","Suggest a cheaper glass","Pour larger glasses"],"Honest advice that saves money builds a regular."]
 ]});
 
 L.push({id:"s7", unit:"S1", title:"Running a Wine Program", mins:15,
@@ -120,17 +160,69 @@ body:`
 <h3>Staff and service</h3>
 <p>The sommelier can't be at every table. Train servers with short daily tastings ("pre-shift") on two wines: how to describe them, what they pair with, what they cost. A server who can sell the by-the-glass list moves more wine than any list design.</p>
 <h3>Events and growth</h3>
-<p>Winemaker dinners, tasting flights, wine clubs, retail bottle sales (where licensing allows), and private events build revenue and loyalty.</p>`,
+<p>Winemaker dinners, tasting flights, wine clubs, retail bottle sales (where licensing allows), and private events build revenue and loyalty.</p>
+<h3>The week of a wine director</h3>
+<table class="t"><tr><th>When</th><th>Task</th></tr>
+<tr><td>Daily</td><td>Check open bottles; pre-shift tasting with the staff; update the list for anything sold out</td></tr>
+<tr><td>Twice a week</td><td>Place orders against par levels; taste with distributor reps</td></tr>
+<tr><td>On delivery</td><td>Receive and check every case; put stock away by bin</td></tr>
+<tr><td>Weekly</td><td>Review sales by item; reprint or republish the list</td></tr>
+<tr><td>Monthly</td><td>Full inventory count; cost percentage and variance; a staff class</td></tr>
+<tr><td>Seasonally</td><td>Rework the by-the-glass list with the menu; review dead stock and pricing</td></tr></table>
+<h3>Receiving: the five checks</h3>
+<p>More money is lost at the back door than in the dining room. Before signing any invoice, check:</p>
+<ol><li><b>Item and vintage</b> against the order. Distributors roll to the next vintage without asking.</li>
+<li><b>Quantity</b>, by opening the cases.</li>
+<li><b>Price</b> against the quote.</li>
+<li><b>Condition:</b> leaking capsules, stained labels, pushed corks.</li>
+<li><b>Temperature.</b> Refuse wine that arrives hot from a truck in summer; the damage won't show until a guest tastes it.</li></ol>
+<h3>Building the by-the-glass list</h3>
+<ul><li><b>Size:</b> 10 to 20 wines suit most restaurants. More than the staff can describe is too many.</li>
+<li><b>Coverage:</b> at least one sparkling, a crisp white, an aromatic white, a rich white, a rosé, a light red, a medium red, a full red and something sweet.</li>
+<li><b>Price spread:</b> a clear entry glass, a cluster in the middle, one or two premium pours under a preservation system.</li>
+<li><b>Familiar and new:</b> a guest should always find one name they know and one they don't.</li>
+<li><b>Pour size:</b> 5 or 6 oz, stated on the list, with half-glasses or carafes if the room suits them.</li></ul>
+<h3>Working with suppliers</h3>
+<ul><li>Most programs buy from five to ten distributors. Each has minimum orders and delivery days.</li>
+<li><b>Allocations</b> of scarce wines go to accounts that support the rest of a portfolio. Loyalty is the currency.</li>
+<li>Payment terms are set by state law in the US, and many states forbid suppliers from giving restaurants anything of value: the "tied-house" rules. Know yours before accepting free goods.</li>
+<li>Taste before buying, and taste again with food. A wine that shines alone can vanish on the menu.</li>
+<li>For mature bottles, auctions and private cellars are options where state law allows; check provenance as you would for any old wine.</li></ul>
+<h3>Engineering the list</h3>
+<ul><li>Guests read the top and bottom of each section more than the middle. Put wines you are proud of there.</li>
+<li>Don't sort strictly by price: it turns the list into a price comparison. Sort by style or weight within a section.</li>
+<li>A one-line description sells more than a score.</li>
+<li>Keep one page of "sommelier's selections" for wines that need a voice.</li>
+<li>Reprint often. A list full of "sorry, we're out of that" teaches guests not to trust it.</li></ul>
+<h3>Numbers the owner will ask for</h3>
+<table class="t"><tr><th>Measure</th><th>What it shows</th></tr>
+<tr><td>Wine cost percentage</td><td>Pricing and control</td></tr>
+<tr><td>Wine sales per guest</td><td>Whether the floor is selling</td></tr>
+<tr><td>Bottle-to-glass mix</td><td>How guests are buying; where training should go</td></tr>
+<tr><td>Inventory value and turnover</td><td>Cash tied up in the cellar</td></tr>
+<tr><td>Variance</td><td>Losses from pouring, waste or theft</td></tr>
+<tr><td>Dead stock</td><td>Buying mistakes</td></tr></table>
+<h3>Training that sticks</h3>
+<p>Five minutes before every service: one wine, tasted by everyone, with three facts on a card: what it is, what it tastes like in plain words, and which two dishes to sell it with. Once a month, a longer class on one region. A server who has tasted a wine sells it; a server who has only read about it recommends the house pour.</p>
+<h3>The law</h3>
+<p>Selling alcohol is a licensed privilege. The wine director is responsible for checking age, refusing service to intoxicated guests, keeping to licensed hours and knowing the local rules on corkage and carrying out unfinished bottles. In many US states "dram shop" laws make the business liable for harm caused by a guest it over-served.</p>`,
 floor:`<p>The Advanced practical's business component checks you can think like a beverage director: inventory, pricing, purchasing and list accuracy. Run the Service Floor math drills until they're automatic.</p>`,
 analyst:`<p>Diploma D2 (Wine Business) covers routes to market, the three-tier system, pricing, distribution, branding and marketing. MW Theory Paper 4 is the business of wine.</p>`,
-terms:[["Three-tier system","US alcohol distribution: producer/importer, distributor, retailer/restaurant."],["Allocation","Limited quantity of a scarce wine assigned to a buyer."],["Bin number","Storage location code matching the list to stock."],["Pre-shift","Short staff briefing and tasting before service."]],
+terms:[["Three-tier system","US alcohol distribution: producer/importer, distributor, retailer/restaurant."],["Allocation","Limited quantity of a scarce wine assigned to a buyer."],["Bin number","Storage location code matching the list to stock."],["Pre-shift","Short staff briefing and tasting before service."],["Receiving","Checking a delivery against the order before signing for it."],["Tied-house laws","US rules that stop suppliers giving things of value to retailers."],["Dram shop law","Law making a business liable for harm done by a guest it over-served."],["List engineering","Arranging a wine list so that placement and description guide choices."]],
 quiz:[
 [1,"The US three-tier system separates:","Producers/importers, distributors and retailers",["Growers, winemakers and wine critics","Federal, state and city regulators","Red, white and sparkling wine sales"],"Created after Prohibition."],
 [2,"A 'progressive' wine list is organized by:","Style, from light to full",["Price only","Vintage","Producer alphabetically"],"Guest-friendly."],
 [2,"Why price a glass so the first pour or two covers the bottle cost?","To protect margin against waste from open bottles",["To make glasses cheaper than bottles","Because state law sets glass prices","To avoid counting inventory monthly"],"A common rule of thumb."],
 [1,"An allocation is:","A limited quantity assigned to one buyer",["A fixed storage location in the cellar","A state tax on wholesale deliveries","A discount for buying a full pallet"],"Relationships matter."],
 [2,"Variance analysis compares:","Usage predicted from sales against actual stock used",["Two vintages of the same wine side by side","Critics' scores against the list price","Wholesale cost against the list price"],"Catches over-pouring and loss."],
-[2,"A wine by the glass should usually be finished within:","A few days of opening, with preservation",["A month of opening","One service only","Two weeks at room temperature"],"Date every open bottle and taste before the first pour of each service."]
+[2,"A wine by the glass should usually be finished within:","A few days of opening, with preservation",["A month of opening","One service only","Two weeks at room temperature"],"Date every open bottle and taste before the first pour of each service."],
+[2,"On delivery, which check catches the most common distributor substitution?","The vintage",["The capsule color","The bottle weight","The pallet count"],"Distributors roll to the next vintage without asking."],
+[2,"Wine that arrives hot from a summer delivery truck should be:","Refused",["Chilled quickly and listed","Sold by the glass first","Stored on its side to recover"],"Heat damage is permanent and shows only when a guest tastes it."],
+[2,"Allocations of scarce wines usually go to accounts that:","Support the rest of the portfolio",["Pay the highest price","Order once a year","Have the largest cellar"],"Loyalty to a distributor's wider book is the currency."],
+[2,"'Tied-house' laws restrict:","Suppliers giving things of value to retailers",["The size of a wine list","Corkage fees","The number of wines by the glass"],"They keep producers and wholesalers from controlling outlets."],
+[2,"A 'dram shop' law makes a business liable for:","Harm caused by a guest it over-served",["Wine that is corked","Late deliveries","Incorrect vintages on a list"],"Responsible service is a legal duty as well as a courtesy."],
+[2,"A sound by-the-glass list for most restaurants has about:","10 to 20 wines",["2 or 3 wines","50 to 60 wines","Every wine on the bottle list"],"Enough to cover the styles; few enough for staff to describe."],
+[2,"The most effective staff training is:","A five-minute tasting before each service",["A yearly exam","A printed binder","Reading critic scores aloud"],"Servers sell what they have tasted."]
 ]});
 
 L.push({id:"b4", unit:"S2", title:"Whisk(e)y in Depth", mins:18,

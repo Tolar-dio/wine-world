@@ -148,15 +148,53 @@ body:`
 <tr><td>UK duty</td><td>Strength-based since August 2023; wine 8.5-22% pays £30.62 per litre of pure alcohol from 1 February 2026 (about £2.87 on a 12.5% bottle, before VAT). The 11.5-14.5% easement ended February 2025.</td></tr>
 <tr><td>China tariffs</td><td>0% for FTA partners including Australia (since March 2024) and South Africa (May 2026); 14% for the EU; 39% for the US</td></tr>
 <tr><td>Liv-ex Fine Wine 100</td><td>326.31 on 30 September 2026: up 4.35% over one year, down 10.46% over five</td></tr></table>
-<p>The essay arc: volume falling, export prices rising, DTC shrinking since 2022, and a fine-wine market stabilizing in 2026.</p>`,
+<p>The essay arc: volume falling, export prices rising, DTC shrinking since 2022, and a fine-wine market stabilizing in 2026.</p>
+<h3>Where the money in a bottle goes</h3>
+<p>Take a wine on a UK shelf at £8, using the February 2026 duty rate. These figures are a rounded illustration.</p>
+<table class="t"><tr><th>Slice</th><th>Amount</th></tr>
+<tr><td>VAT (20% of the pre-tax price)</td><td>£1.33</td></tr>
+<tr><td>Excise duty (12.5% wine)</td><td>£2.87</td></tr>
+<tr><td>Retailer's margin</td><td>About £2.00</td></tr>
+<tr><td>Bottle, closure, label, shipping</td><td>About £0.80</td></tr>
+<tr><td>Left for the producer, including the wine itself</td><td>About £1.00</td></tr></table>
+<p>Duty is a flat amount per bottle, so at £16 the same tax leaves several times as much for the wine. That is the arithmetic behind the trade's oldest advice: spending a little more buys much more wine.</p>
+<h3>What grapes cost</h3>
+<p>California publishes its grape prices every year, which makes it the clearest window on cost. In the 2025 crush report the statewide average was about <b>$978 a ton</b>. Napa County averaged about <b>$6,636</b>. The southern Central Valley averaged about <b>$334</b>. A ton makes roughly 60 cases, and a rule of thumb says a sustainable bottle price is about the ton price divided by 100: $66 for average Napa fruit, a little over $3 for Central Valley fruit. Land, farming costs and yield explain the twenty-fold gap, and the gap explains the shelf.</p>
+<h3>Tariffs in 2026</h3>
+<p>Since August 2025 the United States has charged a <b>15% tariff on wine from the European Union</b>, and wine was left out of later reductions. Importers, distributors and restaurants have split the cost between them in different ways; where it is passed on in full through the three tiers, each margin is taken on the higher base, so the shelf price rises by more than the tariff itself. Any Diploma answer on US market access now has to mention it.</p>
+<h3>What research says about list pricing</h3>
+<ul><li><b>The second-cheapest wine is not the rip-off.</b> A study of 470 wine lists from 249 London restaurants, covering 6,335 wines, found that percentage markup peaks around the <b>middle</b> of the list; the second-cheapest bottle carried a lower markup than the next four above it. Average markup over retail was more than threefold.</li>
+<li><b>Glass and bottle track closely</b> in the same study: a large glass cost under 7% more per unit of volume than the bottle.</li>
+<li><b>Markup percentage falls with price</b> almost everywhere, so the best value on most lists is toward the top, and the worst is in the comfortable middle where most people order.</li></ul>
+<h3>A month of a wine program</h3>
+<table class="t"><tr><th>Line</th><th>Amount</th></tr>
+<tr><td>Wine sales</td><td>$60,000</td></tr>
+<tr><td>Cost of goods sold (30%)</td><td>$18,000</td></tr>
+<tr><td>Gross profit</td><td>$42,000</td></tr>
+<tr><td>Sommelier wages and benefits</td><td>$8,000</td></tr>
+<tr><td>Glassware, printing, preservation gas, breakage</td><td>$1,500</td></tr>
+<tr><td>Contribution to the restaurant</td><td>$32,500</td></tr></table>
+<p>Two lessons sit in that table. Wine is usually the most profitable thing a restaurant sells, because it needs no cooking. And a sommelier pays for the position only by lifting sales or protecting margin: raising the average bottle from $70 to $80 across 600 bottles a month adds $6,000 in sales for no extra labor.</p>
+<h3>Four forces shaping the next list</h3>
+<ul><li><b>Less, but better.</b> Volume is falling in most mature markets while average price per liter rises. Lists are getting shorter and more carefully chosen.</li>
+<li><b>No and low alcohol.</b> Still a small share of sales, growing fast, and now expected on a serious list.</li>
+<li><b>By the glass.</b> Preservation systems let restaurants pour wines that once sold only by the bottle, which suits guests who drink less and want better.</li>
+<li><b>Transparency.</b> Guests can check retail prices on their phones at the table. Markups that cannot be defended will be noticed.</li></ul>`,
 floor:`<p>Run every list through pour cost and cash margin. Sell the middle of the list; that's where guests find value and you make money.</p>`,
 analyst:`<p>D2 (Wine Business) asks you to apply data to a case: "Explain why world production fell while export value per litre rose." Use the OIV and duty figures above.</p>`,
-terms:[["Pour cost","Cost of the wine as a percentage of its selling price."],["Cash-margin pricing","Adding a fixed dollar markup per bottle."],["Control state","A US state that runs wholesale and/or retail alcohol sales."],["Courtier","Bordeaux broker between château and négociant."],["FOB","Free on board: the producer's price before shipping."]],
+terms:[["Pour cost","Cost of the wine as a percentage of its selling price."],["Cash-margin pricing","Adding a fixed dollar markup per bottle."],["Control state","A US state that runs wholesale and/or retail alcohol sales."],["Courtier","Bordeaux broker between château and négociant."],["FOB","Free on board: the producer's price before shipping."],["Excise duty","A tax charged per unit of alcohol, not as a share of price."],["Crush report","California's annual record of grape tonnage and prices by district."],["Tariff","A tax on imported goods, charged at the border."],["Contribution","What a department adds to the business after its own direct costs."]],
 quiz:[
 [2,"A typical by-the-glass pour cost target is:","20-28%",["5-10%","33-40%","50%"],"One glass often covers the bottle's wholesale cost."],
 [2,"Wine Spectator's Award of Excellence now requires at least:","75 selections",["90 selections","350 selections","1,000 selections"],"Older materials say 90."],
 [2,"Bordeaux courtiers usually earn:","2% commission, paid by the négociant",["10% commission, paid by the château","A flat fee per barrel sold","5% commission, paid by the importer"],"La Place de Bordeaux."],
 [2,"OIV's 2024 world production was:","The lowest in over 60 years",["A record high","Flat on 2023","The highest since 2004"],"225.8 million hL."],
 [3,"From February 2026, UK duty on wine at 8.5-22% is:","£30.62 per litre of pure alcohol",["A flat £2.67 on every bottle","15% of the declared import value","£10 per litre of finished wine"],"Strength-based since 2023."],
-[2,"Cash-margin pricing means:","A fixed dollar markup per bottle",["Three times cost on every bottle","Matching the restaurant next door","Charging more for older vintages"],"Better wines become better values."]
+[2,"Cash-margin pricing means:","A fixed dollar markup per bottle",["Three times cost on every bottle","Matching the restaurant next door","Charging more for older vintages"],"Better wines become better values."],
+[2,"On an £8 UK bottle, roughly how much is left for the producer and the wine?","About £1",["About £4","About £6","Nothing"],"Duty and VAT take over half; retail margin and packaging take most of the rest."],
+[2,"Why does paying a little more buy much more wine in the UK?","Duty is a flat amount per bottle",["VAT falls as price rises","Retailers take no margin on dear wine","Shipping is free above £10"],"The tax stays fixed, so more of each extra pound reaches the wine."],
+[3,"In California's 2025 crush report, Napa County grapes averaged about:","$6,600 a ton",["$330 a ton","$980 a ton","$66,000 a ton"],"The state average was about $978; the southern Central Valley about $334."],
+[2,"A rule of thumb sets a sustainable bottle price at the grape price per ton divided by:","100",["2","10","1,000"],"$6,600 a ton suggests a bottle of about $66."],
+[2,"Since August 2025, the US tariff on wine from the European Union has been:","15%",["0%","39%","100%"],"Wine was left out of later reductions."],
+[3,"A study of London wine lists found percentage markup is highest:","Around the middle of the list",["On the cheapest bottle","On the second-cheapest bottle","On the most expensive bottle"],"470 lists, 249 restaurants; the second-cheapest carried a lower markup than the four above it."],
+[2,"In the monthly example, wine's cost of goods sold is what share of sales?","30%",["10%","50%","70%"],"$18,000 on $60,000."]
 ]});

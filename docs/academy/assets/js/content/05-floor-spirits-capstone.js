@@ -89,17 +89,49 @@ body:`
 <li>Present the bottle and cork alongside the decanter so the host knows what is being served. Pour a taste, then serve.</li></ol>
 <p>The 2025 CMS Advanced/Master standards add <b>double decanting</b> (decant, rinse the bottle, pour back so the wine is served from its own bottle) and <b>splash decanting</b> for aeration.</p>
 <h3>Buying older wines</h3>
-<p>Ask about provenance, storage conditions, ship date and how many hands it passed through. Inspect for label damage, seepage, a pushed cork, and <b>ullage</b> (the air gap; "into neck" is good, "low shoulder" is risky).</p>`,
+<p>Ask about provenance, storage conditions, ship date and how many hands it passed through. Inspect for label damage, seepage, a pushed cork, and <b>ullage</b> (the air gap; "into neck" is good, "low shoulder" is risky).</p>
+<h3>Sparkling: the details that decide the mark</h3>
+<ul><li><b>Cold first.</b> Gas stays dissolved in cold wine. A warm or shaken bottle gushes however carefully it is opened. From room temperature, allow 20 to 25 minutes in ice and water.</li>
+<li><b>The 45° angle</b> is not for show: it gives the wine a larger surface inside the bottle, so gas escapes without foaming over.</li>
+<li><b>Count the glasses before you pour.</b> One bottle gives six 4-oz pours or eight 3-oz pours. For a table of eight, pour a little into every glass down the line, then return to top up, so the last guest gets as much as the first.</li>
+<li><b>Two pours per glass.</b> A first splash, a pause while the mousse falls, then the fill. The lip of the bottle never touches the glass.</li>
+<li><b>A stuck cork:</b> grip it through a serviette and rock it gently while turning the bottle. If the top snaps off, keep the bottle angled away and covered with the serviette, and draw the rest slowly with a corkscrew: it is still under pressure.</li>
+<li><b>Old Champagne</b> has less pressure and a fragile cork. Open it more slowly still, and consider a white-wine glass for the aroma.</li></ul>
+<p><b>Sabrage</b>, striking the collar of the neck with a blade so the glass breaks cleanly along the seam, is a ceremony for parties. It is not part of the Court's service standard.</p>
+<h3>To decant or not</h3>
+<table class="t"><tr><th>Wine</th><th>Decant?</th><th>Why and how long</th></tr>
+<tr><td>Young, tannic red (Barolo, Cabernet, Syrah)</td><td>Yes</td><td>For air: one to two hours softens it and opens the aroma</td></tr>
+<tr><td>Mature Bordeaux, Rhône, Rioja with sediment</td><td>Yes, gently</td><td>For sediment: decant just before serving</td></tr>
+<tr><td>Vintage Port</td><td>Yes</td><td>Heavy sediment always; young ones want two hours or more</td></tr>
+<tr><td>Very old or fragile red; old Burgundy</td><td>Usually no</td><td>It can fade in minutes; pour carefully from the cradle instead</td></tr>
+<tr><td>Full or reductive whites (white Rhône, young white Burgundy)</td><td>Often yes</td><td>Air blows off struck-match reduction and opens texture</td></tr>
+<tr><td>Light, aromatic whites and most rosé</td><td>No</td><td>Nothing to gain; they lose freshness</td></tr>
+<tr><td>Madeira</td><td>Yes</td><td>It is already oxidized and improves with hours or days of air</td></tr></table>
+<p>Always ask the host first. Some guests enjoy watching a wine open in the glass, and it is their bottle.</p>
+<h3>Planning ahead for an old bottle</h3>
+<ul><li>If you know a day ahead, <b>stand the bottle upright</b> for 24 to 48 hours so the sediment falls to the bottom. Then no cradle is needed.</li>
+<li>If it comes straight from the rack, keep it on its side in the <b>cradle</b> from cellar to table, so the sediment stays along the lower flank.</li>
+<li>Use a wide-based decanter for young wines that need air, and a narrow one for old wines that need protection.</li>
+<li>Expect to leave an ounce or two with the sediment. Never try to rescue it at the table.</li></ul>
+<h3>Port tongs</h3>
+<p>The cork of a very old Vintage Port can crumble to dust. The traditional answer is to remove the neck. Iron tongs are heated until they glow, clamped around the neck below the cork for about half a minute, and removed; a cold wet cloth or a feather dipped in cold water is then drawn around the hot ring, and the glass cracks cleanly. The wine is decanted as usual. It is rare, theatrical and still asked about in exams.</p>`,
 floor:`<p>Both sparkling and decanting are standard CMS practical tasks. Practice with water in a Champagne bottle and an old bottle with coffee grounds for sediment. Time yourself; keep talking to the "guests" throughout.</p>`,
 analyst:`<p>WSET wants the reasons: decant to remove sediment from aged reds or unfiltered Port, or to aerate young tannic wines; serve sparkling well chilled to keep the CO₂ in solution and the wine fresh.</p>`,
-terms:[["Cage (muselet)","Wire cage holding a sparkling wine cork."],["Cradle","Basket holding a bottle on its side for decanting."],["Ullage","Air space between wine and cork; low ullage suggests poor storage."],["Double decanting","Decanting, rinsing the bottle, and returning the wine to it."]],
+terms:[["Cage (muselet)","Wire cage holding a sparkling wine cork."],["Cradle","Basket holding a bottle on its side for decanting."],["Ullage","Air space between wine and cork; low ullage suggests poor storage."],["Double decanting","Decanting, rinsing the bottle, and returning the wine to it."],["Sabrage","Opening sparkling wine by striking the neck with a blade."],["Port tongs","Heated iron tongs used to break the neck of a very old Vintage Port."],["Splash decanting","Pouring vigorously into a decanter to aerate a young wine."],["Gushing","Wine foaming out of a sparkling bottle on opening, from warmth or shaking."]],
 quiz:[
 [1,"When opening sparkling wine, you should twist:","The bottle, not the cork",["The cork, not the bottle","Both together","The cage only"],"Gives control over the cork's release."],
 [1,"Sparkling wine glasses are filled to no more than:","Three-quarters, in two pours",["Half full, in a single pour","The brim, in three pours","One-quarter, in a single pour"],"The second pour after the mousse settles."],
 [2,"During decanting, when do you stop pouring?","When sediment reaches the bottle's shoulder",["When the bottle is completely empty","When exactly half has been poured","When the candle flame starts to flicker"],"Never look away from the shoulder."],
 [1,"What does a sommelier place on the guéridon for decanting?","Decanter, light, serviettes, underliners, cradle",["Ice bucket, tongs, serviettes and a tray","Corkscrew, foil cutter and a wine key only","Tray of glasses, water jug and spittoon"],"From the CMS standard."],
 [2,"Why keep a thumb on the cage at all times?","The cork can fire out under about 6 atmospheres",["It keeps the neck of the bottle warm","It hides the label until the pour","It is a tradition with no safety purpose"],"A flying cork can blind a guest. The thumb stays on from the moment the cage is loosened."],
-[3,"'Low shoulder' ullage in an old Bordeaux suggests:","Possible poor storage or oxidation risk",["Excellent provenance and storage","A wine bottled with extra headspace","Certain cork taint in the wine"],"Into neck or high shoulder is preferable."]
+[3,"'Low shoulder' ullage in an old Bordeaux suggests:","Possible poor storage or oxidation risk",["Excellent provenance and storage","A wine bottled with extra headspace","Certain cork taint in the wine"],"Into neck or high shoulder is preferable."],
+[2,"Why must sparkling wine be well chilled before opening?","Cold wine holds its gas",["Cold glass is stronger","Warm corks are tighter","It hides faults"],"A warm or shaken bottle gushes when opened."],
+[2,"Pouring one bottle of Champagne for eight guests, the server should:","Pour a little in every glass, then top up",["Fill each glass in turn","Open a second bottle first","Pour the host's glass full first"],"That keeps the pours even to the last guest."],
+[2,"Which wine gains most from an hour or two in a decanter?","A young Barolo",["A light rosé","An old, fragile Burgundy","A Moscato d'Asti"],"Air softens young tannin and opens the aroma. Fragile old wines fade; light aromatic ones lose freshness."],
+[2,"An old bottle with sediment, ordered a day ahead, should be:","Stood upright to settle",["Shaken and chilled","Stored on its side until service","Decanted the night before"],"Upright for 24 to 48 hours puts the sediment at the bottom."],
+[3,"Port tongs are used to:","Break the neck of a very old bottle",["Hold the bottle over the candle","Crush the sediment","Extract a wet cork"],"Heated tongs and cold water crack the glass cleanly below a crumbling cork."],
+[2,"Decanting a young, reductive white Burgundy mainly:","Blows off struck-match aromas",["Removes heavy sediment","Warms the wine quickly","Adds a toasty oak note"],"Air clears reduction and opens the texture."],
+[2,"Sabrage is best described as:","A party ceremony, not service standard",["The Court's required method","A way to chill Champagne","A type of decanter"],"The blade breaks the collar of the neck along the seam."]
 ]});
 
 L.push({id:"s3", unit:"S1", title:"Storage, Temperature and Glassware", mins:12,
@@ -204,10 +236,48 @@ body:`
 <h3>Classic pairings to know</h3>
 <p>Oysters + Muscadet or Chablis. Goat cheese + Sancerre. Foie gras + Sauternes or Tokaji. Lamb + Pauillac or Rioja. Duck + Pinot Noir. Salmon + Pinot Noir or rosé. Stilton + Vintage Port. Chocolate + Banyuls, Maury or Ruby Port. Thai or Sichuan + off-dry Riesling or Gewürztraminer. Pizza + Barbera or Chianti. Asparagus and artichoke + Grüner Veltliner or Sauvignon Blanc.</p>
 <h3>Selling it</h3>
-<p>The CMS service exam asks you to choose a pairing and explain it, then recommend a wine naming <b>region, producer and vintage</b>. A good formula: name the wine, give one reason tied to the dish, describe how it tastes in guest language. "With the halibut in beurre blanc I'd pour the 2022 Domaine Roulot Bourgogne Blanc: enough richness for the butter sauce, and the acidity keeps every bite fresh."</p>`,
+<p>The CMS service exam asks you to choose a pairing and explain it, then recommend a wine naming <b>region, producer and vintage</b>. A good formula: name the wine, give one reason tied to the dish, describe how it tastes in guest language. "With the halibut in beurre blanc I'd pour the 2022 Domaine Roulot Bourgogne Blanc: enough richness for the butter sauce, and the acidity keeps every bite fresh."</p>
+<h3>A five-step method for any dish</h3>
+<ol><li><b>Weigh it.</b> How rich is the dish as a whole? Match the wine's body to it.</li>
+<li><b>Find the loudest element.</b> It is usually the sauce or the cooking method, not the protein.</li>
+<li><b>Check for trouble.</b> Sweetness, chili heat, strong umami or bitterness in the dish each rule out certain wines.</li>
+<li><b>Choose the structure.</b> Acid for fat and salt; tannin for protein; sugar for heat or sweetness; bubbles for fried food.</li>
+<li><b>Add a flavor bridge</b> if one offers itself: herbs with Sauvignon Blanc, mushrooms with Pinot Noir, pepper with Syrah.</li></ol>
+<h3>The cooking method sets the weight</h3>
+<table class="t"><tr><th>Method</th><th>What it does</th><th>Wine direction</th></tr>
+<tr><td>Raw, steamed, poached</td><td>Delicate, clean</td><td>Light, unoaked, high acid: Muscadet, Chablis, Fino</td></tr>
+<tr><td>Sautéed, pan-roasted</td><td>Some browning and butter</td><td>Medium whites, light reds: white Burgundy, Pinot Noir</td></tr>
+<tr><td>Fried</td><td>Fat and crunch</td><td>Bubbles and acid: Champagne, Cava, dry Riesling</td></tr>
+<tr><td>Grilled, charred</td><td>Smoke and bitterness</td><td>Fruit and some oak or tannin: Zinfandel, Malbec, Syrah</td></tr>
+<tr><td>Roasted</td><td>Caramelized, savory</td><td>Medium to full reds: Rioja, Bordeaux, Chianti Classico</td></tr>
+<tr><td>Braised, stewed</td><td>Rich, deep, soft</td><td>Full, mature reds: Barolo, Châteauneuf-du-Pape, Madiran</td></tr>
+<tr><td>Smoked, cured</td><td>Salt and smoke</td><td>Off-dry Riesling, Fino, Pinot Noir, Syrah</td></tr></table>
+<h3>One protein, four sauces</h3>
+<table class="t"><tr><th>Chicken with...</th><th>Pour</th></tr>
+<tr><td>Lemon and herbs</td><td>Sancerre, Vermentino</td></tr>
+<tr><td>Cream and mushrooms</td><td>Oaked Chardonnay, or red Burgundy</td></tr>
+<tr><td>Tomato and olives</td><td>Chianti, Barbera</td></tr>
+<tr><td>Barbecue sauce</td><td>Zinfandel, off-dry rosé</td></tr></table>
+<h3>Red wine with fish</h3>
+<p>The old rule has a real cause: tannic reds can taste metallic with fish, especially oily fish. The exception is just as real: low-tannin reds work with meaty or fatty fish. Pinot Noir with salmon or seared tuna, and chilled Beaujolais with grilled fish, are sound calls.</p>
+<h3>Think of wine as a seasoning</h3>
+<ul><li><b>Acid</b> is a squeeze of lemon: it lifts rich, salty and fried food.</li>
+<li><b>Tannin</b> scrubs fat and protein from the palate.</li>
+<li><b>Sweetness</b> puts out fire and balances salt.</li>
+<li><b>Bubbles</b> cut through oil and reset the mouth.</li>
+<li><b>Alcohol</b> adds weight, and turns chili heat up.</li></ul>
+<h3>A tasting menu</h3>
+<p>Seven courses at 2.5 to 3 oz a pour is about three-quarters of a bottle per person. Plan it as an arc: sparkling to open; light whites to fuller whites; a light red, then a structured one; a sweet wine no bigger than the dessert needs. Keep alcohol modest in the first half. Offer a half-pour pairing and a non-alcoholic one built with the same logic: acid, bitterness, tannin from tea, bubbles.</p>
+<h3>Beyond wine</h3>
+<ul><li><b>Sake</b> has no tannin, low acid and plenty of amino acids, so it flatters umami: sushi, mushrooms, aged cheese, even oysters.</li>
+<li><b>Beer:</b> stout with oysters and chocolate; saison with cheese and roast chicken; wheat beer with salads and shellfish. Very hoppy beers sharpen chili heat.</li>
+<li><b>Cider</b> with pork, washed-rind cheese and crêpes.</li>
+<li><b>Fino and Manzanilla</b> are the sommelier's secret: bone dry and savory, they handle olives, anchovies, fried fish, artichokes and soup.</li></ul>
+<h3>Four wines that rarely fail</h3>
+<p>When a table orders six different dishes and wants one bottle, reach for Champagne, dry or off-dry Riesling, Pinot Noir or a dry rosé. Each has high acid, modest tannin and no heavy oak, which is why they are called the universal pairings.</p>`,
 floor:`<p>Practice the 20-second pitch for every Certified examinable wine. Upselling isn't pushing price; it's suggesting the wine that will make the dish better, with a range of price points.</p>`,
 analyst:`<p>WSET Level 3 LO5 expects the full table of food and wine interactions, including the effect of umami, salt, bitterness and chili. Answer pairing questions by naming the component, the effect, and the resulting choice.</p>`,
-terms:[["Umami","Savory taste; makes wine seem harder and more tannic."],["Complement","Pairing by similar flavors."],["Contrast","Pairing by opposing components (salt and sweet)."]],
+terms:[["Umami","Savory taste; makes wine seem harder and more tannic."],["Complement","Pairing by similar flavors."],["Contrast","Pairing by opposing components (salt and sweet)."],["Flavor bridge","A shared flavor that links dish and wine, such as herbs with Sauvignon Blanc."],["Universal pairing","A wine that suits many dishes: Champagne, Riesling, Pinot Noir, dry rosé."],["Pairing flight","A set of small pours matched course by course to a menu."]],
 quiz:[
 [1,"Sweet food makes a dry wine taste:","More acidic and bitter, less fruity",["Sweeter, softer and rounder","Softer and less tannic","More alcoholic and warming"],"Wine must be at least as sweet as the dish."],
 [1,"Which food component makes wine taste softer and less bitter?","Salt",["Sweetness","Umami","Bitterness"],"Salt is the easiest component to pair."],
@@ -215,7 +285,14 @@ quiz:[
 [2,"Umami-rich dishes pair best with:","Low-tannin, fruity wines",["Highly tannic young reds","Bone-dry Fino only","Oaky Chardonnay always"],"Umami hardens tannin."],
 [1,"The classic pairing for Stilton is:","Vintage Port",["Muscadet","Beaujolais","Prosecco"],"Contrast of salt and sweet."],
 [2,"Acidity in food makes wine taste:","Less acidic, fruitier",["More acidic and thinner","More tannic and drier","More bitter and hot"],"So the wine needs at least as much acid as the food."],
-[2,"A good wine for spicy Thai green curry:","Off-dry German Riesling Kabinett",["Barossa Shiraz at 15% alcohol","Amarone della Valpolicella","Young, tannic Barolo"],"Low alcohol, sweetness and acid tame the heat."]
+[2,"A good wine for spicy Thai green curry:","Off-dry German Riesling Kabinett",["Barossa Shiraz at 15% alcohol","Amarone della Valpolicella","Young, tannic Barolo"],"Low alcohol, sweetness and acid tame the heat."],
+[2,"In most dishes, which element should drive the wine choice?","The sauce or cooking method",["The protein alone","The side vegetable","The plate's color"],"Chicken in cream and chicken in tomato need different wines."],
+[2,"Fried food pairs best with:","Bubbles and high acid",["Heavy oak","High tannin","High alcohol"],"Carbonation and acid cut through oil."],
+[2,"A red wine that works with seared tuna is:","Pinot Noir",["Young Cabernet Sauvignon","Tannat","Barolo"],"Low tannin avoids the metallic clash with fish."],
+[2,"Why does sake flatter umami-rich food?","It has no tannin to clash",["It is very high in acid","It is always served sweet","It is lightly carbonated"],"No tannin, low acid and plenty of amino acids: nothing in sake turns bitter against umami."],
+[2,"Which is one of the four 'universal' pairing wines?","Dry Riesling",["Oaked Chardonnay","Amarone","Zinfandel"],"Champagne, Riesling, Pinot Noir and dry rosé: high acid, modest tannin, little oak."],
+[2,"Seven courses at about 3 oz each total roughly:","Three-quarters of a bottle",["One glass","Two bottles","A quarter of a bottle"],"About 20 oz of a 25-oz bottle, so keep alcohol modest early."],
+[2,"Braised short rib calls for:","A full, mature red",["A light, unoaked white","A dry sparkling wine","An off-dry rosé"],"Rich, deep dishes need wines of equal weight."]
 ]});
 
 L.push({id:"s5", unit:"S1", title:"The Business of the Sommelier", mins:15,
@@ -243,17 +320,54 @@ body:`
 <li>Every entry needs: producer, wine/appellation, vintage, and accurate spelling. Typical list-correction errors on CMS exams: wrong region (Barolo listed under Tuscany), wrong grape (Sancerre listed as Chardonnay), wrong appellation for a château (Château Margaux under Pauillac), wrong or missing vintages, and misspellings.</li>
 <li>Offer a range of prices in every section; flag by-the-glass and half bottles; match the menu.</li></ul>
 <h3>Ordering beer and other stock</h3>
-<p>CMS Certified includes problems like estimating keg orders: if 500 covers order beer at a given rate and a half-barrel keg (15.5 gallons) yields about 165 twelve-ounce pours, how many kegs do you need? Work it step by step, round up, and add a buffer.</p>`,
+<p>CMS Certified includes problems like estimating keg orders: if 500 covers order beer at a given rate and a half-barrel keg (15.5 gallons) yields about 165 twelve-ounce pours, how many kegs do you need? Work it step by step, round up, and add a buffer.</p>
+<h3>Markup, margin and cost: three views of one bottle</h3>
+<p>A bottle costs $25 and sells for $75. That is a <b>3x markup</b> (price divided by cost), a <b>cost percentage of 33%</b> (cost divided by price), a <b>gross margin of 67%</b> and a <b>cash margin of $50</b>. Exams switch between these terms to see whether you can.</p>
+<h3>A sliding scale, worked</h3>
+<table class="t"><tr><th>Bottle cost</th><th>Multiple</th><th>List price</th><th>Cost %</th><th>Cash margin</th></tr>
+<tr><td>$10</td><td>4x</td><td>$40</td><td>25%</td><td>$30</td></tr>
+<tr><td>$25</td><td>3x</td><td>$75</td><td>33%</td><td>$50</td></tr>
+<tr><td>$60</td><td>2.5x</td><td>$150</td><td>40%</td><td>$90</td></tr>
+<tr><td>$150</td><td>2x</td><td>$300</td><td>50%</td><td>$150</td></tr></table>
+<p>The percentage gets worse as the price climbs and the dollars get better. An owner who watches only cost percentage will push you to sell cheap wine. Show the cash.</p>
+<h3>Spirits, cocktails and kegs</h3>
+<ul><li>A 750 ml bottle (25.4 oz) gives <b>16</b> full pours of 1.5 oz. A liter (33.8 oz) gives <b>22</b>.</li>
+<li><b>Cocktail costing:</b> a Manhattan with 2 oz of bourbon from a $30 liter ($0.89 an ounce) costs $1.78; 1 oz of vermouth from a $12 bottle adds $0.47; bitters and a cherry add about $0.25. Total $2.50. At a 20% target the drink sells for $12.50.</li>
+<li>A half-barrel keg holds 15.5 gallons, or 1,984 oz: about <b>165</b> twelve-ounce pours or <b>124</b> pints, before foam and waste.</li></ul>
+<h3>What over-pouring costs</h3>
+<p>A $30 bottle poured at 5 oz gives five glasses at $6 each. Poured at 6 oz it gives a little over four, at about $7.10 each. Cost per glass rises by 20%, and an $18 glass moves from a 33% pour cost to 39%. Across a year of by-the-glass sales that gap is often the difference between hitting and missing budget. Marked glassware or measured carafes fix it.</p>
+<h3>Variance, worked</h3>
+<p>The point-of-sale system shows 120 glasses of the house Chablis sold this month. At 5 oz that is 600 oz, or 23.6 bottles. The cellar count shows 26 bottles gone. The <b>variance</b> is 2.4 bottles, about 10%. The usual causes, in order: over-pouring, unrecorded staff tastings and comps, breakage, spoilage, theft. A variance under about 2 to 3% is good housekeeping.</p>
+<h3>Inventory turnover</h3>
+<p><b>Turnover = annual COGS ÷ average inventory value.</b> A program with $120,000 of yearly wine cost and $30,000 sitting in the cellar turns four times a year, or about 91 days of stock on hand. A bistro should turn faster; a restaurant that cellars wine to maturity turns far slower, on purpose, and needs the capital to do it. Stock that has not sold in 90 days is dead money: feature it by the glass, pair it on a menu, or teach the staff to sell it.</p>
+<h3>Where the losses hide</h3>
+<ul><li><b>Comps and tastings:</b> record every one. Unrecorded generosity looks exactly like theft in the numbers.</li>
+<li><b>Spoilage:</b> open bottles past their life; corked bottles not returned for credit.</li>
+<li><b>Receiving errors:</b> wrong vintage, short cases, a price that changed without notice.</li>
+<li><b>Pricing drift:</b> wholesale costs rise and the list price doesn't.</li></ul>
+<h3>Doing the math in an exam</h3>
+<ul><li>Write the formula, then the numbers, then the answer with its unit.</li>
+<li>Round prices to a sensible figure and say so: $18.18 becomes $18.</li>
+<li>When ordering stock, always round <b>up</b>: you cannot buy 3.2 kegs.</li>
+<li>Sanity-check: a glass should cost the guest roughly what the bottle cost you.</li></ul>`,
 floor:`<p>The Advanced practical includes a "Business of the Sommelier" component. Practice the Service Floor math drills here until each takes under a minute.</p>`,
 analyst:`<p>Diploma D2 (Wine Business, 10% of the Diploma) covers route to market, pricing structures, the three-tier system in the US, branding and marketing. MW Theory Paper 4 is the business of wine.</p>`,
-terms:[["COGS","Beginning inventory + purchases - ending inventory."],["Cost percentage","COGS divided by sales."],["Pour cost","Cost per pour divided by the glass price."],["Par level","Target stock level for an item."],["FIFO","First in, first out inventory rotation."]],
+terms:[["COGS","Beginning inventory + purchases - ending inventory."],["Cost percentage","COGS divided by sales."],["Pour cost","Cost per pour divided by the glass price."],["Par level","Target stock level for an item."],["FIFO","First in, first out inventory rotation."],["Markup","Price divided by cost, as a multiple."],["Gross margin","The share of the price left after the cost of the wine."],["Cash margin","Dollars earned per bottle after its cost."],["Variance","The gap between stock that should have been used and stock actually used."],["Inventory turnover","Annual cost of goods sold divided by average inventory value."],["Dead stock","Inventory that has not sold in about 90 days."]],
 quiz:[
 [2,"Bottle cost $30, 5 pours per bottle, 33% pour cost. Price per glass?","About $18",["About $10","About $25","About $6"],"$6 per pour / 0.33 = $18.18. From the CMS Certified exam guide style."],
 [2,"Beginning inventory $30,000, purchases $10,000, ending inventory $28,000. COGS is:","$12,000",["$8,000","$48,000","$68,000"],"COGS = beginning inventory + purchases - ending inventory = 30,000 + 10,000 - 28,000. Cost % = COGS ÷ sales."],
 [2,"Which scenario lowers reported COGS?","Overstating ending inventory",["Understating ending inventory","Buying more wine","Selling more wine at cost"],"A counting error that flatters margins."],
 [2,"A bottle costs $20. At a 25% target cost, the list price is:","$80",["$45","$25","$100"],"List price = cost ÷ target cost percentage: $20 ÷ 0.25 = $80."],
 [1,"How many ounces in a standard 750 ml bottle?","25.4",["12.7","33.8","16"],"375 ml is 12.7 oz."],
-[3,"On a wine list, 'Château Margaux, Pauillac' is an error because:","Château Margaux is in the Margaux appellation",["Château Margaux makes only white wine","Château Margaux is a second wine","Château Margaux is in Pomerol"],"A typical CMS list-correction item."]
+[3,"On a wine list, 'Château Margaux, Pauillac' is an error because:","Château Margaux is in the Margaux appellation",["Château Margaux makes only white wine","Château Margaux is a second wine","Château Margaux is in Pomerol"],"A typical CMS list-correction item."],
+[2,"A wine costs $25 and sells for $75. Its cost percentage is:","33%",["25%","67%","300%"],"Cost divided by price. The gross margin is 67% and the markup is 3x."],
+[2,"A liter bottle of spirit gives how many full 1.5-oz pours?","22",["16","25","33"],"33.8 oz divided by 1.5. A 750 ml bottle gives 16."],
+[2,"A half-barrel keg yields about how many 16-oz pints?","124",["64","165","248"],"1,984 oz divided by 16. It gives about 165 twelve-ounce pours."],
+[2,"Pouring 6 oz instead of 5 raises the cost of each glass by about:","20%",["5%","10%","50%"],"One more ounce on five is a fifth more wine."],
+[3,"Annual wine COGS is $120,000 and average inventory is $30,000. Turnover is:","4 times a year",["2.5 times a year","12 times a year","0.25 times a year"],"COGS divided by average inventory: about 91 days of stock on hand."],
+[2,"Sales records say 23.6 bottles should be gone; 26 are. The gap is called:","Variance",["Shrink wrap","Par","Depletion allowance"],"About 10% here; under 2 to 3% is good housekeeping."],
+[2,"Which bottle earns the most cash on the sliding scale?","A $150 bottle at 2x",["A $10 bottle at 4x","A $25 bottle at 3x","A $60 bottle at 2.5x"],"$150 of margin against $30, $50 and $90. Percentage falls; dollars rise."],
+[3,"A cocktail's ingredients cost $2.50. At a 20% cost target it sells for:","$12.50",["$5.00","$7.50","$25.00"],"Cost divided by target percentage."]
 ]});
 
 // ---------- S2 BEYOND WINE ----------
