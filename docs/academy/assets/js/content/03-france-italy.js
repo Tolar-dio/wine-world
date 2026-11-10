@@ -101,10 +101,45 @@ body:`
 <h3>Other Champagne-region wines</h3>
 <p><b>Coteaux Champenois</b> (still wines, e.g., Bouzy Rouge) and <b>Rosé des Riceys</b> (still rosé from Pinot Noir in the Aube).</p>
 <h3>France's other sparkling wines</h3>
-<p>Eight <b>Crémant</b> AOCs use the traditional method with at least 9 months on lees: Alsace, Bourgogne, Loire, Limoux, Jura, Die, Bordeaux, Savoie. <b>Blanquette de Limoux</b> (Mauzac) claims a 1531 date, older than Champagne's sparkling tradition.</p>`,
+<p>Eight <b>Crémant</b> AOCs use the traditional method with at least 9 months on lees: Alsace, Bourgogne, Loire, Limoux, Jura, Die, Bordeaux, Savoie. <b>Blanquette de Limoux</b> (Mauzac) claims a 1531 date, older than Champagne's sparkling tradition.</p>
+<h3>How Champagne became sparkling</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>816 to 1825</td><td>French kings are crowned at Reims, which makes the local wine the wine of court</td></tr>
+<tr><td>1662</td><td>The English physician Christopher Merret describes adding sugar to wine to make it sparkle. England also had the coal-fired glass strong enough to hold it</td></tr>
+<tr><td>1728</td><td>A royal decree allows wine to be shipped in bottle; the first houses follow within a year</td></tr>
+<tr><td>1836</td><td>A pharmacist, André François, publishes a way to measure the sugar needed for the second fermentation. Fewer bottles explode</td></tr>
+<tr><td>1890s</td><td>Phylloxera arrives</td></tr>
+<tr><td>1911</td><td>Growers riot over which districts may call their wine Champagne. The Aube is first excluded, then let back in</td></tr>
+<tr><td>1927, 1936</td><td>The boundary is fixed in law; Champagne becomes an AOC</td></tr>
+<tr><td>1941</td><td>The Comité Champagne (CIVC) is founded to govern growers and houses together</td></tr></table>
+<h3>The ground and the grapes</h3>
+<ul><li>About 34,000 hectares in 319 villages (crus). Pinot Noir covers 38%, Meunier 31% and Chardonnay nearly all the rest.</li>
+<li>The best slopes of the Côte des Blancs and the Montagne de Reims sit on <b>belemnite chalk</b>, named for a fossil squid. The Côte des Bar is on Kimmeridgian marl, the same rock as Chablis.</li>
+<li>The old Roman chalk quarries under Reims, the <b>crayères</b>, are now cellars at a constant 50 to 54°F.</li></ul>
+<table class="t"><tr><th>Grape</th><th>What it brings to a blend</th></tr>
+<tr><td>Chardonnay</td><td>Acidity, citrus, finesse and the longest life</td></tr>
+<tr><td>Pinot Noir</td><td>Body, structure and red fruit</td></tr>
+<tr><td>Meunier</td><td>Fruit and roundness early; it buds late, so it dodges frost</td></tr></table>
+<h3>The 17 Grand Cru villages</h3>
+<ul><li><b>Montagne de Reims (9):</b> Ambonnay, Beaumont-sur-Vesle, Bouzy, Louvois, Mailly-Champagne, Puisieulx, Sillery, Verzenay, Verzy.</li>
+<li><b>Vallée de la Marne (2):</b> Aÿ, Tours-sur-Marne.</li>
+<li><b>Côte des Blancs (6):</b> Avize, Chouilly, Cramant, Le Mesnil-sur-Oger, Oger, Oiry.</li></ul>
+<p>In Champagne the rank belongs to the <b>village</b>, not the vineyard. That is the opposite of Burgundy.</p>
+<h3>Protecting the name</h3>
+<ul><li>Only wine from the region may be called Champagne in the EU and most of the world.</li>
+<li>"Méthode champenoise" has been banned on other EU wines since 1994; they say "traditional method".</li>
+<li>In the United States, a handful of brands that used "Champagne" before 2006 may keep it, with the true origin beside it: "California Champagne".</li></ul>
+<h3>At the table</h3>
+<table class="t"><tr><th>Style</th><th>Works with</th></tr>
+<tr><td>Brut non-vintage</td><td>Apéritif, oysters, anything fried or salty: acid and bubbles cut fat</td></tr>
+<tr><td>Blanc de Blancs</td><td>Shellfish, sushi, caviar</td></tr>
+<tr><td>Vintage, Blanc de Noirs</td><td>Roast chicken, veal, mushrooms, aged Comté</td></tr>
+<tr><td>Rosé</td><td>Salmon, duck, charcuterie</td></tr>
+<tr><td>Demi-Sec</td><td>Fruit desserts. Brut with cake tastes sour</td></tr></table>
+<p>Non-vintage is ready on release and keeps two or three years. Good vintage wine improves for ten to twenty.</p>`,
 floor:`<p>Sparkling service is a guaranteed CMS practical task. Know serving temperature (42-50°F), fill to no more than three-quarters in two pours, and open with a sigh, never a pop. Grower producers to name: Egly-Ouriet, Pierre Péters, Jacques Selosse, Chartogne-Taillet, Bérêche.</p>`,
 analyst:`<p>WSET Level 3 LO3 covers Champagne sub-regions, labeling terms (NV, vintage, BdB, BdN, rosé, sweetness) and why the climate suits sparkling (high acid, low sugar base wines). Diploma D4 goes into house styles and the economics of grapes versus brands.</p>`,
-terms:[["Assemblage","Blending base wines into a cuvée."],["NM","Négociant-manipulant: a house that buys grapes."],["RM","Récoltant-manipulant: grower Champagne."],["Blanc de Blancs","Sparkling wine from white grapes only."],["Crémant","French traditional-method sparkling wine outside Champagne, 9 months minimum on lees."]],
+terms:[["Assemblage","Blending base wines into a cuvée."],["NM","Négociant-manipulant: a house that buys grapes."],["RM","Récoltant-manipulant: grower Champagne."],["Blanc de Blancs","Sparkling wine from white grapes only."],["Crémant","French traditional-method sparkling wine outside Champagne, 9 months minimum on lees."],["Crayères","Roman chalk quarries under Reims, now used as cellars."],["Belemnite chalk","The chalk of Champagne's best slopes, named for a fossil squid."],["CIVC","The Comité Champagne, founded in 1941 to govern growers and houses."],["Semi-generic","US legal term that lets a few old brands keep names such as Champagne."]],
 quiz:[
 [1,"Which sub-region is best known for Chardonnay?","Côte des Blancs",["Montagne de Reims","Vallée de la Marne","Côte des Bar"],"Cramant, Avize, Oger, Le Mesnil."],
 [1,"'RM' on a Champagne label means:","A grower making wine from their own grapes",["A large house buying in most of its grapes","A cooperative selling its members' wine","A brand owned by a retailer or restaurant"],"Récoltant-manipulant."],
@@ -112,7 +147,14 @@ quiz:[
 [2,"Which grape dominates the Vallée de la Marne?","Meunier",["Chardonnay","Pinot Blanc","Arbane"],"Late budding, frost-resistant."],
 [2,"Rosé des Riceys is:","A still rosé from the Aube",["A sparkling rosé from Reims","A Loire rosé","A sweet wine"],"One of the rare still Champagne AOCs."],
 [3,"How many Champagne villages are rated Grand Cru?","17",["7","33","51"],"Under the old échelle des crus."],
-[2,"Minimum lees aging for Crémant:","9 months",["3 months","15 months","24 months"],"Champagne requires 12 for NV."]
+[2,"Minimum lees aging for Crémant:","9 months",["3 months","15 months","24 months"],"Champagne requires 12 for NV."],
+[2,"Who described adding sugar to make wine sparkle in 1662?","Christopher Merret",["Dom Pierre Pérignon","Jean-Antoine Chaptal","André François"],"An English physician, writing before Dom Pérignon became cellarmaster."],
+[2,"In a Champagne blend, Meunier mainly contributes:","Early fruit and roundness",["Acidity and very long life","Deep color and firm tannin","Toast and brioche notes"],"It also buds late, which helps it avoid frost."],
+[2,"Which of these is a Grand Cru village of the Côte des Blancs?","Avize",["Bouzy","Verzenay","Ambonnay"],"The other three are Pinot Noir villages on the Montagne de Reims."],
+[2,"The 1911 Champagne riots were sparked by:","Disputes over the region's boundary",["A new tax on sugar and glass bottles","The first arrival of phylloxera","A ban on riddling by hand"],"The Aube was excluded, then readmitted."],
+[2,"On EU wines from outside Champagne, the phrase 'méthode champenoise' has been:","Banned since 1994",["Required since 1936","Limited to Crémant","Reserved for Cava"],"They use 'traditional method' instead."],
+[3,"The chalk of Champagne's best slopes is named for which fossil?","Belemnite",["Ammonite","Trilobite","Exogyra virgula"],"Exogyra virgula is the small oyster of Kimmeridgian marl."],
+[2,"Pinot Noir covers about what share of Champagne's vineyard?","38%",["8%","58%","78%"],"Meunier is 31% and Chardonnay nearly all the rest."]
 ]});
 
 L.push({id:"r4", unit:"R1", title:"Loire, Alsace and Jura", mins:18,
@@ -134,10 +176,48 @@ body:`
 <li><b>Edelzwicker</b>: blend of grapes. Producers: Trimbach, Zind-Humbrecht, Hugel, Weinbach, Marcel Deiss.</li></ul>
 <p>The tricky part for guests: sweetness varies and labels didn't always say. Ask, or know the producer's style.</p>
 <h3>Jura and Savoie</h3>
-<p><b>Jura:</b> <b>Vin Jaune</b>, from Savagnin kept in barrel without topping up until the sixth December after harvest, with at least 60 months under a flor-like veil (<i>sous voile</i>) without topping up, bottled in the 62 cl <b>clavelin</b>. Nutty, curry spice, walnut, like a Fino with more weight. <b>Château-Chalon</b> is Vin Jaune only. Also Vin de Paille (dried grapes), and light reds from Poulsard and Trousseau. <b>Savoie:</b> alpine whites from Jacquère, Altesse, Roussanne (Bergeron); reds from Mondeuse.</p>`,
+<p><b>Jura:</b> <b>Vin Jaune</b>, from Savagnin kept in barrel without topping up until the sixth December after harvest, with at least 60 months under a flor-like veil (<i>sous voile</i>) without topping up, bottled in the 62 cl <b>clavelin</b>. Nutty, curry spice, walnut, like a Fino with more weight. <b>Château-Chalon</b> is Vin Jaune only. Also Vin de Paille (dried grapes), and light reds from Poulsard and Trousseau. <b>Savoie:</b> alpine whites from Jacquère, Altesse, Roussanne (Bergeron); reds from Mondeuse.</p>
+<h3>Chenin Blanc, decoded</h3>
+<p>Chenin makes every style from one grape, and the vintage decides which. In a cool year Vouvray is mostly dry and sparkling; in a warm one, sweet.</p>
+<table class="t"><tr><th>Term</th><th>Style</th></tr>
+<tr><td>Sec</td><td>Dry</td></tr>
+<tr><td>Sec-tendre</td><td>Dry in balance but with a little sugar; an unofficial term</td></tr>
+<tr><td>Demi-sec</td><td>Off-dry</td></tr>
+<tr><td>Moelleux</td><td>Sweet</td></tr>
+<tr><td>Liquoreux</td><td>Very sweet, usually botrytized</td></tr>
+<tr><td>Pétillant, mousseux</td><td>Lightly and fully sparkling</td></tr></table>
+<p><b>In the glass:</b> quince, bruised apple, chamomile, honey and wet wool, with very high acidity at every sweetness level. Good examples live for fifty years. Its old local name is Pineau de la Loire.</p>
+<h3>Loire reds and the soil under them</h3>
+<ul><li><b>Cabernet Franc:</b> raspberry, violet, pencil shavings and a green-pepper note. Light to medium body; serve it slightly cool.</li>
+<li><b>Tuffeau</b>, the soft limestone the châteaux are built of, gives the structured, long-lived wines. Gravel and sand by the rivers give light ones for drinking young.</li>
+<li>The caves cut to quarry tuffeau are now cellars, which is one reason Saumur is France's second sparkling-wine centre.</li></ul>
+<h3>Alsace in the glass</h3>
+<table class="t"><tr><th>Grape</th><th>Markers</th></tr>
+<tr><td>Riesling</td><td>Dry, steely, lime and peach; fuller and higher in alcohol than the Mosel</td></tr>
+<tr><td>Gewurztraminer</td><td>Lychee, rose, ginger; low acid, oily, often off-dry; pink-skinned</td></tr>
+<tr><td>Pinot Gris</td><td>Smoke, honey, mushroom; rich and broad</td></tr>
+<tr><td>Muscat</td><td>Smells of fresh grapes but tastes dry</td></tr>
+<tr><td>Pinot Blanc, Auxerrois</td><td>Soft, apple, simple; the base of most Crémant</td></tr>
+<tr><td>Sylvaner</td><td>Light, herbal, earthy</td></tr>
+<tr><td>Pinot Noir</td><td>The only red; pale to Burgundy-like</td></tr></table>
+<p>Alsace became French in 1648, German from 1871 to 1918, and again from 1940 to 1945. It received its AOC only in 1962, and the first Grand Cru in 1975.</p>
+<h3>The classic regional matches</h3>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Muscadet</td><td>Oysters</td></tr>
+<tr><td>Sancerre</td><td>Crottin de Chavignol, the local goat cheese</td></tr>
+<tr><td>Chinon</td><td>Roast chicken, charcuterie, rillettes</td></tr>
+<tr><td>Demi-sec Vouvray</td><td>Pork with cream, rich fish, spicy food</td></tr>
+<tr><td>Alsace Riesling</td><td>Choucroute garnie</td></tr>
+<tr><td>Gewurztraminer</td><td>Munster cheese</td></tr>
+<tr><td>Dry Muscat</td><td>Asparagus</td></tr>
+<tr><td>Pinot Gris Vendanges Tardives</td><td>Foie gras</td></tr>
+<tr><td>Vin Jaune</td><td>Comté; chicken with morels</td></tr></table>
+<h3>Two Jura words</h3>
+<ul><li><b>Ouillé:</b> the barrel was topped up, so no veil formed. The wine is fresh, like Burgundy.</li>
+<li><b>Sous voile</b> or "tradition": not topped up, nutty and savory, the family of Vin Jaune.</li></ul>`,
 floor:`<p>CMS Certified examines Chenin Blanc from Vouvray (demi-sec/off-dry), Sauvignon Blanc from Sancerre/Pouilly-Fumé, Cabernet Franc from Chinon/Bourgueil, and Gewurztraminer from Alsace. Pairing gold: Muscadet with oysters, Sancerre with goat cheese (Crottin de Chavignol is from the Sancerre hills), Alsace Gewurztraminer with Munster or spicy Asian dishes.</p>`,
 analyst:`<p>WSET Level 3 explanation: "Why can Alsace ripen grapes fully so far north?" Rain shadow of the Vosges (dry, sunny), long autumns, east-facing foothill slopes, and warm soils. Each point linked to ripeness earns a mark.</p>`,
-terms:[["Sur lie","Aged on lees; Muscadet's key quality designation."],["Moelleux","French term for medium-sweet to sweet."],["Clavelin","62 cl bottle for Vin Jaune."],["Sous voile","Aging under a yeast veil (Jura)."],["Vendanges Tardives","Late-harvest wine in Alsace."]],
+terms:[["Sur lie","Aged on lees; Muscadet's key quality designation."],["Moelleux","French term for medium-sweet to sweet."],["Clavelin","62 cl bottle for Vin Jaune."],["Sous voile","Aging under a yeast veil (Jura)."],["Vendanges Tardives","Late-harvest wine in Alsace."],["Tuffeau","Soft Loire limestone; quarried for châteaux and used for cellars."],["Ouillé","Topped up: a Jura white made without a yeast veil."],["Sec-tendre","Unofficial Loire term for Chenin with a little sugar but a dry balance."],["Pineau de la Loire","Old local name for Chenin Blanc."],["Choucroute garnie","Alsace dish of sauerkraut with pork and sausages; the classic match for Riesling."]],
 quiz:[
 [1,"Muscadet is made from:","Melon de Bourgogne",["Chenin Blanc","Sauvignon Blanc","Folle Blanche"],"Sur lie aging adds texture."],
 [1,"Red Sancerre is made from:","Pinot Noir",["Cabernet Franc","Gamay","Malbec"],"Sancerre whites are Sauvignon Blanc."],
@@ -146,7 +226,15 @@ quiz:[
 [1,"Chinon is primarily:","Cabernet Franc",["Chenin Blanc","Pinot Noir","Merlot"],"Raspberry, violet, graphite, green pepper."],
 [2,"Vin Jaune may not be sold until how long after harvest?","A little over six years",["Two years","Three and a half years","Ten years"],"It stays in barrel until the sixth December, with at least 60 months under the veil, and goes on sale the following January in the 62 cl clavelin."],
 [2,"Rosé d'Anjou's principal grape is:","Grolleau",["Cabernet Franc","Gamay","Pinot Noir"],"Official WSET Level 3 sample question."],
-[3,"Coulée de Serrant is a monopole in which appellation?","Savennières",["Vouvray","Chinon","Montlouis"],"Owned by biodynamic pioneer Nicolas Joly."]
+[3,"Coulée de Serrant is a monopole in which appellation?","Savennières",["Vouvray","Chinon","Montlouis"],"Owned by biodynamic pioneer Nicolas Joly."],
+[2,"The textbook regional pairing for Sancerre is:","Crottin de Chavignol",["Munster from the Vosges","Comté","Roquefort"],"The goat cheese comes from the same hills."],
+[2,"Choucroute garnie is the classic Alsace dish for:","Riesling",["Gewurztraminer","Pinot Noir","Muscat"],"Its acidity cuts the pork and stands up to the sauerkraut."],
+[2,"In the Loire, tuffeau is:","A soft limestone",["A flinty clay","A river gravel","A wind-blown volcanic ash"],"It was quarried for the châteaux, leaving caves used as cellars."],
+[2,"Alsace received its AOC in:","1962",["1855","1936","2007"],"The first Grand Cru followed in 1975."],
+[2,"'Ouillé' on a Jura white means the barrel was:","Topped up, so no veil formed",["Left under a veil of yeast","Filled with dried grapes","Fortified with young grape spirit"],"The opposite style is sous voile."],
+[2,"'Sec-tendre' describes a Chenin Blanc that is:","Dry in balance, with a little sugar",["Bone dry and sparkling","Fully sweet and affected by noble rot","Fortified and oxidative"],"An unofficial term used in Vouvray and Montlouis."],
+[2,"Which Alsace grape smells of fresh grapes yet is usually made dry?","Muscat",["Riesling","Pinot Gris","Sylvaner"],"It is the classic answer to asparagus."],
+[3,"Chenin Blanc's old name in its home region is:","Pineau de la Loire",["Melon de Bourgogne","Gros Plant","Breton"],"Breton is the local name for Cabernet Franc."]
 ]});
 
 L.push({id:"r5", unit:"R1", title:"The Rhône and Southern France", mins:18,
@@ -173,10 +261,46 @@ body:`
 <h3>Languedoc-Roussillon</h3>
 <p>France's largest vineyard area, once known for bulk wine, now a source of value and ambition. Corbières, Minervois (La Livinière), Faugères, Saint-Chinian, Pic Saint-Loup, Terrasses du Larzac; <b>Picpoul de Pinet</b> (tangy white); <b>Limoux</b> (sparkling). Roussillon: <b>Banyuls</b> and <b>Maury</b> (Grenache VDNs, oxidative or fruity styles), <b>Rivesaltes</b>, <b>Muscat de Rivesaltes</b>, and Collioure. IGP <b>Pays d'Oc</b> is France's big varietal-label category.</p>
 <h3>South West France</h3>
-<p><b>Cahors</b> (Malbec, called Côt; the "black wine"), <b>Madiran</b> (Tannat; micro-oxygenation was invented here in 1991), <b>Jurançon</b> (Petit and Gros Manseng, dry or sweet), <b>Bergerac, Monbazillac</b> (Bordeaux-like reds and Sauternes-like sweets), <b>Gaillac</b>, and Côtes de Gascogne IGP (Colombard, Ugni Blanc; also Armagnac country).</p>`,
+<p><b>Cahors</b> (Malbec, called Côt; the "black wine"), <b>Madiran</b> (Tannat; micro-oxygenation was invented here in 1991), <b>Jurançon</b> (Petit and Gros Manseng, dry or sweet), <b>Bergerac, Monbazillac</b> (Bordeaux-like reds and Sauternes-like sweets), <b>Gaillac</b>, and Côtes de Gascogne IGP (Colombard, Ugni Blanc; also Armagnac country).</p>
+<h3>The grapes in the glass</h3>
+<table class="t"><tr><th>Grape</th><th>Markers</th></tr>
+<tr><td>Syrah (north)</td><td>Black pepper, black olive, smoked bacon, violet, blackberry; firm fine tannin; often only 12.5 to 13.5%</td></tr>
+<tr><td>Grenache</td><td>Strawberry jam, white pepper, dried herbs; pale for its weight, low in tannin, 14.5% and more</td></tr>
+<tr><td>Mourvèdre</td><td>Game, leather, black fruit, heavy tannin; ripens very late and needs heat</td></tr>
+<tr><td>Carignan</td><td>High acid, high tannin, dark; best from old vines</td></tr>
+<tr><td>Cinsault</td><td>Pale, perfumed, soft; the backbone of rosé</td></tr>
+<tr><td>Viognier</td><td>Apricot, peach blossom, oily texture, low acid, high alcohol; drink young</td></tr>
+<tr><td>Marsanne</td><td>Almond, wax, honeysuckle; broad, and it ages</td></tr>
+<tr><td>Roussanne</td><td>Pear, herbal tea, more acidity and perfume than Marsanne</td></tr></table>
+<p><b>GSM</b> is the trade's shorthand for a southern blend: Grenache for fruit and alcohol, Syrah for color and pepper, Mourvèdre for tannin and savor. <b>Garrigue</b> is the wild thyme, rosemary and lavender scrub of the south, and the word for that smell in the wine.</p>
+<h3>A short history</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>About 600 BC</td><td>Greeks found Massalia (Marseille) and bring the vine to France</td></tr>
+<tr><td>1309 to 1377</td><td>The popes live at Avignon. John XXII builds the summer castle that names Châteauneuf-du-Pape</td></tr>
+<tr><td>1737</td><td>A royal decree orders casks from the right bank branded "CDR", the origin of Côtes du Rhône</td></tr>
+<tr><td>1800s</td><td>Bordeaux merchants quietly add Hermitage to their wines to strengthen them</td></tr>
+<tr><td>1860s</td><td>Phylloxera is first seen in France, in the southern Rhône</td></tr>
+<tr><td>1923, 1936</td><td>Baron Le Roy's rules for Châteauneuf; it becomes one of the first AOCs</td></tr></table>
+<h3>Winds of the south</h3>
+<ul><li><b>Mistral:</b> cold and dry, down the Rhône valley from the north. It keeps vines healthy and can snap shoots.</li>
+<li><b>Tramontane:</b> its dry northwesterly cousin in the Languedoc and Roussillon.</li>
+<li><b>Marin:</b> humid, off the Mediterranean; it brings rot.</li></ul>
+<h3>Serving and pairing</h3>
+<ul><li>Serve Châteauneuf and other Grenache blends at 60 to 65°F. Warmer, the alcohol tastes hot.</li>
+<li>Decant young northern Syrah; it is often closed and a little reductive.</li>
+<li>Drink Condrieu within three or four years.</li></ul>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Northern Rhône Syrah</td><td>Lamb with herbs, grilled beef, game birds</td></tr>
+<tr><td>Gigondas, Châteauneuf</td><td>Beef daube, braised lamb shoulder</td></tr>
+<tr><td>Condrieu</td><td>Lobster, scallops, mild curry</td></tr>
+<tr><td>Tavel</td><td>Charcuterie, grilled peppers, Thanksgiving turkey</td></tr>
+<tr><td>Provence rosé, Cassis blanc</td><td>Bouillabaisse, grilled sardines</td></tr>
+<tr><td>Picpoul de Pinet</td><td>Oysters from the Thau lagoon</td></tr>
+<tr><td>Banyuls, Maury</td><td>Chocolate</td></tr>
+<tr><td>Muscat de Beaumes-de-Venise</td><td>Melon, fruit tarts</td></tr></table>`,
 floor:`<p>CMS Certified examines Syrah from Côte-Rôtie/Saint-Joseph/Crozes and Grenache from Châteauneuf-du-Pape/Gigondas. Producers: Guigal (La Mouline, La Landonne, La Turque), Chave (Hermitage), Jaboulet (La Chapelle), Clape (Cornas), Rayas, Beaucastel, Vieux Télégraphe. Blind: French Syrah = pepper, olive, bacon; Grenache = kirsch, garrigue, warm alcohol, pale for its weight.</p>`,
 analyst:`<p>WSET Level 3 lists the Northern and Southern Rhône appellations by name. A favorite question: compare the climate, grapes and wine styles of the Northern and Southern Rhône. Organize answers by cause (climate, slope, soil) then effect (grape choice, structure).</p>`,
-terms:[["Mistral","Cold, dry northerly wind in the Rhône; reduces disease and cools vines."],["Galets roulés","Large rounded stones in Châteauneuf-du-Pape that store heat."],["Garrigue","Wild herb scrub of southern France (thyme, rosemary, lavender) and its aroma in wine."],["Côt","Local name for Malbec in Cahors."]],
+terms:[["Mistral","Cold, dry northerly wind in the Rhône; reduces disease and cools vines."],["Galets roulés","Large rounded stones in Châteauneuf-du-Pape that store heat."],["Garrigue","Wild herb scrub of southern France (thyme, rosemary, lavender) and its aroma in wine."],["Côt","Local name for Malbec in Cahors."],["GSM","Shorthand for a Grenache, Syrah and Mourvèdre blend."],["Tramontane","Dry northwesterly wind of the Languedoc and Roussillon."],["Marin","Humid wind off the Mediterranean."],["Hermitagé","A Bordeaux strengthened with Hermitage, a 19th-century practice."]],
 quiz:[
 [1,"Côte-Rôtie may include up to 20% of which white grape?","Viognier",["Marsanne","Roussanne","Clairette"],"Co-fermented with Syrah."],
 [1,"Cornas must be:","100% Syrah",["Grenache-dominant","Syrah with Viognier","White only"],"Dark, sturdy and earthy."],
@@ -185,7 +309,15 @@ quiz:[
 [2,"Bandol reds are based on:","Mourvèdre",["Grenache","Syrah","Cinsault"],"At least 50% and 18 months in wood."],
 [2,"Madiran's principal grape is:","Tannat",["Malbec","Fer Servadou","Négrette"],"Very high tannin."],
 [2,"Which Southern Rhône village became a cru in 2016?","Cairanne",["Gigondas","Vacqueyras","Rasteau"],"Gigondas and Vacqueyras are older crus."],
-[3,"Banyuls is a:","Grenache-based Vin Doux Naturel",["Dry Vermentino white from Provence","Mauzac sparkling wine from Limoux","Sweet Petit Manseng from the Pyrenees"],"Pairs famously with chocolate."]
+[3,"Banyuls is a:","Grenache-based Vin Doux Naturel",["Dry Vermentino white from Provence","Mauzac sparkling wine from Limoux","Sweet Petit Manseng from the Pyrenees"],"Pairs famously with chocolate."],
+[2,"Which white Rhône grape is broad, waxy and almond-scented, and ages well?","Marsanne",["Viognier","Clairette","Picpoul"],"Viognier is perfumed and low in acid, and is best young."],
+[2,"The name Côtes du Rhône traces to a 1737 decree ordering casks to be:","Branded with the letters CDR",["Sealed with papal wax","Shipped only from the port of Avignon","Filled with Syrah alone"],"It was an early protection of origin."],
+[2,"The popes lived at Avignon during which years?","1309 to 1377",["1095 to 1150","1492 to 1530","1648 to 1715"],"John XXII built the castle at Châteauneuf."],
+[2,"Picpoul de Pinet's classic partner is:","Oysters",["Cassoulet","Roquefort","Lamb daube"],"The vineyards overlook the oyster beds of the Thau lagoon."],
+[2,"Why serve Châteauneuf-du-Pape at about 60 to 65°F?","Warmth makes its alcohol taste hot",["Cold hides its residual sugar entirely","Its tannin is very low","It is lightly sparkling"],"Grenache blends often pass 14.5%."],
+[2,"In a southern Rhône blend, Mourvèdre mainly adds:","Tannin and savory, gamey depth",["Pale color and strawberry fruit","Sharp acidity and citrus","Sweetness and low alcohol"],"Grenache brings fruit and alcohol; Syrah color and pepper."],
+[2,"The dry northwesterly wind of the Languedoc and Roussillon is the:","Tramontane",["Marin","Sirocco","Levante"],"The Marin is the humid sea wind."],
+[3,"In the 1800s, Bordeaux merchants strengthened their wines by adding:","Hermitage",["Cahors","Banyuls","Madiran"],"Such wines were said to be 'hermitagé'."]
 ]});
 
 // ---------- ITALY ----------

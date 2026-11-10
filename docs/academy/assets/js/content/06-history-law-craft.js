@@ -153,10 +153,46 @@ body:`
 <tr><td>Imbottigliato all'origine / Embotellado en origen</td><td>Bottled at the estate</td></tr>
 <tr><td>Erzeugerabfüllung / Gutsabfüllung</td><td>Producer / estate bottled (Germany)</td></tr>
 <tr><td>Garrafeira (Portugal)</td><td>Long-aged red, a producer's selection</td></tr>
-<tr><td>Superiore, Riserva, Classico</td><td>Higher alcohol/stricter, longer aged, historic core zone</td></tr></table>`,
+<tr><td>Superiore, Riserva, Classico</td><td>Higher alcohol/stricter, longer aged, historic core zone</td></tr></table>
+<h3>What a PDO rulebook controls</h3>
+<p>Every appellation has a written specification (in France, the cahier des charges). It usually fixes seven things:</p>
+<ol><li>The boundary.</li><li>The permitted grapes and their proportions.</li><li>The maximum yield, in hectoliters per hectare.</li><li>Minimum ripeness or alcohol.</li><li>Planting density and pruning.</li><li>Winemaking and minimum aging.</li><li>Analysis and tasting before the wine may use the name.</li></ol>
+<p>France built the model. A 1905 law attacked fraud, a 1919 law drew boundaries, and in <b>1935</b> the body now called the INAO was created to add rules of production.</p>
+<h3>The United States label</h3>
+<ul><li>Labels are approved by the <b>TTB</b>.</li>
+<li>Required: brand, class or type, alcohol, net contents, the bottler's name and address, "contains sulfites", and the government health warning, on every bottle since 1989.</li>
+<li>Stated alcohol may be off by 1.5 points for wines up to 14%, and by 1 point above that.</li>
+<li><b>Estate Bottled:</b> all the fruit comes from vineyards the winery owns or controls, and the winery and vineyards are in the same AVA.</li>
+<li><b>Produced and bottled by:</b> the bottler fermented at least 75% of the wine. "Cellared" or "vinted" and bottled by promises almost nothing.</li>
+<li><b>Reserve</b>, <b>old vine</b> and <b>barrel select</b> have no legal definition.</li></ul>
+<h3>Minimum percentages at a glance</h3>
+<table class="t"><tr><th>Place</th><th>Variety</th><th>Vintage</th><th>Region</th></tr>
+<tr><td>European Union</td><td>85%</td><td>85%</td><td>100% for a PDO; 85% for a PGI</td></tr>
+<tr><td>United States</td><td>75%</td><td>95% with an AVA; 85% otherwise</td><td>85% for an AVA; 75% for a state or county</td></tr>
+<tr><td>Australia, New Zealand, South Africa</td><td>85%</td><td>85%</td><td>85%</td></tr>
+<tr><td>Chile</td><td>75%</td><td>75%</td><td>75% (85% on exports to the EU)</td></tr>
+<tr><td>Argentina</td><td>85%</td><td>85%</td><td>85%</td></tr></table>
+<p>EU sweetness terms for still wine: <b>dry</b> is up to 4 g/L of sugar, or up to 9 g/L when acidity is high enough; <b>medium dry</b> up to 12; <b>medium</b> up to 45; <b>sweet</b> above 45.</p>
+<h3>Words that change meaning by place</h3>
+<table class="t"><tr><th>Term</th><th>Where</th><th>Meaning</th></tr>
+<tr><td>Grand Cru</td><td>Burgundy, Alsace</td><td>A top vineyard</td></tr>
+<tr><td>Grand Cru</td><td>Champagne</td><td>A top village</td></tr>
+<tr><td>Grand Cru</td><td>Saint-Émilion</td><td>An appellation with slightly stricter rules; the ranking is "Grand Cru Classé"</td></tr>
+<tr><td>Premier Cru</td><td>Burgundy</td><td>The second tier of vineyards</td></tr>
+<tr><td>Premier Cru</td><td>The Médoc</td><td>A First Growth, the top tier</td></tr>
+<tr><td>Cru</td><td>Beaujolais, the Rhône</td><td>A village with its own appellation</td></tr>
+<tr><td>Reserva, Riserva</td><td>Spain, Italy</td><td>Legally defined minimum aging</td></tr>
+<tr><td>Reserve, Réserve</td><td>United States, France</td><td>No legal meaning</td></tr>
+<tr><td>Supérieur, Superiore</td><td>Bordeaux, Italy</td><td>Slightly higher alcohol, often lower yields</td></tr>
+<tr><td>Classico</td><td>Italy</td><td>The historic heart of a zone</td></tr></table>
+<h3>Bottle shapes as a first clue</h3>
+<ul><li><b>High shoulders:</b> Bordeaux and its grapes everywhere.</li>
+<li><b>Sloping shoulders:</b> Burgundy, the Rhône, the Loire.</li>
+<li><b>Tall flute:</b> Germany and Alsace. By tradition green glass for the Mosel, brown for the Rhine.</li>
+<li><b>Bocksbeutel</b> for Franken, <b>clavelin</b> for Vin Jaune, a heavy punted bottle for sparkling wine.</li></ul>`,
 floor:`<p>CMS Certified includes label identification items: you're shown a label and asked the style, grape or classification. Use the Label Lab to drill this.</p>`,
 analyst:`<p>WSET Level 3 expects you to explain PDO vs PGI and to interpret label terms (Classico, Riserva, Crianza, Prädikat levels, Grand Cru). Diploma D2 asks you to weigh how labeling rules affect marketing.</p>`,
-terms:[["PDO","Protected Designation of Origin, the EU's strictest GI tier."],["PGI","Protected Geographical Indication; broader rules, 85% from the area."],["AP number","German official testing number on Qualitätswein labels."],["DOCG strip","Numbered government seal on the neck of DOCG wines."],["Mis en bouteille au domaine","Estate bottled."]],
+terms:[["PDO","Protected Designation of Origin, the EU's strictest GI tier."],["PGI","Protected Geographical Indication; broader rules, 85% from the area."],["AP number","German official testing number on Qualitätswein labels."],["DOCG strip","Numbered government seal on the neck of DOCG wines."],["Mis en bouteille au domaine","Estate bottled."],["Cahier des charges","The written specification of a French appellation."],["INAO","The French body that governs appellations, created in 1935."],["TTB","US Alcohol and Tobacco Tax and Trade Bureau, which approves labels."],["Estate Bottled","US term: all fruit from land the winery controls, in the same AVA."],["Grand Cru Classé","A classified estate in Saint-Émilion or the Médoc."]],
 quiz:[
 [1,"In the EU, which tier allows more freedom with grapes and methods?","PGI",["PDO","DOCG","AOC"],"PGI requires at least 85% of grapes from the area."],
 [1,"France's PGI category is:","IGP (Vin de Pays)",["AOC (AOP)","Vin de France","Cru Classé"],"Pays d'Oc is the largest."],
@@ -164,7 +200,15 @@ quiz:[
 [1,"On a Burgundy label, which signals the highest level?","The vineyard name alone",["Bourgogne alone","The village name alone","Village plus 'Vieilles Vignes'"],"A Grand Cru is labeled with the vineyard name only, such as Chambertin or Montrachet, with no village."],
 [2,"Since December 2023, EU wine labels must provide:","Ingredients and nutrition information",["The producer's sustainability rating","The carbon footprint of the bottle","Residual sugar in grams per liter"],"Required for wines made after 8 December 2023; much of it may sit behind a QR code."],
 [2,"'Erzeugerabfüllung' on a German label means:","Producer bottled",["Late harvested","Fermented dry","From old vines"],"Gutsabfüllung means estate bottled."],
-[3,"The New World GI model mainly regulates:","Where the grapes come from",["Maximum yields and permitted grapes","Minimum aging before release","Vine density and pruning method"],"Varietal labeling is the norm."]
+[3,"The New World GI model mainly regulates:","Where the grapes come from",["Maximum yields and permitted grapes","Minimum aging before release","Vine density and pruning method"],"Varietal labeling is the norm."],
+[2,"On a US label, 'Estate Bottled' requires fruit that is:","All from land the winery controls",["75% from the named county","From any vineyard in the same state","From vines over 50 years old"],"And the winery and vineyards must share an AVA."],
+[2,"In Saint-Émilion, plain 'Grand Cru' on a label is:","An appellation, not a ranking",["The top rank of the classification","A single-vineyard designation","A term reserved for sweet wine"],"The classified estates say 'Grand Cru Classé'."],
+[2,"US wine labels have carried a government health warning since:","1989",["1933","1976","2006"],"It is required on every bottle sold in the country."],
+[2,"Which term has no legal definition on an American wine label?","Reserve",["Estate Bottled","Vintage date","AVA name"],"Old vine and barrel select are undefined too."],
+[2,"France's INAO, which added production rules to appellation law, dates from:","1935",["1855","1905","1973"],"The 1919 law had drawn boundaries only."],
+[3,"An EU still wine labeled 'dry' normally has no more than:","4 g/L of sugar",["1 g/L of sugar","20 g/L of sugar","45 g/L of sugar"],"Up to 9 g/L is allowed when acidity is high enough."],
+[2,"In the Médoc, a 'Premier Cru' is:","A First Growth, the top tier",["The second tier of vineyards","A village appellation","Any estate-bottled wine"],"In Burgundy the same words mean the second tier."],
+[2,"Chile's minimum for a named grape variety on domestic labels is:","75%",["51%","85%","100%"],"Wine exported to the EU must meet 85%."]
 ]});
 
 L.push({id:"h3", unit:"H", title:"Vintages That Matter", mins:15,
@@ -328,15 +372,49 @@ body:`
 <tr><td>Glass stopper (Vinolok)</td><td>Inert, elegant</td><td>Cost</td></tr>
 <tr><td>Crown cap</td><td>Used in Champagne aging and pét-nat</td><td>Image for still wine</td></tr></table>
 <h3>Packaging</h3>
-<p>Glass bottles are most of wine's carbon footprint. Alternatives growing fast: lighter bottles, bag-in-box (keeps wine fresh for weeks after opening), cans, kegs for by-the-glass, and paper bottles.</p>`,
+<p>Glass bottles are most of wine's carbon footprint. Alternatives growing fast: lighter bottles, bag-in-box (keeps wine fresh for weeks after opening), cans, kegs for by-the-glass, and paper bottles.</p>
+<h3>Five words guests confuse</h3>
+<table class="t"><tr><th>Term</th><th>What it means</th><th>Certified by</th></tr>
+<tr><td>Organic</td><td>No synthetic pesticides, herbicides or fertilizers. Copper and sulfur sprays are allowed</td><td>EU leaf logo, USDA and others</td></tr>
+<tr><td>Biodynamic</td><td>Organic, plus Rudolf Steiner's 1924 system: the farm as one organism, special preparations, work timed by a lunar calendar</td><td>Demeter, Biodyvin</td></tr>
+<tr><td>Sustainable</td><td>A broad scorecard: water, energy, biodiversity, labor. Synthetic sprays may be allowed</td><td>Regional schemes such as HVE, SWNZ, Napa Green</td></tr>
+<tr><td>Natural</td><td>Organic grapes, native yeast, nothing added or removed, little or no sulfur</td><td>No legal standard; Vin Méthode Nature in France</td></tr>
+<tr><td>Vegan</td><td>No animal products used in fining</td><td>Private labels</td></tr></table>
+<ul><li><b>Biodynamic preparations:</b> 500 is cow manure buried in a cow horn over winter and sprayed on the soil. 501 is ground quartz, sprayed on the leaves. Estates working this way include Domaine Leroy, Zind-Humbrecht, Nicolas Joly and Chapoutier.</li>
+<li><b>US label trap:</b> "Organic wine" may contain no added sulfites. "Made with organic grapes" may contain up to 100 parts per million.</li>
+<li><b>Vegan:</b> isinglass (fish), casein (milk), egg white and gelatin are the animal fining agents. Bentonite clay and pea protein are not.</li>
+<li><b>"Contains sulfites"</b> must appear once total sulfur dioxide passes 10 mg/L. Yeast make a little on their own, so even a wine with none added may carry the words.</li></ul>
+<h3>More vocabulary from the list</h3>
+<ul><li><b>Zero-zero:</b> nothing added, nothing removed, including sulfur.</li>
+<li><b>Ramato:</b> Friuli's copper-colored Pinot Grigio, from a short time on its pink skins.</li>
+<li><b>Col fondo:</b> Prosecco refermented in the bottle and sold cloudy on its lees.</li>
+<li><b>Vin de soif:</b> a light wine made to quench thirst.</li>
+<li><b>La Dive Bouteille</b> in the Loire and <b>RAW Wine</b>, founded by Isabelle Legeron MW, are the movement's main fairs.</li></ul>
+<h3>Serving skin-contact and natural wine</h3>
+<ul><li>Serve orange wine at 55 to 60°F in a large glass. Ice cold, its tannin turns hard and the aroma disappears.</li>
+<li>Many unfiltered wines carry sediment and some dissolved gas. Stand the bottle up, pour gently, and decant if it is fizzy or reduced.</li>
+<li>Keep unsulfured wine cool at all times. Warm storage is what turns it.</li>
+<li><b>Mousiness</b> cannot be smelled. It shows as a stale, cracker-like taste a few seconds after swallowing, so taste before you pour for a table.</li></ul>
+<h3>Talking about it on the floor</h3>
+<ul><li>Ask what the guest usually drinks before recommending anything cloudy or funky.</li>
+<li>Describe the wine, not the philosophy: "cloudy, tart, a bit like dry cider" tells them more than "natural".</li>
+<li>Offer a taste first, and take the bottle back without argument if they dislike it.</li>
+<li>Never call a wine natural if you cannot say how it was made.</li></ul>`,
 floor:`<p>Guests ask for "natural" or "low sulfite" wine as shorthand for "something interesting and not too heavy." Ask what they enjoyed before. Keep a few clean, well-made examples ready so the category sells itself.</p>`,
 analyst:`<p>MW contemporary issues papers regularly ask about natural wine, sustainability and packaging. Be balanced: define terms, weigh quality and fault risk, and discuss market and environmental implications.</p>`,
-terms:[["Vin Méthode Nature","French voluntary natural wine label created in 2020."],["Orange wine","White wine fermented with extended skin contact."],["Pét-nat","Pétillant naturel; ancestral-method sparkling wine."],["Mousiness","Fault giving a mousy, cracker-like aftertaste, linked to bacteria in low-SO₂ wines."]],
+terms:[["Vin Méthode Nature","French voluntary natural wine label created in 2020."],["Orange wine","White wine fermented with extended skin contact."],["Pét-nat","Pétillant naturel; ancestral-method sparkling wine."],["Mousiness","Fault giving a mousy, cracker-like aftertaste, linked to bacteria in low-SO₂ wines."],["Biodynamic","Organic farming plus Rudolf Steiner's preparations and lunar calendar."],["Demeter","The main biodynamic certifier."],["Preparation 500","Cow manure aged in a horn, sprayed on the soil."],["Ramato","Copper-colored Pinot Grigio from short skin contact."],["Zero-zero","Nothing added, nothing removed."],["Col fondo","Prosecco refermented in bottle and sold on its lees."]],
 quiz:[
 [1,"Orange wine is:","White wine made with extended skin contact",["White wine aged under a veil of flor","Rosé wine aged in new oak barrels","White wine deliberately oxidized in cask"],"Amber color and tannin."],
 [2,"Which producers revived skin-contact whites in Friuli?","Josko Gravner and Stanko Radikon",["Angelo Gaja and Bruno Giacosa","Marcel Lapierre and Jules Chauvet","Robert Mondavi and André Tchelistcheff"],"Inspired partly by Georgian qvevri."],
 [2,"France's 'Vin Méthode Nature' label allows how much added SO₂ before bottling?","Up to 30 mg/L",["None at all","Up to 150 mg/L","Unlimited"],"Voluntary charter launched in 2020."],
 [1,"A screwcap's main advantage is:","No cork taint and consistent sealing",["It lets in more oxygen than cork","It is required for Grand Cru wines","It keeps sparkling wine fizzy longer"],"Common in Australia and NZ."],
 [3,"Mousiness is a fault associated with:","Low-sulfite, high-pH wines",["Heavily oaked young reds","Wines with excess free SO₂","Carbonic-maceration reds"],"Detected on the finish, not the nose."],
-[2,"Which method makes pét-nat?","Ancestral method",["Traditional method","Tank method","Carbonation"],"A single fermentation finishing in bottle."]
+[2,"Which method makes pét-nat?","Ancestral method",["Traditional method","Tank method","Carbonation"],"A single fermentation finishing in bottle."],
+[2,"In the United States, a bottle labeled simply 'Organic wine' may contain:","No added sulfites",["Up to 100 ppm of added sulfites","Up to 350 ppm of added sulfites","Any amount, if it is declared"],"'Made with organic grapes' allows up to 100 ppm."],
+[2,"Which fining agent keeps a wine vegan?","Bentonite",["Isinglass","Casein","Gelatin"],"Bentonite is a clay; the others come from fish, milk and animal collagen."],
+[2,"Ramato is:","A copper-colored Pinot Grigio",["A sparkling red from Emilia","A sweet wine from dried grapes","A clay vessel from Georgia"],"The color comes from brief contact with the pink skins."],
+[2,"'Zero-zero' on a natural wine list means:","Nothing added, nothing removed",["No sugar and no alcohol","No new oak and no malolactic conversion","No vintage and no region"],"That includes sulfur dioxide."],
+[3,"'Contains sulfites' is required once total sulfur dioxide exceeds:","10 mg/L",["1 mg/L","100 mg/L","350 mg/L"],"Yeast produce some on their own."],
+[2,"Biodynamic preparation 500 is:","Cow manure aged in a horn",["Ground quartz in rainwater","A copper sulfate spray","Fermented nettle tea"],"Ground quartz is preparation 501."],
+[2,"Orange wine served ice cold tends to taste:","Hard and tannic, with little aroma",["Sweeter, rounder and noticeably softer","Fizzy, light and floral","Exactly as it does when warm"],"Serve it at 55 to 60°F."]
 ]});

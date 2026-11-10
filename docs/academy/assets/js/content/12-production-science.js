@@ -159,15 +159,48 @@ body:`
 <li>Tariffs and trade disruptions; the China market's swings.</li>
 <li>Direct-to-consumer sales and e-commerce.</li>
 <li>Counterfeiting in fine wine (the Rudy Kurniawan case).</li>
-<li>Natural wine and the definition of "authentic."</li></ul>`,
+<li>Natural wine and the definition of "authentic."</li></ul>
+<h3>The evidence, in numbers</h3>
+<ul><li><b>Six centuries of harvest dates.</b> Records from Beaune run back to 1354. Until 1987 picking began on average on 28 September. Since 1988 it has begun <b>13 days earlier</b>.</li>
+<li><b>The frost paradox.</b> Mild winters wake the vine sooner, so buds are open when the usual April frosts arrive. In April 2021 France lost about a third of its crop, the smallest harvest since 1957.</li>
+<li><b>The forecast.</b> A 2024 review in Nature Reviews Earth &amp; Environment concluded that about 90% of traditional wine regions in the coastal and lowland parts of Spain, Italy, Greece and southern California could be at risk of disappearing by the end of the century if warming is severe.</li></ul>
+<h3>Winners and losers so far</h3>
+<table class="t"><tr><th>Gaining</th><th>Under pressure</th></tr>
+<tr><td>England and Wales: sparkling wine now ripens most years</td><td>Hot inland Spain and southern Italy: drought and heat</td></tr>
+<tr><td>Germany: reliable ripeness, far better Spätburgunder</td><td>Irrigated bulk regions such as Australia's Riverland: water</td></tr>
+<tr><td>Champagne: riper fruit, less sugar added, lower dosage</td><td>California and Australia: fire and smoke</td></tr>
+<tr><td>High, cool sites: Uco Valley, Alto Adige, Tasmania</td><td>Burgundy and Chablis: frost and hail on early growth</td></tr></table>
+<h3>How smoke taint works</h3>
+<ul><li>Smoke carries volatile phenols such as <b>guaiacol</b>. They pass into the grape and bind to sugars, which hides them. The fruit can smell clean.</li>
+<li>Fermentation, aging and even saliva break the bond and release an ashy, burnt aftertaste.</li>
+<li>The compounds sit in the skins, so red wines suffer most.</li>
+<li>Responses: hand picking, whole-bunch pressing with no skin contact, making rosé or sparkling instead, carbon fining or reverse osmosis. None is a complete cure.</li></ul>
+<h3>The carbon side</h3>
+<ul><li>Packaging and transport are the largest part of a bottle's footprint. Heavy bottles approach 900 grams; light ones are near 400.</li>
+<li>The <b>Bottle Weight Accord</b> of the Sustainable Wine Roundtable commits its signatories to an average 750 ml still-wine bottle below <b>420 grams</b> by the end of 2026.</li>
+<li>Shipping in bulk and bottling near the market cuts transport emissions sharply.</li>
+<li><b>International Wineries for Climate Action</b>, founded in 2019 by Familia Torres and Jackson Family Wines, requires members to measure and cut emissions.</li></ul>
+<h3>Building the essay</h3>
+<ol><li><b>Define the problem</b> with one hard number, such as the Beaune harvest dates.</li>
+<li><b>Show both sides:</b> who gains and who loses.</li>
+<li><b>Set out the responses</b> in three places: vineyard, cellar and law.</li>
+<li><b>Name the limits.</b> Adaptation costs money, irrigation needs water that may not exist, and appellation rules change slowly.</li>
+<li><b>Conclude with a judgment</b>, not a list.</li></ol>`,
 floor:`<p>Guests notice that wines feel bigger and riper than they used to. A short, honest answer about warming vintages, and pointing to fresh-styled producers or cooler regions, sounds informed rather than preachy.</p>`,
 analyst:`<p>MW contemporary issues and Diploma D6 research topics often come from this list. Build essays with specific regional evidence, data where possible, and balanced weighing of costs and opportunities.</p>`,
-terms:[["PIWI","German acronym for fungus-resistant grape varieties."],["Voltis","Disease-resistant hybrid approved for limited trial use in Champagne."],["Marselan","Cabernet Sauvignon × Grenache cross approved for trial in Bordeaux."],["Kaolin","Clay spray used to protect grapes from sunburn."],["Regenerative viticulture","Farming focused on soil health, biodiversity and carbon."]],
+terms:[["PIWI","German acronym for fungus-resistant grape varieties."],["Voltis","Disease-resistant hybrid approved for limited trial use in Champagne."],["Marselan","Cabernet Sauvignon × Grenache cross approved for trial in Bordeaux."],["Kaolin","Clay spray used to protect grapes from sunburn."],["Regenerative viticulture","Farming focused on soil health, biodiversity and carbon."],["Smoke taint","Ashy, burnt character from grapes exposed to wildfire smoke."],["Guaiacol","A volatile phenol that marks smoke taint."],["Frost paradox","Warmer winters bring earlier budburst and so more frost damage."],["Bottle Weight Accord","Pledge to bring the average still-wine bottle below 420 grams by 2026."],["IWCA","International Wineries for Climate Action, founded in 2019."]],
 quiz:[
 [1,"A widespread effect of warming in classic regions is:","Earlier harvests with higher sugar",["Later harvests with lower sugar","Lower alcohol and firmer acidity","More botrytis in every region"],"Weeks earlier than mid-20th century."],
 [2,"Which of these did Bordeaux approve for trial in generic AOCs?","Touriga Nacional",["Nebbiolo","Zinfandel","Pinotage"],"Also Marselan, Castets, Arinarnoa."],
 [2,"Voltis is:","A disease-resistant Champagne hybrid",["A Bordeaux château in the trials","A drought-tolerant rootstock","A low-alcohol yeast strain"],"Limited trial use."],
 [2,"PIWI varieties are bred for:","Fungal disease resistance",["Higher alcohol levels","Natural sweetness","Deeper color"],"German acronym."],
 [1,"What drives much of wine's carbon footprint?","Glass bottles",["Corks","Labels","Grapes"],"Weight in production and transport."],
-[3,"In June 2019, France recorded temperatures above:","45°C",["38°C","50°C","32°C"],"A severe heat event."]
+[3,"In June 2019, France recorded temperatures above:","45°C",["38°C","50°C","32°C"],"A severe heat event."],
+[2,"Why can warmer winters increase frost damage?","Buds open before the last frosts",["Vines never go fully dormant","Frosts themselves become colder each year","Warm soil freezes much faster"],"Early growth is exposed to ordinary April frosts."],
+[3,"Smoke taint is hard to detect in grapes because the phenols:","Bind to sugars and release later",["Evaporate within a few hours","Stay only in the stems and the leaves","Are destroyed by yeast at once"],"Fermentation, aging and saliva free them."],
+[2,"Beaune's harvest records since 1354 show that since 1988 picking has begun about:","Two weeks earlier",["Two days earlier","Two weeks later","Two months earlier"],"Thirteen days earlier than the average of the previous six centuries."],
+[2,"Which is a likely winner in a warmer climate?","German Spätburgunder",["Riverland bulk wine","Dry-farmed La Mancha","Lowland southern Italy"],"Reliable ripeness has transformed German reds."],
+[2,"The Bottle Weight Accord targets an average 750 ml still-wine bottle below:","420 grams",["150 grams","750 grams","1,200 grams"],"By the end of 2026."],
+[2,"International Wineries for Climate Action was founded in 2019 by:","Torres and Jackson Family Wines",["LVMH and Pernod Ricard","E. & J. Gallo and Constellation Brands","Antinori and Frescobaldi"],"Members must measure and reduce their emissions."],
+[2,"Smoke taint affects red wines most because:","The compounds sit in the skins",["Red grapes hold more sugar","Reds are picked much earlier","Oak barrels trap the smoke"],"Red winemaking extracts the skins."]
 ]});

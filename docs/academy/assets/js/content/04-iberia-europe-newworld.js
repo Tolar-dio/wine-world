@@ -25,10 +25,52 @@ body:`
 <li><b>Ribeiro, Valdeorras</b> (Godello), <b>Ribeira Sacra</b> and <b>Bierzo</b> (Mencía on vertiginous slopes).</li>
 <li><b>Txakoli</b> (Basque): spritzy, poured from height.</li></ul>
 <h3>The southeast</h3>
-<p><b>Jumilla, Yecla, Alicante</b>: Monastrell (Mourvèdre), ripe and powerful. <b>La Mancha</b>: the largest DO in the world by area; Airén and Tempranillo (Cencibel).</p>`,
+<p><b>Jumilla, Yecla, Alicante</b>: Monastrell (Mourvèdre), ripe and powerful. <b>La Mancha</b>: the largest DO in the world by area; Airén and Tempranillo (Cencibel).</p>
+<h3>Three Spains</h3>
+<p>Spain has the world's largest vineyard, about 919,000 hectares in 2025, yet ranks only third for the wine it makes. Most of the land is dry, the vines are old and widely spaced, and yields are low.</p>
+<table class="t"><tr><th>Zone</th><th>Climate</th><th>What it means</th></tr>
+<tr><td>Green Spain (northwest)</td><td>Atlantic: cool, very wet</td><td>Vines trained high on pergolas (parra) to lift fruit above the damp; crisp whites</td></tr>
+<tr><td>The Meseta (center)</td><td>Continental: 600 to 900 m, scorching days, cold nights, drought</td><td>Low bush vines (en vaso), widely spaced to share scarce water</td></tr>
+<tr><td>The Mediterranean coast</td><td>Warm, dry, sunny</td><td>Ripe Garnacha, Monastrell and Cava's grapes</td></tr></table>
+<h3>The grapes in the glass</h3>
+<table class="t"><tr><th>Grape</th><th>Markers</th></tr>
+<tr><td>Tempranillo</td><td>Cherry, plum, leather, tobacco; medium acid. Also Tinto Fino, Tinta de Toro, Cencibel, Ull de Llebre</td></tr>
+<tr><td>Garnacha</td><td>Red fruit, spice, high alcohol, soft tannin</td></tr>
+<tr><td>Monastrell</td><td>Black fruit, game, heavy tannin</td></tr>
+<tr><td>Mencía</td><td>Red cherry, violets, crushed slate; fresh, medium body</td></tr>
+<tr><td>Bobal</td><td>Dark, high in acid; Utiel-Requena</td></tr>
+<tr><td>Graciano</td><td>Perfume and acidity; Rioja's seasoning</td></tr>
+<tr><td>Albariño</td><td>Peach, lemon, salt; high acid</td></tr>
+<tr><td>Verdejo</td><td>Fennel, bay leaf, grapefruit, a bitter-almond finish</td></tr>
+<tr><td>Godello</td><td>Pear, stone, real texture; Spain's answer to white Burgundy</td></tr>
+<tr><td>Viura (Macabeo)</td><td>Neutral when young; nutty in old-style white Rioja</td></tr>
+<tr><td>Xarel·lo</td><td>Body and herbal grip; the backbone of Cava</td></tr>
+<tr><td>Airén</td><td>The most planted white; neutral, much of it distilled for brandy</td></tr></table>
+<h3>Dates worth knowing</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>About 1100 BC</td><td>Phoenicians found Cádiz and plant vines</td></tr>
+<tr><td>1850s</td><td>Marqués de Murrieta and Marqués de Riscal bring Bordeaux methods to Rioja</td></tr>
+<tr><td>1872</td><td>Josep Raventós of Codorníu makes the first Cava</td></tr>
+<tr><td>About 1900</td><td>Phylloxera reaches Rioja, decades after France</td></tr>
+<tr><td>1979</td><td>Torres Gran Coronas Black Label beats Château Latour at the Gault-Millau Wine Olympiad</td></tr>
+<tr><td>1986</td><td>Spain joins what is now the EU; investment follows</td></tr>
+<tr><td>1991</td><td>Rioja becomes the first DOCa</td></tr>
+<tr><td>1996</td><td>Irrigation is legalized nationally</td></tr></table>
+<h3>Label words</h3>
+<ul><li><b>Cosecha:</b> vintage. <b>Bodega:</b> winery. <b>Viñas viejas:</b> old vines.</li>
+<li><b>Joven:</b> young, little or no oak. <b>Roble:</b> a few months in oak, less than a Crianza.</li>
+<li><b>Tinto, blanco, rosado.</b> <b>Clarete</b> is a pale red made by fermenting red and white grapes together.</li></ul>
+<h3>Regional matches</h3>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Rioja Reserva</td><td>Lamb chops grilled over vine cuttings</td></tr>
+<tr><td>Ribera del Duero</td><td>Lechazo, roast suckling lamb</td></tr>
+<tr><td>Albariño</td><td>Octopus, percebes, any shellfish</td></tr>
+<tr><td>Txakoli</td><td>Anchovies and pintxos</td></tr>
+<tr><td>Cava</td><td>Jamón, fried food</td></tr>
+<tr><td>Monastrell</td><td>Rice with rabbit, grilled meats</td></tr></table>`,
 floor:`<p>CMS Certified examines Albariño (Rías Baixas) and Tempranillo (Rioja Reserva/Gran Reserva) blind. Blind cue: American oak dill and coconut plus leather and dried red fruit, moderate tannin, slightly faded garnet. Wine list check: Vega Sicilia is Ribera del Duero, not Rioja.</p>`,
 analyst:`<p>WSET Level 3 lists Rioja (with its subregions), Ribera del Duero, Toro, Priorat, Navarra, Penedès, Rías Baixas, Rueda, Bierzo, Jumilla, Campo de Borja, Calatayud, Cariñena and La Mancha. Sample MCQ: "Key natural factor in Ribera del Duero?" High altitude.</p>`,
-terms:[["DOCa","Denominación de Origen Calificada; Rioja and Priorat."],["Crianza","Spanish aging tier; in Rioja 2 years with 1 in oak."],["Gran Reserva","Top Spanish aging tier; Rioja 5 years, 2 in oak, 2 in bottle."],["Llicorella","Slate and quartz soil of Priorat."],["Tinto Fino","Tempranillo in Ribera del Duero."]],
+terms:[["DOCa","Denominación de Origen Calificada; Rioja and Priorat."],["Crianza","Spanish aging tier; in Rioja 2 years with 1 in oak."],["Gran Reserva","Top Spanish aging tier; Rioja 5 years, 2 in oak, 2 in bottle."],["Llicorella","Slate and quartz soil of Priorat."],["Tinto Fino","Tempranillo in Ribera del Duero."],["En vaso","Bush-vine training, widely spaced, for dry climates."],["Parra","Pergola training used in Galicia to lift fruit above the damp."],["Roble","A red with a few months in oak, less than a Crianza."],["Cosecha","Vintage."],["Clarete","Pale red made by fermenting red and white grapes together."],["Bobal","Dark, high-acid red grape of Utiel-Requena."]],
 quiz:[
 [1,"Rías Baixas is known for:","Albariño",["Verdejo","Godello","Viura"],"Atlantic Galicia."],
 [2,"Minimum aging for Rioja Gran Reserva red:","60 months, at least 24 in oak",["36 months, at least 12 in oak","24 months, at least 6 in oak","48 months, at least 12 in oak"],"Rioja Gran Reserva reds: 60 months in total, with at least 24 in oak and 24 in bottle."],
@@ -37,7 +79,15 @@ quiz:[
 [2,"Which grape is Monastrell elsewhere?","Mourvèdre",["Grenache","Carignan","Cinsault"],"Jumilla's main grape."],
 [2,"Why does traditional Rioja smell of dill and coconut?","Aging in American oak",["Carbonic maceration","Garnacha in the blend","Lees aging"],"Introduced via Bordeaux merchants; American oak was cheaper."],
 [2,"Mencía is the key red of:","Bierzo and Ribeira Sacra",["Rioja and Navarra","Toro and Rueda","Priorat and Montsant"],"Fresh, floral, red-fruited."],
-[3,"Vega Sicilia Único comes from:","Ribera del Duero",["Rioja","Priorat","Toro"],"Spain's most famous red."]
+[3,"Vega Sicilia Único comes from:","Ribera del Duero",["Rioja","Priorat","Toro"],"Spain's most famous red."],
+[2,"Spain has the world's largest vineyard but ranks third in production mainly because:","Dry land and old vines yield little",["Most grapes are sold as fruit","Half the vineyards lie fallow","Most vines are under five years old"],"Low rainfall and wide spacing keep yields down."],
+[2,"Why are Albariño vines in Rías Baixas trained high on pergolas?","To lift fruit above the damp",["To shade it from desert heat","To allow machine harvesting","To bury canes against frost"],"Air under the canopy keeps rot down in a wet climate."],
+[2,"'Roble' on a Spanish red means:","A few months in oak",["No oak at all","Five years of aging","Fermented in amphora"],"Less oak time than a Crianza."],
+[2,"Verdejo is typically recognized by:","Fennel, grapefruit and a bitter finish",["Lychee, rose petal and very low acidity","Butter, toast and hazelnut","Petrol, lime and slate"],"It is the grape of Rueda."],
+[3,"Which Spanish wine beat Château Latour at the 1979 Gault-Millau Wine Olympiad?","Torres Gran Coronas Black Label",["Vega Sicilia Único","Marqués de Riscal Reserva","López de Heredia Viña Tondonia Reserva"],"It is now called Mas La Plana."],
+[2,"Lechazo, roast suckling lamb, is the regional match for:","Ribera del Duero",["Rías Baixas","Txakoli","Cava"],"Castilla y León's signature dish."],
+[2,"A 'clarete' is:","A pale red from red and white grapes",["A sweet fortified white","A sparkling rosé from the Penedès hills","An oak-aged dry Sherry"],"The grapes are fermented together."],
+[2,"Who made the first Cava, in 1872?","Josep Raventós of Codorníu",["Miguel Torres of Penedès","Pedro Ferrer of Freixenet","Álvaro Palacios of Priorat"],"After seeing the method in Champagne."]
 ]});
 
 L.push({id:"r9", unit:"R3", title:"Sherry", mins:16,
@@ -182,10 +232,49 @@ body:`
 <li><b>Franken</b>: Silvaner in the flask-shaped <b>Bocksbeutel</b>.</li>
 <li><b>Baden</b>: warmest, southernmost; Spätburgunder and Grauburgunder.</li>
 <li>Also Ahr (red, tiny), Mittelrhein, Württemberg (Trollinger, Lemberger), Hessische Bergstraße, Saale-Unstrut and Sachsen (the two northeastern regions).</li></ul>
-<p>German names to know: Spätburgunder (Pinot Noir), Grauburgunder (Pinot Gris), Weissburgunder (Pinot Blanc), Müller-Thurgau (Rivaner), Dornfelder.</p>`,
+<p>German names to know: Spätburgunder (Pinot Noir), Grauburgunder (Pinot Gris), Weissburgunder (Pinot Blanc), Müller-Thurgau (Rivaner), Dornfelder.</p>
+<h3>Reading sweetness from the label</h3>
+<table class="t"><tr><th>Term</th><th>Sugar</th></tr>
+<tr><td>Trocken</td><td>Up to 9 g/L, if acidity is within 2 g/L of the sugar</td></tr>
+<tr><td>Halbtrocken</td><td>Up to 18 g/L</td></tr>
+<tr><td>Feinherb</td><td>Not defined in law; usually a little sweeter than halbtrocken</td></tr>
+<tr><td>Lieblich</td><td>Up to 45 g/L</td></tr>
+<tr><td>Süss</td><td>More than 45 g/L</td></tr></table>
+<ul><li><b>Alcohol is the best clue.</b> A Riesling at 7 to 8.5% has unfermented sugar and will taste sweet. One at 12 to 13% is dry.</li>
+<li>A Prädikat name with no sweetness term (Kabinett, Spätlese) from the Mosel usually means off-dry to sweet.</li>
+<li>A <b>Goldkapsel</b> (gold capsule) is a producer's own signal of a richer, more selective lot. It is not a legal term.</li>
+<li>Minimum must weights rise up the ladder, from about 70° Oechsle for Kabinett to 150° or more for TBA, and vary by region.</li></ul>
+<h3>Dates that explain the wines</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>1136</td><td>Cistercians found Kloster Eberbach in the Rheingau and wall in the Steinberg</td></tr>
+<tr><td>1435</td><td>The first written record of Riesling, at Rüsselsheim near the Rheingau</td></tr>
+<tr><td>1720</td><td>Schloss Johannisberg is replanted entirely with Riesling</td></tr>
+<tr><td>1787</td><td>The Elector of Trier orders inferior vines in the Mosel replaced with Riesling</td></tr>
+<tr><td>1800s</td><td>Top Rhine and Mosel wines sell for more than first-growth Bordeaux</td></tr>
+<tr><td>1910</td><td>The association that became the VDP is founded</td></tr>
+<tr><td>1971</td><td>The wine law ranks by must weight; Liebfraumilch and other sweet blends boom and damage the image</td></tr>
+<tr><td>2002</td><td>The first Grosses Gewächs wines are released</td></tr>
+<tr><td>2021</td><td>A new law moves toward origin: region, village, single vineyard</td></tr></table>
+<h3>Beyond Riesling</h3>
+<p>Germany has about 103,000 hectares, two-thirds of them white. Riesling is the leader at about 23%, which is around 40% of the world's Riesling. Spätburgunder is second: Germany is the world's third-largest grower of Pinot Noir.</p>
+<table class="t"><tr><th>Grape</th><th>Character</th></tr>
+<tr><td>Müller-Thurgau</td><td>Bred in 1882 from Riesling and Madeleine Royale; soft, floral, early</td></tr>
+<tr><td>Silvaner</td><td>Earthy, restrained, at its best in Franken</td></tr>
+<tr><td>Scheurebe</td><td>Bred in 1916; grapefruit and blackcurrant, dry or sweet</td></tr>
+<tr><td>Grauburgunder</td><td>Pinot Gris, dry and nutty; sold as Ruländer when sweet</td></tr>
+<tr><td>Weissburgunder</td><td>Pinot Blanc; apple, almond, gentle</td></tr>
+<tr><td>Spätburgunder</td><td>Slate and red fruit in the Ahr; fuller on Baden's volcanic Kaiserstuhl</td></tr>
+<tr><td>Dornfelder</td><td>Bred in 1955; dark, soft, simple</td></tr></table>
+<h3>Riesling at the table</h3>
+<ul><li><b>Kabinett, off-dry:</b> spicy Thai and Sichuan food, sushi, smoked fish. Sugar cools heat.</li>
+<li><b>Spätlese:</b> pork with apples, duck, washed-rind cheese.</li>
+<li><b>Grosses Gewächs:</b> anything you would serve with white Burgundy.</li>
+<li><b>Auslese and above:</b> blue cheese, fruit tarts, or alone.</li>
+<li>Riesling ages for decades. The petrol note that develops is a compound called TDN.</li></ul>
+<p><b>Sekt</b> on its own may be tank-fermented from imported base wine. <b>Deutscher Sekt</b> uses German grapes only.</p>`,
 floor:`<p>CMS Certified examines Riesling from Mosel/Rheingau at Kabinett or Spätlese. Blind: pale lemon-green, lime, green apple, peach, slate; very high acid, low alcohol, noticeable RS. A real CMS Certified map item: "Which Anbaugebiet does this map depict?" Learn the Mosel's snaking shape and the Rheingau's east-west bend.</p>`,
 analyst:`<p>WSET Level 3 lists Mosel, Nahe, Rheingau, Rheinhessen, Pfalz, Baden and Franken, plus Prädikat terms and the VDP. A short answer favorite: "Explain how the Mosel's site factors allow Riesling to ripen" = steep south-facing slopes, river reflection, slate heat retention.</p>`,
-terms:[["Prädikatswein","German quality wine classed by must weight at harvest."],["Oechsle","German scale of must weight (sugar)."],["Grosses Gewächs","VDP dry wine from a Grosse Lage site."],["Grosslage","Collective vineyard area, often generic; not the same as Grosse Lage."],["Feinherb","Off-dry (unofficial)."],["Bocksbeutel","Flattened flask bottle of Franken."]],
+terms:[["Prädikatswein","German quality wine classed by must weight at harvest."],["Oechsle","German scale of must weight (sugar)."],["Grosses Gewächs","VDP dry wine from a Grosse Lage site."],["Grosslage","Collective vineyard area, often generic; not the same as Grosse Lage."],["Feinherb","Off-dry (unofficial)."],["Bocksbeutel","Flattened flask bottle of Franken."],["Goldkapsel","Gold capsule: a producer's private mark for a richer selection."],["Halbtrocken","Off-dry: up to 18 g/L of sugar."],["Scheurebe","1916 crossing with grapefruit and blackcurrant aromas."],["Ruländer","Old name for Pinot Gris, now used for sweeter styles."],["Kloster Eberbach","Cistercian monastery in the Rheingau, founded in 1136."],["Deutscher Sekt","Sparkling wine made only from German grapes."]],
 quiz:[
 [1,"Which Prädikat level is the ripest?","Trockenbeerenauslese",["Beerenauslese","Auslese","Spätlese"],"TBA is from shriveled botrytized berries."],
 [2,"A 'Grosses Gewächs' is:","A dry wine from a VDP Grosse Lage",["A sweet wine at Auslese level","A wine from a generic Grosslage","A traditional-method Sekt"],"Look for 'GG' on the bottle."],
@@ -193,7 +282,15 @@ quiz:[
 [2,"Which region is Germany's largest?","Rheinhessen",["Mosel","Pfalz","Rheingau"],"Once known for Liebfraumilch."],
 [2,"Spätburgunder is the German name for:","Pinot Noir",["Pinot Gris","Pinot Blanc","Lemberger"],"Baden and the Ahr are leading regions."],
 [2,"Germany's wine law originally ranked wines by:","Grape ripeness at harvest",["Vineyard site","Producer reputation","Aging time"],"Hence the Prädikat levels."],
-[3,"The Scharzhofberg, home of Egon Müller, is in:","The Saar (Mosel)",["Rheingau","Nahe","Pfalz"],"One of the world's most expensive sweet Rieslings."]
+[3,"The Scharzhofberg, home of Egon Müller, is in:","The Saar (Mosel)",["Rheingau","Nahe","Pfalz"],"One of the world's most expensive sweet Rieslings."],
+[2,"A Mosel Riesling at 7.5% alcohol is almost certainly:","Noticeably sweet",["Completely dry","Lightly fortified","Aged under flor"],"Low alcohol means sugar was left unfermented."],
+[2,"Under German rules, 'trocken' allows at most about:","9 g/L of sugar",["2 g/L of sugar","25 g/L of sugar","45 g/L of sugar"],"And only if acidity is within 2 g/L of the sugar."],
+[2,"Which monastery, founded in 1136, walled in the Rheingau's Steinberg?","Kloster Eberbach",["Kloster Andechs","Stift Klosterneuburg","Abbaye de Cîteaux"],"A Cistercian daughter house of Clairvaux."],
+[3,"The first written record of Riesling dates from:","1435",["1136","1775","1971"],"At Rüsselsheim, near the Rheingau."],
+[2,"A gold capsule (Goldkapsel) on a German bottle signals:","A producer's richer selection",["An officially classed Grosses Gewächs","A certified organic vineyard","A wine made for Sekt base"],"It is a private signal, not a legal term."],
+[2,"Scheurebe typically smells of:","Grapefruit and blackcurrant",["Butter and toasted hazelnut","Lychee and rose petal","Cherry and worn leather"],"Bred in 1916 by Georg Scheu."],
+[2,"Ruländer is the old German name for a sweeter style of:","Pinot Gris",["Pinot Blanc","Silvaner","Chasselas"],"Dry versions are sold as Grauburgunder."],
+[2,"'Deutscher Sekt' differs from plain 'Sekt' because it must use:","German grapes only",["The traditional method only","Riesling only","No dosage at all"],"Plain Sekt may be made from imported base wine."]
 ]});
 
 L.push({id:"r12", unit:"R4", title:"Austria, Hungary and Greece", mins:18,
