@@ -141,6 +141,10 @@ table.t tr:hover td{background:var(--goldsoft)}
 .prose a.atlas-ref{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--gold) 55%,transparent);text-decoration-style:dotted;text-decoration-thickness:1.5px;text-underline-offset:3px}
 .prose a.atlas-ref:hover{color:var(--gold);text-decoration-style:solid}
 .atlas-strip{margin:-12px 0 30px}
+.related{margin:34px 0 8px;padding:16px 18px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.related ul{margin:8px 0 0;padding-left:20px;line-height:1.8}
+.related a{color:var(--ink2);text-decoration:none;border-bottom:1px dotted var(--line2)}
+.related a:hover{color:var(--gold);border-bottom-color:var(--gold)}
 .lmaps{margin:0 0 34px;display:grid;gap:22px}
 .lmap{margin:0;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);overflow:hidden}
 .lmap svg{display:block;width:100%;height:auto;max-height:520px;background:var(--sunk)}

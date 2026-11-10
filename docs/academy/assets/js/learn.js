@@ -127,6 +127,7 @@ function viewLesson(id) {
   ${region ? `<div class="atlas-strip" id="atlasstrip" hidden></div>` : ""}
   ${maps ? `<div class="lmaps" id="lmaps" hidden></div>` : ""}
   <div class="prose">${l.body.replace(/<table class="t">/g, '<div class="tw"><table class="t">').replace(/<\/table>/g, "</table></div>")}</div>
+  ${relatedLessons(id)}
   ${lenses.map(([n, h, c]) => h ? `<div class="lens ${c}"><div class="eyebrow">${n}</div>${h}</div>` : "").join("")}
   ${l.terms && l.terms.length ? `<h2>Key terms</h2><div class="tw"><table class="t">${l.terms.map(t => `<tr><td style="width:34%"><b>${esc(t[0])}</b></td><td>${esc(t[1])}</td></tr>`).join("")}</table></div>` : ""}
   <h2>Examination</h2><p class="muted small">${l.quiz.length} questions. Score ${PASS_LESSON}% or better to pass the lesson; its terms join your flashcard deck.</p>
@@ -166,3 +167,17 @@ function viewLibrary() {
   <h2>Glossary</h2><input type="text" data-gloss="1" placeholder="Search ${TERMS.length} terms" style="max-width:380px"><div id="gloss" class="tw">${glossTable("")}</div></div>`;
 }
 function glossTable(q) { q = q.toLowerCase(); const rows = TERMS.filter(t => !q || t.t.toLowerCase().includes(q) || t.d.toLowerCase().includes(q)).sort((a, b) => a.t.localeCompare(b.t)); return `<table class="t">${rows.map(t => `<tr><td style="width:30%"><b>${esc(t.t)}</b></td><td class="small">${esc(t.d)} <a href="#lesson-${t.lesson}" class="muted">${esc(LBY[t.lesson].title)}</a></td></tr>`).join("")}</table>`; }
+
+// Lessons on the same subject: an overview (r4) and its deep dives (r4b, r4c, r4d), plus a few hand-made pairs.
+const RELATED = { sp1: ["r3", "r3b"], r3: ["sp1"], r3b: ["sp1"], fo1: ["r9"], r9: ["fo1"], fo2: ["r10", "r10b"], r10: ["fo2"],
+  b1: ["b4", "b5", "b6", "b7"], b4: ["b1", "b7"], b5: ["b1", "b7"], b6: ["b1"], b7: ["b1", "b4", "b5"], b2: ["b8"], b8: ["b2"], b3: ["b9"], b9: ["b3"],
+  biz1: ["biz2", "s5"], biz2: ["biz1", "s5"], s5: ["biz2"], s2: ["s8"], s8: ["s2", "s3"], s3: ["s8"], s4: ["s9"], s9: ["s4"],
+  h3: ["h4"], h4: ["h3"], o2: ["o4"], o4: ["o2"], c2: ["o4", "a2"], a1: ["f11", "c1"], f11: ["a1", "c1"], c1: ["f11", "c4"], c4: ["c1"] };
+function relatedLessons(id) {
+  const m = /^(r\d+)[a-z]?$/.exec(id), ids = new Set(RELATED[id] || []);
+  if (m) ORDER.forEach(x => { if (x !== id && new RegExp("^" + m[1] + "[a-z]?$").test(x)) ids.add(x); });
+  const list = [...ids].filter(x => LBY[x]);
+  if (!list.length) return "";
+  return `<div class="related"><div class="eyebrow">Related lessons</div><ul>${list.map(x =>
+    `<li><a href="#lesson-${x}">${esc(LBY[x].title)}</a>${S.done[x] ? ' <span class="muted small">· passed</span>' : ""}</li>`).join("")}</ul></div>`;
+}

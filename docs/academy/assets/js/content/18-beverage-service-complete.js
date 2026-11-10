@@ -218,9 +218,9 @@ body:`
 <tr><td>Sommelier wages and benefits</td><td>$8,000</td></tr>
 <tr><td>Glassware, printing, preservation gas, breakage</td><td>$1,500</td></tr>
 <tr><td>Contribution to the restaurant</td><td>$32,500</td></tr></table>
-<p>Two lessons sit in that table. Wine is usually the most profitable thing a restaurant sells, because it needs no cooking. And a sommelier pays for the position only by lifting sales or protecting margin: raising the average bottle from $70 to $80 across 600 bottles a month adds $6,000 in sales for no extra labor.</p>
+<p>Two lessons sit in that table. Drinks earn far more per sale than food because they need no cooking, and a bottle of wine brings in more cash per sale than anything else on the menu, even though spirits carry a lower cost percentage. And a sommelier pays for the position only by lifting sales or protecting margin: raising the average bottle from $70 to $80 across 600 bottles a month adds $6,000 in sales for no extra labor.</p>
 <h3>Four forces shaping the next list</h3>
-<ul><li><b>Less, but better.</b> Volume is falling in most mature markets while average price per liter rises. Lists are getting shorter and more carefully chosen.</li>
+<ul><li><b>Less, but better.</b> Volume is falling in most mature markets, and for most of the past decade the average price per liter rose as it did. Lists are getting shorter and more carefully chosen.</li>
 <li><b>No and low alcohol.</b> Still a small share of sales, growing fast, and now expected on a serious list.</li>
 <li><b>By the glass.</b> Preservation systems let restaurants pour wines that once sold only by the bottle, which suits guests who drink less and want better.</li>
 <li><b>Transparency.</b> Guests can check retail prices on their phones at the table. Markups that cannot be defended will be noticed.</li></ul>`,
