@@ -122,12 +122,12 @@ quiz:[
 [2,"Awamori must use:","Rice and black koji only",["Sweet potato","Barley and white koji","Brown sugar"],"Okinawa's awamori is distilled from rice fermented with black koji only."],
 [2,"Poiré Domfront requires at least 40%:","Plant de Blanc pears",["Bittersweet cider apples","Calvados eau-de-vie","Frozen dessert pears"],"Normandy perry."],
 [2,"A positive Sake Meter Value (SMV) generally indicates a sake that is:","Drier",["Sweeter","Cloudier","Stronger"],"SMV measures density: less sugar means a higher number."],
-[2,"Stout is usually dispensed with a gas blend rich in:","Nitrogen",["Oxygen","Helium","Argon"],"Its tiny bubbles give the creamy head."],
+[2,"Stout is usually dispensed with a gas blend rich in:","Nitrogen",["Oxygen","Helium","Compressed air"],"Its tiny bubbles give the creamy head."],
 [2,"Once tapped, a cask of real ale should be finished within about:","Three days",["Three weeks","Three months","Three hours"],"It has no added gas to protect it from air."],
-[3,"Gueuze is:","A blend of young and old lambics",["A salted wheat beer","A smoked lager","A dry-hopped pale ale"],"Refermented in the bottle. The salted wheat beer is Gose."],
-[2,"Kokuto shochu, made from brown sugar, may be produced only in:","The Amami Islands",["Kagoshima city","Okinawa","Hokkaido"],"They lie between Kyushu and Okinawa."],
+[3,"Gueuze is:","A blend of young and old lambics",["A salted wheat beer","A smoked lager","A dry-hopped pale ale from Belgium"],"Refermented in the bottle. The salted wheat beer is Gose."],
+[2,"Kokuto shochu, made from brown sugar, may be produced only in:","The Amami Islands",["Kagoshima city","Okinawa","The Ogasawara Islands"],"They lie between Kyushu and Okinawa."],
 [2,"Which shochu GI is for barley shochu?","Iki",["Satsuma","Kuma","Ryukyu"],"Satsuma is sweet potato, Kuma is rice, Ryukyu is awamori."],
-[3,"Yamahai differs from kimoto in that it:","Skips the pole-mashing step",["Adds lactic acid","Uses no koji","Is never pasteurized"],"Both let lactic bacteria develop naturally. Sokujo adds lactic acid."],
+[3,"Yamahai differs from kimoto in that it:","Skips the pole-mashing step",["Adds lactic acid at the start","Uses no koji","Is never pasteurized"],"Both let lactic bacteria develop naturally. Sokujo adds lactic acid."],
 [2,"Japan's first sake GI, granted in 2005, was:","Hakusan",["Nada Gogo","Yamagata","Niigata"],"Yamagata in 2016 was the first to cover a whole prefecture."]
 ]});
 

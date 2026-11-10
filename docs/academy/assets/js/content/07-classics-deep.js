@@ -107,10 +107,43 @@ body:`
 <h3>Other structural changes</h3>
 <ul><li>The <b>échelle des crus</b> (village price ladder) was abolished as a pricing system in 2010; Grand Cru and Premier Cru remain label terms.</li>
 <li><b>Réserve perpétuelle</b>: a perpetual blend of reserve wines topped up each year (Krug and many growers use versions of this).</li>
-<li>Climate change: harvests now often start in August; growers trial new frost- and heat-tolerant varieties.</li></ul>`,
+<li>Climate change: harvests now often start in August; growers trial new frost- and heat-tolerant varieties.</li></ul>
+<h3>Who owns what</h3>
+<table class="t"><tr><th>Owner</th><th>Houses</th></tr>
+<tr><td>LVMH</td><td>Moët &amp; Chandon, Dom Pérignon, Veuve Clicquot, Ruinart, Krug, Mercier</td></tr>
+<tr><td>Pernod Ricard</td><td>Perrier-Jouët, G.H. Mumm</td></tr>
+<tr><td>Laurent-Perrier group</td><td>Laurent-Perrier, Salon, Delamotte</td></tr>
+<tr><td>Vranken-Pommery Monopole</td><td>Pommery, Vranken, Heidsieck &amp; Co Monopole</td></tr>
+<tr><td>Lanson-BCC</td><td>Lanson, Philipponnat, Boizel, De Venoge</td></tr>
+<tr><td>EPI</td><td>Charles Heidsieck, Piper-Heidsieck, Rare</td></tr>
+<tr><td>Family-owned</td><td>Louis Roederer (and Deutz), Bollinger (and Ayala), Pol Roger, Taittinger, Billecart-Salmon</td></tr>
+<tr><td>Cooperatives</td><td>Terroirs et Vignerons de Champagne (Nicolas Feuillatte, Castelnau, Henriot), Mailly Grand Cru, Palmer &amp; Co</td></tr></table>
+<h3>The economics in five facts</h3>
+<ul><li>About 34,000 hectares. Roughly 16,000 growers own about 90% of them; the houses own about 10% but sell about 70% of the bottles.</li>
+<li>Shipments were <b>266 million bottles in 2025</b>, down from a peak of about 325 million in 2022. France took about 114 million and exports about 152 million.</li>
+<li><b>The yield lever.</b> Each summer the Comité Champagne sets the marketable yield for the coming harvest to match sales: 12,000 kg/ha in 2022, 11,400 in 2023, 10,000 in 2024, 9,000 in 2025 and 8,800 in 2026.</li>
+<li>Grapes above that limit can be held as a reserve and released in a short year.</li>
+<li>It takes about 1.2 kilograms of grapes to make a bottle, and Champagne's grapes are the most expensive in the world.</li></ul>
+<h3>House styles</h3>
+<table class="t"><tr><th>Style</th><th>Houses</th><th>Why</th></tr>
+<tr><td>Light and fresh</td><td>Laurent-Perrier, Taittinger, Ruinart, Billecart-Salmon</td><td>Chardonnay-led, stainless steel, little oxygen</td></tr>
+<tr><td>Middle</td><td>Moët &amp; Chandon, Pol Roger, Louis Roederer</td><td>Balanced blends of all three grapes</td></tr>
+<tr><td>Full and toasty</td><td>Bollinger, Krug, Veuve Clicquot, Charles Heidsieck</td><td>Pinot-led, with oak or a high share of old reserve wine</td></tr></table>
+<h3>More prestige cuvées and firsts</h3>
+<ul><li><b>Dom Pérignon</b>'s first vintage was 1921, released in 1936: the first prestige cuvée sold to the public.</li>
+<li><b>Pommery</b> shipped the first commercially successful Brut, Pommery Nature, in 1874. Before it, Champagne was sweet.</li>
+<li><b>Clos des Goisses</b> (Philipponnat, since 1935) was the first single-vineyard Champagne: a steep, south-facing wall at Mareuil-sur-Aÿ.</li>
+<li><b>Belle Epoque</b> (Perrier-Jouët) wears the anemones Émile Gallé designed in 1902.</li>
+<li><b>Numbered non-vintage.</b> Jacquesson's 700 series, Krug's Édition numbers and Roederer's Collection each identify the year's blend, so a non-vintage wine can be tracked and aged like a vintage.</li></ul>
+<h3>Grower vocabulary</h3>
+<ul><li><b>Special Club:</b> since 1971 the Club Trésors de Champagne lets member growers bottle their best vintage wine in a shared bottle shape, after a tasting panel approves it.</li>
+<li><b>Lieu-dit</b> and <b>parcellaire:</b> wine from one named plot.</li>
+<li><b>Brut Nature:</b> no dosage. Riper grapes have made it far more common.</li>
+<li><b>Côte des Bar:</b> the southern district, on Kimmeridgian marl, once the houses' source of anonymous Pinot Noir and now home to sought-after growers such as Cédric Bouchard and Vouette et Sorbée.</li>
+<li><b>Coteaux Champenois:</b> still wine, back in fashion as the climate warms.</li></ul>`,
 floor:`<p>On the floor, match house style to guest: Bollinger or Krug for rich and toasty; Ruinart or Billecart for delicate; a grower Blanc de Blancs for the curious. For a celebration on a budget, a top Crémant or grower NV beats a big-brand NV.</p>`,
 analyst:`<p>Diploma D4 asks about house styles, reserve wines, the economics of grapes versus brands, and the rise of grower Champagne. Explain how reserve wine creates consistency in NV.</p>`,
-terms:[["Maison","A Champagne house, usually a négociant-manipulant."],["Récemment dégorgé","Late disgorged (R.D. is Bollinger's trademark)."],["Réserve perpétuelle","Perpetual reserve blend topped up annually."],["Disgorgement date","When the lees were removed; printed by many producers."]],
+terms:[["Maison","A Champagne house, usually a négociant-manipulant."],["Récemment dégorgé","Late disgorged (R.D. is Bollinger's trademark)."],["Réserve perpétuelle","Perpetual reserve blend topped up annually."],["Disgorgement date","When the lees were removed; printed by many producers."],["Special Club","Growers' shared-bottle prestige cuvée, approved by a tasting panel."],["Marketable yield","The amount per hectare the Comité Champagne lets producers turn into Champagne each year."],["Prestige cuvée","A house's top wine, such as Dom Pérignon or Cristal."],["Clos des Goisses","Philipponnat's steep vineyard; the first single-vineyard Champagne."],["Côte des Bar","Champagne's southern district, on Kimmeridgian marl."]],
 quiz:[
 [1,"Which is the oldest Champagne house?","Ruinart",["Moët & Chandon","Krug","Bollinger"],"Ruinart was founded in 1729, the first house set up to make sparkling Champagne."],
 [2,"Cristal was created in 1876 for:","Tsar Alexander II",["Napoleon III","Queen Victoria","Winston Churchill"],"Louis Roederer."],
@@ -118,7 +151,15 @@ quiz:[
 [2,"Madame Clicquot is credited with developing:","The riddling table",["Barrel fermentation","The crown cap","Tank method"],"Her cellar developed the riddling table (pupitre) around 1816, which made clear Champagne possible."],
 [1,"Who is the pioneer of the grower Champagne movement in Avize?","Anselme Selosse",["Rémi Krug","Dom Pérignon","Christopher Merret"],"Jacques Selosse estate."],
 [3,"The échelle des crus pricing system was abolished in:","2010",["1985","1996","2020"],"Grand and Premier Cru remain label terms."],
-[2,"Salon makes:","Only vintage Blanc de Blancs from Le Mesnil",["Only rosé from the Montagne de Reims","Only non-vintage Brut from bought grapes","Only still Coteaux Champenois"],"Only in great years."]
+[2,"Salon makes:","Only vintage Blanc de Blancs from Le Mesnil",["Only rosé from the Montagne de Reims","Only non-vintage Brut from bought grapes","Only still Coteaux Champenois"],"Only in great years."],
+[2,"Krug, Ruinart and Veuve Clicquot all belong to:","LVMH",["Pernod Ricard","Lanson-BCC","Vranken-Pommery"],"So do Moët & Chandon and Dom Pérignon."],
+[2,"Each summer the Comité Champagne sets the:","Marketable yield per hectare",["Retail price per bottle","Date of disgorgement","Minimum dosage for each house"],"It matches supply to sales: 8,800 kg/ha for 2026."],
+[3,"The first single-vineyard Champagne, made since 1935, is:","Clos des Goisses",["Clos du Mesnil","Clos d'Ambonnay","Clos Saint-Hilaire"],"Philipponnat's steep vineyard at Mareuil-sur-Aÿ."],
+[2,"A 'Special Club' bottle is:","A grower's top vintage cuvée",["A big house's entry-level blend","A cooperative's rosé","A half bottle for airlines"],"Approved by a tasting panel of the Club Trésors de Champagne."],
+[2,"Champagne shipped about how many bottles in 2025?","266 million",["66 million","466 million","1 billion"],"Down from a peak of about 325 million in 2022."],
+[2,"Which house is known for a full, Pinot-led, oak-fermented style?","Bollinger",["Ruinart","Laurent-Perrier","Taittinger"],"The other three are light, Chardonnay-led styles."],
+[2,"Nicolas Feuillatte is the brand of a:","Cooperative",["Family-owned house","Single grower","Luxury conglomerate"],"Terroirs et Vignerons de Champagne, formed in 2022."],
+[2,"Which house shipped the first commercially successful Brut Champagne, in 1874?","Pommery",["Krug","Salon","Mercier"],"Until then Champagne was sold sweet."]
 ]});
 
 L.push({id:"r5b", unit:"R1", title:"The Rest of France: Southwest, Corsica, Savoie and Beyond", mins:13,

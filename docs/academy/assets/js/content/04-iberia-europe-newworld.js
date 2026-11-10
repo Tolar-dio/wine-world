@@ -60,10 +60,46 @@ body:`
 <tr><td>Pedro Ximénez</td><td>Sun-dried grapes (soleo), oxidative</td><td>Ebony, syrupy, fig, raisin, coffee</td></tr>
 <tr><td>Moscatel</td><td>Oxidative</td><td>Sweet, floral, raisin</td></tr>
 <tr><td>Pale Cream / Medium / Cream</td><td>Blends</td><td>Sweetened Fino, Amontillado or Oloroso</td></tr></table>
-<p><b>En rama</b>: bottled with minimal filtration, closer to the barrel. Fino and Manzanilla are fragile once opened: treat them like white wine and finish within days. <b>Montilla-Moriles</b> next door makes similar styles from PX, often unfortified.</p>`,
+<p><b>En rama</b>: bottled with minimal filtration, closer to the barrel. Fino and Manzanilla are fragile once opened: treat them like white wine and finish within days. <b>Montilla-Moriles</b> next door makes similar styles from PX, often unfortified.</p>
+<h3>How Sherry became Sherry</h3>
+<ul><li>The Moors called the town Sherish; the English turned that into Sherry. The DO's legal name carries three languages: <b>Jerez-Xérès-Sherry</b>.</li>
+<li>In 1587 Francis Drake raided Cádiz and carried off about 2,900 butts. <b>Sack</b>, as the English called it, became the fashionable wine of Shakespeare's London.</li>
+<li>British and Irish merchants settled in the trade, which is why so many bodegas have names like Harvey, Sandeman, Garvey, Osborne and Williams &amp; Humbert.</li>
+<li>Jerez was among the first denominations named in Spain's 1933 wine law, and its Consejo Regulador was set up in 1935.</li>
+<li>A boom in cheap sweet blends in the 1970s ended in collapse. The vineyard shrank by about two-thirds, and the recovery has been led by dry, aged and single-vineyard wines.</li></ul>
+<h3>The rules that changed in 2022 and 2025</h3>
+<ul><li><b>Aging zone.</b> Wine may now be aged anywhere in the production zone, so bodegas in Trebujena, Lebrija, Chipiona, Rota, Chiclana and Puerto Real can sell Sherry. Before, the last stage had to happen in one of the three Triangle towns.</li>
+<li><b>Pagos</b> may be named on labels.</li>
+<li><b>Six old grapes return:</b> Beba, Cañocazo, Mantúo Castellano, Mantúo de Pilas, Perruno and Vigiriega, all grown here before phylloxera.</li>
+<li><b>Fino Viejo</b> is a new category for biologically aged wine with an average age over seven years. Manzanilla Pasada now needs seven years too.</li>
+<li><b>En rama</b> is legally defined: no clarification and no cold stabilization.</li>
+<li><b>Dry styles</b> may hold no more than 4 g/L of sugar.</li>
+<li><b>Sanlúcar.</b> All biologically aged wine from the town will be Manzanilla; Fino made there is being phased out over ten years.</li>
+<li><b>Fortification is no longer compulsory.</b> Since the EU approved the change in July 2025, Fino, Manzanilla, Amontillado, Oloroso and Palo Cortado may be bottled unfortified if they reach their strength naturally, with 15% as the floor.</li></ul>
+<h3>Serving Sherry</h3>
+<table class="t"><tr><th>Style</th><th>Temperature</th><th>Once opened</th></tr>
+<tr><td>Fino, Manzanilla</td><td>43 to 48°F</td><td>About a week, in the refrigerator</td></tr>
+<tr><td>Amontillado, Palo Cortado</td><td>54 to 57°F</td><td>Two to three weeks</td></tr>
+<tr><td>Oloroso, Cream</td><td>54 to 57°F</td><td>Four to six weeks</td></tr>
+<tr><td>Pedro Ximénez</td><td>About 55°F, or cooler over ice cream</td><td>One to two months</td></tr></table>
+<ul><li><b>Glass:</b> a white-wine glass, filled a third. The tiny schooner hides the aroma.</li>
+<li><b>Freshness:</b> buy Fino and Manzanilla young. They are best within about a year of bottling.</li>
+<li>The <b>venencia</b> is a narrow cup on a long flexible rod. A venenciador plunges it through the flor to draw a sample and pours it from height into the glass.</li></ul>
+<h3>Sherry at the table</h3>
+<p>The local rule: <i>if it swims, Fino; if it flies, Amontillado; if it runs, Oloroso.</i></p>
+<table class="t"><tr><th>Style</th><th>Works with</th></tr>
+<tr><td>Fino, Manzanilla</td><td>Olives, almonds, jamón, fried fish, oysters, sushi</td></tr>
+<tr><td>Amontillado</td><td>Mushrooms, consommé, chicken, and the hard cases: artichoke and asparagus</td></tr>
+<tr><td>Palo Cortado</td><td>Cured meats, aged cheese, game birds</td></tr>
+<tr><td>Oloroso</td><td>Braised oxtail, stews, aged Manchego</td></tr>
+<tr><td>Cream</td><td>Blue cheese, foie gras, fruit cake</td></tr>
+<tr><td>Pedro Ximénez</td><td>Vanilla ice cream, dark chocolate, blue cheese</td></tr></table>
+<ul><li><b>Rebujito:</b> Manzanilla or Fino with lemon-lime soda and mint, the drink of the spring ferias.</li>
+<li><b>Tabancos</b> are the old Sherry bars of Jerez, pouring straight from the cask.</li>
+<li>The region also makes <b>Brandy de Jerez</b> and <b>Vinagre de Jerez</b>, and seasons casks with Oloroso for the whisky industry.</li></ul>`,
 floor:`<p>Serve Fino and Manzanilla chilled (48-55°F) with jamón, almonds, olives, fried seafood. Oloroso with aged cheese and stews; PX over vanilla ice cream. Producers: González Byass (Tío Pepe), Lustau, Hidalgo (La Gitana), Barbadillo, Valdespino, Equipo Navazos.</p>`,
 analyst:`<p>WSET Level 3 LO4 expects you to explain how each style is made and how that creates its character. Example: "Explain why Fino is pale and tangy while Oloroso is brown and nutty" = flor versus oxygen, acetaldehyde versus oxidation, fortification level as the switch.</p>`,
-terms:[["Flor","Yeast layer protecting Sherry during biological aging."],["Solera","Fractional blending system of tiered barrels."],["Criadera","A row of barrels above the solera row."],["Albariza","Chalky white soil of Jerez."],["VORS","Very Old Rare Sherry, 30+ years average age."],["En rama","Sherry bottled with minimal filtration."]],
+terms:[["Flor","Yeast layer protecting Sherry during biological aging."],["Solera","Fractional blending system of tiered barrels."],["Criadera","A row of barrels above the solera row."],["Albariza","Chalky white soil of Jerez."],["VORS","Very Old Rare Sherry, 30+ years average age."],["En rama","Sherry bottled with minimal filtration."],["Sack","Elizabethan English name for Sherry."],["Fino Viejo","Biologically aged Sherry with an average age over seven years."],["Venencia","Narrow cup on a long rod, used to draw samples from a butt."],["Rebujito","Manzanilla or Fino with lemon-lime soda."],["Tabanco","A traditional Sherry bar in Jerez."]],
 quiz:[
 [1,"Sherry's main grape is:","Palomino",["Pedro Ximénez","Tempranillo","Airén"],"Neutral; aging creates the style."],
 [1,"Manzanilla can only be aged in:","Sanlúcar de Barrameda",["Jerez","El Puerto de Santa María","Montilla"],"Sea humidity gives thick flor."],
@@ -71,7 +107,15 @@ quiz:[
 [2,"Why does Oloroso never develop flor?","It is fortified to about 17%, which kills flor",["It's made from Pedro Ximénez, not Palomino","It's aged outdoors in the summer sun","It's bottled before flor can form"],"Oxidative aging follows."],
 [2,"VOS Sherry has an average age of at least:","20 years",["12 years","30 years","5 years"],"VOS certifies an average age of 20 years or more; VORS, 30 or more."],
 [1,"Albariza is:","A chalky white soil in Jerez",["A dry Sherry style from Sanlúcar","A 500-liter Sherry cask","A hot easterly wind"],"Holds water, reflects light."],
-[3,"The humid westerly wind that favors flor is the:","Poniente",["Levante","Mistral","Sirocco"],"The levante is hot and dry."]
+[3,"The humid westerly wind that favors flor is the:","Poniente",["Levante","Mistral","Sirocco"],"The levante is hot and dry."],
+[3,"Since the EU approved the change in 2025, a Sherry that reaches 15% naturally may skip:","Fortification",["Aging in a solera","The DO seal","Filtration"],"It applies to Fino, Manzanilla, Amontillado, Oloroso and Palo Cortado."],
+[2,"Fino Viejo is biologically aged Sherry with an average age over:","Seven years",["Two years","Twenty years","Thirty years"],"Manzanilla Pasada now needs seven years too."],
+[2,"In the local pairing rule, 'if it flies' calls for:","Amontillado",["Fino","Oloroso","Pedro Ximénez"],"If it swims, Fino; if it runs, Oloroso."],
+[2,"The venencia is:","A cup on a rod for sampling casks",["The bottom row of barrels in a solera","A drying mat for PX grapes","A chalky vineyard soil"],"It passes through the flor without breaking it up."],
+[2,"Rebujito, the drink of the ferias, is:","Manzanilla and lemon soda",["Oloroso and cola","PX and coffee","Fino and chilled tomato juice"],"Served cold, often with mint."],
+[2,"Which grape rejoined Sherry's permitted list in 2022?","Perruno",["Airén","Verdejo","Macabeo"],"One of six pre-phylloxera varieties brought back."],
+[2,"Drake's 1587 raid on Cádiz made which wine fashionable in England?","Sack",["Claret","Hock","Malmsey"],"Sack was the Elizabethan word for Sherry."],
+[2,"Under the 2022 rules, 'en rama' means the wine had no:","Clarification or cold stabilization",["Flor at any stage of its aging","Time at all in a solera","Palomino grapes anywhere in the blend"],"It is bottled as close to the cask as possible."]
 ]});
 
 L.push({id:"r10", unit:"R3", title:"Portugal, Port and Madeira", mins:20,
@@ -235,17 +279,49 @@ body:`
 <ul><li><b>Finger Lakes</b>: deep glacial lakes (Seneca, Keuka, Cayuga) moderate the brutal winters. Dr. Konstantin Frank proved vinifera could survive here in the 1950s. Riesling is the star (Hermann J. Wiemer, Ravines), plus Cabernet Franc and sparkling.</li>
 <li><b>Long Island</b>: North Fork, maritime; Merlot and Cabernet Franc.</li>
 <li><b>Hudson Valley</b>: one of the oldest wine regions in the US.</li>
-<li><b>Virginia</b>: Viognier, Cabernet Franc, Petit Manseng; Monticello AVA (Thomas Jefferson's failed vinifera dream).</li></ul>`,
+<li><b>Virginia</b>: Viognier, Cabernet Franc, Petit Manseng; Monticello AVA (Thomas Jefferson's failed vinifera dream).</li></ul>
+<h3>New York in more detail</h3>
+<p>New York is one of the three largest wine-producing states, but much of its vineyard grows Concord grapes for juice along Lake Erie. Three families of vine share the state:</p>
+<table class="t"><tr><th>Family</th><th>Grapes</th><th>Character</th></tr>
+<tr><td><b>Vitis vinifera</b></td><td>Riesling, Cabernet Franc, Chardonnay, Merlot</td><td>The European wine grapes; the least cold-hardy</td></tr>
+<tr><td><b>Vitis labrusca</b> (native)</td><td>Concord, Catawba, Niagara</td><td>A "foxy" grape-jelly aroma; very hardy</td></tr>
+<tr><td><b>Hybrids</b></td><td>Seyval Blanc, Vidal, Vignoles, Cayuga White, Traminette</td><td>Bred for cold and disease resistance; many came from Cornell</td></tr></table>
+<ul><li><b>Finger Lakes.</b> Seneca Lake is more than 600 feet deep and almost never freezes; the "banana belt" on its southeast shore is the warmest stretch. Soils are shale and slate. Riesling runs from bone dry to ice wine, and many back labels carry a sweetness scale. Cabernet Franc, Blaufränkisch and sparkling wine follow.</li>
+<li><b>Long Island.</b> Alex and Louisa Hargrave planted the first vinifera vineyard in 1973. Three AVAs: North Fork, The Hamptons and Long Island. Maritime and Bordeaux-like: Merlot, Cabernet Franc, Sauvignon Blanc.</li>
+<li><b>Hudson Valley.</b> Brotherhood, founded in 1839, is the oldest continuously operating winery in the United States. It survived Prohibition by making sacramental wine.</li>
+<li><b>The Farm Winery Act of 1976</b> let small growers sell wine directly to the public. Almost every estate in the state dates from after it.</li></ul>
+<h3>Telling these wines from their models</h3>
+<table class="t"><tr><th>Wine</th><th>Markers</th><th>Easily confused with</th></tr>
+<tr><td>Willamette Pinot Noir</td><td>Red cherry, cranberry, forest floor; moderate alcohol, bright acid</td><td>Burgundy (earthier, firmer) or California (riper, sweeter fruit)</td></tr>
+<tr><td>Willamette Chardonnay</td><td>Lemon, green apple, restrained oak</td><td>Chablis or Mâcon</td></tr>
+<tr><td>Washington Cabernet</td><td>Ripe black fruit with more acidity than Napa; dusty tannin, a sage note</td><td>Napa (plusher) or Bordeaux (leaner)</td></tr>
+<tr><td>Walla Walla Syrah (the Rocks)</td><td>Olive, smoked meat, savory funk</td><td>Northern Rhône</td></tr>
+<tr><td>Finger Lakes Riesling</td><td>Lime, green apple, slate; light body, high acid</td><td>Mosel (lower alcohol) or Clare Valley (drier, limier)</td></tr></table>
+<h3>Producers to know</h3>
+<ul><li><b>Oregon:</b> Eyrie, Domaine Drouhin (since 1987), Ponzi, Adelsheim, Cristom, Bergström, Beaux Frères, Domaine Serene, Evening Land.</li>
+<li><b>Washington:</b> Chateau Ste. Michelle, Leonetti, Woodward Canyon, L'Ecole No. 41, Quilceda Creek, Cayuse, DeLille, Andrew Will.</li>
+<li><b>New York:</b> Dr. Konstantin Frank, Hermann J. Wiemer, Ravines, Red Newt and Forge in the Finger Lakes; Bedell, Paumanok and Wölffer on Long Island.</li></ul>
+<h3>What goes wrong here</h3>
+<ul><li><b>Oregon:</b> rain at harvest, and wildfire smoke. In 2020 many Willamette wineries made little or no red wine.</li>
+<li><b>Washington:</b> winter freezes that kill vines to the ground, and smoke.</li>
+<li><b>New York:</b> deep winter cold and late spring frost in the Finger Lakes; humidity and hurricanes on Long Island.</li></ul>`,
 floor:`<p>CMS Certified examines Willamette Valley Pinot Noir and, via the matching exercise, regions like Ribbon Ridge. Producers: Eyrie, Domaine Drouhin Oregon, Beaux Frères, Cristom, Bergström; Washington: Quilceda Creek, Leonetti, Cayuse, Andrew Will.</p>`,
 analyst:`<p>WSET Level 3 includes Willamette Valley, Columbia Valley, Yakima Valley and Walla Walla Valley, and New York's Finger Lakes. The classic explanation: how the Cascade rain shadow and irrigation shape Washington wine.</p>`,
-terms:[["Jory soil","Red volcanic soil of Oregon's Dundee Hills."],["Missoula Floods","Ice Age floods that left sandy, phylloxera-resistant soils in Washington."],["Rain shadow","Dry area on the leeward side of mountains."]],
+terms:[["Jory soil","Red volcanic soil of Oregon's Dundee Hills."],["Missoula Floods","Ice Age floods that left sandy, phylloxera-resistant soils in Washington."],["Rain shadow","Dry area on the leeward side of mountains."],["Vitis labrusca","Native American vine species; Concord is its best-known grape."],["Hybrid","A cross between vine species, bred for cold or disease resistance."],["Farm Winery Act","1976 New York law that let small growers sell wine direct."],["Banana belt","The warm southeast shore of Seneca Lake."]],
 quiz:[
 [1,"Oregon's flagship grape is:","Pinot Noir",["Cabernet Sauvignon","Zinfandel","Riesling"],"Willamette Valley."],
 [2,"Why is eastern Washington a desert?","The Cascade Mountains block Pacific rain",["Its vineyards sit above the clouds","It lies too far inland for storms","A cold current dries the coastal air"],"Irrigation from the Columbia River is essential."],
 [2,"Ribbon Ridge is an AVA in:","Oregon",["Washington","California","New York"],"From the official CMS matching example (appellation to country/state)."],
 [2,"Finger Lakes winters are made survivable mainly by:","Deep glacial lakes that hold heat",["Vineyards planted at high altitude","The Gulf Stream off the Atlantic","Dark volcanic soils that hold heat"],"Seneca Lake rarely freezes."],
 [1,"Who planted Oregon's pioneering Pinot Noir in the Dundee Hills in 1965?","David Lett (Eyrie Vineyards)",["Robert Mondavi (Mondavi Winery)","Konstantin Frank (Vinifera Wine Cellars)","Robert Drouhin (Domaine Drouhin)"],"The 'Papa Pinot' of Oregon."],
-[3,"Many Washington vineyards are ungrafted because:","Sandy flood soils deter phylloxera",["The state bans grafting","It is too cold for vines to need it","Rootstocks don't grow there"],"Winter freeze is a larger threat."]
+[3,"Many Washington vineyards are ungrafted because:","Sandy flood soils deter phylloxera",["The state bans grafting","It is too cold for vines to need it","Rootstocks don't grow there"],"Winter freeze is a larger threat."],
+[2,"The 'foxy', grape-jelly aroma of Concord belongs to which vine species?","Vitis labrusca",["Vitis vinifera","Vitis riparia","Vitis amurensis"],"The native American species, grown mostly for juice."],
+[2,"The oldest continuously operating winery in the United States is:","Brotherhood, in the Hudson Valley",["Buena Vista, in Sonoma","Eyrie, in the Dundee Hills","Chateau Ste. Michelle, in Woodinville"],"Founded in 1839; it made sacramental wine through Prohibition."],
+[2,"New York's Farm Winery Act of 1976:","Let small growers sell wine direct",["Banned hybrid grapes","Created the first AVA","Ended Prohibition in New York State"],"It launched the modern estate wineries."],
+[2,"Long Island's first vinifera vineyard was planted in 1973 by the:","Hargraves",["Franks","Wiemers","Drouhins"],"Alex and Louisa Hargrave, on the North Fork."],
+[2,"Vignoles, Cayuga White and Traminette are:","Cold-hardy hybrid grapes",["Clones of Riesling","Native labrusca grapes","Sub-AVAs of the Finger Lakes"],"Many were bred at Cornell."],
+[3,"A Syrah showing olive, smoked meat and savory funk, grown on basalt cobbles, points to:","The Rocks District",["The Eola-Amity Hills","The North Fork","Lake Chelan"],"In the Walla Walla Valley, on the Oregon side."],
+[2,"In 2020 many Willamette Valley wineries made little or no red wine because of:","Wildfire smoke",["A late spring frost","Phylloxera","A grape glut"],"Smoke compounds bind in the skins, which red winemaking extracts."]
 ]});
 
 L.push({id:"r15", unit:"R5", title:"Australia and New Zealand", mins:20,
@@ -324,15 +400,51 @@ body:`
 <p>The <b>VQA</b> (Vintners Quality Alliance) system covers Ontario and British Columbia.</p>
 <ul><li><b>Ontario</b>: <b>Niagara Peninsula</b>, where Lake Ontario and the Niagara Escarpment circulate air and moderate winters; also Prince Edward County and Lake Erie North Shore. Riesling, Chardonnay, Cabernet Franc, Pinot Noir.</li>
 <li><b>British Columbia</b>: the <b>Okanagan Valley</b> (a desert at its southern end; Bordeaux varieties, Syrah, Pinot Gris) and Similkameen.</li>
-<li><b>Icewine</b>: Canada is the world's largest producer. Grapes must freeze naturally on the vine and be picked and pressed at -8°C (about 17.6°F) or colder. Main grapes: <b>Vidal</b> (a hybrid), Riesling, Cabernet Franc. Inniskillin's 1989 Vidal Icewine won a top prize at Vinexpo in 1991.</li></ul>`,
+<li><b>Icewine</b>: Canada is the world's largest producer. Grapes must freeze naturally on the vine and be picked and pressed at -8°C (about 17.6°F) or colder. Main grapes: <b>Vidal</b> (a hybrid), Riesling, Cabernet Franc. Inniskillin's 1989 Vidal Icewine won a top prize at Vinexpo in 1991.</li></ul>
+<h3>South Africa by the numbers</h3>
+<ul><li>About <b>86,500 hectares</b> of wine grapes, and shrinking each year as growers pull out unprofitable vineyards.</li>
+<li>The world's seventh-largest producer in 2025.</li>
+<li>White grapes are 56% of plantings. <b>Chenin Blanc is 18%</b> of the whole vineyard, more than in the Loire.</li>
+<li>Reds: Cabernet Sauvignon about 10%, Shiraz 9%, Pinotage under 8%.</li></ul>
+<h3>Chenin and Pinotage in the glass</h3>
+<table class="t"><tr><th>Wine</th><th>Style</th></tr>
+<tr><td>Fresh Chenin</td><td>Unoaked: guava, apple, lemon; inexpensive</td></tr>
+<tr><td>Old-vine Chenin</td><td>Barrel-fermented: quince, honey, lanolin, real concentration</td></tr>
+<tr><td>Cape white blend</td><td>Chenin with Rhône whites; Sadie's Palladius is the model</td></tr>
+<tr><td>Pinotage</td><td>Dark plum, smoke, sometimes banana; modern versions are cleaner than the old rubbery ones</td></tr>
+<tr><td>"Coffee" Pinotage</td><td>Heavily toasted oak gives mocha; popular and inexpensive</td></tr></table>
+<ul><li><b>Pinotage</b> was bred in 1925 by Professor <b>Abraham Perold</b> at Stellenbosch from Pinot Noir and Cinsault. Cinsault was then called Hermitage in South Africa, hence the name. The first labeled bottling was sold in 1961.</li>
+<li><b>Cap Classique</b> began in 1971 with Simonsig's Kaapse Vonkel.</li>
+<li><b>Vin de Constance</b> is made from Muscat de Frontignan left to raisin on the vine. There is no botrytis and no fortification.</li>
+<li><b>The seal.</b> Every certified bottle carries a numbered Wine of Origin seal on its neck, which backs the claims of origin, variety and vintage. Since 2010 it can also certify sustainable production.</li>
+<li><b>Headwinds:</b> leafroll virus, the drought of 2015 to 2018, power cuts and low grape prices.</li></ul>
+<h3>Canada beyond Icewine</h3>
+<ul><li>Icewine is a sliver of production. Most Canadian wine is dry: Riesling, Chardonnay, Pinot Noir and Cabernet Franc in Ontario; Pinot Gris, Merlot and Syrah in British Columbia.</li>
+<li><b>Label trap.</b> <b>VQA</b> wine is 100% grown in the named province. A bottle marked as an <b>international blend</b> (once "Cellared in Canada") is mostly imported bulk wine bottled in Canada.</li>
+<li><b>Niagara.</b> Lake Ontario stores summer heat and releases it through autumn. Breezes off the lake hit the Escarpment and circle back, which keeps frost off the vines. Wind machines do the same job on still nights.</li>
+<li><b>Winter kill.</b> In January 2024 a deep freeze destroyed nearly all of that year's crop in the Okanagan. British Columbia let wineries bring in grapes from Washington and elsewhere for the vintage; those wines are sold outside VQA.</li>
+<li><b>Prince Edward County</b> growers bury their vines under soil each winter.</li>
+<li><b>Nova Scotia</b> makes sharp, fine traditional-method sparkling wine (Benjamin Bridge).</li></ul>
+<h3>Icewine details that get tested</h3>
+<ul><li>Freezing picked grapes in a freezer (cryoextraction) is banned for anything called Icewine in Canada.</li>
+<li>Frozen grapes give only about 15% of the juice of a normal harvest, which is why half bottles cost so much.</li>
+<li><b>Vidal</b> has thick skins that survive on the vine into winter. <b>Riesling</b> Icewine has more acidity and ages longer. <b>Cabernet Franc</b> makes a red version.</li>
+<li>Serve about 2 oz, well chilled.</li></ul>`,
 floor:`<p>Matching example from the CMS guide: Walker Bay → South Africa. Know Pinotage's parents and the Kanonkop/Hamilton Russell/Sadie names. Icewine pairs with fruit desserts and blue cheese; serve well chilled.</p>`,
 analyst:`<p>WSET Level 3 includes Stellenbosch, Paarl, Constantia, Swartland, Elgin, Walker Bay and Cape South Coast; and Canada's Niagara Peninsula and Okanagan Valley. Know how icewine is made and why the climate allows it.</p>`,
-terms:[["Wine of Origin","South Africa's appellation scheme."],["Cape Doctor","Strong southeasterly wind that cools and dries Cape vineyards."],["Steen","Old South African name for Chenin Blanc."],["VQA","Vintners Quality Alliance, Canada's appellation system."],["Méthode Cap Classique","South African traditional-method sparkling."]],
+terms:[["Wine of Origin","South Africa's appellation scheme."],["Cape Doctor","Strong southeasterly wind that cools and dries Cape vineyards."],["Steen","Old South African name for Chenin Blanc."],["VQA","Vintners Quality Alliance, Canada's appellation system."],["Méthode Cap Classique","South African traditional-method sparkling."],["Kaapse Vonkel","Simonsig's 1971 sparkling wine, the first Cap Classique."],["Wine of Origin seal","Numbered neck seal certifying a South African wine's origin, variety and vintage."],["International blend","Canadian label term for wine made mostly from imported bulk wine."],["Cryoextraction","Freezing picked grapes artificially; not allowed for Canadian Icewine."]],
 quiz:[
 [1,"Match Walker Bay to its country:","South Africa",["Australia","Chile","New Zealand"],"From the official CMS matching example."],
 [1,"South Africa's most planted grape is:","Chenin Blanc",["Pinotage","Cabernet Sauvignon","Chardonnay"],"Once called Steen."],
 [2,"Canadian icewine grapes must be harvested at what temperature or colder?","-8°C",["0°C","-2°C","-20°C"],"Minus 8°C (about 18°F) or colder, with the grapes naturally frozen on the vine."],
 [2,"Vin de Constance is a historic sweet wine from:","Constantia",["Stellenbosch","Swartland","Paarl"],"Napoleon reportedly drank it on St Helena."],
 [2,"Which grape dominates Canadian icewine?","Vidal",["Chardonnay","Pinot Noir","Gewürztraminer"],"A cold-hardy hybrid."],
-[3,"The 'Cape Doctor' is:","A cooling southeasterly wind",["A fungal disease of old vines","A fortified wine from Paarl","A Wine of Origin regulation"],"Reduces fungal pressure."]
+[3,"The 'Cape Doctor' is:","A cooling southeasterly wind",["A fungal disease of old vines","A fortified wine from Paarl","A Wine of Origin regulation"],"Reduces fungal pressure."],
+[2,"Pinotage was bred in 1925 by:","Abraham Perold",["Eben Sadie","Jan van Riebeeck","Simon van der Stel"],"A professor at Stellenbosch University."],
+[2,"Why is the grape called Pinotage?","Cinsault was then called Hermitage",["It was first grown at Hermitage","It is a clone of Pinot Meunier","It was bred in the northern Rhône valley"],"Pinot Noir crossed with Cinsault, known locally as Hermitage."],
+[2,"South Africa's first Cap Classique, in 1971, was made by:","Simonsig",["Graham Beck","Kanonkop","Meerlust"],"The wine was Kaapse Vonkel."],
+[3,"Vin de Constance gets its sweetness from:","Grapes raisined on the vine",["Noble rot","Added grape spirit","Freezing the grapes on the vine"],"Muscat de Frontignan, unfortified and without botrytis."],
+[2,"A Canadian bottle labeled as an international blend contains:","Mostly imported bulk wine",["Only Ontario grapes","Only hybrid grapes","Icewine blended with table wine"],"VQA is the mark of 100% provincial fruit."],
+[2,"What destroyed nearly all of the Okanagan's 2024 crop?","A January deep freeze",["Wildfire smoke","A severe summer hailstorm","Phylloxera"],"Wineries were allowed to bring in grapes from outside the province."],
+[2,"Chenin Blanc covers about what share of South Africa's vineyard?","18%",["3%","45%","70%"],"It is the most planted grape, ahead of Cabernet Sauvignon at about 10%."]
 ]});

@@ -456,8 +456,8 @@ quiz:[
 [2,"Why must agave be cooked before fermentation?","To turn inulin into fermentable sugar",["To add a smoky flavor to it","To kill wild yeast on the skin","To soften the spines for cutting"],"Yeast cannot ferment inulin. Mezcal's pit-roasting adds smoke as a by-product."],
 [2,"The first vapors off a pot still, which the distiller discards, are the:","Heads",["Heart","Tails","Lees"],"Heads carry methanol and sharp solvents; tails are heavy and oily."],
 [2,"Stills are made of copper mainly because it:","Removes sulfur compounds",["Conducts no heat","Adds color to the spirit","Raises the alcohol"],"Copper reacts with sulfur and strips it from the vapor."],
-[2,"A whisky labeled 12 years old, bought and kept for 20 years, is now:","Still 12 years old",["32 years old","20 years old","Spoiled"],"Spirits mature only in cask."],
-[2,"A few drops of water added to a neat spirit:","Lower the burn and release aroma",["Ruin the texture","Raise its proof","Make it cloudy in every case"],"Blenders nose whisky diluted to about 20%."],
+[2,"A whisky labeled 12 years old, bought and kept for 20 years, is now:","Still 12 years old",["32 years old","20 years old","Spoiled and undrinkable"],"Spirits mature only in cask."],
+[2,"A few drops of water added to a neat spirit:","Lower the burn and release aroma",["Ruin the texture for good","Raise its proof slightly","Make it cloudy in every single case"],"Blenders nose whisky diluted to about 20%."],
 [3,"Overripe banana, pineapple and varnish in a rum suggest:","Jamaica",["Martinique","Puerto Rico","Cuba"],"High-ester pot-still rum. Martinique's agricole is grassy; Cuban style is light."]
 ]});
 
@@ -528,13 +528,13 @@ quiz:[
 [2,"Sake's simultaneous starch conversion and fermentation is called:","Multiple parallel fermentation",["Malolactic conversion","Carbonic maceration","Secondary fermentation"],"Koji and yeast work together."],
 [3,"Nigori sake is:","Coarsely filtered and cloudy",["Unpasteurized and fresh","Undiluted and strong","Aged for several years"],"Namazake is unpasteurized; Genshu undiluted."],
 [2,"Hops added late in the boil mainly give:","Aroma",["Bitterness","Color","Alcohol"],"Early additions give bitterness; late ones keep volatile aroma."],
-[2,"IBU measures a beer's:","Bitterness",["Color","Strength","Sweetness"],"About 10 to 25 for most lagers; 40 to 70 and more for IPA."],
+[2,"IBU measures a beer's:","Bitterness",["Color depth","Alcohol strength","Residual sweetness"],"About 10 to 25 for most lagers; 40 to 70 and more for IPA."],
 [2,"Banana and clove aromas are the signature of:","Hefeweizen",["Pilsner","Dry stout","West Coast IPA"],"They come from the Bavarian wheat-beer yeast."],
 [2,"A golden, strong, spicy Belgian ale of 8 to 9% is a:","Tripel",["Dubbel","Gose","Helles"],"Dubbel is dark and fruity; Gose is a salty sour; Helles is a pale lager."],
-[3,"The main sake mash is built in how many additions?","Three, over four days",["One","Two, over two weeks","Ten"],"Adding rice, koji and water in stages keeps the yeast healthy."],
+[3,"The main sake mash is built in how many additions?","Three, over four days",["One, on the first day","Two, spread over two weeks","Ten, one each day"],"Adding rice, koji and water in stages keeps the yeast healthy."],
 [2,"Which sake should be served chilled, not hot?","Daiginjo",["Honjozo","A sturdy Junmai","Futsushu"],"Heat destroys the delicate fragrance of Ginjo styles."],
 [2,"Japan's largest sake district, known for hard water and a dry style, is:","Nada",["Fushimi","Niigata","Hiroshima"],"Nada is in Hyogo. Fushimi in Kyoto has soft water and gentler sake."],
-[2,"Keeving produces cider that is:","Naturally sweet and low in alcohol",["Bone dry and strong","Fortified with Calvados","Still and sharply acidic"],"Yeast starved of nutrients stop early, leaving sugar."],
+[2,"Keeving produces cider that is:","Naturally sweet and low in alcohol",["Bone dry and high in alcohol","Fortified with young Calvados spirit","Still and sharply acidic"],"Yeast starved of nutrients stop early, leaving sugar."],
 [2,"Bittersweet cider apples are high in:","Tannin",["Acid only","Sugar only","Pectin only"],"They give the body and grip of West Country and Norman cider."]
 ]});
 
@@ -602,9 +602,9 @@ quiz:[
 [2,"The Sazerac's classic bitters are:","Peychaud's",["Angostura only","Orange bitters","Fernet"],"With an absinthe rinse."],
 [1,"Which is a classic apéritif?","Fino Sherry",["Vintage Port","Tokaji Aszú","Calvados"],"Dry and appetizing."],
 [2,"Pastis is properly served with about:","Five parts water to one",["Equal parts of water","No water, just over ice","Soda water and lime juice"],"Water goes in first, then ice; it turns cloudy as it dilutes."],
-[2,"Spain's 'hora del vermut' features:","Sweet red vermouth over ice",["Dry Sherry in a copita","Cava with orange juice","Brandy and coffee"],"With an olive and a slice of orange, before lunch."],
+[2,"Spain's 'hora del vermut' features:","Sweet red vermouth over ice",["Dry Sherry in a copita","Cava mixed with orange juice","Brandy and coffee"],"With an olive and a slice of orange, before lunch."],
 [2,"By tradition, a decanter of Port is passed:","To the left",["To the right","Across the table","Only by the host"],"And it should keep moving around the table."],
-[2,"Green tea turns bitter when brewed with:","Boiling water",["Cool water","Soft water","Loose leaves"],"Use about 160 to 180°F for two to three minutes."],
+[2,"Green tea turns bitter when brewed with:","Boiling water",["Cool water","Very soft water","Loose leaves"],"Use about 160 to 180°F for two to three minutes."],
 [2,"A spirit-free cocktail most needs:","Acid, bitterness and texture",["Extra sugar and fruit syrup","More ice and a longer shake","Fruit juice and soda alone"],"Those replace the bite and body that alcohol supplies."],
 [2,"A sound pour of Cognac from the digestif cart is:","1 to 1.5 oz",["4 to 5 oz","Half an ounce","6 oz"],"Fortified wines get 2 to 3 oz."],
 [2,"Why is a good apéritif dry or bitter?","Bitterness and acid wake the appetite",["Sugar helps the digestion","Alcohol needs to be high first","Only because of old tradition"],"Sugar and heavy alcohol dull the appetite before a meal."]

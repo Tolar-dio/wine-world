@@ -214,11 +214,11 @@ quiz:[
 [2,"The louche in absinthe is caused by:","Anethole coming out of solution",["Sugar crystallizing in the cold water","Thujone oxidizing on contact with air","Proteins forming a chill haze"],"Clouding effect."],
 [3,"Noilly Prat ages part of its wine:","Outdoors in barrels at Marseillan",["Underground in the cellars of Turin","In glass bonbonnes in the sun","Under a film of flor yeast"],"French dry vermouth."],
 [2,"Grand Marnier differs from Cointreau because it is:","Cognac-based",["Clear and neutral","Made from cherries","Bitter"],"Cointreau is a triple sec."],
-[2,"The base wine for red (rosso) vermouth is normally:","White wine, colored with caramel",["Red wine from Nebbiolo","Rosé wine from Grenache","Unfermented grape must"],"The color does not come from red grapes."],
+[2,"The base wine for red (rosso) vermouth is normally:","White wine, colored with caramel",["Red wine from Nebbiolo","Rosé wine from Grenache","Unfermented must of red-fleshed grapes"],"The color does not come from red grapes."],
 [2,"Who sold the first commercial vermouth, in Turin in 1786?","Antonio Benedetto Carpano",["Gaspare Campari","Joseph Noilly","Bernardino Branca"],"Noilly created the French dry style in 1813."],
 [2,"Under EU rules, a 'crème de' liqueur must contain at least:","250 g/L of sugar",["100 g/L of sugar","15% dairy cream","40% alcohol"],"Crème de cassis needs 400 g/L. No cream is involved."],
 [2,"The least sweet and most bitter family of amaro is:","Fernet",["Aperitivo bitter","Carciofo","Alpine"],"Fernet-Branca is about 39% with mint, saffron and myrrh."],
-[2,"Which liqueur method best suits soft fruit such as raspberries?","Cold maceration",["Distillation","Percolation","Compounding"],"Heat would cook the fresh fruit character."],
+[2,"Which liqueur method best suits soft fruit such as raspberries?","Cold maceration",["Steam distillation","Percolation","Compounding"],"Heat would cook the fresh fruit character."],
 [3,"Vermouth di Torino Superiore must reach at least:","17% alcohol",["11% alcohol","22% alcohol","40% alcohol"],"And half its wine must come from Piedmont."],
 [2,"A traditional absinthe verte gets its green color from:","Chlorophyll from a second herb soak",["Copper salts from the pot still","Lime peel added after distilling","Long aging in green glass bottles"],"A blanche skips the coloring step and stays clear."],
 [2,"Aperol is bottled at about:","11% alcohol",["24% alcohol","35% alcohol","45% alcohol"],"Campari is about 24%; Fernet-Branca about 39%."]

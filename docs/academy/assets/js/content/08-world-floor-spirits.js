@@ -47,17 +47,50 @@ body:`
 <h3>The United States beyond the West Coast</h3>
 <p>Every US state makes wine. Notables: Virginia (Viognier, Cabernet Franc, Petit Manseng), Texas Hill Country (Tempranillo, Rhône grapes), Michigan (Riesling), Idaho (Snake River Valley), Arizona, and New Mexico (Gruet sparkling).</p>
 <h3>Why these matter</h3>
-<p>Emerging regions test your reasoning more than your memory. In blind tasting, an "impossible" wine (English Pinot, Uruguayan Tannat) is solvable if you trust structure. On the floor, they let you offer value and novelty.</p>`,
+<p>Emerging regions test your reasoning more than your memory. In blind tasting, an "impossible" wine (English Pinot, Uruguayan Tannat) is solvable if you trust structure. On the floor, they let you offer value and novelty.</p>
+<h3>England in more detail</h3>
+<ul><li><b>Size.</b> The 2025 industry report counted 4,841 hectares and 1,104 vineyards in England and Wales, roughly six times the area of 2005. It is still tiny: Champagne alone has about 34,000 hectares.</li>
+<li><b>Grapes.</b> Chardonnay, Pinot Noir and Meunier cover well over half the vineyard. <b>Bacchus</b> is the leading still white: elderflower, nettle and grapefruit, England's answer to Sauvignon Blanc. Older vineyards still hold Seyval Blanc and other hardy varieties.</li>
+<li><b>Where.</b> Kent, Sussex, Hampshire and Surrey, on chalk and greensand, make most of the sparkling wine. The <b>Crouch Valley</b> in Essex is drier and warmer, on clay, and has become the source of England's best still Chardonnay and Pinot Noir. Cornwall's Camel Valley holds a single-vineyard PDO for its Darnibole Bacchus.</li>
+<li><b>History.</b> Hambledon in Hampshire, planted in 1952, was the first commercial vineyard of the modern era. In 1988 two Americans, Stuart and Sandy Moss, planted Nyetimber in Sussex with the Champagne grapes only. Its first wines won international trophies in the late 1990s and set the model everyone followed.</li>
+<li><b>Risk.</b> This is the edge of where vines ripen. Spring frost and rain at flowering swing the crop wildly: 2018 and 2023 were record harvests, 2024 was small and wet.</li></ul>
+<h3>English labels and one trap</h3>
+<ul><li><b>English Wine</b> and <b>Welsh Wine</b> are the PDOs; <b>English Regional Wine</b> is the PGI.</li>
+<li><b>Sussex</b> sparkling must be made by the traditional method and spend at least 15 months in bottle, 12 of them on the lees.</li>
+<li><b>"British wine"</b> is not English wine. It is made in Britain from imported grape concentrate and sits at the bottom of the market. Expect the distinction in an exam.</li></ul>
+<h3>English sparkling against Champagne</h3>
+<table class="t"><tr><th></th><th>English sparkling</th><th>Champagne</th></tr>
+<tr><td>Acidity</td><td>Very high, sharp, with a green-apple edge</td><td>High, but rounder</td></tr>
+<tr><td>Fruit</td><td>Green apple, hedgerow fruit, lemon</td><td>Apple, citrus, more stone fruit in warm years</td></tr>
+<tr><td>Autolysis</td><td>Often lighter: young estates hold few old reserve wines</td><td>Deeper toast and brioche in the big houses</td></tr>
+<tr><td>Price</td><td>Close to non-vintage Champagne</td><td>Wider range</td></tr></table>
+<h3>The new cold frontier</h3>
+<p>Warmer summers are only half the story further north. Belgium, the Netherlands, Denmark, Sweden and Poland now make wine largely with <b>PIWI</b> grapes: modern crossings bred to resist mildew, such as Solaris, Souvignier Gris and Johanniter. They ripen early and need far fewer sprays, which matters in damp climates.</p>
+<h3>Signature wines of the emerging world</h3>
+<table class="t"><tr><th>Place</th><th>Wine</th><th>Tastes like</th></tr>
+<tr><td>Uruguay</td><td>Tannat</td><td>Madiran with rounder tannin and Atlantic freshness</td></tr>
+<tr><td>Serra Gaúcha, Brazil</td><td>Moscatel sparkling</td><td>Asti: sweet, grapey, low in alcohol</td></tr>
+<tr><td>Valle de Guadalupe, Mexico</td><td>Red blends</td><td>Ripe and dark, often with a salty note from the irrigation water</td></tr>
+<tr><td>Ningxia, China</td><td>Cabernet blends</td><td>Ripe Bordeaux-style reds with firm tannin</td></tr>
+<tr><td>Yamanashi, Japan</td><td>Koshu</td><td>Muscadet: light, citrus, quietly saline</td></tr>
+<tr><td>Virginia, USA</td><td>Cabernet Franc, Petit Manseng</td><td>Loire-weight reds; rich, high-acid whites</td></tr></table>`,
 floor:`<p>English sparkling against Champagne by the glass is a great conversation starter. Many guests can't tell them apart blind; it's a way to sell a premium glass that isn't Champagne.</p>`,
 analyst:`<p>MW contemporary issues papers often ask how climate change is redrawing the wine map. England, Tasmania, and higher-altitude sites are standard evidence.</p>`,
-terms:[["Sussex PDO","England's first protected wine designation (2022)."],["Koshu","Japanese grape from Yamanashi."],["Ningxia","Chinese wine region at the foot of the Helan Mountains."],["Valle de Guadalupe","Baja California's leading wine valley."]],
+terms:[["Sussex PDO","England's first protected wine designation (2022)."],["Koshu","Japanese grape from Yamanashi."],["Ningxia","Chinese wine region at the foot of the Helan Mountains."],["Valle de Guadalupe","Baja California's leading wine valley."],["Bacchus","England's leading still white grape: elderflower, nettle, grapefruit."],["British wine","Wine made in Britain from imported grape concentrate; not English wine."],["PIWI","Modern grape crossings bred to resist fungal disease."],["Crouch Valley","Dry, warm part of Essex known for still Chardonnay and Pinot Noir."]],
 quiz:[
 [1,"Uruguay's flagship grape is:","Tannat",["Malbec","Carmenère","Bonarda"],"Softer than Madiran."],
 [2,"England's first wine PDO, granted in 2022, is:","Sussex",["Kent","Cornwall","Hampshire"],"Sussex gained PDO status in 2022 for sparkling and still wines from the county."],
 [2,"The oldest winery in the Americas is:","Casa Madero, Mexico",["Inglenook, California","Concha y Toro, Chile","Brotherhood, New York"],"Casa Madero in Parras de la Fuente, Coahuila, was founded in 1597."],
 [2,"In Ningxia, vines are buried in winter because:","Winters are extremely cold",["To prevent theft","To avoid typhoons","For organic certification"],"Helan Mountains region."],
 [1,"Koshu is a grape from:","Japan",["China","India","Korea"],"Yamanashi Prefecture."],
-[3,"Why is southern England suited to traditional-method sparkling?","Cool climate, high acid and chalk soils",["Hot, dry summers and sandy soils","Volcanic soils and long autumns","High altitude and strong sunlight"],"Climate change has helped ripening."]
+[3,"Why is southern England suited to traditional-method sparkling?","Cool climate, high acid and chalk soils",["Hot, dry summers and sandy soils","Volcanic soils and long autumns","High altitude and strong sunlight"],"Climate change has helped ripening."],
+[2,"'British wine' on a label means wine that is:","Made from imported grape concentrate",["Grown anywhere in England","Grown in Scotland or Wales","Blended from several counties of England"],"English Wine and Welsh Wine are the PDOs for wine from grapes grown there."],
+[2,"England's leading grape for still white wine is:","Bacchus",["Koshu","Albariño","Furmint"],"Elderflower, nettle and grapefruit."],
+[3,"Sussex sparkling wine must spend at least how long in bottle before release?","15 months",["6 months","9 months","36 months"],"Twelve of those months must be on the lees."],
+[2,"Which area has become the source of England's best still Chardonnay and Pinot Noir?","The Crouch Valley in Essex",["The Camel Valley in Cornwall","The Wye Valley in Wales","The Test Valley in Hampshire"],"It is drier and warmer than the chalk counties."],
+[2,"Nyetimber, planted in 1988, set the English model by planting:","Only the Champagne grapes",["Only early-ripening German crossings","Only Bacchus","Only red hybrids"],"Chardonnay, Pinot Noir and Meunier."],
+[2,"Solaris and Souvignier Gris matter in northern Europe because they:","Resist fungal disease",["Ripen very late","Need extreme heat","Have red flesh and juice"],"They are PIWI varieties, bred for mildew resistance."],
+[3,"Compared with Champagne, English sparkling wine usually shows:","Higher, sharper acidity",["Lower acidity","More alcohol","Deeper color and more tannin"],"England is cooler, so malic acid stays high."]
 ]});
 
 L.push({id:"s6", unit:"S1", title:"Salesmanship and the Guest", mins:16,
@@ -300,14 +333,14 @@ quiz:[
 [1,"Which Scotch region is known for heavy peat smoke?","Islay",["Speyside","Lowlands","Campbeltown"],"Laphroaig, Ardbeg, Lagavulin."],
 [2,"The Lincoln County Process is used for:","Tennessee whiskey",["Bourbon generally","Scotch","Japanese whisky"],"Maple charcoal filtration."],
 [3,"Mizunara is:","A Japanese oak giving sandalwood and incense",["A rice variety used for sake and shochu","A distillery on the island of Hokkaido","A peat cut on Japan's northern coast"],"Expensive, porous oak."],
-[2,"'Sour mash' in bourbon making means:","Adding spent mash to the new batch",["The whiskey tastes sour","Using unripe corn","Aging in wine barrels"],"It controls acidity and keeps batches consistent."],
+[2,"'Sour mash' in bourbon making means:","Adding spent mash to the new batch",["The whiskey tastes sour","Using unripe corn in the grain recipe","Aging in wine barrels"],"It controls acidity and keeps batches consistent."],
 [2,"A wheated bourbon replaces which grain with wheat?","Rye",["Corn","Malted barley","Oats"],"The result is softer and sweeter: Maker's Mark, Weller."],
 [3,"Peat levels quoted in ppm are measured in:","The malted barley",["The bottled whisky","The water source","The cask"],"Much is lost in distilling and aging."],
-[2,"Why are many unfiltered whiskies bottled at 46% or more?","They stay clear without chill filtration",["Tax is lower at 46%","It is the legal minimum","It hides caramel coloring"],"The compounds that cause haze stay dissolved at that strength."],
+[2,"Why are many unfiltered whiskies bottled at 46% or more?","They stay clear without chill filtration",["Tax is lower at 46%","It is the legal minimum for a single malt","It hides caramel coloring"],"The compounds that cause haze stay dissolved at that strength."],
 [2,"Whose 1830 patent made grain whisky and blended Scotch possible?","Aeneas Coffey",["Friar John Cor","Masataka Taketsuru","Jack Daniel"],"The Coffey, or continuous, still."],
 [2,"Which distillery belongs to Nikka?","Yoichi",["Yamazaki","Hakushu","Chita"],"Yoichi and Miyagikyo are Nikka's; the others are Suntory's."],
-[2,"The deepest barrel char, which cracks the wood into scales, is called:","Alligator char",["Toast","First fill","Angel's share"],"Level No. 4, about 55 seconds of flame."],
-[2,"In 1964 the US Congress declared bourbon:","A distinctive product of the United States",["A product of Kentucky only","Exempt from federal tax","Legal again after Prohibition"],"It can be made in any state."]
+[2,"The deepest barrel char, which cracks the wood into scales, is called:","Alligator char",["Medium-plus toast","First fill","Angel's share"],"Level No. 4, about 55 seconds of flame."],
+[2,"In 1964 the US Congress declared bourbon:","A distinctive product of the United States",["A product of Kentucky only","Exempt from federal excise tax for ten years","Legal again after Prohibition"],"It can be made in any state."]
 ]});
 
 L.push({id:"b5", unit:"S2", title:"Brandy, Agave, Rum and Gin in Depth", mins:18,
@@ -384,13 +417,13 @@ quiz:[
 [2,"London Dry gin:","Adds nothing after distillation but water",["Must be distilled within Greater London","Is lightly sweetened after distillation","Is rested in oak before bottling"],"It's a method."],
 [3,"Peruvian Pisco differs from Chilean Pisco in that it:","Is distilled to proof, with no water or wood",["Must be aged in oak for five years","Is distilled from apples and pears","Is made only in column stills"],"Quebranta is a key grape."],
 [2,"The first distillation of Cognac produces a cloudy spirit called the:","Brouillis",["Bonne chauffe","Paradis","Boisé"],"The second distillation, the bonne chauffe, gives the finished eau-de-vie."],
-[3,"Why are Cognac's base wines made without sulfur dioxide?","Distillation would concentrate it",["It lowers the acidity","It darkens the spirit","Ugni Blanc resists rot"],"Sulfur compounds would carry over and spoil the spirit."],
+[3,"Why are Cognac's base wines made without sulfur dioxide?","Distillation would concentrate it",["It lowers the acidity","It darkens the spirit","Ugni Blanc never needs any protection"],"Sulfur compounds would carry over and spoil the spirit."],
 [2,"The long-handled blade a jimador uses to trim agave is the:","Coa",["Tahona","Horno","Piña"],"The tahona is a stone wheel; the horno is an oven; the piña is the heart."],
 [2,"The NOM number on a tequila bottle identifies the:","Distillery",["Agave field","Age class","Importer"],"Many brands are made at the same distillery."],
 [2,"Dunder, used in Jamaican rum, is:","Residue from earlier distillations",["A style of Jamaican pot still","Freshly pressed sugarcane juice","A blend of aged and young rums"],"Its acids help form the esters behind Jamaican funk."],
 [2,"Brazil's cachaça is the base spirit of the:","Caipirinha",["Mojito","Daiquiri","Pisco Sour"],"Cachaça is made from fresh cane juice."],
 [2,"Which gin botanical is valued for fixing the other aromas?","Orris root",["Lemon peel","Cardamom","Cucumber"],"Orris is the dried root of the iris."],
-[3,"Compared with Scotland, spirits aging in the Caribbean lose to evaporation:","Several times more each year",["About the same amount","Almost nothing","Half as much each year"],"About 6 to 10% a year against roughly 2%."]
+[3,"Compared with Scotland, spirits aging in the Caribbean lose to evaporation:","Several times more each year",["About the same amount each year","Almost nothing","Half as much each year"],"About 6 to 10% a year against roughly 2%."]
 ]});
 
 L.push({id:"c3", unit:"C1", title:"Inside the Master Sommelier Service Exam", mins:14,

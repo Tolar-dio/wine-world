@@ -180,10 +180,43 @@ body:`
 <h3>Steiermark (Styria)</h3>
 <p>Steep, green hills near Slovenia with high rainfall and big diurnal swings. Three DACs since 2018: <b>Südsteiermark</b> (Sauvignon Blanc, Morillon = Chardonnay; Tement's Zieregg, Sattlerhof, Gross, Polz), <b>Vulkanland Steiermark</b> (volcanic; Traminer), and <b>Weststeiermark</b> (pink, tart <b>Schilcher</b> rosé from Blauer Wildbacher).</p>
 <h3>The 1985 turning point</h3>
-<p>The glycol scandal pushed Austria toward strict laws, dry styles and individual estates. Today it's one of Europe's most quality-focused wine countries, with a large share of organic vineyards.</p>`,
+<p>The glycol scandal pushed Austria toward strict laws, dry styles and individual estates. Today it's one of Europe's most quality-focused wine countries, with a large share of organic vineyards.</p>
+<h3>The legal basics</h3>
+<ul><li>Austria's vineyard is about two-thirds white. <b>Grüner Veltliner</b> alone is about a third of all plantings; Zweigelt is the most planted red.</li>
+<li>There are <b>18 DACs</b>. The last, Thermenregion, joined in 2023.</li>
+<li><b>Qualitätswein</b> is tasted and tested, and carries the red-white-red <b>banderole</b> on its capsule or cap.</li>
+<li>Must weight is measured in <b>KMW</b> (Klosterneuburger Mostwaage). One degree KMW is about five degrees Oechsle.</li>
+<li><b>Kabinett</b> in Austria is a dry Qualitätswein, not a Prädikat. That is the opposite of Germany.</li></ul>
+<table class="t"><tr><th>Austrian Prädikat</th><th>Minimum must weight</th><th>Notes</th></tr>
+<tr><td>Spätlese</td><td>19° KMW</td><td>Fully ripe grapes</td></tr>
+<tr><td>Auslese</td><td>21° KMW</td><td>Selected bunches</td></tr>
+<tr><td>Beerenauslese</td><td>25° KMW</td><td>Overripe or botrytized berries</td></tr>
+<tr><td>Eiswein</td><td>25° KMW</td><td>Frozen on the vine</td></tr>
+<tr><td>Strohwein or Schilfwein</td><td>25° KMW</td><td>Grapes dried on straw or reeds for at least three months</td></tr>
+<tr><td>Trockenbeerenauslese</td><td>30° KMW</td><td>Shriveled botrytized berries</td></tr></table>
+<p>The Wachau's own scale runs by alcohol: <b>Steinfeder</b> up to 11.5%, <b>Federspiel</b> 11.5 to 12.5%, <b>Smaragd</b> from 12.5%. All three are dry.</p>
+<h3>Classifying the vineyards</h3>
+<ul><li>The growers' association <b>ÖTW</b>, founded in 1992, classified the best Rieden along the Danube privately, as Erste Lagen.</li>
+<li>Austria's 2023 wine law created an official framework with two tiers: <b>Erste Lage</b> (premier cru) and <b>Große Lage</b> (grand cru). The ordinance setting out the procedure followed in 2025, and regions apply through their own committees.</li>
+<li>In Styria, the STK growers use Erste STK Ried and Grosse STK Ried.</li></ul>
+<h3>Sekt Austria</h3>
+<table class="t"><tr><th>Tier</th><th>Time on lees</th><th>Origin and method</th></tr>
+<tr><td>Sekt Austria</td><td>9 months</td><td>One federal state; any method</td></tr>
+<tr><td>Reserve</td><td>18 months</td><td>One state; traditional method, hand harvest</td></tr>
+<tr><td>Große Reserve</td><td>36 months</td><td>One municipality; traditional method</td></tr></table>
+<h3>The grapes in the glass</h3>
+<table class="t"><tr><th>Grape</th><th>Markers</th></tr>
+<tr><td>Grüner Veltliner</td><td>White pepper, green bean, lentil, citrus, radish; high acid. Light as Steinfeder, powerful as Smaragd</td></tr>
+<tr><td>Riesling</td><td>Dry, with peach and apricot; a small share of plantings but many of the greatest sites</td></tr>
+<tr><td>Zweigelt</td><td>Sour cherry, soft tannin, juicy. Bred in 1922</td></tr>
+<tr><td>Blaufränkisch</td><td>Dark berries, pepper, high acid, firm tannin. Lemberger in Germany, Kékfrankos in Hungary</td></tr>
+<tr><td>St. Laurent</td><td>Like a darker, wilder Pinot Noir</td></tr>
+<tr><td>Welschriesling</td><td>Simple when dry; the base of great sweet wines by the Neusiedlersee</td></tr></table>
+<ul><li>The pepper in Grüner Veltliner is <b>rotundone</b>, the same compound found in Syrah.</li>
+<li>About a quarter of Austria's vineyard is certified organic, the highest share of any major wine country.</li></ul>`,
 floor:`<p>Grüner Veltliner Federspiel by the glass for vegetable-heavy menus; Smaragd or a Kamptal Ried for fish in cream sauce; Blaufränkisch for guests who like Northern Rhône or cool-climate Syrah; Kracher TBA with blue cheese.</p>`,
 analyst:`<p>Diploma topics: compare the DAC and Prädikat systems; explain how the Waldviertel cold air and Pannonian heat interact in the Wachau; describe Ausbruch.</p>`,
-terms:[["Ried","Single vineyard (Austria)."],["Gebietswein / Ortswein / Riedenwein","Regional, village and single-vineyard tiers in Austrian DACs."],["Ausbruch","Austrian botrytis sweet wine, historically from Rust."],["Schilcher","Tart rosé from Blauer Wildbacher in Weststeiermark."],["Morillon","Styrian name for Chardonnay."],["Heuriger","Viennese wine tavern serving young wine."]],
+terms:[["Ried","Single vineyard (Austria)."],["Gebietswein / Ortswein / Riedenwein","Regional, village and single-vineyard tiers in Austrian DACs."],["Ausbruch","Austrian botrytis sweet wine, historically from Rust."],["Schilcher","Tart rosé from Blauer Wildbacher in Weststeiermark."],["Morillon","Styrian name for Chardonnay."],["Heuriger","Viennese wine tavern serving young wine."],["KMW","Klosterneuburger Mostwaage, Austria's must-weight scale."],["Banderole","The red-white-red seal on the capsule of Austrian Qualitätswein."],["Erste Lage","Austria's premier cru tier for single vineyards."],["ÖTW","Österreichische Traditionsweingüter, the growers' group that began classifying Rieden."],["Sekt Austria","Austria's protected sparkling wine, in three tiers."],["Strohwein","Sweet wine from grapes dried on straw; also called Schilfwein."]],
 quiz:[
 [2,"Austria's first DAC (2003) was:","Weinviertel",["Wachau","Kamptal","Leithaberg"],"Grüner Veltliner."],
 [2,"Wiener Gemischter Satz must be:","A field blend of at least three varieties",["100% Grüner Veltliner from Vienna","A sweet wine from botrytized grapes","A red blend led by Zweigelt"],"Planted together."],
@@ -191,7 +224,15 @@ quiz:[
 [2,"Heiligenstein is a famous Ried in:","Kamptal",["Wachau","Kremstal","Weinviertel"],"Heiligenstein, above Zöbing in the Kamptal, is desert sandstone with volcanic elements."],
 [3,"Which DAC is known as 'Blaufränkischland'?","Mittelburgenland",["Carnuntum","Thermenregion","Neusiedlersee"],"Moric, Weninger."],
 [2,"Zierfandler and Rotgipfler are signatures of:","Thermenregion",["Wachau","Südsteiermark","Wien"],"South of Vienna."],
-[2,"Morillon is the Styrian name for:","Chardonnay",["Sauvignon Blanc","Pinot Blanc","Gewürztraminer"],"Südsteiermark."]
+[2,"Morillon is the Styrian name for:","Chardonnay",["Sauvignon Blanc","Pinot Blanc","Gewürztraminer"],"Südsteiermark."],
+[2,"Austria measures must weight on which scale?","KMW",["Brix","Baumé","Plato"],"One degree KMW is about five degrees Oechsle."],
+[2,"In Austria, Kabinett is:","A dry Qualitätswein",["The lowest Prädikat","A sweet wine from Rust","A sparkling wine tier"],"In Germany it is a Prädikat; in Austria it is not."],
+[2,"The red-white-red banderole on an Austrian capsule shows the wine is:","Tested Qualitätswein",["Certified organic","From a single Ried","Bottled in Vienna"],"Every Qualitätswein is tasted and analyzed before it earns the seal."],
+[3,"Austria's two official vineyard tiers, in law since 2023, are:","Erste Lage and Große Lage",["Gebietswein and Riedenwein","Federspiel and Smaragd","Klassik and Reserve"],"Premier cru and grand cru in all but name."],
+[2,"Sekt Austria Große Reserve needs how long on lees?","36 months",["9 months","18 months","60 months"],"Reserve needs 18 months; the basic tier nine."],
+[2,"Strohwein is made from grapes:","Dried on straw or reeds",["Frozen on the vine","Affected by noble rot","Picked well before veraison"],"For at least three months before pressing."],
+[2,"How many DACs has Austria had since Thermenregion joined in 2023?","18",["9","13","27"],"Weinviertel was the first, in 2003."],
+[3,"A Wachau Federspiel has an alcohol level of:","11.5 to 12.5%",["Under 9%","13.5 to 15%","Over 15%"],"Steinfeder is lighter; Smaragd starts at 12.5%."]
 ]});
 
 L.push({id:"r10b", unit:"R3", title:"Deep Dive: Portugal's Regions, Port Shippers and Madeira Houses", mins:20,

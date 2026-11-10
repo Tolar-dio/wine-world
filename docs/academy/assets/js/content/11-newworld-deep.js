@@ -91,17 +91,59 @@ body:`
 <ul><li><b>Screwcaps:</b> the 2001 New Zealand Screwcap Wine Seal Initiative moved the country almost entirely to screwcap; now standard for nearly all NZ wine.</li>
 <li><b>Sustainability:</b> Sustainable Winegrowing New Zealand certifies the vast majority of vineyard area (around 96%); organic plantings are growing.</li>
 <li><b>Grapes:</b> Sauvignon Blanc (the large majority of exports), Pinot Noir, Chardonnay, Pinot Gris, Riesling, Syrah, Bordeaux varieties.</li>
-<li><b>Labeling:</b> 85% rule for variety, vintage and region.</li></ul>`,
+<li><b>Labeling:</b> 85% rule for variety, vintage and region.</li></ul>
+<h3>How New Zealand got here</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>1819</td><td>The missionary Samuel Marsden plants the first vines at Kerikeri</td></tr>
+<tr><td>1836</td><td>James Busby makes the first recorded wine at Waitangi</td></tr>
+<tr><td>Early 1900s</td><td>Croatian families (Babich, Brajkovich, Nobilo, Delegat, Selak) build the industry around Auckland</td></tr>
+<tr><td>1960s and 70s</td><td>Müller-Thurgau dominates; most wine is cheap and off-dry</td></tr>
+<tr><td>1973</td><td>Montana plants the first commercial vineyards in Marlborough; its first Sauvignon Blanc follows in 1979</td></tr>
+<tr><td>1985</td><td>Cloudy Bay's first vintage makes the style famous abroad</td></tr>
+<tr><td>1986</td><td>A government-paid vine pull removes about a quarter of the vineyard, mostly Müller-Thurgau, and clears the way for better grapes</td></tr>
+<tr><td>2023</td><td>Cyclone Gabrielle floods vineyards in Hawke's Bay and Gisborne</td></tr></table>
+<h3>Why Marlborough Sauvignon tastes like that</h3>
+<ul><li><b>Two families of aroma at once.</b> <b>Thiols</b> give passionfruit, grapefruit and boxwood. <b>Methoxypyrazines</b> give green capsicum and cut grass. Most regions get one or the other; Marlborough gets both at high levels.</li>
+<li><b>Climate.</b> Long sunshine and very strong ultraviolet light ripen the fruit, while cold nights hold on to acidity and pyrazines.</li>
+<li><b>Machine harvesting.</b> Research in New Zealand found that machine-picked fruit gives more thiols than hand-picked, because the skins are broken earlier.</li>
+<li><b>Winemaking.</b> Cold fermentation in stainless steel with selected yeasts, no malolactic, no oak, early bottling under screwcap.</li>
+<li><b>The other style.</b> Wild yeast and old barrels give a broader, smokier wine: Cloudy Bay Te Koko, Dog Point Section 94, Greywacke Wild Sauvignon.</li></ul>
+<table class="t"><tr><th>Sauvignon Blanc</th><th>Blind markers</th></tr>
+<tr><td>Marlborough</td><td>Pungent passionfruit and capsicum together, high acid, a little residual sugar</td></tr>
+<tr><td>Sancerre</td><td>Restrained citrus, chalk, smoke; less overt fruit</td></tr>
+<tr><td>Casablanca or Leyda</td><td>Herbal, jalapeño, grapefruit</td></tr>
+<tr><td>Napa "Fumé"</td><td>Riper melon and fig, lower acid, often oak</td></tr></table>
+<h3>The numbers and the rules</h3>
+<ul><li>About <b>42,000 hectares</b> are in production, and Sauvignon Blanc covers about <b>two-thirds</b> of them. Pinot Noir is a distant second.</li>
+<li>Exports are worth about NZ$2.1 billion a year. The United States, the United Kingdom and Australia take more than 70%.</li>
+<li>Regions have been registered as legal geographical indications since 2017.</li>
+<li><b>Appellation Marlborough Wine</b>, founded by producers in 2018, certifies wine that is 100% from Marlborough, from certified sustainable vineyards, cropped within set limits and bottled in New Zealand. It exists because much Marlborough wine is shipped abroad in bulk.</li>
+<li><b>Méthode Marlborough</b> is the producers' mark for traditional-method sparkling with at least 18 months on lees.</li></ul>
+<h3>Pinot Noir, region by region</h3>
+<table class="t"><tr><th>Region</th><th>Style</th></tr>
+<tr><td>Martinborough</td><td>Savory, earthy, dark plum, firm structure</td></tr>
+<tr><td>Marlborough</td><td>Bright red cherry, lighter body, fresh</td></tr>
+<tr><td>Nelson</td><td>Fragrant, fine-boned</td></tr>
+<tr><td>North Canterbury</td><td>Spice and grip from limestone</td></tr>
+<tr><td>Central Otago</td><td>The darkest and plushest: black cherry, thyme, higher alcohol</td></tr></table>
+<p>Hawke's Bay Syrah is the country's quiet success: peppery and medium-bodied, far closer to the northern Rhône than to Barossa Shiraz.</p>`,
 floor:`<p>Beyond Marlborough Sauvignon: Central Otago Pinot as a Burgundy alternative with more fruit, Kumeu River Chardonnay to blind-test guests who swear by Meursault, Gimblett Gravels Syrah for Northern Rhône lovers.</p>`,
 analyst:`<p>Diploma D3: contrast Wairau and Awatere Sauvignon; explain Central Otago's continental climate at a maritime latitude; discuss NZ's sustainability and screwcap leadership as market strategy.</p>`,
-terms:[["Gimblett Gravels","Stony former riverbed in Hawke's Bay."],["Wairau / Awatere / Southern Valleys","Marlborough's three main subregions."],["Bannockburn","Warm Central Otago subregion."],["SWNZ","Sustainable Winegrowing New Zealand."]],
+terms:[["Gimblett Gravels","Stony former riverbed in Hawke's Bay."],["Wairau / Awatere / Southern Valleys","Marlborough's three main subregions."],["Bannockburn","Warm Central Otago subregion."],["SWNZ","Sustainable Winegrowing New Zealand."],["Thiols","Sulfur compounds that give passionfruit and grapefruit aromas."],["Methoxypyrazines","Compounds that give green capsicum and cut-grass aromas."],["Appellation Marlborough Wine","Producers' certification: 100% Marlborough, sustainable, bottled in New Zealand."],["Vine pull","The 1986 scheme that paid growers to remove about a quarter of New Zealand's vines."]],
 quiz:[
 [2,"Which Marlborough subregion is higher, cooler and windier?","Awatere Valley",["Wairau Valley","Southern Valleys","Waipara"],"Herbal, saline Sauvignon."],
 [2,"Kumeu River is famous for:","Chardonnay",["Sauvignon Blanc","Syrah","Riesling"],"Auckland region."],
 [2,"Felton Road is in which Central Otago subregion?","Bannockburn",["Gibbston","Wanaka","Alexandra"],"Warm sun-trap."],
 [2,"The Gimblett Gravels were nearly lost to:","A gravel-quarry plan",["A phylloxera outbreak","A flood-control dam","A housing estate"],"1980s; now prime Syrah land."],
 [1,"NZ's mass move to screwcaps began with a 2001:","Screwcap Wine Seal Initiative",["Act of Parliament on closures","European Union import rule","Shortage of Portuguese cork"],"An industry-led initiative; within a few years almost all New Zealand wine was under screwcap."],
-[3,"Martinborough is in which wider region?","Wairarapa",["Hawke's Bay","Nelson","Canterbury"],"Old river terrace."]
+[3,"Martinborough is in which wider region?","Wairarapa",["Hawke's Bay","Nelson","Canterbury"],"Old river terrace."],
+[2,"The passionfruit note in Marlborough Sauvignon Blanc comes mainly from:","Thiols",["Rotundone","Terpenes","Diacetyl"],"Methoxypyrazines give the green capsicum note."],
+[2,"Who planted Marlborough's first commercial vineyards, in 1973?","Montana",["Cloudy Bay","Villa Maria","Kumeu River"],"Cloudy Bay arrived in 1985."],
+[2,"Appellation Marlborough Wine requires grapes that are:","100% from Marlborough",["85% from Marlborough","Hand harvested only","Grown organically only"],"Also sustainably certified vineyards and bottling in New Zealand."],
+[2,"Sauvignon Blanc covers about what share of New Zealand's vineyard?","Two-thirds",["One-tenth","One-quarter","One-third"],"About 28,700 of 42,500 hectares."],
+[3,"The first recorded New Zealand wine was made in 1836 by:","James Busby",["Samuel Marsden","David Hohnen","Romeo Bragato"],"Marsden planted the first vines in 1819."],
+[2,"Cloudy Bay Te Koko and Greywacke Wild Sauvignon are:","Barrel-fermented with wild yeast",["Late-harvest sweet wines","Traditional-method sparkling","Made by whole-bunch carbonic maceration"],"The broader, smokier alternative to the stainless-steel style."],
+[2,"Hawke's Bay Syrah is closest in style to:","The northern Rhône",["Barossa Shiraz","Amarone della Valpolicella","Zinfandel"],"Peppery and medium-bodied."]
 ]});
 
 L.push({id:"r16b", unit:"R5", title:"Deep Dive: Argentina and Chile in Detail", mins:18,
