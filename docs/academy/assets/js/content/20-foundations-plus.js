@@ -1,6 +1,6 @@
 // ===== CURRICULUM PART 20: gaps closed in the November 2026 review =====
 // Six lessons the path lacked (soils, grape families and synonyms, rosé, classic pairings and cheese, cocktail families, a full vintage chart),
-// a longer faults section, and extra questions for the lessons that had only four or five.
+// and a full vintage chart. (The longer faults section and the extra questions written in the same review now live in their own lessons.)
 
 L.push({id:"f13", unit:"F2", title:"Soils and Geology: What the Vine Stands On", mins:9,
 summary:"What soil really does for a vine, the rock types behind the classic regions, and the named soils examiners expect you to place.",
@@ -328,64 +328,3 @@ quiz:[
 [2,"A 2024 wine from Australia was harvested:","About six months before a 2024 from France",["At the same time as a 2024 from France","About six months after a 2024 from France","A full year before a 2024 from France"],"Southern Hemisphere harvest runs from about February to April."],
 [3,"Which was a difficult Bordeaux vintage?","2013",["2010","2016","2019"],"A cool, wet year with rot. The others are among the greatest."]
 ]});
-
-// ---------- a longer second half for the faults lesson ----------
-{ const f3 = L.find(l => l.id === "f3"); if (f3) { f3.body += `
-<h3>The faults that catch out good tasters</h3>
-<table class="t"><tr><th>Fault</th><th>How it shows</th><th>What is going on</th></tr>
-<tr><td>Light strike</td><td>Cabbage, wet wool, struck match in a pale wine from a clear bottle</td><td>Ultraviolet light reacts with riboflavin and sulfur amino acids. Minutes in bright sun can do it to rosé or Champagne.</td></tr>
-<tr><td>Mousiness</td><td>Nothing on the nose; a stale, cracker or mouse-cage taste seconds after swallowing</td><td>Compounds from lactic bacteria or Brettanomyces in low-sulfite, high-pH wines. Not everyone can perceive it.</td></tr>
-<tr><td>Smoke taint</td><td>Ash, campfire, burnt rubber, a drying finish</td><td>Volatile phenols absorbed by grapes during wildfires, bound to sugars and released later.</td></tr>
-<tr><td>Premature oxidation</td><td>A young white that is deep gold, flat and sherry-like</td><td>Too little protection from oxygen; notorious in white Burgundy of about 1995 to 2005.</td></tr>
-<tr><td>Refermentation</td><td>Fizz and haze in a wine meant to be still</td><td>Yeast or bacteria active in the bottle, often with leftover sugar.</td></tr>
-<tr><td>Geosmin</td><td>Beetroot, damp earth</td><td>Mould on damaged grapes.</td></tr></table>
-<h3>Fault or style?</h3>
-<p>Many faults are a matter of degree. A whiff of struck match in white Burgundy, a little volatile acidity in Amarone, a trace of Brett in old Rhône and the bruised-apple tang of Fino are all prized by some drinkers. The professional test is whether the character <b>dominates the wine and hides the fruit</b>. If it does, call it a fault. If a guest simply dislikes a sound wine, replace it anyway and say nothing about who was right.</p>
-<h3>At the table, step by step</h3>
-<ol><li>Thank the guest for telling you and take the glass and bottle from the table.</li>
-<li>Smell and taste it away from the guests. Cork taint often grows worse with air, so trust a second sniff.</li>
-<li>Faulty: apologize, bring a fresh bottle with a clean glass, and let the host taste again. Keep the bad bottle for your supplier, who will normally credit it.</li>
-<li>Sound: offer a different wine, and pour the returned bottle by the glass.</li></ol>`; } }
-
-// ---------- extra questions for lessons that had only four or five ----------
-const MORE_Q = {
-f3: [
-[2,"A pale rosé in a clear bottle smells of cabbage and wet wool after an hour in the sun. The fault is:","Light strike",["Cork taint","Volatile acidity","Brettanomyces"],"Ultraviolet light forms sulfur compounds; clear glass gives no protection."],
-[3,"Which fault is tasted on the finish but often cannot be smelled?","Mousiness",["Cork taint","Reduction","Volatile acidity"],"It appears seconds after swallowing, mostly in low-sulfite, high-pH wines."],
-[2,"A sommelier keeps a corked bottle because:","The supplier will normally credit it",["It can be poured by the glass","Air will cure it overnight","The cork can be reused"],"Corked wine can't be served. Returned but sound bottles are the ones poured by the glass."],
-[2,"A trace of volatile acidity in Amarone is best described as:","Part of the style, unless it dominates",["Always a fault","A sign of cork taint","Proof of heat damage"],"Many faults are a matter of degree; the test is whether they hide the fruit."]
-],
-o2: [
-[1,"Which track suits someone who wants to work a restaurant floor?","Floor (CMS)",["Analyst (WSET)","Wine Scholar Guild","Master of Wine"],"The Court examines service, selling and spoken blind tasting."],
-[2,"The Wine Scholar Guild is best known for:","Deep single-country programs",["A service practical","A 12-wine blind tasting","A spirits diploma"],"French, Italian, Spanish and German Wine Scholar: 100 questions, 75% to pass."],
-[2,"The Master of Wine research paper runs to about:","10,000 words",["1,000 words","3,000 words","50,000 words"],"The Diploma's D6 research assignment is 3,000 words."]
-],
-a2: [
-[1,"Which command word asks for cause and effect?","Explain",["Name","State","Identify"],"Explain means why or how. Name, state and identify want a word or phrase."],
-[2,"A 25-mark question should contain roughly:","15 to 25 distinct points",["3 to 5 distinct points","One long paragraph","50 or more points"],"One mark per correct, relevant point."],
-[2,"About how long should one 25-mark answer take?","15 to 17 minutes",["5 minutes","30 minutes","45 minutes"],"Four answers plus 50 multiple-choice questions fit in two hours."],
-[2,"'Compare the styles of Chablis and Meursault' is best answered:","Point by point, side by side",["With one paragraph on each","With a list of producers","With a tasting note for one wine"],"Compare means similarities and differences on the same criteria."]
-],
-c1: [
-[2,"About how long does a candidate have for each wine in the verbal exam?","Four minutes",["One minute","Ten minutes","Fifteen minutes"],"Six wines in 25 minutes."],
-[2,"In the spoken grid, the final conclusion must commit to:","One vintage",["A decade","An age range only","No vintage at all"],"The initial conclusion gives an age range; the final names a single year."],
-[3,"Roughly what share of Advanced candidates has historically passed?","About a quarter",["About half","About three-quarters","Fewer than one in fifty"],"All three sections must be passed at 60% in the same calendar year."]
-],
-c3: [
-[2,"One 750 ml bottle poured evenly for 12 guests gives about:","2 oz each",["1 oz each","3 oz each","4 oz each"],"25.4 oz divided by 12."],
-[2,"The Master service exam lasts roughly:","45 minutes",["10 minutes","2 hours","A full day"],"About 45 minutes at a table of Master Sommeliers playing guests."],
-[2,"During service, silence at the table is:","A fault: keep guests engaged",["Preferred by examiners","Required while pouring","A sign of confidence"],"Narrate, engage and keep the table comfortable."]
-],
-s3: [
-[2,"What happens when a fine wine is served too cold?","Aroma is muted and tannin hardens",["Alcohol tastes stronger","The wine tastes sweeter","Sediment forms in the glass"],"Cold suppresses aroma and makes tannin and bitterness harsher; too warm and alcohol dominates."],
-[2,"Which opened wine keeps longest?","Madeira",["Fino Sherry","Champagne","Beaujolais"],"Madeira is already heated and oxidized: it lasts months. Fino fades within days."]
-],
-f2: [
-[2,"Which sensation shows a wine's acidity?","Mouth-watering along the sides of the tongue",["Drying on the gums","Warmth at the back of the throat","Weight in the middle of the mouth"],"Drying is tannin, warmth is alcohol and weight is body."],
-[2,"High alcohol is felt mainly as:","Warmth at the back of the throat",["Drying on the gums","Mouth-watering","A prickle on the tongue"],"Alcohol also adds weight and a hint of sweetness; above about 14% it can burn."]
-],
-s7: [
-[2,"A wine by the glass should usually be finished within:","A few days of opening, with preservation",["A month of opening","One service only","Two weeks at room temperature"],"Date every open bottle and taste before the first pour of each service."]
-]
-};
-Object.entries(MORE_Q).forEach(([id, qs]) => { const l = L.find(x => x.id === id); if (l) l.quiz.push(...qs); });

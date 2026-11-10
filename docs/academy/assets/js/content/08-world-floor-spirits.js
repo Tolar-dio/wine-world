@@ -129,7 +129,8 @@ quiz:[
 [2,"A 'progressive' wine list is organized by:","Style, from light to full",["Price only","Vintage","Producer alphabetically"],"Guest-friendly."],
 [2,"Why price a glass so the first pour or two covers the bottle cost?","To protect margin against waste from open bottles",["To make glasses cheaper than bottles","Because state law sets glass prices","To avoid counting inventory monthly"],"A common rule of thumb."],
 [1,"An allocation is:","A limited quantity assigned to one buyer",["A fixed storage location in the cellar","A state tax on wholesale deliveries","A discount for buying a full pallet"],"Relationships matter."],
-[2,"Variance analysis compares:","Usage predicted from sales against actual stock used",["Two vintages of the same wine side by side","Critics' scores against the list price","Wholesale cost against the list price"],"Catches over-pouring and loss."]
+[2,"Variance analysis compares:","Usage predicted from sales against actual stock used",["Two vintages of the same wine side by side","Critics' scores against the list price","Wholesale cost against the list price"],"Catches over-pouring and loss."],
+[2,"A wine by the glass should usually be finished within:","A few days of opening, with preservation",["A month of opening","One service only","Two weeks at room temperature"],"Date every open bottle and taste before the first pour of each service."]
 ]});
 
 L.push({id:"b4", unit:"S2", title:"Whisk(e)y in Depth", mins:18,
@@ -244,7 +245,10 @@ quiz:[
 [2,"Pouring one 750 ml bottle of Champagne evenly for 8 guests gives about:","3 oz each",["5 oz each","1 oz each","6 oz each"],"A 750 ml bottle is 25.4 oz; divided among 8 guests that's about 3 oz each."],
 [1,"If you aren't sure of a fact during service, the best move is to:","Say you'll check rather than invent",["Guess confidently and move on","Change the subject to the food","Ask the guest what they think"],"False confidence is penalized."],
 [2,"Which category has historically appeared in the MS service exam beyond wine?","Cigars",["Coffee roasting","Cheese making","Tea ceremony"],"Along with spirits, beer and sake."],
-[1,"What do examiners watch when something goes wrong?","How calmly you recover",["Whether you apologize repeatedly","Whether you stop the exam","Nothing"],"Composure is scored."]
+[1,"What do examiners watch when something goes wrong?","How calmly you recover",["Whether you apologize repeatedly","Whether you stop the exam","Nothing"],"Composure is scored."],
+[2,"One 750 ml bottle poured evenly for 12 guests gives about:","2 oz each",["1 oz each","3 oz each","4 oz each"],"25.4 oz divided by 12."],
+[2,"The Master service exam lasts roughly:","45 minutes",["10 minutes","2 hours","A full day"],"About 45 minutes at a table of Master Sommeliers playing guests."],
+[2,"During service, silence at the table is:","A fault: keep guests engaged",["Preferred by examiners","Required while pouring","A sign of confidence"],"Narrate, engage and keep the table comfortable."]
 ]});
 
 L.push({id:"c4", unit:"C1", title:"Blind Tasting Sparkling, Sweet and Fortified", mins:15,

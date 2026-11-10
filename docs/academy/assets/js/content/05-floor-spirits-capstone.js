@@ -22,17 +22,48 @@ body:`
 <ul><li>Cutting below the second lip and wiping prevents metallic or moldy contact with the wine.</li>
 <li>Serving from the right keeps your arm clear of the guest and is the universal beverage side.</li>
 <li>Presenting the cork lets the host see that it is sound, damp at one end, and matches the bottle (a historical anti-fraud check).</li>
-<li>Pouring the host's taste first is fault control, not courtesy theater.</li></ul>`,
+<li>Pouring the host's taste first is fault control, not courtesy theater.</li></ul>
+<h3>The numbers every server needs</h3>
+<p>A 750 ml bottle holds 25.4 oz. That is five 5-oz glasses, six 4-oz glasses or eight 3-oz tastes. For a table of seven, pour 3.5 oz each and the bottle goes round once with a little left; never run dry before reaching the host. A magnum is two bottles. Count the table before you pour the first glass.</p>
+<h3>Hands, feet and posture</h3>
+<ul><li>Stand at the guest's right, pour with your right hand, label toward the guest.</li>
+<li>The bottle never touches the rim of the glass. Finish each pour with a small twist and a wipe of the serviette to catch the drip.</li>
+<li>Hold glasses by the stem or base, never the bowl, never with fingers inside.</li>
+<li>Move clockwise around the table and never reach across a guest.</li>
+<li>Do not turn your back on the table to open a bottle; open it in sight of the host.</li>
+<li>Speak while you work: say what the wine is, and answer questions without stopping.</li></ul>
+<h3>When the bottle is not ordinary</h3>
+<table class="t"><tr><th>Situation</th><th>What to do</th></tr>
+<tr><td>Screwcap</td><td>Present the bottle as usual. Hold the cap in a serviette and turn the bottle to break the seal quietly. Pocket the cap; there is nothing to present.</td></tr>
+<tr><td>Wax capsule</td><td>Drive the corkscrew straight through the wax, draw the cork partway, brush away the fragments, then finish and wipe.</td></tr>
+<tr><td>Old or fragile cork</td><td>Use a two-pronged <b>Ah-So</b>, or a <b>Durand</b> (worm and prongs together). Go slowly.</td></tr>
+<tr><td>Cork breaks</td><td>Stay calm, tell the host, and take the rest out at an angle. If pieces fall in, strain through a clean filter into a decanter.</td></tr>
+<tr><td>Second bottle of the same wine</td><td>Give the host a fresh glass to taste the new bottle. Every bottle can be corked.</td></tr>
+<tr><td>A different wine follows</td><td>Fresh glasses for everyone, set before the first wine's glasses are cleared.</td></tr>
+<tr><td>A guest is not drinking</td><td>Remove the glass quietly; do not ask twice.</td></tr></table>
+<h3>Two wines at once</h3>
+<p>Set the glass for the first wine nearest the guest's right hand, with the next glass above and to the left of it. Serve white before red, light before full, dry before sweet, unless the host directs otherwise.</p>
+<h3>Fixing the temperature</h3>
+<ul><li><b>Too warm:</b> a bucket of ice <i>and water</i> chills far faster than ice alone, because water touches the whole bottle. A handful of salt speeds it further. A white drops from room temperature to serving temperature in about 15 minutes; a warm red needs five.</li>
+<li><b>Too cold:</b> pour, and let the guest warm the glass in the hand. Never put a bottle near heat.</li></ul>
+<h3>Where candidates lose marks</h3>
+<p>Examiners report the same errors every year: forgetting to wipe the lip, drips on the cloth, serving out of order, running out of wine before the host, not knowing the vintage or the producer, and silence. None of them is about knowledge. All of them disappear with repetition, which is why you should open and serve a real bottle to a real table every week, saying each step aloud.</p>`,
 floor:`<p>The Certified service exam is about 16 minutes. Common tasks: open sparkling and serve a table; pour wines by the glass; choose a pairing from several dishes and explain why; recommend a wine for a dish naming region, producer and vintage; recognize top producers and suggest similar ones. Examiners also score salesmanship and poise: smile, make eye contact, keep talking while you work.</p>`,
 analyst:`<p>WSET Level 3 LO5 covers storage and service at a principles level: temperatures, glassware, opening and decanting, preserving opened wine (vacuum pumps, inert gas, refrigeration). Sample short-answer prompt: "How should the wine be preserved once opened?"</p>`,
-terms:[["Underliner","Small plate placed under bottles, corks and decanters."],["Host","The guest who ordered the wine; tastes first, served last."],["Guéridon","Side table used for decanting and service."],["Serviette","Service napkin."]],
+terms:[["Underliner","Small plate placed under bottles, corks and decanters."],["Host","The guest who ordered the wine; tastes first, served last."],["Guéridon","Side table used for decanting and service."],["Serviette","Service napkin."],["Ah-So","Two-pronged cork puller for old or fragile corks."],["Durand","A corkscrew and Ah-So combined, for very old corks."],["Waiter's friend","The folding, hinged corkscrew sommeliers carry."],["Magnum","A 1.5-liter bottle, equal to two standard bottles."]],
 quiz:[
 [1,"Where is the foil cut on a still wine bottle?","Below the second lip",["Above the first lip","Fully removed","Not cut at all"],"Keeps wine from contacting foil when pouring."],
 [1,"How much wine is poured for the host's taste?","About 1-1.5 oz",["A full glass","Half a glass","A few drops"],"Enough to judge soundness."],
 [2,"In the CMS Americas standard, after the host approves, service proceeds:","Clockwise regardless of gender, host last",["Ladies first, then gentlemen, host last","Host first, then clockwise around the table","Counterclockwise from the host, eldest first"],"The ladies-first ordering was dropped in the Americas."],
 [1,"From which side is wine served?","The guest's right",["The guest's left","Whichever is closest","From behind"],"Standard beverage side."],
 [2,"What happens with a screwcap closure?","It is not presented to the host",["It's presented on an underliner","It's placed in the glass","It's given to the guest of honor"],"Synthetic corks, by contrast, are presented like natural corks."],
-[1,"Still wine is poured to about:","Half the glass",["Three-quarters","The brim","One-quarter only"],"Leaves room to swirl."]
+[1,"Still wine is poured to about:","Half the glass",["Three-quarters","The brim","One-quarter only"],"Leaves room to swirl."],
+[2,"How many 5-oz glasses does a 750 ml bottle give?","Five",["Three","Seven","Eight"],"A bottle holds 25.4 oz."],
+[2,"An Ah-So is used for:","Old or fragile corks",["Cutting foil","Opening sparkling wine","Chilling a bottle quickly"],"Its two prongs slide down beside the cork and lift it out whole."],
+[2,"Why does ice and water chill a bottle faster than ice alone?","Water touches the whole bottle",["Water is colder than ice","Ice traps warm air","Water stops the label slipping"],"Full contact conducts heat away faster. Salt speeds it further."],
+[2,"A guest orders a second bottle of the same wine. The host should:","Taste it from a fresh glass",["Have it poured without tasting","Taste it from the glass in use","Smell the cork only"],"Each bottle can have its own faults."],
+[2,"When pouring, the bottle should:","Never touch the rim of the glass",["Rest on the rim for control","Be held by the neck","Be wrapped fully in a serviette"],"Finish with a small twist and wipe to catch the drip. The label stays visible."],
+[3,"Which tool combines a worm with two prongs for very old corks?","The Durand",["The Coravin","The waiter's friend","The butler's thief"],"The worm anchors the cork while the prongs lift it. 'Butler's thief' is another name for the Ah-So."]
 ]});
 
 L.push({id:"s2", unit:"S1", title:"Sparkling Service and Decanting", mins:14,
@@ -96,17 +127,58 @@ body:`
 <h3>Glassware</h3>
 <p>A tulip-shaped bowl that narrows at the rim concentrates aroma. Large Burgundy bowls expose delicate Pinot Noir to air; tall Bordeaux glasses direct tannic reds; flutes keep bubbles but mute aroma, so many sommeliers now serve top Champagne in white-wine glasses. The <b>ISO tasting glass</b> is the standard for exams. Glasses must be spotless: detergent residue kills mousse and adds off-aromas.</p>
 <h3>Opened bottles</h3>
-<p>Recork and refrigerate (even reds); vacuum pumps remove air; inert gas (argon) blankets the surface; Coravin-type systems extract through the cork for by-the-glass programs. Sparkling: a hinged stopper. Fino and Manzanilla fade within days; Madeira lasts months.</p>`,
+<p>Recork and refrigerate (even reds); vacuum pumps remove air; inert gas (argon) blankets the surface; Coravin-type systems extract through the cork for by-the-glass programs. Sparkling: a hinged stopper. Fino and Manzanilla fade within days; Madeira lasts months.</p>
+<h3>Why 55°F, and what heat does</h3>
+<p>Chemical reactions roughly double in speed for every 18°F (10°C) rise. A wine kept at 73°F ages about twice as fast as one at 55°F, and not as well: fruit fades before tannin softens. Above about 80°F wine "cooks" within weeks: stewed fruit, a flat finish and a brownish tinge. As it warms it expands, pushes the cork and seeps. The damage is permanent.</p>
+<h3>Reading a bottle before you buy or pour it</h3>
+<ul><li><b>Fill level (ullage):</b> the gap under the cork. In a young wine it should be in the neck. In a Bordeaux of 20 years or more, "top shoulder" is normal; "mid shoulder" or lower warns of a failing cork and oxidized wine.</li>
+<li><b>The cork:</b> raised above the lip, or sunken, means heat or pressure changes.</li>
+<li><b>The capsule and label:</b> sticky residue or wine stains mean seepage.</li>
+<li><b>Color through the glass:</b> a young white that looks deep gold, or a young red that looks brown, is suspect.</li></ul>
+<h3>What ages, and what doesn't</h3>
+<p>Most wine, well over 90%, is made to drink within a year or two. To improve with age a wine needs concentration plus a preservative: acid, tannin or sugar. Vintage Port, Sauternes, Riesling, Barolo, classed-growth Bordeaux, Grand Cru Burgundy and vintage Champagne are the classic keepers.</p>
+<p>Bottle size matters. A magnum has the same cork and the same small pocket of air for twice the wine, so it ages more slowly and usually better. Half bottles age faster.</p>
+<h3>Glasses for the job</h3>
+<table class="t"><tr><th>Glass</th><th>Shape</th><th>Use</th></tr>
+<tr><td>ISO tasting glass</td><td>Small tulip, 215 ml</td><td>Exams and trade tastings</td></tr>
+<tr><td>White wine</td><td>Medium tulip</td><td>Whites, rosé; also the modern choice for fine Champagne</td></tr>
+<tr><td>Bordeaux</td><td>Tall, broad bowl</td><td>Cabernet, Syrah and other firm reds</td></tr>
+<tr><td>Burgundy</td><td>Wide balloon, narrow rim</td><td>Pinot Noir, Nebbiolo</td></tr>
+<tr><td>Flute or tulip</td><td>Tall and narrow</td><td>Sparkling: keeps the bubbles, shows less aroma</td></tr>
+<tr><td>Copita</td><td>Small, narrow tulip</td><td>Sherry</td></tr>
+<tr><td>Port or dessert</td><td>Small tulip</td><td>Fortified and sweet wines</td></tr></table>
+<p>Polish with a lint-free cloth over steam, holding the base in one hand and the bowl in the cloth; twisting base against bowl snaps stems. Smell the glass before it goes to the table: cupboard, cardboard and detergent odors are the commonest "faults" a guest ever meets.</p>
+<h3>How long an opened bottle lasts</h3>
+<table class="t"><tr><th>Wine</th><th>Method</th><th>Good for</th></tr>
+<tr><td>Still white, rosé, light red</td><td>Recork and refrigerate</td><td>2 to 3 days</td></tr>
+<tr><td>Full red</td><td>Recork, cool place or refrigerator</td><td>3 to 5 days</td></tr>
+<tr><td>Any still wine</td><td>Inert gas (argon) system</td><td>1 to 3 weeks</td></tr>
+<tr><td>Any still wine under natural cork</td><td>Coravin (cork stays in)</td><td>Weeks to months</td></tr>
+<tr><td>Sparkling</td><td>Hinged stopper, refrigerated</td><td>1 to 3 days</td></tr>
+<tr><td>Fino, Manzanilla</td><td>Refrigerated</td><td>A few days to a week</td></tr>
+<tr><td>Vermouth</td><td>Refrigerated</td><td>About a month</td></tr>
+<tr><td>Tawny Port, LBV, sweet Sherry</td><td>Recorked, cool</td><td>Several weeks</td></tr>
+<tr><td>Vintage Port</td><td>Recorked</td><td>1 to 3 days</td></tr>
+<tr><td>Madeira</td><td>Recorked</td><td>Months</td></tr></table>
+<p>For a by-the-glass program: date every bottle when it is opened, and taste each one before the first pour of every service.</p>`,
 floor:`<p>Temperatures are frequently tested at Introductory and Certified. Memorize the chart in both scales. In service, offer an ice bucket for whites and sparkling, and don't be afraid to briefly chill a warm red.</p>`,
 analyst:`<p>WSET Level 3 short answers often end with a service question worth 2 marks: "Recommend a serving temperature and glass for this wine." Give a specific range.</p>`,
-terms:[["Light strike","Sulfurous fault from UV exposure."],["ISO glass","Standardized tasting glass."],["Coravin","Needle-based preservation system for pouring without pulling the cork."]],
+terms:[["Light strike","Sulfurous fault from UV exposure."],["ISO glass","Standardized tasting glass."],["Coravin","Needle-based preservation system for pouring without pulling the cork."],["Ullage","The air space between the wine and the cork."],["Cooked","Heat-damaged wine: stewed fruit, flat finish, often a pushed cork."],["Copita","Small tulip-shaped Sherry glass."],["Argon","Inert gas used to protect opened wine from oxygen."]],
 quiz:[
 [1,"Ideal long-term cellar temperature:","50-60°F (10-15°C), constant",["35-40°F (2-4°C), constant","68-72°F (20-22°C), constant","Any temperature that changes slowly"],"Constancy matters most."],
 [1,"Spirits and fortified wines should be stored:","Upright",["On their side","Upside down","In the freezer"],"High alcohol degrades cork."],
 [2,"The CMS serving temperature for full-bodied reds:","58-65°F",["42-50°F","50-55°F","68-72°F"],"Medium-bodied reds are 55-62°F."],
 [2,"The CMS serving temperature for lagers:","40-45°F",["50-55°F","35°F","55-62°F"],"Stouts and porters are warmer at 50-55°F."],
 [2,"Why store wine away from light?","UV light causes sulfurous 'light strike'",["Light speeds up tartrate formation","Light encourages Brettanomyces","Light dries out the cork over time"],"Clear glass is most vulnerable."],
-[1,"Which wine should be served at 48-55°F according to the CMS chart?","Dry Fino Sherry",["Vintage Port","Full-bodied red","Lager"],"Dry Sherry and dry Madeira."]
+[1,"Which wine should be served at 48-55°F according to the CMS chart?","Dry Fino Sherry",["Vintage Port","Full-bodied red","Lager"],"Dry Sherry and dry Madeira."],
+[2,"What happens when a fine wine is served too cold?","Aroma is muted and tannin hardens",["Alcohol tastes stronger","The wine tastes sweeter","Sediment forms in the glass"],"Cold suppresses aroma and makes tannin and bitterness harsher; too warm and alcohol dominates."],
+[2,"Which opened wine keeps longest?","Madeira",["Fino Sherry","Champagne","Beaujolais"],"Madeira is already heated and oxidized: it lasts months. Fino fades within days."],
+[2,"Wine stored at 73°F rather than 55°F ages about:","Twice as fast",["Half as fast","Ten times as fast","At the same speed"],"Reaction rates roughly double for every 18°F (10°C)."],
+[2,"Ullage is:","The air gap under the cork",["Sediment in an old bottle","The dent in the base of a bottle","Wine lost during decanting"],"Low ullage in an old bottle warns of oxidation."],
+[2,"Compared with a standard bottle, a magnum ages:","More slowly",["Faster","At the same rate","Unpredictably"],"Twice the wine shares the same small amount of air."],
+[2,"An opened bottle of vermouth should be kept:","Refrigerated, for about a month",["On the back bar indefinitely","In the freezer","At room temperature for a year"],"It is wine: it oxidizes. Most bars keep it too long and too warm."],
+[2,"A copita is the traditional glass for:","Sherry",["Champagne","Red Burgundy","Beer"],"A small, narrow tulip that concentrates aroma."],
+[2,"What share of wine is made to be drunk within a year or two?","More than 90%",["About 10%","About 50%","About a quarter"],"Only wines with concentration and acid, tannin or sugar improve with age."]
 ]});
 
 L.push({id:"s4", unit:"S1", title:"Food and Wine Pairing", mins:15,
@@ -355,7 +427,11 @@ quiz:[
 [1,"In the WSET Level 3 theory exam, each short written answer is worth:","25 marks",["10 marks","50 marks","5 marks"],"Four of them, 100 marks in total."],
 [2,"What earns the most marks in an 'explain' question?","Linking each cause to its effect in the wine",["Listing many facts without explanation","Writing long introductions","Drawing a map"],"Fact plus effect usually earns two marks."],
 [2,"What share of WSET Level 3 short-answer marks covers still wines of the world?","70 of 100",["28 of 100","50 of 100","100 of 100"],"In the MCQ paper, still wines are 28 of 50."],
-[1,"The pass mark for each part of WSET Level 3 is:","55%",["60%","50%","70%"],"Merit from 65%, distinction from 80%."]
+[1,"The pass mark for each part of WSET Level 3 is:","55%",["60%","50%","70%"],"Merit from 65%, distinction from 80%."],
+[1,"Which command word asks for cause and effect?","Explain",["Name","State","Identify"],"Explain means why or how. Name, state and identify want a word or phrase."],
+[2,"A 25-mark question should contain roughly:","15 to 25 distinct points",["3 to 5 distinct points","One long paragraph","50 or more points"],"One mark per correct, relevant point."],
+[2,"About how long should one 25-mark answer take?","15 to 17 minutes",["5 minutes","30 minutes","45 minutes"],"Four answers plus 50 multiple-choice questions fit in two hours."],
+[2,"'Compare the styles of Chablis and Meursault' is best answered:","Point by point, side by side",["With one paragraph on each","With a list of producers","With a tasting note for one wine"],"Compare means similarities and differences on the same criteria."]
 ]});
 
 // ---------- C1 CAPSTONE ----------
@@ -383,7 +459,10 @@ quiz:[
 [1,"How many wines and how long in the CMS Advanced/Master tasting exam?","6 wines in 25 minutes",["4 wines in 45 minutes","12 wines in 3 hours","2 wines in 30 minutes"],"Six wines, three white and three red, described aloud in 25 minutes."],
 [2,"What must the MS candidate pass first?","Theory",["Tasting","Service","Business"],"Then tasting and service within three years."],
 [2,"Pass mark for each section of the Advanced Sommelier exam:","60%",["75%","55%","50%"],"All sections in the same calendar year."],
-[3,"On the 2024 CMS Advanced grid, phenolic bitterness is assessed for:","White wines",["Red wines","Sparkling wines only","Fortified wines only"],"Reds get tannin volume and texture."]
+[3,"On the 2024 CMS Advanced grid, phenolic bitterness is assessed for:","White wines",["Red wines","Sparkling wines only","Fortified wines only"],"Reds get tannin volume and texture."],
+[2,"About how long does a candidate have for each wine in the verbal exam?","Four minutes",["One minute","Ten minutes","Fifteen minutes"],"Six wines in 25 minutes."],
+[2,"In the spoken grid, the final conclusion must commit to:","One vintage",["A decade","An age range only","No vintage at all"],"The initial conclusion gives an age range; the final names a single year."],
+[3,"Roughly what share of Advanced candidates has historically passed?","About a quarter",["About half","About three-quarters","Fewer than one in fifty"],"All three sections must be passed at 60% in the same calendar year."]
 ]});
 
 L.push({id:"c2", unit:"C1", title:"Diploma and Master of Wine Thinking", mins:14,

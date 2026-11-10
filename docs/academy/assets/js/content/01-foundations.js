@@ -78,7 +78,10 @@ quiz:[
 [1,"Which program's blind tasting puts the most weight on naming the grape, place and vintage?","CMS",["WSET Level 3","CSW","WSET Level 2"],"WSET Level 3 grades the description and quality call; CMS grades your identification."],
 [1,"The CSW exam is:","100 multiple-choice questions in one hour, 75% to pass",["A 6-wine verbal blind tasting in 25 minutes","Four 25-mark written answers in two hours","50 multiple-choice questions plus a service practical"],"Everything on the CSW comes from the annual study guide."],
 [2,"Which credential is the usual stepping stone to the Master of Wine?","WSET Level 4 Diploma",["CMS Introductory","CSW","French Wine Scholar"],"The Diploma's analytical, written style is closest to the MW."],
-[1,"WSET Level 2 includes a blind tasting exam.","False: it is a 50-question multiple-choice paper only",["True: two wines assessed in 30 minutes by SAT","True: one wine written up as a full tasting note","False: it is four written short answers only"],"Tasting is taught at Level 2 but not examined until Level 3."]
+[1,"WSET Level 2 includes a blind tasting exam.","False: it is a 50-question multiple-choice paper only",["True: two wines assessed in 30 minutes by SAT","True: one wine written up as a full tasting note","False: it is four written short answers only"],"Tasting is taught at Level 2 but not examined until Level 3."],
+[1,"Which track suits someone who wants to work a restaurant floor?","Floor (CMS)",["Analyst (WSET)","Wine Scholar Guild","Master of Wine"],"The Court examines service, selling and spoken blind tasting."],
+[2,"The Wine Scholar Guild is best known for:","Deep single-country programs",["A service practical","A 12-wine blind tasting","A spirits diploma"],"French, Italian, Spanish and German Wine Scholar: 100 questions, 75% to pass."],
+[2,"The Master of Wine research paper runs to about:","10,000 words",["1,000 words","3,000 words","50,000 words"],"The Diploma's D6 research assignment is 3,000 words."]
 ]});
 
 // ---------- F1 TASTING ----------
@@ -126,7 +129,7 @@ body:`
 <p>Tannins are polyphenols from skins, seeds, stems and oak. They bind to proteins in saliva and leave a drying, gripping feel on the gums. Judge both <b>volume</b> (low to high) and <b>texture</b> (silky, soft, gritty, coarse, stalky). Cabernet Sauvignon, Nebbiolo, Tannat and young Syrah are high; Gamay, Pinot Noir and Grenache are lower.</p>
 <p><i>Experiment:</i> steep black tea for 1, 3 and 10 minutes and taste each. Ten minutes is Barolo.</p>
 <h3>Alcohol</h3>
-<p>Alcohol reads as warmth in the throat and chest, plus weight and a faint sweetness. Under about 11% ABV is low (Mosel Kabinett, Moscato d'Asti); 11 to 13.5% medium; over 13.5% high (Zinfandel, Châteauneuf-du-Pape, Amarone). Warm climates ripen more sugar and so more alcohol.</p>
+<p>Alcohol reads as warmth in the throat and chest, plus weight and a faint sweetness. Under about 11% ABV is low (Mosel Kabinett, Moscato d'Asti); 11 to about 13.9% medium; 14% and above high (Zinfandel, Châteauneuf-du-Pape, Amarone). Warm climates ripen more sugar and so more alcohol.</p>
 <h3>Body</h3>
 <p>Body is the overall weight on the palate: alcohol, sugar, extract and glycerol together. Think skim milk, whole milk, cream.</p>
 <h3>How structure becomes a clue</h3>
@@ -136,16 +139,48 @@ body:`
 <li>Pale red + high acid + high tannin: Nebbiolo.</li>
 <li>Pale red + high alcohol + low acid + soft tannin: Grenache.</li>
 <li>Deep red + high tannin + medium-plus acid + green note: Cabernet Sauvignon or Cabernet Franc.</li>
-</ul>`,
+</ul>
+<h3>Bitterness, texture and the finish</h3>
+<p>Three more things belong to structure, and each is a clue.</p>
+<ul><li><b>Phenolic bitterness</b> is a light bitter grip at the end of some white wines, like grapefruit pith or almond skin. It comes from skins, and it marks Gewürztraminer, Pinot Gris, Viognier, Torrontés, Grüner Veltliner and any white made with skin contact. It is not tannin and it is not a fault.</li>
+<li><b>Texture</b> is how the wine feels apart from weight: oily (Gewürztraminer, Viognier), waxy (Sémillon, Chenin), creamy (lees and malolactic conversion), chalky or grippy (young Nebbiolo), prickly (a trace of CO₂ in young Riesling or Vinho Verde).</li>
+<li><b>Finish</b>, or length, is how long the pleasant flavors last after you swallow or spit. Count the seconds: under about five is short, five to ten is medium, longer is long. Length is the single best indicator of quality, because it cannot be faked by ripeness or oak.</li></ul>
+<h3>How the elements fool each other</h3>
+<table class="t"><tr><th>What you taste</th><th>What may really be happening</th></tr>
+<tr><td>"It's sweet"</td><td>Often ripe fruit, vanilla from oak or high alcohol in a dry wine. Pinch your nose: real sugar is still there on the tongue; fruit is not.</td></tr>
+<tr><td>"It's dry"</td><td>High acid can hide 10 to 40 g/L of sugar, as in Champagne Brut or Mosel Kabinett.</td></tr>
+<tr><td>"It's very tannic"</td><td>High acid makes tannin feel harder; so does serving the wine cold.</td></tr>
+<tr><td>"It's full-bodied"</td><td>Sugar and alcohol both add weight. A sweet wine at 8% can feel fuller than a dry one at 12%.</td></tr>
+<tr><td>"It's soft"</td><td>Low acid, a little sugar or ripe tannin: check which before you conclude "warm climate".</td></tr></table>
+<h3>The numbers behind the words</h3>
+<table class="t"><tr><th>Element</th><th>Useful benchmarks</th></tr>
+<tr><td>Sweetness</td><td>The EU calls a still wine dry up to 4 g/L (up to 9 if the acid is high). Off-dry runs to about 12, medium to about 45, sweet above 45. Sauternes holds 120 to 150; Pedro Ximénez over 400.</td></tr>
+<tr><td>Acidity</td><td>Total acidity of about 5 to 9 g/L; pH from about 2.9 (Champagne base, Mosel) to 3.9 (ripe warm-climate reds). Lower pH tastes sharper.</td></tr>
+<tr><td>Alcohol (WSET, still)</td><td>Low under 11%; medium 11 to 13.9%; high 14% and above.</td></tr>
+<tr><td>Alcohol (WSET, fortified)</td><td>Low 15 to 16.4% (Fino); medium 16.5 to 18.4%; high 18.5% and above (Port).</td></tr></table>
+<h3>A six-bottle calibration set</h3>
+<p>Buy these once and taste them side by side: they pin down both ends of every scale.</p>
+<ul><li><b>Mosel Riesling Kabinett:</b> low alcohol, high acid, real sugar.</li>
+<li><b>Muscadet or Chablis:</b> high acid, bone dry, light body.</li>
+<li><b>Alsace Gewurztraminer:</b> low acid, high alcohol, oily, bitter finish.</li>
+<li><b>Beaujolais:</b> low tannin, high acid, light body.</li>
+<li><b>Barolo or Madiran:</b> high tannin and high acid together.</li>
+<li><b>Zinfandel or Amarone:</b> high alcohol, full body, soft acid.</li></ul>`,
 floor:`<p>On the 2024 CMS Advanced/Master format, acid, alcohol and body use five-step scales. Whites get a line for <b>phenolic bitterness</b> (yes/no). Reds get tannin volume <i>and</i> texture. A <b>texture</b> line (lean, crisp, creamy, waxy, oily) helps separate Chablis from Meursault and Pinot Grigio from Gewürztraminer.</p>`,
 analyst:`<p>WSET Level 3 scales: acidity and tannin run low, medium(-), medium, medium(+), high. Alcohol is low/medium/high (under 11%, 11-13.9%, 14%+ for still wine). Body is light to full on five steps. Fortified wines have their own alcohol scale.</p>`,
-terms:[["Residual sugar (RS)","Unfermented grape sugar remaining in the finished wine, measured in g/L."],["Phenolic bitterness","A bitter, grippy finish in whites from skin contact or certain grapes (Gewürztraminer, Pinot Grigio, Torrontés)."],["Body","The perceived weight of a wine, from alcohol, sugar, glycerol and extract."]],
+terms:[["Residual sugar (RS)","Unfermented grape sugar remaining in the finished wine, measured in g/L."],["Phenolic bitterness","A bitter, grippy finish in whites from skin contact or certain grapes (Gewürztraminer, Pinot Grigio, Torrontés)."],["Body","The perceived weight of a wine, from alcohol, sugar, glycerol and extract."],["Finish","How long pleasant flavors last after swallowing; the best single sign of quality."],["Texture","How a wine feels apart from weight: oily, waxy, creamy, chalky, prickly."],["pH","Measure of acid strength; wine runs from about 2.9 to 3.9, and lower tastes sharper."]],
 quiz:[
 [1,"Which structural element is felt as drying and gripping on the gums?","Tannin",["Acidity","Alcohol","Residual sugar"],"Tannins bind with saliva proteins, removing lubrication."],
 [1,"What makes a sweet wine taste less sweet than its sugar level suggests?","High acidity",["High tannin","Low alcohol","New oak"],"Acid balances sugar; this is why Mosel Riesling can carry 40+ g/L and taste off-dry."],
 [2,"A white wine with low acid, high alcohol, oily texture and a bitter finish most likely is:","Gewürztraminer",["Riesling","Sauvignon Blanc","Albariño"],"This is the classic Gewürztraminer (or Viognier) structure."],
 [2,"On the WSET Level 3 SAT, what alcohol level is classed as 'high' for still wine?","14% abv and above",["12% abv and above","13% abv and above","15% abv and above"],"Low is under 11%, medium 11-13.9%, high 14%+."],
-[1,"Steeping black tea for 10 minutes is a classic way to calibrate:","High tannin",["High acid","High alcohol","Sweetness"],"Over-steeped tea is rich in tannins, similar to young Nebbiolo or Cabernet."]
+[1,"Steeping black tea for 10 minutes is a classic way to calibrate:","High tannin",["High acid","High alcohol","Sweetness"],"Over-steeped tea is rich in tannins, similar to young Nebbiolo or Cabernet."],
+[2,"Which sensation shows a wine's acidity?","Mouth-watering along the sides of the tongue",["Drying on the gums","Warmth at the back of the throat","Weight in the middle of the mouth"],"Drying is tannin, warmth is alcohol and weight is body."],
+[2,"High alcohol is felt mainly as:","Warmth at the back of the throat",["Drying on the gums","Mouth-watering","A prickle on the tongue"],"Alcohol also adds weight and a hint of sweetness; above about 14% it can burn."],
+[2,"A light bitter grip at the end of a Gewürztraminer or Pinot Gris is called:","Phenolic bitterness",["Tannin","Volatile acidity","Reduction"],"It comes from the skins of some white grapes and is a clue, not a fault."],
+[2,"Which is the most reliable sign of quality on the palate?","A long finish",["Deep color","High alcohol","New oak flavor"],"Ripeness and oak can be bought. Length cannot."],
+[3,"On the WSET scale, a fortified wine is 'high' in alcohol at:","18.5% and above",["15% and above","16.5% and above","22% and above"],"Fortified: low 15 to 16.4%, medium 16.5 to 18.4%, high 18.5% and above."],
+[2,"A dry wine that seems sweet most often owes it to:","Ripe fruit, oak or alcohol",["Hidden residual sugar","High acidity","High tannin"],"Pinch your nose: fruit and vanilla vanish, real sugar stays on the tongue."]
 ]});
 
 L.push({id:"f3", unit:"F1", title:"Faults and Flaws", mins:12,
@@ -164,7 +199,22 @@ body:`
 <h3>Not faults</h3>
 <p>Tartrate crystals ("wine diamonds") are harmless potassium bitartrate. Sediment in an old red is normal and calls for decanting. Petrol in aged Riesling is a varietal character (TDN), prized by many.</p>
 <h3>Handling a returned bottle</h3>
-<p>Smell it yourself, discreetly, away from the table. If it is faulty, apologize, replace it, and do not argue. If it is sound but the guest dislikes it, most restaurants still replace it and pour the bottle by the glass. Either way, the guest should never feel foolish.</p>`,
+<p>Smell it yourself, discreetly, away from the table. If it is faulty, apologize, replace it, and do not argue. If it is sound but the guest dislikes it, most restaurants still replace it and pour the bottle by the glass. Either way, the guest should never feel foolish.</p>
+<h3>The faults that catch out good tasters</h3>
+<table class="t"><tr><th>Fault</th><th>How it shows</th><th>What is going on</th></tr>
+<tr><td>Light strike</td><td>Cabbage, wet wool, struck match in a pale wine from a clear bottle</td><td>Ultraviolet light reacts with riboflavin and sulfur amino acids. Minutes in bright sun can do it to rosé or Champagne.</td></tr>
+<tr><td>Mousiness</td><td>Nothing on the nose; a stale, cracker or mouse-cage taste seconds after swallowing</td><td>Compounds from lactic bacteria or Brettanomyces in low-sulfite, high-pH wines. Not everyone can perceive it.</td></tr>
+<tr><td>Smoke taint</td><td>Ash, campfire, burnt rubber, a drying finish</td><td>Volatile phenols absorbed by grapes during wildfires, bound to sugars and released later.</td></tr>
+<tr><td>Premature oxidation</td><td>A young white that is deep gold, flat and sherry-like</td><td>Too little protection from oxygen; notorious in white Burgundy of about 1995 to 2005.</td></tr>
+<tr><td>Refermentation</td><td>Fizz and haze in a wine meant to be still</td><td>Yeast or bacteria active in the bottle, often with leftover sugar.</td></tr>
+<tr><td>Geosmin</td><td>Beetroot, damp earth</td><td>Mould on damaged grapes.</td></tr></table>
+<h3>Fault or style?</h3>
+<p>Many faults are a matter of degree. A whiff of struck match in white Burgundy, a little volatile acidity in Amarone, a trace of Brett in old Rhône and the bruised-apple tang of Fino are all prized by some drinkers. The professional test is whether the character <b>dominates the wine and hides the fruit</b>. If it does, call it a fault. If a guest simply dislikes a sound wine, replace it anyway and say nothing about who was right.</p>
+<h3>At the table, step by step</h3>
+<ol><li>Thank the guest for telling you and take the glass and bottle from the table.</li>
+<li>Smell and taste it away from the guests. Cork taint often grows worse with air, so trust a second sniff.</li>
+<li>Faulty: apologize, bring a fresh bottle with a clean glass, and let the host taste again. Keep the bad bottle for your supplier, who will normally credit it.</li>
+<li>Sound: offer a different wine, and pour the returned bottle by the glass.</li></ol>`,
 floor:`<p>The CMS Advanced/Master grid lists minor faults on the nose: barnyard, nail-polish remover, caramel, nuts, dried fruit, struck match, balsamic. Note them only if present. They can be clues: struck match points to reductive Chardonnay; barnyard to old-school Rhône or Bordeaux.</p>`,
 analyst:`<p>WSET Level 3 asks for the nose's condition as <b>clean or unclean</b>, and Learning Outcome 5 lists cork taint, oxidation, reduction, VA, Brett, out-of-condition and high SO₂. The CWE (SWE) has a separate faults exam where you must identify at least six.</p>`,
 terms:[["TCA","2,4,6-trichloroanisole; the compound behind cork taint (wet cardboard)."],["Brettanomyces","Spoilage yeast giving barnyard, band-aid or smoky aromas."],["Volatile acidity","Acetic acid and ethyl acetate; vinegar or nail-polish remover."],["Tartrates","Harmless potassium bitartrate crystals."]],
@@ -173,7 +223,11 @@ quiz:[
 [1,"Barnyard and band-aid aromas point to:","Brettanomyces",["Oxidation","TCA","Heat damage"],"Brett is a spoilage yeast typically living in old barrels."],
 [2,"Which aroma suggests reduction?","Struck match or rotten egg",["Nail-polish remover","Bruised apple","Wet cardboard"],"Reductive sulfur compounds form under low oxygen."],
 [1,"Crystals at the bottom of a white wine bottle are usually:","Harmless tartrates",["A sign of oxidation","Mold","Cork taint"],"Potassium bitartrate drops out in the cold; it is not a fault."],
-[2,"A guest returns a sound bottle because they don't like it. Best standard practice?","Replace it graciously, without argument",["Explain politely why the wine is correct","Decline, since the bottle is not faulty","Replace it but add a corkage charge"],"Hospitality first: replace it without debate. Many restaurants then pour the returned bottle by the glass."]
+[2,"A guest returns a sound bottle because they don't like it. Best standard practice?","Replace it graciously, without argument",["Explain politely why the wine is correct","Decline, since the bottle is not faulty","Replace it but add a corkage charge"],"Hospitality first: replace it without debate. Many restaurants then pour the returned bottle by the glass."],
+[2,"A pale rosé in a clear bottle smells of cabbage and wet wool after an hour in the sun. The fault is:","Light strike",["Cork taint","Volatile acidity","Brettanomyces"],"Ultraviolet light forms sulfur compounds; clear glass gives no protection."],
+[3,"Which fault is tasted on the finish but often cannot be smelled?","Mousiness",["Cork taint","Reduction","Volatile acidity"],"It appears seconds after swallowing, mostly in low-sulfite, high-pH wines."],
+[2,"A sommelier keeps a corked bottle because:","The supplier will normally credit it",["It can be poured by the glass","Air will cure it overnight","The cork can be reused"],"Corked wine can't be served. Returned but sound bottles are the ones poured by the glass."],
+[2,"A trace of volatile acidity in Amarone is best described as:","Part of the style, unless it dominates",["Always a fault","A sign of cork taint","Proof of heat damage"],"Many faults are a matter of degree; the test is whether they hide the fruit."]
 ]});
 
 // ---------- F2 VINEYARD ----------
@@ -195,17 +249,52 @@ body:`
 <tr><td>Ripening & harvest</td><td>Aug-Oct</td><td>Picking decision balances sugar, acid, phenolic ripeness and weather risk.</td></tr></table>
 <p>In the Southern Hemisphere add six months: harvest falls in February to April.</p>
 <h3>What ripening does</h3>
-<p>As grapes ripen, sugar rises (more potential alcohol), acid falls (especially malic acid), color and tannins mature, and green pyrazine flavors (bell pepper) fade. Pick early and you get freshness and low alcohol with a risk of green flavors; pick late and you get ripe fruit, softness and high alcohol with a risk of flab and jamminess. That single decision explains most of the difference between Sancerre and a warm-climate Sauvignon Blanc.</p>`,
+<p>As grapes ripen, sugar rises (more potential alcohol), acid falls (especially malic acid), color and tannins mature, and green pyrazine flavors (bell pepper) fade. Pick early and you get freshness and low alcohol with a risk of green flavors; pick late and you get ripe fruit, softness and high alcohol with a risk of flab and jamminess. That single decision explains most of the difference between Sancerre and a warm-climate Sauvignon Blanc.</p>
+<h3>The parts of a vine</h3>
+<p>Know the words growers use, because pruning, training and frost questions all depend on them.</p>
+<ul><li><b>Roots and trunk:</b> permanent wood. The roots store the reserves that power the first weeks of spring growth.</li>
+<li><b>Arms or cordons:</b> permanent horizontal wood, if the vine has them.</li>
+<li><b>Canes:</b> last year's shoots, now brown and woody. Fruit comes only from buds on one-year-old wood, which is the whole reason vines are pruned every winter.</li>
+<li><b>Buds:</b> each is really three. If frost kills the primary bud, a secondary bud grows but carries far less fruit, so a frosted vineyard still gives a small crop.</li>
+<li><b>Shoots:</b> this year's green growth, carrying leaves, tendrils and the flower clusters that become bunches.</li></ul>
+<h3>Inside the grape</h3>
+<table class="t"><tr><th>Part</th><th>What it holds</th></tr>
+<tr><td>Skin</td><td>Color (anthocyanins), most flavor and aroma compounds, and fine tannin. The waxy <b>bloom</b> on the outside carries wild yeast.</td></tr>
+<tr><td>Pulp</td><td>Water, sugar (glucose and fructose) and acids (tartaric and malic). The juice of almost all black grapes is clear.</td></tr>
+<tr><td>Seeds</td><td>Bitter tannin and oil. Winemakers avoid crushing them.</td></tr>
+<tr><td>Stem</td><td>Tannin and, if green, a sappy bitterness; ripe brown stems add spice and freshness.</td></tr></table>
+<h3>What a vine needs</h3>
+<p>Sunlight, warmth, water, nutrients and carbon dioxide. Shoots only grow once the average temperature passes about 50°F (10°C). A dry-farmed vine needs roughly 500 to 750 mm of rain a year. Too much water and nitrogen make leaves instead of fruit, which is why the best vineyards are rarely the most fertile land.</p>
+<h3>Early and late: the timing every grape carries</h3>
+<table class="t"><tr><th>Trait</th><th>Grapes</th><th>Consequence</th></tr>
+<tr><td>Early budding</td><td>Chardonnay, Pinot Noir, Merlot, Nebbiolo</td><td>Exposed to spring frost: Chablis, Champagne, Burgundy</td></tr>
+<tr><td>Late budding</td><td>Cabernet Sauvignon, Riesling, Mourvèdre</td><td>Safer in frost-prone sites</td></tr>
+<tr><td>Early ripening</td><td>Pinot Noir, Chardonnay, Merlot, Tempranillo ("temprano" means early)</td><td>Suit cool climates and short seasons</td></tr>
+<tr><td>Late ripening</td><td>Cabernet Sauvignon, Nebbiolo, Mourvèdre, Grenache, Carignan</td><td>Need warmth or a long, dry autumn</td></tr></table>
+<p>Nebbiolo is the hard case: it buds early and ripens very late, so it needs the longest season of any classic grape. That is why it sits on the best south-facing slopes of Barolo.</p>
+<h3>The life of a vine</h3>
+<p>New vines are planted as grafted cuttings. The first worthwhile crop comes in about the <b>third year</b>, full production around year five to seven. Yield falls after about 25 to 30 years, when many commercial vineyards are replanted. Vines left longer give less fruit with more concentration. "Old vines" has no legal meaning in most countries; the Barossa and South Africa's Old Vine Project both set the bar at 35 years.</p>
+<h3>The grower's calendar</h3>
+<ul><li><b>Winter:</b> pruning, the most skilled job of the year.</li>
+<li><b>Spring:</b> frost watch, removing unwanted buds and shoots, the first sprays.</li>
+<li><b>Early summer:</b> tucking shoots into wires, leaf removal around the bunches.</li>
+<li><b>Midsummer:</b> trimming, and sometimes a <b>green harvest</b>: cutting off unripe bunches so the rest ripen fully.</li>
+<li><b>Autumn:</b> sampling for sugar, acid and flavor, then harvest. After picking, leaves keep working for a few weeks to refill the vine's reserves before they fall.</li></ul>`,
 floor:`<p>Guests ask about clones and rootstocks more than you'd think, especially in Oregon and California Pinot. Know Dijon clones and that "old vines" (vieilles vignes) has no legal definition in most countries.</p>`,
 analyst:`<p>WSET Level 3 LO1 expects the growth cycle, the requirements of the vine (heat, sunlight, water, nutrients, CO₂), and how each stage's hazards affect yield and quality. A classic 25-mark question: "Explain how weather at flowering affects yield."</p>`,
-terms:[["Vitis vinifera","The European wine grape species behind nearly all quality wine."],["Rootstock","Phylloxera-resistant American vine roots onto which vinifera is grafted."],["Crossing","Offspring of two vinifera varieties (e.g., Pinotage)."],["Hybrid","Vinifera crossed with another Vitis species (e.g., Vidal)."],["Véraison","Onset of ripening: berries soften and change color."],["Coulure","Poor fruit set after flowering, reducing yield."]],
+terms:[["Vitis vinifera","The European wine grape species behind nearly all quality wine."],["Rootstock","Phylloxera-resistant American vine roots onto which vinifera is grafted."],["Crossing","Offspring of two vinifera varieties (e.g., Pinotage)."],["Hybrid","Vinifera crossed with another Vitis species (e.g., Vidal)."],["Véraison","Onset of ripening: berries soften and change color."],["Coulure","Poor fruit set after flowering, reducing yield."],["Cane","A shoot that has turned woody after one season; next year's fruit grows from its buds."],["Bloom","Waxy coating on grape skins that carries wild yeast."],["Green harvest","Removing unripe bunches in summer so the rest ripen fully."],["Anthocyanins","The color pigments in black grape skins."]],
 quiz:[
 [1,"Pinotage is a crossing of Pinot Noir and:","Cinsault",["Syrah","Gamay","Merlot"],"Created in South Africa in 1925 by Abraham Perold."],
 [1,"Véraison is when:","Grapes soften and change color",["Buds swell and the first shoots appear","Flowers open and the berries set","Leaves fall and the vine goes dormant"],"Sugar accumulation accelerates from véraison."],
 [2,"Why are American Vitis species used as rootstocks?","They resist phylloxera",["They ripen earlier","They yield more fruit","They add color"],"Phylloxera evolved alongside American vines, which tolerate root feeding."],
 [2,"Poor fruit set caused by cold, wet weather at flowering is called:","Coulure",["Véraison","Millerandage only","Botrytis"],"Coulure reduces yield; millerandage is uneven berry size."],
 [1,"A hybrid grape is:","A cross between vinifera and another Vitis species",["A clone of one variety selected for yield","A natural color mutation of Pinot Noir","A cross of two Vitis vinifera varieties"],"Vidal Blanc is a hybrid, used for Canadian icewine."],
-[2,"As grapes ripen, which typically happens?","Sugar rises and acid falls",["Sugar and acid both rise","Pyrazines increase","Tannins become greener"],"Malic acid in particular is respired as the berry ripens."]
+[2,"As grapes ripen, which typically happens?","Sugar rises and acid falls",["Sugar and acid both rise","Pyrazines increase","Tannins become greener"],"Malic acid in particular is respired as the berry ripens."],
+[2,"Vine shoots begin to grow when the average temperature passes about:","50°F (10°C)",["32°F (0°C)","41°F (5°C)","68°F (20°C)"],"Below that the vine stays dormant."],
+[2,"Which classic grape buds early and ripens very late?","Nebbiolo",["Merlot","Tempranillo","Pinot Noir"],"It needs the longest season, hence the best south-facing slopes of Barolo."],
+[2,"A new vineyard gives its first worthwhile crop in about:","Its third year",["Its first year","Its tenth year","Its fifteenth year"],"Full production comes at around year five to seven."],
+[2,"A green harvest is:","Removing unripe bunches in summer",["Picking early for sparkling wine","Harvesting by machine at night","Picking grapes affected by rot"],"Fewer bunches ripen more fully. Also called vendange verte."],
+[3,"Why does a frosted vineyard still give a small crop?","Secondary buds grow, with less fruit",["The roots produce new flowers","Frost damages only the leaves","Growers replant in the same season"],"Each bud holds a primary, secondary and tertiary bud."]
 ]});
 
 L.push({id:"f5", unit:"F2", title:"Climate, Weather and Site", mins:14,
@@ -228,17 +317,45 @@ body:`
 <h3>Soil</h3>
 <p>Soil matters mostly through <b>water and heat</b>, less through direct flavor. Gravel drains and stores heat (Médoc, Graves). Clay holds water and stays cool (Pomerol, which suits early-ripening Merlot). Limestone and chalk drain well yet hold water reserves (Champagne, Côte d'Or, Chablis's Kimmeridgian marl). Slate absorbs heat (Mosel). Low-fertility soils limit vigor so vines put energy into fruit, not leaves.</p>
 <h3>Why it matters at the table</h3>
-<p>When a guest asks why a Chablis tastes so different from a Napa Chardonnay, the honest answer is mostly climate, then winemaking. Same grape; one grows near the cool northern limit, the other in Mediterranean sunshine.</p>`,
+<p>When a guest asks why a Chablis tastes so different from a Napa Chardonnay, the honest answer is mostly climate, then winemaking. Same grape; one grows near the cool northern limit, the other in Mediterranean sunshine.</p>
+<h3>Three scales of climate</h3>
+<ul><li><b>Macroclimate:</b> the region (Burgundy).</li>
+<li><b>Mesoclimate:</b> one site (the mid-slope of Vosne-Romanée, sheltered and facing east).</li>
+<li><b>Microclimate:</b> the air inside a single vine's canopy, which the grower changes by pulling leaves.</li></ul>
+<p>People say "microclimate" when they mean mesoclimate. Examiners notice.</p>
+<h3>How climate is measured</h3>
+<table class="t"><tr><th>Measure</th><th>What it is</th></tr>
+<tr><td>Growing season temperature</td><td>The average from April to October (October to April in the south). The cool, moderate and warm bands above use it.</td></tr>
+<tr><td>Growing degree days (Winkler index)</td><td>Add up, for each day of the season, the degrees by which the average exceeds 50°F. California's five Winkler regions run from I (coolest: 2,500 or fewer) to V (hottest: over 4,000).</td></tr>
+<tr><td>Continentality</td><td>The gap between the hottest and coldest months. Large in Burgundy and Mendoza, small in Bordeaux and Margaret River.</td></tr>
+<tr><td>Sunshine hours and rainfall</td><td>How much, and above all <b>when</b>.</td></tr></table>
+<h3>Rain: timing beats totals</h3>
+<p>Winter rain fills the soil and helps. Rain at flowering causes poor fruit set. Rain in summer brings mildew. Rain at harvest swells berries, dilutes flavor and starts rot. Bordeaux and Rioja both get moderate rain; Bordeaux's falls partly at harvest, which is why its vintages vary more.</p>
+<p>A <b>rain shadow</b> forms where mountains strip moisture from the prevailing wind. The Vosges make Alsace one of the driest parts of France. The Cascades keep eastern Washington to desert levels of rain. The Andes do the same for Mendoza, and Chile's Coastal Range shelters its Central Valley.</p>
+<h3>Light</h3>
+<p>Far from the equator, summer days are long: Washington, Germany and Central Otago get more daylight hours in the growing season than California or the Barossa, which helps ripening in cool places. At altitude, sunlight is more intense and richer in ultraviolet, so grapes grow thicker skins with more color and tannin: the signature of high Mendoza Malbec.</p>
+<h3>Cold air and the mid-slope</h3>
+<p>Cold air is heavy. On still spring nights it drains downhill and pools on valley floors, which become <b>frost pockets</b>. Hilltops are exposed and windy. The band between, the mid-slope, stays warmest at night and drains best. It is no accident that the Grands Crus of the Côte d'Or sit there.</p>
+<h3>Winds with names</h3>
+<p>The <b>Mistral</b> blows cold and dry down the Rhône and keeps vines free of disease. The <b>Cape Doctor</b> does the same from the southeast in South Africa. The hot <b>Zonda</b> comes off the Andes into Argentina. Jerez has the damp westerly <b>Poniente</b> and the hot easterly <b>Levante</b>. Afternoon sea breezes cool Margaret River, Casablanca and Carneros.</p>
+<h3>Year-to-year swings</h3>
+<p>El Niño and La Niña shift rainfall across the Pacific: El Niño years tend to bring drought to Australia and heavy winter rain to California and parts of South America. Add spring frost, hail and heat waves, and you have the reason vintage matters more in marginal climates than in reliable ones.</p>`,
 floor:`<p>On the CMS grid, climate is part of your initial conclusion: cool, moderate or warm. The older Europe grid adds cool-moderate and moderate-warm. Read it from fruit condition and alcohol.</p>`,
 analyst:`<p>WSET short answers often hinge on climate: "Explain how the climate of Mendoza affects the style of its Malbec" wants altitude, diurnal range, sunshine and dryness, each linked to a result in the glass (deep color, ripe black fruit, fresh acid).</p>`,
-terms:[["Continental climate","Hot summers, cold winters, wide annual temperature range."],["Maritime climate","Ocean-moderated; mild, small temperature range, rain spread through the year."],["Diurnal range","Difference between day and night temperatures; cool nights preserve acid and aroma."],["Kimmeridgian","Ancient marl and limestone with fossil oyster shells; Chablis and Sancerre."]],
+terms:[["Continental climate","Hot summers, cold winters, wide annual temperature range."],["Maritime climate","Ocean-moderated; mild, small temperature range, rain spread through the year."],["Diurnal range","Difference between day and night temperatures; cool nights preserve acid and aroma."],["Kimmeridgian","Ancient marl and limestone with fossil oyster shells; Chablis and Sancerre."],["Mesoclimate","The climate of a single vineyard site."],["Winkler index","Growing degree days above 50°F, used to rank regions I (coolest) to V (hottest)."],["Rain shadow","Dry zone on the sheltered side of a mountain range."],["Frost pocket","Low ground where cold air pools on still nights."],["Continentality","The difference between a region's hottest and coldest months."]],
 quiz:[
 [1,"Which climate pattern has hot summers, cold winters and high frost risk?","Continental",["Maritime","Mediterranean","Tropical"],"Burgundy and Mendoza are continental."],
 [2,"How does altitude affect temperature?","It drops about 0.6°C per 100 m",["It rises about 0.6°C per 100 m","It stays the same at any height","It drops about 5°C per 100 m"],"High-altitude vineyards like Salta stay fresh despite low latitude."],
 [1,"Which cold ocean current cools coastal Chile?","Humboldt",["Benguela","Gulf Stream","Kuroshio"],"The Benguela cools South Africa's west coast."],
 [2,"Why does Merlot suit Pomerol's clay soils?","Clay stays cool and holds water",["Clay warms fast and ripens late grapes","Clay adds tannin directly to the fruit","Clay keeps phylloxera out of the roots"],"Cabernet Sauvignon needs the warmer, free-draining gravels of the Médoc."],
 [2,"Large diurnal range mainly helps wines retain:","Acidity and aroma",["Tannin and color","Residual sugar","Alcohol and body"],"Cool nights slow the loss of acid and volatile aromatics."],
-[1,"Most of the world's vineyards lie between which latitudes?","30° and 50°",["10° and 20°","50° and 60°","0° and 15°"],"Both hemispheres."]
+[1,"Most of the world's vineyards lie between which latitudes?","30° and 50°",["10° and 20°","50° and 60°","0° and 15°"],"Both hemispheres."],
+[2,"The climate of one vineyard site is its:","Mesoclimate",["Macroclimate","Microclimate","Continentality"],"Macro is the region; micro is the air inside the vine's canopy."],
+[2,"The Winkler index sorts regions by:","Heat summed over the growing season",["Total annual rainfall","Hours of sunshine","Altitude above sea level"],"Growing degree days above 50°F, from Region I (coolest) to V (hottest)."],
+[2,"Which mountains put Alsace in a rain shadow?","The Vosges",["The Alps","The Pyrenees","The Jura"],"They block Atlantic rain, making Colmar one of the driest places in France."],
+[2,"Why are valley floors prone to spring frost?","Cold air drains downhill and pools",["They get less sunlight","Their soils are wetter","Wind is stronger there"],"The mid-slope stays warmer at night, which is where the best sites sit."],
+[2,"The hot, dry wind that blows off the Andes into Argentina is the:","Zonda",["Mistral","Levante","Poniente"],"The Mistral is the Rhône's; Levante and Poniente belong to Jerez."],
+[3,"Rain does most harm to quality when it falls:","At harvest",["In winter","Just after harvest","In early spring before budburst"],"It dilutes the grapes and starts rot. Winter rain recharges the soil."]
 ]});
 
 L.push({id:"f6", unit:"F2", title:"Vineyard Management, Hazards and Farming", mins:14,
@@ -262,10 +379,37 @@ body:`
 <h3>Farming philosophies</h3>
 <ul><li><b>Sustainable:</b> broad, often certified (SIP, LODI RULES, Sustainable Winegrowing NZ) balancing environment and economics.</li>
 <li><b>Organic:</b> no synthetic pesticides, herbicides or fertilizers; copper and sulfur allowed. Certified in the EU and by USDA (note: "made with organic grapes" vs "organic wine," which in the US also bans added sulfites).</li>
-<li><b>Biodynamic:</b> Rudolf Steiner's 1924 lectures; organic plus preparations (cow-horn manure, 500/501) and a lunar calendar. Certified by Demeter and Biodyvin. Many top estates use it: Domaine Leroy, Zind-Humbrecht, Nicolas Joly.</li></ul>`,
+<li><b>Biodynamic:</b> Rudolf Steiner's 1924 lectures; organic plus preparations (cow-horn manure, 500/501) and a lunar calendar. Certified by Demeter and Biodyvin. Many top estates use it: Domaine Leroy, Zind-Humbrecht, Nicolas Joly.</li></ul>
+<h3>Density and layout</h3>
+<p>Burgundy and Bordeaux plant about 10,000 vines per hectare, a meter apart, so that vines compete and stay small. Much of the New World plants 2,000 to 3,000, with wide rows for tractors. Rows usually run north to south so both sides of the canopy get sun; on steep slopes they follow the contour or sit on terraces.</p>
+<h3>Training systems to recognize</h3>
+<table class="t"><tr><th>System</th><th>What it looks like</th><th>Where and why</th></tr>
+<tr><td>Pergola (parral, tendone)</td><td>An overhead roof of leaves with fruit hanging below</td><td>Rías Baixas, Vinho Verde, Valpolicella, Alto Adige: lifts fruit away from damp ground and shades it</td></tr>
+<tr><td>Basket (kouloura)</td><td>Canes woven into a low wreath on the ground</td><td>Santorini: shelters grapes from wind and sun</td></tr>
+<tr><td>Single stake</td><td>One vine tied to one post</td><td>The Mosel and Côte-Rôtie: slopes too steep for wires</td></tr>
+<tr><td>Divided canopy (Geneva Double Curtain, Lyre, Scott Henry)</td><td>The canopy split in two to spread out the leaves</td><td>Fertile, vigorous sites in the New World</td></tr></table>
+<h3>The three American plagues, in order</h3>
+<p><b>Powdery mildew</b> reached Europe in the 1840s, <b>phylloxera</b> in the 1860s and <b>downy mildew</b> in the 1870s and 1880s, the last probably on the American rootstocks imported to cure the second. Tell the mildews apart:</p>
+<table class="t"><tr><th></th><th>Powdery mildew (oidium)</th><th>Downy mildew (peronospora)</th></tr>
+<tr><td>Likes</td><td>Warm, shaded, humid canopies; needs no rain</td><td>Warm weather with rain</td></tr>
+<tr><td>Looks like</td><td>Grey, ash-like dust on leaves and berries</td><td>Yellow "oil spots" on leaves, white down beneath</td></tr>
+<tr><td>Treated with</td><td>Sulfur</td><td>Copper (Bordeaux mixture)</td></tr></table>
+<h3>More enemies</h3>
+<ul><li><b>Pierce's disease:</b> a bacterium (<i>Xylella fastidiosa</i>) that blocks the vine's water vessels and kills it. Spread by sharpshooter insects in California and the American South. No cure.</li>
+<li><b>Trunk diseases</b> (esca, eutypa): fungi that enter through pruning wounds and slowly kill the wood. A growing problem in every old vineyard.</li>
+<li><b>Nematodes:</b> soil worms that feed on roots and spread fanleaf virus; managed with resistant rootstocks.</li>
+<li><b>Grape moths:</b> their caterpillars pierce berries and let rot in. Growers hang pheromone capsules that stop males finding females ("sexual confusion").</li>
+<li><b>Birds, deer, boar and wasps:</b> nets and fences. In Australia and New Zealand, bird netting is routine.</li></ul>
+<h3>The vineyard floor</h3>
+<p>Between the rows a grower can plough, spray herbicide or sow a <b>cover crop</b> of grasses and legumes. Cover crops hold the soil on slopes, add organic matter and compete with the vine to curb vigor; in dry regions they are mown or ploughed in before they take too much water.</p>
+<h3>Hand or machine?</h3>
+<table class="t"><tr><th></th><th>Hand harvest</th><th>Machine harvest</th></tr>
+<tr><td>Strengths</td><td>Selection in the vineyard; whole bunches arrive intact; works on any slope</td><td>Fast, cheap, can pick at night when fruit is cool, can beat incoming rain</td></tr>
+<tr><td>Limits</td><td>Slow, costly, needs a large crew</td><td>Shakes berries off the stems, so no whole bunches; needs flat or gentle land and trellised vines</td></tr>
+<tr><td>Required for</td><td>Champagne, Beaujolais (carbonic maceration), botrytized wines picked in several passes, steep terraces</td><td>Common for Marlborough Sauvignon Blanc and most large-volume wine</td></tr></table>`,
 floor:`<p>Guests ask "is this organic?" constantly. Know the US distinction between "organic wine" (no added sulfites) and "made with organic grapes," and that many biodynamic estates never put certification on the label.</p>`,
 analyst:`<p>Sample WSET Level 3 short answer (4 marks): "Why do growers use VSP?" Model points: even sun exposure on fruit, airflow reduces fungal disease, easier mechanization of pruning and harvest, consistent ripening.</p>`,
-terms:[["VSP","Vertical shoot positioning; shoots trained upward between wires."],["Guyot","Cane-pruning system laying down one or two canes each year."],["Phylloxera","Root-feeding aphid; controlled by grafting onto American rootstocks."],["Noble rot","Botrytis cinerea in favorable conditions, concentrating sugars."],["Biodynamic","Organic farming plus Steiner preparations and a cosmic calendar."]],
+terms:[["VSP","Vertical shoot positioning; shoots trained upward between wires."],["Guyot","Cane-pruning system laying down one or two canes each year."],["Phylloxera","Root-feeding aphid; controlled by grafting onto American rootstocks."],["Noble rot","Botrytis cinerea in favorable conditions, concentrating sugars."],["Biodynamic","Organic farming plus Steiner preparations and a cosmic calendar."],["Pergola","Overhead training that lifts and shades the fruit."],["Kouloura","Santorini's basket-shaped vine, woven low against wind."],["Pierce's disease","Fatal bacterial disease spread by sharpshooter insects."],["Esca","A fungal trunk disease that slowly kills old vines."],["Cover crop","Plants sown between vine rows to hold soil and manage vigor."],["Sexual confusion","Pheromone capsules that stop grape moths from mating."]],
 quiz:[
 [1,"What is the main defense against phylloxera?","Grafting onto American rootstock",["Spraying copper and sulfur","Netting the vines in summer","Biodynamic preparations"],"No chemical cure exists; resistant roots are the answer."],
 [2,"Which country is famous for largely ungrafted vineyards thanks to geographic isolation?","Chile",["France","Italy","Spain"],"Andes, desert, Pacific and Antarctic ice protect it."],
@@ -273,5 +417,11 @@ quiz:[
 [1,"Noble rot is caused by:","Botrytis cinerea",["Powdery mildew","Phylloxera","Brettanomyces"],"Misty mornings and dry afternoons allow benign infection."],
 [2,"Cane pruning (Guyot) differs from spur pruning because:","It lays down a new one-year cane each winter",["It leaves short spurs on a permanent arm","It is used only on free-standing bush vines","It is carried out in summer, not in winter"],"Burgundy is classic Guyot territory."],
 [1,"Biodynamic farming is based on lectures by:","Rudolf Steiner",["Louis Pasteur","Émile Peynaud","Jules Guyot"],"Steiner lectured on agriculture in 1924."],
-[3,"In the US, a wine labeled 'organic wine' (rather than 'made with organic grapes') must also:","Have no added sulfites",["Be biodynamic","Be aged in new oak","Be unfiltered"],"USDA organic wine prohibits added sulfites."]
+[3,"In the US, a wine labeled 'organic wine' (rather than 'made with organic grapes') must also:","Have no added sulfites",["Be biodynamic","Be aged in new oak","Be unfiltered"],"USDA organic wine prohibits added sulfites."],
+[2,"Which arrived in Europe first?","Powdery mildew",["Phylloxera","Downy mildew","Pierce's disease"],"Powdery mildew in the 1840s, phylloxera in the 1860s, downy mildew after that."],
+[2,"Downy mildew is treated mainly with:","Copper",["Sulfur","Pheromones","Grafting"],"Bordeaux mixture is copper sulfate and lime. Sulfur is for powdery mildew."],
+[2,"Pergola training helps in Rías Baixas because it:","Lifts fruit above damp ground",["Protects vines from frost","Increases sugar ripeness","Allows machine harvesting"],"Air moves under the canopy, which cuts rot in a wet climate."],
+[3,"Pierce's disease is spread by:","Sharpshooter insects",["Soil nematodes","Rain splash","Pruning shears"],"A bacterium, Xylella fastidiosa, carried by sharpshooters. Nematodes spread fanleaf virus."],
+[2,"Machine harvesting cannot deliver:","Whole bunches",["Fruit picked at night","Cool fruit","A fast harvest"],"The machine shakes berries off the stems, so Champagne and Beaujolais are picked by hand."],
+[2,"A cover crop between vine rows mainly:","Holds soil and curbs vigor",["Raises sugar in the grapes","Protects against hail","Replaces the need for pruning"],"It also adds organic matter. In dry regions it must not take too much water."]
 ]});

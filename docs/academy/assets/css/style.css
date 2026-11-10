@@ -101,7 +101,8 @@ textarea{min-height:120px;resize:vertical;line-height:1.55}
 label.f{display:grid;gap:6px;font-size:13px;color:var(--muted);font-weight:600;letter-spacing:.3px}
 
 /* ---------- tables & prose ---------- */
-.tw{overflow-x:auto;margin:12px 0 20px}
+/* Wide tables scroll sideways inside their wrapper; soft edge shadows appear only on the side that has more to show. */
+.tw{overflow-x:auto;margin:12px 0 20px;background:linear-gradient(to right,var(--bg) 30%,transparent),linear-gradient(to left,var(--bg) 30%,transparent) 100% 0,linear-gradient(to right,rgba(28,32,48,.14),transparent),linear-gradient(to left,rgba(28,32,48,.14),transparent) 100% 0;background-repeat:no-repeat;background-size:36px 100%,36px 100%,10px 100%,10px 100%;background-attachment:local,local,scroll,scroll}
 table.t{border-collapse:collapse;width:100%;font-size:14.5px}
 table.t th,table.t td{border-bottom:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
 table.t th{font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--gold);font-weight:600;border-bottom-color:var(--line2)}
@@ -282,6 +283,8 @@ body.hosting .shell{grid-template-columns:minmax(0,1fr)}
   .nav a.atlas{margin:0;border-top:0;padding-top:9px}.brand{padding:0 4px 0 0;flex:none}.brand span,.railfoot{display:none}
   .nav{flex-direction:row;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none;padding-right:34px;-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 34px),transparent);mask-image:linear-gradient(90deg,#000 calc(100% - 34px),transparent)}.nav::-webkit-scrollbar{display:none}
   .nav a{grid-template-columns:1fr;padding:7px 10px;font-size:14px;white-space:nowrap}.nav a .k{display:none}.nav a.on{box-shadow:inset 0 -2px 0 var(--garnet)}
+  table.t{font-size:13.5px}table.t th,table.t td{padding:8px 9px}
+  table.t:has(tr:first-child>:nth-child(4)){min-width:560px}table.t:has(tr:first-child>:nth-child(5)){min-width:700px}
   .colophon{display:block}.exbar{top:58px;margin-top:-10px}.lsearch input{max-width:none}
   main{padding:26px max(16px,env(safe-area-inset-right)) 80px max(16px,env(safe-area-inset-left))}
   .stain{right:-40%;top:-20px;width:280px;opacity:.06}
