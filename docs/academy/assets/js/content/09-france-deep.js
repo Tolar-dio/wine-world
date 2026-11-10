@@ -31,10 +31,10 @@ quiz:[
 [2,"Which Muscadet cru communal is known for granite soils?","Clisson",["Gorges","Le Pallet","Goulaine"],"Gorges is gabbro; Le Pallet gneiss and gabbro."],
 [2,"Coulée de Serrant is a sub-appellation of:","Savennières",["Vouvray","Coteaux du Layon","Montlouis"],"A Nicolas Joly monopole."],
 [2,"Cour-Cheverny must be made from:","Romorantin",["Chenin Blanc","Sauvignon Blanc","Chardonnay"],"An ancient local grape."],
-[2,"Which Sancerre soil gives the fullest, longest-lived wines?","Terres blanches (Kimmeridgian marl)",["Caillottes","Silex","Sand"],"Caillottes are aromatic and early-drinking."],
+[2,"Which Sancerre soil gives the fullest, longest-lived wines?","Terres blanches (Kimmeridgian marl)",["Caillottes (stony limestone)","Silex (flint and clay)","Sables (river sand)"],"Caillottes are aromatic and early-drinking."],
 [3,"Chavignol's famous vineyard is:","Les Monts Damnés",["Clos du Bourg","Le Haut-Lieu","Clos Naudin"],"Steep Kimmeridgian slope."],
-[2,"Cabernet d'Anjou is:","An off-dry rosé from the Cabernets",["A dry red","A sweet white","A sparkling red"],"Rosé d'Anjou is from Grolleau."],
-[3,"Clos Rougeard is a cult producer of:","Saumur-Champigny and Saumur Cabernet Franc",["Vouvray","Sancerre","Muscadet"],"Brézé area."],
+[2,"Cabernet d'Anjou is:","An off-dry rosé from the Cabernets",["A dry red from Cabernet Franc","A sweet white from Chenin Blanc","A sparkling rosé from Grolleau"],"Rosé d'Anjou is from Grolleau."],
+[3,"Clos Rougeard is a cult producer of:","Saumur-Champigny Cabernet Franc",["Vouvray Chenin Blanc","Sancerre Sauvignon Blanc","Muscadet Sèvre et Maine"],"The Foucault family estate at Chacé: Le Bourg and Les Poyeux reds, plus a white from Brézé."],
 [2,"Didier Dagueneau made Pouilly-Fumé legendary with wines like:","Silex and Pur Sang",["Le Mont","Monts Damnés","Clos de l'Écho"],"Flint-soil Sauvignon Blanc."]
 ]});
 
@@ -71,11 +71,11 @@ floor:`<p>Alsace is the sommelier's spice-cabinet section. Gewurztraminer for Th
 analyst:`<p>Diploma essays may ask how Alsace's geology and rain shadow create diversity, or debate single-variety versus field-blend expressions of terroir (Deiss's case). Know VT and SGN rules at a principles level.</p>`,
 terms:[["Complantation","Field blend of co-planted varieties."],["Bas-Rhin / Haut-Rhin","Alsace's northern and southern départements."],["Clos Sainte Hune","Trimbach's famous Riesling from the Rosacker Grand Cru."],["Klevener de Heiligenstein","Local Alsace wine from Savagnin Rose."]],
 quiz:[
-[2,"Which Alsace Grand Cru is volcanic and the southernmost?","Rangen",["Schlossberg","Brand","Hengst"],"Thann."],
+[2,"Which Alsace Grand Cru is volcanic and the southernmost?","Rangen",["Schlossberg","Brand","Hengst"],"Rangen de Thann: steep volcanic slopes at the southern tip of Alsace."],
 [2,"The first Alsace Grand Cru recognized (1975) was:","Schlossberg",["Rangen","Zotzenberg","Kitterlé"],"Granite, Kaysersberg/Kientzheim."],
 [2,"Which Grand Cru permits Sylvaner?","Zotzenberg",["Rosacker","Geisberg","Sporen"],"Mittelbergheim."],
 [2,"Clos Sainte Hune comes from which Grand Cru?","Rosacker",["Osterberg","Geisberg","Brand"],"Trimbach, Hunawihr."],
-[3,"Marcel Deiss champions:","Complantation field blends as the purest expression of terroir",["Single-variety Grand Crus only","Carbonic maceration","Oak-aged Pinot Blanc"],"Altenberg de Bergheim allows blends."],
+[3,"Marcel Deiss champions:","Complantation: field blends that express the site",["Single-variety wines from each Grand Cru","Carbonic maceration for Pinot Noir","New-oak aging for Pinot Blanc"],"Altenberg de Bergheim allows blends."],
 [2,"Olivier Humbrecht of Zind-Humbrecht was the first French:","Master of Wine",["Master Sommelier","Meilleur Sommelier du Monde","Wine Scholar"],"Biodynamic estate."],
 [1,"Most of Alsace's Grand Crus lie in:","The Haut-Rhin",["The Bas-Rhin","Lorraine","Jura"],"The southern département."]
 ]});
@@ -121,6 +121,6 @@ quiz:[
 [2,"Château Rayas's pale, ethereal Grenache comes from which soil?","Sand",["Galets roulés","Safre","Granite"],"Sandy soils give finesse."],
 [2,"Which Southern Rhône cru makes only rosé?","Tavel",["Lirac","Gigondas","Vinsobres"],"Deep and structured."],
 [2,"Which cru is the northernmost in the Southern Rhône?","Vinsobres",["Cairanne","Rasteau","Beaumes-de-Venise"],"Cooler and higher."],
-[3,"Why do Côte-Rôtie producers co-ferment Viognier with Syrah?","It adds aroma and stabilizes color",["To raise alcohol","To add tannin","Legal requirement"],"Co-pigmentation."],
+[3,"Why do Côte-Rôtie producers co-ferment Viognier with Syrah?","It adds aroma and stabilizes color",["It raises alcohol and adds body","It adds tannin and darkens fruit","Appellation law requires 20%"],"Co-pigmentation."],
 [2,"Jaboulet's La Chapelle is from:","Hermitage",["Cornas","Crozes-Hermitage","Saint-Joseph"],"Named after the hilltop chapel."]
 ]});

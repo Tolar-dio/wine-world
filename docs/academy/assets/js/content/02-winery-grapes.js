@@ -25,13 +25,13 @@ floor:`<p>CMS Certified includes theory on production methods for all major styl
 analyst:`<p>WSET Level 3 sample MCQ: "What guarantees microbiological stability?" Answer: sterile filtration. Know the purpose and side effects of each step, not just its name.</p>`,
 terms:[["Chaptalization","Adding sugar to must to raise final alcohol."],["Pigeage","Punching down the cap of skins."],["Remontage","Pumping juice over the cap."],["Carbonic maceration","Whole-berry intracellular fermentation under CO₂."],["Saignée","Bleeding juice from a red ferment to make rosé."],["Fining","Adding an agent that binds and removes particles or harsh compounds."]],
 quiz:[
-[1,"Why do red wines ferment with their skins?","Color and tannin come from the skins",["To speed up fermentation","To lower alcohol","To add sweetness"],"Nearly all grape juice is clear regardless of skin color."],
+[1,"Why do red wines ferment with their skins?","Color and tannin come from the skins",["Skins make the ferment run faster","Skins lower the final alcohol","Skins add residual sweetness"],"Nearly all grape juice is clear regardless of skin color."],
 [1,"Carbonic maceration is classic in:","Beaujolais",["Barolo","Bordeaux","Rioja"],"Gives banana and bubblegum notes with low tannin."],
-[2,"What does chaptalization do?","Adds sugar to the must to raise alcohol",["Adds acid","Removes tartrates","Stops fermentation"],"Named for Jean-Antoine Chaptal."],
+[2,"What does chaptalization do?","Adds sugar to the must to raise alcohol",["Adds tartaric acid to raise acidity","Chills the wine to remove tartrates","Adds spirit to stop the fermentation"],"Named for Jean-Antoine Chaptal."],
 [1,"Which step guarantees microbiological stability?","Sterile filtration",["Fining with egg white","Racking","Cold soak"],"It removes yeast and bacteria."],
-[2,"The saignée method of making rosé:","Bleeds juice off a red wine ferment",["Blends red and white wine","Presses grapes directly","Uses carbonic maceration"],"Concentrates the remaining red as a side effect."],
+[2,"The saignée method of making rosé:","Bleeds juice off a red wine ferment",["Blends red and white wine together","Presses black grapes directly","Uses carbonic maceration"],"Concentrates the remaining red as a side effect."],
 [2,"Blending red and white wine to make rosé is permitted in the EU for:","Rosé Champagne",["Provence rosé","Tavel","All rosé"],"Champagne is the famous exception."],
-[2,"Cool fermentation in stainless steel mainly preserves:","Fruity and floral aromas",["Tannin","Oak flavor","Color"],"Volatile aromatics survive lower temperatures."]
+[2,"Cool fermentation in stainless steel mainly preserves:","Fruity and floral aromas",["Tannin and color","Oak and spice","Body and alcohol"],"Volatile aromatics survive lower temperatures."]
 ]});
 
 L.push({id:"f8", unit:"F3", title:"Oak, Malolactic and Lees", mins:13,
@@ -91,12 +91,12 @@ analyst:`<p>WSET Level 3 LO3 covers all six methods. Sample MCQ: "Removing sedim
 terms:[["Liqueur de tirage","Wine, sugar, yeast and nutrients added to trigger second fermentation in bottle."],["Autolysis","Breakdown of dead yeast giving brioche and toast."],["Remuage","Riddling: moving lees into the bottle neck."],["Dégorgement","Disgorgement: removing the frozen lees plug."],["Liqueur d'expédition","Wine and sugar added after disgorgement; sets the dosage."],["Charmat","Tank method used for Prosecco."]],
 quiz:[
 [1,"Liqueur de tirage is used in the production of:","Champagne",["Bordeaux","Vin Doux Naturel","Vermouth"],"Official CMS Introductory sample question."],
-[2,"What ingredients are in liqueur de tirage?","Wine, sugar, yeast and nutrients",["Brandy and sugar","Only sugar","Wine and SO₂"],"Official CMS Certified-level version of the same topic."],
+[2,"What ingredients are in liqueur de tirage?","Wine, sugar, yeast and nutrients",["Grape spirit, sugar and old wine","Sugar syrup and sulfur dioxide","Reserve wine and bentonite only"],"Official CMS Certified-level version of the same topic."],
 [1,"Which is sweeter?","Extra Dry",["Brut","Extra Brut","Brut Nature"],"Extra Dry is 12-17 g/L; Brut is up to 12 g/L."],
-[1,"Prosecco is typically made by which method?","Tank (Charmat/Martinotti)",["Traditional","Transfer","Carbonation"],"Tank fermentation keeps Glera's fresh pear and floral aromas."],
-[2,"Minimum total aging for non-vintage Champagne?","15 months, 12 on lees",["9 months","3 years","6 months"],"Vintage Champagne requires 3 years."],
+[1,"Prosecco is typically made by which method?","Tank (Charmat/Martinotti)",["Traditional (in bottle)","Transfer (bottle to tank)","Carbonation (injected CO₂)"],"Tank fermentation keeps Glera's fresh pear and floral aromas."],
+[2,"Minimum total aging for non-vintage Champagne?","15 months, 12 on lees",["9 months, all on lees","36 months, 24 on lees","6 months, 3 on lees"],"Vintage Champagne requires 3 years."],
 [2,"Removing the sediment from a Champagne bottle is called:","Disgorgement",["Riddling","Dosage","Assemblage"],"WSET Level 3 official sample question."],
-[2,"Moscato d'Asti's sweetness comes from:","Stopping a single fermentation by chilling",["Adding sugar after fermentation","Botrytis","Fortification"],"The Asti method leaves residual grape sugar."]
+[2,"Moscato d'Asti's sweetness comes from:","Stopping a single fermentation by chilling",["Adding sugar after the wine ferments dry","Leaving botrytis to concentrate the grapes","Fortifying the must with grape spirit"],"The Asti method leaves residual grape sugar."]
 ]});
 
 L.push({id:"f10", unit:"F3", title:"Sweet and Fortified Wines", mins:15,
@@ -120,13 +120,13 @@ floor:`<p>Fortified service: Port and Madeira are stored upright; vintage Port n
 analyst:`<p>WSET Level 3 LO4 covers Port, Sherry, Muscat de Beaumes-de-Venise and Rutherglen Muscat. Madeira, Marsala and other VDNs are Diploma (D5) material. Fortified wines use their own alcohol scale on the SAT.</p>`,
 terms:[["Süssreserve","Unfermented grape juice added for sweetness (Germany)."],["Passito","Wine from dried grapes (Italy)."],["Flor","Yeast film protecting Sherry from oxygen during biological aging."],["Estufagem","Heating Madeira in tanks."],["Canteiro","Aging Madeira casks in warm lofts."],["Vin Doux Naturel","French fortified wine with spirit added during fermentation."]],
 quiz:[
-[1,"Port is fortified:","During fermentation, preserving natural sugar",["After fermentation","Before fermentation","Never"],"Spirit kills the yeast, stopping fermentation."],
-[1,"Sherry is fortified:","After fermentation is complete",["During fermentation","Before pressing","Only for sweet styles"],"Base wine is dry; sweet styles are blended or from PX."],
-[2,"What happens if Sherry is fortified above about 17%?","Flor dies and the wine ages oxidatively",["Flor thrives","It becomes Manzanilla","It turns into Port"],"That's the route to Oloroso."],
-[1,"Icewine grapes must be:","Naturally frozen on the vine",["Frozen in a freezer","Botrytized","Dried on mats"],"Cryoextraction is not allowed for Icewine/Eiswein."],
-[2,"Amarone is made from:","Dried grapes fermented to dryness",["Botrytized grapes","Frozen grapes","Fortified wine"],"Recioto is the sweet sibling."],
+[1,"Port is fortified:","During fermentation, keeping natural sugar",["After fermentation, then sweetened","Before fermentation starts at all","At bottling, to stabilize the wine"],"Spirit kills the yeast, stopping fermentation."],
+[1,"Sherry is fortified:","After fermentation is complete",["During fermentation, like Port","Before the grapes are pressed","Only when making sweet styles"],"Base wine is dry; sweet styles are blended or from PX."],
+[2,"What happens if Sherry is fortified above about 17%?","Flor dies and the wine ages oxidatively",["Flor grows thicker and the wine pales","It can be sold only as Manzanilla","It must be sweetened with PX"],"That's the route to Oloroso."],
+[1,"Icewine grapes must be:","Naturally frozen on the vine",["Frozen in a commercial freezer","Affected by noble rot","Dried on straw mats"],"Cryoextraction is not allowed for Icewine/Eiswein."],
+[2,"Amarone is made from:","Dried grapes fermented to dryness",["Botrytized grapes picked late","Grapes frozen on the vine","Wine fortified during ferment"],"Recioto is the sweet sibling."],
 [2,"Which wine is deliberately heated during aging?","Madeira",["Port","Sherry","Banyuls"],"Estufagem or canteiro."],
-[3,"Rutherglen Muscat comes from:","Victoria, Australia",["Southern France","Spain","South Africa"],"Classification ladder: Rutherglen, Classic, Grand, Rare."]
+[3,"Rutherglen Muscat comes from:","Victoria, Australia",["Roussillon, France","Andalucía, Spain","Paarl, South Africa"],"Classification ladder: Rutherglen, Classic, Grand, Rare."]
 ]});
 
 // ---------- F4 GRAPES ----------
@@ -161,11 +161,11 @@ terms:[["TDN","Compound giving petrol aroma in aged Riesling."],["Pyrazines","Gr
 quiz:[
 [1,"Lychee and rose with low acid and an oily texture suggest:","Gewürztraminer",["Riesling","Albariño","Sauvignon Blanc"],"Classic Alsace Gewurztraminer markers."],
 [1,"Petrol aroma in an aged white points to:","Riesling",["Chardonnay","Viognier","Pinot Grigio"],"TDN develops with age and sun exposure."],
-[2,"Quince, honey and lanolin with high acid and slight sweetness suggests:","Vouvray (Chenin Blanc)",["Mosel Riesling","Sancerre","Chablis"],"The CMS-recommended confusion pair is Vouvray vs German Riesling."],
+[2,"Quince, honey and lanolin with high acid and slight sweetness suggests:","Vouvray (Chenin Blanc)",["Mosel Kabinett (Riesling)","Sancerre (Sauvignon Blanc)","Chablis (Chardonnay)"],"The CMS-recommended confusion pair is Vouvray vs German Riesling."],
 [1,"White pepper and green bean are signatures of:","Grüner Veltliner",["Chenin Blanc","Muscat","Sémillon"],"Austria's flagship white."],
 [2,"Which grape is a dry, floral Argentine white with a bitter finish?","Torrontés",["Gewürztraminer","Viognier","Muscat"],"Highest-quality examples from Cafayate, Salta."],
 [1,"Viognier's home appellation in the Northern Rhône is:","Condrieu",["Hermitage","Cornas","Sancerre"],"Château-Grillet is a tiny monopole enclave within it."],
-[2,"Unaged Hunter Valley Sémillon is typically:","Low alcohol, high acid, lemony; toasty only with bottle age",["Oaked and buttery","Sweet and botrytized","Full and oily"],"It develops toast and honey without oak."],
+[2,"Unaged Hunter Valley Sémillon is typically:","Low alcohol, high acid and lemony",["Full, oaked and buttery","Sweet, golden and botrytized","Aromatic, oily and low in acid"],"Picked early at 10-11.5% alcohol and never oaked; toast and honey appear only with years in bottle."],
 [3,"Assyrtiko is native to:","Santorini",["Crete","Cyprus","Sicily"],"Ungrafted, basket-trained (kouloura) vines in volcanic soils."]
 ]});
 
@@ -202,8 +202,8 @@ terms:[["GSM","Grenache, Syrah, Mourvèdre blend."],["Tinta Roriz","Portuguese n
 quiz:[
 [1,"Pale garnet color with high tannin, high acid, tar and roses suggests:","Nebbiolo",["Pinot Noir","Grenache","Gamay"],"The classic Barolo profile."],
 [1,"Black pepper, olive and smoked meat suggest:","Northern Rhône Syrah",["Australian Shiraz","Malbec","Merlot"],"Rotundone gives black pepper."],
-[2,"Dill and coconut with leather in a medium-bodied red point to:","Rioja Reserva (Tempranillo)",["Chianti Classico","Barolo","Pomerol"],"American oak aging is traditional in Rioja."],
-[1,"Banana and bubblegum in a light red point to:","Gamay from Beaujolais",["Pinot Noir","Nebbiolo","Barbera"],"Carbonic maceration esters."],
+[2,"Dill and coconut with leather in a medium-bodied red point to:","Rioja Reserva (Tempranillo)",["Chianti Classico (Sangiovese)","Barolo (Nebbiolo)","Pomerol (Merlot)"],"American oak aging is traditional in Rioja."],
+[1,"Banana and bubblegum in a light red point to:","Gamay from Beaujolais",["Pinot Noir from Burgundy","Nebbiolo from Piedmont","Barbera from Asti"],"Carbonic maceration esters."],
 [2,"Which red is known for high acid but low tannin?","Barbera",["Nebbiolo","Cabernet Sauvignon","Mourvèdre"],"Barbera's low tannin is why it pairs widely."],
 [2,"Zinfandel is genetically identical to:","Primitivo",["Petite Sirah","Grenache","Carignan"],"Both are Croatian Crljenak Kaštelanski / Tribidrag."],
 [2,"Which grape gives a purple rim, blueberry and violet?","Malbec",["Nebbiolo","Grenache","Sangiovese"],"Mendoza Malbec's color is a giveaway."],
@@ -224,7 +224,7 @@ terms:[["Garganega","White grape of Soave."],["Aglianico","Tannic southern Itali
 quiz:[
 [1,"Match Valpolicella with its main grape:","Corvina",["Mourvèdre","Furmint","Grenache"],"From the official CMS matching example."],
 [1,"Match Bandol with its main grape:","Mourvèdre",["Corvina","Furmint","Grenache"],"Bandol reds require at least 50% Mourvèdre."],
-[2,"Montepulciano d'Abruzzo is made from:","The Montepulciano grape",["Sangiovese","Nebbiolo","Aglianico"],"Vino Nobile di Montepulciano (Tuscany) is Sangiovese, named for the town."],
+[2,"Montepulciano d'Abruzzo is made from:","The Montepulciano grape",["The Sangiovese grape","The Nebbiolo grape","The Aglianico grape"],"Vino Nobile di Montepulciano (Tuscany) is Sangiovese, named for the town."],
 [2,"Which white grape is the base of Soave?","Garganega",["Cortese","Arneis","Verdicchio"],"Gavi is Cortese; Roero Arneis is Arneis."],
 [2,"Cava's three traditional grapes are:","Macabeo, Xarel·lo, Parellada",["Palomino, PX, Moscatel","Verdejo, Viura, Godello","Albariño, Loureiro, Treixadura"],"Chardonnay and others are also permitted now."],
 [2,"Xinomavro is the grape of:","Naoussa",["Nemea","Santorini","Tokaj"],"Agiorgitiko is Nemea; Assyrtiko is Santorini."],

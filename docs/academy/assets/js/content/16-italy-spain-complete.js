@@ -15,7 +15,7 @@ body:`
 <tr><td>Bardolino</td><td>Since 2021: three subzones, <b>La Rocca, Montebaldo, Sommacampagna</b>; the rosé is now called <b>Chiaretto di Bardolino</b>.</td></tr>
 <tr><td>Trentodoc</td><td>Traditional-method sparkling from Trentino; Ferrari Giulio Ferrari, Letrari, Maso Martis.</td></tr></table>
 <h3>Emilia-Romagna</h3>
-<p><b>Lambrusco</b>: dry to sweet, sparkling red, usually tank method: <b>Sorbara</b> (palest, highest acid; at least 60% Sorbara), <b>Grasparossa di Castelvetro</b> (darkest, most tannic), <b>Salamino di Santa Croce</b> (in between). <b>Romagna Albana</b> was Italy's first white DOCG (1987, at least 95% Albana). Romagna Sangiovese has village subzones (sources list 12 or 16). Gutturnio near Piacenza (Barbera-Bonarda).</p>
+<p><b>Lambrusco</b>: dry to sweet, sparkling red, usually tank method: <b>Sorbara</b> (palest, highest acid; at least 60% Sorbara), <b>Grasparossa di Castelvetro</b> (darkest, most tannic), <b>Salamino di Santa Croce</b> (in between). <b>Romagna Albana</b> was Italy's first white DOCG (1987, at least 95% Albana). Romagna Sangiovese has 16 village subzones (12 at first, four added in 2022). Gutturnio near Piacenza (Barbera-Bonarda).</p>
 <h3>Tuscany updates</h3>
 <ul><li><b>Vino Nobile di Montepulciano Pieve</b> (from 2025): a new top tier above Riserva, from 12 named Pievi (village areas such as Cervognano, Gracciano, Valiano, Sant'Albino, Caggiole); at least 85% Sangiovese with natives only, vines at least 15 years old, 36 months of aging. Standard Vino Nobile remains at least 70% Sangiovese.</li>
 <li><b>Carmignano</b>: at least 50% Sangiovese with <b>10-20% Cabernet</b>, a Medici-era blend; tiny (about 117 ha). Capezzana.</li>
@@ -42,10 +42,10 @@ quiz:[
 [2,"Calabria's first DOCG (2025) is:","Cirò Classico",["Greco di Bianco","Savuto","Bivongi"],"At least 90% Gaglioppo."],
 [2,"Minimum lees aging for Franciacorta Riserva:","60 months",["18 months","30 months","36 months"],"Millesimato 30."],
 [2,"Which is NOT a Valtellina Superiore subzone?","Bussia",["Sassella","Inferno","Grumello"],"Bussia is in Monforte d'Alba."],
-[3,"The Vino Nobile 'Pieve' tier requires at least:","85% Sangiovese and 36 months aging",["70% Sangiovese and 24 months","100% Sangiovese and 60 months","50% Sangiovese"],"Natives only."],
+[3,"The Vino Nobile 'Pieve' tier requires at least:","85% Sangiovese and 36 months aging",["70% Sangiovese and 24 months","100% Sangiovese and 60 months","50% Sangiovese"],"Pieve also requires native grapes only and vines at least 15 years old."],
 [2,"Carmignano requires what share of Cabernet?","10-20%",["None","At least 50%","Up to 5%"],"A Medici-era blend."],
 [2,"Which Lambrusco is palest and highest in acid?","Sorbara",["Grasparossa di Castelvetro","Salamino di Santa Croce","Reggiano"],"Grasparossa is darkest."],
-[3,"Amarone grapes may not be vinified before:","1 December after harvest",["1 October","1 January","Easter"],"After drying."]
+[3,"Amarone grapes may not be vinified before:","1 December after harvest",["1 October of the harvest","1 January after harvest","Easter after harvest"],"The grapes must dry until at least 1 December before they are pressed."]
 ]});
 
 L.push({id:"r8c", unit:"R3", title:"Deep Dive: Spain's New Pyramids", mins:22,
@@ -63,7 +63,7 @@ body:`
 <h3>Ribera del Duero</h3>
 <p>About 27,500 ha. Whites have been permitted since 2019 (at least 75% <b>Albillo Mayor</b>), and since July 2023 reds may include up to 25% Albillo Mayor. Reds need at least 75% Tempranillo (Tinto Fino). Ribera's Gran Reserva needs at least 24 months in barrel (versus 18 nationally). No village or vineyard classification has been approved yet.</p>
 <h3>Priorat: "Els Noms de la Terra"</h3>
-<p>Spain's most Burgundian pyramid: <b>DOQ Priorat → Vi de Vila</b> (village wine, from the 2007 vintage; 12 villages) <b>→ Vi de Paratge</b> (459 named sites) <b>→ Vinya Classificada → Gran Vinya Classificada</b>. Only three Gran Vinyes exist: <b>L'Ermita</b> (Álvaro Palacios, from 2017), <b>Mas de la Rosa</b> (Vall Llach, Porrera, 2019) and <b>1902 Tossal d'en Bou</b> (Mas Doix, 2019). Yields fall and vine-age requirements rise at each step (sources differ on the exact ages).</p>
+<p>Spain's most Burgundian pyramid: <b>DOQ Priorat → Vi de Vila</b> (village wine, from the 2007 vintage; 12 villages) <b>→ Vi de Paratge</b> (459 named sites) <b>→ Vinya Classificada → Gran Vinya Classificada</b>. Only three Gran Vinyes exist: <b>L'Ermita</b> (Álvaro Palacios, from 2017), <b>Mas de la Rosa</b> (Vall Llach, Porrera, 2019) and <b>1902 Tossal d'en Bou</b> (Mas Doix, 2019). Yields fall and vine-age requirements rise at each step, from 90% of vines aged 10 or more for a Vi de Vila to 80% aged 35 or more (and at most 3,000 kg/ha for reds) for a Gran Vinya Classificada.</p>
 <h3>Bierzo</h3>
 <p>Raúl Pérez and Ricardo Pérez Palacios pushed Bierzo into a full Burgundy-style system: Vino de Villa (yields cut 20%), Vino de Paraje (25%), Viña Clasificada (30%) and Gran Viña Clasificada (35%). Village wines reached the market in 2020.</p>
 <h3>Cava and its rivals</h3>
@@ -75,17 +75,17 @@ body:`
 <h3>Catalonia, Madrid and the south</h3>
 <p><b>Montsant</b> (DO 2002, formerly a Tarragona subzone) wraps around Priorat. <b>Vinos de Madrid</b> has four subzones (Arganda, Navalcarnero, San Martín de Valdeiglesias, El Molar) and the Gredos old-vine Garnacha revival (Comando G, Bernabeleva, Marañones). <b>Málaga</b> ages by tier: Pálido (up to 6 months), Málaga (6-24), Noble (2-3 years), Añejo (3-5), Trasañejo (5+). <b>Montilla-Moriles</b> Finos reach 15% naturally from PX (Alvear, Toro Albalá, Pérez Barquero). The <b>Canary Islands</b> have an Islas Canarias umbrella DO (2012) plus 10 island DOs.</p>
 <h3>National aging rules, whites and rosés</h3>
-<p>Crianza 18 months (6 in oak), Reserva 24 (6 in oak), Gran Reserva 48 (6 in oak), versus reds at 24/6, 36/12 and 60/18. Spain has 149 EU-registered wine GIs (2026); the first Vino de Pago was Dominio de Valdepusa (2003), with recent additions like Río Negro (2025) and Tharsys (2025).</p>`,
+<p>Whites and rosés: Crianza 18 months (6 in oak), Reserva 24 (6 in oak), Gran Reserva 48 (6 in oak). Reds: Crianza 24 months (6 in oak), Reserva 36 (12 in oak), Gran Reserva 60 (18 in oak). Spain has 149 EU-registered wine GIs (2026); the first Vino de Pago was Dominio de Valdepusa (2003), with recent additions like Río Negro (2025) and Tharsys (2025).</p>`,
 floor:`<p>On a list, Rioja Viñedo Singular and Priorat Vi de Vila signal top-tier site wines; Bierzo and Ribeira Sacra are value Burgundy alternatives; Corpinnat and Cava de Paraje are traditional-method bargains next to Champagne.</p>`,
 analyst:`<p>Essay angles: compare Spain's new site pyramids (Rioja, Priorat, Bierzo) with Burgundy; discuss the Corpinnat exit from Cava as a case of brand versus appellation.</p>`,
 terms:[["Vino de Pueblo","Rioja village-wine category (renamed from Vino de Municipio, 2024)."],["Viñedo Singular","Rioja single-vineyard category; vines 35+ years."],["Gran Vinya Classificada","Priorat's top site tier; three wines so far."],["Cava de Guarda Superior","Cava category for Reserva, Gran Reserva and Paraje Calificado."],["Corpinnat","Private organic sparkling brand outside the Cava DO."],["Albillo Mayor","White grape now allowed in Ribera del Duero whites and reds."]],
 quiz:[
 [2,"In 2024 Rioja renamed 'Vino de Municipio' to:","Vino de Pueblo",["Vino de Villa","Vino de Paraje","Viñedo Singular"],"February 2024."],
 [2,"How many Viñedos Singulares did Rioja have in September 2026?","167",["12","459","1,000"],"91 La Rioja, 73 Álava, 3 Navarra."],
-[2,"What happened to the 'Viñedos de Álava' DO?","Courts annulled it and the government revoked it",["It became a DOCa","It merged with Navarra","It was approved in 2025"],"Final revocation December 2025."],
+[2,"What happened to the 'Viñedos de Álava' DO?","Courts annulled it and it was revoked",["It was upgraded to a DOCa in 2025","It merged with the Navarra DO","The EU registered it as a PDO"],"Final revocation December 2025."],
 [2,"Ribera del Duero whites must be at least 75%:","Albillo Mayor",["Verdejo","Viura","Godello"],"Allowed since 2019."],
 [2,"Which is one of Priorat's three Gran Vinyes Classificades?","L'Ermita",["Clos Mogador","Pingus","Vega Sicilia Único"],"Álvaro Palacios."],
-[2,"Cava Gran Reserva now requires at least:","30 months on lees",["9 months","15 months","60 months"],"Reserva 18, Paraje Calificado 36."],
-[3,"Which Rías Baixas subzone is coolest and most saline?","Val do Salnés",["Condado do Tea","O Rosal","Ribeira do Ulla"],"Coastal."],
+[2,"Cava Gran Reserva now requires at least:","30 months on lees",["9 months on lees","15 months on lees","60 months on lees"],"Reserva 18, Paraje Calificado 36."],
+[3,"Which Rías Baixas subzone is coolest and most saline?","Val do Salnés",["Condado do Tea","O Rosal","Ribeira do Ulla"],"Val do Salnés lies on the coast around Cambados: the coolest, wettest and most saline subzone."],
 [2,"Spanish Gran Reserva whites need a minimum total aging of:","48 months",["24 months","60 months","18 months"],"6 months in oak."]
 ]});

@@ -31,12 +31,12 @@ analyst:`<p>WSET Level 3 lists Rioja (with its subregions), Ribera del Duero, To
 terms:[["DOCa","Denominación de Origen Calificada; Rioja and Priorat."],["Crianza","Spanish aging tier; in Rioja 2 years with 1 in oak."],["Gran Reserva","Top Spanish aging tier; Rioja 5 years, 2 in oak, 2 in bottle."],["Llicorella","Slate and quartz soil of Priorat."],["Tinto Fino","Tempranillo in Ribera del Duero."]],
 quiz:[
 [1,"Rías Baixas is known for:","Albariño",["Verdejo","Godello","Viura"],"Atlantic Galicia."],
-[2,"Minimum aging for Rioja Gran Reserva red:","60 months, 24 in oak and 24 in bottle",["36 months","24 months","48 months, 12 in oak"],"Blue back-label seal."],
+[2,"Minimum aging for Rioja Gran Reserva red:","60 months, at least 24 in oak",["36 months, at least 12 in oak","24 months, at least 6 in oak","48 months, at least 12 in oak"],"Rioja Gran Reserva reds: 60 months in total, with at least 24 in oak and 24 in bottle."],
 [1,"What is the key natural factor in Ribera del Duero?","High altitude",["Maritime influence","Volcanic soil","Botrytis"],"Official WSET Level 3 sample question."],
-[2,"Priorat's signature soil is:","Llicorella (slate and quartz)",["Albariza","Galets roulés","Terra rossa"],"Holds heat, forces deep roots."],
+[2,"Priorat's signature soil is:","Llicorella (slate and quartz)",["Albariza (white chalk)","Galets roulés (round stones)","Terra rossa (red clay)"],"Holds heat, forces deep roots."],
 [2,"Which grape is Monastrell elsewhere?","Mourvèdre",["Grenache","Carignan","Cinsault"],"Jumilla's main grape."],
 [2,"Why does traditional Rioja smell of dill and coconut?","Aging in American oak",["Carbonic maceration","Garnacha in the blend","Lees aging"],"Introduced via Bordeaux merchants; American oak was cheaper."],
-[2,"Mencía is the key red of:","Bierzo and Ribeira Sacra",["Rioja","Navarra","Toro"],"Fresh, floral, red-fruited."],
+[2,"Mencía is the key red of:","Bierzo and Ribeira Sacra",["Rioja and Navarra","Toro and Rueda","Priorat and Montsant"],"Fresh, floral, red-fruited."],
 [3,"Vega Sicilia Único comes from:","Ribera del Duero",["Rioja","Priorat","Toro"],"Spain's most famous red."]
 ]});
 
@@ -68,9 +68,9 @@ quiz:[
 [1,"Sherry's main grape is:","Palomino",["Pedro Ximénez","Tempranillo","Airén"],"Neutral; aging creates the style."],
 [1,"Manzanilla can only be aged in:","Sanlúcar de Barrameda",["Jerez","El Puerto de Santa María","Montilla"],"Sea humidity gives thick flor."],
 [2,"Which Sherry is aged under flor, then oxidatively?","Amontillado",["Fino","Oloroso","PX"],"Palo Cortado follows a related path."],
-[2,"Why does Oloroso never develop flor?","It is fortified to about 17%+, which kills flor yeast",["It's made from PX","It's aged in the sun","It's unfortified"],"Oxidative aging follows."],
-[2,"VOS Sherry has an average age of at least:","20 years",["12 years","30 years","5 years"],"VORS is 30+."],
-[1,"Albariza is:","A chalky white soil in Jerez",["A Sherry style","A barrel size","A wind"],"Holds water, reflects light."],
+[2,"Why does Oloroso never develop flor?","It is fortified to about 17%, which kills flor",["It's made from Pedro Ximénez, not Palomino","It's aged outdoors in the summer sun","It's bottled before flor can form"],"Oxidative aging follows."],
+[2,"VOS Sherry has an average age of at least:","20 years",["12 years","30 years","5 years"],"VOS certifies an average age of 20 years or more; VORS, 30 or more."],
+[1,"Albariza is:","A chalky white soil in Jerez",["A dry Sherry style from Sanlúcar","A 500-liter Sherry cask","A hot easterly wind"],"Holds water, reflects light."],
 [3,"The humid westerly wind that favors flor is the:","Poniente",["Levante","Mistral","Sirocco"],"The levante is hot and dry."]
 ]});
 
@@ -107,7 +107,7 @@ terms:[["Aguardente","Grape spirit (~77%) used to fortify Port."],["Lagar","Shal
 quiz:[
 [1,"Which grape is not used for Port?","Ugni Blanc",["Touriga Nacional","Touriga Franca","Tinta Roriz"],"Official WSET Level 3 sample question."],
 [2,"LBV Port spends how long in wood?","4-6 years",["2 years","10 years","20 years minimum"],"Then bottled ready to drink (if filtered)."],
-[2,"A 20 Year Old Tawny Port is:","A blend whose style reflects an average of about 20 years",["At least 20 years old in every drop","From a single vintage 20 years ago","Aged 20 years in bottle"],"It is an indication of age, judged by the IVDP."],
+[2,"A 20 Year Old Tawny Port is:","A blend averaging about 20 years in wood",["A wine at least 20 years old in every drop","A single-harvest wine bottled after 20 years","A Ruby aged for 20 years in bottle"],"It is an indication of age, judged by the IVDP."],
 [1,"Which Madeira style is the sweetest?","Malmsey",["Sercial","Verdelho","Bual"],"Sercial is driest."],
 [2,"Port's soil and terraces are mainly:","Schist",["Granite","Limestone","Sand"],"Fractures let roots dig deep for water."],
 [2,"Which Douro subregion is hottest and driest?","Douro Superior",["Baixo Corgo","Cima Corgo","Dão"],"Furthest east, toward Spain."],
@@ -143,8 +143,8 @@ floor:`<p>CMS Certified examines Riesling from Mosel/Rheingau at Kabinett or Sp�
 analyst:`<p>WSET Level 3 lists Mosel, Nahe, Rheingau, Rheinhessen, Pfalz, Baden and Franken, plus Prädikat terms and the VDP. A short answer favorite: "Explain how the Mosel's site factors allow Riesling to ripen" = steep south-facing slopes, river reflection, slate heat retention.</p>`,
 terms:[["Prädikatswein","German quality wine classed by must weight at harvest."],["Oechsle","German scale of must weight (sugar)."],["Grosses Gewächs","VDP dry wine from a Grosse Lage site."],["Grosslage","Collective vineyard area, often generic; not the same as Grosse Lage."],["Feinherb","Off-dry (unofficial)."],["Bocksbeutel","Flattened flask bottle of Franken."]],
 quiz:[
-[1,"Which Prädikat level is the ripest?","Trockenbeerenauslese",["Spätlese","Auslese","Kabinett"],"TBA is from shriveled botrytized berries."],
-[2,"A 'Grosses Gewächs' is:","A dry wine from a VDP Grosse Lage",["A sweet Auslese","A generic Grosslage wine","A sparkling wine"],"Look for 'GG' on the bottle."],
+[1,"Which Prädikat level is the ripest?","Trockenbeerenauslese",["Beerenauslese","Auslese","Spätlese"],"TBA is from shriveled botrytized berries."],
+[2,"A 'Grosses Gewächs' is:","A dry wine from a VDP Grosse Lage",["A sweet wine at Auslese level","A wine from a generic Grosslage","A traditional-method Sekt"],"Look for 'GG' on the bottle."],
 [1,"Franken is known for Silvaner in what bottle?","Bocksbeutel",["Flûte","Clavelin","Fiasco"],"A squat flask shape."],
 [2,"Which region is Germany's largest?","Rheinhessen",["Mosel","Pfalz","Rheingau"],"Once known for Liebfraumilch."],
 [2,"Spätburgunder is the German name for:","Pinot Noir",["Pinot Gris","Pinot Blanc","Lemberger"],"Baden and the Ahr are leading regions."],
@@ -174,7 +174,7 @@ analyst:`<p>WSET Level 3 includes Austria's Wachau, Kremstal, Kamptal, Weinviert
 terms:[["DAC","Austrian regional appellation with a defined style."],["Smaragd","Richest dry Wachau category, 12.5%+."],["Aszú","Botrytized berries, and the sweet Tokaji made from them."],["Puttonyos","Traditional measure of Tokaji Aszú sweetness."],["Eszencia","Free-run syrup from aszú berries; extremely sweet, very low alcohol."],["Kouloura","Basket-trained vines of Santorini."]],
 quiz:[
 [1,"Which Wachau category is the richest?","Smaragd",["Steinfeder","Federspiel","Kabinett"],"12.5% abv and above."],
-[2,"Since 2013, Tokaji Aszú must have at least:","120 g/L residual sugar",["60 g/L","200 g/L","450 g/L"],"Equal to the old 5 puttonyos."],
+[2,"Since 2013, Tokaji Aszú must have at least:","120 g/L residual sugar",["60 g/L residual sugar","200 g/L residual sugar","450 g/L residual sugar"],"Equal to the old 5 puttonyos."],
 [1,"Furmint is the main grape of:","Tokaj",["Wachau","Santorini","Nemea"],"With Hárslevelű."],
 [2,"Zweigelt is a crossing of:","Blaufränkisch and St. Laurent",["Pinot Noir and Gamay","Grüner Veltliner and Riesling","Syrah and Grenache"],"Austria's most-planted red."],
 [1,"Santorini's main grape is:","Assyrtiko",["Moschofilero","Xinomavro","Agiorgitiko"],"Volcanic, ungrafted vineyards."],
@@ -213,11 +213,11 @@ terms:[["AVA","American Viticultural Area; geographic only."],["Meritage","Trade
 quiz:[
 [1,"What percentage of the named grape must a US varietal wine contain (federal rule)?","75%",["85%","95%","100%"],"Oregon is stricter at 90% for most grapes."],
 [2,"A wine labeled with a Napa sub-AVA must contain at least what share of grapes from that AVA?","85%",["75%","95%","100%"],"Vintage-dated AVA wines need 95% from the vintage."],
-[1,"Which wines won the 1976 Judgment of Paris?","Stag's Leap Wine Cellars Cabernet and Chateau Montelena Chardonnay",["Opus One and Kistler","Ridge and Mondavi","Screaming Eagle and Harlan"],"Both 1973 vintages."],
+[1,"Which wines won the 1976 Judgment of Paris?","Stag's Leap Wine Cellars and Montelena",["Opus One and Kistler Vineyards","Ridge Monte Bello and Robert Mondavi","Screaming Eagle and Harlan Estate"],"Both 1973 vintages."],
 [2,"Which Napa sub-region is coolest?","Los Carneros",["Calistoga","Oakville","Rutherford"],"Near San Pablo Bay; shared with Sonoma."],
 [2,"Dry Creek Valley is most famous for:","Zinfandel",["Pinot Noir","Riesling","Chardonnay"],"Sonoma County."],
-[2,"Why do the Sta. Rita Hills grow cool-climate Pinot Noir so far south?","An east-west transverse valley funnels Pacific fog and wind",["High altitude","Lake influence","Northern latitude"],"Santa Barbara County."],
-[3,"'Rutherford dust' refers to:","The dusty, earthy tannin character of Rutherford Cabernet",["A soil additive","A fault","A harvest tradition"],"Coined by André Tchelistcheff."]
+[2,"Why do the Sta. Rita Hills grow cool-climate Pinot Noir so far south?","An east-west transverse valley funnels Pacific fog and wind",["Vineyards planted above 3,000 feet","A deep lake that cools the valley","A latitude north of San Francisco"],"Santa Barbara County."],
+[3,"'Rutherford dust' refers to:","The dusty, fine tannin of Rutherford Cabernet",["A volcanic soil amendment used in Napa","A fault caused by harvest-time dust","A blessing held at the start of harvest"],"Coined by André Tchelistcheff."]
 ]});
 
 L.push({id:"r14", unit:"R5", title:"Oregon, Washington and New York", mins:15,
@@ -228,7 +228,7 @@ body:`
 <ul><li><b>Willamette Valley</b>: protected from Pacific storms by the Coast Range; the Van Duzer Corridor lets cooling air through. Sub-AVAs: <b>Dundee Hills</b> (red volcanic Jory soil), <b>Eola-Amity Hills</b>, <b>Yamhill-Carlton</b> (marine sediment), <b>Ribbon Ridge</b>, <b>Chehalem Mountains</b>, McMinnville. Pinot Noir (bright red cherry, earth, lighter than California), Chardonnay, Pinot Gris.</li>
 <li><b>Southern Oregon</b> (Umpqua, Rogue): warmer; Tempranillo, Syrah.</li></ul>
 <h3>Washington</h3>
-<p>Washington's vineyards sit east of the <b>Cascade Mountains</b>, in a rain shadow so complete that it is a desert: about 6-8 inches of rain a year, irrigated from the Columbia River. Northern latitude (about 46°N) means long summer days with two more hours of sunlight than Napa, and cold nights preserve acidity. The sandy soils left by the Ice Age <b>Missoula Floods</b> resist phylloxera, so many vines are ungrafted. Winter freeze is the big risk.</p>
+<p>Washington's vineyards sit east of the <b>Cascade Mountains</b>, in a rain shadow so complete that it is a desert: about 6-8 inches of rain a year, irrigated from the Columbia River. Northern latitude (about 46°N) means long summer days with about an hour more daylight than Napa at midsummer, and cold nights preserve acidity. The sandy soils left by the Ice Age <b>Missoula Floods</b> resist phylloxera, so many vines are ungrafted. Winter freeze is the big risk.</p>
 <ul><li><b>Columbia Valley</b> (the giant umbrella AVA), with <b>Yakima Valley</b>, <b>Red Mountain</b> (hot, tannic Cabernet), <b>Walla Walla Valley</b> (shared with Oregon; Syrah from The Rocks District of Milton-Freewater), <b>Horse Heaven Hills, Wahluke Slope</b>.</li>
 <li>Grapes: Cabernet Sauvignon, Merlot, Syrah, Riesling (Chateau Ste. Michelle is one of the world's largest Riesling producers), Chardonnay.</li></ul>
 <h3>New York and the East</h3>
@@ -241,10 +241,10 @@ analyst:`<p>WSET Level 3 includes Willamette Valley, Columbia Valley, Yakima Val
 terms:[["Jory soil","Red volcanic soil of Oregon's Dundee Hills."],["Missoula Floods","Ice Age floods that left sandy, phylloxera-resistant soils in Washington."],["Rain shadow","Dry area on the leeward side of mountains."]],
 quiz:[
 [1,"Oregon's flagship grape is:","Pinot Noir",["Cabernet Sauvignon","Zinfandel","Riesling"],"Willamette Valley."],
-[2,"Why is eastern Washington a desert?","The Cascade Mountains block Pacific rain",["It is at high altitude","It is near the equator","Cold ocean currents"],"Irrigation from the Columbia River is essential."],
+[2,"Why is eastern Washington a desert?","The Cascade Mountains block Pacific rain",["Its vineyards sit above the clouds","It lies too far inland for storms","A cold current dries the coastal air"],"Irrigation from the Columbia River is essential."],
 [2,"Ribbon Ridge is an AVA in:","Oregon",["Washington","California","New York"],"From the official CMS matching example (appellation to country/state)."],
-[2,"Finger Lakes winters are made survivable mainly by:","Deep glacial lakes that moderate temperature",["High altitude","Atlantic Gulf Stream","Volcanic soils"],"Seneca Lake rarely freezes."],
-[1,"Who planted Oregon's pioneering Pinot Noir in the Dundee Hills in 1965?","David Lett (Eyrie Vineyards)",["Robert Mondavi","Konstantin Frank","Joseph Drouhin"],"The 'Papa Pinot' of Oregon."],
+[2,"Finger Lakes winters are made survivable mainly by:","Deep glacial lakes that hold heat",["Vineyards planted at high altitude","The Gulf Stream off the Atlantic","Dark volcanic soils that hold heat"],"Seneca Lake rarely freezes."],
+[1,"Who planted Oregon's pioneering Pinot Noir in the Dundee Hills in 1965?","David Lett (Eyrie Vineyards)",["Robert Mondavi (Mondavi Winery)","Konstantin Frank (Vinifera Wine Cellars)","Robert Drouhin (Domaine Drouhin)"],"The 'Papa Pinot' of Oregon."],
 [3,"Many Washington vineyards are ungrafted because:","Sandy flood soils deter phylloxera",["The state bans grafting","It is too cold for vines to need it","Rootstocks don't grow there"],"Winter freeze is a larger threat."]
 ]});
 
@@ -269,11 +269,11 @@ floor:`<p>CMS Certified examines Shiraz from South Australia, WA or Victoria, an
 analyst:`<p>WSET Level 3 lists most of these GIs (Barossa, Eden, Clare, McLaren Vale, Coonawarra, Adelaide Hills, Yarra, Mornington, Geelong, Heathcote, Hunter, Margaret River, Great Southern, Tasmania; Marlborough, Hawke's Bay, Gimblett Gravels, Martinborough, Central Otago). Classic short answer: name a cool and a warm Australian Chardonnay region and explain how climate affects the fruit (3+3 marks).</p>`,
 terms:[["Terra rossa","Red clay over limestone in Coonawarra."],["GI","Geographical Indication; Australia's appellation system."],["Gimblett Gravels","Free-draining gravel district in Hawke's Bay."],["Topaque","Australian name for fortified Muscadelle (formerly 'Tokay')."]],
 quiz:[
-[1,"Coonawarra is famous for Cabernet grown on:","Terra rossa soil",["Slate","Granite","Volcanic ash"],"Red soil over limestone."],
+[1,"Coonawarra is famous for Cabernet grown on:","Terra rossa soil",["Blue slate","Decomposed granite","Volcanic ash"],"Red soil over limestone."],
 [2,"Name a cool and a warm Australian Chardonnay region:","Adelaide Hills (cool) and Hunter Valley (warm)",["Barossa (cool) and Tasmania (warm)","Margaret River (cool) and Yarra (warm)","Clare (cool) and Eden (warm)"],"Based on the WSET Level 3 sample short answer."],
 [1,"Marlborough's flagship grape is:","Sauvignon Blanc",["Pinot Noir","Chardonnay","Riesling"],"Wairau and Awatere valleys."],
 [2,"Which NZ region has a continental climate?","Central Otago",["Marlborough","Hawke's Bay","Martinborough"],"Mountain-ringed, far inland."],
-[2,"Unoaked Hunter Valley Sémillon develops toast with age because:","Bottle aging creates toasty, honeyed flavors",["It's secretly oaked","It's fortified","It's made with botrytis"],"Picked early, low alcohol, very long-lived."],
+[2,"Unoaked Hunter Valley Sémillon develops toast with age because:","Bottle aging creates toasty, honeyed flavors",["It is aged in oak but not labeled so","It is lightly fortified before bottling","It is made from botrytized grapes"],"Picked early, low alcohol, very long-lived."],
 [2,"Penfolds Grange is primarily:","Shiraz",["Cabernet Sauvignon","Grenache","Pinot Noir"],"First made by Max Schubert in 1951."],
 [1,"Match McLaren Vale to its country:","Australia",["New Zealand","South Africa","Chile"],"From the official CMS matching example."],
 [3,"Which Victoria region is known for fortified Muscat?","Rutherglen",["Yarra Valley","Mornington Peninsula","Heathcote"],"Rare is the top tier."]
@@ -303,7 +303,7 @@ quiz:[
 [1,"Most Argentine wine comes from:","Mendoza",["Salta","Patagonia","San Juan"],"About 70% of production."],
 [1,"Salta is the source of Argentina's best:","Torrontés",["Pinot Noir","Riesling","Tannat"],"High-altitude Cafayate."],
 [2,"Chile's Costa, Entre Cordilleras and Andes zones reflect that climate changes mostly:","West to east",["North to south","By altitude only","By soil type"],"Ocean versus mountains."],
-[2,"Chile is largely free of phylloxera because:","Natural barriers (Andes, desert, ocean, ice) isolate it",["It uses rootstocks everywhere","Its soils are volcanic","It's too hot"],"Many vines are ungrafted."],
+[2,"Chile is largely free of phylloxera because:","Natural barriers isolate it",["Every vine is on rootstock","Its soils are all volcanic","Its summers are too hot"],"The Andes, the Atacama, the Pacific and Patagonian ice keep the louse out, so most vines are ungrafted."],
 [2,"Which Chilean valley is known for coastal Sauvignon Blanc?","Casablanca",["Maipo","Colchagua","Maule"],"Cooled by the Humboldt Current."],
 [3,"What is the main weather hazard Mendoza growers net against?","Hail",["Frost","Botrytis","Typhoons"],"Hail nets are common."]
 ]});
@@ -331,8 +331,8 @@ terms:[["Wine of Origin","South Africa's appellation scheme."],["Cape Doctor","S
 quiz:[
 [1,"Match Walker Bay to its country:","South Africa",["Australia","Chile","New Zealand"],"From the official CMS matching example."],
 [1,"South Africa's most planted grape is:","Chenin Blanc",["Pinotage","Cabernet Sauvignon","Chardonnay"],"Once called Steen."],
-[2,"Canadian icewine grapes must be harvested at what temperature or colder?","-8°C",["0°C","-2°C","-20°C"],"About 17.6°F."],
+[2,"Canadian icewine grapes must be harvested at what temperature or colder?","-8°C",["0°C","-2°C","-20°C"],"Minus 8°C (about 18°F) or colder, with the grapes naturally frozen on the vine."],
 [2,"Vin de Constance is a historic sweet wine from:","Constantia",["Stellenbosch","Swartland","Paarl"],"Napoleon reportedly drank it on St Helena."],
 [2,"Which grape dominates Canadian icewine?","Vidal",["Chardonnay","Pinot Noir","Gewürztraminer"],"A cold-hardy hybrid."],
-[3,"The 'Cape Doctor' is:","A cooling southeasterly wind",["A grape disease","A sparkling wine","A wine law"],"Reduces fungal pressure."]
+[3,"The 'Cape Doctor' is:","A cooling southeasterly wind",["A fungal disease of old vines","A fortified wine from Paarl","A Wine of Origin regulation"],"Reduces fungal pressure."]
 ]});

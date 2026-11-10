@@ -36,10 +36,10 @@ floor:`<p>CMS candidates often study in "study groups" found through GuildSomm f
 analyst:`<p>WSET suggests guided learning hours plus private study: about 84 hours total for Level 3 and about 500 for the Diploma. WSET published an official eight-week Level 3 study plan in February 2026; the Study Planner here follows the same idea.</p>`,
 terms:[["Spaced repetition","Reviewing material at increasing intervals to move it into long-term memory."],["Pourer","The person who bags, numbers and serves wines blind for a tasting group."]],
 quiz:[
-[1,"What is the most efficient daily theory habit?","Short daily spaced-repetition review",["One long weekly cram session","Rereading textbooks only","Watching videos at 2x speed"],"Frequent short reviews beat massed study for long-term recall."],
+[1,"What is the most efficient daily theory habit?","Short daily spaced-repetition review",["One long cramming session each week","Rereading the textbook cover to cover","Watching lectures at double speed"],"Frequent short reviews beat massed study for long-term recall."],
 [1,"In a blind tasting group, the pourer:","Bags, numbers and serves the wines",["Tastes first and announces the answer","Only takes notes","Chooses the wines after tasting"],"Rotating the role lets everyone taste blind most weeks."],
-[2,"On exam day, when unsure of a wine, the best tactic is to:","Commit to a logical conclusion and move on",["Leave the conclusion blank","Spend extra time on that wine","Guess the most expensive wine"],"Grids reward each correct line; a logical conclusion often earns partial credit."],
-[1,"What should every region study template begin with?","Location and climate",["Producers","Prices","Bottle shapes"],"Place explains climate, which explains grapes and style."],
+[2,"On exam day, when unsure of a wine, the best tactic is to:","Commit to a logical conclusion and move on",["Leave the conclusion lines blank","Spend your spare minutes on that wine","Name the most famous wine you know"],"Grids reward each correct line; a logical conclusion often earns partial credit."],
+[1,"What should every region study template begin with?","Location and climate",["Benchmark producers","Typical price bands","Label and aging terms"],"Place explains climate, which explains grapes and style."],
 [2,"Typical time from first CMS exam to the Master Sommelier title:","5-10 years",["6 months","1 year","20 years"],"Most candidates spend years at the Advanced level."]
 ]});
 
@@ -75,12 +75,12 @@ analyst:`<p>WSET Diploma and MW essays reward historical context: the impact of 
 terms:[["Qvevri","Large buried clay vessel used for fermentation and aging in Georgia."],["Areni-1","Armenian cave holding the oldest known winery (~4000 BC)."],["Methuen Treaty","1703 Anglo-Portuguese trade treaty that boosted Port."],["INAO","French institute founded 1935 to govern AOCs."]],
 quiz:[
 [1,"Where does the oldest chemical evidence of grape wine come from?","Georgia, around 6000 BC",["France, around 500 BC","Egypt, around 1000 BC","Italy, around 200 BC"],"Neolithic jars in Georgia."],
-[2,"The oldest known winery was found in:","Areni-1 cave, Armenia",["Pompeii","Burgundy","Crete"],"About 4000 BC."],
-[2,"Why did Bordeaux ship so much wine to England in the Middle Ages?","Eleanor of Aquitaine's marriage made it an English possession",["The Methuen Treaty","Phylloxera in England","The 1855 Classification"],"About three centuries of English rule from 1152."],
+[2,"The oldest known winery was found in:","Areni-1 cave, Armenia",["Pompeii, in Italy","Knossos, on Crete","Shiraz, in Persia"],"About 4000 BC."],
+[2,"Why did Bordeaux ship so much wine to England in the Middle Ages?","Eleanor of Aquitaine's marriage made it an English possession",["The Methuen Treaty cut the duty on French wine","Phylloxera had destroyed England's own vineyards","The 1855 Classification made its wines fashionable"],"About three centuries of English rule from 1152."],
 [1,"Which pest destroyed most European vineyards from the 1860s?","Phylloxera",["Botrytis","Brettanomyces","Locusts"],"Solved by grafting onto American rootstock."],
 [2,"France's INAO, which governs AOCs, was founded in:","1935",["1855","1789","1976"],"A response to post-phylloxera fraud."],
-[2,"Who showed that yeast causes fermentation?","Louis Pasteur",["Émile Peynaud","Dom Pérignon","Jules Guyot"],"1860s."],
-[3,"Chianti's borders were first legally defined in 1716 by:","Cosimo III de' Medici",["Baron Ricasoli","Napoleon","The Pope"],"An early protected wine zone."]
+[2,"Who showed that yeast causes fermentation?","Louis Pasteur",["Émile Peynaud","Dom Pérignon","Jules Guyot"],"Pasteur's work between about 1857 and 1866 showed that living yeast, not spontaneous chemistry, drives fermentation."],
+[3,"Chianti's borders were first legally defined in 1716 by:","Cosimo III de' Medici",["Baron Bettino Ricasoli","Napoleon Bonaparte","Pope Clement XI"],"An early protected wine zone."]
 ]});
 
 L.push({id:"h2", unit:"H", title:"Wine Law and Reading a Label", mins:16,
@@ -122,12 +122,12 @@ analyst:`<p>WSET Level 3 expects you to explain PDO vs PGI and to interpret labe
 terms:[["PDO","Protected Designation of Origin, the EU's strictest GI tier."],["PGI","Protected Geographical Indication; broader rules, 85% from the area."],["AP number","German official testing number on Qualitätswein labels."],["DOCG strip","Numbered government seal on the neck of DOCG wines."],["Mis en bouteille au domaine","Estate bottled."]],
 quiz:[
 [1,"In the EU, which tier allows more freedom with grapes and methods?","PGI",["PDO","DOCG","AOC"],"PGI requires at least 85% of grapes from the area."],
-[1,"France's PGI category is:","IGP (Vin de Pays)",["AOC","Vin de France","Grand Cru"],"Pays d'Oc is the largest."],
+[1,"France's PGI category is:","IGP (Vin de Pays)",["AOC (AOP)","Vin de France","Cru Classé"],"Pays d'Oc is the largest."],
 [2,"Germany's PGI equivalent is:","Landwein",["Qualitätswein","Prädikatswein","Sekt"],"Deutscher Wein is wine without GI."],
-[1,"On a Burgundy label, which signals the highest level?","Vineyard name alone (e.g., Chambertin)",["Bourgogne","Village name alone","Village plus 'Vieilles Vignes'"],"Grand Crus carry only the vineyard name."],
-[2,"Since December 2023, EU wine labels must provide:","Ingredients and nutrition information (often via QR code)",["Producer's phone number","Food pairings","Vineyard GPS"],"New EU labeling rules."],
-[2,"'Erzeugerabfüllung' on a German label means:","Producer bottled",["Late harvest","Dry","Old vines"],"Gutsabfüllung means estate bottled."],
-[3,"The New World GI model mainly regulates:","Where grapes come from, not how wine is made",["Yields and grapes allowed","Aging requirements","Bottle shape"],"Varietal labeling is the norm."]
+[1,"On a Burgundy label, which signals the highest level?","The vineyard name alone",["Bourgogne alone","The village name alone","Village plus 'Vieilles Vignes'"],"A Grand Cru is labeled with the vineyard name only, such as Chambertin or Montrachet, with no village."],
+[2,"Since December 2023, EU wine labels must provide:","Ingredients and nutrition information",["The producer's sustainability rating","The carbon footprint of the bottle","Residual sugar in grams per liter"],"Required for wines made after 8 December 2023; much of it may sit behind a QR code."],
+[2,"'Erzeugerabfüllung' on a German label means:","Producer bottled",["Late harvested","Fermented dry","From old vines"],"Gutsabfüllung means estate bottled."],
+[3,"The New World GI model mainly regulates:","Where the grapes come from",["Maximum yields and permitted grapes","Minimum aging before release","Vine density and pruning method"],"Varietal labeling is the norm."]
 ]});
 
 L.push({id:"h3", unit:"H", title:"Vintages That Matter", mins:15,
@@ -161,12 +161,12 @@ floor:`<p>When a guest asks about an older vintage, give three things: what the 
 analyst:`<p>Readiness for drinking on the SAT depends on structure and concentration, not just age. Diploma and MW questions often ask you to explain vintage variation through weather at specific growth stages.</p>`,
 terms:[["Vintage","The year the grapes were harvested."],["Declared vintage","A year in which Port or Champagne houses release a vintage wine."],["Drinking window","The period in which a wine is expected to show at its best."]],
 quiz:[
-[1,"Where does vintage variation matter most?","Marginal climates like Burgundy, Champagne and Germany",["Hot, reliable climates","Irrigated deserts only","It matters equally everywhere"],"Weather swings decide ripeness at the margin."],
-[2,"What happened to many 2020 Napa wines?","Wildfire smoke led many producers to skip or reduce bottlings",["Record frost","Hail destroyed vineyards","Phylloxera returned"],"Smoke taint risk."],
+[1,"Where does vintage variation matter most?","Marginal climates like Burgundy and Germany",["Hot, reliable climates like the Barossa","Irrigated deserts like Mendoza","Nowhere: it matters equally everywhere"],"Weather swings decide ripeness at the margin."],
+[2,"What happened to many 2020 Napa wines?","Wildfire smoke led many to skip their reds",["A record spring frost cut the crop in half","Hail destroyed most valley-floor vineyards","Phylloxera returned on AXR1 rootstock"],"Smoke taint risk."],
 [2,"Which Burgundy vintage was cut by severe spring frost?","2021",["2015","2019","2005"],"Small, lighter crop."],
 [2,"Which pair of consecutive years were both widely declared for Vintage Port?","2016 and 2017",["2000 and 2001","2010 and 2011","2020 and 2021"],"Consecutive general declarations are rare."],
 [1,"Champagne houses typically declare a vintage:","Only in good years",["Every year","Every five years by law","Never"],"Otherwise the grapes go into NV blends."],
-[3,"The 2003 European vintage is known for:","An extreme heat wave giving ripe, low-acid wines",["Record rainfall","Frost","Hail across France"],"Many wines aged less gracefully."]
+[3,"The 2003 European vintage is known for:","An extreme heat wave and low-acid wines",["Record rainfall and widespread rot","A severe frost in late April","Hailstorms across most of France"],"Many wines aged less gracefully."]
 ]});
 
 L.push({id:"f11", unit:"F1", title:"Deductive Logic: From Evidence to Conclusion", mins:16,
@@ -196,11 +196,11 @@ body:`
 <tr><td>Medium, red fruit, green pepper, graphite, lighter</td><td>Cabernet Franc</td><td>Chinon/Bourgueil</td></tr>
 <tr><td>Deep, pepper, olive, meat</td><td>Northern Rhône Syrah</td><td>vs Shiraz: eucalyptus, jam, chocolate, high alcohol</td></tr>
 <tr><td>Opaque purple, violet, blueberry, purple rim</td><td>Malbec</td><td>vs Zinfandel: brambly jam, raisin, very high alcohol</td></tr></table>
-<h3>Step 2: World and climate</h3>
+<h3>Step 2: Climate and style</h3>
 <ul><li><b>Fruit condition:</b> tart = cool; ripe = moderate; baked/jammy = warm.</li>
 <li><b>Alcohol:</b> a rough proxy for sugar at harvest, so for warmth.</li>
-<li><b>Earth and mineral against fruit:</b> more earth, less fruit leans Old World.</li>
-<li><b>Oak signatures:</b> overt new oak and vanilla lean New World (with exceptions like Rioja and modern Bordeaux).</li></ul>
+<li><b>Earth and mineral against fruit:</b> more earth and less fruit points to the savory European classics; pure, ripe fruit points to warmer, fruit-led regions. Name countries, not "Old World" or "New World": the Court stopped scoring those words in 2024.</li>
+<li><b>Oak signatures:</b> overt new oak and vanilla suggest Napa, Barossa, Mendoza, Rioja or modern Bordeaux; dill and coconut mean American oak (Rioja, some Australian and American reds).</li></ul>
 <h3>Step 3: Age</h3>
 <p>Color evolution, rim, aromatic development (primary → tertiary), tannin softening. Commit to an age range, then a single vintage at the final conclusion.</p>
 <h3>Step 4: Quality and place</h3>
@@ -210,16 +210,16 @@ body:`
 <li>Letting one aroma override structure ("it smells like cherries so it must be Pinot").</li>
 <li>Forgetting that oak can mask earth.</li>
 <li>Changing a correct initial conclusion at the last second without new evidence.</li></ul>`,
-floor:`<p>Under CMS time pressure, the initial conclusion is your safety net: even if the final grape is wrong, a correct climate, world and age range still score. Write the short list explicitly.</p>`,
+floor:`<p>Under CMS time pressure, the initial conclusion is your safety net: even if the final grape is wrong, a correct climate, country shortlist and age range still score. Write the short list explicitly.</p>`,
 analyst:`<p>At the Diploma, "The Wine in Context" asks for origin and variety with justification. Use these paths to write the justification: "High acid and tannin with a pale, garnet color and tar indicate Nebbiolo from Piedmont."</p>`,
-terms:[["Short list","The two or three grapes consistent with the structural evidence."],["Initial conclusion","Climate, world, possible grapes and age range before final commitment."]],
+terms:[["Short list","The two or three grapes consistent with the structural evidence."],["Deductive path","A fixed route from structure to grape to climate to age, used to turn evidence into a call."]],
 quiz:[
 [1,"Pale red, high acid, high tannin, tar and roses:","Nebbiolo",["Pinot Noir","Gamay","Grenache"],"The only pale red with very high tannin."],
-[2,"Deep red, high tannin, cassis, mint, mocha, high alcohol:","Napa Cabernet Sauvignon",["Haut-Médoc Cabernet","Chinon","Rioja"],"New World ripeness and oak."],
+[2,"Deep red, high tannin, cassis, mint, mocha, high alcohol:","Napa Cabernet Sauvignon",["Haut-Médoc Cabernet","Chinon","Rioja"],"Warm-climate ripeness, mint and new oak; Haut-Médoc would be leaner with graphite."],
 [2,"White, high acid, dry, no green notes, chalk and green apple:","Chablis",["Sancerre","Mosel Riesling","Gewürztraminer"],"Sancerre would show grass and gooseberry."],
-[1,"Which observation most reliably indicates a warm climate?","Baked or jammy fruit with high alcohol",["High acidity","Pale color","Green pepper"],"Ripeness shows in fruit condition and alcohol."],
-[2,"A common blind-tasting trap is:","Calling a wine sweet because of fruity aromas",["Checking structure first","Committing to a conclusion","Using an initial conclusion"],"Fruity is not sweet."],
-[3,"Pale-medium red with high alcohol, low acid, kirsch and garrigue:","Grenache (Southern Rhône)",["Nebbiolo","Cabernet Franc","Malbec"],"Light color for its weight is a Grenache tell."]
+[1,"Which observation most reliably indicates a warm climate?","Baked or jammy fruit with high alcohol",["High acidity with tart, just-ripe fruit","Pale color with low alcohol and light body","Green pepper and herbs with firm acidity"],"Ripeness shows in fruit condition and alcohol."],
+[2,"A common blind-tasting trap is:","Calling a wine sweet because of fruity aromas",["Checking structure before naming a grape","Committing firmly to one final conclusion","Stating an initial conclusion before the final"],"Fruity is not sweet."],
+[3,"Pale-medium red with high alcohol, low acid, kirsch and garrigue:","Grenache (Southern Rhône)",["Nebbiolo (Piedmont)","Cabernet Franc (Loire)","Malbec (Mendoza)"],"Light color for its weight is a Grenache tell."]
 ]});
 
 L.push({id:"f12", unit:"F3", title:"Natural, Orange and Low-Intervention Wine", mins:13,
@@ -247,10 +247,10 @@ floor:`<p>Guests ask for "natural" or "low sulfite" wine as shorthand for "somet
 analyst:`<p>MW contemporary issues papers regularly ask about natural wine, sustainability and packaging. Be balanced: define terms, weigh quality and fault risk, and discuss market and environmental implications.</p>`,
 terms:[["Vin Méthode Nature","French voluntary natural wine label created in 2020."],["Orange wine","White wine fermented with extended skin contact."],["Pét-nat","Pétillant naturel; ancestral-method sparkling wine."],["Mousiness","Fault giving a mousy, cracker-like aftertaste, linked to bacteria in low-SO₂ wines."]],
 quiz:[
-[1,"Orange wine is:","White wine made with extended skin contact",["Wine made from oranges","Rosé aged in oak","Oxidized white"],"Amber color and tannin."],
+[1,"Orange wine is:","White wine made with extended skin contact",["White wine aged under a veil of flor","Rosé wine aged in new oak barrels","White wine deliberately oxidized in cask"],"Amber color and tannin."],
 [2,"Which producers revived skin-contact whites in Friuli?","Josko Gravner and Stanko Radikon",["Angelo Gaja and Bruno Giacosa","Marcel Lapierre and Jules Chauvet","Robert Mondavi and André Tchelistcheff"],"Inspired partly by Georgian qvevri."],
 [2,"France's 'Vin Méthode Nature' label allows how much added SO₂ before bottling?","Up to 30 mg/L",["None at all","Up to 150 mg/L","Unlimited"],"Voluntary charter launched in 2020."],
-[1,"A screwcap's main advantage is:","No cork taint and consistent sealing",["It lets in the most oxygen","It's required for Grand Cru","It improves sparkling wine"],"Common in Australia and NZ."],
-[3,"Mousiness is a fault associated with:","Low-sulfite wines affected by certain bacteria and yeasts",["Heavy new oak","Excess SO₂","Carbonic maceration"],"Detected on the finish, not the nose."],
+[1,"A screwcap's main advantage is:","No cork taint and consistent sealing",["It lets in more oxygen than cork","It is required for Grand Cru wines","It keeps sparkling wine fizzy longer"],"Common in Australia and NZ."],
+[3,"Mousiness is a fault associated with:","Low-sulfite, high-pH wines",["Heavily oaked young reds","Wines with excess free SO₂","Carbonic-maceration reds"],"Detected on the finish, not the nose."],
 [2,"Which method makes pét-nat?","Ancestral method",["Traditional method","Tank method","Carbonation"],"A single fermentation finishing in bottle."]
 ]});

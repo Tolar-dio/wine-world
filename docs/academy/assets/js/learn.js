@@ -12,15 +12,22 @@ function viewProgress() {
   const seals = Object.values(TRACKS).flatMap(tr => tr.creds).map(cr => `<div class="seal ${S.pins[cr.id] ? "earned" : ""}" title="${esc(cr.name)}${S.pins[cr.id] ? " · earned " + S.pins[cr.id] : ""}">${cr.pin}</div>`).join("");
   const recent = S.hist.slice(-5).reverse().map(h => `<div class="row between small" style="padding:7px 0;border-bottom:1px solid var(--line)"><span>${esc(h.name)}</span><span class="pill ${h.pass ? "good" : "bad"}">${h.score}%</span></div>`).join("") || `<p class="muted small">No exams sat yet. Every mock runs on the real clock with the real pass mark.</p>`;
   return `<div class="wrap">
-  <section class="hero">${STAIN}
+  ${S.xp ? `<section class="hero back">${STAIN}
     <div>
       <div class="eyebrow">Vitis Mundi Academy · ${t.name} track</div>
-      <div class="display">${S.xp ? "Pick up where you <em>left off.</em>" : "Train like a <em>sommelier.</em>"}</div>
+      <div class="display">Pick up where you <em>left off.</em></div>
+      <div class="row" style="margin-top:24px">${nl ? `<a class="btn pri" href="#lesson-${nl}">Continue: ${esc(LBY[nl].title)}</a>` : `<a class="btn pri" href="#exams">Sit the exam</a>`}${due ? `<a class="btn" href="#cards">Review ${due} card${due === 1 ? "" : "s"}</a>` : ""}${missedQS().length ? `<a class="btn" href="#exams">Rework ${missedQS().length} missed question${missedQS().length === 1 ? "" : "s"}</a>` : ""}</div>
+      <div class="row trackline"><span class="kicker">Track</span><div class="seg">${Object.entries(TRACKS).map(([k, tr]) => `<button class="${S.track === k ? "on" : ""}" data-act="track" data-arg="${k}" aria-pressed="${S.track === k}">${tr.name} · ${k === "floor" ? "CMS" : "WSET, MW"}</button>`).join("")}</div></div>
+    </div>
+  </section>` : `<section class="hero">${STAIN}
+    <div>
+      <div class="eyebrow">Vitis Mundi Academy · ${t.name} track</div>
+      <div class="display">Train like a <em>sommelier.</em></div>
       <p class="lede" style="margin-top:18px">A complete sommelier program modeled on the Court of Master Sommeliers and WSET: ${L.length} lessons, ${QS.length} exam questions, ${WINES.length} classic wine profiles, timed mock exams at the real pass marks, and a tasting-night planner for your study group.</p>
       ${trackPicker()}
-      <div class="row">${nl ? `<a class="btn pri" href="#lesson-${nl}">${S.done[ORDER[0]] ? "Continue" : "Begin"}: ${esc(LBY[nl].title)}</a>` : `<a class="btn pri" href="#exams">Sit the exam</a>`}<a class="btn" href="#night">Plan a tasting night</a></div>
+      <div class="row">${nl ? `<a class="btn pri" href="#lesson-${nl}">Begin: ${esc(LBY[nl].title)}</a>` : ""}<a class="btn" href="#night">Plan a tasting night</a></div>
     </div>
-  </section>
+  </section>`}
   <div class="stats"><div><div class="stat">${streak()}<small>Day streak</small></div></div><div><div class="stat">${S.xp.toLocaleString()}<small>Experience</small></div></div><div><div class="stat">${Object.keys(S.done).length}<small>Lessons passed</small></div></div><div><div class="stat">${due}<small>Cards due</small></div></div></div>
 
   <h2>Your standing</h2>
@@ -36,8 +43,16 @@ function viewProgress() {
   ${viewPlannerCard()}
   <h2>Seals</h2>
   <div class="card"><div class="row" style="gap:12px">${seals}</div><p class="small muted" style="margin:14px 0 0">Floor: I · C · A · MS. Analyst: L2 · L3 · D · MW. Pass every component of a credential's exam to earn its seal. Each exam unlocks only after the seal before it, just like the real prerequisites.</p></div>
-  <div class="card" style="margin-top:16px"><div class="eyebrow">Recent exams</div>${recent}</div>
+  <div class="grid g2" style="margin-top:16px"><div class="card"><div class="eyebrow">Recent exams</div>${recent}</div>
+  <div class="card"><div class="eyebrow">Study log · last 16 weeks</div>${studyLog()}</div></div>
   </div>`;
+}
+// Sixteen weeks of study days, one column a week, Monday at the top. A filled square is a day you passed a lesson, sat a paper or tasted.
+function studyLog() {
+  const end = new Date(); end.setHours(12, 0, 0, 0); const dow = (end.getDay() + 6) % 7; const start = new Date(end); start.setDate(end.getDate() - dow - 15 * 7);
+  let cells = "", n = 0;
+  for (let i = 0; i < 16 * 7; i++) { const d = new Date(start); d.setDate(start.getDate() + i); const k = iso(d), fut = d > end, on = !!S.days[k]; if (on) n++; cells += `<i class="${fut ? "fut" : on ? "on" : ""}${k === today() ? " now" : ""}" title="${d.toLocaleDateString(undefined, { month: "short", day: "numeric" })}${on ? " · studied" : ""}"></i>`; }
+  return `<div class="heat" role="img" aria-label="${n} study days in the last 16 weeks">${cells}</div><p class="small muted" style="margin:12px 0 0">${n ? `${n} study day${n === 1 ? "" : "s"} in 16 weeks. The candidates who pass work in short sessions, most days.` : "Each day you pass a lesson, sit a paper or score a flight fills a square."}</p>`;
 }
 
 // ---------- the hero mark: the academy's globe-and-grapes crest, drawn in hairline as a watermark ----------
@@ -48,7 +63,7 @@ function viewPlannerCard() {
   const P = S.plan;
   if (!P) return `<h2>Study plan</h2><div class="card"><div class="grid g3" style="align-items:end">
     <label class="f">Target credential<select id="plcred">${Object.values(TRACKS).flatMap(t => t.creds).map(c => `<option value="${c.id}" ${c.id === currentCred(S.track).id ? "selected" : ""}>${c.name} (${TRACKS[c.track].name})</option>`).join("")}</select></label>
-    <label class="f">Exam date<input type="date" id="pldate" value="${new Date(Date.now() + 90 * 864e5).toISOString().slice(0, 10)}"></label>
+    <label class="f">Exam date<input type="date" id="pldate" value="${iso(new Date(Date.now() + 90 * 864e5))}" min="${today()}"></label>
     <label class="f">Study sessions per week<select id="plses">${[2, 3, 4, 5, 6].map(n => `<option ${n === 4 ? "selected" : ""}>${n}</option>`).join("")}</select></label></div>
     <button class="btn pri" data-act="plan" style="margin-top:16px">Build my schedule</button><p class="small muted" style="margin:10px 0 0">The planner spreads your remaining lessons across the weeks, assigns a tasting pair each week, and books mock exams before the date.</p></div>`;
   const c = CREDS[P.cred], left = cumLessons(c).filter(id => !S.done[id]);
@@ -62,7 +77,7 @@ function viewPlannerCard() {
     rows.push(`<tr><td class="mono">${w + 1}<div class="small muted">${d.toLocaleDateString(undefined, { month: "short", day: "numeric" })}</div></td><td>${ls.map(id => `<a href="#lesson-${id}">${esc(LBY[id].title)}</a>`).join("<br>") || '<span class="muted">Review flashcards and weak units</span>'}</td><td class="small">${esc(pr[0])}</td><td class="small">${mock ? `<span class="pill gold">${mock}</span>` : ""}</td></tr>`);
   }
   const pace = left.length / studyWeeks / P.ses;
-  return `<h2>Study plan</h2><div class="card"><div class="row between"><div><b style="font-family:var(--f-display);font-size:22px">${esc(c.name)}</b> <span class="muted small">· exam ${end.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" })} · ${weeks} weeks · ${left.length} lessons left</span></div><button class="btn sm" data-act="planreset">Change plan</button></div>
+  return `<h2>Study plan</h2><div class="card"><div class="row between"><div><b style="font-family:var(--f-display);font-size:22px">${esc(c.name)}</b> <span class="muted small">· exam ${end.toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" })} · ${weeks} week${weeks === 1 ? "" : "s"} · ${left.length} lessons left, about ${Math.max(1, Math.round(left.reduce((n, id) => n + LBY[id].mins, 0) / 60))} hours of reading and quizzes</span></div><button class="btn sm" data-act="planreset">Change plan</button></div>
   ${pace > 1.6 ? `<p class="small" style="color:var(--bad)">That's ${pace.toFixed(1)} lessons per session. It's aggressive; push the date or add sessions.</p>` : ""}
   <div class="tw"><table class="t"><tr><th>Week</th><th>Lessons</th><th>Tasting pair</th><th>Exams</th></tr>${rows.join("")}</table></div></div>`;
 }
@@ -72,6 +87,7 @@ function viewCurriculum() {
   const t = TRACKS[S.track];
   return `<div class="wrap"><div class="eyebrow">Curriculum · ${t.name} track</div><h1>The <em>path.</em></h1>
   <p class="lede">Modeled on ${t.model}. Each credential adds lessons and ends in an exam built to the real format. Pass a lesson quiz at ${PASS_LESSON}% to complete it.</p>
+  <div class="row lsearch"><input type="text" data-lsearch="1" placeholder="Search all ${L.length} lessons: a grape, a region, a term" aria-label="Search lessons"><button class="btn sm ghost" data-act="lsclear">Clear</button></div><div id="lsr"></div>
   <div class="tabs">${Object.entries(TRACKS).map(([k, tr]) => `<button class="${S.track === k ? "on" : ""}" data-act="track" data-arg="${k}">${tr.name} track</button>`).join("")}</div>
   ${t.creds.map(c => { const st = credStatus(c); return `<section style="margin-bottom:46px">
     <div class="row" style="gap:18px;margin-bottom:16px"><div class="seal ${st.earned ? "earned" : ""} ${st.open ? "" : "locked"}">${c.pin}</div><div style="flex:1;min-width:220px"><h2 style="margin:0">${c.name}</h2>
@@ -82,7 +98,16 @@ function viewCurriculum() {
   </section>`; }).join("")}</div>`;
 }
 function groupByUnit(ids) { const m = new Map(); ids.slice().sort((a, b) => ORDER.indexOf(a) - ORDER.indexOf(b)).forEach(id => { const u = LBY[id].unit; if (!m.has(u)) m.set(u, []); m.get(u).push(id); }); return [...m.entries()].sort((a, b) => UNITS.findIndex(x => x.id === a[0]) - UNITS.findIndex(x => x.id === b[0])); }
-function lessonRow(id) { const l = LBY[id], d = S.done[id], q = S.quiz[id]; return `<a class="lrow" href="#lesson-${id}"><span class="st ${d ? "done" : ""}">${d ? "✓" : ""}</span><span style="min-width:0"><b>${esc(l.title)}</b><span class="s">${esc(l.summary)}</span></span><span class="small muted mono">${q != null ? q + "%" : l.mins + " min"}</span></a>`; }
+// Lessons that only one track ever assigns get a quiet tag, so the two paths read as different programs.
+const TRACK_SETS = Object.fromEntries(Object.entries(TRACKS).map(([k, t]) => [k, new Set(t.creds.flatMap(c => c.lessons))]));
+const onlyTrack = id => TRACK_SETS.floor.has(id) && !TRACK_SETS.analyst.has(id) ? "Floor only" : TRACK_SETS.analyst.has(id) && !TRACK_SETS.floor.has(id) ? "Analyst only" : "";
+function lessonRow(id) { const l = LBY[id], d = S.done[id], q = S.quiz[id], o = onlyTrack(id); return `<a class="lrow" href="#lesson-${id}"><span class="st ${d ? "done" : ""}">${d ? "✓" : ""}</span><span style="min-width:0"><b>${esc(l.title)}${o ? ` <span class="tag">${o}</span>` : ""}</b><span class="s">${esc(l.summary)}</span></span><span class="small muted mono">${q != null ? q + "%" : l.mins + " min"}</span></a>`; }
+function lessonSearch(q) {
+  q = q.trim().toLowerCase(); if (q.length < 2) return "";
+  const hit = l => { const t = l.title.toLowerCase(), b = (l.summary + " " + l.body.replace(/<[^>]+>/g, " ")).toLowerCase(); return t.includes(q) ? 3 : (l.terms || []).some(x => x[0].toLowerCase().includes(q)) ? 2 : b.includes(q) ? 1 : 0; };
+  const res = L.map(l => [hit(l), l]).filter(x => x[0]).sort((a, b) => b[0] - a[0] || ORDER.indexOf(a[1].id) - ORDER.indexOf(b[1].id)).slice(0, 12);
+  return `<div class="unitlist" style="margin:0 0 26px">${res.length ? res.map(x => lessonRow(x[1].id)).join("") : `<p class="muted small">Nothing matches. Try a grape, a village or a term such as "flor".</p>`}</div>`;
+}
 
 // ---------- lesson ----------
 let LQ = null;
@@ -95,7 +120,7 @@ function viewLesson(id) {
   if (region) postHooks.push(() => annotateLesson(id));
   postHooks.push(() => { const pb = $("#pb"); if (pb) { const f = () => { const h = document.documentElement; pb.style.width = Math.min(100, 100 * h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)) + "%"; }; window.onscroll = f; f(); } });
   return `<div class="progressbar" id="pb"></div><div class="wrap read">
-  <div class="eyebrow"><a href="#curriculum">${esc(UBY[l.unit].name)}</a> · Lesson ${i + 1} of ${ORDER.length} · ${l.mins} min${S.done[id] ? ' · <span style="color:var(--good)">passed</span>' : ""}</div>
+  <div class="eyebrow"><a href="#curriculum">${esc(UBY[l.unit].name)}</a> · Lesson ${i + 1} of ${ORDER.length} · about ${l.mins} min with the quiz${S.done[id] ? ' · <span style="color:var(--good)">passed</span>' : ""}</div>
   <h1>${esc(l.title)}</h1><p class="lede">${esc(l.summary)}</p><div class="rule" style="margin:8px 0 30px"></div>
   ${region ? `<div class="atlas-strip" id="atlasstrip" hidden></div>` : ""}
   <div class="prose">${l.body.replace(/<table class="t">/g, '<div class="tw"><table class="t">').replace(/<\/table>/g, "</table></div>")}</div>
@@ -113,7 +138,7 @@ function renderLQ() {
   const n = LQ.items.filter(x => x.pick !== null).length;
   let foot;
   if (!LQ.checked) foot = `<button class="btn pri" data-act="lqcheck" ${n < LQ.items.length ? "disabled" : ""}>Submit answers (${n}/${LQ.items.length})</button>`;
-  else { const sc = Math.round(100 * LQ.items.filter(x => x.opts[x.pick] === x.q[2]).length / LQ.items.length); foot = `<div class="card row between"><div class="row"><b style="font-family:var(--f-display);font-size:32px">${sc}%</b> <span class="pill ${sc >= PASS_LESSON ? "good" : "bad"}">${sc >= PASS_LESSON ? "Passed" : `Below ${PASS_LESSON}%. Reread and retake.`}</span></div><button class="btn" data-act="lqretry">Retake</button></div>`; }
+  else { const sc = Math.round(100 * LQ.items.filter(x => x.opts[x.pick] === x.q[2]).length / LQ.items.length); foot = `<div class="card row between"><div class="row"><b style="font-family:var(--f-display);font-size:32px">${sc}%</b> <span class="pill ${sc >= PASS_LESSON ? "good" : "bad"}">${sc >= PASS_LESSON ? "Passed" : `Below ${PASS_LESSON}%. Reread and retake.`}</span></div><div class="row">${sc >= PASS_LESSON && nextLesson(S.track) && nextLesson(S.track) !== LQ.id ? `<a class="btn pri" href="#lesson-${nextLesson(S.track)}">Next on your path: ${esc(LBY[nextLesson(S.track)].title)}</a>` : ""}<button class="btn" data-act="lqretry">Retake</button></div></div>`; }
   return html + foot;
 }
 

@@ -30,7 +30,7 @@ quiz:[
 [2,"Which château is a Third Growth that often prices like a super second?","Palmer",["Lynch-Bages","Pontet-Canet","Talbot"],"Margaux appellation."],
 [2,"Which is a Fifth Growth?","Lynch-Bages",["Ducru-Beaucaillou","Cos d'Estournel","Léoville-Las Cases"],"The others are Seconds."],
 [2,"Carruades is the second wine of:","Lafite Rothschild",["Latour","Margaux","Mouton"],"Les Forts de Latour is Latour's."],
-[1,"En primeur means:","Selling wine as futures before bottling",["Estate bottling","First pressing","Early harvest"],"Bottles arrive about two years later."],
+[1,"En primeur means:","Selling wine as futures",["Bottling the wine at the estate","Using only the first pressing","Picking earlier than neighbors"],"The wine is sold in the spring after harvest, about 18 months before it is bottled and delivered."],
 [3,"Which two Sauternes First Growths are in Barsac?","Climens and Coutet",["Suduiraut and Rieussec","Guiraud and La Tour Blanche","Rayne-Vigneau and Sigalas-Rabaud"],"Barsac may label as Sauternes."],
 [2,"Pétrus is famous for nearly pure:","Merlot",["Cabernet Sauvignon","Cabernet Franc","Malbec"],"Blue clay in Pomerol."]
 ]});
@@ -76,7 +76,7 @@ quiz:[
 [2,"Les Amoureuses is a famous Premier Cru in:","Chambolle-Musigny",["Vosne-Romanée","Gevrey-Chambertin","Meursault"],"Often priced like a Grand Cru."],
 [2,"Which Grand Cru straddles Puligny and Chassagne?","Bâtard-Montrachet",["Chevalier-Montrachet","Corton-Charlemagne","Criots-Bâtard-Montrachet"],"Montrachet also straddles both."],
 [1,"Which village is known for perfumed, delicate reds?","Volnay",["Pommard","Gevrey-Chambertin","Meursault"],"Pommard is firmer."],
-[2,"Where do Burgundy's Grand Crus usually sit on the slope?","Mid-slope, east/southeast facing",["Valley floor","Hilltop forest","North-facing"],"Best drainage and sun."],
+[2,"Where do Burgundy's Grand Crus usually sit on the slope?","Mid-slope, east/southeast facing",["Valley floor, facing west","Hilltop, at the forest edge","Upper slope, facing north"],"Best drainage and sun."],
 [3,"Cros Parantoux was made famous by:","Henri Jayer",["Lalou Bize-Leroy","Armand Rousseau","Aubert de Villaine"],"Vosne-Romanée."],
 [2,"Burgundy's climats became a UNESCO World Heritage Site in:","2015",["1998","2005","2021"],"Same year as Champagne."]
 ]});
@@ -112,13 +112,13 @@ floor:`<p>On the floor, match house style to guest: Bollinger or Krug for rich a
 analyst:`<p>Diploma D4 asks about house styles, reserve wines, the economics of grapes versus brands, and the rise of grower Champagne. Explain how reserve wine creates consistency in NV.</p>`,
 terms:[["Maison","A Champagne house, usually a négociant-manipulant."],["Récemment dégorgé","Late disgorged (R.D. is Bollinger's trademark)."],["Réserve perpétuelle","Perpetual reserve blend topped up annually."],["Disgorgement date","When the lees were removed; printed by many producers."]],
 quiz:[
-[1,"Which is the oldest Champagne house?","Ruinart",["Moët & Chandon","Krug","Bollinger"],"Founded 1729."],
+[1,"Which is the oldest Champagne house?","Ruinart",["Moët & Chandon","Krug","Bollinger"],"Ruinart was founded in 1729, the first house set up to make sparkling Champagne."],
 [2,"Cristal was created in 1876 for:","Tsar Alexander II",["Napoleon III","Queen Victoria","Winston Churchill"],"Louis Roederer."],
 [2,"Which house barrel-ferments all its wines and makes Clos du Mesnil?","Krug",["Pol Roger","Taittinger","Moët & Chandon"],"Grande Cuvée is a multi-vintage blend."],
-[2,"Madame Clicquot is credited with developing:","The riddling table",["Barrel fermentation","The crown cap","Tank method"],"1816."],
+[2,"Madame Clicquot is credited with developing:","The riddling table",["Barrel fermentation","The crown cap","Tank method"],"Her cellar developed the riddling table (pupitre) around 1816, which made clear Champagne possible."],
 [1,"Who is the pioneer of the grower Champagne movement in Avize?","Anselme Selosse",["Rémi Krug","Dom Pérignon","Christopher Merret"],"Jacques Selosse estate."],
 [3,"The échelle des crus pricing system was abolished in:","2010",["1985","1996","2020"],"Grand and Premier Cru remain label terms."],
-[2,"Salon makes:","Only vintage Blanc de Blancs from Le Mesnil",["Rosé only","Non-vintage Brut only","Still wine"],"Only in great years."]
+[2,"Salon makes:","Only vintage Blanc de Blancs from Le Mesnil",["Only rosé from the Montagne de Reims","Only non-vintage Brut from bought grapes","Only still Coteaux Champenois"],"Only in great years."]
 ]});
 
 L.push({id:"r5b", unit:"R1", title:"The Rest of France: Southwest, Corsica, Savoie and Beyond", mins:13,
@@ -149,9 +149,9 @@ quiz:[
 [1,"Cahors is based on which grape?","Malbec",["Tannat","Merlot","Négrette"],"Called Côt or Auxerrois locally."],
 [2,"Micro-oxygenation was invented in which appellation?","Madiran",["Cahors","Bordeaux","Gaillac"],"1991, for Tannat."],
 [2,"Jurançon's grapes are:","Petit and Gros Manseng",["Sémillon and Sauvignon Blanc","Mauzac and Len de l'El","Chenin and Chardonnay"],"Dry and sweet styles."],
-[2,"Pineau des Charentes is made by:","Fortifying grape must with Cognac",["Distilling Ugni Blanc","Ancestral method","Botrytis"],"A mistelle."],
+[2,"Pineau des Charentes is made by:","Fortifying grape must with Cognac",["Distilling Ugni Blanc twice","Refermenting in the bottle","Leaving grapes to botrytize"],"A mistelle: unfermented grape must fortified with Cognac, then aged in oak."],
 [3,"Sciaccarellu is a red grape of:","Corsica",["Savoie","Jura","Gascony"],"Peppery, pale reds from Ajaccio."],
-[2,"Monbazillac is:","A botrytized sweet white near Bergerac",["A red from Cahors","A sparkling wine from Die","A rosé from Provence"],"Sémillon-based."]
+[2,"Monbazillac is:","A botrytized sweet white near Bergerac",["A structured red from Cahors Malbec","A sparkling wine from the Drôme","A dry rosé from western Provence"],"Sémillon-based."]
 ]});
 
 L.push({id:"r7b", unit:"R2", title:"The Italian DOCG Map", mins:18,
@@ -187,10 +187,10 @@ analyst:`<p>The Italian Wine Scholar Unit 1 covers the north and Unit 2 the cent
 terms:[["Albana di Romagna","Italy's first white DOCG (1987)."],["Alta Langa","Piedmont traditional-method sparkling DOCG."],["Cerasuolo di Vittoria","Sicily's only DOCG."],["Tullum","Abruzzo DOCG near Tollo."]],
 quiz:[
 [1,"Which is a DOC, not a DOCG?","Bolgheri",["Brunello di Montalcino","Carmignano","Vernaccia di San Gimignano"],"Bolgheri Sassicaia is its own DOC."],
-[2,"Italy's first white DOCG was:","Albana di Romagna",["Soave Superiore","Gavi","Vernaccia di San Gimignano"],"1987."],
-[2,"Which region has no DOCG?","Trentino-Alto Adige",["Piedmont","Campania","Sardinia"],"Also Valle d'Aosta, Liguria, Molise."],
-[2,"The DOCG version of Primitivo di Manduria is:","Dolce Naturale (sweet)",["Riserva","Superiore","Rosato"],"The dry version is DOC."],
-[2,"Ramandolo is a sweet DOCG from which grape?","Verduzzo",["Picolit","Garganega","Moscato"],"Friuli."],
+[2,"Italy's first white DOCG was:","Albana di Romagna",["Soave Superiore","Gavi","Vernaccia di San Gimignano"],"Albana di Romagna (now Romagna Albana) became Italy's first white DOCG in 1987."],
+[2,"Which region has no DOCG?","Trentino-Alto Adige",["Emilia-Romagna","Friuli-Venezia Giulia","Basilicata"],"Also Valle d'Aosta, Liguria, Molise."],
+[2,"The DOCG version of Primitivo di Manduria is:","Dolce Naturale (sweet)",["Riserva (aged)","Superiore (dry)","Rosato (pink)"],"The dry version is DOC."],
+[2,"Ramandolo is a sweet DOCG from which grape?","Verduzzo",["Picolit","Garganega","Moscato"],"Ramandolo is made from Verduzzo Friulano in the hills north of Udine, in Friuli."],
 [3,"Vernaccia di Serrapetrona is:","A sparkling red from Marche",["A white from Tuscany","A sweet white from Sardinia","A rosé from Puglia"],"Not to be confused with Vernaccia di San Gimignano."],
 [1,"Vermentino di Gallura is in:","Sardinia",["Sicily","Liguria","Tuscany"],"Granite soils in the northeast."]
 ]});
@@ -217,9 +217,9 @@ analyst:`<p>WSET Level 3 names Rías Baixas, Bierzo, Rueda, Toro, Ribera, Rioja,
 terms:[["Vino de Pago","Spanish single-estate appellation."],["Bobal","Red grape of Utiel-Requena."],["Fondillón","Aged, naturally sweet Monastrell from Alicante."],["Listán Negro","Red grape of the Canary Islands."]],
 quiz:[
 [1,"Which grape defines Utiel-Requena?","Bobal",["Mencía","Monastrell","Godello"],"Valencia region."],
-[2,"Lanzarote's vines grow in:","Pits dug into volcanic ash, behind stone walls",["Terraced slate","Chalky albariza","Flat clay plains"],"Protects vines from wind."],
+[2,"Lanzarote's vines grow in:","Pits dug into volcanic ash, behind stone walls",["Terraces cut into slate above a river","Chalky albariza near the Atlantic coast","Flat red clay on a high inland plateau"],"Protects vines from wind."],
 [2,"Montsant surrounds which DOQ?","Priorat",["Rioja","Ribera del Duero","Penedès"],"Similar grapes at lower prices."],
-[2,"Godello is the signature white of:","Valdeorras",["Rueda","Rías Baixas","Penedès"],"Galicia."],
-[3,"Spain's first Vino de Pago was:","Dominio de Valdepusa",["Vega Sicilia","Pingus","Clos Mogador"],"2003, Castilla-La Mancha."],
+[2,"Godello is the signature white of:","Valdeorras",["Rueda","Rías Baixas","Penedès"],"Valdeorras, in eastern Galicia, revived Godello from near extinction in the 1970s."],
+[3,"Spain's first Vino de Pago was:","Dominio de Valdepusa",["Vega Sicilia Único","Dominio de Pingus","Clos Mogador"],"2003, Castilla-La Mancha."],
 [2,"Which DO is spread across several regions rather than tied to one area?","Cava",["Priorat","Toro","Bierzo"],"Most is from Penedès."]
 ]});

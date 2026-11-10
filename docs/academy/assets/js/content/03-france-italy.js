@@ -21,7 +21,7 @@ body:`
 <h3>Sweet and white Bordeaux</h3>
 <p><b>Sauternes and Barsac</b>: autumn mists from the cold Ciron river meeting the warmer Garonne create perfect noble rot conditions. Sémillon (thin skins, rot-prone) with Sauvignon Blanc for acid and Muscadelle for perfume. Harvest in several <i>tries</i> through the vineyard. Neighbors: Cérons, Loupiac, Cadillac. <b>Dry whites</b>: Sauvignon Blanc and Sémillon, often barrel-fermented in Pessac-Léognan.</p>
 <h3>Stay current</h3>
-<p>Bordeaux rules keep moving (new permitted climate-adapted grapes such as Touriga Nacional and Marselan in generic AOCs, and WSET's August 2026 revisions note new categories). Check current specifications when a detail decides marks.</p>`,
+<p>Bordeaux rules keep moving (new permitted climate-adapted grapes such as Touriga Nacional and Marselan in generic AOCs, with a lighter Bordeaux Claret style added to the generic appellation). Check current specifications when a detail decides marks.</p>`,
 floor:`<p>Producers matter at Certified: know the five First Growths, Yquem, Pétrus, Cheval Blanc, Ausone, and second wines (Carruades de Lafite, Les Forts de Latour, Pavillon Rouge, Le Petit Mouton, Le Clarence de Haut-Brion). Blind markers for Left Bank Cabernet: cassis, cedar, graphite, high tannin, moderate alcohol, earthy. Right Bank Merlot: plum, cocoa, softer tannin.</p>`,
 analyst:`<p>A classic WSET explanation: "Why is Merlot dominant on the Right Bank?" Cool clay soils retain water and delay ripening slightly, ideal for early-ripening Merlot; Cabernet Sauvignon struggles to ripen there. Two points per cause-and-effect chain.</p>`,
 terms:[["1855 Classification","Ranking of Médoc (plus Haut-Brion) reds and Sauternes/Barsac sweet wines by price, for the Paris Exposition."],["Left Bank","Médoc and Graves; gravel, Cabernet Sauvignon-dominant."],["Right Bank","Saint-Émilion, Pomerol; clay and limestone, Merlot-dominant."],["Premier Cru Supérieur","Unique rank given to Château d'Yquem."],["Second wine","A château's second label, e.g., Carruades de Lafite."]],
@@ -32,8 +32,8 @@ quiz:[
 [2,"Which Médoc commune contains three First Growths?","Pauillac",["Margaux","Saint-Julien","Saint-Estèphe"],"Lafite, Latour and Mouton."],
 [2,"Pomerol's classification system is:","There isn't one",["Revised every 10 years","Part of 1855","The 1959 Graves list"],"Pétrus needs no ranking."],
 [2,"Which river's cool water creates Sauternes' botrytis mists?","Ciron",["Dordogne","Gironde","Loire"],"Cold Ciron meets warmer Garonne."],
-[1,"How were the 1855 wines ranked?","By market price history",["By blind tasting","By vineyard size","By public vote"],"Brokers used prices over many years."],
-[3,"Which estates withdrew from the Saint-Émilion classification before 2022?","Ausone, Cheval Blanc and Angélus",["Figeac and Pavie","Pétrus and Le Pin","Lafite and Latour"],"They objected to the criteria."]
+[1,"How were the 1855 wines ranked?","By market price history",["By a blind tasting panel","By size of the vineyard","By a vote of merchants"],"Brokers used prices over many years."],
+[3,"Which estates withdrew from the Saint-Émilion classification before 2022?","Ausone, Cheval Blanc and Angélus",["Figeac, Pavie and Canon","Pétrus, Le Pin and Lafleur","Lafite, Latour and Margaux"],"They objected to the criteria."]
 ]});
 
 L.push({id:"r2", unit:"R1", title:"Burgundy, Chablis and Beaujolais", mins:22,
@@ -71,11 +71,11 @@ terms:[["Climat","A named, delimited vineyard site in Burgundy."],["Monopole","V
 quiz:[
 [1,"What does a Burgundy Grand Cru label usually show?","Only the vineyard name",["Village and vineyard","Only the village","Château name"],"E.g., 'Chambertin' or 'Montrachet'."],
 [1,"Which Côte d'Or village has no Grand Cru?","Meursault",["Gevrey-Chambertin","Vosne-Romanée","Puligny-Montrachet"],"Meursault's best are Premiers Crus. Nuits-Saint-Georges also has none."],
-[2,"Corton is notable as:","The only red Grand Cru in the Côte de Beaune",["A white-only Grand Cru","A Chablis Grand Cru","A Beaujolais cru"],"Corton-Charlemagne is its white counterpart."],
+[2,"Corton is notable as:","The only red Grand Cru in the Côte de Beaune",["The only white Grand Cru in the Côte de Nuits","The largest of the Chablis Grands Crus","The oldest of the ten Beaujolais crus"],"Corton-Charlemagne is its white counterpart."],
 [1,"How many climats make up Chablis Grand Cru?","Seven",["Three","Ten","Seventeen"],"Les Clos, Vaudésir, Valmur, Blanchot, Bougros, Preuses, Grenouilles."],
 [2,"Which Beaujolais cru is typically most structured and age-worthy?","Moulin-à-Vent",["Chiroubles","Régnié","Saint-Amour"],"Morgon (Côte du Py) is the other."],
 [2,"Kimmeridgian soil is associated with:","Chablis",["Pomerol","Beaujolais","Côte-Rôtie"],"Marl with fossil oysters, shared with Sancerre."],
-[2,"Why is Burgundy's vineyard ownership so fragmented?","Church lands were sold after the Revolution and split by Napoleonic inheritance law",["The monks divided it","Phylloxera","1855 Classification"],"Clos de Vougeot has around 80 owners."],
+[2,"Why is Burgundy's vineyard ownership so fragmented?","Revolution-era land sales, then Napoleonic inheritance law",["Monastic orders divided their vineyards among lay brothers","Phylloxera forced growers to sell off small parcels","The 1855 Classification broke up the largest estates"],"Clos de Vougeot has around 80 owners."],
 [3,"Bouzeron AOC is dedicated to which grape?","Aligoté",["Chardonnay","Pinot Noir","Gamay"],"In the Côte Chalonnaise."]
 ]});
 
@@ -107,7 +107,7 @@ analyst:`<p>WSET Level 3 LO3 covers Champagne sub-regions, labeling terms (NV, v
 terms:[["Assemblage","Blending base wines into a cuvée."],["NM","Négociant-manipulant: a house that buys grapes."],["RM","Récoltant-manipulant: grower Champagne."],["Blanc de Blancs","Sparkling wine from white grapes only."],["Crémant","French traditional-method sparkling wine outside Champagne, 9 months minimum on lees."]],
 quiz:[
 [1,"Which sub-region is best known for Chardonnay?","Côte des Blancs",["Montagne de Reims","Vallée de la Marne","Côte des Bar"],"Cramant, Avize, Oger, Le Mesnil."],
-[1,"'RM' on a Champagne label means:","Grower who makes wine from their own grapes",["Big négociant house","Cooperative","Buyer's own brand"],"Récoltant-manipulant."],
+[1,"'RM' on a Champagne label means:","A grower making wine from their own grapes",["A large house buying in most of its grapes","A cooperative selling its members' wine","A brand owned by a retailer or restaurant"],"Récoltant-manipulant."],
 [2,"Minimum aging for vintage Champagne:","3 years",["15 months","12 months","5 years"],"NV is 15 months, 12 on lees."],
 [2,"Which grape dominates the Vallée de la Marne?","Meunier",["Chardonnay","Pinot Blanc","Arbane"],"Late budding, frost-resistant."],
 [2,"Rosé des Riceys is:","A still rosé from the Aube",["A sparkling rosé from Reims","A Loire rosé","A sweet wine"],"One of the rare still Champagne AOCs."],
@@ -134,17 +134,17 @@ body:`
 <li><b>Edelzwicker</b>: blend of grapes. Producers: Trimbach, Zind-Humbrecht, Hugel, Weinbach, Marcel Deiss.</li></ul>
 <p>The tricky part for guests: sweetness varies and labels didn't always say. Ask, or know the producer's style.</p>
 <h3>Jura and Savoie</h3>
-<p><b>Jura:</b> <b>Vin Jaune</b>, from Savagnin aged at least 6 years and 3 months under a flor-like veil (<i>sous voile</i>) without topping up, bottled in the 62 cl <b>clavelin</b>. Nutty, curry spice, walnut, like a Fino with more weight. <b>Château-Chalon</b> is Vin Jaune only. Also Vin de Paille (dried grapes), and light reds from Poulsard and Trousseau. <b>Savoie:</b> alpine whites from Jacquère, Altesse, Roussanne (Bergeron); reds from Mondeuse.</p>`,
+<p><b>Jura:</b> <b>Vin Jaune</b>, from Savagnin kept in barrel without topping up until the sixth December after harvest, with at least 60 months under a flor-like veil (<i>sous voile</i>) without topping up, bottled in the 62 cl <b>clavelin</b>. Nutty, curry spice, walnut, like a Fino with more weight. <b>Château-Chalon</b> is Vin Jaune only. Also Vin de Paille (dried grapes), and light reds from Poulsard and Trousseau. <b>Savoie:</b> alpine whites from Jacquère, Altesse, Roussanne (Bergeron); reds from Mondeuse.</p>`,
 floor:`<p>CMS Certified examines Chenin Blanc from Vouvray (demi-sec/off-dry), Sauvignon Blanc from Sancerre/Pouilly-Fumé, Cabernet Franc from Chinon/Bourgueil, and Gewurztraminer from Alsace. Pairing gold: Muscadet with oysters, Sancerre with goat cheese (Crottin de Chavignol is from the Sancerre hills), Alsace Gewurztraminer with Munster or spicy Asian dishes.</p>`,
 analyst:`<p>WSET Level 3 explanation: "Why can Alsace ripen grapes fully so far north?" Rain shadow of the Vosges (dry, sunny), long autumns, east-facing foothill slopes, and warm soils. Each point linked to ripeness earns a mark.</p>`,
 terms:[["Sur lie","Aged on lees; Muscadet's key quality designation."],["Moelleux","French term for medium-sweet to sweet."],["Clavelin","62 cl bottle for Vin Jaune."],["Sous voile","Aging under a yeast veil (Jura)."],["Vendanges Tardives","Late-harvest wine in Alsace."]],
 quiz:[
 [1,"Muscadet is made from:","Melon de Bourgogne",["Chenin Blanc","Sauvignon Blanc","Folle Blanche"],"Sur lie aging adds texture."],
 [1,"Red Sancerre is made from:","Pinot Noir",["Cabernet Franc","Gamay","Malbec"],"Sancerre whites are Sauvignon Blanc."],
-[2,"Why is Alsace so dry and sunny?","The Vosges Mountains create a rain shadow",["The Atlantic Ocean","The Mediterranean","High altitude alone"],"Colmar is one of France's driest cities."],
+[2,"Why is Alsace so dry and sunny?","The Vosges Mountains create a rain shadow",["The Atlantic moderates its weather","Mediterranean air reaches it in summer","Its vineyards lie above the cloud line"],"Colmar is one of France's driest cities."],
 [2,"Which Loire appellation is the region's only Grand Cru?","Quarts de Chaume",["Savennières","Vouvray","Sancerre"],"Sweet Chenin Blanc in Anjou."],
 [1,"Chinon is primarily:","Cabernet Franc",["Chenin Blanc","Pinot Noir","Merlot"],"Raspberry, violet, graphite, green pepper."],
-[2,"Vin Jaune must age under veil for at least:","6 years and 3 months",["2 years","3 years","10 years"],"Bottled in the 62 cl clavelin."],
+[2,"Vin Jaune may not be sold until how long after harvest?","A little over six years",["Two years","Three and a half years","Ten years"],"It stays in barrel until the sixth December, with at least 60 months under the veil, and goes on sale the following January in the 62 cl clavelin."],
 [2,"Rosé d'Anjou's principal grape is:","Grolleau",["Cabernet Franc","Gamay","Pinot Noir"],"Official WSET Level 3 sample question."],
 [3,"Coulée de Serrant is a monopole in which appellation?","Savennières",["Vouvray","Chinon","Montlouis"],"Owned by biodynamic pioneer Nicolas Joly."]
 ]});
@@ -185,7 +185,7 @@ quiz:[
 [2,"Bandol reds are based on:","Mourvèdre",["Grenache","Syrah","Cinsault"],"At least 50% and 18 months in wood."],
 [2,"Madiran's principal grape is:","Tannat",["Malbec","Fer Servadou","Négrette"],"Very high tannin."],
 [2,"Which Southern Rhône village became a cru in 2016?","Cairanne",["Gigondas","Vacqueyras","Rasteau"],"Gigondas and Vacqueyras are older crus."],
-[3,"Banyuls is a:","Grenache-based Vin Doux Naturel from Roussillon",["Dry white from Provence","Sparkling wine from Limoux","Sweet Sémillon"],"Pairs famously with chocolate."]
+[3,"Banyuls is a:","Grenache-based Vin Doux Naturel",["Dry Vermentino white from Provence","Mauzac sparkling wine from Limoux","Sweet Petit Manseng from the Pyrenees"],"Pairs famously with chocolate."]
 ]});
 
 // ---------- ITALY ----------
@@ -218,12 +218,12 @@ analyst:`<p>WSET Level 3 names Barolo, Barbaresco, Barbera d'Asti, Gavi, Asti, M
 terms:[["DOCG","Denominazione di Origine Controllata e Garantita, Italy's top category."],["Classico","Historic core zone of a denomination."],["Appassimento","Drying grapes before fermentation."],["Ripasso","Valpolicella re-fermented on Amarone pomace."],["MGA","Menzione Geografica Aggiuntiva; official named vineyards in Barolo and Barbaresco."],["Satèn","Gentle Franciacorta style, white grapes only."]],
 quiz:[
 [1,"Barolo is made from:","100% Nebbiolo",["Sangiovese","Barbera blended with Nebbiolo","Dolcetto"],"Same for Barbaresco."],
-[2,"Minimum aging for Barolo (non-Riserva)?","38 months, 18 in wood",["26 months","24 months","62 months"],"Riserva: 62 months."],
-[1,"Amarone is made by:","Drying grapes before fermenting to dryness",["Botrytis","Fortification","Carbonic maceration"],"Appassimento."],
+[2,"Minimum aging for Barolo (non-Riserva)?","38 months, 18 in wood",["26 months, 9 in wood","24 months, 12 in wood","62 months, 18 in wood"],"Riserva: 62 months."],
+[1,"Amarone is made by:","Drying grapes before fermenting to dryness",["Leaving grapes to botrytize on the vine","Fortifying the wine during fermentation","Fermenting whole bunches under CO₂"],"Appassimento: the grapes dry for about 100 days, then ferment to dryness at 15% alcohol or more."],
 [2,"Which commune is known for the most structured Barolo?","Serralunga d'Alba",["La Morra","Barolo","Neive"],"Neive is a Barbaresco village."],
 [2,"Nebbiolo is called Chiavennasca in:","Valtellina",["Gattinara","Roero","Valpolicella"],"Lombardy's alpine terraces."],
 [1,"Gavi is made from:","Cortese",["Arneis","Garganega","Moscato"],"Lean, citrusy white."],
-[2,"What is Ripasso?","Valpolicella refermented on Amarone skins",["A sweet Recioto","A sparkling Valpolicella","A rosé from Bardolino"],"Adds body, alcohol and dried-fruit notes."],
+[2,"What is Ripasso?","Valpolicella refermented on Amarone skins",["A sweet red made from dried grapes","A sparkling wine from Valpolicella","A dry rosé from the shores of Garda"],"Adds body, alcohol and dried-fruit notes."],
 [3,"Which Prosecco designation is a single steep hill at the top of the quality pyramid?","Cartizze",["Asolo","Treviso","Rive"],"Within Valdobbiadene."]
 ]});
 
@@ -258,7 +258,7 @@ quiz:[
 [1,"Brunello di Montalcino is:","100% Sangiovese",["Sangiovese and Cabernet","Montepulciano","Nebbiolo"],"From the Brunello clone."],
 [2,"Vino Nobile di Montepulciano is made mainly from:","Sangiovese",["Montepulciano","Merlot","Canaiolo only"],"Named after the hill town."],
 [2,"Which wine is often credited as the first Super Tuscan from Bolgheri?","Sassicaia",["Tignanello","Ornellaia","Solaia"],"Cabernet-based, Tenuta San Guido; own DOC since 2013."],
-[2,"Sicily's only DOCG is:","Cerasuolo di Vittoria",["Etna","Marsala","Faro"],"Nero d'Avola with Frappato."],
+[2,"Sicily's only DOCG is:","Cerasuolo di Vittoria",["Etna Rosso Riserva","Marsala Superiore","Passito di Pantelleria"],"Nero d'Avola with Frappato."],
 [2,"Taurasi and Aglianico del Vulture share which grape?","Aglianico",["Primitivo","Negroamaro","Nerello Mascalese"],"High acid, high tannin, age-worthy."],
 [3,"Gran Selezione was created in:","2014",["1992","2006","1984"],"Chianti Classico's top tier."]
 ]});

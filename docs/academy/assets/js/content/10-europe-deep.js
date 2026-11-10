@@ -60,19 +60,19 @@ body:`
 <p>Carmignano (Cabernet blended with Sangiovese since the Medici era), Vernaccia di San Gimignano, Chianti Rùfina (cool, long-lived: Selvapiana, Frescobaldi's Nipozzano), Tignanello and Solaia (Antinori's Super Tuscans), Vin Santo (dried Trebbiano and Malvasia, oxidative aging in caratelli; Occhio di Pernice is the red version).</p>
 <h3>The Apennine center</h3>
 <ul><li><b>Umbria:</b> Montefalco Sagrantino (one of the world's most tannic grapes; Arnaldo Caprai, Paolo Bea), Torgiano, Orvieto (Grechetto and Procanico, once sweet).</li>
-<li><b>Marche:</b> Verdicchio dei Castelli di Jesi and di Matelica (age-worthy, bitter-almond whites; Bucci, Villa Bucci, Collestefano), Conero and Rosso Piceno (Montepulciano), Offida (Pecorino white).</li>
+<li><b>Marche:</b> Verdicchio dei Castelli di Jesi and di Matelica (age-worthy, bitter-almond whites; Bucci and its Villa Bucci Riserva, Collestefano), Conero and Rosso Piceno (Montepulciano), Offida (Pecorino white).</li>
 <li><b>Abruzzo:</b> Montepulciano d'Abruzzo (Colline Teramane DOCG), Trebbiano d'Abruzzo, Cerasuolo d'Abruzzo (dark rosé). Valentini and Emidio Pepe are the cult traditionalists.</li>
 <li><b>Lazio:</b> Frascati, Cesanese.</li></ul>`,
 floor:`<p>Brunello and Chianti Classico are both CMS Certified blind wines. Selling: Rosso di Montalcino as the "baby Brunello" by the glass, Chianti Classico Riserva as the value Brunello alternative, Bolgheri for Cabernet lovers who want Italy.</p>`,
 analyst:`<p>Explain galestro and alberese and their effects; discuss the Gran Selezione/UGA reforms as a move toward place-based hierarchy; analyze why Super Tuscans emerged outside DOC law.</p>`,
 terms:[["Galestro","Flaky schistous clay-marl soil in Chianti and Montalcino."],["Alberese","Compact limestone soil in Chianti."],["Conca d'Oro","Panzano's sun-trap amphitheater."],["Brunellopoli","2008 Brunello adulteration scandal."],["Occhio di Pernice","Red Vin Santo."]],
 quiz:[
-[2,"How many UGAs can appear on Chianti Classico Gran Selezione?","Eleven",["Three","Seven","Twenty"],"Since 2021."],
-[2,"Galestro is:","Flaky schistous clay-marl",["Volcanic tuff","Compact limestone","Sand"],"Alberese is compact limestone."],
+[2,"How many UGAs can appear on Chianti Classico Gran Selezione?","Eleven",["Three","Seven","Twenty"],"The eleven UGAs were approved in 2021 and may appear on Gran Selezione labels."],
+[2,"Galestro is:","Flaky schistous clay-marl",["Soft volcanic tuff","Compact white limestone","Deep river sand"],"Alberese is compact limestone."],
 [2,"Panzano's 'Conca d'Oro' is home to which famous Sangiovese?","Fontodi Flaccianello",["Le Pergole Torte","Tignanello","Rancia"],"Le Pergole Torte is Montevertine in Radda."],
 [2,"In Montalcino, the south (e.g., Sant'Angelo in Colle) tends to give:","Warmer, richer wines",["Cooler, lighter wines","White wines","Sparkling wines"],"The north is cooler and more elegant."],
 [2,"Sassicaia's first commercial vintage was:","1968",["1985","1945","1975"],"Tenuta San Guido."],
-[2,"Masseto is:","A pure Merlot from Bolgheri",["A Brunello","A Vin Santo","A Sagrantino"],"Originally part of Ornellaia."],
+[2,"Masseto is:","A pure Merlot from Bolgheri",["A Brunello from Montalcino","A Vin Santo from Chianti","A Sagrantino from Umbria"],"Originally part of Ornellaia."],
 [3,"Cult traditionalist producers of Abruzzo are:","Valentini and Emidio Pepe",["Biondi-Santi and Soldera","Bucci and Collestefano","Caprai and Bea"],"Montepulciano and Trebbiano d'Abruzzo."]
 ]});
 
@@ -104,13 +104,13 @@ analyst:`<p>Diploma topics: appassimento and its effects; the Prosecco DOC/DOCG 
 terms:[["Fruttaio","Drying loft for appassimento grapes."],["Rive","Single-commune designation in Conegliano Valdobbiadene Prosecco."],["Ponca","Marl and sandstone flysch soils of Collio and Colli Orientali."],["Contrada","Named cru on Etna (plural contrade)."],["Marsala Vergine","Dry Marsala aged 5+ years without added sweetener."],["Vernaccia di Oristano","Sardinian flor-aged white."]],
 quiz:[
 [2,"Which village is NOT in Valpolicella Classico?","Soave",["Fumane","Negrar","Marano"],"Soave is a separate white wine zone."],
-[2,"'Rive' on a Prosecco label means:","A single steep commune or hamlet",["Sweet","Aged in oak","Rosé"],"Conegliano Valdobbiadene DOCG."],
+[2,"'Rive' on a Prosecco label means:","A single steep commune or hamlet",["A sweeter style than Extra Dry","A wine aged in large oak casks","A rosé made with Pinot Nero"],"Conegliano Valdobbiadene DOCG."],
 [2,"Etna's contrade were recognized in:","2011",["1963","1990","2020"],"Named crus on the volcano."],
 [2,"Carricante is the white grape of:","Etna",["Pantelleria","Campania","Sardinia"],"Etna Bianco Superiore from Milo."],
-[2,"Marsala Vergine must be:","Dry and aged at least 5 years",["Sweet and aged 1 year","Made from Nero d'Avola","Unfortified"],"No added sweetener."],
+[2,"Marsala Vergine must be:","Dry and aged at least 5 years",["Sweet and aged at least 1 year","Made from Nero d'Avola only","Unfortified and bottled young"],"No added sweetener."],
 [3,"Friuli's hillside soils are called:","Ponca",["Galestro","Albariza","Llicorella"],"Marl and sandstone flysch."],
-[2,"Cantina Terlano is famous for:","Long-lived Alto Adige whites from a cooperative",["Amarone","Trento DOC sparkling","Etna Rosso"],"Alto Adige's cooperative model."],
-[3,"Vernaccia di Oristano is notable for:","Flor aging, like Sherry",["Carbonic maceration","Botrytis","Ice wine"],"Sardinia."]
+[2,"Cantina Terlano is famous for:","Long-lived whites from an Alto Adige cooperative",["Amarone from dried Corvina grapes","Traditional-method Trento DOC sparkling","Etna Rosso from old Nerello Mascalese"],"Alto Adige's cooperative model."],
+[3,"Vernaccia di Oristano is notable for:","Flor aging, like Sherry",["Carbonic maceration","Botrytis","Ice wine"],"Sardinia's Vernaccia di Oristano ages under flor in part-filled casks, like a Fino."]
 ]});
 
 L.push({id:"r11b", unit:"R4", title:"Deep Dive: Germany's Great Sites", mins:22,
@@ -137,17 +137,17 @@ body:`
 <li><b>Ahr</b>: tiny, steep slate valley famous for Spätburgunder (Meyer-Näkel, Jean Stodden); hit by catastrophic floods in July 2021.</li>
 <li><b>Württemberg</b>: Trollinger, Lemberger, Schwarzriesling. <b>Mittelrhein</b>: the castle-lined Rhine gorge. <b>Saale-Unstrut</b> and <b>Sachsen</b>: Germany's northeastern regions.</li></ul>
 <h3>Law updates and sparkling</h3>
-<p>The 2021 wine law reform adds an origin pyramid (Deutscher Wein, Landwein, Gutswein, Ortswein, Lagenwein from named single sites) alongside the ripeness ladder. <b>Winzersekt</b> and traditional-method <b>Sekt b.A.</b> from estates (Raumland, Griesel) have made German sparkling serious.</p>`,
+<p>The 2021 wine law reform adds an origin pyramid for Qualitätswein (Anbaugebiet, then Region, then Ortswein from a village, then Lagenwein from a named single site, topped by Erstes and Grosses Gewächs) alongside the ripeness ladder. The VDP's private pyramid uses the parallel terms Gutswein, Ortswein, Erste Lage and Grosse Lage. <b>Winzersekt</b> and traditional-method <b>Sekt b.A.</b> from estates (Raumland, Griesel) have made German sparkling serious.</p>`,
 floor:`<p>The German section of a list rewards specific names. A guest asking for "a good Riesling" deserves a choice: Mosel Kabinett for lightness and sweetness, Rheingau or Pfalz GG for power and dryness, Saar for nerve. Always state the sweetness.</p>`,
 analyst:`<p>Explain how slope, aspect, river and slate allow Riesling to ripen at 50°N; discuss the coexistence of ripeness-based and origin-based classification in German law.</p>`,
 terms:[["Einzellage","An individual vineyard site."],["Roter Hang","Red slate-sandstone slope at Nierstein."],["Muschelkalk","Shell limestone of Franken and parts of Rheinhessen."],["Terrassenmosel","Steep terraced Lower Mosel."],["Hock","Old English term for Rhine wine, from Hochheim."],["Winzersekt","Grower sparkling wine."]],
 quiz:[
 [2,"Ürziger Würzgarten is known for which soil?","Red volcanic slate",["Blue Devonian slate","Shell limestone","Loess"],"Spicy Rieslings."],
-[2,"Europe's steepest vineyard, the Calmont, is in:","The Lower Mosel (Terrassenmosel)",["The Saar","The Rheingau","Franken"],"Near Bremm."],
+[2,"Europe's steepest vineyard, the Calmont, is in:","The Lower Mosel (Terrassenmosel)",["The Saar, near Wiltingen","The Rheingau, near Rüdesheim","Franken, near Würzburg"],"Bremmer Calmont, with slopes of up to about 65 degrees, is on the terraced Lower Mosel."],
 [2,"Hochheim gave English which word?","Hock",["Claret","Sack","Sekt"],"Rhine wine generally."],
 [2,"The Roter Hang is at:","Nierstein, Rheinhessen",["Forst, Pfalz","Rüdesheim, Rheingau","Würzburg, Franken"],"Red slate-sandstone."],
 [2,"Würzburger Stein is in:","Franken",["Baden","Nahe","Pfalz"],"Shell limestone, Silvaner."],
-[2,"Niederhäuser Hermannshöhle is the most famous site of:","The Nahe",["The Mosel","The Rheingau","The Ahr"],"Dönnhoff."],
+[2,"Niederhäuser Hermannshöhle is the most famous site of:","The Nahe",["The Mosel","The Rheingau","The Ahr"],"Hermannshöhle at Niederhausen, on slate and volcanic rock, is the Nahe's benchmark; Dönnhoff is its best-known grower."],
 [3,"Which German region is in EU climate zone B like Alsace?","Baden",["Mosel","Franken","Mittelrhein"],"The warmest region."],
 [3,"Keller's G-Max is a famous dry Riesling from:","Rheinhessen",["Pfalz","Rheingau","Saar"],"Flörsheim-Dalsheim."]
 ]});
@@ -186,9 +186,9 @@ analyst:`<p>Diploma topics: compare the DAC and Prädikat systems; explain how t
 terms:[["Ried","Single vineyard (Austria)."],["Gebietswein / Ortswein / Riedenwein","Regional, village and single-vineyard tiers in Austrian DACs."],["Ausbruch","Austrian botrytis sweet wine, historically from Rust."],["Schilcher","Tart rosé from Blauer Wildbacher in Weststeiermark."],["Morillon","Styrian name for Chardonnay."],["Heuriger","Viennese wine tavern serving young wine."]],
 quiz:[
 [2,"Austria's first DAC (2003) was:","Weinviertel",["Wachau","Kamptal","Leithaberg"],"Grüner Veltliner."],
-[2,"Wiener Gemischter Satz must be:","A field blend of at least three varieties",["100% Grüner Veltliner","A sweet wine","A red blend"],"Planted together."],
+[2,"Wiener Gemischter Satz must be:","A field blend of at least three varieties",["100% Grüner Veltliner from Vienna","A sweet wine from botrytized grapes","A red blend led by Zweigelt"],"Planted together."],
 [2,"Schilcher is made from:","Blauer Wildbacher",["Zweigelt","Blaufränkisch","St. Laurent"],"Weststeiermark rosé."],
-[2,"Heiligenstein is a famous Ried in:","Kamptal",["Wachau","Kremstal","Weinviertel"],"Zöbing."],
+[2,"Heiligenstein is a famous Ried in:","Kamptal",["Wachau","Kremstal","Weinviertel"],"Heiligenstein, above Zöbing in the Kamptal, is desert sandstone with volcanic elements."],
 [3,"Which DAC is known as 'Blaufränkischland'?","Mittelburgenland",["Carnuntum","Thermenregion","Neusiedlersee"],"Moric, Weninger."],
 [2,"Zierfandler and Rotgipfler are signatures of:","Thermenregion",["Wachau","Südsteiermark","Wien"],"South of Vienna."],
 [2,"Morillon is the Styrian name for:","Chardonnay",["Sauvignon Blanc","Pinot Blanc","Gewürztraminer"],"Südsteiermark."]
@@ -218,12 +218,12 @@ floor:`<p>Portugal is a value goldmine: Douro reds for Napa drinkers, Dão for B
 analyst:`<p>Diploma D5 covers Port's benefício and grading system, the shipper groups, aging categories and Madeira production. Explain why Douro DOC table wines grew as Port demand fell.</p>`,
 terms:[["IVDP","Regulator of Douro and Port wines."],["Benefício","Annual authorization to fortify a quantity of must into Port."],["Vila Nova de Gaia","Town across from Porto where Port lodges age wine."],["Vinho de Talha","Alentejo DOC for wine made in clay amphorae."],["Currais","Volcanic stone corrals protecting vines on Pico, Azores."],["Rainwater","Lighter, medium-dry style of Madeira."]],
 quiz:[
-[2,"Douro vineyards are graded A to F to determine:","How much Port each may produce (benefício)",["Their price per bottle","Organic status","Which grapes they grow"],"A-graded vineyards get the most."],
-[2,"Since 1986, Port may age and ship from:","The Douro, not only Vila Nova de Gaia",["Lisbon only","Madeira","Spain"],"A major change for quintas."],
-[2,"Barca Velha, first made in 1952, is a:","Douro DOC red from Ferreira",["Vintage Port","Madeira","Vinho Verde"],"Portugal's original icon red."],
+[2,"Douro vineyards are graded A to F to determine:","How much Port each may produce (benefício)",["The price each quinta may charge","Which grape varieties are allowed","How long the wine must age in wood"],"A-graded vineyards get the most."],
+[2,"Since 1986, Port may age and ship from:","The Douro, not only Vila Nova de Gaia",["Lisbon as well as Vila Nova de Gaia","Any port city in northern Portugal","Bonded lodges on Madeira"],"A major change for quintas."],
+[2,"Barca Velha, first made in 1952, is a:","Douro DOC red from Ferreira",["Vintage Port from Taylor's","Colheita Madeira from Blandy's","Alvarinho from Vinho Verde"],"Portugal's original icon red."],
 [2,"Encruzado is the top white grape of:","Dão",["Bairrada","Vinho Verde","Alentejo"],"Granite plateau."],
 [2,"Which group owns Graham's, Dow's and Warre's?","Symington Family Estates",["The Fladgate Partnership","Sogrape","AXA"],"Fladgate owns Taylor's, Fonseca and Croft."],
-[3,"Terrantez is:","A rare, prized Madeira grape",["A Port style","A Douro subregion","A cork tree"],"Nearly extinct."],
-[2,"Vinho de Talha is made in:","Large clay amphorae",["Oak barriques","Stainless steel only","Concrete eggs"],"Alentejo."],
+[3,"Terrantez is:","A rare, prized Madeira grape",["An aged style of white Port","A subregion of the Douro","A Douro river boat"],"Nearly extinct."],
+[2,"Vinho de Talha is made in:","Large clay amphorae",["Oak barriques","Stainless steel only","Concrete eggs"],"Talha wines ferment and age in large clay pots, a Roman-era tradition in the Alentejo."],
 [3,"The oldest Port house, founded 1638, is:","Kopke",["Taylor's","Sandeman","Croft"],"Now part of Sogevinus."]
 ]});

@@ -34,12 +34,12 @@ terms:[["Premier Grand Cru Classé A","Top tier of the Saint-Émilion classifica
 quiz:[
 [2,"How many properties are in the 2022 Saint-Émilion classification?","85",["61","14","120"],"2 A, 12 PGCC, 71 GCC."],
 [2,"Which château was promoted to 'A' in 2022?","Figeac",["Canon","Troplong Mondot","Valandraud"],"Pavie is the other 'A'."],
-[2,"Which estates withdrew from the Saint-Émilion classification in 2022?","Cheval Blanc, Ausone and Angélus",["Figeac and Pavie","Canon and Belair-Monange","Pétrus and Le Pin"],"They objected to the criteria."],
-[2,"All Crus Classés de Graves are in which AOC?","Pessac-Léognan",["Graves","Sauternes","Entre-Deux-Mers"],"Created 1987."],
+[2,"Which estates withdrew from the Saint-Émilion classification in 2022?","Cheval Blanc, Ausone and Angélus",["Figeac, Pavie and Canon","Canon, Belair-Monange and Clos Fourtet","Pétrus, Le Pin and Lafleur"],"They objected to the criteria."],
+[2,"All Crus Classés de Graves are in which AOC?","Pessac-Léognan",["Graves","Sauternes","Entre-Deux-Mers"],"Pessac-Léognan was created in 1987 from the northern Graves; every classified estate lies inside it."],
 [3,"How many châteaux are in the 2025 Cru Bourgeois classification?","170",["249","61","85"],"Down from 249 in 2020."],
 [2,"Sainte-Foy joined the Côtes de Bordeaux umbrella in:","2016",["2009","1987","2022"],"The others joined in 2009."],
-[3,"Which is a white-only Cru Classé de Graves?","Couhins-Lurton",["Haut-Bailly","Pape Clément","de Fieuzal"],"Couhins too."],
-[2,"Which Saint-Émilion satellite is the smallest?","Saint-Georges",["Montagne","Lussac","Puisseguin"],"About 185 ha."]
+[3,"Which is a white-only Cru Classé de Graves?","Couhins-Lurton",["Haut-Bailly","Pape Clément","de Fieuzal"],"Couhins and Couhins-Lurton are the two estates classified for white only."],
+[2,"Which Saint-Émilion satellite is the smallest?","Saint-Georges",["Montagne","Lussac","Puisseguin"],"Saint-Georges-Saint-Émilion covers only about 185 ha; Montagne is the largest at about 1,600."]
 ]});
 
 L.push({id:"r2c", unit:"R1", title:"Deep Dive: Chablis, the Chalonnaise, Mâconnais and Beaujolais Crus", mins:20,
@@ -82,7 +82,7 @@ quiz:[
 [2,"How many Premier Cru climats does Chablis have?","40",["7","17","24"],"Grouped under 17 main names."],
 [2,"On which bank of the Serein are all Chablis Grands Crus?","Right bank",["Left bank","Both","Neither; they're on the plateau"],"Southwest-facing slope."],
 [2,"Which Chalonnaise village is 100% white?","Montagny",["Mercurey","Givry","Rully"],"49 Premier Cru climats."],
-[2,"Pouilly-Fuissé Premiers Crus apply from which vintage?","2020",["1943","2010","2024"],"22 climats."],
+[2,"Pouilly-Fuissé Premiers Crus apply from which vintage?","2020",["1943","2010","2024"],"The 22 Premier Cru climats took effect with the 2020 vintage: Burgundy's first new Premier Cru tier since 1943."],
 [2,"Saint-Bris is Burgundy's AOC for:","Sauvignon Blanc",["Aligoté","Gamay","Pinot Gris"],"Grand Auxerrois."],
 [2,"Which Beaujolais cru is the newest (1988)?","Régnié",["Chiroubles","Côte de Brouilly","Saint-Amour"],"Granite soils."],
 [3,"Côte de Brouilly's signature soil is:","Blue diorite",["Pink granite","Kimmeridgian marl","Schist only"],"On Mont Brouilly."],
@@ -119,7 +119,7 @@ quiz:[
 [2,"Which two Languedoc crus became standalone AOPs in March 2024?","Boutenac and La Livinière",["Pic Saint-Loup and La Clape","Faugères and Saint-Chinian","Picpoul de Pinet and Terrasses du Larzac"],"Formerly Corbières-Boutenac and Minervois-La Livinière."],
 [2,"Blanquette de Limoux must be at least 90%:","Mauzac",["Chardonnay","Chenin Blanc","Picpoul"],"Traditional method."],
 [2,"What share of Provence wine is rosé?","About 89%",["About 50%","About 30%","About 99%"],"6% white, 5% red."],
-[2,"Bandol reds require at least:","50% Mourvèdre and 18 months in cask",["70% Grenache and 12 months","100% Syrah","30% Cinsault"],"Hand harvest, 40 hl/ha."],
+[2,"Bandol reds require at least:","50% Mourvèdre and 18 months in cask",["70% Grenache and 12 months in cask","100% Syrah and 24 months in cask","30% Cinsault and 6 months in cask"],"Hand harvest, 40 hl/ha."],
 [3,"Which Côtes du Roussillon Villages designation is on schist?","Latour-de-France",["Caramany","Lesquerde","Tautavel"],"Caramany gneiss, Lesquerde granite, Tautavel clay-limestone."],
 [3,"Which Côtes de Provence designation may also make white?","La Londe",["Fréjus","Pierrefeu","Notre-Dame des Anges"],"Coastal, near Hyères."],
 [2,"Pic Saint-Loup became a standalone AOC in:","2017",["2007","2013","2024"],"Red and rosé, Syrah-led."]
@@ -150,10 +150,10 @@ analyst:`<p>Explain sous voile versus ouillé winemaking and its chemistry (acet
 terms:[["Ouillé","Topped-up Jura white made without flor."],["Sous voile","Aged under a yeast veil without topping up (Jura)."],["Causse","Limestone plateau, e.g., Cahors."],["Négrette","Red grape of Fronton."],["Cerdon","Bugey's pink ancestral-method sparkling."]],
 quiz:[
 [2,"Vin Jaune must age under voile for at least:","60 months",["24 months","36 months","10 years"],"Until 15 December of the sixth year."],
-[2,"'Ouillé' on a Jura label means:","Topped up, made without flor",["Aged under flor","Sweet","Sparkling"],"Fresh, Burgundian style."],
+[2,"'Ouillé' on a Jura label means:","Topped up, made without flor",["Aged under a veil of yeast","Made from dried grapes","Bottled with some sweetness"],"Fresh, Burgundian style."],
 [2,"Chignin-Bergeron is made from:","Roussanne",["Jacquère","Altesse","Mondeuse"],"Allowed only around Chignin, Francin, Montmélian."],
 [2,"Corsica's first AOC (1968) was:","Patrimonio",["Ajaccio","Figari","Calvi"],"Limestone, Niellucciu."],
-[2,"Since November 2025, Madiran requires Tannat at:","At least 60% of plantings and blend",["At least 40%","100%","At least 85%"],"Plus destemming."],
+[2,"Since November 2025, Madiran requires Tannat to be:","At least 60% of plantings and blend",["At least 40% of the blend only","100% of the blend, no exceptions","At least 85% of plantings only"],"Plus destemming."],
 [2,"Fronton's signature grape is:","Négrette",["Tannat","Mauzac","Duras"],"Violet and licorice."],
 [3,"Cahors's limestone plateau is called the:","Causse",["Terrasse","Galets","Côte"],"Higher, fresher wines."]
 ]});

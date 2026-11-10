@@ -22,11 +22,11 @@ floor:`<p>Georgian amber wine and Lebanese reds are excellent "story" bottles. K
 analyst:`<p>Diploma D3 includes Eastern Europe and the Eastern Mediterranean at a general level. Essays on native grapes, post-communist recovery, and qvevri are plausible.</p>`,
 terms:[["Saperavi","Georgian teinturier red grape."],["Rkatsiteli","Georgian white grape, often made as amber wine."],["Plavac Mali","Croatian red, offspring of Zinfandel (Tribidrag)."],["Commandaria","Cypriot sweet wine from sun-dried grapes."],["Chasselas","Swiss white grape, especially in Vaud."]],
 quiz:[
-[1,"Saperavi is unusual because:","It has red flesh (teinturier)",["It's a white grape","It's only made sweet","It's a hybrid"],"Deep, high-acid reds."],
+[1,"Saperavi is unusual because:","It has red flesh (teinturier)",["It is a white grape with pink skin","It can only be made sweet","It is a French-American hybrid"],"Deep, high-acid reds."],
 [2,"Croatia's first protected wine appellation was:","Dingač",["Istria","Brda","Kakheti"],"1961, Pelješac peninsula."],
-[2,"Château Musar is in:","Lebanon's Bekaa Valley",["Israel's Golan","Cyprus","Turkey"],"Made wine through the civil war."],
+[2,"Château Musar is in:","Lebanon's Bekaa Valley",["Israel's Golan Heights","Cyprus's Troodos hills","Turkey's Cappadocia"],"Made wine through the civil war."],
 [1,"Switzerland's signature white in Vaud is:","Chasselas",["Petite Arvine","Grüner Veltliner","Furmint"],"Lavaux terraces."],
-[3,"Commandaria is made from:","Sun-dried Xynisteri and Mavro",["Botrytized Furmint","Frozen Vidal","Fortified Palomino"],"Cyprus."],
+[3,"Commandaria is made from:","Sun-dried Xynisteri and Mavro",["Botrytized Furmint and Hárslevelű","Frozen Vidal and Riesling","Fortified Palomino and Moscatel"],"Cyprus's Commandaria: sun-dried Xynisteri (white) and Mavro (red), aged in oak for at least two years."],
 [2,"Which country's vast underground cellars include Cricova and Mileștii Mici?","Moldova",["Romania","Georgia","Bulgaria"],"Limestone tunnels."]
 ]});
 
@@ -53,11 +53,11 @@ analyst:`<p>MW contemporary issues papers often ask how climate change is redraw
 terms:[["Sussex PDO","England's first protected wine designation (2022)."],["Koshu","Japanese grape from Yamanashi."],["Ningxia","Chinese wine region at the foot of the Helan Mountains."],["Valle de Guadalupe","Baja California's leading wine valley."]],
 quiz:[
 [1,"Uruguay's flagship grape is:","Tannat",["Malbec","Carmenère","Bonarda"],"Softer than Madiran."],
-[2,"England's first wine PDO, granted in 2022, is:","Sussex",["Kent","Cornwall","Hampshire"],"Chalk downs."],
-[2,"The oldest winery in the Americas is:","Casa Madero, Mexico",["Inglenook, California","Concha y Toro, Chile","Brotherhood, New York"],"Founded 1597."],
+[2,"England's first wine PDO, granted in 2022, is:","Sussex",["Kent","Cornwall","Hampshire"],"Sussex gained PDO status in 2022 for sparkling and still wines from the county."],
+[2,"The oldest winery in the Americas is:","Casa Madero, Mexico",["Inglenook, California","Concha y Toro, Chile","Brotherhood, New York"],"Casa Madero in Parras de la Fuente, Coahuila, was founded in 1597."],
 [2,"In Ningxia, vines are buried in winter because:","Winters are extremely cold",["To prevent theft","To avoid typhoons","For organic certification"],"Helan Mountains region."],
 [1,"Koshu is a grape from:","Japan",["China","India","Korea"],"Yamanashi Prefecture."],
-[3,"Why is southern England suited to traditional-method sparkling?","Cool climate gives high-acid base wines and chalk soils resemble Champagne",["It is hot and dry","Volcanic soils","High altitude"],"Climate change has helped ripening."]
+[3,"Why is southern England suited to traditional-method sparkling?","Cool climate, high acid and chalk soils",["Hot, dry summers and sandy soils","Volcanic soils and long autumns","High altitude and strong sunlight"],"Climate change has helped ripening."]
 ]});
 
 L.push({id:"s6", unit:"S1", title:"Salesmanship and the Guest", mins:16,
@@ -91,10 +91,10 @@ floor:`<p>In the CMS practical, examiners play guests who change their minds, as
 analyst:`<p>WSET Level 3 LO5 includes "advice to customers": recommending wines for occasions and foods with reasons. Diploma D2 frames the same skill commercially: consumer behavior, pricing psychology and channel strategy.</p>`,
 terms:[["Point-at-price","Letting the host point to a price on the list to signal budget discreetly."],["Corkage","Fee for opening a guest's own bottle."],["Guest language","Plain, sensory descriptions instead of technical terms."]],
 quiz:[
-[1,"A discreet way to learn a host's budget is to:","Show options and let them point at a price",["Ask loudly for a budget","Recommend the most expensive wine","Avoid the topic"],"Nobody else at the table sees the number."],
-[1,"How many options should you usually recommend?","Two or three at different price points",["One only","Ten","The whole list"],"Choice without overwhelm."],
-[2,"A guest dislikes a sound bottle. Common best practice:","Replace it and sell the bottle by the glass",["Insist it is correct","Charge for both bottles","Ignore it"],"Hospitality first."],
-[2,"The listed vintage is unavailable. You should:","Tell the guest before opening and offer alternatives",["Open the other vintage without mention","Remove the bottle quietly","Charge more"],"Transparency builds trust."],
+[1,"A discreet way to learn a host's budget is to:","Show options and let them point at a price",["Ask them directly what they want to spend","Recommend the most expensive bottle first","Avoid the subject and pick for them"],"Nobody else at the table sees the number."],
+[1,"How many options should you usually recommend?","Two or three at different price points",["One only, the wine you like best","Ten, so every taste is covered","The whole list, page by page"],"Choice without overwhelm."],
+[2,"A guest dislikes a sound bottle. Common best practice:","Replace it and sell the bottle by the glass",["Insist politely that the wine is sound","Charge for both bottles at cost","Offer a discount on the same bottle"],"Hospitality first."],
+[2,"The listed vintage is unavailable. You should:","Tell the guest before opening and offer alternatives",["Open the other vintage without comment","Pour it and mention the change afterward","Bring it and charge the higher price"],"Transparency builds trust."],
 [1,"Who receives the wine list?","The host",["The oldest guest","The guest of honor","Whoever is nearest"],"The host also tastes the wine first."]
 ]});
 
@@ -125,11 +125,11 @@ floor:`<p>The Advanced practical's business component checks you can think like 
 analyst:`<p>Diploma D2 (Wine Business) covers routes to market, the three-tier system, pricing, distribution, branding and marketing. MW Theory Paper 4 is the business of wine.</p>`,
 terms:[["Three-tier system","US alcohol distribution: producer/importer, distributor, retailer/restaurant."],["Allocation","Limited quantity of a scarce wine assigned to a buyer."],["Bin number","Storage location code matching the list to stock."],["Pre-shift","Short staff briefing and tasting before service."]],
 quiz:[
-[1,"The US three-tier system separates:","Producers/importers, distributors and retailers",["Growers, winemakers and critics","Federal, state and city regulators","Red, white and sparkling wine"],"Created after Prohibition."],
+[1,"The US three-tier system separates:","Producers/importers, distributors and retailers",["Growers, winemakers and wine critics","Federal, state and city regulators","Red, white and sparkling wine sales"],"Created after Prohibition."],
 [2,"A 'progressive' wine list is organized by:","Style, from light to full",["Price only","Vintage","Producer alphabetically"],"Guest-friendly."],
-[2,"Why price a glass so the first pour or two covers the bottle cost?","To protect margin against waste from open bottles",["To make glasses cheaper than bottles","Because of state law","To avoid inventory counts"],"A common rule of thumb."],
-[1,"An allocation is:","A limited quantity of a scarce wine assigned to a buyer",["A storage location","A tax","A type of glass"],"Relationships matter."],
-[2,"Variance analysis compares:","Theoretical usage from sales against actual inventory depletion",["Two vintages","Critics' scores","Cost and list price"],"Catches over-pouring and loss."]
+[2,"Why price a glass so the first pour or two covers the bottle cost?","To protect margin against waste from open bottles",["To make glasses cheaper than bottles","Because state law sets glass prices","To avoid counting inventory monthly"],"A common rule of thumb."],
+[1,"An allocation is:","A limited quantity assigned to one buyer",["A fixed storage location in the cellar","A state tax on wholesale deliveries","A discount for buying a full pallet"],"Relationships matter."],
+[2,"Variance analysis compares:","Usage predicted from sales against actual stock used",["Two vintages of the same wine side by side","Critics' scores against the list price","Wholesale cost against the list price"],"Catches over-pouring and loss."]
 ]});
 
 L.push({id:"b4", unit:"S2", title:"Whisk(e)y in Depth", mins:18,
@@ -166,12 +166,12 @@ floor:`<p>Whisky questions come at the end of the night. Know two or three per s
 analyst:`<p>The SWE's CSS and WSET spirits qualifications test production, labeling and regional styles at this depth.</p>`,
 terms:[["Peat ppm","Phenol level of malt from peat smoke."],["NAS","No age statement."],["Bottled-in-Bond","US: one distillery, one season, 4+ years, 100 proof."],["Single pot still","Irish style using malted and unmalted barley."],["Angel's share","Spirit lost to evaporation during aging."]],
 quiz:[
-[1,"An age statement on whisky refers to:","The youngest whisky in the bottle",["The average age","The oldest whisky","The distillery's age"],"Legal requirement."],
-[2,"Bottled-in-Bond requires:","One distillery, one season, 4+ years, 100 proof",["Two years and 80 proof","Any blend at cask strength","Corn only"],"Bottled-in-Bond Act of 1897."],
+[1,"An age statement on whisky refers to:","The youngest whisky in the bottle",["The average age of the blend","The oldest whisky in the blend","The age of the distillery's casks"],"Legal requirement."],
+[2,"Bottled-in-Bond requires:","One distillery, one season, 4+ years, 100 proof",["Two years in oak at 80 proof or more","Any blend bottled at cask strength","At least 80% corn and new charred oak"],"Bottled-in-Bond Act of 1897."],
 [2,"Single pot still whiskey is a style of:","Ireland",["Scotland","Japan","Canada"],"Malted and unmalted barley."],
 [1,"Which Scotch region is known for heavy peat smoke?","Islay",["Speyside","Lowlands","Campbeltown"],"Laphroaig, Ardbeg, Lagavulin."],
 [2,"The Lincoln County Process is used for:","Tennessee whiskey",["Bourbon generally","Scotch","Japanese whisky"],"Maple charcoal filtration."],
-[3,"Mizunara is:","A Japanese oak giving sandalwood and incense notes",["A rice variety","A distillery","A peat type"],"Expensive, porous oak."]
+[3,"Mizunara is:","A Japanese oak giving sandalwood and incense",["A rice variety used for sake and shochu","A distillery on the island of Hokkaido","A peat cut on Japan's northern coast"],"Expensive, porous oak."]
 ]});
 
 L.push({id:"b5", unit:"S2", title:"Brandy, Agave, Rum and Gin in Depth", mins:18,
@@ -204,13 +204,13 @@ floor:`<p>Digestif cart questions: know the grade ladder of Cognac, the differen
 analyst:`<p>WSET Level 3 Spirits (refreshed 2025) and the CSS cover these categories at this depth: raw materials, production, maturation and labeling law.</p>`,
 terms:[["Alambic armagnacais","Column still used for Armagnac, single continuous distillation."],["Baco 22A","Hybrid grape used in Armagnac."],["Tahona","Stone wheel used to crush cooked agave."],["Mezcal Ancestral","Mezcal distilled in clay pots."],["Hogo","Funky, high-ester character of Jamaican rum."],["Cold compounding","Gin made by mixing flavorings with neutral spirit."]],
 quiz:[
-[2,"Cognac distillation must be complete by:","March 31 after the harvest",["December 31","The next harvest","June 1"],"Regulated season."],
+[2,"Cognac distillation must be complete by:","March 31 after the harvest",["December 31 of the harvest year","The start of the next harvest","June 1 after the harvest"],"Regulated season."],
 [2,"Which grape is a hybrid allowed in Armagnac?","Baco 22A",["Ugni Blanc","Folle Blanche","Colombard"],"Gives roundness."],
 [1,"Mezcal can be made from:","Many agave species",["Only Blue Weber agave","Sugar cane","Dasylirion"],"Espadín is most common."],
-[2,"Sotol is made from:","Dasylirion (desert spoon), not agave",["Blue agave","Cane juice","Apples"],"Chihuahua and Texas."],
-[2,"Rhum agricole is distilled from:","Fresh sugarcane juice",["Molasses","Agave","Grain"],"Martinique has an AOC."],
-[2,"London Dry gin:","Adds no flavoring after distillation except water",["Must be made in London","Is sweetened","Is aged in oak"],"It's a method."],
-[3,"Peruvian Pisco differs from Chilean Pisco in that it:","Is distilled to proof with no added water or wood aging",["Must be aged 5 years","Is made from apples","Uses column stills only"],"Quebranta is a key grape."]
+[2,"Sotol is made from:","Dasylirion (desert spoon)",["Blue agave, like tequila","Fresh sugarcane juice","Fermented apple cider"],"Sotol comes from Dasylirion, a desert plant of northern Mexico that is not an agave."],
+[2,"Rhum agricole is distilled from:","Fresh sugarcane juice",["Fermented molasses","Roasted agave hearts","Malted grain mash"],"Martinique has an AOC."],
+[2,"London Dry gin:","Adds nothing after distillation but water",["Must be distilled within Greater London","Is lightly sweetened after distillation","Is rested in oak before bottling"],"It's a method."],
+[3,"Peruvian Pisco differs from Chilean Pisco in that it:","Is distilled to proof, with no water or wood",["Must be aged in oak for five years","Is distilled from apples and pears","Is made only in column stills"],"Quebranta is a key grape."]
 ]});
 
 L.push({id:"c3", unit:"C1", title:"Inside the Master Sommelier Service Exam", mins:14,
@@ -241,8 +241,8 @@ floor:`<p>This is the Floor track's final boss. The Advanced practical is a shor
 analyst:`<p>Analyst-track students rarely face a service exam, but trade roles (sales reps, educators, brand ambassadors) demand the same composure presenting wine to buyers.</p>`,
 terms:[["Even pour","Dividing one bottle equally among all glasses at a table."],["Guéridon","Side table for decanting and service."]],
 quiz:[
-[2,"Pouring one 750 ml bottle of Champagne evenly for 8 guests gives about:","3 oz each",["5 oz each","1 oz each","6 oz each"],"25.4 oz ÷ 8."],
-[1,"If you aren't sure of a fact during service, the best move is to:","Say you'll check rather than invent an answer",["Guess confidently","Change the subject","Ignore the question"],"False confidence is penalized."],
+[2,"Pouring one 750 ml bottle of Champagne evenly for 8 guests gives about:","3 oz each",["5 oz each","1 oz each","6 oz each"],"A 750 ml bottle is 25.4 oz; divided among 8 guests that's about 3 oz each."],
+[1,"If you aren't sure of a fact during service, the best move is to:","Say you'll check rather than invent",["Guess confidently and move on","Change the subject to the food","Ask the guest what they think"],"False confidence is penalized."],
 [2,"Which category has historically appeared in the MS service exam beyond wine?","Cigars",["Coffee roasting","Cheese making","Tea ceremony"],"Along with spirits, beer and sake."],
 [1,"What do examiners watch when something goes wrong?","How calmly you recover",["Whether you apologize repeatedly","Whether you stop the exam","Nothing"],"Composure is scored."]
 ]});
@@ -273,7 +273,7 @@ floor:`<p>At Advanced and Master, the pool can include sparkling, sweet and fort
 analyst:`<p>Diploma D4 and D5 each include 3 wines blind. Expect to identify method, style, likely region and quality, with reasons.</p>`,
 terms:[["Autolytic","Aromas from yeast breakdown: brioche, toast, biscuit."],["Rancio","Nutty, oxidative, slightly cheesy character in aged fortified wines and spirits."]],
 quiz:[
-[2,"Fine mousse with brioche and toast points to:","Traditional method",["Tank method","Carbonation","Asti method"],"Autolysis."],
+[2,"Fine mousse with brioche and toast points to:","Traditional method",["Tank method","Carbonation","Asti method"],"Brioche and toast come from autolysis during long lees aging in the bottle."],
 [2,"Botrytis notes with very high acidity and orange peel suggest:","Tokaji Aszú",["Sauternes","Icewine","Vintage Port"],"Furmint's acid."],
 [2,"A sweet wine with searing acidity, caramel, nuts and smoke:","Madeira",["Ruby Port","Moscato d'Asti","Sauternes"],"Heat-aged and indestructible."],
 [1,"Dry, pale, tangy, saline and bready:","Fino or Manzanilla",["Oloroso","PX","Cream Sherry"],"Biological aging."],

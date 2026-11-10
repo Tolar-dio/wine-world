@@ -3,7 +3,7 @@ L.push({id:"sp1", unit:"F3", title:"Deep Dive: Champagne and Traditional-Method 
 summary:"Vineyard rules, pressing fractions, reserve wines, tirage to dosage in detail, and how other traditional-method regions compare.",
 body:`
 <h3>In the vineyard</h3>
-<p>About 34,000 ha across some 320 villages (crus). Permitted pruning systems: <b>Chablis</b> (mainly Chardonnay), <b>Cordon de Royat</b> (the most common), <b>Guyot</b> and <b>Vallée de la Marne</b> (for Meunier). Hand harvesting is mandatory because whole bunches must reach the press intact. The interprofessional body (the <b>Comité Champagne</b>, CIVC) sets the permitted yield each year according to the crop and the market, and allows some wine to be held in a <b>reserve</b> against bad years.</p>
+<p>About 34,000 ha across some 320 villages (crus). Permitted pruning systems: <b>Chablis</b> (mainly Chardonnay), <b>Cordon de Royat</b> (mainly Pinot Noir), <b>Guyot</b> and <b>Vallée de la Marne</b> (for Meunier). Hand harvesting is mandatory because whole bunches must reach the press intact. The interprofessional body (the <b>Comité Champagne</b>, CIVC) sets the permitted yield each year according to the crop and the market, and allows some wine to be held in a <b>reserve</b> against bad years.</p>
 <h3>Pressing</h3>
 <p>Presses sit near the vineyards; whole bunches are pressed gently and quickly so black grapes don't color the juice. A traditional <b>marc</b> of 4,000 kg yields at most 2,550 liters: the first 2,050 liters is the <b>cuvée</b> (purest, highest acid, finest) and the next 500 liters the <b>taille</b> (fruitier, more phenolic, often used by Meunier-heavy or early-drinking blends). Juice is then settled (débourbage).</p>
 <h3>Base wine and assemblage</h3>
@@ -31,12 +31,12 @@ analyst:`<p>D4 questions: explain the role of reserve wines; compare cuvée and 
 terms:[["Marc","A 4,000 kg load of grapes pressed in Champagne."],["Cuvée / taille","First 2,050 L and next 500 L of juice from a marc."],["Prise de mousse","Second fermentation creating bubbles in bottle."],["Sur lattes","Bottles aging horizontally on their lees."],["Gyropalette","Machine for automated riddling."],["Comité Champagne","Champagne's interprofessional body (CIVC)."]],
 quiz:[
 [2,"From a 4,000 kg marc, the cuvée is the first:","2,050 liters",["500 liters","2,550 liters","1,000 liters"],"The taille is the next 500 L."],
-[2,"Which pruning system is most common in Champagne?","Cordon de Royat",["Gobelet","Pergola","Scott Henry"],"Chablis, Guyot and Vallée de la Marne also allowed."],
+[2,"Which of these is a permitted pruning system in Champagne?","Cordon de Royat",["Gobelet","Pergola","Scott Henry"],"The four permitted systems are Chablis, Cordon de Royat, Guyot and Vallée de la Marne."],
 [2,"Liqueur de tirage contains about how much sugar to produce ~6 atmospheres?","About 24 g/L",["About 2 g/L","About 100 g/L","None"],"Plus yeast and riddling aids."],
-[2,"Minimum lees aging for Franciacorta (non-vintage)?","18 months",["9 months","12 months","36 months"],"Satèn 24."],
-[2,"Most rosé Champagne is made by:","Adding still red wine (assemblage)",["Saignée only","Carbonic maceration","Skin contact with white grapes"],"Allowed uniquely in Champagne."],
+[2,"Minimum lees aging for Franciacorta (non-vintage)?","18 months",["9 months","12 months","36 months"],"Franciacorta: NV 18 months on lees, Satèn and Rosé 24, Millesimato 30, Riserva 60."],
+[2,"Most rosé Champagne is made by:","Adding still red wine (assemblage)",["Saignée only","Carbonic maceration","Skin contact with white grapes"],"Champagne is the classic French appellation where blending red into white is the normal route to rosé."],
 [3,"A Methuselah holds:","6 liters",["3 liters","9 liters","15 liters"],"Eight standard bottles."],
-[3,"Why is hand harvesting mandatory in Champagne?","Whole bunches must reach the press intact",["Machines are banned in France","Tradition only","For organic certification"],"Prevents coloring and oxidation."]
+[3,"Why is hand harvesting mandatory in Champagne?","Whole bunches must reach the press intact",["Machine harvesters are banned across France","The tradition is protected by UNESCO","Organic certification requires hand picking"],"Prevents coloring and oxidation."]
 ]});
 
 L.push({id:"fo1", unit:"R3", title:"Deep Dive: Sherry Production, Pagos and Bodegas", mins:20,
@@ -72,10 +72,10 @@ quiz:[
 [2,"Which pago north of Jerez is among the most famous?","Macharnudo",["Paraje Altamira","Gualtallary","Brunate"],"Valdespino's Inocente."],
 [2,"Flor thrives at an alcohol level of about:","14.5-15.5%",["12%","17-18%","20%"],"Above about 17% it dies."],
 [2,"By law, an annual saca from the solera may not exceed:","40%",["10%","70%","100%"],"Usually done in smaller, frequent draws."],
-[2,"Why is Manzanilla's flor thicker?","Sanlúcar's humid, sea-cooled air",["Higher fortification","Different grape","Warmer temperatures"],"Lighter, saltier wine."],
-[2,"VORS Sherry is certified at an average age of at least:","30 years",["12 years","20 years","50 years"],"VOS is 20."],
-[3,"Montilla-Moriles Finos are often unfortified because:","PX reaches high enough natural alcohol",["Fortification is banned","They are sweet","They are aged in amphora"],"Hot inland climate."],
-[2,"Lustau's Almacenista range bottles:","Small stockholders' soleras",["Vintage Port","Brandy","Montilla"],"Unique, small-lot Sherries."]
+[2,"Why is Manzanilla's flor thicker?","Sanlúcar's humid, sea-cooled air",["Its wines are fortified higher","It uses a different grape","Its bodegas are warmer"],"Lighter, saltier wine."],
+[2,"VORS Sherry is certified at an average age of at least:","30 years",["12 years","20 years","50 years"],"VORS certifies an average age of 30 years or more; VOS, 20 or more."],
+[3,"Montilla-Moriles Finos are often unfortified because:","PX reaches high enough natural alcohol",["Fortification is banned there","They are bottled with sweetness","They are aged in clay tinajas"],"Hot inland climate."],
+[2,"Lustau's Almacenista range bottles:","Small stockholders' soleras",["Its own single-vineyard wines","Brandy de Jerez soleras","Montilla-Moriles PX"],"Unique, small-lot Sherries."]
 ]});
 
 L.push({id:"fo2", unit:"F3", title:"Deep Dive: Vins Doux Naturels and the Fortified World", mins:16,
@@ -102,12 +102,12 @@ analyst:`<p>D5 covers VDNs, Rutherglen and Marsala alongside Port, Sherry and Ma
 terms:[["Mutage","Adding spirit during fermentation to stop it."],["Rancio","Nutty, oxidative character from long aging in warm conditions."],["Grenat / Rimage","Young, reductive Grenache VDN styles bottled early."],["Topaque","Australian fortified Muscadelle."],["Mistelle","Grape juice fortified before fermentation."],["Bonbonne","Glass demijohn used to age VDNs outdoors."]],
 quiz:[
 [2,"Banyuls Grand Cru requires at least how long in wood?","30 months",["6 months","12 months","10 years"],"Grenache-based VDN."],
-[2,"Rutherglen's top classification tier is:","Rare (20+ years average)",["Grand","Classic","Superiore"],"Then Grand, Classic, Rutherglen."],
-[2,"A mistelle is:","Grape juice fortified before fermentation",["A Port style","A Sherry cask","A sparkling wine"],"Pineau des Charentes."],
-[2,"Marsala Vergine is:","Dry, unsweetened, aged 5+ years",["Sweet and young","Red only","Unfortified"],"Aged in perpetuum systems."],
+[2,"Rutherglen's top classification tier is:","Rare",["Grand","Classic","Superiore"],"Rare averages 20 years or more; below it sit Grand (11-19), Classic (6-10) and Rutherglen (3-5)."],
+[2,"A mistelle is:","Grape juice fortified before fermentation",["Wine fortified after fermentation","Spirit distilled from grape pomace","Wine sweetened with cooked must"],"Pineau des Charentes."],
+[2,"Marsala Vergine is:","Dry, unsweetened, aged 5+ years",["Sweet, young and deep amber","Red, sweet and aged one year","Unfortified and lightly sparkling"],"Aged in perpetuum systems."],
 [3,"Who popularized Marsala in 1773?","John Woodhouse",["Benjamin Ingham","Vincenzo Florio","Marco De Bartoli"],"English merchant."],
 [2,"Topaque is the Australian name for fortified:","Muscadelle",["Muscat","Sémillon","Grenache"],"Formerly called 'Tokay'."],
-[3,"Rimage on a Banyuls label signals:","A young, reductive, fruit-forward vintage style",["Long oxidative aging","Dry wine","A white VDN"],"Bottled early."]
+[3,"Rimage on a Banyuls label signals:","A young, reductive, fruit-forward vintage style",["Long oxidative aging in glass bonbonnes","A dry, unfortified red from old vines","A white VDN from Grenache Blanc and Gris"],"Bottled early."]
 ]});
 
 L.push({id:"biz1", unit:"S1", title:"Deep Dive: The Global Wine Business", mins:18,
@@ -141,8 +141,8 @@ terms:[["OIV","International Organisation of Vine and Wine."],["Ex-cellar price"
 quiz:[
 [1,"The three largest wine-producing countries are:","Italy, France and Spain",["USA, China and Australia","France, Chile and Argentina","Germany, Portugal and Italy"],"Order varies by year."],
 [1,"The largest consuming country by volume is:","The United States",["France","China","Italy"],"Per capita, Portugal leads."],
-[2,"Landed cost is the price:","After shipping, duties and taxes on arrival",["At the winery","On the restaurant list","At auction"],"Before importer margins."],
-[2,"Liv-ex is:","A fine-wine trading exchange that publishes price indices",["A Bordeaux négociant","A wine critic","A grape variety"],"Liv-ex Fine Wine 100."],
+[2,"Landed cost is the price:","After shipping, duties and taxes on arrival",["Paid to the producer at the winery","Printed on a restaurant wine list","Reached at a fine-wine auction"],"Before importer margins."],
+[2,"Liv-ex is:","A fine-wine exchange that publishes price indices",["A Bordeaux négociant on the Place","A critic's 100-point rating service","A London auction house for rare wine"],"Liv-ex Fine Wine 100."],
 [2,"Rudy Kurniawan was convicted in 2013 of:","Counterfeiting rare wines",["Tax evasion in Bordeaux","Smuggling Port","Price fixing in Champagne"],"A landmark fraud case."],
 [3,"Approximate world wine production in 2024 according to OIV estimates:","About 226 million hectoliters",["About 500 million hectoliters","About 50 million hectoliters","About 1 billion hectoliters"],"Among the smallest in decades."]
 ]});
@@ -170,11 +170,11 @@ floor:`<p>The digestif cart is a sommelier's high-margin moment. Know three amar
 analyst:`<p>The SWE's CSS and WSET spirits courses cover aromatized wines and liqueurs: definitions, flavoring methods (maceration, infusion, distillation) and key brands.</p>`,
 terms:[["Artemisia","Wormwood; the legally required flavoring in vermouth."],["Quinquina","Aromatized wine flavored with cinchona (quinine)."],["Amaro","Italian bitter herbal liqueur."],["Louche","Clouding of anise spirits when water is added."],["Maraschino","Clear liqueur from Marasca cherries."],["V.E.P.","Chartreuse's aged, extra-long-matured versions."]],
 quiz:[
-[1,"Vermouth must be flavored with:","Wormwood (Artemisia)",["Quinine","Juniper","Anise"],"From German Wermut."],
+[1,"Vermouth must be flavored with:","Wormwood (Artemisia)",["Cinchona (quinine)","Juniper berries","Star anise"],"From German Wermut."],
 [2,"Green Chartreuse is bottled at:","55%",["40%","30%","70%"],"Yellow is 40% and sweeter."],
-[2,"A quinquina is flavored with:","Cinchona bark (quinine)",["Artichoke","Gentian only","Coffee"],"Lillet, Byrrh, Dubonnet."],
+[2,"A quinquina is flavored with:","Cinchona bark (quinine)",["Artichoke leaves (cynarin)","Gentian root only","Roasted coffee beans"],"Lillet, Byrrh, Dubonnet."],
 [2,"Cynar is an amaro based on:","Artichoke",["Rhubarb","Saffron","Walnut"],"Italian digestif."],
-[2,"The louche in absinthe is caused by:","Anethole coming out of solution when water is added",["Sugar crystallizing","Thujone oxidizing","Chill haze"],"Clouding effect."],
-[3,"Noilly Prat ages part of its wine:","Outdoors in barrels at Marseillan",["Underground in Turin","In bonbonnes","Under flor"],"French dry vermouth."],
+[2,"The louche in absinthe is caused by:","Anethole coming out of solution",["Sugar crystallizing in the cold water","Thujone oxidizing on contact with air","Proteins forming a chill haze"],"Clouding effect."],
+[3,"Noilly Prat ages part of its wine:","Outdoors in barrels at Marseillan",["Underground in the cellars of Turin","In glass bonbonnes in the sun","Under a film of flor yeast"],"French dry vermouth."],
 [2,"Grand Marnier differs from Cointreau because it is:","Cognac-based",["Clear and neutral","Made from cherries","Bitter"],"Cointreau is a triple sec."]
 ]});

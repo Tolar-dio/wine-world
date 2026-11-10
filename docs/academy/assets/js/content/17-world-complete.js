@@ -31,7 +31,7 @@ analyst:`<p>Diploma themes: Santorini's viticulture (kouloura, ungrafted vines, 
 terms:[["Epilegmenos","Greek Reserve aging term."],["Nykteri","Santorini oak-aged dry white, at least 13.5%."],["Vinsanto (Santorini)","Sun-dried, oxidatively aged sweet Assyrtiko; 24+ months in oak."],["Malagousia","Greek white revived by Gerovassiliou."],["Negoska","Red grape required (20%+) in Goumenissa."]],
 quiz:[
 [2,"Naoussa PDO must be:","100% Xinomavro",["100% Agiorgitiko","Xinomavro and Negoska","Limnio and Cabernet"],"At least 1 year in oak."],
-[2,"Santorini Nykteri must have at least:","13.5% alcohol and 3 months in oak",["24 months oxidative aging","12% and no oak","Botrytis"],"Traditionally pressed at night."],
+[2,"Santorini Nykteri must have at least:","13.5% alcohol and 3 months in oak",["24 months of oxidative aging in oak","12% alcohol and no oak at all","Grapes affected by noble rot"],"Traditionally pressed at night."],
 [2,"Santorini Vinsanto age statements come in multiples of:","4 years",["5 years","10 years","2 years"],"Minimum 24 months in oak."],
 [2,"Mantinia is at least 85%:","Moschofilero",["Assyrtiko","Roditis","Malagousia"],"High plateau, aromatic."],
 [2,"Goumenissa requires more than 20%:","Negoska",["Krassato","Limnio","Mavrodaphne"],"With Xinomavro."],
@@ -49,7 +49,7 @@ body:`
 <p>The <b>EU amendment published March 2026</b> goes further: it ends the Dry Fordítás and Dry Máslás categories, <b>splits Szamorodni into Dry Szamorodni and Sweet Szamorodni</b>, sets 18 months of wood for Aszú and 6 months for Szamorodni, Fordítás and Máslás, makes hand harvesting mandatory for specialities, allows only traditional-method sparkling, and caps Eszencia at 6 L per 100 kg of aszú berries. Permitted grapes: Furmint, Hárslevelű, Kabar, Kövérszőlő, Sárga Muskotály, Zéta. Eszencia's actual alcohol is only about 1-3%.</p>
 <p>Terms: <b>Fordítás</b> (must or wine poured over aszú paste a second time), <b>Máslás</b> (wine aged on aszú lees). Famous first-class vineyards: Mézes Mály, Szarvas, Oremus, Király, Betsek. Producers: Royal Tokaji, Disznókő, Oremus (Vega Sicilia), Királyudvar, István Szepsy, Samuel Tinon.</p>
 <h3>Switzerland</h3>
-<ul><li><b>Valais</b> (about 4,600 ha; 55 permitted varieties): Petite Arvine, Amigne, Humagne Blanche and Rouge, <b>Cornalin</b> (Rouge du Pays), <b>Heida/Païen</b> (Savagnin, terraced above 1,100 m at Visperterminen), Fendant (Chasselas). <b>Dôle</b> is a Pinot Noir-Gamay blend (rules recently relaxed; check the current minimum). Valais Grand Cru is tied to a commune and single variety.</li>
+<ul><li><b>Valais</b> (about 4,600 ha; 55 permitted varieties): Petite Arvine, Amigne, Humagne Blanche and Rouge, <b>Cornalin</b> (Rouge du Pays), <b>Heida/Païen</b> (Savagnin, terraced above 1,100 m at Visperterminen), Fendant (Chasselas). <b>Dôle</b> is the Valais red blend led by Pinot Noir with Gamay (traditionally at least 85% of the two, Pinot dominant). Valais Grand Cru is tied to a commune and single variety.</li>
 <li><b>Vaud</b>: Chasselas (called Dorin here); 8 AOCs including Grand Cru <b>Dézaley</b> (about 54 ha) and <b>Calamin</b> (16 ha) in Lavaux, UNESCO since 2007.</li>
 <li><b>Geneva</b> (Chasselas is Perlan; Gamay, Gamaret), <b>Ticino</b> (Merlot), and German-speaking <b>Graubünden</b> (Pinot Noir in the Bündner Herrschaft).</li></ul>
 <h3>Croatia, Slovenia and North Macedonia</h3>
@@ -65,12 +65,12 @@ analyst:`<p>Diploma topics: Tokaj's regulatory evolution as a quality strategy; 
 terms:[["Szamorodni","Tokaji from whole bunches; now split into Dry and Sweet (2026)."],["Fordítás","Tokaji made by pouring wine over aszú paste a second time."],["Egri Csillag","Eger's white blend, 'Star of Eger.'"],["Kindzmarauli","Georgian naturally semi-sweet Saperavi."],["Mevushal","Flash-pasteurized kosher wine."],["Divin","Moldovan aged grape brandy GI."]],
 quiz:[
 [2,"The March 2026 Tokaj amendment splits Szamorodni into:","Dry and Sweet Szamorodni",["Aszú and Eszencia","Fordítás and Máslás","Classic and Reserve"],"It also ends Dry Fordítás and Dry Máslás."],
-[2,"Since 2013, 'Tokaji Aszú 6 puttonyos' requires at least:","150 g/L residual sugar",["120 g/L","90 g/L","450 g/L"],"120 g/L is the Aszú minimum."],
+[2,"Since 2013, 'Tokaji Aszú 6 puttonyos' requires at least:","150 g/L residual sugar",["120 g/L residual sugar","90 g/L residual sugar","450 g/L residual sugar"],"120 g/L is the Aszú minimum."],
 [2,"Hungary's most planted grape is:","Kékfrankos",["Furmint","Olaszrizling","Hárslevelű"],"Blaufränkisch."],
 [2,"Dézaley and Calamin are Grand Cru AOCs in:","Vaud (Lavaux)",["Valais","Ticino","Geneva"],"Chasselas terraces."],
 [3,"Grk on Korčula must be interplanted because:","It has only female flowers",["It is a hybrid","It is phylloxera-prone","It ripens too late"],"Needs a pollinator."],
 [2,"After April 2025, Georgia has how many PDOs?","32",["18","25","50"],"Lechkhumi and Racha added."],
-[2,"Khvanchkara is a naturally semi-sweet wine from:","Racha (Aleksandrouli and Mujuretuli)",["Kakheti (Saperavi)","Kartli (Chinuri)","Imereti (Tsolikouri)"],"No added sugar."],
+[2,"Khvanchkara is a naturally semi-sweet wine from:","Racha (Aleksandrouli and Mujuretuli)",["Kakheti (Saperavi and Rkatsiteli)","Kartli (Chinuri and Tavkveri)","Imereti (Tsolikouri and Tsitska)"],"No added sugar."],
 [2,"Commandaria requires at least:","2 years in oak",["6 months","10 years","No oak"],"Sun-dried Xynisteri and Mavro."]
 ]});
 
@@ -102,11 +102,11 @@ analyst:`<p>Diploma D3 adds North American depth: compare Oregon and Washington'
 terms:[["Jory","Volcanic basalt soil, Oregon's state soil."],["Laurelwood","Windblown loess soil in the Chehalem Mountains."],["The Rocks District","Oregon AVA of basalt cobbles near Walla Walla."],["Tidal Bay","Nova Scotia's appellation white blend."],["INAVI","Uruguay's national wine institute."]],
 quiz:[
 [2,"How many AVAs are nested in Oregon's Willamette Valley?","11",["6","3","23"],"Oregon has 23 in total."],
-[2,"Oregon requires a varietal wine to contain (for most grapes):","90% of the variety",["75%","85%","100%"],"18 varieties may use 75%."],
-[2,"Since January 2023, Willamette sub-AVA wines must also show:","'Willamette Valley'",["'Oregon'","Their soil type","Their elevation"],"OAR rule."],
+[2,"Oregon requires a varietal wine to contain (for most grapes):","90% of the variety",["75% of the variety","85% of the variety","100% of the variety"],"18 varieties may use 75%."],
+[2,"Since January 2023, Willamette sub-AVA wines must also show:","'Willamette Valley'",["'Oregon'","Their soil type","Their elevation"],"An Oregon rule: a Willamette sub-AVA label must also carry the name Willamette Valley."],
 [2,"Washington's 22nd AVA (2026) is:","Columbia Hills",["Beverly","The Burn","Red Mountain"],"Beverly was the 21st in 2024."],
-[2,"The first wine from outside California to score 100 points was:","Quilceda Creek 2002 Cabernet",["Leonetti 2001 Merlot","Cayuse En Cerise","Eyrie 1975"],"Washington."],
+[2,"The first wine from outside California to score 100 points was:","Quilceda Creek 2002 Cabernet",["Leonetti 2001 Merlot","Cayuse En Cerise","Eyrie 1975"],"The Wine Advocate gave Washington's Quilceda Creek 2002 Cabernet Sauvignon 100 points."],
 [2,"Canadian Icewine grapes must average at least:","35° Brix",["20° Brix","25° Brix","50° Brix"],"Each pressing at least 32°."],
-[2,"Tidal Bay wines are capped at:","11% abv",["9% abv","13% abv","14.5% abv"],"Nova Scotia."],
+[2,"Tidal Bay wines are capped at:","11% abv",["9% abv","13% abv","14.5% abv"],"Nova Scotia's Tidal Bay must be crisp, aromatic and no more than 11% alcohol."],
 [3,"Brazil's first DO (2012) was:","Vale dos Vinhedos",["Campanha","Serra Gaúcha","Pinto Bandeira"],"Merlot-led reds."]
 ]});

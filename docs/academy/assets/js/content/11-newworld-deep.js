@@ -5,14 +5,14 @@ body:`
 <h3>The big picture</h3>
 <p>California makes roughly 80% of US wine. Its geography repeats one pattern: the cold Pacific (and its fog) cools anything near the coast or connected to it by gaps and valleys; inland, temperatures climb fast. Read any AVA by asking how much ocean air reaches it.</p>
 <h3>Napa Valley</h3>
-<p>About 18,000 ha planted (around 4% of California's grapes), split into roughly sixteen nested sub-AVAs. Valley floor and benches, from cool south to hot north: <b>Los Carneros</b> (shared with Sonoma), <b>Coombsville</b> (cool, volcanic; Bordeaux varieties), <b>Oak Knoll District</b>, <b>Yountville</b>, <b>Stags Leap District</b> (volcanic, silky Cabernet: Stag's Leap Wine Cellars, Shafer, Clos du Val), <b>Oakville</b> (To Kalon vineyard, Robert Mondavi, Opus One, Screaming Eagle, Harlan just above), <b>Rutherford</b> (Inglenook, Beaulieu Georges de Latour, Caymus), <b>St. Helena</b>, <b>Calistoga</b> (hottest, volcanic). Mountains: <b>Mount Veeder</b>, <b>Spring Mountain District</b>, <b>Diamond Mountain District</b> (Diamond Creek), <b>Howell Mountain</b> (above the fog; Dunn, La Jota), <b>Atlas Peak</b>, plus <b>Chiles Valley</b> and <b>Wild Horse Valley</b>. Mountain fruit: smaller berries, firmer tannin, cooler days above the fog line but warmer nights.</p>
+<p>About 18,000 ha planted (around 4% of California's grapes), split into seventeen nested sub-AVAs (Crystal Springs of Napa Valley joined in 2024). Valley floor and benches, from cool south to hot north: <b>Los Carneros</b> (shared with Sonoma), <b>Coombsville</b> (cool, volcanic; Bordeaux varieties), <b>Oak Knoll District</b>, <b>Yountville</b>, <b>Stags Leap District</b> (volcanic, silky Cabernet: Stag's Leap Wine Cellars, Shafer, Clos du Val), <b>Oakville</b> (To Kalon vineyard, Robert Mondavi, Opus One, Screaming Eagle, Harlan just above), <b>Rutherford</b> (Inglenook, Beaulieu Georges de Latour, Caymus), <b>St. Helena</b>, <b>Calistoga</b> (hottest, volcanic). Mountains: <b>Mount Veeder</b>, <b>Spring Mountain District</b>, <b>Diamond Mountain District</b> (Diamond Creek), <b>Howell Mountain</b> (above the fog; Dunn, La Jota), <b>Atlas Peak</b>, plus <b>Chiles Valley</b>, <b>Wild Horse Valley</b> and the hillside <b>Crystal Springs of Napa Valley</b>. Mountain fruit: smaller berries, firmer tannin, cooler days above the fog line but warmer nights.</p>
 <p>History in names: Inglenook (Gustave Niebaum, 1880), Beaulieu and André Tchelistcheff, Heitz Martha's Vineyard (minty Cabernet that defined a style), Mondavi (1966), Chateau Montelena, Stag's Leap Wine Cellars. Cult era (1990s): Screaming Eagle, Harlan Estate, Bryant Family, Colgin, Araujo (now Eisele Vineyard).</p>
 <h3>Sonoma County</h3>
 <p>Larger and far more varied. Key AVAs: <b>Russian River Valley</b> (fog funnel; Chardonnay and Pinot: Williams Selyem, Rochioli, Kistler, Gary Farrell), <b>Green Valley</b> within it (coldest), <b>Sonoma Coast</b> and <b>West Sonoma Coast</b> (2022; extreme, ridge-top Pinot and Chardonnay above the fog: Flowers, Hirsch, Littorai, Peay), <b>Fort Ross-Seaview</b>, <b>Petaluma Gap</b> (2017; wind), <b>Sonoma Valley</b> and <b>Sonoma Mountain</b> (Hanzell, historic Chardonnay; Monte Rosso Zinfandel), <b>Dry Creek Valley</b> (Zinfandel), <b>Alexander Valley</b> (warm; Cabernet: Silver Oak's Alexander Valley bottling, Jordan), <b>Knights Valley</b>, <b>Chalk Hill</b>.</p>
 <h3>North of Sonoma</h3>
 <p><b>Mendocino</b>: <b>Anderson Valley</b> (cool; Pinot, Gewürztraminer, sparkling: Roederer Estate), Mendocino Ridge (Zinfandel). <b>Lake County</b>: high-elevation Cabernet and Sauvignon Blanc (Red Hills).</p>
 <h3>The Central Coast</h3>
-<ul><li><b>Santa Cruz Mountains</b>: Ridge Monte Bello (Cabernet; second in the 1976 Judgment, first in the 2006 rematch), Mount Eden (Chardonnay, Pinot), Rhys.</li>
+<ul><li><b>Santa Cruz Mountains</b>: Ridge Monte Bello (Cabernet; fifth among the reds at the 1976 Judgment of Paris, first in the 2006 thirty-year rematch), Mount Eden (Chardonnay, Pinot), Rhys.</li>
 <li><b>Monterey</b>: the cold Salinas Valley wind tunnel; <b>Santa Lucia Highlands</b> (Pinot, Chardonnay), <b>Chalone</b> (limestone, high), <b>Arroyo Seco</b>.</li>
 <li><b>Mount Harlan</b>: Calera's limestone Pinot Noir (Josh Jensen chose it for Burgundy-like soil).</li>
 <li><b>Paso Robles</b>: huge diurnal swings (often 40-50°F); split into <b>eleven sub-AVAs in 2014</b>, including Adelaida District (limestone, west side; Tablas Creek, Saxum, Justin) and Willow Creek District. Rhône varieties, Cabernet, Zinfandel.</li>
@@ -40,7 +40,7 @@ body:`
 <h3>History in a minute</h3>
 <p>Vines arrived with the First Fleet in 1788; James Busby brought hundreds of cuttings from Europe in the 1830s. German Lutheran settlers founded the Barossa in the 1840s. Phylloxera devastated Victoria in the late 1800s but never reached South Australia, which strict quarantine still protects: hence some of the world's oldest producing vines. The 20th century was mostly fortified wine; table wine boomed from the 1960s, exports from the 1980s (and the "critter label" era of the 2000s), followed by a turn toward regional, cooler, more restrained wines.</p>
 <h3>South Australia</h3>
-<ul><li><b>Barossa Valley</b>: warm; old-vine Shiraz, Grenache and Mataro (Mourvèdre). The <b>Barossa Old Vine Charter</b> classifies vines: Old Vine (35+ years), Survivor (70+), Centenarian (100+), Ancestor (125+). Torbreck, Rockford, Penfolds, Henschke's cousins, Seppeltsfield (centenary Tawny).</li>
+<ul><li><b>Barossa Valley</b>: warm; old-vine Shiraz, Grenache and Mataro (Mourvèdre). The <b>Barossa Old Vine Charter</b> classifies vines: Old Vine (35+ years), Survivor (70+), Centenarian (100+), Ancestor (125+). Torbreck, Rockford, Penfolds, Yalumba, Seppeltsfield (a 100-year-old Para Tawny released every year).</li>
 <li><b>Eden Valley</b>: higher and cooler; Riesling (Pewsey Vale), Henschke's <b>Hill of Grace</b> Shiraz.</li>
 <li><b>Clare Valley</b>: Polish Hill (slate, austere) and Watervale (limestone, fuller) Riesling; Grosset, Jim Barry, Kilikanoon.</li>
 <li><b>McLaren Vale</b>: maritime; Shiraz, Grenache, Mediterranean varieties (Fiano, Nero d'Avola); d'Arenberg, Yangarra, Wirra Wirra.</li>
@@ -48,7 +48,7 @@ body:`
 <li><b>Limestone Coast</b>: <b>Coonawarra</b> (a 15 x 2 km strip of terra rossa over limestone; Wynns, Balnaves), <b>Wrattonbully</b>, <b>Padthaway</b>.</li>
 <li><b>Langhorne Creek</b> (blending Shiraz and Cabernet), <b>Riverland</b> (bulk, irrigated).</li></ul>
 <h3>Victoria</h3>
-<p><b>Yarra Valley</b> (Pinot, Chardonnay, sparkling; Yarra Yering, Mount Mary, Giant Steps), <b>Mornington Peninsula</b> (maritime Pinot; Kooyong, Ten Minutes by Tractor), <b>Geelong</b> (By Farr), <b>Macedon Ranges</b> (Australia's coldest mainland region; Curly Flat, Bindi), <b>Heathcote</b> (Cambrian red soils; Shiraz; Jasper Hill), <b>Grampians/Great Western</b> (peppery Shiraz and sparkling red Shiraz; Best's, Seppelt), <b>Beechworth</b> (Giaconda Chardonnay), <b>Goulburn Valley/Nagambie Lakes</b> (Tahbilk's 1860 Marsanne and Shiraz vines), <b>Rutherglen</b> (fortified Muscat and Topaque).</p>
+<p><b>Yarra Valley</b> (Pinot, Chardonnay, sparkling; Yarra Yering, Mount Mary, Giant Steps), <b>Mornington Peninsula</b> (maritime Pinot; Kooyong, Ten Minutes by Tractor), <b>Geelong</b> (By Farr), <b>Macedon Ranges</b> (Australia's coldest mainland region; Curly Flat, Bindi), <b>Heathcote</b> (Cambrian red soils; Shiraz; Jasper Hill), <b>Grampians/Great Western</b> (peppery Shiraz and sparkling red Shiraz; Best's, Seppelt), <b>Beechworth</b> (Giaconda Chardonnay), <b>Goulburn Valley/Nagambie Lakes</b> (Tahbilk's 1860 Shiraz vines and 1927 Marsanne), <b>Rutherglen</b> (fortified Muscat and Topaque).</p>
 <h3>New South Wales and beyond</h3>
 <ul><li><b>Hunter Valley</b>: Australia's oldest region in continuous production; Sémillon (Tyrrell's Vat 1, Mount Pleasant Lovedale) and medium-bodied, earthy Shiraz.</li>
 <li><b>Orange</b> (high, cool, volcanic), <b>Mudgee</b>, <b>Canberra District</b> (Clonakilla's Shiraz-Viognier), <b>Hilltops</b>, <b>Tumbarumba</b> (sparkling base).</li>
@@ -65,12 +65,12 @@ analyst:`<p>Diploma D3: compare cool-climate and warm-climate Australian regions
 terms:[["Barossa Old Vine Charter","Classification of Barossa vines by age: Old Vine, Survivor, Centenarian, Ancestor."],["Langton's Classification","Private ranking of Australian fine wines."],["Gingin clone","Chardonnay clone with uneven 'hen and chicken' berries."],["Hill of Grace","Henschke's Eden Valley Shiraz vineyard."]],
 quiz:[
 [2,"A 'Centenarian' vine under the Barossa Old Vine Charter is at least:","100 years old",["35 years old","70 years old","125 years old"],"Ancestor is 125+."],
-[2,"Hill of Grace is in:","Eden Valley",["Barossa Valley","Clare Valley","McLaren Vale"],"Henschke."],
-[2,"Polish Hill and Watervale are sub-areas of:","Clare Valley",["Eden Valley","Yarra Valley","Coonawarra"],"Riesling."],
-[2,"Australia's coldest mainland wine region is:","Macedon Ranges",["Yarra Valley","Coonawarra","Orange"],"Victoria."],
-[2,"Noble One is a botrytis Sémillon from:","Riverina",["Hunter Valley","Barossa","Margaret River"],"De Bortoli."],
+[2,"Hill of Grace is in:","Eden Valley",["Barossa Valley","Clare Valley","McLaren Vale"],"Henschke's Hill of Grace is a single Eden Valley vineyard with vines planted in the 1860s."],
+[2,"Polish Hill and Watervale are sub-areas of:","Clare Valley",["Eden Valley","Yarra Valley","Coonawarra"],"Clare Valley's two classic Riesling subregions: Polish Hill (slate, austere) and Watervale (limestone, softer)."],
+[2,"Australia's coldest mainland wine region is:","Macedon Ranges",["Yarra Valley","Coonawarra","Orange"],"Macedon Ranges in Victoria: high and cold, best known for sparkling, Pinot Noir and Chardonnay."],
+[2,"Noble One is a botrytis Sémillon from:","Riverina",["Hunter Valley","Barossa","Margaret River"],"De Bortoli Noble One, first made in 1982 in Riverina, New South Wales."],
 [3,"Great Southern has how many subregions?","Five",["Two","Three","Eight"],"Frankland River, Mount Barker, Porongurup, Denmark, Albany."],
-[2,"Why do South Australia's vines survive ungrafted?","Phylloxera never arrived, protected by quarantine",["Volcanic soils","Sandy soils everywhere","A dry climate kills aphids"],"Some vines date to the 1840s."]
+[2,"Why do South Australia's vines survive ungrafted?","Phylloxera never arrived, protected by quarantine",["Volcanic soils that the louse can't cross","Deep sand in every major region","A dry climate that kills the aphid"],"Some vines date to the 1840s."]
 ]});
 
 L.push({id:"r15c", unit:"R5", title:"Deep Dive: New Zealand North to South", mins:16,
@@ -99,8 +99,8 @@ quiz:[
 [2,"Which Marlborough subregion is higher, cooler and windier?","Awatere Valley",["Wairau Valley","Southern Valleys","Waipara"],"Herbal, saline Sauvignon."],
 [2,"Kumeu River is famous for:","Chardonnay",["Sauvignon Blanc","Syrah","Riesling"],"Auckland region."],
 [2,"Felton Road is in which Central Otago subregion?","Bannockburn",["Gibbston","Wanaka","Alexandra"],"Warm sun-trap."],
-[2,"The Gimblett Gravels were nearly lost to:","A gravel-quarry plan",["Phylloxera","Flooding","Urban housing"],"1980s; now prime Syrah land."],
-[1,"NZ's mass move to screwcaps began with a 2001:","Screwcap Wine Seal Initiative",["Government law","EU requirement","Cork shortage"],"Industry-led."],
+[2,"The Gimblett Gravels were nearly lost to:","A gravel-quarry plan",["A phylloxera outbreak","A flood-control dam","A housing estate"],"1980s; now prime Syrah land."],
+[1,"NZ's mass move to screwcaps began with a 2001:","Screwcap Wine Seal Initiative",["Act of Parliament on closures","European Union import rule","Shortage of Portuguese cork"],"An industry-led initiative; within a few years almost all New Zealand wine was under screwcap."],
 [3,"Martinborough is in which wider region?","Wairarapa",["Hawke's Bay","Nelson","Canterbury"],"Old river terrace."]
 ]});
 
@@ -129,13 +129,13 @@ floor:`<p>Argentina's and Chile's top wines compete with Bordeaux and Napa at lo
 analyst:`<p>Diploma D3: explain how altitude, irrigation and diurnal range shape Argentine styles; describe Chile's east-west zoning; discuss the revival of heritage grapes (País, Criolla, Cinsault) as market differentiation.</p>`,
 terms:[["Caliche","Calcareous crust in Uco Valley soils."],["Paraje Altamira","Recognized geographic indication in San Carlos, Uco Valley."],["Bonarda","Argentina's second most planted red (Douce Noir)."],["VIGNO","Chilean association for dry-farmed old-vine Carignan from Maule."],["País","Chile's historic Mission grape."]],
 quiz:[
-[2,"South America's first DOC was:","Luján de Cuyo",["Uco Valley","Maipo","Cafayate"],"Mendoza."],
+[2,"South America's first DOC was:","Luján de Cuyo",["Uco Valley","Maipo","Cafayate"],"Luján de Cuyo in Mendoza was recognized as a DOC in 1993."],
 [2,"Gualtallary is in which Uco Valley department?","Tupungato",["Tunuyán","San Carlos","Maipú"],"High-altitude Chardonnay and Malbec."],
 [2,"Argentina's second most planted red is:","Bonarda",["Cabernet Sauvignon","Syrah","Tannat"],"Douce Noir in Savoie."],
 [2,"Malbec was brought to Argentina in 1853 by:","Michel Aimé Pouget",["Nicolás Catena","Michel Rolland","Paul Hobbs"],"A French agronomist."],
 [2,"VIGNO requires old, dry-farmed:","Carignan from Maule",["País from Itata","Carmenère from Colchagua","Cabernet from Maipo"],"Vignadores de Carignan."],
-[2,"Almaviva is a partnership between Concha y Toro and:","Baron Philippe de Rothschild (Mouton)",["Château Margaux","Robert Mondavi","Torres"],"Puente Alto, Maipo."],
-[3,"Limarí is best known for:","Limestone-grown Chardonnay",["Old-vine Carignan","Sweet Moscatel","Sparkling Pinot"],"Coquimbo region."]
+[2,"Almaviva is a partnership between Concha y Toro and:","Baron Philippe de Rothschild (Mouton)",["Château Margaux (Mentzelopoulos)","Robert Mondavi (Napa Valley)","Familia Torres (Penedès)"],"Puente Alto, Maipo."],
+[3,"Limarí is best known for:","Limestone-grown Chardonnay",["Old-vine dry-farmed Carignan","Sweet fortified Moscatel","Sparkling Pinot Noir"],"Coquimbo region."]
 ]});
 
 L.push({id:"r17b", unit:"R5", title:"Deep Dive: South Africa's Wine of Origin Map", mins:16,
@@ -162,10 +162,10 @@ floor:`<p>South African Chenin is one of the best values in wine: old-vine Swart
 analyst:`<p>Diploma D3: explain the WO hierarchy, the influence of the Benguela Current and Cape Doctor, the KWV's legacy, and the Old Vine Project as a market and heritage strategy.</p>`,
 terms:[["KWV","Cooperative that controlled South African wine pricing and quotas for much of the 20th century."],["Ward","Smallest Wine of Origin unit."],["Old Vine Project","Certification of vineyards 35+ years old."],["Cape Blend","Red blend with a meaningful share of Pinotage."],["Swartland Independent Producers","Growers' group pledging minimal-intervention winemaking."]],
 quiz:[
-[2,"Order the WO hierarchy from largest to smallest:","Geographical Unit, Region, District, Ward",["Region, Ward, District, Unit","District, Region, Ward, Unit","Ward, District, Region, Unit"],"Wards are the smallest."],
+[2,"Order the WO hierarchy from largest to smallest:","Geographical Unit, Region, District, Ward",["Region, Ward, District, Geographical Unit","District, Region, Ward, Geographical Unit","Ward, District, Region, Geographical Unit"],"Wards are the smallest."],
 [2,"The Old Vine Project certifies vineyards at least:","35 years old",["20 years old","50 years old","100 years old"],"Planting date appears on the label."],
-[2,"Hemel-en-Aarde is best known for:","Pinot Noir and Chardonnay",["Pinotage","Fortified wines","Chenin Blanc only"],"Walker Bay district."],
-[2,"Meerlust Rubicon is a:","Bordeaux-style blend from Stellenbosch",["Pinotage","Sweet Muscat","Sparkling wine"],"A South African classic."],
-[3,"A 'Cape Blend' typically includes:","A meaningful share of Pinotage",["Only Cabernet","Chenin and Viognier","No red grapes"],"Informal term."],
+[2,"Hemel-en-Aarde is best known for:","Pinot Noir and Chardonnay",["Pinotage and Cinsault","Fortified Muscadel","Chenin Blanc and Colombard"],"Walker Bay district."],
+[2,"Meerlust Rubicon is a:","Bordeaux-style blend from Stellenbosch",["Single-vineyard Pinotage from Paarl","Sweet fortified Muscadel from Robertson","Cap Classique sparkling from Elgin"],"A South African classic."],
+[3,"A 'Cape Blend' typically includes:","A meaningful share of Pinotage",["Only Bordeaux varieties","Chenin Blanc and Viognier","No Pinotage at all"],"Informal term."],
 [2,"Constantia was founded in 1685 by:","Simon van der Stel",["Jan van Riebeeck","Cecil Rhodes","Charles Back"],"Van Riebeeck made the first wine in 1659."]
 ]});

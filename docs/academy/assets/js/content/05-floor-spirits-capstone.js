@@ -29,7 +29,7 @@ terms:[["Underliner","Small plate placed under bottles, corks and decanters."],[
 quiz:[
 [1,"Where is the foil cut on a still wine bottle?","Below the second lip",["Above the first lip","Fully removed","Not cut at all"],"Keeps wine from contacting foil when pouring."],
 [1,"How much wine is poured for the host's taste?","About 1-1.5 oz",["A full glass","Half a glass","A few drops"],"Enough to judge soundness."],
-[2,"In the CMS Americas standard, after the host approves, service proceeds:","Clockwise regardless of gender, guest of honor first, host last",["Ladies first, then gentlemen, host last","Host first, then clockwise","Counterclockwise from the host"],"The ladies-first ordering was dropped in the Americas."],
+[2,"In the CMS Americas standard, after the host approves, service proceeds:","Clockwise regardless of gender, host last",["Ladies first, then gentlemen, host last","Host first, then clockwise around the table","Counterclockwise from the host, eldest first"],"The ladies-first ordering was dropped in the Americas."],
 [1,"From which side is wine served?","The guest's right",["The guest's left","Whichever is closest","From behind"],"Standard beverage side."],
 [2,"What happens with a screwcap closure?","It is not presented to the host",["It's presented on an underliner","It's placed in the glass","It's given to the guest of honor"],"Synthetic corks, by contrast, are presented like natural corks."],
 [1,"Still wine is poured to about:","Half the glass",["Three-quarters","The brim","One-quarter only"],"Leaves room to swirl."]
@@ -41,7 +41,7 @@ body:`
 <h3>Sparkling wine service</h3>
 <p>A Champagne bottle holds about 5-6 atmospheres of pressure, roughly triple a car tire. A loose cork can blind someone. Every rule here is safety first, elegance second.</p>
 <ol><li>Present the bottle (chilled, about 42-50°F) on a serviette.</li>
-<li>Cut the foil below the cage (pull tab allowed but not preferred). Pocket the foil.</li>
+<li>Cut the foil below the cage with the blade of your corkscrew (the 2025 Court standard: never the pull tab). Pocket the foil.</li>
 <li>Place a serviette and your thumb over the cage <b>and keep it there from now on</b>.</li>
 <li>Loosen the cage (six half-turns) but leave it on the cork.</li>
 <li>Hold the bottle at about 45°, pointed away from guests, and <b>twist the bottle, not the cork</b>.</li>
@@ -64,11 +64,11 @@ analyst:`<p>WSET wants the reasons: decant to remove sediment from aged reds or 
 terms:[["Cage (muselet)","Wire cage holding a sparkling wine cork."],["Cradle","Basket holding a bottle on its side for decanting."],["Ullage","Air space between wine and cork; low ullage suggests poor storage."],["Double decanting","Decanting, rinsing the bottle, and returning the wine to it."]],
 quiz:[
 [1,"When opening sparkling wine, you should twist:","The bottle, not the cork",["The cork, not the bottle","Both together","The cage only"],"Gives control over the cork's release."],
-[1,"Sparkling wine glasses are filled to no more than:","Three-quarters, in two pours",["Half","The brim","One-quarter"],"The second pour after the mousse settles."],
-[2,"During decanting, when do you stop pouring?","When sediment reaches the bottle's shoulder",["When the bottle is empty","After exactly half","When the candle flickers"],"Never look away from the shoulder."],
-[1,"What does a sommelier place on the guéridon for decanting?","Decanter, light source, serviettes, underliners, cradle",["Ice bucket and tongs","Corkscrew only","Tray of glasses"],"From the CMS standard."],
-[2,"Why keep a thumb on the cage at all times?","The cork can fire out under about 6 atmospheres of pressure",["To warm the wine","To hide the label","It's tradition only"],"Safety first."],
-[3,"'Low shoulder' ullage in an old Bordeaux suggests:","Possible poor storage or oxidation risk",["Excellent provenance","A sparkling wine","Cork taint"],"Into neck or high shoulder is preferable."]
+[1,"Sparkling wine glasses are filled to no more than:","Three-quarters, in two pours",["Half full, in a single pour","The brim, in three pours","One-quarter, in a single pour"],"The second pour after the mousse settles."],
+[2,"During decanting, when do you stop pouring?","When sediment reaches the bottle's shoulder",["When the bottle is completely empty","When exactly half has been poured","When the candle flame starts to flicker"],"Never look away from the shoulder."],
+[1,"What does a sommelier place on the guéridon for decanting?","Decanter, light, serviettes, underliners, cradle",["Ice bucket, tongs, serviettes and a tray","Corkscrew, foil cutter and a wine key only","Tray of glasses, water jug and spittoon"],"From the CMS standard."],
+[2,"Why keep a thumb on the cage at all times?","The cork can fire out under about 6 atmospheres",["It keeps the neck of the bottle warm","It hides the label until the pour","It is a tradition with no safety purpose"],"A flying cork can blind a guest. The thumb stays on from the moment the cage is loosened."],
+[3,"'Low shoulder' ullage in an old Bordeaux suggests:","Possible poor storage or oxidation risk",["Excellent provenance and storage","A wine bottled with extra headspace","Certain cork taint in the wine"],"Into neck or high shoulder is preferable."]
 ]});
 
 L.push({id:"s3", unit:"S1", title:"Storage, Temperature and Glassware", mins:12,
@@ -101,11 +101,11 @@ floor:`<p>Temperatures are frequently tested at Introductory and Certified. Memo
 analyst:`<p>WSET Level 3 short answers often end with a service question worth 2 marks: "Recommend a serving temperature and glass for this wine." Give a specific range.</p>`,
 terms:[["Light strike","Sulfurous fault from UV exposure."],["ISO glass","Standardized tasting glass."],["Coravin","Needle-based preservation system for pouring without pulling the cork."]],
 quiz:[
-[1,"Ideal long-term cellar temperature:","50-60°F (10-15°C), constant",["35-40°F","68-72°F","Below freezing"],"Constancy matters most."],
+[1,"Ideal long-term cellar temperature:","50-60°F (10-15°C), constant",["35-40°F (2-4°C), constant","68-72°F (20-22°C), constant","Any temperature that changes slowly"],"Constancy matters most."],
 [1,"Spirits and fortified wines should be stored:","Upright",["On their side","Upside down","In the freezer"],"High alcohol degrades cork."],
 [2,"The CMS serving temperature for full-bodied reds:","58-65°F",["42-50°F","50-55°F","68-72°F"],"Medium-bodied reds are 55-62°F."],
 [2,"The CMS serving temperature for lagers:","40-45°F",["50-55°F","35°F","55-62°F"],"Stouts and porters are warmer at 50-55°F."],
-[2,"Why store wine away from light?","UV causes light strike, creating sulfurous off-aromas",["Light speeds tartrate formation","Light causes Brett","It doesn't matter"],"Clear glass is most vulnerable."],
+[2,"Why store wine away from light?","UV light causes sulfurous 'light strike'",["Light speeds up tartrate formation","Light encourages Brettanomyces","Light dries out the cork over time"],"Clear glass is most vulnerable."],
 [1,"Which wine should be served at 48-55°F according to the CMS chart?","Dry Fino Sherry",["Vintage Port","Full-bodied red","Lager"],"Dry Sherry and dry Madeira."]
 ]});
 
@@ -137,13 +137,13 @@ floor:`<p>Practice the 20-second pitch for every Certified examinable wine. Upse
 analyst:`<p>WSET Level 3 LO5 expects the full table of food and wine interactions, including the effect of umami, salt, bitterness and chili. Answer pairing questions by naming the component, the effect, and the resulting choice.</p>`,
 terms:[["Umami","Savory taste; makes wine seem harder and more tannic."],["Complement","Pairing by similar flavors."],["Contrast","Pairing by opposing components (salt and sweet)."]],
 quiz:[
-[1,"Sweet food makes a dry wine taste:","More acidic and bitter, less fruity",["Sweeter","Softer","More alcoholic only"],"Wine must be at least as sweet as the dish."],
+[1,"Sweet food makes a dry wine taste:","More acidic and bitter, less fruity",["Sweeter, softer and rounder","Softer and less tannic","More alcoholic and warming"],"Wine must be at least as sweet as the dish."],
 [1,"Which food component makes wine taste softer and less bitter?","Salt",["Sweetness","Umami","Bitterness"],"Salt is the easiest component to pair."],
-[2,"Chili heat in food amplifies which wine elements?","Alcohol burn, tannin and bitterness",["Sweetness and fruit","Acidity only","Nothing"],"Pick low-alcohol, off-dry wines."],
+[2,"Chili heat in food amplifies which wine elements?","Alcohol burn, tannin and bitterness",["Sweetness and ripe fruit","Acidity and freshness only","Body and length of finish"],"Pick low-alcohol, off-dry wines."],
 [2,"Umami-rich dishes pair best with:","Low-tannin, fruity wines",["Highly tannic young reds","Bone-dry Fino only","Oaky Chardonnay always"],"Umami hardens tannin."],
 [1,"The classic pairing for Stilton is:","Vintage Port",["Muscadet","Beaujolais","Prosecco"],"Contrast of salt and sweet."],
-[2,"Acidity in food makes wine taste:","Less acidic, fruitier",["More acidic","More tannic","More bitter"],"So the wine needs at least as much acid as the food."],
-[2,"A good wine for spicy Thai green curry:","Off-dry German Riesling Kabinett",["Barossa Shiraz","Amarone","Young Barolo"],"Low alcohol, sweetness and acid tame the heat."]
+[2,"Acidity in food makes wine taste:","Less acidic, fruitier",["More acidic and thinner","More tannic and drier","More bitter and hot"],"So the wine needs at least as much acid as the food."],
+[2,"A good wine for spicy Thai green curry:","Off-dry German Riesling Kabinett",["Barossa Shiraz at 15% alcohol","Amarone della Valpolicella","Young, tannic Barolo"],"Low alcohol, sweetness and acid tame the heat."]
 ]});
 
 L.push({id:"s5", unit:"S1", title:"The Business of the Sommelier", mins:15,
@@ -177,11 +177,11 @@ analyst:`<p>Diploma D2 (Wine Business, 10% of the Diploma) covers route to marke
 terms:[["COGS","Beginning inventory + purchases - ending inventory."],["Cost percentage","COGS divided by sales."],["Pour cost","Cost per pour divided by the glass price."],["Par level","Target stock level for an item."],["FIFO","First in, first out inventory rotation."]],
 quiz:[
 [2,"Bottle cost $30, 5 pours per bottle, 33% pour cost. Price per glass?","About $18",["About $10","About $25","About $6"],"$6 per pour / 0.33 = $18.18. From the CMS Certified exam guide style."],
-[1,"COGS equals:","Beginning inventory + purchases - ending inventory",["Sales - purchases","Purchases only","Ending inventory - beginning inventory"],"The core formula."],
+[2,"Beginning inventory $30,000, purchases $10,000, ending inventory $28,000. COGS is:","$12,000",["$8,000","$48,000","$68,000"],"COGS = beginning inventory + purchases - ending inventory = 30,000 + 10,000 - 28,000. Cost % = COGS ÷ sales."],
 [2,"Which scenario lowers reported COGS?","Overstating ending inventory",["Understating ending inventory","Buying more wine","Selling more wine at cost"],"A counting error that flatters margins."],
-[2,"A bottle costs $20. At a 25% target cost, the list price is:","$80",["$45","$25","$100"],"$20 / 0.25."],
+[2,"A bottle costs $20. At a 25% target cost, the list price is:","$80",["$45","$25","$100"],"List price = cost ÷ target cost percentage: $20 ÷ 0.25 = $80."],
 [1,"How many ounces in a standard 750 ml bottle?","25.4",["12.7","33.8","16"],"375 ml is 12.7 oz."],
-[3,"On a wine list, 'Château Margaux, Pauillac' is an error because:","Château Margaux is in the Margaux appellation",["It's a white wine","It doesn't exist","It's in Pomerol"],"A typical CMS list-correction item."]
+[3,"On a wine list, 'Château Margaux, Pauillac' is an error because:","Château Margaux is in the Margaux appellation",["Château Margaux makes only white wine","Château Margaux is a second wine","Château Margaux is in Pomerol"],"A typical CMS list-correction item."]
 ]});
 
 // ---------- S2 BEYOND WINE ----------
@@ -217,8 +217,8 @@ quiz:[
 [1,"Bourbon must be at least 51%:","Corn",["Rye","Wheat","Malted barley"],"And aged in new charred oak."],
 [2,"Minimum aging for Scotch whisky:","3 years in oak",["2 years","No minimum","10 years"],"Irish whiskey also needs 3 years."],
 [2,"Reposado tequila is aged:","2-12 months",["Under 2 months","1-3 years","3+ years"],"Añejo 1-3 years."],
-[2,"Which Cognac cru is considered finest?","Grande Champagne",["Fins Bois","Borderies","Bons Bois"],"Chalky soils."],
-[3,"Since 2018, minimum age for XO Cognac is:","10 years",["6 years","4 years","20 years"],"Previously 6."],
+[2,"Which Cognac cru is considered finest?","Grande Champagne",["Fins Bois","Borderies","Bons Bois"],"Grande Champagne's chalky soils give the finest, longest-aging eaux-de-vie."],
+[3,"Since 2018, minimum age for XO Cognac is:","10 years",["6 years","4 years","20 years"],"The XO minimum rose from 6 to 10 years in April 2018."],
 [2,"Islay single malts are known for:","Peat smoke",["Sherry sweetness only","Corn sweetness","Agave notes"],"Laphroaig, Lagavulin, Ardbeg."]
 ]});
 
@@ -249,11 +249,11 @@ terms:[["Ale","Beer from top-fermenting yeast at warmer temperatures."],["Lager"
 quiz:[
 [1,"Lager yeast ferments:","Cold, bottom-fermenting",["Warm, top-fermenting","Spontaneously","With koji"],"S. pastorianus."],
 [2,"Daiginjo sake requires rice polished to at most:","50% remaining",["70%","60%","90%"],"Ginjo is 60%; Honjozo 70%."],
-[2,"Junmai means:","No added brewer's alcohol",["Unpasteurized","Cloudy","Aged"],"Pure rice, water, koji, yeast."],
-[1,"Pilsner was first brewed in:","Plzeň, Czech Republic",["Munich","Dublin","Brussels"],"1842."],
-[2,"Lambic beer is fermented with:","Wild airborne yeast and bacteria",["Lager yeast only","Koji","Champagne yeast"],"Senne valley, Belgium."],
+[2,"Junmai means:","No added brewer's alcohol",["Never pasteurized","Coarsely filtered","Aged for years"],"Pure rice, water, koji, yeast."],
+[1,"Pilsner was first brewed in:","Plzeň, Czech Republic",["Munich, Germany","Dublin, Ireland","Brussels, Belgium"],"The first pale lager was brewed in Plzeň (Pilsen), Bohemia, in 1842."],
+[2,"Lambic beer is fermented with:","Wild airborne yeast and bacteria",["Bottom-fermenting lager yeast","Koji mold and sake yeast","Champagne yeast in the bottle"],"Senne valley, Belgium."],
 [2,"Sake's simultaneous starch conversion and fermentation is called:","Multiple parallel fermentation",["Malolactic conversion","Carbonic maceration","Secondary fermentation"],"Koji and yeast work together."],
-[3,"Nigori sake is:","Coarsely filtered and cloudy",["Unpasteurized","Undiluted","Aged for years"],"Namazake is unpasteurized; Genshu undiluted."]
+[3,"Nigori sake is:","Coarsely filtered and cloudy",["Unpasteurized and fresh","Undiluted and strong","Aged for several years"],"Namazake is unpasteurized; Genshu undiluted."]
 ]});
 
 L.push({id:"b3", unit:"S2", title:"Cocktails, Apéritifs and Digestifs", mins:12,
@@ -318,7 +318,7 @@ quiz:[
 [2,"Leather, forest floor and dried fruit in a red are:","Tertiary",["Primary","Secondary","Faults"],"From bottle age."],
 [2,"Writing only 'drink now' as readiness earns:","No mark",["Full marks","Half marks","A bonus"],"You must use the full SAT phrase."],
 [1,"Which is NOT part of BLIC?","Color",["Balance","Length","Complexity"],"Color is observed but doesn't define quality."],
-[3,"At the Diploma, 'The Wine in Context' asks for:","Origin, variety, style or similar contextual conclusions",["A food pairing","The serving temperature","A retail price only"],"Added beyond the Level 3 conclusions."]
+[3,"At the Diploma, 'The Wine in Context' asks for:","Origin, variety or style, with reasons",["A food pairing and service advice","The serving temperature and glass","A retail price and a critic's score"],"Added beyond the Level 3 conclusions."]
 ]});
 
 L.push({id:"a2", unit:"A1", title:"Answering 25-Mark Questions", mins:14,
@@ -348,7 +348,7 @@ body:`
 <li>Write in short, dense sentences; bullet points are acceptable.</li>
 <li>Name specific examples (a region, a grape, a producer) to anchor each point.</li>
 <li>Time: about 15-17 minutes per 25-mark question within the 2-hour paper.</li></ul>`,
-floor:`<p>The Advanced theory exam includes short-answer questions. CMS Europe's Advanced paper is 24 multiple-choice and 60 short-answer questions in one hour, so the CMS style rewards fast, precise facts rather than long explanations.</p>`,
+floor:`<p>The Court never asks for essays. Certified theory mixes multiple choice with one-line short answers; the Americas Advanced paper is about 115 computer-marked questions in an hour. The CMS style rewards fast, exact facts. Practice the 25-mark form anyway: explaining why is how facts stick.</p>`,
 analyst:`<p>Use the Exam Hall's short-answer practice. You'll write an answer, then reveal the marking points and score yourself honestly. Your self-marks are saved so you can see improvement.</p>`,
 terms:[["Command word","The instruction verb (identify, describe, explain, compare) that sets what earns marks."],["Cause-and-effect chain","Factor + mechanism + result in the glass."]],
 quiz:[
@@ -366,7 +366,7 @@ body:`
 <h3>The 2024 CMS Advanced/Master format</h3>
 <p><b>Sight:</b> clarity, intensity, color, secondary hues, rim variation and staining (reds), tearing, gas. <b>Nose:</b> faults if present; intensity; age (youthful, developing, vinous); fruit and its condition; non-fruit from the grape; non-fruit from winemaking; earth; mineral; oak (yes/no, intensity, descriptors, type). <b>Palate:</b> sweetness, acid, alcohol, body, phenolic bitterness (whites), tannin volume and texture (reds), texture; confirm fruit and non-fruit; balance; length; complexity. <b>Initial conclusion:</b> possible grapes, climate, countries, age range. <b>Final conclusion:</b> grape or blend, country, region and appellation, official quality level, style category, one vintage.</p>
 <h3>A spoken example (abbreviated)</h3>
-<p class="mono">"Wine one. Clear, medium-minus intensity, ruby core moving to garnet, slight rim variation, light staining, medium tearing, no gas. Nose is clean, medium-plus intensity, developing. Red fruit: tart and dried cherry, cranberry, red plum. Non-fruit: dried rose, tar, licorice, dried herbs. Earth: dried leaves, potting soil. Mineral: no. Oak: no new oak, large old cask. Palate is dry, acid high, alcohol medium-plus, body medium-plus, tannin high and slightly gritty. Fruit confirms. Balanced, long, complex. Initially: Nebbiolo or Sangiovese, moderate climate, Old World, Italy, 5 to 10 years. Finally: Nebbiolo, Italy, Piedmont, Barolo DOCG, 2016."</p>
+<p class="mono">"Wine one. Clear, medium-minus intensity, ruby core moving to garnet, slight rim variation, light staining, medium tearing, no gas. Nose is clean, medium-plus intensity, developing. Red fruit: tart and dried cherry, cranberry, red plum. Non-fruit: dried rose, tar, licorice, dried herbs. Earth: dried leaves, potting soil. Mineral: no. Oak: no new oak, large old cask. Palate is dry, acid high, alcohol medium-plus, body medium-plus, tannin high and slightly gritty. Fruit confirms. Balanced, long, complex. Initially: Nebbiolo or Sangiovese, moderate climate, Italy, 5 to 10 years. Finally: Nebbiolo, Italy, Piedmont, Barolo DOCG, 2016."</p>
 <h3>How candidates train</h3>
 <ul><li>Taste blind in groups 2-3 times a week, rotating the pourer.</li>
 <li>Always run the clock: 4 minutes per wine.</li>
@@ -376,11 +376,11 @@ body:`
 <li>Use a fixed vocabulary; consistency is speed.</li></ul>
 <h3>The pass bar</h3>
 <p>60% in each section at Advanced (theory, tasting, practical) within the same calendar year; about a quarter of candidates historically pass. The Master Sommelier Diploma requires 75% in each section; theory must be passed first, and the remaining sections within three years. Typically 5-10 years from first CMS exam to the MS title.</p>`,
-floor:`<p>Use the Tasting Lab's "Verbal Six" timed mode: 6 virtual wines, 25 minutes, with a speaking timer per wine. Then do the same with real wines and the CMS grid on the form.</p>`,
+floor:`<p>Use the Tasting Lab's "Verbal Six" timed mode: 6 virtual wines, 25 minutes, against one 25-minute clock: budget about four minutes a wine and say every line aloud. Then do the same with real wines and the CMS grid on the form.</p>`,
 analyst:`<p>Diploma D3 tasting is 12 wines across two 90-minute papers, written, with an emphasis on justified conclusions. The MW's three 12-wine papers ask about variety, origin, winemaking, quality, style and commercial position.</p>`,
 terms:[["Verbal tasting","Spoken deductive tasting before examiners (CMS Advanced and Master)."],["Vinous","Wine whose primary fruit has given way to age-derived character."]],
 quiz:[
-[1,"How many wines and how long in the CMS Advanced/Master tasting exam?","6 wines in 25 minutes",["4 wines in 45 minutes","12 wines in 3 hours","2 wines in 30 minutes"],"Spoken aloud."],
+[1,"How many wines and how long in the CMS Advanced/Master tasting exam?","6 wines in 25 minutes",["4 wines in 45 minutes","12 wines in 3 hours","2 wines in 30 minutes"],"Six wines, three white and three red, described aloud in 25 minutes."],
 [2,"What must the MS candidate pass first?","Theory",["Tasting","Service","Business"],"Then tasting and service within three years."],
 [2,"Pass mark for each section of the Advanced Sommelier exam:","60%",["75%","55%","50%"],"All sections in the same calendar year."],
 [3,"On the 2024 CMS Advanced grid, phenolic bitterness is assessed for:","White wines",["Red wines","Sparkling wines only","Fortified wines only"],"Reds get tannin volume and texture."]
@@ -418,8 +418,8 @@ analyst:`<p>Practice in the Exam Hall's Diploma essay mode: 45 minutes, one prom
 terms:[["D3","Diploma Wines of the World unit, 50% of the qualification."],["Stage 2","MW exam: three 12-wine papers and five theory papers."],["Research paper","MW Stage 3, about 10,000 words."]],
 quiz:[
 [1,"Which Diploma unit carries 50% of the weight?","D3 Wines of the World",["D1 Wine Production","D6 Independent Research","D2 Wine Business"],"Theory plus 12 wines blind."],
-[2,"How many wines in each MW Stage 2 practical paper?","12",["6","4","20"],"Three papers."],
-[2,"What is MW Stage 3?","A research paper of about 10,000 words",["A service exam","A 6-wine verbal tasting","An oral exam"],"Formerly the dissertation."],
+[2,"How many wines in each MW Stage 2 practical paper?","12",["6","4","20"],"Stage 2 has three practical papers of 12 wines each: 36 wines over three mornings."],
+[2,"What is MW Stage 3?","A research paper of about 10,000 words",["A tableside service examination","A six-wine verbal blind tasting","An oral examination before a panel"],"Formerly the dissertation."],
 [2,"The Diploma distinction threshold is:","75%",["80%","85%","70%"],"Merit 65%, pass 55%."],
 [3,"Which MW theory paper covers how wine is stored, shipped and kept?","Handling of wine",["Contemporary issues","Viticulture","Business of wine"],"One of five Stage 2 theory papers."]
 ]});

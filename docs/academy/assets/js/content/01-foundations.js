@@ -38,7 +38,7 @@ body:`
 <li><b>Floor track (modeled on the Court of Master Sommeliers):</b> Introductory, Certified, Advanced, Master. Deductive blind tasting against the clock, tableside service, salesmanship and wine-list math.</li>
 <li><b>Analyst track (modeled on WSET):</b> Level 2, Level 3, Diploma, then a Master of Wine capstone. The Systematic Approach to Tasting, quality assessment, and written answers that explain why.</li>
 </ul>
-<p>Each credential has required lessons and a final exam built to the real format: same question counts, same time limits, same pass marks. Pass the mock and the academy awards the pin. You can switch tracks any time, and your lesson progress carries over because the knowledge is shared.</p>
+<p>Each credential has required lessons and a final exam built to the real format: same question counts, same time limits, same pass marks. Pass the mock and the academy awards the seal. You can switch tracks any time; passed lessons carry over, but each track has its own exams and its own skills to prove.</p>
 <h3>The one thing software cannot do</h3>
 <p>You cannot learn to taste from a screen. Every real program assumes you are tasting real wine several times a week, ideally blind, ideally with a group. The Tasting Lab here gives you the grids, scores your calls against the textbook profile, and keeps a log of what you miss. The wine has to come from you. A 4 to 6 person group splitting bottles is how almost every successful candidate does it.</p>`,
 floor:`<p>The Court is an <b>exam body</b>, not a school. Its Introductory course is short; after that you are expected to study on your own and show up to be tested. Pass marks: 60% at Introductory, Certified and Advanced, 75% for the Master Sommelier Diploma. Only 4 of 30 candidates passed the full MS exam in 2026.</p>`,
@@ -47,8 +47,8 @@ terms:[["Master of Wine (MW)","Apex credential from the Institute of Masters of 
 quiz:[
 [1,"Which credential was examined first?","Master of Wine (1953)",["WSET Diploma","Master Sommelier","Certified Specialist of Wine"],"The first MW exam was held in 1953. WSET and the first MS exam both date to 1969; the Court itself to 1977."],
 [1,"What is the pass mark for each section of the Master Sommelier Diploma?","75%",["60%","55%","70%"],"Lower CMS levels pass at 60%; the MS demands 75% in theory, tasting and service."],
-[1,"The Court of Master Sommeliers was created mainly to examine:","People who sell and serve wine in restaurants",["Wine importers and merchants","Winemakers","Wine journalists"],"The Court's DNA is the dining room, which is why every level from Certified up includes service."],
-[2,"In the 2018 CMS cheating scandal, what did the board do?","Invalidated the tasting results for all candidates and suspended newly passed titles",["Revoked every Master Sommelier title","Moved the exam to Europe","Removed the tasting exam entirely"],"All 54 candidates' tasting results were voided and 23 of 24 new titles suspended; affected candidates could resit."],
+[1,"The Court of Master Sommeliers was created mainly to examine:","People who sell and serve wine in restaurants",["People who import and distribute wine","People who grow grapes and make wine","People who write about and score wine"],"The Court's DNA is the dining room, which is why every level from Certified up includes service."],
+[2,"In the 2018 CMS cheating scandal, what did the board do?","Invalidated the tasting results and suspended the new titles",["Revoked every Master Sommelier title awarded that decade","Moved the tasting exam to Europe for five years","Dropped blind tasting from the Master exam altogether"],"All 54 candidates' tasting results were voided and 23 of 24 new titles suspended; affected candidates could resit."],
 [1,"Which is true of the title 'sommelier' in the US?","It is not regulated by any government license",["It requires a state license","Only CMS graduates may legally use it","It requires WSET Level 3"],"The title is unregulated. Credentials are private and their value comes from industry respect."]
 ]});
 
@@ -71,14 +71,14 @@ body:`
 </ul>
 <h3>Where the money goes, and where it doesn't have to</h3>
 <p>WSET Level 3 runs about $1,135 to $1,780 at one large US provider and the Diploma about $7,800 with registration. CMS Introductory online is $649 plus an optional wine kit; each MS exam section is reported near $1,000. The podcast host Elizabeth Schneider, herself a CMS Certified Sommelier and CSW, has called the top titles closer to "a small, private club" than a professional certification. The sensible plan: study everything here for free, then pay for one exam only if a job asks for the paper.</p>`,
-floor:`<p>Floor track pins: <b>Introductory</b> (70 MCQ, 45 min, 60%), <b>Certified</b> (theory 45 Q in 38 min, 4 wines in 45 min, service practical; 60% each), <b>Advanced</b> (6 wines in 25 min aloud, theory, service and business; 60% each), <b>Master</b> (all at 75%).</p>`,
-analyst:`<p>Analyst track pins: <b>Level 2</b> (50 MCQ, 60 min, 55%), <b>Level 3</b> (50 MCQ + four 25-mark short answers + 2 wines blind by SAT; 55% in each part), <b>Diploma</b> (D1-D6, essays and 12-wine papers, 55%), <b>MW capstone</b>.</p>`,
+floor:`<p>Floor track seals: <b>Introductory</b> (70 MCQ, 45 min, 60%), <b>Certified</b> (theory 45 Q in 38 min, 4 wines in 45 min, service practical; 60% each), <b>Advanced</b> (6 wines in 25 min aloud, theory, service and business; 60% each), <b>Master</b> (all at 75%).</p>`,
+analyst:`<p>Analyst track seals: <b>Level 2</b> (50 MCQ, 60 min, 55%), <b>Level 3</b> (50 MCQ + four 25-mark short answers + 2 wines blind by SAT; 55% in each part), <b>Diploma</b> (D1-D6, essays and 12-wine papers, 55%), <b>MW capstone</b>.</p>`,
 terms:[["CSW","Certified Specialist of Wine (Society of Wine Educators). 100 MCQ in 60 min, 75% to pass."],["Wine Scholar Guild","Single-country deep-dive programs; 100 MCQ, 75% to pass, Honors at 85+."]],
 quiz:[
 [1,"Which program's blind tasting puts the most weight on naming the grape, place and vintage?","CMS",["WSET Level 3","CSW","WSET Level 2"],"WSET Level 3 grades the description and quality call; CMS grades your identification."],
-[1,"The CSW exam is:","100 multiple-choice questions in one hour, 75% to pass",["A 6-wine blind tasting","Essays and a dissertation","50 questions and a service exam"],"Everything on the CSW comes from the annual study guide."],
+[1,"The CSW exam is:","100 multiple-choice questions in one hour, 75% to pass",["A 6-wine verbal blind tasting in 25 minutes","Four 25-mark written answers in two hours","50 multiple-choice questions plus a service practical"],"Everything on the CSW comes from the annual study guide."],
 [2,"Which credential is the usual stepping stone to the Master of Wine?","WSET Level 4 Diploma",["CMS Introductory","CSW","French Wine Scholar"],"The Diploma's analytical, written style is closest to the MW."],
-[1,"WSET Level 2 includes a blind tasting exam.","False: Level 2 is a 50-question multiple-choice paper only",["True: two wines","True: one wine","True: six wines"],"Tasting is taught at Level 2 but not examined until Level 3."]
+[1,"WSET Level 2 includes a blind tasting exam.","False: it is a 50-question multiple-choice paper only",["True: two wines assessed in 30 minutes by SAT","True: one wine written up as a full tasting note","False: it is four written short answers only"],"Tasting is taught at Level 2 but not examined until Level 3."]
 ]});
 
 // ---------- F1 TASTING ----------
@@ -93,10 +93,10 @@ body:`
 <h3>Stage 3: Palate</h3>
 <p>Confirm the nose, then measure <b>structure</b>: sweetness, acidity, alcohol, tannin, body. Structure is harder to fake than aroma, so exam veterans trust it most. A wine can smell like ripe cherries, but if its acid is high and its tannin grips like strong black tea, think Nebbiolo or Sangiovese, not Grenache. Finish with <b>balance</b>, <b>length</b> and <b>complexity</b>.</p>
 <h3>Stage 4: Conclusion</h3>
-<p>The <b>initial conclusion</b> narrows the field: climate, Old or New World, possible grapes, age range. The <b>final conclusion</b> commits: grape, country, region, quality level, vintage. The reasoning runs in one direction:</p>
+<p>The <b>initial conclusion</b> narrows the field: climate, possible grapes, possible countries and an age range. The <b>final conclusion</b> commits: grape, country, region, quality level, vintage. The reasoning runs in one direction:</p>
 <ul>
 <li>Fruit condition and structure point to <b>climate</b>.</li>
-<li>Earth and mineral against fruit point to <b>Old World versus New World</b>.</li>
+<li>Earth and mineral against fruit point to <b>style and likely countries</b>: savory and earth-led, or fruit-led. Tasters long called this "Old World versus New World"; the Court dropped those words from its grid in 2024 because warm vintages and modern winemaking blurred the line, so name countries instead.</li>
 <li>Structure markers and signature aromas point to the <b>grape</b>.</li>
 <li>Oak type and winemaking signatures point to the <b>region and style</b>.</li>
 </ul>
@@ -104,12 +104,12 @@ body:`
 <ul><li>Taste at the same time of day, with no fragrance, gum or coffee.</li><li>Pour about 1.5 oz (45 ml) in an ISO or universal glass.</li><li>Say your notes aloud, in grid order, every time. The Advanced and Master tasting exams are spoken.</li><li>Spit. A Certified exam is four wines; a practice session can be twelve.</li></ul>`,
 floor:`<p>CMS rewards <b>speed and order</b>. At Certified you write a checkbox grid for 4 wines in 45 minutes, about 11 minutes each. At Advanced and Master you speak 6 wines in 25 minutes, about 4 minutes each. Every grid line is worth a point and nothing is deducted for a wrong answer, so never leave a line blank. If something is absent (no oak, no earth), you must say "no".</p>`,
 analyst:`<p>WSET rewards <b>precision and justification</b>. The SAT uses calibrated scales (light, medium(-), medium, medium(+), pronounced) and asks you to judge quality with <b>BLIC</b>: Balance, Length, Intensity, Complexity. At Level 3 you do not have to name the wine at all.</p>`,
-terms:[["Rim variation","Color difference between the core and edge of a red; a broad, bricking rim suggests age."],["Fruit condition","Tart, ripe, baked, jammy, dried. The best single clue to climate."],["Initial conclusion","Climate, world, possible grapes, age range, before committing."],["Vinous","CMS term for a nose that has lost primary fruit and shows age-derived character."]],
+terms:[["Rim variation","Color difference between the core and edge of a red; a broad, bricking rim suggests age."],["Fruit condition","Tart, ripe, baked, jammy, dried. The best single clue to climate."],["Initial conclusion","Possible grapes, climate, possible countries and an age range, before committing."],["Vinous","CMS term for a nose that has lost primary fruit and shows age-derived character."]],
 quiz:[
-[1,"Which observation is the strongest clue to climate?","The condition of the fruit (tart, ripe, baked)",["The color of the rim","The tears on the glass","The shape of the bottle"],"Cool climates give tart, fresh fruit; warm climates give baked or jammy fruit."],
-[1,"As a red wine ages, its hue generally moves:","From purple to ruby to garnet to brick",["From garnet to purple","From brick to ruby","It does not change"],"Pigments polymerize and drop out; the wine browns, starting at the rim."],
-[2,"On a CMS grid, how are wrong answers penalized?","They are not; each correct line earns a point and blanks score zero",["Minus one point each","They cancel a correct answer","Two wrong answers fail the wine"],"Always tick something on every line, including an explicit 'no' for absent elements."],
-[2,"A red smells of ripe cherry but has high acid and very grippy tannin. Which is the better initial grape call?","Nebbiolo or Sangiovese",["Grenache","Merlot","Gamay"],"Structure outranks aroma. High acid with high tannin points to the Italian pair."],
+[1,"Which observation is the strongest clue to climate?","The condition of the fruit",["The width and color of the rim","The speed and thickness of the tears","The presence of a few bubbles of gas"],"Tart, ripe, baked or jammy fruit tracks how much heat the grapes saw; confirm it with alcohol and acidity."],
+[1,"As a red wine ages, its hue generally moves:","From purple to ruby to garnet to brick",["From garnet to ruby to purple to black","From brick to garnet to ruby to purple","From ruby to purple and then to brown"],"Pigments polymerize and drop out; the wine browns, starting at the rim."],
+[2,"On a CMS grid, how are wrong answers penalized?","They are not: each correct line earns a point",["Each wrong line costs one point","A wrong line cancels a correct one","Two wrong lines fail the whole wine"],"Always tick something on every line, including an explicit 'no' for absent elements."],
+[2,"A red smells of ripe cherry but has high acid and very grippy tannin. Which is the better initial grape call?","Nebbiolo or Sangiovese",["Grenache or Zinfandel","Merlot or Malbec","Gamay or Dolcetto"],"Structure outranks aroma. High acid with high tannin points to the Italian pair."],
 [1,"What does BLIC stand for in WSET quality assessment?","Balance, Length, Intensity, Complexity",["Body, Length, Intensity, Color","Balance, Liveliness, Intensity, Clarity","Body, Lees, Intensity, Complexity"],"Each factor is evidence for the quality call."]
 ]});
 
@@ -144,7 +144,7 @@ quiz:[
 [1,"Which structural element is felt as drying and gripping on the gums?","Tannin",["Acidity","Alcohol","Residual sugar"],"Tannins bind with saliva proteins, removing lubrication."],
 [1,"What makes a sweet wine taste less sweet than its sugar level suggests?","High acidity",["High tannin","Low alcohol","New oak"],"Acid balances sugar; this is why Mosel Riesling can carry 40+ g/L and taste off-dry."],
 [2,"A white wine with low acid, high alcohol, oily texture and a bitter finish most likely is:","Gewürztraminer",["Riesling","Sauvignon Blanc","Albariño"],"This is the classic Gewürztraminer (or Viognier) structure."],
-[2,"On the WSET Level 3 SAT, what alcohol level is classed as 'high' for still wine?","14% abv and above",["12% and above","13% and above","15% and above"],"Low is under 11%, medium 11-13.9%, high 14%+."],
+[2,"On the WSET Level 3 SAT, what alcohol level is classed as 'high' for still wine?","14% abv and above",["12% abv and above","13% abv and above","15% abv and above"],"Low is under 11%, medium 11-13.9%, high 14%+."],
 [1,"Steeping black tea for 10 minutes is a classic way to calibrate:","High tannin",["High acid","High alcohol","Sweetness"],"Over-steeped tea is rich in tannins, similar to young Nebbiolo or Cabernet."]
 ]});
 
@@ -173,7 +173,7 @@ quiz:[
 [1,"Barnyard and band-aid aromas point to:","Brettanomyces",["Oxidation","TCA","Heat damage"],"Brett is a spoilage yeast typically living in old barrels."],
 [2,"Which aroma suggests reduction?","Struck match or rotten egg",["Nail-polish remover","Bruised apple","Wet cardboard"],"Reductive sulfur compounds form under low oxygen."],
 [1,"Crystals at the bottom of a white wine bottle are usually:","Harmless tartrates",["A sign of oxidation","Mold","Cork taint"],"Potassium bitartrate drops out in the cold; it is not a fault."],
-[2,"A guest returns a sound bottle because they don't like it. Best standard practice?","Replace it graciously and consider pouring it by the glass",["Explain they are wrong","Refuse, since it isn't faulty","Charge a corkage fee"],"Hospitality first; the guest should never feel foolish."]
+[2,"A guest returns a sound bottle because they don't like it. Best standard practice?","Replace it graciously, without argument",["Explain politely why the wine is correct","Decline, since the bottle is not faulty","Replace it but add a corkage charge"],"Hospitality first: replace it without debate. Many restaurants then pour the returned bottle by the glass."]
 ]});
 
 // ---------- F2 VINEYARD ----------
@@ -201,10 +201,10 @@ analyst:`<p>WSET Level 3 LO1 expects the growth cycle, the requirements of the v
 terms:[["Vitis vinifera","The European wine grape species behind nearly all quality wine."],["Rootstock","Phylloxera-resistant American vine roots onto which vinifera is grafted."],["Crossing","Offspring of two vinifera varieties (e.g., Pinotage)."],["Hybrid","Vinifera crossed with another Vitis species (e.g., Vidal)."],["Véraison","Onset of ripening: berries soften and change color."],["Coulure","Poor fruit set after flowering, reducing yield."]],
 quiz:[
 [1,"Pinotage is a crossing of Pinot Noir and:","Cinsault",["Syrah","Gamay","Merlot"],"Created in South Africa in 1925 by Abraham Perold."],
-[1,"Véraison is when:","Grapes soften and change color",["Buds first open","Flowers appear","Vines go dormant"],"Sugar accumulation accelerates from véraison."],
+[1,"Véraison is when:","Grapes soften and change color",["Buds swell and the first shoots appear","Flowers open and the berries set","Leaves fall and the vine goes dormant"],"Sugar accumulation accelerates from véraison."],
 [2,"Why are American Vitis species used as rootstocks?","They resist phylloxera",["They ripen earlier","They yield more fruit","They add color"],"Phylloxera evolved alongside American vines, which tolerate root feeding."],
 [2,"Poor fruit set caused by cold, wet weather at flowering is called:","Coulure",["Véraison","Millerandage only","Botrytis"],"Coulure reduces yield; millerandage is uneven berry size."],
-[1,"A hybrid grape is:","A cross between vinifera and another Vitis species",["A clone selected for yield","A mutation of Pinot Noir","Two vinifera varieties crossed"],"Vidal Blanc is a hybrid, used for Canadian icewine."],
+[1,"A hybrid grape is:","A cross between vinifera and another Vitis species",["A clone of one variety selected for yield","A natural color mutation of Pinot Noir","A cross of two Vitis vinifera varieties"],"Vidal Blanc is a hybrid, used for Canadian icewine."],
 [2,"As grapes ripen, which typically happens?","Sugar rises and acid falls",["Sugar and acid both rise","Pyrazines increase","Tannins become greener"],"Malic acid in particular is respired as the berry ripens."]
 ]});
 
@@ -214,13 +214,13 @@ body:`
 <p>Climate is the long-term average; weather is this year. Climate decides which grapes can ripen in a place. Weather decides the vintage.</p>
 <h3>Climate types</h3>
 <ul><li><b>Cool</b> (growing season average under about 61°F / 16.5°C): tart fruit, high acid, lighter body, lower alcohol. Champagne, Mosel, Chablis, Marlborough.</li>
-<li><b>Moderate</b> (about 61-64°F): ripe fruit with fresh acid. Bordeaux, Northern Rhône, Willamette.</li>
+<li><b>Moderate</b> (about 61-65°F): ripe fruit with fresh acid. Bordeaux, Northern Rhône, Willamette.</li>
 <li><b>Warm/hot</b> (above about 64°F): baked or jammy fruit, softer acid, more alcohol and body. Barossa, Southern Rhône, Paso Robles, Douro.</li></ul>
 <p>Then by pattern: <b>maritime</b> (moderated by the ocean, small temperature swings, rain spread through the year: Bordeaux), <b>continental</b> (hot summers, cold winters, big swings, frost risk: Burgundy, Mendoza), <b>Mediterranean</b> (warm dry summers, mild wet winters: Southern Rhône, Tuscany, much of California).</p>
 <h3>What modifies climate</h3>
 <ul><li><b>Latitude:</b> most vineyards sit between 30° and 50° in both hemispheres.</li>
 <li><b>Altitude:</b> temperature drops about 0.6°C per 100 m. That is how Salta (vineyards above 3,000 m) or Etna make fresh wine at hot latitudes.</li>
-<li><b>Bodies of water:</b> moderate temperature, reflect light. Lake Seneca (Finger Lakes), the Gironde.</li>
+<li><b>Bodies of water:</b> moderate temperature, reflect light. Seneca Lake (Finger Lakes), the Gironde.</li>
 <li><b>Ocean currents and fog:</b> the cold Humboldt and Benguela currents cool coastal Chile and South Africa; Pacific fog cools Sonoma Coast and Carneros.</li>
 <li><b>Diurnal range:</b> the gap between day and night temperatures. Cold nights preserve acid and aroma. Mendoza, Paso Robles, Ribera del Duero.</li>
 <li><b>Aspect and slope:</b> south-facing slopes in the north (north-facing in the south) catch more sun. Mosel's best sites are steep, south-facing slate.</li>
@@ -234,10 +234,10 @@ analyst:`<p>WSET short answers often hinge on climate: "Explain how the climate 
 terms:[["Continental climate","Hot summers, cold winters, wide annual temperature range."],["Maritime climate","Ocean-moderated; mild, small temperature range, rain spread through the year."],["Diurnal range","Difference between day and night temperatures; cool nights preserve acid and aroma."],["Kimmeridgian","Ancient marl and limestone with fossil oyster shells; Chablis and Sancerre."]],
 quiz:[
 [1,"Which climate pattern has hot summers, cold winters and high frost risk?","Continental",["Maritime","Mediterranean","Tropical"],"Burgundy and Mendoza are continental."],
-[2,"How does altitude affect temperature?","It drops about 0.6°C per 100 m",["It rises with altitude","No effect","It drops 5°C per 100 m"],"High-altitude vineyards like Salta stay fresh despite low latitude."],
+[2,"How does altitude affect temperature?","It drops about 0.6°C per 100 m",["It rises about 0.6°C per 100 m","It stays the same at any height","It drops about 5°C per 100 m"],"High-altitude vineyards like Salta stay fresh despite low latitude."],
 [1,"Which cold ocean current cools coastal Chile?","Humboldt",["Benguela","Gulf Stream","Kuroshio"],"The Benguela cools South Africa's west coast."],
-[2,"Why does Merlot suit Pomerol's clay soils?","Clay stays cool and holds water, suiting early-ripening Merlot",["Clay heats quickly, ripening late grapes","Clay adds tannin directly","Clay prevents phylloxera"],"Cabernet Sauvignon needs the warmer, free-draining gravels of the Médoc."],
-[2,"Large diurnal range mainly helps wines retain:","Acidity and aroma",["Tannin","Sweetness","Alcohol"],"Cool nights slow the loss of acid and volatile aromatics."],
+[2,"Why does Merlot suit Pomerol's clay soils?","Clay stays cool and holds water",["Clay warms fast and ripens late grapes","Clay adds tannin directly to the fruit","Clay keeps phylloxera out of the roots"],"Cabernet Sauvignon needs the warmer, free-draining gravels of the Médoc."],
+[2,"Large diurnal range mainly helps wines retain:","Acidity and aroma",["Tannin and color","Residual sugar","Alcohol and body"],"Cool nights slow the loss of acid and volatile aromatics."],
 [1,"Most of the world's vineyards lie between which latitudes?","30° and 50°",["10° and 20°","50° and 60°","0° and 15°"],"Both hemispheres."]
 ]});
 
@@ -267,11 +267,11 @@ floor:`<p>Guests ask "is this organic?" constantly. Know the US distinction betw
 analyst:`<p>Sample WSET Level 3 short answer (4 marks): "Why do growers use VSP?" Model points: even sun exposure on fruit, airflow reduces fungal disease, easier mechanization of pruning and harvest, consistent ripening.</p>`,
 terms:[["VSP","Vertical shoot positioning; shoots trained upward between wires."],["Guyot","Cane-pruning system laying down one or two canes each year."],["Phylloxera","Root-feeding aphid; controlled by grafting onto American rootstocks."],["Noble rot","Botrytis cinerea in favorable conditions, concentrating sugars."],["Biodynamic","Organic farming plus Steiner preparations and a cosmic calendar."]],
 quiz:[
-[1,"What is the main defense against phylloxera?","Grafting onto American rootstock",["Spraying copper","Netting vines","Biodynamic preparations"],"No chemical cure exists; resistant roots are the answer."],
+[1,"What is the main defense against phylloxera?","Grafting onto American rootstock",["Spraying copper and sulfur","Netting the vines in summer","Biodynamic preparations"],"No chemical cure exists; resistant roots are the answer."],
 [2,"Which country is famous for largely ungrafted vineyards thanks to geographic isolation?","Chile",["France","Italy","Spain"],"Andes, desert, Pacific and Antarctic ice protect it."],
-[2,"Why might a grower sprinkle water on vines during a spring frost?","Freezing water releases heat and the ice insulates the buds",["To wash off frost","To raise humidity for botrytis","To cool the vines"],"Latent heat of fusion protects the bud at 0°C."],
+[2,"Why might a grower sprinkle water on vines during a spring frost?","Freezing water releases heat and the ice insulates the buds",["Running water washes the frost off the buds","Wet air raises humidity and stops ice forming","Cold water delays budburst until the frost passes"],"Latent heat of fusion protects the bud at 0°C."],
 [1,"Noble rot is caused by:","Botrytis cinerea",["Powdery mildew","Phylloxera","Brettanomyces"],"Misty mornings and dry afternoons allow benign infection."],
-[2,"Cane pruning (Guyot) differs from spur pruning because:","It lays down a new one-year cane each year rather than short spurs on a permanent cordon",["It leaves no buds","It is only used for bush vines","It is done in summer"],"Burgundy is classic Guyot territory."],
+[2,"Cane pruning (Guyot) differs from spur pruning because:","It lays down a new one-year cane each winter",["It leaves short spurs on a permanent arm","It is used only on free-standing bush vines","It is carried out in summer, not in winter"],"Burgundy is classic Guyot territory."],
 [1,"Biodynamic farming is based on lectures by:","Rudolf Steiner",["Louis Pasteur","Émile Peynaud","Jules Guyot"],"Steiner lectured on agriculture in 1924."],
 [3,"In the US, a wine labeled 'organic wine' (rather than 'made with organic grapes') must also:","Have no added sulfites",["Be biodynamic","Be aged in new oak","Be unfiltered"],"USDA organic wine prohibits added sulfites."]
 ]});

@@ -57,7 +57,7 @@ function newFlight(opts) {
 function labBlind() {
   if (!LAB.flight) {
     const tough = Object.entries(S.vb).filter(([g, r]) => r.seen >= 2).map(([g, r]) => [g, r.ok / r.seen, r.seen]).sort((a, b) => a[1] - b[1]).slice(0, 5);
-    return `<div class="grid g2"><div class="card"><h3>Start a flight</h3><p class="small muted">Each wine arrives as a sommelier's tasting note in grid order. Deduce grape, country, climate, Old or New World, and age. Realistic mode nudges structure the way real bottles vary.</p>
+    return `<div class="grid g2"><div class="card"><h3>Start a flight</h3><p class="small muted">Each wine arrives as a sommelier's tasting note in grid order. Deduce grape, country, climate and age range, the same calls the Court's grid asks for. Realistic mode nudges structure the way real bottles vary.</p>
     <div class="grid" style="gap:8px">
       <button class="btn" data-act="flight" data-arg="1:mixed:cert:0">One wine, untimed (Certified list)</button>
       <button class="btn" data-act="flight" data-arg="4:2w2r:cert:45">Certified flight: 4 wines, 45 min</button>
@@ -82,14 +82,13 @@ function renderFlight(F, examMode) {
   <div class="gl"><label>Country</label><select data-in="country" ${done ? "disabled" : ""}><option value="">Choose…</option>${COUNTRIES.map(c => `<option ${a.country === c ? "selected" : ""}>${c}</option>`).join("")}</select></div>
   ${it.ropts ? `<div class="gl"><label>Region</label><select data-in="region" ${done ? "disabled" : ""}><option value="">Choose…</option>${it.ropts.map(c => `<option ${a.region === c ? "selected" : ""}>${esc(c)}</option>`).join("")}</select></div>` : ""}
   <div class="gl"><label>Climate</label>${sel("climate", ["Cool", "Moderate", "Warm"])}</div>
-  <div class="gl"><label>World</label>${sel("world", ["Old", "New"])}</div>
   <div class="gl"><label>Age range</label>${sel("age", ["1-3", "3-5", "5-10", "10+"])}</div>
   <div class="row" style="margin-top:14px">${done ? "" : `<button class="btn pri" data-act="fscore">${examMode ? "Lock in this wine" : "Reveal"}</button>`}${F.idx < F.wines.length - 1 ? `<button class="btn" data-act="fgo" data-arg="${F.idx + 1}">Next wine →</button>` : ""}${!examMode && allScored ? `<button class="btn" data-act="fend">Finish flight</button>` : ""}${examMode && !allScored ? `<button class="btn ghost" data-act="exfinish">Submit paper</button>` : ""}${examMode && allScored ? `<button class="btn pri" data-act="exfinish">Submit paper</button>` : ""}</div>
   ${done && !examMode ? flightFeedback(it) : ""}
   </div></div>`;
 }
 function scoreWine(it) {
-  const w = it.w, a = it.ans; const parts = [["Grape", a.grape, w.grape, 3], ["Country", a.country, w.country, 2], ["Climate", a.climate, w.climate, 1], ["World", a.world, w.world, 1], ["Age", a.age, w.age, 1]];
+  const w = it.w, a = it.ans; const parts = [["Grape", a.grape, w.grape, 3], ["Country", a.country, w.country, 2], ["Climate", a.climate, w.climate, 1], ["Age", a.age, w.age, 1]];
   if (it.ropts) parts.push(["Region", a.region, w.region, 2]);
   const got = parts.reduce((s, p) => s + (p[1] === p[2] ? p[3] : 0), 0), max = parts.reduce((s, p) => s + p[3], 0);
   it.scored = { parts, pct: Math.round(100 * got / max) };
@@ -99,7 +98,7 @@ function flightFeedback(it) {
   const w = it.w, s = it.scored;
   return `<div style="margin-top:16px;border-top:1px solid var(--line);padding-top:14px"><div class="row" style="justify-content:space-between"><b style="font-family:var(--f-display);font-size:22px">${esc(w.grape)}, ${esc(w.region)}</b><span class="pill ${s.pct >= 60 ? "good" : "bad"}">${s.pct}%</span></div>
   <div class="tw"><table class="t">${s.parts.map(p => `<tr><td>${p[0]}</td><td>${esc(p[1] || "—")}</td><td>${p[1] === p[2] ? '<span style="color:var(--good)">✓</span>' : esc(p[2])}</td></tr>`).join("")}</table></div>
-  <p class="small"><b>Markers:</b> ${esc(w.markers)}</p><p class="small muted"><b>Deduction:</b> ${esc(w.cond)} fruit with ${SCALE5[w.alc - 1].toLowerCase()} alcohol points to a ${w.climate.toLowerCase()} climate; ${w.earth || w.mineral !== "none" ? "earth and mineral alongside the fruit lean Old World" : "fruit-forward with little earth leans New World"}${w.oak.includes("American") ? "; dill and coconut flag American oak" : ""}.</p>
+  <p class="small"><b>Markers:</b> ${esc(w.markers)}</p><p class="small muted"><b>Deduction:</b> ${esc(w.cond)} fruit with ${SCALE5[w.alc - 1].toLowerCase()} alcohol points to a ${w.climate.toLowerCase()} climate; ${w.earth || w.mineral !== "none" ? "earth and mineral alongside the fruit point to a savory, site-driven style (" + w.country + " fits)" : "pure fruit with little earth points to a fruit-forward style (" + w.country + " fits)"}${w.oak.includes("American") ? "; dill and coconut flag American oak" : ""}.</p>
   <p class="small"><b>Sell it in one line:</b> "${esc(w.pitch)}"</p></div>`;
 }
 // --- real wine grid
@@ -125,7 +124,7 @@ function labGrid() {
     ${G.c === "r" ? line("Tannin", seg("tannin", SCALE5)) + line("Tannin texture", seg("ttex", ["Silky", "Soft", "Fine", "Gritty", "Coarse", "Firm"])) : line("Phenolic bitterness", seg("bitter", ["Yes", "No"]))}
     ${line("Finish", seg("finish", ["Short", "Medium-", "Medium", "Medium+", "Long"]))}${line("Complexity", seg("cx", ["Simple", "Medium", "High"]))}
     <div class="gsec">Initial conclusion</div>
-    ${line("Climate", seg("climate", ["Cool", "Moderate", "Warm"]))}${line("World", seg("world", ["Old", "New"]))}${line("Age range", seg("age", ["1-3", "3-5", "5-10", "10+"]))}
+    ${line("Climate", seg("climate", ["Cool", "Moderate", "Warm"]))}${line("Age range", seg("age", ["1-3", "3-5", "5-10", "10+"]))}
     <div class="gsec">Final conclusion</div>
     ${line("Grape", `<input type="text" data-gin="grape" value="${esc(f.grape || "")}" placeholder="e.g., Nebbiolo">`)}${line("Country", `<input type="text" data-gin="country" value="${esc(f.country || "")}" placeholder="e.g., Italy">`)}
     ${line("Region / appellation", `<input type="text" data-gin="region" value="${esc(f.region || "")}" placeholder="e.g., Barolo DOCG">`)}${line("Vintage", `<input type="text" data-gin="vintage" value="${esc(f.vintage || "")}" placeholder="e.g., 2018">`)}`;
@@ -172,7 +171,6 @@ function compareGrid(G) {
     rows.push(["New oak", f.oak, newOak ? "Yes" : "No", f.oak ? (f.oak === "Yes") === newOak : null]);
     rows.push(["Earth", f.earth, w.earth ? "Yes" : "No", f.earth ? (f.earth === "Yes") === w.earth : null]);
     rows.push(["Climate", f.climate, w.climate, f.climate ? f.climate === w.climate : null]);
-    rows.push(["World", f.world, w.world, f.world ? f.world === w.world : null]);
     rows.push(["Age", f.age, w.age, f.age ? f.age === w.age : null]);
     rows.push(["Grape", f.grape, w.grape, f.grape ? w.grape.toLowerCase().includes(f.grape.trim().toLowerCase()) && f.grape.trim().length > 2 : null]);
     rows.push(["Country", f.country, w.country, f.country ? w.country.toLowerCase() === f.country.trim().toLowerCase() : null]);
@@ -233,7 +231,7 @@ function labRef() {
   <div class="grid g3">${list.map(w => `<div class="card"><div class="row">${glass(w.c)}<div style="min-width:0"><b style="font-family:var(--f-display);font-size:19px">${esc(w.grape)}</b><div class="small muted">${esc(w.region)}, ${esc(w.country)}</div></div></div>
   <p class="small" style="margin:10px 0">${esc(w.markers)}</p>
   <div class="small mono" style="display:grid;grid-template-columns:72px 1fr;gap:4px 8px;align-items:center"><span>Acid</span>${dots(w.acid)}<span>Alcohol</span>${dots(w.alc)}<span>Body</span>${dots(w.body)}${w.c === "r" ? `<span>Tannin</span>${dots(w.tannin)}` : `<span>Sweet</span>${dots(Math.min(5, w.sweet), 6)}`}</div>
-  <p class="small muted" style="margin:10px 0 0">${w.climate} climate · ${w.world} World · oak: ${esc(w.oak)}</p></div>`).join("")}</div>
+  <p class="small muted" style="margin:10px 0 0">${w.climate} climate · oak: ${esc(w.oak)}</p></div>`).join("")}</div>
   <h2>Confusion pairs: a 20-week rotation</h2><p class="muted small">Taste one pair a week, side by side and blind. These are the comparisons the Court itself recommends drilling.</p>
   <div class="tw"><table class="t"><tr><th>Week</th><th>Pair</th><th>What separates them</th></tr>${PAIRS.map((p, i) => `<tr><td class="mono">${i + 1}</td><td>${esc(p[0])}</td><td class="small">${esc(WBY[p[1]].markers)} <i>vs</i> ${esc(WBY[p[2]].markers)}</td></tr>`).join("")}</table></div>`;
 }

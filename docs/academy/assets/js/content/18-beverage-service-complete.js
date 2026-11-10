@@ -38,14 +38,14 @@ floor:`<p>On the floor, "XO" Cognac means at least 10 years now, and a guest ask
 analyst:`<p>WSET wine courses skip spirits; CMS tests them from Certified upward. For MS theory, expect "why" questions: why does lower distillation strength mean more flavor, and why does strength rise in Kentucky warehouses?</p>`,
 terms:[["Congeners","Flavor compounds other than ethanol retained in distillation."],["Compte","Cognac age account; compte 2 = VS."],["Angel's share","Evaporation loss during cask aging."],["Ancestral (mezcal)","Clay-pot, direct-fire distillation category."],["Acholado","Pisco blended from several grapes."],["Madurado en Vidrio","Mezcal rested in glass."]],
 quiz:[
-[2,"Since April 2018, Cognac XO must be at least:","Compte 10 (10 years)",["Compte 6","Compte 4","Compte 14"],"XXO is 14 years."],
-[2,"Irish whiskey must mature in:","Wooden casks, not necessarily oak",["Oak only","New charred oak","Ex-sherry casks"],"At least 3 years."],
-[2,"Calvados Pays d'Auge requires:","Double distillation in pot stills",["Single column distillation","30% perry pears","5 years minimum aging"],"Domfrontais uses a single column."],
+[2,"Since April 2018, Cognac XO must be at least:","Compte 10 (10 years)",["Compte 6 (6 years)","Compte 4 (4 years)","Compte 14 (14 years)"],"XXO is 14 years."],
+[2,"Irish whiskey must mature in:","Wooden casks, not necessarily oak",["Oak casks only, of any size","New charred oak barrels only","Ex-sherry or ex-bourbon casks only"],"At least 3 years."],
+[2,"Calvados Pays d'Auge requires:","Double distillation in pot stills",["Single distillation in a column still","At least 30% perry pears in the mash","Five years minimum in new oak"],"Domfrontais uses a single column."],
 [2,"The EU caps sweetening in rum at:","20 g/L",["0 g/L","5 g/L","100 g/L"],"Above that, 'spirit drink'."],
 [3,"The TTB's American Single Malt rule took effect:","19 January 2025",["1 April 2021","1 January 2023","19 January 2030"],"2030 ends the transition."],
 [2,"Which tequila term is NOT a legal class?","Cristalino",["Extra Añejo","Reposado","Joven"],"Filtered aged tequila; marketing term."],
-[2,"Lower distillation strength generally means:","More congeners and raw-material character",["Higher methanol only","Lighter, more neutral spirit","Faster aging"],"The core idea of distillation."],
-[3,"Peruvian Pisco is distilled:","Once, to bottling proof, with no wood aging",["Twice and aged in oak","In columns to 96%","With added water"],"38-48%."],
+[2,"Lower distillation strength generally means:","More congeners and raw-material character",["Higher methanol and nothing else","A lighter, more neutral spirit","Faster maturation in cask"],"The core idea of distillation."],
+[3,"Peruvian Pisco is distilled:","Once, to bottling proof, with no wood",["Twice, then aged in oak casks","In columns to 96% and diluted","Once, then cut with water"],"A single distillation to bottling strength (38-48%), with nothing added, not even water, and no wood."],
 [2,"Scotch casks may be no larger than:","700 L",["500 L","250 L","1,000 L"],"Also the JSLMA and American Single Malt limit."]
 ]});
 
@@ -79,12 +79,12 @@ terms:[["ATP","Authentic Trappist Product logo."],["MBT","3-methyl-2-butene-1-th
 quiz:[
 [2,"How many breweries carry the Authentic Trappist Product logo in 2026?","Eight",["Eleven","Six","Twelve"],"Zundert left in 2025."],
 [2,"Since 2004, Junmai sake has which polishing requirement?","None",["70% or less","60% or less","50% or less"],"A common student error."],
-[2,"Daiginjo rice must be polished to:","50% or less remaining",["60%","70%","35%"],"Ginjo is 60%."],
-[2,"A skunky beer fault comes from:","Light reacting with hop iso-alpha acids",["Infected draught lines","S-methyl-methionine","Diacetyl"],"Lightstruck MBT."],
+[2,"Daiginjo rice must be polished to:","50% or less remaining",["60% or less remaining","70% or less remaining","35% or less remaining"],"Daiginjo: 50% or less of the grain remains. Ginjo: 60% or less."],
+[2,"A skunky beer fault comes from:","Light reacting with hop iso-alpha acids",["Bacteria in dirty draught lines","S-methyl-methionine from the malt","Diacetyl left by the yeast"],"Lightstruck MBT."],
 [2,"Namazake is:","Never pasteurized",["Pasteurized once","Undiluted","Cask-aged"],"Nama-chozo is pasteurized once."],
-[3,"The Québec ice cider IGP requires at least:","140 g/L residual sugar",["130 g/L","100 g/L","200 g/L"],"Provincial law says 130."],
-[2,"Awamori must use:","Rice and black koji only",["Sweet potato","Barley and white koji","Brown sugar"],"Okinawa."],
-[2,"Poiré Domfront requires at least 40%:","Plant de Blanc pears",["Perry apples","Calvados","Frozen pears"],"Normandy perry."]
+[3,"The Québec ice cider IGP requires at least:","140 g/L residual sugar",["130 g/L residual sugar","100 g/L residual sugar","200 g/L residual sugar"],"Provincial law says 130."],
+[2,"Awamori must use:","Rice and black koji only",["Sweet potato","Barley and white koji","Brown sugar"],"Okinawa's awamori is distilled from rice fermented with black koji only."],
+[2,"Poiré Domfront requires at least 40%:","Plant de Blanc pears",["Bittersweet cider apples","Calvados eau-de-vie","Frozen dessert pears"],"Normandy perry."]
 ]});
 
 L.push({id:"s8", unit:"S1", title:"Deep Dive: The CMS 2025 Service Standards", mins:18,
@@ -118,11 +118,11 @@ floor:`<p>Run the deductions list as a checklist after every practice service. F
 analyst:`<p>WSET doesn't examine practical service, but the Diploma's D2 unit expects you to know how service, format and storage affect a business.</p>`,
 terms:[["Three A's","Acknowledge, Apologize, Act."],["Gueridon","Service trolley used for decanting."],["Double decanting","Decant, rinse the bottle with wine, pour back."],["Clavelin","620 mL Jura bottle for Vin Jaune."],["Jennie","500 mL bottle for sweet and fortified wines."]],
 quiz:[
-[2,"Under CMS-A 2025, guests are served:","Clockwise regardless of gender, host last",["Ladies first, then men","Counter-clockwise, host first","Oldest guest first"],"Guest of honor first if present."],
-[2,"The CMS taste pour is:","1-1.5 oz (30-45 mL)",["0.5 oz","2-3 oz","A full glass"],"Then each guest individually."],
+[2,"Under CMS-A 2025, guests are served:","Clockwise regardless of gender, host last",["Ladies first, then men, host last","Counter-clockwise, host first","Oldest guest first, host last"],"Guest of honor first if present."],
+[2,"The CMS taste pour is:","1-1.5 oz (30-45 mL)",["0.5 oz (15 mL)","2-3 oz (60-90 mL)","5 oz (150 mL)"],"Then each guest individually."],
 [2,"When opening sparkling wine, the cage:","Stays on and comes off with the cork",["Is removed first","Is left on the bottle afterward","Is never loosened"],"Thumb always on the cork."],
 [2,"Each sparkling glass should be filled in no more than:","Two pours",["One pour","Three pours","Four pours"],"No second circuit."],
-[2,"When double decanting, rinse the bottle with:","The wine or a similar wine",["Water","Vodka","Nothing"],"'Do not use water.'"],
+[2,"When double decanting, rinse the bottle with:","The wine or a similar wine",["Clean, filtered water","A neutral spirit","Nothing: don't rinse it"],"'Do not use water.'"],
 [2,"A Bordeaux Jeroboam holds:","5 L",["3 L","4.5 L","6 L"],"In Champagne, a Jeroboam is 3 L."],
 [2,"A 6 L bottle in Bordeaux is a(n):","Imperial",["Methuselah","Rehoboam","Salmanazar"],"Methuselah in Champagne."],
 [3,"A bottle stored upright should be decanted:","Upright, without a cradle",["Laid in a cradle","After shaking gently","Only with a Coravin"],"Keep sediment where it settled."]
@@ -155,8 +155,8 @@ terms:[["Pour cost","Cost of the wine as a percentage of its selling price."],["
 quiz:[
 [2,"A typical by-the-glass pour cost target is:","20-28%",["5-10%","33-40%","50%"],"One glass often covers the bottle's wholesale cost."],
 [2,"Wine Spectator's Award of Excellence now requires at least:","75 selections",["90 selections","350 selections","1,000 selections"],"Older materials say 90."],
-[2,"Bordeaux courtiers usually earn:","2% commission, paid by the négociant",["10% paid by the château","Nothing","5% paid by the buyer"],"La Place de Bordeaux."],
+[2,"Bordeaux courtiers usually earn:","2% commission, paid by the négociant",["10% commission, paid by the château","A flat fee per barrel sold","5% commission, paid by the importer"],"La Place de Bordeaux."],
 [2,"OIV's 2024 world production was:","The lowest in over 60 years",["A record high","Flat on 2023","The highest since 2004"],"225.8 million hL."],
-[3,"From February 2026, UK duty on wine at 8.5-22% is:","£30.62 per litre of pure alcohol",["A flat £2.67 per bottle","15% of value","£10 per litre of wine"],"Strength-based since 2023."],
-[2,"Cash-margin pricing means:","A fixed dollar markup per bottle",["3x on every bottle","Pricing by competitors","Pricing by vintage"],"Better wines become better values."]
+[3,"From February 2026, UK duty on wine at 8.5-22% is:","£30.62 per litre of pure alcohol",["A flat £2.67 on every bottle","15% of the declared import value","£10 per litre of finished wine"],"Strength-based since 2023."],
+[2,"Cash-margin pricing means:","A fixed dollar markup per bottle",["Three times cost on every bottle","Matching the restaurant next door","Charging more for older vintages"],"Better wines become better values."]
 ]});

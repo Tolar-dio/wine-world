@@ -8,7 +8,8 @@ function viewFloor() {
   <div class="tabs">${tabs.map(([k, n]) => `<button class="${FL.tab === k ? "on" : ""}" data-act="fltab" data-arg="${k}">${n}</button>`).join("")}</div>${b}</div>`;
 }
 function newSeq(k) { const s = SEQUENCES[k]; return { k, order: [], pool: shuffle(s.steps.map((t, i) => i)), done: false }; }
-function seqScore(Q) { const o = Q.order; let ok = 0; for (let i = 0; i < o.length - 1; i++) if (o[i] < o[i + 1]) ok++; return Math.round(100 * ok / Math.max(1, o.length - 1)); }
+// Score = the longest run of steps in correct relative order, out of ALL the steps: a half-finished sequence can't score 100.
+function seqScore(Q) { const o = Q.order, total = SEQUENCES[Q.k].steps.length, best = []; o.forEach((v, i) => { best[i] = 1; for (let j = 0; j < i; j++) if (o[j] < v && best[j] + 1 > best[i]) best[i] = best[j] + 1; }); return Math.round(100 * (best.length ? Math.max(...best) : 0) / total); }
 function renderSeq(Q, examMode) {
   const s = SEQUENCES[Q.k];
   return `<div class="card read"><h3>${s.name}</h3><p class="small muted">Tap the steps in the order you'd perform them for the examiner.</p>
@@ -51,12 +52,13 @@ function floorMath() {
 }
 function newList() { const L0 = pick(WINELISTS); return { L0, flags: [], checked: false }; }
 function renderList(W, examMode) {
-  return `<div class="card read"><h3>${esc(W.L0.title)}</h3><p class="small muted">Tap every line that contains an error (region, grape, appellation, classification or label term).</p>
+  return `<div class="card read"><h3>${esc(W.L0.title)}</h3><p class="small muted">Tap every line that contains an error (region, grape, appellation, classification or label term). A wrong flag cancels a right one.</p>
   <div class="grid" style="gap:6px">${W.L0.lines.map((ln, i) => { const f = W.flags.includes(i); let st = ""; if (W.checked) st = ln[1] ? (f ? "border-color:var(--good)" : "border-color:var(--bad)") : (f ? "border-color:var(--bad)" : ""); return `<button class="opt ${f ? "sel" : ""}" style="${st}" data-act="lflag" data-arg="${i}" ${W.checked ? "disabled" : ""}><span class="mono" style="font-size:14px">${esc(ln[0])}</span>${W.checked && ln[1] ? `<div class="small" style="color:var(--muted);margin-top:4px">${esc(ln[1])}</div>` : ""}</button>`; }).join("")}</div>
   ${W.checked ? `<p><span class="pill ${listScore(W) >= 70 ? "good" : "bad"}">${listScore(W)}%</span></p>` : ""}
   ${!examMode ? `<div class="row">${W.checked ? `<button class="btn" data-act="lnew">Another list</button>` : `<button class="btn pri" data-act="lcheck">Check</button>`}</div>` : ""}</div>`;
 }
-function listScore(W) { const n = W.L0.lines.length; let ok = 0; W.L0.lines.forEach((ln, i) => { if (!!ln[1] === W.flags.includes(i)) ok++; }); return Math.round(100 * ok / n); }
+// Errors found, less false alarms, out of the errors on the list: flagging nothing scores zero, and so does flagging everything.
+function listScore(W) { let hit = 0, miss = 0, errors = 0; W.L0.lines.forEach((ln, i) => { const f = W.flags.includes(i); if (ln[1]) { errors++; if (f) hit++; } else if (f) miss++; }); return Math.round(100 * Math.max(0, hit - miss) / Math.max(1, errors)); }
 function floorList() { if (!FL.list) FL.list = newList(); return renderList(FL.list, false); }
 
 // ---------- FLASHCARDS ----------

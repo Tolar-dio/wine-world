@@ -33,12 +33,12 @@ analyst:`<p>Diploma D1 questions: explain how vine balance affects quality; comp
 terms:[["Phenolic ripeness","Maturity of skins, seeds and tannins, separate from sugar."],["Brix","Percent sugar in must; × 0.55-0.6 ≈ potential alcohol."],["Massal selection","Propagating from many vines in a vineyard to preserve diversity."],["110 Richter","Drought-tolerant rootstock."],["41B","Lime-tolerant rootstock used in Champagne."],["RDI","Regulated deficit irrigation."],["Green harvest","Removing bunches before ripening to reduce yield."]],
 quiz:[
 [2,"Which acid falls fastest during ripening, especially in heat?","Malic acid",["Tartaric acid","Citric acid","Lactic acid"],"Respired by the berry."],
-[2,"A must at 24 °Brix would ferment dry to roughly:","13.5-14% alcohol",["10%","17%","8%"],"Brix × 0.55-0.6."],
+[2,"A must at 24 °Brix would ferment dry to roughly:","13.5-14% alcohol",["10-10.5% alcohol","16.5-17% alcohol","8-8.5% alcohol"],"Brix × 0.55-0.6."],
 [2,"Which rootstock is valued for lime tolerance on chalk?","41B",["110 Richter","SO4","Riparia Gloria"],"Champagne and Cognac."],
 [3,"California's failed AXR1 rootstock problem was caused by:","Phylloxera",["Downy mildew","Nematodes","Frost"],"Massive replanting in the 1980s-90s."],
-[2,"Massal selection differs from clonal selection in that it:","Takes cuttings from many vines to preserve diversity",["Uses a single mother vine","Uses hybrids","Uses seeds"],"Sélection massale."],
-[2,"Scott Henry and Smart-Dyson are:","Divided-canopy training systems",["Rootstocks","Yeast strains","Barrel types"],"Used to manage vigor."],
-[3,"Phenolic ripeness is indicated by:","Brown, crunchy seeds and soft tannins",["High malic acid","Green seeds","Low pH only"],"Skins release color easily."]
+[2,"Massal selection differs from clonal selection in that it:","Takes cuttings from many vines to preserve diversity",["Propagates from a single mother vine","Crosses two species to make a hybrid","Raises new vines from grape seeds"],"Sélection massale."],
+[2,"Scott Henry and Smart-Dyson are:","Divided-canopy training systems",["Drought-tolerant rootstocks","Selected yeast strains","Barrel toasting methods"],"Used to manage vigor."],
+[3,"Phenolic ripeness is indicated by:","Brown, crunchy seeds and soft tannins",["High malic acid and a low pH","Green seeds and firm, bitter skins","A sugar reading above 24 Brix"],"Skins release color easily."]
 ]});
 
 L.push({id:"v2", unit:"F3", title:"Deep Dive: Fermentation and Wine Chemistry", mins:24,
@@ -77,11 +77,11 @@ quiz:[
 [2,"As pH rises, the antimicrobial (molecular) fraction of free SO₂:","Falls sharply",["Rises","Stays the same","Becomes bound"],"High-pH wines need more SO₂."],
 [2,"Passion fruit and grapefruit aromas in Marlborough Sauvignon come mainly from:","Thiols",["Pyrazines","Terpenes","Rotundone"],"Released by yeast during fermentation."],
 [2,"Rotundone gives:","Black pepper",["Petrol","Butter","Bell pepper"],"Syrah, Grüner Veltliner."],
-[2,"Low YAN can cause:","Stuck fermentation and hydrogen sulfide",["Excess color","Botrytis","Tartrate crystals"],"Yeasts need nitrogen."],
+[2,"Low YAN can cause:","Stuck fermentation and hydrogen sulfide",["Excess color and harsh tannin","Botrytis in the fermenting must","Tartrate crystals in the bottle"],"Yeasts need nitrogen."],
 [3,"Which compound smells of band-aid and barnyard?","4-ethylphenol",["Linalool","Diacetyl","IBMP"],"Produced by Brettanomyces."],
 [2,"Which tannins are harsher?","Seed tannins",["Skin tannins","Oak tannins always","Stem tannins never"],"Long, hot macerations risk extracting them."],
 [3,"Malolactic conversion is mainly performed by:","Oenococcus oeni",["Saccharomyces cerevisiae","Botrytis cinerea","Acetobacter"],"Lactic acid bacterium."],
-[3,"Flash détente is used to:","Rapidly extract color by heating then vacuum-cooling must",["Stop fermentation","Remove alcohol","Add bubbles"],"Common in volume reds."]
+[3,"Flash détente is used to:","Extract color fast by heating then vacuum-cooling",["Stop fermentation while sugar remains","Remove alcohol from finished wine","Clarify juice before fermentation begins"],"Common in volume reds."]
 ]});
 
 L.push({id:"v3", unit:"F3", title:"Deep Dive: Élevage, Stabilization and Bottling", mins:20,
@@ -91,7 +91,7 @@ body:`
 <ul><li><b>Forests</b>: French oak from Allier, Tronçais, Nevers, Vosges and Limousin (Limousin is wide-grained, more used for Cognac); American white oak from Missouri, Minnesota, Oregon (Oregon's <i>Q. garryana</i> is a separate species); Hungarian and Slavonian oak.</li>
 <li><b>Seasoning</b>: staves air-dry outdoors for 2-3 years; rain and fungi leach harsh tannins.</li>
 <li><b>Toasting</b>: light toast keeps more oak tannin and coconut; medium and heavy toast build vanillin, clove (eugenol), smoke (guaiacol), caramel (furfural) and coffee notes. Some coopers toast barrel heads separately.</li>
-<li><b>Sizes</b>: barrique 225 L, pièce 228 L, Champagne/Chablis feuillette 114 L, puncheon about 500 L, tonneau about 900 L, foudre and botti from 1,000 L to tens of thousands. Smaller vessel = more oak contact and oxygen per liter.</li>
+<li><b>Sizes</b>: barrique 225 L, pièce 228 L, feuillette (114 L in the Côte d'Or, 132 L in Chablis), puncheon about 500 L, tonneau about 900 L, foudre and botti from 1,000 L to tens of thousands. Smaller vessel = more oak contact and oxygen per liter.</li>
 <li><b>New vs used</b>: "100% new oak" means every barrel used is new; most fine wines use a percentage.</li></ul>
 <h3>Other vessels</h3>
 <p>Stainless steel (inert, temperature controlled), concrete tanks and <b>eggs</b> (thermally stable, slight oxygen exchange; the egg shape encourages convection that keeps lees suspended), <b>amphora</b> and <b>qvevri</b> (clay; porous unless lined), glass demijohns, and large old oak for oxygen without flavor.</p>
@@ -118,15 +118,15 @@ body:`
 <p>Oxygen picked up at bottling (dissolved and headspace) can matter more than the closure itself; winemakers sparge with inert gas and measure total package oxygen. Closures differ in <b>oxygen transmission rate (OTR)</b>: screwcap liners can be chosen from very tight (tin) to more permeable (Saranex). <b>Bottle shock</b> (temporary muteness after bottling) usually fades in weeks to months.</p>`,
 floor:`<p>Guests ask about vegan wine and "no sulfites." Know that many wines are fined with animal products (not labeled in the US), that bentonite and pea protein are vegan options, and that all wine contains some sulfites from fermentation.</p>`,
 analyst:`<p>D1 questions: compare fining agents; explain cold stabilization and alternatives; discuss the tradeoffs of unfined/unfiltered wines; explain how vessel size and age affect oak influence and oxidation.</p>`,
-terms:[["Feuillette","114-liter barrel used in Chablis and Champagne."],["Gross lees / fine lees","Heavy early sediment versus fine yeast lees kept for texture."],["Crossflow filtration","Filtration with wine flowing parallel to the membrane."],["CMC","Carboxymethylcellulose, a tartrate stabilizer for whites."],["Spinning cone column","Technology for separating aromas and removing alcohol."],["OTR","Oxygen transmission rate of a closure."]],
+terms:[["Feuillette","Small Burgundian barrel: 114 L in the Côte d'Or, 132 L in Chablis."],["Gross lees / fine lees","Heavy early sediment versus fine yeast lees kept for texture."],["Crossflow filtration","Filtration with wine flowing parallel to the membrane."],["CMC","Carboxymethylcellulose, a tartrate stabilizer for whites."],["Spinning cone column","Technology for separating aromas and removing alcohol."],["OTR","Oxygen transmission rate of a closure."]],
 quiz:[
-[2,"Which fining agent removes proteins to prevent haze in whites?","Bentonite",["Egg white","Isinglass","Activated charcoal"],"Vegan clay."],
+[2,"Which fining agent removes proteins to prevent haze in whites?","Bentonite",["Egg white","Isinglass","Activated charcoal"],"Bentonite is a clay that binds proteins: the standard fining for protein stability, and vegan."],
 [2,"Sterile filtration typically uses membranes of about:","0.45 μm",["45 μm","5 mm","0.001 μm"],"Removes yeast and bacteria."],
 [2,"A pièce in Burgundy holds:","228 liters",["225 liters","500 liters","114 liters"],"A Bordeaux barrique is 225 L."],
-[3,"Why is sorbic acid not used in wines that went through MLC?","Lactic bacteria convert it to geranium off-odors",["It causes haze","It adds sugar","It's illegal everywhere"],"Geranium taint."],
-[2,"Cold stabilization prevents:","Tartrate crystals",["Oxidation","Brett","Cork taint"],"Chilling near freezing."],
-[2,"Which oak species grows in Oregon and differs from American white oak?","Quercus garryana",["Quercus alba","Quercus petraea","Quercus robur"],"Oregon oak."],
-[3,"Medium-to-heavy toast mainly increases:","Vanillin, smoke, clove and caramel notes",["Raw oak tannin","Coconut only","Green notes"],"Light toast keeps more oak tannin and coconut."]
+[3,"Why is sorbic acid not used in wines that went through MLC?","Lactic bacteria convert it to geranium off-odors",["It reacts with tannin to cause a haze","It breaks down into fermentable sugar","It strips color from red wines in bottle"],"Geranium taint."],
+[2,"Cold stabilization prevents:","Tartrate crystals",["Oxidation","Protein haze","Cork taint"],"Chilling near freezing."],
+[2,"Which oak species grows in Oregon and differs from American white oak?","Quercus garryana",["Quercus alba","Quercus petraea","Quercus robur"],"Quercus garryana, Oregon white oak. Most American barrels are Quercus alba; French oak is Q. petraea and Q. robur."],
+[3,"Medium-to-heavy toast mainly increases:","Vanillin, smoke, clove and caramel notes",["Raw oak tannin and coconut","Fresh fruit and floral notes","Green, sappy wood flavors"],"Light toast keeps more oak tannin and coconut."]
 ]});
 
 L.push({id:"v4", unit:"H", title:"Climate Change and the Future of Wine", mins:16,
@@ -164,10 +164,10 @@ floor:`<p>Guests notice that wines feel bigger and riper than they used to. A sh
 analyst:`<p>MW contemporary issues and Diploma D6 research topics often come from this list. Build essays with specific regional evidence, data where possible, and balanced weighing of costs and opportunities.</p>`,
 terms:[["PIWI","German acronym for fungus-resistant grape varieties."],["Voltis","Disease-resistant hybrid approved for limited trial use in Champagne."],["Marselan","Cabernet Sauvignon × Grenache cross approved for trial in Bordeaux."],["Kaolin","Clay spray used to protect grapes from sunburn."],["Regenerative viticulture","Farming focused on soil health, biodiversity and carbon."]],
 quiz:[
-[1,"A widespread effect of warming in classic regions is:","Earlier harvests with higher sugar and lower acid",["Later harvests","Lower alcohol","More botrytis everywhere"],"Weeks earlier than mid-20th century."],
+[1,"A widespread effect of warming in classic regions is:","Earlier harvests with higher sugar",["Later harvests with lower sugar","Lower alcohol and firmer acidity","More botrytis in every region"],"Weeks earlier than mid-20th century."],
 [2,"Which of these did Bordeaux approve for trial in generic AOCs?","Touriga Nacional",["Nebbiolo","Zinfandel","Pinotage"],"Also Marselan, Castets, Arinarnoa."],
-[2,"Voltis is:","A disease-resistant hybrid trialed in Champagne",["A Bordeaux château","A rootstock","A yeast strain"],"Limited trial use."],
-[2,"PIWI varieties are bred for:","Fungal disease resistance",["High alcohol","Sweetness","Dark color"],"German acronym."],
+[2,"Voltis is:","A disease-resistant Champagne hybrid",["A Bordeaux château in the trials","A drought-tolerant rootstock","A low-alcohol yeast strain"],"Limited trial use."],
+[2,"PIWI varieties are bred for:","Fungal disease resistance",["Higher alcohol levels","Natural sweetness","Deeper color"],"German acronym."],
 [1,"What drives much of wine's carbon footprint?","Glass bottles",["Corks","Labels","Grapes"],"Weight in production and transport."],
 [3,"In June 2019, France recorded temperatures above:","45°C",["38°C","50°C","32°C"],"A severe heat event."]
 ]});
