@@ -165,10 +165,47 @@ body:`
 <h3>Fruit, nut and other liqueurs</h3>
 <p>Orange: <b>Cointreau</b> (triple sec, clear, neutral spirit), <b>Grand Marnier</b> (Cognac-based), Curaçao. Cherry: <b>Maraschino</b> (Luxardo, clear, from Marasca cherries; essential in the Aviation and Last Word), <b>Cherry Heering</b>, kirsch (an eau-de-vie, unsweetened). Crème de cassis (Dijon), crème de mûre, crème de violette. Nut: Amaretto (Disaronno), Frangelico (hazelnut), Nocino (green walnut). Coffee: Kahlúa, Mr Black. Cream: Baileys. Elderflower: St-Germain. Limoncello (Amalfi lemon zest).</p>
 <h3>Anise spirits and absinthe</h3>
-<p><b>Absinthe</b>: distilled with grande wormwood, green anise and fennel, often 60-70%; banned in much of Europe and the US in the early 1900s over (exaggerated) thujone fears, legal again since the 2000s. Served with slow-dripped iced water, which causes the <b>louche</b> (clouding as anethole comes out of solution). <b>Pastis</b> (Pernod, Ricard; licorice root, sweetened), <b>ouzo</b> (Greece), <b>raki</b> (Turkey), <b>arak</b> (Lebanon), <b>sambuca</b> (Italy, sweet), <b>anisette</b>.</p>`,
+<p><b>Absinthe</b>: distilled with grande wormwood, green anise and fennel, often 60-70%; banned in much of Europe and the US in the early 1900s over (exaggerated) thujone fears, legal again since the 2000s. Served with slow-dripped iced water, which causes the <b>louche</b> (clouding as anethole comes out of solution). <b>Pastis</b> (Pernod, Ricard; licorice root, sweetened), <b>ouzo</b> (Greece), <b>raki</b> (Turkey), <b>arak</b> (Lebanon), <b>sambuca</b> (Italy, sweet), <b>anisette</b>.</p>
+<h3>How vermouth is made</h3>
+<ol><li><b>Base wine.</b> A neutral white wine, even for red vermouth. Rosso gets its color from caramel, not from red grapes.</li>
+<li><b>Botanicals.</b> Wormwood, gentian, cinchona, citrus peel, vanilla, chamomile, clove, cinnamon and rhubarb root are steeped in spirit or wine, and sometimes distilled.</li>
+<li><b>Blending.</b> The extract is mixed into the wine with sugar and enough spirit to reach 15 to 18%.</li>
+<li><b>Rest and filter.</b> Weeks or months of marrying before bottling.</li></ol>
+<p>Antonio Benedetto Carpano sold the first commercial vermouth in Turin in <b>1786</b>. Joseph Noilly created the French dry style in 1813.</p>
+<table class="t"><tr><th>EU sweetness term</th><th>Sugar</th></tr>
+<tr><td>Extra dry</td><td>Under 30 g/L</td></tr>
+<tr><td>Dry</td><td>Under 50 g/L</td></tr>
+<tr><td>Semi-dry</td><td>50 to 90 g/L</td></tr>
+<tr><td>Semi-sweet</td><td>90 to 130 g/L</td></tr>
+<tr><td>Sweet</td><td>130 g/L or more</td></tr></table>
+<p><b>Vermouth di Torino</b> must be made in Piedmont from Italian wine with Piedmontese wormwood. <b>Superiore</b> needs at least 17% alcohol and at least half its wine from Piedmont.</p>
+<h3>The amaro families</h3>
+<p>An amaro is made by steeping roots, barks, peels and herbs in spirit, then sweetening and sometimes aging the result. The main bittering agents are gentian, cinchona, wormwood, rhubarb root and bitter orange.</p>
+<table class="t"><tr><th>Family</th><th>Examples and strength</th><th>Character</th></tr>
+<tr><td>Aperitivo bitter</td><td>Aperol (11%), Select, Campari (about 24%)</td><td>Red, orange-led, made for spritzes and the Negroni</td></tr>
+<tr><td>Light</td><td>Montenegro (23%), Nonino (35%)</td><td>Floral, citrus, gentle</td></tr>
+<tr><td>Medium</td><td>Averna (29%), Ramazzotti (30%)</td><td>Cola, caramel, orange peel</td></tr>
+<tr><td>Alpine</td><td>Braulio (21%)</td><td>Pine, mint, mountain herbs</td></tr>
+<tr><td>Carciofo and rabarbaro</td><td>Cynar (16.5%), Zucca</td><td>Vegetal or smoky rhubarb</td></tr>
+<tr><td>Fernet</td><td>Fernet-Branca (39%)</td><td>The least sweet and most bitter: mint, saffron, myrrh</td></tr></table>
+<h3>Liqueurs by the rules</h3>
+<ul><li>In the EU a <b>liqueur</b> has at least 15% alcohol and 100 g/L of sugar.</li>
+<li><b>Crème de</b> means at least 250 g/L of sugar; it has nothing to do with dairy. <b>Crème de cassis</b> needs 400 g/L.</li>
+<li><b>Curaçao</b> began with the bitter laraha orange of the island of Curaçao. <b>Triple sec</b> is the drier French style; Cointreau dates from 1875.</li></ul>
+<table class="t"><tr><th>Method</th><th>How it works</th><th>Best for</th></tr>
+<tr><td>Maceration</td><td>Cold soaking in spirit</td><td>Soft fruit: cassis, raspberry</td></tr>
+<tr><td>Percolation</td><td>Spirit drips through the material, like coffee</td><td>Vanilla, cocoa, coffee</td></tr>
+<tr><td>Distillation</td><td>Botanicals are redistilled with the spirit</td><td>Citrus peel, seeds, herbs</td></tr>
+<tr><td>Compounding</td><td>Essences are mixed into spirit</td><td>The cheapest bottles</td></tr></table>
+<p>In January 2023 the Carthusian monks announced that they would hold Chartreuse production steady instead of chasing demand, so it is allocated and often scarce.</p>
+<h3>Serving and keeping them</h3>
+<ul><li><b>Amaro:</b> 1.5 to 2 oz, neat at room temperature or over one large cube, with orange peel for the darker styles.</li>
+<li><b>Absinthe:</b> three to five parts iced water dripped slowly into one part absinthe. A sugar cube on a slotted spoon is optional. Setting it on fire is a modern gimmick that ruins the drink.</li>
+<li>A <b>verte</b> gets its green from chlorophyll, in a second soak of herbs after distillation. A <b>blanche</b> skips that step and is clear. The style was born in Switzerland's Val-de-Travers.</li>
+<li><b>Keeping:</b> strong liqueurs last for years once open. Low-alcohol bitters and anything wine-based fade within weeks or months, and cream liqueurs within about six months.</li></ul>`,
 floor:`<p>The digestif cart is a sommelier's high-margin moment. Know three amari from light to bitter, a Chartreuse story, and how to serve absinthe properly. Recommend vermouth on the rocks with an orange slice as a low-alcohol apéritif.</p>`,
 analyst:`<p>The SWE's CSS and WSET spirits courses cover aromatized wines and liqueurs: definitions, flavoring methods (maceration, infusion, distillation) and key brands.</p>`,
-terms:[["Artemisia","Wormwood; the legally required flavoring in vermouth."],["Quinquina","Aromatized wine flavored with cinchona (quinine)."],["Amaro","Italian bitter herbal liqueur."],["Louche","Clouding of anise spirits when water is added."],["Maraschino","Clear liqueur from Marasca cherries."],["V.E.P.","Chartreuse's aged, extra-long-matured versions."]],
+terms:[["Artemisia","Wormwood; the legally required flavoring in vermouth."],["Quinquina","Aromatized wine flavored with cinchona (quinine)."],["Amaro","Italian bitter herbal liqueur."],["Louche","Clouding of anise spirits when water is added."],["Maraschino","Clear liqueur from Marasca cherries."],["V.E.P.","Chartreuse's aged, extra-long-matured versions."],["Crème de","EU term for a liqueur with at least 250 g/L of sugar."],["Percolation","Dripping spirit through flavoring material, as in coffee making."],["Fernet","The driest, most bitter family of amaro."],["Triple sec","The drier French style of orange liqueur."],["Verte","Green absinthe, colored by a second soak of herbs."],["Vermouth di Torino","Geographical indication for vermouth made in Piedmont."]],
 quiz:[
 [1,"Vermouth must be flavored with:","Wormwood (Artemisia)",["Cinchona (quinine)","Juniper berries","Star anise"],"From German Wermut."],
 [2,"Green Chartreuse is bottled at:","55%",["40%","30%","70%"],"Yellow is 40% and sweeter."],
@@ -176,5 +213,13 @@ quiz:[
 [2,"Cynar is an amaro based on:","Artichoke",["Rhubarb","Saffron","Walnut"],"Italian digestif."],
 [2,"The louche in absinthe is caused by:","Anethole coming out of solution",["Sugar crystallizing in the cold water","Thujone oxidizing on contact with air","Proteins forming a chill haze"],"Clouding effect."],
 [3,"Noilly Prat ages part of its wine:","Outdoors in barrels at Marseillan",["Underground in the cellars of Turin","In glass bonbonnes in the sun","Under a film of flor yeast"],"French dry vermouth."],
-[2,"Grand Marnier differs from Cointreau because it is:","Cognac-based",["Clear and neutral","Made from cherries","Bitter"],"Cointreau is a triple sec."]
+[2,"Grand Marnier differs from Cointreau because it is:","Cognac-based",["Clear and neutral","Made from cherries","Bitter"],"Cointreau is a triple sec."],
+[2,"The base wine for red (rosso) vermouth is normally:","White wine, colored with caramel",["Red wine from Nebbiolo","Rosé wine from Grenache","Unfermented grape must"],"The color does not come from red grapes."],
+[2,"Who sold the first commercial vermouth, in Turin in 1786?","Antonio Benedetto Carpano",["Gaspare Campari","Joseph Noilly","Bernardino Branca"],"Noilly created the French dry style in 1813."],
+[2,"Under EU rules, a 'crème de' liqueur must contain at least:","250 g/L of sugar",["100 g/L of sugar","15% dairy cream","40% alcohol"],"Crème de cassis needs 400 g/L. No cream is involved."],
+[2,"The least sweet and most bitter family of amaro is:","Fernet",["Aperitivo bitter","Carciofo","Alpine"],"Fernet-Branca is about 39% with mint, saffron and myrrh."],
+[2,"Which liqueur method best suits soft fruit such as raspberries?","Cold maceration",["Distillation","Percolation","Compounding"],"Heat would cook the fresh fruit character."],
+[3,"Vermouth di Torino Superiore must reach at least:","17% alcohol",["11% alcohol","22% alcohol","40% alcohol"],"And half its wine must come from Piedmont."],
+[2,"A traditional absinthe verte gets its green color from:","Chlorophyll from a second herb soak",["Copper salts from the pot still","Lime peel added after distilling","Long aging in green glass bottles"],"A blanche skips the coloring step and stays clear."],
+[2,"Aperol is bottled at about:","11% alcohol",["24% alcohol","35% alcohol","45% alcohol"],"Campari is about 24%; Fernet-Branca about 39%."]
 ]});

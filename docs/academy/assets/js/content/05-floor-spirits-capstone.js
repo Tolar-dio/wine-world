@@ -393,10 +393,56 @@ body:`
 <li><b>Gin:</b> neutral spirit flavored predominantly with juniper. <b>London Dry</b> is a method (botanicals in redistillation, no flavor added afterward), not a place. Plymouth, Old Tom (sweetened), Genever (malty Dutch ancestor).</li>
 <li><b>Vodka:</b> neutral spirit from grain, potato or anything fermentable, filtered.</li></ul>
 <h3>Liqueurs, vermouth, bitters</h3>
-<p>Liqueurs are sweetened, flavored spirits: Chartreuse (green 55%, yellow 40%; Carthusian monks), Bénédictine, Cointreau and Grand Marnier (orange; Grand Marnier is Cognac-based), Amaretto, Kahlúa. <b>Vermouth</b> is an aromatized, fortified wine (Italian sweet/rosso from Turin, French dry from Chambéry). <b>Amari</b>: bitter herbal liqueurs (Campari, Aperol, Fernet-Branca, Averna, Cynar). Aromatic bitters: Angostura, Peychaud's.</p>`,
+<p>Liqueurs are sweetened, flavored spirits: Chartreuse (green 55%, yellow 40%; Carthusian monks), Bénédictine, Cointreau and Grand Marnier (orange; Grand Marnier is Cognac-based), Amaretto, Kahlúa. <b>Vermouth</b> is an aromatized, fortified wine (Italian sweet/rosso from Turin, French dry from Chambéry). <b>Amari</b>: bitter herbal liqueurs (Campari, Aperol, Fernet-Branca, Averna, Cynar). Aromatic bitters: Angostura, Peychaud's.</p>
+<h3>From raw material to wash</h3>
+<p>Yeast can only ferment sugar, so every spirit starts by getting sugar out of its raw material. How that is done is the first thing that separates the categories.</p>
+<table class="t"><tr><th>Raw material</th><th>What must happen first</th><th>Spirits</th></tr>
+<tr><td>Fruit (grapes, apples, plums)</td><td>Nothing: the sugar is ready</td><td>Cognac, Armagnac, Calvados, pisco, eau-de-vie</td></tr>
+<tr><td>Sugarcane</td><td>Nothing: juice or molasses ferments directly</td><td>Rum, rhum agricole, cachaça</td></tr>
+<tr><td>Grain</td><td>Starch must be converted to sugar by the enzymes of malted barley (or by koji in Asia)</td><td>Whisky, vodka, gin base, shochu, baijiu</td></tr>
+<tr><td>Agave</td><td>The heart is cooked to turn its inulin into fermentable sugar</td><td>Tequila, mezcal</td></tr>
+<tr><td>Potato</td><td>Cooked, then converted with enzymes</td><td>Some vodka, aquavit</td></tr></table>
+<h3>What the still decides</h3>
+<ul><li><b>The cut.</b> The first vapors (<b>heads</b>) carry methanol and sharp solvents; the last (<b>tails</b>) carry heavy, oily compounds. The distiller keeps the <b>heart</b>. A narrow cut gives a clean, light spirit; a wide one gives weight and character.</li>
+<li><b>Copper</b> reacts with sulfur compounds and strips them out, which is why stills are made of it.</li>
+<li><b>Reflux.</b> In a tall still, heavy vapors condense and fall back before they reach the top, so only light ones pass: a delicate spirit. Short, squat stills make a heavier, oilier one.</li>
+<li><b>Strength.</b> The higher the strength off the still, the less flavor of the raw material survives. Vodka comes off at 95% or more; Cognac at about 70%; Armagnac nearer 55%.</li></ul>
+<h3>Proof, age and color</h3>
+<ul><li>In the US, <b>proof is twice the alcohol by volume</b>: 80 proof is 40%.</li>
+<li>Spirits mature only in wood. Once bottled they do not improve, so a 12-year-old whisky bought 20 years ago is still 12.</li>
+<li>Color comes from the cask, or in many categories from added caramel. Dark does not mean old.</li>
+<li>Clear spirits are not always unaged: some white rums are aged and then filtered to remove color.</li></ul>
+<h3>How to taste a spirit</h3>
+<ol><li>Pour about an ounce into a tulip-shaped glass.</li>
+<li>Bring it up slowly and smell with your mouth slightly open. A deep sniff at 40% numbs the nose.</li>
+<li>Take a very small sip and let it coat the mouth before a second, real one.</li>
+<li>Add a few drops of water. It lowers the burn and releases aroma, which is why blenders nose whisky at about 20%.</li>
+<li>Judge: aroma, sweetness, how well the alcohol is integrated, texture and length.</li></ol>
+<h3>Recognizing the categories blind</h3>
+<table class="t"><tr><th>Spirit</th><th>Signature</th></tr>
+<tr><td>Cognac</td><td>Dried apricot, flowers, vanilla; with age a nutty, mushroomy note called rancio</td></tr>
+<tr><td>Armagnac</td><td>Prune, fig, toffee; more rustic and fuller</td></tr>
+<tr><td>Calvados</td><td>Baked apple, cider, cinnamon</td></tr>
+<tr><td>Bourbon</td><td>Vanilla, caramel, coconut, sweet corn; a round, sweet impression</td></tr>
+<tr><td>Rye</td><td>Black pepper, dill, baking spice; drier</td></tr>
+<tr><td>Unpeated single malt</td><td>Malt, honey, orchard fruit; dried fruit if from Sherry casks</td></tr>
+<tr><td>Islay malt</td><td>Smoke, iodine, tar, seaweed</td></tr>
+<tr><td>Tequila blanco</td><td>Cooked agave, white pepper, citrus, earth</td></tr>
+<tr><td>Mezcal</td><td>Smoke and roasted agave together</td></tr>
+<tr><td>Rhum agricole</td><td>Fresh-cut cane, grass, lime</td></tr>
+<tr><td>Jamaican rum</td><td>Overripe banana, pineapple, varnish: "funk"</td></tr>
+<tr><td>Aged molasses rum</td><td>Toffee, molasses, brown sugar, baking spice</td></tr>
+<tr><td>Gin</td><td>Pine from juniper, citrus peel, coriander</td></tr>
+<tr><td>Grappa, pisco</td><td>Grape skins and flowers; pisco from Muscat grapes is the most perfumed</td></tr></table>
+<h3>Serving spirits</h3>
+<ul><li><b>Pour:</b> 1.5 to 2 oz.</li>
+<li><b>Glass:</b> a small tulip or copita for anything worth smelling. The big balloon snifter is tradition, not best practice, and it should never be heated.</li>
+<li><b>Temperature:</b> room temperature for aged spirits. Vodka and aquavit are often served from the freezer; fruit eaux-de-vie lightly chilled.</li>
+<li><b>Water and ice:</b> offer water on the side. Ice chills and dilutes at once, which mutes aroma; that suits a hot evening and a young spirit, not a 25-year-old.</li>
+<li><b>Ask before you assume:</b> neat, with water, or on the rocks.</li></ul>`,
 floor:`<p>Official CMS question pair: Introductory: "Which spirit must be aged at least 2 years in French oak?" (Cognac). Certified: "Order XO, Three Star, VSOP from least to most barrel aging" (Three Star, VSOP, XO). Digestif service: offer Cognac, Armagnac, Calvados, amari, Port and Madeira from the cart after dessert.</p>`,
 analyst:`<p>WSET's spirits qualifications are separate (Level 3 Spirits was refreshed in February 2025). The SWE's CSS (Certified Specialist of Spirits) uses the same 100-question format as the CSW.</p>`,
-terms:[["Pot still","Batch still giving flavorful spirit; usually two runs."],["Column still","Continuous still producing high-proof, lighter spirit."],["Straight Bourbon","Bourbon aged at least 2 years."],["Single malt","100% malted barley, pot-distilled at one distillery."],["Rhum agricole","Rum from fresh cane juice."],["London Dry","Gin production method; no flavoring added after distillation."]],
+terms:[["Pot still","Batch still giving flavorful spirit; usually two runs."],["Column still","Continuous still producing high-proof, lighter spirit."],["Straight Bourbon","Bourbon aged at least 2 years."],["Single malt","100% malted barley, pot-distilled at one distillery."],["Rhum agricole","Rum from fresh cane juice."],["London Dry","Gin production method; no flavoring added after distillation."],["Heads, heart, tails","The three fractions of a distillation; only the heart is kept."],["Reflux","Vapor condensing and falling back inside a still, which lightens the spirit."],["Proof","US measure of strength: twice the alcohol by volume."],["Rancio","Nutty, mushroom-like note of very old Cognac and other long-aged spirits."],["Wash","The fermented liquid that goes into a still."]],
 quiz:[
 [1,"Which spirit must be aged at least 2 years in French oak?","Cognac",["Bourbon","Tequila Blanco","Vodka"],"Official CMS Introductory sample."],
 [2,"Order from least to most barrel aging:","Three Star, VSOP, XO",["XO, VSOP, Three Star","VSOP, Three Star, XO","Three Star, XO, VSOP"],"Official CMS Certified version: VS/Three Star 2 years, VSOP 4, XO 10."],
@@ -405,7 +451,14 @@ quiz:[
 [2,"Reposado tequila is aged:","2-12 months",["Under 2 months","1-3 years","3+ years"],"Añejo 1-3 years."],
 [2,"Which Cognac cru is considered finest?","Grande Champagne",["Fins Bois","Borderies","Bons Bois"],"Grande Champagne's chalky soils give the finest, longest-aging eaux-de-vie."],
 [3,"Since 2018, minimum age for XO Cognac is:","10 years",["6 years","4 years","20 years"],"The XO minimum rose from 6 to 10 years in April 2018."],
-[2,"Islay single malts are known for:","Peat smoke",["Sherry sweetness only","Corn sweetness","Agave notes"],"Laphroaig, Lagavulin, Ardbeg."]
+[2,"Islay single malts are known for:","Peat smoke",["Sherry sweetness only","Corn sweetness","Agave notes"],"Laphroaig, Lagavulin, Ardbeg."],
+[1,"In the US, a spirit at 100 proof is:","50% alcohol by volume",["100% alcohol by volume","25% alcohol by volume","10% alcohol by volume"],"US proof is twice the ABV."],
+[2,"Why must agave be cooked before fermentation?","To turn inulin into fermentable sugar",["To add a smoky flavor to it","To kill wild yeast on the skin","To soften the spines for cutting"],"Yeast cannot ferment inulin. Mezcal's pit-roasting adds smoke as a by-product."],
+[2,"The first vapors off a pot still, which the distiller discards, are the:","Heads",["Heart","Tails","Lees"],"Heads carry methanol and sharp solvents; tails are heavy and oily."],
+[2,"Stills are made of copper mainly because it:","Removes sulfur compounds",["Conducts no heat","Adds color to the spirit","Raises the alcohol"],"Copper reacts with sulfur and strips it from the vapor."],
+[2,"A whisky labeled 12 years old, bought and kept for 20 years, is now:","Still 12 years old",["32 years old","20 years old","Spoiled"],"Spirits mature only in cask."],
+[2,"A few drops of water added to a neat spirit:","Lower the burn and release aroma",["Ruin the texture","Raise its proof","Make it cloudy in every case"],"Blenders nose whisky diluted to about 20%."],
+[3,"Overripe banana, pineapple and varnish in a rum suggest:","Jamaica",["Martinique","Puerto Rico","Cuba"],"High-ester pot-still rum. Martinique's agricole is grassy; Cuban style is light."]
 ]});
 
 L.push({id:"b2", unit:"S2", title:"Beer, Sake and Cider", mins:16,
@@ -428,10 +481,44 @@ body:`
 <tr><td>Daiginjo / Junmai Daiginjo</td><td>50%</td><td>Daiginjo yes / Junmai no</td></tr></table>
 <p>Other terms: <b>Nigori</b> (cloudy, coarsely filtered), <b>Namazake</b> (unpasteurized), <b>Genshu</b> (undiluted), <b>Koshu</b> (aged), <b>Nihonshu-do / SMV</b> (dry-sweet scale; positive is drier), <b>Toji</b> (master brewer), <b>Yamada Nishiki</b> (prized rice). Ginjo styles are fragrant (melon, banana, pear) and best slightly chilled.</p>
 <h3>Cider and perry</h3>
-<p>Fermented apple (cider) or pear (perry) juice. Traditions: Normandy and Brittany <b>cidre</b> (often keeved, naturally sweet, sparkling), <b>Pommeau</b> (apple juice plus Calvados), Spanish <b>sidra</b> from Asturias (poured from height, escanciado), English West Country farmhouse cider. <b>Poiré Domfrontais</b> is an AOP perry. Modern American cider is booming.</p>`,
+<p>Fermented apple (cider) or pear (perry) juice. Traditions: Normandy and Brittany <b>cidre</b> (often keeved, naturally sweet, sparkling), <b>Pommeau</b> (apple juice plus Calvados), Spanish <b>sidra</b> from Asturias (poured from height, escanciado), English West Country farmhouse cider. <b>Poiré Domfrontais</b> is an AOP perry. Modern American cider is booming.</p>
+<h3>How beer is brewed</h3>
+<ol><li><b>Malting:</b> barley is soaked, sprouted and dried. Sprouting creates the enzymes; the heat of drying sets color and flavor, from pale to chocolate-dark.</li>
+<li><b>Mashing:</b> crushed malt steeps in hot water and its enzymes turn starch into sugar. The sweet liquid is <b>wort</b>.</li>
+<li><b>Boiling:</b> wort boils for about an hour with hops. Hops added early give bitterness; hops added late give aroma.</li>
+<li><b>Fermentation:</b> the wort is cooled and yeast is added: days for an ale, weeks for a lager.</li>
+<li><b>Conditioning and packaging:</b> the beer clears and carbonates. <b>Dry hopping</b>, adding hops to the finished beer, gives the intense aroma of modern IPA with no extra bitterness.</li></ol>
+<p>Three numbers describe a beer: <b>ABV</b> (strength), <b>IBU</b> (bitterness: about 10 to 25 for most lagers, 40 to 70 and more for IPA) and <b>SRM</b> (color, from straw at 2 to black at 40).</p>
+<h3>Beer styles by family</h3>
+<table class="t"><tr><th>Family</th><th>Styles</th><th>Strength</th><th>Character</th></tr>
+<tr><td>Pale lager</td><td>Pilsner, Helles</td><td>4.5 to 5.5%</td><td>Crisp, clean; Pilsner is more bitter and floral</td></tr>
+<tr><td>Amber and strong lager</td><td>Märzen, Vienna, Bock, Doppelbock</td><td>5 to 10%</td><td>Toasty, bready malt; Doppelbock is rich and sweet</td></tr>
+<tr><td>Wheat</td><td>Hefeweizen, Witbier</td><td>4.5 to 5.5%</td><td>Cloudy, soft; banana and clove, or coriander and orange</td></tr>
+<tr><td>Pale ale and IPA</td><td>Pale Ale, West Coast IPA, Hazy IPA, Double IPA</td><td>5 to 9%</td><td>Citrus, pine, tropical hops; Hazy is juicy and less bitter</td></tr>
+<tr><td>Dark ale</td><td>Brown Ale, Porter, Stout, Imperial Stout</td><td>4 to 12%</td><td>Chocolate, coffee, roast</td></tr>
+<tr><td>Belgian</td><td>Saison, Dubbel, Tripel, Quadrupel</td><td>5 to 12%</td><td>Spicy yeast; Saison dry and peppery, Dubbel dark-fruited, Tripel golden and strong</td></tr>
+<tr><td>Sour</td><td>Lambic, Gueuze, Flanders Red, Berliner Weisse, Gose</td><td>3 to 8%</td><td>Tart; Gose adds salt and coriander</td></tr>
+<tr><td>Strong ale</td><td>Barleywine, Scotch Ale</td><td>8 to 12%</td><td>Toffee, dried fruit; can age for years</td></tr></table>
+<p><b>Glassware:</b> a tall, narrow glass for Pilsner; a tall curved vase for Hefeweizen; a tulip or goblet for Belgian ales; a snifter for strong beers. Each one manages the head and the aroma for its style.</p>
+<h3>How sake is made</h3>
+<ol><li><b>Polish</b> the rice, then wash, soak and <b>steam</b> it.</li>
+<li><b>Make koji:</b> about a fifth of the rice is dusted with koji mold spores and kept warm and humid for two days.</li>
+<li><b>Build the yeast starter</b> (shubo or moto): a small, concentrated batch of yeast.</li>
+<li><b>Build the main mash</b> (moromi) by adding rice, koji and water in <b>three stages over four days</b>, so the yeast is never overwhelmed.</li>
+<li><b>Ferment</b> cool for three to five weeks.</li>
+<li><b>Press</b>, filter, pasteurize, rest for about six months, and dilute to about 15%.</li></ol>
+<p>Two old starter methods, <b>kimoto</b> and <b>yamahai</b>, let natural lactic bacteria develop instead of adding lactic acid. They give richer, gamier, higher-acid sake that is excellent warm.</p>
+<h3>Sake: rice, places and temperatures</h3>
+<ul><li><b>Rice:</b> Yamada Nishiki, mostly from Hyogo, is the "king of sake rice". Gohyakumangoku (Niigata) gives light, dry sake. Omachi (Okayama) is earthy and rich.</li>
+<li><b>Places:</b> Nada in Hyogo is the largest district, with hard water and a firm, dry style. Fushimi in Kyoto has soft water and gentler sake. Niigata is known for light, crisp, dry sake.</li>
+<li><b>Temperatures:</b> chilled (reishu) for Ginjo and Daiginjo, whose fragrance heat destroys. Room temperature or warm (nurukan, about 104°F) for Junmai and Honjozo. Hot (atsukan, about 122°F) suits sturdy, simple sake.</li>
+<li><b>Keeping:</b> most sake is best within a year of bottling, stored cool and dark. Namazake must stay refrigerated.</li></ul>
+<h3>Cider apples and keeving</h3>
+<p>Cider apples are sorted by acid and tannin: <b>sweets</b> (low in both), <b>sharps</b> (high acid), <b>bittersweets</b> (high tannin) and <b>bittersharps</b> (high in both). England's West Country and Normandy rely on bittersweets, which give body and grip that eating apples cannot.</p>
+<p><b>Keeving</b> is the Norman method for naturally sweet cider. Pectin in the juice forms a brown cap that carries nutrients out with it. Starved yeast ferment slowly and stop early, leaving sugar and only 2 to 5% alcohol. Spain's sidra natural goes the other way: still, dry, sharp and a little wild.</p>`,
 floor:`<p>CMS Certified expects working knowledge of beer styles, serving temperatures and sake grades. CMS's recommended references: Randy Mosher's <i>Tasting Beer</i> and John Gauntner's sake-world.com.</p>`,
 analyst:`<p>WSET offers separate Sake qualifications (Level 1 to 3). For wine students, the useful lessons are the grade ladder and that sake is not a rice "wine" in production terms.</p>`,
-terms:[["Ale","Beer from top-fermenting yeast at warmer temperatures."],["Lager","Beer from bottom-fermenting yeast, cold-aged."],["Lambic","Spontaneously fermented Belgian beer."],["Koji","Aspergillus oryzae mold that converts rice starch to sugar."],["Seimaibuai","Percentage of rice grain remaining after polishing."],["Junmai","Sake with no added brewer's alcohol."]],
+terms:[["Ale","Beer from top-fermenting yeast at warmer temperatures."],["Lager","Beer from bottom-fermenting yeast, cold-aged."],["Lambic","Spontaneously fermented Belgian beer."],["Koji","Aspergillus oryzae mold that converts rice starch to sugar."],["Seimaibuai","Percentage of rice grain remaining after polishing."],["Junmai","Sake with no added brewer's alcohol."],["Wort","The sweet liquid drawn from the mash before fermentation."],["Dry hopping","Adding hops to finished beer for aroma without bitterness."],["IBU","International Bitterness Units."],["Moromi","The main fermenting mash of sake."],["Kimoto","Traditional sake starter that lets natural lactic bacteria develop."],["Keeving","Norman method that starves yeast to leave natural sweetness in cider."],["Bittersweet","Cider apple high in tannin and low in acid."]],
 quiz:[
 [1,"Lager yeast ferments:","Cold, bottom-fermenting",["Warm, top-fermenting","Spontaneously","With koji"],"S. pastorianus."],
 [2,"Daiginjo sake requires rice polished to at most:","50% remaining",["70%","60%","90%"],"Ginjo is 60%; Honjozo 70%."],
@@ -439,7 +526,16 @@ quiz:[
 [1,"Pilsner was first brewed in:","Plzeň, Czech Republic",["Munich, Germany","Dublin, Ireland","Brussels, Belgium"],"The first pale lager was brewed in Plzeň (Pilsen), Bohemia, in 1842."],
 [2,"Lambic beer is fermented with:","Wild airborne yeast and bacteria",["Bottom-fermenting lager yeast","Koji mold and sake yeast","Champagne yeast in the bottle"],"Senne valley, Belgium."],
 [2,"Sake's simultaneous starch conversion and fermentation is called:","Multiple parallel fermentation",["Malolactic conversion","Carbonic maceration","Secondary fermentation"],"Koji and yeast work together."],
-[3,"Nigori sake is:","Coarsely filtered and cloudy",["Unpasteurized and fresh","Undiluted and strong","Aged for several years"],"Namazake is unpasteurized; Genshu undiluted."]
+[3,"Nigori sake is:","Coarsely filtered and cloudy",["Unpasteurized and fresh","Undiluted and strong","Aged for several years"],"Namazake is unpasteurized; Genshu undiluted."],
+[2,"Hops added late in the boil mainly give:","Aroma",["Bitterness","Color","Alcohol"],"Early additions give bitterness; late ones keep volatile aroma."],
+[2,"IBU measures a beer's:","Bitterness",["Color","Strength","Sweetness"],"About 10 to 25 for most lagers; 40 to 70 and more for IPA."],
+[2,"Banana and clove aromas are the signature of:","Hefeweizen",["Pilsner","Dry stout","West Coast IPA"],"They come from the Bavarian wheat-beer yeast."],
+[2,"A golden, strong, spicy Belgian ale of 8 to 9% is a:","Tripel",["Dubbel","Gose","Helles"],"Dubbel is dark and fruity; Gose is a salty sour; Helles is a pale lager."],
+[3,"The main sake mash is built in how many additions?","Three, over four days",["One","Two, over two weeks","Ten"],"Adding rice, koji and water in stages keeps the yeast healthy."],
+[2,"Which sake should be served chilled, not hot?","Daiginjo",["Honjozo","A sturdy Junmai","Futsushu"],"Heat destroys the delicate fragrance of Ginjo styles."],
+[2,"Japan's largest sake district, known for hard water and a dry style, is:","Nada",["Fushimi","Niigata","Hiroshima"],"Nada is in Hyogo. Fushimi in Kyoto has soft water and gentler sake."],
+[2,"Keeving produces cider that is:","Naturally sweet and low in alcohol",["Bone dry and strong","Fortified with Calvados","Still and sharply acidic"],"Yeast starved of nutrients stop early, leaving sugar."],
+[2,"Bittersweet cider apples are high in:","Tannin",["Acid only","Sugar only","Pectin only"],"They give the body and grip of West Country and Norman cider."]
 ]});
 
 L.push({id:"b3", unit:"S2", title:"Cocktails, Apéritifs and Digestifs", mins:12,
@@ -464,16 +560,54 @@ body:`
 <h3>Apéritifs</h3>
 <p>Meant to open the appetite: dry, bitter or tangy, moderate alcohol. Champagne and sparkling wine, Fino and Manzanilla, dry vermouth, Lillet, Campari or Aperol spritzes, Kir, pastis (anise, louched with water), white Port and tonic.</p>
 <h3>Digestifs</h3>
-<p>After dinner: Cognac, Armagnac, Calvados, single malt, grappa, eau-de-vie, amari (Fernet-Branca, Montenegro), Chartreuse, Port, Madeira, sweet Sherry, Tokaji. Many restaurants push a digestif cart: a high-margin, high-hospitality moment.</p>`,
+<p>After dinner: Cognac, Armagnac, Calvados, single malt, grappa, eau-de-vie, amari (Fernet-Branca, Montenegro), Chartreuse, Port, Madeira, sweet Sherry, Tokaji. Many restaurants push a digestif cart: a high-margin, high-hospitality moment.</p>
+<h3>Three national rituals</h3>
+<ul><li><b>Italy's aperitivo:</b> early evening, a bitter drink and something salty to eat. Spritz in the Veneto, Americano and Negroni in Milan and Florence, vermouth in Turin.</li>
+<li><b>France's apéro:</b> pastis in the south, Kir in Burgundy, Champagne anywhere, Lillet in Bordeaux, Pineau des Charentes near Cognac.</li>
+<li><b>Spain's hora del vermut:</b> sweet red vermouth, often on tap, over ice with an olive and a slice of orange, before a late lunch.</li></ul>
+<p>The logic is shared: bitterness and acidity wake the appetite, sugar and heavy alcohol dull it. A good apéritif is dry or bitter, cold and modest in strength.</p>
+<h3>Serving apéritifs correctly</h3>
+<table class="t"><tr><th>Drink</th><th>Service</th></tr>
+<tr><td>Fino, Manzanilla</td><td>Well chilled, 3 oz, in a small white-wine glass, from a fresh bottle</td></tr>
+<tr><td>Vermouth</td><td>Over ice with orange peel (sweet) or lemon peel (dry)</td></tr>
+<tr><td>Pastis</td><td>One part pastis to about five of cold water; add the water first, then ice</td></tr>
+<tr><td>White Port and tonic</td><td>One part Port to two of tonic, over ice with lemon or mint</td></tr>
+<tr><td>Kir</td><td>A little crème de cassis under dry white wine, classically Aligoté</td></tr>
+<tr><td>Champagne</td><td>The universal apéritif: offer it first, always</td></tr></table>
+<h3>The digestif cart</h3>
+<ul><li><b>Pour:</b> 1 to 1.5 oz of spirit; 2 to 3 oz of Port, Madeira or sweet Sherry.</li>
+<li><b>Order:</b> if a table takes several, serve lighter and drier before richer and sweeter.</li>
+<li><b>Glass:</b> a small tulip. Do not warm a brandy glass over a flame; warmth in the hand is enough.</li>
+<li><b>Temperature:</b> aged spirits at room temperature; eau-de-vie and grappa slightly cool; amaro neat or over one large cube.</li>
+<li><b>Port tradition:</b> the decanter is passed to the left around the table and should not stop.</li>
+<li><b>Know one sentence</b> about each bottle on the cart: what it is made from, where, and how it tastes.</li></ul>
+<p>Sweet wine belongs with dessert or in place of it. Spirits and amari come after, with or following coffee.</p>
+<h3>Low and no alcohol</h3>
+<p>More guests each year drink little or nothing, and they notice when the only offer is soda. A serious list now has a short page for them.</p>
+<ul><li><b>Spirit-free cocktails</b> need what alcohol usually supplies: bite, bitterness and texture. Build them on acid (citrus, verjus, vinegar-based shrubs), bitterness (tonic, tea, non-alcoholic bitter apéritifs) and body (syrups, egg white, a pinch of salt).</li>
+<li><b>Dealcoholized wine</b> is real wine with the alcohol removed by vacuum distillation or spinning cone. It loses body and warmth, so most are a little sweet. Sparkling versions are the most convincing.</li>
+<li><b>Tea, kombucha and infusions</b> can be paired course by course like wine: tannin from black tea, acidity from kombucha, smoke from lapsang.</li>
+<li>Serve them with the same glassware and ceremony. The guest is paying for hospitality, not ethanol.</li></ul>
+<h3>Coffee, tea and water</h3>
+<ul><li><b>Espresso:</b> about an ounce, pulled in 25 to 30 seconds, with a hazelnut-colored crema. Serve it after dessert unless asked otherwise.</li>
+<li><b>Tea:</b> water temperature decides everything. Green tea at about 160 to 180°F for two to three minutes; black tea and herbal infusions with water just off the boil for three to five. Boiling water makes green tea bitter.</li>
+<li><b>Water:</b> offer still and sparkling as the table sits down, and keep glasses filled without asking.</li></ul>`,
 floor:`<p>Guests ordering cocktails at the start of the meal are a cue: offer the wine list when the cocktail lands, and suggest a glass for the first course.</p>`,
 analyst:`<p>Not examined on the WSET wine track, but useful context for trade roles.</p>`,
-terms:[["Apéritif","Pre-dinner drink to stimulate appetite."],["Digestif","After-dinner drink."],["Amaro","Italian bitter herbal liqueur."],["Louche","The clouding of anise spirits when water is added."]],
+terms:[["Apéritif","Pre-dinner drink to stimulate appetite."],["Digestif","After-dinner drink."],["Amaro","Italian bitter herbal liqueur."],["Louche","The clouding of anise spirits when water is added."],["Aperitivo","Italy's early-evening ritual of a bitter drink with salty snacks."],["Shrub","A drinking vinegar of fruit, sugar and vinegar, used in spirit-free cocktails."],["Dealcoholized wine","Wine with its alcohol removed by vacuum distillation or spinning cone."],["Verjus","Tart juice of unripe grapes, used for acidity."],["Crema","The fine foam on a well-pulled espresso."]],
 quiz:[
 [1,"A Negroni is equal parts gin, sweet vermouth and:","Campari",["Aperol","Cointreau","Lillet"],"Stirred, on the rocks."],
 [1,"Which cocktail is stirred rather than shaken?","Manhattan",["Daiquiri","Margarita","Sidecar"],"All-spirit drinks are stirred."],
 [2,"A Kir Royale combines Champagne with:","Crème de cassis",["Peach purée","Aperol","Cognac"],"A Bellini uses white peach purée and Prosecco."],
 [2,"The Sazerac's classic bitters are:","Peychaud's",["Angostura only","Orange bitters","Fernet"],"With an absinthe rinse."],
-[1,"Which is a classic apéritif?","Fino Sherry",["Vintage Port","Tokaji Aszú","Calvados"],"Dry and appetizing."]
+[1,"Which is a classic apéritif?","Fino Sherry",["Vintage Port","Tokaji Aszú","Calvados"],"Dry and appetizing."],
+[2,"Pastis is properly served with about:","Five parts water to one",["Equal parts of water","No water, just over ice","Soda water and lime juice"],"Water goes in first, then ice; it turns cloudy as it dilutes."],
+[2,"Spain's 'hora del vermut' features:","Sweet red vermouth over ice",["Dry Sherry in a copita","Cava with orange juice","Brandy and coffee"],"With an olive and a slice of orange, before lunch."],
+[2,"By tradition, a decanter of Port is passed:","To the left",["To the right","Across the table","Only by the host"],"And it should keep moving around the table."],
+[2,"Green tea turns bitter when brewed with:","Boiling water",["Cool water","Soft water","Loose leaves"],"Use about 160 to 180°F for two to three minutes."],
+[2,"A spirit-free cocktail most needs:","Acid, bitterness and texture",["Extra sugar and fruit syrup","More ice and a longer shake","Fruit juice and soda alone"],"Those replace the bite and body that alcohol supplies."],
+[2,"A sound pour of Cognac from the digestif cart is:","1 to 1.5 oz",["4 to 5 oz","Half an ounce","6 oz"],"Fortified wines get 2 to 3 oz."],
+[2,"Why is a good apéritif dry or bitter?","Bitterness and acid wake the appetite",["Sugar helps the digestion","Alcohol needs to be high first","Only because of old tradition"],"Sugar and heavy alcohol dull the appetite before a meal."]
 ]});
 
 // ---------- A1 WRITTEN PAPER ----------

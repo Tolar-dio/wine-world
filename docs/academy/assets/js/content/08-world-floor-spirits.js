@@ -254,17 +254,60 @@ body:`
 <li><b>Tennessee whiskey:</b> bourbon-style, filtered through maple charcoal (Lincoln County Process): Jack Daniel's, George Dickel.</li>
 <li><b>Rye:</b> 51%+ rye; spicier. <b>American Single Malt</b> has recently gained a formal federal definition.</li></ul>
 <h3>Japan and Canada</h3>
-<p>Japan's whisky began with Yamazaki (Suntory, 1923) and Nikka (Masataka Taketsuru, who trained in Scotland). Precise, often blended; Mizunara oak gives sandalwood and incense notes. A 2021 industry standard defines "Japanese whisky" as mashed, distilled and aged at least 3 years in Japan. <b>Canadian</b> whisky is usually a blend, often called "rye" by tradition even when little rye is used.</p>`,
+<p>Japan's whisky began with Yamazaki (Suntory, 1923) and Nikka (Masataka Taketsuru, who trained in Scotland). Precise, often blended; Mizunara oak gives sandalwood and incense notes. A 2021 industry standard defines "Japanese whisky" as mashed, distilled and aged at least 3 years in Japan. <b>Canadian</b> whisky is usually a blend, often called "rye" by tradition even when little rye is used.</p>
+<h3>Inside a bourbon</h3>
+<ul><li><b>Mash bill:</b> the grain recipe. A typical bourbon is about 70 to 78% corn, with rye for spice and a little malted barley for enzymes. <b>High-rye</b> bourbons (Four Roses, Bulleit) push rye to 20% or more. <b>Wheated</b> bourbons replace the rye with wheat for a softer, sweeter spirit.</li>
+<li><b>Sour mash:</b> some spent mash from the last distillation is added to the new one to control acidity and keep batches consistent. Nearly all bourbon is made this way. It has nothing to do with a sour taste.</li>
+<li><b>Char:</b> the inside of each new barrel is burned for up to about 55 seconds. The deepest level, No. 4, cracks the wood into scales and is called <b>alligator char</b>. Char filters the spirit and caramelizes wood sugars.</li>
+<li><b>The rickhouse:</b> barrels on the hot upper floors age faster and gain strength; lower floors age slowly. Blending across floors gives consistency.</li>
+<li><b>Single barrel</b> means one cask. <b>Small batch</b> has no legal definition.</li></ul>
+<p>Because bourbon barrels can be used only once, they are sold on. Most Scotch, Irish whiskey, rum and tequila is aged in used bourbon casks.</p>
+<h3>Scotch: peat, casks and bottling</h3>
+<ul><li><b>Peat</b> is measured in parts per million of phenols <b>in the malt</b>, not in the bottle. Lightly peated malts run under 15 ppm; Laphroaig and Lagavulin about 35 to 45; Ardbeg about 55. Much is lost in distilling and aging, so the number is a guide to style, not a promise.</li>
+<li><b>First-fill</b> casks give the most flavor; <b>refill</b> casks let the distillery character show.</li>
+<li><b>Finishing</b> moves a mature whisky into a second cask for months: Port, Sauternes, rum, Madeira.</li>
+<li><b>Chill filtration</b> removes compounds that cloud a whisky when cold. At 46% and above they stay dissolved, which is why many enthusiasts' bottlings are 46% and unfiltered.</li>
+<li>Plain caramel coloring is legal in Scotch and common in blends.</li></ul>
+<h3>Ireland and Japan</h3>
+<p>Irish whiskey has four types: <b>malt</b>, <b>pot still</b>, <b>grain</b> and <b>blended</b>. One distillery at Midleton in County Cork makes Jameson, Redbreast, Powers and the Spot whiskeys. The number of Irish distilleries has grown from a handful in 2010 to several dozen.</p>
+<p>Japan's two founding companies each run contrasting distilleries so they can blend in-house: Suntory has <b>Yamazaki</b> (1923) and <b>Hakushu</b> (1973, in the mountains); Nikka has <b>Yoichi</b> (1934, coal-fired stills on Hokkaido) and <b>Miyagikyo</b> (1969). Hibiki is Suntory's blend.</p>
+<h3>Whisky elsewhere</h3>
+<p>Serious single malts now come from Taiwan (Kavalan), India (Amrut, Paul John), Australia (Sullivans Cove, Starward), England, Wales and the Nordic countries. Hot climates mature whisky several times faster than Scotland, so young ages there are no mark of immaturity.</p>
+<h3>Dates worth knowing</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>1494</td><td>First written record of Scotch: malt issued to Friar John Cor "to make aqua vitae"</td></tr>
+<tr><td>1823</td><td>The Excise Act makes licensed distilling practical in Scotland</td></tr>
+<tr><td>1830</td><td>Aeneas Coffey patents the continuous still, which makes grain whisky and so blended Scotch possible</td></tr>
+<tr><td>1880s</td><td>Phylloxera cuts off Cognac; Scotch takes its place in British glasses</td></tr>
+<tr><td>1920 to 1933</td><td>US Prohibition closes most American distilleries</td></tr>
+<tr><td>1964</td><td>Congress declares bourbon "a distinctive product of the United States"</td></tr></table>
+<h3>Telling them apart in the glass</h3>
+<table class="t"><tr><th>Whisky</th><th>Signature</th></tr>
+<tr><td>Bourbon</td><td>Sweet: vanilla, caramel, coconut, corn</td></tr>
+<tr><td>Wheated bourbon</td><td>Softer, bready, honeyed</td></tr>
+<tr><td>Rye</td><td>Drier and spicier: pepper, dill, mint</td></tr>
+<tr><td>Speyside malt</td><td>Apple, pear, honey; raisin and spice from Sherry casks</td></tr>
+<tr><td>Islay malt</td><td>Smoke, iodine, brine</td></tr>
+<tr><td>Irish pot still</td><td>Creamy, oily, with green apple and spice</td></tr>
+<tr><td>Japanese</td><td>Precise and layered; incense and sandalwood where Mizunara is used</td></tr></table>`,
 floor:`<p>Whisky questions come at the end of the night. Know two or three per style by price, how to serve (neat, a drop of water, one large cube), and a cocktail use for each.</p>`,
 analyst:`<p>The SWE's CSS and WSET spirits qualifications test production, labeling and regional styles at this depth.</p>`,
-terms:[["Peat ppm","Phenol level of malt from peat smoke."],["NAS","No age statement."],["Bottled-in-Bond","US: one distillery, one season, 4+ years, 100 proof."],["Single pot still","Irish style using malted and unmalted barley."],["Angel's share","Spirit lost to evaporation during aging."]],
+terms:[["Peat ppm","Phenol level of malt from peat smoke."],["NAS","No age statement."],["Bottled-in-Bond","US: one distillery, one season, 4+ years, 100 proof."],["Single pot still","Irish style using malted and unmalted barley."],["Angel's share","Spirit lost to evaporation during aging."],["Mash bill","The grain recipe of a whiskey."],["Sour mash","Adding spent mash from a previous batch to control acidity."],["Alligator char","The deepest barrel char, level No. 4."],["Rickhouse","A warehouse where barrels of American whiskey age."],["Finishing","Moving a mature spirit into a second cask for extra flavor."],["Chill filtration","Cooling and filtering whisky so it will not turn hazy."]],
 quiz:[
 [1,"An age statement on whisky refers to:","The youngest whisky in the bottle",["The average age of the blend","The oldest whisky in the blend","The age of the distillery's casks"],"Legal requirement."],
 [2,"Bottled-in-Bond requires:","One distillery, one season, 4+ years, 100 proof",["Two years in oak at 80 proof or more","Any blend bottled at cask strength","At least 80% corn and new charred oak"],"Bottled-in-Bond Act of 1897."],
 [2,"Single pot still whiskey is a style of:","Ireland",["Scotland","Japan","Canada"],"Malted and unmalted barley."],
 [1,"Which Scotch region is known for heavy peat smoke?","Islay",["Speyside","Lowlands","Campbeltown"],"Laphroaig, Ardbeg, Lagavulin."],
 [2,"The Lincoln County Process is used for:","Tennessee whiskey",["Bourbon generally","Scotch","Japanese whisky"],"Maple charcoal filtration."],
-[3,"Mizunara is:","A Japanese oak giving sandalwood and incense",["A rice variety used for sake and shochu","A distillery on the island of Hokkaido","A peat cut on Japan's northern coast"],"Expensive, porous oak."]
+[3,"Mizunara is:","A Japanese oak giving sandalwood and incense",["A rice variety used for sake and shochu","A distillery on the island of Hokkaido","A peat cut on Japan's northern coast"],"Expensive, porous oak."],
+[2,"'Sour mash' in bourbon making means:","Adding spent mash to the new batch",["The whiskey tastes sour","Using unripe corn","Aging in wine barrels"],"It controls acidity and keeps batches consistent."],
+[2,"A wheated bourbon replaces which grain with wheat?","Rye",["Corn","Malted barley","Oats"],"The result is softer and sweeter: Maker's Mark, Weller."],
+[3,"Peat levels quoted in ppm are measured in:","The malted barley",["The bottled whisky","The water source","The cask"],"Much is lost in distilling and aging."],
+[2,"Why are many unfiltered whiskies bottled at 46% or more?","They stay clear without chill filtration",["Tax is lower at 46%","It is the legal minimum","It hides caramel coloring"],"The compounds that cause haze stay dissolved at that strength."],
+[2,"Whose 1830 patent made grain whisky and blended Scotch possible?","Aeneas Coffey",["Friar John Cor","Masataka Taketsuru","Jack Daniel"],"The Coffey, or continuous, still."],
+[2,"Which distillery belongs to Nikka?","Yoichi",["Yamazaki","Hakushu","Chita"],"Yoichi and Miyagikyo are Nikka's; the others are Suntory's."],
+[2,"The deepest barrel char, which cracks the wood into scales, is called:","Alligator char",["Toast","First fill","Angel's share"],"Level No. 4, about 55 seconds of flame."],
+[2,"In 1964 the US Congress declared bourbon:","A distinctive product of the United States",["A product of Kentucky only","Exempt from federal tax","Legal again after Prohibition"],"It can be made in any state."]
 ]});
 
 L.push({id:"b5", unit:"S2", title:"Brandy, Agave, Rum and Gin in Depth", mins:18,
@@ -292,10 +335,46 @@ body:`
 <tr><td>Guyana (Demerara)</td><td>Rich; historic wooden stills</td></tr>
 <tr><td>Spanish-style solera</td><td>Sweetened, aged in solera (age numbers can be misleading)</td></tr></table>
 <h3>Gin and vodka</h3>
-<p>Gin must taste predominantly of juniper. <b>London Dry</b> is a method: all botanicals added during redistillation, nothing but water after. <b>Plymouth</b> (earthier, a historic style), <b>Old Tom</b> (lightly sweet), <b>Genever</b> (malty Dutch ancestor; jonge and oude refer to style, not age), <b>Navy Strength</b> (about 57%). Methods: steeping botanicals (maceration), vapor infusion in a basket (Bombay Sapphire), or cold compounding (mixing flavorings, no redistillation). Vodka is neutral spirit, distilled to very high strength from grain, potato or other bases, then filtered.</p>`,
+<p>Gin must taste predominantly of juniper. <b>London Dry</b> is a method: all botanicals added during redistillation, nothing but water after. <b>Plymouth</b> (earthier, a historic style), <b>Old Tom</b> (lightly sweet), <b>Genever</b> (malty Dutch ancestor; jonge and oude refer to style, not age), <b>Navy Strength</b> (about 57%). Methods: steeping botanicals (maceration), vapor infusion in a basket (Bombay Sapphire), or cold compounding (mixing flavorings, no redistillation). Vodka is neutral spirit, distilled to very high strength from grain, potato or other bases, then filtered.</p>
+<h3>Cognac, step by step</h3>
+<ol><li><b>The wine.</b> Ugni Blanc is picked early and fermented into a thin, sharp wine of 8 to 9% alcohol. No sulfur dioxide may be added, because distillation would concentrate it.</li>
+<li><b>First distillation.</b> The wine becomes a cloudy spirit of about 28 to 32% called the <b>brouillis</b>.</li>
+<li><b>Second distillation</b>, the <b>bonne chauffe</b>. The brouillis is distilled again in a still charged with no more than 25 hectoliters, and the heart comes off at up to 72.4%.</li>
+<li><b>Lees or no lees.</b> Rémy Martin distills with the yeast lees for a richer, rounder spirit; Martell distills clear wine for a finer one.</li>
+<li><b>Aging.</b> Limousin oak is wide-grained and tannic; Tronçais is tight-grained and gentler. About 2 to 3% evaporates each year, and a black fungus that feeds on the vapor stains the cellar walls of the region.</li>
+<li><b>Paradis.</b> When a very old Cognac has taken all it can from wood, it is moved to glass demijohns and kept in the house's inner cellar, the paradis.</li>
+<li><b>Finishing.</b> Water brings it down to 40%. Small amounts of sugar, caramel color and <b>boisé</b>, an infusion of oak chips, are legal.</li></ol>
+<h3>Agave: the slowest raw material</h3>
+<ul><li>Blue Weber agave needs about <b>five to eight years</b> to ripen, so supply and price swing in long cycles.</li>
+<li>The <b>jimador</b> cuts away the leaves with a long-handled blade, the <b>coa</b>, leaving the heart or <b>piña</b>, which can weigh 40 to 90 kilograms.</li>
+<li>Roughly seven kilograms of agave make one liter of 100% agave tequila.</li>
+<li>Every bottle carries a <b>NOM</b> number that identifies the distillery. Many brands share one distillery, so the NOM tells you who made the spirit.</li>
+<li>"Tequila" alone may be a <b>mixto</b>: only 51% of the sugar need come from agave. "100% de agave" is the mark to look for.</li>
+<li>Up to 1% of additives (caramel, oak extract, glycerin, sugar syrup) may be used without saying so.</li>
+<li><b>Cristalino</b> is aged tequila filtered through charcoal to remove its color.</li>
+<li>Mezcal agaves take longer: Espadín about seven or eight years, wild Tobalá 12 to 15, Tepeztate 25 or more. Good labels name the species, the village and the maker.</li></ul>
+<h3>Why rums differ so much</h3>
+<ul><li><b>Molasses or juice.</b> Molasses, what is left after sugar is crystallized, keeps for months, so most rum is made from it. Fresh cane juice must be fermented within about a day of cutting, so agricole is seasonal.</li>
+<li><b>Fermentation time.</b> A light rum ferments for about a day. Jamaica's heavy rums ferment for two weeks or more with <b>dunder</b>, the acidic residue of earlier distillations, which builds the fruity esters.</li>
+<li><b>Tropical aging.</b> Evaporation runs at 6 to 10% a year, several times Scotland's rate. A 12-year-old Caribbean rum is a very mature spirit.</li>
+<li><b>Sugar.</b> Many Latin-style rums are sweetened after aging. Jamaica's rules and Martinique's AOC forbid it.</li>
+<li><b>Cachaça</b> is Brazil's fresh cane juice spirit, 38 to 48%, sometimes aged in native woods such as amburana. It is the base of the Caipirinha. <b>Clairin</b> is Haiti's wild-fermented cane juice spirit.</li></ul>
+<h3>What is in a gin</h3>
+<table class="t"><tr><th>Botanical</th><th>What it gives</th></tr>
+<tr><td>Juniper</td><td>Pine and resin: the defining note</td></tr>
+<tr><td>Coriander seed</td><td>Citrus and spice; the second most used</td></tr>
+<tr><td>Angelica root</td><td>Dry, earthy, musky depth</td></tr>
+<tr><td>Orris root</td><td>Violet, and it fixes the other aromas</td></tr>
+<tr><td>Citrus peel</td><td>Lemon and orange freshness</td></tr>
+<tr><td>Cassia, licorice, cardamom</td><td>Warmth, sweetness and spice</td></tr></table>
+<p><b>Contemporary</b> gins turn the juniper down and bring other botanicals forward: cucumber and rose in Hendrick's, for example. <b>Sloe gin</b> is a liqueur: sloe berries steeped in gin with sugar, at 25% or more.</p>
+<h3>Three more spirits worth knowing</h3>
+<ul><li><b>Aquavit:</b> Scandinavian, flavored with caraway or dill. Norway's Linie aquavit travels across the equator and back in Sherry casks.</li>
+<li><b>Soju:</b> Korea's national spirit. Traditional soju is distilled from rice; the familiar green bottles are diluted neutral spirit at about 16 to 20%.</li>
+<li><b>Baijiu:</b> China's sorghum spirit, fermented as a solid mash and often bottled above 50%. It is the most consumed spirit in the world. Moutai is the best-known "sauce aroma" style.</li></ul>`,
 floor:`<p>Digestif cart questions: know the grade ladder of Cognac, the difference between Cognac and Armagnac (distillation and character), and one Calvados. For agave, know 100% agave vs mixto and that mezcal isn't "smoky tequila."</p>`,
 analyst:`<p>WSET Level 3 Spirits (refreshed 2025) and the CSS cover these categories at this depth: raw materials, production, maturation and labeling law.</p>`,
-terms:[["Alambic armagnacais","Column still used for Armagnac, single continuous distillation."],["Baco 22A","Hybrid grape used in Armagnac."],["Tahona","Stone wheel used to crush cooked agave."],["Mezcal Ancestral","Mezcal distilled in clay pots."],["Hogo","Funky, high-ester character of Jamaican rum."],["Cold compounding","Gin made by mixing flavorings with neutral spirit."]],
+terms:[["Alambic armagnacais","Column still used for Armagnac, single continuous distillation."],["Baco 22A","Hybrid grape used in Armagnac."],["Tahona","Stone wheel used to crush cooked agave."],["Mezcal Ancestral","Mezcal distilled in clay pots."],["Hogo","Funky, high-ester character of Jamaican rum."],["Cold compounding","Gin made by mixing flavorings with neutral spirit."],["Brouillis","The low-strength spirit from Cognac's first distillation."],["Bonne chauffe","Cognac's second distillation, which gives the finished eau-de-vie."],["Jimador","The agave harvester."],["NOM","Number on a tequila bottle that identifies the distillery."],["Dunder","Acidic residue of earlier distillations, added to Jamaican rum ferments."],["Cachaça","Brazil's spirit of fresh sugarcane juice."],["Baijiu","China's sorghum spirit, fermented as a solid mash."]],
 quiz:[
 [2,"Cognac distillation must be complete by:","March 31 after the harvest",["December 31 of the harvest year","The start of the next harvest","June 1 after the harvest"],"Regulated season."],
 [2,"Which grape is a hybrid allowed in Armagnac?","Baco 22A",["Ugni Blanc","Folle Blanche","Colombard"],"Gives roundness."],
@@ -303,7 +382,15 @@ quiz:[
 [2,"Sotol is made from:","Dasylirion (desert spoon)",["Blue agave, like tequila","Fresh sugarcane juice","Fermented apple cider"],"Sotol comes from Dasylirion, a desert plant of northern Mexico that is not an agave."],
 [2,"Rhum agricole is distilled from:","Fresh sugarcane juice",["Fermented molasses","Roasted agave hearts","Malted grain mash"],"Martinique has an AOC."],
 [2,"London Dry gin:","Adds nothing after distillation but water",["Must be distilled within Greater London","Is lightly sweetened after distillation","Is rested in oak before bottling"],"It's a method."],
-[3,"Peruvian Pisco differs from Chilean Pisco in that it:","Is distilled to proof, with no water or wood",["Must be aged in oak for five years","Is distilled from apples and pears","Is made only in column stills"],"Quebranta is a key grape."]
+[3,"Peruvian Pisco differs from Chilean Pisco in that it:","Is distilled to proof, with no water or wood",["Must be aged in oak for five years","Is distilled from apples and pears","Is made only in column stills"],"Quebranta is a key grape."],
+[2,"The first distillation of Cognac produces a cloudy spirit called the:","Brouillis",["Bonne chauffe","Paradis","Boisé"],"The second distillation, the bonne chauffe, gives the finished eau-de-vie."],
+[3,"Why are Cognac's base wines made without sulfur dioxide?","Distillation would concentrate it",["It lowers the acidity","It darkens the spirit","Ugni Blanc resists rot"],"Sulfur compounds would carry over and spoil the spirit."],
+[2,"The long-handled blade a jimador uses to trim agave is the:","Coa",["Tahona","Horno","Piña"],"The tahona is a stone wheel; the horno is an oven; the piña is the heart."],
+[2,"The NOM number on a tequila bottle identifies the:","Distillery",["Agave field","Age class","Importer"],"Many brands are made at the same distillery."],
+[2,"Dunder, used in Jamaican rum, is:","Residue from earlier distillations",["A style of Jamaican pot still","Freshly pressed sugarcane juice","A blend of aged and young rums"],"Its acids help form the esters behind Jamaican funk."],
+[2,"Brazil's cachaça is the base spirit of the:","Caipirinha",["Mojito","Daiquiri","Pisco Sour"],"Cachaça is made from fresh cane juice."],
+[2,"Which gin botanical is valued for fixing the other aromas?","Orris root",["Lemon peel","Cardamom","Cucumber"],"Orris is the dried root of the iris."],
+[3,"Compared with Scotland, spirits aging in the Caribbean lose to evaporation:","Several times more each year",["About the same amount","Almost nothing","Half as much each year"],"About 6 to 10% a year against roughly 2%."]
 ]});
 
 L.push({id:"c3", unit:"C1", title:"Inside the Master Sommelier Service Exam", mins:14,

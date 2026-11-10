@@ -72,10 +72,46 @@ body:`
 <p>Brewer's alcohol is capped at 10% of polished-rice weight; koji rice must be at least 15%. Typical recipe: steamed rice 80, koji 20, water 130, in <b>multiple parallel fermentation</b> (koji converts starch to sugar while yeast ferments it). Label terms: <b>Namazake</b> (never pasteurized), <b>Nama-chozo</b> (pasteurized once, at bottling), ordinary sake pasteurized twice, <b>Genshu</b> (undiluted), <b>Taruzake</b> (cedar-cask aged), <b>Nigori</b> (cloudy). A rice variety may be named only if over 50%; "Nihonshu" only for Japanese rice made in Japan. Service: <b>mori koboshi</b> overflows the glass (ochoko) into the wooden box (masu).</p>
 <p><b>Shochu</b>: capped at 45% (single distillation, honkaku) or 36% (continuous). <b>Awamori</b>: Okinawan, rice only, black koji (Aspergillus luchuensis) only.</p>
 <h3>Cider and perry</h3>
-<p>Normandy has seven cider-family appellations: Calvados, Calvados Pays d'Auge, Calvados Domfrontais, Pommeau de Normandie, Cidre Pays d'Auge, Cidre Cotentin, and <b>Poiré Domfront</b> (at least 40% Plant de Blanc pears). <b>Pommeau de Normandie</b> (rules re-approved December 2025): apple must fortified with Calvados, 16-18% abv, over 69 g/L sugar, at least 14 months in oak. <b>Québec ice cider</b>: provincial law requires 130 g/L residual sugar, but the IGP requires <b>140 g/L</b>, 9-13% abv, pressing between 1 December and 1 March.</p>`,
+<p>Normandy has seven cider-family appellations: Calvados, Calvados Pays d'Auge, Calvados Domfrontais, Pommeau de Normandie, Cidre Pays d'Auge, Cidre Cotentin, and <b>Poiré Domfront</b> (at least 40% Plant de Blanc pears). <b>Pommeau de Normandie</b> (rules re-approved December 2025): apple must fortified with Calvados, 16-18% abv, over 69 g/L sugar, at least 14 months in oak. <b>Québec ice cider</b>: provincial law requires 130 g/L residual sugar, but the IGP requires <b>140 g/L</b>, 9-13% abv, pressing between 1 December and 1 March.</p>
+<h3>Draught, cask and bottle</h3>
+<ul><li><b>Draught gas.</b> Most beer is pushed with carbon dioxide. Stouts use a blend of roughly 70 to 75% <b>nitrogen</b>, whose tiny bubbles give a creamy head and a soft texture.</li>
+<li><b>Keg life.</b> Kept cold, unpasteurized draught beer is at its best for about 45 to 60 days; pasteurized, 90 to 120.</li>
+<li><b>Beer-clean glass.</b> No grease or detergent film. Water sheets off evenly, and the foam leaves rings of lace as the glass empties.</li>
+<li><b>Cask ale</b> ("real ale") finishes fermenting in the cask in the pub cellar. It is unfiltered, unpasteurized and served without added gas at 50 to 55°F by handpump. Once tapped it lasts about <b>three days</b>.</li>
+<li><b>Bottle conditioning.</b> Yeast and sugar are added at bottling for a second fermentation. Pour gently to leave the sediment behind, except for Hefeweizen, where it is swirled in.</li>
+<li><b>Freshness.</b> Hop aroma fades first. Drink IPA within about three months of the packaging date and keep it cold. Strong, dark or sour beers are the ones that can age.</li></ul>
+<h3>Beer laws and protected names</h3>
+<ul><li>The <b>Reinheitsgebot</b> of 1516 limited Bavarian beer to water, barley and hops. Yeast was not yet understood.</li>
+<li><b>Lambic</b> is fermented by the wild yeasts of the Senne valley near Brussels. The wort cools overnight in a shallow open pan, the coolship. It uses at least 30% unmalted wheat and aged hops.</li>
+<li><b>Gueuze</b> is a blend of one-, two- and three-year-old lambics refermented in the bottle. <b>Kriek</b> is lambic with cherries. "Oude" on either label is a protected traditional term.</li>
+<li><b>Kölsch</b> is protected: it must be brewed in and around Cologne. It is served in a narrow 0.2-liter glass, the Stange.</li></ul>
+<h3>Reading the numbers on a sake label</h3>
+<ul><li><b>SMV</b> (nihonshu-do) measures density against water. Positive means drier, negative sweeter. Most sake sits between about +1 and +5.</li>
+<li><b>Acidity</b> (sando) usually runs from 1.0 to 2.0. Higher acidity makes a sake taste drier and fuller.</li>
+<li><b>Amino acids</b> signal umami and richness.</li>
+<li><b>BY</b> is the brewing year, which runs from July 1 to June 30.</li>
+<li>Premium "special designation" sake is only about a third of production. The rest is <b>futsushu</b>, ordinary table sake.</li></ul>
+<table class="t"><tr><th>Starter method</th><th>How</th><th>Time</th><th>Style</th></tr>
+<tr><td>Sokujo</td><td>Lactic acid is added (developed about 1910)</td><td>About 2 weeks</td><td>Clean; used for most sake</td></tr>
+<tr><td>Kimoto</td><td>Rice and koji are mashed with poles; lactic bacteria grow naturally</td><td>About 4 weeks</td><td>Deep, savory, higher in acid</td></tr>
+<tr><td>Yamahai</td><td>As kimoto, but the pole-mashing is skipped</td><td>About 4 weeks</td><td>Wilder, gamier</td></tr></table>
+<ul><li><b>Sake GIs:</b> Hakusan was the first, in 2005. Yamagata in 2016 was the first to cover a whole prefecture. Nada Gogo followed in 2018 and Niigata in 2022.</li>
+<li><b>Awa sake</b> is sparkling sake made by second fermentation in the bottle, clear, with at least 10% alcohol.</li>
+<li><b>Koshu</b> is aged sake, amber and nutty, usually three years or more. <b>Kijoshu</b> replaces part of the brewing water with sake and is sweet.</li></ul>
+<h3>Shochu in more detail</h3>
+<table class="t"><tr><th>Base</th><th>Where</th><th>Character</th></tr>
+<tr><td>Imo (sweet potato)</td><td>Kagoshima, Miyazaki</td><td>Earthy, rich, fragrant</td></tr>
+<tr><td>Mugi (barley)</td><td>Oita, Iki Island</td><td>Light, nutty, toasty</td></tr>
+<tr><td>Kome (rice)</td><td>Kuma, in Kumamoto</td><td>Clean, gently sweet</td></tr>
+<tr><td>Kokuto (brown sugar)</td><td>The Amami Islands only</td><td>Soft, faintly rum-like</td></tr>
+<tr><td>Soba (buckwheat)</td><td>Miyazaki</td><td>Mild, grainy</td></tr></table>
+<ul><li><b>Koji:</b> white koji gives a clean, crisp shochu and is the most used. Black koji gives a richer, earthier one. Yellow koji, the sake mold, gives fruit but is hard to manage in the heat of Kyushu.</li>
+<li><b>Five GIs:</b> Iki (barley), Kuma (rice) and Ryukyu (awamori) since 1995, Satsuma (sweet potato) since 2005, and Tokyo Shimazake, the shochu of Tokyo's outlying islands, since 2024.</li>
+<li><b>Distillation:</b> vacuum distillation boils the mash at a lower temperature and gives a lighter spirit; atmospheric distillation gives a fuller one.</li>
+<li><b>Service:</b> most shochu is 25%. It is drunk on the rocks, with cold water (mizuwari) or with hot water (oyuwari). For oyuwari the hot water goes into the cup first, then the shochu.</li></ul>`,
 floor:`<p>Know that "junmai" no longer implies 70% polish. Store and serve beer away from light; offer sake by temperature as well as grade.</p>`,
 analyst:`<p>CMS tests these at every level; WSET Diploma doesn't. For MS, practice beer and sake service as part of the business and service section.</p>`,
-terms:[["ATP","Authentic Trappist Product logo."],["MBT","3-methyl-2-butene-1-thiol: the skunky lightstruck compound."],["Seimaibuai","Sake rice polishing ratio (percent remaining)."],["Multiple parallel fermentation","Saccharification and fermentation at once."],["Mori koboshi","Overflow sake service into a masu."],["Awamori","Okinawan rice spirit made with black koji."]],
+terms:[["ATP","Authentic Trappist Product logo."],["MBT","3-methyl-2-butene-1-thiol: the skunky lightstruck compound."],["Seimaibuai","Sake rice polishing ratio (percent remaining)."],["Multiple parallel fermentation","Saccharification and fermentation at once."],["Mori koboshi","Overflow sake service into a masu."],["Awamori","Okinawan rice spirit made with black koji."],["SMV","Sake Meter Value (nihonshu-do): positive is drier, negative sweeter."],["Sokujo","The modern sake starter method, with added lactic acid."],["Cask ale","Beer that finishes fermenting in the cask and is served without added gas."],["Gueuze","A bottle-refermented blend of young and old lambics."],["Coolship","Shallow open pan in which lambic wort cools and collects wild yeast."],["Oyuwari","Shochu served with hot water."],["Futsushu","Ordinary sake outside the premium grades."]],
 quiz:[
 [2,"How many breweries carry the Authentic Trappist Product logo in 2026?","Eight",["Eleven","Six","Twelve"],"Zundert left in 2025."],
 [2,"Since 2004, Junmai sake has which polishing requirement?","None",["70% or less","60% or less","50% or less"],"A common student error."],
@@ -84,7 +120,15 @@ quiz:[
 [2,"Namazake is:","Never pasteurized",["Pasteurized once","Undiluted","Cask-aged"],"Nama-chozo is pasteurized once."],
 [3,"The Québec ice cider IGP requires at least:","140 g/L residual sugar",["130 g/L residual sugar","100 g/L residual sugar","200 g/L residual sugar"],"Provincial law says 130."],
 [2,"Awamori must use:","Rice and black koji only",["Sweet potato","Barley and white koji","Brown sugar"],"Okinawa's awamori is distilled from rice fermented with black koji only."],
-[2,"Poiré Domfront requires at least 40%:","Plant de Blanc pears",["Bittersweet cider apples","Calvados eau-de-vie","Frozen dessert pears"],"Normandy perry."]
+[2,"Poiré Domfront requires at least 40%:","Plant de Blanc pears",["Bittersweet cider apples","Calvados eau-de-vie","Frozen dessert pears"],"Normandy perry."],
+[2,"A positive Sake Meter Value (SMV) generally indicates a sake that is:","Drier",["Sweeter","Cloudier","Stronger"],"SMV measures density: less sugar means a higher number."],
+[2,"Stout is usually dispensed with a gas blend rich in:","Nitrogen",["Oxygen","Helium","Argon"],"Its tiny bubbles give the creamy head."],
+[2,"Once tapped, a cask of real ale should be finished within about:","Three days",["Three weeks","Three months","Three hours"],"It has no added gas to protect it from air."],
+[3,"Gueuze is:","A blend of young and old lambics",["A salted wheat beer","A smoked lager","A dry-hopped pale ale"],"Refermented in the bottle. The salted wheat beer is Gose."],
+[2,"Kokuto shochu, made from brown sugar, may be produced only in:","The Amami Islands",["Kagoshima city","Okinawa","Hokkaido"],"They lie between Kyushu and Okinawa."],
+[2,"Which shochu GI is for barley shochu?","Iki",["Satsuma","Kuma","Ryukyu"],"Satsuma is sweet potato, Kuma is rice, Ryukyu is awamori."],
+[3,"Yamahai differs from kimoto in that it:","Skips the pole-mashing step",["Adds lactic acid","Uses no koji","Is never pasteurized"],"Both let lactic bacteria develop naturally. Sokujo adds lactic acid."],
+[2,"Japan's first sake GI, granted in 2005, was:","Hakusan",["Nada Gogo","Yamagata","Niigata"],"Yamagata in 2016 was the first to cover a whole prefecture."]
 ]});
 
 L.push({id:"s8", unit:"S1", title:"Deep Dive: The CMS 2025 Service Standards", mins:18,
