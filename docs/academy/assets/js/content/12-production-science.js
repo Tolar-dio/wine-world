@@ -148,7 +148,7 @@ body:`
 <h3>Adaptation in the cellar</h3>
 <p>Earlier picking, acidification, whole-bunch for freshness, lower extraction, alcohol reduction technology, picking at night.</p>
 <h3>Adaptation in the law</h3>
-<ul><li><b>Bordeaux</b> approved new varieties for trial in its generic AOCs, including <b>Touriga Nacional</b>, <b>Marselan</b>, <b>Castets</b> and <b>Arinarnoa</b> (reds) and <b>Alvarinho</b>, <b>Liliorila</b> and <b>Petit Manseng</b> (whites), up to limited percentages.</li>
+<ul><li><b>Bordeaux</b> approved new varieties for trial in its generic AOCs, including <b>Touriga Nacional</b>, <b>Marselan</b>, <b>Castets</b> and <b>Arinarnoa</b> (reds) and <b>Alvarinho</b> and <b>Liliorila</b> (whites), up to limited percentages. A seventh candidate, Petit Manseng, was not approved.</li>
 <li><b>Champagne</b> approved the disease-resistant hybrid <b>Voltis</b> for limited trial use.</li>
 <li>Many appellations have relaxed irrigation bans and adjusted alcohol or harvest rules.</li></ul>
 <h3>Sustainability beyond climate</h3>

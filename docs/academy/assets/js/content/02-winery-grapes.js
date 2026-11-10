@@ -90,7 +90,7 @@ body:`
 <p>Classic WSET 25-mark question: "Name two winemaking techniques that give butter, toast and vanilla." The answer is <b>MLC</b> (butter, from diacetyl) and <b>new oak maturation</b> (toast and vanilla from toasted barrels). Each would earn about 5 marks when explained: what happens, why it creates the aroma, and an example wine.</p>
 <h3>How a barrel is made, and what that costs</h3>
 <p>Oak for barrels comes from trees 100 to 200 years old. French forests are named on cooperage lists: Allier, Tronçais, Nevers and the Vosges give tight-grained wood for wine; wide-grained <b>Limousin</b> goes mostly to Cognac. The staves are stacked outdoors for two to three years so rain washes out harsh tannin, then bent over a fire and toasted. French oak must be split along the grain; American oak can be sawn, which wastes less wood and is one reason it costs about half as much.</p>
-<p>A new French barrique costs roughly €900 to €1,200 and holds 300 bottles. All-new oak therefore adds about €3 to €4 to every bottle before anything else is paid for. Oak is a budget decision as much as a style one.</p>
+<p>A new French barrique costs roughly €800 to €1,000 and holds 300 bottles. All-new oak therefore adds about €3 to every bottle before anything else is paid for. Oak is a budget decision as much as a style one.</p>
 <h3>The dials a winemaker turns</h3>
 <table class="t"><tr><th>Wine</th><th>Typical oak regime</th></tr>
 <tr><td>Chablis</td><td>Steel or old oak; little or no oak flavor</td></tr>
@@ -237,7 +237,7 @@ body:`
 <tr><td>Tokaji Aszú</td><td>At least 120 g/L by law</td></tr>
 <tr><td>Icewine, Trockenbeerenauslese</td><td>Often 160 to 250 g/L</td></tr>
 <tr><td>Pedro Ximénez Sherry</td><td>400 g/L and more</td></tr>
-<tr><td>Tokaji Eszencia</td><td>At least 450 g/L, at 2 to 5% alcohol</td></tr></table>
+<tr><td>Tokaji Eszencia</td><td>At least 450 g/L, at only a few percent of alcohol</td></tr></table>
 <p>Sugar alone is syrup. What makes these wines great is <b>acidity</b>: Riesling, Chenin Blanc, Furmint and Sémillon in a cool autumn keep enough acid to make 150 g/L taste fresh. When you assess a sweet wine, ask first whether the finish is clean or cloying.</p>
 <h3>Why they cost so much</h3>
 <p>Every method throws away water, and water is volume. Château d'Yquem averages about 9 hl/ha, often put as one glass of wine per vine, against 50 or more for a dry white. Pickers pass through a botrytized vineyard several times, berry by berry. Icewine growers leave fruit hanging into December for birds, rot and thaw to take. In poor years there is no wine at all.</p>

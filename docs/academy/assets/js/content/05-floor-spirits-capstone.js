@@ -393,7 +393,7 @@ body:`
 <li><b>Gin:</b> neutral spirit flavored predominantly with juniper. <b>London Dry</b> is a method (botanicals in redistillation, no flavor added afterward), not a place. Plymouth, Old Tom (sweetened), Genever (malty Dutch ancestor).</li>
 <li><b>Vodka:</b> neutral spirit from grain, potato or anything fermentable, filtered.</li></ul>
 <h3>Liqueurs, vermouth, bitters</h3>
-<p>Liqueurs are sweetened, flavored spirits: Chartreuse (green 55%, yellow 40%; Carthusian monks), Bénédictine, Cointreau and Grand Marnier (orange; Grand Marnier is Cognac-based), Amaretto, Kahlúa. <b>Vermouth</b> is an aromatized, fortified wine (Italian sweet/rosso from Turin, French dry from Chambéry). <b>Amari</b>: bitter herbal liqueurs (Campari, Aperol, Fernet-Branca, Averna, Cynar). Aromatic bitters: Angostura, Peychaud's.</p>
+<p>Liqueurs are sweetened, flavored spirits: Chartreuse (green 55%, yellow 43%; Carthusian monks), Bénédictine, Cointreau and Grand Marnier (orange; Grand Marnier is Cognac-based), Amaretto, Kahlúa. <b>Vermouth</b> is an aromatized, fortified wine (Italian sweet/rosso from Turin, French dry from Chambéry). <b>Amari</b>: bitter herbal liqueurs (Campari, Aperol, Fernet-Branca, Averna, Cynar). Aromatic bitters: Angostura, Peychaud's.</p>
 <h3>From raw material to wash</h3>
 <p>Yeast can only ferment sugar, so every spirit starts by getting sugar out of its raw material. How that is done is the first thing that separates the categories.</p>
 <table class="t"><tr><th>Raw material</th><th>What must happen first</th><th>Spirits</th></tr>
@@ -887,14 +887,14 @@ body:`
 <li><b>Argument:</b> "Reduction and integrated oak indicate barrel fermentation on lees; the acid and restraint suggest a cool site rather than California."</li></ul>
 <p>A wrong identification argued well from accurate observation scores; a right one asserted without evidence scores little.</p>
 <h3>Numbers to carry into any business answer</h3>
-<ul><li>World wine production in 2024 was about 226 million hectoliters, the lowest in about sixty years; consumption was about 214 million.</li>
+<ul><li>World wine production in 2024 was about 226 million hectoliters, the lowest in about sixty years, and 2025 was barely higher at about 227 million. Consumption fell from about 214 million in 2024 to about 208 million in 2025.</li>
 <li>Italy, France and Spain make roughly half the world's wine.</li>
 <li>The United States is the largest market by value.</li>
-<li>World exports are worth roughly €36 billion a year.</li>
+<li>World exports were worth about €36 billion in 2024 and fell to about €34 billion in 2025 as tariffs bit.</li>
 <li>Consumption has fallen in most mature markets since 2018, most sharply for inexpensive red.</li></ul>
 <p>Round figures with a date beat precise ones you have to hedge. Update them every year from the OIV's April report.</p>
 <h3>How rare the MW is</h3>
-<p>A little over 500 people have passed since the first exam in 1953. The practical papers are the usual barrier. Candidates who succeed tend to share three habits: they taste in exam conditions every week, they write timed essays and have them marked by someone harsher than themselves, and they read the trade press daily so that their examples are current.</p>`,
+<p>About 530 people have passed since the first exam in 1953, and about 425 hold the title today. The practical papers are the usual barrier. Candidates who succeed tend to share three habits: they taste in exam conditions every week, they write timed essays and have them marked by someone harsher than themselves, and they read the trade press daily so that their examples are current.</p>`,
 floor:`<p>Floor candidates benefit from this too: guests at the top end want to talk about climate change, natural wine, and why a bottle costs what it does.</p>`,
 analyst:`<p>Practice in the Exam Hall's Diploma essay mode: 45 minutes, one prompt, then self-assess against the rubric (thesis, structure, evidence, balance, conclusion).</p>`,
 terms:[["D3","Diploma Wines of the World unit, 50% of the qualification."],["Stage 2","MW exam: three 12-wine papers and five theory papers."],["Research paper","MW Stage 3, about 10,000 words."],["Thesis","The position an essay argues, stated in its first two sentences."],["Typicity","How closely a wine matches the classic style of its grape and place."],["OIV","International Organisation of Vine and Wine; publishes the annual world statistics."]],

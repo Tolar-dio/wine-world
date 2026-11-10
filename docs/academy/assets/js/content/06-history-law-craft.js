@@ -380,7 +380,7 @@ quiz:[
 [2,"Deep color, very high acid and low tannin with sour cherry suggest:","Barbera",["Nebbiolo","Cabernet Sauvignon","Grenache"],"Barbera pairs high acid with little tannin; Nebbiolo is pale and very tannic."],
 [2,"When the evidence fits two wines equally, call:","The more classic one",["The rarer one","The more expensive one","Neither: leave it blank"],"Exam wines are chosen to be typical."],
 [2,"Banana and bubblegum on a light red are a marker for:","Carbonic maceration",["American oak","Botrytis","Brettanomyces"],"Think Beaujolais."],
-[3,"A current-release Brunello di Montalcino on an exam in 2026 is most likely from:","2021",["2025","2024","2015"],"Brunello is released in its fifth year after harvest."],
+[3,"A Brunello di Montalcino first released in January 2026 comes from which vintage?","2021",["2025","2024","2015"],"Brunello is released in January of the fifth year after harvest."],
 [2,"A bone-dry white at 10.5% with lemon and, with age, toast but no oak:","Hunter Valley Sémillon",["Meursault","Condrieu","Alsace Pinot Gris"],"Picked early, never oaked; toast comes from bottle age."],
 [2,"Garnet color with a brick rim, leather and tobacco puts a red at about:","8 to 15 years",["1 to 3 years","Under a year","Over 40 years"],"Rim and tertiary aromas are the age clues."],
 [3,"Deep, very tannic, with meat, leather and blackberry from Provence:","Mourvèdre (Bandol)",["Grenache (Tavel)","Cinsault","Carignan"],"Syrah shows pepper and olive with less tannin."]

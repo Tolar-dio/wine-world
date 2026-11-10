@@ -109,7 +109,7 @@ body:`
 <ul><li><b>Banyuls</b> and <b>Collioure</b> come from the same steep schist terraces above the sea. Banyuls is the fortified wine; Collioure is the dry one.</li>
 <li><b>Maury</b> has had a dry version, Maury Sec, since 2011.</li></ul>
 <h3>New World names</h3>
-<ul><li><b>Apera:</b> Australia's name for its Sherry-style wines since 2010, when it agreed to give up European place names. "Tokay" became Topaque at the same time.</li>
+<ul><li><b>Apera:</b> Australia's name for its Sherry-style wines. Its 2010 wine agreement with the EU gave up European place names, and "Sherry" left Australian labels in 2011. "Tokay" became Topaque, with the old name fully retired in 2020.</li>
 <li><b>Cape Ruby, Cape Tawny, Cape Vintage:</b> South Africa's Port styles.</li>
 <li><b>Jerepigo:</b> a South African mistelle, spirit added to unfermented must. <b>Muscadel</b> is its fortified Muscat.</li>
 <li><b>Angelica:</b> California's oldest wine style, a mistelle of Mission grapes first made at the Franciscan missions.</li>
@@ -131,7 +131,7 @@ body:`
 <li>Oxidative styles (Tuilé, Ambré, Rancio, Rutherglen, Marsala) last for months, because air has already done its work.</li></ul>`,
 floor:`<p>Banyuls is the classic chocolate pairing; Muscat de Beaumes-de-Venise with fruit tarts; Rutherglen Muscat with sticky toffee pudding; Marsala Vergine as an apéritif with Parmigiano.</p>`,
 analyst:`<p>D5 covers VDNs, Rutherglen and Marsala alongside Port, Sherry and Madeira. Explain mutage timing and the difference between reductive and oxidative fortified styles.</p>`,
-terms:[["Mutage","Adding spirit during fermentation to stop it."],["Rancio","Nutty, oxidative character from long aging in warm conditions."],["Grenat / Rimage","Young, reductive Grenache VDN styles bottled early."],["Topaque","Australian fortified Muscadelle."],["Mistelle","Grape juice fortified before fermentation."],["Bonbonne","Glass demijohn used to age VDNs outdoors."],["Apera","Australia's name for Sherry-style wine since 2010."],["Jerepigo","South African mistelle: spirit added to unfermented must."],["Angelica","California mistelle of Mission grapes, dating from the missions."],["Ambré","Oxidatively aged VDN from white grapes."],["Tuilé","Oxidatively aged VDN from red grapes."],["Collioure","Dry wine from the same vineyards as Banyuls."]],
+terms:[["Mutage","Adding spirit during fermentation to stop it."],["Rancio","Nutty, oxidative character from long aging in warm conditions."],["Grenat / Rimage","Young, reductive Grenache VDN styles bottled early."],["Topaque","Australian fortified Muscadelle."],["Mistelle","Grape juice fortified before fermentation."],["Bonbonne","Glass demijohn used to age VDNs outdoors."],["Apera","Australia's name for Sherry-style wine since 2011."],["Jerepigo","South African mistelle: spirit added to unfermented must."],["Angelica","California mistelle of Mission grapes, dating from the missions."],["Ambré","Oxidatively aged VDN from white grapes."],["Tuilé","Oxidatively aged VDN from red grapes."],["Collioure","Dry wine from the same vineyards as Banyuls."]],
 quiz:[
 [2,"Banyuls Grand Cru requires at least how long in wood?","30 months",["6 months","12 months","10 years"],"Grenache-based VDN."],
 [2,"Rutherglen's top classification tier is:","Rare",["Grand","Classic","Superiore"],"Rare averages 20 years or more; below it sit Grand (11-19), Classic (6-10) and Rutherglen (3-5)."],
@@ -141,7 +141,7 @@ quiz:[
 [2,"Topaque is the Australian name for fortified:","Muscadelle",["Muscat","Sémillon","Grenache"],"Formerly called 'Tokay'."],
 [3,"Rimage on a Banyuls label signals:","A young, reductive, fruit-forward vintage style",["Long oxidative aging in glass bonbonnes","A dry, unfortified red from old vines","A white VDN from Grenache Blanc and Gris"],"Bottled early."],
 [2,"Who is credited with describing mutage in about 1285?","Arnau de Vilanova",["John Woodhouse","The Marquis of Pombal","Dom Pierre Pérignon"],"A physician at the court of Majorca."],
-[2,"Since 2010, Australian Sherry-style wine has been labeled:","Apera",["Topaque","Tawny","Jerepigo"],"Topaque replaced 'Tokay' at the same time."],
+[2,"Since 2011, Australian Sherry-style wine has been labeled:","Apera",["Topaque","Tawny","Jerepigo"],"Topaque replaced 'Tokay' under the same agreement with the EU."],
 [2,"Rivesaltes Ambré is made from:","White grapes, aged with air",["Red grapes, bottled young","Muscat, kept fresh and pale","Dried grapes, left unfortified"],"Tuilé is the oxidative style from red grapes."],
 [2,"South Africa's Jerepigo is:","Unfermented must with added spirit",["A dry wine aged under flor yeast","A sparkling Muscat from Robertson","A Port-style wine aged ten years"],"A mistelle, like Pineau des Charentes."],
 [2,"Banyuls and Collioure share the same vineyards. Collioure is:","The dry, unfortified wine",["The older oxidative style","The white-only appellation","The sparkling version"],"Banyuls is the fortified one."],
@@ -199,7 +199,7 @@ body:`
 <h3>Amari and bitters</h3>
 <p>Italy's <b>amari</b> are bitter herbal liqueurs drunk as apéritifs or digestifs. Light, apéritif-style: <b>Aperol</b> (orange, rhubarb), <b>Campari</b> (bitter orange, historically colored with cochineal), Select. Digestif-style: <b>Averna</b> (Sicilian, caramel), <b>Montenegro</b> (floral), <b>Nonino</b> (grappa-based), <b>Cynar</b> (artichoke), <b>Ramazzotti</b>, <b>Braulio</b> (alpine), <b>Fernet-Branca</b> (intensely bitter, minty; Argentina's national mixer with cola). French counterparts: <b>Suze</b> (gentian), <b>Salers</b>, <b>Amer Picon</b>. Germany: <b>Jägermeister</b>, <b>Underberg</b>. Cocktail bitters: Angostura (Trinidad), Peychaud's (New Orleans), orange bitters.</p>
 <h3>Herbal and monastic liqueurs</h3>
-<ul><li><b>Chartreuse</b>: Carthusian monks near Grenoble, from a 1605 manuscript of some 130 herbs; <b>green</b> (55%) and <b>yellow</b> (40%, sweeter); V.E.P. aged versions. Only two monks know the full recipe.</li>
+<ul><li><b>Chartreuse</b>: Carthusian monks near Grenoble, from a 1605 manuscript of some 130 herbs; <b>green</b> (55%) and <b>yellow</b> (43%, sweeter); V.E.P. aged versions. Only two monks know the full recipe.</li>
 <li><b>Bénédictine</b>: Fécamp, Normandy; honeyed, herbal, Cognac-based (B&B = Bénédictine and brandy).</li>
 <li><b>Strega</b> (saffron, yellow, Benevento), <b>Galliano</b> (vanilla, anise), <b>Drambuie</b> (Scotch with honey and herbs), <b>Génépi</b> (alpine wormwood).</li></ul>
 <h3>Fruit, nut and other liqueurs</h3>
@@ -248,7 +248,7 @@ analyst:`<p>The SWE's CSS and WSET spirits courses cover aromatized wines and li
 terms:[["Artemisia","Wormwood; the legally required flavoring in vermouth."],["Quinquina","Aromatized wine flavored with cinchona (quinine)."],["Amaro","Italian bitter herbal liqueur."],["Louche","Clouding of anise spirits when water is added."],["Maraschino","Clear liqueur from Marasca cherries."],["V.E.P.","Chartreuse's aged, extra-long-matured versions."],["Crème de","EU term for a liqueur with at least 250 g/L of sugar."],["Percolation","Dripping spirit through flavoring material, as in coffee making."],["Fernet","The driest, most bitter family of amaro."],["Triple sec","The drier French style of orange liqueur."],["Verte","Green absinthe, colored by a second soak of herbs."],["Vermouth di Torino","Geographical indication for vermouth made in Piedmont."]],
 quiz:[
 [1,"Vermouth must be flavored with:","Wormwood (Artemisia)",["Cinchona (quinine)","Juniper berries","Star anise"],"From German Wermut."],
-[2,"Green Chartreuse is bottled at:","55%",["40%","30%","70%"],"Yellow is 40% and sweeter."],
+[2,"Green Chartreuse is bottled at:","55%",["40%","30%","70%"],"Yellow is 43% and sweeter."],
 [2,"A quinquina is flavored with:","Cinchona bark (quinine)",["Artichoke leaves (cynarin)","Gentian root only","Roasted coffee beans"],"Lillet, Byrrh, Dubonnet."],
 [2,"Cynar is an amaro based on:","Artichoke",["Rhubarb","Saffron","Walnut"],"Italian digestif."],
 [2,"The louche in absinthe is caused by:","Anethole coming out of solution",["Sugar crystallizing in the cold water","Thujone oxidizing on contact with air","Proteins forming a chill haze"],"Clouding effect."],
