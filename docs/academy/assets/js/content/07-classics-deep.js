@@ -182,17 +182,56 @@ body:`
 <ul><li><b>Lorraine and Moselle:</b> pale gris wines (Côtes de Toul).</li>
 <li><b>Die:</b> Clairette de Die, a sweet, Muscat-based ancestral-method sparkling, and Crémant de Die.</li>
 <li><b>Cognac and Armagnac:</b> brandy country, covered in Beyond Wine.</li>
-<li><b>Pineau des Charentes and Floc de Gascogne:</b> grape must fortified with Cognac or Armagnac (mistelles).</li></ul>`,
+<li><b>Pineau des Charentes and Floc de Gascogne:</b> grape must fortified with Cognac or Armagnac (mistelles).</li></ul>
+<h3>Why these regions stayed small</h3>
+<ul><li>For centuries Bordeaux held royal privileges, the <b>police des vins</b>, that kept wine from upriver (the "High Country": Cahors, Gaillac, Bergerac) out of the port until Bordeaux's own wine had sold. The rules lasted until 1776.</li>
+<li>Phylloxera, then the frost of <b>1956</b>, almost finished Cahors. It was replanted and became an AOC only in 1971.</li>
+<li>Isolation had one benefit: growers kept grapes found nowhere else.</li></ul>
+<h3>The grapes in the glass</h3>
+<table class="t"><tr><th>Grape</th><th>Where</th><th>Markers</th></tr>
+<tr><td>Malbec (Côt)</td><td>Cahors</td><td>Black plum, ink, earth, firm tannin. Leaner and more tannic than Mendoza</td></tr>
+<tr><td>Tannat</td><td>Madiran, Irouléguy</td><td>Black fruit and the highest tannin in France; needs age or air</td></tr>
+<tr><td>Négrette</td><td>Fronton</td><td>Violet, licorice, soft</td></tr>
+<tr><td>Fer Servadou</td><td>Gaillac, Marcillac</td><td>Red currant, pepper, a rustic iron note</td></tr>
+<tr><td>Petit Manseng</td><td>Jurançon</td><td>Pineapple, honey, spice, piercing acidity; sweet without botrytis</td></tr>
+<tr><td>Colombard, Ugni Blanc</td><td>Gascony</td><td>Light, zesty, grapefruit; cheap and cheerful</td></tr>
+<tr><td>Jacquère</td><td>Savoie</td><td>Light, alpine, barely 11%; lemon and wet stone</td></tr>
+<tr><td>Altesse</td><td>Savoie</td><td>Fuller, with pear, honey and almond</td></tr>
+<tr><td>Mondeuse</td><td>Savoie</td><td>Dark berries, black pepper, violet; like a lean northern Syrah</td></tr>
+<tr><td>Nielluccio</td><td>Corsica</td><td>Sangiovese: sour cherry, herbs, firm acid</td></tr>
+<tr><td>Sciaccarellu</td><td>Corsica</td><td>Pale, peppery, red-fruited</td></tr>
+<tr><td>Vermentinu</td><td>Corsica</td><td>Citrus, herbs, a bitter-almond finish</td></tr></table>
+<h3>At the table</h3>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Cahors, Madiran</td><td>Cassoulet, duck confit, magret</td></tr>
+<tr><td>Sweet Jurançon</td><td>Foie gras, blue cheese</td></tr>
+<tr><td>Dry Jurançon, Irouléguy</td><td>Ossau-Iraty, the Basque sheep cheese</td></tr>
+<tr><td>Savoie whites</td><td>Fondue, raclette, lake fish</td></tr>
+<tr><td>Corsican reds and rosés</td><td>Charcuterie, wild boar, grilled fish</td></tr>
+<tr><td>Bugey Cerdon, Clairette de Die</td><td>Fruit tarts, brunch</td></tr></table>
+<h3>The edges of the map</h3>
+<ul><li><b>Lorraine:</b> Côtes de Toul makes <b>vin gris</b>, a rosé so pale it is nearly white, from Gamay and Pinot Noir. Moselle is a tiny AOC on the German border.</li>
+<li><b>The Auvergne:</b> Saint-Pourçain (whites with the local Tressallier) and Côtes d'Auvergne (Gamay on volcanic soil) are filed under the Loire but lie in the Massif Central.</li>
+<li><b>New ground:</b> since planting rules were loosened in 2016, vineyards have returned to Brittany, Normandy and the Paris region.</li></ul>
+<h3>Why a sommelier should care</h3>
+<p>These regions are where a list finds character at a fair price: Cahors against Bordeaux, Jurançon against Sauternes, Savoie against Chablis, Corsica against Tuscany. They are also where an exam finds its hard questions, because each has a grape that grows almost nowhere else.</p>`,
 floor:`<p>These are a sommelier's value secrets: Cahors for steak, Jurançon Sec for spicy food, Savoie whites for cheese. Guests love being shown something they've never heard of that over-delivers.</p>`,
 analyst:`<p>WSET Diploma expects Southwest France appellations with grapes and styles. Explain micro-oxygenation and why Tannat needed it.</p>`,
-terms:[["Micro-oxygenation","Controlled introduction of tiny amounts of oxygen to soften tannin, invented in Madiran."],["Passerillage","Drying grapes on the vine to concentrate sugar (Jurançon)."],["Mistelle","Unfermented grape juice fortified with spirit (Pineau des Charentes)."],["Nielluccio","Corsican name for Sangiovese."]],
+terms:[["Micro-oxygenation","Controlled introduction of tiny amounts of oxygen to soften tannin, invented in Madiran."],["Passerillage","Drying grapes on the vine to concentrate sugar (Jurançon)."],["Mistelle","Unfermented grape juice fortified with spirit (Pineau des Charentes)."],["Nielluccio","Corsican name for Sangiovese."],["Police des vins","Bordeaux's old privileges that held back wine from upriver regions."],["Vin gris","A rosé so pale it is nearly white."],["Tressallier","Local white grape of Saint-Pourçain."],["Ossau-Iraty","Basque sheep's milk cheese, a classic match for Jurançon and Irouléguy."]],
 quiz:[
 [1,"Cahors is based on which grape?","Malbec",["Tannat","Merlot","Négrette"],"Called Côt or Auxerrois locally."],
 [2,"Micro-oxygenation was invented in which appellation?","Madiran",["Cahors","Bordeaux","Gaillac"],"1991, for Tannat."],
 [2,"Jurançon's grapes are:","Petit and Gros Manseng",["Sémillon and Sauvignon Blanc","Mauzac and Len de l'El","Chenin and Chardonnay"],"Dry and sweet styles."],
 [2,"Pineau des Charentes is made by:","Fortifying grape must with Cognac",["Distilling Ugni Blanc twice","Refermenting in the bottle","Leaving grapes to botrytize"],"A mistelle: unfermented grape must fortified with Cognac, then aged in oak."],
 [3,"Sciaccarellu is a red grape of:","Corsica",["Savoie","Jura","Gascony"],"Peppery, pale reds from Ajaccio."],
-[2,"Monbazillac is:","A botrytized sweet white near Bergerac",["A structured red from Cahors Malbec","A sparkling wine from the Drôme","A dry rosé from western Provence"],"Sémillon-based."]
+[2,"Monbazillac is:","A botrytized sweet white near Bergerac",["A structured red from Cahors Malbec","A sparkling wine from the Drôme","A dry rosé from western Provence"],"Sémillon-based."],
+[2,"Until 1776, Bordeaux's privileges hurt upriver regions such as Cahors by:","Holding their wine back from the port",["Banning Malbec anywhere outside the Médoc","Taxing every barrel made of oak","Forcing them to distil their wine"],"Upriver wine could be sold only after Bordeaux's own."],
+[2,"Compared with Argentine Malbec, Cahors is usually:","Firmer, earthier and more tannic",["Sweeter and very much lower in acid","Paler and lightly sparkling","Softer, riper and more floral"],"A cooler climate and limestone give it structure."],
+[2,"The classic partner for sweet Jurançon is:","Foie gras",["Oysters","Bouillabaisse","Steak tartare"],"Its acidity cuts the richness."],
+[2,"The frost of 1956 nearly wiped out which appellation, which became an AOC in 1971?","Cahors",["Bandol","Sancerre","Arbois"],"It was almost entirely replanted."],
+[2,"Mondeuse from Savoie tastes of:","Dark berries, pepper and violet",["Lychee, rose and ginger","Butter, toast and hazelnut","Strawberry jam and dried garrigue herbs"],"It resembles a lean northern Rhône Syrah."],
+[2,"The speciality of Côtes de Toul in Lorraine is:","Vin gris, a very pale rosé",["A sweet fortified Muscat","A tannic red made from Tannat","A sparkling Chenin Blanc"],"Made from Gamay and Pinot Noir."],
+[3,"Tressallier is a white grape found in:","Saint-Pourçain",["Jurançon","Patrimonio","Apremont"],"In the Auvergne, though the appellation is grouped with the Loire."]
 ]});
 
 L.push({id:"r7b", unit:"R2", title:"The Italian DOCG Map", mins:18,
@@ -222,10 +261,51 @@ body:`
 <li>Sweet-wine DOCGs cluster in the northeast (Recioto, Ramandolo, Picolit).</li>
 <li>Trentino-Alto Adige, Valle d'Aosta, Liguria and Molise have no DOCG.</li></ul>
 <h3>Watch for name traps</h3>
-<p>Montepulciano d'Abruzzo (grape) vs Vino Nobile di Montepulciano (town, Sangiovese). Vernaccia di San Gimignano (white) vs Vernaccia di Serrapetrona (sparkling red). Moscato d'Asti (frizzante, about 5%) vs Asti (spumante, higher pressure, about 7-9.5%).</p>`,
+<p>Montepulciano d'Abruzzo (grape) vs Vino Nobile di Montepulciano (town, Sangiovese). Vernaccia di San Gimignano (white) vs Vernaccia di Serrapetrona (sparkling red). Moscato d'Asti (frizzante, about 5%) vs Asti (spumante, higher pressure, about 7-9.5%).</p>
+<h3>How the ladder was built</h3>
+<table class="t"><tr><th>Year</th><th>Step</th></tr>
+<tr><td>1963</td><td>The first national law creates DOC</td></tr>
+<tr><td>1980</td><td>The first DOCGs: Brunello di Montalcino, Vino Nobile di Montepulciano, Barolo and Barbaresco</td></tr>
+<tr><td>1984</td><td>Chianti follows</td></tr>
+<tr><td>1992</td><td>The Goria law adds IGT below DOC and lets labels name a single vineyard (vigna)</td></tr>
+<tr><td>2008</td><td>EU reform: DOCG and DOC both count as PDO; IGT counts as PGI</td></tr></table>
+<ul><li>A wine must usually have been a DOC for years before it can be promoted.</li>
+<li>Every DOCG wine is analyzed and tasted by a panel before bottling.</li>
+<li>Each bottle carries a numbered neck strip, the <b>fascetta</b>: pink for red wine, green for white.</li></ul>
+<h3>Label words inside a DOCG</h3>
+<table class="t"><tr><th>Word</th><th>Meaning</th></tr>
+<tr><td>Classico</td><td>The historic heart of the zone</td></tr>
+<tr><td>Superiore</td><td>Higher minimum alcohol, usually lower yields</td></tr>
+<tr><td>Riserva</td><td>Longer minimum aging</td></tr>
+<tr><td>Vigna</td><td>A single named vineyard</td></tr>
+<tr><td>MGA, UGA</td><td>An officially named area inside the zone, as in Barolo and Chianti Classico</td></tr>
+<tr><td>Passito</td><td>Made from dried grapes</td></tr></table>
+<h3>From the grape's side</h3>
+<table class="t"><tr><th>Grape</th><th>Its DOCGs</th></tr>
+<tr><td>Nebbiolo</td><td>Barolo, Barbaresco, Roero, Gattinara, Ghemme, Valtellina Superiore, Sforzato</td></tr>
+<tr><td>Sangiovese</td><td>Brunello, Chianti, Chianti Classico, Vino Nobile, Carmignano, Morellino, Montecucco</td></tr>
+<tr><td>Aglianico</td><td>Taurasi, Aglianico del Taburno, Aglianico del Vulture Superiore</td></tr>
+<tr><td>Barbera</td><td>Barbera d'Asti, Nizza, Barbera del Monferrato Superiore</td></tr>
+<tr><td>Dolcetto</td><td>Dogliani, Diano d'Alba, Ovada</td></tr>
+<tr><td>Montepulciano</td><td>Colline Teramane, Conero, Offida Rosso</td></tr>
+<tr><td>Glera</td><td>Conegliano Valdobbiadene, Asolo</td></tr>
+<tr><td>Garganega</td><td>Soave Superiore, Recioto di Soave</td></tr>
+<tr><td>Verdicchio</td><td>Castelli di Jesi Riserva, Matelica Riserva</td></tr></table>
+<h3>Famous wines that are not DOCG</h3>
+<p>Fame and rank are different things. All of these are DOC: Bolgheri and Bolgheri Sassicaia, Valpolicella and Valpolicella Ripasso, Soave and Soave Classico, Prosecco (the large zone), every Lambrusco, Montepulciano d'Abruzzo, Langhe Nebbiolo, Barbera d'Alba, Trento sparkling, Vin Santo, and dry Primitivo di Manduria. Tignanello and the first Super Tuscans are IGT.</p>
+<h3>More name traps</h3>
+<ul><li><b>Cerasuolo d'Abruzzo</b> is a deep cherry-colored rosé from Montepulciano, and a DOC. <b>Cerasuolo di Vittoria</b> is a red DOCG from Sicily.</li>
+<li><b>Roero</b> DOCG covers Nebbiolo reds and the white <b>Roero Arneis</b>.</li>
+<li><b>Chianti</b> and <b>Chianti Classico</b> are two separate DOCGs with different rules.</li>
+<li><b>Amarone</b> and <b>Recioto</b> are DOCG; <b>Ripasso</b>, made on their skins, is DOC.</li>
+<li><b>Brachetto d'Acqui</b> is sweet, red and sparkling. <b>Gavi</b> is white, from Cortese.</li></ul>
+<h3>How to learn it</h3>
+<ol><li>First the twenty or so that appear on every wine list.</li>
+<li>Then one region at a time, north to south, saying the grape aloud with each name.</li>
+<li>Then test yourself from the grape's side, using the table above.</li></ol>`,
 floor:`<p>DOCG matching items are classic Certified/Advanced fodder: "Which grape is used for Taurasi?" "Which DOCG is the only one in Sicily?" Drill them in the Matching room.</p>`,
 analyst:`<p>The Italian Wine Scholar Unit 1 covers the north and Unit 2 the center and south; both test DOCGs, grapes and styles at this depth.</p>`,
-terms:[["Albana di Romagna","Italy's first white DOCG (1987)."],["Alta Langa","Piedmont traditional-method sparkling DOCG."],["Cerasuolo di Vittoria","Sicily's only DOCG."],["Tullum","Abruzzo DOCG near Tollo."]],
+terms:[["Albana di Romagna","Italy's first white DOCG (1987)."],["Alta Langa","Piedmont traditional-method sparkling DOCG."],["Cerasuolo di Vittoria","Sicily's only DOCG."],["Tullum","Abruzzo DOCG near Tollo."],["Fascetta","The numbered neck strip on a DOCG bottle: pink for red, green for white."],["Goria law","1992 law that added IGT and single-vineyard names."],["Vigna","A single named vineyard on an Italian label."],["Cerasuolo d'Abruzzo","Deep rosé DOC made from Montepulciano."]],
 quiz:[
 [1,"Which is a DOC, not a DOCG?","Bolgheri",["Brunello di Montalcino","Carmignano","Vernaccia di San Gimignano"],"Bolgheri Sassicaia is its own DOC."],
 [2,"Italy's first white DOCG was:","Albana di Romagna",["Soave Superiore","Gavi","Vernaccia di San Gimignano"],"Albana di Romagna (now Romagna Albana) became Italy's first white DOCG in 1987."],
@@ -233,7 +313,14 @@ quiz:[
 [2,"The DOCG version of Primitivo di Manduria is:","Dolce Naturale (sweet)",["Riserva (aged)","Superiore (dry)","Rosato (pink)"],"The dry version is DOC."],
 [2,"Ramandolo is a sweet DOCG from which grape?","Verduzzo",["Picolit","Garganega","Moscato"],"Ramandolo is made from Verduzzo Friulano in the hills north of Udine, in Friuli."],
 [3,"Vernaccia di Serrapetrona is:","A sparkling red from Marche",["A white from Tuscany","A sweet white from Sardinia","A rosé from Puglia"],"Not to be confused with Vernaccia di San Gimignano."],
-[1,"Vermentino di Gallura is in:","Sardinia",["Sicily","Liguria","Tuscany"],"Granite soils in the northeast."]
+[1,"Vermentino di Gallura is in:","Sardinia",["Sicily","Liguria","Tuscany"],"Granite soils in the northeast."],
+[2,"Besides Barolo, Barbaresco and Vino Nobile, which wine was among the first DOCGs in 1980?","Brunello di Montalcino",["Chianti Classico","Amarone della Valpolicella","Franciacorta"],"Chianti followed in 1984."],
+[2,"The numbered strip on the neck of a DOCG red wine is:","Pink",["Green","Gold","Blue"],"Green is used for white wines."],
+[2,"Valpolicella Ripasso is:","A DOC",["A DOCG","An IGT","A Vino da Tavola"],"Amarone and Recioto are the DOCGs."],
+[2,"The 1992 Goria law added which tier to Italian wine law?","IGT",["DOCG","DOC","Vino da Tavola"],"It also allowed single-vineyard (vigna) names."],
+[2,"Cerasuolo d'Abruzzo is:","A deep rosé from Montepulciano",["A red DOCG from eastern Sicily","A sweet white from dried grapes","A sparkling red from the Marche"],"Cerasuolo di Vittoria is the Sicilian red DOCG."],
+[2,"Roero DOCG covers Nebbiolo reds and which white?","Arneis",["Cortese","Erbaluce","Timorasso"],"Cortese is the grape of Gavi."],
+[2,"'Vigna' on an Italian label refers to:","A single named vineyard",["A wine from very old vines","A cooperative's top selection","A late-harvested sweet wine"],"Allowed since the 1992 law."]
 ]});
 
 L.push({id:"r8b", unit:"R3", title:"Spain Beyond Rioja: The Full DO Map", mins:16,
@@ -252,15 +339,50 @@ body:`
 <h3>Vinos de Pago</h3>
 <p>Single-estate appellations with their own rules, mostly in Castilla-La Mancha and Navarra (e.g., Dominio de Valdepusa, the first, in 2003). Prestige varies; it's a legal category, not a guarantee.</p>
 <h3>The new Spain</h3>
-<p>The most exciting movement is a return to old vines and native grapes: Gredos Garnacha (Comando G), Ribeira Sacra Mencía, Canary Islands volcanic wines (Envínate, Suertes del Marqués), Bierzo village and single-site wines (Raúl Pérez, Descendientes de J. Palacios), and Rioja's new village and Viñedo Singular labels.</p>`,
+<p>The most exciting movement is a return to old vines and native grapes: Gredos Garnacha (Comando G), Ribeira Sacra Mencía, Canary Islands volcanic wines (Envínate, Suertes del Marqués), Bierzo village and single-site wines (Raúl Pérez, Descendientes de J. Palacios), and Rioja's new village and Viñedo Singular labels.</p>
+<h3>The islands in more detail</h3>
+<ul><li><b>The Canaries</b> never had phylloxera, so vines are ungrafted and often very old.</li>
+<li><b>Lanzarote:</b> at La Geria each vine sits in its own pit dug through black volcanic ash, behind a low crescent wall that blocks the wind. The ash traps the dew. The grape is Malvasía Volcánica.</li>
+<li><b>Tenerife:</b> in the Valle de la Orotava vines are trained in the <b>cordón trenzado</b>, braided cordons many meters long. Vineyards climb the slopes of Mount Teide to about 1,700 meters.</li>
+<li><b>Grapes:</b> Listán Blanco is Palomino. Listán Negro gives pale, peppery, smoky reds. Negramoll is Madeira's Tinta Negra.</li>
+<li><b>Mallorca:</b> native reds Manto Negro and Callet, and the white Prensal.</li></ul>
+<h3>Four styles worth a closer look</h3>
+<ul><li><b>Sierra de Gredos.</b> Old bush-vine Garnacha on granite at 800 to 1,200 meters, west of Madrid. Pale, perfumed and fine-boned, nearer to Pinot Noir than to Châteauneuf. It straddles three appellations: Méntrida, Vinos de Madrid and Cebreros.</li>
+<li><b>Ribeira Sacra.</b> Slate terraces dropping into the gorges of the Sil and Miño, worked by hand. This is "heroic viticulture". Mencía here is light, floral and fresh.</li>
+<li><b>Txakoli.</b> Three Basque DOs: Getariako, Bizkaiko and Arabako. Light, tart, slightly spritzy, about 11%.</li>
+<li><b>Fondillón.</b> Alicante's historic wine: Monastrell left to overripen on the vine, fermented to at least 16% with no spirit added, then aged at least ten years in old casks, often in a solera. Nutty and off-dry, like an unfortified tawny.</li></ul>
+<h3>Producers to know</h3>
+<table class="t"><tr><th>Area</th><th>Names</th></tr>
+<tr><td>Rías Baixas</td><td>Pazo de Señoráns, Do Ferreiro, Zárate</td></tr>
+<tr><td>Valdeorras, Ribeira Sacra</td><td>Rafael Palacios (As Sortes), Guímaro, Dominio do Bibei</td></tr>
+<tr><td>Bierzo</td><td>Descendientes de J. Palacios, Raúl Pérez</td></tr>
+<tr><td>Ribera del Duero, Toro</td><td>Vega Sicilia, Pingus, Aalto; Numanthia, San Román</td></tr>
+<tr><td>Rueda</td><td>Marqués de Riscal, Ossian, Belondrade</td></tr>
+<tr><td>Priorat, Montsant</td><td>Álvaro Palacios, Clos Mogador, Terroir al Límit</td></tr>
+<tr><td>Jumilla, Yecla</td><td>Casa Castillo, El Nido, Castaño</td></tr>
+<tr><td>Gredos</td><td>Comando G, Daniel Landi, Bernabeleva</td></tr>
+<tr><td>Canary Islands</td><td>Envínate, Suertes del Marqués, Los Bermejos</td></tr></table>
+<h3>Where the value is</h3>
+<ul><li><b>Old-vine Garnacha</b> from Campo de Borja and Calatayud.</li>
+<li><b>Monastrell</b> from Jumilla and Yecla.</li>
+<li><b>Verdejo</b> from Rueda and <b>Godello</b> from Valdeorras as alternatives to Sauvignon Blanc and Chardonnay.</li>
+<li><b>Mencía</b> from Bierzo for guests who like Pinot Noir or Cabernet Franc.</li>
+<li><b>Cava</b> with long lees aging, at half the price of Champagne.</li></ul>`,
 floor:`<p>Spain is the best value section of most lists. Bobal, Monastrell, Mencía, Godello and Canary reds give sommeliers interesting bottles at accessible prices.</p>`,
 analyst:`<p>WSET Level 3 names Rías Baixas, Bierzo, Rueda, Toro, Ribera, Rioja, Navarra, Calatayud, Campo de Borja, Cariñena, Priorat, Penedès, Jumilla and La Mancha. The Spanish Wine Scholar goes deeper still.</p>`,
-terms:[["Vino de Pago","Spanish single-estate appellation."],["Bobal","Red grape of Utiel-Requena."],["Fondillón","Aged, naturally sweet Monastrell from Alicante."],["Listán Negro","Red grape of the Canary Islands."]],
+terms:[["Vino de Pago","Spanish single-estate appellation."],["Bobal","Red grape of Utiel-Requena."],["Fondillón","Aged, naturally sweet Monastrell from Alicante."],["Listán Negro","Red grape of the Canary Islands."],["Cordón trenzado","Tenerife's braided-cordon vine training."],["Malvasía Volcánica","White grape of Lanzarote."],["Gredos","Mountain range west of Madrid known for old-vine Garnacha."],["Heroic viticulture","Farming on slopes too steep for machines."]],
 quiz:[
 [1,"Which grape defines Utiel-Requena?","Bobal",["Mencía","Monastrell","Godello"],"Valencia region."],
 [2,"Lanzarote's vines grow in:","Pits dug into volcanic ash, behind stone walls",["Terraces cut into slate above a river","Chalky albariza near the Atlantic coast","Flat red clay on a high inland plateau"],"Protects vines from wind."],
 [2,"Montsant surrounds which DOQ?","Priorat",["Rioja","Ribera del Duero","Penedès"],"Similar grapes at lower prices."],
 [2,"Godello is the signature white of:","Valdeorras",["Rueda","Rías Baixas","Penedès"],"Valdeorras, in eastern Galicia, revived Godello from near extinction in the 1970s."],
 [3,"Spain's first Vino de Pago was:","Dominio de Valdepusa",["Vega Sicilia Único","Dominio de Pingus","Clos Mogador"],"2003, Castilla-La Mancha."],
-[2,"Which DO is spread across several regions rather than tied to one area?","Cava",["Priorat","Toro","Bierzo"],"Most is from Penedès."]
+[2,"Which DO is spread across several regions rather than tied to one area?","Cava",["Priorat","Toro","Bierzo"],"Most is from Penedès."],
+[2,"Fondillón from Alicante is:","An unfortified, long-aged Monastrell",["A fortified sweet white from Moscatel","A sparkling rosé made from Bobal","A dry white made from Merseguera"],"At least 16% alcohol with no spirit added, and ten years in cask."],
+[2,"In Tenerife's Valle de la Orotava, vines are trained as:","Long braided cordons",["Bush vines in pits of ash","Pergolas on granite posts","Single stakes on steep slate"],"The cordón trenzado."],
+[2,"Sierra de Gredos is known for:","Pale, perfumed old-vine Garnacha",["Dense, heavily oaked Tempranillo","Salty, spritzy Hondarrabi Zuri","Sweet fortified Pedro Ximénez"],"Grown on granite at 800 to 1,200 meters."],
+[2,"Listán Blanco of the Canary Islands is the same grape as:","Palomino",["Albariño","Verdejo","Malvasía"],"Sherry's grape, ungrafted on volcanic soil."],
+[2,"Getariako, Bizkaiko and Arabako are the three DOs of:","Txakoli",["Cava","Sherry","Ribeiro"],"The Basque Country's light, tart white."],
+[2,"Manto Negro and Callet are native red grapes of:","Mallorca",["Galicia","Tenerife","Aragón"],"Binissalem and Pla i Llevant are the island's DOs."],
+[2,"Ribeira Sacra's vineyards are best described as:","Steep terraces above river gorges",["Flat plains of deep red clay","Ash pits behind curved stone walls","Sandy dunes beside the ocean"],"Along the Sil and Miño rivers."]
 ]});

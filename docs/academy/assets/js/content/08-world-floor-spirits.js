@@ -17,17 +17,59 @@ body:`
 <ul><li><b>Lebanon:</b> the Bekaa Valley at about 1,000 m. <b>Château Musar</b> (Gaston Hochar, later Serge Hochar) made wine through the civil war; Cabernet, Cinsault and Carignan reds aged long; native whites Obaideh and Merwah.</li>
 <li><b>Israel:</b> Golan Heights and Upper Galilee lead quality; much wine is kosher (kosher status concerns production supervision, not style).</li>
 <li><b>Turkey:</b> huge grape-growing country, small wine output; Öküzgözü, Boğazkere, Kalecik Karası (reds), Narince and Emir (whites).</li>
-<li><b>Cyprus:</b> <b>Commandaria</b>, a sweet wine from sun-dried Xynisteri and Mavro, claims to be the oldest named wine still in production (linked to the Knights Templar and Hospitaller).</li></ul>`,
+<li><b>Cyprus:</b> <b>Commandaria</b>, a sweet wine from sun-dried Xynisteri and Mavro, claims to be the oldest named wine still in production (linked to the Knights Templar and Hospitaller).</li></ul>
+<h3>The long view</h3>
+<table class="t"><tr><th>When</th><th>What happened</th></tr>
+<tr><td>About 6000 BC</td><td>The earliest chemical evidence of grape wine, in pottery from Georgia</td></tr>
+<tr><td>About 4000 BC</td><td>A complete winery in the Areni-1 cave, Armenia</td></tr>
+<tr><td>1400s to 1800s</td><td>Ottoman rule discourages commercial wine across the Balkans, though Christian communities keep making it</td></tr>
+<tr><td>1945 to 1989</td><td>Collective farms and state wineries favor volume over quality</td></tr>
+<tr><td>1985</td><td>Gorbachev's anti-alcohol campaign uproots vast areas of vineyard in Moldova, Georgia and Crimea</td></tr>
+<tr><td>2006</td><td>Russia bans wine from Georgia and Moldova. Having lost their main customer, producers raise quality and find new markets</td></tr>
+<tr><td>2004 to 2013</td><td>Slovenia, Romania, Bulgaria and Croatia join the EU and adopt its appellation rules</td></tr></table>
+<h3>Qvevri, more closely</h3>
+<ul><li>A <b>qvevri</b> is an egg-shaped clay jar, lined with beeswax and buried to its neck so the earth keeps it cool.</li>
+<li><b>Kakhetian method</b> (east): the juice ferments and rests with all its skins, seeds and stems for five or six months. Deep amber, tannic, with dried apricot and walnut.</li>
+<li><b>Imeretian method</b> (west): only a small share of the skins and no stems. Lighter and fresher.</li>
+<li>Serve amber wine at 55 to 60°F, as you would a light red.</li>
+<li>The Georgian feast is the <b>supra</b>, led by a toastmaster, the <b>tamada</b>.</li></ul>
+<h3>The grapes in the glass</h3>
+<table class="t"><tr><th>Grape</th><th>Country</th><th>Markers</th></tr>
+<tr><td>Saperavi</td><td>Georgia</td><td>Inky, sour cherry, high acid, firm tannin</td></tr>
+<tr><td>Rkatsiteli</td><td>Georgia</td><td>Quince and apple when fresh; tea and dried fruit as amber wine</td></tr>
+<tr><td>Areni</td><td>Armenia</td><td>Red cherry, pepper; light and fresh</td></tr>
+<tr><td>Plavac Mali</td><td>Croatia</td><td>Dried fig, plum, high alcohol; a child of Zinfandel</td></tr>
+<tr><td>Malvazija Istarska</td><td>Croatia</td><td>Acacia, almond, saline; medium body</td></tr>
+<tr><td>Rebula</td><td>Slovenia</td><td>Citrus and herbs; often made with skin contact</td></tr>
+<tr><td>Fetească Neagră</td><td>Romania, Moldova</td><td>Dried plum, spice, medium tannin</td></tr>
+<tr><td>Mavrud</td><td>Bulgaria</td><td>Dark, tannic, herbal</td></tr>
+<tr><td>Öküzgözü, Boğazkere</td><td>Turkey</td><td>Soft and fruity; dark and tannic. Usually blended together</td></tr>
+<tr><td>Obaideh, Merwah</td><td>Lebanon</td><td>Waxy, nutty old-style whites</td></tr></table>
+<h3>If the guest likes this, pour that</h3>
+<table class="t"><tr><th>They like</th><th>Offer</th></tr>
+<tr><td>Zinfandel</td><td>Plavac Mali</td></tr>
+<tr><td>Pinot Grigio or Soave</td><td>Malvazija Istarska</td></tr>
+<tr><td>Pinot Noir</td><td>Areni</td></tr>
+<tr><td>Old-style Bordeaux or Rioja</td><td>Château Musar</td></tr>
+<tr><td>Fino Sherry or Jura whites</td><td>Georgian amber wine</td></tr>
+<tr><td>Fendant with fondue</td><td>Any Vaud Chasselas</td></tr></table>`,
 floor:`<p>Georgian amber wine and Lebanese reds are excellent "story" bottles. Keep one or two for adventurous guests; they pair beautifully with Middle Eastern and grilled food.</p>`,
 analyst:`<p>Diploma D3 includes Eastern Europe and the Eastern Mediterranean at a general level. Essays on native grapes, post-communist recovery, and qvevri are plausible.</p>`,
-terms:[["Saperavi","Georgian teinturier red grape."],["Rkatsiteli","Georgian white grape, often made as amber wine."],["Plavac Mali","Croatian red, offspring of Zinfandel (Tribidrag)."],["Commandaria","Cypriot sweet wine from sun-dried grapes."],["Chasselas","Swiss white grape, especially in Vaud."]],
+terms:[["Saperavi","Georgian teinturier red grape."],["Rkatsiteli","Georgian white grape, often made as amber wine."],["Plavac Mali","Croatian red, offspring of Zinfandel (Tribidrag)."],["Commandaria","Cypriot sweet wine from sun-dried grapes."],["Chasselas","Swiss white grape, especially in Vaud."],["Kakhetian method","Qvevri fermentation with all the skins, seeds and stems."],["Imeretian method","Qvevri fermentation with only part of the skins."],["Supra","The Georgian feast."],["Tamada","The toastmaster at a Georgian supra."]],
 quiz:[
 [1,"Saperavi is unusual because:","It has red flesh (teinturier)",["It is a white grape with pink skin","It can only be made sweet","It is a French-American hybrid"],"Deep, high-acid reds."],
 [2,"Croatia's first protected wine appellation was:","Dingač",["Istria","Brda","Kakheti"],"1961, Pelješac peninsula."],
 [2,"Château Musar is in:","Lebanon's Bekaa Valley",["Israel's Golan Heights","Cyprus's Troodos hills","Turkey's Cappadocia"],"Made wine through the civil war."],
 [1,"Switzerland's signature white in Vaud is:","Chasselas",["Petite Arvine","Grüner Veltliner","Furmint"],"Lavaux terraces."],
 [3,"Commandaria is made from:","Sun-dried Xynisteri and Mavro",["Botrytized Furmint and Hárslevelű","Frozen Vidal and Riesling","Fortified Palomino and Moscatel"],"Cyprus's Commandaria: sun-dried Xynisteri (white) and Mavro (red), aged in oak for at least two years."],
-[2,"Which country's vast underground cellars include Cricova and Mileștii Mici?","Moldova",["Romania","Georgia","Bulgaria"],"Limestone tunnels."]
+[2,"Which country's vast underground cellars include Cricova and Mileștii Mici?","Moldova",["Romania","Georgia","Bulgaria"],"Limestone tunnels."],
+[2,"Russia's 2006 ban on Georgian and Moldovan wine pushed producers to:","Raise quality and find new markets",["Abandon their native grapes","Switch to making only brandy","Sell their vineyards back to the state"],"They had lost their largest customer."],
+[2,"Georgia's Kakhetian method differs from the Imeretian by using:","All the skins, seeds and stems",["No skins or stems at all","New oak barrels in place of clay","Added grape spirit"],"The Imeretian method uses only a share of the skins."],
+[2,"Gorbachev's 1985 anti-alcohol campaign affected Soviet wine regions by:","Uprooting vast areas of vineyard",["Doubling the area under vine","Privatizing the largest state wineries","Banning all native varieties"],"Moldova, Georgia and Crimea lost large areas."],
+[2,"A guest who loves Zinfandel should be steered to Croatia's:","Plavac Mali",["Graševina","Malvazija","Pošip"],"It is an offspring of Zinfandel."],
+[2,"A qvevri is traditionally lined with:","Beeswax",["Pine resin","Glazed tile","Olive oil"],"Then buried to its neck in the ground."],
+[2,"The Georgian feast led by a toastmaster is the:","Supra",["Heuriger","Symposium","Feria"],"The toastmaster is the tamada."],
+[2,"Öküzgözü and Boğazkere are red grapes of:","Turkey",["Lebanon","Bulgaria","Armenia"],"One is soft, the other tannic; they are usually blended."]
 ]});
 
 L.push({id:"r18", unit:"R5", title:"England and the Emerging Wine World", mins:14,

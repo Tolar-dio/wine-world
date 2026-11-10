@@ -83,7 +83,7 @@ body:`
 <p><b>23 AVAs</b>; the Willamette Valley (1983) contains <b>11 nested AVAs</b>: Chehalem Mountains, Dundee Hills, Eola-Amity Hills, Laurelwood District, Lower Long Tom (2021), McMinnville, Mount Pisgah Polk County Oregon (2022), Ribbon Ridge, Tualatin Hills, Van Duzer Corridor (approved December 2018) and Yamhill-Carlton.</p>
 <ul><li><b>Label law:</b> 100% Oregon fruit, 95% from a named AVA, 90% varietal (75% allowed for 18 varieties including Cabernet Sauvignon, Merlot, Syrah, Zinfandel, Tempranillo, Sauvignon Blanc). Since January 2023, any wine from a Willamette sub-AVA must also say "Willamette Valley."</li>
 <li><b>Soils:</b> marine sediments (Willakenzie; Yamhill-Carlton, Ribbon Ridge), basalt (<b>Jory</b>, Oregon's official state soil; Dundee Hills, Eola-Amity), and windblown loess (<b>Laurelwood</b>; Chehalem Mountains, Laurelwood District).</li>
-<li><b>History:</b> David Lett planted Pinot in 1965; Eyrie's 1975 South Block Reserve placed in the top ten at the 1979 Gault-Millau Olympiad; the International Pinot Noir Celebration began in 1987.</li>
+<li><b>History:</b> David Lett planted Pinot in 1965; Eyrie's 1975 South Block Reserve placed in the top ten Pinot Noirs at the 1979 Gault-Millau Olympiad; the International Pinot Noir Celebration began in 1987.</li>
 <li><b>Elsewhere:</b> Southern Oregon (Umpqua, Rogue, Applegate; Tempranillo, Syrah), Columbia Gorge, and <b>The Rocks District of Milton-Freewater</b> (2015), 96% basalt cobbles, first planted by Cayuse in 1997.</li>
 <li>2025: about 44,700 acres, 1,043 wineries; Pinot Noir is 59% of plantings.</li></ul>
 <h3>Washington</h3>

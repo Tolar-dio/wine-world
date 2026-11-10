@@ -52,7 +52,7 @@ body:`
 <tr><td>1850s</td><td>Marqués de Murrieta and Marqués de Riscal bring Bordeaux methods to Rioja</td></tr>
 <tr><td>1872</td><td>Josep Raventós of Codorníu makes the first Cava</td></tr>
 <tr><td>About 1900</td><td>Phylloxera reaches Rioja, decades after France</td></tr>
-<tr><td>1979</td><td>Torres Gran Coronas Black Label beats Château Latour at the Gault-Millau Wine Olympiad</td></tr>
+<tr><td>1979</td><td>Torres Gran Coronas Black Label beats Château Latour in the Cabernet class of the Gault-Millau Wine Olympiad</td></tr>
 <tr><td>1986</td><td>Spain joins what is now the EU; investment follows</td></tr>
 <tr><td>1991</td><td>Rioja becomes the first DOCa</td></tr>
 <tr><td>1996</td><td>Irrigation is legalized nationally</td></tr></table>
@@ -347,10 +347,48 @@ body:`
 <li><b>Santa Cruz Mountains</b>: Ridge Monte Bello (Cabernet, also in the Judgment of Paris), Mount Eden.</li>
 <li><b>Paso Robles</b>: warm days and very cold nights (one of California's widest diurnal swings); Rhône varieties (Tablas Creek, Saxum), Cabernet, Zinfandel.</li>
 <li><b>Santa Barbara County</b>: the Santa Ynez Valley's east-west transverse valleys funnel Pacific air: <b>Sta. Rita Hills</b> (Pinot, Chardonnay), <b>Santa Maria Valley</b> (Au Bon Climat, Bien Nacido).</li>
-<li><b>Lodi</b>: old-vine Zinfandel; <b>Sierra Foothills</b> (Amador Zinfandel); <b>Central Valley</b>: high-volume production.</li></ul>`,
+<li><b>Lodi</b>: old-vine Zinfandel; <b>Sierra Foothills</b> (Amador Zinfandel); <b>Central Valley</b>: high-volume production.</li></ul>
+<h3>California in dates</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>1769</td><td>Franciscan missions bring the Mission grape north from Mexico</td></tr>
+<tr><td>1857</td><td>Agoston Haraszthy founds Buena Vista in Sonoma and later imports European cuttings</td></tr>
+<tr><td>1861</td><td>Charles Krug opens Napa's first commercial winery</td></tr>
+<tr><td>1920 to 1933</td><td>Prohibition. A few wineries, Beaulieu among them, survive on sacramental wine; growers ship grapes east to home winemakers</td></tr>
+<tr><td>1938</td><td>André Tchelistcheff arrives at Beaulieu and brings modern winemaking</td></tr>
+<tr><td>1965</td><td>Schramsberg begins making traditional-method sparkling wine. It was poured at Nixon's toast in Beijing in 1972</td></tr>
+<tr><td>1966</td><td>Robert Mondavi opens at Oakville</td></tr>
+<tr><td>1968</td><td>The Napa Valley Agricultural Preserve protects the valley floor from housing: the first in the United States</td></tr>
+<tr><td>1975</td><td>A stuck fermentation at Sutter Home leaves a sweet pink Zinfandel. White Zinfandel is born</td></tr>
+<tr><td>1976</td><td>The Judgment of Paris</td></tr>
+<tr><td>1981</td><td>Napa Valley becomes California's first AVA</td></tr>
+<tr><td>1990s</td><td>The rootstock AXR1 fails against phylloxera and much of Napa and Sonoma is replanted</td></tr>
+<tr><td>2017, 2020</td><td>Major wildfires; smoke taint in 2020</td></tr></table>
+<h3>The wines in the glass</h3>
+<table class="t"><tr><th>Wine</th><th>Markers</th></tr>
+<tr><td>Napa Cabernet, valley floor</td><td>Ripe cassis and black cherry, cocoa, new French oak; plush tannin, 14.5% and more</td></tr>
+<tr><td>Napa Cabernet, mountain</td><td>Darker, firmer, more tannic; needs time</td></tr>
+<tr><td>Zinfandel</td><td>Bramble jam, black pepper, raisin; high alcohol, low tannin</td></tr>
+<tr><td>Russian River Pinot Noir</td><td>Ripe cherry, cola, baking spice; fuller than Burgundy</td></tr>
+<tr><td>Sonoma Coast and Sta. Rita Hills Pinot</td><td>Cranberry, tea, salt; high acid</td></tr>
+<tr><td>Classic Chardonnay</td><td>Ripe pineapple, butter, vanilla, toast</td></tr>
+<tr><td>Modern coastal Chardonnay</td><td>Lemon, green apple, restrained oak</td></tr>
+<tr><td>Petite Sirah</td><td>Inky, blueberry, massive tannin. It is the French grape Durif</td></tr></table>
+<p>Zinfandel is genetically the same as Italy's Primitivo and Croatia's Tribidrag, a match confirmed by DNA in 2001.</p>
+<h3>Rules particular to California</h3>
+<ul><li><b>Conjunctive labeling:</b> a wine from a Napa sub-AVA must also say "Napa Valley". Sonoma County requires the same.</li>
+<li>A wine labeled "California" must be 100% Californian.</li>
+<li>The University of California at Davis divided the state into five heat zones, Region I (coolest) to Region V, by adding up warmth over the growing season. The scale is still quoted.</li></ul>
+<h3>At the table</h3>
+<ul><li><b>Napa Cabernet:</b> grilled steak, short ribs.</li>
+<li><b>Zinfandel:</b> barbecue, burgers, Thanksgiving turkey.</li>
+<li><b>Russian River Pinot Noir:</b> salmon, duck, mushrooms.</li>
+<li><b>Rich Chardonnay:</b> lobster or Dungeness crab with butter.</li>
+<li><b>California sparkling:</b> oysters, fried chicken.</li></ul>
+<h3>Where things stand</h3>
+<p>California has more grapes than buyers. Sales have fallen since 2021, growers have pulled out tens of thousands of acres, and in 2025 a good deal of fruit was left unpicked. Napa prices held; the Central Valley's did not. Expect an essay question on oversupply.</p>`,
 floor:`<p>CMS Certified examines California Chardonnay (new oak), Cabernet Sauvignon (Napa/Sonoma/Paso), Merlot (Napa/Sonoma), Pinot Noir (Carneros/Sonoma/Central Coast) and Zinfandel (Napa/Sonoma). Blind: riper fruit, higher alcohol, sweet new oak, less earth than Europe. Know cult names: Screaming Eagle, Harlan, Dominus, Opus One (Mondavi and Rothschild), Shafer Hillside Select.</p>`,
 analyst:`<p>WSET Level 3 names Napa (with Los Carneros), Sonoma (Russian River, Sonoma Coast), Mendocino, Lodi, Santa Cruz Mountains, Paso Robles, Santa Maria Valley, Sta. Rita Hills and the Central Valley. Explain fog and the Pacific as the main cooling influence, and contrast warm inland with cool coastal sites.</p>`,
-terms:[["AVA","American Viticultural Area; geographic only."],["Meritage","Trademarked US term for Bordeaux-style blends."],["Judgment of Paris","1976 blind tasting where California beat France."],["Transverse valley","East-west valley channeling ocean air inland (Santa Barbara)."]],
+terms:[["AVA","American Viticultural Area; geographic only."],["Meritage","Trademarked US term for Bordeaux-style blends."],["Judgment of Paris","1976 blind tasting where California beat France."],["Transverse valley","East-west valley channeling ocean air inland (Santa Barbara)."],["AXR1","Rootstock that failed against phylloxera, forcing 1990s replanting."],["Agricultural Preserve","1968 Napa zoning that protects farmland from development."],["Conjunctive labeling","Rule that a sub-AVA wine must also name Napa Valley or Sonoma County."],["White Zinfandel","Sweet pink Zinfandel, first made at Sutter Home in 1975."],["Durif","The French grape known in California as Petite Sirah."]],
 quiz:[
 [1,"What percentage of the named grape must a US varietal wine contain (federal rule)?","75%",["85%","95%","100%"],"Oregon is stricter at 90% for most grapes."],
 [2,"A wine labeled with a Napa sub-AVA must contain at least what share of grapes from that AVA?","85%",["75%","95%","100%"],"Vintage-dated AVA wines need 95% from the vintage."],
@@ -358,7 +396,15 @@ quiz:[
 [2,"Which Napa sub-region is coolest?","Los Carneros",["Calistoga","Oakville","Rutherford"],"Near San Pablo Bay; shared with Sonoma."],
 [2,"Dry Creek Valley is most famous for:","Zinfandel",["Pinot Noir","Riesling","Chardonnay"],"Sonoma County."],
 [2,"Why do the Sta. Rita Hills grow cool-climate Pinot Noir so far south?","A transverse valley funnels in Pacific fog",["Vineyards planted above 3,000 feet","A deep lake that cools the valley","A latitude north of San Francisco"],"Santa Barbara County."],
-[3,"'Rutherford dust' refers to:","The dusty, fine tannin of Rutherford Cabernet",["A volcanic soil amendment used in Napa","A fault caused by harvest-time dust","A blessing held at the start of harvest"],"Coined by André Tchelistcheff."]
+[3,"'Rutherford dust' refers to:","The dusty, fine tannin of Rutherford Cabernet",["A volcanic soil amendment used in Napa","A fault caused by harvest-time dust","A blessing held at the start of harvest"],"Coined by André Tchelistcheff."],
+[2,"The failure of which rootstock forced much of Napa to replant in the 1990s?","AXR1",["SO4","101-14","St. George"],"It proved vulnerable to a new strain of phylloxera."],
+[2,"The 1968 Napa Valley Agricultural Preserve:","Protected farmland from development",["Created the country's very first AVA","Banned vineyards on hillsides","Set the 75% varietal rule"],"It was the first of its kind in the United States."],
+[2,"White Zinfandel was born in 1975 from a:","Stuck fermentation at Sutter Home",["Frost-damaged crop at Ridge","Mislabeled tank at Beringer Vineyards","Muscat blend made at Gallo"],"The sugar left behind made a sweet pink wine."],
+[2,"During Prohibition, Beaulieu survived by making:","Sacramental wine",["Grape brandy","Table grapes","Balsamic vinegar"],"Wine for religious use stayed legal."],
+[2,"Which sparkling wine was poured at Nixon's 1972 toast in Beijing?","Schramsberg",["Domaine Chandon","Roederer Estate","Korbel"],"Founded as a sparkling house in 1965."],
+[2,"Under conjunctive labeling, a Rutherford wine must also say:","Napa Valley",["California","North Coast","Estate Bottled"],"Sonoma County has the same rule for its AVAs."],
+[2,"Who founded Buena Vista in Sonoma in 1857?","Agoston Haraszthy",["Charles Krug","Gustave Niebaum","Georges de Latour"],"He later imported cuttings from Europe."],
+[3,"Petite Sirah is the same grape as:","Durif",["Syrah","Carignan","Mourvèdre"],"A French crossing of Syrah and Peloursin."]
 ]});
 
 L.push({id:"r14", unit:"R5", title:"Oregon, Washington and New York", mins:15,
@@ -437,10 +483,37 @@ body:`
 <ul><li><b>Marlborough</b> (South Island, Wairau and Awatere valleys): pungent Sauvignon Blanc: passion fruit, gooseberry, grapefruit, jalapeño and cut grass; high acid. Also Pinot Noir and sparkling.</li>
 <li><b>Central Otago</b>: the world's most southerly major wine region, the only one in NZ with a continental climate; intense, dark Pinot Noir (Felton Road, Rippon).</li>
 <li><b>Martinborough</b> (Wairarapa): Pinot Noir. <b>Nelson, North Canterbury/Waipara</b>: Pinot, Riesling.</li>
-<li><b>Hawke's Bay</b> (North Island, warmer): Bordeaux blends and Syrah from the <b>Gimblett Gravels</b>; Chardonnay. <b>Gisborne</b>: Chardonnay.</li></ul>`,
+<li><b>Hawke's Bay</b> (North Island, warmer): Bordeaux blends and Syrah from the <b>Gimblett Gravels</b>; Chardonnay. <b>Gisborne</b>: Chardonnay.</li></ul>
+<h3>How the Australian industry is built</h3>
+<ul><li><b>Three warm inland regions</b>, the Riverland, Murray Darling and Riverina, grow about <b>72% of the national crush</b> under irrigation. The famous regions are a small share of the volume.</li>
+<li><b>South Eastern Australia</b> on a label is a vast zone covering parts of five states. It exists so that big brands can blend across regions.</li>
+<li><b>Brands.</b> Yellow Tail, launched in 2001, opened the era of inexpensive "critter labels" and made Australia a force in the United States.</li>
+<li><b>China.</b> Tariffs of up to 218% imposed in late 2020 shut Australia's most valuable export market. They were lifted in March 2024, but the gap left a glut of red grapes and low prices inland.</li>
+<li><b>Fire.</b> The bushfires of 2019 and 2020 burned about a third of the Adelaide Hills' vineyards and tainted fruit with smoke elsewhere.</li>
+<li><b>Shows.</b> Wine shows and their trophies carry weight here. The Jimmy Watson Trophy for a young red is the best known.</li></ul>
+<h3>Australian wines in the glass</h3>
+<table class="t"><tr><th>Wine</th><th>Markers</th></tr>
+<tr><td>Barossa Shiraz</td><td>Blackberry, chocolate, licorice; full body, 14.5% and more, soft tannin</td></tr>
+<tr><td>Cool-climate Shiraz (Grampians, Canberra, Yarra)</td><td>Black pepper, red fruit, medium body: closer to the Rhône</td></tr>
+<tr><td>Clare and Eden Riesling</td><td>Bone dry, lime juice, high acid; toast and kerosene with age</td></tr>
+<tr><td>Hunter Sémillon</td><td>10 to 11%, lemon and grass when young; toast and honey after ten years, with no oak</td></tr>
+<tr><td>Coonawarra Cabernet</td><td>Cassis, mint, eucalyptus, firm structure</td></tr>
+<tr><td>Margaret River Cabernet</td><td>Cassis, bay leaf, gravel; polished, Bordeaux-like</td></tr>
+<tr><td>Modern Chardonnay</td><td>Lean, citrus, a struck-match note, restrained oak</td></tr>
+<tr><td>Rutherglen Muscat</td><td>Raisin, toffee, treacle; fortified and aged in a hot shed</td></tr>
+<tr><td>Sparkling Shiraz</td><td>Deep red, off-dry, traditional with Christmas turkey</td></tr></table>
+<p>The eucalyptus note is real. An oil from gum trees near the vineyard, 1,8-cineole, settles on the grapes and leaves.</p>
+<h3>At the table</h3>
+<ul><li><b>Hunter Sémillon:</b> oysters.</li>
+<li><b>Clare Riesling:</b> Thai and Vietnamese food.</li>
+<li><b>Barossa Shiraz:</b> barbecued beef and lamb.</li>
+<li><b>Margaret River Cabernet:</b> roast lamb.</li>
+<li><b>Rutherglen Muscat:</b> sticky date pudding, Christmas pudding, chocolate.</li></ul>
+<h3>Telling Australia from New Zealand in a blind tasting</h3>
+<p>New Zealand's wines carry higher acidity and lower alcohol across the board. A pungent Sauvignon Blanc or a bright, medium-weight Pinot Noir points to New Zealand. A bone-dry lime-scented Riesling, a full Shiraz or an unoaked low-alcohol Sémillon points to Australia.</p>`,
 floor:`<p>CMS Certified examines Shiraz from South Australia, WA or Victoria, and Marlborough Sauvignon Blanc. Blind Australian Shiraz: opaque, jammy blackberry and plum, chocolate, eucalyptus or mint, sweet American or French oak, high alcohol. NZ Sauvignon vs Sancerre: tropical passion fruit and jalapeño versus flint and gooseberry.</p>`,
 analyst:`<p>WSET Level 3 lists most of these GIs (Barossa, Eden, Clare, McLaren Vale, Coonawarra, Adelaide Hills, Yarra, Mornington, Geelong, Heathcote, Hunter, Margaret River, Great Southern, Tasmania; Marlborough, Hawke's Bay, Gimblett Gravels, Martinborough, Central Otago). Classic short answer: name a cool and a warm Australian Chardonnay region and explain how climate affects the fruit (3+3 marks).</p>`,
-terms:[["Terra rossa","Red clay over limestone in Coonawarra."],["GI","Geographical Indication; Australia's appellation system."],["Gimblett Gravels","Free-draining gravel district in Hawke's Bay."],["Topaque","Australian name for fortified Muscadelle (formerly 'Tokay')."]],
+terms:[["Terra rossa","Red clay over limestone in Coonawarra."],["GI","Geographical Indication; Australia's appellation system."],["Gimblett Gravels","Free-draining gravel district in Hawke's Bay."],["Topaque","Australian name for fortified Muscadelle (formerly 'Tokay')."],["South Eastern Australia","Huge multi-state zone used for blended wines."],["Critter label","Inexpensive wine brand with an animal on its label."],["Jimmy Watson Trophy","Australia's best-known wine show award, for a young red."],["Riverland","Irrigated inland region of South Australia; the country's largest by volume."]],
 quiz:[
 [1,"Coonawarra is famous for Cabernet grown on:","Terra rossa soil",["Blue slate","Decomposed granite","Volcanic ash"],"Red soil over limestone."],
 [2,"Name a cool and a warm Australian Chardonnay region:","Adelaide Hills (cool) and Hunter Valley (warm)",["Barossa (cool) and Tasmania (warm)","Margaret River (cool) and Yarra (warm)","Clare (cool) and Eden (warm)"],"Based on the WSET Level 3 sample short answer."],
@@ -449,7 +522,14 @@ quiz:[
 [2,"Unoaked Hunter Valley Sémillon develops toast with age because:","Bottle aging creates toasty, honeyed flavors",["It is aged in oak but not labeled so","It is lightly fortified before bottling","It is made from botrytized grapes"],"Picked early, low alcohol, very long-lived."],
 [2,"Penfolds Grange is primarily:","Shiraz",["Cabernet Sauvignon","Grenache","Pinot Noir"],"First made by Max Schubert in 1951."],
 [1,"Match McLaren Vale to its country:","Australia",["New Zealand","South Africa","Chile"],"From the official CMS matching example."],
-[3,"Which Victoria region is known for fortified Muscat?","Rutherglen",["Yarra Valley","Mornington Peninsula","Heathcote"],"Rare is the top tier."]
+[3,"Which Victoria region is known for fortified Muscat?","Rutherglen",["Yarra Valley","Mornington Peninsula","Heathcote"],"Rare is the top tier."],
+[2,"'South Eastern Australia' on a label is:","A huge multi-state blending zone",["A single premium vineyard site","A subregion of the Barossa Valley","A term for certified organic wine"],"It lets large brands blend across regions."],
+[2,"The eucalyptus note in some Australian Cabernet comes from:","Oil from nearby gum trees",["Underripe grape seeds and stems","New American oak barrels","Brettanomyces in the cellar"],"The compound is 1,8-cineole."],
+[2,"Which three inland regions grow most of Australia's grapes?","Riverland, Murray Darling, Riverina",["Barossa, Clare Valley, Eden Valley","Yarra Valley, Geelong, Mornington Peninsula","Orange, Mudgee, Canberra District"],"About 72% of the national crush."],
+[2,"China's 2020 tariffs on Australian wine were lifted in:","March 2024",["June 2021","January 2023","May 2026"],"They had reached as high as 218%."],
+[2,"Cool-climate Australian Shiraz, as in the Grampians or Canberra, tends to show:","Black pepper and medium body",["Chocolate and very high alcohol","Raisin and residual sugar","Coconut and jammy black fruit"],"It sits closer to the northern Rhône."],
+[2,"Sticky date pudding is a classic match for:","Rutherglen Muscat",["Hunter Sémillon","Clare Riesling","Sparkling Shiraz"],"A sweet, fortified, long-aged wine."],
+[2,"Yellow Tail, launched in 2001, opened the era of:","Critter labels",["Cult Cabernet","Natural wine","Grower sparkling"],"Inexpensive, fruity wine with an animal on the label."]
 ]});
 
 L.push({id:"r16", unit:"R5", title:"Argentina and Chile", mins:16,
@@ -468,17 +548,56 @@ body:`
 <li><b>Aconcagua</b>: Seña, Errázuriz. <b>Limarí</b> (limestone; Chardonnay), <b>Elqui</b>.</li>
 <li><b>Maule, Itata, Bío-Bío</b>: the south's old dry-farmed vines (País, Carignan, Cinsault), now prized.</li>
 <li><b>Carmenère</b>: brought from Bordeaux in the 1800s, mixed in with Merlot vines, and identified by DNA in 1994. Green pepper and paprika when underripe.</li></ul>
-<p><b>Uruguay</b> next door: Tannat, softer than Madiran thanks to Atlantic humidity.</p>`,
+<p><b>Uruguay</b> next door: Tannat, softer than Madiran thanks to Atlantic humidity.</p>
+<h3>How the two industries differ</h3>
+<table class="t"><tr><th></th><th>Argentina</th><th>Chile</th></tr>
+<tr><td>Side of the Andes</td><td>East: a high desert</td><td>West: a long coastal strip</td></tr>
+<tr><td>Cooling</td><td>Altitude</td><td>The Pacific and the Humboldt Current</td></tr>
+<tr><td>Market</td><td>Large home market; exports took off only in the 1990s</td><td>Small home market; most wine is exported</td></tr>
+<tr><td>Flagship</td><td>Malbec</td><td>Cabernet Sauvignon and Carmenère</td></tr>
+<tr><td>Main hazards</td><td>Hail, frost, the Zonda</td><td>Earthquakes, wildfire, drought</td></tr></table>
+<h3>A short history</h3>
+<ul><li><b>1550s:</b> Spanish missionaries plant Listán Prieto, known as País in Chile, Criolla Chica in Argentina and Mission in California.</li>
+<li><b>1851:</b> Silvestre Ochagavía brings French vines and winemakers to Chile, before phylloxera struck Europe.</li>
+<li><b>1885:</b> the railway links Mendoza to Buenos Aires, and immigrants from Italy and Spain build a vast domestic wine industry.</li>
+<li><b>1994:</b> the French vine expert Jean-Michel Boursiquot identifies much of Chile's "Merlot" as Carmenère.</li>
+<li><b>2004:</b> at the <b>Berlin Tasting</b>, Eduardo Chadwick puts his wines blind against first growths. Viñedo Chadwick 2000 comes first and Seña 2001 second, ahead of Château Lafite.</li></ul>
+<h3>The wines in the glass</h3>
+<table class="t"><tr><th>Wine</th><th>Markers</th></tr>
+<tr><td>Luján de Cuyo Malbec</td><td>Plush, ripe plum, chocolate, soft tannin</td></tr>
+<tr><td>Uco Valley Malbec</td><td>Violet, blueberry, firmer and fresher, sometimes chalky</td></tr>
+<tr><td>Torrontés</td><td>Smells like Muscat (rose, lychee, orange blossom) but tastes dry</td></tr>
+<tr><td>Bonarda</td><td>Juicy, dark-fruited, low in tannin</td></tr>
+<tr><td>Maipo Cabernet</td><td>Cassis with mint, eucalyptus and fine tannin</td></tr>
+<tr><td>Carmenère</td><td>Dark fruit, red pepper, paprika, soy; soft and low in acid</td></tr>
+<tr><td>Leyda Sauvignon Blanc</td><td>Jalapeño, grapefruit, saline</td></tr>
+<tr><td>País</td><td>Pale, light, earthy; often served cool</td></tr></table>
+<h3>What altitude does</h3>
+<ul><li>Temperature falls by roughly 1°F for every 300 feet climbed.</li>
+<li>Stronger ultraviolet light makes grapes grow thicker, darker skins: more color and tannin.</li>
+<li>Thin, dry air cools fast after sunset, so nights are cold and acidity holds.</li></ul>
+<h3>At the table</h3>
+<ul><li><b>Malbec:</b> asado, the wood-grilled beef of Argentina.</li>
+<li><b>Torrontés:</b> empanadas, spicy dishes.</li>
+<li><b>Carmenère:</b> pastel de choclo, grilled peppers, lamb.</li>
+<li><b>Leyda or Casablanca Sauvignon Blanc:</b> ceviche.</li></ul>`,
 floor:`<p>CMS Certified examines Mendoza Malbec and Salta/Mendoza Torrontés. Blind: Malbec's purple rim and violet; versus Australian Shiraz (eucalyptus, chocolate, more alcohol) and Zinfandel (jam, bramble). Matching: Salta → Argentina.</p>`,
 analyst:`<p>WSET Level 3 names Mendoza (Luján de Cuyo, Uco Valley), Salta (Cafayate) and Patagonia; and in Chile, Coquimbo (Elqui, Limarí), Aconcagua (Casablanca, San Antonio/Leyda), Central Valley (Maipo, Rapel/Colchagua, Curicó, Maule) and the South. Explain how altitude compensates for low latitude.</p>`,
-terms:[["Zonda","Hot, dry wind from the Andes in Argentina."],["Costa / Entre Cordilleras / Andes","Chile's east-west climatic zones on labels."],["Uco Valley","High-altitude sub-region of Mendoza."]],
+terms:[["Zonda","Hot, dry wind from the Andes in Argentina."],["Costa / Entre Cordilleras / Andes","Chile's east-west climatic zones on labels."],["Uco Valley","High-altitude sub-region of Mendoza."],["Berlin Tasting","2004 blind tasting in which Chilean reds beat first-growth Bordeaux."],["Torrontés","Argentina's aromatic white: Muscat-like on the nose, dry on the palate."],["Listán Prieto","The Spanish grape known as País, Criolla Chica and Mission."],["Asado","Argentine wood-grilled beef."]],
 quiz:[
 [1,"Most Argentine wine comes from:","Mendoza",["Salta","Patagonia","San Juan"],"About 70% of production."],
 [1,"Salta is the source of Argentina's best:","Torrontés",["Pinot Noir","Riesling","Tannat"],"High-altitude Cafayate."],
 [2,"Chile's Costa, Entre Cordilleras and Andes zones reflect that climate changes mostly:","West to east",["North to south","By altitude only","By soil type"],"Ocean versus mountains."],
 [2,"Chile is largely free of phylloxera because:","Natural barriers isolate it",["Every vine is on rootstock","Its soils are all volcanic","Its summers are too hot"],"The Andes, the Atacama, the Pacific and Patagonian ice keep the louse out, so most vines are ungrafted."],
 [2,"Which Chilean valley is known for coastal Sauvignon Blanc?","Casablanca",["Maipo","Colchagua","Maule"],"Cooled by the Humboldt Current."],
-[3,"What is the main weather hazard Mendoza growers net against?","Hail",["Frost","Botrytis","Typhoons"],"Hail nets are common."]
+[3,"What is the main weather hazard Mendoza growers net against?","Hail",["Frost","Botrytis","Typhoons"],"Hail nets are common."],
+[2,"At the 2004 Berlin Tasting, which country's wines finished ahead of Château Lafite?","Chile",["Argentina","Uruguay","Australia"],"Viñedo Chadwick 2000 was first and Seña 2001 second."],
+[2,"Torrontés smells like Muscat but usually tastes:","Dry",["Very sweet","Fortified","Tannic"],"The best comes from Salta."],
+[2,"Why does altitude deepen the color of Mendoza Malbec?","Stronger UV light thickens the skins",["Thin air adds more oxygen to the juice","Snowmelt carries iron to the roots","Cold nights double the sugar"],"Thicker skins hold more pigment and tannin."],
+[2,"Compared with Argentina, Chile's wine industry is more:","Dependent on exports",["Focused on white grapes","Reliant on summer rain","Planted with hybrids"],"Chile's home market is small."],
+[2,"Who identified much of Chile's 'Merlot' as Carmenère in 1994?","Jean-Michel Boursiquot",["Michel Rolland","Paul Hobbs","Aurelio Montes"],"A French ampelographer."],
+[2,"Asado, Argentina's wood-grilled beef, is the classic match for:","Malbec",["Torrontés","País","Pinot Noir"],"Soft tannin and dark fruit suit charred beef."],
+[2,"Chile's País is the same grape as California's:","Mission",["Zinfandel","Charbono","Petite Sirah"],"Listán Prieto, carried by Spanish missionaries."]
 ]});
 
 L.push({id:"r17", unit:"R5", title:"South Africa and Canada", mins:14,

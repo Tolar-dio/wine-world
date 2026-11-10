@@ -237,17 +237,51 @@ body:`
 <h3>Reading age in the glass</h3>
 <p>For blind tasting, translate age into evidence: rim variation and bricking in reds, golden color and honey/petrol in whites, the move from primary fruit to tertiary (leather, earth, mushroom, dried fruit). On the CMS grid, commit to a single vintage; on the WSET SAT, to a readiness category.</p>
 <h3>Drinking windows</h3>
-<p>Very rough guide for top examples: classed-growth Bordeaux 10-30 years; Grand Cru Burgundy 10-25; Barolo and Brunello 10-25; Vintage Port 20-50+; German Spätlese 10-30; Sauternes and Tokaji Aszú 20-50+; most rosé, Sauvignon Blanc, Prosecco: within 1-3 years.</p>`,
+<p>Very rough guide for top examples: classed-growth Bordeaux 10-30 years; Grand Cru Burgundy 10-25; Barolo and Brunello 10-25; Vintage Port 20-50+; German Spätlese 10-30; Sauternes and Tokaji Aszú 20-50+; most rosé, Sauvignon Blanc, Prosecco: within 1-3 years.</p>
+<h3>Three kinds of year</h3>
+<table class="t"><tr><th>Type</th><th>Examples</th><th>In the glass</th><th>At the table</th></tr>
+<tr><td><b>Solar</b> (hot, dry)</td><td>2003, 2009, 2018, 2020, 2022</td><td>Ripe fruit, lower acid, higher alcohol, soft tannin</td><td>Open and generous young; the hottest may not age long</td></tr>
+<tr><td><b>Classic</b> (cool, late)</td><td>2008, 2014 in Burgundy, 2016, 2021 in Germany</td><td>Higher acid, firmer structure, lower alcohol</td><td>Closed when young; built to age</td></tr>
+<tr><td><b>Wet or weak</b></td><td>2013 Bordeaux, 2014 Piedmont and Tuscany, 2011 Napa, 2024 France</td><td>Lighter, sometimes green or dilute</td><td>Drink early; good value from top growers</td></tr></table>
+<p>A simple way to memorize a region: learn one year of each type, then hang the rest on those three.</p>
+<h3>Storage beats vintage</h3>
+<p>For any bottle over about fifteen years old, how it was kept matters more than the year on the label.</p>
+<ul><li><b>Provenance</b> is the bottle's history: who owned it and where it lay. The best is "ex-cellar", straight from the producer.</li>
+<li><b>Ullage</b> is the gap between the cork and the wine. On a Bordeaux bottle the levels run from into the neck, to base of neck, top shoulder, mid shoulder and low shoulder.</li></ul>
+<table class="t"><tr><th>Fill level</th><th>What it tells you</th></tr>
+<tr><td>Into neck, base of neck</td><td>Excellent at any age</td></tr>
+<tr><td>Top shoulder</td><td>Normal for a wine over fifteen years old</td></tr>
+<tr><td>Mid shoulder</td><td>Some risk: the cork has let air in</td></tr>
+<tr><td>Low shoulder</td><td>High risk; often oxidized</td></tr></table>
+<ul><li><b>Other signs of trouble:</b> a cork pushed up under the capsule, seepage, or a brown tint in a wine too young for it. All point to heat.</li>
+<li><b>Format:</b> a magnum holds twice the wine under the same size of cork, so it takes in half as much oxygen per glass and ages more slowly. Half bottles age fastest.</li></ul>
+<h3>Vintage on the label</h3>
+<ul><li><b>NV</b> (non-vintage) and <b>MV</b> (multi-vintage) wines blend years on purpose.</li>
+<li>A vintage date allows a small share of other years: up to 15% in the EU.</li>
+<li>In Champagne and Port the producer chooses whether to declare a vintage at all.</li>
+<li>A late-released wine carries its harvest year, not its release year. A 2015 Rioja Gran Reserva and a 2021 Rioja Crianza may reach the shelf together.</li></ul>
+<h3>Answering "was that a good year?"</h3>
+<ol><li><b>Say what the year was like</b>, in one phrase: warm and ripe, cool and firm, or light.</li>
+<li><b>Say what that means tonight:</b> ready now, wants a decanter, or better in five years.</li>
+<li><b>Bring it back to the producer.</b> "It was a lighter year, but this estate made one of the best wines of it" is honest and useful.</li>
+<li><b>Never bluff.</b> If you do not know the year, say you will check, and check.</li></ol>`,
 floor:`<p>When a guest asks about an older vintage, give three things: what the year was like, how the wine is drinking now, and whether to decant. "2014 Barolo was a rainy year, so it's lighter and drinking beautifully now. I'd decant for twenty minutes."</p>`,
 analyst:`<p>Readiness for drinking on the SAT depends on structure and concentration, not just age. Diploma and MW questions often ask you to explain vintage variation through weather at specific growth stages.</p>`,
-terms:[["Vintage","The year the grapes were harvested."],["Declared vintage","A year in which Port or Champagne houses release a vintage wine."],["Drinking window","The period in which a wine is expected to show at its best."]],
+terms:[["Vintage","The year the grapes were harvested."],["Declared vintage","A year in which Port or Champagne houses release a vintage wine."],["Drinking window","The period in which a wine is expected to show at its best."],["Solar vintage","A hot, dry year giving ripe, lower-acid wines."],["Ullage","The air gap between the cork and the wine."],["Provenance","A bottle's history of ownership and storage."],["Ex-cellar","Released directly from the producer's own cellar."],["Multi-vintage","A blend of several years, made on purpose."]],
 quiz:[
 [1,"Where does vintage variation matter most?","Marginal climates like Burgundy and Germany",["Hot, reliable climates like the Barossa","Irrigated deserts like Mendoza","Nowhere: it matters equally everywhere"],"Weather swings decide ripeness at the margin."],
 [2,"What happened to many 2020 Napa wines?","Wildfire smoke led many to skip their reds",["A record spring frost cut the crop in half","Hail destroyed most valley-floor vineyards","Phylloxera returned on AXR1 rootstock"],"Smoke taint risk."],
 [2,"Which Burgundy vintage was cut by severe spring frost?","2021",["2015","2019","2005"],"Small, lighter crop."],
 [2,"Which pair of consecutive years were both widely declared for Vintage Port?","2016 and 2017",["2000 and 2001","2010 and 2011","2020 and 2021"],"Consecutive general declarations are rare."],
 [1,"Champagne houses typically declare a vintage:","Only in good years",["Every year","Every five years by law","Never"],"Otherwise the grapes go into NV blends."],
-[3,"The 2003 European vintage is known for:","An extreme heat wave and low-acid wines",["Record rainfall and widespread rot","A severe frost in late April","Hailstorms across most of France"],"Many wines aged less gracefully."]
+[3,"The 2003 European vintage is known for:","An extreme heat wave and low-acid wines",["Record rainfall and widespread rot","A severe frost in late April","Hailstorms across most of France"],"Many wines aged less gracefully."],
+[2,"A 'solar' vintage such as 2003 or 2018 tends to give wines that are:","Ripe, soft and lower in acid",["Lean, tart and very slow to open","Pale, thin and high in acid","Dilute and prone to rot"],"Heat raises sugar and lowers acidity."],
+[2,"On an old Bordeaux, a fill level at mid shoulder suggests:","Some risk of oxidation",["Ideal storage throughout","A very recent recorking","A bottle of larger format"],"Air has passed the cork."],
+[2,"Why do magnums age more slowly than standard bottles?","Less oxygen for each glass of wine",["Thicker glass blocks far more light","They are filled with older wine","Their corks are far longer"],"Twice the wine under the same size of cork."],
+[2,"For a bottle over fifteen years old, what often matters more than the vintage?","How it was stored",["How heavy the glass is","What color the capsule is","How deep the punt is"],"Heat and dry air do more damage than a modest year."],
+[2,"Which was a cool, wet, difficult year in both Piedmont and Tuscany?","2014",["2010","2016","2019"],"The other three are benchmark years."],
+[2,"Ullage is:","The gap between cork and wine",["The sediment in an old red","The wax seal on a Port bottle","The crust inside a decanter"],"It grows as wine slowly evaporates through the cork."],
+[2,"The 'provenance' of an old bottle means its:","History of ownership and storage",["Grape variety and proportions of the blend","Alcohol and sugar levels","Scores from the critics"],"Ex-cellar bottles have the best provenance."]
 ]});
 
 L.push({id:"f11", unit:"F1", title:"Deductive Logic: From Evidence to Conclusion", mins:16,
