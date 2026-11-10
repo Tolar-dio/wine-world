@@ -76,7 +76,7 @@ L.push({id:"r18", unit:"R5", title:"England and the Emerging Wine World", mins:1
 summary:"English sparkling, Uruguay, Brazil, Mexico, China, Japan and India.",
 body:`
 <h3>England</h3>
-<p>Climate change has turned southern England into a serious sparkling-wine region. The chalk of the North and South Downs is the same geological seam as Champagne. Traditional-method wines from Chardonnay, Pinot Noir and Meunier dominate; still Bacchus and Pinot Noir are improving. <b>Sussex</b> became the first English wine PDO in 2022. Producers: Nyetimber, Ridgeview, Gusbourne, Chapel Down, Hambledon. Several Champagne houses (Taittinger, Pommery partnerships) have invested.</p>
+<p>Climate change has turned southern England into a serious sparkling-wine region. The chalk of the North and South Downs is the same geological seam as Champagne. Traditional-method wines from Chardonnay, Pinot Noir and Meunier dominate; still Bacchus and Pinot Noir are improving. <b>Sussex</b> gained its own PDO in 2022, the first for a whole English county (Cornwall's single-vineyard Darnibole PDO dates from 2017). Producers: Nyetimber, Ridgeview, Gusbourne, Chapel Down, Hambledon. Several Champagne houses (Taittinger, Pommery partnerships) have invested.</p>
 <h3>Latin America beyond Argentina and Chile</h3>
 <ul><li><b>Uruguay:</b> Atlantic-influenced, humid; <b>Tannat</b> is the national grape, softer than Madiran. Canelones near Montevideo produces most; Maldonado on the coast is the quality frontier.</li>
 <li><b>Brazil:</b> Serra Gaúcha in the far south; traditional-method and Moscatel sparkling wine are its strength.</li>
@@ -118,10 +118,10 @@ body:`
 <tr><td>Virginia, USA</td><td>Cabernet Franc, Petit Manseng</td><td>Loire-weight reds; rich, high-acid whites</td></tr></table>`,
 floor:`<p>English sparkling against Champagne by the glass is a great conversation starter. Many guests can't tell them apart blind; it's a way to sell a premium glass that isn't Champagne.</p>`,
 analyst:`<p>MW contemporary issues papers often ask how climate change is redrawing the wine map. England, Tasmania, and higher-altitude sites are standard evidence.</p>`,
-terms:[["Sussex PDO","England's first protected wine designation (2022)."],["Koshu","Japanese grape from Yamanashi."],["Ningxia","Chinese wine region at the foot of the Helan Mountains."],["Valle de Guadalupe","Baja California's leading wine valley."],["Bacchus","England's leading still white grape: elderflower, nettle, grapefruit."],["British wine","Wine made in Britain from imported grape concentrate; not English wine."],["PIWI","Modern grape crossings bred to resist fungal disease."],["Crouch Valley","Dry, warm part of Essex known for still Chardonnay and Pinot Noir."]],
+terms:[["Sussex PDO","England's first county-wide wine PDO (2022)."],["Koshu","Japanese grape from Yamanashi."],["Ningxia","Chinese wine region at the foot of the Helan Mountains."],["Valle de Guadalupe","Baja California's leading wine valley."],["Bacchus","England's leading still white grape: elderflower, nettle, grapefruit."],["British wine","Wine made in Britain from imported grape concentrate; not English wine."],["PIWI","Modern grape crossings bred to resist fungal disease."],["Crouch Valley","Dry, warm part of Essex known for still Chardonnay and Pinot Noir."]],
 quiz:[
 [1,"Uruguay's flagship grape is:","Tannat",["Malbec","Carmenère","Bonarda"],"Softer than Madiran."],
-[2,"England's first wine PDO, granted in 2022, is:","Sussex",["Kent","Cornwall","Hampshire"],"Sussex gained PDO status in 2022 for sparkling and still wines from the county."],
+[2,"Which English county gained its own wine PDO in 2022?","Sussex",["Kent","Essex","Hampshire"],"Sussex was the first whole county; Cornwall's single-vineyard Darnibole PDO dates from 2017."],
 [2,"The oldest winery in the Americas is:","Casa Madero, Mexico",["Inglenook, California","Concha y Toro, Chile","Brotherhood, New York"],"Casa Madero in Parras de la Fuente, Coahuila, was founded in 1597."],
 [2,"In Ningxia, vines are buried in winter because:","Winters are extremely cold",["To prevent theft","To avoid typhoons","For organic certification"],"Helan Mountains region."],
 [1,"Koshu is a grape from:","Japan",["China","India","Korea"],"Yamanashi Prefecture."],

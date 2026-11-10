@@ -27,7 +27,7 @@ body:`
 <ul>
 <li><b>1953, the Master of Wine.</b> The Vintners' Company and the Wine and Spirit Association held the first MW exam to raise standards among merchants and importers. The Institute of Masters of Wine followed in 1955. Sarah Morphew Stephen became the first woman MW in 1970. The MW was built for buyers, so it rewards analysis, writing and commercial judgment.</li>
 <li><b>1969, WSET.</b> The Wine & Spirit Education Trust was founded to train the wider UK drinks trade: shop staff, importers, distributors. It is now a global course provider with qualifications from Level 1 to the Level 4 Diploma, and it teaches through a written, analytical lens.</li>
-<li><b>1969 and 1977, the Master Sommelier.</b> The first MS exam was held in the UK in 1969. The Court of Master Sommeliers formed in 1977 to examine people who work the dining room. The Americas chapter followed the first US exam in 1986, and the Certified level was added in 2006 to bridge Introductory and Advanced.</li>
+<li><b>1969 and 1977, the Master Sommelier.</b> The first MS exam was held in the UK in 1969. The Court of Master Sommeliers formed in 1977 to examine people who work the dining room. The first exam outside the UK was held in Monterey, California, in 1987, the Americas chapter grew out of it, and the Certified level was added in 2006 to bridge Introductory and Advanced.</li>
 </ul>
 <p>Notice the split in DNA. The MW and WSET were made for merchants, so they ask you to <i>explain</i>. The Court was made for the restaurant floor, so it asks you to <i>perform</i>: name the wine fast, open the bottle cleanly, sell the guest something they will love.</p>
 <h3>The scandals, and why the exams are more transparent now</h3>
@@ -390,9 +390,9 @@ summary:"Why latitude, altitude, water and soil show up in the glass.",
 body:`
 <p>Climate is the long-term average; weather is this year. Climate decides which grapes can ripen in a place. Weather decides the vintage.</p>
 <h3>Climate types</h3>
-<ul><li><b>Cool</b> (growing season average under about 61°F / 16.5°C): tart fruit, high acid, lighter body, lower alcohol. Champagne, Mosel, Chablis, Marlborough.</li>
-<li><b>Moderate</b> (about 61-65°F): ripe fruit with fresh acid. Bordeaux, Northern Rhône, Willamette.</li>
-<li><b>Warm/hot</b> (above about 64°F): baked or jammy fruit, softer acid, more alcohol and body. Barossa, Southern Rhône, Paso Robles, Douro.</li></ul>
+<ul><li><b>Cool</b> (growing season average under about 62°F / 16.5°C): tart fruit, high acid, lighter body, lower alcohol. Champagne, Mosel, Chablis, Marlborough.</li>
+<li><b>Moderate</b> (about 62-65°F / 16.5-18.5°C): ripe fruit with fresh acid. Bordeaux, Northern Rhône, Willamette.</li>
+<li><b>Warm/hot</b> (warm from about 65°F / 18.5°C, hot above about 70°F / 21°C): baked or jammy fruit, softer acid, more alcohol and body. Barossa, Southern Rhône, Paso Robles, Douro.</li></ul>
 <p>Then by pattern: <b>maritime</b> (moderated by the ocean, small temperature swings, rain spread through the year: Bordeaux), <b>continental</b> (hot summers, cold winters, big swings, frost risk: Burgundy, Mendoza), <b>Mediterranean</b> (warm dry summers, mild wet winters: Southern Rhône, Tuscany, much of California).</p>
 <h3>What modifies climate</h3>
 <ul><li><b>Latitude:</b> most vineyards sit between 30° and 50° in both hemispheres.</li>

@@ -72,7 +72,7 @@ body:`
 <p>Brewer's alcohol is capped at 10% of polished-rice weight; koji rice must be at least 15%. Typical recipe: steamed rice 80, koji 20, water 130, in <b>multiple parallel fermentation</b> (koji converts starch to sugar while yeast ferments it). Label terms: <b>Namazake</b> (never pasteurized), <b>Nama-chozo</b> (pasteurized once, at bottling), ordinary sake pasteurized twice, <b>Genshu</b> (undiluted), <b>Taruzake</b> (cedar-cask aged), <b>Nigori</b> (cloudy). A rice variety may be named only if over 50%; "Nihonshu" only for Japanese rice made in Japan. Service: <b>mori koboshi</b> overflows the glass (ochoko) into the wooden box (masu).</p>
 <p><b>Shochu</b>: capped at 45% (single distillation, honkaku) or 36% (continuous). <b>Awamori</b>: Okinawan, rice only, black koji (Aspergillus luchuensis) only.</p>
 <h3>Cider and perry</h3>
-<p>Normandy has seven cider-family appellations: Calvados, Calvados Pays d'Auge, Calvados Domfrontais, Pommeau de Normandie, Cidre Pays d'Auge, Cidre Cotentin, and <b>Poiré Domfront</b> (at least 40% Plant de Blanc pears). <b>Pommeau de Normandie</b> (rules re-approved December 2025): apple must fortified with Calvados, 16-18% abv, over 69 g/L sugar, at least 14 months in oak. <b>Québec ice cider</b>: provincial law requires 130 g/L residual sugar, but the IGP requires <b>140 g/L</b>, 9-13% abv, pressing between 1 December and 1 March.</p>
+<p>Normandy has nine cider-family appellations: Calvados, Calvados Pays d'Auge, Calvados Domfrontais, Pommeau de Normandie, four ciders (Pays d'Auge, Cotentin, Perche and Pays de Caux), and <b>Poiré Domfront</b> (at least 40% Plant de Blanc pears). <b>Pommeau de Normandie</b> (rules re-approved December 2025): apple must fortified with Calvados, 16-18% abv, over 69 g/L sugar, at least 14 months in oak. <b>Québec ice cider</b>: provincial law requires 130 g/L residual sugar, but the IGP requires <b>140 g/L</b>, 9-13% abv, pressing between 1 December and 1 March.</p>
 <h3>Draught, cask and bottle</h3>
 <ul><li><b>Draught gas.</b> Most beer is pushed with carbon dioxide. Stouts use a blend of roughly 70 to 75% <b>nitrogen</b>, whose tiny bubbles give a creamy head and a soft texture.</li>
 <li><b>Keg life.</b> Kept cold, unpasteurized draught beer is at its best for about 45 to 60 days; pasteurized, 90 to 120.</li>
@@ -157,7 +157,7 @@ body:`
 <tr><td>6 L</td><td>Methuselah</td><td>Imperial</td></tr>
 <tr><td>9 / 12 / 15 L</td><td colspan="2">Salmanazar / Balthazar / Nebuchadnezzar</td></tr>
 <tr><td>18 L</td><td colspan="2">Melchior (Salomon in Champagne)</td></tr></table>
-<p>Small formats: 620 mL clavelin (Vin Jaune), 500 mL "Jennie" for Sauternes, Tokaji and Sherry. 750 mL became the Bordeaux standard in 1866. Cellar targets: about 55°F (13°C) and 70% humidity, with constant temperature most important. Responsible service: TIPS is accepted in 45 states (usually 3 years); some states mandate their own (Illinois BASSET, Washington MAST).</p>`,
+<p>Small formats: 620 mL clavelin (Vin Jaune), 500 mL "Jennie" for Sauternes, Tokaji and Sherry. The 750 mL standard was fixed in law in the 1970s: Europe in 1975, the US in 1979. Cellar targets: about 55°F (13°C) and 70% humidity, with constant temperature most important. Responsible service: TIPS is accepted in 45 states (usually 3 years); some states mandate their own (Illinois BASSET, Washington MAST).</p>`,
 floor:`<p>Run the deductions list as a checklist after every practice service. Film yourself; the grader watches hands, eyes and serviettes.</p>`,
 analyst:`<p>WSET doesn't examine practical service, but the Diploma's D2 unit expects you to know how service, format and storage affect a business.</p>`,
 terms:[["Three A's","Acknowledge, Apologize, Act."],["Gueridon","Service trolley used for decanting."],["Double decanting","Decant, rinse the bottle with wine, pour back."],["Clavelin","620 mL Jura bottle for Vin Jaune."],["Jennie","500 mL bottle for sweet and fortified wines."]],
@@ -181,18 +181,18 @@ body:`
 <li><b>Cash-margin (cost-plus) pricing</b>: add a fixed dollar target per bottle, so better wines become better values and sell faster.</li>
 <li>A New York study found offering a wine by the glass is associated with a 5.0% higher bottle price and 12.2% higher bottle margin.</li></ul>
 <h3>The US three-tier system, worked</h3>
-<p>Producer FOB $30 a bottle; distributor margin 33% takes it to about $45.87 wholesale; a retailer's margin brings shelf price to about $68.81. A restaurant at 3x wholesale lists it near $138. 17 states (plus parts of four others) are <b>control states</b>; in six, including Pennsylvania and Utah, the state is the sole wholesaler of wine and spirits. <b>Direct-to-consumer</b> winery shipping is legal in 48 states (Mississippi from July 2025); Utah has no DTC rules at all. DTC shipped 6.4 million cases in 2024 and fell 12% in early 2025.</p>
+<p>Producer FOB $30 a bottle; distributor margin 33% takes it to about $45.87 wholesale; a retailer's margin brings shelf price to about $68.81. A restaurant at 3x wholesale lists it near $138. 17 states (plus parts of four others) are <b>control states</b>; in six, including Pennsylvania and Utah, the state is the sole wholesaler of wine and spirits. <b>Direct-to-consumer</b> winery shipping is legal in 48 states (Mississippi from July 2025); Utah and Delaware still ban it. DTC shipped 6.4 million cases in 2024 and fell 12% in early 2025.</p>
 <h3>Awards and Bordeaux trade</h3>
 <p>Wine Spectator's Award of Excellence now needs <b>at least 75 selections</b> (older materials say 90); Best of Award of Excellence typically 350+; the Grand Award 1,000+ (99 winners in 2026). <b>La Place de Bordeaux</b>: château to courtier (broker, 2% commission paid by the négociant) to about 400 négociants, who handle roughly 70% of Gironde AOC sales.</p>
 <h3>Market data for D2 essays</h3>
 <table class="t"><tr><th>Measure</th><th>Current figure</th></tr>
-<tr><td>World production (OIV 2024)</td><td>225.8 million hL, lowest in over 60 years (2025 estimate about 232)</td></tr>
-<tr><td>World consumption (2024)</td><td>214.2 million hL, lowest since 1961</td></tr>
-<tr><td>World exports (2024)</td><td>€36 billion at a record €3.60/L</td></tr>
+<tr><td>World production (OIV)</td><td>227 million hL in 2025, barely above 2024's 225 million, the lowest in over 60 years</td></tr>
+<tr><td>World consumption</td><td>208 million hL in 2025, down 2.7% from 213 million in 2024; the lowest since the early 1960s</td></tr>
+<tr><td>World exports</td><td>€33.8 billion in 2025 (down 6.7%) at €3.56/L, after a record €3.60/L in 2024</td></tr>
 <tr><td>UK duty</td><td>Strength-based since August 2023; wine 8.5-22% pays £30.62 per litre of pure alcohol from 1 February 2026 (about £2.87 on a 12.5% bottle, before VAT). The 11.5-14.5% easement ended February 2025.</td></tr>
 <tr><td>China tariffs</td><td>0% for FTA partners including Australia (since March 2024) and South Africa (May 2026); 14% for the EU; 39% for the US</td></tr>
 <tr><td>Liv-ex Fine Wine 100</td><td>326.31 on 30 September 2026: up 4.35% over one year, down 10.46% over five</td></tr></table>
-<p>The essay arc: volume falling, export prices rising, DTC shrinking since 2022, and a fine-wine market stabilizing in 2026.</p>
+<p>The essay arc: volume falling, export value slipping in 2025 after record prices per litre in 2024, DTC shrinking since 2022, and a fine-wine market stabilizing in 2026.</p>
 <h3>Where the money in a bottle goes</h3>
 <p>Take a wine on a UK shelf at £8, using the February 2026 duty rate. These figures are a rounded illustration.</p>
 <table class="t"><tr><th>Slice</th><th>Amount</th></tr>
@@ -225,13 +225,13 @@ body:`
 <li><b>By the glass.</b> Preservation systems let restaurants pour wines that once sold only by the bottle, which suits guests who drink less and want better.</li>
 <li><b>Transparency.</b> Guests can check retail prices on their phones at the table. Markups that cannot be defended will be noticed.</li></ul>`,
 floor:`<p>Run every list through pour cost and cash margin. Sell the middle of the list; that's where guests find value and you make money.</p>`,
-analyst:`<p>D2 (Wine Business) asks you to apply data to a case: "Explain why world production fell while export value per litre rose." Use the OIV and duty figures above.</p>`,
+analyst:`<p>D2 (Wine Business) asks you to apply data to a case: "Explain why export value per litre hit a record in 2024 while world production fell." Use the OIV and duty figures above.</p>`,
 terms:[["Pour cost","Cost of the wine as a percentage of its selling price."],["Cash-margin pricing","Adding a fixed dollar markup per bottle."],["Control state","A US state that runs wholesale and/or retail alcohol sales."],["Courtier","Bordeaux broker between château and négociant."],["FOB","Free on board: the producer's price before shipping."],["Excise duty","A tax charged per unit of alcohol, not as a share of price."],["Crush report","California's annual record of grape tonnage and prices by district."],["Tariff","A tax on imported goods, charged at the border."],["Contribution","What a department adds to the business after its own direct costs."]],
 quiz:[
 [2,"A typical by-the-glass pour cost target is:","20-28%",["5-10%","33-40%","50%"],"One glass often covers the bottle's wholesale cost."],
 [2,"Wine Spectator's Award of Excellence now requires at least:","75 selections",["90 selections","350 selections","1,000 selections"],"Older materials say 90."],
 [2,"Bordeaux courtiers usually earn:","2% commission, paid by the négociant",["10% commission, paid by the château","A flat fee per barrel sold","5% commission, paid by the importer"],"La Place de Bordeaux."],
-[2,"OIV's 2024 world production was:","The lowest in over 60 years",["A record high","Flat on 2023","The highest since 2004"],"225.8 million hL."],
+[2,"OIV's 2024 world production was:","The lowest in over 60 years",["A record high","Flat on 2023","The highest since 2004"],"About 225 million hL; 2025 was barely higher at 227 million."],
 [3,"From February 2026, UK duty on wine at 8.5-22% is:","£30.62 per litre of pure alcohol",["A flat £2.67 on every bottle","15% of the declared import value","£10 per litre of finished wine"],"Strength-based since 2023."],
 [2,"Cash-margin pricing means:","A fixed dollar markup per bottle",["Three times cost on every bottle","Matching the restaurant next door","Charging more for older vintages"],"Better wines become better values."],
 [2,"On an £8 UK bottle, roughly how much is left for the producer and the wine?","About £1",["About £4","About £6","Nothing"],"Duty and VAT take over half; retail margin and packaging take most of the rest."],

@@ -887,7 +887,7 @@ body:`
 <li><b>Argument:</b> "Reduction and integrated oak indicate barrel fermentation on lees; the acid and restraint suggest a cool site rather than California."</li></ul>
 <p>A wrong identification argued well from accurate observation scores; a right one asserted without evidence scores little.</p>
 <h3>Numbers to carry into any business answer</h3>
-<ul><li>World wine production in 2024 was about 226 million hectoliters, the lowest in about sixty years, and 2025 was barely higher at about 227 million. Consumption fell from about 214 million in 2024 to about 208 million in 2025.</li>
+<ul><li>World wine production in 2024 was about 225 million hectoliters, the lowest in about sixty years, and 2025 was barely higher at about 227 million. Consumption fell from about 213 million in 2024 to about 208 million in 2025.</li>
 <li>Italy, France and Spain make roughly half the world's wine.</li>
 <li>The United States is the largest market by value.</li>
 <li>World exports were worth about €36 billion in 2024 and fell to about €34 billion in 2025 as tariffs bit.</li>
@@ -907,7 +907,7 @@ quiz:[
 [2,"The question behind most Diploma answers links production and business choices to a wine's:","Style, quality and price",["Label design","Critic scores","Vintage chart"],"Learn every region as an answer to that question."],
 [2,"In MW tasting papers, most marks go to:","Reasoning from the glass",["Naming the producer","Speed","The correct vintage"],"Claim, evidence, argument."],
 [2,"Which example shows producers leaving an appellation to pursue quality?","The Super Tuscans",["Champagne's échelle des crus","The 1855 Classification","Cava's Reserva tier"],"They chose table-wine status in the 1970s to use Cabernet and barriques."],
-[3,"World wine production in 2024 was about:","226 million hectoliters",["26 million hectoliters","500 million hectoliters","1 billion hectoliters"],"The lowest in about sixty years, by OIV figures."],
+[3,"World wine production in 2024 was about:","225 million hectoliters",["25 million hectoliters","500 million hectoliters","1 billion hectoliters"],"The lowest in about sixty years, by OIV figures."],
 [2,"A 'to what extent' essay should end with:","A position between yes and no",["A list of further reading","A restatement of the question","No conclusion at all"],"Commit to a degree and defend it."],
 [2,"About how many people have ever passed the Master of Wine exam?","A little over 500",["About 50","About 5,000","More than 20,000"],"Since the first exam in 1953."]
 ]});

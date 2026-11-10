@@ -107,7 +107,7 @@ body:`
 <li>The 1980s-2000s: Robert Parker's 100-point scale shaped a riper, oakier global style; the New World boomed; screwcaps and science spread.</li></ul>
 <h3>Today</h3>
 <p>The defining forces now are <b>climate change</b> (earlier harvests, higher alcohol, new regions like England and Tasmania rising, Bordeaux approving new heat-tolerant grapes), a revival of <b>native grapes and old methods</b> (amphora, skin contact, natural wine), and the <b>sommelier</b> as a public figure.</p>`,
-floor:`<p>History sells. Telling a guest that Clos de Vougeot was walled by monks 900 years ago, or that Cristal was created for a Russian tsar, turns a price into a story. Have one 15-second story for every wine on your list.</p>`,
+floor:`<p>History sells. Telling a guest that Clos de Vougeot was walled by monks nearly 700 years ago, or that Cristal was created for a Russian tsar, turns a price into a story. Have one 15-second story for every wine on your list.</p>`,
 analyst:`<p>WSET Diploma and MW essays reward historical context: the impact of phylloxera on grape choice, how the AOC system responded to fraud, and how Parker-era tastes shaped styles. Use history as evidence in arguments.</p>`,
 terms:[["Qvevri","Large buried clay vessel used for fermentation and aging in Georgia."],["Areni-1","Armenian cave holding the oldest known winery (~4000 BC)."],["Methuen Treaty","1703 Anglo-Portuguese trade treaty that boosted Port."],["INAO","French institute founded 1935 to govern AOCs."]],
 quiz:[
@@ -280,7 +280,7 @@ quiz:[
 [2,"Why do magnums age more slowly than standard bottles?","Less oxygen for each glass of wine",["Thicker glass blocks far more light","They are filled with older wine","Their corks are far longer"],"Twice the wine under the same size of cork."],
 [2,"For a bottle over fifteen years old, what often matters more than the vintage?","How it was stored",["How heavy the glass is","What color the capsule is","How deep the punt is"],"Heat and dry air do more damage than a modest year."],
 [2,"Which was a cool, wet, difficult year in both Piedmont and Tuscany?","2014",["2010","2016","2019"],"The other three are benchmark years."],
-[2,"Ullage is:","The gap between cork and wine",["The sediment in an old red","The wax seal on a Port bottle","The crust inside a decanter"],"It grows as wine slowly evaporates through the cork."],
+[2,"In an auction catalogue, \"top shoulder\" and \"mid shoulder\" describe a bottle's:","Ullage",["Sediment","Capsule","Label condition"],"The fill level: the gap between cork and wine grows as wine slowly evaporates."],
 [2,"The 'provenance' of an old bottle means its:","History of ownership and storage",["Grape variety and proportions of the blend","Alcohol and sugar levels","Scores from the critics"],"Ex-cellar bottles have the best provenance."]
 ]});
 

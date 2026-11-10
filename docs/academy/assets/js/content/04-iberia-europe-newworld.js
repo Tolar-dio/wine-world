@@ -631,7 +631,7 @@ body:`
 <li><b>Casablanca, San Antonio/Leyda</b>: coastal, cool; Sauvignon Blanc, Chardonnay, Pinot Noir.</li>
 <li><b>Aconcagua</b>: Seña, Errázuriz. <b>Limarí</b> (limestone; Chardonnay), <b>Elqui</b>.</li>
 <li><b>Maule, Itata, Bío-Bío</b>: the south's old dry-farmed vines (País, Carignan, Cinsault), now prized.</li>
-<li><b>Carmenère</b>: brought from Bordeaux in the 1800s, mixed in with Merlot vines, and identified by DNA in 1994. Green pepper and paprika when underripe.</li></ul>
+<li><b>Carmenère</b>: brought from Bordeaux in the 1800s, mixed in with Merlot vines, and identified by a French ampelographer in 1994. Green pepper and paprika when underripe.</li></ul>
 <p><b>Uruguay</b> next door: Tannat, softer than Madiran thanks to Atlantic humidity.</p>
 <h3>How the two industries differ</h3>
 <table class="t"><tr><th></th><th>Argentina</th><th>Chile</th></tr>

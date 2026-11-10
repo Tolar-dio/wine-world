@@ -154,7 +154,7 @@ L.push({id:"biz1", unit:"S1", title:"Deep Dive: The Global Wine Business", mins:
 summary:"Who makes and drinks wine, how it moves from vineyard to glass, how a price is built, and the fine-wine market.",
 body:`
 <h3>The world in numbers (recent OIV estimates, rounded)</h3>
-<ul><li>World production has recently been around 225-260 million hectoliters a year; 2024 was among the smallest harvests in decades (about 226 mhl) after frost, drought and disease.</li>
+<ul><li>World production has recently been around 225-260 million hectoliters a year; 2024 was among the smallest harvests in decades (about 225 mhl) after frost, drought and disease.</li>
 <li>The largest producers are <b>Italy, France and Spain</b>, followed by the United States, Australia, Chile and Argentina.</li>
 <li>The <b>United States</b> is the largest consuming country by volume; France, Italy and Germany follow. Per-capita consumption is highest in Portugal, France and Italy.</li>
 <li>Global consumption has been drifting down, especially among younger adults, while spending per bottle rises ("premiumization").</li></ul>
@@ -184,7 +184,7 @@ quiz:[
 [2,"Landed cost is the price:","After shipping, duties and taxes on arrival",["Paid to the producer at the winery","Printed on a restaurant wine list","Reached at a fine-wine auction"],"Before importer margins."],
 [2,"Liv-ex is:","A fine-wine exchange that publishes price indices",["A Bordeaux négociant on the Place","A critic's 100-point rating service","A London auction house for rare wine"],"Liv-ex Fine Wine 100."],
 [2,"Rudy Kurniawan was convicted in 2013 of:","Counterfeiting rare wines",["Tax evasion in Bordeaux","Smuggling Port","Price fixing in Champagne"],"A landmark fraud case."],
-[3,"Approximate world wine production in 2024 according to OIV estimates:","About 226 million hectoliters",["About 500 million hectoliters","About 50 million hectoliters","About 1 billion hectoliters"],"Among the smallest in decades."]
+[3,"Approximate world wine production in 2024 according to OIV estimates:","About 225 million hectoliters",["About 500 million hectoliters","About 50 million hectoliters","About 1 billion hectoliters"],"Among the smallest in decades."]
 ]});
 
 L.push({id:"b6", unit:"S2", title:"Deep Dive: Vermouth, Amari, Liqueurs and Absinthe", mins:16,

@@ -434,7 +434,7 @@ quiz:[
 [2,"Which red is known for high acid but low tannin?","Barbera",["Nebbiolo","Cabernet Sauvignon","Mourvèdre"],"Barbera's low tannin is why it pairs widely."],
 [2,"Zinfandel is genetically identical to:","Primitivo",["Petite Sirah","Grenache","Carignan"],"Both are Croatian Crljenak Kaštelanski / Tribidrag."],
 [2,"Which grape gives a purple rim, blueberry and violet?","Malbec",["Nebbiolo","Grenache","Sangiovese"],"Mendoza Malbec's color is a giveaway."],
-[3,"Carmenère was long mistaken in Chile for:","Merlot",["Cabernet Franc","Malbec","Syrah"],"Identified by DNA in 1994."],
+[3,"Carmenère was long mistaken in Chile for:","Merlot",["Cabernet Franc","Malbec","Syrah"],"Identified by ampelographer Jean-Michel Boursiquot in 1994."],
 [2,"Which grape has thin skins and usually makes pale wine?","Grenache",["Malbec","Tannat","Petite Sirah"],"Pinot Noir, Gamay, Grenache, Nebbiolo and Sangiovese are thin-skinned."],
 [2,"In a Bordeaux blend, Merlot mainly adds:","Flesh and softness",["Acidity and perfume","Color and spice","Tannin and cassis"],"Cabernet Sauvignon gives structure; Cabernet Franc perfume; Petit Verdot color and spice."],
 [2,"In a GSM blend, which grape supplies most tannin and gamey depth?","Mourvèdre",["Grenache","Cinsault","Syrah"],"Grenache gives fruit and alcohol; Syrah color and pepper."],
