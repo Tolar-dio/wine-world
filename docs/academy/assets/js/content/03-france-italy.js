@@ -64,10 +64,52 @@ body:`
 <h3>Chablis</h3>
 <p>Isolated to the northwest, near the Loire's Sancerre. Cold continental climate, <b>Kimmeridgian</b> marl full of fossilized oyster shells. Usually unoaked or old-oak Chardonnay: green apple, lemon, wet stone, high acid. Tiers: Petit Chablis, Chablis, Chablis Premier Cru (e.g., Montée de Tonnerre, Fourchaume, Vaillons), Chablis Grand Cru: one hillside of 7 climats (Les Clos, Vaudésir, Valmur, Blanchot, Bougros, Preuses, Grenouilles).</p>
 <h3>Beaujolais</h3>
-<p>Gamay on granite. Most is carbonic or semi-carbonic. <b>Beaujolais Nouveau</b> is released the third Thursday of November. The 10 <b>crus</b>, north to south: Saint-Amour, Juliénas, Chénas, Moulin-à-Vent, Fleurie, Chiroubles, Morgon, Régnié, Brouilly, Côte de Brouilly. Moulin-à-Vent and Morgon are the most structured and age-worthy.</p>`,
+<p>Gamay on granite. Most is carbonic or semi-carbonic. <b>Beaujolais Nouveau</b> is released the third Thursday of November. The 10 <b>crus</b>, north to south: Saint-Amour, Juliénas, Chénas, Moulin-à-Vent, Fleurie, Chiroubles, Morgon, Régnié, Brouilly, Côte de Brouilly. Moulin-à-Vent and Morgon are the most structured and age-worthy.</p>
+<h3>A thousand years in eight dates</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>910</td><td>The Benedictines found the abbey of Cluny in the Mâconnais</td></tr>
+<tr><td>1098</td><td>The Cistercians found Cîteaux. They go on to wall in the Clos de Vougeot and map the slope plot by plot</td></tr>
+<tr><td>1395</td><td>Duke Philip the Bold orders the "disloyal" Gamay pulled out of the Côte d'Or in favor of Pinot Noir</td></tr>
+<tr><td>1443</td><td>Nicolas Rolin founds the Hospices de Beaune</td></tr>
+<tr><td>1790s</td><td>The Revolution seizes and sells the Church's vineyards</td></tr>
+<tr><td>1855</td><td>Dr. Jules Lavalle publishes a ranking of the Côte d'Or's vineyards, the basis of today's hierarchy</td></tr>
+<tr><td>1936</td><td>The first Burgundy AOCs</td></tr>
+<tr><td>2015</td><td>The climats become a UNESCO World Heritage Site</td></tr></table>
+<h3>Burgundy by the numbers</h3>
+<ul><li>About 60% of production is white, under 30% red, and the rest Crémant.</li>
+<li>Chardonnay is about half of plantings and Pinot Noir about 40%; Aligoté and Gamay share the remainder.</li>
+<li>Regional wines are about half of all Burgundy, village wines over a third, Premiers Crus about a tenth, Grands Crus between 1 and 2%.</li>
+<li>The Côte d'Or itself is a single east-facing slope about 30 miles long and seldom more than a mile wide.</li></ul>
+<h3>The wines in the glass</h3>
+<table class="t"><tr><th>Wine</th><th>Markers</th></tr>
+<tr><td>Chablis</td><td>Green apple, lemon, oyster shell; high acid, no new oak</td></tr>
+<tr><td>Meursault</td><td>Broad and nutty: hazelnut, butter, ripe orchard fruit</td></tr>
+<tr><td>Puligny-Montrachet</td><td>Tighter, floral, steely; the most precise of the three</td></tr>
+<tr><td>Chassagne-Montrachet</td><td>Between the two: fuller than Puligny, firmer than Meursault</td></tr>
+<tr><td>Mâcon, Pouilly-Fuissé</td><td>Riper, rounder, melon and peach</td></tr>
+<tr><td>Gevrey-Chambertin</td><td>Dark fruit, earth, firm structure</td></tr>
+<tr><td>Chambolle-Musigny</td><td>Red fruit, violets, silk</td></tr>
+<tr><td>Vosne-Romanée</td><td>Spice, depth and perfume together</td></tr>
+<tr><td>Volnay</td><td>The most delicate red of the Côte de Beaune</td></tr>
+<tr><td>Pommard</td><td>Its firm, tannic neighbor</td></tr>
+<tr><td>Beaujolais crus</td><td>Fleurie floral, Morgon dense and cherry-stone, Moulin-à-Vent the most tannic</td></tr></table>
+<h3>Who made the bottle</h3>
+<ul><li>A <b>domaine</b> farms its own vines. The great <b>négociant</b> houses (Jadot, Drouhin, Bouchard, Faiveley, Latour) own vineyards and also buy fruit.</li>
+<li>A <b>micro-négociant</b> buys small lots of grapes and makes them like a domaine. Many of the newest names started this way because land is too costly to buy.</li>
+<li>Read the label in this order: producer first, then vineyard, then vintage.</li></ul>
+<h3>Serving and pairing</h3>
+<ul><li>Red Burgundy at 60 to 63°F in a wide-bowled glass. Old bottles are fragile: pour gently and decant only for sediment.</li>
+<li>White Burgundy at 52 to 55°F. Too cold and a Meursault tastes of nothing.</li>
+<li>Beaujolais slightly chilled.</li></ul>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Chablis, Aligoté</td><td>Oysters, escargots, jambon persillé</td></tr>
+<tr><td>Meursault, Puligny</td><td>Roast chicken, lobster, veal in cream</td></tr>
+<tr><td>Red Côte de Nuits</td><td>Bœuf bourguignon, coq au vin, duck, mushrooms</td></tr>
+<tr><td>Beaujolais crus</td><td>Charcuterie, roast chicken, Thanksgiving turkey</td></tr></table>
+<p><b>Kir</b>, white wine with crème de cassis, is named for Canon Félix Kir, the mayor of Dijon who served it at every reception.</p>`,
 floor:`<p>CMS Certified examines Chardonnay from Chablis (no oak), Côte de Beaune (oak), and Mâconnais, and Pinot Noir from the Côte d'Or at Village/1er Cru. Benchmark producers: DRC, Leroy, Rousseau, Roumier, Comte Liger-Belair (reds); Coche-Dury, Leflaive, Roulot, Lafon (whites); Raveneau, Dauvissat (Chablis).</p>`,
 analyst:`<p>WSET wants the hierarchy explained and the "why" of site: slope, mid-slope Grands Crus (drainage, sun, limestone and marl), east/southeast exposure, the cold nights of a continental climate. Explain why Burgundy uses single varieties: one grape lets site speak.</p>`,
-terms:[["Climat","A named, delimited vineyard site in Burgundy."],["Monopole","Vineyard owned entirely by one producer."],["Négociant","Merchant who buys grapes or wine and bottles under their own name."],["Domaine","Estate that grows its own grapes."],["Clos","A walled vineyard."]],
+terms:[["Climat","A named, delimited vineyard site in Burgundy."],["Monopole","Vineyard owned entirely by one producer."],["Négociant","Merchant who buys grapes or wine and bottles under their own name."],["Domaine","Estate that grows its own grapes."],["Clos","A walled vineyard."],["Cîteaux","Cistercian mother abbey, founded in 1098; its monks mapped the Côte d'Or."],["Lavalle classification","Dr. Jules Lavalle's 1855 ranking of the Côte d'Or's vineyards."],["Micro-négociant","A small producer who buys grapes in tiny lots and makes them like a domaine."],["Kir","White wine with crème de cassis, named for a mayor of Dijon."]],
 quiz:[
 [1,"What does a Burgundy Grand Cru label usually show?","Only the vineyard name",["Village and vineyard","Only the village","Château name"],"E.g., 'Chambertin' or 'Montrachet'."],
 [1,"Which Côte d'Or village has no Grand Cru?","Meursault",["Gevrey-Chambertin","Vosne-Romanée","Puligny-Montrachet"],"Meursault's best are Premiers Crus. Nuits-Saint-Georges also has none."],
@@ -76,7 +118,14 @@ quiz:[
 [2,"Which Beaujolais cru is typically most structured and age-worthy?","Moulin-à-Vent",["Chiroubles","Régnié","Saint-Amour"],"Morgon (Côte du Py) is the other."],
 [2,"Kimmeridgian soil is associated with:","Chablis",["Pomerol","Beaujolais","Côte-Rôtie"],"Marl with fossil oysters, shared with Sancerre."],
 [2,"Why is Burgundy's vineyard ownership so fragmented?","Revolution-era land sales, then Napoleonic inheritance law",["Monastic orders divided their vineyards among lay brothers","Phylloxera forced growers to sell off small parcels","The 1855 Classification broke up the largest estates"],"Clos de Vougeot has around 80 owners."],
-[3,"Bouzeron AOC is dedicated to which grape?","Aligoté",["Chardonnay","Pinot Noir","Gamay"],"In the Côte Chalonnaise."]
+[3,"Bouzeron AOC is dedicated to which grape?","Aligoté",["Chardonnay","Pinot Noir","Gamay"],"In the Côte Chalonnaise."],
+[2,"In 1395 Duke Philip the Bold ordered which grape pulled out of the Côte d'Or?","Gamay",["Aligoté","Melon","César"],"He called it 'disloyal' and favored Pinot Noir."],
+[2,"Which abbey, founded in 1098, walled in the Clos de Vougeot?","Cîteaux",["Cluny","Clairvaux","Fontenay"],"The mother house of the Cistercians."],
+[2,"Roughly what share of Burgundy's production is white wine?","About 60%",["About 15%","About 35%","About 90%"],"Chablis and the Mâconnais make it mostly a white-wine region."],
+[2,"Compared with Meursault, Puligny-Montrachet is usually:","Tighter, more floral and steely",["Broader, nuttier and far richer","Sweeter and lower in acidity","Lighter and entirely unoaked"],"Meursault is the broad, nutty one."],
+[2,"Kir is named after:","A mayor of Dijon",["A village near Mâcon","A grape of the Yonne","A cellar tool"],"Canon Félix Kir."],
+[2,"Jambon persillé and escargots are classic partners for:","Chablis or Aligoté",["Pommard or Corton","Moulin-à-Vent","Marc de Bourgogne"],"High acidity and no new oak suit parsley, garlic and butter."],
+[3,"Dr. Lavalle's work of 1855 matters because it:","Ranked the vineyards before the AOCs",["Set the date for Beaujolais Nouveau","Banned négociants from buying grapes","Founded the Hospices de Beaune sale"],"Today's hierarchy follows it closely."]
 ]});
 
 L.push({id:"r3", unit:"R1", title:"Champagne", mins:16,
@@ -344,10 +393,46 @@ body:`
 <ul><li><b>Friuli:</b> Collio and Colli Orientali; aromatic whites (Friulano, Ribolla Gialla, Pinot Grigio, Sauvignon); the modern orange-wine movement (Gravner, Radikon); sweet Picolit and Ramandolo.</li>
 <li><b>Alto Adige (Südtirol):</b> German-speaking, bilingual labels, high mountain vineyards. Pinot Grigio, Gewürztraminer (named for Tramin village), Pinot Bianco, Lagrein, Schiava.</li>
 <li><b>Trentino:</b> Teroldego Rotaliano; <b>Trento DOC</b> traditional-method sparkling (Ferrari).</li>
-<li><b>Franciacorta DOCG</b> (Lombardy): Italy's top traditional-method sparkling; Chardonnay, Pinot Nero, Pinot Bianco; <b>Satèn</b> is a gentler, lower-pressure Blanc de Blancs style. Also Oltrepò Pavese.</li></ul>`,
+<li><b>Franciacorta DOCG</b> (Lombardy): Italy's top traditional-method sparkling; Chardonnay, Pinot Nero, Pinot Bianco; <b>Satèn</b> is a gentler, lower-pressure Blanc de Blancs style. Also Oltrepò Pavese.</li></ul>
+<h3>The grapes in the glass</h3>
+<table class="t"><tr><th>Grape</th><th>Markers</th></tr>
+<tr><td>Nebbiolo</td><td>Pale garnet with an orange rim; rose, tar, cherry, dried herbs; very high acid and tannin. Pale color with fierce tannin is the blind signature</td></tr>
+<tr><td>Barbera</td><td>Deep purple, sour cherry, very high acid, almost no tannin</td></tr>
+<tr><td>Dolcetto</td><td>Dark, soft, plum and almond; low acid, drink young</td></tr>
+<tr><td>Arneis</td><td>Pear, white flowers, almond; low acid</td></tr>
+<tr><td>Cortese (Gavi)</td><td>Lemon, green apple, mineral; crisp</td></tr>
+<tr><td>Moscato Bianco</td><td>Grape, peach, orange blossom; sweet, low alcohol</td></tr>
+<tr><td>Corvina blend</td><td>Sour cherry and bitter almond when fresh; raisin, chocolate and 15% or more as Amarone</td></tr>
+<tr><td>Garganega (Soave)</td><td>Almond, chamomile, lemon</td></tr>
+<tr><td>Glera (Prosecco)</td><td>Pear, white peach, light froth</td></tr>
+<tr><td>Friulano</td><td>Almond, herbs, a faint bitterness</td></tr>
+<tr><td>Lagrein, Teroldego</td><td>Dark, plummy mountain reds with fresh acidity</td></tr>
+<tr><td>Schiava</td><td>Pale, light, strawberry and almond</td></tr></table>
+<h3>Dates worth knowing</h3>
+<table class="t"><tr><th>Year</th><th>Event</th></tr>
+<tr><td>1840s</td><td>Dry Barolo takes shape under Count Cavour and the Marchesa Giulia Falletti. The House of Savoy drinks it</td></tr>
+<tr><td>1919</td><td>Alto Adige passes from Austria to Italy, which is why its labels are in two languages</td></tr>
+<tr><td>1930s to 1950s</td><td>Amarone appears: a Recioto that fermented all the way to dryness. Bolla sells the first commercial bottling in 1953</td></tr>
+<tr><td>1961</td><td>The first Franciacorta is bottled</td></tr>
+<tr><td>1960s and 70s</td><td>Angelo Gaja bottles single vineyards, brings in barriques and plants Cabernet in Barbaresco. He names that vineyard Darmagi: "what a pity", his father's reaction</td></tr>
+<tr><td>1986</td><td>The methanol scandal: wine adulterated with wood alcohol kills more than twenty people. Exports collapse and Italy rebuilds on quality</td></tr>
+<tr><td>2009</td><td>Prosecco is reformed. The grape is renamed Glera, the DOC is enlarged and the hills of Conegliano Valdobbiadene become DOCG</td></tr>
+<tr><td>2014, 2019</td><td>UNESCO lists the Langhe, Roero and Monferrato, then the Prosecco hills</td></tr></table>
+<h3>Serving and pairing</h3>
+<ul><li>Decant young Barolo and Barbaresco for an hour or more. Old bottles need care, not air.</li>
+<li>Amarone is 15 to 17%. Serve it at 60 to 64°F and in modest pours.</li>
+<li>Prosecco is made to drink within a year or two.</li></ul>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Barolo, Barbaresco</td><td>Braised beef, egg pasta with white truffle, aged cheese</td></tr>
+<tr><td>Barbera</td><td>Salumi, pizza, tomato sauces</td></tr>
+<tr><td>Dolcetto</td><td>Antipasti, everyday pasta</td></tr>
+<tr><td>Gavi, Soave</td><td>Seafood, risotto</td></tr>
+<tr><td>Amarone</td><td>Braised meats, Parmigiano Reggiano</td></tr>
+<tr><td>Moscato d'Asti</td><td>Panettone, hazelnut cake, fresh fruit</td></tr>
+<tr><td>Prosecco</td><td>Apéritif; the Bellini (white peach purée) and the Spritz</td></tr></table>`,
 floor:`<p>CMS Certified examines Nebbiolo (Barolo/Barbaresco) and Pinot Grigio (Friuli/Alto Adige) blind. Know producers: Giacomo Conterno (Monfortino), Bartolo Mascarello, Giuseppe Rinaldi, Vietti, Gaja, Bruno Giacosa. A CMS-style wine-list correction: "Barolo, Tuscany" is wrong; it's Piedmont.</p>`,
 analyst:`<p>WSET Level 3 names Barolo, Barbaresco, Barbera d'Asti, Gavi, Asti, Moscato d'Asti, Soave, Valpolicella (with Ripasso, Amarone, Recioto), Prosecco, Alto Adige and Friuli. Know how appassimento changes structure: higher alcohol, body and concentration; dried-fruit flavors.</p>`,
-terms:[["DOCG","Denominazione di Origine Controllata e Garantita, Italy's top category."],["Classico","Historic core zone of a denomination."],["Appassimento","Drying grapes before fermentation."],["Ripasso","Valpolicella re-fermented on Amarone pomace."],["MGA","Menzione Geografica Aggiuntiva; official named vineyards in Barolo and Barbaresco."],["Satèn","Gentle Franciacorta style, white grapes only."]],
+terms:[["DOCG","Denominazione di Origine Controllata e Garantita, Italy's top category."],["Classico","Historic core zone of a denomination."],["Appassimento","Drying grapes before fermentation."],["Ripasso","Valpolicella re-fermented on Amarone pomace."],["MGA","Menzione Geografica Aggiuntiva; official named vineyards in Barolo and Barbaresco."],["Satèn","Gentle Franciacorta style, white grapes only."],["Glera","The Prosecco grape, renamed in 2009."],["Darmagi","Gaja's Cabernet vineyard in Barbaresco; the name means 'what a pity'."],["Methanol scandal","1986 adulteration that killed more than twenty people and reset Italian wine."],["Bellini","Prosecco with white peach purée, created at Harry's Bar in Venice."]],
 quiz:[
 [1,"Barolo is made from:","100% Nebbiolo",["Sangiovese","Barbera blended with Nebbiolo","Dolcetto"],"Same for Barbaresco."],
 [2,"Minimum aging for Barolo (non-Riserva)?","38 months, 18 in wood",["26 months, 9 in wood","24 months, 12 in wood","62 months, 18 in wood"],"Riserva: 62 months."],
@@ -356,7 +441,15 @@ quiz:[
 [2,"Nebbiolo is called Chiavennasca in:","Valtellina",["Gattinara","Roero","Valpolicella"],"Lombardy's alpine terraces."],
 [1,"Gavi is made from:","Cortese",["Arneis","Garganega","Moscato"],"Lean, citrusy white."],
 [2,"What is Ripasso?","Valpolicella refermented on Amarone skins",["A sweet red made from dried grapes","A sparkling wine from Valpolicella","A dry rosé from the shores of Garda"],"Adds body, alcohol and dried-fruit notes."],
-[3,"Which Prosecco designation is a single steep hill at the top of the quality pyramid?","Cartizze",["Asolo","Treviso","Rive"],"Within Valdobbiadene."]
+[3,"Which Prosecco designation is a single steep hill at the top of the quality pyramid?","Cartizze",["Asolo","Treviso","Rive"],"Within Valdobbiadene."],
+[2,"Which pair of traits is the blind signature of Nebbiolo?","Pale color with very high tannin",["Deep color with very low tannin","Deep color with very low acid","Pale color with very low acid"],"Add high acidity, rose and tar."],
+[2,"The 1986 scandal that reset Italian wine involved:","Methanol",["Diethylene glycol","Lead acetate","Added water"],"Austria's 1985 scandal was the glycol one."],
+[2,"In 2009, Prosecco's grape was officially renamed:","Glera",["Garganega","Verduzzo","Bianchetta"],"So that Prosecco could be protected as a place name."],
+[2,"Gaja's Cabernet vineyard in Barbaresco is called Darmagi, meaning:","What a pity",["Thank heaven","My father's hill","Little meadow"],"His father's reaction to Cabernet replacing Nebbiolo."],
+[2,"Moscato d'Asti is a classic match for:","Panettone or hazelnut cake",["Braised beef with polenta","Raw oysters on the shell","Aged Parmigiano Reggiano"],"Sweet, light and low in alcohol."],
+[2,"Amarone began as:","A Recioto that fermented dry",["A fortified Valpolicella","A Ripasso aged ten years","A sparkling red of Verona"],"Its name comes from amaro, bitter."],
+[2,"Alto Adige belonged to which country until 1919?","Austria",["Switzerland","France","Slovenia"],"Hence the German names and bilingual labels."],
+[2,"Barbera is recognized by:","Very high acid and little tannin",["Low acid and massive tannin","Pale color and rose perfume","Sweetness and light froth"],"Deep color, sour cherry, and almost no grip."]
 ]});
 
 L.push({id:"r7", unit:"R2", title:"Italy: Tuscany, the Center and the South", mins:20,
@@ -380,10 +473,49 @@ body:`
 <li><b>Basilicata:</b> Aglianico del Vulture (volcanic).</li>
 <li><b>Puglia:</b> Primitivo di Manduria, Salice Salentino and Salento (Negroamaro), Castel del Monte (Nero di Troia).</li>
 <li><b>Sicily:</b> <b>Etna</b> (Nerello Mascalese reds, Carricante whites; vineyards up to about 1,000 m on an active volcano; its pale, perfumed reds are often compared to Burgundy), <b>Cerasuolo di Vittoria</b> (Sicily's only DOCG: Nero d'Avola + Frappato), <b>Marsala</b> (fortified), <b>Passito di Pantelleria</b> (Zibibbo/Muscat of Alexandria).</li>
-<li><b>Sardinia:</b> Cannonau (Grenache), Vermentino di Gallura DOCG, Carignano del Sulcis.</li></ul>`,
+<li><b>Sardinia:</b> Cannonau (Grenache), Vermentino di Gallura DOCG, Carignano del Sulcis.</li></ul>
+<h3>Sangiovese, zone by zone</h3>
+<table class="t"><tr><th>Wine</th><th>Markers</th></tr>
+<tr><td>Chianti Classico</td><td>Sour cherry, violet, dried herbs, tea; high acid, firm tannin, an orange rim early</td></tr>
+<tr><td>Brunello di Montalcino</td><td>Riper and fuller: black cherry, leather, tobacco; more tannin and alcohol</td></tr>
+<tr><td>Vino Nobile</td><td>Between the two: plum, earth, a softer frame</td></tr>
+<tr><td>Morellino di Scansano</td><td>Coastal: rounder, juicier, earlier to drink</td></tr></table>
+<p>Sangiovese and tomato belong together because both are high in acid. A low-acid wine tastes flat against tomato sauce.</p>
+<h3>The other grapes to know</h3>
+<table class="t"><tr><th>Grape</th><th>Markers</th></tr>
+<tr><td>Montepulciano</td><td>Deep color, black cherry, soft tannin; easy and generous</td></tr>
+<tr><td>Sagrantino</td><td>Among the most tannic of all; blackberry, needs years</td></tr>
+<tr><td>Aglianico</td><td>Dark, smoky, high in acid and tannin: "the Barolo of the south"</td></tr>
+<tr><td>Primitivo</td><td>Jammy, raisined, high alcohol. It is Zinfandel</td></tr>
+<tr><td>Negroamaro</td><td>Dark fruit, a bitter edge, soft</td></tr>
+<tr><td>Nero d'Avola</td><td>Black plum, licorice, generous</td></tr>
+<tr><td>Nerello Mascalese</td><td>Pale, red-fruited, smoky and tannic: Etna's answer to Pinot Noir and Nebbiolo</td></tr>
+<tr><td>Cannonau</td><td>Grenache: warm, spicy, strawberry</td></tr>
+<tr><td>Verdicchio</td><td>Lemon, almond, a salty, bitter finish; ages well</td></tr>
+<tr><td>Fiano</td><td>Honey, hazelnut, texture</td></tr>
+<tr><td>Greco</td><td>Peach, firm acid, a mineral grip</td></tr>
+<tr><td>Vermentino</td><td>Citrus, herbs, saline</td></tr></table>
+<h3>How Tuscany changed</h3>
+<ul><li>Until the 1960s most Tuscan farms ran on <b>mezzadria</b>, sharecropping: tenants gave half the crop to the landowner and vines grew among olives and wheat. When it ended, estates were sold and replanted as specialist vineyards.</li>
+<li>For a generation Chianti meant thin wine in a straw-covered <b>fiasco</b>.</li>
+<li><b>Sassicaia</b> (first sold in 1968) and <b>Tignanello</b> (1971) showed what the land could do. In 1978 the 1972 Sassicaia won a Decanter tasting of the world's Cabernets.</li>
+<li>From the late 1980s the Chianti Classico 2000 project identified better clones of Sangiovese, and quality rose sharply.</li></ul>
+<h3>The south's long road back</h3>
+<ul><li>The Greeks called southern Italy <b>Enotria</b>, the land of wine.</li>
+<li>For most of the twentieth century its strong, dark wine went north in tankers to bolster blends in northern Italy and France.</li>
+<li>The revival came estate by estate: Mastroberardino in Campania, Planeta in Sicily in the 1990s, and the rush to Etna's old vines after 2000.</li></ul>
+<h3>At the table</h3>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Chianti Classico Riserva, Brunello</td><td>Bistecca alla fiorentina, wild boar ragù</td></tr>
+<tr><td>Vernaccia, Vermentino</td><td>Seafood, bottarga</td></tr>
+<tr><td>Montepulciano d'Abruzzo</td><td>Grilled lamb skewers</td></tr>
+<tr><td>Fiano, Greco</td><td>Buffalo mozzarella, shellfish</td></tr>
+<tr><td>Aglianico</td><td>Braised meats, aged pecorino</td></tr>
+<tr><td>Etna Rosso</td><td>Pasta alla Norma, grilled tuna</td></tr>
+<tr><td>Vin Santo</td><td>Cantucci, the almond biscuits dipped in it</td></tr></table>`,
 floor:`<p>CMS Certified examines Sangiovese from Brunello and Chianti Classico. A real CMS Certified question pair: Introductory asks which region Chianti Classico is in (Tuscany); Certified asks "Rùfina, Colli Senesi and Colli Fiorentini are subzones of ___ DOCG" (Chianti). Producers: Biondi-Santi, Soldera, Poggio di Sotto (Brunello); Fontodi, Felsina, Montevertine, Castello di Ama (Chianti Classico area).</p>`,
 analyst:`<p>WSET Level 3 names Chianti, Chianti Classico, Brunello and Vino Nobile, Bolgheri, Maremma, Montepulciano d'Abruzzo, Verdicchio, Taurasi, Fiano di Avellino, Greco di Tufo, Primitivo di Manduria, Salice Salentino, Etna and Sicilia DOC. Explain Super Tuscans as a story about law versus quality.</p>`,
-terms:[["Gallo Nero","Black rooster symbol of Chianti Classico."],["Gran Selezione","Top Chianti Classico tier (2014), estate-grown."],["Super Tuscan","Rule-breaking premium Tuscan wine, often with international grapes, originally sold as table wine."],["UGA","Unità Geografiche Aggiuntive: village sub-zones of Chianti Classico."],["Prugnolo Gentile","Local name for Sangiovese in Montepulciano."]],
+terms:[["Gallo Nero","Black rooster symbol of Chianti Classico."],["Gran Selezione","Top Chianti Classico tier (2014), estate-grown."],["Super Tuscan","Rule-breaking premium Tuscan wine, often with international grapes, originally sold as table wine."],["UGA","Unità Geografiche Aggiuntive: village sub-zones of Chianti Classico."],["Prugnolo Gentile","Local name for Sangiovese in Montepulciano."],["Mezzadria","Tuscan sharecropping, ended in the 1960s."],["Fiasco","The straw-covered Chianti flask."],["Enotria","Ancient Greek name for southern Italy: the land of wine."],["Chianti Classico 2000","Research project that selected better Sangiovese clones."]],
 quiz:[
 [1,"Chianti Classico DOCG is located in:","Tuscany",["Veneto","Piedmont","Sicily"],"Official CMS Introductory sample question."],
 [2,"Rùfina, Colli Senesi and Colli Fiorentini are subzones of:","Chianti DOCG",["Chianti Classico DOCG","Brunello di Montalcino","Vino Nobile"],"Official CMS Certified sample question."],
@@ -392,5 +524,13 @@ quiz:[
 [2,"Which wine is often credited as the first Super Tuscan from Bolgheri?","Sassicaia",["Tignanello","Ornellaia","Solaia"],"Cabernet-based, Tenuta San Guido; own DOC since 2013."],
 [2,"Sicily's only DOCG is:","Cerasuolo di Vittoria",["Etna Rosso Riserva","Marsala Superiore","Passito di Pantelleria"],"Nero d'Avola with Frappato."],
 [2,"Taurasi and Aglianico del Vulture share which grape?","Aglianico",["Primitivo","Negroamaro","Nerello Mascalese"],"High acid, high tannin, age-worthy."],
-[3,"Gran Selezione was created in:","2014",["1992","2006","1984"],"Chianti Classico's top tier."]
+[3,"Gran Selezione was created in:","2014",["1992","2006","1984"],"Chianti Classico's top tier."],
+[2,"Which wine won a 1978 Decanter tasting of the world's Cabernets?","Sassicaia 1972",["Tignanello 1971","Ornellaia 1985","Solaia 1978"],"It made the Super Tuscans famous abroad."],
+[2,"Why does Sangiovese suit tomato-based dishes?","Its high acidity matches the tomato's",["Its sweetness balances the salt","Its low tannin flatters the garlic","Its new oak covers the herbs"],"A low-acid wine tastes flat beside tomato."],
+[2,"Cantucci biscuits are traditionally dipped in:","Vin Santo",["Marsala","Brunello","Limoncello"],"Tuscany's dried-grape dessert wine."],
+[2,"Aglianico is often called:","The Barolo of the south",["The Pinot Noir of Sicily","The Merlot of Naples","The Gamay of Puglia"],"Dark, smoky, and high in acid and tannin."],
+[2,"The mezzadria system, which ended in the 1960s, was:","Sharecropping on Tuscan farms",["A method of drying grapes","A tax on exported wine","A blend of red and white grapes"],"Tenants gave half the crop to the landowner."],
+[2,"Bistecca alla fiorentina is the classic match for:","Chianti Classico Riserva",["Vernaccia di San Gimignano","Passito di Pantelleria","Frascati Superiore"],"Tannin and acid for a thick grilled steak."],
+[2,"Compared with Chianti Classico, Brunello di Montalcino is generally:","Riper, fuller and more tannic",["Lighter and much higher in acid","Paler and lower in alcohol","Sweeter and lightly sparkling"],"Montalcino is warmer and drier."],
+[2,"The ancient Greek name Enotria for southern Italy means:","The land of wine",["The land of fire","The land of olives","The land of kings"],"It reflects how early vines were grown there."]
 ]});

@@ -96,10 +96,42 @@ body:`
 <h3>Mistelles and their cousins</h3>
 <p>A <b>mistelle</b> (vin de liqueur) is grape juice fortified before fermentation even begins: <b>Pineau des Charentes</b> (with Cognac), <b>Floc de Gascogne</b> (with Armagnac), <b>Macvin du Jura</b> (with Marc du Jura), <b>Ratafia de Champagne</b>.</p>
 <h3>Blind-tasting fortified wines</h3>
-<p>Muscat VDN: grapey, floral, fresh, medium-sweet, about 15%. Grenat Banyuls: red fruit, chocolate, sweet, soft tannin; often mistaken for Ruby Port but lower in alcohol and tannin. Rancio styles: nuts, spice, high acidity. Rutherglen: nearly black, syrupy, raisin and coffee. Marsala Vergine: dry, nutty, oxidative, like an Amontillado with more heat.</p>`,
+<p>Muscat VDN: grapey, floral, fresh, medium-sweet, about 15%. Grenat Banyuls: red fruit, chocolate, sweet, soft tannin; often mistaken for Ruby Port but lower in alcohol and tannin. Rancio styles: nuts, spice, high acidity. Rutherglen: nearly black, syrupy, raisin and coffee. Marsala Vergine: dry, nutty, oxidative, like an Amontillado with more heat.</p>
+<h3>Where mutage came from</h3>
+<p>The method is credited to <b>Arnau de Vilanova</b>, a physician at the court of Majorca, who in about 1285 described stopping a fermentation with spirit. Roussillon has made wine this way ever since, and today produces most of France's VDN.</p>
+<h3>Reading a Roussillon label</h3>
+<table class="t"><tr><th>Term</th><th>Meaning</th></tr>
+<tr><td>Grenat, Rimage</td><td>Red grapes, bottled young and kept from air: fresh red fruit</td></tr>
+<tr><td>Tuilé</td><td>Red grapes, aged with air: brick-colored, nuts and dried fruit</td></tr>
+<tr><td>Ambré</td><td>White grapes, aged with air: amber, orange peel, honey</td></tr>
+<tr><td>Hors d'âge</td><td>At least five years of aging</td></tr>
+<tr><td>Rancio</td><td>Long oxidative aging, with the walnut and curry note that results</td></tr></table>
+<ul><li><b>Banyuls</b> and <b>Collioure</b> come from the same steep schist terraces above the sea. Banyuls is the fortified wine; Collioure is the dry one.</li>
+<li><b>Maury</b> has had a dry version, Maury Sec, since 2011.</li></ul>
+<h3>New World names</h3>
+<ul><li><b>Apera:</b> Australia's name for its Sherry-style wines since 2010, when it agreed to give up European place names. "Tokay" became Topaque at the same time.</li>
+<li><b>Cape Ruby, Cape Tawny, Cape Vintage:</b> South Africa's Port styles.</li>
+<li><b>Jerepigo:</b> a South African mistelle, spirit added to unfermented must. <b>Muscadel</b> is its fortified Muscat.</li>
+<li><b>Angelica:</b> California's oldest wine style, a mistelle of Mission grapes first made at the Franciscan missions.</li>
+<li>American producers who used "Port" and "Sherry" before 2006 may keep those names on domestic labels.</li></ul>
+<h3>When the spirit goes in</h3>
+<table class="t"><tr><th>Timing</th><th>Result</th><th>Examples</th></tr>
+<tr><td>Before fermentation</td><td>All the grape sugar remains; no fermentation flavors</td><td>Pineau des Charentes, Jerepigo, Angelica</td></tr>
+<tr><td>During fermentation</td><td>Sweet, with some fermented character</td><td>Port, VDN, Rutherglen Muscat, Malmsey</td></tr>
+<tr><td>After fermentation</td><td>Dry, unless sweetened later</td><td>Sherry, Marsala Vergine, Sercial</td></tr></table>
+<h3>Serving, pairing and keeping</h3>
+<table class="t"><tr><th>Wine</th><th>Serve</th><th>With</th></tr>
+<tr><td>Muscat VDN</td><td>Well chilled, young</td><td>Fruit tarts, melon, foie gras, Roquefort</td></tr>
+<tr><td>Banyuls or Maury Grenat</td><td>Cool, 57 to 61°F</td><td>Dark chocolate, cherries</td></tr>
+<tr><td>Rivesaltes Ambré</td><td>Cool</td><td>Crème catalane, nuts, hard cheese</td></tr>
+<tr><td>Marsala Vergine</td><td>Lightly chilled</td><td>Apéritif, aged cheese, bottarga</td></tr>
+<tr><td>Moscatel de Setúbal</td><td>Cool</td><td>Orange and almond desserts</td></tr>
+<tr><td>Pineau des Charentes</td><td>Cold</td><td>Apéritif, melon, blue cheese</td></tr></table>
+<ul><li>Fresh styles (Muscat, Grenat) fade within a week or two of opening.</li>
+<li>Oxidative styles (Tuilé, Ambré, Rancio, Rutherglen, Marsala) last for months, because air has already done its work.</li></ul>`,
 floor:`<p>Banyuls is the classic chocolate pairing; Muscat de Beaumes-de-Venise with fruit tarts; Rutherglen Muscat with sticky toffee pudding; Marsala Vergine as an apéritif with Parmigiano.</p>`,
 analyst:`<p>D5 covers VDNs, Rutherglen and Marsala alongside Port, Sherry and Madeira. Explain mutage timing and the difference between reductive and oxidative fortified styles.</p>`,
-terms:[["Mutage","Adding spirit during fermentation to stop it."],["Rancio","Nutty, oxidative character from long aging in warm conditions."],["Grenat / Rimage","Young, reductive Grenache VDN styles bottled early."],["Topaque","Australian fortified Muscadelle."],["Mistelle","Grape juice fortified before fermentation."],["Bonbonne","Glass demijohn used to age VDNs outdoors."]],
+terms:[["Mutage","Adding spirit during fermentation to stop it."],["Rancio","Nutty, oxidative character from long aging in warm conditions."],["Grenat / Rimage","Young, reductive Grenache VDN styles bottled early."],["Topaque","Australian fortified Muscadelle."],["Mistelle","Grape juice fortified before fermentation."],["Bonbonne","Glass demijohn used to age VDNs outdoors."],["Apera","Australia's name for Sherry-style wine since 2010."],["Jerepigo","South African mistelle: spirit added to unfermented must."],["Angelica","California mistelle of Mission grapes, dating from the missions."],["Ambré","Oxidatively aged VDN from white grapes."],["Tuilé","Oxidatively aged VDN from red grapes."],["Collioure","Dry wine from the same vineyards as Banyuls."]],
 quiz:[
 [2,"Banyuls Grand Cru requires at least how long in wood?","30 months",["6 months","12 months","10 years"],"Grenache-based VDN."],
 [2,"Rutherglen's top classification tier is:","Rare",["Grand","Classic","Superiore"],"Rare averages 20 years or more; below it sit Grand (11-19), Classic (6-10) and Rutherglen (3-5)."],
@@ -107,7 +139,15 @@ quiz:[
 [2,"Marsala Vergine is:","Dry, unsweetened, aged 5+ years",["Sweet, young and deep amber","Red, sweet and aged one year","Unfortified and lightly sparkling"],"Aged in perpetuum systems."],
 [3,"Who popularized Marsala in 1773?","John Woodhouse",["Benjamin Ingham","Vincenzo Florio","Marco De Bartoli"],"English merchant."],
 [2,"Topaque is the Australian name for fortified:","Muscadelle",["Muscat","Sémillon","Grenache"],"Formerly called 'Tokay'."],
-[3,"Rimage on a Banyuls label signals:","A young, reductive, fruit-forward vintage style",["Long oxidative aging in glass bonbonnes","A dry, unfortified red from old vines","A white VDN from Grenache Blanc and Gris"],"Bottled early."]
+[3,"Rimage on a Banyuls label signals:","A young, reductive, fruit-forward vintage style",["Long oxidative aging in glass bonbonnes","A dry, unfortified red from old vines","A white VDN from Grenache Blanc and Gris"],"Bottled early."],
+[2,"Who is credited with describing mutage in about 1285?","Arnau de Vilanova",["John Woodhouse","The Marquis of Pombal","Dom Pierre Pérignon"],"A physician at the court of Majorca."],
+[2,"Since 2010, Australian Sherry-style wine has been labeled:","Apera",["Topaque","Tawny","Jerepigo"],"Topaque replaced 'Tokay' at the same time."],
+[2,"Rivesaltes Ambré is made from:","White grapes, aged with air",["Red grapes, bottled young","Muscat, kept fresh and pale","Dried grapes, left unfortified"],"Tuilé is the oxidative style from red grapes."],
+[2,"South Africa's Jerepigo is:","Unfermented must with added spirit",["A dry wine aged under flor yeast","A sparkling Muscat from Robertson","A Port-style wine aged ten years"],"A mistelle, like Pineau des Charentes."],
+[2,"Banyuls and Collioure share the same vineyards. Collioure is:","The dry, unfortified wine",["The older oxidative style","The white-only appellation","The sparkling version"],"Banyuls is the fortified one."],
+[2,"A Muscat VDN such as Beaumes-de-Venise is best served:","Well chilled and young",["Warm, after long decanting","At room temperature","After ten years in bottle"],"Its appeal is fresh grape and flower aromas."],
+[2,"Angelica, California's oldest wine style, is:","A mistelle of Mission grapes",["A dry sparkling Zinfandel","A late-harvest Riesling","A fortified Cabernet"],"First made at the Franciscan missions."],
+[2,"Which style lasts longest once the bottle is open?","Rivesaltes Ambré",["Muscat de Rivesaltes","Banyuls Rimage","Maury Grenat"],"Oxidative wines have already met the air."]
 ]});
 
 L.push({id:"biz1", unit:"S1", title:"Deep Dive: The Global Wine Business", mins:18,

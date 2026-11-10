@@ -194,10 +194,47 @@ body:`
 <li><b>Alentejo:</b> hot, ripe, Aragonez (Tempranillo), Trincadeira, Alicante Bouschet.</li>
 <li><b>Colares:</b> ungrafted Ramisco in sand dunes near Lisbon.</li></ul>
 <h3>Madeira</h3>
-<p>A volcanic Atlantic island. Legend says wines shipped through the tropics returned better, so producers learned to recreate the voyage with heat. <b>Estufagem</b> heats wine in tanks for at least 3 months; <b>canteiro</b> ages casks in warm attics for years (the best wines). The four noble grapes name the styles, driest to sweetest: <b>Sercial, Verdelho, Bual (Boal), Malmsey (Malvasia)</b>. <b>Tinta Negra</b> is the workhorse. Age categories: 5, 10, 15, 20, 30, 40, 50 years; <b>Colheita</b> (single vintage, 5+ years); <b>Frasqueira/Garrafeira</b> (vintage, at least 20 years in cask). Famous for high acidity balancing sweetness, and for lasting months after opening and centuries in bottle.</p>`,
+<p>A volcanic Atlantic island. Legend says wines shipped through the tropics returned better, so producers learned to recreate the voyage with heat. <b>Estufagem</b> heats wine in tanks for at least 3 months; <b>canteiro</b> ages casks in warm attics for years (the best wines). The four noble grapes name the styles, driest to sweetest: <b>Sercial, Verdelho, Bual (Boal), Malmsey (Malvasia)</b>. <b>Tinta Negra</b> is the workhorse. Age categories: 5, 10, 15, 20, 30, 40, 50 years; <b>Colheita</b> (single vintage, 5+ years); <b>Frasqueira/Garrafeira</b> (vintage, at least 20 years in cask). Famous for high acidity balancing sweetness, and for lasting months after opening and centuries in bottle.</p>
+<h3>Portugal's grapes in the glass</h3>
+<p>Portugal has about 250 native varieties and kept them. Old vineyards are often field blends of thirty or more grapes picked together.</p>
+<table class="t"><tr><th>Grape</th><th>Markers</th></tr>
+<tr><td>Touriga Nacional</td><td>Violet, bergamot, black fruit; firm tannin</td></tr>
+<tr><td>Touriga Franca</td><td>Softer, floral, red-fruited</td></tr>
+<tr><td>Baga</td><td>High acid and tannin, red cherry, tobacco; often compared to Nebbiolo</td></tr>
+<tr><td>Alvarinho</td><td>Peach, citrus, more body than other Vinho Verde</td></tr>
+<tr><td>Loureiro</td><td>Bay leaf, lime, white flowers; light</td></tr>
+<tr><td>Arinto</td><td>Lemon and green apple; it keeps its acidity even in great heat</td></tr>
+<tr><td>Antão Vaz</td><td>Ripe, tropical, full; the Alentejo's white</td></tr></table>
+<p><b>Same grape, other name:</b> Tinta Roriz and Aragonez are Tempranillo. Jaen is Mencía. Alvarinho is Albariño. Fernão Pires is also called Maria Gomes.</p>
+<h3>Label words</h3>
+<ul><li><b>Quinta:</b> an estate. <b>Vinhas velhas:</b> old vines.</li>
+<li><b>Colheita:</b> on a table wine it simply means vintage. On Port and Madeira it is a specific aged style.</li>
+<li><b>Reserva:</b> a wine that passed a tasting panel with at least half a degree more alcohol than the minimum.</li>
+<li><b>Branco, tinto, rosado; seco, doce.</b> <b>Espumante</b> is sparkling.</li></ul>
+<h3>Serving Port and Madeira</h3>
+<table class="t"><tr><th>Wine</th><th>Serve</th><th>Once opened</th></tr>
+<tr><td>Vintage Port</td><td>60 to 64°F, decanted off its sediment</td><td>Two or three days</td></tr>
+<tr><td>LBV, Ruby Reserve</td><td>60 to 64°F</td><td>A few weeks</td></tr>
+<tr><td>Aged Tawny, Colheita</td><td>Lightly chilled, 54 to 57°F</td><td>A month or two</td></tr>
+<tr><td>White Port</td><td>Cold, with tonic and lemon</td><td>A few weeks</td></tr>
+<tr><td>Madeira</td><td>Sercial cool; Malmsey at cellar temperature</td><td>Many months; it is already oxidized and heated</td></tr></table>
+<h3>At the table</h3>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Vinho Verde</td><td>Grilled sardines, shellfish</td></tr>
+<tr><td>Douro red</td><td>Roast kid, grilled beef</td></tr>
+<tr><td>Bairrada Baga</td><td>Leitão, the local roast suckling pig</td></tr>
+<tr><td>Vintage Port</td><td>Stilton, walnuts</td></tr>
+<tr><td>Aged Tawny</td><td>Crème brûlée, almond tart, pastel de nata</td></tr>
+<tr><td>Sercial Madeira</td><td>Consommé and clear soups</td></tr>
+<tr><td>Malmsey Madeira</td><td>Chocolate and coffee desserts</td></tr></table>
+<h3>Madeira, cork and a few dates</h3>
+<ul><li>Madeira was the wine of colonial America. By tradition the signing of the Declaration of Independence in 1776 was toasted with it.</li>
+<li>Powdery mildew in 1851 and phylloxera in 1872 wrecked the island's vineyards, and the trade never regained its old size.</li>
+<li>The Douro has been a UNESCO World Heritage Site since 2001.</li>
+<li><b>Cork.</b> Portugal makes about half the world's cork, mostly from the oak forests of the Alentejo. A tree is first stripped at about 25 years old and then every <b>nine years</b>, and it can live for two centuries.</li></ul>`,
 floor:`<p>Vintage Port service: stand the bottle upright a day ahead, decant off its heavy crust, traditionally pass to the left. Very old bottles may need <b>Port tongs</b> (heated tongs that snap the neck). Tawny and Madeira are served slightly cool (55-62°F) and keep well open. Pair Vintage Port with Stilton.</p>`,
 analyst:`<p>WSET Level 3 covers Port (Ruby, Reserve, LBV, Vintage, Tawny, aged Tawny, Colheita) and how each is made. WSET sample MCQ: "Which grape is not used for Port?" Ugni Blanc. Madeira is Diploma D5 material.</p>`,
-terms:[["Aguardente","Grape spirit (~77%) used to fortify Port."],["Lagar","Shallow stone trough for foot treading."],["LBV","Late Bottled Vintage Port; one year, 4-6 years in wood."],["Colheita","Single-vintage tawny Port (7+ years in wood) or Madeira (5+ years)."],["Canteiro","Slow cask aging of Madeira in warm lofts."],["Quinta","Estate (Portugal)."]],
+terms:[["Aguardente","Grape spirit (~77%) used to fortify Port."],["Lagar","Shallow stone trough for foot treading."],["LBV","Late Bottled Vintage Port; one year, 4-6 years in wood."],["Colheita","Single-vintage tawny Port (7+ years in wood) or Madeira (5+ years)."],["Canteiro","Slow cask aging of Madeira in warm lofts."],["Quinta","Estate (Portugal)."],["Vinhas velhas","Old vines, often a field blend of many varieties."],["Jaen","Portuguese name for Mencía."],["Field blend","Many grape varieties planted and picked together in one vineyard."],["Leitão","Bairrada's roast suckling pig, the classic match for Baga."]],
 quiz:[
 [1,"Which grape is not used for Port?","Ugni Blanc",["Touriga Nacional","Touriga Franca","Tinta Roriz"],"Official WSET Level 3 sample question."],
 [2,"LBV Port spends how long in wood?","4-6 years",["2 years","10 years","20 years minimum"],"Then bottled ready to drink (if filtered)."],
@@ -206,7 +243,15 @@ quiz:[
 [2,"Port's soil and terraces are mainly:","Schist",["Granite","Limestone","Sand"],"Fractures let roots dig deep for water."],
 [2,"Which Douro subregion is hottest and driest?","Douro Superior",["Baixo Corgo","Cima Corgo","Dão"],"Furthest east, toward Spain."],
 [2,"Vinho Verde's best Alvarinho comes from:","Monção e Melgaço",["Dão","Bairrada","Alentejo"],"Just across the river from Rías Baixas."],
-[3,"Frasqueira Madeira must spend at least how long in cask?","20 years",["5 years","10 years","50 years"],"From a single vintage and noble variety."]
+[3,"Frasqueira Madeira must spend at least how long in cask?","20 years",["5 years","10 years","50 years"],"From a single vintage and noble variety."],
+[2,"Jaen in the Dão is the same grape as Spain's:","Mencía",["Monastrell","Garnacha","Graciano"],"Tinta Roriz and Aragonez are Tempranillo."],
+[2,"A cork oak's bark may be harvested about every:","Nine years",["Two years","Twenty years","Fifty years"],"The first harvest comes when the tree is about 25."],
+[2,"By tradition, the signing of the Declaration of Independence was toasted with:","Madeira",["Port","Claret","Sherry"],"It was the favorite wine of colonial America."],
+[2,"Baga from Bairrada is often compared to:","Nebbiolo",["Gamay","Merlot","Zinfandel"],"High acid, high tannin and a long life."],
+[2,"Once opened, which should be finished within two or three days?","Vintage Port",["A 20 Year Old Tawny","Malmsey Madeira","Sercial Madeira"],"It has spent its life protected from air."],
+[2,"Arinto is prized in hot regions because it:","Keeps its acidity in the heat",["Ripens to very high sugar","Has thick, deeply colored skins","Survives without grafting"],"It is used across Portugal to freshen blends."],
+[2,"Sercial Madeira is the traditional partner for:","Consommé and clear soups",["Chocolate and coffee desserts","Stilton and walnuts","Roast suckling pig"],"It is the driest of the four noble styles."],
+[2,"Leitão, roast suckling pig, is the regional match for:","Bairrada Baga",["Vinho Verde","White Port","Moscatel de Setúbal"],"Acid and tannin cut the fat; sparkling Bairrada works too."]
 ]});
 
 L.push({id:"r11", unit:"R4", title:"Germany", mins:20,
@@ -309,10 +354,40 @@ body:`
 <ul><li><b>Santorini</b>: <b>Assyrtiko</b> on volcanic ash and pumice, ungrafted (phylloxera can't survive here), trained as low baskets (<i>kouloura</i>) against the wind. Bone-dry, very high acid, flinty and saline. <b>Vinsanto</b> from sun-dried Assyrtiko.</li>
 <li><b>Naoussa</b> (Macedonia): <b>Xinomavro</b> ("sour-black"): pale, tannic, high acid, tomato and olive. Often compared to Nebbiolo.</li>
 <li><b>Nemea</b> (Peloponnese): <b>Agiorgitiko</b>, soft and plummy.</li>
-<li>Also Moschofilero (Mantinia), Malagousia, and <b>Retsina</b> (white resinated with Aleppo pine).</li></ul>`,
+<li>Also Moschofilero (Mantinia), Malagousia, and <b>Retsina</b> (white resinated with Aleppo pine).</li></ul>
+<h3>Tokaj: why it works</h3>
+<ul><li>The region sits where the <b>Bodrog</b> meets the <b>Tisza</b>. Autumn mists rise from the rivers each morning and burn off by afternoon: ideal for noble rot.</li>
+<li>Soils are volcanic, with loess on the hill of Tokaj itself.</li>
+<li>Cellars are tunneled into the rock and coated with a soft black mold that holds the humidity steady.</li>
+<li>The traditional cask is the <b>Gönci</b> barrel of 136 liters.</li>
+<li>Louis XIV is said to have called Tokaji "the wine of kings and the king of wines".</li>
+<li>Under communism one state company made all the wine, and quality sank. After 1990 the estates were privatized and foreign investors arrived: Royal Tokaji, AXA's Disznókő, Vega Sicilia's Oremus.</li>
+<li>The newest chapter is <b>dry Furmint</b>: smoky, taut and long-lived, often from single vineyards.</li></ul>
+<h3>Three sweet wines compared</h3>
+<table class="t"><tr><th></th><th>Tokaji Aszú</th><th>Ruster Ausbruch</th><th>Santorini Vinsanto</th></tr>
+<tr><td>Grapes</td><td>Furmint, Hárslevelű</td><td>Welschriesling, Chardonnay and others</td><td>Assyrtiko, Aidani</td></tr>
+<tr><td>How</td><td>Botrytized berries steeped in base wine</td><td>Botrytized berries pressed and fermented</td><td>Healthy grapes dried in the sun</td></tr>
+<tr><td>In the glass</td><td>Apricot, marmalade, honey, tea; piercing acid</td><td>Honeyed, tropical, softer acid</td><td>Raisin, coffee, caramel; very high acid</td></tr></table>
+<h3>Greece: old country, new industry</h3>
+<ul><li>Greece has grown wine for four thousand years and has about 300 native grapes, yet the modern industry is young. The appellation system dates from 1971, and small quality estates only became common in the 1980s and 90s.</li>
+<li><b>Retsina</b> began by accident: pine resin was used to seal amphorae, and people came to like the taste.</li>
+<li>Vangelis Gerovassiliou rescued <b>Malagousia</b> from near extinction in the 1970s.</li>
+<li>Santorini's vines can be centuries old below ground: growers cut the basket back and let the ancient root start again. Yields are tiny, and drought and tourism have pushed prices up sharply.</li></ul>
+<h3>Austria's moment</h3>
+<p>At a blind tasting in London in 2002, Austrian Grüner Veltliner and Chardonnay took most of the top places against famous white Burgundy and New World Chardonnay. Grüner has been on serious wine lists ever since.</p>
+<h3>At the table</h3>
+<table class="t"><tr><th>Wine</th><th>Dish</th></tr>
+<tr><td>Grüner Veltliner</td><td>Wiener Schnitzel; also asparagus and artichoke, which defeat most wines</td></tr>
+<tr><td>Blaufränkisch</td><td>Roast duck, game, goulash</td></tr>
+<tr><td>Tokaji Aszú</td><td>Foie gras, blue cheese, apricot desserts</td></tr>
+<tr><td>Dry Furmint</td><td>Roast pork, smoked fish, creamy sauces</td></tr>
+<tr><td>Assyrtiko</td><td>Grilled octopus, whole fish with lemon</td></tr>
+<tr><td>Xinomavro</td><td>Lamb, tomato-based stews</td></tr>
+<tr><td>Agiorgitiko</td><td>Moussaka, grilled meats</td></tr>
+<tr><td>Retsina</td><td>Meze, fried fish, anything with garlic</td></tr></table>`,
 floor:`<p>Grüner Veltliner is the sommelier's universal pairing wine: artichokes, asparagus and green vegetables that wreck most wines. Tokaji Aszú with foie gras. Santorini Assyrtiko with grilled fish and anything you'd squeeze lemon on.</p>`,
 analyst:`<p>WSET Level 3 includes Austria's Wachau, Kremstal, Kamptal, Weinviertel, Burgenland and Neusiedlersee; Tokaj (sweet wines only); and Naoussa, Nemea and Santorini from Greece. Explain why Santorini wines keep acidity in a hot, dry climate: Assyrtiko's genetics, sea breezes, and nighttime moisture absorbed from fog.</p>`,
-terms:[["DAC","Austrian regional appellation with a defined style."],["Smaragd","Richest dry Wachau category, 12.5%+."],["Aszú","Botrytized berries, and the sweet Tokaji made from them."],["Puttonyos","Traditional measure of Tokaji Aszú sweetness."],["Eszencia","Free-run syrup from aszú berries; extremely sweet, very low alcohol."],["Kouloura","Basket-trained vines of Santorini."]],
+terms:[["DAC","Austrian regional appellation with a defined style."],["Smaragd","Richest dry Wachau category, 12.5%+."],["Aszú","Botrytized berries, and the sweet Tokaji made from them."],["Puttonyos","Traditional measure of Tokaji Aszú sweetness."],["Eszencia","Free-run syrup from aszú berries; extremely sweet, very low alcohol."],["Kouloura","Basket-trained vines of Santorini."],["Gönci barrel","Tokaj's traditional 136-liter cask."],["Dry Furmint","Tokaj's modern dry white: smoky, taut and long-lived."],["Retsina","Greek white flavored with pine resin."],["Malagousia","Aromatic Greek white grape, rescued in the 1970s."]],
 quiz:[
 [1,"Which Wachau category is the richest?","Smaragd",["Steinfeder","Federspiel","Kabinett"],"12.5% abv and above."],
 [2,"Since 2013, Tokaji Aszú must have at least:","120 g/L residual sugar",["60 g/L residual sugar","200 g/L residual sugar","450 g/L residual sugar"],"Equal to the old 5 puttonyos."],
@@ -320,7 +395,15 @@ quiz:[
 [2,"Zweigelt is a crossing of:","Blaufränkisch and St. Laurent",["Pinot Noir and Gamay","Grüner Veltliner and Riesling","Syrah and Grenache"],"Austria's most-planted red."],
 [1,"Santorini's main grape is:","Assyrtiko",["Moschofilero","Xinomavro","Agiorgitiko"],"Volcanic, ungrafted vineyards."],
 [2,"Match Tokaj with its grape:","Furmint",["Corvina","Mourvèdre","Grenache"],"From the official CMS matching example."],
-[3,"Eszencia's alcohol is typically:","Very low (often under 5%)",["About 12%","About 20% (fortified)","About 15%"],"Its sugar is too high for yeast to ferment much."]
+[3,"Eszencia's alcohol is typically:","Very low (often under 5%)",["About 12%","About 20% (fortified)","About 15%"],"Its sugar is too high for yeast to ferment much."],
+[2,"Retsina's pine flavor began with:","Resin used to seal amphorae",["Barrels made of pine wood","Pine needles in the vineyard","A Byzantine tax on oak"],"The taste outlived the amphora."],
+[2,"Which dish is Grüner Veltliner's most famous partner?","Wiener Schnitzel",["Moussaka","Goulash","Baklava"],"It also copes with asparagus and artichoke."],
+[2,"After 1990, Tokaj's revival was driven largely by:","Privatization and foreign investment",["A change from white to red grapes","New plantings of Chardonnay","An EU ban on fortified wine"],"Royal Tokaji, Disznókő and Oremus all date from the early 1990s."],
+[2,"Tokaj's autumn mists rise where which two rivers meet?","Bodrog and Tisza",["Danube and Drava","Rhine and Mosel","Sava and Kupa"],"Morning mist and sunny afternoons favor noble rot."],
+[2,"At a 2002 blind tasting in London, Grüner Veltliner famously outscored top:","White Burgundy",["Mosel Riesling","Sauternes","Champagne"],"Austrian wines took most of the top places."],
+[2,"Grilled octopus with lemon calls for:","Assyrtiko",["Agiorgitiko","Mavrodaphne","Xinomavro"],"High acid and a saline edge."],
+[2,"A Gönci barrel, traditional in Tokaj, holds about:","136 liters",["25 liters","225 liters","600 liters"],"Puttonyos once counted baskets of aszú per Gönci cask."],
+[3,"Unlike Tokaji Aszú, Santorini Vinsanto gets its sugar from:","Grapes dried in the sun",["Grapes hit by noble rot","Grapes frozen on the vine","Spirit added to the must"],"Botrytis plays no part on a dry, windy island."]
 ]});
 
 L.push({id:"r13", unit:"R5", title:"California", mins:22,

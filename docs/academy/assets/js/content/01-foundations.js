@@ -70,10 +70,41 @@ body:`
 <li><b>Master of Wine:</b> needs 3+ years of professional experience, at least 3 years of study, three 12-wine blind papers, five theory papers and a 10,000-word research paper.</li>
 </ul>
 <h3>Where the money goes, and where it doesn't have to</h3>
-<p>WSET Level 3 runs about $1,135 to $1,780 at one large US provider and the Diploma about $7,800 with registration. CMS Introductory online is $649 plus an optional wine kit; each MS exam section is reported near $1,000. The podcast host Elizabeth Schneider, herself a CMS Certified Sommelier and CSW, has called the top titles closer to "a small, private club" than a professional certification. The sensible plan: study everything here for free, then pay for one exam only if a job asks for the paper.</p>`,
+<p>WSET Level 3 runs about $1,135 to $1,780 at one large US provider and the Diploma about $7,800 with registration. CMS Introductory online is $649 plus an optional wine kit; each MS exam section is reported near $1,000. The podcast host Elizabeth Schneider, herself a CMS Certified Sommelier and CSW, has called the top titles closer to "a small, private club" than a professional certification. The sensible plan: study everything here for free, then pay for one exam only if a job asks for the paper.</p>
+<h3>Which track for which job</h3>
+<table class="t"><tr><th>If you want to</th><th>Start with</th><th>Why</th></tr>
+<tr><td>Work a restaurant floor</td><td>Floor</td><td>Service, speed and selling are tested directly</td></tr>
+<tr><td>Run a beverage program</td><td>Floor, then the business lessons</td><td>You will need list math and staff training as well</td></tr>
+<tr><td>Buy for a shop, importer or supermarket</td><td>Analyst</td><td>Quality judgment and written reasoning are the job</td></tr>
+<tr><td>Sell for a distributor</td><td>Analyst</td><td>Buyers respect it and it covers every category</td></tr>
+<tr><td>Write or teach</td><td>Analyst</td><td>It trains explanation</td></tr>
+<tr><td>Learn for pleasure</td><td>Either; Analyst is gentler on nerves</td><td>No timed spoken exams</td></tr></table>
+<h3>How much time each level takes</h3>
+<ul><li><b>WSET Level 2:</b> about 28 hours in total.</li>
+<li><b>WSET Level 3:</b> about 84 hours, of which 30 are taught. Most people need more for the tasting.</li>
+<li><b>WSET Diploma:</b> at least 500 hours, usually spread over two or three years.</li>
+<li><b>CMS:</b> the Court publishes no hour counts. Candidates commonly spend a year or more between Certified and Advanced, and several years on the Master Sommelier Diploma.</li>
+<li>The lessons here take about twenty hours to read once. Passing an exam takes many times that in recall and tasting practice.</li></ul>
+<h3>Credentials beyond wine</h3>
+<ul><li><b>Beer:</b> the Cicerone program, from Certified Beer Server to Master Cicerone.</li>
+<li><b>Spirits:</b> WSET Spirits Levels 1 to 3, and the Certified Specialist of Spirits (CSS) from the Society of Wine Educators.</li>
+<li><b>Sake:</b> WSET Sake Levels 1 and 3, and the Kikisake-shi qualification from Japan.</li>
+<li><b>Service at world level:</b> the Association de la Sommellerie Internationale (ASI) offers its own diploma and runs the Best Sommelier of the World competition.</li></ul>
+<h3>What no credential gives you</h3>
+<ul><li><b>Hours on a real floor or shop counter.</b> Employers hire experience first and letters second.</li>
+<li><b>A palate.</b> Only tasting builds it.</li>
+<li><b>Hospitality.</b> Reading a table cannot be examined on paper.</li></ul>
+<h3>Using both tracks here</h3>
+<ul><li>Every lesson has a Floor lens and an Analyst lens. Read both, whichever track you are on.</li>
+<li>You can switch tracks at any time. Lessons you have passed stay passed; only the exams differ.</li>
+<li>A sound order if you have no deadline: Analyst Level 2 for the foundations, Floor Introductory and Certified for service and deduction, then whichever advanced path suits your work.</li></ul>
+<h3>Signs you picked the wrong track</h3>
+<ul><li>You dread the timed spoken tasting but enjoy writing notes: move to Analyst.</li>
+<li>Written answers bore you and you want to be opening bottles: move to Floor.</li>
+<li>You are studying for a title no employer near you asks for: stop and ask what they do want.</li></ul>`,
 floor:`<p>Floor track seals: <b>Introductory</b> (70 MCQ, 45 min, 60%), <b>Certified</b> (theory 45 Q in 38 min, 4 wines in 45 min, service practical; 60% each), <b>Advanced</b> (6 wines in 25 min aloud, theory, service and business; 60% each), <b>Master</b> (all at 75%).</p>`,
 analyst:`<p>Analyst track seals: <b>Level 2</b> (50 MCQ, 60 min, 55%), <b>Level 3</b> (50 MCQ + four 25-mark short answers + 2 wines blind by SAT; 55% in each part), <b>Diploma</b> (D1-D6, essays and 12-wine papers, 55%), <b>MW capstone</b>.</p>`,
-terms:[["CSW","Certified Specialist of Wine (Society of Wine Educators). 100 MCQ in 60 min, 75% to pass."],["Wine Scholar Guild","Single-country deep-dive programs; 100 MCQ, 75% to pass, Honors at 85+."]],
+terms:[["CSW","Certified Specialist of Wine (Society of Wine Educators). 100 MCQ in 60 min, 75% to pass."],["Wine Scholar Guild","Single-country deep-dive programs; 100 MCQ, 75% to pass, Honors at 85+."],["Cicerone","Beer certification program, from Certified Beer Server to Master Cicerone."],["ASI","Association de la Sommellerie Internationale; runs the Best Sommelier of the World competition."],["CSS","Certified Specialist of Spirits, from the Society of Wine Educators."],["Kikisake-shi","Japanese sake sommelier qualification."]],
 quiz:[
 [1,"Which program's blind tasting puts the most weight on naming the grape, place and vintage?","CMS",["WSET Level 3","CSW","WSET Level 2"],"WSET Level 3 grades the description and quality call; CMS grades your identification."],
 [1,"The CSW exam is:","100 multiple-choice questions in one hour, 75% to pass",["A 6-wine verbal blind tasting in 25 minutes","Four 25-mark written answers in two hours","50 multiple-choice questions plus a service practical"],"Everything on the CSW comes from the annual study guide."],
@@ -81,7 +112,13 @@ quiz:[
 [1,"WSET Level 2 includes a blind tasting exam.","False: it is a 50-question multiple-choice paper only",["True: two wines assessed in 30 minutes by SAT","True: one wine written up as a full tasting note","False: it is four written short answers only"],"Tasting is taught at Level 2 but not examined until Level 3."],
 [1,"Which track suits someone who wants to work a restaurant floor?","Floor (CMS)",["Analyst (WSET)","Wine Scholar Guild","Master of Wine"],"The Court examines service, selling and spoken blind tasting."],
 [2,"The Wine Scholar Guild is best known for:","Deep single-country programs",["A service practical","A 12-wine blind tasting","A spirits diploma"],"French, Italian, Spanish and German Wine Scholar: 100 questions, 75% to pass."],
-[2,"The Master of Wine research paper runs to about:","10,000 words",["1,000 words","3,000 words","50,000 words"],"The Diploma's D6 research assignment is 3,000 words."]
+[2,"The Master of Wine research paper runs to about:","10,000 words",["1,000 words","3,000 words","50,000 words"],"The Diploma's D6 research assignment is 3,000 words."],
+[2,"The Cicerone program certifies expertise in:","Beer",["Sake","Spirits","Coffee"],"Its top level is Master Cicerone."],
+[2,"Which body runs the Best Sommelier of the World competition?","ASI",["WSET","IMW","SWE"],"The Association de la Sommellerie Internationale."],
+[2,"A wine buyer for a supermarket chain is best served by which track?","Analyst",["Floor","Cicerone","Kikisake-shi"],"Quality judgment and written reasoning are the daily work."],
+[2,"WSET's stated study time for Level 3 is about:","84 hours",["8 hours","28 hours","500 hours"],"Level 2 is 28 hours and the Diploma at least 500."],
+[2,"CSS is a credential in:","Spirits",["Sake","Service","Sparkling wine"],"The Certified Specialist of Spirits, from the Society of Wine Educators."],
+[2,"What do employers generally weigh before any credential?","Real experience on a floor or in a shop",["The number of seals earned online","The price paid for the course","The age of the candidate"],"A title supports experience; it does not replace it."]
 ]});
 
 // ---------- F1 TASTING ----------
