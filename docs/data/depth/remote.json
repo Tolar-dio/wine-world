@@ -1,0 +1,41 @@
+{
+ "base": "https://pub-05175000f9264b7783084d31f212bdf1.r2.dev/",
+ "files": {
+  "data/depth/fr-medoc/terrain_0.pmtiles": {
+   "key": "depth/fr-medoc/terrain_0.78d05bcdb705.pmtiles",
+   "size": 68933521
+  },
+  "data/depth/fr-medoc/terrain_1.pmtiles": {
+   "key": "depth/fr-medoc/terrain_1.4980f6d23042.pmtiles",
+   "size": 66138251
+  },
+  "data/depth/fr-medoc/terrain_2.pmtiles": {
+   "key": "depth/fr-medoc/terrain_2.8a39f47d57bf.pmtiles",
+   "size": 58808745
+  },
+  "data/depth/fr-medoc/terrain_3.pmtiles": {
+   "key": "depth/fr-medoc/terrain_3.520c192f84cd.pmtiles",
+   "size": 60424495
+  },
+  "data/depth/it-barolo/terrain.pmtiles": {
+   "key": "depth/it-barolo/terrain.ecdbcf782833.pmtiles",
+   "size": 23395134
+  },
+  "data/depth/it-chianti-classico/terrain.pmtiles": {
+   "key": "depth/it-chianti-classico/terrain.793be6f27513.pmtiles",
+   "size": 51351155
+  },
+  "data/depth/region-fr-southern-rhone/terrain.pmtiles": {
+   "key": "depth/region-fr-southern-rhone/terrain.e0bf899e5ea0.pmtiles",
+   "size": 75427192
+  },
+  "data/depth/us-napa-valley/terrain.pmtiles": {
+   "key": "depth/us-napa-valley/terrain.61e2bb40028b.pmtiles",
+   "size": 67227224
+  },
+  "data/depth/us-sonoma-valley/terrain.pmtiles": {
+   "key": "depth/us-sonoma-valley/terrain.4378b18ead10.pmtiles",
+   "size": 46990096
+  }
+ }
+}
