@@ -1178,6 +1178,7 @@ function aboutHTML() {
   const srcs = arr(m.sources);
   out += H.sec('Sources and licences') + (srcs.length ? `<ul class="list">${srcs.map(s => `<li class="src" style="padding:8px 0">${s.url && /^https?:/.test(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title || s.key)}</a>` : esc(s.title || s.key)}${s.licence ? `<br><span class="mono" style="font-size:12px">${esc(s.licence)}</span>` : ''}</li>`).join('')}</ul>` : `<ul class="list">${Object.values(SRC).map(s => `<li class="src" style="padding:8px 0">${esc(s)}</li>`).join('')}<li class="src" style="padding:8px 0">TerraClimate 1991–2020 normals; WorldClim 2.1 elevation; OpenStreetMap contributors (ODbL) for selected rivers and towns.</li></ul>`);
   if (typeof aboutV2HTML === 'function') out += aboutV2HTML();
+  out += H.sec('Privacy') + H.prose('Your bottles, notes and progress live in your own browser, and in your account only if you sign in; nobody else can see them. When something breaks, the site sends an error report to Sentry so it can be fixed: what went wrong, the page and map view, and your browser and operating system. It sends no IP address, account, email, cookies or anything you typed, and records no sessions.');
   out += slotHTML('end');
   out += `<p class="src" style="margin-top:18px">Type: IM Fell English, digitised by Igino Marini from the Fell types; Literata; IBM Plex Mono. Map engine: MapLibre GL JS.</p>`;
   return out;

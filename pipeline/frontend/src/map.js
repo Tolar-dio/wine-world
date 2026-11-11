@@ -315,6 +315,7 @@ function initMap() {
     // external tiles (satellite, topo, terrain) fail quietly when offline or outside a service's coverage
     if (e?.sourceId && /^(bm-|ni-|nt-|dem-|contours)/.test(e.sourceId)) { if (typeof bmTileError === 'function') bmTileError(e.sourceId, msg); return; }
     console.warn('[map]', msg);
+    if (window.vmReport) window.vmReport(e && e.error, { source: e && e.sourceId });
   });
   map.on('styleimagemissing', e => {
     if (!/^k-/.test(e.id)) return;

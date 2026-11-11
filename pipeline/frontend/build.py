@@ -9,6 +9,7 @@ Re-run after the data changes: it bakes a manifest of the files under site/ (so 
 requests a file that does not exist, which would log 404s) and the glyph ranges per font stack.
 """
 import base64
+import hashlib
 import json
 import os
 import re
@@ -101,6 +102,17 @@ def modules(ext):
     return sorted(d.glob("*" + ext), key=lambda q: q.name) if d.exists() else []
 
 
+def monitor_js():
+    """crash reporting (Pages build only): the vendored errors-only Sentry bundle, then src/monitor.js, which
+    switches itself on only at vitismundi.app. Both run before the site's own scripts so early errors count."""
+    v = ROOT / "frontend" / "vendor" / f"sentry-{SENTRY}.min.js"
+    mon = SRC / "monitor.js"
+    if not v.exists() or not mon.exists():
+        return ""
+    return ("<script>\n" + esc_ascii(v.read_text(encoding="utf-8")) + "\n</script>\n"
+            + "<script>\n" + esc_ascii(mon.read_text(encoding="utf-8")) + "\n</script>\n")
+
+
 def build(out=OUT, extra_files=(), wrap=False, mode="artifact"):
     css_ml = (ROOT / "frontend" / "maplibre-gl.css").read_text(encoding="utf-8")
     css = (SRC / "styles.css").read_text(encoding="utf-8")
@@ -132,7 +144,9 @@ def build(out=OUT, extra_files=(), wrap=False, mode="artifact"):
         + body
         + f'<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@{MAPLIBRE}/dist/maplibre-gl.js"></script>\n'
         + (f'<script src="https://cdn.jsdelivr.net/npm/pmtiles@{PMTILES}/dist/pmtiles.js"></script>\n' if mode == "gh" else "")
-        + "<script>window.__VM_MANIFEST=" + man + ";window.__VM_BUILD={mode:'" + mode + "',tiles:'" + tiles_hash() + "'};</script>\n"
+        + "<script>window.__VM_MANIFEST=" + man + ";window.__VM_BUILD={mode:'" + mode + "',tiles:'" + tiles_hash()
+        + "',rel:'" + hashlib.sha1("".join(scripts).encode("utf-8")).hexdigest()[:10] + "'};</script>\n"
+        + (monitor_js() if mode == "gh" else "")
         + "".join(scripts)
     )
     if wrap:
@@ -146,6 +160,7 @@ def build(out=OUT, extra_files=(), wrap=False, mode="artifact"):
 
 
 GLYPHS = {}
+SENTRY = "11.9.0"   # vendor/sentry-<ver>.min.js, built from @sentry/browser (errors only)
 PMTILES = "3.2.1"
 
 
