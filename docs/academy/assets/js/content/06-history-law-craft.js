@@ -376,11 +376,21 @@ quiz:[
 ]});
 
 L.push({id:"f11", unit:"F1", title:"Deductive Logic: From Evidence to Conclusion", mins:16,
-summary:"Decision paths that turn grid observations into a grape, country and vintage.",
+summary:"How blind tasting reasons from evidence to a grape, country and vintage, and why structure comes first.",
 body:`
-<p>Strong blind tasters don't recognize wines by magic. They run a decision tree so fast it looks like recognition. Build these paths into your head and every wine becomes a short list.</p>
+<p>Strong blind tasters don't recognize wines by magic. They run a decision tree so fast it looks like recognition. The method is deduction in the ordinary sense: you collect observations, each observation rules out some candidates and favors others, and you stop when one candidate explains everything you observed better than any rival. This chapter sets out the paths, and then, more usefully, explains why the paths are ordered as they are, how much weight each kind of evidence deserves, and how the reasoning goes wrong.</p>
+
+<h3>What kind of reasoning this is</h3>
+<p>The word deduction is slightly generous. Strict deduction gives certain conclusions from certain premises. Blind tasting gives probable conclusions from imperfect measurements, which makes it closer to medical diagnosis. A doctor does not see a disease; she sees symptoms, knows which conditions produce which symptoms and how common each condition is, and names the condition that best fits. Three ideas from diagnosis carry over directly.</p>
+<p><b>Elimination is stronger than confirmation.</b> A cherry aroma is consistent with twenty red grapes and so tells you almost nothing. Very high tannin in a pale wine is inconsistent with all but one or two. The most valuable observations are the ones that remove candidates, and the best first questions are those that cut the field in half whichever way the answer falls.</p>
+<p><b>Evidence differs in reliability.</b> Some observations are measurements and some are impressions. Whether your mouth is watering is close to a measurement. Whether the wine smells of white peach or yellow peach is an impression, and two good tasters will disagree about it. A sound conclusion rests on the measurements and uses the impressions to choose among what is left.</p>
+<p><b>Prior odds matter.</b> Before you taste anything, some answers are much more likely than others, because of what is made in the world and what examiners choose to pour. A conclusion should combine the evidence in the glass with those starting odds. This is the reasoning behind the rule, discussed below, to call the classic wine when two fit.</p>
+
 <h3>Step 1: Sort by structure</h3>
 <p>Start with the elements hardest to fake: acid, alcohol, tannin, sweetness, phenolics.</p>
+<p>There are three reasons structure comes first, and they are worth knowing because they tell you when to trust it. First, structure is set mainly by the grape and the climate, the two things you are trying to identify, and only at the margins by the winemaker. Oak, lees and malolactic conversion can change how a wine smells almost completely, but no cellar technique turns a low-acid grape into a high-acid one or strips the tannin from Nebbiolo. Second, structure is perceived by touch and taste, not smell. Acidity is felt as salivation, tannin as drying, alcohol as heat, sweetness on the tongue. These senses are cruder than smell but far more consistent from person to person and from day to day. Third, structural elements are few, so you can assess every one of them every time. Aroma space is enormous and you will always miss something in it.</p>
+<p>The practical consequence is a rule of precedence. When the nose and the palate point to different grapes, the palate wins. A wine that smells like Pinot Noir and has drying, gripping tannin is not Pinot Noir.</p>
+
 <h3>White wine paths</h3>
 <table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
 <tr><td>High acid, low alcohol, RS, slate/petrol</td><td>German Riesling</td><td>Mosel (lighter, slate) vs Rheingau (fuller)</td></tr>
@@ -390,6 +400,9 @@ body:`
 <tr><td>Medium+ acid, MLC + toast, mineral restraint</td><td>Côte de Beaune Chardonnay</td><td>vs California: riper, more alcohol</td></tr>
 <tr><td>Low acid, high alcohol, oily, bitter, floral</td><td>Gewürztraminer, Viognier, Torrontés</td><td>Lychee/rose vs apricot vs orange blossom (lighter)</td></tr>
 <tr><td>Neutral, light, almond, bitter tinge</td><td>Pinot Grigio</td><td>vs Albariño (saline, more acid, more aroma)</td></tr></table>
+<p>Read the first column of the table from left to right and notice its grammar. Each row opens with acid, then alcohol or sweetness, and only then gives aromas. The first two or three words do most of the work. "High acid, low alcohol, residual sugar" already describes a wine that very few places make, because it requires a grape that holds acid, a climate too cool to build sugar, and a tradition of stopping fermentation. Germany fits and almost nowhere else does. The aromas that follow, slate and petrol, confirm a conclusion that structure has nearly reached.</p>
+<p>Notice too which rows depend on an absence. Chablis is identified partly by what it lacks: no green aromatics, no new oak. Absences are real evidence, but only if you looked. A taster who writes "no pyrazines" has to have checked for them. This is the practical value of working through the full tasting grid every time: it forces you to record what is not there.</p>
+
 <h3>Red wine paths</h3>
 <table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
 <tr><td>Pale, high acid, low tannin</td><td>Pinot Noir, Gamay</td><td>Banana/bubblegum = Gamay; earth/forest floor = Burgundy</td></tr>
@@ -402,38 +415,33 @@ body:`
 <tr><td>Medium, red fruit, green pepper, graphite, lighter</td><td>Cabernet Franc</td><td>Chinon/Bourgueil</td></tr>
 <tr><td>Deep, pepper, olive, meat</td><td>Northern Rhône Syrah</td><td>vs Shiraz: eucalyptus, jam, chocolate, high alcohol</td></tr>
 <tr><td>Opaque purple, violet, blueberry, purple rim</td><td>Malbec</td><td>vs Zinfandel: brambly jam, raisin, very high alcohol</td></tr></table>
+<p>Reds add two measurements that whites lack, color depth and tannin, and both come from the skins. Because they share a source they usually agree: pale wines are usually low in tannin and dark wines high. That correlation is what makes the exceptions so informative. A pale wine with high tannin has broken the usual pattern, and only Nebbiolo breaks it that way among the classic grapes. A deep wine with low tannin has broken it the other way, and Barbera is the first candidate. In general, an observation is worth most when it is surprising given what you have already seen.</p>
+<p>The same thinking tells you when two observations are really one. Ripe black fruit, high alcohol and soft acid are not three independent pieces of evidence for a warm climate. They are three consequences of the same cause, sugar ripeness, and should be counted once. Tasters who tally them separately become overconfident.</p>
+
 <h3>Step 2: Climate and style</h3>
 <ul><li><b>Fruit condition:</b> tart = cool; ripe = moderate; baked/jammy = warm.</li>
 <li><b>Alcohol:</b> a rough proxy for sugar at harvest, so for warmth.</li>
 <li><b>Earth and mineral against fruit:</b> more earth and less fruit points to the savory European classics; pure, ripe fruit points to warmer, fruit-led regions. Name countries, not "Old World" or "New World": the Court stopped scoring those words in 2024.</li>
 <li><b>Oak signatures:</b> overt new oak and vanilla suggest Napa, Barossa, Mendoza, Rioja or modern Bordeaux; dill and coconut mean American oak (Rioja, some Australian and American reds).</li></ul>
+<p>Once the grape is on a short list, the same evidence is read a second time for place. The logic is causal. A warm season lets the vine make more sugar and burn off more acid, so the wine has more alcohol, softer acidity and fruit that tastes riper: the sequence runs from tart and green, through fresh and ripe, to cooked, dried or jammy. The single most reliable sign of a warm climate is the combination of baked or jammy fruit with high alcohol, because both follow directly from high sugar at harvest and are hard to produce any other way.</p>
+<p>Treat each climate marker as a tendency with known exceptions. Alcohol can be low in a warm place if the grower picks early, as in the Hunter Valley. Acid can be high in a hot place if the grape holds it, as with Assyrtiko, or if the winemaker adds it. Altitude gives warm days and cold nights, so Mendoza Malbec has ripe fruit and fresh acid together. None of this overturns the rule; it means the rule should be applied to the whole pattern and not to one reading.</p>
+<p>The earth-against-fruit distinction is a statement about tradition as much as climate. Cooler European regions tend to give wines in which savory, mineral and earthy notes are as prominent as fruit, partly because the fruit is less ripe and partly because of choices in the cellar. Warmer regions with younger traditions tend to give cleaner, more fruit-forward wines. The line has blurred as climates warm and techniques travel, which is one reason to name a country and defend it with evidence instead of sorting the world in two.</p>
+
 <h3>Step 3: Age</h3>
 <p>Color evolution, rim, aromatic development (primary → tertiary), tannin softening. Commit to an age range, then a single vintage at the final conclusion.</p>
+<table class="t"><tr><th>Stage</th><th>White</th><th>Red</th></tr>
+<tr><td>1 to 3 years</td><td>Lemon, green glints, fresh fruit only</td><td>Purple to ruby, primary fruit, firm tannin</td></tr>
+<tr><td>4 to 8 years</td><td>Gold; honey, toast, nuts beginning</td><td>Ruby to garnet; dried fruit, leather starting</td></tr>
+<tr><td>8 to 15 years</td><td>Deep gold; petrol, mushroom, dried fruit</td><td>Garnet with a brick rim; leather, tobacco, earth</td></tr>
+<tr><td>15 years and more</td><td>Amber</td><td>Tawny; sediment; fruit fading</td></tr></table>
+<p>Age is read from change, and all the changes run one way. White wines darken as their phenolics oxidize. Red wines lighten and turn from purple toward brick as free pigments bind into larger, browner molecules and eventually fall out as sediment. Aromas move from fruit (primary), through the marks of winemaking (secondary), to the products of slow reaction in bottle (tertiary): honey, nuts and petrol in whites, leather, tobacco and earth in reds. Tannin feels softer as the chains grow and drop out.</p>
+<p>Two cautions. The clock runs at different speeds for different grapes. Nebbiolo, Sangiovese and Grenache show orange at the rim within a few years, so a garnet edge on those says less than the same edge on Cabernet Sauvignon. And oxidative winemaking can imitate age: a wine raised for years in old barrels, such as traditional Rioja, tastes older than its vintage. Decide the grape first and correct the age estimate for it.</p>
+<p>Exam wines are usually current releases, so know when each region releases. Fresh whites and rosé: the year after harvest. Most reds: two to three years. Rioja Reserva: four or more. Barolo: in its fourth year. Brunello: in its fifth. Subtract from today's date and you have a vintage. A Brunello first released in January 2026 is from 2021. This is an example of prior odds at work: the release calendar narrows the vintage before you have looked at the color.</p>
+
 <h3>Step 4: Quality and place</h3>
 <p>Concentration, length and complexity separate Village from Premier Cru, Crianza from Gran Reserva, Kabinett from Spätlese. Use structure to place the wine in its official quality tier.</p>
-<h3>The classic traps</h3>
-<ul><li>Calling sweetness on fruity aromas alone.</li>
-<li>Letting one aroma override structure ("it smells like cherries so it must be Pinot").</li>
-<li>Forgetting that oak can mask earth.</li>
-<li>Changing a correct initial conclusion at the last second without new evidence.</li></ul>
-<h3>More paths: whites</h3>
-<table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
-<tr><td>Medium-plus acid, white pepper, lentil, citrus</td><td>Grüner Veltliner</td><td>Fuller and riper = Wachau Smaragd</td></tr>
-<tr><td>High acid, light, peach and salt, no oak</td><td>Albariño</td><td>vs Pinot Grigio (less aroma) and Muscadet (leesy, neutral)</td></tr>
-<tr><td>High acid, dry, quince, wax, bruised apple</td><td>Dry Chenin Blanc</td><td>Savennières (austere) vs South Africa (riper, often oak)</td></tr>
-<tr><td>Low alcohol (10 to 11%), bone dry, lemon; toast if aged</td><td>Hunter Valley Sémillon</td><td>No oak despite the toast</td></tr>
-<tr><td>Very high acid, saline, smoky, 13.5% or more</td><td>Assyrtiko</td><td>vs Chablis (lower alcohol, apple)</td></tr>
-<tr><td>Full, off-dry, smoky, pear and spice, low acid</td><td>Alsace Pinot Gris</td><td>vs Gewurztraminer (lychee, rose)</td></tr>
-<tr><td>Full, low acid, pear, almond paste, herbal</td><td>Marsanne and Roussanne</td><td>White Rhône; no lift of flowers as in Viognier</td></tr></table>
-<h3>More paths: reds</h3>
-<table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
-<tr><td>Deep, high acid, low tannin, sour cherry</td><td>Barbera</td><td>vs Sangiovese (more tannin, paler)</td></tr>
-<tr><td>Deep, firm tannin, dark fruit, French oak, ripe</td><td>Ribera del Duero</td><td>vs Bordeaux (graphite, greener)</td></tr>
-<tr><td>Medium-plus body, jammy bramble, 15% and up, a raisin note</td><td>Zinfandel</td><td>Uneven ripeness gives raisin and fresh berry together</td></tr>
-<tr><td>Dark, very tannic, meat, leather, blackberry</td><td>Mourvèdre (Bandol)</td><td>vs Syrah (pepper, olive, less tannin)</td></tr>
-<tr><td>Deep, soft, black fruit with green pepper and paprika</td><td>Carmenère</td><td>vs Cabernet Franc (lighter, red fruit)</td></tr>
-<tr><td>Deep, smoke, black fruit, a banana or varnish edge</td><td>Pinotage</td><td>South Africa</td></tr>
-<tr><td>Deep, very high tannin and acid, smoke, ash</td><td>Aglianico</td><td>vs Nebbiolo (paler, floral)</td></tr></table>
+<p>Quality tiers in the classic regions are, at bottom, legal descriptions of ripeness, yield and aging, and each leaves a trace you can taste. Lower yields and better sites give more concentration and a longer finish, so length is the best single guide to rank within a region. German Prädikat levels are defined by sugar at harvest, so body and sweetness climb from Kabinett to Spätlese to Auslese. Rioja's tiers are defined by time in barrel and bottle, so the amount of oak and tertiary character tells you whether you have a Crianza or a Gran Reserva. The reasoning is the same as before: know what the rule requires, then look for its consequence in the glass.</p>
+
 <h3>Impact compounds: one smell, a short list</h3>
 <table class="t"><tr><th>If you smell</th><th>Think</th></tr>
 <tr><td>Green pepper, leaf</td><td>Cabernet Sauvignon, Cabernet Franc, Carmenère, Sauvignon Blanc</td></tr>
@@ -445,19 +453,72 @@ body:`
 <tr><td>Dill, coconut</td><td>American oak: Rioja first</td></tr>
 <tr><td>Honey, saffron, ginger</td><td>Botrytis</td></tr>
 <tr><td>Barnyard, bandage</td><td>Brettanomyces: traditional Rhône, Bordeaux, Rioja</td></tr></table>
+<p>Most aromas are weak evidence. A handful are strong, because each is caused by a single compound that only a few grapes or processes produce. These are the exception to the rule that structure outranks aroma, and the reason is the same one that makes structure valuable: they eliminate. Petrol removes nearly every white grape but Riesling. Dill and coconut say American oak, which removes most of Europe outside Rioja.</p>
+<p>Use them with two checks. First, ask what the compound proves. Banana and bubblegum prove a method, carbonic maceration, and the grape follows only because Beaujolais is where the method is standard. Dill proves a barrel, not a variety. Second, make sure the structure agrees. If you smell green pepper in a pale, low-tannin red, you have not found Cabernet Sauvignon; you may have found Cabernet Franc, or stems in a Pinot Noir. The impact compound proposes and the structure confirms.</p>
+
+<h3>More paths: whites</h3>
+<table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
+<tr><td>Medium-plus acid, white pepper, lentil, citrus</td><td>Grüner Veltliner</td><td>Fuller and riper = Wachau Smaragd</td></tr>
+<tr><td>High acid, light, peach and salt, no oak</td><td>Albariño</td><td>vs Pinot Grigio (less aroma) and Muscadet (leesy, neutral)</td></tr>
+<tr><td>High acid, dry, quince, wax, bruised apple</td><td>Dry Chenin Blanc</td><td>Savennières (austere) vs South Africa (riper, often oak)</td></tr>
+<tr><td>Low alcohol (10 to 11%), bone dry, lemon; toast if aged</td><td>Hunter Valley Sémillon</td><td>No oak despite the toast</td></tr>
+<tr><td>Very high acid, saline, smoky, 13.5% or more</td><td>Assyrtiko</td><td>vs Chablis (lower alcohol, apple)</td></tr>
+<tr><td>Full, off-dry, smoky, pear and spice, low acid</td><td>Alsace Pinot Gris</td><td>vs Gewurztraminer (lychee, rose)</td></tr>
+<tr><td>Full, low acid, pear, almond paste, herbal</td><td>Marsanne and Roussanne</td><td>White Rhône; no lift of flowers as in Viognier</td></tr></table>
+<p>Several of these rows turn on an unusual pairing of structural readings, which is the white-wine version of the Nebbiolo trick. Low alcohol with bone dryness is rare: light wines are usually light because sugar was left unfermented. A wine that is both 10.5 percent and fully dry was picked very early on purpose, and Hunter Valley Sémillon is the classic case. Very high acid with high alcohol is equally rare, since heat that builds sugar normally destroys acid. Assyrtiko is the grape that does both.</p>
+
+<h3>More paths: reds</h3>
+<table class="t"><tr><th>Evidence</th><th>Short list</th><th>Tie-breakers</th></tr>
+<tr><td>Deep, high acid, low tannin, sour cherry</td><td>Barbera</td><td>vs Sangiovese (more tannin, paler)</td></tr>
+<tr><td>Deep, firm tannin, dark fruit, French oak, ripe</td><td>Ribera del Duero</td><td>vs Bordeaux (graphite, greener)</td></tr>
+<tr><td>Medium-plus body, jammy bramble, 15% and up, a raisin note</td><td>Zinfandel</td><td>Uneven ripeness gives raisin and fresh berry together</td></tr>
+<tr><td>Dark, very tannic, meat, leather, blackberry</td><td>Mourvèdre (Bandol)</td><td>vs Syrah (pepper, olive, less tannin)</td></tr>
+<tr><td>Deep, soft, black fruit with green pepper and paprika</td><td>Carmenère</td><td>vs Cabernet Franc (lighter, red fruit)</td></tr>
+<tr><td>Deep, smoke, black fruit, a banana or varnish edge</td><td>Pinotage</td><td>South Africa</td></tr>
+<tr><td>Deep, very high tannin and acid, smoke, ash</td><td>Aglianico</td><td>vs Nebbiolo (paler, floral)</td></tr></table>
+
 <h3>Play the odds</h3>
 <p>Examiners choose wines that are <b>classic and typical</b>, because a fair exam needs wines that taste the way the textbook says. The Court publishes a list of examinable grapes and regions for the Certified tasting. So when the evidence fits two answers, call the more classic one. Pale, high acid, red cherry, earth: Burgundy before Sancerre Rouge. When you hear hooves, think horses.</p>
-<h3>Reading age, then naming a year</h3>
-<table class="t"><tr><th>Stage</th><th>White</th><th>Red</th></tr>
-<tr><td>1 to 3 years</td><td>Lemon, green glints, fresh fruit only</td><td>Purple to ruby, primary fruit, firm tannin</td></tr>
-<tr><td>4 to 8 years</td><td>Gold; honey, toast, nuts beginning</td><td>Ruby to garnet; dried fruit, leather starting</td></tr>
-<tr><td>8 to 15 years</td><td>Deep gold; petrol, mushroom, dried fruit</td><td>Garnet with a brick rim; leather, tobacco, earth</td></tr>
-<tr><td>15 years and more</td><td>Amber</td><td>Tawny; sediment; fruit fading</td></tr></table>
-<p>Exam wines are usually current releases, so know when each region releases. Fresh whites and rosé: the year after harvest. Most reds: two to three years. Rioja Reserva: four or more. Barolo: in its fourth year. Brunello: in its fifth. Subtract from today's date and you have a vintage.</p>
+<p>This is not a trick for passing exams. It is how any sound inference from uncertain evidence works. If two explanations fit the facts equally well, the more common one is more likely to be true, simply because there is more of it. Red Burgundy is poured far more often than red Sancerre, so the same set of observations is better explained by Burgundy. The rule has a limit that matters: it applies only when the evidence does not discriminate. If you find something the classic answer cannot explain, such as real tannic grip in that pale red, the evidence has spoken and the odds no longer decide.</p>
+<p>The same principle guards against the opposite error, the clever call. Tasters who have just learned an obscure grape start finding it everywhere. The discipline is to ask, before naming anything unusual, what observation rules out the three most common wines that share this structure.</p>
+
+<h3>The classic traps</h3>
+<ul><li>Calling sweetness on fruity aromas alone.</li>
+<li>Letting one aroma override structure ("it smells like cherries so it must be Pinot").</li>
+<li>Forgetting that oak can mask earth.</li>
+<li>Changing a correct initial conclusion at the last second without new evidence.</li></ul>
+<p>Each trap is a known failure of judgment, and naming the mechanism makes it easier to catch.</p>
+<p><b>Sweetness from fruit.</b> Smell and taste are combined by the brain into one impression, and aromas we associate with sweet foods make a liquid seem sweeter than it is. A dry Gewürztraminer that smells of lychee, or a dry Marlborough Sauvignon Blanc full of passion fruit, will read as off-dry if you let the nose answer a question that belongs to the tongue. The fix is mechanical: assess sweetness on the tip of the tongue, and ask whether the finish is clean or leaves a coating of sugar.</p>
+<p><b>One aroma over structure.</b> This is anchoring. The first vivid impression becomes a hypothesis, and everything after is interpreted to fit it. You smell cherry, think Pinot, and then record the tannin as "medium" when it is high because Pinot does not have high tannin. The defense is to complete the structural assessment before allowing yourself to name any grape, even silently.</p>
+<p><b>Oak masking earth.</b> New oak is loud. Vanilla, toast and spice can cover the quieter savory notes that would have pointed to a European origin, and the wine gets placed in California or Australia on the strength of the barrel. When oak is prominent, look past it deliberately: taste for acid and for the character of the fruit underneath.</p>
+<p><b>The last-second switch.</b> Under pressure, doubt feels like information. It is not. Your first conclusion was built from the evidence in order; a change made in the final seconds is usually built from anxiety. The rule is simple and strict: change the call only if you can name a new observation that the first answer cannot explain.</p>
+<p>A fifth trap belongs with these, though it is less often listed: <b>confirmation</b>. Once you have a candidate, it is natural to look for what supports it. Good tasters do the reverse. They ask what they would expect to find if the candidate were right, and then check whether it is there. If you think the wine is Syrah, you should be able to find pepper, olive or meat. If none is present, the hypothesis is in trouble however dark the wine is.</p>
+
+<h3>When the evidence conflicts</h3>
+<p>Real wines are not always typical, and sooner or later the observations will point in two directions. A workable procedure:</p>
+<ul><li><b>Re-measure before reinterpreting.</b> Go back and taste again for the one structural element in dispute. Most conflicts are errors of measurement, especially of acid in a sweet wine and of tannin in a very fruity one.</li>
+<li><b>Rank the evidence.</b> Structure over aroma; impact compounds over general fruit; several agreeing observations over one vivid one.</li>
+<li><b>Look for a single cause.</b> Ask whether one explanation accounts for both readings. Ripe fruit with fresh acid is a conflict if you are thinking only of latitude, and no conflict at all if you think of altitude.</li>
+<li><b>Hold two candidates and name the test.</b> State what would separate them, then go and look for exactly that. Vouvray or Riesling: is the wine floral, and how heavy is it?</li>
+<li><b>If they still tie, play the odds.</b> Call the more classic wine and move on.</li></ul>
+
 <h3>A worked deduction</h3>
 <p><b>Evidence.</b> Deep ruby, purple rim, stained tears. Blackberry and black plum, just ripe. Black pepper, olive, smoked meat, violet. No vanilla or toast. Dry, medium-plus acid, medium-plus tannin, alcohol about 13%.</p>
 <p><b>Reasoning.</b> Deep color and staining rule out thin-skinned grapes. Pepper, olive and meat point to Syrah. Just-ripe fruit, moderate alcohol and fresh acid say moderate climate, not Barossa. No new oak and savory character fit the Northern Rhône. The wine is good but not profound, with medium length: village level, not Hermitage. Purple rim and primary fruit: two to four years old.</p>
-<p><b>Conclusion.</b> Syrah, France, Northern Rhône, Crozes-Hermitage or Saint-Joseph, three years old.</p>`,
+<p><b>Conclusion.</b> Syrah, France, Northern Rhône, Crozes-Hermitage or Saint-Joseph, three years old.</p>
+<p>Look at how little of that reasoning depended on recognizing the wine. Color eliminated a third of the field. An impact compound proposed a grape and the structure agreed with it. Ripeness and alcohol placed the climate. The absence of oak and the presence of savory notes placed the country. Length placed the tier, and color placed the age. Six cuts, each resting on a different observation.</p>
+
+<h3>A second deduction: a white</h3>
+<p><b>Evidence.</b> Pale lemon with a green tint. Pronounced nose of lime, green apple, white peach and white flowers, with a slatey, stony note. Off-dry. Very high acid. Light body. Alcohol low, perhaps 8 to 9 percent. No oak, no butter. Long finish in which the sweetness disappears and the acid remains.</p>
+<p><b>Reasoning.</b> Start with structure. Very high acid, low alcohol and residual sugar together describe a wine made by stopping fermentation in a cold place, and the grape must be one that holds acid. That is already close to Germany. The nose is aromatic and floral, which removes Chenin Blanc, the other high-acid grape made with sugar: Chenin is not floral and is a degree or more heavier. No oak or malolactic character confirms an aromatic variety handled protectively. Lime and green apple, not apricot, say a cool site. Low alcohol and delicacy favor the Mosel over the fuller Rheingau. The sweetness is modest and the body light, so Kabinett, not Spätlese. Pale color, primary fruit and no petrol: young.</p>
+<p><b>Conclusion.</b> Riesling, Germany, Mosel, Kabinett, one to three years old.</p>
+
+<h3>A third deduction: an older red</h3>
+<p><b>Evidence.</b> Pale garnet with a distinct orange rim. Dried cherry, rose petal, tar, licorice, leather and a hint of truffle. Dry. High acid. Tannin high and still gripping. Alcohol 14 percent. Long finish.</p>
+<p><b>Reasoning.</b> The color says thin skins or age or both. The tannin settles it: a pale wine with high tannin and high acid is Nebbiolo, and tar and roses agree. Now correct the age estimate for the grape. An orange rim would mean ten years or more on Cabernet, but Nebbiolo shows orange early, so the color alone proves little. Leather and truffle are tertiary notes, the fruit has moved from fresh to dried, yet the tannin is still firm. That balance suggests development without exhaustion: perhaps eight to twelve years. High alcohol, concentration and length say one of the top appellations and not a lighter Nebbiolo from Valtellina or Roero.</p>
+<p><b>Conclusion.</b> Nebbiolo, Italy, Piedmont, Barolo, about ten years old.</p>
+<p>The third case shows why the steps have an order. Had you judged age before grape, the orange rim would have sent you to a wine twice as old. Grape first, then everything else read in its light.</p>
+`,
 floor:`<p>Under CMS time pressure, the initial conclusion is your safety net: even if the final grape is wrong, a correct climate, country shortlist and age range still score. Write the short list explicitly.</p>`,
 analyst:`<p>At the Diploma, "The Wine in Context" asks for origin and variety with justification. Use these paths to write the justification: "High acid and tannin with a pale, garnet color and tar indicate Nebbiolo from Piedmont."</p>`,
 terms:[["Short list","The two or three grapes consistent with the structural evidence."],["Deductive path","A fixed route from structure to grape to climate to age, used to turn evidence into a call."],["Impact compound","A single aroma compound that points to a short list of grapes."],["Typicity","How closely a wine matches the classic style of its grape and place."],["Current release","The vintage a producer is selling now; set by each region's aging rules."]],
