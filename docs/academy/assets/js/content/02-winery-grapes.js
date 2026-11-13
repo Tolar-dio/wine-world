@@ -132,51 +132,105 @@ quiz:[
 ]});
 
 L.push({id:"f8", unit:"F3", title:"Oak, Malolactic and Lees", mins:13,
-summary:"The three big winemaking signatures you'll smell in the exam glass.",
+summary:"What oak, malolactic conversion and lees each do chemically, how a winemaker dials them up or down, and how to reason from the glass back to the cellar.",
 body:`
-<h3>Oak</h3>
-<p>Oak does three jobs: adds flavor (if new), allows slow oxygen exchange (softening tannins, stabilizing color), and adds tannin. Variables:</p>
-<ul><li><b>Species:</b> French oak (<i>Quercus petraea, robur</i>) is tighter-grained, giving subtle spice, cedar, toast. American oak (<i>Q. alba</i>) is sawn rather than split and gives bold vanilla, coconut and dill. Eastern European (Hungarian, Slavonian) is often in between; Slavonian casks are traditional in Barolo and Brunello.</li>
-<li><b>Size:</b> 225 L barrique (Bordeaux) or 228 L pièce (Burgundy); bigger casks (botti, foudres) impart less flavor.</li>
-<li><b>Toast:</b> light, medium, heavy. More toast = more smoke, coffee, mocha.</li>
-<li><b>Age:</b> new oak gives the most flavor; after 3-4 uses a barrel is neutral.</li>
-<li><b>Alternatives:</b> chips and staves, cheap and fast, oak flavor without oxygen.</li></ul>
-<p>Tasting clue: dill and coconut are the giveaway of American oak, which is why Rioja Reserva and many Zinfandels are recognizable blind.</p>
-<h3>Malolactic conversion (MLC)</h3>
-<p>Lactic acid bacteria convert sharp malic acid (green apple) into softer lactic acid (milk). Result: lower acidity, creamy texture, and buttery aromas from <b>diacetyl</b>. Nearly all reds go through MLC. For whites it is a style choice: yes for Meursault and buttery Californian Chardonnay; usually blocked for Riesling, Sauvignon Blanc and Albariño.</p>
-<h3>Lees</h3>
-<p>Lees are dead yeast cells. <b>Lees aging</b> (sur lie) adds bready, biscuity flavors and creamy texture. <b>Bâtonnage</b> (stirring) increases the effect. Muscadet Sèvre-et-Maine sur Lie is the textbook example in a cheap bottle; Champagne is the luxury version.</p>
-<h3>The "butter, toast, vanilla" question</h3>
-<p>Classic WSET 25-mark question: "Name two winemaking techniques that give butter, toast and vanilla." The answer is <b>MLC</b> (butter, from diacetyl) and <b>new oak maturation</b> (toast and vanilla from toasted barrels). Each would earn about 5 marks when explained: what happens, why it creates the aroma, and an example wine.</p>
-<h3>How a barrel is made, and what that costs</h3>
-<p>Oak for barrels comes from trees 100 to 200 years old. French forests are named on cooperage lists: Allier, Tronçais, Nevers and the Vosges give tight-grained wood for wine; wide-grained <b>Limousin</b> goes mostly to Cognac. The staves are stacked outdoors for two to three years so rain washes out harsh tannin, then bent over a fire and toasted. French oak must be split along the grain; American oak can be sawn, which wastes less wood and is one reason it costs about half as much.</p>
-<p>A new French barrique costs roughly €800 to €1,000 and holds 300 bottles. All-new oak therefore adds about €3 to every bottle before anything else is paid for. Oak is a budget decision as much as a style one.</p>
+<p>When fermentation ends, the wine is raw: sharp, cloudy and simple. What happens over the following months is called <i>élevage</i> in French, the raising of the wine, and three parts of it leave marks that a trained taster can name in the glass. <b>Oak</b> adds flavor and lets in air. <b>Malolactic conversion</b> changes the acid. <b>Lees</b> add texture and protect the wine from oxygen. Each is a choice, each can be dialed up or down, and between them they account for most of the difference between a Chablis and a Meursault, or between a young Rioja and a Gran Reserva. This chapter explains what each one does chemically, so that the tasting clues at the end are things you can reason out and not only memorize.</p>
+
+<h3>What a barrel does</h3>
+<p>A barrel does three separate jobs, and it is worth keeping them apart, because a winemaker can have any one without the others.</p>
+<ul><li><b>It adds flavor</b>, if the wood is new. The flavor compounds are finite, and each wine that passes through takes some away.</li>
+<li><b>It lets in oxygen</b>, slowly, through the wood, between the staves and through the bung hole. Measurements put the amount at somewhere between about 15 and 45 milligrams per liter of wine in a year. That small, steady dose softens tannin and fixes color in red wine, as the tannins and pigments link together into larger, more stable forms.</li>
+<li><b>It adds tannin</b> of its own, of a kind called ellagitannin, which contributes to structure and also helps protect the wine from oxidation.</li></ul>
+<p>A new small barrel does all three strongly. A large old cask does only the second. Chips or staves suspended in a steel tank do only the first. Reading a wine's oak regime is a matter of asking which of the three jobs the winemaker wanted.</p>
+
+<h3>The flavors, and where they come from</h3>
+<p>The taste of oak is the taste of a handful of identifiable compounds, and knowing them turns a vague impression into a deduction.</p>
+<table><tr><th>Compound</th><th>Smells of</th><th>Source</th></tr>
+<tr><td>Oak lactones</td><td>Coconut, fresh wood</td><td>Present in raw oak. Much higher in American oak. Reduced by heavy toasting</td></tr>
+<tr><td>Vanillin</td><td>Vanilla</td><td>Present in raw oak and increased by toasting, as the wood's lignin breaks down</td></tr>
+<tr><td>Eugenol</td><td>Clove, spice</td><td>Present in raw oak; increased by seasoning and toasting</td></tr>
+<tr><td>Guaiacol and related phenols</td><td>Smoke, char</td><td>Created by toasting</td></tr>
+<tr><td>Furfural and related compounds</td><td>Caramel, toasted almond, coffee</td><td>Created by toasting, as the wood's sugars caramelize</td></tr></table>
+<p>The oak lactones deserve a second look, because they are what makes American oak recognizable. They come in two forms. One of them, the cis form, is four to five times more pungent than the other and smells strongly of coconut. American white oak contains far more of it than European oak does, sometimes more than is welcome. That single fact is behind the giveaway aromas of coconut and dill in traditional Rioja, in many Zinfandels and in old-style Barossa Shiraz.</p>
+
+<h3>The variables</h3>
+<p><b>Species.</b> Three oaks matter. <i>Quercus alba</i>, American white oak, is high in lactones and low in tannin: bold, sweet, coconut and vanilla. <i>Quercus petraea</i>, the sessile oak of the forests of central France, is tight-grained, aromatic and moderate in tannin, and is the wood most prized for fine wine. <i>Quercus robur</i>, the pedunculate oak, grows faster with a wider grain, and is low in aroma and high in tannin. It is better suited to spirits, which is why wide-grained <b>Limousin</b> oak goes mostly to Cognac. French coopers sell by forest, and the names worth knowing for wine are Allier, Tronçais, Nevers and the Vosges. Oak from Hungary and from Slavonia in Croatia is the same European species and falls between French and American in effect. Large Slavonian casks are traditional in Barolo and Brunello.</p>
+<p>The species also differ in structure, with a practical consequence. The pores of American oak are naturally plugged, so a stave can be sawn in any direction and still hold liquid. French oak must be split along the grain, or it leaks. Splitting wastes most of the log. That is a large part of why an American barrel costs about half as much as a French one.</p>
+<p><b>Seasoning.</b> Freshly cut oak is harsh. The staves are stacked outdoors for <b>two to three years</b>, and rain washes out the harshest tannins while slow drying and the action of fungi on the wood's surface develop its aromas. Kiln drying is faster and cheaper and gives a coarser result.</p>
+<p><b>Toast.</b> To bend the staves into shape the cooper heats them over a fire, and then goes on heating the inside of the finished barrel to a chosen degree. Toasting is the main control over flavor. It creates the smoky and caramel compounds, raises vanilla and spice, and destroys lactones and tannin: in one trial, wine aged in lightly toasted French barrels took up more than six times as much oak tannin as wine in heavily toasted ones. So light toast gives more wood, coconut and structure, medium toast the most vanilla and spice, and heavy toast smoke, coffee and mocha with less of the wood's own character.</p>
+<p><b>Size.</b> The smaller the barrel, the more wood surface touches each liter of wine. The standards are the 225-liter Bordeaux <b>barrique</b> and the 228-liter Burgundy pièce. Larger casks, called botti in Italy and foudres in France and holding thousands of liters, impart little flavor and admit air more slowly.</p>
+<p><b>Age.</b> A barrel gives most of its flavor in its first use, noticeably less in its second, and after <b>three or four uses</b> it is considered neutral: a container that still breathes but no longer tastes of anything. Winemakers describe a regime by the proportion of new barrels, and a wine aged in one-third new oak has been through a mix of first-, second- and third-use barrels blended together.</p>
+<p><b>Alternatives.</b> Oak chips, cubes and staves can be put into wine in a tank. They give flavor quickly and cheaply and no oxygen. <b>Micro-oxygenation</b> supplies the missing half: a device bubbles a measured trickle of oxygen through wine in tank, to soften it as a barrel would at a fraction of the cost. The two together imitate a barrel well enough for inexpensive wine.</p>
+
+<h3>What it costs</h3>
+<p>Oak for barrels comes from trees 100 to 200 years old. A new French barrique costs roughly €800 to €1,000 and holds 300 bottles, so aging a wine entirely in new oak adds about €3 to every bottle before anything else is paid for. A barrel also loses wine by evaporation through the staves, the <b>angel's share</b>, and must be <b>topped up</b> every few weeks, which takes labor and more wine. Oak is a budget decision as much as a style one, and the proportion of new wood is one of the clearest signals of what a producer thinks a wine can sell for.</p>
+<p>A barrel left with an air space oxidizes the wine. In table wine that is a fault. In Oloroso Sherry, Vin Jaune and tawny Port it is the whole point, and the vocabulary of nuts, dried fruit and amber color that goes with deliberate oxidation is the same in all of them.</p>
+
 <h3>The dials a winemaker turns</h3>
-<table class="t"><tr><th>Wine</th><th>Typical oak regime</th></tr>
+<table><tr><th>Wine</th><th>Typical oak regime</th></tr>
 <tr><td>Chablis</td><td>Steel or old oak; little or no oak flavor</td></tr>
 <tr><td>Village white Burgundy</td><td>Barrel-fermented, about 20 to 30% new, 10 to 12 months</td></tr>
 <tr><td>Classed-growth Bordeaux, Napa Cabernet</td><td>18 to 22 months in barriques, 50 to 100% new French</td></tr>
 <tr><td>Rioja Gran Reserva (traditional)</td><td>Years in old American oak: gentle oxidation, vanilla and coconut</td></tr>
-<tr><td>Barolo (traditional)</td><td>Two years or more in large old botti: oxygen without oak flavor</td></tr>
+<tr><td>Barolo (traditional)</td><td>Two years or more in large old Slavonian botti: oxygen without oak flavor</td></tr>
 <tr><td>Barossa Shiraz (traditional)</td><td>American oak hogsheads</td></tr></table>
-<p><b>Barrel fermentation</b> and barrel aging are not the same. A white fermented in barrel tastes <i>less</i> oaky than one fermented in tank and then put in barrel, because yeast take up and transform oak compounds and the lees buffer the wood. That is why good white Burgundy carries so much new oak so quietly.</p>
-<p>Wine evaporates through the staves (the "angel's share"), so barrels are topped up every few weeks. A barrel left with headspace oxidizes: a fault in table wine, the whole point in Oloroso and Vin Jaune. <b>Micro-oxygenation</b> bubbles tiny amounts of oxygen through wine in tank to mimic a barrel's softening at lower cost.</p>
-<h3>Malolactic conversion: the fine print</h3>
-<ul><li>It usually follows the alcoholic fermentation. In a cold Burgundy cellar it may not finish until spring.</li>
-<li>Winemakers block it by chilling, adding SO₂ and filtering out the bacteria.</li>
-<li><b>Partial</b> conversion, or blending lots that did and didn't, tunes the acidity. Many Champagne houses and warm-climate Chardonnay producers do this.</li>
-<li>It makes wine more stable: no malic acid is left for bacteria to attack in bottle.</li>
-<li>Butter depends on the bacteria and on timing. Wine left on its lees after conversion loses diacetyl, which is why Meursault is less buttery than old-style California Chardonnay.</li></ul>
-<h3>Lees, gross and fine</h3>
-<p><b>Gross lees</b> are the heavy sediment that falls in the first days: grape solids and dead yeast. They are usually racked off because they can turn foul. <b>Fine lees</b> settle slowly afterwards and are the ones kept. They add texture, and they absorb oxygen, which protects the wine but can tip it into <b>reduction</b>: the struck-match note that marks many modern white Burgundies. Stirring brings in a little air and richness; leaving lees unstirred keeps the wine tighter.</p>
+<p>Read the table through the three jobs. Classed-growth Bordeaux has a great deal of tannin to tame and enough fruit to carry flavor, so it takes all three at full strength. Traditional Barolo has more tannin still but a delicate perfume that new wood would smother, so it takes oxygen alone, for a long time. Chablis wants none of it.</p>
+
+<h3>Barrel fermentation is not barrel aging</h3>
+<p>A white wine fermented in barrel tastes <b>less oaky</b> than the same wine fermented in tank and then moved to barrel. It seems backward, and the explanation is the yeast. Living yeast converts vanillin and other oak aldehydes into related compounds with far less smell. The lees that remain bind lactones, vanillin and oak tannin onto their surfaces. And because the wine meets the wood while it is still cloudy and full of protective solids, it extracts the flavors gradually. A clear, finished wine poured into a new barrel has none of these buffers and takes the oak raw. This is why good white Burgundy carries so much new oak so quietly, and why inexpensive Chardonnay made with chips after fermentation can taste like a plank.</p>
+
+<h3>Malolactic conversion</h3>
+<p>Grapes contain two main acids. Tartaric acid is stable. Malic acid, the sharp acid of green apples, is not, because bacteria can live on it. In <b>malolactic conversion</b>, usually shortened to MLC or MLF, lactic acid bacteria convert malic acid into <b>lactic acid</b>, the softer acid of milk, and give off a little carbon dioxide. It is often called a second fermentation, though no alcohol is produced.</p>
+<p>The effect on acidity is larger than swapping one acid for another would suggest. A molecule of malic acid carries two acidic units and a molecule of lactic acid only one, so half the acidity involved simply disappears. In practice the wine's total acidity falls by between one and three grams per liter and its pH rises by 0.1 to 0.3. The wine tastes rounder and softer.</p>
+<p>It also becomes more stable. A wine bottled with malic acid in it can be attacked by bacteria later, turning hazy and fizzy in the bottle. A wine that has finished its conversion has nothing left for them to eat. This is why <b>nearly all red wines</b> go through it: stability matters more to them than sharpness, and their tannin and fruit hide the loss of acid. For whites it is a matter of style. It is usual in Chardonnay, encouraged in Meursault and in buttery California wines, and <b>blocked</b> in Riesling, Sauvignon Blanc and Albariño, where it would remove the acidity and fresh fruit that define them. A white wine kept from converting stays sharper and more fruity.</p>
+
+<h3>The bacteria and what they will tolerate</h3>
+<p>The organism responsible is <i>Oenococcus oeni</i>, chosen by evolution and by winemakers because it is one of the few bacteria that can survive in wine at all. It is fragile even so, and its limits explain both how the conversion is encouraged and how it is stopped.</p>
+<table><tr><th></th><th>Favors conversion</th><th>Blocks it</th></tr>
+<tr><td>Temperature</td><td>64 to 72°F (18 to 22°C)</td><td>Below about 60°F (16°C)</td></tr>
+<tr><td>pH</td><td>3.3 to 3.5</td><td>Below about 3.1</td></tr>
+<tr><td>Sulfur dioxide</td><td>Very little</td><td>A modest dose</td></tr>
+<tr><td>Alcohol</td><td>Below about 13%</td><td>Above about 14%</td></tr></table>
+<p>To encourage it, a winemaker keeps the cellar warm, holds back sulfur dioxide after fermentation and may add a cultured strain. To prevent it, the winemaker chills the wine, adds sulfur dioxide and filters out the bacteria. In a cold Burgundy cellar the conversion may stall over winter and finish only when the cellar warms in spring. Very acidic wines resist it on their own, which is one reason it is hard to induce in the sharpest whites. Wines of high pH have the opposite problem: other, less welcome bacteria thrive alongside, and can produce vinegary and mousy faults.</p>
+<p>Traditionally the bacteria were added, or allowed to start, once the yeast had finished. Many producers now add them a day or two after the yeast, so that both work together. In trials this roughly halves the total time, which leaves the wine unprotected for a shorter period, and as the next section explains it changes the flavor.</p>
+
+<h3>Butter</h3>
+<p>The buttery aroma associated with the conversion comes from a compound called <b>diacetyl</b>, the same one that flavors butter itself. It is not made from malic acid. The bacteria make it from the small amount of citric acid in the wine, and they turn to citric acid late, so that the amount of diacetyl in the wine peaks at about the moment the malic acid runs out. After that it falls, because both yeast and bacteria take it up again and convert it to compounds with no smell.</p>
+<p>How buttery the finished wine is therefore depends on what happens around that peak, and every factor is under the winemaker's control.</p>
+<ul><li><b>The strain.</b> Some strains of bacteria make a great deal of diacetyl and some very little.</li>
+<li><b>Timing.</b> If the bacteria work alongside active yeast, the yeast consume the diacetyl as fast as it appears and the wine shows almost none. If they work after the yeast have been removed, more remains.</li>
+<li><b>Lees.</b> Leaving the wine on its yeast lees after the conversion gives the yeast time to remove the diacetyl. Racking the wine off its lees promptly keeps it.</li>
+<li><b>Speed.</b> A slow conversion, in a cool cellar at low pH, produces more than a fast one.</li>
+<li><b>Sulfur dioxide.</b> It stops the organisms and fixes the level, and it also binds to diacetyl and masks it. The bond is reversible, so some buttery character can return as the wine ages and its sulfur dioxide declines.</li></ul>
+<p>This is why Meursault, which goes through a full conversion, is seldom very buttery: it sits on its lees for months afterward. The old style of California Chardonnay obtained its butter by choosing productive strains and taking the wine off its lees at the peak. At low levels diacetyl reads as nutty and toasty; only at high levels does it smell plainly of butter. Many producers now use <b>partial conversion</b>, or blend lots that did and did not convert, to set the acidity and richness exactly. Champagne houses and warm-climate Chardonnay producers both do this.</p>
+
+<h3>Lees</h3>
+<p>Lees are the sediment left after fermentation. The <b>gross lees</b> fall in the first days: heavy fragments of grape and a mass of dead yeast. They are usually removed by racking, because left in bulk they turn foul. The <b>fine lees</b> settle slowly afterward and are mostly yeast cells. These are the ones a winemaker may choose to keep, a practice called aging <b>sur lie</b>.</p>
+<p>Dead yeast cells slowly digest themselves with their own enzymes, a process called autolysis, and release their contents into the wine over months and years. The most important things released are mannoproteins, large molecules that make up over a third of the yeast cell wall. They do several useful things at once.</p>
+<ul><li><b>Texture.</b> They add body and a creamy feel, and they bind to tannins, softening astringency, including the astringency of new oak.</li>
+<li><b>Flavor.</b> Amino acids and other cell contents give the bready, biscuity, doughy notes of lees aging, most obvious in Champagne, where the wine may spend years in the bottle with its yeast.</li>
+<li><b>Stability.</b> They make white wine less likely to throw a protein haze, so it needs less fining, and they slow the formation of tartrate crystals.</li>
+<li><b>Restraint of oak.</b> They bind vanillin, lactones and other oak compounds, which is part of why barrel-fermented wine tastes less woody.</li></ul>
+<p><b>Muscadet Sèvre-et-Maine sur Lie</b> is the textbook example in an inexpensive bottle: a neutral, sharp wine that gains texture and a faint yeasty savor from a winter on its lees. Champagne is the luxury version.</p>
+
+<h3>Lees and oxygen: the origin of struck match</h3>
+<p>Lees have a second property that matters as much as the first. They consume oxygen, greedily. In laboratory measurements, the lees in a wine could use up all the oxygen dissolved in it in less than a day. A wine resting on its lees is therefore protected from oxidation, and needs less sulfur dioxide.</p>
+<p>The protection can go too far. With no oxygen at all, the sulfur compounds that yeast naturally produce accumulate, and the wine becomes <b>reduced</b>. At its worst reduction smells of rotten egg, cabbage or burnt rubber and is a fault. At a low level it smells of <b>struck match</b> or gunflint, and that note has become a prized signature of modern white Burgundy and of the Chardonnays made in its image. It is reduction on the lees, managed to stop just short of a fault. This is also why wine is rarely aged on its lees in large tanks: with no oxygen entering and a deep layer of yeast, reduction is almost certain. A barrel lets in enough air to keep it in check.</p>
+<p>The tool for adjusting the balance is <b>bâtonnage</b>, stirring the lees back into the wine with a rod. Stirring speeds the release of mannoproteins, so the wine becomes richer and rounder, and it brings in a little air, which holds reduction back. Leaving the lees unstirred keeps the wine tighter and more reductive. Fashion has moved from the first toward the second. Heavy stirring was common in Burgundy in the 1990s, and was among the practices blamed, along with lower sulfur dioxide and changes in corks, when many white Burgundies from the mid-1990s onward turned brown and tired within a few years of bottling, a problem known as premature oxidation. In one comparative trial, a wine that was neither stirred nor topped up was preferred after four months to stirred versions, which tasters found duller and more oxidized.</p>
+
+<h3>The "butter, toast, vanilla" question</h3>
+<p>A classic exam question asks for two winemaking techniques that give butter, toast and vanilla in a Chardonnay. The answer is <b>malolactic conversion and new oak maturation</b>, and a full answer explains each: bacteria convert malic acid to lactic acid and produce diacetyl from citric acid along the way, which smells of butter; toasted new barrels release vanillin from the wood's lignin and smoky, caramel compounds formed by the fire, which give vanilla and toast. Then name a wine. The marks are in the mechanism.</p>
+
 <h3>Reading it in the glass</h3>
-<table class="t"><tr><th>You notice</th><th>It points to</th></tr>
+<table><tr><th>You notice</th><th>It points to</th></tr>
 <tr><td>Vanilla, toast, clove, smoke</td><td>New French oak</td></tr>
 <tr><td>Coconut, dill, sweet vanilla</td><td>American oak</td></tr>
 <tr><td>Butter, cream, softer acid</td><td>Malolactic conversion</td></tr>
 <tr><td>Bread dough, biscuit, creamy texture</td><td>Lees aging</td></tr>
 <tr><td>Struck match, flint</td><td>Reductive handling on lees</td></tr>
-<tr><td>Nuts, dried fruit, amber color</td><td>Deliberate oxidation</td></tr></table>`,
+<tr><td>Nuts, dried fruit, amber color</td><td>Deliberate oxidation</td></tr></table>
+<p>Each clue is now a conclusion you can defend. Coconut means oak lactones, which means American wood. Butter means diacetyl, which means a conversion finished away from active yeast and lees. Struck match means sulfur compounds held in a wine starved of oxygen, which means lees and little stirring. An examiner gives credit for the chain of reasoning, and a guest who asks why a wine tastes the way it does is asking for the same thing.</p>
+`,
 floor:`<p>The CMS 2024 grid splits non-fruit into "from the grape" and "from winemaking." Winemaking descriptors: bread dough, yeast, butter, cream, yogurt, toast, marzipan, stems. Oak gets its own block: new oak yes/no, intensity, descriptors, and type (French, American, Eastern European).</p>`,
 analyst:`<p>In the SAT these are <b>secondary aromas</b>: yeast (biscuit, bread, brioche), MLC (butter, cream, cheese), oak (vanilla, cloves, coconut, cedar, smoke, chocolate). Tertiary aromas come from aging: leather, earth, mushroom, honey, nuts.</p>`,
 terms:[["Barrique","225-liter Bordeaux barrel."],["MLC","Malolactic conversion: malic acid to lactic acid, softening wine."],["Diacetyl","Buttery compound produced during MLC."],["Bâtonnage","Stirring the lees in barrel."],["Sur lie","Aged on the lees, as in Muscadet."],["Seasoning","Air-drying oak staves outdoors for two to three years."],["Angel's share","Wine lost to evaporation through the barrel."],["Topping up","Refilling barrels to replace evaporated wine and keep air out."],["Micro-oxygenation","Dosing tiny amounts of oxygen into wine in tank."],["Gross lees","The heavy first sediment after fermentation, usually removed."],["Fine lees","The light yeast sediment kept for texture and protection."]],
