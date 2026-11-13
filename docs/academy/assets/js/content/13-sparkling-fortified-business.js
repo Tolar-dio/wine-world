@@ -1,31 +1,180 @@
 // ===== CURRICULUM PART 13: Sparkling & fortified (D4/D5 depth), business (D2), liqueurs =====
 L.push({id:"sp1", unit:"F3", title:"Deep Dive: Champagne and Traditional-Method Production", mins:22,
-summary:"Vineyard rules, pressing fractions, reserve wines, tirage to dosage in detail, and how other traditional-method regions compare.",
+summary:"Why a cold, chalky district at the limit of ripening became the model for sparkling wine: its ground, its borders and the riots that drew them, growers against houses, the reserve system, pressing rules, house style, and how the other traditional-method regions differ.",
 body:`
+<p>The last chapter explained how sparkling wine is made. This one is about the place that set the standard, and why it turned out the way it did. Champagne is a small, cold, chalky district at the edge of where grapes will ripen. Almost every rule it follows, from hand picking to blending across years to the peculiar bargain between its growers and its merchants, is a response to that position. The chapter ends by comparing the other regions that use the same method, and by showing how their differences follow from differences in climate and law.</p>
+
+<h3>Where it is, and why that matters</h3>
+<p>Champagne lies about 150 kilometers east of Paris, at 49 degrees north, close to the northern limit for wine grapes. Two climates meet there. Ocean air from the west brings mild temperatures and steady rain all year. The continent to the east brings sharp winters and the risk of frost in spring. The growing season was historically cool, averaging about 57.7°F (14.3°C) from the 1950s through the 1980s. In a climate like that, grapes ripen slowly and only just. They reach modest sugar and keep very high acidity.</p>
+<p>For still wine that is a handicap. For sparkling wine it is the ideal raw material, as the previous chapter explained: a thin, sharp base wine is exactly what the second fermentation needs. Champagne's fame rests on making a virtue of a marginal climate.</p>
+<p>The same marginal position explains the region's habits.</p>
+<ul><li><b>Vintages vary greatly,</b> so wines of different years are blended and stocks are held in reserve.</li>
+<li><b>Frost, hail and rot</b> can each destroy a large part of a crop. In 2021 frost and then mildew took around half of it. So the region runs a formal system of reserves, described below.</li>
+<li><b>Ripeness is never guaranteed,</b> so sugar may be added to the juice before fermentation to bring the alcohol up, and the minimum ripeness for picking is set year by year.</li></ul>
+
+<h3>Chalk</h3>
+<p>Under most of the central vineyards lies a bed of chalk hundreds of meters thick, laid down as the shells of marine organisms on the floor of a warm sea some 70 to 90 million years ago. The same bed runs under the Paris Basin and resurfaces across the Channel as the white cliffs and downs of southern England.</p>
+<p>Chalk matters for what it does with water. It is soft and full of fine pores. A cubic meter can hold 300 to 400 liters, and it gives that water up slowly, drawing it upward by capillary action as the surface dries. Rain drains through quickly, so roots never sit in water, and in a dry summer the vine can still drink from below. The vine is kept in mild, steady thirst, which restrains growth and favors ripening. Chalk is also easy to dig. The Romans quarried it for building stone, and the pits they left, along with the tunnels dug since, give the region hundreds of kilometers of cellars that hold a constant cool temperature with no machinery at all. More than a billion bottles lie in them.</p>
+<p>Two points keep the picture accurate. First, pure chalk is thin on nutrients and gives lean, high-acid, slow-maturing wine, which suits Chardonnay best. Second, not all of Champagne is chalk. The Marne valley has more clay and sand, and the southern district, the Aube, sits on a different and older rock, a limestone marl of the same kind as Chablis. About three-quarters of the region's bedrock is limestone of one sort or another.</p>
+
+<h3>The districts and their grapes</h3>
+<p>The appellation covers about 34,200 hectares in 319 villages, called crus. Three grapes account for more than 99% of it: Pinot Noir at 38%, Chardonnay at 32% and Meunier at 30%. Each has its home, and the reasons are practical.</p>
+<table><tr><th>District</th><th>Ground</th><th>Main grape</th><th>Why</th></tr>
+<tr><td>Montagne de Reims</td><td>Chalk under a wooded plateau; slopes facing every direction, some north</td><td>Pinot Noir</td><td>Gives structured, firm Pinot Noir; grand crus include Ambonnay, Bouzy, Verzenay and Verzy</td></tr>
+<tr><td>Vallée de la Marne</td><td>Clay, sand and marl along the river</td><td>Meunier</td><td>The valley floor is frost-prone. Meunier buds late and so escapes spring frost, and it tolerates clay</td></tr>
+<tr><td>Côte des Blancs</td><td>Pure chalk, east-facing</td><td>Chardonnay</td><td>The classic home of blanc de blancs: Cramant, Avize, Oger, Le Mesnil-sur-Oger</td></tr>
+<tr><td>Côte de Sézanne</td><td>Chalk with more clay; a little warmer</td><td>Chardonnay</td><td>Riper, softer Chardonnay</td></tr>
+<tr><td>Côte des Bar (the Aube)</td><td>Kimmeridgian marl, over 100 km to the south</td><td>Pinot Noir</td><td>Warmer and fruitier; nearly a quarter of the region's vines, and the source of much of its Pinot Noir</td></tr></table>
+<p>Four other old varieties are permitted and survive on a few hectares: Arbane, Petit Meslier, Pinot Blanc and Pinot Gris. Some growers are replanting them, partly out of curiosity and partly because Arbane and Petit Meslier keep their acidity in warm years. A disease-resistant hybrid, Voltis, has been admitted on a trial basis, the first in a major French appellation.</p>
+
+<h3>The ranking of villages</h3>
+<p>Champagne classifies whole villages, not individual vineyards as Burgundy does. The system began as a price list. From 1911 a scale called the <i>échelle des crus</i> rated each village between 80 and 100 percent, and a grower was paid that percentage of the price agreed for the year's grapes. The 17 villages rated 100% became the <b>grands crus</b>. The 42 rated 90 to 99% became the <b>premiers crus</b>.</p>
+<p>The fixed price system was dismantled around the turn of this century, and grapes are now sold by private contract, but the two titles remain on labels. They are a blunt instrument. A whole village shares one rating whatever the slope or soil of a given plot, and since most Champagne is a blend of many villages, the terms appear on a minority of bottles.</p>
+
+<h3>How the region got its borders</h3>
+<p>The name Champagne was worth money long before the law defined it, and the definition was fought over in the streets.</p>
+<p>By 1900 the houses of Reims and Épernay were selling far more wine than the local vineyards could supply, and some bought cheap wine from elsewhere in France and abroad. Meanwhile the growers were ruined by a string of disasters: phylloxera, which reached the region in the 1890s, and then a run of harvests lost to frost, hail and mildew, with almost nothing picked in 1910. A decree of 1908 drew the first boundary, around the Marne and part of the Aisne. It left out the Aube.</p>
+<p>In January 1911 growers in the Marne valley attacked the cellars of merchants accused of using outside wine, smashing barrels and pouring the wine into the streets. In April, when the government seemed ready to let the Aube back in, they rioted again around Aÿ and Épernay, burning buildings, and the army occupied the vineyards with tens of thousands of troops. The growers of the Aube marched in their turn, demanding inclusion. A compromise of June 1911 created a second-class zone for the Aube that satisfied no one.</p>
+<p>The matter was settled by the law of 22 July 1927, which fixed the boundary that applies today, with the Aube inside on equal terms. The appellation followed in 1936, among the first in France. In 1941, under German occupation, growers and houses together formed the body that still governs the region, the <b>Comité Champagne</b>, still widely known by its old initials, CIVC.</p>
+<p>The history explains two things about the present. The boundary is defended fiercely, in courts around the world, because the region learned early what happens when the name is used loosely. And the suspicion between those who grow the grapes and those who sell the wine was built into the region's institutions, which exist to manage it.</p>
+
+<h3>How Champagne became a luxury</h3>
+<p>Until the late 1600s Champagne was known for still wine, pale red and pink, sold in competition with Burgundy. The sparkle, as the last chapter described, began as an accident of the cold and became fashionable first in London and then at the French court in the early 1700s. The first firm founded to sell it, Ruinart, dates from 1729, soon after a royal decree first allowed wine to be shipped in bottle. Moët followed in 1743, and most of the famous names in the hundred years after.</p>
+<p>Three things turned a fragile curiosity into an industry in the 1800s.</p>
+<ul><li><b>Technique.</b> Riddling, the measurement of sugar, stronger bottles and better corks cut the losses from a third or more of every cellar to almost nothing.</li>
+<li><b>Merchants.</b> Champagne was built by salesmen and, unusually, by widows who inherited firms and ran them: Clicquot, Pommery, Bollinger. The widow Clicquot shipped her wine to Russia through a naval blockade in 1814 and made it the drink of that court. Travelling agents did the same in Britain and the United States.</p>
+<li><b>Branding.</b> Champagne was the first wine sold by the maker's name and not the vineyard's. A customer asked for a house, trusted it to taste the same each time, and paid for that assurance. Blending across years and villages made the promise possible.</li></ul>
+<p>The style was set by its customers. Russia wanted the wine very sweet, with far more sugar than any dessert wine today. France liked it sweet. The British preferred it dry, and from the 1870s houses began shipping dry wines for them, which they called Brut. The dry style spread over the following decades and became the standard.</p>
+<p>Production grew from a few hundred thousand bottles a year in the late 1700s to tens of millions by 1900. The twentieth century then nearly destroyed the trade. The Western Front ran through the vineyards for four years, and Reims was shelled to rubble while the population sheltered in the chalk cellars. The Russian Revolution and American Prohibition closed two of the largest markets within three years of each other, and the Depression followed. Recovery came after 1945, and with it growth that outran everything before: from about 30 million bottles in 1950 to more than 300 million by the end of the century.</p>
+
+<h3>Growers and houses</h3>
+<p>Champagne is divided between two groups who need each other and do not always agree.</p>
+<ul><li>About 16,500 <b>growers</b> farm 90% of the vineyards. Most own only a hectare or two.</li>
+<li>About 400 <b>houses</b>, the merchant firms with the famous names, ship more than 70% of the bottles and nearly nine-tenths of the exports by value. They own a small share of the land and must buy most of their grapes.</li>
+<li>About 120 <b>cooperatives</b> press and make wine for their member growers. Some sell under their own brands.</li></ul>
+<p>The grower has the grapes and the house has the market. Each year the Comité Champagne, on which both sit, negotiates the terms. The two letters before the registration number on every label say who made the wine.</p>
+<table><tr><th>Code</th><th>Stands for</th><th>Meaning</th></tr>
+<tr><td>NM</td><td>Négociant manipulant</td><td>A house that buys grapes and makes the wine. All the large brands</td></tr>
+<tr><td>RM</td><td>Récoltant manipulant</td><td>A grower who makes wine from his or her own grapes: "grower Champagne"</td></tr>
+<tr><td>CM</td><td>Coopérative de manipulation</td><td>A cooperative selling wine made from members' grapes</td></tr>
+<tr><td>RC</td><td>Récoltant coopérateur</td><td>A grower selling, under his own label, wine made by the cooperative</td></tr>
+<tr><td>SR</td><td>Société de récoltants</td><td>A group of growers, often a family, making wine together</td></tr>
+<tr><td>ND</td><td>Négociant distributeur</td><td>A merchant who buys finished bottles and labels them</td></tr>
+<tr><td>MA</td><td>Marque d'acheteur</td><td>A buyer's own brand, such as a supermarket label</td></tr></table>
+<p>The rise of grower Champagne since the 1990s changed how the region is discussed. A house blends for consistency across many villages. A grower works a few plots in one or two villages and often bottles them separately, so the wine shows a place and a year. Neither approach is better. They answer different questions, and a good list carries both.</p>
+
+<h3>Yield and the reserve</h3>
+<p>Each July, before the harvest, the Comité Champagne sets the yield that may be turned into Champagne that year. The figure is an economic decision as much as an agricultural one: it is fixed by looking at the size of the crop, the stocks in the cellars and the forecast for sales. For 2025 it was 9,000 kilograms per hectare, and for 2026 a little lower.</p>
+<p>Above that limit, a grower may pick more and set the wine aside as a personal <b>reserve</b>, up to a ceiling. The reserve wine is kept still, in tank, and cannot be sold. In a year when frost or hail cuts the crop, the Comité releases wine from the reserve to make up the shortfall. The region holds reserves equal to most of a year's harvest. The system is the reason Champagne's output and prices stay steady in a climate that would otherwise make them swing wildly, and no other major wine region has anything quite like it.</p>
+<p>Sales show why the yield matters. The region shipped about 266 million bottles in 2025, down from a peak of well over 300 million. A little under half is drunk in France. The United States, the United Kingdom and Japan are the largest export markets. When sales fall, the permitted yield falls with them.</p>
+
 <h3>In the vineyard</h3>
-<p>About 34,000 ha across some 320 villages (crus). Permitted pruning systems: <b>Chablis</b> (mainly Chardonnay), <b>Cordon de Royat</b> (mainly Pinot Noir), <b>Guyot</b> and <b>Vallée de la Marne</b> (for Meunier). Hand harvesting is mandatory because whole bunches must reach the press intact. The interprofessional body (the <b>Comité Champagne</b>, CIVC) sets the permitted yield each year according to the crop and the market, and allows some wine to be held in a <b>reserve</b> against bad years.</p>
+<p>Vines are planted very densely, around 8,000 to the hectare, in low rows barely a meter apart. Crowding makes each vine compete and limits its crop. Only four <b>pruning systems</b> are permitted, each matched to a grape.</p>
+<table><tr><th>System</th><th>Used for</th><th>How it works</th></tr>
+<tr><td>Taille Chablis</td><td>Mainly Chardonnay</td><td>Several long permanent arms, each ending in a short fruiting cane</td></tr>
+<tr><td>Cordon de Royat</td><td>Mainly Pinot Noir</td><td>One permanent horizontal arm with short spurs along it</td></tr>
+<tr><td>Guyot</td><td>All three, in lesser villages</td><td>One or two canes renewed each year</td></tr>
+<tr><td>Vallée de la Marne</td><td>Meunier</td><td>A cane system suited to Meunier's habit and to frost-prone sites</td></tr></table>
+<p>The two systems that keep a lot of old wood, Chablis and Cordon, are required in the best villages. Old wood stores reserves that help the vine through a hard spring.</p>
+<p><b>Hand harvesting is mandatory.</b> The reason is technical. White juice has to be taken from black grapes without color, which is possible only if the berries arrive at the press whole and unbroken. A harvesting machine shakes berries off the stems and splits them. So each autumn more than 100,000 pickers arrive for about three weeks. The opening date is set village by village and grape by grape, after sampling at hundreds of plots.</p>
+<p>The climate is changing what they pick. The average temperature of the growing season rose to about 61.9°F (16.6°C) in the first decade of this century, more than two degrees Celsius above the old norm. Harvest used to begin in late September or October. In 2003 it began in August for the first time since records started in 1822, and August harvests have recurred several times since. Grapes are riper and lower in acid than they were. So far most producers count this a gain: less added sugar is needed, dosage has come down, and poor vintages are rarer. The concern is what happens to acidity if the trend continues.</p>
+
 <h3>Pressing</h3>
-<p>Presses sit near the vineyards; whole bunches are pressed gently and quickly so black grapes don't color the juice. A traditional <b>marc</b> of 4,000 kg yields at most 2,550 liters: the first 2,050 liters is the <b>cuvée</b> (purest, highest acid, finest) and the next 500 liters the <b>taille</b> (fruitier, more phenolic, often used by Meunier-heavy or early-drinking blends). Juice is then settled (débourbage).</p>
+<p>Pressing is regulated more tightly than any other step, because the quality of the juice is fixed here. Nearly 1,900 licensed press houses are scattered through the villages so that grapes travel a short distance and arrive intact.</p>
+<p>Whole bunches go into the press. The traditional press is a wide, shallow basket, and the standard load, a <b>marc of 4,000 kg</b>, is spread thin so that the juice runs out quickly without washing over the skins. The same load may yield at most <b>2,550 liters</b>, and the juice is separated as it runs.</p>
+<ul><li>The first <b>2,050 liters</b> are the <b>cuvée</b>. This juice comes from the middle of the berry's flesh, the part richest in both sugar and acid, and is the purest and longest-lived.</li>
+<li>The next <b>500 liters</b> are the <b>taille</b>. This is lower in acid, higher in minerals and color, fruitier and quicker to mature. It is useful in blends meant for early drinking, often those heavy in Meunier, and many top producers sell it off.</li>
+<li>Anything pressed after that may not become Champagne and is sent for distillation.</li></ul>
+<p>The juice is then left to settle for half a day or so, a step called <i>débourbage</i>, and the clear juice is drawn off its sediment for fermentation.</p>
+
 <h3>Base wine and assemblage</h3>
-<p>First fermentation in stainless steel (most houses) or oak (Krug, Bollinger, many growers). MLC is a style choice: most houses do it for roundness; some block it for tension (Lanson historically, Gosset, many growers). The chef de cave then blends dozens or hundreds of base wines across villages, grapes and years. <b>Reserve wines</b> (older still wines kept in tank, barrel, or a perpetual reserve) give NV consistency; a typical NV uses 10-50% reserve.</p>
-<h3>Tirage to disgorgement</h3>
-<ol><li><b>Liqueur de tirage</b>: about 24 g/L sugar, selected yeast, nutrients and riddling aids (bentonite or alginate) produce about 6 atmospheres and about 1.2-1.5% extra alcohol.</li>
-<li><b>Prise de mousse</b>: second fermentation in bottle, under crown cap (or cork and staple for prestige cuvées), in cool cellars around 10-12°C over several weeks.</li>
-<li><b>Sur lattes / lees aging</b>: minimum 12 months on lees and 15 months total for NV; 36 months for vintage. Top houses go much longer. Autolysis releases mannoproteins and amino acids: creaminess, brioche, toast, finer mousse.</li>
-<li><b>Remuage</b>: by hand on pupitres (a remueur can turn tens of thousands of bottles a day) or, now usually, by gyropalette in about a week.</li>
-<li><b>Dégorgement</b>: à la glace (neck frozen in brine, cap removed, plug ejected) or rarely à la volée (by hand without freezing).</li>
-<li><b>Dosage</b>: liqueur d'expédition (wine plus sugar, sometimes aged reserve wine or even Cognac in history) sets sweetness. Then corking, wiring, and post-disgorgement rest.</li></ol>
-<h3>Rosé, sizes and terms</h3>
-<p>Rosé by <b>assemblage</b> (adding still red Coteaux Champenois, the common method) or <b>saignée</b>. Bottle sizes: half (375 ml), bottle, magnum (1.5 L), Jeroboam (3 L), Rehoboam (4.5 L), Methuselah (6 L), Salmanazar (9 L), Balthazar (12 L), Nebuchadnezzar (15 L). Magnums age best; very large formats are usually filled by transfer from bottles. "Late disgorged" wines rest extra years on lees before disgorgement.</p>
-<h3>Traditional method around the world</h3>
-<table class="t"><tr><th>Wine</th><th>Main grapes</th><th>Minimum lees aging (base level)</th></tr>
+<p>Most houses ferment in stainless steel, for clean, neutral wines. A minority ferment in oak, usually old barrels, for a broader, more oxidative style: Krug and Bollinger are the best-known, along with many growers. Malolactic conversion is a choice of style. Most houses carry it out for roundness. Some block it for tension, as Lanson did historically and Gosset and many growers do.</p>
+<p>In the winter the cellar master, the <i>chef de cave</i>, blends dozens or hundreds of base wines across villages, grapes and years. <b>Reserve wines</b>, older still wines kept in tank, in barrel or in a perpetual reserve, give the non-vintage its consistency. A typical non-vintage contains between a tenth and a half reserve wine.</p>
+
+<h3>From tirage to disgorgement, in Champagne's terms</h3>
+<p>The steps are those of the previous chapter. The numbers below are the ones set by Champagne's rules and customs.</p>
+<ul><li><b>Liqueur de tirage:</b> about <b>24 g/L</b> of sugar, selected yeast, nutrients and riddling aids produce about 6 atmospheres and about 1.2 to 1.5% extra alcohol. Bottling may not begin before the January after harvest.</li>
+<li><b>Prise de mousse:</b> the second fermentation, in bottle, under crown cap (or cork and staple for some prestige wines), in cellars at around 50 to 54°F, over several weeks.</li>
+<li><b>Sur lattes:</b> bottles rest stacked on their sides. The minimum is 12 months on lees and 15 months in total for non-vintage, and <b>36 months</b> for vintage. Good houses go much longer: three years for a non-vintage and seven to ten for a prestige wine are common.</li>
+<li><b>Remuage:</b> by hand on pupitres, or now usually by gyropalette in about a week.</li>
+<li><b>Dégorgement:</b> <i>à la glace</i>, with the neck frozen, or rarely <i>à la volée</i>, by hand without freezing.</li>
+<li><b>Dosage:</b> the liqueur d'expédition sets the sweetness, followed by corking, wiring and a rest before sale.</li></ul>
+<p>Why set minimums longer than Europe's general nine months? Because the wine needs it. A high-acid base wine from a cold climate is hard and thin at a year old. Time on lees is what rounds it, and the long minimums are the region's protection against its own wine being sold too young.</p>
+
+<h3>Styles, and the still wines</h3>
+<ul><li><b>Non-vintage</b> is the bulk of production and the test of a house.</li>
+<li><b>Vintage</b> wines come from a single good year and show its character.</li>
+<li><b>Prestige cuvées</b> are each house's best wine, usually vintage-dated, from its best vineyards, with the longest aging.</li>
+<li><b>Blanc de blancs</b> and <b>blanc de noirs</b> are defined by grape color.</li>
+<li><b>Rosé</b> is made in two ways. Most is rosé <b>by assemblage</b>: a little still red wine from Champagne is blended into the white base wine before bottling, which gives exact and repeatable color. A few are made by <i>saignée</i>, a brief soak of black grapes on their skins, which gives a deeper, more vinous wine.</li></ul>
+<p>The region also makes a little still wine. <b>Coteaux Champenois</b> can be red, white or rosé, and the reds, from villages such as Bouzy, are light and sharp in a cool year and increasingly good in warm ones. <b>Rosé des Riceys</b>, from the Aube, is a rare still rosé of Pinot Noir.</p>
+
+<h3>House style: reading the choices</h3>
+<p>Every decision described so far is a dial, and a house's style is the setting of all of them together. Knowing the dials lets you predict the taste from the technical sheet, and it is the kind of reasoning advanced exams reward.</p>
+<table><tr><th>Decision</th><th>One way</th><th>The other way</th></tr>
+<tr><td>Grape balance</td><td>Chardonnay-led: lean, citrus, chalky, slow to open</td><td>Pinot-led: broad, red-fruited, more body</td></tr>
+<tr><td>Fermentation vessel</td><td>Steel: clean, precise, fresh</td><td>Oak: broader, spicy, nutty, more oxidative</td></tr>
+<tr><td>Malolactic conversion</td><td>Carried out: round, creamy</td><td>Blocked: sharp, tense, long-lived</td></tr>
+<tr><td>Reserve wine</td><td>Little: fresh, shows the base year</td><td>Much, and old: depth, honey, dried fruit</td></tr>
+<tr><td>Time on lees</td><td>Near the minimum: fruit first</td><td>Long: pastry, toast, fine texture</td></tr>
+<tr><td>Dosage</td><td>Low or none: austere, exposed</td><td>Toward 12 g/L: rounder, easier</td></tr></table>
+<p>So a house that ferments in old oak, favors Pinot Noir and uses a large share of old reserve wine will make a rich, nutty, golden wine. One that works in steel with a high share of Chardonnay and modest reserves will make a pale, taut, citrus-driven one. Both may sit side by side on a list at the same price, and the guest who dislikes one will often love the other.</p>
+
+<h3>Reading a label</h3>
+<ul><li><b>The word Champagne</b> stands alone. It is one of the few French wines not required to add "appellation contrôlée."</li>
+<li><b>The sweetness term</b>, usually Brut.</li>
+<li><b>The producer code</b>, in small print: NM, RM, CM and the rest.</li>
+<li><b>A vintage</b>, if any. With no year shown, the wine is a blend of years.</li>
+<li><b>Grand cru or premier cru</b>, if all the grapes came from villages of that rank.</li>
+<li><b>Increasingly, a back label</b> giving the base year of the blend, the share of reserve wine, the dosage in grams and the date of disgorgement. These four facts tell a trained reader most of what the wine will taste like, and their appearance on labels is the most useful change in Champagne in a generation.</li></ul>
+
+<h3>Bottle sizes</h3>
+<table><tr><th>Name</th><th>Volume</th><th>Bottles</th></tr>
+<tr><td>Half</td><td>375 ml</td><td>½</td></tr>
+<tr><td>Bottle</td><td>750 ml</td><td>1</td></tr>
+<tr><td>Magnum</td><td>1.5 L</td><td>2</td></tr>
+<tr><td>Jeroboam</td><td>3 L</td><td>4</td></tr>
+<tr><td>Rehoboam</td><td>4.5 L</td><td>6</td></tr>
+<tr><td>Methuselah</td><td>6 L</td><td>8</td></tr>
+<tr><td>Salmanazar</td><td>9 L</td><td>12</td></tr>
+<tr><td>Balthazar</td><td>12 L</td><td>16</td></tr>
+<tr><td>Nebuchadnezzar</td><td>15 L</td><td>20</td></tr></table>
+<p>Magnums age best. The amount of air that gets past the closure is about the same for a magnum as for a bottle, but it is shared among twice as much wine, so the wine develops more slowly and keeps its gas longer. Half bottles age fastest, for the same reason in reverse. The very large formats are usually filled by transfer from ordinary bottles after the second fermentation, since fermenting and riddling a fifteen-liter bottle is impractical. "Late disgorged" wines rest extra years on their lees before disgorgement.</p>
+
+<h3>Protecting the name</h3>
+<p>Champagne guards its name more aggressively than any other wine region, and the Comité Champagne keeps lawyers at work on it around the world. The principle is that Champagne is a place and cannot be a style.</p>
+<ul><li>Within Europe, other sparkling wines have been forbidden to use even the phrase <i>méthode champenoise</i> since 1994, which is why labels say traditional method or classic method.</li>
+<li>The name has been defended against products that have nothing to do with wine, including a perfume, a yogurt and a brand of cigarettes.</li>
+<li>The United States is the main exception. It never ratified the treaty that protected the name after the First World War. Under an agreement with the European Union in 2006, American producers who were already using the word may continue to, on domestic labels with the place of origin added, and no new ones may start. This is why a few inexpensive American wines are still called Champagne.</li></ul>
+
+<h3>What a bottle costs to make</h3>
+<p>Champagne is expensive for reasons that can be counted.</p>
+<ul><li><b>Land.</b> A hectare of vines in the best villages sells for well over a million euros, the highest price for farmland in France.</li>
+<li><b>Grapes.</b> About 1.2 kilograms of grapes go into each bottle, and Champagne grapes are among the dearest in the world. The fruit alone costs more than most finished bottles of wine sell for.</li>
+<li><b>Labor.</b> Everything is picked by hand, on a tight schedule, by a temporary workforce that must be housed and fed.</li>
+<li><b>Time.</b> A house holds three to four years of sales in its cellars. The cost of financing that stock is one of the largest items in its accounts.</li>
+<li><b>Marketing.</b> The large houses spend heavily to keep the wine a symbol of celebration, and that image is part of what the customer buys.</li></ul>
+<p>The comparison with Crémant or Cava at a third of the price is therefore not like for like. The grapes cost a fraction as much, the wine is sold after one year in place of three, and nobody is paying for a century of advertising.</p>
+
+<h3>The traditional method around the world</h3>
+<p>The method travels. The climate and the rules do not, and the differences in the glass follow from those.</p>
+<table><tr><th>Wine</th><th>Main grapes</th><th>Minimum lees aging (base level)</th></tr>
 <tr><td>Champagne NV</td><td>Chardonnay, Pinot Noir, Meunier</td><td>12 months (15 total)</td></tr>
 <tr><td>Crémant (French regions)</td><td>Local grapes</td><td>9 months</td></tr>
 <tr><td>Cava</td><td>Macabeo, Xarel·lo, Parellada, Chardonnay</td><td>9 months (Reserva 18, Gran Reserva 30)</td></tr>
 <tr><td>Franciacorta</td><td>Chardonnay, Pinot Nero, Pinot Bianco</td><td>18 months (Satèn 24)</td></tr>
 <tr><td>Trento DOC</td><td>Chardonnay, Pinot Nero</td><td>15 months</td></tr>
 <tr><td>Cap Classique</td><td>Chardonnay, Pinot Noir</td><td>12 months</td></tr>
-<tr><td>English sparkling</td><td>Chardonnay, Pinot Noir, Meunier</td><td>Varies by scheme</td></tr></table>`,
+<tr><td>English sparkling</td><td>Chardonnay, Pinot Noir, Meunier</td><td>Varies by scheme</td></tr></table>
+<p><b>Crémant.</b> Eight French regions make it, with Alsace the largest, followed by Burgundy and the Loire. The rules borrow Champagne's logic: hand picking, whole-bunch pressing with a limit on juice, and bottle fermentation. The grapes are each region's own, so Crémant d'Alsace leans on Pinot Blanc, Crémant de Loire on Chenin Blanc, and Crémant de Bourgogne on Chardonnay and Pinot Noir. With nine months on lees, most taste of fruit more than of yeast, and they cost a third of the price.</p>
+<p><b>Cava.</b> Spain's traditional-method wine was first made in 1872 at Codorníu, in Sant Sadurní d'Anoia in the Penedès, west of Barcelona, where nearly all of it still comes from. The climate is Mediterranean, so the grapes are local varieties that hold acidity in the heat. Xarel·lo is the backbone, with an earthy, herbal character that makes Cava recognizable. Because the fruit is riper and lower in acid than Champagne's, Cava is softer and broader. A reform that took effect from 2020 created tiers by aging: Cava de Guarda at nine months, and Guarda Superior for Reserva, Gran Reserva and the single-estate Paraje Calificado, with stricter yields and organic farming. Some leading estates left the appellation in 2019 to form their own group, Corpinnat, in protest at the low price and image of basic Cava.</p>
+<p><b>Franciacorta.</b> Lombardy's wine comes from hills south of Lake Iseo and is a recent creation, dating from the 1960s. It set out to match Champagne and wrote stricter rules: 18 months on lees for the basic wine, against Champagne's 12. The climate is warmer, so the wines are riper and rounder, with less bite. <b>Satèn</b> is its own invention: white grapes only, at lower pressure, with at least 24 months on lees, giving a soft, creamy wine.</p>
+<p><b>Trento DOC.</b> In the mountains of Trentino, Giulio Ferrari began making sparkling wine in 1902 after training in Champagne. Altitude does here what latitude does in France: vineyards high on the valley sides give grapes with firm acidity despite the southern sun.</p>
+<p><b>Cap Classique.</b> South Africa's version began in 1971 and is mostly Chardonnay and Pinot Noir from cooler sites. The minimum time on lees was raised to 12 months in 2021.</p>
+<p><b>England.</b> The chalk of the South Downs is the same formation as Champagne's, and the climate is like Champagne's of fifty years ago: marginal, cool, high in acid. Serious production began around 1990, and the best wines now stand comparison with Champagne, with a sharper, more apple-like acidity. Champagne houses have bought land there, which is the most telling verdict on the region's future. Vineyard area has grown several-fold this century.</p>
+<p><b>Elsewhere.</b> California's cooler districts, Tasmania and New Zealand all make good traditional-method wines, often from estates founded by Champagne houses from the 1970s onward.</p>
+<p>The pattern across all of them is one idea. Where the climate is cool, the wine is sharp and needs long aging to come round, and tastes of chalk, citrus and pastry. Where it is warm, the wine is ripe and ready sooner, and tastes of orchard fruit. A taster who identifies the method first and then asks how sharp the acidity is has usually narrowed the field to two or three regions.</p>
+`,
 floor:`<p>Serve vintage and prestige Champagne in a white wine glass, not a flute, and not too cold (around 48-52°F) so its complexity shows. Magnums are the best value for a table of six or more.</p>`,
 analyst:`<p>D4 questions: explain the role of reserve wines; compare cuvée and taille; explain how lees aging changes a wine; compare the production rules of Champagne, Cava and Franciacorta.</p>`,
 terms:[["Marc","A 4,000 kg load of grapes pressed in Champagne."],["Cuvée / taille","First 2,050 L and next 500 L of juice from a marc."],["Prise de mousse","Second fermentation creating bubbles in bottle."],["Sur lattes","Bottles aging horizontally on their lees."],["Gyropalette","Machine for automated riddling."],["Comité Champagne","Champagne's interprofessional body (CIVC)."]],
@@ -84,56 +233,145 @@ quiz:[
 ]});
 
 L.push({id:"fo2", unit:"F3", title:"Deep Dive: Vins Doux Naturels and the Fortified World", mins:16,
-summary:"Mutage, Banyuls and Maury, Muscat VDNs, Rasteau, rancio; Rutherglen's classification; Marsala, Setúbal, Málaga and mistelles.",
+summary:"Three questions that sort every fortified wine outside Port, Sherry and Madeira: when the spirit went in, whether air was let in, and for how long. Roussillon, Rutherglen, Marsala, Setúbal and the mistelles.",
 body:`
-<h3>Vins Doux Naturels (VDN)</h3>
-<p>Southern France's fortified wines are made by <b>mutage</b>: adding neutral grape spirit (about 95-96%) during fermentation, killing yeast and leaving natural sugar, to reach about 15-18% alcohol. Two families:</p>
-<ul><li><b>Muscat VDNs</b>: kept fresh and grapey, usually without oxidation: <b>Muscat de Beaumes-de-Venise</b> (Rhône), <b>Muscat de Rivesaltes</b>, <b>Muscat de Frontignan</b>, <b>Muscat de Lunel</b>, <b>Muscat de Mireval</b>, <b>Muscat de Saint-Jean-de-Minervois</b>, Muscat du Cap Corse.</li>
-<li><b>Grenache VDNs</b> (Roussillon and Rhône): <b>Banyuls</b> and <b>Banyuls Grand Cru</b> (at least 30 months in wood), <b>Maury</b>, <b>Rivesaltes</b>, and <b>Rasteau</b> VDN. Styles run from <b>grenat/rimage</b> (young, fruity, reductive, bottled early to keep red fruit) to <b>tuilé/ambré</b> and <b>hors d'âge</b> (long oxidative aging, sometimes outdoors in glass bonbonnes in the sun, developing <b>rancio</b>: nutty, curry, walnut, dried fig). Mutage sur grains (spirit added to the must on skins) extracts more color and tannin. Producers: Domaine de la Rectorie, Mas Amiel (Maury), Les Clos de Paulilles, M. Chapoutier (Banyuls).</li></ul>
-<h3>Rutherglen, Australia</h3>
-<p>In northeast Victoria, Muscat (Muscat à Petits Grains Rouges) and Muscadelle (labeled <b>Topaque</b>) are left to shrivel on the vine, fortified, then aged in hot tin sheds in old barrels, often in solera-like systems, becoming intensely sweet and dark. The four-tier classification: <b>Rutherglen</b> (average 3-5 years), <b>Classic</b> (6-10), <b>Grand</b> (11-19) and <b>Rare</b> (20+). Chambers Rosewood, Campbells, Morris, All Saints, Stanton & Killeen.</p>
-<h3>Marsala (Sicily)</h3>
-<p>Popularized by English merchant John Woodhouse in 1773 as a cheaper rival to Madeira and Port. Classified by color (Oro, Ambra, Rubino), sweetness (secco, semisecco, dolce) and age (Fine 1 year, Superiore 2, Superiore Riserva 4, Vergine/Soleras 5, Vergine Stravecchio 10). Vergine is dry and unsweetened, aged in perpetuum systems. Marco De Bartoli, Florio, Pellegrino.</p>
-<h3>Iberia beyond Sherry and Port</h3>
-<ul><li><b>Moscatel de Setúbal</b> (Portugal): fortified Muscat of Alexandria with extended skin contact after mutage; also the rarer Moscatel Roxo.</li>
-<li><b>Málaga</b>: sweet wines from Pedro Ximénez and Moscatel, from naturally sweet to fortified, sometimes with arrope (cooked must).</li>
-<li><b>Condado de Huelva</b>: Sherry-like styles.</li></ul>
-<h3>Mistelles and their cousins</h3>
-<p>A <b>mistelle</b> (vin de liqueur) is grape juice fortified before fermentation even begins: <b>Pineau des Charentes</b> (with Cognac), <b>Floc de Gascogne</b> (with Armagnac), <b>Macvin du Jura</b> (with Marc du Jura), <b>Ratafia de Champagne</b>.</p>
-<h3>Blind-tasting fortified wines</h3>
-<p>Muscat VDN: grapey, floral, fresh, medium-sweet, about 15%. Grenat Banyuls: red fruit, chocolate, sweet, soft tannin; often mistaken for Ruby Port but lower in alcohol and tannin. Rancio styles: nuts, spice, high acidity. Rutherglen: nearly black, syrupy, raisin and coffee. Marsala Vergine: dry, nutty, oxidative, like an Amontillado with more heat.</p>
-<h3>Where mutage came from</h3>
-<p>The method is credited to <b>Arnau de Vilanova</b>, a physician at the court of Majorca, who in about 1285 described stopping a fermentation with spirit. Roussillon has made wine this way ever since, and today produces most of France's VDN.</p>
-<h3>Reading a Roussillon label</h3>
-<table class="t"><tr><th>Term</th><th>Meaning</th></tr>
+<p>Port, Sherry and Madeira dominate any account of fortified wine, and they have chapters of their own in the Iberia unit. This chapter covers everything else: the sweet wines of southern France, the Muscats of northeast Victoria, Marsala, the fortified Muscats and raisin wines of the Mediterranean, and the fortified grape juices that every brandy region makes. They look like a miscellany. They are easier to learn as one subject, because three questions sort all of them: when was the spirit added, was the wine then kept from air or given to it, and how long did it wait.</p>
+
+<h3>Why fortified wine exists</h3>
+<p>Fortification began as a solution to two practical problems, and both have gone away, which is why the category now has to be explained.</p>
+<p>The first was spoilage. Before bottles, corks, sulfur dioxide and refrigeration were understood, wine was a perishable product. It was shipped in cask, exposed to air and heat, and often arrived as vinegar. Raising the alcohol to 17% or more stops nearly every microbe that spoils wine. A fortified wine could cross an ocean, sit in a hot warehouse and be poured from an opened cask for months. From the 1600s to the 1800s the strong wines of Iberia, Sicily and the Atlantic islands were therefore the wines of long-distance trade, and the merchants who shipped them, many of them English, Dutch and Scottish, gave their names to the houses that still exist.</p>
+<p>The second was sweetness. Sugar was a luxury, and a wine that was reliably sweet was prized. Stopping a fermentation by chilling and filtering was impossible. Spirit made it easy.</p>
+<p>The side effects became the point. Wine that spent months in cask on a ship or years in a warm warehouse oxidized, and customers came to like the result. The nutty, caramel flavors that an ordinary wine develops as it spoils are, in a strong sweet wine, stable and delicious. An entire aesthetic grew from an accident of transport.</p>
+<p>Tax shaped the map as well. Spirits are taxed more heavily than wine almost everywhere, and a fortified wine falls awkwardly between the two. France's law of 1898 let VDN be taxed as wine provided its sweetness was natural, which is where the name and the strict rules on ripeness come from. Customs thresholds in export markets explain why so many of these wines sit at just under a particular strength.</p>
+
+<h3>The three questions</h3>
+<p><b>When did the spirit go in?</b> Spirit kills yeast, so its timing decides how much of the grape's sugar survives and how much fermentation flavor the wine has.</p>
+<table><tr><th>Timing</th><th>Result</th><th>Examples</th></tr>
+<tr><td>Before fermentation</td><td>All the grape sugar remains; no fermentation flavors</td><td>Pineau des Charentes, Jerepigo, Angelica</td></tr>
+<tr><td>During fermentation</td><td>Sweet, with some fermented character</td><td>Port, VDN, Rutherglen Muscat, Malmsey</td></tr>
+<tr><td>After fermentation</td><td>Dry, unless sweetened later</td><td>Sherry, Marsala Vergine, Sercial</td></tr></table>
+<p><b>Air or no air?</b> A fortified wine kept in full, sealed containers and bottled young keeps its color and fresh fruit. The trade calls this reductive handling. A wine left for years in casks that are not kept full takes up oxygen, turns tawny or amber, and develops flavors of nuts, dried fruit, caramel and spice. This is oxidative aging, and at its extreme the result has a name of its own, <b>rancio</b>.</p>
+<p><b>How long?</b> Oxidative aging takes years to decades, and water evaporating through the wood concentrates the wine as it goes. Age is the main thing the classifications of these wines measure.</p>
+<p>Every wine in this chapter is one combination of answers. A Muscat de Beaumes-de-Venise is fortified during fermentation, kept from air and sold within a year. A Rare Rutherglen Muscat is fortified almost before fermentation, given to the air and kept for decades. They are made from the same grape and could hardly taste less alike.</p>
+
+<h3>Vins Doux Naturels</h3>
+<p>Southern France's fortified wines are called <b>Vins Doux Naturels</b>, VDN, naturally sweet wines. The name is a legal claim: all the sweetness is the grape's own, and nothing may be added to the juice to enrich it. The method is <b>mutage</b>: neutral grape spirit of about 96% alcohol is added during fermentation, killing the yeast and leaving natural sugar. The finished wine has 15 to 18% alcohol.</p>
+<p>The rules are precise, and each has a reason.</p>
+<ul><li><b>The grapes must be very ripe.</b> The juice must hold at least 252 grams of sugar per liter, enough to make a wine of 14.5% if it all fermented. Since the sweetness cannot be added, it has to be grown.</li>
+<li><b>Yields are low,</b> capped at 30 to 40 hectoliters per hectare. In practice old bush vines on dry, stony hillsides give far less.</li>
+<li><b>The spirit is neutral</b> and is added at 5 to 10% of the volume. A neutral spirit adds strength without flavor, so the wine tastes of its grapes. Port takes the opposite approach, using a larger amount of a weaker, flavorful brandy.</li></ul>
+<p>The technique is credited to <b>Arnau de Vilanova</b>, a physician at the court of Majorca, who in about <b>1285</b> described stopping a fermentation with spirit. Distillation had only recently reached Europe from the Arab world through the medical schools, and he was a doctor of the school at Montpellier. Roussillon has made wine this way ever since. French law recognized the category in 1898 and gave it a tax advantage over other fortified drinks, and the VDN appellations of 1936 were among the first in France.</p>
+<p>There are two families, and they answer the question of air in opposite ways.</p>
+
+<h3>The Muscats</h3>
+<p>Muscat's appeal is its perfume: fresh grapes, orange blossom, rose, peach. The compounds responsible are fragile and are destroyed by oxygen and by time. So Muscat VDNs are made like delicate white wines. The grapes are pressed, the juice is fermented cool, spirit is added early, and the wine is kept in sealed tanks and bottled within months. They should be drunk <b>young and well chilled</b>.</p>
+<ul><li><b>Muscat de Beaumes-de-Venise</b>, in the southern Rhône, is the best-known abroad: pale gold, delicate, from Muscat à Petits Grains.</li>
+<li><b>Muscat de Rivesaltes</b>, in Roussillon, is by far the largest in volume, and may blend Muscat à Petits Grains with the coarser Muscat of Alexandria.</li>
+<li><b>Muscat de Frontignan, de Lunel, de Mireval</b> and <b>de Saint-Jean-de-Minervois</b> are the four of the Languedoc. The last comes from high limestone country and is the freshest.</li>
+<li><b>Muscat du Cap Corse</b> comes from the northern tip of Corsica.</li></ul>
+
+<h3>The Grenache wines of Roussillon</h3>
+<p>Roussillon, the French part of Catalonia, lies against the Spanish border between the Pyrenees and the sea. It is the sunniest and driest corner of France, swept by a hard north wind, the tramontane, and its old Grenache vines ripen to very high sugar without help. It makes about four-fifths of all French VDN. Grenache is a grape that oxidizes easily and takes on attractive flavors when it does, which makes it suited to long aging in air.</p>
+<p><b>Banyuls</b> comes from steep terraces of dark schist that fall straight to the Mediterranean around four villages near the border. The vines are worked by hand, yields are tiny, and the wine is the finest of the group. <b>Banyuls Grand Cru</b> must contain at least three-quarters Grenache Noir and spend <b>at least 30 months in wood</b>. <b>Banyuls and Collioure</b> come from the same terraces: Banyuls is the fortified wine, and Collioure is the dry one.</p>
+<p><b>Maury</b> lies inland, in a valley of black schist, and makes a darker, more tannic wine. It has had a dry version, Maury Sec, since 2011. <b>Rivesaltes</b> covers a wide area of the plain and foothills and is the source of most of the aged wines. <b>Rasteau</b>, in the southern Rhône, makes a small amount of Grenache VDN beside its dry reds.</p>
+<p>For the red wines there is a choice in how the spirit is added. It can be poured onto the juice after pressing. Or it can be poured onto the whole fermenting mass of juice and skins, which is then left to soak for ten days to a month. This is <b>mutage sur grains</b>. Alcohol is a better solvent than water, so the long soak in fortified wine pulls out far more color and tannin, and gives the deep, structured wines of Banyuls and Maury. It is the same problem Port solves by treading, approached from the other side: Port must extract quickly before fortifying, and these wines extract slowly afterward.</p>
+<p>After that, the wines divide by how they are raised.</p>
+<table><tr><th>Term</th><th>Meaning</th></tr>
 <tr><td>Grenat, Rimage</td><td>Red grapes, bottled young and kept from air: fresh red fruit</td></tr>
 <tr><td>Tuilé</td><td>Red grapes, aged with air: brick-colored, nuts and dried fruit</td></tr>
 <tr><td>Ambré</td><td>White grapes, aged with air: amber, orange peel, honey</td></tr>
 <tr><td>Hors d'âge</td><td>At least five years of aging</td></tr>
 <tr><td>Rancio</td><td>Long oxidative aging, with the walnut and curry note that results</td></tr></table>
-<ul><li><b>Banyuls</b> and <b>Collioure</b> come from the same steep schist terraces above the sea. Banyuls is the fortified wine; Collioure is the dry one.</li>
-<li><b>Maury</b> has had a dry version, Maury Sec, since 2011.</li></ul>
+<p><b>Rimage</b> is the Catalan word for the grape harvest and marks a vintage wine made in the reductive way, as Vintage Port is: dark, sweet, tasting of black cherry and chocolate, and able to improve in bottle. The oxidative wines sit for years in old casks of every size, deliberately not topped up. Some producers go further and put the young wine into large glass jars called <b>bonbonnes</b>, which stand in the open through summer sun and winter cold for a year or more. The swings of temperature and the light speed the oxidation, and the wine goes from red to mahogany and from fruit to walnut, coffee and dried fig before it is moved to cask.</p>
+<p><b>Rancio</b> deserves a note. The word describes a smell, of walnut, curry spice and old wood, that develops only after many years of slow oxidation. It comes largely from the same compound that marks old Tawny Port, Madeira and Sherry. In a wine with sugar and high alcohol it reads as richness and complexity. Roussillon also makes a dry, unfortified version, Rancio Sec, an old local style close in spirit to a dry Sherry.</p>
+<p>Producers to know: Domaine de la Rectorie, Les Clos de Paulilles and M. Chapoutier in Banyuls, and Mas Amiel in Maury.</p>
+<p>The trade in these wines has shrunk badly. Sweet aperitif wines were a staple of French households in the middle of the last century and have fallen out of fashion, and much of Roussillon's vineyard has been pulled up or turned over to dry wine. The best aged wines are among the great bargains in wine for exactly that reason: thirty-year-old bottles sell for the price of an ordinary dry red.</p>
+
+<h3>What happens in the cask</h3>
+<p>Long oxidative aging is the common thread of the finest wines in this chapter, and it is worth understanding as a process, because the classifications of Rivesaltes, Rutherglen and Marsala are all ways of measuring how far it has gone.</p>
+<ul><li><b>Color.</b> Red pigments are unstable in air. They link up, fall out as sediment and fade, so a red fortified wine moves from purple to ruby to brick to tawny. White wines travel the other way, as their own compounds brown, from pale gold to amber to mahogany. After thirty or forty years the two meet: a very old red Banyuls and a very old white Rivesaltes are almost the same color.</li>
+<li><b>Aroma.</b> Fresh fruit compounds are lost first. In their place come aldehydes, which smell of nuts and bruised apple, and products of the slow reaction of sugars, which smell of caramel, toffee and coffee. Later comes the walnut-and-curry compound that defines rancio.</li>
+<li><b>Concentration.</b> Water and alcohol evaporate through the wood. In a hot, dry store, as at Rutherglen, water leaves faster, so sugar, acid and flavor all rise year after year. A cask may lose several percent of its volume annually, and what remains after decades is a fraction of what went in. This is the main reason very old wines are so intense and so expensive.</li>
+<li><b>Acidity.</b> A little vinegar-like volatile acid forms, and in moderation it lifts the smell and cuts the sweetness. Tasters call the effect "lift."</li></ul>
+<p>The practical consequence is stability. A wine that has spent twenty years reacting with air has nothing left to react. It will not improve in the bottle, and it will not spoil once opened.</p>
+
+<h3>Rutherglen, Australia</h3>
+<p>Rutherglen is a small, hot, inland district in northeast Victoria, settled in the gold rush of the 1850s. It makes what may be the most concentrated wines in the world, by pushing every variable to its limit.</p>
+<ol><li><b>The grapes.</b> Muscat à Petits Grains Rouges, a dark-skinned form of Muscat known locally as Brown Muscat, hangs on the vine well into autumn until part of the crop has shriveled to raisins.</li>
+<li><b>Fortification.</b> The juice is so sweet that it scarcely ferments. Spirit is added very early, after a day or two on the skins at most, so nearly all the sugar is the grape's own. The wines hold from about 180 to well over 300 grams per liter.</li>
+<li><b>Heat.</b> The wine goes into old barrels of all sizes stored in sheds with tin roofs. Summers are fierce, and the sheds are hot. Water evaporates steadily, and the wine thickens and darkens year after year.</li>
+<li><b>Blending.</b> Each house keeps stocks going back generations and blends young wine for fruit with old wine for depth, often through a system of fractional blending like a solera.</li></ol>
+<p>Young, the wine is amber-pink and tastes of rose petals, raisins and orange peel. Old, it is nearly black with an olive-green edge, as thick as syrup, and tastes of treacle, coffee, toffee and walnut, with enough acidity and rancio to keep it from cloying. A second wine is made the same way from Muscadelle, the minor grape of Sauternes, and is called <b>Topaque</b>.</p>
+<p>The classification has four tiers, defined by richness and complexity, with average age as the guide.</p>
+<table><tr><th>Tier</th><th>Average age</th><th>Character</th></tr>
+<tr><td>Rutherglen</td><td>3 to 5 years</td><td>Fresh raisin fruit, the foundation of the style</td></tr>
+<tr><td>Classic</td><td>6 to 10 years</td><td>Richer, with the first rancio from old wood</td></tr>
+<tr><td>Grand</td><td>11 to 19 years</td><td>Intense and layered</td></tr>
+<tr><td>Rare</td><td>20 years and more</td><td>The deepest and scarcest, bottled in tiny amounts</td></tr></table>
+<p>Producers to know: Chambers Rosewood, Campbells, Morris, All Saints, Stanton &amp; Killeen.</p>
+
+<h3>Marsala</h3>
+<p>Marsala, from the western tip of Sicily, is the fortified wine with the hardest history. It was <b>popularized by the English merchant John Woodhouse in 1773</b>. He found the strong local wine resembled the Madeira and Sherry then in demand, added spirit to help it survive the voyage, and shipped it to Liverpool. Nelson ordered it for the Mediterranean fleet. Other English merchants followed, and then the Sicilian Florio family, and through the 1800s Marsala stood beside Port and Sherry.</p>
+<p>In the twentieth century it was debased. Cheap versions flavored with egg, almond or coffee, and a flood of basic sweet wine, turned it into a cooking ingredient in most people's minds. The rules were tightened in 1984, and a small number of producers have rebuilt its reputation.</p>
+<p>The base is a dry white wine, mainly from the Grillo grape, with Catarratto and Inzolia, fortified after fermentation. What happens next gives Marsala its variety. Three ingredients may be added to sweeten and color it: boiled-down grape juice, which is dark and caramelized; concentrated grape juice; and grape juice fortified with spirit. The classification runs on three axes.</p>
+<table><tr><th>By color</th><th>By sweetness</th><th>By age</th></tr>
+<tr><td>Oro: golden; no cooked juice allowed</td><td>Secco: dry</td><td>Fine: 1 year</td></tr>
+<tr><td>Ambra: amber, from the addition of cooked juice</td><td>Semisecco: medium</td><td>Superiore: 2 years. Superiore Riserva: 4</td></tr>
+<tr><td>Rubino: ruby, from red grapes</td><td>Dolce: sweet</td><td>Vergine or Soleras: 5 years. Vergine Stravecchio: 10</td></tr></table>
+<p><b>Vergine</b> is the one to remember. It is <b>dry and unsweetened</b>: none of the three additions is permitted. It is aged for at least five years, often in a system of fractional blending the Sicilians call <i>in perpetuum</i>, and it is the purest and finest Marsala, close in character to an Amontillado Sherry with more warmth. Marco De Bartoli, who led the revival from the 1980s, is the name to know, along with Florio and Pellegrino.</p>
+
+<h3>The Mediterranean beyond Sherry and Port</h3>
+<p><b>Moscatel de Setúbal</b>, from the peninsula south of Lisbon, is a fortified Muscat of Alexandria made by an unusual method. Spirit is added early, and then the wine is left on its skins for about five months. As in Roussillon, the fortified wine acts as a solvent, and it draws out an intense perfume from the Muscat skins along with color and texture. After pressing it is aged for at least 18 months, and the best for decades, turning from orange-gold to deep amber, with flavors of orange marmalade, tea and caramel. A rarer pink-skinned variety gives Moscatel Roxo.</p>
+<p><b>Málaga</b> makes sweet wines from Pedro Ximénez and Moscatel, dried in the sun, some fortified and some naturally sweet, sometimes colored with <i>arrope</i>, grape juice boiled down to a syrup. In the 1800s it was one of the most famous wines in the world. <b>Montilla-Moriles</b>, inland, is the true home of Pedro Ximénez, and its grapes ripen so far that its Fino-style wines often reach strength without any added spirit. <b>Condado de Huelva</b> makes Sherry-like styles.</p>
+<p>Further east the tradition is older still. <b>Commandaria</b> of Cyprus, made from sun-dried grapes and named for the Crusader estates that produced it, has a claim to be the oldest named wine still made. <b>Samos</b>, in Greece, makes Muscat in every way this chapter has described: as fortified juice, as a wine fortified during fermentation, and as an unfortified wine from dried grapes. <b>Mavrodaphne of Patras</b> is a dark, sweet, Port-like red.</p>
+
+<h3>Mistelles and their cousins</h3>
+<p>A <b>mistelle</b>, in French law a <i>vin de liqueur</i>, is <b>grape juice fortified before fermentation</b> even begins. Nothing has fermented, so strictly it is not wine at all. It tastes of fresh grape juice and of the spirit, softened by time in cask. Every region that distills its wine makes one, because the method is simple and uses what is to hand: juice from this year's harvest and spirit from last year's.</p>
+<ul><li><b>Pineau des Charentes</b> is made with Cognac, by the estates that distill it. The legend dates it to 1589, when a grower is said to have poured juice into a cask that still held brandy and found the result years later. The proportions are about three parts juice to one of Cognac, giving 16 to 22% alcohol. The white is aged for at least 18 months, and wines aged for many years are sold as old or very old Pineau.</li>
+<li><b>Floc de Gascogne</b> is made with Armagnac.</li>
+<li><b>Macvin du Jura</b> is made with the local marc, a spirit distilled from pressed grape skins.</li>
+<li><b>Ratafia de Champagne</b> is made in Champagne from the last pressings.</li></ul>
+<p>The same idea appears wherever Europeans planted vines. South Africa's <b>Jerepigo</b> is unfermented juice with added spirit, and Muscadel is its fortified Muscat. <b>Angelica</b>, California's oldest wine style, is a mistelle of Mission grapes first made at the Franciscan missions. Rutherglen Muscat, fortified when fermentation has barely started, stands on the border of the category.</p>
+
 <h3>New World names</h3>
-<ul><li><b>Apera:</b> Australia's name for its Sherry-style wines. Its 2010 wine agreement with the EU gave up European place names, and "Sherry" left Australian labels in 2011. "Tokay" became Topaque, with the old name fully retired in 2020.</li>
-<li><b>Cape Ruby, Cape Tawny, Cape Vintage:</b> South Africa's Port styles.</li>
-<li><b>Jerepigo:</b> a South African mistelle, spirit added to unfermented must. <b>Muscadel</b> is its fortified Muscat.</li>
-<li><b>Angelica:</b> California's oldest wine style, a mistelle of Mission grapes first made at the Franciscan missions.</li>
+<p>European place names are now protected by trade agreements, and countries that long used them for their own fortified wines have had to find new ones.</p>
+<ul><li><b>Apera</b> is Australia's name for its Sherry-style wines. Its 2010 wine agreement with the EU gave up European place names, and "Sherry" left Australian labels in 2011. "Tokay" became <b>Topaque</b>, with the old name fully retired in 2020.</li>
+<li><b>Cape Ruby, Cape Tawny</b> and <b>Cape Vintage</b> are South Africa's Port styles.</li>
 <li>American producers who used "Port" and "Sherry" before 2006 may keep those names on domestic labels.</li></ul>
-<h3>When the spirit goes in</h3>
-<table class="t"><tr><th>Timing</th><th>Result</th><th>Examples</th></tr>
-<tr><td>Before fermentation</td><td>All the grape sugar remains; no fermentation flavors</td><td>Pineau des Charentes, Jerepigo, Angelica</td></tr>
-<tr><td>During fermentation</td><td>Sweet, with some fermented character</td><td>Port, VDN, Rutherglen Muscat, Malmsey</td></tr>
-<tr><td>After fermentation</td><td>Dry, unless sweetened later</td><td>Sherry, Marsala Vergine, Sercial</td></tr></table>
+
+<h3>Blind-tasting fortified wines</h3>
+<p>Apply the three questions to the glass.</p>
+<ol><li><b>Color.</b> Pale gold, ruby or purple means the wine was kept from air. Amber, tawny or brown means it was not.</li>
+<li><b>Fruit.</b> Fresh grape or berry means young and reductive. Dried fruit, nuts and caramel mean oxidative age.</li>
+<li><b>Sweetness and strength.</b> Very sweet with obvious grapey flavor suggests spirit added early. Dry suggests spirit added after fermentation.</li></ol>
+<ul><li><b>Muscat VDN:</b> grapey, floral, fresh, medium-sweet, about 15%.</li>
+<li><b>Grenat Banyuls:</b> red fruit, chocolate, sweet, soft tannin. It is often mistaken for Ruby Port but is lower in alcohol and tannin.</li>
+<li><b>Rancio styles:</b> nuts, spice, high acidity.</li>
+<li><b>Rutherglen:</b> nearly black, syrupy, raisin and coffee.</li>
+<li><b>Marsala Vergine:</b> dry, nutty, oxidative, like an Amontillado with more heat.</li>
+<li><b>Moscatel de Setúbal:</b> orange peel and marmalade, with a tea-like grip from its long soak on skins.</li></ul>
+
+<h3>Putting them on a list</h3>
+<p>These wines are undersold in most restaurants, and they solve real problems for a sommelier.</p>
+<ul><li><b>They keep.</b> An opened bottle of an oxidative style can be poured by the glass for weeks with no loss, so there is no waste. That is rarely true of anything else on a dessert list.</li>
+<li><b>They are cheap for their age.</b> A Rivesaltes from the 1980s or a Marsala Vergine of ten years costs less than a young Sauternes.</li>
+<li><b>They match what other wines cannot.</b> Chocolate, coffee desserts, caramel, blue cheese, nuts and dried fruit overwhelm most table wines and suit these exactly.</li>
+<li><b>They work at both ends of a meal.</b> A cold Pineau, a dry Marsala or a chilled Muscat is an aperitif. The aged wines follow dessert in place of a spirit, at half the strength.</li></ul>
+<p>The difficulty is that guests do not know the names. Describe the flavor and the occasion, and offer a small pour: "like a tawny Port, lighter and with more orange peel" sells a Rivesaltes Ambré better than its name does.</p>
+
 <h3>Serving, pairing and keeping</h3>
-<table class="t"><tr><th>Wine</th><th>Serve</th><th>With</th></tr>
+<table><tr><th>Wine</th><th>Serve</th><th>With</th></tr>
 <tr><td>Muscat VDN</td><td>Well chilled, young</td><td>Fruit tarts, melon, foie gras, Roquefort</td></tr>
 <tr><td>Banyuls or Maury Grenat</td><td>Cool, 57 to 61°F</td><td>Dark chocolate, cherries</td></tr>
 <tr><td>Rivesaltes Ambré</td><td>Cool</td><td>Crème catalane, nuts, hard cheese</td></tr>
 <tr><td>Marsala Vergine</td><td>Lightly chilled</td><td>Apéritif, aged cheese, bottarga</td></tr>
 <tr><td>Moscatel de Setúbal</td><td>Cool</td><td>Orange and almond desserts</td></tr>
 <tr><td>Pineau des Charentes</td><td>Cold</td><td>Apéritif, melon, blue cheese</td></tr></table>
-<ul><li>Fresh styles (Muscat, Grenat) fade within a week or two of opening.</li>
-<li>Oxidative styles (Tuilé, Ambré, Rancio, Rutherglen, Marsala) last for months, because air has already done its work.</li></ul>`,
+<p>Banyuls with chocolate is the pairing to remember. Chocolate defeats most wines, because it is sweet, bitter and fatty at once. A young Banyuls has the sweetness, the tannin and the dark fruit to meet all three.</p>
+<p>The rule for keeping an opened bottle follows from how the wine was made.</p>
+<ul><li>Fresh styles, such as Muscat and Grenat, <b>fade within a week or two</b> of opening. They were protected from air all their lives and have no defense against it.</li>
+<li>Oxidative styles, such as Tuilé, <b>Ambré</b>, Rancio, Rutherglen and Marsala, <b>last for months</b>, because air has already done its work.</li></ul>
+`,
 floor:`<p>Banyuls is the classic chocolate pairing; Muscat de Beaumes-de-Venise with fruit tarts; Rutherglen Muscat with sticky toffee pudding; Marsala Vergine as an apéritif with Parmigiano.</p>`,
 analyst:`<p>D5 covers VDNs, Rutherglen and Marsala alongside Port, Sherry and Madeira. Explain mutage timing and the difference between reductive and oxidative fortified styles.</p>`,
 terms:[["Mutage","Adding spirit during fermentation to stop it."],["Rancio","Nutty, oxidative character from long aging in warm conditions."],["Grenat / Rimage","Young, reductive Grenache VDN styles bottled early."],["Topaque","Australian fortified Muscadelle."],["Mistelle","Grape juice fortified before fermentation."],["Bonbonne","Glass demijohn used to age VDNs outdoors."],["Apera","Australia's name for Sherry-style wine since 2011."],["Jerepigo","South African mistelle: spirit added to unfermented must."],["Angelica","California mistelle of Mission grapes, dating from the missions."],["Ambré","Oxidatively aged VDN from white grapes."],["Tuilé","Oxidatively aged VDN from red grapes."],["Collioure","Dry wine from the same vineyards as Banyuls."]],

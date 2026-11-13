@@ -166,34 +166,138 @@ quiz:[
 ]});
 
 L.push({id:"f14", unit:"F3", title:"Rosé in Depth", mins:8,
-summary:"Four ways to make pink wine, what sets its color, the classic styles from Provence to Tavel to Cerasuolo, and how to sell it.",
+summary:"Why color leaves the skin before tannin and what that makes possible, four methods, the defense of a fragile color and smell, the styles from Provence to Tavel to Cerasuolo, and how to sell a wine that does not keep.",
 body:`
-<p>Rosé is no longer the wine trade's afterthought. Provence built a global luxury category on it in fifteen years, and every level of every exam now asks how it is made. The answer is always the same idea, applied for different lengths of time: <b>brief contact between clear juice and black grape skins</b>.</p>
+<p>Rosé is no longer the wine trade's afterthought. Provence built a global luxury category on it in fifteen years, about one bottle in ten drunk in the world is now pink, and every level of every exam asks how it is made. The answer is always the same idea, applied for different lengths of time: <b>brief contact between clear juice and black grape skins</b>. What makes the subject worth a chapter is that so little contact leaves so little margin. A rosé has a white wine's delicacy and none of a red wine's protection, and every step of its making is a defense of a fragile color and a fragile smell.</p>
+
+<h3>Where the color comes from</h3>
+<p>The flesh and juice of nearly all black grapes are colorless. The pigments, called anthocyanins, are in the skin. To make any colored wine, juice and skins must spend time together, and three facts about that contact govern everything that follows.</p>
+<ul><li><b>Color comes out first.</b> Anthocyanins dissolve readily in watery juice, and begin to leave the skins as soon as the berry is broken.</li>
+<li><b>Tannin comes out later.</b> Tannins are extracted slowly and need alcohol to dissolve well, so they arrive mainly once fermentation is under way.</li>
+<li><b>Warmth speeds both.</b> Extraction is far faster in warm juice than in cold.</li></ul>
+<p>So a short, cool soak before fermentation gives color with almost no tannin. That is rosé. A long, warm soak through fermentation gives both. That is red wine. Rosé is not diluted red. It is a wine stopped at the first stage of extraction, and it is then fermented like a white.</p>
+<p>The color is unstable for the same reason. In red wine, pigments bind to tannins and form stable colored compounds. Rosé has too little tannin for that, so its pigments stay exposed. They are bleached by sulfur dioxide, absorbed by yeast, and broken down by oxygen, warmth and light. More than half the color in the juice is typically lost during fermentation alone. What survives drifts with time from pink toward orange and onion-skin. A study of storage found that rosé kept at room temperature lost half its pigment compared with the same wine kept cold.</p>
+
 <h3>Four methods</h3>
-<table class="t"><tr><th>Method</th><th>How it works</th><th>Style and home</th></tr>
+<table><tr><th>Method</th><th>How it works</th><th>Style and home</th></tr>
 <tr><td>Direct pressing</td><td>Black grapes are pressed straight away, as for white wine; color comes only from the press cycle</td><td>The palest, most delicate rosés: most Côtes de Provence</td></tr>
 <tr><td>Short maceration</td><td>Crushed grapes soak on skins for a few hours up to a day or two, then the juice is run off and fermented cool</td><td>Deeper color and more body: Tavel, Bandol, Navarra, Cerasuolo d'Abruzzo</td></tr>
 <tr><td>Saignée ("bleeding")</td><td>Juice is drawn from a tank of red must early in maceration. The rosé is a by-product; the red left behind is more concentrated</td><td>Often darker, riper and fuller, since the grapes were picked for red wine</td></tr>
 <tr><td>Blending</td><td>A little red wine is added to white</td><td>Normal for rosé Champagne. Not allowed for still PDO rosé in most of Europe; common in the New World</td></tr></table>
+<p><b>Direct pressing</b> treats black grapes exactly as white ones. The only contact is during the hour or two the press takes to run, so pressing is done slowly and gently to pick up a blush and no more. It gives the palest wine. It also gives the freshest, for a reason that is easy to miss. Grape skins are rich in potassium, which neutralizes acid. The less the juice takes from the skins, the more acidity it keeps. Later press fractions are darker and softer, and producers separate them.</p>
+<p><b>Short maceration</b> is a deliberate soak, and time and temperature are its dials. Trials at the rosé research center in Provence put numbers on it: Cinsault held for 8 hours at 54°F (12°C) stayed nearly as pale as a direct pressing, and the same grapes held for 20 hours at 64°F (18°C) gave a wine six shades deeper on the center's color chart, close to orange. Longer and warmer also means more body, more flavor from the skins and a little tannin.</p>
+<p><b>Saignée</b> began as a way to improve red wine. Drawing off a tenth or so of the juice from a tank of crushed red grapes leaves more skins per liter in what remains, and so a more concentrated red. The juice drawn off is pink, and can be fermented as rosé. Because the grapes were grown and picked for red wine, the rosé tends to be riper, lower in acid and higher in alcohol than one made from grapes picked earlier for the purpose. Good saignée rosé exists. As a rule, though, the best rosés come from vineyards farmed and picked with rosé in mind.</p>
+<p><b>Blending</b> red into white is the simplest method and the one most people assume is used. For still wines with a protected name it is forbidden in most of Europe. In 2009 the European Commission proposed allowing it for basic table wine, and French producers, led by Provence, protested so strongly that the proposal was withdrawn within months. Their argument was that rosé is a method and not a mixture. The exception is Champagne, where blending is the standard way to make rosé, because it gives exact control over color in a wine that will not be finished for years.</p>
+
 <h3>What sets the color</h3>
-<p>Grape (Grenache and Cinsault are pale; Syrah and Mourvèdre deeper), time on skins, temperature, sulfur dioxide and pH. Pale is a fashion, not a mark of quality: many serious rosés are deeply colored. Winemakers protect fruit by picking at night, chilling the grapes, working under inert gas, fermenting cold in stainless steel and usually blocking malolactic conversion. Yeast choice matters: grapefruit and peach aromas in modern Provence rosé come largely from thiols and esters formed in a cold ferment.</p>
+<p>Five things, all within the winemaker's control.</p>
+<ul><li><b>Grape.</b> Grenache and Cinsault have thin skins and little pigment, and give pale wines. Syrah and Mourvèdre give deeper ones.</li>
+<li><b>Time on skins.</b></li>
+<li><b>Temperature.</b> Cold slows extraction and makes it easier to stop at the right moment.</li>
+<li><b>Sulfur dioxide,</b> which bleaches pigment.</li>
+<li><b>pH.</b> The same pigments look brighter and pinker in a more acidic wine.</li></ul>
+<p>A sixth tool exists for those who overshoot. A wine that is too dark can be treated with fining agents that strip color. It works, and it strips flavor as well.</p>
+<p><b>Pale is a fashion, not a mark of quality.</b> The fashion is set by Provence, where the palest wines sell for the most, and it has pushed producers everywhere toward ever fainter color. Many serious rosés are deeply colored: Tavel, Bandol, Cerasuolo. A guest who equates pale with dry and dark with sweet is making a common mistake, and correcting it gently is part of selling the category.</p>
+
+<h3>The grapes, and what each brings</h3>
+<p>Because so little is taken from the skins, the choice of grape shows clearly in a rosé, and blends are built from grapes with complementary jobs.</p>
+<table><tr><th>Grape</th><th>Skin and color</th><th>Contributes</th></tr>
+<tr><td>Grenache</td><td>Thin skin, little pigment; oxidizes easily</td><td>Body, alcohol, strawberry fruit, roundness</td></tr>
+<tr><td>Cinsault</td><td>Large berries, thin skin, very pale</td><td>Delicacy, perfume, low alcohol; the classic rosé grape</td></tr>
+<tr><td>Syrah</td><td>Deeply colored</td><td>Color, red-berry aroma, firmness; used in small amounts</td></tr>
+<tr><td>Mourvèdre</td><td>Thick skin, tannic</td><td>Structure, savory depth, ability to age</td></tr>
+<tr><td>Tibouren</td><td>Pale, delicate</td><td>An herbal, earthy note particular to Provence</td></tr>
+<tr><td>Pinot Noir</td><td>Thin skin, pale</td><td>Fine acidity and red-fruit perfume in cool climates</td></tr>
+<tr><td>Cabernet Franc</td><td>Moderate</td><td>Raspberry and a leafy freshness; the Loire</td></tr>
+<tr><td>Garnacha, Tempranillo</td><td>Moderate</td><td>Ripe strawberry; Spain</td></tr>
+<tr><td>Montepulciano</td><td>Very deeply colored</td><td>Color and structure even with brief contact</td></tr>
+<tr><td>Zinfandel</td><td>Uneven ripening, high sugar</td><td>Sweet, simple fruit</td></tr></table>
+<p>Grenache's tendency to oxidize is the reason Provence invests so heavily in protecting the juice from air: an unprotected Grenache rosé turns orange within months. Montepulciano shows the opposite extreme. Its skins hold so much pigment that even a short soak gives a wine as dark as some reds, which is why Cerasuolo could never be made pale.</p>
+
+<h3>Measuring pink</h3>
+<p>Color sells rosé more than it sells any other wine. It is nearly always bottled in clear glass so that the buyer can see it, and studies of shoppers find that color is the first thing they choose by. The research center in Provence publishes a reference chart of the commonest shades, named after fruit: redcurrant, peach, grapefruit, melon, mango and mandarin. Producers use it to specify a target and to check each tank against it. Over the past twenty years the average Provence rosé has moved steadily toward the palest end of the chart.</p>
+<p>The clear bottle has a cost. As the chapter on sparkling wine explained, light can spoil a wine in clear glass within hours, giving it a smell of cooked cabbage. A pale rosé that has stood in a sunny window or under bright shop lights is often damaged, and no one has done anything wrong in the cellar. Buy from a box or a shaded shelf.</p>
+
+<h3>Protecting the smell</h3>
+<p>The modern Provence style, with its grapefruit, peach and white-flower aromas, was engineered in the 1990s and 2000s, and it depends on keeping oxygen away from the juice at every step. The grapefruit and passion-fruit notes come from a family of sulfur-containing aroma compounds called thiols, the same ones that mark Sauvignon Blanc. They exist in the grape as odorless precursors, are released by yeast during fermentation, and are destroyed quickly by oxygen. The peach and pear-drop notes are esters, made by yeast in a cold fermentation and lost in a warm one. So these aromas come largely from <b>a cold, protected ferment</b>.</p>
+<p>The procedure follows directly.</p>
+<ol><li><b>Pick at night</b> or at dawn, when the fruit is cold. Cold grapes extract less color, oxidize more slowly and need less energy to chill.</li>
+<li><b>Blanket everything</b> in carbon dioxide or nitrogen from the picking bin to the tank. Besides saving the thiols, this prevents the orange tint that oxidation gives.</li>
+<li><b>Press gently</b> and separate the fractions.</li>
+<li><b>Clarify the juice</b> well before fermenting.</li>
+<li><b>Ferment cold,</b> at 57 to 64°F, in stainless steel, with a yeast strain chosen for its ability to release thiols and make esters.</li>
+<li><b>Block malolactic conversion,</b> to keep acidity and avoid buttery notes.</li>
+<li><b>Bottle early,</b> usually by the January or February after harvest, and sell at once.</li></ol>
+<p>The result is a precise, fragrant and short-lived wine. The aromas that make it attractive are exactly the ones that fade first, which is why the vintage on a bottle of this style matters more than for any other wine.</p>
+<p>There is another way to make rosé. A smaller group of producers ferment in oak, let the malolactic conversion happen, and age the wine on its lees for a year or more. They give up the bright aromatics and gain texture, spice and the ability to age. These are sometimes called gastronomic rosés, and the top wines of Bandol, some estates in Provence and a few in Rioja belong to the type.</p>
+
+<h3>A short history</h3>
+<p>Pale red may be the oldest style of wine. For most of history grapes were trodden and pressed quickly, and the juice was fermented off the skins or with little contact, so most "red" wine was what we would call dark rosé. The red wine of medieval Bordeaux was so light that the English called it <i>claret</i>, from the French <i>clairet</i>, meaning pale. Bordeaux still makes a wine by that name. Deep red wine, from long maceration, became the norm only from the 1700s.</p>
+<p>In the twentieth century rosé became a mass product, and a sweet one. Two Portuguese brands, Mateus and Lancers, created in the 1940s, sold a lightly sparkling, medium-sweet pink wine in distinctive bottles and for a time were among the best-selling wines in the world. In California in 1975 a tank of pale Zinfandel at Sutter Home stopped fermenting with sugar left in it. The winery bottled it anyway, and <b>White Zinfandel</b>, the "blush" wine, became the best-selling wine in the United States through the 1980s. The success fixed an idea in the minds of a generation that pink meant sweet and unserious.</p>
+<p>The dry rosé of southern France stayed a local summer drink until the 2000s. Then a combination of better technique, the research center founded in Provence in 1999, and marketing changed its standing. <b>Château d'Esclans launched Whispering Angel with the 2006 vintage</b> and proved that pink wine could be a premium brand sold worldwide at a premium price. Celebrity estates followed, and in 2019 the luxury group that owns several Champagne houses bought a majority of the estate. In fifteen years rosé went from the cheapest wine on a list to a category with bottles above a hundred dollars.</p>
+
 <h3>The styles to know</h3>
-<table class="t"><tr><th>Wine</th><th>Grapes</th><th>Style</th></tr>
+<table><tr><th>Wine</th><th>Grapes</th><th>Style</th></tr>
 <tr><td>Côtes de Provence</td><td>Grenache, Cinsault, Syrah, Mourvèdre, Tibouren, often with white Rolle</td><td>Very pale, dry, light, citrus and red berry</td></tr>
 <tr><td>Bandol rosé</td><td>Mourvèdre-led</td><td>Structured, savory, one of the few rosés that ages</td></tr>
 <tr><td>Tavel</td><td>Grenache-based</td><td>France's rosé-only appellation (1936): deep pink, dry, full</td></tr>
 <tr><td>Rosé d'Anjou, Cabernet d'Anjou</td><td>Grolleau; Cabernet Franc and Sauvignon</td><td>Off-dry to medium, light</td></tr>
 <tr><td>Sancerre and Marsannay rosé</td><td>Pinot Noir</td><td>Pale, taut, dry</td></tr>
 <tr><td>Rosé des Riceys</td><td>Pinot Noir</td><td>A rare still rosé from Champagne's Aube</td></tr>
-<tr><td>Navarra and Rioja rosado</td><td>Garnacha, Tempranillo</td><td>Dry, fruity, strawberry; Cigales makes the traditional paler-red <b>clarete</b></td></tr>
+<tr><td>Navarra and Rioja rosado</td><td>Garnacha, Tempranillo</td><td>Dry, fruity, strawberry; Cigales makes the traditional paler-red clarete</td></tr>
 <tr><td>Cerasuolo d'Abruzzo</td><td>Montepulciano</td><td>Cherry-red, dry, almost a light red</td></tr>
 <tr><td>Chiaretto di Bardolino</td><td>Corvina, Rondinella</td><td>Pale, salty, from Lake Garda</td></tr>
 <tr><td>White Zinfandel</td><td>Zinfandel</td><td>Off-dry "blush," born from a stuck fermentation at Sutter Home in 1975</td></tr>
 <tr><td>Weissherbst, Schilcher, Œil de Perdrix</td><td>One variety (Germany); Blauer Wildbacher (Austria); Pinot Noir (Neuchâtel)</td><td>Regional specialties worth recognizing on a label</td></tr></table>
+<p><b>Provence.</b> Three appellations, Côtes de Provence, Coteaux d'Aix-en-Provence and Coteaux Varois en Provence, cover about 27,500 hectares, and Provence is about 89% rosé. No other large wine region specializes in pink wine. The climate helps: hot, dry, sunny and swept by the mistral, a north wind that keeps the vines free of rot. The grapes are Grenache for fruit and body, Cinsault for delicacy and pale color, and smaller amounts of Syrah and Mourvèdre for structure. Tibouren is a local variety with an herbal, earthy character. A little white Rolle, known elsewhere as Vermentino, may be pressed with the black grapes for freshness and perfume. Côtes de Provence has named sub-zones, among them Sainte-Victoire, Fréjus, La Londe and Pierrefeu, and a list of estates classified in 1955.</p>
+<p><b>Bandol.</b> On terraces above the sea west of Toulon, Bandol is built on Mourvèdre, a late-ripening, thick-skinned, tannic grape that needs the heat reflected off the water to ripen. In rosé it gives structure, a savory, peppery quality and a darker salmon color. Bandol rosé improves for several years, which is rare, and the best are among the finest pink wines made.</p>
+<p><b>Tavel.</b> Across the Rhône from Châteauneuf-du-Pape, Tavel makes nothing but rosé and has been an appellation since 1936. It is made by maceration, from Grenache with Cinsault and others, and is deep pink, dry, full-bodied and high in alcohol, closer to a light red than to Provence. It is meant for food. It fell out of fashion as pale wines took over and is now being reassessed.</p>
+<p><b>The Loire.</b> Rosé d'Anjou, from the Grolleau grape, and <b>Cabernet d'Anjou</b>, from the two Cabernets, are the classic off-dry French rosés, with sweetness balanced by the Loire's acidity. Sancerre makes a pale, dry, sharp rosé from Pinot Noir.</p>
+<p><b>Spain.</b> Navarra made its name on dry, strawberry-fruited rosado from Garnacha. <i>Clarete</i> is an older style in which black and white grapes are fermented together. A few Rioja houses still make an aged rosado, kept for years in old oak, that has nothing in common with the modern style.</p>
+<p><b>Italy.</b> <b>Cerasuolo d'Abruzzo</b>, from Montepulciano, takes its name from the Italian for cherry and is the color of one: a dry, structured wine that is nearly a light red. Chiaretto, from the shores of Lake Garda, is pale and savory.</p>
+
+<h3>Sweetness in rosé</h3>
+<p>Off-dry rosé is made in one of two ways. The fermentation can be stopped, by chilling and filtering, before the yeast have used all the sugar, which also leaves the wine lower in alcohol. Or a dry wine can be sweetened with unfermented grape juice before bottling. Either way the wine must be filtered sterile, since sugar and surviving yeast would referment in the bottle.</p>
+<p>Sweetness is neither a fault nor a sign of low quality. In a high-acid wine such as Cabernet d'Anjou it balances the sharpness as it does in German Riesling. The commercial blush wines are a different matter: sweet, low in acid and simple, designed to be easy. On a list, say plainly whether a rosé is dry, because guests cannot tell from the color.</p>
+
+<h3>Beyond the classics</h3>
+<p>Almost every region that grows black grapes now makes rosé, and a few are worth knowing beyond those in the table.</p>
+<ul><li><b>Languedoc and the southern Rhône</b> make large amounts in the Provence style from the same grapes, usually at lower prices. Lirac, next to Tavel, makes rosé as well as red.</li>
+<li><b>Corsica</b> uses its own grapes, Sciaccarellu and Niellucciu, for pale, peppery, sea-salty rosés.</li>
+<li><b>Bordeaux</b> makes rosé and the darker Clairet from Merlot and the Cabernets.</li>
+<li><b>Champagne and other sparkling regions</b> make rosé by blending, as described in the sparkling chapters. Rosé Champagne costs more than white because the still red wine needed for the blend is scarce in so cold a place.</li>
+<li><b>Portugal</b> still sells large volumes of the medium-sweet, lightly sparkling style, and now makes dry rosés from native grapes in the Douro and Vinho Verde.</li>
+<li><b>Greece</b> makes deep-colored rosé from Xinomavro and Agiorgitiko.</li>
+<li><b>Austria's Schilcher</b>, from the Blauer Wildbacher grape in Styria, is pale and fiercely acidic.</li>
+<li><b>Germany's Weissherbst</b> is a rosé from a single grape variety, often Pinot Noir.</li>
+<li><b>Switzerland's Œil de Perdrix</b>, "partridge eye," is a pale Pinot Noir rosé from Neuchâtel.</li>
+<li><b>The United States</b> now makes serious dry rosé from Pinot Noir in Oregon and on the California coast, and from Rhône grapes, beside the blush wines.</li>
+<li><b>The Southern Hemisphere</b> makes it everywhere, often by blending or saignée, since the rules are looser.</li></ul>
+
+<h3>What rosé costs to make</h3>
+<p>Rosé has a commercial advantage that explains part of its rise. It is made in tanks, without barrels, and sold within months of harvest. The producer is paid in spring for grapes picked the previous autumn, while a red wine made from the same vineyard might not be sold for two or three years. For an estate, rosé is cash flow.</p>
+<p>The technique is not cheap, however. The modern style needs refrigeration at every stage, presses that can work under inert gas, clean tanks and fast bottling lines, and it leaves no room for error. A red wine can hide a small fault behind tannin and oak. A pale rosé hides nothing. The high prices of the best-known brands reflect marketing more than cost, and the gap between a good rosé at a moderate price and a famous one at three times as much is smaller than in almost any other category.</p>
+
 <h3>The business</h3>
-<p>France makes and drinks more rosé than any other country, and Provence is about 89% rosé. Château d'Esclans launched <b>Whispering Angel</b> with the 2006 vintage and proved that pink wine could be a premium brand; celebrity estates and large groups followed. The United States is Provence's largest export market. Most rosé is sold and drunk within a year or two of harvest, so vintage on the list matters: last year's is right, three years old usually is not, except for Bandol, Tavel and oak-aged examples.</p>
+<p>France makes and drinks more rosé than any other country: about a third of world production and a third of consumption. Spain is the largest exporter by volume. The United States and Italy follow as producers. World consumption was about 18.5 million hectoliters in 2023. It has slipped since a peak in 2019, though less than wine as a whole.</p>
+<p>Provence has changed its market completely. Ten years ago about a sixth of its rosé was exported. Now more than two-fifths is, and the United States is Provence's largest export market, taking nearly a third of what leaves France. Provence makes only about one bottle in twenty of the world's rosé, and sets the style and the price for the rest.</p>
+<p>Most rosé is sold and drunk within a year or two of harvest, so vintage on the list matters: last year's is right, three years old usually is not, except for Bandol, Tavel and oak-aged examples. For a buyer this makes rosé a perishable product. Order what will sell in a season, and clear the old vintage before the new one arrives in spring.</p>
+
+<h3>Tasting rosé</h3>
+<p>The clues are the ones from the chapters on winemaking, applied to a wine with fewer of them.</p>
+<table><tr><th>You notice</th><th>It points to</th></tr>
+<tr><td>Very pale salmon; grapefruit, peach; light and crisp</td><td>Direct pressing, cold protected ferment: modern Provence</td></tr>
+<tr><td>Deep pink; strawberry, spice; full body, some grip</td><td>Maceration: Tavel, Navarra</td></tr>
+<tr><td>Savory, peppery, structured; salmon-orange</td><td>Mourvèdre: Bandol</td></tr>
+<tr><td>Cherry-red, dry, firm</td><td>Cerasuolo d'Abruzzo</td></tr>
+<tr><td>Noticeable sweetness, low alcohol</td><td>Anjou, White Zinfandel</td></tr>
+<tr><td>Orange or onion-skin tint, tired fruit</td><td>Age or oxidation</td></tr>
+<tr><td>Cream, spice, texture; little fresh fruit</td><td>Oak and lees: a gastronomic style</td></tr></table>
+<p>Check the color for age before anything else. A rosé that has turned from pink toward orange has usually lost its fruit as well.</p>
+
 <h3>Service</h3>
-<p>Serve at about 45-55°F in a white-wine glass. Rosé is the most forgiving food wine on a list: it has the acidity of a white and a touch of red-fruit weight, so it handles salads, grilled fish, charcuterie, garlic, tomatoes and spice. Offer it when a table is split between white and red.</p>`,
+<p>Serve at about 45 to 55°F in a white-wine glass: the light styles colder, the structured ones warmer. Rosé is the most forgiving food wine on a list. It has the acidity of a white and a touch of red-fruit weight, with almost no tannin to clash with anything, so it handles salads, grilled fish, charcuterie, garlic, tomatoes and spice. It is the natural match for the cooking of the Mediterranean, which grew up alongside it. Offer it when a table is split between white and red. The fuller styles, Tavel, Bandol and Cerasuolo, can take grilled meat.</p>
+`,
 floor:`<p>Three questions sell rosé: pale and crisp, or fuller and fruitier? Dry, or a touch of sweetness? For the terrace or for dinner? Then one bottle: Provence for the first, Tavel or Bandol for the table that wants food wine.</p>`,
 analyst:`<p>A model three-mark answer: "Short maceration: black grapes are crushed and left on skins for a few hours (1), extracting some colour and flavour but little tannin (1), then the juice is drained and fermented cool like a white wine (1)." Know why saignée also changes the red wine.</p>`,
 terms:[["Direct pressing","Making rosé by pressing black grapes immediately, with almost no maceration."],["Saignée","Bleeding juice off a red-wine tank to make rosé and concentrate the red."],["Clarete","Traditional Spanish pale red or deep rosé, as in Cigales."],["Tavel","Southern Rhône appellation that makes only rosé."],["Rosé des Riceys","Still Pinot Noir rosé from the Aube, in Champagne."],["Weissherbst","German rosé made from a single grape variety."],["Blush","American term for pale, usually off-dry rosé such as White Zinfandel."]],

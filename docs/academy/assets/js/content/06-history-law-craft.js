@@ -478,53 +478,151 @@ quiz:[
 ]});
 
 L.push({id:"f12", unit:"F3", title:"Natural, Orange and Low-Intervention Wine", mins:13,
-summary:"What these terms mean, what they don't, and closures and packaging.",
+summary:"What conventional winemaking adds and why natural wine refuses it, what sulfur dioxide does and what goes wrong without it, skin-contact whites, the farming terms guests confuse, and closures and packaging as choices about oxygen.",
 body:`
-<p>Few topics spark more argument in wine bars. A sommelier needs to explain them clearly, without preaching either way.</p>
+<p>Few topics spark more argument in wine bars. One side hears "natural" and thinks of living wine made by farmers. The other thinks of cloudy bottles that smell of cider and stables. A sommelier needs to explain these wines clearly, without preaching either way, and that requires knowing what is being left out of them and what that omission does. This chapter covers the natural wine movement, skin-contact white wine, the vocabulary of organic and biodynamic farming, and then two subjects that turn on the same question of how much oxygen and protection a wine should have: closures and packaging.</p>
+
+<h3>What conventional winemaking does</h3>
+<p>Natural wine is defined by what it refuses, so begin with what is normally done. A modern winery has a long list of tools, and European law permits several dozen additions and treatments. The common ones, in the order they are used:</p>
+<table><tr><th>Tool</th><th>What it is for</th></tr>
+<tr><td>Sulfur dioxide</td><td>Protects against oxidation and unwanted microbes, at every stage</td></tr>
+<tr><td>Cultured yeast</td><td>A reliable, complete fermentation with predictable flavor</td></tr>
+<tr><td>Yeast nutrients and enzymes</td><td>Keep fermentation healthy; release juice, color and aroma</td></tr>
+<tr><td>Sugar or concentrated juice</td><td>Raises alcohol in an unripe year (chaptalization)</td></tr>
+<tr><td>Acid, or its removal</td><td>Corrects balance in a hot or a cold year</td></tr>
+<tr><td>Cultured bacteria</td><td>A clean malolactic conversion</td></tr>
+<tr><td>Tannin, oak chips, color concentrate</td><td>Adjust structure, flavor and color</td></tr>
+<tr><td>Fining agents</td><td>Remove haze, bitterness and harsh tannin</td></tr>
+<tr><td>Filtration</td><td>Removes yeast and bacteria so the wine is stable and bright</td></tr>
+<tr><td>Machines that remove water or alcohol</td><td>Concentrate a thin wine or lower the strength of a hot one</td></tr></table>
+<p>None of these is sinister. Most were adopted to solve a real problem, and together they are the reason a cheap bottle of wine today is almost never spoiled, which was not true two generations ago. The criticism is that they can also be used to make wine from poor grapes taste acceptable, and to make wines from different places taste alike. Natural wine began as a reaction to that. Since December 2023 wines sold in the European Union must list their ingredients, usually behind a code on the label, which has made the difference between the two approaches visible for the first time.</p>
+
 <h3>Natural wine</h3>
-<p>There is no single global legal definition. The common principles: organically or biodynamically farmed grapes, hand harvested, fermented with native yeasts, nothing added or removed (no acidification, chaptalization, fining or heavy filtration) and little or no added SO₂. France created a voluntary <b>"Vin Méthode Nature"</b> label in 2020 (no sulfites added before fermentation, at most 30 mg/L added before bottling, organic certification). Pioneers include Jules Chauvet and Marcel Lapierre in Beaujolais; the movement grew in the Loire, Jura, Friuli and beyond.</p>
-<p>The debate: supporters praise purity and vitality; critics point to faults (mousiness, VA, Brett, oxidation) that can be accepted as "character." The honest answer: the best natural wines are superb; the worst are flawed. Judge the glass, not the label.</p>
-<h3>Orange (skin-contact white) wine</h3>
-<p>White grapes fermented on their skins like a red, for days to months. Result: amber color, tannin, phenolic grip, dried apricot, tea, nutty and savory notes. It is ancient in Georgia (qvevri "amber wine") and was revived in Friuli and Slovenia by Josko Gravner and Stanko Radikon. Pairs with spice, fermented foods, and dishes too strong for most whites.</p>
+<p>There is <b>no single global legal definition</b>. The common principles are these: organically or biodynamically farmed grapes, hand harvested, fermented with native yeasts, with nothing added or removed (no acidification, chaptalization, fining or heavy filtration) and little or no added sulfur dioxide.</p>
+<p>France created a voluntary label, <b>Vin Méthode Nature</b>, in 2020, and its charter is the nearest thing to an official definition.</p>
+<ul><li>All grapes are certified organic and picked by hand.</li>
+<li>Fermentation uses native yeast only.</li>
+<li>No additions of any kind, and no "brutal" physical treatments: the charter names filtration, flash pasteurization, heating the grapes and machines that concentrate the wine.</li>
+<li>No sulfites before or during fermentation. A small adjustment is allowed afterward, to <b>at most 30 mg/L</b> in the finished wine.</li>
+<li>There are two versions of the logo. One is for wines with no added sulfites. The other declares that some were added, within the limit.</li></ul>
+
+<h3>Where the movement came from</h3>
+<p>It began in Beaujolais. Jules Chauvet was a wine merchant and a trained chemist who, from the 1950s, studied fermentation scientifically and concluded that sound, ripe grapes from healthy soil could be made into wine with native yeast and without sulfur dioxide, provided the work was scrupulously careful. He was not a romantic. His method depended on a microscope, cold, cleanliness and carbon dioxide to protect the fruit.</p>
+<p>In the early 1980s a young grower in the village of Morgon, <b>Marcel Lapierre</b>, dissatisfied with the thin, sweetened, heavily processed Beaujolais of the time, adopted Chauvet's approach. Three neighbors followed him. Their American importer nicknamed them the Gang of Four. Their wines were vivid, perfumed and low in alcohol, and they were taken up by a few wine bars in Paris, which became the movement's shop window.</p>
+<p>From there it spread to the Loire, the Jura, the Rhône and Languedoc, to Friuli and Sicily, and by the 2000s around the world. Its fairs are La Dive Bouteille in the Loire and RAW Wine, founded by Isabelle Legeron MW. What had been a technical position held by a few growers became a culture, with its own bars, importers, labels and vocabulary, and a strong appeal to younger drinkers who had found conventional wine intimidating.</p>
+
+<h3>Sulfur dioxide, the real dividing line</h3>
+<p>Of everything on the list, sulfur dioxide matters most, and understanding it explains both the appeal of natural wine and its failures.</p>
+<p>Sulfur dioxide, written SO₂ and listed on labels as sulfites, has been used in winemaking for centuries. It does two jobs.</p>
+<ul><li><b>It prevents oxidation.</b> It reacts with the products of oxidation before they can spoil the wine's color and smell, and it binds the compound that gives oxidized wine its bruised-apple odor.</li>
+<li><b>It suppresses microbes.</b> It holds back wild yeasts and bacteria while leaving wine yeast largely unharmed.</li></ul>
+<p>Its strength depends on acidity. Only a small fraction of the sulfur dioxide in a wine is in the active form, and that fraction falls steeply as pH rises. A sharp wine at pH 3.2 is well protected by a dose that would do almost nothing in a soft wine at pH 3.8. This is the single most useful fact for predicting which low-sulfur wines will survive: high-acid wines can do without it far more safely than low-acid ones.</p>
+<table><tr><th></th><th>Total sulfur dioxide, mg/L</th></tr>
+<tr><td>Made by yeast during any fermentation</td><td>About 10 to 20</td></tr>
+<tr><td>Vin Méthode Nature limit</td><td>30</td></tr>
+<tr><td>Typical conventional dry red</td><td>60 to 100</td></tr>
+<tr><td>Typical conventional dry white</td><td>100 to 130</td></tr>
+<tr><td>EU organic limit, dry red / dry white</td><td>100 / 150</td></tr>
+<tr><td>EU limit, dry red / dry white</td><td>150 / 200</td></tr>
+<tr><td>EU limit for the sweetest wines</td><td>Up to 400</td></tr>
+<tr><td>United States limit</td><td>350</td></tr></table>
+<p>Two points follow. White wines need more than reds, because reds are protected by their own tannins. And <b>"Contains sulfites" must appear once total sulfur dioxide passes 10 mg/L</b>. Yeast make that much on their own, so even a wine with none added may carry the words. No wine is free of sulfites.</p>
+<p>Sulfites cause reactions in a small number of people, mainly some asthmatics. They are not the cause of the ordinary headache, as dried fruit, which contains many times more, demonstrates. Guests ask about this constantly, and the accurate answer is short: every wine contains some, whites usually contain more than reds, and wines labeled as having none added contain the least.</p>
+
+<h3>What can go wrong</h3>
+<p>A wine made without protection depends entirely on the quality of the grapes and the cleanliness of the cellar. When either fails, the faults are specific and recognizable.</p>
+<table><tr><th>Fault</th><th>How it shows</th><th>Cause</th></tr>
+<tr><td>Volatile acidity</td><td>Vinegar, nail polish remover</td><td>Bacteria and wild yeast, especially early in a slow fermentation</td></tr>
+<tr><td>Brettanomyces</td><td>Sticking plaster, stable, sweaty leather</td><td>A spoilage yeast that thrives in low-sulfur, low-acid reds</td></tr>
+<tr><td>Mousiness</td><td>Stale crackers, mouse cage, on the finish only</td><td>Bacteria or Brettanomyces, in wines low in sulfur dioxide and acidity</td></tr>
+<tr><td>Oxidation</td><td>Browning, bruised apple, flat fruit</td><td>Air, with nothing to counter it</td></tr>
+<tr><td>Refermentation</td><td>Unintended fizz, cloudiness, a pushed cork</td><td>Leftover sugar and live yeast in an unfiltered wine</td></tr>
+<tr><td>Reduction</td><td>Struck match, rubber, rotten egg</td><td>The opposite problem: no oxygen at all</td></tr></table>
+<p><b>Mousiness</b> needs special attention, because it is the fault most associated with natural wine and the easiest to miss. The compounds responsible are not volatile at the acidity of wine, so they <b>cannot be smelled</b> in the glass. Once the wine is in the mouth, saliva neutralizes the acid, the compounds are released, and a taste of stale crackers or a mouse cage appears on the finish, some seconds after swallowing. It builds with each sip. People differ greatly in how sensitive they are, and some cannot detect it at all, which is why arguments about a bottle are common. The Australian Wine Research Institute recorded more cases in the 1990s when winemakers there cut their use of sulfur dioxide. There is no cure. It can come and go with exposure to air, so a wine may be clean when opened and mousy an hour later.</p>
+<p><b>The debate.</b> Supporters praise purity and vitality. Critics point to these faults, which can be excused as "character." The honest answer is that the best natural wines are superb and the worst are flawed, and that the same is true of conventional wine with a different set of faults: blandness, over-oaking, excessive ripeness. <b>Judge the glass, not the label.</b> For an exam, name the fault, name its cause, and say whether it is within the style. A little haze and a touch of volatile lift are within the style. Mousiness and vinegar are not.</p>
+
+<h3>What the argument is about</h3>
+<p>Underneath the quarrel are three separate disagreements, and it helps to keep them apart.</p>
+<ul><li><b>About taste.</b> Should a wine be clean, bright and stable, or is some cloudiness, fizz and wildness part of its interest? This is a matter of preference, and both answers are legitimate.</li>
+<li><b>About place.</b> Supporters say additions and corrections erase the character of the vineyard and the year. Critics reply that faults erase it more thoroughly: a mousy Chenin Blanc and a mousy Gamay taste mostly of mouse. Both points are sound. A fault is a flavor that is the same wherever it occurs.</li>
+<li><b>About honesty.</b> Natural wine has no legal definition outside one voluntary French label, so the word on a list or a shop shelf promises nothing in particular. Conventional wine, for its part, was long sold with no account of what had been done to it. Ingredient labeling is beginning to settle this.</li></ul>
+<p>The movement has changed the mainstream more than its share of sales would suggest. Organic farming has spread widely, sulfur dioxide doses have come down across the industry, native-yeast fermentation is common at serious estates of every kind, and lighter, fresher, lower-alcohol reds have returned to fashion. Much of what was radical in a Paris wine bar in 1990 is now ordinary good practice.</p>
+
+<h3>Native yeast, and why it is a risk</h3>
+<p>Grapes arrive at the winery carrying many species of wild yeast, and the cellar adds more. Left alone, the juice begins to ferment through a succession. Weak-fermenting species start first, and can produce attractive complexity, or vinegar and nail polish if they run too long. As alcohol rises past a few percent they die, and <i>Saccharomyces</i>, the true wine yeast, takes over and finishes.</p>
+<p>A cultured yeast skips the first stage: a large dose of a selected strain dominates from the start. The result is safer and more uniform. A native fermentation is slower, may stall with sugar remaining, and varies from year to year and vat to vat. Its defenders say it expresses the place, since the yeast population belongs to the vineyard and cellar. The evidence that vineyard yeasts differ by region is real. How much of that reaches the flavor of the finished wine is still debated. Many careful producers, natural and otherwise, start a small batch a few days before harvest to build up a healthy native population and use it to seed the main vats.</p>
+
+<h3>Carbon dioxide and whole bunches</h3>
+<p>One technique runs through natural winemaking and explains the taste of many of its red wines. In <b>carbonic maceration</b>, whole, uncrushed bunches are sealed in a tank filled with carbon dioxide. Deprived of oxygen, each intact berry begins to ferment from the inside, using its own enzymes and no yeast. A little alcohol forms, malic acid is consumed, and distinctive aromas develop: cherry, raspberry, banana, bubblegum, cinnamon. After a week or so the berries are pressed and the juice finishes fermenting normally.</p>
+<p>Because the juice spends little time in contact with broken skins, the wine has bright color, very little tannin and low acidity. It is soft, fruity and ready to drink within weeks. This is the method of Beaujolais Nouveau, and in a slower and more careful form it is how Chauvet and Lapierre made their wines. It suits low-sulfur winemaking for a practical reason: the blanket of carbon dioxide protects the fruit from oxygen and from the bacteria that make vinegar, doing some of the work sulfur dioxide would do. Most "glou-glou" reds are made this way or with a share of whole bunches.</p>
+
+<h3>Orange wine</h3>
+<p><b>Orange wine is white wine made with extended skin contact</b>: white grapes fermented on their skins like a red, for days to months.</p>
+<p>The explanation is in the previous chapters. White wine is normally pressed off its skins before fermentation, so it has almost no tannin. Leave the skins in, and the wine extracts what red wine extracts: tannin and other phenolic compounds, which give grip and bitterness, plus a deeper color as those compounds oxidize. The result is amber, with tannin, a firm drying texture, and flavors of dried apricot, bruised apple, tea, nuts and herbs. It is closer to a light red in structure than to a white. The tannin and the antioxidant compounds from the skins also protect the wine, which is why the method suits producers who use little sulfur dioxide.</p>
+<p>The method is the oldest there is. In <b>Georgia</b>, where wine has been made for some 8,000 years, white grapes are crushed into a <i>qvevri</i>, a large clay jar lined with beeswax and buried to its neck in the ground, and left with skins, seeds and sometimes stems for up to six months. The earth keeps the temperature steady, and the egg shape lets the solids settle to a point at the bottom. Georgians call the result amber wine. UNESCO listed the tradition in 2013.</p>
+<p>In the modern West it was <b>revived in Friuli and Slovenia by Josko Gravner and Stanko Radikon</b>. Both worked in the hills on the Italian-Slovenian border with the local Ribolla Gialla grape, both had made polished modern white wines, and both turned in the 1990s to long skin contact, large old casks and, in Gravner's case, Georgian clay jars. The name "orange wine" was coined in 2004 by a British importer.</p>
+<p><b>Ramato</b> is the gentle end of the scale: Friuli's copper-colored Pinot Grigio, from a short time on its pink skins.</p>
+<p><b>At the table</b>, orange wine handles what defeats most whites: spice, fermented and pickled foods, strong cheese, dishes with nuts and dried fruit. Its tannin wants food. <b>Serve it at 55 to 60°F in a large glass.</b> Ice cold, its tannin turns hard and the aroma disappears.</p>
+
 <h3>Pét-nat and other modern styles</h3>
-<p><b>Pétillant naturel</b> (ancestral method, one fermentation finishing in bottle), often cloudy. <b>Glou-glou</b> (easy, chillable reds). <b>Piquette</b> (low-alcohol drink from re-wetted pomace). <b>Amphora</b> aging (terracotta, inert, micro-oxygenating without oak flavor).</p>
+<ul><li><b>Pétillant naturel</b> is made by the ancestral method: one fermentation, finishing in the bottle. It is often cloudy and sealed with a crown cap.</li>
+<li><b>Col fondo</b> is Prosecco refermented in the bottle and sold cloudy on its lees.</li>
+<li><b>Glou-glou</b> describes easy, light, chillable reds, often made by fermenting whole bunches under carbon dioxide, the Beaujolais technique. <b>Vin de soif</b> is a light wine made to quench thirst.</li>
+<li><b>Piquette</b> is a low-alcohol drink made by adding water to pressed grape skins and fermenting what sugar remains.</li>
+<li><b>Amphora aging</b> uses terracotta, which admits a little air without adding oak flavor.</li>
+<li><b>Zero-zero</b> means nothing added and nothing removed, including sulfur.</li></ul>
+
+<h3>Five words guests confuse</h3>
+<table><tr><th>Term</th><th>What it means</th><th>Certified by</th></tr>
+<tr><td>Organic</td><td>No synthetic pesticides, herbicides or fertilizers. Copper and sulfur sprays are allowed</td><td>EU leaf logo, USDA and others</td></tr>
+<tr><td>Biodynamic</td><td>Organic, plus Rudolf Steiner's 1924 system: the farm as one organism, special preparations, work timed by a lunar calendar</td><td>Demeter, Biodyvin</td></tr>
+<tr><td>Sustainable</td><td>A broad scorecard: water, energy, biodiversity, labor. Synthetic sprays may be allowed</td><td>Regional schemes such as HVE, SWNZ, Napa Green</td></tr>
+<tr><td>Natural</td><td>Organic grapes, native yeast, nothing added or removed, little or no sulfur</td><td>No legal standard; Vin Méthode Nature in France</td></tr>
+<tr><td>Vegan</td><td>No animal products used in fining</td><td>Private labels</td></tr></table>
+<p>The first three describe farming. Natural describes the cellar as well. A wine can be organic and heavily processed, or biodynamic and filtered. The terms nest: natural wines are organic, and many are biodynamic, but the reverse does not hold.</p>
+<p><b>Organic</b> farming has its own compromise. Without synthetic fungicides, growers rely on copper against mildew, and copper is a heavy metal that builds up in soil. In a wet year an organic grower may spray more often than a conventional one. The honest case for organic farming is healthier soil life and no synthetic residues, not that nothing is sprayed.</p>
+<p><b>Biodynamic preparations:</b> 500 is cow manure buried in a cow horn over winter and sprayed on the soil. 501 is ground quartz, sprayed on the leaves. Others are made from plants such as yarrow, chamomile and nettle and added to compost. Estates working this way include Domaine Leroy, Zind-Humbrecht, Nicolas Joly and Chapoutier. Trials comparing biodynamic and organic plots have mostly found little difference in the vines or the wine. What is not in doubt is that the system demands close and constant attention to the vineyard, and that many of the world's most admired estates follow it.</p>
+<p><b>US label trap:</b> "Organic wine" may contain <b>no added sulfites</b>. "Made with organic grapes" may contain up to 100 parts per million. European organic wine may contain added sulfites, at lower limits than conventional wine. So the same bottle can be organic in Europe and not qualify for the word in America.</p>
+<p><b>Vegan:</b> isinglass (from fish), casein (milk), egg white and gelatin are the animal fining agents. <b>Bentonite</b> clay and pea protein are not. Fining agents are removed from the wine along with what they bind, but the wine has still been made with them.</p>
+
 <h3>Closures</h3>
-<table class="t"><tr><th>Closure</th><th>Pros</th><th>Cons</th></tr>
+<p>A closure has one job: to keep the wine in and manage how much oxygen gets to it. The second half of that sentence is where the argument lies. Too much oxygen and the wine oxidizes. None at all and some wines turn reductive. Each closure is a different answer.</p>
+<table><tr><th>Closure</th><th>Pros</th><th>Cons</th></tr>
 <tr><td>Natural cork</td><td>Tradition, proven for long aging, small oxygen ingress</td><td>TCA risk, variation between bottles</td></tr>
 <tr><td>Technical cork (agglomerated, e.g., DIAM)</td><td>TCA treated out, consistent</td><td>Perception</td></tr>
 <tr><td>Synthetic cork</td><td>No TCA, cheap</td><td>Can let in too much oxygen; hard to reinsert</td></tr>
 <tr><td>Screwcap</td><td>No TCA, consistent, keeps aromatics fresh</td><td>Reduction risk if too airtight; consumer image in some markets</td></tr>
 <tr><td>Glass stopper (Vinolok)</td><td>Inert, elegant</td><td>Cost</td></tr>
 <tr><td>Crown cap</td><td>Used in Champagne aging and pét-nat</td><td>Image for still wine</td></tr></table>
+<p><b>Natural cork</b> is the bark of the cork oak, grown mainly in Portugal and Spain. The tree is not felled. Its bark is stripped by hand about every nine years, and a tree gives its first usable cork at around forty years old. Cork is a remarkable material: elastic, impermeable, light, and made of millions of sealed air-filled cells that let it compress into a bottle neck and press outward for decades.</p>
+<p>It has two faults. The first is <b>cork taint</b>. A compound called TCA, formed when molds meet traces of chlorine-containing chemicals, can be present in the bark. It smells of damp cardboard and wet cellar, and it is astonishingly potent: most people detect it at a few parts per trillion. At lower levels it simply flattens the wine's fruit without announcing itself. Surveys around 2000 found that 5 to 8% of cork-sealed bottles were affected. The cork industry has since changed how it cleans and tests bark, and recent large competitions report closer to 1 or 2%.</p>
+<p>The second fault is <b>inconsistency</b>. Cork is a natural product, and one cork lets in several times as much oxygen as its neighbor. This is why two bottles from the same case can taste different after ten years.</p>
+<p><b>Technical corks</b> are made of cork granules glued together. The best-known, DIAM, cleans the granules with carbon dioxide under pressure, which strips out TCA, and offers versions with a chosen, consistent rate of oxygen entry. Many Burgundy and Champagne producers have adopted it.</p>
+<p><b>Screwcaps</b> seal with a liner pressed against the rim of the bottle. Their adoption was driven by frustration with cork taint. Riesling producers in Australia's Clare Valley switched together in 2000, New Zealand's producers followed, and about 90% of Australian wine is now sealed this way. The long-running closure trial begun by the Australian Wine Research Institute in 1999 bottled one Semillon under fourteen closures and tasted it for ten years. The screwcap kept the wine freshest, and retained the most sulfur dioxide. The synthetic corks let the wine oxidize within a few years. The natural corks varied from bottle to bottle.</p>
+<p>The trial also showed the screwcap's weakness. The tightest liner admitted so little oxygen that the wine developed a struck-flint, rubbery note: <b>reduction</b>. The answer is in the liner. One type, with a layer of tin, is almost completely airtight. Another lets in several times more. Producers now choose the liner to suit the wine, and prepare the wine for bottling with the closure in mind.</p>
+<p>Whether wine ages properly under screwcap is no longer in question. Decades-old Rieslings and Semillons show that it does, slowly and reliably. Whether the result is the same as under good cork is a matter of taste. The remaining obstacle is image: in France, Italy, Spain and the United States, many drinkers still read a screwcap as a sign of cheap wine.</p>
+
 <h3>Packaging</h3>
-<p>Glass bottles are most of wine's carbon footprint. Alternatives growing fast: lighter bottles, bag-in-box (keeps wine fresh for weeks after opening), cans, kegs for by-the-glass, and paper bottles.</p>
-<h3>Five words guests confuse</h3>
-<table class="t"><tr><th>Term</th><th>What it means</th><th>Certified by</th></tr>
-<tr><td>Organic</td><td>No synthetic pesticides, herbicides or fertilizers. Copper and sulfur sprays are allowed</td><td>EU leaf logo, USDA and others</td></tr>
-<tr><td>Biodynamic</td><td>Organic, plus Rudolf Steiner's 1924 system: the farm as one organism, special preparations, work timed by a lunar calendar</td><td>Demeter, Biodyvin</td></tr>
-<tr><td>Sustainable</td><td>A broad scorecard: water, energy, biodiversity, labor. Synthetic sprays may be allowed</td><td>Regional schemes such as HVE, SWNZ, Napa Green</td></tr>
-<tr><td>Natural</td><td>Organic grapes, native yeast, nothing added or removed, little or no sulfur</td><td>No legal standard; Vin Méthode Nature in France</td></tr>
-<tr><td>Vegan</td><td>No animal products used in fining</td><td>Private labels</td></tr></table>
-<ul><li><b>Biodynamic preparations:</b> 500 is cow manure buried in a cow horn over winter and sprayed on the soil. 501 is ground quartz, sprayed on the leaves. Estates working this way include Domaine Leroy, Zind-Humbrecht, Nicolas Joly and Chapoutier.</li>
-<li><b>US label trap:</b> "Organic wine" may contain no added sulfites. "Made with organic grapes" may contain up to 100 parts per million.</li>
-<li><b>Vegan:</b> isinglass (fish), casein (milk), egg white and gelatin are the animal fining agents. Bentonite clay and pea protein are not.</li>
-<li><b>"Contains sulfites"</b> must appear once total sulfur dioxide passes 10 mg/L. Yeast make a little on their own, so even a wine with none added may carry the words.</li></ul>
-<h3>More vocabulary from the list</h3>
-<ul><li><b>Zero-zero:</b> nothing added, nothing removed, including sulfur.</li>
-<li><b>Ramato:</b> Friuli's copper-colored Pinot Grigio, from a short time on its pink skins.</li>
-<li><b>Col fondo:</b> Prosecco refermented in the bottle and sold cloudy on its lees.</li>
-<li><b>Vin de soif:</b> a light wine made to quench thirst.</li>
-<li><b>La Dive Bouteille</b> in the Loire and <b>RAW Wine</b>, founded by Isabelle Legeron MW, are the movement's main fairs.</li></ul>
+<p>The glass bottle is the largest single part of wine's carbon footprint, mostly because glass is energy-hungry to make and heavy to ship. A standard bottle weighs 400 to 500 grams empty, and prestige bottles twice that, with no benefit to the wine. The cheapest and most effective environmental change in wine is therefore a lighter bottle, and several large buyers now set weight limits.</p>
+<ul><li><b>Bag-in-box</b> is a plastic bag inside a carton, with a tap. As wine is drawn off the bag collapses, so no air enters, and the wine <b>keeps fresh for weeks after opening</b>. The bag is slightly permeable, so unopened boxes last months, not years. It is right for wine to be drunk young, and it has a fraction of the footprint of glass.</li>
+<li><b>Cans</b> suit single servings and places glass cannot go. They must be lined, and they suit simple, fresh wines.</li>
+<li><b>Kegs</b> serve wine by the glass in restaurants with no waste and no bottles at all.</li>
+<li><b>Paper bottles</b> and bottles of recycled plastic are newer alternatives.</li></ul>
+<p>The principle links back to closures. Every package is a balance between protecting the wine and the cost of doing so. Glass and cork are needed for the small share of wine that will be aged for years. Most wine is drunk within months of bottling and could be packed in something lighter with no loss.</p>
+
 <h3>Serving skin-contact and natural wine</h3>
-<ul><li>Serve orange wine at 55 to 60°F in a large glass. Ice cold, its tannin turns hard and the aroma disappears.</li>
-<li>Many unfiltered wines carry sediment and some dissolved gas. Stand the bottle up, pour gently, and decant if it is fizzy or reduced.</li>
-<li>Keep unsulfured wine cool at all times. Warm storage is what turns it.</li>
-<li><b>Mousiness</b> cannot be smelled. It shows as a stale, cracker-like taste a few seconds after swallowing, so taste before you pour for a table.</li></ul>
+<ul><li>Serve orange wine at 55 to 60°F in a large glass.</li>
+<li>Many unfiltered wines carry sediment and some dissolved gas. Stand the bottle up, pour gently, and decant if it is fizzy or reduced. A reduced, struck-match smell often clears with air.</li>
+<li>Keep unsulfured wine cool at all times, in transit, in storage and on the shelf. Warm storage is what turns it. This is the practical consequence of leaving out the preservative.</li>
+<li>Mousiness cannot be smelled. It shows as a stale, cracker-like taste a few seconds after swallowing, so <b>taste before you pour for a table</b>, and wait a moment before deciding.</li></ul>
+
 <h3>Talking about it on the floor</h3>
 <ul><li>Ask what the guest usually drinks before recommending anything cloudy or funky.</li>
 <li>Describe the wine, not the philosophy: "cloudy, tart, a bit like dry cider" tells them more than "natural".</li>
 <li>Offer a taste first, and take the bottle back without argument if they dislike it.</li>
-<li>Never call a wine natural if you cannot say how it was made.</li></ul>`,
+<li>Never call a wine natural if you cannot say how it was made.</li></ul>
+<p>The underlying skill is the one this whole unit has been building. Every wine is the product of decisions about protection: sulfur or none, skins or none, filtration or none, cork or cap. A sommelier who knows what each decision does can describe any bottle accurately, and can tell a deliberate style from an accident.</p>
+`,
 floor:`<p>Guests ask for "natural" or "low sulfite" wine as shorthand for "something interesting and not too heavy." Ask what they enjoyed before. Keep a few clean, well-made examples ready so the category sells itself.</p>`,
 analyst:`<p>MW contemporary issues papers regularly ask about natural wine, sustainability and packaging. Be balanced: define terms, weigh quality and fault risk, and discuss market and environmental implications.</p>`,
 terms:[["Vin Méthode Nature","French voluntary natural wine label created in 2020."],["Orange wine","White wine fermented with extended skin contact."],["Pét-nat","Pétillant naturel; ancestral-method sparkling wine."],["Mousiness","Fault giving a mousy, cracker-like aftertaste, linked to bacteria in low-SO₂ wines."],["Biodynamic","Organic farming plus Rudolf Steiner's preparations and lunar calendar."],["Demeter","The main biodynamic certifier."],["Preparation 500","Cow manure aged in a horn, sprayed on the soil."],["Ramato","Copper-colored Pinot Grigio from short skin contact."],["Zero-zero","Nothing added, nothing removed."],["Col fondo","Prosecco refermented in bottle and sold on its lees."]],
