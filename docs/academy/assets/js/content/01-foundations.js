@@ -128,33 +128,33 @@ quiz:[
 
 // ---------- F1 TASTING ----------
 L.push({id:"f1", unit:"F1", title:"How a Sommelier Tastes", mins:15,
-summary:"The four-stage method behind both grids, and why every observation is evidence.",
+summary:"The four-stage method behind both grids, and the reason for each step: a nose that tires in seconds, a brain that smells what the eyes expect, and evidence that must be collected before a name is allowed.",
 body:`
-<p>Blind tasting looks like a party trick. It is closer to detective work. A wine is a record of decisions: a grape, a climate, a winemaker's choices, time in bottle. Each of those leaves physical evidence you can see, smell and feel. The grid is a checklist that forces you to collect all the evidence before you name a suspect.</p>
+<p>Blind tasting looks like a party trick. It is closer to detective work. A wine is a record of decisions: a grape, a climate, a winemaker's choices, time in bottle. Each of those leaves physical evidence you can see, smell and feel. The tasting grid is a checklist that forces you to collect all the evidence before you name a suspect.</p>
+<p>This chapter teaches the method, and it also explains why the method has the shape it does. The steps are not arbitrary. Each one exists to get around a known weakness in how people perceive: a nose that tires in seconds, a brain that smells what the eyes expect, a memory that will not hold a smell without a word attached. Knowing the weaknesses is what turns a routine into a skill.</p>
+
+<h3>Why a method at all</h3>
+<p>Research on wine experts has produced one surprising and useful result. Experts are not more sensitive than anyone else. Tested on their ability to detect faint smells, or small differences in tannin or alcohol, trained tasters score about the same as untrained drinkers. What they have is better memory for wine smells, a larger and more consistent vocabulary, and a framework for organizing what they notice.</p>
+<p>That is good news, because sensitivity cannot be trained and the other three can. It also explains the form of tasting exams. They do not test whether you have a gifted nose. They test whether you can observe systematically, put words to what you observe, and reason from it.</p>
+<p>A second finding is a warning. In a famous French experiment in 2001, fifty-four students of winemaking were given a white wine to describe, and used words like lemon, honey and straw. A week later they were given the same white wine dyed red with an odorless coloring. They described it with the vocabulary of red wine: cherry, blackcurrant, spice. Nothing about the smell had changed. Later studies found that experienced tasters are more prone to this than beginners, because they have learned stronger expectations.</p>
+<p>The lesson is that perception is partly prediction. What you see, what the label says and what the wine cost all shape what you believe you smell. The disciplines of professional tasting, bottles covered, notes written before discussion, the same order every time, exist to protect the evidence from the taster.</p>
+
+<h3>The four stages</h3>
+<p>Both major tasting systems, the Court of Master Sommeliers' deductive grid and the WSET's Systematic Approach to Tasting, follow the same four stages: look, smell, taste, conclude.</p>
+
 <h3>Stage 1: Sight</h3>
-<p>Tilt the glass over white paper. <b>Clarity</b> (clear, hazy, cloudy) can flag a fault or an unfiltered wine. <b>Intensity of color</b> hints at grape skin thickness and age: Nebbiolo and Pinot Noir are pale; Syrah and Malbec are opaque. <b>Hue</b> tells age: whites darken from straw to gold to amber; reds go from purple to ruby to garnet to brick. A <b>rim variation</b> (the color thinning and browning at the edge) suggests age. <b>Tears</b> or legs suggest alcohol and sugar, but loosely. <b>Gas</b> bubbles in a still wine suggest early bottling or a cool-climate, reductive white.</p>
-<h3>Stage 2: Nose</h3>
-<p>First check for <b>faults</b>. Then <b>intensity</b> (delicate to powerful) and <b>age</b> (youthful, developing, vinous). Then name aromas in families, always in the same order so you never skip one: fruit (which family, and its condition), non-fruit (flowers, herbs, spice, pyrazine), earth, mineral, oak. The <b>condition</b> of the fruit is the strongest climate clue you have: tart fruit means cool, ripe fruit moderate, baked or jammy fruit warm.</p>
-<h3>Stage 3: Palate</h3>
-<p>Confirm the nose, then measure <b>structure</b>: sweetness, acidity, alcohol, tannin, body. Structure is harder to fake than aroma, so exam veterans trust it most. A wine can smell like ripe cherries, but if its acid is high and its tannin grips like strong black tea, think Nebbiolo or Sangiovese, not Grenache. Finish with <b>balance</b>, <b>length</b> and <b>complexity</b>.</p>
-<h3>Stage 4: Conclusion</h3>
-<p>The <b>initial conclusion</b> narrows the field: climate, possible grapes, possible countries and an age range. The <b>final conclusion</b> commits: grape, country, region, quality level, vintage. The reasoning runs in one direction:</p>
-<ul>
-<li>Fruit condition and structure point to <b>climate</b>.</li>
-<li>Earth and mineral against fruit point to <b>style and likely countries</b>: savory and earth-led, or fruit-led. Tasters long called this "Old World versus New World"; the Court dropped those words from its grid in 2024 because warm vintages and modern winemaking blurred the line, so name countries instead.</li>
-<li>Structure markers and signature aromas point to the <b>grape</b>.</li>
-<li>Oak type and winemaking signatures point to the <b>region and style</b>.</li>
-</ul>
-<h3>Practical habits</h3>
-<ul><li>Taste at the same time of day, with no fragrance, gum or coffee.</li><li>Pour about 1.5 oz (45 ml) in an ISO or universal glass.</li><li>Say your notes aloud, in grid order, every time. The Advanced and Master tasting exams are spoken.</li><li>Spit. A Certified exam is four wines; a practice session can be twelve.</li></ul>
-<h3>How smell works, and how to use it</h3>
-<p>You smell twice. <b>Orthonasal</b> smell is through the nostrils, glass to nose. <b>Retronasal</b> smell happens when you swallow or breathe out with wine in your mouth and aroma travels up the back of the throat. Most of what people call "taste" is retronasal smell: the tongue itself reads only sweet, sour, salty, bitter and umami.</p>
-<ul><li><b>Swirl</b> to coat the glass and release aroma, then take short sniffs. The nose tires of a smell within seconds, so three short sniffs tell you more than one long one.</li>
-<li><b>Reset</b> a tired nose by smelling your own sleeve or a glass of water.</li>
-<li><b>Draw a little air</b> through the wine in your mouth. It looks odd and it works: it drives aroma to the back of the nose.</li>
-<li><b>Your first impression</b> is the most reliable one. Write it down before you start to argue with it.</li></ul>
-<h3>What sight tells you</h3>
-<table class="t"><tr><th>You see</th><th>It suggests</th></tr>
+<p>Tilt the glass over white paper, in good light, and look through the wine at its center and at its edge.</p>
+<ul><li><b>Clarity</b> (clear, hazy, cloudy) can flag a fault or an unfiltered wine.</li>
+<li><b>Intensity</b> of color hints at the thickness of the grape's skin and at age. Nebbiolo and Pinot Noir are pale. Syrah and Malbec are opaque.</li>
+<li><b>Hue</b> tells age. Whites darken from straw to gold to amber. <b>Reds go from purple to ruby to garnet to brick.</b></li>
+<li><b>Rim variation</b>, the color thinning and browning at the edge, suggests age.</li>
+<li><b>Tears</b>, or legs, suggest alcohol and sugar, but loosely.</li>
+<li><b>Gas bubbles</b> in a still wine suggest early bottling or a cool-climate white handled without air.</li></ul>
+<p>Each of these has a physical cause, and the cause tells you how far to trust it.</p>
+<p><b>Why red wine changes color.</b> The pigments of red wine come from the grape skin, and a thicker skin gives a deeper color. In a young wine the pigments are free, and they are purple-red, the more so the more acidic the wine. Over the years they link up with tannins into larger pigments that are brick-red and orange, and the largest eventually fall out as sediment. So color moves in one direction, from purple toward brick, and fades as it goes. The rim shows the change first, because there the wine is thin and you see its true hue instead of its depth.</p>
+<p><b>Why white wine darkens.</b> White wine has no red pigment. It deepens because compounds from the grape slowly react with oxygen and brown, as a cut apple does. Deep gold in a white can therefore mean age, time in oak barrels, grapes affected by the fungus that makes sweet wines, or simply very ripe fruit from a warm place.</p>
+<p><b>What tears are.</b> Swirl a glass and a film of wine coats the inside. Alcohol evaporates from that thin film faster than water does. The film left behind, now more watery, has a stronger surface tension than the wine below, and it pulls more liquid up the glass until the weight gathers into drops that run back down. More alcohol gives more pronounced tears. Sugar makes the wine more viscous, so the drops form and fall more slowly. Tears say nothing about quality, and the common belief that they show glycerol is wrong.</p>
+<table><tr><th>You see</th><th>It suggests</th></tr>
 <tr><td>Green glints in a white</td><td>Youth; often a cool climate</td></tr>
 <tr><td>Deep gold in a white</td><td>Age, oak, botrytis or a warm climate</td></tr>
 <tr><td>Purple rim in a red</td><td>Youth. Very strong in Malbec and young Syrah</td></tr>
@@ -163,9 +163,23 @@ body:`
 <tr><td>Thick, slow tears</td><td>High alcohol or sugar</td></tr>
 <tr><td>Tiny bubbles in a still white</td><td>Bottled young and cold with a little CO₂: Vinho Verde, young Riesling, Muscadet</td></tr>
 <tr><td>Sediment</td><td>Bottle age or an unfiltered wine</td></tr></table>
-<h3>A vocabulary by family</h3>
-<p>Run the families in the same order every time. For each, ask first "is it there?" and only then "which one?"</p>
-<table class="t"><tr><th>Family</th><th>Words to reach for</th></tr>
+<p>The orange rim on a young, pale red is worth singling out. <b>Nebbiolo</b> has little pigment and a great deal of tannin, so its color shifts toward orange within a few years, far sooner than other grapes. A wine that looks ten years old and tastes three is a strong hint.</p>
+<p>Sight is the quickest stage and the one most likely to mislead, because of the effect described above. Record what you see, form no conclusion from it, and move on.</p>
+
+<h3>How smell works, and how to use it</h3>
+<p>Smell does most of the work in tasting, and it is worth understanding before the second stage.</p>
+<p>At the top of the nasal cavity is a small patch of tissue carrying about four hundred different kinds of receptor. No receptor corresponds to a single smell. Each odor molecule triggers its own combination, and the brain reads the pattern. That is how a few hundred receptors distinguish an enormous range of smells, and it is also why smells are hard to name: there is no "cherry receptor" to consult, only a pattern you have met before and labeled.</p>
+<p><b>You smell twice.</b> <b>Orthonasal</b> smell is through the nostrils, glass to nose. <b>Retronasal</b> smell happens when you swallow or breathe out with wine in your mouth and aroma travels up the back of the throat to the same receptors. Most of what people call "taste" is retronasal smell. The tongue itself reads only sweet, sour, salty, bitter and umami. Hold your nose while eating a jelly bean and you get sweetness and nothing else. Let go and the flavor arrives.</p>
+<p>Three properties of the system dictate technique.</p>
+<ul><li><b>It adapts fast.</b> Receptors stop responding to a constant smell within seconds, which is why you cease to notice the smell of a room you have been sitting in. <b>The nose tires within seconds</b>, so three short sniffs tell you more than one long one. Between sniffs, move the glass away.</li>
+<li><b>It can be reset.</b> Smell something neutral and familiar, your own sleeve or a glass of water, and the receptors recover.</li>
+<li><b>The first impression is the cleanest.</b> It is formed before adaptation and before you have begun to talk yourself into an answer. Write it down before you start to argue with it.</li></ul>
+<p>Swirl to coat the glass, which spreads the wine over a large surface and releases aroma. In the mouth, draw a little air through the wine. It looks odd and it works: it drives aroma up the back of the nose.</p>
+<p>Naming is the hard part, for everyone. A smell can be intensely familiar and still have no word attached. The only cure is deliberate practice: smell the things themselves, in the kitchen and the garden, say the word aloud, and do it again. A taster's vocabulary is built on memory of real lemons, real wet stone and real leather, not on wine.</p>
+
+<h3>Stage 2: Nose</h3>
+<p>First check for faults. Then judge intensity (delicate to powerful) and age (youthful, developing, or vinous, meaning the fruit has receded and the wine smells of maturity). Then name aromas in families, always in the same order so that you never skip one.</p>
+<table><tr><th>Family</th><th>Words to reach for</th></tr>
 <tr><td>Fruit (whites)</td><td>Citrus (lemon, lime, grapefruit); tree (apple, pear); stone (peach, apricot); tropical (pineapple, mango, passion fruit); melon</td></tr>
 <tr><td>Fruit (reds)</td><td>Red (cherry, raspberry, cranberry, strawberry); black (blackberry, cassis, plum); blue (blueberry); dried (fig, raisin, prune)</td></tr>
 <tr><td>Fruit condition</td><td>Tart, just ripe, ripe, jammy, baked, dried, stewed</td></tr>
@@ -174,24 +188,77 @@ body:`
 <tr><td>Earth</td><td>Forest floor, mushroom, wet leaves, potting soil, barnyard, truffle</td></tr>
 <tr><td>Mineral</td><td>Wet stone, chalk, flint, slate, saline</td></tr>
 <tr><td>Oak</td><td>Vanilla, toast, smoke, clove, coconut, dill, coffee</td></tr></table>
+<p>For each family, ask first "is it there?" and only then "which one?" The order matters because of adaptation and attention. Whatever is strongest captures the nose, and the quieter families, earth and mineral above all, are missed unless you go looking for them one at a time.</p>
+<p><b>The condition of the fruit is the strongest climate clue you have.</b> Tart fruit means cool. Ripe fruit means moderate. Baked or jammy fruit means warm. The reason is in how grapes ripen. As a grape hangs on the vine it gains sugar, loses acid, and its flavor compounds change, from green and citrus through fresh fruit to cooked and dried fruit. In a cool place the grape is picked before it gets far along that path. In a hot place it goes all the way. So the same grape variety gives lemon and green apple in a cool region and pineapple and baked apple in a hot one, and the fruit tells you the temperature more reliably than it tells you the grape.</p>
+<p>The other families point elsewhere. Flowers, herbs and spice often identify the grape variety. Earth and mineral notes, in the classic view, lean toward the traditional regions of Europe. Oak tells you about the winemaker's choices and the wine's ambitions.</p>
+
+<h3>Stage 3: Palate</h3>
+<p>Confirm the nose, since the mouth warms the wine and releases aromas the glass did not. Then measure <b>structure</b>: sweetness, acidity, alcohol, tannin and body. The next chapter treats each in depth.</p>
+<p>Structure is harder to fake than aroma, so experienced tasters trust it most. Aroma is a few millionths of the wine and can be shaped by the choice of yeast, by oak, by fashion. Structure is the bulk composition: how much acid, how much alcohol, how much tannin. Those are set by the grape and the climate and are hard to disguise. <b>A red can smell of ripe cherry, but if its acid is high and its tannin grips like strong black tea, think Nebbiolo or Sangiovese</b>, not Grenache.</p>
+<p>Finish with three judgments of quality.</p>
+<ul><li><b>Balance:</b> does any element stick out? Sweetness without acid cloys. Alcohol without fruit burns.</li>
+<li><b>Length:</b> how long does the pleasant flavor last after you spit or swallow?</li>
+<li><b>Complexity:</b> how many different things are there to notice, and does the wine change in the glass?</li></ul>
+
+<h3>Stage 4: Conclusion</h3>
+<p>The <b>initial conclusion</b> narrows the field: climate, possible grapes, possible countries and an age range. The <b>final conclusion</b> commits: grape, country, region, quality level, vintage. The reasoning runs in one direction, from the most reliable evidence to the least.</p>
+<ol><li>Fruit condition and structure point to <b>climate</b>.</li>
+<li>Earth and mineral against fruit point to <b>style and likely countries</b>: savory and earth-led, or fruit-led. Tasters long called this "Old World versus New World." The Court dropped those words from its grid in 2024 because warm vintages and modern winemaking had blurred the line, so name countries instead.</li>
+<li>Structure markers and signature aromas point to the <b>grape</b>.</li>
+<li>Oak type and winemaking signatures point to the <b>region and style</b>.</li></ol>
+<p>The order guards against the commonest error in tasting, which is to recognize a wine in the first sniff and then spend the rest of the time finding reasons. Psychologists call this confirmation bias. Once a name is in your head, every observation seems to support it and contrary evidence goes unnoticed. The grid makes you collect everything before you are allowed to name anything.</p>
+<p>It also explains how the exams are marked. On the Court's grid each correct observation earns a point, and wrong ones are not penalized, so a taster who describes the wine accurately and reasons soundly scores well even with the wrong grape at the end. The marks are for the evidence and the logic. The name is the last line.</p>
+
+<h3>A wine, start to finish</h3>
+<p>Here is the method applied to one glass, with the reasoning shown. Read it as a model of the order of thought, not of the vocabulary.</p>
+<p><b>Sight.</b> Clear. Pale lemon with green glints. No rim variation. Thin, quick tears. A few tiny bubbles cling to the glass.</p>
+<ul><li>Pale with green suggests youth. Quick tears suggest modest alcohol. The bubbles suggest a wine bottled young and cold. Nothing here is a conclusion yet.</li></ul>
+<p><b>Nose.</b> Clean, with no faults. Moderate-plus intensity. Youthful.</p>
+<ul><li>Fruit: lime, green apple, white peach. The fruit is tart to just ripe.</li>
+<li>Non-fruit: white flowers, a faint smell like petrol or a struck stone.</li>
+<li>Earth and mineral: wet slate.</li>
+<li>Oak: none.</li></ul>
+<p>Tart fruit says cool climate. No oak says the winemaker wanted the fruit alone. The petrol note is rare enough to be worth remembering.</p>
+<p><b>Palate.</b> The lime and peach are confirmed. There is noticeable sweetness, though the wine does not taste sugary. Acidity is high: the mouth waters for a long time. Alcohol is low, with no warmth at all. Light body. No tannin. The finish is long.</p>
+<ul><li>Sweetness with low alcohol means the fermentation was stopped early. High acid confirms the cool climate and explains why the sugar seems modest. Pinching the nose leaves the sweetness in place, so it is real sugar.</li></ul>
+<p><b>Initial conclusion.</b> A cool climate. A young wine, one to three years. An aromatic white grape with high acid, made with no oak and some sugar left in. The candidates are Riesling and Chenin Blanc.</p>
+<p><b>Final conclusion.</b> The petrol and slate, the low alcohol and the lightness point to Riesling over Chenin, which would be fuller, with a waxy texture and notes of quince or honey. High acid, low alcohol and residual sugar together point to Germany, and the lightness and slate to the Mosel. The wine is good, with a long finish, but light: Kabinett level. Riesling, Germany, Mosel, Kabinett, two years old.</p>
+<p>Notice what carried the weight. Structure did the first sorting: sweet, low alcohol and high acid left only a handful of possibilities. Aroma then chose among them. And if the final call had been wrong, say an Australian Riesling, nearly every line of the description would still have been right.</p>
+
 <h3>The two systems side by side</h3>
-<table class="t"><tr><th></th><th>Court grid (Floor)</th><th>WSET SAT (Analyst)</th></tr>
+<table><tr><th></th><th>Court grid (Floor)</th><th>WSET SAT (Analyst)</th></tr>
 <tr><td>Purpose</td><td>Deduce what the wine is</td><td>Describe the wine and judge its quality</td></tr>
 <tr><td>Form</td><td>Written at Certified; spoken at Advanced and Master</td><td>Always written</td></tr>
 <tr><td>Scales</td><td>Low to high, with plus and minus steps</td><td>Three steps at Level 2, five at Level 3</td></tr>
 <tr><td>Ends with</td><td>Grape, country, region, quality level, vintage</td><td>Quality level with reasons, and readiness to drink</td></tr></table>
-<p>The skills overlap almost entirely. A taster trained in one can learn the other's vocabulary in a week.</p>
+<p>The skills overlap almost entirely. A taster trained in one can learn the other's vocabulary in a week. The difference is in what each is for. A sommelier must identify and sell. A buyer or critic must assess and explain. Both begin with the same accurate description.</p>
+
 <h3>Setting up a tasting</h3>
-<ul><li>White surface, daylight or neutral light, a spit cup, water, plain crackers.</li>
-<li>Order: sparkling, then light whites, full whites, light reds, full reds, sweet, fortified. Dry before sweet; light before heavy.</li>
-<li>Pour the same amount in the same glass shape every time, so that depth of color means something.</li>
-<li>Cover the bottles and number them. Knowing even the price changes what you taste.</li></ul>
+<p>Every instruction here controls a variable that would otherwise distort the result.</p>
+<ul><li><b>White surface, daylight or neutral light.</b> Colored light changes apparent color, and color changes what you smell.</li>
+<li><b>No fragrance, gum or coffee,</b> and taste at the same time of day. Late morning, before lunch, is when most people are sharpest.</li>
+<li><b>The same glass and the same pour every time,</b> about 1.5 oz (45 ml) in a standard tasting glass. Depth of color means something only if the depth of wine is constant, and the shape of the glass changes how much aroma reaches the nose.</li>
+<li><b>Order:</b> sparkling, then light whites, full whites, light reds, full reds, sweet, fortified. Dry before sweet and light before heavy. A sweet wine makes the next dry one taste sour, and a tannic one numbs the mouth for whatever follows.</li>
+<li><b>Cover the bottles and number them.</b> Knowing even the price changes what you taste.</li>
+<li><b>A spit cup, water, plain crackers.</b> Spit. A Certified exam is four wines, and a practice session can be twelve. Alcohol dulls judgment long before you feel it.</li>
+<li><b>Say your notes aloud, in grid order, every time.</b> The Advanced and Master tasting exams are spoken, and saying the word is how a smell gets its label.</li>
+<li><b>Write.</b> Notes you cannot reread teach you nothing.</li></ul>
+
 <h3>Five habits that hold beginners back</h3>
-<ol><li>Naming the grape first and then finding evidence for it.</li>
-<li>Confusing ripe fruit with sweetness.</li>
-<li>Describing only fruit and skipping earth, mineral and oak.</li>
-<li>Sitting on "medium" for every structural call.</li>
-<li>Tasting without writing. Notes you cannot reread teach you nothing.</li></ol>`,
+<ol><li><b>Naming the grape first</b> and then finding evidence for it. This is the most damaging habit, for the reason given above.</li>
+<li><b>Confusing ripe fruit with sweetness.</b> A wine can smell of ripe peaches and contain no sugar at all. Sweetness is judged on the tongue, not the nose.</li>
+<li><b>Describing only fruit</b> and skipping earth, mineral and oak.</li>
+<li><b>Sitting on "medium"</b> for every structural call. It feels safe and it carries no information. Decide which side of medium the wine is on.</li>
+<li><b>Tasting without writing.</b></li></ol>
+
+<h3>How to practice</h3>
+<p>Skill comes from comparison. A single wine tasted alone gives you nothing to measure it against, and the memory fades. Two wines side by side that differ in one respect, a cool-climate and a warm-climate Chardonnay, an oaked and an unoaked one, a young and an old Rioja, teach that one difference permanently.</p>
+<ul><li>Taste in pairs or flights built around a single question.</li>
+<li>Taste the classics first. Exam wines are chosen to be typical, and a clear mental picture of twenty classic wines is worth more than a vague one of two hundred.</li>
+<li>Taste with others and compare notes after writing, never before. Agreement on structure comes quickly. Agreement on aromas takes longer and matters less.</li>
+<li>Go back to the same wine a week later. Recognition is the test of whether the memory took.</li></ul>
+<p>The method is the same whether the wine is a simple one on a weeknight or an exam wine under a clock: look, smell, taste, and only then decide. Done often enough, it stops feeling like a procedure and becomes the way you notice.</p>
+`,
 floor:`<p>CMS rewards <b>speed and order</b>. At Certified you write a checkbox grid for 4 wines in 45 minutes, about 11 minutes each. At Advanced and Master you speak 6 wines in 25 minutes, about 4 minutes each. Every grid line is worth a point and nothing is deducted for a wrong answer, so never leave a line blank. If something is absent (no oak, no earth), you must say "no".</p>`,
 analyst:`<p>WSET rewards <b>precision and justification</b>. The SAT uses calibrated scales (light, medium(-), medium, medium(+), pronounced) and asks you to judge quality with <b>BLIC</b>: Balance, Length, Intensity, Complexity. At Level 3 you do not have to name the wine at all.</p>`,
 terms:[["Rim variation","Color difference between the core and edge of a red; a broad, bricking rim suggests age."],["Fruit condition","Tart, ripe, baked, jammy, dried. The best single clue to climate."],["Initial conclusion","Possible grapes, climate, possible countries and an age range, before committing."],["Vinous","CMS term for a nose that has lost primary fruit and shows age-derived character."],["Retronasal","Smelling through the back of the throat while wine is in the mouth."],["Orthonasal","Smelling through the nostrils."],["Staining","Color left in the tears of a red wine; a sign of thick skins and extract."],["Aroma family","A group of related smells (fruit, floral, spice, earth, mineral, oak) checked in a fixed order."]],
@@ -210,55 +277,135 @@ quiz:[
 ]});
 
 L.push({id:"f2", unit:"F1", title:"Structure: Calibrating Your Palate", mins:14,
-summary:"Sweetness, acid, tannin, alcohol and body, with kitchen experiments to calibrate each.",
+summary:"What sweetness, acidity, tannin, alcohol and body are physically, how each is felt, kitchen experiments to calibrate them, and how the elements disguise one another.",
 body:`
-<p>Aromas vary between bottles and between noses. Structure does not, which is why it is the backbone of deduction. Calibrate it once with household experiments and you will trust it in an exam room.</p>
+<p>Aromas vary between bottles and between noses. Structure does not, which is why it is the backbone of deduction. Structure means the things you feel and taste, as opposed to smell: sweetness, acidity, tannin, alcohol and body. These are the bulk of what is dissolved in a wine, they are set mainly by the grape and the climate, and two tasters who disagree about whether a wine smells of plum or cherry will usually agree that it is high in acid. Calibrate each element once with household experiments and you will trust it in an exam room.</p>
+<p>This chapter explains what each sensation is, physically, because that is what makes the calibration stick. It also explains how the elements disguise one another, which is where most tasting errors come from.</p>
+
+<h3>What the mouth can sense</h3>
+<p>The mouth has three separate systems, and wine uses all of them.</p>
+<ul><li><b>Taste.</b> Receptors on the tongue and palate detect five things: sweet, sour, salty, bitter and umami. The old diagram that assigns sweet to the tip of the tongue and bitter to the back is wrong. Every taste can be sensed wherever there are taste buds, though the edges of the tongue are more sensitive than the middle.</li>
+<li><b>Touch.</b> The mouth feels weight, viscosity, temperature, the prickle of gas and the roughness of astringency. Tannin is felt, not tasted.</li>
+<li><b>Irritation.</b> Nerves that register pain and heat respond to alcohol, as they do to chili. The warmth of a strong wine is this system at work.</li></ul>
+<p>Flavor, in the everyday sense, is these three combined with smell from the back of the nose. Structure is the part that remains if you hold your nose.</p>
+
 <h3>Sweetness</h3>
-<p>Residual sugar (RS) is the grape sugar left unfermented. Most people sense it on the tip of the tongue from about 4 to 10 g/L, but acid masks it: a German Kabinett with 40 g/L can taste only off-dry. Fruity aroma also tricks people into calling dry wines sweet. CMS scale: bone dry, dry, dry with slight RS, off-dry, medium-sweet, sweet, lusciously sweet. WSET Level 3: dry, off-dry, medium-dry, medium-sweet, sweet, luscious.</p>
-<p><i>Experiment:</i> dissolve 1, 2 and 4 teaspoons of sugar in separate glasses of water, then repeat with a squeeze of lemon. Notice how acid hides sugar.</p>
+<p><b>Residual sugar</b> (RS) is the grape sugar left unfermented. Most people sense it from about 4 to 10 grams per liter. Below that a wine tastes dry even though it is rarely at zero.</p>
+<p>Sweetness is the element most often misjudged, in both directions, because other things imitate and conceal it.</p>
+<ul><li><b>Acid masks it.</b> Sourness and sweetness suppress each other in the brain. A German Kabinett with 40 g/L can taste only off-dry, because its acidity is so high. Champagne labeled Brut may hold 10 grams and taste dry.</li>
+<li><b>Fruit imitates it.</b> Ripe, fruity aromas are learned from sweet foods, and the brain supplies the sweetness it expects. This is the commonest error in tasting: calling a dry wine sweet because it smells of ripe peaches. Vanilla from oak does the same.</li>
+<li><b>Alcohol imitates it.</b> Alcohol itself tastes faintly sweet, and a high-alcohol dry wine can seem to have sugar.</li></ul>
+<p>The test is simple. Pinch your nose and taste. Real sugar is still there on the tongue. The sweetness that came from fruit or oak disappears.</p>
+<p><b>Scales.</b> The Court uses: bone dry, dry, dry with slight RS, off-dry, medium-sweet, sweet, lusciously sweet. WSET Level 3 uses: dry, off-dry, medium-dry, medium-sweet, sweet, luscious.</p>
+<p><b>Experiment:</b> dissolve 1, 2 and 4 teaspoons of sugar in separate glasses of water and taste them in order. Then add a squeeze of lemon to each and taste again. Notice how acid hides sugar: the sweetest glass now tastes like the middle one did.</p>
+
 <h3>Acidity</h3>
-<p>Acid makes your mouth water, especially at the sides of the tongue, and makes wine feel fresh. Cool climates and grapes like Riesling, Chenin Blanc, Sauvignon Blanc, Nebbiolo and Sangiovese retain high acid. Warm climates and grapes like Viognier, Gewürztraminer and Grenache run low. Count how long you salivate after spitting: a few seconds is low, a long stream is high.</p>
+<p>Acid is what makes wine taste fresh, and it is the element that most reliably separates cool climates from warm ones.</p>
+<p>You taste it as sourness, but the most dependable sign is what happens next. <b>Acid makes your mouth water</b>, most noticeably along the sides of the tongue and under it, where the salivary glands empty. Saliva is slightly alkaline, and the mouth releases it to neutralize acid. The more acid, the stronger and longer the flow. So the measure is not how sour the wine tastes, which sugar and alcohol can disguise, but how much you salivate afterward.</p>
+<p><b>Experiment:</b> take a sip, spit or swallow, tip your head forward with your mouth slightly open, and count how long the saliva keeps coming. A few seconds is low. A long, steady stream is high.</p>
+<p>Grapes lose acid as they ripen, and lose it faster in heat. So cool climates and grapes such as Riesling, Chenin Blanc, Sauvignon Blanc, Nebbiolo and Sangiovese retain high acid. Warm climates and grapes such as Viognier, Gewürztraminer and Grenache run low.</p>
+<p>Low-acid wines feel soft, broad and sometimes flat. High-acid wines feel sharp, lean and long, since the salivation carries the flavor on. Acidity also sharpens the perception of tannin, a point that matters in the section on how the elements fool each other.</p>
+
 <h3>Tannin</h3>
-<p>Tannins are polyphenols from skins, seeds, stems and oak. They bind to proteins in saliva and leave a drying, gripping feel on the gums. Judge both <b>volume</b> (low to high) and <b>texture</b> (silky, soft, gritty, coarse, stalky). Cabernet Sauvignon, Nebbiolo, Tannat and young Syrah are high; Gamay, Pinot Noir and Grenache are lower.</p>
-<p><i>Experiment:</i> steep black tea for 1, 3 and 10 minutes and taste each. Ten minutes is Barolo.</p>
+<p><b>Tannins</b> are compounds from grape skins, seeds and stems, and from oak barrels. They are what make red wine feel <b>drying and gripping on the gums</b>, a sensation called astringency.</p>
+<p>The mechanism is unusual and worth knowing, because it explains several things about how tannin behaves at the table. Saliva is slippery because it contains proteins that coat and lubricate the mouth. Tannins bind to those proteins and pull them out of solution. The lubricating film is stripped away, and the surfaces of the mouth rub against each other. What you feel is friction. Astringency is therefore a sensation of touch, not a taste, and it has consequences.</p>
+<ul><li><b>It builds.</b> Each sip removes more of the protective film, and saliva takes time to replace it. A tannic wine feels more astringent on the third sip than the first, and the tenth red wine in a tasting feels harsher than it would alone. Water and a pause restore the mouth.</li>
+<li><b>It lingers.</b> Bitterness peaks early and fades. Astringency rises slowly and is strongest after you have spat or swallowed.</li>
+<li><b>Protein and fat disarm it.</b> Tannin that has bound to the protein in meat or cheese is not free to bind to your saliva. This is the whole basis of pairing tannic red wine with steak.</li>
+<li><b>It softens with age.</b> Over years, tannins join into larger molecules that bind less readily, and eventually fall out as sediment. This is why an old wine that was once harsh feels smooth.</li>
+<li><b>People differ.</b> Those who produce less saliva feel tannin more strongly and for longer.</li></ul>
+<p>Judge both <b>volume</b>, from low to high, and <b>texture</b>: silky, soft, fine-grained, gritty, coarse or stalky. Ripe tannins feel fine and even. Unripe ones feel hard and green, and often come with bitterness. Cabernet Sauvignon, Nebbiolo, Tannat and young Syrah are high. Gamay, Pinot Noir and Grenache are lower.</p>
+<p><b>Experiment:</b> steep black tea for 1, 3 and 10 minutes and taste each, without milk. Tea is rich in tannin, and steeping extracts more. <b>Ten minutes is Barolo.</b> Then add milk to the strongest cup and taste again: the milk protein takes up the tannin, and the astringency vanishes.</p>
+
 <h3>Alcohol</h3>
-<p>Alcohol reads as warmth in the throat and chest, plus weight and a faint sweetness. Under about 11% ABV is low (Mosel Kabinett, Moscato d'Asti); 11 to about 13.9% medium; 14% and above high (Zinfandel, Châteauneuf-du-Pape, Amarone). Warm climates ripen more sugar and so more alcohol.</p>
+<p>Alcohol does several things at once, which is why it is harder to judge than it sounds.</p>
+<ul><li><b>Warmth.</b> High alcohol is felt mainly as <b>warmth at the back of the throat</b> and in the chest after swallowing. Alcohol triggers the same nerve receptor that responds to heat and to chili pepper, so the burn is a real signal of heat, not a taste.</li>
+<li><b>Weight.</b> Alcohol is more viscous than water and is the main source of body in a dry wine.</li>
+<li><b>Sweetness and bitterness.</b> At low levels alcohol tastes faintly sweet. At high levels it adds bitterness and burn. People vary in which they notice, partly by inheritance.</li></ul>
+<table><tr><th>Level</th><th>Still wine</th><th>Examples</th></tr>
+<tr><td>Low</td><td>Under 11%</td><td>Mosel Kabinett, Moscato d'Asti</td></tr>
+<tr><td>Medium</td><td>11 to 13.9%</td><td>Most table wine</td></tr>
+<tr><td>High</td><td>14% and above</td><td>Zinfandel, Châteauneuf-du-Pape, Amarone</td></tr></table>
+<p>Alcohol comes from sugar, and sugar from ripeness, so warm climates give stronger wines. Alcohol is one of the two best clues to climate, along with the condition of the fruit.</p>
+<p><b>How to judge it:</b> swallow a small sip, or breathe out through the nose after spitting, and attend to the throat. No warmth is low. A gentle glow is medium. Heat that spreads and lingers is high. Do not judge by the nose, where alcohol only prickles, and do not judge by the tears on the glass.</p>
+
 <h3>Body</h3>
-<p>Body is the overall weight on the palate: alcohol, sugar, extract and glycerol together. Think skim milk, whole milk, cream.</p>
-<h3>How structure becomes a clue</h3>
-<ul>
-<li>High acid + low alcohol + RS in a white: German Riesling or Vouvray.</li>
-<li>Low acid + high alcohol + oily texture + bitter finish: Gewürztraminer or Viognier.</li>
-<li>Pale red + high acid + high tannin: Nebbiolo.</li>
-<li>Pale red + high alcohol + low acid + soft tannin: Grenache.</li>
-<li>Deep red + high tannin + medium-plus acid + green note: Cabernet Sauvignon or Cabernet Franc.</li>
-</ul>
+<p><b>Body</b> is the overall weight of the wine on the palate. Think skim milk, whole milk, cream.</p>
+<p>It is the sum of everything dissolved in the wine, and two things dominate. Alcohol is the main contributor in dry wine. Sugar is the main one in sweet wine, where it thickens the liquid noticeably. Dissolved solids from the grape, which winemakers call extract, add a little, as do tannin in reds and compounds from lees aging in whites.</p>
+<p>One common belief should be dropped. Glycerol, a by-product of fermentation with a syrupy feel in pure form, is often credited with giving wine its body and its legs. In experiments, adding glycerol at the levels found in wine makes no detectable difference to how thick the wine feels. Alcohol and sugar do the work.</p>
+<p>Body usually tracks alcohol, so a wine that is full-bodied at low alcohol, or light at high alcohol, is telling you something: sugar in the first case, very high acidity in the second.</p>
+
 <h3>Bitterness, texture and the finish</h3>
 <p>Three more things belong to structure, and each is a clue.</p>
-<ul><li><b>Phenolic bitterness</b> is a light bitter grip at the end of some white wines, like grapefruit pith or almond skin. It comes from skins, and it marks Gewürztraminer, Pinot Gris, Viognier, Torrontés, Grüner Veltliner and any white made with skin contact. It is not tannin and it is not a fault.</li>
-<li><b>Texture</b> is how the wine feels apart from weight: oily (Gewürztraminer, Viognier), waxy (Sémillon, Chenin), creamy (lees and malolactic conversion), chalky or grippy (young Nebbiolo), prickly (a trace of CO₂ in young Riesling or Vinho Verde).</li>
-<li><b>Finish</b>, or length, is how long the pleasant flavors last after you swallow or spit. Count the seconds: under about five is short, five to ten is medium, longer is long. Length is the single best indicator of quality, because it cannot be faked by ripeness or oak.</li></ul>
+<p><b>Phenolic bitterness</b> is a light bitter grip at the end of some white wines, like grapefruit pith or almond skin. It comes from compounds in grape skins, and it marks Gewürztraminer, Pinot Gris, Viognier, Torrontés, Grüner Veltliner and any white made with skin contact. It is not tannin and it is not a fault. Sensitivity to bitterness varies widely from person to person, for genetic reasons, so do not be surprised if a tasting partner finds it obvious and you do not, or the reverse.</p>
+<p><b>Texture</b> is how the wine feels apart from weight: oily (Gewürztraminer, Viognier), waxy (Sémillon, Chenin), creamy (from aging on yeast sediment and from the bacterial conversion that softens acid), chalky or grippy (young Nebbiolo), prickly (a trace of carbon dioxide in young Riesling or Vinho Verde).</p>
+<p><b>Finish</b>, or length, is how long the pleasant flavors last after you swallow or spit. Count the seconds: under about five is short, five to ten is medium, longer is long. <b>A long finish is the most reliable sign of quality</b>, because it cannot be faked by ripeness or oak. It depends on the concentration of flavor in the grapes, which comes from low yields, good sites and old vines, things that cost money and cannot be added in the cellar. Watch that what lingers is flavor. A finish of alcohol burn or bitterness is long in the wrong way.</p>
+
 <h3>How the elements fool each other</h3>
-<table class="t"><tr><th>What you taste</th><th>What may really be happening</th></tr>
+<p>The elements of structure are not perceived independently. Each changes how the others register, and a taster who knows the interactions can correct for them.</p>
+<table><tr><th>What you taste</th><th>What may really be happening</th></tr>
 <tr><td>"It's sweet"</td><td>Often ripe fruit, vanilla from oak or high alcohol in a dry wine. Pinch your nose: real sugar is still there on the tongue; fruit is not.</td></tr>
 <tr><td>"It's dry"</td><td>High acid can hide 10 to 40 g/L of sugar, as in Champagne Brut or Mosel Kabinett.</td></tr>
 <tr><td>"It's very tannic"</td><td>High acid makes tannin feel harder; so does serving the wine cold.</td></tr>
 <tr><td>"It's full-bodied"</td><td>Sugar and alcohol both add weight. A sweet wine at 8% can feel fuller than a dry one at 12%.</td></tr>
 <tr><td>"It's soft"</td><td>Low acid, a little sugar or ripe tannin: check which before you conclude "warm climate".</td></tr></table>
+<p>The rules behind the table are few.</p>
+<ul><li><b>Sweetness and acidity cancel.</b> Each makes the other seem less. Winemakers use this constantly: a little sugar rounds a sharp wine, and high acid keeps a sweet wine from cloying.</li>
+<li><b>Sweetness softens tannin and bitterness.</b> This is why many inexpensive reds carry a few grams of sugar.</li>
+<li><b>Acidity hardens tannin.</b> A wine high in both, such as young Barolo, feels more severe than its tannin alone would explain.</li>
+<li><b>Alcohol softens the feel of tannin and adds bitterness and sweetness.</b></li>
+<li><b>Temperature shifts everything.</b> Cold emphasizes acid, tannin and bitterness and mutes sweetness and aroma. Warmth emphasizes alcohol and sweetness. This is why reds are not served cold, why sweet wines are, and why an exam wine should be judged at the temperature it arrives at and with that in mind.</li></ul>
+<p><b>Balance</b> is the state in which these interactions leave nothing sticking out. It is not the same as everything being moderate. A Mosel Riesling with very high acid and substantial sugar is balanced. So is a Port with high alcohol, high sugar and high tannin. A wine is unbalanced when one element has nothing to answer it.</p>
+
+<h3>Between medium and high</h3>
+<p>Both tasting systems ask you to place each element on a scale, and beginners find the middle of the scale hard. Three habits help.</p>
+<ul><li><b>Decide the half first.</b> Before choosing a step, ask only whether the wine is above or below the middle. For acid: did my mouth water more or less than it does for an ordinary glass of white wine? That question is easy, and it eliminates half the scale.</li>
+<li><b>Use anchors.</b> A scale means something only relative to fixed points. The calibration set at the end of this chapter gives you the ends. A wine is then "nearer the Chablis" or "nearer the Gewurztraminer."</li>
+<li><b>Commit.</b> "Medium" for everything is the same as saying nothing. Examiners mark each structural call within a tolerance, so a confident "medium-plus" that should have been "high" still scores, while a row of hedged mediums suggests the taster did not look.</li></ul>
+<p>The steps themselves are finer than they need to be for deduction. What separates one grape from another is nearly always a difference of half the scale: high acid against low, pale against opaque, grippy against soft. Get the half right and the fine steps follow with practice.</p>
+
 <h3>The numbers behind the words</h3>
-<table class="t"><tr><th>Element</th><th>Useful benchmarks</th></tr>
+<table><tr><th>Element</th><th>Useful benchmarks</th></tr>
 <tr><td>Sweetness</td><td>The EU calls a still wine dry up to 4 g/L (up to 9 if the acid is high). Off-dry runs to about 12, medium to about 45, sweet above 45. Sauternes holds 120 to 150; Pedro Ximénez over 400.</td></tr>
 <tr><td>Acidity</td><td>Total acidity of about 5 to 9 g/L; pH from about 2.9 (Champagne base, Mosel) to 3.9 (ripe warm-climate reds). Lower pH tastes sharper.</td></tr>
 <tr><td>Alcohol (WSET, still)</td><td>Low under 11%; medium 11 to 13.9%; high 14% and above.</td></tr>
 <tr><td>Alcohol (WSET, fortified)</td><td>Low 15 to 16.4% (Fino); medium 16.5 to 18.4%; high 18.5% and above (Port).</td></tr></table>
+<p>The European rule on dryness is itself an admission of how sweetness and acid interact: a wine with up to 9 grams of sugar may be labeled dry provided its acidity is high enough to hide it.</p>
+
+<h3>How structure becomes a clue</h3>
+<p>Each element narrows the field, and combinations narrow it fast. The reasoning in each case comes from the grape and the climate.</p>
+<ul><li><b>High acid + low alcohol + residual sugar in a white: German Riesling or Vouvray.</b> Low alcohol with sugar means the fermentation stopped early. High acid means a cool place. Few regions combine the two.</li>
+<li><b>Low acid + high alcohol + oily texture + bitter finish: Gewürztraminer or Viognier.</b> These grapes lose acid quickly and need to be very ripe to develop their perfume. The bitterness comes from their skins.</li>
+<li><b>Pale red + high acid + high tannin: Nebbiolo.</b> Pale color with heavy tannin is rare, since both come from the skin. Nebbiolo has thin pigment and thick tannin.</li>
+<li><b>Pale red + high alcohol + low acid + soft tannin: Grenache.</b> A thin-skinned grape that needs heat and ripens to high sugar.</li>
+<li><b>Deep red + high tannin + medium-plus acid + green note: Cabernet Sauvignon or Cabernet Franc.</b> Small, thick-skinned berries give color and tannin, and the family carries a green-pepper compound.</li></ul>
+<p>Notice that the short list is produced by structure alone, before a single aroma is considered. This is the reason for calibrating: it lets structure do the first and most reliable sorting.</p>
+
+<h3>Three wines read by structure alone</h3>
+<p>To see how far structure goes without any aroma, take three red wines described only by what the mouth and eye report.</p>
+<table><tr><th></th><th>Wine A</th><th>Wine B</th><th>Wine C</th></tr>
+<tr><td>Color</td><td>Pale ruby, see-through</td><td>Deep purple, opaque</td><td>Pale garnet, orange rim</td></tr>
+<tr><td>Sweetness</td><td>Dry</td><td>Dry, but seems rich</td><td>Dry</td></tr>
+<tr><td>Acid</td><td>High</td><td>Medium-minus</td><td>High</td></tr>
+<tr><td>Tannin</td><td>Low, silky</td><td>Medium-plus, ripe and smooth</td><td>High, firm and drying</td></tr>
+<tr><td>Alcohol</td><td>Medium, 12.5 to 13%</td><td>High, 14.5 to 15%</td><td>High, about 14%</td></tr>
+<tr><td>Body</td><td>Light</td><td>Full</td><td>Medium-plus</td></tr></table>
+<ul><li><b>Wine A</b> is pale and low in tannin, so a thin-skinned grape. High acid and moderate alcohol mean a cool climate. The short list is Pinot Noir and Gamay, from somewhere like Burgundy, Beaujolais, Oregon or Germany.</li>
+<li><b>Wine B</b> is opaque, so a thick-skinned grape. Low acid and high alcohol mean a warm climate and very ripe fruit. Smooth tannin fits ripeness. The short list is Malbec, Shiraz, Zinfandel or a warm-climate Cabernet, from Argentina, Australia or California.</li>
+<li><b>Wine C</b> is the odd one: pale, yet heavily tannic, with an orange rim, high acid and high alcohol together. Pale color with heavy tannin is almost a signature. The answer is Nebbiolo, and so Barolo or Barbaresco.</li></ul>
+<p>In each case the aromas, when you come to them, will choose within a short list that structure has already drawn up. A taster who smells cherry in all three and stops there has nothing to separate them. A taster who measured the structure first already knows they are three different kinds of wine.</p>
+
 <h3>A six-bottle calibration set</h3>
-<p>Buy these once and taste them side by side: they pin down both ends of every scale.</p>
-<ul><li><b>Mosel Riesling Kabinett:</b> low alcohol, high acid, real sugar.</li>
-<li><b>Muscadet or Chablis:</b> high acid, bone dry, light body.</li>
-<li><b>Alsace Gewurztraminer:</b> low acid, high alcohol, oily, bitter finish.</li>
-<li><b>Beaujolais:</b> low tannin, high acid, light body.</li>
-<li><b>Barolo or Madiran:</b> high tannin and high acid together.</li>
-<li><b>Zinfandel or Amarone:</b> high alcohol, full body, soft acid.</li></ul>`,
+<p>Buy these once and taste them side by side. Each pins down one end of a scale, so that "high" and "low" become things you have felt.</p>
+<table><tr><th>Wine</th><th>What it calibrates</th></tr>
+<tr><td>Mosel Riesling Kabinett</td><td>Low alcohol, high acid, real sugar</td></tr>
+<tr><td>Muscadet or Chablis</td><td>High acid, bone dry, light body</td></tr>
+<tr><td>Alsace Gewurztraminer</td><td>Low acid, high alcohol, oily texture, bitter finish</td></tr>
+<tr><td>Beaujolais</td><td>Low tannin, high acid, light body</td></tr>
+<tr><td>Barolo or Madiran</td><td>High tannin and high acid together</td></tr>
+<tr><td>Zinfandel or Amarone</td><td>High alcohol, full body, soft acid</td></tr></table>
+<p>Taste them in that order and do the experiments as you go: count the saliva after the Muscadet and after the Gewurztraminer, feel the throat after the Kabinett and after the Zinfandel, compare the gums after the Beaujolais and the Barolo. Then taste the Riesling with your nose pinched and find the sugar. An hour with these six bottles fixes the scales more firmly than months of tasting wines one at a time.</p>
+`,
 floor:`<p>On the 2024 CMS Advanced/Master format, acid, alcohol and body use five-step scales. Whites get a line for <b>phenolic bitterness</b> (yes/no). Reds get tannin volume <i>and</i> texture. A <b>texture</b> line (lean, crisp, creamy, waxy, oily) helps separate Chablis from Meursault and Pinot Grigio from Gewürztraminer.</p>`,
 analyst:`<p>WSET Level 3 scales: acidity and tannin run low, medium(-), medium, medium(+), high. Alcohol is low/medium/high (under 11%, 11-13.9%, 14%+ for still wine). Body is light to full on five steps. Fortified wines have their own alcohol scale.</p>`,
 terms:[["Residual sugar (RS)","Unfermented grape sugar remaining in the finished wine, measured in g/L."],["Phenolic bitterness","A bitter, grippy finish in whites from skin contact or certain grapes (Gewürztraminer, Pinot Grigio, Torrontés)."],["Body","The perceived weight of a wine, from alcohol, sugar, glycerol and extract."],["Finish","How long pleasant flavors last after swallowing; the best single sign of quality."],["Texture","How a wine feels apart from weight: oily, waxy, creamy, chalky, prickly."],["pH","Measure of acid strength; wine runs from about 2.9 to 3.9, and lower tastes sharper."]],
