@@ -277,11 +277,20 @@ quiz:[
 ]});
 
 L.push({id:"f3", unit:"F1", title:"Faults and Flaws", mins:12,
-summary:"Cork taint, oxidation, reduction, VA, Brett, heat damage: how to spot them and what to say to a guest.",
+summary:"The cause behind each fault, from cork taint to smoke taint, which tells you whether air will help and whether the next bottle will be different, and how to handle a returned bottle.",
 body:`
-<p>Knowing faults is a service skill as much as a tasting skill. A guest sends back a bottle; you need to know in five seconds whether the wine is flawed or simply not to their taste, and how to handle both gracefully.</p>
+<p>Knowing faults is a service skill as much as a tasting skill. A guest sends back a bottle, and you need to know within a few seconds whether the wine is flawed or simply not to their taste, and how to handle both gracefully. That takes more than a list of smells. Each fault has a cause, and the cause tells you where it came from, whether the next bottle will have it too, and whether air will help. This chapter gives the cause for each. It assumes nothing from later chapters, so some mechanisms are stated briefly here and explained fully where they belong.</p>
+
+<h3>A fault, a taint and a flaw</h3>
+<p>Three words are used loosely and are worth separating.</p>
+<ul><li>A <b>taint</b> comes from outside the wine: a moldy cork, smoke, a contaminated cellar.</li>
+<li>A <b>fault</b> arises in the wine itself through something going wrong in the making or keeping: oxidation, bacterial spoilage.</li>
+<li>A <b>flaw</b> is a lesser departure from what the wine should be, such as a touch too much oak or alcohol. It is a matter of judgment, not a defect.</li></ul>
+<p>The distinction is practical. A taint from a cork affects one bottle, and the next from the same case will probably be fine. A fault from the winery usually affects every bottle of that wine, and opening another achieves nothing.</p>
+<p>Most of these compounds are detectable in tiny amounts. Several are measured in nanograms per liter, parts per trillion. And people vary a great deal in sensitivity: for almost every fault below, some tasters are acutely sensitive and some cannot detect it at all. A guest who finds a wine corked when you do not may simply have a better nose for it.</p>
+
 <h3>The main faults</h3>
-<table class="t"><tr><th>Fault</th><th>Smells like</th><th>Cause</th></tr>
+<table><tr><th>Fault</th><th>Smells like</th><th>Cause</th></tr>
 <tr><td>Cork taint (TCA)</td><td>Wet cardboard, damp basement, muted fruit</td><td>2,4,6-trichloroanisole, usually from cork. Detectable at parts per trillion.</td></tr>
 <tr><td>Oxidation</td><td>Bruised apple, nutty, flat; browning color</td><td>Too much oxygen. Deliberate in Sherry and Tawny Port, a fault elsewhere.</td></tr>
 <tr><td>Reduction</td><td>Rotten egg, struck match, cabbage, rubber</td><td>Sulfur compounds from too little oxygen. Mild struck-match reduction is a deliberate style in some white Burgundy.</td></tr>
@@ -289,25 +298,94 @@ body:`
 <tr><td>Brettanomyces</td><td>Barnyard, band-aid, sweaty saddle, smoked meat</td><td>Spoilage yeast in barrels. Debated: some love it in old Rhône.</td></tr>
 <tr><td>Heat damage / out of condition</td><td>Cooked, stewed fruit, flat; pushed cork, seepage</td><td>Storage above about 80°F (27°C).</td></tr>
 <tr><td>Excess SO₂</td><td>Burnt match, prickly nose</td><td>Heavy sulfiting; often blows off with air.</td></tr></table>
-<h3>Not faults</h3>
-<p>Tartrate crystals ("wine diamonds") are harmless potassium bitartrate. Sediment in an old red is normal and calls for decanting. Petrol in aged Riesling is a varietal character (TDN), prized by many.</p>
-<h3>Handling a returned bottle</h3>
-<p>Smell it yourself, discreetly, away from the table. If it is faulty, apologize, replace it, and do not argue. If it is sound but the guest dislikes it, most restaurants still replace it and pour the bottle by the glass. Either way, the guest should never feel foolish.</p>
+
+<h3>Cork taint</h3>
+<p>Cork taint is the fault a sommelier meets most often and must recognize without hesitation. A wine that smells of <b>wet cardboard</b>, damp basement or moldy newspaper, <b>with muted fruit</b>, is corked.</p>
+<p>The compound is TCA. It forms when molds that live in cork bark, or in wood, meet chlorine-containing chemicals, once common in pesticides, wood preservatives and the bleach used to clean corks. The molds convert these into TCA as a way of detoxifying them. It then sits in the cork and leaches into the wine.</p>
+<ul><li><b>It is extraordinarily potent.</b> Most people detect it at one to three parts per trillion, and some at less.</li>
+<li><b>It does two things.</b> At higher levels it smells musty. At lower levels, below the point where it can be smelled as itself, it suppresses the sense of smell, so the wine seems flat and stripped of fruit without smelling wrong. This is the commonest form and the hardest to call. The clue is a wine that should be expressive and is strangely mute.</li>
+<li><b>It gets worse with air.</b> A faint case becomes obvious after ten minutes in the glass. If you are unsure, wait and smell again.</li>
+<li><b>It is harmless</b> to drink, and it has nothing to do with bits of cork floating in the glass, which mean only that the cork crumbled.</li>
+<li><b>The cork itself tells you little.</b> Smelling it is a poor test. Smell the wine.</li></ul>
+<p>Surveys around 2000 found 5 to 8% of cork-sealed bottles affected. Cleaner processing and testing have brought that down to perhaps 1 to 3%. Screwcaps and treated technical corks avoid it.</p>
+<p>Cork is not the only source. A related compound, TBA, forms from flame retardants and preservatives used on timber, and can contaminate a whole cellar: its barrels, hoses and stored bottles. Wineries have had to rebuild because of it. This is why a wine under screwcap can occasionally smell "corked," and why in that case every bottle will be the same.</p>
+
+<h3>Oxidation</h3>
+<p>An oxidized wine has had too much contact with air. A white turns deep gold and then brown. A red loses its purple and turns brick and then brown at the rim. The fresh fruit goes, and in its place come bruised apple, nuts, dried-out fruit and a flat, dull taste.</p>
+<p>The bruised-apple smell is acetaldehyde, formed when oxygen converts a little of the wine's alcohol. The color change comes from the wine's phenolic compounds reacting to form brown pigments, the same chemistry that browns a cut apple. Sulfur dioxide and the wine's own tannins hold both back for a time.</p>
+<p>The causes are a failed closure, a dried-out cork from a bottle stored upright or in dry air, age beyond the wine's span, or poor handling at the winery. A bottle open too long behind a bar is the everyday version.</p>
+<p>Oxidation is a fault only when unintended. Oloroso Sherry, Tawny Port, Madeira, Vin Jaune and Rancio wines are deliberately oxidized, and their nutty character is the point. The test is whether the wine was meant to taste this way.</p>
+<p><b>Premature oxidation</b> is the special case of a young white, usually white Burgundy, that is deep gold, flat and sherry-like years before it should be. It was notorious in wines from about 1995 to 2005 and affected bottles unpredictably, so that one in a case might be ruined and the rest fine. The suspected causes are gentler pressing, heavy lees stirring, lower sulfur dioxide and inconsistent corks.</p>
+
+<h3>Reduction</h3>
+<p>Reduction is the opposite problem: sulfur compounds that build up when a wine has too little oxygen. The term covers a family of smells of rising unpleasantness.</p>
+<table><tr><th>Compound</th><th>Smell</th><th>Notes</th></tr>
+<tr><td>Hydrogen sulfide</td><td>Rotten egg, drains</td><td>Made by yeast short of nitrogen. Volatile: often blows off with air</td></tr>
+<tr><td>Mercaptans</td><td>Onion, garlic, rubber, cabbage</td><td>Formed from hydrogen sulfide left untreated. Harder to shift</td></tr>
+<tr><td>Disulfides</td><td>Burnt rubber, cooked cabbage</td><td>Formed from mercaptans. Do not respond to air</td></tr>
+<tr><td>Dimethyl sulfide</td><td>Canned corn, cooked vegetables; truffle and blackcurrant at low levels</td><td>Develops with bottle age; part of the bouquet of old wine in small amounts</td></tr></table>
+<p>At a low level, reduction gives a smell of <b>struck match</b> or gunflint, which is prized in some white Burgundy and Chardonnay made in that style. At a higher level, as <b>rotten egg</b>, cabbage or rubber, it is a fault.</p>
+<p>Reduction is common under screwcap, which admits very little oxygen, and in wines kept long on their lees. It is the one fault a sommelier can sometimes fix at the table. Pour the wine into a decanter and swirl. Simple hydrogen sulfide escapes within minutes. An old trick is to drop a clean copper coin into the glass: copper binds these compounds, and if the smell disappears the diagnosis is confirmed. If decanting does nothing, the heavier compounds are responsible and the wine will not recover.</p>
+
+<h3>Volatile acidity</h3>
+<p>All wine contains a little acetic acid, the acid of vinegar, made by yeast during fermentation. Volatile acidity becomes a fault when bacteria add to it. Acetic bacteria need two things, alcohol and air, so the cause is nearly always a wine left exposed: a barrel not topped up, a tank with a headspace, damaged grapes, or a slow, warm fermentation.</p>
+<p>Two compounds are involved, and they smell different. <b>Acetic acid</b> smells of vinegar and gives a sour, sharp finish. <b>Ethyl acetate</b>, which forms alongside it, smells of nail-polish remover or glue, and is detectable at much lower levels. A wine can show one more than the other.</p>
+<p>The law sets limits. In Europe they are about 1.1 grams per liter for white and rosé wines and 1.2 for red. In the United States they are 1.2 for white and 1.4 for red. Most wines hold 0.3 to 0.6. Sweet wines from rotten or frozen grapes are allowed more, because the yeast in them, working under stress, produce it unavoidably.</p>
+<p>Below the level of a fault, volatile acidity lifts the smell of a wine and can make it seem fresher and more complex. <b>A trace in Amarone is part of the style, unless it dominates</b>, and the same is true of old Barolo, traditional Rioja, some Lebanese reds and many old vintages of great wines made before modern hygiene. It does not improve with air and does not fade.</p>
+
+<h3>Brettanomyces</h3>
+<p>"Brett" is a yeast that lives in wineries, above all in used barrels, and can grow in finished wine on almost nothing. It converts compounds from grape skins into others with strong smells: <b>barnyard and band-aid</b> from one, smoky and spicy clove from another, sweaty or cheesy from a third. Which dominates depends on the strain and the grape, so Brett can show as medicinal in one wine and as smoked meat or leather in another.</p>
+<p>It favors red wines, low acidity, low sulfur dioxide and warm cellars. It often comes with a drying, metallic finish and a loss of fruit.</p>
+<p>Brett is the most argued-over fault in wine. In small amounts some tasters find it adds a savory, leathery complexity, and it was long part of the character of many traditional reds of the Rhône, Bordeaux and Italy, where it was sometimes mistaken for the taste of the place. Others reject it at any level. The modern consensus is that a wine dominated by it, where every wine from that cellar smells the same and the fruit is gone, is faulty. It affects the whole batch, though bottles can vary, since the yeast may go on working in some and not others.</p>
+
+<h3>Heat damage</h3>
+<p>Wine is perishable, and heat is what perishes it. Chemical reactions run roughly twice as fast for every 18°F (10°C) rise, so a week in a hot truck ages a wine by months, and unevenly, without the slow development that makes aging worthwhile. Storage above about <b>80°F (27°C)</b> does lasting harm.</p>
+<p>A heat-damaged wine tastes <b>cooked</b>: stewed, jammy fruit, a flat or caramelized note, no freshness. Wine expands as it warms, so the physical signs are often visible before the bottle is opened: a cork pushed up above the lip of the bottle, sticky seepage under the capsule, a low fill. The trade word for such wine is "maderized," after Madeira, which is heated on purpose. A wine can also be "out of condition" simply from age or poor storage, tired without being cooked.</p>
+<p>Most heat damage happens in shipping and in shops, not at the winery. It is the reason serious importers ship in refrigerated containers, and the reason to be wary of bottles displayed in a sunny window or near a heater.</p>
+
+<h3>Excess sulfur dioxide</h3>
+<p>Sulfur dioxide is added to nearly all wine as a preservative. Too much free sulfur dioxide gives a sharp, <b>burnt-match</b> smell that prickles the nose and can make sensitive people sneeze. It is commonest in young white wines and sweet wines, which need the most, and in wines bottled recently. It is a different smell from the struck-match note of reduction, sharper and more irritating, though the two are easily confused. It usually blows off with air and fades with time in bottle.</p>
+
 <h3>The faults that catch out good tasters</h3>
-<table class="t"><tr><th>Fault</th><th>How it shows</th><th>What is going on</th></tr>
+<table><tr><th>Fault</th><th>How it shows</th><th>What is going on</th></tr>
 <tr><td>Light strike</td><td>Cabbage, wet wool, struck match in a pale wine from a clear bottle</td><td>Ultraviolet light reacts with riboflavin and sulfur amino acids. Minutes in bright sun can do it to rosé or Champagne.</td></tr>
 <tr><td>Mousiness</td><td>Nothing on the nose; a stale, cracker or mouse-cage taste seconds after swallowing</td><td>Compounds from lactic bacteria or Brettanomyces in low-sulfite, high-pH wines. Not everyone can perceive it.</td></tr>
 <tr><td>Smoke taint</td><td>Ash, campfire, burnt rubber, a drying finish</td><td>Volatile phenols absorbed by grapes during wildfires, bound to sugars and released later.</td></tr>
 <tr><td>Premature oxidation</td><td>A young white that is deep gold, flat and sherry-like</td><td>Too little protection from oxygen; notorious in white Burgundy of about 1995 to 2005.</td></tr>
 <tr><td>Refermentation</td><td>Fizz and haze in a wine meant to be still</td><td>Yeast or bacteria active in the bottle, often with leftover sugar.</td></tr>
 <tr><td>Geosmin</td><td>Beetroot, damp earth</td><td>Mould on damaged grapes.</td></tr></table>
+<p><b>Light strike.</b> Wine contains a little vitamin B2, which absorbs ultraviolet and blue light and then attacks sulfur-containing amino acids, releasing compounds that smell of <b>cabbage and wet wool</b>. Clear glass gives no protection, and pale wines have none of their own. In tests, sparkling wine in clear glass under shop lighting was spoiled in a few hours, and direct sun can do it within an hour. It is the commonest fault in rosé, and it happens after the wine has left the winery. Take stock from the box, not the display.</p>
+<p><b>Mousiness</b> is the fault most associated with wines made without sulfur dioxide. Its compounds are not volatile at the acidity of wine, so there is nothing to smell. In the mouth, saliva neutralizes the acid and releases them, and a taste of stale crackers or a mouse cage appears on the finish <b>some seconds after swallowing</b>, building with each sip. A sizable minority of people cannot perceive it. It can appear and disappear as an opened bottle takes up air. Always taste, and wait a moment, before pouring such a wine for a table.</p>
+<p><b>Smoke taint</b> has become a major problem as wildfires have grown more frequent, in Australia from 2003 and in California, Oregon and Washington in several years since 2008, most severely in 2020. Smoke carries compounds from burning wood that pass through the grape skin. Inside, the grape attaches each to a sugar, which makes it odorless. Juice from smoke-exposed grapes can therefore smell clean. The compounds are freed again during fermentation, during aging, and, most strangely, in the drinker's mouth, where enzymes in saliva split them. The result is a wine that may smell only faintly smoky and then leaves a lingering taste of <b>ash</b> or a cold ashtray. Red wines suffer most, because they are fermented with the skins. It cannot be washed off the grapes, it can worsen in bottle, and it is so potent that blending a tainted wine away is rarely possible. Many producers in bad years simply do not release a wine.</p>
+<p><b>Refermentation.</b> A still wine that is fizzy and cloudy, perhaps with a pushed cork, has started fermenting again in the bottle. Yeast found leftover sugar, or bacteria found malic acid. It is most likely in unfiltered wines and in sweet wines bottled without enough protection. Do not confuse it with the faint prickle of dissolved carbon dioxide left deliberately in many young whites, such as Muscadet and Vinho Verde, to keep them fresh.</p>
+<p><b>Geosmin</b> is the compound that gives beetroot and freshly turned soil their smell. In wine it comes from molds growing on rotten or damaged grapes, and it smells of <b>beetroot and damp earth</b>. It marks a wet harvest and poor sorting, and affects the whole batch.</p>
+
+<h3>Not faults</h3>
+<ul><li><b>Tartrate crystals</b>, sometimes called wine diamonds, are harmless potassium bitartrate, the same substance as cream of tartar. Clear or white in white wine and stained red in red, they form when a wine is chilled. They are a sign that the wine was not heavily processed.</li>
+<li><b>Sediment</b> in an old red is normal. It is color and tannin that have joined into particles too large to stay dissolved, and it calls for decanting.</li>
+<li><b>Petrol in aged Riesling</b> is a varietal character, prized by many.</li>
+<li><b>Cloudiness</b> in a wine sold as unfiltered is intended.</li>
+<li><b>A crumbled cork</b> or cork fragments in the glass are a nuisance and nothing more.</li>
+<li><b>A wine that is simply closed.</b> Young, tannic or recently bottled wines can be mute for a time and open with air. A closed wine has little smell and nothing wrong with what smell there is. A lightly corked wine is also mute, but usually has a faint mustiness and a short, stripped finish.</li></ul>
+
 <h3>Fault or style?</h3>
-<p>Many faults are a matter of degree. A whiff of struck match in white Burgundy, a little volatile acidity in Amarone, a trace of Brett in old Rhône and the bruised-apple tang of Fino are all prized by some drinkers. The professional test is whether the character <b>dominates the wine and hides the fruit</b>. If it does, call it a fault. If a guest simply dislikes a sound wine, replace it anyway and say nothing about who was right.</p>
+<p>Many faults are a matter of degree. A whiff of struck match in white Burgundy, a little volatile acidity in Amarone, a trace of Brett in old Rhône and the bruised-apple tang of Fino are all prized by some drinkers. The professional test is whether the character dominates the wine and hides the fruit. If it does, call it a fault. If a guest simply dislikes a sound wine, replace it anyway and say nothing about who was right.</p>
+<p>Three questions sort most cases.</p>
+<ol><li><b>Is it intended?</b> Oxidation in Sherry is. Oxidation in a two-year-old Sancerre is not.</li>
+<li><b>Does it dominate?</b> If it is the first and last thing you notice, it is a fault whatever its origin.</li>
+<li><b>Will another bottle be different?</b> Yes for cork taint, light strike, heat damage to a single bottle and random oxidation. No for Brett, volatile acidity, reduction, mousiness, smoke taint and geosmin, which were in the wine when it was bottled.</li></ol>
+<p>The third question decides what to do next. If another bottle will be different, open one. If it will not, offer a different wine.</p>
+
+<h3>Handling a returned bottle</h3>
+<p>Smell it yourself, discreetly, away from the table. If it is faulty, apologize, replace it, and do not argue. If it is sound but the guest dislikes it, most restaurants still replace it and pour the bottle by the glass. Either way, the guest should never feel foolish.</p>
+
 <h3>At the table, step by step</h3>
 <ol><li>Thank the guest for telling you and take the glass and bottle from the table.</li>
-<li>Smell and taste it away from the guests. Cork taint often grows worse with air, so trust a second sniff.</li>
-<li>Faulty: apologize, bring a fresh bottle with a clean glass, and let the host taste again. Keep the bad bottle for your supplier, who will normally credit it.</li>
-<li>Sound: offer a different wine, and pour the returned bottle by the glass.</li></ol>`,
+<li>Smell and taste it away from the guests. Cork taint often grows worse with air, so trust a second sniff. For a suspected mousy wine, taste and wait.</li>
+<li><b>Faulty:</b> apologize, bring a fresh bottle with a clean glass, and let the host taste again. If the fault is one that affects the whole batch, suggest a different wine instead. Keep the bad bottle, with its cork, for your supplier, who will normally credit it.</li>
+<li><b>Sound:</b> offer a different wine, and pour the returned bottle by the glass.</li></ol>
+<p>The best protection is to catch the fault first. Smell every cork-sealed bottle as you open it, before pouring the taste. A sommelier who finds a corked bottle and replaces it before the guest has noticed has done the job perfectly, and the guest's confidence in the rest of the list goes up.</p>
+`,
 floor:`<p>The CMS Advanced/Master grid lists minor faults on the nose: barnyard, nail-polish remover, caramel, nuts, dried fruit, struck match, balsamic. Note them only if present. They can be clues: struck match points to reductive Chardonnay; barnyard to old-school Rhône or Bordeaux.</p>`,
 analyst:`<p>WSET Level 3 asks for the nose's condition as <b>clean or unclean</b>, and Learning Outcome 5 lists cork taint, oxidation, reduction, VA, Brett, out-of-condition and high SO₂. The CWE (SWE) has a separate faults exam where you must identify at least six.</p>`,
 terms:[["TCA","2,4,6-trichloroanisole; the compound behind cork taint (wet cardboard)."],["Brettanomyces","Spoilage yeast giving barnyard, band-aid or smoky aromas."],["Volatile acidity","Acetic acid and ethyl acetate; vinegar or nail-polish remover."],["Tartrates","Harmless potassium bitartrate crystals."]],

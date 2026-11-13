@@ -1,33 +1,135 @@
 // ===== CURRICULUM PART 12: Production science (Diploma D1 depth) =====
 L.push({id:"v1", unit:"F2", title:"Deep Dive: Vine Physiology, Ripeness and Vineyard Design", mins:22,
-summary:"How a vine builds sugar, acid and phenolics; rootstocks, clones and density; trellises; and measuring ripeness.",
+summary:"How the vine makes sugar and where it sends it, how a berry is built in two opposite stages, what ripeness is, how rootstock parentage predicts behavior, clones, density, training and water, and how to read a vineyard description as a set of answers to a place.",
 body:`
-<h3>What the vine is doing</h3>
-<p>A vine is a solar-powered sugar factory. Leaves photosynthesize (CO₂ + water + light → sugars), most efficiently between about 25 and 30°C; above roughly 35°C stomata close to save water and the factory slows. Sugar moves to the berries after véraison. Meanwhile, acids fall: <b>malic acid</b> is respired, faster in heat, which is why warm-climate wines are lower in acid; <b>tartaric acid</b> stays fairly stable. Potassium uptake raises pH. Color (anthocyanins) and tannins accumulate in skins and seeds, and aroma precursors develop.</p>
-<p>The vine balances vegetative growth (shoots, leaves) against reproductive growth (fruit). Too much vigor (rich soil, abundant water, nitrogen) means dense canopies, shaded fruit, green flavors and disease. Too little means unripe fruit or stress. "Vine balance" is the grower's goal: roughly enough leaf area to ripen the crop it carries, often expressed as 1-1.5 m² of exposed leaf per kg of fruit.</p>
-<h3>Ripeness is three things</h3>
-<ul><li><b>Sugar ripeness</b> (potential alcohol).</li>
-<li><b>Acid balance</b> (falling malic acid, rising pH).</li>
-<li><b>Phenolic ripeness</b>: brown, crunchy seeds; skins that release color easily; tannins that taste soft rather than green. In warm climates sugar can race ahead of phenolic ripeness, forcing a choice between green tannins and high alcohol.</li></ul>
+<p>The earlier chapters on the vine's year, on climate and on vineyard management described what happens in a vineyard and what a grower does about it. This chapter goes one level down. It explains how the vine works as a plant: how it makes sugar and where it sends it, what "ripe" means chemically, how the roots it is grafted onto change its behavior, and why vineyards in different places are laid out so differently. The aim is that when you read that a wine came from old bush vines on 110 Richter, dry-farmed at low density, you can say what each of those four facts did to the wine.</p>
+
+<h3>The sugar factory</h3>
+<p>A vine is a solar-powered sugar factory. In its leaves, light drives the reaction that combines carbon dioxide from the air with water from the soil to make sugar. Everything the plant builds, from wood to tannin to the sugar in the grape, starts as that sugar.</p>
+<p>The leaf takes in carbon dioxide through thousands of pores, called stomata, on its underside. The same pores lose water. That is the central bargain of the plant's life: it cannot take in carbon without losing water, and when water runs short it must close the pores and stop working.</p>
+<ul><li>Photosynthesis runs best at leaf temperatures between about 77 and 86°F (25 to 30°C).</li>
+<li>Above roughly 95°F (35°C), or when the soil is very dry, the pores close and the factory slows or stops. A heat wave therefore delays ripening. It does not speed it.</li>
+<li>A leaf needs direct sun. One shaded by two layers of other leaves receives too little light to pay its way and becomes a drain on the plant.</li></ul>
+<p>The last point is the basis of canopy management. A vine with a great mass of leaves is not more productive than one with fewer, well-exposed leaves. It is less.</p>
+
+<h3>How a berry is built</h3>
+<p>A grape does not grow steadily. It grows in two bursts with a pause between, and the two bursts do opposite things.</p>
+<table><tr><th>Stage</th><th>When</th><th>What happens</th></tr>
+<tr><td>I. Green growth</td><td>From fruit set, for about six to eight weeks</td><td>Cells divide and swell. The berry is hard, green and sour. Acids build up, malic most of all. Tannins and the green-pepper compounds are made. Seeds form</td></tr>
+<tr><td>II. Lag</td><td>One to two weeks</td><td>Growth almost stops while the seeds harden and mature</td></tr>
+<tr><td>III. Ripening</td><td>From véraison to harvest, six to eight weeks</td><td>The berry softens, colors and doubles in size. Sugar pours in. Malic acid is burned. Tannins soften. Aroma precursors form</td></tr></table>
+<p>The switch between the second and third stages is <b>véraison</b>, and it is abrupt. Within days the berry changes from a sink for acid to a sink for sugar. Until then it was fed mainly through the vessels that carry water up from the roots. From véraison those largely shut down, and the berry is fed through the other system, the one that carries sugar-laden sap from the leaves. This has two consequences worth remembering.</p>
+<ul><li>After véraison, the berry is cut off from a direct supply of water. Rain late in the season swells berries less than one would expect through the roots, though it can be absorbed through the skin and cause splitting.</li>
+<li>The grape stores no starch. Unlike a banana or a pear, it cannot ripen after picking. Every gram of sugar must arrive from the leaves while the bunch is on the vine. A grape is as ripe as it will ever be at the moment it is cut.</li></ul>
+<p>The biological logic is the plant's own. Before the seeds are viable, the fruit is green, sour, bitter and camouflaged, so nothing eats it. Once they are ready, it becomes sweet, colored and fragrant, so that birds will carry the seeds away. Winemaking exploits a signal meant for birds.</p>
+
+<h3>What happens to the acids</h3>
+<p>The two main acids behave differently, and the difference explains the taste of climate.</p>
+<p><b>Tartaric acid</b> is made early, in the green berry, and then left alone. Its amount per berry stays fairly stable, and its concentration falls only as the berry swells.</p>
+<p><b>Malic acid falls fastest during ripening, especially in heat.</b> It is built up before véraison and then used as fuel. The berry respires it, and the rate rises steeply with temperature, particularly night temperature. Experiments on the enzymes involved show that the berry accumulates malic acid most readily at around 68 to 77°F, and that the enzyme that breaks it down keeps working faster all the way to above 110°F. So a grape in a cool climate arrives at harvest with much of its malic acid intact, and a grape in a hot one with almost none. This is why cool-climate wines taste sharp and why warm-climate winemakers add acid.</p>
+<p><b>Potassium</b> complicates the picture. It moves into the berry along with sugar during ripening, and it neutralizes acid, raising the pH. Vigorous vines on fertile soil, heavily shaded, take up the most. Their wines can have a high pH even when the acid content looks adequate.</p>
+
+<h3>Balance</h3>
+<p>A vine has two things it can do with its sugar: grow shoots and leaves, or ripen fruit. Growers call these vegetative and reproductive growth, and the art of viticulture is managing the split.</p>
+<ul><li><b>Too much vigor,</b> from rich soil, abundant water and nitrogen, gives long shoots, dense canopies, shaded fruit, green flavors, high potassium and disease. The vine goes on growing when it should be ripening.</li>
+<li><b>Too little</b> gives a few small leaves that cannot ripen the crop, and a vine that weakens year by year.</li></ul>
+<p><b>Vine balance</b> is the goal: enough working leaf to ripen the crop the vine carries, and no more. Research in California put a number on it. A vine on a simple trellis needs about <b>0.8 to 1.2 square meters of exposed leaf for each kilogram of fruit</b>. Below that the fruit does not ripen fully. Above it there is no further gain. On trellises that divide the canopy in two, so that more leaves are in the sun, about 0.5 to 0.8 is enough. A second measure compares the weight of the crop to the weight of the wood pruned off the following winter. A ratio between about 5 and 10 indicates balance. Lower means the vine is growing wood at the expense of fruit, and higher means it is overcropped.</p>
+<p>These numbers reframe the old argument about yield. Low yield is not a virtue in itself. What matters is the ratio of leaf to fruit. A big, healthy vine on a wide trellis can ripen a large crop well, and a weak vine can fail to ripen a small one. The many site-specific rules about yield in European appellations are rough proxies for this balance.</p>
+
+<h3>Ripeness is several things</h3>
+<p>The components of ripeness advance on separate clocks, and the grower's hardest decision is picking the day when they are all acceptable.</p>
+<ul><li><b>Sugar ripeness</b> sets the potential alcohol. It is driven by warmth and sunlight on the leaves.</li>
+<li><b>Acid balance:</b> malic acid falls and pH rises.</li>
+<li><b>Phenolic ripeness</b> is shown by <b>brown, crunchy seeds</b>, skins that release color easily, and tannins that taste soft and not green. It depends more on time than on heat.</li>
+<li><b>Aromatic ripeness:</b> green-pepper compounds decline and fruit precursors build.</li></ul>
+<p>In a cool climate sugar is the laggard, and growers wait for it. In a warm climate the problem is reversed: sugar races ahead, and the grapes reach 14% potential alcohol while the seeds are still green and the tannins hard. The grower must choose between green tannins at moderate alcohol and ripe tannins at high alcohol. The fashion of the 1990s and 2000s for long "hang time" was a decision to wait for phenolic ripeness whatever the cost in sugar, and the 15% wines of that era were the result. Warming has pushed more and more regions into this dilemma, and much current work in the vineyard, from shading to later-ripening clones to higher sites, is aimed at slowing sugar down so the rest can catch up.</p>
+<p>Growers measure sugar and acid with instruments. Phenolic and aromatic ripeness they still judge largely by walking the rows, tasting berries, chewing skins and biting seeds.</p>
+
 <h3>Measuring sugar</h3>
-<table class="t"><tr><th>Scale</th><th>Used in</th><th>Rough conversion</th></tr>
+<p>Sugar is measured by the density of the juice, and different countries use different scales for the same thing.</p>
+<table><tr><th>Scale</th><th>Used in</th><th>Rough conversion</th></tr>
 <tr><td>Brix (°Bx)</td><td>US, New World</td><td>Percent sugar by weight; × about 0.55-0.6 = potential alcohol %</td></tr>
 <tr><td>Baumé (°Bé)</td><td>France, Australia</td><td>Roughly equals potential alcohol %; about Brix ÷ 1.8</td></tr>
 <tr><td>Oechsle (°Oe)</td><td>Germany, Austria, Switzerland</td><td>Must density; about 4.5-5 × Brix</td></tr>
 <tr><td>KMW</td><td>Austria</td><td>Klosterneuburger Mostwaage, sugar by weight</td></tr></table>
-<p>Example: a 24 °Brix must gives about 13.5-14% alcohol if fermented dry, is around 13.3 °Baumé, and roughly 100 °Oechsle.</p>
+<p>Example: a <b>24 °Brix</b> must gives about <b>13.5-14% alcohol</b> if fermented dry, is around 13.3 °Baumé, and roughly 100 °Oechsle. The German and Austrian quality ladders, from Kabinett to Trockenbeerenauslese, are defined in degrees Oechsle or KMW at harvest, which is why these scales matter for exams.</p>
+
 <h3>Rootstocks</h3>
-<p>Chosen for phylloxera resistance plus vigor, drought tolerance, lime tolerance and nematode resistance. Common ones: <b>Riparia Gloria</b> (low vigor, early), <b>3309 Couderc</b> and <b>101-14</b> (moderate vigor, cool climates), <b>SO4</b> and <b>5BB</b> (vigorous), <b>110 Richter</b> and <b>1103 Paulsen</b> (drought tolerant, warm climates), <b>41B</b> and <b>Fercal</b> (high lime tolerance: Champagne, Cognac). A wrong match can doom a vineyard: California's widespread AXR1 rootstock failed to phylloxera in the 1980s-90s, forcing massive replanting.</p>
-<h3>Clonal vs massal selection</h3>
-<p><b>Clonal selection</b> propagates from one mother vine chosen for a trait (yield, ripening, virus-free status). <b>Massal selection</b> (sélection massale) takes cuttings from many good vines in a vineyard, preserving genetic diversity, valued by many top Burgundy and Barolo estates. "Suitcase clones" smuggled from famous vineyards are a New World legend.</p>
-<h3>Density and training</h3>
-<ul><li><b>Density</b>: Burgundy and Champagne plant about 8,000-10,000+ vines/ha; much of the New World 1,500-3,500. Higher density means more competition, smaller vines and less fruit per vine, though not automatically better wine.</li>
-<li><b>Training systems</b>: Guyot (single or double, cane-pruned; Bordeaux, Burgundy), cordon de Royat (spur; Champagne), Chablis system, gobelet/bush vine (hot, dry), <b>VSP</b>, <b>Scott Henry</b> and <b>Smart-Dyson</b> (divided canopies to tame vigor), <b>Geneva Double Curtain</b> and <b>lyre</b> (divided, high vigor sites), <b>pergola</b> and <b>tendone</b> (overhead; Alto Adige, Vinho Verde, Galicia), and <b>Mosel single-stake (Einzelpfahl)</b> on steep slopes.</li>
-<li><b>Canopy work</b>: shoot thinning, leaf removal (riskier now with sunburn), hedging, crop thinning (green harvest) to concentrate remaining fruit.</li></ul>
+<p>Nearly every vine in the world is two plants joined together. The top, which bears the fruit, is the European wine grape. The roots belong to an American species or a hybrid of several. The reason is phylloxera, the root-feeding insect that destroyed most of Europe's vineyards in the late 1800s. American vines evolved alongside it and tolerate it. European vines die.</p>
+<p>Three American species supplied nearly all the breeding material, and each brought the habits of the place it came from.</p>
+<table><tr><th>Species</th><th>Native habitat</th><th>Brings</th></tr>
+<tr><td><i>Vitis riparia</i></td><td>Riverbanks: cool, moist, fertile</td><td>Shallow roots, low vigor, early ripening, tolerance of wet soil. Poor in drought and on lime</td></tr>
+<tr><td><i>Vitis rupestris</i></td><td>Rocky, dry streambeds</td><td>Deep roots, drought tolerance, moderate to high vigor</td></tr>
+<tr><td><i>Vitis berlandieri</i></td><td>Limestone hills of Texas</td><td>Tolerance of lime, deep roots, drought tolerance, late ripening. Roots badly from cuttings, so it is always used in crosses</td></tr></table>
+<p>The common rootstocks are crosses between these, and knowing the parents predicts the behavior.</p>
+<table><tr><th>Cross</th><th>Examples</th><th>Character</th><th>Typical use</th></tr>
+<tr><td>Pure riparia</td><td>Riparia Gloire</td><td>Low vigor, early</td><td>Fertile, moist soils; fine wine in cool climates</td></tr>
+<tr><td>riparia × rupestris</td><td>3309 Couderc, 101-14</td><td>Low to moderate vigor</td><td>Cool climates, deep soils: Burgundy, Bordeaux, Oregon</td></tr>
+<tr><td>berlandieri × riparia</td><td>SO4, 5BB, 5C, 420A</td><td>Moderate to vigorous; some lime tolerance</td><td>Widely planted; Germany, cooler sites</td></tr>
+<tr><td>berlandieri × rupestris</td><td>110 Richter, 1103 Paulsen, 140 Ruggeri</td><td>Vigorous, deep-rooted, drought tolerant</td><td>Hot, dry climates: southern Europe, California, Australia</td></tr>
+<tr><td>vinifera × berlandieri</td><td>41B, and the more complex Fercal</td><td>High lime tolerance</td><td>Chalk: Champagne, Cognac</td></tr></table>
+<p>Lime deserves a note. In chalky and limestone soils, iron is chemically locked up, and a vine on the wrong roots turns yellow and stops growing, a condition called chlorosis. Since much of France's best vineyard land is limestone, lime tolerance was the great problem of the replanting, and it was solved only when berlandieri was brought into the crosses. <b>41B</b>, valued for lime tolerance on chalk, made the replanting of Champagne possible.</p>
+<p>A rootstock is chosen first for resistance to phylloxera and then for fit: vigor, drought tolerance, lime tolerance, resistance to the microscopic worms called nematodes, and its effect on ripening date. A wrong match can doom a vineyard, and the classic case is California's.</p>
+<p><b>AXR1</b> was a cross between a European wine grape and rupestris. It was easy to graft, vigorous and productive, and it was recommended for the North Coast by the state's own university for decades, though French growers had abandoned it long before because its half-European parentage gave it only partial resistance. In the 1980s a strain of <b>phylloxera</b> able to overcome it, called biotype B, appeared in Napa and Sonoma. By the end of 1995 more than 12,000 acres had been pulled out in those two counties alone, and most of the North Coast was eventually replanted, at a cost usually put at a billion dollars or more. The disaster had one benefit. The replanting was done with better-matched varieties, closer spacing, improved clones and modern trellises, and the quality of California wine rose sharply in the years that followed.</p>
+<p>A few places still grow vines on their own roots: Chile, which phylloxera has never reached; parts of South Australia, protected by quarantine; much of Washington State; and pockets of very sandy soil, in which the insect cannot move, such as Colares in Portugal. Volcanic Santorini has vines centuries old. Whether ungrafted vines make better wine is argued over and unproven.</p>
+
+<h3>Clones and massal selection</h3>
+<p>Vines are propagated by cuttings, not seeds, so every vine of a variety is in principle a copy of the original seedling. Over centuries, small mutations accumulate, and vines of the same variety come to differ in berry size, yield, ripening date and flavor. Old varieties such as Pinot Noir show the widest variation.</p>
+<p><b>Clonal selection</b> propagates from a single mother vine chosen for a trait: yield, ripening date, loose bunches that resist rot, freedom from virus. Every vine in the resulting block is identical. The method was developed in Germany and then systematically in France from the 1950s, where the state certifies and numbers clones. The best-known are the Dijon clones of Pinot Noir and Chardonnay, selected in Burgundy in the 1970s and 1980s and known by numbers such as 115, 667 and 777. They reached Oregon and California from the late 1980s and changed the wines there.</p>
+<p>Clones brought healthier, more reliable vineyards. The early selections were often chosen for yield, and a block of a single clone ripens all at once and tastes of one thing. So many estates plant a mix of clones, and some have returned to the older practice.</p>
+<p><b>Massal selection</b>, <i>sélection massale</i>, takes cuttings from many good vines in an old vineyard, preserving the genetic diversity of the population. It is valued by many top estates in Burgundy and Barolo, who argue that the variation gives complexity and that their own vines are adapted to their site. The risk is that it propagates viruses along with virtues. "Suitcase clones," cuttings said to have been smuggled from famous vineyards, are a New World legend with some truth in it.</p>
+
+<h3>Density</h3>
+<p>Planting density, the number of vines to the hectare, differs tenfold around the world. Burgundy and Champagne plant about 8,000 to 10,000 and more. Much of the New World plants 1,500 to 3,500.</p>
+<p>The European reasoning is competition. Vines planted close together compete for water and nutrients, so each stays small, carries a few bunches and ripens them well. High density suits poor soils and climates with summer rain, where the difficulty is restraining growth. Before phylloxera, vineyards were denser still, a tangle of vines propagated by burying shoots, and the present rows date from replanting on rootstocks and the arrival of the horse and then the tractor. Row width in the New World was set largely by the width of the machinery.</p>
+<p>Density is not a guarantee of quality. On fertile soil with irrigation, crowding vines does not weaken them enough, and the result is a dense, shaded canopy. A long trial with juice grapes in Washington found that high density reduced both yield and quality for exactly that reason. The sound principle is to match the size of the vine to the capacity of the site: small vines close together on poor ground, larger vines further apart, on a trellis that spreads the canopy, on rich ground. What matters is yield and leaf area per vine, more than vines per hectare.</p>
+
+<h3>Training and pruning</h3>
+<p>Training is the permanent shape given to the vine. Pruning is the annual cutting that decides how many buds, and so how many shoots and bunches, it will carry. Two choices define a system.</p>
+<ul><li><b>Cane or spur.</b> In cane pruning, one or two of last year's shoots are kept at full length and tied down, and the rest of the vine is cut back to the trunk each winter. In spur pruning, a permanent horizontal arm, the cordon, carries short stubs of two buds each. Cane pruning needs skilled labor and suits varieties whose first buds are unfruitful and cool climates where frost may kill some buds. Spur pruning is simple and can be done by machine.</li>
+<li><b>How the shoots are arranged.</b></li></ul>
+<table><tr><th>System</th><th>Form</th><th>Where and why</th></tr>
+<tr><td>Guyot (single or double)</td><td>Cane-pruned, shoots trained upward</td><td>Bordeaux, Burgundy; the standard of cool Europe</td></tr>
+<tr><td>Cordon de Royat</td><td>Spur-pruned on a permanent arm</td><td>Champagne's Pinot Noir; widely used worldwide</td></tr>
+<tr><td>VSP (vertical shoot positioning)</td><td>Shoots held upright between wires in a thin wall</td><td>The modern default: good exposure, easy to mechanize</td></tr>
+<tr><td>Gobelet, bush vine</td><td>A short trunk with arms, no wires</td><td>Hot, dry, windy places: southern Rhône, Spain, old vines everywhere. The vine shades its own fruit and needs little water. It cannot be worked by machine</td></tr>
+<tr><td>Scott Henry, Smart-Dyson</td><td>The canopy divided vertically, half the shoots up and half down</td><td>Vigorous sites: doubles the exposed leaf</td></tr>
+<tr><td>Geneva Double Curtain, lyre</td><td>The canopy divided horizontally into two walls</td><td>High-vigor sites</td></tr>
+<tr><td>Pergola, tendone</td><td>An overhead roof of foliage with fruit hanging beneath</td><td>Alto Adige, Vinho Verde, Galicia, Argentina: lifts fruit above damp ground and shades it from fierce sun</td></tr>
+<tr><td>Single stake (Einzelpfahl)</td><td>Each vine on its own post, canes bent into a heart</td><td>The Mosel's steep slate slopes, where wires and rows are impossible</td></tr></table>
+<p><b>Scott Henry and Smart-Dyson are divided-canopy training systems.</b> They belong to a body of work from the 1980s, associated above all with the Australian Richard Smart, which showed that the problem in many New World vineyards was shade, and that splitting a crowded canopy into two thinner ones improved both yield and quality at once. It overturned the assumption that the two always trade off.</p>
+<p><b>Canopy work</b> through the season adjusts what pruning set up: shoot thinning, removing leaves around the bunches for air and light, trimming the tops, and <b>green harvest</b>, cutting off bunches in summer to bring the crop into balance. Leaf removal has become riskier as summers have grown hotter and exposed fruit sunburns.</p>
+
 <h3>Water</h3>
-<p>Mild water stress after fruit set slows shoot growth and concentrates berries; severe stress halts photosynthesis. Tools: <b>regulated deficit irrigation (RDI)</b> and <b>partial rootzone drying (PRD)</b>; dry-farming where rainfall and soils allow. Measured via pressure chambers (stem water potential) and soil moisture probes.</p>
+<p>Water is the grower's most powerful control over the vine after pruning, where irrigation is allowed.</p>
+<p>The principle is that the vine's two kinds of growth respond differently to thirst. Shoot growth is very sensitive and stops at the first shortage. Photosynthesis is less sensitive and continues. So <b>mild water stress</b> after fruit set halts the shoots while the leaves go on making sugar, and all of it goes to the fruit. Mild stress early also keeps berries small, which raises the ratio of skin to juice, and so the color and tannin. Severe stress closes the pores, halts photosynthesis and stops ripening altogether.</p>
+<p>Timing matters as much as amount. Berry size is set largely before véraison, during cell division, and a shortage then cannot be made up later. After véraison a moderate deficit has little effect on size.</p>
+<p>Vine water status is measured with a pressure chamber. A leaf is sealed in the chamber and gas pressure is raised until sap appears at the cut stem. The pressure needed shows how hard the vine is pulling on its water.</p>
+<table><tr><th>Stem water potential at midday</th><th>State of the vine</th></tr>
+<tr><td>Above −0.6 MPa (−6 bar)</td><td>No stress; shoots growing</td></tr>
+<tr><td>−0.8 to −1.1 MPa</td><td>Mild stress: growth slows; the target for quality</td></tr>
+<tr><td>−1.1 to −1.4 MPa</td><td>Moderate stress</td></tr>
+<tr><td>Below −1.4 MPa</td><td>Severe stress; leaves shut down and may drop</td></tr></table>
+<ul><li><b>Regulated deficit irrigation (RDI)</b> gives the vine less water than it would use, at chosen stages, to hold it in mild stress.</li>
+<li><b>Partial rootzone drying (PRD)</b>, developed in Australia in the 1990s, waters one side of the vine and lets the other dry, then switches. The drying roots send a chemical signal that makes the leaves conserve water, while the wet side keeps the vine supplied.</li>
+<li><b>Dry-farming</b> uses no irrigation, where rainfall and deep soils allow.</li></ul>
+<p>The great terroirs of Europe turn out to be natural deficit irrigation systems. The gravel of the Médoc, the limestone of Burgundy and the chalk of Champagne all supply water freely in spring and progressively less through summer, without ever cutting it off. For most of the last century irrigation was banned in French appellations. As summers dry, the rules are being relaxed.</p>
+
 <h3>Harvest</h3>
-<p>Hand picking allows whole-bunch, selection and gentle handling (required in Champagne, Beaujolais crus and for most top wines); machine harvesting is fast and cheap and can work at night when fruit is cool. Sorting tables, optical sorters and vibrating tables remove underripe or damaged berries.</p>`,
+<p>The last decision is how to pick.</p>
+<p><b>Hand picking</b> brings in whole bunches, undamaged, and allows selection in the vineyard. It is required in Champagne and the Beaujolais crus, is the only option on steep slopes and for bush vines, and is needed for any wine made from whole bunches or from individually selected berries. It is slow and expensive and depends on finding a workforce for a few weeks a year.</p>
+<p><b>Machine harvesting</b> straddles the row and shakes the fruit off its stems with vibrating rods. It is fast and cheap, a fraction of the cost per ton, and it has one real advantage for quality: it can work <b>at night</b>, when the fruit is cool. Cold grapes oxidize more slowly, resist microbes, keep their aromas and need less energy to chill at the winery. In hot regions a machine-picked crop delivered cold at dawn is often in better condition than a hand-picked one that sat in bins through a warm afternoon. Modern machines sort and destem on board. The old objections, broken berries and leaves in the load, apply less each year, and comparative trials often find little difference in the wine when the fruit is processed promptly.</p>
+<p><b>Sorting</b> has changed more than picking. Sorting tables, where workers pick out leaves and bad berries by hand, have been joined by vibrating tables and <b>optical sorters</b>: cameras photograph each berry as it flies past, and jets of air knock out any that are the wrong color, shape or size, thousands per second. An estate can now exclude underripe, raisined and damaged fruit with a precision that was impossible a generation ago. Together with stricter selection in the cellar, it is one reason poor vintages are rarer than they were.</p>
+
+<h3>Reading a vineyard</h3>
+<p>Return to the example in the opening paragraph: old bush vines on 110 Richter, dry-farmed at low density.</p>
+<ul><li><b>Bush vines:</b> a hot, dry, probably windy place. Fruit shaded by its own leaves, no wires, hand labor.</li>
+<li><b>110 Richter:</b> a berlandieri and rupestris cross, deep-rooted and drought tolerant. The grower expects water to be short.</li>
+<li><b>Dry-farmed:</b> the vines live on stored winter rain. Berries will be small and the crop light.</li>
+<li><b>Low density:</b> each vine needs a large volume of soil to find enough water, so they are spaced far apart.</li>
+<li><b>Old:</b> deep roots, a naturally small crop, a vine in settled balance.</li></ul>
+<p>Every element is an adaptation to the same fact, a shortage of water, and together they predict the wine: concentrated, ripe, low-yielding, from somewhere like the southern Rhône, Priorat, the Swartland or the Barossa. Read the same way, a description of Guyot-trained vines at 10,000 to the hectare on 41B says chalk, cool climate, summer rain and a grower working to restrain vigor. The vineyard is a set of answers, and the questions are the place.</p>
+`,
 floor:`<p>On the floor, translate this to guest language: "Old vines naturally give fewer, more concentrated grapes," "These are hand-picked from a steep slope," "Cool nights keep the acidity bright." Precision earns trust.</p>`,
 analyst:`<p>Diploma D1 questions: explain how vine balance affects quality; compare clonal and massal selection; discuss trellis choice for a high-vigor site; explain why phenolic ripeness and sugar ripeness diverge in warm climates.</p>`,
 terms:[["Phenolic ripeness","Maturity of skins, seeds and tannins, separate from sugar."],["Brix","Percent sugar in must; × 0.55-0.6 ≈ potential alcohol."],["Massal selection","Propagating from many vines in a vineyard to preserve diversity."],["110 Richter","Drought-tolerant rootstock."],["41B","Lime-tolerant rootstock used in Champagne."],["RDI","Regulated deficit irrigation."],["Green harvest","Removing bunches before ripening to reduce yield."]],
@@ -42,18 +144,127 @@ quiz:[
 ]});
 
 L.push({id:"v2", unit:"F3", title:"Deep Dive: Fermentation and Wine Chemistry", mins:24,
-summary:"Yeast and nutrients, acids and pH, SO₂ forms, aroma compounds you can name in the glass, and phenolic extraction.",
+summary:"What yeast do and need, how acidity and pH govern everything else, the forms of sulfur dioxide, the named molecules behind wine's smells and where each comes from, and how color and tannin leave the grape and survive.",
 body:`
+<p>The earlier chapters described winemaking as a series of choices. This one goes underneath them, to the chemistry that makes the choices matter. It covers five subjects: what yeast do and what they need, how acidity works, what sulfur dioxide is doing in the bottle, where the smells of wine come from at the level of named molecules, and how color and tannin get out of the grape and what happens to them afterward. It is the most technical chapter in the unit. The reward for learning it is that most of what a taster observes in the glass can be traced to a cause, and most of what a winemaker does can be predicted from first principles.</p>
+
+<h3>The reaction</h3>
+<p>Alcoholic fermentation is one chemical reaction, carried out by yeast in a dozen steps: <b>C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + heat</b>. One molecule of sugar becomes two of alcohol and two of carbon dioxide, and energy is released.</p>
+<p>Three practical numbers follow from it.</p>
+<ul><li><b>About 17 grams of sugar per liter make 1% of alcohol.</b> Juice with 220 grams of sugar per liter gives a wine of about 13%. This is why ripeness, measured as sugar, predicts strength, and why hotter vintages give stronger wines.</li>
+<li><b>Roughly half the weight of the sugar leaves as gas.</b> A fermenting tank gives off more than fifty times its own volume in carbon dioxide. The gas is heavier than air, collects in low places, and kills cellar workers every year.</li>
+<li><b>The reaction gives off heat,</b> enough to raise the temperature of an uncooled tank by tens of degrees. Above about 86 to 95°F (30 to 35°C) the yeast begin to die. The ability to cool a fermentation, with jackets on steel tanks, spread from the 1950s and was one of the largest advances in wine quality of the century. Before it, hot regions could not reliably make fresh white wine at all.</li></ul>
+<p>The equation is not the whole story. About a tenth of the sugar goes elsewhere: into new yeast cells and into by-products that matter far more than their quantity suggests.</p>
+<table><tr><th>By-product</th><th>Typical amount</th><th>Effect</th></tr>
+<tr><td>Glycerol</td><td>5 to 10 g/L</td><td>A slight sweetness and smoothness; more when yeast are stressed</td></tr>
+<tr><td>Succinic acid</td><td>About 1 g/L</td><td>A salty, bitter edge; part of the "winey" taste</td></tr>
+<tr><td>Acetic acid</td><td>0.2 to 0.4 g/L</td><td>Volatile acidity; a fault above about 0.8</td></tr>
+<tr><td>Higher alcohols</td><td>Hundreds of mg/L</td><td>Body and complexity; solvent-like in excess</td></tr>
+<tr><td>Esters</td><td>A few to tens of mg/L</td><td>The fruity smell of young wine</td></tr>
+<tr><td>Sulfur dioxide</td><td>10 to 20 mg/L</td><td>Made by the yeast themselves</td></tr></table>
+<p>Temperature decides the balance. A cool fermentation, at 54 to 61°F, is slow, and keeps the delicate esters that a warm one would boil off with the escaping gas. That is the logic of white wine. A warm one, at 77 to 86°F, extracts color and tannin from skins faster. That is the logic of red.</p>
+
 <h3>Yeast</h3>
-<p>Alcoholic fermentation: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + heat. <b>Saccharomyces cerevisiae</b> does nearly all of it, but <b>non-Saccharomyces</b> yeasts (Hanseniaspora, Torulaspora, Metschnikowia) start "wild" fermentations and add complexity before alcohol knocks them out around 4-5%. Cultured yeasts give reliability and specific traits (aroma release, alcohol tolerance); ambient ferments give individuality and risk.</p>
-<p>Yeasts need nitrogen: <b>YAN</b> (yeast assimilable nitrogen), typically 150-250 mg/L or more. Low YAN, extreme temperatures, high sugar or high alcohol can cause <b>stuck fermentations</b> or hydrogen sulfide (reduction). Winemakers add DAP or complex nutrients. Heat is a byproduct; uncontrolled ferments can exceed 35°C and kill yeast, so temperature control (jackets, plates) was one of the 20th century's greatest quality advances.</p>
+<p><i>Saccharomyces cerevisiae</i> does nearly all the work, because it tolerates alcohol better than any rival. It is not the first to act. Grapes carry a population of other, weaker yeasts with names such as <i>Hanseniaspora</i>, <i>Torulaspora</i> and <i>Metschnikowia</i>. In a fermentation left to start on its own, these begin, and contribute aromas of their own, good and bad, before alcohol knocks them out at around 4 to 5%. <i>Saccharomyces</i>, rare on the grapes and common in the cellar, then takes over. Research with genetic fingerprinting has shown that even when a winemaker adds a cultured strain, native yeasts often take some part.</p>
+<p>The choice between <b>cultured yeast</b> and an <b>ambient</b>, or native, fermentation is one of the main dividing lines in winemaking. Cultured strains give a quick start, a reliable finish and chosen traits: tolerance of high alcohol, an ability to release particular aromas, low production of sulfur smells. Ambient ferments give individuality and risk.</p>
+
+<h3>A fermentation, day by day</h3>
+<p>A fermentation has a shape, and winemakers follow it by measuring the density of the juice once or twice a day. As sugar becomes alcohol the liquid grows lighter, and plotting the readings gives a curve with four parts.</p>
+<ol><li><b>Lag.</b> For a day or two little seems to happen. The yeast are adjusting and beginning to multiply. In a cold tank or a native fermentation this can last several days, and it is the period of greatest risk from other organisms.</li>
+<li><b>Growth.</b> The population doubles every few hours until it reaches something like a hundred million cells in each milliliter. The nitrogen in the juice is used up in this phase, and so is the dissolved oxygen. Foam and heat build.</li>
+<li><b>The main fermentation.</b> Growth stops, and the now enormous population converts sugar steadily. Most of the alcohol, heat and gas is produced here. In a red wine the cap is at its thickest and extraction is fastest. This is when cooling is needed.</li>
+<li><b>The tail.</b> Alcohol is high, nutrients are gone, and the yeast are dying. The last few grams of sugar, mostly fructose, go slowly. A healthy fermentation finishes. A stressed one stops here.</li></ol>
+<p>A white wine fermented cool takes two to four weeks. A red fermented warm takes one to two. By tradition a wine is "dry" when the yeast have left less than two or three grams of sugar per liter, an amount they cannot use and the tongue cannot taste.</p>
+
+<h3>The other organisms</h3>
+<p>Yeast are not alone in the tank, and the rest of this chapter makes more sense once the cast is complete.</p>
+<table><tr><th>Organism</th><th>Needs</th><th>Does</th></tr>
+<tr><td><i>Saccharomyces</i></td><td>Sugar</td><td>Alcoholic fermentation</td></tr>
+<tr><td>Other yeasts</td><td>Sugar, low alcohol</td><td>Early aromas, or vinegar and solvent smells</td></tr>
+<tr><td>Lactic bacteria (<i>Oenococcus</i> and relatives)</td><td>Malic acid or sugar; pH above about 3.2; little sulfur dioxide</td><td>Malolactic conversion, or spoilage</td></tr>
+<tr><td>Acetic bacteria</td><td>Alcohol and <b>oxygen</b></td><td>Turn alcohol into vinegar</td></tr>
+<tr><td><i>Brettanomyces</i></td><td>Almost nothing; tolerates alcohol</td><td>Stable and medicinal smells, usually in barrel</td></tr>
+<tr><td>Flor yeast</td><td>Alcohol, oxygen, a surface</td><td>The film that makes Fino Sherry and Vin Jaune</td></tr></table>
+<p>The acetic bacteria are the reason every cellar is obsessive about keeping vessels full. They cannot work without air. A tank or barrel with a headspace gives them alcohol below and oxygen above, and the wine turns. Every other organism on the list is restrained by some combination of acid, alcohol, cold and sulfur dioxide, which is why those four things recur throughout this unit.</p>
+
+<h3>What yeast need</h3>
+<p>Sugar is food for energy. To build new cells, yeast also need <b>nitrogen</b>, which they take from the juice as ammonium and amino acids. The measure is <b>YAN</b>, yeast assimilable nitrogen.</p>
+<ul><li>Below about 150 mg/L in white juice, or 100 in red, a fermentation is at risk.</li>
+<li>Around 250 to 350 mg/L gives the cleanest, fruitiest whites.</li>
+<li>Juice from stressed vines, very ripe grapes or infertile soils is often short. One of the amino acids that builds up as grapes ripen, proline, is useless to yeast, so a juice can be rich in nitrogen on paper and poor in practice.</li></ul>
+<p><b>Low YAN can cause stuck fermentation and hydrogen sulfide.</b> The second deserves an explanation, because it is the origin of the commonest winemaking fault. Yeast make their own sulfur-containing amino acids. To do so they take sulfate from the juice and convert it, step by step, to sulfide, which they then attach to a nitrogen-containing skeleton. If nitrogen runs short, there is no skeleton to attach it to. The sulfide has nowhere to go and leaves the cell as <b>hydrogen sulfide</b>, the gas that smells of rotten eggs. Residues of sulfur sprayed in the vineyard can add to it. Caught early, the gas can be blown off with air or removed with a trace of copper. Left alone, it reacts to form heavier compounds that smell of onion, garlic and burnt rubber and are very hard to remove. This is what tasters mean by <b>reduction</b>.</p>
+<p>Winemakers correct a shortage by adding a nitrogen salt, DAP, or more complex nutrients made from yeast. Timing matters: too much too early makes the fermentation race and overheat.</p>
+<p>Yeast also need a little <b>oxygen</b> at the start, to build the fatty compounds that keep their cell membranes working as alcohol rises. A juice clarified too thoroughly loses the grape solids that supply these, and its yeast may fail near the end.</p>
+
+<h3>Stuck fermentations</h3>
+<p>A fermentation that stops with sugar remaining is one of a winemaker's worst problems. The wine is sweet, low in sulfur dioxide and open to every spoilage organism in the cellar. The causes are a list of everything that stresses yeast.</p>
+<ul><li>Too little nitrogen or too few nutrients.</li>
+<li>Too much sugar to begin with, and so too much alcohol at the end.</li>
+<li>Temperature too high, too low, or changed too suddenly.</li>
+<li>Juice too clean, or starved of oxygen.</li>
+<li>Toxic residues, or vinegar bacteria already at work.</li></ul>
+<p>There is a further twist. Grape sugar is half glucose and half fructose, and wine yeast prefer glucose. They consume it faster, so the sugar left near the end is mostly fructose, which they take up poorly in the presence of alcohol. Fructose also tastes nearly twice as sweet as glucose, so a little residual sugar from a stuck fermentation is more noticeable than the number suggests. Restarting means building up a fresh, strong culture gradually accustomed to the alcohol, and it does not always work. Prevention is everything.</p>
+
 <h3>Acids and pH</h3>
-<ul><li><b>Tartaric</b> (the main grape acid; can precipitate as crystals), <b>malic</b> (green apple; converted by MLC), <b>citric</b> (small amounts), <b>lactic</b> (from MLC), <b>succinic</b> (from fermentation), <b>acetic</b> (volatile; vinegar).</li>
-<li><b>Titratable acidity (TA)</b> measures total acid (often 5-8 g/L); <b>pH</b> measures acid strength (wine about 2.9-3.9). Lower pH means fresher taste, better color stability (anthocyanins are redder at low pH), better microbial stability and more effective SO₂.</li></ul>
+<p>Acidity is the backbone of wine, and it is measured in two ways that answer different questions.</p>
+<table><tr><th>Acid</th><th>Source</th><th>Character</th></tr>
+<tr><td>Tartaric</td><td>The grape. The main acid, and rare in other fruits</td><td>Firm, stable; can fall out as crystals</td></tr>
+<tr><td>Malic</td><td>The grape. High in cool years, burned off in heat</td><td>Sharp, green apple; converted by malolactic bacteria</td></tr>
+<tr><td>Citric</td><td>The grape, in small amounts</td><td>Fresh; the source of buttery diacetyl</td></tr>
+<tr><td>Lactic</td><td>Malolactic conversion</td><td>Soft, milky</td></tr>
+<tr><td>Succinic</td><td>Fermentation</td><td>Salty, savory</td></tr>
+<tr><td>Acetic</td><td>Yeast and bacteria</td><td>Volatile; vinegar</td></tr></table>
+<p><b>Titratable acidity</b>, TA, measures the total quantity of acid, usually 5 to 8 grams per liter. It tracks how sour the wine tastes. <b>pH</b> measures the strength of the acidity, the concentration of active acid, on a scale where a lower number means more acid. Wine runs from about 2.9 to 3.9. The scale is logarithmic, so a wine at pH 3.0 is ten times as acidic in this sense as one at pH 4.0, and the difference between 3.3 and 3.6 is large.</p>
+<p>The two do not always move together, and the reason is potassium. Grapes take up potassium from the soil, and it neutralizes part of the acid. A juice rich in potassium, from fertile soil or long contact with skins, can have plenty of total acid and still a high pH. This is why winemakers watch both numbers.</p>
+<p>pH governs almost everything else. <b>Lower pH means</b>:</p>
+<ul><li>a fresher taste;</li>
+<li>brighter, redder, more stable color, because the pigments of red wine change form with acidity;</li>
+<li>fewer spoilage microbes, most of which dislike acid;</li>
+<li>far more effective sulfur dioxide;</li>
+<li>slower aging.</li></ul>
+<p>A high-pH red, common from hot climates and very ripe fruit, is soft and appealing young, dull in color, vulnerable to bacteria and Brettanomyces, and short-lived. That is why acid is added in warm regions, usually as tartaric acid, and why the practice is ordinary and not a sign of poor winemaking.</p>
+
 <h3>Sulfur dioxide</h3>
-<p>SO₂ protects against oxidation and microbes. It exists as <b>bound</b> (attached to acetaldehyde, sugars, etc.) and <b>free</b> SO₂; only the small <b>molecular</b> fraction of free SO₂ is strongly antimicrobial, and that fraction falls sharply as pH rises. That's why a pH 3.8 wine needs far more free SO₂ than a pH 3.2 wine for the same protection (target around 0.5-0.8 mg/L molecular). EU legal maximums are around 150 mg/L total for dry reds and 200 for dry whites and rosés, higher for sweet wines; organic and natural standards are lower.</p>
+<p>Sulfur dioxide protects wine against oxidation and microbes. Its chemistry explains why the same dose can be ample in one wine and useless in another.</p>
+<p>Added to wine, it divides into forms.</p>
+<ul><li><b>Bound</b> sulfur dioxide has attached itself to other compounds: acetaldehyde above all, also sugars and pigments. Bound, it is largely inactive. A wine with much to bind it, such as a sweet wine or one made from rotten grapes, swallows a large dose with little effect.</li>
+<li><b>Free</b> sulfur dioxide is what remains unattached, and is what winemakers measure and manage.</li>
+<li>Of the free part, only a small fraction is in the <b>molecular</b> form, and that fraction is the one that kills microbes. <b>As pH rises, the molecular fraction falls sharply.</b></li></ul>
+<p>The target is around 0.6 mg/L of molecular sulfur dioxide for a dry wine and 0.8 for a sweet one. The free sulfur dioxide needed to reach 0.8 at different levels of acidity shows how steep the effect is.</p>
+<table><tr><th>Wine pH</th><th>Free SO₂ needed, mg/L</th></tr>
+<tr><td>3.0</td><td>About 13</td></tr>
+<tr><td>3.2</td><td>About 21</td></tr>
+<tr><td>3.4</td><td>About 32</td></tr>
+<tr><td>3.6</td><td>About 50</td></tr>
+<tr><td>3.8</td><td>About 79</td></tr></table>
+<p>A pH 3.8 wine needs roughly four times as much free sulfur dioxide as a pH 3.2 wine for the same protection, and at that level the wine would smell of it. In practice high-pH wines are simply less well protected. The legal maximums in Europe are about 150 mg/L in total for dry reds and 200 for dry whites and rosés, higher for sweet wines, with lower limits for organic and natural wine.</p>
+<p>As an antioxidant, sulfur dioxide does not react with oxygen directly to any useful degree. It works by mopping up the products of oxidation, turning browned compounds back to their colorless forms and binding acetaldehyde, the bruised-apple compound, so that it cannot be smelled. Each milligram of oxygen a wine absorbs uses up about four milligrams of sulfur dioxide, a ratio that matters at bottling.</p>
+
+<h3>How wine oxidizes</h3>
+<p>Oxidation has appeared in every chapter of this unit, and its mechanism explains several things at once.</p>
+<p>Oxygen dissolves readily in wine, up to about 8 milligrams per liter at room temperature and more when cold. Left to itself it reacts only slowly. The reaction is driven by traces of iron and copper, always present, which act as go-betweens, and its first targets are phenolic compounds.</p>
+<ol><li>Oxygen, with the help of the metals, converts a phenolic into a reactive form called a quinone, and is itself turned into hydrogen peroxide.</li>
+<li>The quinones react with one another and with other compounds to form brown pigments. This is the browning of white wine and the bricking of red, and it is the same chemistry that browns a cut apple.</li>
+<li>The peroxide attacks the most abundant thing available, alcohol, and converts a little of it into <b>acetaldehyde</b>, which smells of bruised apple and nuts.</li>
+<li>Along the way, delicate aromas are destroyed. Thiols, in particular, react with quinones and vanish.</li></ol>
+<p>Sulfur dioxide interrupts the chain at three points: it destroys the peroxide, turns quinones back into harmless phenolics, and binds the acetaldehyde.</p>
+<p>The consequences are consistent with everything else in the unit.</p>
+<ul><li><b>Red wine withstands oxygen and white does not.</b> Red has ten times the phenolics to absorb it, and in red the acetaldehyde is put to use, linking pigments to tannins. A red may improve with a dose of air that would ruin a white.</li>
+<li><b>Juice oxidizes faster than wine.</b> Before fermentation, grape enzymes catalyze the browning directly. Rotten grapes carry a far stronger enzyme of the same kind, which is why moldy fruit makes brown wine. This is the reason for sulfur dioxide at the crusher. A minority of white winemakers do the opposite and let the juice brown deliberately, on the theory that the vulnerable compounds will fall out before fermentation and leave a wine more resistant later.</li>
+<li><b>Lees protect.</b> Dead yeast consume oxygen and release glutathione, a natural antioxidant that reacts with quinones before they can do harm.</li>
+<li><b>Copper is two-faced.</b> It removes rotten-egg smells and it speeds oxidation.</li></ul>
+<p>Oxidation and reduction are the two ends of one scale. Too much oxygen and the wine goes flat, brown and nutty. None at all and sulfur compounds accumulate. Most of what is called winemaking style, from barrels to closures, is a choice of where on that scale to sit.</p>
+
+<h3>Where aroma comes from</h3>
+<p>Wine contains close to a thousand volatile compounds, and a few dozen do most of the work. They are present in astonishingly small amounts. Many are measured in nanograms per liter, parts per trillion: one part per trillion is roughly a few grains of salt dissolved in an Olympic swimming pool. The nose can detect some of them at that level.</p>
+<p>Tasters sort aromas by origin.</p>
+<ul><li><b>Primary</b> aromas come from the grape variety.</li>
+<li><b>Secondary</b> aromas come from fermentation and winemaking.</li>
+<li><b>Tertiary</b> aromas come from aging.</li></ul>
+<p>One fact changes how the first group should be understood. <b>Most grape juice has little smell.</b> In most varieties the aroma compounds are locked up in the grape as odorless precursors, each bound to a sugar or an amino acid. They are released during fermentation, by yeast enzymes, or slowly during aging, by the acid of the wine. A grape variety is therefore better thought of as a set of possibilities than as a set of smells, and the winemaker's choices decide how many are realized. Muscat is the exception: its aroma compounds are largely free, which is why Muscat grapes smell and taste like Muscat wine.</p>
+
 <h3>Aroma compounds worth knowing by name</h3>
-<table class="t"><tr><th>Compound</th><th>Smell</th><th>Where</th></tr>
+<table><tr><th>Compound</th><th>Smell</th><th>Where</th></tr>
 <tr><td>Methoxypyrazines (IBMP)</td><td>Green bell pepper</td><td>Cabernets, Sauvignon Blanc, Carmenère; cool or shaded fruit</td></tr>
 <tr><td>Thiols (3MH, 3MHA, 4MMP)</td><td>Passion fruit, grapefruit, boxwood</td><td>Sauvignon Blanc (Marlborough); released by yeast</td></tr>
 <tr><td>Terpenes (linalool, geraniol)</td><td>Floral, citrus blossom, rose</td><td>Muscat, Gewürztraminer, Riesling, Torrontés</td></tr>
@@ -65,11 +276,56 @@ body:`
 <tr><td>Acetaldehyde</td><td>Bruised apple, nutty</td><td>Oxidation, Fino Sherry</td></tr>
 <tr><td>4-ethylphenol / 4-ethylguaiacol</td><td>Band-aid, smoky, barnyard</td><td>Brettanomyces</td></tr>
 <tr><td>Wine lactones, vanillin, whisky lactone</td><td>Coconut, vanilla</td><td>Oak</td></tr></table>
-<h3>Phenolics and extraction</h3>
-<p>Anthocyanins (color) are extracted early and best in water; tannins (from skins, then seeds) need alcohol and time. Seed tannins are harsher, so long, hot macerations risk bitterness. <b>Co-pigmentation</b> (anthocyanins stacking with other phenolics, helped by Viognier in Côte-Rôtie) deepens and stabilizes color. Over time anthocyanins and tannins polymerize into larger, softer, more stable pigments, and eventually drop as sediment.</p>
-<p>Extraction tools: <b>cold soak</b> (pre-fermentation maceration for color and aroma), <b>pump-over</b>, <b>punch-down</b>, <b>délestage</b>, <b>rotary fermenters</b>, <b>thermovinification</b> and <b>flash détente</b> (heating or vacuum-flashing must for rapid color, used in volume wines), <b>whole-bunch</b> inclusion (spice, freshness, partial carbonic effect, can lower color), <b>extended maceration</b> (tannin polymerization and softening), <b>micro-oxygenation</b>.</p>
+<p>Each of these has a story that explains where and when it turns up.</p>
+<p><b>Methoxypyrazines</b> are made by the vine in the unripe berry, probably as a deterrent to animals eating the fruit before the seeds are ready. They are among the most potent odors in wine, detectable at a few parts per trillion. As the grape ripens, and especially where sunlight reaches the fruit, they break down. So green pepper in a Cabernet is a marker of cool climate, shaded bunches, high yields or early picking. A little is part of the character of Cabernet Franc and Sauvignon Blanc. A lot reads as unripe. They are unusually stable once in the wine, so they cannot be removed in the cellar. The fix is in the vineyard: open the canopy and wait.</p>
+<p><b>Thiols</b> are sulfur compounds, and the pleasant members of a family whose other members smell of rotten egg and onion. Three give Sauvignon Blanc its passion fruit, grapefruit and boxwood, and in excess a note of cat urine. They exist in the grape only as bound, odorless precursors and are cut free by yeast during fermentation, and the yeast strain decides how much is released. The most potent can be smelled at under one part per trillion. They are destroyed by oxygen and by traces of copper, which is why this style of wine is made with air excluded at every step and bottled under screwcap. Marlborough's intensity comes from high precursor levels in the fruit together with handling designed to protect them.</p>
+<p><b>Terpenes</b> are the floral compounds of Muscat, Gewürztraminer, Riesling and Torrontés: linalool, with its orange-blossom scent, and geraniol, which smells of rose. They exist both free and bound to sugars. The bound pool is much larger, and is released slowly by acid over years, which is part of how these wines develop in bottle. Gewürztraminer's lychee and rose come from a related compound, rose oxide.</p>
+<p><b>Rotundone</b> is the black pepper of Syrah. It was identified only in 2008, by Australian researchers, and proved to be the same compound that gives peppercorns their smell, where it is ten thousand times more concentrated. Most people detect it in red wine at 16 parts per trillion. About a fifth of people cannot smell it at all, at any concentration, so two tasters may honestly disagree about whether a Syrah is peppery. It accumulates late in ripening and is highest in cool sites and cool years, which is why northern Rhône Syrah is peppery and Barossa Shiraz usually is not.</p>
+<p><b>TDN</b> is the petrol or kerosene note of mature Riesling. It forms from the breakdown of carotenoids, the pigments that protect grape skins from sunlight. The more sun the bunches receive, the more precursor they hold, and the precursor is converted slowly in the bottle. So the note appears with age and is strongest in wines from hot, sunny sites. Riesling holds several times more of it than other varieties. Whether it is a virtue is disputed: many German producers regard a strong petrol note in a young wine as a sign of sun-stressed fruit.</p>
+<p><b>Esters</b> are made by yeast and give young wine its general fruitiness: banana and pear drop from one group, apple and pineapple from another. They form most in cool, clean fermentations and they are unstable, breaking down within a year or two. This is why a simple white wine smells strongly fruity at six months and neutral at three years, and why "drink young" is chemistry and not fashion.</p>
+<p>The remaining entries are covered where they arise: diacetyl with malolactic conversion, acetaldehyde with oxidation and Sherry, the Brettanomyces compounds with barrels, and the oak compounds with oak.</p>
+
+<h3>Phenolics: color and tannin</h3>
+<p>Phenolics are the family of compounds that give red wine its color, its bitterness and its drying grip, and that protect it from oxygen. Two groups matter most.</p>
+<ul><li><b>Anthocyanins</b> are the red and purple pigments, found in the skin.</li>
+<li><b>Tannins</b> are large molecules, found in skins, seeds and stems, that bind to the proteins in saliva and so make the mouth feel dry. That sensation is astringency.</li></ul>
+<p>They leave the grape on different schedules, and the whole craft of red winemaking is built on the difference.</p>
+<table><tr><th></th><th>Anthocyanins</th><th>Skin tannins</th><th>Seed tannins</th></tr>
+<tr><td>Dissolve best in</td><td>Water</td><td>Water and alcohol</td><td>Alcohol</td></tr>
+<tr><td>Timing</td><td>Early. Peak in about 4 to 7 days, then decline</td><td>Early, then level off</td><td>Late, and keep coming for weeks</td></tr>
+<tr><td>Character</td><td>Color</td><td>Finer, softer</td><td>Harsher, more bitter</td></tr></table>
+<p>Seeds are protected by a waxy coat that alcohol slowly dissolves, so their tannin arrives only once fermentation is well advanced, and goes on arriving as long as the wine stays on its skins. <b>Seed tannins are harsher</b>, so long, hot macerations risk bitterness. Depending on how long the wine stays on its skins, seeds supply anywhere from two-fifths to four-fifths of its tannin. Ripe seeds, brown and nutty, give less and better tannin than green ones, which is one reason growers taste seeds to decide when to pick.</p>
+<p>Color does something unexpected. Free anthocyanins are unstable, and the amount in the wine falls after its early peak. What makes red wine's color last is that pigments combine with other compounds.</p>
+<ul><li><b>Co-pigmentation.</b> In a young wine, anthocyanins stack loosely together with colorless phenolics. The stacks are more intensely colored and more purple than the pigments alone, and account for an estimated 30 to 50% of the color of a young red. This is the reasoning behind fermenting a little white Viognier with Syrah in Côte-Rôtie: the white grapes supply compounds that pigments can stack with. Trials find the effect real at pressing and modest later.</li>
+<li><b>Polymerization.</b> Over months and years, anthocyanins bond permanently to tannins, forming larger pigments that resist bleaching by sulfur dioxide and changes in acidity. A little oxygen speeds this. The color shifts from purple to ruby to brick, and the tannins, as they grow, feel softer. Eventually the largest fall out as sediment.</li></ul>
+<p>So color needs tannin to survive. A grape with plenty of pigment and little tannin loses its color quickly. A grape with modest pigment and plenty of tannin, such as Nebbiolo, starts pale and stays that way for decades.</p>
+
+<h3>Extraction tools</h3>
+<p>During fermentation, carbon dioxide lifts the skins to the surface, where they form a thick cap. Left alone the cap dries out, overheats, and gives up little. Managing it is the daily work of red winemaking.</p>
+<table><tr><th>Technique</th><th>What happens</th><th>Effect</th></tr>
+<tr><td>Cold soak</td><td>Crushed grapes are held cold for a few days before fermentation starts</td><td>Color and aroma without alcohol, so without seed tannin. Little gain after about three days</td></tr>
+<tr><td>Punch-down</td><td>The cap is pushed under the liquid by hand or piston</td><td>Gentle; favored for Pinot Noir</td></tr>
+<tr><td>Pump-over</td><td>Juice is drawn from the bottom and sprayed over the cap</td><td>The standard method; also adds air</td></tr>
+<tr><td>Délestage</td><td>The tank is drained completely, the cap collapses, and the juice is returned over it</td><td>Thorough extraction; lets seeds be removed</td></tr>
+<tr><td>Rotary fermenter</td><td>A horizontal tank turns the whole mass</td><td>Fast extraction with little labor</td></tr>
+<tr><td>Thermovinification</td><td>The grapes are heated to about 140 to 175°F before fermentation</td><td>Rapid color; used for volume wines</td></tr>
+<tr><td>Flash détente</td><td>The grapes are heated close to boiling, then put under vacuum, so the cells burst and the mass cools at once</td><td>Extracts color fast by heating then vacuum-cooling; also strips green aromas</td></tr>
+<tr><td>Whole-bunch inclusion</td><td>Some bunches go in uncrushed, with their stems</td><td>Spice, freshness, a partial carbonic effect; can lower color</td></tr>
+<tr><td>Extended maceration</td><td>The wine stays on its skins for weeks after fermentation ends</td><td>More tannin, mostly from seeds, which then polymerizes and softens</td></tr>
+<tr><td>Micro-oxygenation</td><td>A measured trickle of oxygen in tank</td><td>Fixes color and softens tannin</td></tr></table>
+<p>The table reads as a set of ways to choose which phenolics to take. Cold soak takes what dissolves in water. Extended maceration takes what needs alcohol and time. Heating takes color at once, without waiting for either. In one trial, thirty days of extended maceration raised tannin by about two-thirds over a wine pressed at ten days. A winemaker handling Pinot Noir, with thin skins and little tannin, treats it gently and briefly. One handling Nebbiolo or Cabernet in Barolo or Bordeaux may leave it for a month.</p>
+<p><b>Stems</b> are a special case. They add tannin and a spicy, herbal note, and they absorb some color and release potassium, which raises pH. Used when green they taste bitter and vegetal. Used when brown and ripe, as in much of Burgundy and the northern Rhône, they add perfume and structure, and by keeping some berries whole they bring a little of the bright fruit of carbonic maceration.</p>
+
 <h3>Malolactic conversion, in more detail</h3>
-<p>Mostly by <b>Oenococcus oeni</b>, after alcoholic fermentation (or co-inoculated). Requires warmth (around 18-22°C), low SO₂ and pH above about 3.2. Blocked by chilling, SO₂, sterile filtration or lysozyme. Raises pH, lowers TA, adds diacetyl, and makes the wine microbially more stable (malic acid is no longer available to spoilage bacteria later).</p>`,
+<p>The conversion is carried out mostly by <b><i>Oenococcus oeni</i></b>, after alcoholic fermentation or alongside it. It requires warmth, around 64 to 72°F, low sulfur dioxide and a pH above about 3.2. It is blocked by chilling, sulfur dioxide, sterile filtration or the enzyme lysozyme. It raises pH, lowers TA, adds diacetyl, and makes the wine microbially more stable, since malic acid is no longer available to spoilage bacteria later. The chapter on oak, malolactic and lees treats it fully.</p>
+
+<h3>Putting it to use</h3>
+<p>The value of this chapter is in the links between its parts. A few worked chains show how they connect.</p>
+<ul><li><b>A hot vintage.</b> More sugar means more alcohol. Less malic acid and more potassium mean higher pH. Higher pH means duller color, weaker sulfur dioxide and more risk of Brettanomyces. Riper fruit means fewer pyrazines and less rotundone. The wine is richer, softer, less peppery, less fresh and shorter-lived, and the winemaker reaches for tartaric acid.</li>
+<li><b>A reductive white.</b> Low nitrogen in the juice leads to hydrogen sulfide. Protective handling keeps oxygen out, so thiols survive and so does the sulfide. Under a tight screwcap the wine shows grapefruit and struck match together.</li>
+<li><b>A pale, long-lived red.</b> Nebbiolo has little pigment and a great deal of tannin. Long maceration extracts seed tannin, which bonds with the pigment there is. Years in large casks supply the oxygen that completes the bonding. The color is light and stable, and the tannin takes a decade to soften.</li></ul>
+<p>An examiner asking why a wine tastes as it does wants a chain like these: a condition, a chemical consequence, and what it does in the glass.</p>
+`,
 floor:`<p>Name the molecule only if the guest is a nerd; otherwise translate: "That black-pepper note is a compound called rotundone; it shows up in cool-climate Syrah." It's memorable and builds credibility.</p>`,
 analyst:`<p>Diploma D1 classics: explain the relationship between pH and SO₂ effectiveness; explain causes of stuck fermentation; explain how extraction techniques affect color and tannin; describe the role of yeast in thiol release.</p>`,
 terms:[["YAN","Yeast assimilable nitrogen."],["Molecular SO₂","The antimicrobial fraction of free SO₂, which falls as pH rises."],["Thiols","Sulfur aroma compounds (passion fruit, grapefruit) in Sauvignon Blanc."],["Rotundone","Black-pepper aroma compound."],["Co-pigmentation","Anthocyanins stacking with other phenolics to deepen color."],["Thermovinification","Heating must to extract color rapidly."],["Oenococcus oeni","Main bacterium of malolactic conversion."]],
@@ -85,37 +341,156 @@ quiz:[
 ]});
 
 L.push({id:"v3", unit:"F3", title:"Deep Dive: Élevage, Stabilization and Bottling", mins:20,
-summary:"Oak forests to toast levels, vessel choice, fining and filtration, stabilization, alcohol adjustment and the oxygen journey to the bottle.",
+summary:"From the end of fermentation to the bottle: vessels, racking, fining and why it works, the three kinds of stability, filtration, adjusting sugar, acid and alcohol, and the oxygen that enters at bottling. What each step solves and what it costs.",
 body:`
-<h3>Oak in detail</h3>
-<ul><li><b>Forests</b>: French oak from Allier, Tronçais, Nevers, Vosges and Limousin (Limousin is wide-grained, more used for Cognac); American white oak from Missouri, Minnesota, Oregon (Oregon's <i>Q. garryana</i> is a separate species); Hungarian and Slavonian oak.</li>
-<li><b>Seasoning</b>: staves air-dry outdoors for 2-3 years; rain and fungi leach harsh tannins.</li>
-<li><b>Toasting</b>: light toast keeps more oak tannin and coconut; medium and heavy toast build vanillin, clove (eugenol), smoke (guaiacol), caramel (furfural) and coffee notes. Some coopers toast barrel heads separately.</li>
-<li><b>Sizes</b>: barrique 225 L, pièce 228 L, feuillette (114 L in the Côte d'Or, 132 L in Chablis), puncheon about 500 L, tonneau about 900 L, foudre and botti from 1,000 L to tens of thousands. Smaller vessel = more oak contact and oxygen per liter.</li>
-<li><b>New vs used</b>: "100% new oak" means every barrel used is new; most fine wines use a percentage.</li></ul>
+<p>When fermentation ends, a wine is cloudy, gassy, unstable and unfinished. The French word for what comes next is <i>élevage</i>, the raising of the wine, the same word used for bringing up a child. It covers everything between the end of fermentation and the bottle: the vessel the wine rests in, the moving and clarifying, the treatments that keep it clear and sound once it has left the cellar, any correction of its strength or acidity, and finally bottling. The chapter on oak, malolactic conversion and lees covered the first of these in depth. This chapter follows the wine the rest of the way, and asks of each step the same two questions: what problem does it solve, and what does it cost the wine?</p>
+
+<h3>The vessel: oak in brief</h3>
+<p>The essentials from the earlier chapter, with the details an exam may ask for.</p>
+<ul><li><b>Forests.</b> French oak comes from Allier, Tronçais, Nevers, Vosges and Limousin. Limousin is wide-grained and more used for Cognac. American white oak comes from Missouri, Minnesota and other states. <b>Oregon's oak is a separate species, <i>Quercus garryana</i></b>, closer in character to European oak. Hungarian and Slavonian oak are the same species as French.</li>
+<li><b>Seasoning.</b> Staves air-dry outdoors for two to three years, and rain and fungi leach out harsh tannins.</li>
+<li><b>Toasting.</b> Light toast keeps more oak tannin and coconut. <b>Medium and heavy toast build vanillin, clove, smoke and caramel</b>, along with coffee notes. Some coopers toast the barrel heads separately.</li>
+<li><b>New versus used.</b> "100% new oak" means every barrel was new. Most fine wines use a percentage.</li></ul>
+<p>Barrel names are regional and worth knowing, because a producer's choice of size tells you the style.</p>
+<table><tr><th>Vessel</th><th>Volume</th><th>Home</th></tr>
+<tr><td>Feuillette</td><td>114 L in the Côte d'Or, 132 L in Chablis</td><td>Burgundy</td></tr>
+<tr><td>Barrique</td><td>225 L</td><td>Bordeaux, and the world standard</td></tr>
+<tr><td>Pièce</td><td>228 L</td><td>Burgundy</td></tr>
+<tr><td>Hogshead</td><td>About 300 L</td><td>Australia</td></tr>
+<tr><td>Puncheon</td><td>About 500 L</td><td>Widely used for whites and Rhône grapes</td></tr>
+<tr><td>Demi-muid</td><td>About 600 L</td><td>Rhône, Languedoc</td></tr>
+<tr><td>Tonneau</td><td>About 900 L</td><td>Bordeaux's old unit of trade: four barriques</td></tr>
+<tr><td>Fuder, Stück</td><td>1,000 L and 1,200 L</td><td>Mosel and Rhine</td></tr>
+<tr><td>Foudre, botte</td><td>From 1,000 L to tens of thousands</td><td>Alsace, Rhône, Italy</td></tr></table>
+<p>The rule is geometric. A smaller vessel has more wood surface for each liter, so it gives more flavor and more oxygen. Doubling the size roughly halves the effect. The recent move by many producers from barriques to puncheons and foudres is a deliberate step toward less oak and slower aging.</p>
+
 <h3>Other vessels</h3>
-<p>Stainless steel (inert, temperature controlled), concrete tanks and <b>eggs</b> (thermally stable, slight oxygen exchange; the egg shape encourages convection that keeps lees suspended), <b>amphora</b> and <b>qvevri</b> (clay; porous unless lined), glass demijohns, and large old oak for oxygen without flavor.</p>
+<ul><li><b>Stainless steel</b> is inert, easy to clean and easy to cool. It adds nothing and admits nothing.</li>
+<li><b>Concrete</b> tanks and eggs hold temperature steadily and allow a very slight exchange of oxygen. The egg shape is said to set up a slow circulation that keeps lees suspended.</li>
+<li><b>Amphora and qvevri</b> are clay, porous unless lined.</li>
+<li><b>Glass demijohns</b> are used for small lots and for some oxidative styles.</li>
+<li><b>Large old oak</b> gives oxygen without flavor.</li></ul>
+
 <h3>Lees and racking</h3>
-<p><b>Gross lees</b> (heavy sediment) are removed early to avoid reduction; <b>fine lees</b> may be kept for texture (mannoproteins) and antioxidant protection. <b>Racking</b> moves wine off its lees, aerating it gently; <b>topping up</b> prevents oxidation from the headspace as wine evaporates (except deliberate oxidative styles like Vin Jaune).</p>
-<h3>Clarification and fining</h3>
-<table class="t"><tr><th>Agent</th><th>Removes</th><th>Notes</th></tr>
+<p><b>Gross lees</b>, the heavy sediment of the first days, are removed early, because left in bulk they cause reduction. <b>Fine lees</b> may be kept for texture and antioxidant protection.</p>
+<p><b>Racking</b> is moving the wine off its sediment into a clean vessel. It is the oldest method of clarifying wine and still the gentlest. Gravity does the work: particles settle, and clear wine is drawn off from above. Each racking also exposes the wine to a little air, which can be wanted or not.</p>
+<ul><li>A young red that smells reduced is racked with deliberate splashing, to blow off sulfur smells and feed the reactions that fix color.</li>
+<li>A delicate white is racked under a blanket of inert gas, or not racked at all.</li>
+<li>Traditional red Bordeaux was racked every three months through its first year, from barrel to barrel. Many estates now rack less, keeping the wine on fine lees longer.</li></ul>
+<p><b>Topping up</b> replaces what evaporates, preventing oxidation from the air space, except in deliberately oxidative styles such as Vin Jaune.</p>
+<p>Given enough time, most wines will fall bright on their own. A red wine kept eighteen months in barrel and racked four or five times may need nothing further. Time is expensive, though, and a wine meant for sale within months of harvest has to be clarified by faster means.</p>
+
+<h3>Blending</h3>
+<p>Almost every wine is a blend of something, and the blend is put together during élevage. Even a wine from one grape and one vineyard is assembled from many lots: different pickings, different tanks, new barrels and old.</p>
+<p>The components a winemaker has to work with are these.</p>
+<ul><li><b>Grape varieties,</b> fermented apart because they ripen at different times. Bordeaux is the model: Merlot for flesh, Cabernet Sauvignon for structure, picked up to three weeks apart.</li>
+<li><b>Vineyard blocks</b> of different soil, age and exposure.</li>
+<li><b>Free-run and press wine.</b> When a red is drained from its skins, most runs off freely. The remaining skins are pressed, and the press wine is darker, more tannic and coarser. It is kept apart and added back in small proportions, like seasoning, or left out.</li>
+<li><b>Vessels:</b> new barrels, used barrels, tank.</li>
+<li><b>Treatments:</b> lots that did and did not go through malolactic conversion, or were and were not stirred.</li></ul>
+<p>Blending is done by tasting. The team sits with samples of every lot and builds trial blends in measuring cylinders, usually in the winter or spring after harvest. The aim is a wine better than any of its parts, and the oddity that every blender learns is that this happens: a lot that is thin alone may give a rich one the lift it lacked.</p>
+<p>Selection is the other half. A leading Bordeaux estate may put only half its crop into its main wine. The rest goes into a second wine, a third, or is sold off anonymously in bulk. The practice spread from the 1980s and is one of the main reasons the top wines improved. It is also why "second wines" exist, and why they are a guide to how strict an estate is.</p>
+<p>The timing of the blend is a choice. Blended early, the components age together and knit. Blended late, each lot can be judged at full maturity, at the cost of more work.</p>
+
+<h3>How long</h3>
+<p>The length of élevage is one of the plainest signals of what a producer thinks a wine is.</p>
+<table><tr><th>Wine</th><th>Typical time before bottling</th><th>Where</th></tr>
+<tr><td>Beaujolais Nouveau</td><td>A few weeks</td><td>Tank</td></tr>
+<tr><td>Fresh whites and rosés</td><td>3 to 6 months</td><td>Tank</td></tr>
+<tr><td>Village white Burgundy</td><td>10 to 14 months</td><td>Barrel, on lees</td></tr>
+<tr><td>Red Burgundy</td><td>12 to 18 months</td><td>Barrel</td></tr>
+<tr><td>Classed-growth Bordeaux, Napa Cabernet</td><td>18 to 24 months</td><td>Barrel</td></tr>
+<tr><td>Barolo</td><td>At least 38 months, 18 of them in wood, by law</td><td>Large cask, then bottle</td></tr>
+<tr><td>Rioja Gran Reserva</td><td>At least five years, two of them in barrel, by law</td><td>Barrel, then bottle</td></tr>
+<tr><td>Vintage Champagne</td><td>Three years and usually many more</td><td>Bottle, on lees</td></tr></table>
+<p>Long aging in the cellar does part of the work this chapter describes without any intervention. Tannins soften, color stabilizes, crystals and sediment fall, and the wine reaches the bottle already stable. The regions that set minimum aging in law, mostly in Italy and Spain, are requiring the producer to bear the cost of that time before the wine is sold.</p>
+
+<h3>Fining</h3>
+<p>Fining means adding a substance that binds to something unwanted in the wine and settles out with it. The fining agent does not stay in the wine. The principle is electrical. Particles suspended in wine carry a charge, and like charges repel, which keeps them from clumping and sinking. A fining agent of opposite charge neutralizes them, they stick together, and the clumps fall.</p>
+<table><tr><th>Agent</th><th>Removes</th><th>Notes</th></tr>
 <tr><td>Bentonite (clay)</td><td>Proteins (haze in whites)</td><td>Vegan</td></tr>
 <tr><td>Egg white (albumin)</td><td>Harsh tannins in reds</td><td>Classic Bordeaux; not vegan</td></tr>
 <tr><td>Gelatin, isinglass (fish), casein (milk)</td><td>Tannins, browning compounds</td><td>Animal-derived; allergen labeling may apply</td></tr>
 <tr><td>PVPP</td><td>Bitter phenolics, browning</td><td>Synthetic, vegan</td></tr>
 <tr><td>Activated charcoal</td><td>Color, off-odors</td><td>Blunt instrument</td></tr>
 <tr><td>Pea protein, chitosan</td><td>Tannins, microbes (chitosan)</td><td>Vegan alternatives</td></tr></table>
+<p>The agents fall into two groups by what they attract.</p>
+<p><b>Protein agents remove tannin.</b> Tannins bind to proteins: that is what they do to saliva in the mouth. Add a protein to a harsh red wine and it takes the most reactive, most astringent tannins down with it. Egg white is the gentlest and the traditional choice for fine red wine, at three to six whites to a barrel. The yolks of Bordeaux went into the region's custard pastries. Gelatin is stronger and can strip a wine if overdone. Isinglass, from the swim bladders of fish, is the most delicate, used to give white wines a final brilliance. Casein, from milk, removes browned and bitter compounds from whites.</p>
+<p><b>Bentonite removes protein.</b> It is a clay that swells in water into sheets with a negative charge and a vast surface area. Proteins in wine are positively charged, stick to it and sink. It is the standard treatment for white wines, for the reason given in the next section.</p>
+<p>The other agents are specialists. PVPP, a synthetic powder, takes out the small bitter phenolics that cause browning. Activated carbon removes color and smells and takes good things with them. A trace of copper removes hydrogen sulfide.</p>
+<p>Fining has a cost. No agent is perfectly selective, and each removes some flavor, texture or color along with its target. So winemakers run trials on small samples first and use the lowest dose that works. The risk of using too much has a name, over-fining. The alternative, where time allows, is to wait.</p>
+
+<h3>Stability: three kinds</h3>
+<p>A wine is called stable when it will stay clear and unchanged in the bottle through whatever a normal life brings: a cold winter, a hot truck, a year on a shelf. There are three threats, and each has its own treatment.</p>
+
+<h3>Protein stability</h3>
+<p>Grapes make certain proteins to defend themselves against fungi. These survive fermentation, dissolved and invisible. If the bottle later gets warm, they unfold, clump together and form a haze or a wispy deposit. The wine tastes the same, but customers return it.</p>
+<p>The problem is one of white and rosé wine. In red wine, tannins bind and remove these proteins during fermentation. Some varieties carry far more than others: Sauvignon Blanc, Gewürztraminer and Muscat are notorious. The treatment is <b>bentonite</b>, and the dose is found by a heat test: samples treated with increasing amounts are held at 176°F (80°C) for two hours, cooled, and checked for haze. The lowest dose that stays clear is used.</p>
+<p>Bentonite is cheap and its cost is hidden. The clay settles as a loose, bulky sediment that traps wine, and several percent of the volume can be lost. It also removes a little aroma. Researchers have spent decades looking for a replacement, including enzymes that digest the proteins, without finding one as dependable.</p>
+
+<h3>Tartrate stability</h3>
+<p>Tartaric acid and potassium, both natural to grapes, combine to form potassium bitartrate: cream of tartar. Wine holds more of it dissolved than is stable, and it is less soluble in alcohol than in juice and less soluble cold than warm. So after fermentation, and especially if the wine is chilled, it crystallizes. In a tank this is harmless. In a bottle it leaves glassy crystals on the cork or at the bottom, which customers mistake for sugar or broken glass. They are harmless, and are sometimes politely called wine diamonds. They are also the commonest reason for complaints about deposits.</p>
+<p><b>Cold stabilization prevents tartrate crystals</b> in the bottle by forcing them to form in the tank. There are two approaches: take the excess out, or stop it from crystallizing.</p>
+<table><tr><th>Method</th><th>How it works</th><th>Limits</th></tr>
+<tr><td>Cold stabilization</td><td>The wine is chilled to just above its freezing point, around 25°F, and held for days to weeks; crystals form and are filtered off</td><td>Slow and costly in energy</td></tr>
+<tr><td>Contact seeding</td><td>Powdered cream of tartar is stirred in to give crystals something to grow on; done in hours</td><td>Needs cooling and filtration</td></tr>
+<tr><td>Electrodialysis</td><td>Membranes and an electric field pull potassium and tartrate out of the wine</td><td>Expensive equipment; fast and precise</td></tr>
+<tr><td>Metatartaric acid</td><td>An additive that blocks crystal growth</td><td>Breaks down within months, faster if warm; for wines drunk young</td></tr>
+<tr><td>CMC (carboxymethylcellulose)</td><td>A cellulose gum that coats crystal nuclei</td><td>For whites; reacts with color in reds</td></tr>
+<tr><td>Mannoproteins</td><td>Yeast-derived; the same compounds that lees release</td><td>Mild effect</td></tr></table>
+<p>Two observations connect this to earlier chapters. Wine aged long on its lees is naturally more stable, because the mannoproteins it gains interfere with crystal growth. And red wines are harder to stabilize by cold but less in need of it, because their tannins and pigments hold tartrate in suspension, and what does fall out over years of aging is accepted as sediment.</p>
+
+<h3>Microbial stability</h3>
+<p>A wine is at risk from microbes if it contains something for them to eat. Sugar feeds yeast. Malic acid feeds bacteria. A dry wine that has completed its malolactic conversion offers little, and with adequate sulfur dioxide and a low pH is stable on its own. Sweet wines, and wines bottled with malic acid, are not, and need help.</p>
+<ul><li><b>Sulfur dioxide</b>, at a level matched to the pH.</li>
+<li><b>Sterile filtration</b>, which removes the organisms physically.</li>
+<li><b>Sorbic acid</b>, used in some sweet wines, prevents yeast from multiplying. It does nothing against bacteria, and <b>lactic bacteria convert it to a compound that smells of crushed geranium leaves</b>. It is therefore not used in wines that have been through malolactic conversion or might go through it, and it is always paired with sulfur dioxide.</li>
+<li>Other aids include a sterilizing agent added at bottling that breaks down within hours, and for inexpensive wines a brief heating.</li></ul>
+
 <h3>Filtration</h3>
-<p><b>Depth filtration</b> (pads, diatomaceous earth) removes larger particles; <b>membrane / sterile filtration</b> (about 0.45 μm) removes yeast and bacteria; <b>crossflow filtration</b> runs wine parallel to a membrane, reducing clogging and labor. "Unfined and unfiltered" is a style claim with real tradeoffs: more texture and perhaps flavor, more risk of instability.</p>
-<h3>Stabilization</h3>
-<ul><li><b>Tartrate stability</b>: cold stabilization (chilling near freezing for days), contact seeding with cream of tartar, electrodialysis, or additives such as metatartaric acid (short-lived), CMC (carboxymethylcellulose, for whites), and mannoproteins.</li>
-<li><b>Protein stability</b>: bentonite fining to prevent haze when bottles warm.</li>
-<li><b>Microbial stability</b>: SO₂, sterile filtration, low pH, dryness; sorbic acid in some sweet wines (not with MLC bacteria, or geranium off-odors form).</li>
-<li><b>Color stability</b> in reds via polymerization, oxygen management and sometimes gum arabic.</li></ul>
+<p>Filtration removes particles by size. The types differ in how fine they go.</p>
+<table><tr><th>Type</th><th>How it works</th><th>Removes</th></tr>
+<tr><td>Depth filtration</td><td>The wine passes through a thick layer of fibrous pads or a powder of fossil shells; particles lodge inside</td><td>Larger particles; coarse to fine grades</td></tr>
+<tr><td>Membrane, or sterile, filtration</td><td>A thin sheet with holes of an exact size, about <b>0.45 μm</b>, acts as a sieve</td><td>Yeast and bacteria. Used last, just before the bottle</td></tr>
+<tr><td>Crossflow filtration</td><td>The wine flows along the membrane instead of straight through it, sweeping the surface clean</td><td>Clarifies in one pass, with less labor and waste</td></tr></table>
+<p>A micrometer is a thousandth of a millimeter. Yeast cells are a few micrometers across and bacteria about one, so a membrane of 0.45 lets neither through. The molecules of flavor, color and tannin are thousands of times smaller and pass freely, which is why sterile filtration does not in principle remove flavor.</p>
+<p>Whether it does in practice is one of the standing arguments of wine. Critics say that filtration strips body and that a filtered wine is duller. The likely truth is narrower: large colloids that contribute to texture can be held back by a tight filter, pumping a wine through a filter can expose it to oxygen, and a wine tasted soon after filtration is temporarily subdued. "Unfined and unfiltered" is a style claim with real tradeoffs: more texture and perhaps flavor, and more risk of instability. It is a sound choice only for a wine that is dry, has finished its malolactic conversion, has had time to settle and has been made cleanly. Applied to a wine with sugar or malic acid left in it, it is a gamble.</p>
+
 <h3>Adjusting alcohol and structure</h3>
-<p>Where permitted: acidification (tartaric acid), deacidification (potassium bicarbonate, calcium carbonate), chaptalization, concentration (reverse osmosis, vacuum evaporation, cryoextraction), and alcohol reduction by <b>spinning cone column</b> or <b>reverse osmosis</b>. The same technologies make the growing category of no- and low-alcohol wines.</p>
+<p>Where the law permits, a winemaker can correct what the season gave.</p>
+<p><b>Chaptalization</b> is adding sugar before or during fermentation to raise the final alcohol. It is named for Jean-Antoine Chaptal, the French chemist and minister who promoted it around 1800. It does not sweeten the wine, since the sugar is fermented. European law divides the continent into zones: the coolest, including Germany and England, may enrich the most, and the warmest the least. Countries with warm climates, including Italy, Spain and most of the United States' production in California, forbid sugar, though some allow concentrated grape juice. As summers warm, the practice is fading where it was once routine.</p>
+<p><b>Acidification</b>, usually with tartaric acid, is the mirror image, normal in warm regions and restricted in cool ones. <b>Deacidification</b>, with potassium bicarbonate or calcium carbonate, takes acid out of wines from cold years.</p>
+<p><b>Concentration</b> removes water from juice to enrich a diluted crop. <b>Reverse osmosis</b> presses the juice against a membrane so fine that only water and the smallest molecules pass. Vacuum evaporation boils water off at low temperature. Cryoextraction freezes it out. All concentrate faults along with virtues.</p>
+<p><b>Alcohol reduction</b> has become common as vintages have grown hotter and riper.</p>
+<ul><li>In <b>reverse osmosis</b>, a mixture of water and alcohol is pressed out of the wine through the membrane, the alcohol is distilled off, and the water is returned.</li>
+<li>The <b>spinning cone column</b> is a tall vacuum still in which the wine flows in a thin film over a stack of spinning cones. In a first pass at low temperature the most volatile aromas are captured. In a second the alcohol is removed. The aromas are then returned.</li></ul>
+<p>Many wines sold at 13.5 or 14% have had a degree or so removed in this way, to restore balance. The same technologies make the growing category of no- and low-alcohol wines. European law since 2021 recognizes "de-alcoholized" wine at no more than 0.5% and "partially de-alcoholized" wine above that. The difficulty is that alcohol is not an inert passenger. It carries aroma, gives body and a sense of sweetness, and balances acidity. Take it all out and much of the aroma goes with it, even with recovery, and the wine tastes thin and sharp. Most producers add sugar or grape juice to compensate. The technology is improving quickly, and this is the fastest-growing corner of the market.</p>
+
 <h3>Bottling and beyond</h3>
-<p>Oxygen picked up at bottling (dissolved and headspace) can matter more than the closure itself; winemakers sparge with inert gas and measure total package oxygen. Closures differ in <b>oxygen transmission rate (OTR)</b>: screwcap liners can be chosen from very tight (tin) to more permeable (Saranex). <b>Bottle shock</b> (temporary muteness after bottling) usually fades in weeks to months.</p>`,
+<p>Bottling is the most dangerous moment in a wine's life, and the danger is oxygen. A wine may have been protected for a year, and can then absorb more oxygen in the minute it takes to bottle than in all that time.</p>
+<p>Oxygen arrives in two ways: dissolved in the wine during pumping and filling, and trapped in the air space under the closure. Their sum is the <b>total package oxygen</b>. Audits by the Australian Wine Research Institute found that typically more than 60% of it is in the headspace.</p>
+<table><tr><th>Total package oxygen, mg/L</th><th>Rating</th></tr>
+<tr><td>Under 1.5</td><td>Best practice</td></tr>
+<tr><td>1.5 to 2.5</td><td>Acceptable</td></tr>
+<tr><td>Over 3</td><td>Needs improvement</td></tr>
+<tr><td>Over 4</td><td>Poor</td></tr></table>
+<p>The arithmetic shows why this matters. Each milligram of oxygen uses up about four milligrams of sulfur dioxide. A wine bottled with 30 mg/L of free sulfur dioxide and 4 mg/L of oxygen loses half its protection within weeks, before the closure has let in anything at all. So oxygen picked up at bottling can matter more than the closure itself. Careful bottlers flush the wine with inert gas beforehand, flush the empty bottles and the headspace, and measure. Wine is usually bottled at around 59°F: cold wine dissolves more oxygen, and warm wine reacts with it faster.</p>
+<p>After that, the closure governs. Closures differ in their oxygen transmission rate: screwcap liners can be chosen from very tight, with a layer of tin, to more permeable.</p>
+<p><b>Bottle shock</b> is the temporary muteness of a wine just after bottling, probably a result of the sudden dose of oxygen and sulfur dioxide. It fades in weeks to months, which is one reason good producers hold bottled wine before release.</p>
+
+<h3>Where wine is bottled</h3>
+<p>A large and growing share of the world's wine does not travel in bottles. It is shipped in bulk, in a single plastic bladder of about 24,000 liters that fills a shipping container, and bottled in the country where it will be sold. Roughly a third of all wine traded between countries moves this way, and for Australia, Chile, South Africa and Spain the share is higher.</p>
+<p>The reasons are cost and carbon. A container holds more than twice as much wine in bulk as in glass, and the heavy bottles are made near the customer instead of being shipped around the world. For inexpensive wine the saving is decisive.</p>
+<p>The technical demands are the ones in this chapter, made stricter. Wine going into a bladder must be clean, stable and well protected, because it will spend weeks in a warm container, in plastic that admits a little oxygen. It is shipped with sulfur dioxide on the high side and given its final adjustment and filtration at the bottling plant.</p>
+<p>For fine wine the opposite holds. Bottling at the estate, <i>mis en bouteille au château</i> or <i>au domaine</i>, became the rule in Bordeaux and Burgundy during the twentieth century, as a guarantee that the wine in the bottle is the wine the producer made. Before that, most wine left in cask and was bottled, and often blended and stretched, by merchants. The phrase on the label is a relic of a fight against fraud.</p>
+
+<h3>The cost of every step</h3>
+<p>Go back to the two questions. Each operation in this chapter solves a commercial problem: haze, crystals, refermentation, harshness, imbalance. Each also takes something, whether a little aroma, a little texture, a little wine, or exposure to air.</p>
+<p>That gives two coherent ways to finish a wine, and most producers sit somewhere between them.</p>
+<ul><li><b>Intervene so the wine is safe.</b> Fine it, cold-stabilize it, filter it sterile, bottle it within months. The wine will be bright and stable anywhere in the world, and will not surprise anyone. This is right for wine made in volume, shipped far and drunk young.</li>
+<li><b>Give it time.</b> Let it settle through a year or two of racking, let cold winters drop its tartrates, bottle it with little or no fining or filtration. The wine keeps more texture and may throw a deposit. This is possible only for wines that are dry, sound and worth the cost of waiting.</li></ul>
+<p>Neither is more honest than the other. The skill, in the cellar and in describing a wine at the table, is knowing which suits the wine in front of you and what was traded to get there.</p>
+`,
 floor:`<p>Guests ask about vegan wine and "no sulfites." Know that many wines are fined with animal products (not labeled in the US), that bentonite and pea protein are vegan options, and that all wine contains some sulfites from fermentation.</p>`,
 analyst:`<p>D1 questions: compare fining agents; explain cold stabilization and alternatives; discuss the tradeoffs of unfined/unfiltered wines; explain how vessel size and age affect oak influence and oxidation.</p>`,
 terms:[["Feuillette","Small Burgundian barrel: 114 L in the Côte d'Or, 132 L in Chablis."],["Gross lees / fine lees","Heavy early sediment versus fine yeast lees kept for texture."],["Crossflow filtration","Filtration with wine flowing parallel to the membrane."],["CMC","Carboxymethylcellulose, a tartrate stabilizer for whites."],["Spinning cone column","Technology for separating aromas and removing alcohol."],["OTR","Oxygen transmission rate of a closure."]],
