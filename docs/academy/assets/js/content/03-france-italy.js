@@ -531,8 +531,14 @@ quiz:[
 ]});
 
 L.push({id:"r5", unit:"R1", title:"The Rhône and Southern France", mins:18,
-summary:"Northern Syrah, Southern Grenache, and the Mediterranean south.",
+summary:"Why the Rhône is two regions, why the north is steep and the south blends, how Provence turned to rosé, and how the Languedoc moved from the plain to the hills.",
 body:`
+<p>South of Lyon the vine enters a different France. The oceanic and continental climates of the north give way to the Mediterranean, the single-variety wines of Burgundy and the Loire give way to blends, and the question a grower asks changes from how to get the grapes ripe to how to keep them from getting too ripe. This chapter follows the Rhône from its narrow northern valley to the sea, then turns east to Provence and west to the Languedoc and Roussillon. It explains why each of these regions makes the wine it does. The chapters that follow take the Rhône, the south and the lesser regions in detail.</p>
+
+<h3>One river, two regions</h3>
+<p>The Rhône valley is treated as one region in the wine trade, and it is really two that share a river. From Vienne to Valence the Rhône runs for about seventy kilometers through a trench between the eastern edge of the Massif Central and the foothills of the Alps. The valley is narrow, the west bank is a wall of granite, and the climate is continental, with cold winters and warm summers. Vines grow only on the steep slopes that face the sun. South of Valence there is a gap of some fifty kilometers with almost no vines. Then, below Montélimar, the valley opens into a wide basin of low hills and river terraces under a Mediterranean sky: hot, dry summers, mild winters, and olive trees.</p>
+<p>The proportions are lopsided. The valley as a whole had about 60,000 hectares under appellation in 2025, down from 66,600 five years earlier, and made about two million hectoliters. The north accounts for about a twentieth of that. Nearly three quarters of the wine is red, but red has been losing ground every year while white is the one color whose sales are growing. The single appellation Côtes du Rhône, which may be used in both halves and is in practice almost all southern, covers nearly 27,000 hectares.</p>
+
 <h3>Northern Rhône</h3>
 <p>A narrow valley of steep granite terraces with a continental climate and the cold, drying <b>mistral</b> wind. One red grape: <b>Syrah</b>. Whites: Viognier, Marsanne, Roussanne.</p>
 <ul><li><b>Côte-Rôtie</b> ("roasted slope"): Syrah with up to 20% Viognier co-fermented for perfume and color stability. Côte Brune and Côte Blonde.</li>
@@ -542,6 +548,14 @@ body:`
 <li><b>Crozes-Hermitage</b>: the large surrounding appellation; value Syrah.</li>
 <li><b>Cornas</b>: 100% Syrah, sturdy and dark.</li>
 <li><b>Saint-Péray</b>: whites (still and sparkling) from Marsanne and Roussanne.</li></ul>
+
+
+<h3>Why the north is steep, and what that cost</h3>
+<p>At this latitude Syrah ripens only with help. The help is the slope. The granite hillsides of the west bank, and the one great hill of the east bank at Hermitage, tilt the vines toward the south and southeast so that they receive more sun, and the rock, thinly covered with coarse sandy soil, drains instantly and warms quickly. Where the river bends and exposes a slope fully to the south, as at Ampuis and at Tain, there is a famous vineyard. The price is labor. Slopes of thirty and forty degrees must be terraced with dry stone walls, each vine is tied to its own stake against the wind, and almost nothing can be done by machine.</p>
+<p>For most of the twentieth century the work was not worth doing. After phylloxera and two wars, growers abandoned the terraces for the orchards and factories of the valley floor. Côte-Rôtie, which had some 300 hectares before phylloxera, was down to fewer than 40 in the early 1950s. Condrieu fell to about eight hectares in 1965, and its grape, Viognier, grown almost nowhere else, came close to disappearing. The recovery was the work of a few people. Georges Vernay kept Condrieu alive and persuaded others to replant. Étienne Guigal, who founded his firm in 1946, and his son Marcel bottled single vineyards of Côte-Rôtie from 1966 onward and aged them for years in new oak. American critics in the 1980s praised these wines extravagantly, prices rose, and replanting became worthwhile. Côte-Rôtie now has about 330 hectares and Condrieu about 200, and Viognier is grown around the world.</p>
+<p>The wine that results is not what a drinker who knows the grape from Australia would expect. Northern Rhône Syrah is a cool-climate red: moderate in alcohol, firm in acidity, with a scent of black pepper that comes from a single aroma compound, rotundone, which the grape accumulates in cool seasons and loses in hot ones. Olive, smoked meat and violet are the other markers. The custom of fermenting Syrah with a little Viognier at Côte-Rôtie has a chemical basis. Colorless compounds from the white grape's skins bind with the red pigments of the Syrah and hold them in solution, so that a wine with five percent of white grapes in it is darker and keeps its color longer than one without. The Viognier also adds its apricot scent. The practice works only when the grapes ferment together.</p>
+<p><strong>Hermitage</strong> has the longest record. The hill takes its name from a hermit said to have settled there in the thirteenth century, and by the eighteenth its wine was among the most expensive in France. Bordeaux merchants of the nineteenth century bought it to add to their own in weak years, and a claret so treated was described, with approval, as <em>hermitagé</em>. Around it lie the larger and easier appellations that supply most of the north's wine: Crozes-Hermitage on the flatter land to the east, and Saint-Joseph, a strip sixty kilometers long on the west bank that was greatly enlarged in the 1970s and varies accordingly.</p>
+
 <h3>Southern Rhône</h3>
 <p>Wide, flat, Mediterranean, warmer. <b>Grenache</b> leads, blended with Syrah, Mourvèdre, Cinsault and others. Bush vines and the mistral.</p>
 <ul><li><b>Châteauneuf-du-Pape</b>: named for the 14th-century Avignon papacy. 13 permitted varieties (18 counting color variants). Famous for <b>galets roulés</b>, large rounded stones that store heat. In 1923 Baron Le Roy's rules here became the model for the AOC system. Château Rayas (pure old-vine Grenache), Beaucastel (Mourvèdre-rich, all 13 grapes).</li>
@@ -549,12 +563,38 @@ body:`
 <li><b>Lirac</b> and <b>Tavel</b>: Tavel is rosé only, and deep-colored.</li>
 <li><b>Beaumes-de-Venise</b>: red cru, plus Muscat de Beaumes-de-Venise VDN.</li>
 <li><b>Côtes du Rhône</b> and <b>Côtes du Rhône Villages</b> (some villages named on label).</li></ul>
+
+
+<h3>Why the south blends</h3>
+<p>The southern Rhône is the country of <strong>Grenache</strong>, and the character of that grape explains the region's habit of blending. Grenache is superbly adapted to heat and drought. Grown as a low, free-standing bush, it resists the wind and shades its own fruit, and it ripens to very high sugar. Its weaknesses are the other side of the same coin. The wine is high in alcohol, low in acid, pale in color for its weight, light in tannin, and quick to oxidize. Each of the partners supplies something it lacks. Syrah brings color, acidity and a firmer structure, and is planted on the cooler sites. Mourvèdre, which ripens very late and needs the hottest ones, brings tannin, darkness and resistance to oxidation. Cinsault lightens. The south blends because no single variety makes a complete wine there.</p>
+<p>The soils are river deposits. The famous rounded stones of Châteauneuf-du-Pape, the <em>galets roulés</em>, are quartzite cobbles carried down from the Alps by the ancient Rhône and left on high terraces when the river cut down to its present level. They are usually said to store the day's heat and return it at night. What matters as much is what lies under them: a deep bed of red clay that holds water through the rainless summer, while the stones on top stop it from evaporating and from being blown away. Sand, which is found in the north and east of the appellation, gives paler, finer wine, and limestone gives firmer wine with more acidity.</p>
+<p><strong>Châteauneuf-du-Pape</strong> matters to every student for a second reason: French wine law began there. In the 1920s the growers, led by Baron Pierre Le Roy of Château Fortia, a lawyer and former fighter pilot, were being ruined by merchants who sold cheap wine from elsewhere under the village's name. In 1923 they drew up a set of conditions and asked a court to enforce them. The wine must come from a delimited area of poor soil suited to vines and little else. It must be made from named varieties. It must reach at least 12.5 percent alcohol without added sugar, still the highest minimum for a dry wine in France. And a fixed share of each harvest must be sorted out and discarded. Origin, variety, ripeness and yield: these four ideas became the basis of the national law of 1935, Le Roy helped to found the body that administers it, and Châteauneuf was among the first appellations recognized in May 1936. The appellation today has about 3,200 hectares and makes about twelve and a half million bottles, 93 percent of them red.</p>
+<p>The rest of the south is organized as a ladder of four steps, each with lower yields than the one below. <strong>Côtes du Rhône</strong> is the base, from 172 communes. <strong>Côtes du Rhône Villages</strong>, about 8,000 hectares, comes from the better communes and is nearly all red. Twenty-one villages may add their own names. At the top are the crus, which use their own names alone. There are eighteen in the valley, north and south together, and the list grows by promotion from the step below: Gigondas in 1971, Vacqueyras in 1990, Beaumes-de-Venise in 2005, Vinsobres in 2006, Rasteau in 2010, Cairanne in 2016 and Laudun, on the west bank, in November 2024.</p>
+
 <h3>Provence</h3>
 <p>The world's benchmark pale, dry <b>rosé</b> (Grenache, Cinsault, Syrah, Mourvèdre; Rolle/Vermentino for whites). <b>Bandol</b>: Mourvèdre-based reds (at least 50%) with long aging, and serious rosé. Domaine Tempier is the classic. Also <b>Cassis</b> (whites) and Bellet.</p>
+
+
+<h3>How Provence turned pink</h3>
+<p>Provence is the oldest vineyard in France, planted by the Greeks who founded Marseille, and until the 1980s it made mostly red wine of no great reputation. It has since become the most specialized wine region in the country. About nine bottles in ten are rosé, and have been for more than a decade. Its roughly 27,000 hectares produce two fifths of all French appellation rosé and about a twentieth of the world's.</p>
+<p>The style was a commercial decision carried out with great technical discipline. Pale rosé is made like white wine from black grapes. The fruit, mainly Grenache and Cinsault, is picked at night or at dawn when it is cold, and either pressed at once or left on its skins for a few hours at low temperature, just long enough to take a tint of color and no tannin. The juice is settled until clear and fermented cool, at 14 to 18 degrees, in steel, and protected from air at every step. The result is very pale, dry, delicately scented and low in tannin, and it depends on refrigeration and inert gas, which is why it could not have been made in this form before the 1970s. It sells on color and on an image of the Riviera, at prices far above those of rosé from anywhere else, and that success has drawn large investors, including Champagne houses, into the region.</p>
+<p>The exceptions are worth knowing because they are the wines with a claim to age. <strong>Bandol</strong>, on terraces facing the sea west of Toulon, is the one French appellation built on Mourvèdre, which must be at least half of the red and needs the heat reflected from the water to ripen. The red must spend eighteen months in wood. <strong>Cassis</strong> makes a full white for the fish cookery of Marseille. Within the large Côtes de Provence appellation, five named districts have been recognized since 2005, Sainte-Victoire, Fréjus, La Londe, Pierrefeu and Notre-Dame des Anges, with lower yields, as the region begins to distinguish its better land.</p>
+
 <h3>Languedoc-Roussillon</h3>
 <p>France's largest vineyard area, once known for bulk wine, now a source of value and ambition. Corbières, Minervois (La Livinière), Faugères, Saint-Chinian, Pic Saint-Loup, Terrasses du Larzac; <b>Picpoul de Pinet</b> (tangy white); <b>Limoux</b> (sparkling). Roussillon: <b>Banyuls</b> and <b>Maury</b> (Grenache VDNs, oxidative or fruity styles), <b>Rivesaltes</b>, <b>Muscat de Rivesaltes</b>, and Collioure. IGP <b>Pays d'Oc</b> is France's big varietal-label category.</p>
+
+
+<h3>From the wine lake to the hills</h3>
+<p>The Languedoc is the largest vineyard in France and has the most dramatic history of any. Until the nineteenth century it was a region of mixed farming with vines on the hillsides. The railway to Paris and the industrial north changed that. Workers wanted cheap wine, the coastal plain could grow grapes at enormous yields, and by 1900 the region was producing more than twenty million hectoliters a year from vines cropped at over a hundred hectoliters a hectare. Phylloxera had been a blessing for a time, because it reached other regions first and left the market to the Languedoc. Replanting, wine from Algeria, and widespread fraud, including wine made from sugar and water, then produced a glut. Prices fell below the cost of production. In the spring of 1907 hundreds of thousands of people marched in the towns of the Midi, troops fired on a crowd at Narbonne, and a regiment recruited locally mutinied in sympathy. The laws against fraud that followed are the root of French wine regulation, and the village cooperatives that were founded in the same years became the backbone of the region.</p>
+<p>The system lasted until the 1970s, when the French stopped drinking ordinary wine every day. Since then the story has been one of contraction and of movement uphill. Hundreds of thousands of hectares have been pulled up, most of them on the plain, with subsidies from the European Union, and the vineyard has been reduced by roughly half to a little over 220,000 hectares. What remains divides in two. On the plain and the lower slopes, growers replanted with Cabernet, Merlot, Chardonnay and Syrah and sell wine labeled by grape under the regional name <strong>Pays d'Oc</strong>, which accounts for about half of the whole. In the hills, on the schist, limestone and gravel of the old sites, growers kept or replanted Grenache, Syrah, Mourvèdre and old Carignan and built appellations: Corbières and Minervois, Faugères and Saint-Chinian, and more recently Terrasses du Larzac in 2014 and Pic Saint-Loup in 2017. The best of these lie high and inland, where cold air from the Massif Central cools the nights, and they are among the best values in France.</p>
+<p><strong>Roussillon</strong>, against the Spanish border, is Catalan in culture and makes two kinds of wine. The dry reds come from old vines on schist in the valley of the Agly. The others are the <em>vins doux naturels</em>, sweet wines made by adding spirit to fermenting must so that the yeast dies and the grape's own sugar remains. The technique is credited to Arnau de Vilanova, a physician at the University of Montpellier, in 1285. Banyuls, from steep terraces above the sea, and Maury and Rivesaltes are aged for years in old casks or in glass jars left outdoors, and taste of walnut, coffee and dried fruit.</p>
+
 <h3>South West France</h3>
 <p><b>Cahors</b> (Malbec, called Côt; the "black wine"), <b>Madiran</b> (Tannat; micro-oxygenation was invented here in 1991), <b>Jurançon</b> (Petit and Gros Manseng, dry or sweet), <b>Bergerac, Monbazillac</b> (Bordeaux-like reds and Sauternes-like sweets), <b>Gaillac</b>, and Côtes de Gascogne IGP (Colombard, Ugni Blanc; also Armagnac country).</p>
+
+
+<p>The South West is taken in detail in an earlier chapter. Its place here is as the fourth corner of southern France, a region defined less by the Mediterranean than by the rivers that run to the Atlantic.</p>
+
 <h3>The grapes in the glass</h3>
 <table class="t"><tr><th>Grape</th><th>Markers</th></tr>
 <tr><td>Syrah (north)</td><td>Black pepper, black olive, smoked bacon, violet, blackberry; firm fine tannin; often only 12.5 to 13.5%</td></tr>
@@ -566,6 +606,8 @@ body:`
 <tr><td>Marsanne</td><td>Almond, wax, honeysuckle; broad, and it ages</td></tr>
 <tr><td>Roussanne</td><td>Pear, herbal tea, more acidity and perfume than Marsanne</td></tr></table>
 <p><b>GSM</b> is the trade's shorthand for a southern blend: Grenache for fruit and alcohol, Syrah for color and pepper, Mourvèdre for tannin and savor. <b>Garrigue</b> is the wild thyme, rosemary and lavender scrub of the south, and the word for that smell in the wine.</p>
+
+
 <h3>A short history</h3>
 <table class="t"><tr><th>Year</th><th>Event</th></tr>
 <tr><td>About 600 BC</td><td>Greeks found Massalia (Marseille) and bring the vine to France</td></tr>
@@ -574,10 +616,16 @@ body:`
 <tr><td>1800s</td><td>Bordeaux merchants quietly add Hermitage to their wines to strengthen them</td></tr>
 <tr><td>1860s</td><td>Phylloxera is first seen in France, in the southern Rhône</td></tr>
 <tr><td>1923, 1936</td><td>Baron Le Roy's rules for Châteauneuf; it becomes one of the first AOCs</td></tr></table>
+
+
 <h3>Winds of the south</h3>
 <ul><li><b>Mistral:</b> cold and dry, down the Rhône valley from the north. It keeps vines healthy and can snap shoots.</li>
 <li><b>Tramontane:</b> its dry northwesterly cousin in the Languedoc and Roussillon.</li>
 <li><b>Marin:</b> humid, off the Mediterranean; it brings rot.</li></ul>
+
+
+<p>The <strong>mistral</strong> deserves more than a line, because it shapes the Rhône as much as the sun does. It blows when high pressure over the Atlantic and low pressure over the Gulf of Genoa draw cold air from the north. The air is squeezed between the Massif Central and the Alps and accelerates down the valley, often at gale force, for days at a time and on something like a hundred days in the year. It is cold and very dry. Its benefits are that it dries the vines after rain, so that mildew and rot are rare and farming without chemicals is easier here than almost anywhere in France, and that it clears the sky. Its costs are that it breaks young shoots, dries the soil and shrivels the grapes. The low bush vines of the south, the stakes of the north and the rows of cypress planted as windbreaks are all answers to it.</p>
+
 <h3>Serving and pairing</h3>
 <ul><li>Serve Châteauneuf and other Grenache blends at 60 to 65°F. Warmer, the alcohol tastes hot.</li>
 <li>Decant young northern Syrah; it is often closed and a little reductive.</li>
@@ -590,7 +638,11 @@ body:`
 <tr><td>Provence rosé, Cassis blanc</td><td>Bouillabaisse, grilled sardines</td></tr>
 <tr><td>Picpoul de Pinet</td><td>Oysters from the Thau lagoon</td></tr>
 <tr><td>Banyuls, Maury</td><td>Chocolate</td></tr>
-<tr><td>Muscat de Beaumes-de-Venise</td><td>Melon, fruit tarts</td></tr></table>`,
+<tr><td>Muscat de Beaumes-de-Venise</td><td>Melon, fruit tarts</td></tr></table>
+
+<h3>What the south faces now</h3>
+<p>Two pressures are reshaping these regions together. The first is heat. Grenache that once ripened at fourteen percent now reaches sixteen, harvests begin weeks earlier than a generation ago, and summers bring drought severe enough to kill vines in Roussillon. Growers are moving to higher and north-facing sites, planting more Mourvèdre, Counoise and Cinsault, which ripen at lower sugar, and seeking permission to irrigate. The second is the market. Sales of strong red wine are falling in France and abroad, while white and rosé hold or grow. The Rhône is planting white grapes, the Languedoc is pulling up vines again, and Provence, which bet on rosé forty years ago, finds its model copied everywhere. The south has remade itself before, more than once, and the wines that will do best are likely to be the ones from the hills.</p>
+`,
 floor:`<p>CMS Certified examines Syrah from Côte-Rôtie/Saint-Joseph/Crozes and Grenache from Châteauneuf-du-Pape/Gigondas. Producers: Guigal (La Mouline, La Landonne, La Turque), Chave (Hermitage), Jaboulet (La Chapelle), Clape (Cornas), Rayas, Beaucastel, Vieux Télégraphe. Blind: French Syrah = pepper, olive, bacon; Grenache = kirsch, garrigue, warm alcohol, pale for its weight.</p>`,
 analyst:`<p>WSET Level 3 lists the Northern and Southern Rhône appellations by name. A favorite question: compare the climate, grapes and wine styles of the Northern and Southern Rhône. Organize answers by cause (climate, slope, soil) then effect (grape choice, structure).</p>`,
 terms:[["Mistral","Cold, dry northerly wind in the Rhône; reduces disease and cools vines."],["Galets roulés","Large rounded stones in Châteauneuf-du-Pape that store heat."],["Garrigue","Wild herb scrub of southern France (thyme, rosemary, lavender) and its aroma in wine."],["Côt","Local name for Malbec in Cahors."],["GSM","Shorthand for a Grenache, Syrah and Mourvèdre blend."],["Tramontane","Dry northwesterly wind of the Languedoc and Roussillon."],["Marin","Humid wind off the Mediterranean."],["Hermitagé","A Bordeaux strengthened with Hermitage, a 19th-century practice."]],

@@ -346,8 +346,10 @@ quiz:[
 ]});
 
 L.push({id:"r5b", unit:"R1", title:"The Rest of France: Southwest, Corsica, Savoie and Beyond", mins:13,
-summary:"Cahors, Madiran, Jurançon, Gascony, Corsica, Savoie and France's sweet and offbeat corners.",
+summary:"The rest of the map: the South West by river and by grape, Bergerac and Gascony, mistelles, the mountain survivals, the methods isolation preserved, and the new vineyards of the north.",
 body:`
+<p>A large part of French wine is grown outside the famous regions, and what those growers make fills more of a restaurant list every year. An earlier chapter treated the Jura, Savoie, Corsica and the four best-known appellations of the South West in detail. This one completes the map: the rest of the South West, the fortified and brandy country of the Atlantic coast, the small survivals of the east and center, and the new vineyards now being planted in places that had none for a century. It also draws out what these regions have in common, which is the more useful thing to carry away.</p>
+
 <h3>South West France</h3>
 <p>Often called France's "museum of grapes," the Southwest kept dozens of native varieties because it sits apart from the Bordeaux machine.</p>
 <ul><li><b>Bergerac and Monbazillac:</b> Bordeaux varieties next door to Bordeaux; Monbazillac is botrytized sweet white like a softer Sauternes.</li>
@@ -357,19 +359,59 @@ body:`
 <li><b>Gaillac:</b> Mauzac, Len de l'El, Duras, Braucol (Fer Servadou); also sparkling.</li>
 <li><b>Irouléguy:</b> Basque reds from Tannat and Cabernet Franc.</li>
 <li><b>Côtes de Gascogne IGP:</b> crisp whites from Colombard, Ugni Blanc, Gros Manseng; the region also makes Armagnac.</li></ul>
+
+
+<h3>The South West by river</h3>
+<p>The region is easiest to hold as four river systems. The <strong>Dordogne</strong> carries Bergerac and its satellites, a continuation of Bordeaux. The <strong>Garonne</strong> and its tributaries carry the high country proper: Buzet and the Côtes du Marmandais just beyond the Bordeaux boundary, Cahors on the Lot, Gaillac on the Tarn and Fronton near Toulouse. The <strong>Adour</strong>, flowing west through Gascony to Bayonne, carries Madiran, Saint-Mont and the white wine country of the Gers. And the streams of the <strong>Pyrenees</strong> carry Jurançon, Béarn and Irouléguy. The first two basins drained toward Bordeaux and were subject to its control. The second two reached the sea at Bayonne and traded with the Netherlands and northern Europe, which is one reason Jurançon was known abroad when Cahors was not.</p>
+<p>The grapes change with the basins. Near Bordeaux they are Bordeaux's own, with a local addition here and there, such as the dark, early-ripening Abouriou of Marmande. On the Lot it is Malbec, on the Tarn the Gaillac varieties, at Fronton Négrette. In Gascony and the Pyrenees the Cabernets give way to Tannat and the white Mansengs. A student who can place an appellation on its river can usually deduce its grape.</p>
+
+<h3>The museum of grapes</h3>
+<p>The phrase is literal. The basin of the Garonne and the Adour, between the Pyrenees and the Massif Central, is one of the places where the wine grape was domesticated from local wild vines and crossed with varieties brought from the east, and genetic studies since the 1990s have traced a surprising share of the world's famous grapes back to it. Cabernet Franc, the parent of Cabernet Sauvignon and of Merlot, appears to have come from the Basque country. Merlot and Malbec share a mother, an obscure variety that had no name until it was found growing in a few gardens in Brittany and the Charente and was christened Magdeleine Noire des Charentes. Malbec's father is Prunelard, which survives in Gaillac. Tannat, the Mansengs, Fer Servadou and Négrette are all natives.</p>
+<p>Two of these travelled and came home famous. Malbec was taken to Argentina in 1853 by a French agronomist, Michel Pouget, hired to found a vine nursery at Mendoza, and Tannat to Uruguay in 1870 by a Basque settler, Pascual Harriague. Each became the national grape of its adopted country while the original vineyards declined, and each country's success later gave the French appellation a reason to exist in export markets.</p>
+<p>The work of keeping the rest alive has fallen largely to one cooperative. Plaimont, formed in 1979 by three village cellars in Gascony and now farming about 5,300 hectares, set up a conservatory of old varieties in 2002 and has searched abandoned plots for vines that predate phylloxera. Its most remarkable find is a parcel at Sarragachies, planted about 1830 on deep sand in which the louse cannot live, with some twenty varieties mixed together, several of them unknown to science. In 2012 it became the first vineyard in France to be listed as a historic monument. One of the varieties recovered there, a late-ripening, peppery red named Tardif, was admitted to the Saint-Mont appellation in 2024, because a grape that ripens in late October at modest sugar is exactly what a warming climate calls for. The museum has turned out to be a seed bank.</p>
+
+<h3>Bergerac and the Dordogne</h3>
+<p>Bergerac is Bordeaux by another name. It lies on the Dordogne an hour upstream of Saint-Émilion, on the same clay and limestone, growing the same Merlot, Cabernets, Sémillon and Sauvignon. It is a separate region because the boundary of Bordeaux was drawn in 1911 along the edge of the department of the Gironde, and Bergerac is in the next one. Its reds resemble those of the Bordeaux Côtes and sell for less. <strong>Pécharmant</strong>, on slopes north of the town with an iron-rich hardpan beneath the gravel, makes the firmest.</p>
+<p><strong>Monbazillac</strong> is the wine with its own identity. The vineyard, about 2,500 hectares in five communes, occupies a north-facing slope on the south bank of the river. The orientation is the point: autumn mist rises from the Dordogne in the morning and lingers on a slope turned away from the sun, and noble rot develops on Sémillon, Sauvignon and Muscadelle much as it does at Sauternes. The appellation was one of the first in France, in May 1936, and the yield is limited to 30 hectoliters per hectare. The wine is softer and less concentrated than Sauternes and much cheaper. Its history follows that of all sweet wine: production exceeded 100,000 hectoliters a year in the 1950s and has halved since, and many growers replanted with red grapes when sweet wine stopped selling in the 1970s. A third of them belong to the village cooperative, which owns the château on the label.</p>
+
+<h3>Gascony: from brandy to white wine</h3>
+<p>The dry white wine of Gascony is a by-product of Armagnac. The region grew Ugni Blanc and Colombard, thin, acid, low-alcohol grapes ideal for distilling. When sales of Armagnac fell in the 1970s and 1980s, a few producers and the cooperatives began to treat the same grapes as raw material for wine, using the techniques then arriving from the New World: picking at night, leaving the juice briefly on its skins to extract flavor, and fermenting cold in steel. Colombard handled this way gives a wine that smells strongly of grapefruit and passion fruit, from the same family of sulfur-bearing aroma compounds found in Sauvignon Blanc. Sold as <strong>Côtes de Gascogne</strong>, it is light, sharp, inexpensive and made in very large volume, mostly for export. It is among the most successful French wines of the last forty years, and it has no history at all.</p>
+<p>Two small mountain appellations complete the region. <strong>Irouléguy</strong>, the only appellation of the French Basque country, has about 250 hectares of terraces on red sandstone in the foothills of the Pyrenees, and makes firm reds and rosés from Tannat and the Cabernets and scented whites from the Mansengs. <strong>Marcillac</strong>, in a valley of red, iron-rich soil in the Aveyron, makes a light, peppery, blood-scented red from Fer Servadou, there called Mansois, and owes its survival to the miners of nearby Decazeville, who drank it.</p>
+
 <h3>Corsica</h3>
 <p>Mountainous Mediterranean island, culturally Italian-French. <b>Nielluccio</b> (Sangiovese) in Patrimonio, <b>Sciaccarellu</b> in Ajaccio (peppery, pale), and <b>Vermentinu</b> (Vermentino) whites; Muscat du Cap Corse.</p>
+
+
 <h3>Savoie and Bugey</h3>
 <p>Alpine whites from Jacquère, Altesse (Roussette de Savoie), Bergeron (Roussanne, in Chignin-Bergeron); reds from Mondeuse. Light, fresh wines for fondue and raclette. Bugey Cerdon: pink, sweet ancestral-method sparkling.</p>
+
+
+<p>Both regions are treated fully in the earlier chapter. What they add to this survey is a pattern. In each, altitude or the sea replaces latitude as the source of freshness, and in each the local market, skiers in one case and summer visitors in the other, long absorbed everything produced, so that the wines were hardly seen elsewhere.</p>
+
 <h3>Other corners</h3>
 <ul><li><b>Lorraine and Moselle:</b> pale gris wines (Côtes de Toul).</li>
 <li><b>Die:</b> Clairette de Die, a sweet, Muscat-based ancestral-method sparkling, and Crémant de Die.</li>
 <li><b>Cognac and Armagnac:</b> brandy country, covered in Beyond Wine.</li>
 <li><b>Pineau des Charentes and Floc de Gascogne:</b> grape must fortified with Cognac or Armagnac (mistelles).</li></ul>
+
+
+<h3>The Diois and the Auvergne</h3>
+<p>Two mountain districts deserve more than a mention. The <strong>Diois</strong>, in the valley of the Drôme east of the Rhône, has some of the highest vineyards in France, up to about 700 meters, and makes one of its oldest sparkling wines. Clairette de Die, despite its name, is at least three quarters Muscat. It is made by a local form of the ancestral method: the juice ferments slowly at low temperature, is chilled and filtered to hold the fermentation back, and is bottled with sugar remaining, where it finishes fermenting to about seven or eight percent alcohol. Nothing is added, and the wine is sweet, light and intensely grapey. The appellation dates from 1942, and a single cooperative makes most of it. Crémant de Die, dry and made from Clairette by the Champagne method, is the lesser-known sibling.</p>
+<p>The <strong>Auvergne</strong> shows how completely a wine region can vanish. In the 1890s, when phylloxera had ruined the south and had not yet reached the center, the department around Clermont-Ferrand was among the largest wine producers in France, sending Gamay to Paris by rail. The louse arrived, the market went elsewhere, and a vineyard of tens of thousands of hectares shrank to a few hundred. What survives, as Côtes d'Auvergne, is Gamay and Pinot Noir on the slopes of extinct volcanoes, on basalt, ash and limestone, at four hundred meters and more. The wines are light, peppery and fresh, the land is cheap, and the district has become a base for young growers working without additives. <strong>Saint-Pourçain</strong>, to the north, keeps a local white grape, Tressallier, blended with Chardonnay.</p>
+
+<h3>Mistelles and the brandy regions</h3>
+<p>A <em>mistelle</em>, or <em>vin de liqueur</em>, is grape juice to which spirit has been added before it ferments. It differs from a <em>vin doux naturel</em>, in which the spirit is added during fermentation, and tastes more of fresh grapes and of the spirit itself. Every French brandy region makes one from its own distillate. <strong>Pineau des Charentes</strong> is the oldest and largest. Legend dates it to 1589, when a grower is supposed to have poured must into a cask that still held Cognac and found, years later, a clear sweet wine. The rules require the must and the Cognac to come from the same estate; the spirit must be at least a year old and at least 60 percent alcohol. White Pineau is aged for a minimum of eighteen months, twelve of them in oak, and red or rosé for twelve months with eight in oak. Wines labeled <em>vieux</em> have spent five years in cask and <em>très vieux</em> ten, and take on the nutty, rancio character of old brandy. It was recognized in October 1945, the first appellation in France for a wine of this kind.</p>
+<p>The others follow the same recipe. <strong>Floc de Gascogne</strong> is must with Armagnac, <strong>Macvin du Jura</strong> must with the local marc, and Ratafia de Champagne must with spirit distilled from Champagne's own wine. They are drunk chilled as an aperitif in their regions and seldom exported, and they are worth knowing because examiners like the distinction between the two families of fortified wine.</p>
+
 <h3>Why these regions stayed small</h3>
 <ul><li>For centuries Bordeaux held royal privileges, the <b>police des vins</b>, that kept wine from upriver (the "High Country": Cahors, Gaillac, Bergerac) out of the port until Bordeaux's own wine had sold. The rules lasted until 1776.</li>
 <li>Phylloxera, then the frost of <b>1956</b>, almost finished Cahors. It was replanted and became an AOC only in 1971.</li>
 <li>Isolation had one benefit: growers kept grapes found nowhere else.</li></ul>
+
+
+<p>Three mechanisms recur across all of these regions, and a candidate asked why any minor French region is minor can usually answer with one of them. The first is exclusion from a market, as in the high country shut out by Bordeaux. The second is phylloxera arriving in a place with no capital and no export trade to justify the cost of replanting on grafted vines, so that the vineyard shrank to a tenth of its size and was replanted, if at all, with productive hybrids. The third is the twentieth-century drift of people off the land, which left the remaining growers dependent on cooperatives selling in bulk.</p>
+<p>The recoveries have a pattern too. Almost every one began with a single determined producer who showed what the local grape could do, was consolidated by a cooperative or a growers' union that wrote stricter rules, and was helped by an outside reference that made the grape's name familiar. Cahors had its founding families and Argentina. Madiran had two innovators and the science of tannin. Gascony had its cooperative. The lesson for a buyer is to look for regions at the first stage, where the wine is already good and the price has not yet moved.</p>
+
 <h3>The grapes in the glass</h3>
 <table class="t"><tr><th>Grape</th><th>Where</th><th>Markers</th></tr>
 <tr><td>Malbec (Côt)</td><td>Cahors</td><td>Black plum, ink, earth, firm tannin. Leaner and more tannic than Mendoza</td></tr>
@@ -384,6 +426,8 @@ body:`
 <tr><td>Nielluccio</td><td>Corsica</td><td>Sangiovese: sour cherry, herbs, firm acid</td></tr>
 <tr><td>Sciaccarellu</td><td>Corsica</td><td>Pale, peppery, red-fruited</td></tr>
 <tr><td>Vermentinu</td><td>Corsica</td><td>Citrus, herbs, a bitter-almond finish</td></tr></table>
+
+
 <h3>At the table</h3>
 <table class="t"><tr><th>Wine</th><th>Dish</th></tr>
 <tr><td>Cahors, Madiran</td><td>Cassoulet, duck confit, magret</td></tr>
@@ -392,12 +436,29 @@ body:`
 <tr><td>Savoie whites</td><td>Fondue, raclette, lake fish</td></tr>
 <tr><td>Corsican reds and rosés</td><td>Charcuterie, wild boar, grilled fish</td></tr>
 <tr><td>Bugey Cerdon, Clairette de Die</td><td>Fruit tarts, brunch</td></tr></table>
+
+
 <h3>The edges of the map</h3>
 <ul><li><b>Lorraine:</b> Côtes de Toul makes <b>vin gris</b>, a rosé so pale it is nearly white, from Gamay and Pinot Noir. Moselle is a tiny AOC on the German border.</li>
 <li><b>The Auvergne:</b> Saint-Pourçain (whites with the local Tressallier) and Côtes d'Auvergne (Gamay on volcanic soil) are filed under the Loire but lie in the Massif Central.</li>
 <li><b>New ground:</b> since planting rules were loosened in 2016, vineyards have returned to Brittany, Normandy and the Paris region.</li></ul>
+
+
+<h3>What isolation preserved: methods as well as grapes</h3>
+<p>The same remoteness that kept old varieties kept old ways of making wine, and several techniques now copied around the world survive in France only in these regions. The <strong>ancestral method</strong> of sparkling wine, in which a single fermentation is finished in the bottle, is found in four hill districts and nowhere in the great regions: Gaillac, Limoux, Die and Cerdon. Each claims to have used it before Champagne existed, and the claim is plausible, since it requires no added sugar or yeast and only a cold cellar. It is the model for the cloudy, lightly sparkling wines that natural wine growers everywhere now call <em>pétillant naturel</em>.</p>
+<p>Aging under a veil of yeast is the Jura's specialty, but Gaillac has its own tradition of it, kept alive by one family. Drying grapes to concentrate them, on the vine in Jurançon and on straw or racks in the Jura and Corsica, is older than noble rot as a way of making sweet wine. Training vines high on trees or tall stakes, once general in the Pyrenees and the Alps as a defense against frost and damp, can still be seen in Jurançon and Savoie. And the mixed planting of many varieties in one plot, picked and fermented together, which was normal everywhere before phylloxera, survives at Sarragachies, in a few old Gaillac vineyards and at Palette in Provence. None of these is a curiosity. Each is a solution to a local problem, cold, damp, uneven ripening, that predates modern technology, and several are being rediscovered as growers look for ways to make wine with less intervention.</p>
+
+<h3>How long these wines keep</h3>
+<p>Because few of these wines are traded at auction, their capacity to age is underestimated. Vin Jaune is close to indestructible and improves for fifty years. Sweet Jurançon and good Monbazillac keep twenty. Cahors from the plateau and Madiran need eight to ten years to soften and last twenty or more; Irouléguy and Marcillac are for the first five. Mondeuse is best between three and ten. Of the whites, Altesse and the better Corsican Vermentinu gain from three or four years, while Jacquère, Côtes de Gascogne and Picpoul should be drunk within one. The fortified wines are stable once bottled and do not improve further. A list built from these regions can therefore offer mature bottles at prices that the classic regions no longer allow.</p>
+<h3>Old vineyards lost and new ones planted</h3>
+<p>The present map of French wine is much smaller than the historical one. Before the railways, wine was grown wherever people lived, because it could not be moved cheaply. The region around Paris was the largest vineyard in France in the eighteenth century. Lorraine had tens of thousands of hectares, and Brittany and Normandy had vines. Cheap wine from the south by rail, then phylloxera, then the destruction of the First World War in the northeast removed nearly all of it. The Côtes de Toul, with its pale <em>vin gris</em> pressed directly from Gamay, and the Moselle are the fragments that remain in Lorraine.</p>
+<p>Until 2016 the loss was permanent, because European law allowed commercial vineyards to be planted only where planting rights already existed. A reform that took effect that year replaced the old rights with authorizations that can be granted anywhere, and growers have since planted in Brittany, Normandy, the far north and around Paris, which gained a regional designation of its own in 2020. Most of these vineyards are a few hectares of Chardonnay, Pinot Noir, Chenin or disease-resistant hybrids, and most make sparkling or light white wine. They are small, but they are the visible edge of a larger shift. As the south becomes too hot and too dry for some of its traditional wines, the northern limit of the vine in France is moving, for the first time in a century, in the other direction.</p>
+
 <h3>Why a sommelier should care</h3>
-<p>These regions are where a list finds character at a fair price: Cahors against Bordeaux, Jurançon against Sauternes, Savoie against Chablis, Corsica against Tuscany. They are also where an exam finds its hard questions, because each has a grape that grows almost nowhere else.</p>`,
+<p>These regions are where a list finds character at a fair price: Cahors against Bordeaux, Jurançon against Sauternes, Savoie against Chablis, Corsica against Tuscany. They are also where an exam finds its hard questions, because each has a grape that grows almost nowhere else.</p>
+
+<p>The practical use of these wines is substitution, and it works because the causes behind each are the same as those behind a famous counterpart. Monbazillac and Jurançon stand in for Sauternes with foie gras and blue cheese, the first by the same rot, the second by shriveling and with more acidity. Cahors from the plateau answers a request for structured Bordeaux, and Madiran one for something sterner. A Mondeuse from Savoie serves a guest who likes northern Rhône Syrah, a Patrimonio one who likes Chianti, and a Côtes de Gascogne one who asks for Sauvignon Blanc by the glass. Dry Jurançon and Corsican Vermentinu fill the place of aromatic whites at half the price of their better-known equivalents. Knowing why the substitution holds, which grape, which rock, which climate, is what lets a sommelier make it with confidence and explain it at the table in a sentence.</p>
+`,
 floor:`<p>These are a sommelier's value secrets: Cahors for steak, Jurançon Sec for spicy food, Savoie whites for cheese. Guests love being shown something they've never heard of that over-delivers.</p>`,
 analyst:`<p>WSET Diploma expects Southwest France appellations with grapes and styles. Explain micro-oxygenation and why Tannat needed it.</p>`,
 terms:[["Micro-oxygenation","Controlled introduction of tiny amounts of oxygen to soften tannin, invented in Madiran."],["Passerillage","Drying grapes on the vine to concentrate sugar (Jurançon)."],["Mistelle","Unfermented grape juice fortified with spirit (Pineau des Charentes)."],["Nielluccio","Corsican name for Sangiovese."],["Police des vins","Bordeaux's old privileges that held back wine from upriver regions."],["Vin gris","A rosé so pale it is nearly white."],["Tressallier","Local white grape of Saint-Pourçain."],["Ossau-Iraty","Basque sheep's milk cheese, a classic match for Jurançon and Irouléguy."]],
