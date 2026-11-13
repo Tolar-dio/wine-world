@@ -263,9 +263,21 @@ quiz:[
 ]});
 
 L.push({id:"r3", unit:"R1", title:"Champagne", mins:16,
-summary:"Sub-regions, grapes, label codes, and why blending is the Champenois art.",
+summary:"Why a region too cold for still wine came to blend, age and brand it: chalk, grapes, history, styles and labels.",
 body:`
 <p>Champagne sits at about 49°N, near the northern limit of ripening. Its base wines are thin and sharp alone, which is exactly what a sparkling wine needs. The genius of the region is <b>blending</b>: across villages, grapes and years, a house builds a consistent non-vintage style. The chalk subsoil drains, reflects light, holds water for the vines, and was carved into the cool cellars where bottles age.</p>
+
+<p>Champagne is the clearest case in wine of a weakness turned into a method. A region too cold to make good still wine in most years learned to make a second fermentation in the bottle, to blend away the differences between years, and to sell the result under the names of firms and not of vineyards. Each of those habits has a cause in the place.</p>
+
+<h3>A vineyard at the limit</h3>
+<p>Champagne lies about 150 kilometers east of Paris, further north than any other major French region. The average annual temperature is around 11 degrees Celsius, close to the minimum at which grapes will ripen at all. The climate is a mix of two influences. The Atlantic brings steady rain and mild winters; the continent brings spring frosts and occasional summer heat. Sunshine is modest. The risks are frost in April and May, cold and rain at flowering in June, and rot before the harvest.</p>
+<p>Grapes grown here reach low sugar and keep very high acid. Pressed and fermented, they give a still wine of about 10 to 11 percent alcohol that is pale, lean and sharp. That is a poor table wine and an excellent base for sparkling wine. The second fermentation adds more than a degree of alcohol, so the base must start low. High acid keeps the wine fresh through years of aging on its lees and balances the sugar added at the end. And neutral flavor leaves room for the character that the method itself creates. A warmer region can make sparkling wine, but it must pick early to imitate what Champagne has by default.</p>
+
+<h3>The chalk</h3>
+<p>Beneath most of the region is a bed of chalk up to two hundred meters thick, laid down in the Cretaceous period from the shells of microscopic sea creatures. Chalk is soft, pure white limestone, and it behaves like a sponge with drains in it. It is porous enough to hold a great deal of water, several hundred liters per cubic meter, and fine-grained enough to release it slowly, so vines rooted into it are fed steadily through a dry summer. Yet rain passes through the topsoil quickly and the roots are never waterlogged. In a wet, cool climate that combination of drainage and reserve is as valuable as gravel is in Bordeaux.</p>
+<p>The chalk also made the cellars. It is easy to cut and holds its shape, and at depth it keeps a constant temperature of about 10 to 12 degrees with high humidity, ideal for the slow second fermentation and long aging. The Romans quarried it for building stone at Reims, leaving pyramid-shaped pits called crayères that several houses now use, and the region's producers have since dug some 250 kilometers of galleries.</p>
+<p>The rock is not uniform, and the differences map onto the grapes. The slopes of the Montagne de Reims and the Côte des Blancs expose the purest chalk, known as belemnite chalk after a fossil found in it. The Marne valley has more clay, marl and sand over the chalk. The Côte des Bar, a separate district a hundred kilometers to the southeast, is not on chalk at all but on Kimmeridgian marl, the rock of Chablis, which is closer to it than Reims is.</p>
+
 <h3>Grapes and sub-regions</h3>
 <ul><li><b>Montagne de Reims:</b> Pinot Noir; structure and body (Verzenay, Bouzy, Ambonnay).</li>
 <li><b>Vallée de la Marne:</b> Meunier, frost-hardy and fruity (Aÿ is a Pinot Noir exception).</li>
@@ -273,18 +285,28 @@ body:`
 <li><b>Côte des Bar</b> (Aube): Pinot Noir, closer to Chablis than to Reims.</li>
 <li><b>Côte de Sézanne:</b> Chardonnay.</li></ul>
 <p>Seven grapes are permitted (Chardonnay, Pinot Noir, Meunier, plus small amounts of Arbane, Petit Meslier, Pinot Blanc, Pinot Gris). The village rating scale (échelle des crus) once set grape prices: 17 villages are Grand Cru, about 40 Premier Cru.</p>
-<h3>Styles and terms</h3>
-<ul><li><b>Non-vintage (NV):</b> 15 months minimum aging, 12 on lees. Usually far more at top houses.</li>
-<li><b>Vintage (millésimé):</b> one year, 3 years minimum aging; declared only in good years.</li>
-<li><b>Blanc de Blancs:</b> 100% white grapes (usually Chardonnay). <b>Blanc de Noirs:</b> from black grapes.</li>
-<li><b>Rosé:</b> by blending red wine (usual) or saignée.</li>
-<li><b>Prestige cuvée:</b> Dom Pérignon (Moët), Cristal (Roederer), Krug Grande Cuvée, Comtes de Champagne (Taittinger), La Grande Dame (Veuve Clicquot), Sir Winston Churchill (Pol Roger), Salon (Blanc de Blancs, Le Mesnil, vintage only).</li></ul>
-<h3>Label codes (small print near the bottom)</h3>
-<p><b>NM</b> négociant-manipulant (house buying grapes; most big brands), <b>RM</b> récoltant-manipulant (grower bottling own grapes: "grower Champagne"), <b>CM</b> coopérative-manipulant, <b>RC</b> récoltant-coopérateur, <b>SR</b> société de récoltants, <b>ND</b> négociant-distributeur, <b>MA</b> marque d'acheteur (buyer's own brand).</p>
-<h3>Other Champagne-region wines</h3>
-<p><b>Coteaux Champenois</b> (still wines, e.g., Bouzy Rouge) and <b>Rosé des Riceys</b> (still rosé from Pinot Noir in the Aube).</p>
-<h3>France's other sparkling wines</h3>
-<p>Eight <b>Crémant</b> AOCs use the traditional method with at least 9 months on lees: Alsace, Bourgogne, Loire, Limoux, Jura, Die, Bordeaux, Savoie. <b>Blanquette de Limoux</b> (Mauzac) claims a 1531 date, older than Champagne's sparkling tradition.</p>
+
+<p>The match of grape to district is a matter of frost and soil. <b>Chardonnay</b> buds earliest and is the most exposed to spring frost, but it does best on pure chalk, and the east-facing slope of the Côte des Blancs, south of Épernay, gives it both the rock and some shelter. Its wines are the most acidic, the slowest to develop and the longest-lived. <b>Pinot Noir</b> is planted on the Montagne de Reims, a broad wooded hill between Reims and Épernay whose slopes face in every direction. Oddly, some of its best villages, Verzenay and Verzy, face north; the hill's mass and the movement of air down its flanks protect them from frost, and they give firm, structured wines, while south-facing Bouzy and Ambonnay give riper, rounder ones. <b>Meunier</b> buds later than either and so escapes the frosts that settle in the Marne valley, where the heavier soils also suit it. It ripens reliably and gives soft, fruity wine that is ready early and ages less well. In a blend it fills out the middle while the other two provide the frame.</p>
+
+<h3>The ground and the grapes</h3>
+<ul><li>About 34,000 hectares in 319 villages (crus). Pinot Noir covers 38%, Meunier 31% and Chardonnay nearly all the rest.</li>
+<li>The best slopes of the Côte des Blancs and the Montagne de Reims sit on <b>belemnite chalk</b>, named for a fossil squid. The Côte des Bar is on Kimmeridgian marl, the same rock as Chablis.</li>
+<li>The old Roman chalk quarries under Reims, the <b>crayères</b>, are now cellars at a constant 50 to 54°F.</li></ul>
+<table class="t"><tr><th>Grape</th><th>What it brings to a blend</th></tr>
+<tr><td>Chardonnay</td><td>Acidity, citrus, finesse and the longest life</td></tr>
+<tr><td>Pinot Noir</td><td>Body, structure and red fruit</td></tr>
+<tr><td>Meunier</td><td>Fruit and roundness early; it buds late, so it dodges frost</td></tr></table>
+
+
+<h3>Why Champagne is blended</h3>
+<p>In a marginal climate, no single vineyard, grape or year can be relied on. One year the Chardonnay is caught by frost; the next, the Pinot Noir rots. A producer who sold the wine of one place and one harvest would have a different product every year, and in some years none. The Champenois answer was to blend along three lines at once: across villages, across grape varieties, and across years.</p>
+<p>The third is the most distinctive. Each year a house holds back part of its production as <b>reserve wine</b>, stored in tank, cask or magnum, sometimes for decades. The following spring it tastes the still wines of the new harvest, the <i>vins clairs</i>, lot by lot, and builds a blend from as many as several hundred of them, adding older reserves to supply whatever the new year lacks: ripeness in a thin year, freshness in a hot one. The result is the non-vintage Brut, which is meant to taste the same every time. It accounts for the great majority of all Champagne and is the wine on which a house's reputation rests. A vintage Champagne, made only from the best years, is the exception that shows what one harvest was like.</p>
+<p>Blending explains why Champagne is sold by brand. In Burgundy the name that matters is the vineyard, because the wine is the unmixed product of one plot. In Champagne the wine is by design a mixture, and the constant is the skill and taste of the blender. The name on the label is therefore the house.</p>
+
+<h3>From press to bottle</h3>
+<p>The method is described in full in the chapter on sparkling wine. The points specific to Champagne are these. Grapes must be picked by hand and pressed as whole bunches, quickly and gently, so that white juice is taken from black grapes without color. The traditional press load is a marc of 4,000 kg, from which the law allows 2,550 liters of juice: the first 2,050 liters, the <b>cuvée</b>, are the finest, and the last 500, the <b>taille</b>, are coarser and used sparingly or sold on. After the first fermentation and blending, the wine is bottled with a measured dose of sugar and yeast, and the second fermentation raises the pressure to about six atmospheres.</p>
+<p>What follows is time. The dead yeast cells slowly break down in a process called autolysis, releasing compounds that give Champagne its aromas of bread, brioche and toasted nuts and its creamy texture. The law requires fifteen months in the cellar for non-vintage and three years for vintage, and the leading houses give much more. The sediment is then worked into the neck of the bottle by riddling, frozen and expelled at disgorgement, and the bottle is topped up with the <b>dosage</b>, a little wine and sugar that sets the final sweetness. Brut, with less than 12 grams of sugar per liter, is the standard. Extra Brut has 6 or less, and Brut Nature under 3 with none added.</p>
+
 <h3>How Champagne became sparkling</h3>
 <table class="t"><tr><th>Year</th><th>Event</th></tr>
 <tr><td>816 to 1825</td><td>French kings are crowned at Reims, which makes the local wine the wine of court</td></tr>
@@ -295,23 +317,52 @@ body:`
 <tr><td>1911</td><td>Growers riot over which districts may call their wine Champagne. The Aube is first excluded, then let back in</td></tr>
 <tr><td>1927, 1936</td><td>The boundary is fixed in law; Champagne becomes an AOC</td></tr>
 <tr><td>1941</td><td>The Comité Champagne (CIVC) is founded to govern growers and houses together</td></tr></table>
-<h3>The ground and the grapes</h3>
-<ul><li>About 34,000 hectares in 319 villages (crus). Pinot Noir covers 38%, Meunier 31% and Chardonnay nearly all the rest.</li>
-<li>The best slopes of the Côte des Blancs and the Montagne de Reims sit on <b>belemnite chalk</b>, named for a fossil squid. The Côte des Bar is on Kimmeridgian marl, the same rock as Chablis.</li>
-<li>The old Roman chalk quarries under Reims, the <b>crayères</b>, are now cellars at a constant 50 to 54°F.</li></ul>
-<table class="t"><tr><th>Grape</th><th>What it brings to a blend</th></tr>
-<tr><td>Chardonnay</td><td>Acidity, citrus, finesse and the longest life</td></tr>
-<tr><td>Pinot Noir</td><td>Body, structure and red fruit</td></tr>
-<tr><td>Meunier</td><td>Fruit and roundness early; it buds late, so it dodges frost</td></tr></table>
+
+<p>The table compresses a long accident. For most of its history Champagne made still wine, pale red or pink from Pinot Noir, which competed with Burgundy for the Paris market and was drunk at court because Reims was where French kings were crowned. Bubbles were a fault. In so cold a place, fermentation often stopped in autumn before all the sugar was consumed, and started again when the cellars warmed in spring. In a cask the gas escaped. In a sealed bottle it could not.</p>
+<p>It was in England that this was first turned to advantage. English merchants bought Champagne in cask and bottled it themselves, and English glass, made in coal-fired furnaces, was strong enough to hold the pressure, as was the cork they used to close it. By the 1660s, as Christopher Merret's paper to the Royal Society records, they were adding sugar on purpose to make wine sparkle, decades before the practice was established in France. Dom Pérignon, the cellarer at the abbey of Hautvillers from 1668, is credited by legend with the invention. His real contributions were to still wine: careful selection of grapes, gentle pressing to obtain white wine from black grapes, and skillful blending.</p>
+<p>Sparkling Champagne became fashionable at the French court in the early eighteenth century, and once a decree of 1728 permitted wine to be transported in bottle, merchants founded the first houses. For the next hundred years it remained a luxury made by guesswork. Without a way to measure sugar, cellars lost a fifth or more of their bottles to explosions in a normal year. The nineteenth century removed the uncertainties one by one: the riddling table developed at Veuve Clicquot to clear the sediment, François's method for calculating the sugar, stronger bottles, and later the freezing of the neck for disgorgement. Production rose from a few hundred thousand bottles a year to tens of millions.</p>
+<p>The wine itself was sweet for most of that time, especially for the Russian market, which took Champagne with several times the sugar of a modern dessert wine. Dry Champagne was made for the English, who drank it with food, and Brut became the norm only in the twentieth century.</p>
+<p>The riots of 1911 belong to the story told in the chapter on wine law. Growers in the Marne, impoverished by phylloxera and by houses that bought cheap wine from outside the region, wanted Champagne restricted to their own department. Growers in the Aube, excluded by the government's first boundary, marched in protest. When the Aube was readmitted, the Marne erupted, cellars were sacked, and the army was sent in. The eventual settlement of 1927 drew the boundary that still stands and included the Aube. The body that now governs the region, the Comité Champagne, was created in 1941 and gives growers and houses equal weight, a balance that the conflict of 1911 made necessary.</p>
+
 <h3>The 17 Grand Cru villages</h3>
 <ul><li><b>Montagne de Reims (9):</b> Ambonnay, Beaumont-sur-Vesle, Bouzy, Louvois, Mailly-Champagne, Puisieulx, Sillery, Verzenay, Verzy.</li>
 <li><b>Vallée de la Marne (2):</b> Aÿ, Tours-sur-Marne.</li>
 <li><b>Côte des Blancs (6):</b> Avize, Chouilly, Cramant, Le Mesnil-sur-Oger, Oger, Oiry.</li></ul>
 <p>In Champagne the rank belongs to the <b>village</b>, not the vineyard. That is the opposite of Burgundy.</p>
+
+<p>The ranking of villages was an instrument of that same bargain. Under the <b>échelle des crus</b>, the scale of growths, every village was given a percentage between 80 and 100. Each year the trade negotiated a price for grapes, and a grower in a village rated 100 percent received the full price, one in a village rated 90 received nine-tenths of it, and so on. Villages at 100 percent were Grands Crus; those from 90 to 99 were Premiers Crus. The percentages no longer set prices, but the titles remain and may appear on a label if all the grapes come from villages of that rank.</p>
+<p>Two cautions apply. The rank belongs to the whole village, good slopes and poor alike, so it is a blunter measure than a Burgundian vineyard classification. And because most Champagne is a blend from many villages, most bottles carry no rank at all. The terms matter most for growers, whose wines often come from one village.</p>
+
+<h3>Styles and terms</h3>
+<ul><li><b>Non-vintage (NV):</b> 15 months minimum aging, 12 on lees. Usually far more at top houses.</li>
+<li><b>Vintage (millésimé):</b> one year, 3 years minimum aging; declared only in good years.</li>
+<li><b>Blanc de Blancs:</b> 100% white grapes (usually Chardonnay). <b>Blanc de Noirs:</b> from black grapes.</li>
+<li><b>Rosé:</b> by blending red wine (usual) or saignée.</li>
+<li><b>Prestige cuvée:</b> Dom Pérignon (Moët), Cristal (Roederer), Krug Grande Cuvée, Comtes de Champagne (Taittinger), La Grande Dame (Veuve Clicquot), Sir Winston Churchill (Pol Roger), Salon (Blanc de Blancs, Le Mesnil, vintage only).</li></ul>
+
+<p>Each style is a decision about what to blend. <b>Blanc de Blancs</b>, from Chardonnay alone, is the leanest and most citrus, and the slowest to open. <b>Blanc de Noirs</b>, from Pinot Noir, Meunier or both, is fuller, with red fruit. <b>Rosé</b> is usually made by adding a small proportion of still red wine from the region to the white blend before the second fermentation, which Champagne is almost alone in Europe in being allowed to do; a few producers make it instead by leaving the juice on the skins. A <b>prestige cuvée</b> is a house's best wine, usually a vintage, from its finest vineyards with the longest aging.</p>
+
+<h3>Label codes (small print near the bottom)</h3>
+<p><b>NM</b> négociant-manipulant (house buying grapes; most big brands), <b>RM</b> récoltant-manipulant (grower bottling own grapes: "grower Champagne"), <b>CM</b> coopérative-manipulant, <b>RC</b> récoltant-coopérateur, <b>SR</b> société de récoltants, <b>ND</b> négociant-distributeur, <b>MA</b> marque d'acheteur (buyer's own brand).</p>
+
+<p>The two letters before the producer's registration number tell you who made the wine, and they describe the structure of the region. Most of the vineyard belongs to growers and most of the wine is sold by houses, so the commonest code on exported bottles is NM. The code RM marks a grower who makes and sells wine from his own grapes, the category that has drawn so much attention in recent decades. CM is a cooperative selling under its own brand. The others identify growers whose wine is made for them by a cooperative, and brands owned by a retailer or restaurant. The next chapter looks at this structure in detail.</p>
+
+<h3>Other Champagne-region wines</h3>
+<p><b>Coteaux Champenois</b> (still wines, e.g., Bouzy Rouge) and <b>Rosé des Riceys</b> (still rosé from Pinot Noir in the Aube).</p>
+
+<h3>France's other sparkling wines</h3>
+<p>Eight <b>Crémant</b> AOCs use the traditional method with at least 9 months on lees: Alsace, Bourgogne, Loire, Limoux, Jura, Die, Bordeaux, Savoie. <b>Blanquette de Limoux</b> (Mauzac) claims a 1531 date, older than Champagne's sparkling tradition.</p>
+
+<p>The word crémant has changed meaning. It once described a gently sparkling Champagne bottled at lower pressure. When other French regions sought a name for their own bottle-fermented wines, Champagne agreed to give up the term in exchange for an end to the use of méthode champenoise elsewhere. Crémant now means a traditional-method sparkling wine from one of eight French regions, made from that region's own grapes: Riesling and Pinot Blanc in Alsace, Chardonnay and Pinot Noir in Burgundy, Chenin Blanc in the Loire. The rules are close to Champagne's, with hand harvesting, whole-bunch pressing and a shorter minimum of nine months on lees.</p>
+<p>Limoux, in the hills of the Languedoc, has a claim to priority. The monks of Saint-Hilaire recorded a sparkling wine there in 1531, made by what is now called the ancestral method: the wine is bottled before its first fermentation has finished, so that it completes in the bottle with no added sugar or yeast. Blanquette de Limoux Méthode Ancestrale, Clairette de Die and Gaillac's sparkling wine are still made this way, as are the pétillant naturel wines now fashionable everywhere.</p>
+
 <h3>Protecting the name</h3>
 <ul><li>Only wine from the region may be called Champagne in the EU and most of the world.</li>
 <li>"Méthode champenoise" has been banned on other EU wines since 1994; they say "traditional method".</li>
 <li>In the United States, a handful of brands that used "Champagne" before 2006 may keep it, with the true origin beside it: "California Champagne".</li></ul>
+
+<p>No wine name has been defended so persistently. The Champagne trade body pursues not only sparkling wines that borrow the word but perfumes, sodas and anything else that uses it, on the principle that the name is the common property of the region's producers and that any other use dilutes it. The effort has succeeded almost everywhere. The American exception survives from an agreement of 2006 that closed the door to new uses but left existing brands in place.</p>
+
 <h3>At the table</h3>
 <table class="t"><tr><th>Style</th><th>Works with</th></tr>
 <tr><td>Brut non-vintage</td><td>Apéritif, oysters, anything fried or salty: acid and bubbles cut fat</td></tr>
@@ -319,7 +370,9 @@ body:`
 <tr><td>Vintage, Blanc de Noirs</td><td>Roast chicken, veal, mushrooms, aged Comté</td></tr>
 <tr><td>Rosé</td><td>Salmon, duck, charcuterie</td></tr>
 <tr><td>Demi-Sec</td><td>Fruit desserts. Brut with cake tastes sour</td></tr></table>
-<p>Non-vintage is ready on release and keeps two or three years. Good vintage wine improves for ten to twenty.</p>`,
+<p>Non-vintage is ready on release and keeps two or three years. Good vintage wine improves for ten to twenty.</p>
+<p>The pairing rules follow from structure. Champagne has high acid, bubbles that scrub the palate, and a savory, yeasty depth from autolysis, so it handles salt, fat and fried food better than most still wines and is one of the few wines that suits eggs and raw shellfish. Its weakness is sweetness: a Brut served with dessert tastes thin and sour, because the sugar in the food makes the wine seem drier and more acid than it is. That is what Demi-Sec is for.</p>
+`,
 floor:`<p>Sparkling service is a guaranteed CMS practical task. Know serving temperature (42-50°F), fill to no more than three-quarters in two pours, and open with a sigh, never a pop. Grower producers to name: Egly-Ouriet, Pierre Péters, Jacques Selosse, Chartogne-Taillet, Bérêche.</p>`,
 analyst:`<p>WSET Level 3 LO3 covers Champagne sub-regions, labeling terms (NV, vintage, BdB, BdN, rosé, sweetness) and why the climate suits sparkling (high acid, low sugar base wines). Diploma D4 goes into house styles and the economics of grapes versus brands.</p>`,
 terms:[["Assemblage","Blending base wines into a cuvée."],["NM","Négociant-manipulant: a house that buys grapes."],["RM","Récoltant-manipulant: grower Champagne."],["Blanc de Blancs","Sparkling wine from white grapes only."],["Crémant","French traditional-method sparkling wine outside Champagne, 9 months minimum on lees."],["Crayères","Roman chalk quarries under Reims, now used as cellars."],["Belemnite chalk","The chalk of Champagne's best slopes, named for a fossil squid."],["CIVC","The Comité Champagne, founded in 1941 to govern growers and houses."],["Semi-generic","US legal term that lets a few old brands keep names such as Champagne."]],

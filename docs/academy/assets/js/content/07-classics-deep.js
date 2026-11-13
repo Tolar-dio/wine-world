@@ -156,9 +156,17 @@ quiz:[
 ]});
 
 L.push({id:"r3b", unit:"R1", title:"Champagne Houses and Growers", mins:16,
-summary:"The great houses, the grower revolution, and how to read a modern Champagne back label.",
+summary:"Why growers grow and houses sell, what makes a house style, the grower movement, and the yield system that holds it together.",
 body:`
 <p>Champagne is two industries at once. The big houses (maisons) own a minority of the vineyards but sell most of the bottles, buying grapes from about 16,000 growers. Since the 1990s, more growers have started making their own wine, changing what the world thinks Champagne can be.</p>
+
+<p>The split between those who grow and those who sell is older than the appellation and explains most of what is distinctive about the region: the brands, the pricing, the politics, and the recent rise of the small producer. This chapter takes the houses first, then the growers, then the system that binds them.</p>
+
+<h3>Why growers grow and houses sell</h3>
+<p>Making Champagne has always needed capital. The wine must be held for years before sale, in cellars that have to be dug, in bottles that for most of history broke in large numbers. It was sold abroad, to courts and merchants in London, Saint Petersburg and New York, which required agents, credit and a recognizable name. Peasant growers with a hectare or two could do none of this. From the eighteenth century a division of labor set in: growers farmed and sold grapes, and merchant firms in Reims and Épernay made, aged and marketed the wine.</p>
+<p>Many of the founders were outsiders drawn by the trade. A striking number were German: Krug, Bollinger, Mumm, Deutz and the Heidsiecks all trace to merchants from the Rhineland who came as clerks or salesmen and set up on their own. Several houses were built by widows who took over at their husbands' deaths, at a time when widowhood was one of the few routes by which a woman could run a business: Barbe-Nicole Clicquot from 1805, Louise Pommery from 1858, and in the twentieth century Lily Bollinger.</p>
+<p>The division has lasted because vineyard land almost never changes hands. Growers' holdings are small, inherited and extremely valuable, among the most expensive farmland in the world, and a house that wants more grapes cannot simply buy more land. It must secure contracts with growers, and its relations with them, managed through the joint trade body, are as important to it as its cellars.</p>
+
 <h3>The houses and their signatures</h3>
 <table class="t"><tr><th>House</th><th>Founded</th><th>Signature</th></tr>
 <tr><td>Ruinart</td><td>1729</td><td>The oldest house; Chardonnay focus</td></tr>
@@ -172,16 +180,62 @@ body:`
 <tr><td>Taittinger</td><td>1734 (as Forest-Fourneaux)</td><td>Comtes de Champagne Blanc de Blancs</td></tr>
 <tr><td>Billecart-Salmon</td><td>1818</td><td>Delicate style; famous rosé</td></tr>
 <tr><td>Salon</td><td>1911</td><td>One wine: vintage Blanc de Blancs from Le Mesnil, only in great years</td></tr></table>
+
+<p>A house style is the sum of a few decisions, and knowing them lets you predict how a house's wine will taste.</p>
+<p><b>The blend.</b> A house that leans on Pinot Noir, as Bollinger and Veuve Clicquot do, makes a broader, more powerful wine. One that leans on Chardonnay, as Ruinart and Taittinger do, makes a lighter, more citrus one.</p>
+<p><b>The vessel.</b> Most base wines are fermented in stainless steel, which keeps them neutral. Krug ferments everything in small old oak casks and Bollinger a large share, which admits a little oxygen and gives a richer, nuttier wine.</p>
+<p><b>Malolactic conversion.</b> Most houses let it happen, softening the acidity. A few block it to keep a sharper, longer-lived style.</p>
+<p><b>Reserve wine.</b> The share and age of reserves in the non-vintage blend matter greatly. Charles Heidsieck and Krug use a high proportion of old reserves and are deep and toasty for that reason. Bollinger keeps some of its reserves in magnum under cork.</p>
+<p><b>Time on lees and dosage.</b> Longer aging before disgorgement gives more of the bready, autolytic character, and the dosage sets the final balance.</p>
+<h3>House styles</h3>
+<table class="t"><tr><th>Style</th><th>Houses</th><th>Why</th></tr>
+<tr><td>Light and fresh</td><td>Laurent-Perrier, Taittinger, Ruinart, Billecart-Salmon</td><td>Chardonnay-led, stainless steel, little oxygen</td></tr>
+<tr><td>Middle</td><td>Moët &amp; Chandon, Pol Roger, Louis Roederer</td><td>Balanced blends of all three grapes</td></tr>
+<tr><td>Full and toasty</td><td>Bollinger, Krug, Veuve Clicquot, Charles Heidsieck</td><td>Pinot-led, with oak or a high share of old reserve wine</td></tr></table>
+
+
 <h3>Dom Pérignon, the man</h3>
 <p>The Benedictine monk at the Abbey of Hautvillers (cellarmaster 1668-1715) did not invent sparkling wine. He worked to improve blending, pressing (white juice from black grapes) and vineyard quality, and probably tried to stop bubbles, which burst bottles. The "come quickly, I am tasting stars" quote is a later advertising invention.</p>
-<h3>The grower revolution</h3>
+
+<p>The legend was a deliberate creation. In the nineteenth century a later cellarer of Hautvillers, Dom Grossard, wrote an account crediting his predecessor with inventing sparkling Champagne, and the trade adopted the story because a pious monk made a better founder than English bottlers and a run of cold winters. Moët et Chandon acquired the abbey's vineyards and the name, and in 1936 used it for the first prestige cuvée. The historical Pérignon is still significant. The practices he established, picking in the cool of the morning, rejecting damaged fruit, pressing fast and gently, and blending grapes from different vineyards before pressing, are the foundation of quality in the region.</p>
+
+<h3>More prestige cuvées and firsts</h3>
+<ul><li><b>Dom Pérignon</b>'s first vintage was 1921, released in 1936: the first prestige cuvée sold to the public.</li>
+<li><b>Pommery</b> shipped the first commercially successful Brut, Pommery Nature, in 1874. Before it, Champagne was sweet.</li>
+<li><b>Clos des Goisses</b> (Philipponnat, since 1935) was the first single-vineyard Champagne: a steep, south-facing wall at Mareuil-sur-Aÿ.</li>
+<li><b>Belle Epoque</b> (Perrier-Jouët) wears the anemones Émile Gallé designed in 1902.</li>
+<li><b>Numbered non-vintage.</b> Jacquesson's 700 series, Krug's Édition numbers and Roederer's Collection each identify the year's blend, so a non-vintage wine can be tracked and aged like a vintage.</li></ul>
+
+<p>The <b>prestige cuvée</b> is a commercial idea with a precise origin. Cristal was made from 1876 for the private use of the Russian court, in clear glass with a flat base, by tradition so that nothing could be hidden beneath the bottle. Dom Pérignon was the first such wine offered for sale, a 1921 vintage shipped to New York and London in 1936 as the Depression lifted. Other houses followed after the war. The category showed that buyers would pay several times the price of a vintage wine for the top of a range, and it remains the most profitable part of the business.</p>
+<p>The move to <b>dry</b> Champagne was commercial as well. Through most of the nineteenth century sugar covered the faults of thin base wine and suited the taste of the main markets. Louise Pommery's Brut of 1874, made for English customers who wanted a wine to drink through a meal, required riper, better grapes and longer aging, because there was nothing to hide behind. It set the direction for the next hundred and fifty years.</p>
+
+<h3>The growers' turn</h3>
+
 <p>Led by <b>Anselme Selosse</b> (Avize; Burgundian methods, barrel fermentation, solera-like "Substance"), growers began bottling single-village and single-vineyard wines with low dosage. Names to know: Jacques Selosse, Egly-Ouriet (Ambonnay), Pierre Péters (Le Mesnil), Larmandier-Bernier, Agrapart, Vilmart, Jérôme Prévost (La Closerie), Cédric Bouchard (Roses de Jeanne), Chartogne-Taillet, Ulysse Collin, Bérêche.</p>
+
+<p>Growers had always made some wine for local sale, but until the 1980s it was regarded as rustic and the best grapes went to the houses. The change came from a few growers trained outside the region. Anselme Selosse, who studied in Burgundy and took over his family's vines in Avize in 1980, applied Burgundian ideas: lower yields, riper fruit, organic farming, fermentation in barrel with native yeast, and above all the belief that a Champagne should express a particular village or plot instead of a house blend. His wines were controversial, oxidative and powerful, and they were unlike anything else in the region.</p>
+<p>The idea spread for three reasons. A generation of growers' children came home from wine school with the skills to make and sell their own wine. Importers in the United States and elsewhere built a market for it, presenting grower Champagne as the authentic alternative to the big brands. And the climate helped: warmer seasons gave riper grapes, which made it possible to bottle a single village or vineyard without blending and to reduce or omit the dosage.</p>
+<p>The numbers should be kept in proportion. Growers and cooperatives together sell well under a third of all Champagne, and grower wines are a small share of exports. Their influence is far larger than their volume. The houses have responded with single-vineyard wines, lower dosage, more detail on back labels and renewed attention to farming, and the conversation about Champagne is now as much about place as about brand.</p>
+<h3>Grower vocabulary</h3>
+<ul><li><b>Special Club:</b> since 1971 the Club Trésors de Champagne lets member growers bottle their best vintage wine in a shared bottle shape, after a tasting panel approves it.</li>
+<li><b>Lieu-dit</b> and <b>parcellaire:</b> wine from one named plot.</li>
+<li><b>Brut Nature:</b> no dosage. Riper grapes have made it far more common.</li>
+<li><b>Côte des Bar:</b> the southern district, on Kimmeridgian marl, once the houses' source of anonymous Pinot Noir and now home to sought-after growers such as Cédric Bouchard and Vouette et Sorbée.</li>
+<li><b>Coteaux Champenois:</b> still wine, back in fashion as the climate warms.</li></ul>
+
 <h3>Modern back labels</h3>
 <p>Quality producers now print: base vintage and percentage of reserve wine, disgorgement date, dosage in g/L, grape blend, villages. A disgorgement date matters: recently disgorged wine tastes fresher; long post-disgorgement aging adds toasty, nutty notes.</p>
+
+<p>The disgorgement date deserves a fuller explanation, because it changes how a wine should be judged. While a bottle rests on its lees it is protected: the yeast absorbs oxygen and the wine evolves very slowly. Once it is disgorged and corked, it begins to age like any other wine. Two bottles of the same non-vintage blend, one disgorged six months ago and one four years ago, will taste different, the first fresh and tight, the second rounder, with honey and toast. Neither is wrong. A date on the label lets the buyer choose, and its absence leaves a non-vintage wine impossible to place.</p>
+<p>A <b>late-disgorged</b> wine takes the principle to its end. The house keeps a vintage on its lees for ten, twenty or more years and disgorges it shortly before sale, so that the wine has great autolytic complexity with the freshness of a recent disgorgement. Bollinger's R.D. was the first, and several houses now release older vintages in this way.</p>
+
 <h3>Other structural changes</h3>
 <ul><li>The <b>échelle des crus</b> (village price ladder) was abolished as a pricing system in 2010; Grand Cru and Premier Cru remain label terms.</li>
 <li><b>Réserve perpétuelle</b>: a perpetual blend of reserve wines topped up each year (Krug and many growers use versions of this).</li>
 <li>Climate change: harvests now often start in August; growers trial new frost- and heat-tolerant varieties.</li></ul>
+
+<p>The <b>perpetual reserve</b> is a way of building complexity into a non-vintage wine. A single tank or set of casks holds a blend of many years. Each year part is drawn off for bottling and the vessel is refilled with new wine, so that it always contains a little of every harvest back to its foundation. It resembles the solera of Sherry in effect. It gives depth and consistency, and for a grower with a few hectares it is a practical way of keeping reserves without many separate tanks.</p>
+
 <h3>Who owns what</h3>
 <table class="t"><tr><th>Owner</th><th>Houses</th></tr>
 <tr><td>LVMH</td><td>Moët &amp; Chandon, Dom Pérignon, Veuve Clicquot, Ruinart, Krug, Mercier</td></tr>
@@ -192,29 +246,21 @@ body:`
 <tr><td>EPI</td><td>Charles Heidsieck, Piper-Heidsieck, Rare</td></tr>
 <tr><td>Family-owned</td><td>Louis Roederer (and Deutz), Bollinger (and Ayala), Pol Roger, Taittinger, Billecart-Salmon</td></tr>
 <tr><td>Cooperatives</td><td>Terroirs et Vignerons de Champagne (Nicolas Feuillatte, Castelnau, Henriot), Mailly Grand Cru, Palmer &amp; Co</td></tr></table>
+
+<p>Ownership has concentrated. The luxury group LVMH alone accounts for a large fraction of all Champagne sold by value, and its houses compete with one another across every price point. Concentration brings marketing power and investment and raises a question for growers, who depend on a shrinking number of buyers. The surviving family houses make their independence part of their identity, and several own a much larger share of their own vineyards than the big groups do. Roederer grows most of the grapes it uses and farms a large part of them biodynamically.</p>
+<p>The cooperatives are the third force. Growers who do not want to make wine themselves deliver grapes to a cooperative, which makes wine and either sells it under its own brand, returns bottles to members to sell under their own labels, or supplies the houses. The largest groups rank among the biggest producers in the region.</p>
+
 <h3>The economics in five facts</h3>
 <ul><li>About 34,000 hectares. Roughly 16,000 growers own about 90% of them; the houses own about 10% but sell about 70% of the bottles.</li>
 <li>Shipments were <b>266 million bottles in 2025</b>, down from a peak of about 325 million in 2022. France took about 114 million and exports about 152 million.</li>
 <li><b>The yield lever.</b> Each summer the Comité Champagne sets the marketable yield for the coming harvest to match sales: 12,000 kg/ha in 2022, 11,400 in 2023, 10,000 in 2024, 9,000 in 2025 and 8,800 in 2026.</li>
 <li>Grapes above that limit can be held as a reserve and released in a short year.</li>
 <li>It takes about 1.2 kilograms of grapes to make a bottle, and Champagne's grapes are the most expensive in the world.</li></ul>
-<h3>House styles</h3>
-<table class="t"><tr><th>Style</th><th>Houses</th><th>Why</th></tr>
-<tr><td>Light and fresh</td><td>Laurent-Perrier, Taittinger, Ruinart, Billecart-Salmon</td><td>Chardonnay-led, stainless steel, little oxygen</td></tr>
-<tr><td>Middle</td><td>Moët &amp; Chandon, Pol Roger, Louis Roederer</td><td>Balanced blends of all three grapes</td></tr>
-<tr><td>Full and toasty</td><td>Bollinger, Krug, Veuve Clicquot, Charles Heidsieck</td><td>Pinot-led, with oak or a high share of old reserve wine</td></tr></table>
-<h3>More prestige cuvées and firsts</h3>
-<ul><li><b>Dom Pérignon</b>'s first vintage was 1921, released in 1936: the first prestige cuvée sold to the public.</li>
-<li><b>Pommery</b> shipped the first commercially successful Brut, Pommery Nature, in 1874. Before it, Champagne was sweet.</li>
-<li><b>Clos des Goisses</b> (Philipponnat, since 1935) was the first single-vineyard Champagne: a steep, south-facing wall at Mareuil-sur-Aÿ.</li>
-<li><b>Belle Epoque</b> (Perrier-Jouët) wears the anemones Émile Gallé designed in 1902.</li>
-<li><b>Numbered non-vintage.</b> Jacquesson's 700 series, Krug's Édition numbers and Roederer's Collection each identify the year's blend, so a non-vintage wine can be tracked and aged like a vintage.</li></ul>
-<h3>Grower vocabulary</h3>
-<ul><li><b>Special Club:</b> since 1971 the Club Trésors de Champagne lets member growers bottle their best vintage wine in a shared bottle shape, after a tasting panel approves it.</li>
-<li><b>Lieu-dit</b> and <b>parcellaire:</b> wine from one named plot.</li>
-<li><b>Brut Nature:</b> no dosage. Riper grapes have made it far more common.</li>
-<li><b>Côte des Bar:</b> the southern district, on Kimmeridgian marl, once the houses' source of anonymous Pinot Noir and now home to sought-after growers such as Cédric Bouchard and Vouette et Sorbée.</li>
-<li><b>Coteaux Champenois:</b> still wine, back in fashion as the climate warms.</li></ul>`,
+
+<p>The yield decision is the mechanism that holds the system together, and no other wine region has anything quite like it. Each summer growers and houses meet in the Comité Champagne and agree how many kilograms per hectare may be turned into Champagne from the coming harvest. The figure is set to match expected sales, so that stocks in the cellars neither run short nor pile up. When sales fell after 2022, the limit was cut in successive years. This protects the price of both grapes and bottles, at the cost of leaving fruit unpicked in a good year.</p>
+<p>The <b>reserve</b> smooths the other source of risk, the weather. In a generous year a producer may harvest above the limit and hold the surplus as still wine, blocked from sale. After a harvest ruined by frost, hail or mildew, the trade body can release it, and the wine goes into that year's bottling. In a region that lost large parts of its crop in 2021, this insurance is what keeps non-vintage blends consistent and growers solvent.</p>
+<p>The economic bargain has kept the peace since 1911, but it is under strain. Shipments have fallen for three years, the main export markets are weak, and younger drinkers are buying less. Champagne's response has been to sell fewer bottles at higher prices, and the open question is how far that can go.</p>
+`,
 floor:`<p>On the floor, match house style to guest: Bollinger or Krug for rich and toasty; Ruinart or Billecart for delicate; a grower Blanc de Blancs for the curious. For a celebration on a budget, a top Crémant or grower NV beats a big-brand NV.</p>`,
 analyst:`<p>Diploma D4 asks about house styles, reserve wines, the economics of grapes versus brands, and the rise of grower Champagne. Explain how reserve wine creates consistency in NV.</p>`,
 terms:[["Maison","A Champagne house, usually a négociant-manipulant."],["Récemment dégorgé","Late disgorged (R.D. is Bollinger's trademark)."],["Réserve perpétuelle","Perpetual reserve blend topped up annually."],["Disgorgement date","When the lees were removed; printed by many producers."],["Special Club","Growers' shared-bottle prestige cuvée, approved by a tasting panel."],["Marketable yield","The amount per hectare the Comité Champagne lets producers turn into Champagne each year."],["Prestige cuvée","A house's top wine, such as Dom Pérignon or Cristal."],["Clos des Goisses","Philipponnat's steep vineyard; the first single-vineyard Champagne."],["Côte des Bar","Champagne's southern district, on Kimmeridgian marl."]],
