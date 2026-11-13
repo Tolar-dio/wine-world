@@ -250,44 +250,99 @@ quiz:[
 ]});
 
 L.push({id:"f9", unit:"F3", title:"Sparkling Wine Methods", mins:14,
-summary:"Traditional, transfer, ancestral, tank, Asti and carbonation, plus dosage terms.",
+summary:"How each sparkling method traps its gas, the arithmetic of sugar and pressure, what lees aging does and how long it takes, the physics of the bubble, and how to read method from the glass.",
 body:`
-<p>Bubbles are trapped CO₂ from a second fermentation (or, for cheap wine, injected). How and where that second fermentation happens decides the style.</p>
-<h3>Traditional method (méthode champenoise)</h3>
-<ol><li>Make a high-acid, low-alcohol base wine, often blending villages and vintages (the <b>assemblage</b>).</li>
-<li>Bottle it with <b>liqueur de tirage</b>: wine, sugar, yeast and nutrients. Seal with a crown cap.</li>
-<li>The second fermentation in bottle creates about 5-6 atmospheres of pressure.</li>
-<li><b>Lees aging</b> (autolysis) builds brioche, biscuit, toast. Non-vintage Champagne: minimum 15 months total, 12 on lees. Vintage: 3 years.</li>
-<li><b>Riddling</b> (remuage) moves lees to the neck, by hand on pupitres or by gyropalette.</li>
-<li><b>Disgorgement:</b> the neck is frozen and the plug of lees is shot out.</li>
-<li><b>Dosage:</b> topping up with <b>liqueur d'expédition</b> (wine plus sugar) to set sweetness.</li></ol>
-<p>Used for Champagne, Crémant, Cava, Franciacorta, Cap Classique, English sparkling and most premium New World sparklers.</p>
-<h3>The other methods</h3>
-<ul><li><b>Transfer:</b> second ferment in bottle, then emptied into a tank, filtered and rebottled. Saves riddling; allows lees character. Common for large or small formats.</li>
-<li><b>Ancestral (méthode ancestrale / pét-nat):</b> one fermentation, bottled before it finishes. Often cloudy and gently sparkling. Blanquette de Limoux's ancestral style, modern pét-nat.</li>
-<li><b>Tank (Charmat or Martinotti):</b> second fermentation in a pressurized tank, then filtered and bottled. Preserves fresh, fruity aromas. Prosecco.</li>
-<li><b>Asti method:</b> a single fermentation in tank, stopped by chilling at about 7-9.5% abv, leaving sweetness and grapey Moscato aroma. Asti and Moscato d'Asti (frizzante).</li>
-<li><b>Carbonation:</b> CO₂ injected. Large bubbles that fade fast; inexpensive wines.</li></ul>
-<h3>Sweetness (dosage) terms, driest to sweetest</h3>
-<table class="t"><tr><th>Term</th><th>g/L sugar</th></tr>
-<tr><td>Brut Nature (Zero Dosage)</td><td>0-3</td></tr><tr><td>Extra Brut</td><td>0-6</td></tr><tr><td>Brut</td><td>0-12</td></tr><tr><td>Extra Dry / Extra Sec</td><td>12-17</td></tr><tr><td>Sec</td><td>17-32</td></tr><tr><td>Demi-Sec</td><td>32-50</td></tr><tr><td>Doux</td><td>50+</td></tr></table>
-<p>The trap everyone falls for: <b>Extra Dry is sweeter than Brut</b>.</p>
+<p>Every sparkling wine is a still wine with carbon dioxide dissolved in it under pressure. The gas almost always comes from yeast, which makes it as a by-product of turning sugar into alcohol. In an open tank it escapes. In a sealed container it has nowhere to go and dissolves into the wine. The methods differ in only three things: which fermentation supplies the gas, what the sealed container is, and how long the wine then stays with its dead yeast. Those three choices decide flavor, texture and price, and once you know them you can work out how a sparkling wine was made from what is in the glass.</p>
+
+<h3>The arithmetic of fizz</h3>
+<p>The quantities are fixed by chemistry, and the whole craft is built on them. In 1837 a pharmacist from Châlons named François worked out how much sugar produces how much pressure, and ended decades in which a cellar might lose a third of its bottles to explosions. His rule still holds: about <b>4 grams of sugar per liter gives one atmosphere</b> of pressure.</p>
+<ul><li>The standard addition is about <b>24 grams per liter</b>, which gives roughly <b>six atmospheres</b> in the finished bottle, about three times the pressure in a car tire.</li>
+<li>Fermenting that sugar raises the alcohol by about <b>1.2 to 1.5%</b>.</li>
+<li>Roughly half the weight of the sugar becomes carbon dioxide, so the wine ends up holding 11 to 12 grams of dissolved gas per liter. Released, the gas in one bottle would fill about five liters.</li></ul>
+<p>Cold liquid holds more gas than warm. That is why sparkling wine is served cold and why a warm bottle gushes when opened.</p>
+
+<h3>How the method was assembled</h3>
+<p>Nobody invented sparkling wine. In a cold region such as Champagne, fermentation often stopped when the cellars chilled in autumn and started again in spring. Wine shipped in cask and bottled before the spring would then sparkle. For a long time this was a fault. Dom Pérignon, the monk credited by legend with inventing Champagne, spent his career at the abbey of Hautvillers until his death in 1715 trying to prevent it. His real achievements were blending and making white wine from black grapes.</p>
+<p>The deliberate version depended on things the French did not yet have. English glassmakers, forced to burn coal when wood was reserved for shipbuilding, were making bottles strong enough to hold the pressure, and the English sealed them with cork. In 1662 Christopher Merret described to the Royal Society how merchants added sugar to wine to make it brisk and sparkling. That is the traditional method, on paper, decades before Champagne adopted it.</p>
+<p>The remaining steps arrived one problem at a time across the 1800s.</p>
+<table><tr><th>Date</th><th>Problem</th><th>Solution</th></tr>
+<tr><td>1816</td><td>Cloudy wine from dead yeast</td><td>The riddling rack, developed in the cellars of the widow Clicquot</td></tr>
+<tr><td>1837</td><td>Bottles bursting</td><td>François's measure of sugar against pressure</td></tr>
+<tr><td>1874</td><td>Very sweet wine out of fashion in Britain</td><td>Pommery's Brut, the first widely sold dry Champagne</td></tr>
+<tr><td>1884</td><td>Wine lost in disgorging</td><td>Freezing the neck</td></tr>
+<tr><td>1970s</td><td>The labor of hand riddling</td><td>The gyropalette, developed in Catalonia for Cava</td></tr></table>
+<p>The history is worth knowing because it shows what each step is for. Remove a step and its problem returns: a pét-nat, made with none of them, is cloudy and unpredictable for exactly these reasons.</p>
+
 <h3>Why the base wine is thin and sharp</h3>
-<p>A good sparkling base tastes austere: about 10 to 11% alcohol, very high acid, little flavor. That is deliberate. The second fermentation adds about 1.2 to 1.5% alcohol, so the base must start low. Bubbles make acidity feel softer and carry aroma upward, so a base that tasted balanced would be flat and heavy once it sparkled. About 24 g/L of sugar in the tirage gives the full six atmospheres.</p>
+<p>A good sparkling base wine tastes austere: about 10 to 11% alcohol, very high acid, a pH near 3.0 to 3.2, and little flavor. Each of those is deliberate.</p>
+<ul><li><b>Low alcohol.</b> The second fermentation will add up to 1.5%, and the yeast doing it must start work in a liquid that already contains alcohol, under rising pressure, in the cold. Above about 11.5% they struggle to finish.</li>
+<li><b>High acid.</b> Bubbles and the sugar of the final dosage both make acidity feel softer, so a base wine that tasted balanced would be flat and heavy once it sparkled. High acid also protects the wine through years of aging.</li>
+<li><b>Neutral flavor.</b> Lees aging adds its own flavors. A neutral base leaves room for them.</li>
+<li><b>Little tannin or color.</b> Bubbles exaggerate bitterness and coarseness, so the juice must be as clean as possible.</li></ul>
+<p>The last point explains the pressing. Grapes are picked early, usually by hand and in whole bunches, and pressed very gently so that almost nothing is taken from the skins. That is how white wine can be made from black grapes such as Pinot Noir. Champagne fixes it in law: 4,000 kilograms of grapes may yield only 2,550 liters of juice. The first 2,050 liters, the <i>cuvée</i>, are the finest and highest in acid. The last 500, the <i>taille</i>, are richer and coarser and are used sparingly or sold on.</p>
+<p>The base wines are then blended, the <b>assemblage</b>. In Champagne a blender may combine dozens of wines from different villages, grape varieties and years. Wines held back from earlier harvests, called reserve wines, are what allow a non-vintage blend to taste the same every year in a climate where the harvests vary greatly.</p>
+
+<h3>The traditional method, step by step</h3>
+<p>This is the method of Champagne, formerly called <i>méthode champenoise</i>, a term now reserved for Champagne itself. Its defining feature is that the second fermentation takes place in the bottle the wine is sold in.</p>
+<ol><li><b>Tirage.</b> The blended base wine is bottled with the <b>liqueur de tirage</b>: wine, sugar, yeast and nutrients, usually with a little clay or similar agent to help the sediment slide later. The bottle is sealed with a crown cap, like a beer bottle.</li>
+<li><b>Second fermentation</b>, the <i>prise de mousse</i>. In a cool cellar, at 54 to 59°F (12 to 15°C), the yeast take six to eight weeks to consume the sugar. The pressure climbs to <b>5 to 6 atmospheres</b>. Slow and cool is preferred, and the yeast are chosen for their ability to work in these conditions and to clump together afterward.</li>
+<li><b>Lees aging.</b> The yeast die and the bottles rest on their sides, for months or years. This is where the method earns its flavor, as the next section explains.</li>
+<li><b>Riddling</b> (<i>remuage</i>). The sediment must be collected in the neck. Bottles are turned and tilted a little at a time until they stand upside down. By hand on wooden racks called pupitres it takes several weeks. A <b>gyropalette</b>, a machine that turns a cage of about 500 bottles, does it in a few days with the same result.</li>
+<li><b>Disgorgement</b> (<i>dégorgement</i>). The neck is dipped in freezing brine, which traps the sediment in a plug of ice. The cap is removed and the pressure shoots the plug out.</li>
+<li><b>Dosage.</b> The small volume lost is replaced with the <b>liqueur d'expédition</b>, wine and sugar, which sets the final sweetness. The bottle is closed with its cork and wire cage.</li></ol>
+<p>The method is used for Champagne, Crémant, Cava, Franciacorta, Trento, Cap Classique, English sparkling wine and most ambitious sparkling wines elsewhere. It is expensive because every bottle is handled several times and because wine sits unsold in the cellar for years.</p>
+
+<h3>What the lees do</h3>
+<p>When the sugar is gone the yeast die, and their own enzymes begin to break the cells down. This is <b>autolysis</b>. It is slow. It does not begin until two to four months after the fermentation ends, and it continues for years. The cells release amino acids, fragments of protein, and large molecules from their walls called mannoproteins.</p>
+<ul><li><b>Flavor.</b> The classic aromas of bread dough, brioche, biscuit and toast develop from these materials as they react over time.</li>
+<li><b>Texture.</b> Mannoproteins give a creamy feel, and they and the released proteins stabilize foam, so the bubbles form a finer, longer-lasting collar.</li>
+<li><b>Protection.</b> Lees consume oxygen. A bottle resting on its lees is protected from oxidation, and can stay fresh for decades. Once disgorged, the wine begins to age like any other.</li></ul>
+<p>Two practical conclusions follow. First, the flavor needs time. Autolysis becomes obvious only after about 15 to 18 months, which is why a Cava or Crémant aged for the legal minimum of nine months tastes mainly of fruit, while a Champagne aged for three years tastes of pastry. Second, not all of the flavor of an old sparkling wine comes from yeast. A recent Australian study that separated the two effects found that over the first two years, ordinary aging of the wine contributed more to the aroma than autolysis did. The toast and honey of mature Champagne owe a good deal to slow reactions in the wine itself, including reactions between the sugar of the dosage and amino acids after disgorgement. This is why the same wine disgorged late tastes fresher and more yeasty than a bottle disgorged early and aged on its cork, and why some producers now print the disgorgement date.</p>
+
+<h3>Dosage and the sweetness terms</h3>
+<p>Sugar in the dosage is seasoning. A few grams round off a very acidic wine without making it taste sweet. The legal terms, from driest to sweetest:</p>
+<table><tr><th>Term</th><th>g/L sugar</th><th></th></tr>
+<tr><td>Brut Nature (Zero Dosage)</td><td>0-3</td><td>No sugar may be added</td></tr>
+<tr><td>Extra Brut</td><td>0-6</td><td></td></tr>
+<tr><td>Brut</td><td>0-12</td><td>By far the most common</td></tr>
+<tr><td>Extra Dry / Extra Sec</td><td>12-17</td><td>Usual for Prosecco</td></tr>
+<tr><td>Sec</td><td>17-32</td><td></td></tr>
+<tr><td>Demi-Sec</td><td>32-50</td><td>With dessert</td></tr>
+<tr><td>Doux</td><td>50+</td><td>Rare today</td></tr></table>
+<p>The trap everyone falls for: <b>Extra Dry is sweeter than Brut</b>. The terms date from the 1800s, when most Champagne was very sweet and "dry" meant only drier than usual. Dosage has been falling for a generation, partly because warmer summers give riper, less acidic base wines that need less sugar to balance them. Zero-dosage wines demand ripe fruit and long aging, since nothing covers their faults.</p>
+
+<h3>The other methods</h3>
+<p><b>Transfer method.</b> The second fermentation and lees aging take place in bottle, as before. Then the bottles are emptied under pressure into a tank, the wine is filtered and dosed in bulk, and it is rebottled. This saves riddling and disgorging and makes every bottle identical, while keeping some lees character. It is used where riddling is impractical, including very small and very large bottles in Champagne. In the United States "fermented in <i>this</i> bottle" means the traditional method, and "fermented in <i>the</i> bottle" means transfer.</p>
+<p><b>Tank method</b> (Charmat or Martinotti, after the Frenchman and the Italian who developed it around 1900). The second fermentation takes place in a sealed pressure tank. The wine is then chilled, filtered and bottled under pressure. It is fast, often about a month, and cheap, and it involves almost no contact with dead yeast. That is a virtue for aromatic grapes whose appeal is fresh fruit: years on lees would bury the pear and white flowers of <b>Prosecco</b> under bread and toast. Most Sekt and Lambrusco are made the same way. Tank-method wine left longer on its lees with stirring, sometimes called long Charmat, moves partway toward the traditional style.</p>
+<p><b>Asti method.</b> There is only one fermentation. Chilled Moscato juice is fermented in a sealed tank, and when the wine reaches the desired alcohol, at about 7 to 9.5%, it is chilled hard and filtered to stop the yeast. The unfermented grape sugar remains, so the wine is sweet, low in alcohol and tastes of fresh grapes. No sugar is added at any point. Asti is fully sparkling. <b>Moscato d'Asti</b> is stopped earlier, at about 5%, and is only lightly sparkling (frizzante). Because the juice can be kept cold and fermented in batches through the year, the wine is always sold young.</p>
+<p><b>Ancestral method</b> (<i>méthode ancestrale</i>, <b>pét-nat</b>). The oldest method, and again a single fermentation. The wine is bottled before its first fermentation has finished, and completes it in the bottle. Nothing is added. The result is hard to control: pressure and sweetness vary, the wine is usually lower in pressure, and since it is often not disgorged it may be cloudy. Blanquette de Limoux's ancestral style, Bugey-Cerdon and Gaillac are traditional examples, and it has been revived worldwide by natural wine producers.</p>
+<p><b>Carbonation.</b> Carbon dioxide is injected into still wine from a cylinder, as in a soft drink. It is the cheapest method, used for inexpensive wines. No second fermentation means no yeast-derived flavor or texture at all.</p>
+
+<h3>What makes a fine bubble</h3>
+<p>Wine lore says that traditional-method bubbles are small and persistent and tank or carbonated bubbles are large and short-lived. The physics, studied closely at the University of Reims, gives a more exact account.</p>
+<ul><li><b>Bubbles need a starting point.</b> They do not form on the smooth glass or from flaws in it. They form on tiny hollow fibers, mostly cellulose left by a drying cloth or settled from the air, each of which holds a pocket of gas. A perfectly clean glass produces almost no bubbles. Some glasses have a spot etched by laser in the base to guarantee a stream.</li>
+<li><b>Size depends on the amount of dissolved gas.</b> A bubble grows as it rises by collecting gas from the wine around it. The more gas dissolved, the bigger it gets. Old Champagne has fine bubbles largely because it has lost gas slowly through its closure over the years. Large bottles lose it more slowly than small ones.</li>
+<li><b>Persistence depends on what else is in the wine.</b> Proteins and mannoproteins from lees aging stabilize the foam. A carbonated wine with none of them froths and goes flat.</li>
+<li><b>Pouring matters.</b> A wine loses a large share of its gas as it is poured. Pouring down the side of a tilted glass, as for beer, keeps noticeably more than pouring straight into the bottom, and colder wine keeps more than warmer. Below about 3 grams of gas per liter the bubbles stop.</li></ul>
+<p>So bubble quality is a real clue to method, but the cause is the lees and the gas level, not the bottle itself.</p>
+
 <h3>Pressure words</h3>
-<table class="t"><tr><th>Term</th><th>Pressure</th><th>Examples</th></tr>
+<table><tr><th>Term</th><th>Pressure</th><th>Examples</th></tr>
 <tr><td>Fully sparkling (mousseux, spumante, Sekt)</td><td>3 atmospheres or more; Champagne about 5 to 6</td><td>Champagne, Cava, Prosecco Spumante, Asti</td></tr>
 <tr><td>Semi-sparkling (pétillant, frizzante, Perlwein)</td><td>About 1 to 2.5 atmospheres</td><td>Moscato d'Asti, Prosecco Frizzante, most Lambrusco, Vinho Verde's spritz</td></tr></table>
+<p>Crémant once meant a lower-pressure Champagne. Today it names traditional-method wines from French regions outside Champagne.</p>
+
 <h3>What the label is telling you</h3>
-<ul><li><b>Non-vintage (NV):</b> a blend of years, built for a consistent house style. The bulk of all Champagne.</li>
-<li><b>Vintage:</b> one year, made only when the harvest is good enough.</li>
+<ul><li><b>Non-vintage (NV):</b> a blend of years, built for a consistent house style. The bulk of all Champagne. Legal minimum <b>15 months</b> in the cellar, 12 of them on lees.</li>
+<li><b>Vintage:</b> one year, made only when the harvest is good enough. Minimum 3 years.</li>
 <li><b>Prestige cuvée:</b> a house's top wine (Dom Pérignon, Cristal, Krug Grande Cuvée).</li>
 <li><b>Blanc de Blancs:</b> white grapes only, in Champagne meaning Chardonnay. Lean, citrus, chalky.</li>
 <li><b>Blanc de Noirs:</b> white wine from black grapes (Pinot Noir, Meunier). Broader, red-fruited.</li>
-<li><b>Rosé:</b> usually a little still red wine blended in before the second fermentation.</li>
-<li><b>Méthode traditionnelle, Metodo Classico, Méthode Cap Classique:</b> all mean the traditional method. In the US, "fermented in <i>this</i> bottle" means traditional; "fermented in <i>the</i> bottle" means the transfer method.</li></ul>
+<li><b>Rosé:</b> usually made by blending a little still red wine into the white base before the second fermentation, which gives exact control of color. Sparkling wine is the one category in Europe where this is allowed. A few are made by brief skin contact.</li>
+<li><b>Méthode traditionnelle, Metodo Classico, Méthode Cap Classique:</b> all mean the traditional method.</li></ul>
+
 <h3>The world's sparkling wines at a glance</h3>
-<table class="t"><tr><th>Wine</th><th>Method</th><th>Grapes</th><th>Minimum on lees</th></tr>
+<table><tr><th>Wine</th><th>Method</th><th>Grapes</th><th>Minimum on lees</th></tr>
 <tr><td>Champagne</td><td>Traditional</td><td>Chardonnay, Pinot Noir, Meunier</td><td>12 months (15 total) NV; 36 total vintage</td></tr>
 <tr><td>Crémant (Alsace, Loire, Bourgogne, Limoux and others)</td><td>Traditional</td><td>Regional</td><td>9 months</td></tr>
 <tr><td>Cava</td><td>Traditional</td><td>Macabeo, Xarel·lo, Parellada</td><td>9 months; Reserva 18; Gran Reserva 30</td></tr>
@@ -299,14 +354,17 @@ body:`
 <tr><td>Sekt</td><td>Mostly tank; Winzersekt is traditional</td><td>Riesling and others</td><td>9 months for traditional</td></tr>
 <tr><td>Lambrusco</td><td>Mostly tank</td><td>Lambrusco family</td><td>None</td></tr>
 <tr><td>Asti, Moscato d'Asti</td><td>Asti (single tank ferment)</td><td>Moscato Bianco</td><td>None</td></tr></table>
+<p>Among the basic categories Franciacorta sets the longest minimum, longer than Champagne's. The minimums are floors: serious producers everywhere exceed them, often by years.</p>
+
 <h3>Telling them apart blind</h3>
-<table class="t"><tr><th>You notice</th><th>It points to</th></tr>
+<table><tr><th>You notice</th><th>It points to</th></tr>
 <tr><td>Brioche, toast, biscuit; fine, lasting bubbles</td><td>Traditional method with long lees aging</td></tr>
 <tr><td>Fresh pear, apple, white flowers; frothy, short-lived bubbles</td><td>Tank method: Prosecco</td></tr>
 <tr><td>Grapes, peach, orange blossom; sweet, low alcohol</td><td>Asti method</td></tr>
 <tr><td>Earthy, rubbery note with apple; Spanish grapes</td><td>Cava</td></tr>
 <tr><td>Cloudy, cidery, gentle fizz</td><td>Ancestral method (pét-nat)</td></tr></table>
-<p>Autolysis only becomes obvious after about 15 to 18 months on lees, which is why minimum-aged Cava and Crémant taste fruitier than Champagne, and why a long-aged Franciacorta or English sparkling can pass for it.</p>`,
+<p>Reason it through in order. Is there pastry and toast? Then the wine spent a long time on lees in bottle. Is it all fresh fruit with a frothy mousse? Then it was kept away from lees, in a tank. Is it sweet, grapey and low in alcohol? Then a single fermentation was stopped. After method, acidity and fruit character point to climate and grape: piercing acid and chalky restraint suggest Champagne or England, riper and softer fruit suggests Franciacorta or California. A long-aged Franciacorta or English sparkling wine can pass for Champagne, because the method contributes more of the flavor than the place does.</p>
+`,
 floor:`<p>Certified-level question pair from the CMS guide: Introductory asks "Liqueur de tirage is used in the production of which beverage?" (Champagne). Certified asks "What ingredients are found in the liqueur de tirage?" (wine, sugar, yeast, nutrients/riddling aid). Same topic, one level deeper.</p>`,
 analyst:`<p>WSET Level 3 LO3 covers all six methods. Sample MCQ: "Removing sediment from a bottle of Champagne is called?" Answer: disgorgement. Diploma D4 adds 3 sparkling wines blind and open-response questions on production.</p>`,
 terms:[["Liqueur de tirage","Wine, sugar, yeast and nutrients added to trigger second fermentation in bottle."],["Autolysis","Breakdown of dead yeast giving brioche and toast."],["Remuage","Riddling: moving lees into the bottle neck."],["Dégorgement","Disgorgement: removing the frozen lees plug."],["Liqueur d'expédition","Wine and sugar added after disgorgement; sets the dosage."],["Charmat","Tank method used for Prosecco."],["Prestige cuvée","A Champagne house's top wine."],["Blanc de Blancs","Sparkling wine from white grapes only."],["Blanc de Noirs","White sparkling wine from black grapes."],["Frizzante","Italian for semi-sparkling, about 1 to 2.5 atmospheres."],["Winzersekt","German grower sparkling wine made by the traditional method."]],
@@ -327,24 +385,42 @@ quiz:[
 ]});
 
 L.push({id:"f10", unit:"F3", title:"Sweet and Fortified Wines", mins:15,
-summary:"Concentrating sugar, stopping fermentation, and building strength.",
+summary:"The two limits of yeast that every sweet wine exploits, what noble rot, frost, drying and spirit each do to the grape, flor against oxygen against heat, and how to tell the methods apart.",
 body:`
-<h3>How sweet wines are made</h3>
-<p>Two families: <b>stop fermentation early</b> (chill, filter, add SO₂, or fortify), or <b>concentrate the sugar</b> so yeast can't finish (or add back sweet juice, called <b>süssreserve</b> in Germany).</p>
-<ul><li><b>Noble rot:</b> Sauternes and Barsac (Sémillon, Sauvignon Blanc, Muscadelle), Tokaji Aszú (Furmint), German BA and TBA. Honey, apricot, saffron, marmalade.</li>
-<li><b>Late harvest:</b> grapes left to overripen and shrivel. Alsace Vendanges Tardives, German Spätlese and Auslese.</li>
-<li><b>Freezing:</b> grapes picked frozen; water stays as ice in the press. Icewine (Canada, from Vidal, Riesling, Cabernet Franc) and Eiswein (Germany, Austria). Must be naturally frozen.</li>
-<li><b>Drying (passito):</b> grapes dried on mats or racks. Amarone (fermented dry) and Recioto (sweet) in Valpolicella, Vin Santo in Tuscany, Passito di Pantelleria. Vin de paille in Jura.</li></ul>
-<h3>Fortified wines</h3>
-<p>Fortification means adding grape spirit. <i>When</i> you add it decides everything:</p>
-<ul><li><b>During fermentation</b> keeps natural grape sugar: Port, Madeira (most), Vins Doux Naturels (Banyuls, Maury, Muscat de Beaumes-de-Venise, Rivesaltes).</li>
-<li><b>After fermentation</b> gives a dry base, sweetened later if at all: Sherry.</li></ul>
-<h3>Biological versus oxidative aging</h3>
-<p>Sherry introduces the most important split in fortified wine. Under a layer of yeast called <b>flor</b>, wine is protected from oxygen and becomes pale, tangy and saline (Fino, Manzanilla). Fortify past about 17% and flor dies; the wine ages <b>oxidatively</b>, becoming brown, nutty, walnut and toffee (Oloroso). Amontillado and Palo Cortado sit between. This also explains Tawny versus Ruby Port: oxidative wood aging versus reductive, fruit-preserving aging. Full details are in the Iberia unit.</p>
-<h3>Madeira's heat</h3>
-<p>Madeira is deliberately heated: <b>estufagem</b> (tanks warmed to about 113-122°F / 45-50°C for at least 3 months) for commercial wines, or <b>canteiro</b> (casks resting in warm lofts for years) for the best. The result is nearly indestructible: an opened bottle lasts months.</p>
+<p>Left alone, yeast turn all the sugar in grape juice into alcohol and the wine is dry. A sweet wine exists only because something stopped them. A fortified wine exists because spirit was added, and when it was added decides whether the wine is sweet or dry. This chapter is about the ways yeast can be stopped, what each way does to the grape and the wine, and why the results taste so different from one another. It ends with a way to tell them apart in the glass.</p>
+
+<h3>Why yeast stop</h3>
+<p>Yeast have two limits, and every sweet wine exploits one of them.</p>
+<p><b>Alcohol.</b> Alcohol is the yeast's own waste product, and it is toxic to them. Most wine yeast give up somewhere around 15%, and almost none survive above 18%. So if the juice holds more sugar than the yeast can convert before they reach their limit, some sugar is left over. And if spirit is added to raise the alcohol past the limit, fermentation stops at once.</p>
+<p><b>Sugar itself.</b> A very sweet juice draws water out of yeast cells, in the way salt draws water from a cucumber. The yeast survive by filling themselves with glycerol to hold their water, and the effort changes what they produce: more glycerol, which adds to the wine's thickness, and more acetic acid, the acid of vinegar. They work slowly, sometimes for months, and stop early. Experiments on Canadian icewine juice found that above about 42% sugar the yeast could not reach even 10% alcohol, and calculated that above about 52% they could not ferment at all. This is why the sweetest wines of all are the lowest in alcohol, and why Tokaji Eszencia, pressed from pure shriveled berries, creeps to a few percent over years. It is also why a trace of volatile, vinegary lift is normal in very sweet wines. The law allows icewine more of it than dry wine.</p>
+<p>From these two limits come the two families of sweet wine: <b>concentrate the sugar</b> in the grape until the yeast cannot finish, or <b>stop the fermentation</b> early, by chilling and filtering, by adding sulfur dioxide, or by fortifying. A third and humbler route is to ferment the wine dry and add back sweet unfermented juice, called süssreserve in Germany.</p>
+<p>A wine that is sweet and low in alcohol is food for any stray yeast, and could start fermenting again in the bottle. It must be filtered sterile, protected with sulfur dioxide, or made so strong or so sweet that nothing can live in it.</p>
+
+<h3>Noble rot</h3>
+<p>The most prized method uses a fungus. <i>Botrytis cinerea</i> is the same mold that destroys crops as grey rot. On ripe, healthy, thick-skinned white grapes, in exactly the right weather, it behaves differently and is called <b>noble rot</b>.</p>
+<p>The weather is the key. The fungus needs moisture to germinate and dry air to be held in check. The classic pattern is misty mornings followed by warm, sunny, dry afternoons, repeated for weeks in autumn. Sauternes has it because the cold little river Ciron runs into the warmer Garonne and raises fog over the vineyards. Tokaj has it where the Bodrog meets the Tisza. If the weather stays wet, the fungus runs out of control and the crop is lost to grey rot. If it stays dry, nothing happens. This is why great botrytis vintages are irregular and why the method cannot simply be copied elsewhere.</p>
+<p>What the fungus does to the berry:</p>
+<ul><li><b>It punctures the skin.</b> Its filaments pierce the skin in thousands of places without breaking it open. Water evaporates through the holes in the dry afternoons and the berry shrivels, concentrating everything inside.</li>
+<li><b>It feeds.</b> The fungus consumes some sugar and a good deal of acid, more of the tartaric than the malic. Because water is lost faster than sugar is eaten, the juice still ends far sweeter than it began, and concentration keeps the acidity high.</li>
+<li><b>It leaves products of its own.</b> Glycerol, which gives the wine its thick, oily texture. Gluconic acid, which a laboratory can use to prove botrytis was present. And an oxidizing enzyme, laccase, which helps give these wines their deep gold color.</li>
+<li><b>It creates aromas</b> found in no healthy grape: compounds smelling of honey, of apricot and peach, of saffron and curry spice, and a faint note of mushroom.</li></ul>
+<p>The result is the signature of the style: <b>honey, apricot, marmalade and saffron</b>, with a thick texture and enough acidity to carry the sweetness. The rot does not strike a bunch evenly, so pickers pass through the vineyard several times, sometimes berry by berry. The classics are <b>Sauternes and Barsac</b> (Sémillon, with Sauvignon Blanc and Muscadelle; Sémillon's thin skin takes the rot well), <b>Tokaji Aszú</b> (Furmint), and German and Austrian <b>Beerenauslese and Trockenbeerenauslese</b>.</p>
+
+<h3>Late harvest</h3>
+<p>The simplest concentration is to leave the grapes on the vine past normal ripeness. The vine has stopped supplying them, and they slowly lose water and shrivel. Sugar rises and flavors move from fresh fruit toward dried fruit. There may be a little botrytis or none. The wines are sweet but lighter and less honeyed than fully botrytized wines. Alsace <b>Vendanges Tardives</b> and German <b>Spätlese and Auslese</b> are the models, though many Spätlesen today are fermented dry.</p>
+
+<h3>Freezing</h3>
+<p>Water freezes before sugar solution does. If grapes are left on the vine into winter and picked and pressed while frozen hard, the water stays behind in the press as ice, and what runs out is a small quantity of intensely sweet, intensely acidic juice. The colder the night, the more concentrated the juice. Canada requires at least 17.6°F (minus 8°C) and a minimum sugar level far above that of any ordinary harvest. Germany and Austria require minus 7°C.</p>
+<p>The grapes must be healthy, since the aim is purity. With no fungus and no drying, <b>Icewine</b> (Canada, from Vidal, Riesling and Cabernet Franc) and <b>Eiswein</b> (Germany, Austria) taste of very pure fruit, peach, pineapple and lychee, with piercing acidity and none of the honey and saffron of botrytis. The grapes must be <b>naturally frozen on the vine</b>. Freezing picked grapes in a freezer, called <b>cryoextraction</b>, imitates the effect cheaply, and Canada, Germany and Austria do not allow such wines to be called Icewine or Eiswein. Warmer winters are making true Eiswein rare in Germany: in some recent years almost none could be made.</p>
+
+<h3>Drying</h3>
+<p>Grapes can also be picked and then dried, on straw mats, on racks in airy lofts, or in the sun. The Italian word is <b>passito</b>. For Amarone the grapes lose about a third of their weight over roughly three months. Under a southern sun Pedro Ximénez can double its sugar concentration in a week or two.</p>
+<p>The berry is still alive while it dries, and it reacts. It goes on respiring and burns up malic acid, so dried-grape wines are often lower in acidity than the other sweet styles. Slow drying in a cool loft allows complex aromas to develop. Fast drying in hot sun cooks the fruit toward raisin, fig and caramel. The flavor signature is <b>dried fruit</b>: raisin, fig, dried apricot, often with an amber color.</p>
+<ul><li><b>Recioto della Valpolicella</b> is the sweet wine of dried red grapes. <b>Amarone</b> is the same grapes <b>fermented to dryness</b>, giving a dry red of 15% or more. It is the one famous passito wine that is not sweet.</li>
+<li><b>Vin Santo</b> in Tuscany, <b>Passito di Pantelleria</b> from Muscat, and <b>vin de paille</b> in the Jura are the other classics.</li></ul>
+
 <h3>How sweet is sweet?</h3>
-<table class="t"><tr><th>Wine</th><th>Typical residual sugar</th></tr>
+<table><tr><th>Wine</th><th>Typical residual sugar</th></tr>
 <tr><td>Moscato d'Asti</td><td>About 100 to 150 g/L, at 5 to 6% alcohol</td></tr>
 <tr><td>Port</td><td>About 90 to 120 g/L</td></tr>
 <tr><td>Sauternes</td><td>120 to 150 g/L</td></tr>
@@ -352,31 +428,54 @@ body:`
 <tr><td>Icewine, Trockenbeerenauslese</td><td>Often 160 to 250 g/L</td></tr>
 <tr><td>Pedro Ximénez Sherry</td><td>400 g/L and more</td></tr>
 <tr><td>Tokaji Eszencia</td><td>At least 450 g/L, at only a few percent of alcohol</td></tr></table>
-<p>Sugar alone is syrup. What makes these wines great is <b>acidity</b>: Riesling, Chenin Blanc, Furmint and Sémillon in a cool autumn keep enough acid to make 150 g/L taste fresh. When you assess a sweet wine, ask first whether the finish is clean or cloying.</p>
+<p>Sugar alone is syrup. What makes these wines great is <b>acidity</b>. Every method that removes water concentrates acid along with sugar, and the grapes used are chosen for it: Riesling, Chenin Blanc, Furmint and Sémillon in a cool autumn keep enough acid to make 150 g/L taste fresh. When you assess a sweet wine, ask first whether the finish is clean or cloying.</p>
+
 <h3>Why they cost so much</h3>
-<p>Every method throws away water, and water is volume. Château d'Yquem averages about 9 hl/ha, often put as one glass of wine per vine, against 50 or more for a dry white. Pickers pass through a botrytized vineyard several times, berry by berry. Icewine growers leave fruit hanging into December for birds, rot and thaw to take. In poor years there is no wine at all.</p>
-<h3>Telling the methods apart in the glass</h3>
-<table class="t"><tr><th>Method</th><th>Signature</th></tr>
-<tr><td>Noble rot</td><td>Honey, apricot, marmalade, saffron, ginger; a thick, glycerol-rich texture</td></tr>
-<tr><td>Late harvest</td><td>Ripe and dried stone fruit, less honeyed, lighter</td></tr>
-<tr><td>Icewine</td><td>Very pure fruit (peach, pineapple, lychee) with piercing acidity and no botrytis notes</td></tr>
-<tr><td>Drying (passito)</td><td>Raisin, fig, dried apricot, caramel; often amber</td></tr>
-<tr><td>Fortified during fermentation</td><td>Fresh grape sweetness with the warmth of spirit</td></tr></table>
-<p>Freezing picked grapes in a freezer (<b>cryoextraction</b>) imitates icewine cheaply. Canada, Germany and Austria do not allow such wines to be called Icewine or Eiswein.</p>
+<p>Every method throws away water, and water is volume. Château d'Yquem averages about 9 hl/ha, often put as one glass of wine per vine, against 50 or more for a dry white. Pickers pass through a botrytized vineyard several times. Icewine growers leave fruit hanging into December for birds, rot and thaw to take. Drying lofts tie up space and labor for months. In poor years there is no wine at all.</p>
+
+<h3>Fortified wines</h3>
+<p>Fortification means adding grape spirit. It began as a way to make wine survive a sea voyage: at 15% and above almost nothing can spoil it. The decisive question is <b>when</b> the spirit goes in.</p>
+<ul><li><b>During fermentation</b>, the spirit kills the yeast while grape sugar remains, and the wine is sweet: <b>Port</b>, most Madeira, and the <b>Vins Doux Naturels</b> of southern France (Banyuls, Maury, Rivesaltes, Muscat de Beaumes-de-Venise).</li>
+<li><b>After fermentation</b>, the wine is already dry, and stays dry unless sweetened later: <b>Sherry</b>.</li></ul>
+<p>Port shows what the timing costs. The spirit is added when about half the sugar has fermented, after only two or three days. A red wine normally takes its color and tannin from the skins over a week or more. Port must get all of it in those few days, which is why the grapes were traditionally trodden by foot in shallow stone troughs, and why machines that imitate treading are used today. Port's spirit is unusual too. It is a grape brandy of 77% alcohol, not a neutral spirit, added at roughly one part to four of wine, so a fifth of what is in the bottle is brandy and its quality matters. The French use a neutral spirit of about 96% and so add much less.</p>
+<p><b>Rutherglen Muscat</b>, from Victoria in Australia, takes the idea to an extreme. Grapes are left to raisin on the vine and the juice is fortified <b>very early</b>, when it has barely begun to ferment, so nearly all its sugar is the grape's own. Decades in hot sheds do the rest.</p>
+
+<h3>Biological versus oxidative aging</h3>
+<p>Sherry introduces the most important split in fortified wine, and the strength of the wine controls it.</p>
+<p>At about 15 to 15.5% alcohol, in a cask left partly empty, a film of yeast called <b>flor</b> grows across the surface of the wine. It is alive, and it lives on what it finds: oxygen from the air above, and alcohol and glycerol from the wine below. Because it uses up the oxygen, the wine beneath is protected and stays pale. Because it consumes glycerol, the wine becomes bone dry and light in body. And it produces acetaldehyde, which gives the sharp, tangy smell of bruised apple, almond and bread dough. This is <b>biological aging</b>, and it makes <b>Fino</b> and <b>Manzanilla</b>. Flor is fussy. It needs cool, humid cellars and dies if they grow too hot.</p>
+<p><b>Fortify past about 17% and flor dies.</b> Now nothing stands between the wine and the air. It browns and slowly concentrates as water evaporates through the wood, and develops the flavors of walnut, toffee, dried fruit and spice. This is <b>oxidative aging</b>, and it makes <b>Oloroso</b>. <b>Amontillado</b> starts under flor and finishes oxidatively, and Palo Cortado sits between.</p>
+<p>The same split explains Port. <b>Ruby</b> styles and Vintage Port are kept from air, in large vats and then bottle, to preserve dark fruit. <b>Tawny</b> is aged for years in small casks, where air turns it amber and nutty. It explains the two families of French fortified wine as well. Full details are in the Iberia unit.</p>
+<p>One compound links many of these wines. Sotolon, which smells of walnut, curry and maple syrup, forms under flor, in oxidative aging, in heated wine and in botrytized grapes. It is the reason an old Tawny, an Oloroso, a Madeira, a Vin Jaune and an old Sauternes can share a family resemblance despite being made in entirely different ways.</p>
+
+<h3>Madeira's heat</h3>
+<p>Madeira adds a third force, heat. Casks shipped through the tropics in the 1700s came back improved, and the island learned to imitate the voyage. In <b>estufagem</b>, used for everyday wines, tanks are warmed to about 113 to 122°F (45 to 50°C) for at least 3 months. In <b>canteiro</b>, used for the best, casks rest for years in warm lofts under the roof.</p>
+<p>Heat drives the browning reactions between sugars and amino acids that also color a crust of bread, and breaks sugar down into caramel-scented compounds. The wine gains burnt sugar, toffee, coffee and dried citrus peel. Chemists can measure the heating: the caramel compounds are far higher in tank-heated wine than in cask-aged wine, and climb steeply if the tank is run too hot, which is why the temperature is regulated. Having already been heated and oxidized for years, and having very high acidity, Madeira has nothing left to lose. It is nearly indestructible: an opened bottle lasts months, and wines two centuries old are still alive.</p>
+<p>Madeira's four noble grapes run from dry to sweet: <b>Sercial, Verdelho, Boal, Malmsey</b>. The drier styles are fortified later in fermentation and the sweeter earlier. Most everyday Madeira is Tinta Negra.</p>
+
 <h3>The fortified map</h3>
-<table class="t"><tr><th>Wine</th><th>Home</th><th>Fortified</th><th>Strength</th><th>Style</th></tr>
+<table><tr><th>Wine</th><th>Home</th><th>Fortified</th><th>Strength</th><th>Style</th></tr>
 <tr><td>Port</td><td>Douro, Portugal</td><td>During fermentation</td><td>19 to 22%</td><td>Sweet; ruby (fruit) or tawny (wood-aged)</td></tr>
 <tr><td>Sherry</td><td>Jerez, Spain</td><td>After fermentation</td><td>15 to 22%</td><td>Dry by nature; sweetened styles exist</td></tr>
 <tr><td>Madeira</td><td>Madeira, Portugal</td><td>During or after, by style</td><td>17 to 22%</td><td>Dry to sweet; heated and oxidized; very high acid</td></tr>
 <tr><td>Marsala</td><td>Sicily</td><td>After</td><td>17 to 18% or more</td><td>Dry to sweet; oro, ambra, rubino</td></tr>
 <tr><td>Vins Doux Naturels</td><td>Southern France</td><td>During</td><td>15 to 18%</td><td>Sweet Muscat or Grenache</td></tr>
 <tr><td>Rutherglen Muscat</td><td>Victoria, Australia</td><td>During, very early</td><td>17 to 18%</td><td>Luscious, raisined, long wood age</td></tr></table>
-<p>Madeira's four noble grapes run from dry to sweet: <b>Sercial, Verdelho, Boal, Malmsey</b>. Most everyday Madeira is Tinta Negra.</p>
+
+<h3>Telling the methods apart in the glass</h3>
+<table><tr><th>Method</th><th>Signature</th></tr>
+<tr><td>Noble rot</td><td>Honey, apricot, marmalade, saffron, ginger; a thick, glycerol-rich texture</td></tr>
+<tr><td>Late harvest</td><td>Ripe and dried stone fruit, less honeyed, lighter</td></tr>
+<tr><td>Icewine</td><td>Very pure fruit (peach, pineapple, lychee) with piercing acidity and no botrytis notes</td></tr>
+<tr><td>Drying (passito)</td><td>Raisin, fig, dried apricot, caramel; often amber</td></tr>
+<tr><td>Fortified during fermentation</td><td>Fresh grape sweetness with the warmth of spirit</td></tr></table>
+<p>Work through it in order. Is there the heat of spirit? Then the wine is fortified, and color and nuttiness tell you whether it aged with air or without. If not, how was the sugar concentrated? Honey and saffron with an oily texture mean a fungus was at work. Pure fruit with searing acid means ice. Raisin and fig mean drying. Low alcohol with fresh grape flavor means a fermentation simply stopped, as in Moscato d'Asti. Each conclusion follows from what the method does to the grape.</p>
+
 <h3>Serving them</h3>
 <ul><li><b>Pour:</b> 2 to 3 oz, in a small white-wine glass, not a thimble.</li>
 <li><b>Temperature:</b> sweet whites and Fino well chilled; Tawny lightly chilled; Vintage Port at cool room temperature.</li>
-<li><b>Once opened:</b> Fino and Manzanilla last days; Vintage Port a day or two; LBV and Tawny some weeks; Madeira months.</li>
-<li><b>With food:</b> the wine must be sweeter than the dish, and salt is its best friend: blue cheese, foie gras, salted nuts.</li></ul>`,
+<li><b>Once opened:</b> Fino and Manzanilla last days, because the flor that protected them is gone; Vintage Port a day or two; LBV and Tawny some weeks; Madeira months. The more oxygen a wine has already met, the less a little more can harm it.</li>
+<li><b>With food:</b> the wine must be sweeter than the dish, and salt is its best friend: blue cheese, foie gras, salted nuts.</li></ul>
+`,
 floor:`<p>Fortified service: Port and Madeira are stored upright; vintage Port needs decanting. Fortified and dessert wines are a common CMS pairing and upselling topic: blue cheese and Sauternes or Port, chocolate and Banyuls or Maury.</p>`,
 analyst:`<p>WSET Level 3 LO4 covers Port, Sherry, Muscat de Beaumes-de-Venise and Rutherglen Muscat. Madeira, Marsala and other VDNs are Diploma (D5) material. Fortified wines use their own alcohol scale on the SAT.</p>`,
 terms:[["Süssreserve","Unfermented grape juice added for sweetness (Germany)."],["Passito","Wine from dried grapes (Italy)."],["Flor","Yeast film protecting Sherry from oxygen during biological aging."],["Estufagem","Heating Madeira in tanks."],["Canteiro","Aging Madeira casks in warm lofts."],["Vin Doux Naturel","French fortified wine with spirit added during fermentation."],["Cryoextraction","Freezing picked grapes artificially to concentrate the juice."],["Eszencia","The free-run syrup of Tokaji aszú berries: 450 g/L of sugar or more."],["Malmsey","The sweetest of Madeira's noble grapes (Malvasia)."],["Sercial","The driest of Madeira's noble grapes."]],
