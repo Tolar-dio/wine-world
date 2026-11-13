@@ -1,8 +1,14 @@
 // ===== CURRICULUM PART 4: Iberia, Central Europe, New World =====
 L.push({id:"r8", unit:"R3", title:"Spain", mins:20,
-summary:"Rioja's aging ladder, the high plateau of Ribera, Priorat's slate, and Atlantic whites.",
+summary:"Why Spain is high, dry and old-vined, how aging terms came to define its wine, and the regions and grapes that matter, from Rioja to the Atlantic coast.",
 body:`
 <p>Spain has more vineyard land than any other country, much of it on the hot, high <b>Meseta</b> plateau. For decades it made bulk wine; since the 1980s it has become one of the most exciting quality producers in Europe. Spanish labels lean on <b>aging terms</b> more than any other country, a legacy of a market that valued old, mellow wines released ready to drink.</p>
+
+
+<h3>The fact that explains Spain</h3>
+<p>Spain is a high, dry country, and nearly everything about its wine follows from that. The center of the peninsula is a plateau, the Meseta, six hundred to a thousand meters above the sea and ringed by mountains that keep out the rain. Summers reach forty degrees and winters fall well below freezing; rainfall in much of it is under four hundred millimeters a year. Vines survive there by being planted far apart, sometimes fewer than a thousand to the hectare, as low free-standing bushes that shade their own trunks and share what water there is. Such a vineyard yields very little. Spain has more land under vine than any country in the world and makes less wine than Italy or France, because its average yield is about half of theirs.</p>
+<p>Two consequences shaped the industry. Cheap land and low yields made Spain for a century the supplier of strong, dark blending wine to the rest of Europe, sold in bulk by cooperatives. And the heat, the lack of refrigeration and the habit of long storage in wood produced a taste for old, mellow, oxidized wines, which is why Spanish law classifies wine by how long it has been aged before anything else. The modern history of Spanish wine is the story of how both of these were overturned: how growers came to value the old, low-yielding vineyards for what they are, and how the definition of quality moved from the cellar to the vineyard.</p>
+
 <h3>Law</h3>
 <p>From the top: <b>Vino de Pago</b> (single estate), <b>DOCa/DOQ</b> (only Rioja and Priorat), <b>DO</b>, <b>Vino de la Tierra</b>, <b>Vino</b>. National minimum aging for reds: Crianza 2 years (6 months in oak), Reserva 3 years (1 in oak), Gran Reserva 5 years (18 months in oak). Rioja is stricter:</p>
 <table class="t"><tr><th>Rioja red</th><th>Total minimum</th><th>In oak (225 L)</th><th>Back-label seal</th></tr>
@@ -10,28 +16,66 @@ body:`
 <tr><td>Crianza</td><td>24 months</td><td>12 months</td><td>Red</td></tr>
 <tr><td>Reserva</td><td>36 months</td><td>12 months (+6 in bottle)</td><td>Garnet</td></tr>
 <tr><td>Gran Reserva</td><td>60 months</td><td>24 months (+24 in bottle)</td><td>Blue</td></tr></table>
+
+
+<h3>What the aging terms meant, and what they mean now</h3>
+<p>The words Crianza, Reserva and Gran Reserva are a promise about time. They tell the buyer that the producer has kept the wine in barrel and then in bottle for a set period and is releasing it ready to drink. This reverses the usual arrangement, in which the buyer pays for a young wine and stores it. It suited a country where few households had cellars, and it gave Spanish wine a clear identity in export markets: a Gran Reserva from a good house is a mature wine of ten years or more at the price of a young one from elsewhere.</p>
+<p>The weakness of the system is that it says nothing about where the wine was grown or how good the grapes were. Any wine that has spent the required months in oak may carry the term, and the time in wood can disguise ordinary fruit. From the 1990s a group of producers began making wines from their best vineyards, aged for a shorter time in new French barrels and sold without any aging term, at prices above those of the Gran Reservas. They were called <em>vinos de autor</em> or <em>alta expresión</em>. The logic of place has since been written into law in the leading regions, and the two systems now sit side by side: a label may say both where a wine comes from and how long it was aged.</p>
+
 <h3>Rioja</h3>
 <p>Upper Ebro valley, sheltered by the Sierra Cantabria. Three zones: <b>Rioja Alta</b> (higher, cooler, Atlantic-influenced), <b>Rioja Alavesa</b> (Basque, chalky clay, elegant), <b>Rioja Oriental</b> (warmer, Garnacha). Grapes: Tempranillo, Garnacha, Graciano, Mazuelo (Carignan), Maturana; white Viura. In the 1860s Bordeaux merchants fleeing phylloxera and oidium brought barrique aging; Riojans used cheaper American oak, giving the classic dill, coconut and vanilla. Traditionalists: López de Heredia, La Rioja Alta, CVNE, Muga. Since 2017, labels can show zone, municipality and <b>Viñedo Singular</b>.</p>
+
+
+<h3>How Rioja was made</h3>
+<p>Rioja lies in the upper valley of the Ebro, a hundred kilometers from the Atlantic and cut off from it by the Sierra de Cantabria, which stops the rain and the cold wind. It stands at a meeting of climates. The western end, Rioja Alta and Rioja Alavesa, at four to seven hundred meters, receives enough Atlantic influence to be mild and moderately wet, and its clay and limestone soils suit Tempranillo, which ripens early and wants a cool site. The eastern end, lower and open to the Mediterranean down the Ebro, is hot and dry, and suits Garnacha, which needs heat. The classic Rioja was a blend of the two, the structure and acidity of Tempranillo from the west filled out with the warmth of Garnacha from the east, with a little Graciano for scent and Mazuelo for acid.</p>
+<p>The style dates from the 1850s and 1860s and was imported. Two aristocrats who had lived in Bordeaux, the Marqués de Murrieta and the Marqués de Riscal, brought back its methods: fermenting destemmed grapes in large vats and aging the wine in 225-liter barrels. Then came the accident that made the region. Mildew and phylloxera devastated the vineyards of Bordeaux from the 1860s, and French merchants came over the Pyrenees looking for wine to replace what they had lost. The railway reached Haro in 1864, and the great houses of the town were founded around its station in the following decades to supply them. When phylloxera finally reached Rioja about 1900 and the French had replanted, the export trade collapsed, but the method remained.</p>
+<p>The Riojans made two changes to it. They used American oak, which was cheaper because of Spain's trade with its former colonies, and which gives the vanilla, coconut and dill notes of traditional Rioja. And they left the wine in barrel far longer than Bordeaux did, for years, racking it repeatedly from cask to cask, so that it lost its fruit and took on the tawny color and the leather and tobacco flavors of slow oxidation. The trade was organized around this. Thousands of small growers sold grapes or young wine to a few large houses, which blended across the region and did the aging. That structure explains why Rioja was classified by time in the cellar and why, until 2017, a label could not name a village or a vineyard.</p>
+
 <h3>Duero valley</h3>
 <ul><li><b>Ribera del Duero:</b> 700-1,000 m altitude, extreme continental climate with huge diurnal swings. Tempranillo (Tinto Fino / Tinta del País): deeper, more tannic, more black fruit than Rioja. Vega Sicilia Único (the legend, aged 10 years before release), Pingus, Pesquera.</li>
 <li><b>Toro:</b> hotter, powerful Tinta de Toro.</li>
 <li><b>Rueda:</b> Verdejo; crisp, herbal white.</li></ul>
+
+
+<h3>Ribera del Duero: the same grape, a harsher place</h3>
+<p>The Duero crosses the northern Meseta at 750 to 1,000 meters, and Ribera del Duero is among the highest red wine regions in Europe. The climate is as extreme as any that grows fine wine. Winters are long and bitterly cold, frost is possible into May and again from September, the growing season is short, and in summer the temperature may swing twenty degrees between afternoon and night. Tempranillo here, called Tinto Fino, has adapted with smaller berries and thicker skins. The cold nights preserve acidity and the fierce daytime sun builds color and tannin, so the wine is darker, firmer and more concentrated than Rioja, with black fruit where Rioja has red.</p>
+<p>For a century the region was one estate. Vega Sicilia was founded in 1864 by a landowner who had studied in Bordeaux and planted Cabernet, Merlot and Malbec beside the local grape; its wine, aged for ten years in cask and bottle before release, was the most expensive in Spain and almost the only one from the district that was bottled at all. Everything else was made by cooperatives as pale rosé for local drinking. The change came when a grower at Pesquera began in the 1970s to bottle a pure red Tempranillo, which an American critic compared with the great wines of Pomerol. The appellation was created in 1982, when there were about 5,000 hectares of old vines and a handful of wineries. There are now more than 27,000 hectares and over three hundred wineries, and the challenge is that much of the new planting is on the fertile valley floor, on trellises, with clones chosen for yield.</p>
+<p><strong>Toro</strong>, downstream, is lower, hotter and drier, with sandy soils in which many vines survive on their own roots, and its Tempranillo is the most powerful of all. <strong>Rueda</strong>, between them, was a region of fortified, sherry-like wine until the 1970s, when a Rioja house looking for a source of fresh white identified the local Verdejo, picked at night and fermented cold, as the answer. It is now Spain's best-selling white wine.</p>
+
 <h3>Northeast</h3>
 <ul><li><b>Priorat DOCa:</b> steep terraces of <b>llicorella</b> (dark slate and quartz). Old-vine Garnacha and Cariñena; dense, mineral, high alcohol. Revived in the late 1980s by René Barbier and Álvaro Palacios (L'Ermita).</li>
 <li><b>Penedès and Cava:</b> Cava is a DO spread across Spain but about 95% from Penedès. Traditional method, minimum 9 months on lees; Reserva 18, Gran Reserva 30; <b>Cava de Paraje Calificado</b> single-site tier. Some top growers left to form <b>Corpinnat</b>.</li>
 <li><b>Navarra</b> (rosado, Garnacha), <b>Campo de Borja, Calatayud</b> (old-vine Garnacha value).</li></ul>
+
+
+<h3>Priorat and Cava: two inventions</h3>
+<p><strong>Priorat</strong> is a ring of steep hills inland from Tarragona, named for the Carthusian priory that farmed it from the twelfth century. Its soil is <em>llicorella</em>, a dark, brittle slate that splits into plates, glitters with mica and contains almost no organic matter. Rain runs through it. Vine roots follow the cracks down ten meters or more in search of water, and the old Garnacha and Cariñena bushes that grow there give a kilogram of fruit or less each, with great concentration and a marked mineral character. After phylloxera the district was nearly abandoned; the population fell by two thirds and the terraces went back to scrub.</p>
+<p>In 1989 five friends, among them René Barbier and Álvaro Palacios, pooled their grapes from a few plots around the village of Gratallops and made a wine together, each bottling a share under his own label. Within ten years the wines were among the most highly praised in Spain, and one of them, from a small north-facing plot of old Garnacha, the most expensive. Priorat was raised to Spain's top category in 2009, the second region after Rioja. It has under 2,000 hectares and yields that are among the lowest in Europe.</p>
+<p><strong>Cava</strong> was a deliberate imitation that became something of its own. In 1872 Josep Raventós, of the Codorníu family at Sant Sadurní d'Anoia, having seen Champagne, made a bottle-fermented sparkling wine from the local white grapes. The three traditional varieties each do a job: Macabeo gives delicate fruit, Parellada finesse and acidity from the higher vineyards, and Xarel·lo body, a herbal grip and the capacity to age. The climate is Mediterranean, so the grapes ripen fully and the wines are softer and lower in acid than Champagne, with an earthy note. Two very large firms came to dominate, selling at low prices, and the name suffered. The quarrel that followed, over whether a wine defined by a method and made across several regions can express a place, is treated in the next chapter but one.</p>
+
 <h3>Green Spain (Atlantic northwest)</h3>
 <ul><li><b>Rías Baixas</b> (Galicia): Albariño, no oak, saline. Subzones include Val do Salnés and O Rosal.</li>
 <li><b>Ribeiro, Valdeorras</b> (Godello), <b>Ribeira Sacra</b> and <b>Bierzo</b> (Mencía on vertiginous slopes).</li>
 <li><b>Txakoli</b> (Basque): spritzy, poured from height.</li></ul>
+
+
+<h3>The Atlantic exception</h3>
+<p>The northwest corner breaks every rule of Spanish wine. Galicia is green, mild and very wet, with over 1,500 millimeters of rain a year on the coast, and its problem is rot and not drought. In Rías Baixas the vines are trained two meters high on pergolas held up by granite posts, so that air circulates beneath the fruit and the bunches dry after rain. The holdings are tiny, a few rows behind a house, and thousands of growers sell to a few dozen wineries. <strong>Albariño</strong>, small-berried and thick-skinned, resists the damp, ripens with high acidity, and on the granite sand of the coast gives a white with peach and citrus and a salty finish. It was scarcely bottled before the 1980s. Inland, as the rain lessens and the heat increases, the grapes change: Treixadura in Ribeiro, Godello in Valdeorras, and the red Mencía on the slate terraces above the gorges of the Sil and in Bierzo, where it gives a fragrant, medium-bodied red that has drawn comparison with Cabernet Franc and Pinot Noir.</p>
+
 <h3>The southeast</h3>
 <p><b>Jumilla, Yecla, Alicante</b>: Monastrell (Mourvèdre), ripe and powerful. <b>La Mancha</b>: the largest DO in the world by area; Airén and Tempranillo (Cencibel).</p>
+
+
+<p>The southeast is the heartland of bulk wine and of the grape that best survives it. <strong>La Mancha</strong>, on the southern Meseta, is a single vineyard the size of a small country, planted largely with Airén, a white grape of extraordinary drought resistance and little flavor, most of which is distilled. Toward the Mediterranean, in Jumilla, Yecla and Alicante, the grape is <strong>Monastrell</strong>, the Mourvèdre of France, which needs exactly this heat. Much of it is still on its own roots in sandy soils, and old bush vines there give dark, dense, meaty wine at very low prices. <strong>Bobal</strong>, in Utiel-Requena, long used for bulk rosé because of its deep color and high acid, is being bottled seriously for the first time.</p>
+
 <h3>Three Spains</h3>
 <p>Spain has the world's largest vineyard, about 919,000 hectares in 2025, yet ranks only third for the wine it makes. Most of the land is dry, the vines are old and widely spaced, and yields are low.</p>
 <table class="t"><tr><th>Zone</th><th>Climate</th><th>What it means</th></tr>
 <tr><td>Green Spain (northwest)</td><td>Atlantic: cool, very wet</td><td>Vines trained high on pergolas (parra) to lift fruit above the damp; crisp whites</td></tr>
 <tr><td>The Meseta (center)</td><td>Continental: 600 to 900 m, scorching days, cold nights, drought</td><td>Low bush vines (en vaso), widely spaced to share scarce water</td></tr>
 <tr><td>The Mediterranean coast</td><td>Warm, dry, sunny</td><td>Ripe Garnacha, Monastrell and Cava's grapes</td></tr></table>
+
+
 <h3>The grapes in the glass</h3>
 <table class="t"><tr><th>Grape</th><th>Markers</th></tr>
 <tr><td>Tempranillo</td><td>Cherry, plum, leather, tobacco; medium acid. Also Tinto Fino, Tinta de Toro, Cencibel, Ull de Llebre</td></tr>
@@ -46,6 +90,8 @@ body:`
 <tr><td>Viura (Macabeo)</td><td>Neutral when young; nutty in old-style white Rioja</td></tr>
 <tr><td>Xarel·lo</td><td>Body and herbal grip; the backbone of Cava</td></tr>
 <tr><td>Airén</td><td>The most planted white; neutral, much of it distilled for brandy</td></tr></table>
+
+
 <h3>Dates worth knowing</h3>
 <table class="t"><tr><th>Year</th><th>Event</th></tr>
 <tr><td>About 1100 BC</td><td>Phoenicians found Cádiz and plant vines</td></tr>
@@ -56,10 +102,16 @@ body:`
 <tr><td>1986</td><td>Spain joins what is now the EU; investment follows</td></tr>
 <tr><td>1991</td><td>Rioja becomes the first DOCa</td></tr>
 <tr><td>1996</td><td>Irrigation is legalized nationally</td></tr></table>
+
+
+<p>Two of these dates did more than the others. Entry into the European Community in 1986 brought money for stainless steel, refrigeration and replanting, and opened export markets; within a decade the technical standard of ordinary Spanish wine had been transformed. The legalization of irrigation in 1996 changed the vineyard. It made possible the planting of trellised, mechanized vineyards on the Meseta at several times the old yield, which rescued the economics of many growers and also led to the pulling up of a large part of the country's old bush vines.</p>
+
 <h3>Label words</h3>
 <ul><li><b>Cosecha:</b> vintage. <b>Bodega:</b> winery. <b>Viñas viejas:</b> old vines.</li>
 <li><b>Joven:</b> young, little or no oak. <b>Roble:</b> a few months in oak, less than a Crianza.</li>
 <li><b>Tinto, blanco, rosado.</b> <b>Clarete</b> is a pale red made by fermenting red and white grapes together.</li></ul>
+
+
 <h3>Regional matches</h3>
 <table class="t"><tr><th>Wine</th><th>Dish</th></tr>
 <tr><td>Rioja Reserva</td><td>Lamb chops grilled over vine cuttings</td></tr>
@@ -67,7 +119,11 @@ body:`
 <tr><td>Albariño</td><td>Octopus, percebes, any shellfish</td></tr>
 <tr><td>Txakoli</td><td>Anchovies and pintxos</td></tr>
 <tr><td>Cava</td><td>Jamón, fried food</td></tr>
-<tr><td>Monastrell</td><td>Rice with rabbit, grilled meats</td></tr></table>`,
+<tr><td>Monastrell</td><td>Rice with rabbit, grilled meats</td></tr></table>
+
+<h3>Old vines, and what Spain has to offer</h3>
+<p>Spain's distinctive asset is the thing its bulk-wine history left behind. Because much of the country was too poor and too dry to replant, it has more old vines than any other, hundreds of thousands of hectares of bushes fifty to a hundred years old, many of Garnacha, Monastrell, Bobal, Mencía and Cariñena, some never grafted. A generation of growers since the 1990s has sought these out in places the trade had written off: the granite mountains west of Madrid, the terraces of Galicia, the slate of Priorat and Bierzo, the high villages of Aragon. The wines they make are fresher, paler and less oaked than the Spanish wines of twenty years ago. The appellations are following, with classifications by village and vineyard. The result is that Spain, long the country of the aged blend, has become one of the most rewarding in Europe for a buyer interested in place.</p>
+`,
 floor:`<p>CMS Certified examines Albariño (Rías Baixas) and Tempranillo (Rioja Reserva/Gran Reserva) blind. Blind cue: American oak dill and coconut plus leather and dried red fruit, moderate tannin, slightly faded garnet. Wine list check: Vega Sicilia is Ribera del Duero, not Rioja.</p>`,
 analyst:`<p>WSET Level 3 lists Rioja (with its subregions), Ribera del Duero, Toro, Priorat, Navarra, Penedès, Rías Baixas, Rueda, Bierzo, Jumilla, Campo de Borja, Calatayud, Cariñena and La Mancha. Sample MCQ: "Key natural factor in Ribera del Duero?" High altitude.</p>`,
 terms:[["DOCa","Denominación de Origen Calificada; Rioja and Priorat."],["Crianza","Spanish aging tier; in Rioja 2 years with 1 in oak."],["Gran Reserva","Top Spanish aging tier; Rioja 5 years, 2 in oak, 2 in bottle."],["Llicorella","Slate and quartz soil of Priorat."],["Tinto Fino","Tempranillo in Ribera del Duero."],["En vaso","Bush-vine training, widely spaced, for dry climates."],["Parra","Pergola training used in Galicia to lift fruit above the damp."],["Roble","A red with a few months in oak, less than a Crianza."],["Cosecha","Vintage."],["Clarete","Pale red made by fermenting red and white grapes together."],["Bobal","Dark, high-acid red grape of Utiel-Requena."]],

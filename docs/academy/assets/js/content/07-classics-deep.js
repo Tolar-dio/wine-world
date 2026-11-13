@@ -616,8 +616,11 @@ quiz:[
 ]});
 
 L.push({id:"r8b", unit:"R3", title:"Spain Beyond Rioja: The Full DO Map", mins:16,
-summary:"Region by region from Galicia to the Canary Islands.",
+summary:"The rest of the Spanish map by cause: Galicia, the Duero, Aragon, Catalonia, the Levante, the islands and Andalusia, and why the new Spain happened.",
 body:`
+<p>Rioja and Ribera del Duero account for most of what the world knows of Spanish wine and a small part of what Spain grows. This chapter walks the rest of the map. The table that opens it gives the names. What follows gives the reasons: what each group of regions has in the way of climate and rock, which grapes history left there, and why so many places that were anonymous thirty years ago are now sought after.</p>
+
+
 <p>Spain has around 70 DOs plus Vinos de Pago. Learn them in seven groups.</p>
 <table class="t"><tr><th>Area</th><th>Key DOs</th><th>What to know</th></tr>
 <tr><td>Galicia (Atlantic)</td><td>Rías Baixas, Ribeiro, Ribeira Sacra, Valdeorras, Monterrei</td><td>Albariño, Treixadura, Godello, Mencía; rainy, green, granite and slate</td></tr>
@@ -628,21 +631,56 @@ body:`
 <tr><td>The Levante and Center</td><td>Valencia, Utiel-Requena, Alicante, Jumilla, Yecla, Bullas, La Mancha, Valdepeñas, Manchuela, Vinos de Madrid</td><td>Bobal in Utiel-Requena; Monastrell; Alicante's Fondillón (aged, naturally sweet Monastrell); Sierra de Gredos old-vine Garnacha</td></tr>
 <tr><td>Andalucía</td><td>Jerez-Xérès-Sherry, Manzanilla-Sanlúcar de Barrameda, Montilla-Moriles, Málaga, Sierras de Málaga, Condado de Huelva</td><td>Fortified and sweet traditions; Málaga's sweet Moscatel and PX</td></tr>
 <tr><td>Islands</td><td>Binissalem, Pla i Llevant (Mallorca); Tenerife DOs, Lanzarote, La Palma</td><td>Canary Islands: ungrafted vines in volcanic soils, Listán Negro and Listán Blanco; Lanzarote vines in black-ash pits behind stone walls</td></tr></table>
+
+
+<h3>Galicia: granite, slate and rain</h3>
+<p>Galicia faces the Atlantic on two sides and takes the full force of its weather. The landscape is the opposite of the popular picture of Spain: wooded, wet, cut by deep river valleys, with granite on the coast and slate inland. Five appellations follow the rivers from the sea toward the interior, and they form a gradient. <strong>Rías Baixas</strong>, on the coast, is the wettest and coolest, and makes Albariño with the sharpest acidity; its oldest district, Val do Salnés, a low granite plain open to the ocean, is the reference. <strong>Ribeiro</strong>, fifty kilometers up the Miño, is warmer and was the most famous wine region of northwestern Spain in the Middle Ages, shipping to England; its white is a blend based on Treixadura. <strong>Ribeira Sacra</strong> occupies the gorges of the Sil and the Miño, where terraces built by monks climb at angles that allow no machinery. Grapes are carried up by hand or lowered to boats on the river. <strong>Valdeorras</strong>, the furthest inland, on slate at four to seven hundred meters, has the grape that some consider Spain's finest white, Godello, which was down to a few hundred vines in the 1970s when a local project set out to save it.</p>
+<p>Property in Galicia is divided into extremely small plots by centuries of inheritance, and the rural population has been leaving for two generations. The steep sites are being abandoned faster than they are being recovered, which gives urgency to the work of the growers who have made the region's reputation.</p>
+
+<h3>Castilla y León and the Duero</h3>
+<p>The Duero and its tributaries drain the northern Meseta, and the appellations along them share altitude, cold nights and a short season. Beyond the three famous ones, three more deserve attention. <strong>Bierzo</strong>, in the far northwest of the region, is a transition between the plateau and Galicia: a sheltered basin with a mild, fairly wet climate, where Mencía grows on low alluvial soils and, far better, on steep slate hillsides around villages such as Corullón. Its revival dates from the late 1990s, when a member of the Palacios family of Rioja and Priorat came looking for old vines on slate. <strong>Cigales</strong>, north of Valladolid, was historically the source of pale <em>clarete</em> for the court. <strong>Arribes</strong>, in the canyon of the Duero on the Portuguese border, keeps a collection of rare local grapes. Sandy soils across the region have preserved many ungrafted vineyards, including old Verdejo in the pine country south of Rueda.</p>
+
+<h3>Aragon and the home of Garnacha</h3>
+<p>Garnacha is the most widely traveled grape of the Mediterranean, the Grenache of France and the Cannonau of Sardinia, and the weight of evidence places its origin in Aragon, in the dry hills south of the Ebro. Three appellations there, <strong>Campo de Borja</strong>, <strong>Calatayud</strong> and <strong>Cariñena</strong>, hold thousands of hectares of old bush vines at five hundred to a thousand meters on stony soils of slate and red clay. Until the 1990s nearly all of it went into bulk wine through cooperatives. When export merchants began bottling the fruit of the oldest plots separately, the wines, dark, ripe and scented with red fruit and herbs, sold for very little and were a revelation. They remain the best value in Spanish red. Cariñena also gave its name to the grape known in France as Carignan, though it is now a minor variety there. <strong>Somontano</strong>, in the green foothills of the Pyrenees, took the opposite course and built a modern industry on Cabernet, Merlot and Chardonnay.</p>
+
+<h3>Catalonia beyond Priorat</h3>
+<p>Catalonia has the most varied wine country in Spain within the smallest area, from the coast to the Pyrenees. <strong>Penedès</strong>, behind Barcelona, rises in three steps from the hot coast to cool uplands at eight hundred meters, and was the laboratory of modern Spanish wine. In the 1960s and 1970s the Torres family introduced stainless steel, cold fermentation and French grape varieties there, and in 1979 one of their Cabernets was placed above the leading Bordeaux in a famous Paris tasting. <strong>Montsant</strong> surrounds Priorat in a horseshoe and shares its grapes on more varied soils at a third of the price. <strong>Terra Alta</strong>, high and windy on the border with Aragon, specializes in white Garnacha, full, textured and herbal. <strong>Empordà</strong>, on the French border, is swept by the tramontane and makes both dry wines and a sweet, aged Garnacha. <strong>Conca de Barberà</strong> has the local red Trepat, pale and peppery.</p>
+
+<h3>The center and the Levante</h3>
+<p>The southern Meseta and the Mediterranean coast behind Valencia and Alicante are the regions where the shift in Spanish wine is most visible, because they began from the lowest base. Their native red grapes, <strong>Bobal</strong> and <strong>Monastrell</strong>, were valued for a century only for the color and alcohol they added to other people's wine. Both are thick-skinned, drought-resistant and late-ripening, and both, from old vines at altitude, give wines of real character: Bobal dark and fresh with a firm acid line, Monastrell dense, sweet-fruited and savory. In the mountains west of Madrid, the <strong>Sierra de Gredos</strong>, growers have recovered abandoned plots of Garnacha on decomposed granite at up to 1,200 meters, where cold nights and sandy soils give a pale, scented, fine wine that overturned the idea of what the grape could be. The district lies across three appellations and has no name of its own on the legal map, which is itself a comment on how recently it was noticed.</p>
+
 <h3>Vinos de Pago</h3>
 <p>Single-estate appellations with their own rules, mostly in Castilla-La Mancha and Navarra (e.g., Dominio de Valdepusa, the first, in 2003). Prestige varies; it's a legal category, not a guarantee.</p>
+
+
+<p>The category was created by the national wine law of 2003, at the top of the legal pyramid, for single estates with a distinct climate and soil and a record of quality, and it lets such an estate write its own rules. The idea came from producers in Castilla-La Mancha who wished to separate themselves from the vast regional appellation around them, and most of the twenty-odd estates recognized are in that region and in Navarra, often growing French varieties. Few of the country's most admired producers have sought it, and the best vineyards of Rioja, Priorat and Bierzo are classified within their own appellations by a different route. A candidate should know the term, its position and its first holder, and should not assume that it marks the summit of quality.</p>
+
 <h3>The new Spain</h3>
 <p>The most exciting movement is a return to old vines and native grapes: Gredos Garnacha (Comando G), Ribeira Sacra Mencía, Canary Islands volcanic wines (Envínate, Suertes del Marqués), Bierzo village and single-site wines (Raúl Pérez, Descendientes de J. Palacios), and Rioja's new village and Viñedo Singular labels.</p>
+
+
+<h3>Why the new Spain happened</h3>
+<p>The movement described here has common causes. Its leaders were mostly trained abroad or in Rioja and Priorat, and went looking for what those regions no longer had: cheap land with very old vines. They found it in the places the twentieth century had emptied, where nobody had been able to afford to replant. They worked in ways that were both old and newly fashionable, farming without chemicals, picking earlier, fermenting with whole bunches and native yeast, and aging in large old casks, concrete or clay in place of new barrels. And they sold abroad, to importers and critics in search of freshness and a sense of place, before they were known at home. The results have changed the image of the country. They have also changed its law, because the classifications by village and vineyard adopted in Bierzo, Priorat and Rioja were written largely at the urging of these growers.</p>
+
 <h3>The islands in more detail</h3>
 <ul><li><b>The Canaries</b> never had phylloxera, so vines are ungrafted and often very old.</li>
 <li><b>Lanzarote:</b> at La Geria each vine sits in its own pit dug through black volcanic ash, behind a low crescent wall that blocks the wind. The ash traps the dew. The grape is Malvasía Volcánica.</li>
 <li><b>Tenerife:</b> in the Valle de la Orotava vines are trained in the <b>cordón trenzado</b>, braided cordons many meters long. Vineyards climb the slopes of Mount Teide to about 1,700 meters.</li>
 <li><b>Grapes:</b> Listán Blanco is Palomino. Listán Negro gives pale, peppery, smoky reds. Negramoll is Madeira's Tinta Negra.</li>
 <li><b>Mallorca:</b> native reds Manto Negro and Callet, and the white Prensal.</li></ul>
+
+
+<h3>Volcanic islands</h3>
+<p>The Canary Islands lie off the coast of Morocco at the latitude of the Sahara, and make wine only because of altitude and the trade winds, which bring cool, humid air from the northeast and pile cloud against the northern slopes of the islands. Their wines were famous in Shakespeare's England under the name of Canary sack, a sweet Malvasía. Isolation has preserved two things. The islands never had phylloxera, so every vine is on its own roots and some vineyards are centuries old. And they kept grape varieties brought from Spain and Portugal in the fifteenth and sixteenth centuries that were later lost on the mainland; one of them, Listán Prieto, was taken to the Americas by the conquistadors and became the Mission grape of California and the País of Chile.</p>
+<p>The methods of cultivation are adaptations to an extreme setting. On <strong>Lanzarote</strong>, where eruptions in the 1730s buried the best farmland under meters of black ash, growers dig a funnel through the ash to the soil beneath and plant one vine at the bottom, with a low semicircular wall on the windward side. The ash, which is porous, absorbs moisture from the night air and releases it to the roots, in a place with almost no rain. A hectare holds only a few hundred vines. On <strong>Tenerife</strong>, in the Orotava valley, the vines are trained as long braided ropes of old wood, several meters in length, which can be lifted and moved aside to grow other crops beneath. The wines have a smoky, saline, slightly reductive character that tasters attribute to the volcanic soils.</p>
+
 <h3>Four styles worth a closer look</h3>
 <ul><li><b>Sierra de Gredos.</b> Old bush-vine Garnacha on granite at 800 to 1,200 meters, west of Madrid. Pale, perfumed and fine-boned, nearer to Pinot Noir than to Châteauneuf. It straddles three appellations: Méntrida, Vinos de Madrid and Cebreros.</li>
 <li><b>Ribeira Sacra.</b> Slate terraces dropping into the gorges of the Sil and Miño, worked by hand. This is "heroic viticulture". Mencía here is light, floral and fresh.</li>
 <li><b>Txakoli.</b> Three Basque DOs: Getariako, Bizkaiko and Arabako. Light, tart, slightly spritzy, about 11%.</li>
 <li><b>Fondillón.</b> Alicante's historic wine: Monastrell left to overripen on the vine, fermented to at least 16% with no spirit added, then aged at least ten years in old casks, often in a solera. Nutty and off-dry, like an unfortified tawny.</li></ul>
+
+
 <h3>Producers to know</h3>
 <table class="t"><tr><th>Area</th><th>Names</th></tr>
 <tr><td>Rías Baixas</td><td>Pazo de Señoráns, Do Ferreiro, Zárate</td></tr>
@@ -654,12 +692,21 @@ body:`
 <tr><td>Jumilla, Yecla</td><td>Casa Castillo, El Nido, Castaño</td></tr>
 <tr><td>Gredos</td><td>Comando G, Daniel Landi, Bernabeleva</td></tr>
 <tr><td>Canary Islands</td><td>Envínate, Suertes del Marqués, Los Bermejos</td></tr></table>
+
+
 <h3>Where the value is</h3>
 <ul><li><b>Old-vine Garnacha</b> from Campo de Borja and Calatayud.</li>
 <li><b>Monastrell</b> from Jumilla and Yecla.</li>
 <li><b>Verdejo</b> from Rueda and <b>Godello</b> from Valdeorras as alternatives to Sauvignon Blanc and Chardonnay.</li>
 <li><b>Mencía</b> from Bierzo for guests who like Pinot Noir or Cabernet Franc.</li>
-<li><b>Cava</b> with long lees aging, at half the price of Champagne.</li></ul>`,
+<li><b>Cava</b> with long lees aging, at half the price of Champagne.</li></ul>
+
+<h3>Andalusia beyond Sherry</h3>
+<p>The south has more than its famous fortified wine, which has chapters of its own. <strong>Montilla-Moriles</strong>, inland near Córdoba, is hotter and higher than Jerez, and its grape, Pedro Ximénez, ripens to such high sugar that its fino reaches fifteen percent alcohol without fortification. The district is also the source of most of the sweet Pedro Ximénez sold by the Sherry houses, made from grapes dried on mats in the sun. <strong>Málaga</strong> was among the most celebrated sweet wines in the world in the eighteenth and nineteenth centuries, and was almost destroyed by phylloxera, which arrived there in 1878, earlier than anywhere else in Spain. In the steep slate hills behind the coast, the Axarquía, a few growers still dry Muscat of Alexandria on south-facing terraces, and a revival of both sweet and dry wines from those old vines is among the most interesting developments in the south.</p>
+
+<h3>How to learn the map</h3>
+<p>Seventy appellations become manageable when they are grouped by what causes them. The Atlantic rim is wet and cool and makes white wine and light reds from Albariño, Godello, Mencía and the Basque grapes. The northern plateau is high and continental and makes Tempranillo under several names, with Verdejo for white. The Ebro valley and its hills make Tempranillo in the west and Garnacha in the east. The Mediterranean arc, from Catalonia to Murcia, makes Garnacha, Cariñena, Monastrell and Bobal, and the country's sparkling wine. The south makes fortified and sweet wines. And the islands are volcanic, ungrafted and unlike anything else. For each region a candidate needs one grape, one fact about its ground and one producer, and the table at the head of this chapter supplies the names on which to hang them.</p>
+`,
 floor:`<p>Spain is the best value section of most lists. Bobal, Monastrell, Mencía, Godello and Canary reds give sommeliers interesting bottles at accessible prices.</p>`,
 analyst:`<p>WSET Level 3 names Rías Baixas, Bierzo, Rueda, Toro, Ribera, Rioja, Navarra, Calatayud, Campo de Borja, Cariñena, Priorat, Penedès, Jumilla and La Mancha. The Spanish Wine Scholar goes deeper still.</p>`,
 terms:[["Vino de Pago","Spanish single-estate appellation."],["Bobal","Red grape of Utiel-Requena."],["Fondillón","Aged, naturally sweet Monastrell from Alicante."],["Listán Negro","Red grape of the Canary Islands."],["Cordón trenzado","Tenerife's braided-cordon vine training."],["Malvasía Volcánica","White grape of Lanzarote."],["Gredos","Mountain range west of Madrid known for old-vine Garnacha."],["Heroic viticulture","Farming on slopes too steep for machines."]],
