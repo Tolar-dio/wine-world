@@ -479,8 +479,11 @@ quiz:[
 ]});
 
 L.push({id:"r7b", unit:"R2", title:"The Italian DOCG Map", mins:18,
-summary:"Italy's top-tier appellations region by region, with their grapes.",
+summary:"The DOCG list by region, what the grade guarantees and does not, how a wine is promoted, why the map is uneven, and why some of the best wines stay outside it.",
 body:`
+<p>A list of seventy-nine names is the least interesting way to meet Italian wine and the form in which examinations most often ask for it. This chapter gives the list and then does what a list cannot: it explains what the top grade of Italian wine law means, how a wine reaches it, why the map of DOCGs is so uneven, and why some of the country's best wines are not on it. A candidate who understands the reasons will remember the names with far less effort.</p>
+
+
 <p>Italy has around 79 DOCGs and the list changes. You don't need every obscure one to pass Certified or Level 3, but Advanced, Diploma and the Italian Wine Scholar expect most. Learn them by region, each with its grape.</p>
 <table class="t"><tr><th>Region</th><th>Key DOCGs (grape)</th></tr>
 <tr><td>Piedmont</td><td>Barolo, Barbaresco, Roero, Gattinara, Ghemme (Nebbiolo); Barbera d'Asti, Nizza, Barbera del Monferrato Superiore (Barbera); Dogliani, Diano d'Alba, Ovada (Dolcetto); Gavi (Cortese); Asti and Moscato d'Asti (Moscato Bianco); Brachetto d'Acqui; Erbaluce di Caluso; Alta Langa (traditional-method sparkling); Ruchè di Castagnole Monferrato</td></tr>
@@ -499,13 +502,33 @@ body:`
 <tr><td>Calabria</td><td>Cirò Classico (among the newest)</td></tr>
 <tr><td>Sicily</td><td>Cerasuolo di Vittoria (Nero d'Avola + Frappato), the island's only DOCG</td></tr>
 <tr><td>Sardinia</td><td>Vermentino di Gallura</td></tr></table>
+
+
+<h3>What the grade guarantees</h3>
+<p>DOCG stands for <em>denominazione di origine controllata e garantita</em>, and the last word is the difference. A DOC controls where a wine comes from, which grapes it is made of, how much may be harvested and how long it must be aged. A DOCG adds a guarantee by the state. Every batch must be analyzed in a laboratory and tasted by an official panel before it is bottled, the wine must be bottled within the zone, and each bottle carries a numbered paper strip over the cork, issued by the government printing office in a quantity that matches the declared volume. The strip makes it possible to trace a bottle and impossible, in principle, to sell more wine than was made.</p>
+<p>What the grade does not guarantee is that the wine is among the best in Italy. It certifies that rules were followed, and the rules are written by the producers of each zone and vary greatly in ambition. Some DOCGs set yields low and aging long. Others permit yields that no serious grower would use. The tasting panels reject wine that is faulty and seldom wine that is merely dull. For this reason the grade is best read as a statement about a zone's history and political organization as much as about its quality.</p>
+
+<h3>How a wine is promoted</h3>
+<p>The law sets a path. A wine must have been a DOC for at least seven years, and its producers must show that it has acquired a particular reputation and commercial value, in Italy and abroad. The application is made by the consortium of producers, examined by the region and by a national committee in Rome, and confirmed by ministerial decree and by registration with the European Union. In practice the decisive factors are the unity of the producers and the support of the regional government, since a divided zone cannot agree on the stricter rules that promotion requires.</p>
+<p>The first four, in 1980, were the obvious ones: Brunello, Vino Nobile, Barolo and Barbaresco, wines with a long record and a clear identity. Chianti followed in 1984, and with it the first controversy, because the grade was given to the whole of the enlarged Chianti and so to a great deal of ordinary wine. The first white, Albana di Romagna in 1987, was more controversial still: a wine of modest reputation, promoted, it was widely said, because its region had the political weight to obtain it. Since then the list has grown steadily, from about a dozen in 1990 to more than seventy today.</p>
+
+<h3>Why the map is uneven</h3>
+<p>Piedmont has nineteen DOCGs, the Veneto fourteen and Tuscany eleven, while four regions have none. The imbalance reflects how each region chose to use the system. Piedmont is a region of many small, distinct hill zones, each with its own grape and its own consortium, and it has no IGT category at all: every wine must be a DOC or a DOCG, so promotion is the only way up. The Veneto and Tuscany have large, well-organized consortia and wines with international markets. At the other extreme, Trentino-Alto Adige has no DOCG because it has never wanted one. Its producers use a single provincial DOC with the grape variety on the label, in the German manner, and consider that their reputation rests on the cooperative or estate name. Liguria, Valle d'Aosta and Molise are simply too small.</p>
+<p>A second pattern is the DOCG created for one tier of an existing wine. Soave, Bardolino, Valtellina and Aglianico del Vulture each kept a large DOC for the bulk of production and obtained a DOCG for a Superiore or Riserva version with lower yields and longer aging. The device lets a zone hold the top grade without imposing strict rules on everyone, and it explains why a famous name may be DOC on one label and DOCG on another. Verdicchio, Primitivo di Manduria and Castel del Monte did the same.</p>
+
 <h3>Patterns that make it stick</h3>
 <ul><li>Piedmont, Veneto and Tuscany hold the most DOCGs; Piedmont leads.</li>
 <li>Several DOCGs exist only for <b>Superiore</b> or <b>Riserva</b> versions of a DOC (Verdicchio Riserva, Aglianico del Vulture Superiore, Soave Superiore).</li>
 <li>Sweet-wine DOCGs cluster in the northeast (Recioto, Ramandolo, Picolit).</li>
 <li>Trentino-Alto Adige, Valle d'Aosta, Liguria and Molise have no DOCG.</li></ul>
+
+
 <h3>Watch for name traps</h3>
 <p>Montepulciano d'Abruzzo (grape) vs Vino Nobile di Montepulciano (town, Sangiovese). Vernaccia di San Gimignano (white) vs Vernaccia di Serrapetrona (sparkling red). Moscato d'Asti (frizzante, about 5%) vs Asti (spumante, higher pressure, about 7-9.5%).</p>
+
+
+<p>The name traps are not accidents. Italian wines are named in three different ways, and the confusion arises where the systems collide. Some are named for a place alone, as Barolo and Chianti are. Some are named for a grape and a place, as Barbera d'Asti and Montepulciano d'Abruzzo are. And a few are named for a style or a legend, as Vino Nobile and Cerasuolo are. Montepulciano is both a Tuscan town and an unrelated grape of the Adriatic. Vernaccia is a name given in the Middle Ages to several unrelated local grapes, from a Latin word meaning native, which is why a Tuscan white, a sparkling red of the Marche and a Sardinian wine aged under yeast share it. Cerasuolo means cherry-colored and was applied independently to a rosé in Abruzzo and a red in Sicily. Knowing how the name was formed is usually enough to resolve it.</p>
+
 <h3>How the ladder was built</h3>
 <table class="t"><tr><th>Year</th><th>Step</th></tr>
 <tr><td>1963</td><td>The first national law creates DOC</td></tr>
@@ -516,6 +539,12 @@ body:`
 <ul><li>A wine must usually have been a DOC for years before it can be promoted.</li>
 <li>Every DOCG wine is analyzed and tasted by a panel before bottling.</li>
 <li>Each bottle carries a numbered neck strip, the <b>fascetta</b>: pink for red wine, green for white.</li></ul>
+
+
+<h3>The law behind the ladder</h3>
+<p>The dates in the table mark four different ideas about what a wine law is for. The law of 1963 was a record: it wrote down existing practice in order to protect names from misuse, and in doing so it fixed in law the high yields and weak blends of the period. The DOCG, introduced in the same law and first applied in 1980, added enforcement. The law of 1992, named for the minister Giovanni Goria, was a response to the wines that had left the system. It created the IGT tier so that they could be labeled with a region and a vintage, allowed appellations to recognize subzones, villages and single vineyards, and set out the idea of a pyramid in which smaller areas carry stricter rules. The European reform of 2008 folded the Italian grades into the Union's two categories, protected designation of origin and protected geographical indication, and moved the final authority over the rules to Brussels, though the Italian terms remain on labels.</p>
+<p>The trend since then has been toward place. Barolo and Barbaresco mapped their vineyards. Chianti Classico defined village districts and restricted its top tier to native grapes. Soave, Etna, Vino Nobile, Bardolino, Abruzzo and Cirò have each introduced named subzones. The newest DOCGs follow the same logic: they are carved out of larger appellations to isolate a district with a claim to distinction, as Nizza was from Barbera d'Asti and Canelli from Asti. Italy is moving, a century after France, from appellations defined by recipe toward appellations defined by geography.</p>
+
 <h3>Label words inside a DOCG</h3>
 <table class="t"><tr><th>Word</th><th>Meaning</th></tr>
 <tr><td>Classico</td><td>The historic heart of the zone</td></tr>
@@ -524,6 +553,10 @@ body:`
 <tr><td>Vigna</td><td>A single named vineyard</td></tr>
 <tr><td>MGA, UGA</td><td>An officially named area inside the zone, as in Barolo and Chianti Classico</td></tr>
 <tr><td>Passito</td><td>Made from dried grapes</td></tr></table>
+
+
+<p>These words have legal definitions that differ from one appellation to another, which is a common source of error. <em>Riserva</em> in Barolo means sixty-two months of aging; in Chianti Classico, twenty-four; in a white wine it may mean one year. <em>Superiore</em> usually means half a degree or a degree more alcohol and a lower yield, but in some zones it is the name of the DOCG itself. <em>Classico</em> always refers to a delimited historic area and never to a style or a method, with one exception worth knowing: <em>metodo classico</em> on a sparkling wine means bottle fermentation and has nothing to do with geography.</p>
+
 <h3>From the grape's side</h3>
 <table class="t"><tr><th>Grape</th><th>Its DOCGs</th></tr>
 <tr><td>Nebbiolo</td><td>Barolo, Barbaresco, Roero, Gattinara, Ghemme, Valtellina Superiore, Sforzato</td></tr>
@@ -535,18 +568,33 @@ body:`
 <tr><td>Glera</td><td>Conegliano Valdobbiadene, Asolo</td></tr>
 <tr><td>Garganega</td><td>Soave Superiore, Recioto di Soave</td></tr>
 <tr><td>Verdicchio</td><td>Castelli di Jesi Riserva, Matelica Riserva</td></tr></table>
+
+
 <h3>Famous wines that are not DOCG</h3>
 <p>Fame and rank are different things. All of these are DOC: Bolgheri and Bolgheri Sassicaia, Valpolicella and Valpolicella Ripasso, Soave and Soave Classico, Prosecco (the large zone), every Lambrusco, Montepulciano d'Abruzzo, Langhe Nebbiolo, Barbera d'Alba, Trento sparkling, Vin Santo, and dry Primitivo di Manduria. Tignanello and the first Super Tuscans are IGT.</p>
+
+
+<h3>Why some of the best wines stay outside</h3>
+<p>The list of famous wines without the top grade has three explanations, and each says something about the system. Some zones prefer flexibility. Bolgheri's producers have never sought promotion, because the DOC already carries a higher price than most DOCGs and stricter rules would bring them nothing. Others are too large and too commercial for a tasting panel and numbered strips to be practical, as with Prosecco on the plain, which sells more than six hundred million bottles. And some wines are outside by design. The first Super Tuscans left their appellations because the rules forbade what their makers wanted to do, and many remain IGT although the rules have since changed, because the wine's name is now worth more than any grade. The same is true of several of the most admired producers of Piedmont, Friuli and Sicily, who declassify wines to keep their freedom over grapes, yields or methods.</p>
+<p>The practical lesson is to treat the grade as one piece of evidence among several. For a wine from a zone with a strong identity and strict rules, such as Barolo, Brunello or Taurasi, DOCG is a reliable sign. For a large zone, it says little. For the most ambitious estates, the absence of any grade may be a deliberate statement.</p>
+
 <h3>More name traps</h3>
 <ul><li><b>Cerasuolo d'Abruzzo</b> is a deep cherry-colored rosé from Montepulciano, and a DOC. <b>Cerasuolo di Vittoria</b> is a red DOCG from Sicily.</li>
 <li><b>Roero</b> DOCG covers Nebbiolo reds and the white <b>Roero Arneis</b>.</li>
 <li><b>Chianti</b> and <b>Chianti Classico</b> are two separate DOCGs with different rules.</li>
 <li><b>Amarone</b> and <b>Recioto</b> are DOCG; <b>Ripasso</b>, made on their skins, is DOC.</li>
 <li><b>Brachetto d'Acqui</b> is sweet, red and sparkling. <b>Gavi</b> is white, from Cortese.</li></ul>
+
+
 <h3>How to learn it</h3>
 <ol><li>First the twenty or so that appear on every wine list.</li>
 <li>Then one region at a time, north to south, saying the grape aloud with each name.</li>
-<li>Then test yourself from the grape's side, using the table above.</li></ol>`,
+<li>Then test yourself from the grape's side, using the table above.</li></ol>
+
+<h3>A regional walk through the list</h3>
+<p>Said aloud from north to south, the list tells the story of the country. <strong>Piedmont's</strong> names are a catalogue of its hills: five for Nebbiolo, three each for Barbera and Dolcetto, two for Moscato, and single ones for local curiosities such as the aromatic red Ruchè and the white Erbaluce, which is made dry, sparkling and as a sweet passito. Alta Langa, for bottle-fermented sparkling wine from high vineyards, is the newest idea among them. <strong>Lombardy's</strong> four are two sparkling wines and two forms of mountain Nebbiolo. The <strong>Veneto's</strong> are built on its three methods: drying, in Amarone and the two Reciotos; the tank, in the two Proseccos; and hillside whites.</p>
+<p><strong>Tuscany's</strong> are nearly all Sangiovese, which makes the exceptions easy to remember: a white from San Gimignano, a sweet red from the island of Elba, and the Bordeaux blends of Suvereto on the coast. The <strong>center</strong> offers one great white grape in two zones, one very tannic red, and Montepulciano under several names. The <strong>south</strong> is Aglianico three times over, the two whites of Irpinia, and a scatter of single names: one for Basilicata, one for Calabria, one for Sicily, one for Sardinia. The thinness of the list in the south, compared with the quality of what is grown there, is the clearest sign that the grade measures organization more than merit, and that the map will continue to change.</p>
+`,
 floor:`<p>DOCG matching items are classic Certified/Advanced fodder: "Which grape is used for Taurasi?" "Which DOCG is the only one in Sicily?" Drill them in the Matching room.</p>`,
 analyst:`<p>The Italian Wine Scholar Unit 1 covers the north and Unit 2 the center and south; both test DOCGs, grapes and styles at this depth.</p>`,
 terms:[["Albana di Romagna","Italy's first white DOCG (1987)."],["Alta Langa","Piedmont traditional-method sparkling DOCG."],["Cerasuolo di Vittoria","Sicily's only DOCG."],["Tullum","Abruzzo DOCG near Tollo."],["Fascetta","The numbered neck strip on a DOCG bottle: pink for red, green for white."],["Goria law","1992 law that added IGT and single-vineyard names."],["Vigna","A single named vineyard on an Italian label."],["Cerasuolo d'Abruzzo","Deep rosé DOC made from Montepulciano."]],
