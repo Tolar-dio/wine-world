@@ -113,41 +113,75 @@ quiz:[
 ]});
 
 L.push({id:"r18", unit:"R5", title:"England and the Emerging Wine World", mins:14,
-summary:"English sparkling, Uruguay, Brazil, Mexico, China, Japan and India.",
+summary:"Why England makes sparkling wine, the return of hybrids, Latin America's other producers, Asia in detail, and how to reason about a wine you have never met.",
 body:`
+<p>The map of wine is being redrawn at its margins. Regions once too cold are ripening grapes, countries with no reputation are making wine that wins international tastings, and old producers long ignored by the trade are finding buyers. This chapter covers the most important of these: England, the smaller countries of Latin America, Asia, and the American states beyond the Pacific coast. None requires the detailed knowledge of the classic regions. Each offers a case study in how wine adapts to an unusual place, and all are increasingly likely to appear on a wine list or in an examination.</p>
+
 <h3>England</h3>
 <p>Climate change has turned southern England into a serious sparkling-wine region. The chalk of the North and South Downs is the same geological seam as Champagne. Traditional-method wines from Chardonnay, Pinot Noir and Meunier dominate; still Bacchus and Pinot Noir are improving. <b>Sussex</b> gained its own PDO in 2022, the first for a whole English county (Cornwall's single-vineyard Darnibole PDO dates from 2017). Producers: Nyetimber, Ridgeview, Gusbourne, Chapel Down, Hambledon. Several Champagne houses (Taittinger, Pommery partnerships) have invested.</p>
-<h3>Latin America beyond Argentina and Chile</h3>
-<ul><li><b>Uruguay:</b> Atlantic-influenced, humid; <b>Tannat</b> is the national grape, softer than Madiran. Canelones near Montevideo produces most; Maldonado on the coast is the quality frontier.</li>
-<li><b>Brazil:</b> Serra Gaúcha in the far south; traditional-method and Moscatel sparkling wine are its strength.</li>
-<li><b>Mexico:</b> Casa Madero in Coahuila (founded 1597) is the oldest winery in the Americas. Baja California's <b>Valle de Guadalupe</b> makes most of the country's wine: Mediterranean climate, Nebbiolo, Tempranillo and blends.</li>
-<li><b>Bolivia and Peru:</b> very high-altitude vineyards in Tarija; Peru's grapes mostly become Pisco.</li></ul>
-<h3>Asia</h3>
-<ul><li><b>China:</b> now among the world's largest vineyard areas (much for table grapes). <b>Ningxia</b>, at the foot of the Helan Mountains, makes Bordeaux-style reds; winters are so cold vines are buried for protection. LVMH's Ao Yun grows Cabernet high in Yunnan near the Himalayas. Penfolds and others have invested.</li>
-<li><b>Japan:</b> the native-adapted <b>Koshu</b> grape in Yamanashi (delicate, citrusy whites); Hokkaido is emerging for Pinot Noir and sparkling.</li>
-<li><b>India:</b> Nashik in Maharashtra; Sula Vineyards is the leading producer.</li></ul>
-<h3>The United States beyond the West Coast</h3>
-<p>Every US state makes wine. Notables: Virginia (Viognier, Cabernet Franc, Petit Manseng), Texas Hill Country (Tempranillo, Rhône grapes), Michigan (Riesling), Idaho (Snake River Valley), Arizona, and New Mexico (Gruet sparkling).</p>
-<h3>Why these matter</h3>
-<p>Emerging regions test your reasoning more than your memory. In blind tasting, an "impossible" wine (English Pinot, Uruguayan Tannat) is solvable if you trust structure. On the floor, they let you offer value and novelty.</p>
+
+
+<h3>Why England makes sparkling wine</h3>
+<p>England lies between fifty and fifty-two degrees north, beyond the old northern limit of commercial viticulture. Its summers are cool and often wet, and until recently grapes ripened fully in only a few years in ten. Those are poor conditions for still wine and close to ideal for sparkling, which needs grapes picked at low sugar and very high acidity with ripe flavor, the result of a long, slow season. Average temperatures in the growing season in southeast England have risen by about a degree since the 1980s, enough to bring the three Champagne grapes to that point in most years.</p>
+<p>The geology is a second advantage. The chalk that underlies Champagne dips beneath the Channel and reappears in the Downs of Kent, Sussex and Hampshire. Chalk drains freely yet holds water in its pores, reflects light, and gives base wines of high acidity and finesse. Many of the best vineyards are on it, though others on greensand and clay have proved just as good, and the warmest, driest part of the country, the Essex coast, on clay, has become the source of the ripest fruit, including for still Chardonnay and Pinot Noir.</p>
+<p>The industry's modern history is short. Vineyards planted from the 1950s grew early-ripening German crossings for light, off-dry still wines. The change came when a couple from Chicago planted the Champagne varieties in West Sussex in 1988, against local advice, and made a wine by the bottle method that won international competitions in the late 1990s. Investment followed, and two Champagne houses have since bought land and planted in England, a notable endorsement.</p>
+
 <h3>England in more detail</h3>
 <ul><li><b>Size.</b> The 2025 industry report counted 4,841 hectares and 1,104 vineyards in England and Wales, roughly six times the area of 2005. It is still tiny: Champagne alone has about 34,000 hectares.</li>
 <li><b>Grapes.</b> Chardonnay, Pinot Noir and Meunier cover well over half the vineyard. <b>Bacchus</b> is the leading still white: elderflower, nettle and grapefruit, England's answer to Sauvignon Blanc. Older vineyards still hold Seyval Blanc and other hardy varieties.</li>
 <li><b>Where.</b> Kent, Sussex, Hampshire and Surrey, on chalk and greensand, make most of the sparkling wine. The <b>Crouch Valley</b> in Essex is drier and warmer, on clay, and has become the source of England's best still Chardonnay and Pinot Noir. Cornwall's Camel Valley holds a single-vineyard PDO for its Darnibole Bacchus.</li>
 <li><b>History.</b> Hambledon in Hampshire, planted in 1952, was the first commercial vineyard of the modern era. In 1988 two Americans, Stuart and Sandy Moss, planted Nyetimber in Sussex with the Champagne grapes only. Its first wines won international trophies in the late 1990s and set the model everyone followed.</li>
 <li><b>Risk.</b> This is the edge of where vines ripen. Spring frost and rain at flowering swing the crop wildly: 2018 and 2023 were record harvests, 2024 was small and wet.</li></ul>
+
+
 <h3>English labels and one trap</h3>
 <ul><li><b>English Wine</b> and <b>Welsh Wine</b> are the PDOs; <b>English Regional Wine</b> is the PGI.</li>
 <li><b>Sussex</b> sparkling must be made by the traditional method and spend at least 15 months in bottle, 12 of them on the lees.</li>
 <li><b>"British wine"</b> is not English wine. It is made in Britain from imported grape concentrate and sits at the bottom of the market. Expect the distinction in an exam.</li></ul>
+
+
 <h3>English sparkling against Champagne</h3>
 <table class="t"><tr><th></th><th>English sparkling</th><th>Champagne</th></tr>
 <tr><td>Acidity</td><td>Very high, sharp, with a green-apple edge</td><td>High, but rounder</td></tr>
 <tr><td>Fruit</td><td>Green apple, hedgerow fruit, lemon</td><td>Apple, citrus, more stone fruit in warm years</td></tr>
 <tr><td>Autolysis</td><td>Often lighter: young estates hold few old reserve wines</td><td>Deeper toast and brioche in the big houses</td></tr>
 <tr><td>Price</td><td>Close to non-vintage Champagne</td><td>Wider range</td></tr></table>
+
+
+<p>The comparison in the table follows from climate and age. English base wines have more malic acid than those of Champagne and so a sharper, greener edge, and many producers put them through malolactic conversion and give long lees aging to soften it. The houses are young and have not had time to build the deep stocks of reserve wines that give a great Champagne blend its complexity and consistency, so vintage variation shows more. Yields are low and irregular, land and labor are expensive, and the wines cannot be cheap. Their case rests on purity, tension and a distinctive orchard-fruit character.</p>
+
 <h3>The new cold frontier</h3>
 <p>Warmer summers are only half the story further north. Belgium, the Netherlands, Denmark, Sweden and Poland now make wine largely with <b>PIWI</b> grapes: modern crossings bred to resist mildew, such as Solaris, Souvignier Gris and Johanniter. They ripen early and need far fewer sprays, which matters in damp climates.</p>
+
+
+<h3>Hybrids return</h3>
+<p>The resistant varieties mentioned above deserve a fuller explanation, since they are likely to matter everywhere. The European vine has no natural defense against the two mildews and the insect that arrived from America in the nineteenth century. Grafting solved the insect, and spraying has controlled the mildews ever since, at a cost in money, labor and chemicals: vineyards receive a share of Europe's fungicides far out of proportion to their area. Breeders have crossed European vines with American and Asian species that carry resistance genes and then crossed the offspring back to European varieties over several generations, selecting for wine quality. The modern results are mostly European in ancestry, need a fraction of the spraying, and make wine that no longer has the off-flavors of the old hybrids. European law has admitted them to appellation wines since 2021, and for countries with wet summers and no vinous tradition to protect they are the obvious choice.</p>
+
+<h3>Latin America beyond Argentina and Chile</h3>
+<ul><li><b>Uruguay:</b> Atlantic-influenced, humid; <b>Tannat</b> is the national grape, softer than Madiran. Canelones near Montevideo produces most; Maldonado on the coast is the quality frontier.</li>
+<li><b>Brazil:</b> Serra Gaúcha in the far south; traditional-method and Moscatel sparkling wine are its strength.</li>
+<li><b>Mexico:</b> Casa Madero in Coahuila (founded 1597) is the oldest winery in the Americas. Baja California's <b>Valle de Guadalupe</b> makes most of the country's wine: Mediterranean climate, Nebbiolo, Tempranillo and blends.</li>
+<li><b>Bolivia and Peru:</b> very high-altitude vineyards in Tarija; Peru's grapes mostly become Pisco.</li></ul>
+
+
+<h3>Latin America's other producers</h3>
+<p><strong>Uruguay</strong> is the fourth producer of South America and the one most unlike its neighbors. It has no mountains and no desert. Its vineyards lie on gentle hills near the River Plate and the Atlantic, with rain through the year and a humid, temperate climate that the trade compares to Bordeaux. Family holdings are small and the wine was made for local drinking. Tannat, the fiercely tannic grape of Madiran in southwest France, was brought by Basque immigrants in the 1870s and took to the clay soils, and modern producers manage its tannin through ripeness, gentle extraction and blending. New vineyards on granite hills in the east, close to the ocean, have added fresher reds and whites.</p>
+<p><strong>Brazil</strong> grows most of its wine in the hills of its southernmost state, settled by Italians from the Veneto in the 1870s. The climate is wet and humid, difficult for red wine, and the region found its vocation in sparkling: both dry wines by the bottle and tank methods and a sweet, aromatic Muscat modeled on Asti. A wholly different viticulture exists in the dry northeast, close to the equator, where the vine never goes dormant and irrigation and pruning allow two harvests or more a year. <strong>Mexico</strong> has the oldest winery in the Americas and a history interrupted when the Spanish crown restricted colonial wine to protect its own. Nearly all its quality wine now comes from valleys in the north of Baja California, where the cold Pacific gives a Mediterranean climate; water is the limiting factor, and salinity in the wells can be tasted in some wines. <strong>Bolivia</strong> farms vines at seventeen hundred to over two thousand meters, with intense light, and <strong>Peru</strong>'s coastal desert valleys, the first wine region of South America in the sixteenth century, grow grapes chiefly for distillation.</p>
+
+<h3>Asia</h3>
+<ul><li><b>China:</b> now among the world's largest vineyard areas (much for table grapes). <b>Ningxia</b>, at the foot of the Helan Mountains, makes Bordeaux-style reds; winters are so cold vines are buried for protection. LVMH's Ao Yun grows Cabernet high in Yunnan near the Himalayas. Penfolds and others have invested.</li>
+<li><b>Japan:</b> the native-adapted <b>Koshu</b> grape in Yamanashi (delicate, citrusy whites); Hokkaido is emerging for Pinot Noir and sparkling.</li>
+<li><b>India:</b> Nashik in Maharashtra; Sula Vineyards is the leading producer.</li></ul>
+
+
+<h3>Asia in more detail</h3>
+<p><strong>China</strong>'s modern industry dates from joint ventures with French companies in the 1980s and grew rapidly with the domestic market for red wine until about 2012, since when production has fallen sharply. The eastern coast, where it began, has a monsoon climate with summer rain and rot. The most promising region is Ningxia, on the upper Yellow River at about eleven hundred meters, an arid plain irrigated from the river and sheltered from the desert by a mountain range. Summers are sunny and dry; winters reach minus twenty-five degrees, so each autumn the vines are taken off their wires and buried under a mound of soil, and uncovered in spring, a labor that adds greatly to cost and shortens the life of the vine. Cabernet Sauvignon and a French crossing, Marselan, dominate. Vineyards in the far southwest, near Tibet, at over two thousand meters, are owned by a French luxury group.</p>
+<p><strong>Japan</strong>'s summers are hot, humid and wet, with typhoons at harvest, and growers traditionally trained vines on high overhead pergolas to lift the fruit into moving air, sometimes with a paper cap over each bunch. Koshu, a pink-skinned grape of mostly European descent that reached Japan along the Silk Road centuries ago, has thick skins that resist rot and makes a delicate, low-alcohol white with flavors of citrus and a slight bitterness, well suited to Japanese food. The northern island, cooler and drier, is planted with German and Burgundian varieties. <strong>India</strong>'s wine region lies inland from Mumbai at about six hundred meters, within the tropics; growers prune twice, once after harvest to rest the vine through the monsoon and once in autumn, so that the grapes ripen in the dry, cooler months and are picked from January to March.</p>
+
+<h3>The United States beyond the West Coast</h3>
+<p>Every US state makes wine. Notables: Virginia (Viognier, Cabernet Franc, Petit Manseng), Texas Hill Country (Tempranillo, Rhône grapes), Michigan (Riesling), Idaho (Snake River Valley), Arizona, and New Mexico (Gruet sparkling).</p>
+
+
 <h3>Signature wines of the emerging world</h3>
 <table class="t"><tr><th>Place</th><th>Wine</th><th>Tastes like</th></tr>
 <tr><td>Uruguay</td><td>Tannat</td><td>Madiran with rounder tannin and Atlantic freshness</td></tr>
@@ -155,7 +189,15 @@ body:`
 <tr><td>Valle de Guadalupe, Mexico</td><td>Red blends</td><td>Ripe and dark, often with a salty note from the irrigation water</td></tr>
 <tr><td>Ningxia, China</td><td>Cabernet blends</td><td>Ripe Bordeaux-style reds with firm tannin</td></tr>
 <tr><td>Yamanashi, Japan</td><td>Koshu</td><td>Muscadet: light, citrus, quietly saline</td></tr>
-<tr><td>Virginia, USA</td><td>Cabernet Franc, Petit Manseng</td><td>Loire-weight reds; rich, high-acid whites</td></tr></table>`,
+<tr><td>Virginia, USA</td><td>Cabernet Franc, Petit Manseng</td><td>Loire-weight reds; rich, high-acid whites</td></tr></table>
+
+<h3>Why these matter</h3>
+<p>Emerging regions test your reasoning more than your memory. In blind tasting, an "impossible" wine (English Pinot, Uruguayan Tannat) is solvable if you trust structure. On the floor, they let you offer value and novelty.</p>
+
+
+<h3>Reasoning about a wine you have never met</h3>
+<p>The method for these wines is the method for all wines, applied without the support of memory. A taster asks what the structure shows. High acidity and low alcohol indicate a cool or marginal climate. Ripe fruit with soft acidity indicates warmth. Thick-skinned concentration with freshness suggests altitude or a continental climate with cold nights. Clean, simple fruit without evident oak or development suggests a young industry with modern equipment. From those observations a reasonable conclusion about climate follows, and from climate a short list of places. A sommelier who can explain to a guest why England makes sparkling wine, why Chinese vines are buried, and why Indian grapes are picked in February will sell these wines, and a candidate who can reason in the same way will pass the question.</p>
+`,
 floor:`<p>English sparkling against Champagne by the glass is a great conversation starter. Many guests can't tell them apart blind; it's a way to sell a premium glass that isn't Champagne.</p>`,
 analyst:`<p>MW contemporary issues papers often ask how climate change is redrawing the wine map. England, Tasmania, and higher-altitude sites are standard evidence.</p>`,
 terms:[["Sussex PDO","England's first county-wide wine PDO (2022)."],["Koshu","Japanese grape from Yamanashi."],["Ningxia","Chinese wine region at the foot of the Helan Mountains."],["Valle de Guadalupe","Baja California's leading wine valley."],["Bacchus","England's leading still white grape: elderflower, nettle, grapefruit."],["British wine","Wine made in Britain from imported grape concentrate; not English wine."],["PIWI","Modern grape crossings bred to resist fungal disease."],["Crouch Valley","Dry, warm part of Essex known for still Chardonnay and Pinot Noir."]],

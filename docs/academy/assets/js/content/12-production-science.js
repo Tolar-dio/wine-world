@@ -505,14 +505,39 @@ quiz:[
 ]});
 
 L.push({id:"v4", unit:"H", title:"Climate Change and the Future of Wine", mins:16,
-summary:"What's already changed, how growers and appellations are adapting, and the MW's favorite contemporary issues.",
+summary:"Why warmth changes wine, how vineyard, cellar and law are adapting, the appellation dilemma, sustainability in practice, and the falling market.",
 body:`
 <p>This is the single biggest topic in modern wine, and the most common theme of Master of Wine contemporary-issues essays. Expect to argue it with evidence.</p>
+
+
+<p>Wine is among the most climate-sensitive of all agricultural products. A grape variety makes fine wine within a narrow band of average temperature, perhaps two degrees wide for Pinot Noir, and the reputation of every classic region rests on a match between variety and climate established over centuries. A shift of one or two degrees moves that match. This chapter sets out what has happened, how growers, winemakers and regulators are responding, and what is at stake, and then surveys the other current questions that examination essays raise.</p>
+
 <h3>What has already changed</h3>
 <ul><li><b>Earlier harvests</b>: in many classic regions, harvests now begin weeks earlier than in the mid-20th century. Champagne has started picking in August in recent years.</li>
 <li><b>Higher sugar, alcohol and pH; lower acidity</b>: classic reds once at 12.5% now commonly reach 14%.</li>
 <li><b>More extreme events</b>: spring frosts after early budburst (Burgundy and Chablis 2021), hail, drought, heat spikes (France saw over 45°C in June 2019), wildfires and smoke taint (California, Australia), floods (Germany's Ahr in 2021).</li>
 <li><b>New regions</b>: southern England, Tasmania, Belgium, Denmark, higher-altitude sites everywhere.</li></ul>
+
+
+<h3>Why warmth changes wine</h3>
+<p>The effects in the list follow from the physiology of ripening. As a grape ripens, sugar accumulates and acid declines, and both processes run faster in warmth. The compounds that give color, tannin and flavor develop on their own timetable, which depends more on time and light than on heat. In a cool climate the two tracks arrive together: when sugar is sufficient, flavor and tannin are ripe. In a hotter one sugar races ahead. If the grower waits for ripe tannin and flavor, the sugar is very high and so the alcohol, and the acidity has fallen. If the grower picks at moderate sugar, flavors may be green and tannins hard. The rise in alcohol in wines from Bordeaux, the Rhône, Napa and Australia over the last forty years, by one to two degrees, is the direct result, together with a preference for riper styles.</p>
+<p>Warmth also moves the whole season forward. Budbreak, flowering and the change of color all come earlier, so ripening now takes place in the heat of August instead of the cooler days of late September, which compounds the effect. Warm nights are especially harmful, since acidity is lost by respiration at night and the cool nights that preserved it are becoming less frequent. Changes in rainfall matter as much as temperature in the Mediterranean, where drought is the main threat.</p>
+<p>Until now the change has benefited as many regions as it has harmed. Vintages in northern Europe are more consistent and of higher average quality than at any time in history, and regions such as the Mosel, Champagne and Burgundy have had a run of ripe years unknown to earlier generations. The concern is with what further warming will do.</p>
+
+<h3>The evidence, in numbers</h3>
+<ul><li><b>Six centuries of harvest dates.</b> Records from Beaune run back to 1354. Until 1987 picking began on average on 28 September. Since 1988 it has begun <b>13 days earlier</b>.</li>
+<li><b>The frost paradox.</b> Mild winters wake the vine sooner, so buds are open when the usual April frosts arrive. In April 2021 frost cost France nearly 30% of its crop, the smallest harvest since 1957.</li>
+<li><b>The forecast.</b> A 2024 review in Nature Reviews Earth &amp; Environment concluded that about 90% of traditional wine regions in the coastal and lowland parts of Spain, Italy, Greece and southern California could be at risk of disappearing by the end of the century if warming is severe.</li></ul>
+
+
+<h3>Winners and losers so far</h3>
+<table class="t"><tr><th>Gaining</th><th>Under pressure</th></tr>
+<tr><td>England and Wales: sparkling wine now ripens most years</td><td>Hot inland Spain and southern Italy: drought and heat</td></tr>
+<tr><td>Germany: reliable ripeness, far better Spätburgunder</td><td>Irrigated bulk regions such as Australia's Riverland: water</td></tr>
+<tr><td>Champagne: riper fruit, less sugar added, lower dosage</td><td>California and Australia: fire and smoke</td></tr>
+<tr><td>High, cool sites: Uco Valley, Alto Adige, Tasmania</td><td>Burgundy and Chablis: frost and hail on early growth</td></tr></table>
+
+
 <h3>Adaptation in the vineyard</h3>
 <ul><li>Site: plant higher, cooler aspects (north-facing in the Northern Hemisphere), closer to water.</li>
 <li>Plant material: later-ripening clones, drought-tolerant rootstocks (110R, 1103P), heat-tolerant grapes, and new disease-resistant varieties (PIWI hybrids).</li>
@@ -520,14 +545,51 @@ body:`
 <li>Training: return to bush vines and taller trunks in some places; change row orientation.</li>
 <li>Water: drip irrigation where allowed, cover crops and mulches to hold moisture, agroforestry.</li>
 <li>Frost defense: wind machines, heaters, sprinklers, delayed pruning to delay budburst.</li></ul>
+
+
+<h3>The vineyard responses in more depth</h3>
+<p>Growers have more room to adapt than is often assumed, and the measures fall into three groups by cost and permanence. The first group changes how existing vines are managed. For decades growers in cool regions removed leaves around the bunches to expose them to sun and trained shoots high to increase leaf area. Both are being reversed, to shade the fruit and reduce the production of sugar. Pruning late in winter delays budbreak by a week or more and so reduces the risk of frost. Soil management has changed: cover crops, mulches and compost increase the soil's capacity to hold water and keep it cooler.</p>
+<p>The second group changes the plant. Rootstocks differ widely in their tolerance of drought and their vigor, and those bred from a deep-rooting American species suited to dry, calcareous soils are in demand. Clones chosen in the 1970s and 1980s for early ripening and high sugar are being replaced by later ones. Old, mixed plantings are being studied because their diversity spreads risk. And growers are turning to varieties from hotter places, Greek, Portuguese, southern Italian and Spanish grapes that ripen late and hold acidity, which have been planted experimentally from Australia to California to Bordeaux.</p>
+<p>The third group changes the place. Vineyards are moving uphill, where temperatures are lower and nights colder; toward the poles; to slopes facing away from the sun; and nearer to the sea. This is the most effective and the most expensive response, and for appellations with fixed boundaries it is the hardest. Irrigation, where water exists and the law allows, is an obvious answer to drought and a contested one, since water is growing scarcer in the very regions that need it.</p>
+
 <h3>Adaptation in the cellar</h3>
 <p>Earlier picking, acidification, whole-bunch for freshness, lower extraction, alcohol reduction technology, picking at night.</p>
+
+
+<p>The winery can correct some of what the vineyard delivers. Acid may be added where the law permits, and the range of permitted techniques has widened. Alcohol can be lowered by a few tenths of a degree with yeast strains that convert sugar less efficiently, or by more with membranes or a spinning-cone column that remove alcohol from a portion of the wine, and European rules were changed in 2021 to allow partial and total dealcoholization for most categories. Winemakers seeking freshness in ripe years include stems in the fermentation, extract less, and move from small new barrels to large casks, concrete and clay. Each of these treats a symptom, and most producers regard them as secondary to work in the vineyard.</p>
+
 <h3>Adaptation in the law</h3>
 <ul><li><b>Bordeaux</b> approved new varieties for trial in its generic AOCs, including <b>Touriga Nacional</b>, <b>Marselan</b>, <b>Castets</b> and <b>Arinarnoa</b> (reds) and <b>Alvarinho</b> and <b>Liliorila</b> (whites), up to limited percentages. A seventh candidate, Petit Manseng, was not approved.</li>
 <li><b>Champagne</b> approved the disease-resistant hybrid <b>Voltis</b> for limited trial use.</li>
 <li>Many appellations have relaxed irrigation bans and adjusted alcohol or harvest rules.</li></ul>
+
+
+<h3>The appellation dilemma</h3>
+<p>Appellation rules define a wine by its place, its grapes and its methods, on the premise that their combination is stable. Climate change removes the premise. If the grapes that made a region's name no longer ripen there in balance, the appellation must choose between keeping its rules and accepting a different wine, or changing its rules and accepting a different definition. The decisions taken so far show both caution and movement. Bordeaux's admission of new varieties is limited to a small percentage of the blend, to its basic appellations, and to a trial period, and the varieties may not be named on the label. Champagne's trial of a resistant hybrid is similarly restricted. France has created a general framework that lets appellations test varieties for adaptation under such limits.</p>
+<p>Other rules have been relaxed more quietly: bans on irrigation lifted or suspended in dry years, maximum alcohol levels raised, minimum ripeness requirements made irrelevant, permitted planting extended to higher ground. Some producers have chosen to leave their appellations for the freedom of a lesser category. The question an essay should address is how far a region's identity lies in its grape varieties and how far in its soils, its sites and its people, since the answer determines what may change.</p>
+
+<h3>How smoke taint works</h3>
+<ul><li>Smoke carries volatile phenols such as <b>guaiacol</b>. They pass into the grape and bind to sugars, which hides them. The fruit can smell clean.</li>
+<li>Fermentation, aging and even saliva break the bond and release an ashy, burnt aftertaste.</li>
+<li>The compounds sit in the skins, so red wines suffer most.</li>
+<li>Responses: hand picking, whole-bunch pressing with no skin contact, making rosé or sparkling instead, carbon fining or reverse osmosis. None is a complete cure.</li></ul>
+
+
 <h3>Sustainability beyond climate</h3>
 <p>Glass bottles drive much of wine's carbon footprint (lighter bottles, kegs, bag-in-box and cans reduce it); certifications proliferate (organic, biodynamic, B Corp, regional sustainability schemes); water use, biodiversity and labor conditions are increasingly scrutinized; regenerative viticulture is the new buzzword.</p>
+
+
+<h3>What sustainability means in practice</h3>
+<p>Wine both suffers from climate change and contributes to it, and the industry has had to examine its own footprint. The surprising finding of every study is how little of a bottle's emissions come from the vineyard. Glass is the largest single item, because it is made at very high temperatures and is heavy to ship, and for a wine sent across the world packaging and transport together account for more than half the total. The weight of a bottle has no effect on the wine inside and has long been used as a signal of quality, which is why reducing it has required collective agreements. Alternative formats, bag-in-box, cans, kegs for restaurants, and returnable bottles, have far lower footprints and are held back by image and, for fine wine, by doubts about long aging.</p>
+<p>In the vineyard the questions are chemicals, water, soil and biodiversity. <strong>Organic</strong> farming forbids synthetic pesticides, herbicides and fertilizers and relies chiefly on copper and sulfur against mildew; its critics point to the accumulation of copper in soils and to the extra tractor passes required. <strong>Biodynamic</strong> farming adds a set of preparations and a calendar derived from the teachings of Rudolf Steiner and treats the farm as a self-sustaining organism. <strong>Regenerative</strong> viticulture, the newest term, emphasizes soil health, cover crops, reduced tillage and the integration of animals, with the aim of storing carbon. Regional sustainability schemes, which cover most of the vineyards of New Zealand, South Africa, Chile and California, take a broader and less strict approach that includes energy, water and labor. A sommelier should be able to explain the differences, since guests ask.</p>
+
+<h3>The carbon side</h3>
+<ul><li>Packaging and transport are the largest part of a bottle's footprint. Heavy bottles approach 900 grams; light ones are near 400.</li>
+<li>The <b>Bottle Weight Accord</b> of the Sustainable Wine Roundtable commits its signatories to an average 750 ml still-wine bottle below <b>420 grams</b> by the end of 2026.</li>
+<li>Shipping in bulk and bottling near the market cuts transport emissions sharply.</li>
+<li><b>International Wineries for Climate Action</b>, founded in 2019 by Familia Torres and Jackson Family Wines, requires members to measure and cut emissions.</li></ul>
+
+
 <h3>Other contemporary issues the MW asks about</h3>
 <ul><li>Falling wine consumption among younger drinkers, the rise of no/low-alcohol wine, and health messaging (some countries now require warning labels).</li>
 <li>Premiumization: people drinking less but better.</li>
@@ -535,32 +597,22 @@ body:`
 <li>Direct-to-consumer sales and e-commerce.</li>
 <li>Counterfeiting in fine wine (the Rudy Kurniawan case).</li>
 <li>Natural wine and the definition of "authentic."</li></ul>
-<h3>The evidence, in numbers</h3>
-<ul><li><b>Six centuries of harvest dates.</b> Records from Beaune run back to 1354. Until 1987 picking began on average on 28 September. Since 1988 it has begun <b>13 days earlier</b>.</li>
-<li><b>The frost paradox.</b> Mild winters wake the vine sooner, so buds are open when the usual April frosts arrive. In April 2021 frost cost France nearly 30% of its crop, the smallest harvest since 1957.</li>
-<li><b>The forecast.</b> A 2024 review in Nature Reviews Earth &amp; Environment concluded that about 90% of traditional wine regions in the coastal and lowland parts of Spain, Italy, Greece and southern California could be at risk of disappearing by the end of the century if warming is severe.</li></ul>
-<h3>Winners and losers so far</h3>
-<table class="t"><tr><th>Gaining</th><th>Under pressure</th></tr>
-<tr><td>England and Wales: sparkling wine now ripens most years</td><td>Hot inland Spain and southern Italy: drought and heat</td></tr>
-<tr><td>Germany: reliable ripeness, far better Spätburgunder</td><td>Irrigated bulk regions such as Australia's Riverland: water</td></tr>
-<tr><td>Champagne: riper fruit, less sugar added, lower dosage</td><td>California and Australia: fire and smoke</td></tr>
-<tr><td>High, cool sites: Uco Valley, Alto Adige, Tasmania</td><td>Burgundy and Chablis: frost and hail on early growth</td></tr></table>
-<h3>How smoke taint works</h3>
-<ul><li>Smoke carries volatile phenols such as <b>guaiacol</b>. They pass into the grape and bind to sugars, which hides them. The fruit can smell clean.</li>
-<li>Fermentation, aging and even saliva break the bond and release an ashy, burnt aftertaste.</li>
-<li>The compounds sit in the skins, so red wines suffer most.</li>
-<li>Responses: hand picking, whole-bunch pressing with no skin contact, making rosé or sparkling instead, carbon fining or reverse osmosis. None is a complete cure.</li></ul>
-<h3>The carbon side</h3>
-<ul><li>Packaging and transport are the largest part of a bottle's footprint. Heavy bottles approach 900 grams; light ones are near 400.</li>
-<li>The <b>Bottle Weight Accord</b> of the Sustainable Wine Roundtable commits its signatories to an average 750 ml still-wine bottle below <b>420 grams</b> by the end of 2026.</li>
-<li>Shipping in bulk and bottling near the market cuts transport emissions sharply.</li>
-<li><b>International Wineries for Climate Action</b>, founded in 2019 by Familia Torres and Jackson Family Wines, requires members to measure and cut emissions.</li></ul>
+
+
+<h3>The market questions</h3>
+<p>Several of the issues listed are aspects of one fact: world wine consumption has been falling since about 2017 and in 2023 and 2024 reached its lowest level in decades. The causes include an aging population of regular drinkers, younger adults who drink less alcohol and have more alternatives, public health advice that has moved toward the position that no level of drinking is free of risk, inflation, and the decline of the Chinese market after its boom. Production has not fallen as fast, and the surplus has led governments in France and elsewhere to pay for distillation and for the uprooting of vineyards, on a large scale in Bordeaux. The response of producers has been to pursue higher prices for smaller volumes, to develop wines with little or no alcohol, a category growing from a small base and improving in quality, and to seek new markets.</p>
+<p>Trade policy adds uncertainty. Tariffs imposed and lifted between the United States and Europe, and between China and Australia, have shown how quickly a market can close. Fraud remains a concern at the top of the market, where the conviction in 2013 of a collector who had sold counterfeit bottles of rare Burgundy and Bordeaux worth tens of millions exposed how little verification auction houses had required, and led to the routine use of authentication and tamper-proof identifiers.</p>
+
 <h3>Building the essay</h3>
 <ol><li><b>Define the problem</b> with one hard number, such as the Beaune harvest dates.</li>
 <li><b>Show both sides:</b> who gains and who loses.</li>
 <li><b>Set out the responses</b> in three places: vineyard, cellar and law.</li>
 <li><b>Name the limits.</b> Adaptation costs money, irrigation needs water that may not exist, and appellation rules change slowly.</li>
-<li><b>Conclude with a judgment</b>, not a list.</li></ol>`,
+<li><b>Conclude with a judgment</b>, not a list.</li></ol>
+
+<h3>A model argument</h3>
+<p>A strong answer on climate avoids both alarm and complacency. It would observe that warming so far has improved the average quality of wine in cool regions and created new ones, that the damage has come chiefly through extreme events, frost, hail, drought and fire, which are increasing, and that the outlook depends on the extent of further warming: manageable with adaptation at two degrees, and at four degrees a redrawing of the map. It would note that the capacity to adapt is unequal, greatest for well-capitalized estates with valuable names and least for small growers of inexpensive wine in hot, dry regions, who are already leaving. And it would conclude that the industry's reputation with a generation of consumers concerned about the environment depends on what it does about its own emissions, of which the heavy glass bottle is the most visible and the most easily remedied.</p>
+`,
 floor:`<p>Guests notice that wines feel bigger and riper than they used to. A short, honest answer about warming vintages, and pointing to fresh-styled producers or cooler regions, sounds informed rather than preachy.</p>`,
 analyst:`<p>MW contemporary issues and Diploma D6 research topics often come from this list. Build essays with specific regional evidence, data where possible, and balanced weighing of costs and opportunities.</p>`,
 terms:[["PIWI","German acronym for fungus-resistant grape varieties."],["Voltis","Disease-resistant hybrid approved for limited trial use in Champagne."],["Marselan","Cabernet Sauvignon × Grenache cross approved for trial in Bordeaux."],["Kaolin","Clay spray used to protect grapes from sunburn."],["Regenerative viticulture","Farming focused on soil health, biodiversity and carbon."],["Smoke taint","Ashy, burnt character from grapes exposed to wildfire smoke."],["Guaiacol","A volatile phenol that marks smoke taint."],["Frost paradox","Warmer winters bring earlier budburst and so more frost damage."],["Bottle Weight Accord","Pledge to bring the average still-wine bottle below 420 grams by 2026."],["IWCA","International Wineries for Climate Action, founded in 2019."]],

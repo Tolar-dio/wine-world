@@ -494,9 +494,13 @@ quiz:[
 ]});
 
 L.push({id:"h4", unit:"H", title:"The Vintage Chart, Region by Region", mins:10,
-summary:"The years to know cold for Advanced theory and the dining room: legends, benchmarks and the difficult vintages, with 2017 to 2024 year by year.",
+summary:"The years to know, region by region, with the reasons each turned out as it did and what the run since 2017 shows.",
 body:`
 <p>The Advanced theory paper asks vintages directly, and the Master exam asks why. This chart extends the first vintages lesson into the full working memory of a senior sommelier. It records broad critical consensus: argue at the edges, and remember that a great grower in a hard year often beats an average one in a famous year.</p>
+
+
+<p>The purpose of learning these years is to be able to reason from them. An examiner who asks about a vintage wants to know what the weather was, what kind of wine resulted, and what that means for the bottle today. The tables give the years; the paragraphs between them give the explanations for those most often asked about. A candidate should learn the reasons with the dates, since the reasons allow a forgotten year to be reconstructed and an unknown one to be judged.</p>
+
 <h3>France</h3>
 <table class="t"><tr><th>Region</th><th>Benchmarks</th><th>Difficult or atypical</th></tr>
 <tr><td>Bordeaux (red)</td><td>1945, 1947, 1959, 1961, <b>1982</b>, 1989, 1990, 2000, 2005, 2009, 2010, 2015, 2016, 2018, 2019, 2020, 2022</td><td>1991 (frost), 1992, 2007, 2013 (rain, rot), 2017 (frost), 2021 (cool), 2024 (wet, small)</td></tr>
@@ -506,6 +510,14 @@ body:`
 <tr><td>Champagne</td><td>1988, 1990, 1996 (very high acid), 2002, 2004, <b>2008</b>, 2012, 2013</td><td>2001, 2003 (heat), 2017 (rot)</td></tr>
 <tr><td>Northern Rhône</td><td>1978, 1990, 1991, 1999, 2009, 2010, 2015, 2016, 2017, 2019, 2020</td><td>2002, 2008, 2014</td></tr>
 <tr><td>Southern Rhône</td><td>1978, 1989, 1990, 1998, 2001, 2007, 2010, 2016, 2019</td><td>2002 (floods), 2008</td></tr></table>
+
+
+<h3>Reading the French table</h3>
+<p>In <strong>Bordeaux</strong> the legendary years of the last century share a pattern: a hot, dry summer and a fine September. 1945 was a tiny crop after a late frost, concentrated and tannic. 1961, also reduced by frost and poor flowering, gave wines of great depth that are still alive. 1982 was the turning point of the modern trade, a large crop of ripe, soft, opulent wine, at first doubted by traditional critics for its low acidity and championed by a young American writer whose judgment made his reputation and changed how Bordeaux is sold. The pairs 1989 and 1990, and 2009 and 2010, each set a ripe, generous year against a more structured one. 2005 and 2016 are the classical models of the present era, combining ripeness with firm tannin and freshness, and 2018, 2019 and 2020 form a run of three warm years of high quality. The weak years are wet ones: 2013, when rain and rot gave thin wines, and the frost years of 1991 and 2017, when quantity was the main casualty.</p>
+<p>The two banks do not always agree. Years with a fine late season favor Cabernet Sauvignon and the Médoc, as in 1996 and 2010. Years when the early part of the harvest was best favor Merlot and the right bank, as in 1998. Sauternes has its own calendar, depending on autumn humidity for noble rot: 2001 was outstanding there and ordinary for reds.</p>
+<p><strong>Burgundy</strong>'s reds need warmth without excess. 1990, 1999, 2005 and 2015 were ripe, structured and long-lived; 2010 was a small crop of great finesse and acidity. 2004 is remembered for a green, herbal note in many wines, widely attributed to an infestation of ladybirds. The premature oxidation of white Burgundies from the mid-1990s to the mid-2000s, in which bottles turned brown and flat after only a few years, has never been fully explained; lower sulfur additions, changes in pressing, and inconsistent corks have all been blamed, and producers have changed their practices in response.</p>
+<p>In <strong>Champagne</strong> the declared years are those in which the base wines had the ripeness and acidity to stand without blending. 1996 combined very high sugar with very high acid, an unusual pairing that has aged unevenly. 2002 and 2008 are the modern references, the first rich and complete, the second taut and slow. 2012 was a small crop of concentrated fruit.</p>
+
 <h3>Italy, Spain, Portugal, Germany</h3>
 <table class="t"><tr><th>Region</th><th>Benchmarks</th><th>Difficult or atypical</th></tr>
 <tr><td>Barolo and Barbaresco</td><td>1978, 1982, 1989, 1990, 1996, 1999, 2001, 2004, 2006, <b>2010</b>, 2013, <b>2016</b>, 2019</td><td>2002 (hail, rain), 2003 (heat), 2014 (rain; Barbaresco fared better)</td></tr>
@@ -513,8 +525,21 @@ body:`
 <tr><td>Rioja</td><td>1964, 1982, 1994, 1995, 2001, 2004, 2005, 2010</td><td>2013</td></tr>
 <tr><td>Vintage Port (general declarations)</td><td>1945, 1963, 1966, 1970, 1977, 1983, 1985, 1994, 1997, 2000, 2003, 2007, 2011, <b>2016 and 2017</b> (a rare back-to-back pair)</td><td>Other years go to single-quinta Vintage, LBV or Colheita</td></tr>
 <tr><td>Germany (Riesling)</td><td>1971, 1990, 2001, 2005, 2015, 2019, 2021 (classic, high acid)</td><td>2003 (heat), 2010 (extreme acidity, small crop)</td></tr></table>
+
+
+<h3>Reading the rest of Europe</h3>
+<p><strong>Nebbiolo</strong> ripens in mid to late October, later than almost any other major grape, and the Piedmontese vintage depends on that month. Classic years such as 1996, 2001, 2010, 2013 and 2016 had long, cool, dry autumns and gave perfumed, firmly structured wines for long keeping. Warm years such as 1997, 2000, 2007 and 2011 gave softer, earlier-maturing wines. 2002 was ruined in much of Barolo by hail and rain, and 2014 by a wet summer, though Barbaresco, where the rain was less, did better.</p>
+<p>In <strong>Tuscany</strong> Sangiovese is also late and sensitive, and the best years, 2010, 2015, 2016 and 2019 among them, had warm summers without drought and a dry September. 1997 was acclaimed on release as the vintage of the century and many of its wines have aged less well than the cooler 1999 and 2001, a lesson in the limits of early judgments.</p>
+<p><strong>Rioja</strong> has a tradition of rating each year officially. 1964 is its legend, and 2001, 2004, 2005 and 2010 the modern benchmarks. Because its wines are released late, the vintage on the shelf is always some years behind.</p>
+<p><strong>Vintage Port</strong> works by declaration. The shippers decide, about eighteen months after the harvest, whether the year merits a vintage wine, and by custom declare about three times a decade. A year declared by nearly all is a general declaration, and a list of those years is standard knowledge. The pairing of 2016 and 2017 was the first time in over a century that the main houses declared two years in succession.</p>
+<p><strong>Germany</strong> shows the change in climate most clearly. For most of the last century only two or three years in ten ripened Riesling fully, and years such as 1971, 1976 and 1990 were celebrated for sweet wines of high must weight. Since 1988 there has been no truly unripe vintage. The interest has moved to acidity: 2001, 2008, 2010 and 2021 were high in acid and classic in style, and 2003 and 2018 were hot and broad.</p>
+
 <h3>United States</h3>
 <p><b>Napa Cabernet:</b> 1974, 1985, 1991, 1994, 1997, 2001, 2002, 2007, 2012, 2013, 2016, 2018, 2019, 2021. Difficult: 1998 and 2011 (cool, wet), 2017 (October fires, after most of the harvest), 2020 (smoke; many reds not released). California, Australia, Argentina and Chile vary less than Europe because sunshine is more reliable, but the gap is narrowing as heat and fire seasons grow.</p>
+
+
+<p>California's dry summers make its vintages more even than Europe's, and the variations that matter are heat spikes near harvest, drought, the occasional cool, wet year, and fire. 1974 established Napa Cabernet's standing. 1997 was a very large, ripe crop. 2011 was cool and rainy, and its lean wines have found admirers since. The years 2012 to 2014 were dry, consistent and generous, and 2016, 2018 and 2019 were moderate and balanced. In 2017 fires broke out in October when most red grapes were already picked. In 2020 they began in August, smoke lay over the vineyards for weeks, and many producers made no red wine. Oregon and Washington vary more: Oregon's Pinot Noir was outstanding in 2012, 2014, 2016 and 2021 and difficult in the wet 2007 and 2011 and the smoke-affected 2020.</p>
+
 <h3>2017 to 2024 in Europe, year by year</h3>
 <table class="t"><tr><th>Year</th><th>What happened</th></tr>
 <tr><td>2017</td><td>April frost across France cut crops in Bordeaux, Chablis and Champagne; hot and dry in the Rhône and Piedmont. Port declared.</td></tr>
@@ -525,11 +550,21 @@ body:`
 <tr><td>2022</td><td>Record heat and drought; forest fires near Bordeaux. Wines proved fresher and better balanced than feared.</td></tr>
 <tr><td>2023</td><td>Large crops in Burgundy and Champagne; heavy mildew in Bordeaux; late-summer heat.</td></tr>
 <tr><td>2024</td><td>A wet year in much of France, with mildew and one of the smallest harvests in decades. Lighter styles.</td></tr></table>
+
+
+<h3>What the recent years show</h3>
+<p>Taken together, the years since 2017 describe the present state of European viticulture. Budbreak has moved earlier, and damaging frosts in April have followed in 2017, 2021 and other years. Summers have brought record heat, as in 2019 and 2022, and drought, yet the wines of those years have often surprised by their balance, since growers have learned to protect fruit from the sun and to pick in time, and old vines with deep roots have coped. The wet years, 2021 and 2024, were marked by mildew, small crops and lighter wines, and in an era of ripeness such years are welcomed by many for their freshness and moderate alcohol. Volumes have swung widely from one year to the next, with consequences for price and availability that a buyer must follow.</p>
+
 <h3>How to use a chart</h3>
 <ul><li><b>On the floor:</b> a guest ordering a 2013 Bordeaux deserves to hear that it is a lighter year to drink now; a guest ordering 2016 Barolo should hear that it wants time or a decanter.</li>
 <li><b>Buying:</b> the best values are good producers in unfashionable years, and the second and third labels of great years.</li>
 <li><b>Southern Hemisphere:</b> harvest runs from about February to April, so a 2024 from Australia is half a year older than a 2024 from France.</li>
-<li><b>Non-vintage:</b> Champagne, Sherry, Tawny Port and most Madeira are blended across years so that the chart doesn't matter.</li></ul>`,
+<li><b>Non-vintage:</b> Champagne, Sherry, Tawny Port and most Madeira are blended across years so that the chart doesn't matter.</li></ul>
+
+<h3>Southern hemisphere and other notes</h3>
+<p>A few benchmarks from the south complete the picture. In South Australia, 1998, 2002, 2004, 2010, 2012 and 2018 are highly rated for Barossa Shiraz, with 2011 a rare wet, cool year. In Mendoza, cool years such as 2016 and 2018 gave fresher Malbec, and 2019 was balanced. In New Zealand, Marlborough's 2013, 2015, 2019 and 2020 are well regarded. South African reds were outstanding in 2015 and 2017, during a drought.</p>
+<p>For examination purposes a candidate should be able to do three things with any of the principal regions: name three or four great years and one or two poor ones, say in a phrase why each turned out as it did, and state whether a wine of that year is likely to be at its best now. The detail beyond that is for the wine list and the cellar book.</p>
+`,
 floor:`<p>For Advanced theory, drill this as ordering and matching: "Arrange these Port declarations from oldest to youngest," "Which was the frost year?" For the dining room, know one sentence about each of the last ten vintages on your own list.</p>`,
 analyst:`<p>Diploma and MW answers use vintages as evidence: "The 2021 frost and the heat of 2022 illustrate the two faces of climate risk in Burgundy." One accurate vintage example is worth more than a general statement.</p>`,
 terms:[["General declaration","A year in which most Port shippers declare a vintage."],["Premature oxidation","'Premox': white Burgundies of about 1995 to 2005 that aged far too fast."],["Off vintage","A less-regarded year, often good value from top growers."],["Back-to-back declaration","Two consecutive declared Port vintages, such as 2016 and 2017."]],

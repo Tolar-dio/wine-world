@@ -364,9 +364,13 @@ quiz:[
 ]});
 
 L.push({id:"h3", unit:"H", title:"Vintages That Matter", mins:15,
-summary:"How weather writes a vintage, and the years a sommelier should know by heart.",
+summary:"How a year's weather becomes a wine, stage by stage, what aging does chemically, why storage outweighs vintage, and how to answer a guest.",
 body:`
 <p>CMS Certified expects you to know "benchmark producers and vintages for iconic regions," and every guest who orders an older bottle is really asking: was that a good year? Vintage matters most where climate is marginal (Burgundy, Champagne, Germany, Bordeaux, Piedmont) and least where sunshine is reliable (much of Australia, California's Central Valley).</p>
+
+
+<p>A vintage is a record of one year's weather as it acted on one place. The date on a label tells an informed reader a good deal: how ripe the grapes were, how much acidity and tannin the wine has, whether it was made in quantity or scarcity, when it will be ready and how long it will last. This chapter explains the mechanisms by which weather shapes a wine, provides a working list of years, and shows how to turn that knowledge into advice a guest can use.</p>
+
 <h3>How weather becomes a vintage</h3>
 <ul><li><b>Spring frost</b> cuts quantity (Burgundy and Chablis 2021, Bordeaux 2017 in parts).</li>
 <li><b>Cold, wet flowering</b> means small crops and uneven ripening.</li>
@@ -374,6 +378,14 @@ body:`
 <li><b>Harvest rain</b> dilutes and brings rot.</li>
 <li><b>Wildfire smoke</b> can taint grapes (California 2020).</li>
 <li>Great vintages usually combine a warm, dry summer with cool nights and a dry harvest.</li></ul>
+
+
+<h3>The year in six stages</h3>
+<p>The vine's annual cycle exposes it to different risks in turn, and knowing the sequence makes any vintage report intelligible. <strong>Budbreak</strong>, in spring, begins when the average temperature passes about ten degrees. The young shoots are full of water and are killed by a night below about minus two. An early spring is therefore dangerous: the buds open sooner and are exposed to frost for longer. A frost reduces the crop, sometimes to nothing, and the second growth that follows ripens late and unevenly. It need not harm the quality of what remains.</p>
+<p><strong>Flowering</strong>, in early summer, needs warm, dry, settled weather for about ten days. Cold or rain at that point causes flowers to fail to set fruit, or to set berries of unequal size that ripen at different times. Flowering fixes the size of the crop and also its timing: the harvest follows about a hundred days later, a rule that still holds roughly.</p>
+<p>The <strong>summer</strong> determines ripeness and health. Warmth and sun build sugar; too much heat, above about thirty-five degrees, shuts the vine down and can burn exposed grapes. Some water is needed, and a moderate deficit after the grapes change color is beneficial, since it stops the shoots growing and directs the vine's energy to the fruit, giving small berries with thick skins. Severe drought blocks ripening, and tannins stay harsh. Humid weather brings mildew, which attacks leaves and bunches, and hail, always local, can destroy a vineyard in ten minutes.</p>
+<p>The <strong>last month</strong> matters most. Fine, dry weather with warm days and cool nights lets the grower wait for full ripeness of skins and seeds while acidity is held, and nearly every great vintage has had it. Rain close to harvest swells the berries and dilutes the juice, splits skins and lets grey rot in, and forces a choice between picking early and unripe or waiting and losing fruit. For sweet wines the requirements differ: noble rot needs autumn humidity followed by sun.</p>
+
 <h3>A working memory bank (broad consensus)</h3>
 <table class="t"><tr><th>Region</th><th>Celebrated recent years</th><th>Difficult or atypical years</th></tr>
 <tr><td>Bordeaux (red)</td><td>2005, 2009, 2010, 2015, 2016, 2018, 2019, 2020, 2022</td><td>2013 (rain, rot), 2017 (frost, uneven), 2021 (cool, light)</td></tr>
@@ -386,16 +398,35 @@ body:`
 <tr><td>Vintage Port (widely declared)</td><td>1963, 1977, 1994, 2000, 2011, 2016, 2017</td><td>Undeclared years go to LBV or single quinta</td></tr>
 <tr><td>Germany (Riesling)</td><td>2001, 2015, 2019, 2021 (classic, high acid)</td><td>2003 (heat), 2010 (very high acid, tiny crop)</td></tr></table>
 <p>Treat this as a starting map, not scripture: critics disagree at the edges, and producers matter as much as years. A great grower in a hard vintage often beats an average one in a famous year.</p>
-<h3>Reading age in the glass</h3>
-<p>For blind tasting, translate age into evidence: rim variation and bricking in reds, golden color and honey/petrol in whites, the move from primary fruit to tertiary (leather, earth, mushroom, dried fruit). On the CMS grid, commit to a single vintage; on the WSET SAT, to a readiness category.</p>
-<h3>Drinking windows</h3>
-<p>Very rough guide for top examples: classed-growth Bordeaux 10-30 years; Grand Cru Burgundy 10-25; Barolo and Brunello 10-25; Vintage Port 20-50+; German Spätlese 10-30; Sauternes and Tokaji Aszú 20-50+; most rosé, Sauvignon Blanc, Prosecco: within 1-3 years.</p>
+
+
+<h3>Why the same year differs by region</h3>
+<p>A table of vintages hides the fact that weather is local and that grapes differ in what they need. A hot, dry year suits late-ripening varieties in cool regions and can be too much for early ones in warm regions: 2003 gave some remarkable wines on the cooler clay soils of the northern Médoc and uneven, sometimes overripe ones on the thin, fast-draining soils of parts of the right bank. Rain in September may ruin Merlot, which is picked first, and leave Cabernet Sauvignon, picked two weeks later, untouched, or the reverse. In Burgundy white and red often fare differently in the same year, because Chardonnay and Pinot Noir are picked at different moments and respond differently to heat.</p>
+<p>The standard of a good vintage has also shifted. For most of the twentieth century the difficulty in northern Europe was to get grapes ripe, and the great years were the hot ones. With warmer seasons and better farming, ripeness is now normal, and many growers and critics prize the cooler, later years for their freshness, structure and capacity to age. The same reasoning applies in reverse in warm regions, where the cooler years have always been preferred.</p>
+
 <h3>Three kinds of year</h3>
 <table class="t"><tr><th>Type</th><th>Examples</th><th>In the glass</th><th>At the table</th></tr>
 <tr><td><b>Solar</b> (hot, dry)</td><td>2003, 2009, 2018, 2020, 2022</td><td>Ripe fruit, lower acid, higher alcohol, soft tannin</td><td>Open and generous young; the hottest may not age long</td></tr>
 <tr><td><b>Classic</b> (cool, late)</td><td>2008, 2014 in Burgundy, 2016, 2021 in Germany</td><td>Higher acid, firmer structure, lower alcohol</td><td>Closed when young; built to age</td></tr>
 <tr><td><b>Wet or weak</b></td><td>2013 Bordeaux, 2014 Piedmont and Tuscany, 2011 Napa, 2024 France</td><td>Lighter, sometimes green or dilute</td><td>Drink early; good value from top growers</td></tr></table>
 <p>A simple way to memorize a region: learn one year of each type, then hang the rest on those three.</p>
+
+
+<h3>Reading age in the glass</h3>
+<p>For blind tasting, translate age into evidence: rim variation and bricking in reds, golden color and honey/petrol in whites, the move from primary fruit to tertiary (leather, earth, mushroom, dried fruit). On the CMS grid, commit to a single vintage; on the WSET SAT, to a readiness category.</p>
+
+
+<h3>What aging does</h3>
+<p>The changes a taster observes have chemical causes, and knowing them makes the estimate of age more reliable. In red wine the pigments from the skins, which are purple and unstable, combine over time with tannins into larger, more stable, brick-colored compounds, and some grow large enough to fall out as sediment. The color therefore moves from purple to ruby to garnet to tawny, and fades from the rim inward, while the wine feels softer because there are fewer free tannins to bind the proteins in saliva. In white wine slow oxidation of phenolic compounds deepens the color from pale lemon to gold to amber.</p>
+<p>Aromas change in parallel. The fresh fruit and floral scents of youth, which come from the grape and from fermentation, decline. Slow reactions among acids, alcohols and other components, in the near absence of oxygen in the bottle, form the family of scents called bouquet: dried fruit, leather, earth, mushroom, tobacco and game in reds, honey, nuts, wax and toast in whites, and the petrol note of mature Riesling. A wine in which fruit and these developed aromas are both present is at its peak. One in which only the latter remain, with drying fruit and rising acidity, is past it.</p>
+<p>The components that allow a wine to age are acidity, tannin, sugar and concentration of flavor, and a wine needs enough of them in balance. A light, soft wine of low acidity has nothing to develop into. The great majority of wine is made to be drunk within a few years, and should be.</p>
+
+<h3>Drinking windows</h3>
+<p>Very rough guide for top examples: classed-growth Bordeaux 10-30 years; Grand Cru Burgundy 10-25; Barolo and Brunello 10-25; Vintage Port 20-50+; German Spätlese 10-30; Sauternes and Tokaji Aszú 20-50+; most rosé, Sauvignon Blanc, Prosecco: within 1-3 years.</p>
+
+
+<p>Many structured wines pass through a closed period some years after bottling, when the fruit of youth has receded and the mature aromas have not yet formed, and they seem dull and hard. Red Burgundy and Barolo are known for it. A wine tasted in that phase is not finished, and the usual advice is to leave it alone or to decant it well ahead. The guidance in the paragraph above gives the outer limits for the best wines of good years; lesser wines and lighter years should be placed at the short end.</p>
+
 <h3>Storage beats vintage</h3>
 <p>For any bottle over about fifteen years old, how it was kept matters more than the year on the label.</p>
 <ul><li><b>Provenance</b> is the bottle's history: who owned it and where it lay. The best is "ex-cellar", straight from the producer.</li>
@@ -407,16 +438,28 @@ body:`
 <tr><td>Low shoulder</td><td>High risk; often oxidized</td></tr></table>
 <ul><li><b>Other signs of trouble:</b> a cork pushed up under the capsule, seepage, or a brown tint in a wine too young for it. All point to heat.</li>
 <li><b>Format:</b> a magnum holds twice the wine under the same size of cork, so it takes in half as much oxygen per glass and ages more slowly. Half bottles age fastest.</li></ul>
+
+
+<h3>Why storage matters so much</h3>
+<p>The reactions of aging run faster at higher temperatures, roughly doubling with each rise of ten degrees, and they do not run in the same proportions, so a wine kept warm does not simply mature sooner. It develops cooked, flat flavors and loses fruit. The traditional ideal is a steady twelve or thirteen degrees. Fluctuation is worse than a constant moderate temperature, because the wine expands and contracts and works air past the cork. Humidity of around seventy percent keeps the cork from drying, bottles are laid on their sides for the same reason, and light, especially on clear glass, damages delicate wines. Vibration is avoided on principle.</p>
+<p>The practical consequence for a sommelier is that two bottles of the same great wine can differ entirely, and that the price of an old bottle reflects its history as much as its label. A restaurant buying mature wine should ask where it has been, examine the level, the capsule and the color, and prefer stock that has moved as little as possible.</p>
+
 <h3>Vintage on the label</h3>
 <ul><li><b>NV</b> (non-vintage) and <b>MV</b> (multi-vintage) wines blend years on purpose.</li>
 <li>A vintage date allows a small share of other years: up to 15% in the EU.</li>
 <li>In Champagne and Port the producer chooses whether to declare a vintage at all.</li>
 <li>A late-released wine carries its harvest year, not its release year. A 2015 Rioja Gran Reserva and a 2021 Rioja Crianza may reach the shelf together.</li></ul>
+
+
 <h3>Answering "was that a good year?"</h3>
 <ol><li><b>Say what the year was like</b>, in one phrase: warm and ripe, cool and firm, or light.</li>
 <li><b>Say what that means tonight:</b> ready now, wants a decanter, or better in five years.</li>
 <li><b>Bring it back to the producer.</b> "It was a lighter year, but this estate made one of the best wines of it" is honest and useful.</li>
-<li><b>Never bluff.</b> If you do not know the year, say you will check, and check.</li></ol>`,
+<li><b>Never bluff.</b> If you do not know the year, say you will check, and check.</li></ol>
+
+<h3>Vintage as a selling tool</h3>
+<p>Used well, knowledge of vintages serves the guest more than it flatters the sommelier. The famous years are expensive and often need more time than the bottle on the list has had. The lighter years of good producers cost less, are ready sooner and suit a meal better than a closed, tannic wine. A list that offers both, and a sommelier who can explain the difference in a sentence, gives the guest a real choice. The most useful habit is to taste the wines on the list regularly, since a vintage chart records the general view at release and wines confound it in both directions: some celebrated years have aged poorly, and some dismissed ones have turned out well.</p>
+`,
 floor:`<p>When a guest asks about an older vintage, give three things: what the year was like, how the wine is drinking now, and whether to decant. "2014 Barolo was a rainy year, so it's lighter and drinking beautifully now. I'd decant for twenty minutes."</p>`,
 analyst:`<p>Readiness for drinking on the SAT depends on structure and concentration, not just age. Diploma and MW questions often ask you to explain vintage variation through weather at specific growth stages.</p>`,
 terms:[["Vintage","The year the grapes were harvested."],["Declared vintage","A year in which Port or Champagne houses release a vintage wine."],["Drinking window","The period in which a wine is expected to show at its best."],["Solar vintage","A hot, dry year giving ripe, lower-acid wines."],["Ullage","The air gap between the cork and the wine."],["Provenance","A bottle's history of ownership and storage."],["Ex-cellar","Released directly from the producer's own cellar."],["Multi-vintage","A blend of several years, made on purpose."]],

@@ -1085,8 +1085,10 @@ quiz:[
 ]});
 
 L.push({id:"r17", unit:"R5", title:"South Africa and Canada", mins:14,
-summary:"Stellenbosch, Swartland's old-vine Chenin, Constantia's history, and icewine.",
+summary:"The Cape's two currents and old soils, isolation and return, the two grapes that define South Africa, and how Canada grows wine at all.",
 body:`
+<p>South Africa and Canada are both wine countries of the edge, one at the southern tip of a continent where two oceans meet, the other at the northern limit of the vine. South Africa has the longest history of any country outside Europe, more than three and a half centuries, and a modern industry that dates in effect from 1994. Canada's is recent and small, and known abroad for a single sweet wine that depends on its winters. This chapter explains what makes each possible and what each does best.</p>
+
 <h3>South Africa</h3>
 <p>Vines were planted at the Cape in 1655 by the Dutch East India Company. By the late 1700s <b>Vin de Constance</b>, a sweet Muscat from Constantia, was drunk by Napoleon in exile and praised by Jane Austen. The 20th century brought the KWV cooperative's control of production and the isolation of apartheid-era sanctions. Since 1994 the industry has reinvented itself, and old-vine Chenin Blanc has become its calling card.</p>
 <p><b>Wine of Origin (WO)</b> scheme: geographical units, regions, districts, wards. 85% rule for variety and vintage. The Coastal Region is cooled by the cold <b>Benguela Current</b> and the southeasterly "<b>Cape Doctor</b>" wind, which also dries vines and reduces disease.</p>
@@ -1096,16 +1098,24 @@ body:`
 <li><b>Swartland</b>: warm, dry, dry-farmed old bush vines; the "Swartland revolution" of Eben Sadie and others with Chenin and Rhône blends.</li>
 <li><b>Walker Bay</b> (Hemel-en-Aarde: Pinot Noir and Chardonnay; Hamilton Russell), <b>Elgin</b> (cool), <b>Cape Agulhas</b>.</li></ul>
 <p>Chenin Blanc (once called Steen) is the most planted grape. <b>Pinotage</b> (Pinot Noir × Cinsault) is the local crossing. <b>Méthode Cap Classique</b> is traditional-method sparkling.</p>
-<h3>Canada</h3>
-<p>The <b>VQA</b> (Vintners Quality Alliance) system covers Ontario and British Columbia.</p>
-<ul><li><b>Ontario</b>: <b>Niagara Peninsula</b>, where Lake Ontario and the Niagara Escarpment circulate air and moderate winters; also Prince Edward County and Lake Erie North Shore. Riesling, Chardonnay, Cabernet Franc, Pinot Noir.</li>
-<li><b>British Columbia</b>: the <b>Okanagan Valley</b> (a desert at its southern end; Bordeaux varieties, Syrah, Pinot Gris) and Similkameen.</li>
-<li><b>Icewine</b>: Canada is the world's largest producer. Grapes must freeze naturally on the vine and be picked and pressed at -8°C (about 17.6°F) or colder. Main grapes: <b>Vidal</b> (a hybrid), Riesling, Cabernet Franc. Inniskillin's 1989 Vidal Icewine won a top prize at Vinexpo in 1991.</li></ul>
+
+
+<h3>The Cape's geography</h3>
+<p>The winelands lie in the southwestern corner of the country, around Cape Town, at about thirty-four degrees south, a latitude that would give a hot climate were it not for the sea. Two currents meet off the Cape. The cold <strong>Benguela</strong> current flows north from the Antarctic along the west coast, and the air above it is chilled. In summer a strong southeasterly wind, known as the Cape Doctor, blows across the peninsula almost daily, bringing that cool air inland, lowering temperatures by several degrees in the afternoon and drying the vines so thoroughly that fungal disease is limited. Districts open to the sea, such as Constantia, the coast south of Stellenbosch, and the south coast around Walker Bay and Elgin, are markedly cooler than those a short distance inland behind the mountains.</p>
+<p>The second factor is the mountains themselves, steep ranges of hard sandstone resting on granite and shale, which rise abruptly from the plains. They create a mosaic of slopes, aspects and elevations, so that a single estate may have sites for both Cabernet and Sauvignon Blanc. The soils are among the oldest vineyard soils in the world, deeply weathered, acid and low in nutrients: decomposed granite on the lower slopes, which holds water and suits red grapes, sandstone higher up, and shale in the valleys and in the Swartland.</p>
+<p>The climate is Mediterranean, with wet winters and dry summers, and rainfall varies from over a thousand millimeters against the mountains to less than three hundred inland. Irrigation is common away from the coast. The Swartland, the wheat country north of Cape Town, is an exception that has become a strength: its old bush vines grow without irrigation on deep shale and granite, yield little, and give concentrated fruit.</p>
+
+<h3>Isolation and return</h3>
+<p>The industry's history explains its present. For most of the twentieth century a giant cooperative had statutory power over the whole trade. It fixed minimum prices, bought and distilled surplus, and from the 1950s controlled who might plant vines and where through a quota system. The arrangement protected growers and rewarded quantity: most grapes went to brandy, fortified wine and bulk, and planting in new, cooler areas was barred. At the same time international sanctions against apartheid closed export markets and cut the country off from new plant material and ideas, and much of the vineyard was infected with viruses that prevent proper ripening.</p>
+<p>The end of apartheid and the first democratic elections in 1994 reopened the world. Exports multiplied many times over within a decade, the quota system was abolished, and a generation of winemakers went abroad to work and returned to plant in cool coastal sites and to rediscover old vineyards. The replanting that followed shifted the balance from white grapes for distilling toward red and quality white varieties on better clones. The industry's unresolved problems are economic and social: grape prices too low to sustain many farms, a shrinking vineyard, and the slow progress of ownership and opportunity for the black and mixed-race workers on whose labor it was built.</p>
+
 <h3>South Africa by the numbers</h3>
 <ul><li>About <b>86,500 hectares</b> of wine grapes, and shrinking each year as growers pull out unprofitable vineyards.</li>
 <li>The world's seventh-largest producer in 2025.</li>
 <li>White grapes are 56% of plantings. <b>Chenin Blanc is 18%</b> of the whole vineyard, more than in the Loire.</li>
 <li>Reds: Cabernet Sauvignon about 10%, Shiraz 9%, Pinotage under 8%.</li></ul>
+
+
 <h3>Chenin and Pinotage in the glass</h3>
 <table class="t"><tr><th>Wine</th><th>Style</th></tr>
 <tr><td>Fresh Chenin</td><td>Unoaked: guava, apple, lemon; inexpensive</td></tr>
@@ -1118,6 +1128,24 @@ body:`
 <li><b>Vin de Constance</b> is made from Muscat de Frontignan left to raisin on the vine. There is no botrytis and no fortification.</li>
 <li><b>The seal.</b> Every certified bottle carries a numbered Wine of Origin seal on its neck, which backs the claims of origin, variety and vintage. Since 2010 it can also certify sustainable production.</li>
 <li><b>Headwinds:</b> leafroll virus, the drought of 2015 to 2018, power cuts and low grape prices.</li></ul>
+
+
+<h3>Two grapes that define the Cape</h3>
+<p><strong>Chenin Blanc</strong> came with the first Dutch settlers and was planted everywhere because it is productive, keeps its acidity in heat and makes good base wine for brandy. That history left an inheritance of old vineyards, many of them unirrigated bush vines planted between the 1950s and 1970s in the Swartland, Stellenbosch and Paarl. When winemakers began in the late 1990s to treat this fruit seriously, with low yields, ambient yeast and fermentation in old oak, the result was a dry white of density and texture, with flavors of quince, baked apple and honey and a firm acidity, that is now regarded as the country's finest wine. An organization founded to protect such vineyards certifies those over thirty-five years old.</p>
+<p><strong>Pinotage</strong> is a harder case. The crossing was made to combine the quality of Pinot Noir with the reliability of Cinsault, and it ripens early with deep color and high sugar. Badly made, particularly when fermented hot, it can show a harsh smell likened to paint or burnt rubber, which gave it a poor name abroad. Handled with care, from old bush vines, with moderate extraction, it gives a dark, plummy, smoky red that ages well, and a lighter, perfumed style closer to its Pinot parent has appeared. It is also used in the blends that some producers offer as a national style.</p>
+<p>The reds on which the country's reputation chiefly rests are Cabernet Sauvignon and Bordeaux blends from Stellenbosch, which often show a savory, earthy note alongside ripe fruit and stand stylistically between Europe and the New World, and Syrah and Rhône blends from the Swartland.</p>
+
+<h3>Canada</h3>
+<p>The <b>VQA</b> (Vintners Quality Alliance) system covers Ontario and British Columbia.</p>
+<ul><li><b>Ontario</b>: <b>Niagara Peninsula</b>, where Lake Ontario and the Niagara Escarpment circulate air and moderate winters; also Prince Edward County and Lake Erie North Shore. Riesling, Chardonnay, Cabernet Franc, Pinot Noir.</li>
+<li><b>British Columbia</b>: the <b>Okanagan Valley</b> (a desert at its southern end; Bordeaux varieties, Syrah, Pinot Gris) and Similkameen.</li>
+<li><b>Icewine</b>: Canada is the world's largest producer. Grapes must freeze naturally on the vine and be picked and pressed at -8°C (about 17.6°F) or colder. Main grapes: <b>Vidal</b> (a hybrid), Riesling, Cabernet Franc. Inniskillin's 1989 Vidal Icewine won a top prize at Vinexpo in 1991.</li></ul>
+
+
+<h3>How Canada grows wine at all</h3>
+<p>Canada's winters would kill European vines almost everywhere in the country. Its two principal regions exist because of local protection. In Ontario the protection is a lake: the Niagara Peninsula lies between Lake Ontario and Lake Erie, and the deep water of the former keeps the adjoining land warmer in winter and cooler in spring than the interior. In British Columbia it is a valley: the Okanagan lies between two mountain ranges, in the rain shadow of the coastal mountains, with a chain of lakes along its floor. Even so, both are struck every few years by a cold that kills buds or vines, and growers use wind machines, bury vines, and choose hardy varieties.</p>
+<p>The industry in its modern form began in the 1970s and 1980s, when a few small estates planted European varieties where hybrids and native grapes had been grown for sweet fortified wine. Free trade with the United States in 1988 removed protection from Canadian wineries, and the government paid growers to uproot the old vineyards. The replanting with Riesling, Chardonnay, Pinot Noir, Cabernet Franc and Merlot, together with the appellation system created at the same time, produced the industry that exists today.</p>
+
 <h3>Canada beyond Icewine</h3>
 <ul><li>Icewine is a sliver of production. Most Canadian wine is dry: Riesling, Chardonnay, Pinot Noir and Cabernet Franc in Ontario; Pinot Gris, Merlot and Syrah in British Columbia.</li>
 <li><b>Label trap.</b> <b>VQA</b> wine is 100% grown in the named province. A bottle marked as an <b>international blend</b> (once "Cellared in Canada") is mostly imported bulk wine bottled in Canada.</li>
@@ -1125,11 +1153,17 @@ body:`
 <li><b>Winter kill.</b> In January 2024 a deep freeze destroyed nearly all of that year's crop in the Okanagan. British Columbia let wineries bring in grapes from Washington and elsewhere for the vintage; those wines are sold outside VQA.</li>
 <li><b>Prince Edward County</b> growers bury their vines under soil each winter.</li>
 <li><b>Nova Scotia</b> makes sharp, fine traditional-method sparkling wine (Benjamin Bridge).</li></ul>
+
+
 <h3>Icewine details that get tested</h3>
 <ul><li>Freezing picked grapes in a freezer (cryoextraction) is banned for anything called Icewine in Canada.</li>
 <li>Frozen grapes give only about 15% of the juice of a normal harvest, which is why half bottles cost so much.</li>
 <li><b>Vidal</b> has thick skins that survive on the vine into winter. <b>Riesling</b> Icewine has more acidity and ages longer. <b>Cabernet Franc</b> makes a red version.</li>
-<li>Serve about 2 oz, well chilled.</li></ul>`,
+<li>Serve about 2 oz, well chilled.</li></ul>
+
+<h3>What freezing does</h3>
+<p>The principle of Icewine is concentration by ice. Water freezes at a higher temperature than the sugary juice in which it is dissolved. When grapes frozen hard on the vine are pressed, the water stays behind in the press as ice crystals and only a small quantity of intensely sweet, acid juice runs out. The grapes must be healthy, since unlike those of Sauternes or Tokaj they are not affected by noble rot, and the flavor is of pure fruit, peach, apricot, mango and honey, with a piercing acidity that balances the sugar. The risks are borne between the normal harvest and the freeze, weeks or months in which the grapes hang exposed to rot, wind, and birds. The wine was first made in Germany, where a suitable frost may now fail to arrive for years. In Ontario it comes almost every winter, and that reliability, with the legal ban on freezing by machine, is the basis of the Canadian claim to the category.</p>
+`,
 floor:`<p>Matching example from the CMS guide: Walker Bay → South Africa. Know Pinotage's parents and the Kanonkop/Hamilton Russell/Sadie names. Icewine pairs with fruit desserts and blue cheese; serve well chilled.</p>`,
 analyst:`<p>WSET Level 3 includes Stellenbosch, Paarl, Constantia, Swartland, Elgin, Walker Bay and Cape South Coast; and Canada's Niagara Peninsula and Okanagan Valley. Know how icewine is made and why the climate allows it.</p>`,
 terms:[["Wine of Origin","South Africa's appellation scheme."],["Cape Doctor","Strong southeasterly wind that cools and dries Cape vineyards."],["Steen","Old South African name for Chenin Blanc."],["VQA","Vintners Quality Alliance, Canada's appellation system."],["Méthode Cap Classique","South African traditional-method sparkling."],["Kaapse Vonkel","Simonsig's 1971 sparkling wine, the first Cap Classique."],["Wine of Origin seal","Numbered neck seal certifying a South African wine's origin, variety and vintage."],["International blend","Canadian label term for wine made mostly from imported bulk wine."],["Cryoextraction","Freezing picked grapes artificially; not allowed for Canadian Icewine."]],
