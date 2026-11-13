@@ -147,15 +147,40 @@ quiz:[
 ]});
 
 L.push({id:"r9", unit:"R3", title:"Sherry", mins:16,
-summary:"Flor, the solera, and the family tree from Fino to PX.",
+summary:"Why Sherry is made in the cellar: albariza and the two winds, what flor does, what the solera is for, and how every style follows from two paths.",
 body:`
 <p>Sherry is the most misunderstood great wine. Most people picture sweet cream sherry; sommeliers think of bone-dry, saline Fino with jamón, or a 30-year-old Palo Cortado.</p>
+
+
+<p>Sherry is also the clearest case in wine of a style made in the cellar. Almost everywhere else the grape and the vineyard supply the character and the winemaker tries to preserve it. In Jerez the grape is chosen for having little character, the wine is fermented to a plain dry white, and everything that makes it Sherry happens afterward, over years, in a cask that is deliberately left part empty. This chapter explains the two things that can happen in that cask, why the region's climate and buildings make them possible, and how a system of blending across years turns them into the styles on the shelf.</p>
+
 <h3>Place</h3>
 <p>The <b>Sherry Triangle</b> in Andalucía: <b>Jerez de la Frontera</b>, <b>Sanlúcar de Barrameda</b> and <b>El Puerto de Santa María</b>. Hot, but tempered by Atlantic winds: the humid <b>poniente</b> from the west (encourages flor) and the hot, dry <b>levante</b> from the east. <b>Albariza</b>, a brilliant white soil of chalk, clay and diatoms, soaks up winter rain and bakes into a crust that holds moisture through summer. The grape is <b>Palomino</b>, neutral by design: the character comes from aging. <b>Pedro Ximénez</b> and <b>Moscatel</b> are for sweet wines.</p>
+
+
+<h3>Why here: chalk, two winds and a cathedral</h3>
+<p>Jerez is among the hottest and sunniest wine regions in Europe, with about three hundred clear days a year and summer temperatures that pass forty degrees when the wind is from the east. It receives a fair amount of rain, around six hundred millimeters, but almost all of it falls between autumn and spring, and the vines must get through a rainless summer without irrigation. The soil is what allows it. <strong>Albariza</strong> is a soft white marl laid down on an ancient seabed, rich in the fossil shells of microscopic algae, and its structure is open and spongy. In winter it soaks up water in quantity. In summer its surface dries to a hard crust that seals the moisture below, and the vine's roots, which have been found at depths of six meters, draw on that reserve until the harvest. Growers help the process after each vintage by digging the ground between the rows into a grid of small rectangular basins, a task called <em>aserpia</em>, so that winter rain is held on the slope and does not run off. The white surface also reflects light up into the vine. The finest albariza, with the most chalk, lies on the low hills between Jerez and Sanlúcar, an area traditionally called Jerez Superior. Two other soils, dark clay (<em>barros</em>) and sand (<em>arenas</em>), are found in the lower ground and near the coast, and the sand is where Moscatel is grown.</p>
+<p>The two winds matter as much in the cellar as in the vineyard. The <em>poniente</em>, from the Atlantic, is cool and loaded with moisture. The <em>levante</em>, from the land, is hot and dry. The bodegas are built to use the first and resist the second. They are tall, with roofs ten meters or more above the floor, thick walls, and high windows facing the sea wind, and their floors are of beaten earth that is sprinkled with water in summer. Hot air rises to the roof, the casks sit in cooler air near the ground, and the humidity stays high. The height and the rows of arches have earned them the name of cathedrals. The design has a purpose: it keeps the layer of yeast described below alive through the Andalusian summer, and it slows the evaporation of wine from the casks.</p>
+<p><strong>Palomino</strong> occupies about nineteen vines in twenty. It gives a large crop of juice that is low in acid, low in aroma and moderate in sugar, which would be faults anywhere else and are advantages here. A neutral base takes on the flavors of aging cleanly, and a wine of eleven or twelve percent alcohol can be adjusted by fortification to exactly the strength each style needs.</p>
+
 <h3>Two paths</h3>
 <p>After fermentation the base wine is classified. The finest, lightest is fortified to about 15-15.5% for <b>biological aging</b> under <b>flor</b>, a layer of yeast that protects it from oxygen and consumes glycerol and alcohol, producing acetaldehyde (the tang of bread dough, almond and green apple). Heavier wines are fortified to about 17% or more, killing any flor, for <b>oxidative aging</b>.</p>
+
+
+<h3>What flor does</h3>
+<p><strong>Flor</strong> is a film of yeast that forms on the surface of the wine in a cask that is filled only to about five sixths. The yeasts are strains of the same species that carries out fermentation, adapted to a different way of life. When the sugar is gone they do not die and sink. They develop a waxy coat that lets them float, and switch to a metabolism that uses oxygen from the air above and feeds on components of the wine itself. The film looks like a layer of pale cream, wrinkled and a centimeter or so thick, and it is thickest in spring and autumn, when the cellar is mild, and thinner in the heat of summer and the cold of winter.</p>
+<p>Its effects are three. First, it protects. The yeast consumes the oxygen that enters the cask before it can reach the wine, so a Fino stays pale after years in wood, where an unprotected white wine would brown in months. Second, it consumes. The yeast feeds on alcohol, on what remains of the sugar, on acetic acid, and above all on glycerol, the substance that gives wine a sense of roundness and sweetness. Glycerol falls from seven or eight grams per liter to almost nothing, which is why Fino and Manzanilla taste drier and lighter than any other wine, lean to the point of austerity. Third, it produces. The chief product is <strong>acetaldehyde</strong>, which smells of bruised apple, raw almond and fresh dough, and is the signature of biologically aged wine. The dead yeast cells that fall to the bottom of the cask add a savory, bready note as they break down.</p>
+<p>Flor is demanding. It needs alcohol of about fifteen percent: below that, other organisms that spoil wine can grow, and above about sixteen the yeast cannot survive. It needs a cool, steady temperature and humid air. And it needs feeding, because the nutrients in a cask are exhausted in time. That last requirement is the link between flor and the solera system, as the next section shows. Fortifying a wine to seventeen percent or more kills the flor at once, and the wine then ages in direct contact with air.</p>
+<p><strong>Oxidative aging</strong> is the opposite process and gives the opposite result. Oxygen slowly darkens the wine from gold to amber to mahogany and produces the aromas of walnut, toffee, dried fruit, leather and polished wood. Water evaporates through the staves faster than alcohol in the dry air of an upper cellar, so the wine concentrates: its alcohol climbs from seventeen percent toward twenty or more, its acidity and extract rise, and the glycerol, which nothing has consumed, stays, so that a dry Oloroso feels rich and round though it contains no sugar. The loss, three to five percent of the volume each year, is called the angels' share.</p>
+
 <h3>The solera</h3>
 <p>A <b>solera</b> is a pyramid of barrels (botas, about 600 L, never full). Wine for bottling is drawn from the bottom row (the solera itself) and replaced from the row above (the first <b>criadera</b>), and so on up. The result is a fractional blend of many vintages with consistent style. Minimum average age is 2 years. Age statements: <b>VOS</b> (20+ years), <b>VORS</b> (30+ years), plus 12 and 15 year categories.</p>
+
+
+<h3>What the solera is for</h3>
+<p>The system has three purposes. The obvious one is consistency. A house Fino tastes the same every year because each bottling is a blend of many harvests, and the variation of any single year is diluted to nothing. The second is to keep flor alive. Each time younger wine is added to a cask it brings fresh nutrients to the yeast, and a solera of Fino that is refreshed several times a year can sustain flor for eight or ten years, where a cask left alone would lose its film in three or four. The third is that it lets young wine take on the character of old wine quickly, because a small quantity of new wine added to a large quantity of mature wine is absorbed into it.</p>
+<p>Two consequences follow. A Sherry has no vintage, with rare exceptions, and its age can only be stated as an average, which the regulating council calculates from the ratio of stock to sales and checks for the oldest categories by laboratory analysis. And the trace of the oldest wine never leaves: a solera founded in the nineteenth century still contains, in diminishing proportion, some of what was first put into it. The casks themselves are old and neutral, of American oak, and are valued for being exhausted of flavor. A new cask would be a fault.</p>
+
 <h3>The styles</h3>
 <table class="t"><tr><th>Style</th><th>Aging</th><th>Character</th></tr>
 <tr><td>Fino</td><td>Biological</td><td>Pale, bone dry, almond, bread, saline</td></tr>
@@ -167,12 +192,24 @@ body:`
 <tr><td>Moscatel</td><td>Oxidative</td><td>Sweet, floral, raisin</td></tr>
 <tr><td>Pale Cream / Medium / Cream</td><td>Blends</td><td>Sweetened Fino, Amontillado or Oloroso</td></tr></table>
 <p><b>En rama</b>: bottled with minimal filtration, closer to the barrel. Fino and Manzanilla are fragile once opened: treat them like white wine and finish within days. <b>Montilla-Moriles</b> next door makes similar styles from PX, often unfortified.</p>
+
+
+<h3>Reading the family tree</h3>
+<p>The table becomes simple when the styles are seen as positions on one line. At one end is wine that has spent its whole life under flor: <strong>Fino</strong>, and <strong>Manzanilla</strong>, which is the same wine aged in Sanlúcar de Barrameda, where the town's position on the estuary, open to the sea wind, keeps the cellars cooler and damper and the flor thick all year. The result is a wine that is paler, lighter and saltier than Fino from inland Jerez. At the other end is wine that has never been under flor: <strong>Oloroso</strong>. Between them are the two styles that have known both. <strong>Amontillado</strong> is a Fino whose flor has died, from age or because the cellar master fortified it again, and which then aged in air; it keeps the sharp, dry frame and almond edge of its first life and adds the hazelnut and amber of its second. <strong>Palo Cortado</strong> is the wine that left the biological path early and unexpectedly: a cask selected for Fino that failed to hold its flor, was marked with a second, crossing stroke of chalk and sent to age as an Oloroso. It joins the fine, aromatic nose of the lighter wine to the body of the heavier, and its rarity has made it the most discussed of all.</p>
+<p>The sweet wines are made differently. <strong>Pedro Ximénez</strong> and <strong>Moscatel</strong> grapes are laid on mats in the sun for a week or more until they shrivel, a process called <em>soleo</em>, and the dense must is fortified almost before it ferments, leaving several hundred grams of sugar per liter. The wines then age oxidatively. Most Pedro Ximénez is grown inland in Montilla-Moriles, where the grape ripens better, and brought to Jerez under a long-standing exemption. The blended categories, Pale Cream, Medium and Cream, are dry wines sweetened with these or with concentrated grape must, and they are what built the export trade.</p>
+
 <h3>How Sherry became Sherry</h3>
 <ul><li>The Moors called the town Sherish; the English turned that into Sherry. The DO's legal name carries three languages: <b>Jerez-Xérès-Sherry</b>.</li>
 <li>In 1587 Francis Drake raided Cádiz and carried off about 2,900 butts. <b>Sack</b>, as the English called it, became the fashionable wine of Shakespeare's London.</li>
 <li>British and Irish merchants settled in the trade, which is why so many bodegas have names like Harvey, Sandeman, Garvey, Osborne and Williams &amp; Humbert.</li>
 <li>Jerez was among the first denominations named in Spain's 1933 wine law, and its Consejo Regulador was set up in 1935.</li>
 <li>A boom in cheap sweet blends in the 1970s ended in collapse. The vineyard shrank by about two-thirds, and the recovery has been led by dry, aged and single-vineyard wines.</li></ul>
+
+
+<h3>Rise, collapse and recovery</h3>
+<p>The modern trade took its shape between about 1770 and 1870. Merchants who had been shipping young wine began to hold stocks and age them, and the solera system, the use of flor and the range of styles all date from that period. Fino as a commercial category is a nineteenth-century invention. Phylloxera arrived in 1894, and replanting concentrated the vineyard on Palomino and eliminated dozens of other varieties, six of which were readmitted in 2022.</p>
+<p>The twentieth century ended badly. From the 1960s one holding company, Rumasa, bought up bodega after bodega, expanded the vineyard to more than twenty thousand hectares and flooded export markets, Britain and the Netherlands above all, with cheap sweet blends sold under buyers' own labels. The state expropriated Rumasa in 1983. By then the image of Sherry as an inexpensive sweet drink for an older generation was fixed, sales fell for three decades, and the vineyard was reduced to about seven thousand hectares. The recovery now under way is small in volume and significant in kind. It is led by dry wines, by old and rare bottlings, by <em>en rama</em> releases, and by producers interested in the vineyard, who make unfortified white wines from old Palomino on albariza and Sherries from single named sites.</p>
+
 <h3>The rules that changed in 2022 and 2025</h3>
 <ul><li><b>Aging zone.</b> Wine may now be aged anywhere in the production zone, so bodegas in Trebujena, Lebrija, Chipiona, Rota, Chiclana and Puerto Real can sell Sherry. Before, the last stage had to happen in one of the three Triangle towns.</li>
 <li><b>Pagos</b> may be named on labels.</li>
@@ -182,6 +219,10 @@ body:`
 <li><b>Dry styles</b> may hold no more than 4 g/L of sugar.</li>
 <li><b>Sanlúcar.</b> All biologically aged wine from the town will be Manzanilla; Fino made there is being phased out over ten years.</li>
 <li><b>Fortification is no longer compulsory.</b> Since the EU approved the change in July 2025, Fino, Manzanilla, Amontillado, Oloroso and Palo Cortado may be bottled unfortified if they reach their strength naturally, with 15% as the floor.</li></ul>
+
+
+<p>Read together, these changes move the appellation's attention from the cellar back to the vineyard. For a century the rules defined Sherry by where it was aged, and the three towns of the triangle held a monopoly on the name; the growers' villages could only supply them. The reform ends that, allows the named vineyards to appear on labels, and bases the grade of Jerez Superior on technical merit and not on the municipality. The end of compulsory fortification belongs to the same line of thought. Before fortification became general in the nineteenth century, Palomino from the best albariza, picked ripe and sometimes sunned briefly, reached fifteen percent by itself, and the producers who have revived that practice can now call the result Sherry.</p>
+
 <h3>Serving Sherry</h3>
 <table class="t"><tr><th>Style</th><th>Temperature</th><th>Once opened</th></tr>
 <tr><td>Fino, Manzanilla</td><td>41 to 45°F</td><td>Up to a week, in the refrigerator</td></tr>
@@ -192,6 +233,10 @@ body:`
 <ul><li><b>Glass:</b> a white-wine glass, filled a third. The tiny schooner hides the aroma.</li>
 <li><b>Freshness:</b> buy Fino and Manzanilla young. They are best within about a year of bottling; other styles keep about three years unopened. Store every Sherry upright.</li>
 <li>The <b>venencia</b> is a narrow cup on a long flexible rod. A venenciador plunges it through the flor to draw a sample and pours it from height into the glass.</li></ul>
+
+
+<p>The reasons for these rules follow from how each wine was made. A Fino has lived its whole life protected from oxygen and has no defense against it once the bottle is open, so it fades in days, as any light white wine does, and should be bought fresh and kept cold. An Oloroso has been exposed to air for a decade or more and has little left to lose. The same logic sets the temperatures: cold suits the light, dry, saline wines, and the rich oxidative wines show more of their aroma a little below room temperature.</p>
+
 <h3>Sherry at the table</h3>
 <p>The local rule: <i>if it swims, Fino; if it flies, Amontillado; if it runs, Oloroso.</i></p>
 <table class="t"><tr><th>Style</th><th>Works with</th></tr>
@@ -203,7 +248,11 @@ body:`
 <tr><td>Pedro Ximénez</td><td>Vanilla ice cream, dark chocolate, blue cheese</td></tr></table>
 <ul><li><b>Rebujito:</b> Manzanilla or Fino with lemon-lime soda and mint, the drink of the spring ferias.</li>
 <li><b>Tabancos</b> are the old Sherry bars of Jerez, pouring straight from the cask.</li>
-<li>The region also makes <b>Brandy de Jerez</b> and <b>Vinagre de Jerez</b>, and seasons casks with Oloroso for the whisky industry.</li></ul>`,
+<li>The region also makes <b>Brandy de Jerez</b> and <b>Vinagre de Jerez</b>, and seasons casks with Oloroso for the whisky industry.</li></ul>
+
+<h3>Why Sherry works with food</h3>
+<p>Sherry solves problems at the table that defeat most wines, and for identifiable reasons. Fino and Manzanilla are dry, low in acid and high in savory compounds, with a salty finish, so they behave with food much as a squeeze of lemon and a pinch of salt do, and they do not clash with vinegar, smoke, cured fish or egg. Amontillado and Palo Cortado carry the nutty, brothy flavors that echo mushrooms, stock and roasted things, which is why they are recommended for soups and for the vegetables, artichoke and asparagus, that make ordinary wine taste metallic or sweet. Oloroso has the weight and the alcohol to stand up to long-cooked meat. And Pedro Ximénez is so sweet and so dense that it is used almost as a sauce. A sommelier who can explain these matches in a sentence each has an answer for the most awkward dishes on a menu.</p>
+`,
 floor:`<p>Serve Fino and Manzanilla chilled (48-55°F) with jamón, almonds, olives, fried seafood. Oloroso with aged cheese and stews; PX over vanilla ice cream. Producers: González Byass (Tío Pepe), Lustau, Hidalgo (La Gitana), Barbadillo, Valdespino, Equipo Navazos.</p>`,
 analyst:`<p>WSET Level 3 LO4 expects you to explain how each style is made and how that creates its character. Example: "Explain why Fino is pale and tangy while Oloroso is brown and nutty" = flor versus oxygen, acetaldehyde versus oxidation, fortification level as the switch.</p>`,
 terms:[["Flor","Yeast layer protecting Sherry during biological aging."],["Solera","Fractional blending system of tiered barrels."],["Criadera","A row of barrels above the solera row."],["Albariza","Chalky white soil of Jerez."],["VORS","Very Old Rare Sherry, 30+ years average age."],["En rama","Sherry bottled with minimal filtration."],["Sack","Elizabethan English name for Sherry."],["Fino Viejo","Biologically aged Sherry with an average age over seven years."],["Venencia","Narrow cup on a long rod, used to draw samples from a butt."],["Rebujito","Manzanilla or Fino with lemon-lime soda."],["Tabanco","A traditional Sherry bar in Jerez."]],
@@ -226,12 +275,33 @@ quiz:[
 ]});
 
 L.push({id:"r10", unit:"R3", title:"Portugal, Port and Madeira", mins:20,
-summary:"The Douro's schist terraces, every Port style, and the indestructible wines of Madeira.",
+summary:"Port as a stopped fermentation on schist terraces, the two families of style, Madeira's heat and air, and Portugal's native-grape table wines.",
 body:`
+<p>Portugal is a small country with a disproportionate share of the world's distinctive wine. It has two of the three great fortified wines, a mountain vineyard that is among the most difficult to farm anywhere, and some two hundred and fifty native grape varieties that it never abandoned for the international ones. The common thread is isolation followed by trade. Portugal faces the Atlantic with its back to Spain, its wines were shaped by sea commerce with England, and for much of the twentieth century it was closed off under a dictatorship, which preserved old vineyards and old habits that other countries modernized away. This chapter explains Port and Madeira as products of their geography and their trade, and surveys the table wines that have become the country's second strength.</p>
+
 <h3>Port: how it came to be</h3>
 <p>When wars cut England off from French wine in the late 1600s, merchants turned to Portugal. The 1703 Methuen Treaty gave Portuguese wine low tariffs. Adding brandy kept wine stable on the voyage, and stopping fermentation early kept it sweet. In 1756 the Marquis of Pombal demarcated the Douro, one of the world's first protected wine regions.</p>
+
+
+<h3>How an accident became a method</h3>
+<p>The first wines shipped from the Douro to England in the late seventeenth century were dry, dark and rough, and were dosed with a little brandy at the quay to survive the voyage. The decisive change was in the timing of that addition. If spirit is added after fermentation, the wine is strong and dry. If it is added during fermentation, when about half the sugar has been converted, the yeast is killed by the sudden rise in alcohol and the remaining sugar stays in the wine. The result is sweet, strong and stable, and because it is made from grapes that are still fermenting on their skins, it must extract its color and tannin in two or three days in place of two weeks. The practice spread through the eighteenth century and was general by about 1850. Everything distinctive in the making of Port follows from that short window.</p>
+<p>The demarcation of 1756 was a response to a crisis. Demand had outrun supply, shippers were stretching the wine with elderberry juice and wine from other regions, the price collapsed, and the prime minister, the Marquis of Pombal, created a state company with a monopoly over the trade, marked the boundary of the permitted vineyards with granite posts, and graded the land by the quality of its wine. Those three elements, a defined area, a classification of vineyards and a body to enforce them, are the components of every appellation since.</p>
+
 <h3>The Douro</h3>
 <p>Hot, dry, continental, sheltered from the Atlantic by the Serra do Marão. Vines grow in <b>schist</b> on steep terraces (<i>socalcos</i>, walled; <i>patamares</i>, bulldozed). Sub-regions: <b>Baixo Corgo</b> (wettest, lighter Ports), <b>Cima Corgo</b> (the heart, most top quintas), <b>Douro Superior</b> (hottest, driest). Grapes: <b>Touriga Nacional</b> (floral, structured), <b>Touriga Franca</b> (most planted), <b>Tinta Roriz</b> (Tempranillo), Tinta Barroca, Tinto Cão. Grapes are still foot-trodden in stone <b>lagares</b> at top estates, or crushed by robotic treaders. When the fermenting must hits about 6-9% alcohol, it is run onto <b>aguardente</b> (grape spirit around 77%), bringing it to about 19-22% with plenty of sugar.</p>
+
+
+<h3>Why the Douro is as it is</h3>
+<p>The Douro rises in Spain, where it is the Duero of the previous chapters, and cuts a deep gorge through the mountains of northern Portugal on its way to the sea at Porto. The wine region begins about seventy kilometers inland, behind a range, the Serra do Marão, that stops most of the Atlantic rain. The demarcated area covers some 250,000 hectares, of which about 43,000 are under vine, worked by roughly twenty thousand growers who hold an average of two hectares each. It is the largest area of mountain vineyard in the world.</p>
+<p>Rainfall and temperature change steadily from west to east, and the three subregions are stages on that gradient. The <strong>Baixo Corgo</strong>, nearest the mountains, is the wettest and coolest, the most densely planted, and the source of most of the light young Ports. The <strong>Cima Corgo</strong>, around the town of Pinhão, receives perhaps two thirds as much rain and has most of the famous estates. The <strong>Douro Superior</strong>, which runs to the Spanish border, is drier again, close to desert in some years, with summer temperatures above forty degrees. It was planted late, because a granite barrier in the river at Valeira made the upper valley unreachable by boat until it was blasted away in 1791, and it is where the most recent large vineyards have been laid out.</p>
+<p>The soil is <strong>schist</strong>, a layered rock that splits vertically. There was originally no soil at all in the usual sense: the terraces were made by breaking the rock with iron bars and, later, dynamite, and building walls with the pieces. The vertical fractures let roots follow water many meters down, and the stony surface holds the day's heat. Schist ends abruptly at the boundary with granite, and the historic limit of the Port vineyards follows that geological line closely.</p>
+<p>The form of the terraces records the region's history. The old walled terraces, <em>socalcos</em>, carry one or two rows of vines each, are worked entirely by hand, and are protected as a World Heritage landscape. After phylloxera many were abandoned, and the dead terraces, <em>mortórios</em>, are still visible, overgrown with olive and scrub. From the 1970s, bulldozers cut wider earth-banked terraces, <em>patamares</em>, that a small tractor can enter, at the cost of fewer vines per hectare and a risk of erosion. On gentler slopes vines are now planted in vertical rows running up the hill, <em>vinha ao alto</em>, which restores density and allows some mechanization. Labor remains the valley's chief problem, since the young have left and the work cannot be done by machine.</p>
+<p>The grapes are a legacy of the old mixed plantings. More than eighty varieties are permitted, and old vineyards contain dozens interplanted. Research in the 1970s identified five as the best for Port, and the block plantings since then have used mainly those. <strong>Touriga Nacional</strong> gives small berries, deep color, firm tannin and a scent of violets, and yields very little. <strong>Touriga Franca</strong> is the most planted, reliable and perfumed. <strong>Tinta Roriz</strong> adds structure, <strong>Tinta Barroca</strong> sugar and softness, <strong>Tinto Cão</strong> acidity and longevity. All are thick-skinned and tolerant of heat, which matters in a process that has two days to extract everything.</p>
+
+<h3>How Port is made</h3>
+<p>The traditional vessel is the <strong>lagar</strong>, a shallow granite trough holding the crop of a day, in which the grapes are trodden by a line of people for several hours on the first evening and stirred during the following day. The method persists because it works. The human foot crushes skins thoroughly and does not break the seeds, which would release bitter tannin, and the shallow, wide shape keeps a large area of skin in contact with the juice. Since the labor shortage of the 1960s and 1970s most Port has been made in closed tanks that pump or turn the juice over the skins automatically, and since the late 1990s in mechanical lagares with silicone-padded pistons that imitate treading. The best wines of many houses are still trodden.</p>
+<p>When the fermenting must has fallen to the sugar level the winemaker wants, usually after two or three days, with the alcohol at six to eight percent, it is run off into a vat that already contains grape spirit. The spirit is colorless and fairly neutral, of 77 percent strength, and the classic proportion is about one part to four parts of must, which brings the wine to nineteen or twenty percent and leaves around a hundred grams of sugar per liter. A fifth of what is in the bottle is therefore spirit, and its quality, which improved markedly once shippers were free to buy it on the open market from the 1990s, has a direct effect on the wine. The young Port spends its first winter in the valley and is then, by tradition, taken down to the lodges of Vila Nova de Gaia, opposite Porto, where the cooler, damper coastal air allows slow maturation.</p>
+
 <h3>Port styles</h3>
 <p><b>Ruby family</b> (aged briefly, reductively, in large vats or bottle; keeps fruit):</p>
 <ul><li><b>Ruby</b> and <b>Reserve</b>: fruity, ready to drink.</li>
@@ -243,6 +313,13 @@ body:`
 <li><b>Colheita</b>: single-vintage tawny, at least 7 years in wood.</li>
 <li>Basic <b>Tawny</b> can be a lighter blend.</li></ul>
 <p>Also <b>White Port</b> (with tonic, the Porto Tónico) and <b>Rosé Port</b>. Houses: Taylor's, Fonseca, Graham's, Dow's, Warre's, Quinta do Noval (Nacional, from ungrafted vines), Niepoort, Ramos Pinto, Sandeman.</p>
+
+
+<h3>The logic of the two families</h3>
+<p>Every style of Port is a point on one of two paths, and the difference between them is exposure to oxygen. <strong>Ruby</strong> styles are kept from air, in very large wooden vats or in tanks and then in bottle, and so retain their deep color, their fruit and their tannin. <strong>Tawny</strong> styles are aged in small casks of about 550 to 630 liters, called pipes, where the high ratio of wood surface to wine lets oxygen in and water out. Over the years the color drops from purple through brick to amber, the fruit turns to nuts, caramel and dried fig, the tannin softens and precipitates, and evaporation concentrates what remains. A tawny is ready when bottled and does not improve afterward. A vintage Port does all its maturing in the bottle and may need twenty years.</p>
+<p><strong>Vintage Port</strong> is the exception that the trade is built around. It is the wine of a single outstanding year from a house's best vineyards, bottled without filtration after about two years and released at once. It makes up a very small share of production. A house <em>declares</em> a vintage only when it judges the quality sufficient, three or four times a decade by custom, and when most houses agree the year is called a general declaration. In other years the same vineyards often yield a <strong>single-quinta</strong> vintage Port, made in the same way under the estate's name, lighter and earlier to mature. Because the wine throws a heavy sediment, it must be stood upright and decanted, and because it has never been exposed to air it fades within a few days of opening.</p>
+<p><strong>Late Bottled Vintage</strong> was devised to give something of that character without the wait: a wine of one year kept four to six years in large vats, so that it is ready on release. The age-dated tawnies are blends whose stated age is a style approved by tasting, not a measurement; a twenty-year-old should taste as such, and may contain wines both older and younger. A <strong>Colheita</strong> is a tawny from a single harvest, and its label gives both the year of harvest and the date of bottling, which a buyer needs in order to know how long it spent in wood.</p>
+
 <h3>Portugal's still wines</h3>
 <ul><li><b>Vinho Verde:</b> "green wine" meaning young. Fresh, light, often spritzy whites from Loureiro, Alvarinho (best in Monção e Melgaço), Arinto.</li>
 <li><b>Douro DOC:</b> now as important as Port for reds (Barca Velha, the original icon).</li>
@@ -250,8 +327,21 @@ body:`
 <li><b>Bairrada:</b> Baga, high acid and tannin; also sparkling.</li>
 <li><b>Alentejo:</b> hot, ripe, Aragonez (Tempranillo), Trincadeira, Alicante Bouschet.</li>
 <li><b>Colares:</b> ungrafted Ramisco in sand dunes near Lisbon.</li></ul>
+
+
+<h3>Reading the table-wine map</h3>
+<p>The table wine regions sort themselves by their distance from the ocean and by their rock. The northwest coast, the <strong>Minho</strong>, is granite, green and very wet, and its wine, Vinho Verde, is light, sharp and low in alcohol; the exception is the inland subregion on the Spanish border, sheltered from the sea, where Alvarinho ripens fully. Behind the coastal ranges the climate turns continental. The <strong>Douro</strong> makes dense, dark reds from the Port grapes, and increasingly fresh whites from high vineyards. The <strong>Dão</strong>, a granite plateau ringed by mountains, gives reds of moderate weight and fine acidity. <strong>Bairrada</strong>, back toward the coast on clay and limestone, has a single difficult grape, Baga. The south, the <strong>Alentejo</strong>, is a rolling, hot plain of large estates, cork oak and wheat, and makes soft, ripe, generous wine that dominates the home market.</p>
+<p>The modern history is short. Under the dictatorship that ended in 1974, production in several regions was channeled by law through cooperatives, and private estates in the Dão, for example, could not buy grapes freely until the rules were changed around 1990. Entry to the European Community in 1986 brought money for equipment and the end of such monopolies. In the Douro the same year ended the requirement that Port be shipped from the lodges at Gaia, which allowed individual estates to export for the first time, and the table wine appellation, created in 1979, began to be taken seriously in the 1990s when a group of estates showed what the grapes could do unfortified. One wine had anticipated them by forty years: Barca Velha, first made in 1952 by a Port house, in the far east of the valley, with ice brought by truck to cool the fermentation.</p>
+
 <h3>Madeira</h3>
 <p>A volcanic Atlantic island. Legend says wines shipped through the tropics returned better, so producers learned to recreate the voyage with heat. <b>Estufagem</b> heats wine in tanks for at least 3 months; <b>canteiro</b> ages casks in warm attics for years (the best wines). The four noble grapes name the styles, driest to sweetest: <b>Sercial, Verdelho, Bual (Boal), Malmsey (Malvasia)</b>. <b>Tinta Negra</b> is the workhorse. Age categories: 5, 10, 15, 20, 30, 40, 50 years; <b>Colheita</b> (single vintage, 5+ years); <b>Frasqueira/Garrafeira</b> (vintage, at least 20 years in cask). Famous for high acidity balancing sweetness, and for lasting months after opening and centuries in bottle.</p>
+
+
+<h3>Why Madeira cannot be spoiled</h3>
+<p>Madeira lies in the Atlantic about a thousand kilometers southwest of Lisbon and six hundred from the coast of Morocco. It is the top of a volcano, steep, humid and subtropical, with vines on tiny terraces fed by a network of irrigation channels, the <em>levadas</em>, that carry water from the wet north of the island to the south. The vineyard is very small, a few hundred hectares in the hands of more than a thousand growers, and the vines are trained on low pergolas to keep the bunches off the damp ground. Grapes ripen with difficulty and keep very high acidity, which is the foundation of the style.</p>
+<p>The wine is made by doing deliberately the two things every other winemaker avoids. It is heated, and it is exposed to air. The method was discovered in the age of sail, when the island was the last port of call for ships bound for the Americas and the Indies, and casks of wine carried as cargo or ballast through the tropics were found to have improved. Shippers at first sent wine on the round voyage on purpose, and then reproduced the effect on land. In the <strong>estufagem</strong> process, used for the bulk of production, the wine is held in a tank warmed by hot-water coils to about forty-five or fifty degrees for at least three months. In the <strong>canteiro</strong> process, used for the finer wines, casks are stored in the warm upper floors of the lodges, under the roof, and age by the sun's heat alone over years or decades.</p>
+<p>Heat and oxygen together caramelize sugars and produce the burnt, tangy, nutty character for which the word <em>maderized</em> is used as a fault in other wines. Because the wine has already undergone everything that time and bad storage can do to it, and because its acidity is so high, it is almost indestructible. An opened bottle keeps for months, and wines of the eighteenth and nineteenth centuries are still sound. The grape named on the label indicates the sweetness, since each is traditionally fortified at a different point: Sercial and Verdelho late, when nearly dry, Bual and Malmsey early, while much sugar remains. In every case the acidity balances the sweetness, so that even Malmsey finishes clean.</p>
+
 <h3>Portugal's grapes in the glass</h3>
 <p>Portugal has about 250 native varieties and kept them. Old vineyards are often field blends of thirty or more grapes picked together.</p>
 <table class="t"><tr><th>Grape</th><th>Markers</th></tr>
@@ -263,11 +353,15 @@ body:`
 <tr><td>Arinto</td><td>Lemon and green apple; it keeps its acidity even in great heat</td></tr>
 <tr><td>Antão Vaz</td><td>Ripe, tropical, full; the Alentejo's white</td></tr></table>
 <p><b>Same grape, other name:</b> Tinta Roriz and Aragonez are Tempranillo. Jaen is Mencía. Alvarinho is Albariño. Fernão Pires is also called Maria Gomes.</p>
+
+
 <h3>Label words</h3>
 <ul><li><b>Quinta:</b> an estate. <b>Vinhas velhas:</b> old vines.</li>
 <li><b>Colheita:</b> on a table wine it simply means vintage. On Port and Madeira it is a specific aged style.</li>
 <li><b>Reserva:</b> a wine that passed a tasting panel with at least half a degree more alcohol than the minimum.</li>
 <li><b>Branco, tinto, rosado; seco, doce.</b> <b>Espumante</b> is sparkling.</li></ul>
+
+
 <h3>Serving Port and Madeira</h3>
 <table class="t"><tr><th>Wine</th><th>Serve</th><th>Once opened</th></tr>
 <tr><td>Vintage Port</td><td>60 to 64°F, decanted off its sediment</td><td>Two or three days</td></tr>
@@ -275,6 +369,10 @@ body:`
 <tr><td>Aged Tawny, Colheita</td><td>Lightly chilled, 54 to 57°F</td><td>A month or two</td></tr>
 <tr><td>White Port</td><td>Cold, with tonic and lemon</td><td>A few weeks</td></tr>
 <tr><td>Madeira</td><td>Sercial cool; Malmsey at cellar temperature</td><td>Many months; it is already oxidized and heated</td></tr></table>
+
+
+<p>The service rules are the two families again. Wines aged without air, vintage and late-bottled, behave as red wine once opened and decline in days, and vintage Port needs decanting off a crust that has formed over decades; the bottle is stood up for a day, opened with care, since old corks crumble, and poured steadily against a light until the sediment reaches the neck. Wines aged in air, tawny and Madeira, are already oxidized and stable, hold for weeks or months, and are better slightly cool, which lifts their acidity and restrains the alcohol.</p>
+
 <h3>At the table</h3>
 <table class="t"><tr><th>Wine</th><th>Dish</th></tr>
 <tr><td>Vinho Verde</td><td>Grilled sardines, shellfish</td></tr>
@@ -284,11 +382,17 @@ body:`
 <tr><td>Aged Tawny</td><td>Crème brûlée, almond tart, pastel de nata</td></tr>
 <tr><td>Sercial Madeira</td><td>Consommé and clear soups</td></tr>
 <tr><td>Malmsey Madeira</td><td>Chocolate and coffee desserts</td></tr></table>
+
+
 <h3>Madeira, cork and a few dates</h3>
 <ul><li>Madeira was the wine of colonial America. By tradition the signing of the Declaration of Independence in 1776 was toasted with it.</li>
 <li>Powdery mildew in 1851 and phylloxera in 1872 wrecked the island's vineyards, and the trade never regained its old size.</li>
 <li>The Douro has been a UNESCO World Heritage Site since 2001.</li>
-<li><b>Cork.</b> Portugal makes about half the world's cork, mostly from the oak forests of the Alentejo. A tree is first stripped at about 25 years old and then every <b>nine years</b>, and it can live for two centuries.</li></ul>`,
+<li><b>Cork.</b> Portugal makes about half the world's cork, mostly from the oak forests of the Alentejo. A tree is first stripped at about 25 years old and then every <b>nine years</b>, and it can live for two centuries.</li></ul>
+
+<h3>What to carry forward</h3>
+<p>Three ideas organize this chapter. Port is sweet because fermentation is stopped, and everything in its making serves fast extraction; its styles divide by whether they were aged with or without air. Madeira is heated and oxidized on purpose, and is stable for that reason. And Portugal's table wines draw their interest from native grapes grown in field blends, in regions that range from the wettest corner of the Iberian coast to one of its hottest plains. A candidate who can reason from those three points can reconstruct most of the detail.</p>
+`,
 floor:`<p>Vintage Port service: stand the bottle upright a day ahead, decant off its heavy crust, traditionally pass to the left. Very old bottles may need <b>Port tongs</b> (heated tongs that snap the neck). Tawny and Madeira are served slightly cool (55-62°F) and keep well open. Pair Vintage Port with Stilton.</p>`,
 analyst:`<p>WSET Level 3 covers Port (Ruby, Reserve, LBV, Vintage, Tawny, aged Tawny, Colheita) and how each is made. WSET sample MCQ: "Which grape is not used for Port?" Ugni Blanc. Madeira is Diploma D5 material.</p>`,
 terms:[["Aguardente","Grape spirit (~77%) used to fortify Port."],["Lagar","Shallow stone trough for foot treading."],["LBV","Late Bottled Vintage Port; one year, 4-6 years in wood."],["Colheita","Single-vintage tawny Port (7+ years in wood) or Madeira (5+ years)."],["Canteiro","Slow cask aging of Madeira in warm lofts."],["Quinta","Estate (Portugal)."],["Vinhas velhas","Old vines, often a field blend of many varieties."],["Jaen","Portuguese name for Mencía."],["Field blend","Many grape varieties planted and picked together in one vineyard."],["Leitão","Bairrada's roast suckling pig, the classic match for Baga."]],
