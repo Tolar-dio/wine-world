@@ -887,8 +887,10 @@ quiz:[
 ]});
 
 L.push({id:"r15", unit:"R5", title:"Australia and New Zealand", mins:20,
-summary:"Barossa's old vines, cool Australian Riesling and Chardonnay, Marlborough and Central Otago.",
+summary:"A hot continent's cool edges, the two Australias of brand and region, why New Zealand is different, and the screwcap as a product of the scientific habit.",
 body:`
+<p>Australia and New Zealand are grouped by geography and by little else. Australia is a continent, hot and dry over most of its area, with a wine industry two centuries old that made its name on generous, sun-ripened wine and on technical command. New Zealand is a pair of narrow, mountainous islands in a cold ocean, whose industry in its present form is barely fifty years old and rests on one pungent white wine. They share a British inheritance, a habit of scientific rigor, a commitment to the screwcap, and a dependence on export. This chapter treats each in turn and then sets them side by side.</p>
+
 <h3>Australia</h3>
 <p>Australia built a brand on bright, fruit-forward varietal wine and technical excellence: it pioneered cold fermentation, screwcaps (Clare Valley Rieslings switched en masse in 2000) and huge efficient wineries. It also has some of the oldest vines on earth: phylloxera never reached parts of South Australia, and some Barossa Shiraz dates to the 1840s.</p>
 <p><b>Label law:</b> Geographical Indications (GI) in zones, regions and subregions; 85% rule for variety, vintage and GI.</p>
@@ -897,12 +899,14 @@ body:`
 <li><b>New South Wales:</b> <b>Hunter Valley</b>: warm and humid, yet its Sémillon is picked early at about 10-11% and ages into toast and honey without oak. Also earthy Hunter Shiraz.</li>
 <li><b>Western Australia:</b> <b>Margaret River</b>: maritime, Bordeaux-like; Cabernet and Chardonnay (Leeuwin, Cullen, Moss Wood, Vasse Felix). <b>Great Southern</b>: cool; Riesling, Shiraz.</li>
 <li><b>Tasmania:</b> cold; sparkling wine, Pinot Noir, Chardonnay.</li></ul>
-<h3>New Zealand</h3>
-<p>New Zealand's industry is young: <b>Cloudy Bay</b>'s 1985 Sauvignon Blanc made Marlborough famous almost overnight. Now Sauvignon Blanc is the large majority of exports. Maritime everywhere (no vineyard is more than about 80 miles from the sea), strong sunlight, cool nights.</p>
-<ul><li><b>Marlborough</b> (South Island, Wairau and Awatere valleys): pungent Sauvignon Blanc: passion fruit, gooseberry, grapefruit, jalapeño and cut grass; high acid. Also Pinot Noir and sparkling.</li>
-<li><b>Central Otago</b>: the world's most southerly major wine region, the only one in NZ with a continental climate; intense, dark Pinot Noir (Felton Road, Rippon).</li>
-<li><b>Martinborough</b> (Wairarapa): Pinot Noir. <b>Nelson, North Canterbury/Waipara</b>: Pinot, Riesling.</li>
-<li><b>Hawke's Bay</b> (North Island, warmer): Bordeaux blends and Syrah from the <b>Gimblett Gravels</b>; Chardonnay. <b>Gisborne</b>: Chardonnay.</li></ul>
+
+
+<h3>A hot continent and its cool edges</h3>
+<p>Almost all of Australia's vineyards lie in the southeast corner of the continent and in a small pocket of the far southwest, between the thirtieth and forty-third parallels. The interior is desert. The sources of coolness are three, and every quality region depends on one or more of them. The first is the Southern Ocean, cold water directly to the south with nothing between it and Antarctica, which moderates the coastal districts of South Australia, Victoria and Western Australia and Tasmania. The second is altitude: the ranges behind Adelaide and the Great Dividing Range in the east lift vineyards to four, six, even a thousand meters. The third is latitude, which favors Tasmania and southern Victoria.</p>
+<p>The classic warm regions sit in between. The <strong>Barossa Valley</strong>, an hour north of Adelaide, has a climate of hot, dry summers much like the southern Rhône, and Shiraz there gives wine of deep color, ripe dark fruit, chocolate and soft tannin. Its distinction is the age of its vines. South Australia has never had phylloxera, thanks to strict quarantine, and the Barossa holds vineyards planted in the 1840s and 1850s by settlers from Silesia, among the oldest producing vines in the world, ungrafted and unirrigated. The hills immediately to the east, the <strong>Eden Valley</strong>, are two hundred meters higher and cool enough for Riesling. The <strong>Clare Valley</strong>, further north, is warm by day and cold by night at four to five hundred meters, and makes the country's most celebrated Riesling: dry, lime-scented, austere when young and long-lived.</p>
+<p>Two regional styles show how Australian winemakers have turned local conditions into originals. In the <strong>Hunter Valley</strong>, north of Sydney, summers are hot, humid and often wet at harvest, a poor climate for wine by any textbook. Growers pick Sémillon early, before the rain, at ten or eleven percent alcohol and high acidity, ferment it cold in steel and bottle it at once. The young wine is pale, sharp and neutral. After ten years in bottle it has turned deep gold and tastes of toast, honey and lime as though it had been aged in oak, which it has never seen. In <strong>Coonawarra</strong>, a flat, cool district in the far south of South Australia, a low ridge of red soil over limestone, about fifteen kilometers long and two wide, gives Cabernet Sauvignon of firm structure and a characteristic note of mint.</p>
+<p><strong>Margaret River</strong>, in the far southwest, surrounded on three sides by ocean, was planted from 1967 on the advice of a scientist who noted the resemblance of its climate to Bordeaux in a dry year. It accounts for a few percent of the national harvest and a large share of its finest Cabernet and Chardonnay.</p>
+
 <h3>How the Australian industry is built</h3>
 <ul><li><b>Three warm inland regions</b>, the Riverland, Murray Darling and Riverina, grow about <b>72% of the national crush</b> under irrigation. The famous regions are a small share of the volume.</li>
 <li><b>South Eastern Australia</b> on a label is a vast zone covering parts of five states. It exists so that big brands can blend across regions.</li>
@@ -910,6 +914,12 @@ body:`
 <li><b>China.</b> Tariffs of up to 218% imposed in late 2020 shut Australia's most valuable export market. They were lifted in March 2024, but the gap left a glut of red grapes and low prices inland.</li>
 <li><b>Fire.</b> The bushfires of 2019 and 2020 burned about a third of the Adelaide Hills' vineyards and tainted fruit with smoke elsewhere.</li>
 <li><b>Shows.</b> Wine shows and their trophies carry weight here. The Jimmy Watson Trophy for a young red is the best known.</li></ul>
+
+
+<h3>The two Australias</h3>
+<p>The structure described above produces two industries under one flag. The irrigated regions along the Murray and Murrumbidgee rivers grow grapes at high yield and low cost, with full mechanization, for wine blended across regions and sold by brand and variety. The technology that makes such wine clean, fruity and consistent in a hot climate, refrigeration, stainless steel, protective handling, cultured yeast, was largely developed in Australia from the 1950s, and its export boom of the 1990s and 2000s was built on it. A national strategy set targets for export volume that were met years early.</p>
+<p>The cost of that success was an image. Australian wine became identified abroad with cheap, cheerful, slightly sweet branded bottles, and the price buyers would pay fell accordingly. Oversupply, a strong currency, drought and then the Chinese tariffs exposed the weakness of the model, and growers in the inland regions have been leaving the industry. The other Australia, of regional wines from individual estates in the districts named in this chapter, has spent twenty years arguing that the country should be judged by its sites, and the argument has been strengthened by a shift in style: Chardonnay picked earlier and made with restraint, Shiraz from cool regions with pepper and moderate weight, old-vine Grenache made as a fragrant, pale red, and a wave of plantings of Italian and Iberian varieties suited to heat.</p>
+
 <h3>Australian wines in the glass</h3>
 <table class="t"><tr><th>Wine</th><th>Markers</th></tr>
 <tr><td>Barossa Shiraz</td><td>Blackberry, chocolate, licorice; full body, 14.5% and more, soft tannin</td></tr>
@@ -922,14 +932,35 @@ body:`
 <tr><td>Rutherglen Muscat</td><td>Raisin, toffee, treacle; fortified and aged in a hot shed</td></tr>
 <tr><td>Sparkling Shiraz</td><td>Deep red, off-dry, traditional with Christmas turkey</td></tr></table>
 <p>The eucalyptus note is real. An oil from gum trees near the vineyard, 1,8-cineole, settles on the grapes and leaves.</p>
+
+
+<h3>New Zealand</h3>
+<p>New Zealand's industry is young: <b>Cloudy Bay</b>'s 1985 Sauvignon Blanc made Marlborough famous almost overnight. Now Sauvignon Blanc is the large majority of exports. Maritime everywhere (no vineyard is more than about 80 miles from the sea), strong sunlight, cool nights.</p>
+<ul><li><b>Marlborough</b> (South Island, Wairau and Awatere valleys): pungent Sauvignon Blanc: passion fruit, gooseberry, grapefruit, jalapeño and cut grass; high acid. Also Pinot Noir and sparkling.</li>
+<li><b>Central Otago</b>: the world's most southerly major wine region, the only one in NZ with a continental climate; intense, dark Pinot Noir (Felton Road, Rippon).</li>
+<li><b>Martinborough</b> (Wairarapa): Pinot Noir. <b>Nelson, North Canterbury/Waipara</b>: Pinot, Riesling.</li>
+<li><b>Hawke's Bay</b> (North Island, warmer): Bordeaux blends and Syrah from the <b>Gimblett Gravels</b>; Chardonnay. <b>Gisborne</b>: Chardonnay.</li></ul>
+
+
+<h3>Why New Zealand is different</h3>
+<p>New Zealand lies far out in the Pacific, twelve hundred kilometers from Australia, and extends across the latitudes that in the northern hemisphere run from Morocco to Bordeaux. Its climate is far cooler than that comparison suggests, because the islands are narrow and surrounded by cold sea. Three features are decisive. A chain of mountains runs the length of both islands, and since the weather comes from the west, the eastern side lies in a rain shadow; nearly all the vineyards are on the dry east coast. Sunshine is abundant and, in clean air under a thin ozone layer, unusually intense in ultraviolet. And nights are cold everywhere. The grapes ripen slowly over a long autumn with full flavor and high acidity, and the wines have a clarity and intensity of fruit that is the national signature.</p>
+<p><strong>Marlborough</strong>, at the northern tip of the South Island, had no vines before 1973, when the country's largest wine company, looking for cheap land, bought sheep farms on the stony floor of the Wairau valley. The Sauvignon Blanc grown there proved unlike any made before, explosively aromatic with both tropical fruit and green, herbaceous notes and a sharp acidity, and when a new winery's 1985 vintage reached London it created a category. The region now holds about two thirds of the country's vineyard, and Sauvignon Blanc accounts for the great majority of exports, a dependence on one wine from one place that has no parallel in any other country.</p>
+<p><strong>Central Otago</strong>, in the mountainous interior of the far south, is the exception to the maritime rule. It is cut off from the sea by ranges on every side, and its climate is continental, with hot, dry summers, cold winters, frost in spring and autumn, and a very large difference between day and night. Its Pinot Noir is the darkest and most powerful in the country. On the North Island, <strong>Hawke's Bay</strong> is warm enough for Bordeaux varieties and Syrah, particularly on a tract of deep river gravel that stores heat, and <strong>Martinborough</strong>, small, dry and windy, was the first district to make its name with Pinot Noir.</p>
+
 <h3>At the table</h3>
 <ul><li><b>Hunter Sémillon:</b> oysters.</li>
 <li><b>Clare Riesling:</b> Thai and Vietnamese food.</li>
 <li><b>Barossa Shiraz:</b> barbecued beef and lamb.</li>
 <li><b>Margaret River Cabernet:</b> roast lamb.</li>
 <li><b>Rutherglen Muscat:</b> sticky date pudding, Christmas pudding, chocolate.</li></ul>
+
+
 <h3>Telling Australia from New Zealand in a blind tasting</h3>
-<p>New Zealand's wines carry higher acidity and lower alcohol across the board. A pungent Sauvignon Blanc or a bright, medium-weight Pinot Noir points to New Zealand. A bone-dry lime-scented Riesling, a full Shiraz or an unoaked low-alcohol Sémillon points to Australia.</p>`,
+<p>New Zealand's wines carry higher acidity and lower alcohol across the board. A pungent Sauvignon Blanc or a bright, medium-weight Pinot Noir points to New Zealand. A bone-dry lime-scented Riesling, a full Shiraz or an unoaked low-alcohol Sémillon points to Australia.</p>
+
+<h3>Screwcaps and the scientific habit</h3>
+<p>Both countries have a culture of applied research, with state-funded institutes and university departments closely tied to the industry, and a willingness to act on evidence that European producers have sometimes lacked. The clearest case is the closure. Through the 1990s winemakers in both countries grew angry at the rate of bottles spoiled by cork taint and at the variation between bottles caused by inconsistent corks. In 2000 a group of Riesling producers in the Clare Valley agreed to bottle their wines together under screwcap, and the following year New Zealand's wineries formed an initiative to do the same. Within a decade the screwcap was nearly universal in New Zealand and dominant in Australia, for red wines as well as white and at every price. The closure keeps wines fresh and uniform, and trials have shown that fine wines age under it, more slowly and without the oxidative development that cork allows. For a sommelier it also means that a wine from either country is seldom faulty and that the ritual of presenting the cork does not apply.</p>
+`,
 floor:`<p>CMS Certified examines Shiraz from South Australia, WA or Victoria, and Marlborough Sauvignon Blanc. Blind Australian Shiraz: opaque, jammy blackberry and plum, chocolate, eucalyptus or mint, sweet American or French oak, high alcohol. NZ Sauvignon vs Sancerre: tropical passion fruit and jalapeño versus flint and gooseberry.</p>`,
 analyst:`<p>WSET Level 3 lists most of these GIs (Barossa, Eden, Clare, McLaren Vale, Coonawarra, Adelaide Hills, Yarra, Mornington, Geelong, Heathcote, Hunter, Margaret River, Great Southern, Tasmania; Marlborough, Hawke's Bay, Gimblett Gravels, Martinborough, Central Otago). Classic short answer: name a cool and a warm Australian Chardonnay region and explain how climate affects the fruit (3+3 marks).</p>`,
 terms:[["Terra rossa","Red clay over limestone in Coonawarra."],["GI","Geographical Indication; Australia's appellation system."],["Gimblett Gravels","Free-draining gravel district in Hawke's Bay."],["Topaque","Australian name for fortified Muscadelle (formerly 'Tokay')."],["South Eastern Australia","Huge multi-state zone used for blended wines."],["Critter label","Inexpensive wine brand with an animal on its label."],["Jimmy Watson Trophy","Australia's best-known wine show award, for a young red."],["Riverland","Irrigated inland region of South Australia; the country's largest by volume."]],
@@ -952,13 +983,23 @@ quiz:[
 ]});
 
 L.push({id:"r16", unit:"R5", title:"Argentina and Chile", mins:16,
-summary:"High-altitude Malbec, Salta's extreme vineyards, and Chile's three-zone system.",
+summary:"Two sides of the Andes: why altitude is Argentina's answer, Chile's natural quarantine and its coast-to-mountain axis, and the move from variety to place.",
 body:`
+<p>Argentina and Chile face each other across the Andes, and the mountains make both industries possible while making them opposites. On the eastern side the range blocks the Pacific rain and leaves a high desert, where vines are watered by snowmelt and cooled by altitude. On the western side a narrow strip of land lies between the mountains and a cold ocean, and the vines are cooled by sea air. Both countries have dry, sunny climates in which grapes ripen reliably and disease is rare, both were planted by Spanish missionaries in the sixteenth century and replanted with French varieties in the nineteenth, and both became exporters only in the 1990s. This chapter explains each and compares them.</p>
+
 <h3>Argentina</h3>
 <p>Argentina's vineyards are a desert miracle: vines grow in the rain shadow of the Andes on snowmelt irrigation, at altitudes that make them some of the highest in the world. Dryness means little disease. Hazards are <b>hail</b> (growers use nets) and the hot, dry <b>Zonda</b> wind.</p>
 <ul><li><b>Mendoza</b>: about 70% of production. <b>Luján de Cuyo</b> (the traditional Malbec heartland, around 900-1,100 m) and the <b>Uco Valley</b> (up to about 1,500 m+: Tupungato, Tunuyán, San Carlos, with acclaimed districts like Gualtallary and Paraje Altamira). Malbec: opaque purple, blueberry, plum, violet, soft but plentiful tannin. Catena Zapata pioneered high-altitude planting.</li>
 <li><b>Salta</b>: the Calchaquí Valleys around <b>Cafayate</b>, with vineyards near and above 3,000 m (Colomé). Intense sun, cold nights. <b>Torrontés</b> and intense Malbec.</li>
 <li><b>San Juan</b> (Syrah, Bonarda), <b>Patagonia</b> (Neuquén, Río Negro: cool, Pinot Noir).</li></ul>
+
+
+<h3>Why altitude is Argentina's answer</h3>
+<p>Mendoza lies at the latitude of Morocco. At sea level it would be far too hot for fine wine. Its vineyards begin at about six hundred meters and reach fifteen hundred in the Uco Valley, and those in the northern province of Salta climb beyond three thousand, the highest commercial vineyards in the world. Height provides what latitude denies. Temperature falls steadily with elevation, so a grower can choose a climate by choosing a contour. The thin, dry air loses heat rapidly after dark, and nights are fifteen to twenty degrees colder than days, which preserves acidity and aroma. And the sunlight is stronger, particularly in ultraviolet, to which the grape responds by thickening its skin and producing more of the pigments and tannins found there. High-altitude Malbec is therefore darker and more structured than the same grape lower down, and also fresher.</p>
+<p>The region is a desert, with about two hundred millimeters of rain a year. Every vineyard depends on water from the Andean snowpack, distributed through a network of canals begun by the indigenous inhabitants before the Spanish arrived. The traditional method was to flood the vineyard, which also drowned phylloxera, and most vines are ungrafted; newer plantings on the slopes use drip irrigation, which allows poorer, stonier ground to be planted. The soils are alluvial, sand, silt and stones washed down from the mountains, poor in organic matter, and at the higher sites the stones are coated in calcium carbonate, to which growers attribute a chalky texture in the wines.</p>
+<p>The dry climate brings its own hazards. Summer storms forming against the mountains produce <strong>hail</strong> that can strip a vineyard in minutes, and growers spread their holdings across districts or cover the rows with netting. Spring frost is frequent. The <strong>Zonda</strong>, a hot, dry wind that descends from the Andes, can damage flowers and young shoots.</p>
+<p><strong>Malbec</strong> came to Argentina in 1853, when a French agronomist was commissioned to found a vine nursery in Mendoza, bringing cuttings from Bordeaux, where the grape was then widely grown. Phylloxera and a severe frost in 1956 later all but removed it from France outside Cahors. In Argentina it survived as a blending grape for a domestic market that drank ninety liters a head of plain wine, and a great deal was uprooted in the 1980s. Its rise dates from the 1990s, when a few producers, advised by consultants from California and France, reduced yields, planted higher and aged the wine in small oak for export. Argentina's old plantings, propagated from pre-phylloxera material, have smaller berries and softer tannins than the French clones.</p>
+
 <h3>Chile</h3>
 <p>A long thin country fenced by the Andes to the east, the Pacific and cold <b>Humboldt Current</b> to the west, the Atacama Desert to the north and Antarctic ice to the south. That isolation kept phylloxera out, so most vines are ungrafted. Since 2011 labels can add <b>Costa</b> (coastal, cooler), <b>Entre Cordilleras</b> (between the ranges, warmer) and <b>Andes</b> (foothills, cooler nights) to the valley name, because Chile's climate changes more west to east than north to south.</p>
 <ul><li><b>Maipo Valley</b>: Cabernet Sauvignon with mint and eucalyptus; Almaviva, Don Melchor (Puente Alto).</li>
@@ -968,6 +1009,14 @@ body:`
 <li><b>Maule, Itata, Bío-Bío</b>: the south's old dry-farmed vines (País, Carignan, Cinsault), now prized.</li>
 <li><b>Carmenère</b>: brought from Bordeaux in the 1800s, mixed in with Merlot vines, and identified by a French ampelographer in 1994. Green pepper and paprika when underripe.</li></ul>
 <p><b>Uruguay</b> next door: Tannat, softer than Madiran thanks to Atlantic humidity.</p>
+
+
+<h3>Chile's natural quarantine and its real axis</h3>
+<p>Chile's barriers have kept it free of phylloxera, and nearly all its vines grow on their own roots, a living collection of pre-phylloxera European material. The dry summers mean little fungal disease, and organic farming is easier than almost anywhere. Its vineyards run for more than a thousand kilometers from north to south, and the official map divides them by latitude into regions and river valleys. That division is misleading. The valleys run east to west, from the mountains to the sea, and conditions change far more along each valley than between one valley and the next.</p>
+<p>The cold current that flows up the coast chills the air and produces fog and a steady sea breeze. Vineyards within reach of it, in Casablanca, San Antonio and Leyda and at the coastal ends of the other valleys, are cool enough for Sauvignon Blanc, Chardonnay and Pinot Noir. A low coastal range then shuts the ocean out, and the central depression behind it is warm and dry, the home of Cabernet Sauvignon, Carmenère and Merlot on fertile valley floors. Toward the Andes the land rises, cold air drains down from the mountains at night, and the soils become stony; the terraces at the foot of the range near Santiago, in the upper Maipo, give the country's most structured Cabernet. A law of 2011 recognized this by allowing labels to state whether a wine comes from the coast, the central zone or the Andean foothills.</p>
+<p><strong>Carmenère</strong> is the country's distinctive grape by accident. It was a major variety of the Médoc before phylloxera and was abandoned there because it ripened late and set fruit poorly. It had been brought to Chile in the 1850s among cuttings from Bordeaux and was grown for more than a century under the name of Merlot, which its leaves resemble, until a French specialist recognized it in 1994. In Chile's long, dry autumn it ripens fully, and it must, since underripe fruit tastes strongly of green pepper. Properly ripe, it gives a deep, soft wine with flavors of dark fruit, roasted red pepper and spice.</p>
+<p>The south is another country. In Maule, Itata and Bío-Bío rain is sufficient for vines to grow without irrigation, and small farmers have tended bush vines of País, Carignan, Cinsault and Muscat for generations, some of them two hundred years old or more. These were ignored for most of the twentieth century and sold for the cheapest wine. Since about 2010 they have become the most talked-about wines in the country, light, fresh reds made with minimal intervention, and an association of producers created a collective mark for old-vine Carignan from Maule.</p>
+
 <h3>How the two industries differ</h3>
 <table class="t"><tr><th></th><th>Argentina</th><th>Chile</th></tr>
 <tr><td>Side of the Andes</td><td>East: a high desert</td><td>West: a long coastal strip</td></tr>
@@ -975,12 +1024,26 @@ body:`
 <tr><td>Market</td><td>Large home market; exports took off only in the 1990s</td><td>Small home market; most wine is exported</td></tr>
 <tr><td>Flagship</td><td>Malbec</td><td>Cabernet Sauvignon and Carmenère</td></tr>
 <tr><td>Main hazards</td><td>Hail, frost, the Zonda</td><td>Earthquakes, wildfire, drought</td></tr></table>
+
+
+<p>The commercial contrast in the table has shaped the wines. Chile had a small population and a few large, long-established family companies, which from the 1980s invested in modern equipment and aimed at export markets with clean, reliable varietal wines at low prices. It became the supplier of good-value Cabernet and Sauvignon Blanc to Britain and the United States and has struggled since to be taken seriously at higher prices. Argentina had one of the largest domestic markets in the world and a history of economic instability that discouraged investment; when it turned to export it did so with a single grape and a clear identity, and Malbec became a category in its own right, particularly in North America. Each now seeks what the other has: Chile a signature and a reputation for individuality, Argentina diversity beyond one variety.</p>
+
 <h3>A short history</h3>
 <ul><li><b>1550s:</b> Spanish missionaries plant Listán Prieto, known as País in Chile, Criolla Chica in Argentina and Mission in California.</li>
 <li><b>1851:</b> Silvestre Ochagavía brings French vines and winemakers to Chile, before phylloxera struck Europe.</li>
 <li><b>1885:</b> the railway links Mendoza to Buenos Aires, and immigrants from Italy and Spain build a vast domestic wine industry.</li>
 <li><b>1994:</b> the French vine expert Jean-Michel Boursiquot identifies much of Chile's "Merlot" as Carmenère.</li>
 <li><b>2004:</b> at the <b>Berlin Tasting</b>, Eduardo Chadwick puts his wines blind against first growths. Viñedo Chadwick 2000 comes first and Seña 2001 second, ahead of Château Lafite.</li></ul>
+
+
+<h3>What altitude does</h3>
+<ul><li>Temperature falls by roughly 1°F for every 300 feet climbed.</li>
+<li>Stronger ultraviolet light makes grapes grow thicker, darker skins: more color and tannin.</li>
+<li>Thin, dry air cools fast after sunset, so nights are cold and acidity holds.</li></ul>
+
+
+<p>The effects are measurable. Research by a leading Mendoza producer, which planted the same Malbec selections at different heights, found that fruit from the highest sites had markedly more of the skin compounds responsible for color and tannin and held more acidity, and that the wines aged longer. The same reasoning lies behind the move up the Uco Valley since the late 1990s, where vineyards have been planted on stony alluvial fans at the foot of the range on land never farmed before.</p>
+
 <h3>The wines in the glass</h3>
 <table class="t"><tr><th>Wine</th><th>Markers</th></tr>
 <tr><td>Luján de Cuyo Malbec</td><td>Plush, ripe plum, chocolate, soft tannin</td></tr>
@@ -991,15 +1054,17 @@ body:`
 <tr><td>Carmenère</td><td>Dark fruit, red pepper, paprika, soy; soft and low in acid</td></tr>
 <tr><td>Leyda Sauvignon Blanc</td><td>Jalapeño, grapefruit, saline</td></tr>
 <tr><td>País</td><td>Pale, light, earthy; often served cool</td></tr></table>
-<h3>What altitude does</h3>
-<ul><li>Temperature falls by roughly 1°F for every 300 feet climbed.</li>
-<li>Stronger ultraviolet light makes grapes grow thicker, darker skins: more color and tannin.</li>
-<li>Thin, dry air cools fast after sunset, so nights are cold and acidity holds.</li></ul>
+
+
 <h3>At the table</h3>
 <ul><li><b>Malbec:</b> asado, the wood-grilled beef of Argentina.</li>
 <li><b>Torrontés:</b> empanadas, spicy dishes.</li>
 <li><b>Carmenère:</b> pastel de choclo, grilled peppers, lamb.</li>
-<li><b>Leyda or Casablanca Sauvignon Blanc:</b> ceviche.</li></ul>`,
+<li><b>Leyda or Casablanca Sauvignon Blanc:</b> ceviche.</li></ul>
+
+<h3>From variety to place</h3>
+<p>Both countries are passing through the change that Australia and California made earlier, from wines sold by grape to wines identified with a place. In Argentina the unit is the district within a department of Mendoza, defined by soil and height, and several have obtained legal recognition as geographical indications after detailed studies. In Chile it is the position within the valley, coastal or Andean, and specific sites such as particular hillsides. The winemaking has changed with it: earlier picking, less new oak, fermentation in concrete, and an interest in the stony, calcareous soils that give structure without weight. A student should know the old varietal identities, since most of the wine sold still fits them, and be ready to discuss the newer, site-driven wines that critics and sommeliers now seek out.</p>
+`,
 floor:`<p>CMS Certified examines Mendoza Malbec and Salta/Mendoza Torrontés. Blind: Malbec's purple rim and violet; versus Australian Shiraz (eucalyptus, chocolate, more alcohol) and Zinfandel (jam, bramble). Matching: Salta → Argentina.</p>`,
 analyst:`<p>WSET Level 3 names Mendoza (Luján de Cuyo, Uco Valley), Salta (Cafayate) and Patagonia; and in Chile, Coquimbo (Elqui, Limarí), Aconcagua (Casablanca, San Antonio/Leyda), Central Valley (Maipo, Rapel/Colchagua, Curicó, Maule) and the South. Explain how altitude compensates for low latitude.</p>`,
 terms:[["Zonda","Hot, dry wind from the Andes in Argentina."],["Costa / Entre Cordilleras / Andes","Chile's east-west climatic zones on labels."],["Uco Valley","High-altitude sub-region of Mendoza."],["Berlin Tasting","2004 blind tasting in which Chilean reds beat first-growth Bordeaux."],["Torrontés","Argentina's aromatic white: Muscat-like on the nose, dry on the palate."],["Listán Prieto","The Spanish grape known as País, Criolla Chica and Mission."],["Asado","Argentine wood-grilled beef."]],
