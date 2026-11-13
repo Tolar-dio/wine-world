@@ -657,8 +657,10 @@ quiz:[
 ]});
 
 L.push({id:"r13", unit:"R5", title:"California", mins:22,
-summary:"US label law, Napa's benches, Sonoma's fog, and the Central Coast.",
+summary:"What an AVA is and leaves out, California's three beginnings, why Napa suits Cabernet, the ocean rule that organizes the state, and the current correction.",
 body:`
+<p>California produces about four fifths of American wine and would rank fourth in the world if it were a country. It is also the place where the modern idea of wine outside Europe was worked out: wine named for its grape, made with scientific control, sold on the reputation of a producer more than of a place. Two physical facts explain its vineyards. The first is a climate with almost no rain between May and October, so that ripening is assured and vintage variation is small. The second is the Pacific Ocean, which is cold along this coast and sets up the fog and wind that decide where each grape can be grown. This chapter begins with the law, since American labels follow different principles from European ones, and then takes the regions in turn.</p>
+
 <h3>US label law</h3>
 <ul><li><b>AVA</b> (American Viticultural Area): purely geographic; no rules on grapes, yields or aging. 85% of grapes must come from the named AVA.</li>
 <li><b>Varietal labeling</b>: 75% of the named grape (Oregon sets 90% for most varieties).</li>
@@ -666,21 +668,52 @@ body:`
 <li><b>State</b>: 75% from the named state; California requires 100%.</li>
 <li><b>Meritage</b>: a trademarked term for Bordeaux-variety blends.</li>
 <li>"Reserve," "Old Vine" and "Estate"-style terms are mostly unregulated (Estate Bottled is defined).</li></ul>
+
+
+<h3>What an AVA is, and what it leaves out</h3>
+<p>An American Viticultural Area is a boundary and nothing more. A group of growers petitions the federal agency that regulates alcohol, showing that an area has a name in use and features of climate, soil or elevation that set it apart from its surroundings, and if the petition succeeds the name may appear on labels. The agency makes no judgment of quality, and the rules say nothing of which grapes may be planted, how much they may yield, or how the wine is to be made. A European appellation is a recipe as well as a map. An AVA is a map only.</p>
+<p>The difference reflects history. European appellations codified practices that centuries had settled. California's industry was rebuilt from nothing after 1933, with no agreed view of what should grow where, and its leaders chose to tell the consumer the grape variety, which the consumer could learn, and leave the rest to the producer. The percentages in the list above are the whole of the guarantee: three quarters of the named grape, 85 percent from the named area, 95 percent from the stated year. The freedom has allowed rapid experiment, and it means that the producer's name carries more information than the place.</p>
+<p>AVAs vary enormously in size and may sit inside one another. Napa Valley contains seventeen smaller ones; the Central Coast runs for four hundred kilometers. A vineyard name on a label requires 95 percent of the grapes to come from it, and single-vineyard bottlings are the nearest American equivalent to a cru.</p>
+
 <h3>History in one paragraph</h3>
 <p>Prohibition (1920-1933) nearly erased the industry. Its rebirth came with figures like André Tchelistcheff at Beaulieu and Robert Mondavi, who opened his Oakville winery in 1966 and championed varietal labels. In 1976 the <b>Judgment of Paris</b> put Californian wines against top Bordeaux and Burgundy in a blind tasting judged by French experts: Stag's Leap Wine Cellars 1973 Cabernet and Chateau Montelena 1973 Chardonnay won. The world took California seriously from then on.</p>
+
+
+<h3>The long version</h3>
+<p>California's wine history has three beginnings. The first was Spanish. Franciscan missionaries moving north from Mexico in the late eighteenth century planted a single variety, the Mission grape, at each of their settlements for sacramental wine. The second came with the Gold Rush of 1849, which brought a population and a market. European immigrants, many of them German, Italian and Hungarian, founded wineries in Sonoma and Napa in the 1850s to 1880s and imported cuttings of the better European varieties, and by 1890 California wine was winning medals in Paris. Phylloxera struck in the same years, and then Prohibition, from 1920 to 1933, closed most of the seven hundred wineries. Vineyards survived by selling grapes to home winemakers, who were allowed to make a quantity for their own use, and growers replanted with thick-skinned varieties that traveled well by rail, which set quality back by decades.</p>
+<p>The third beginning dates from the 1930s. The University of California at Davis developed the science of matching grape varieties to climate and of clean, temperature-controlled winemaking, and a small number of estates kept standards alive, one of them under a Russian-born, French-trained winemaker who introduced cold fermentation, malolactic control and aging in small French oak. In the 1960s a new generation built wineries on that foundation, labeled their wines by variety, and set out to rival France. The tasting held in Paris in 1976, at which French judges tasting blind placed a Napa Chardonnay and a Napa Cabernet above famous white Burgundies and classed-growth Bordeaux, gave them the proof and the publicity. The number of wineries in the state rose from a few hundred to several thousand.</p>
+
 <h3>Napa Valley</h3>
 <p>About 4% of California's production but most of its prestige. Mediterranean climate with cool air and fog drawn up from San Pablo Bay in the south, so the valley warms as you go north (Carneros cool, Calistoga hot). Cabernet Sauvignon is king.</p>
 <ul><li>Valley floor and benches: <b>Oakville</b> (To Kalon, Screaming Eagle, Harlan nearby), <b>Rutherford</b> ("Rutherford dust", Inglenook, Beaulieu), <b>Stags Leap District</b> (silky, red-fruited), Yountville, St. Helena, <b>Calistoga</b>, Oak Knoll.</li>
 <li>Mountains (above the fog, thinner soils, firmer tannins): <b>Howell Mountain, Mount Veeder, Spring Mountain, Diamond Mountain</b>, Atlas Peak.</li>
 <li><b>Los Carneros</b>: shared with Sonoma, cool, windy; Pinot Noir, Chardonnay and sparkling.</li></ul>
+
+
+<h3>Why Napa is suited to Cabernet</h3>
+<p>The Napa Valley is small: fifty kilometers long and a few kilometers wide, between two ranges of hills, with about eighteen thousand hectares of vines. Its reputation for Cabernet Sauvignon rests on a combination of warmth, regulated by fog, and a remarkable diversity of soil. The valley is open at its southern end to San Pablo Bay, an arm of San Francisco Bay. On summer afternoons the hot air of the interior rises and draws cool marine air and fog in through that opening, and the fog advances up the valley overnight and retreats in the morning. The south is therefore coolest and the north hottest, the reverse of what latitude would suggest, and there is a difference of several degrees between Carneros, at the bay, where Pinot Noir and Chardonnay are grown, and Calistoga at the head of the valley.</p>
+<p>The soils come from three sources. The mountains on either side are of different origin, volcanic to the east and largely marine sediment to the west. Streams have carried their debris down to form sloping fans at the foot of each range, the <strong>benches</strong>, which are gravelly and well drained. The valley floor between them is deeper alluvium laid down by the river. Cabernet from the benches of Oakville and Rutherford, where a moderate water supply restrains the vine, has been the benchmark since the nineteenth century. The <strong>mountain</strong> vineyards lie above the fog. They are cooler by day and warmer at night than the floor, receive more sunlight, and have thin, rocky soils, and their small berries give wines of darker color, firmer tannin and greater austerity.</p>
+<p>The valley's farmland was protected from development in 1968 by the first agricultural preserve in the country, without which it would probably be a suburb. The price of that protection and of the wines' success is the most expensive vineyard land in the Americas, which obliges anyone who buys it to make expensive wine.</p>
+
 <h3>Sonoma County</h3>
 <p>Bigger and more varied than Napa. <b>Russian River Valley</b> (fog funnel; Pinot and Chardonnay: Williams Selyem, Kistler), <b>Sonoma Coast</b> and the newer <b>West Sonoma Coast</b> (cold, extreme), <b>Dry Creek Valley</b> (Zinfandel: Ridge Lytton Springs nearby, A. Rafanelli), <b>Alexander Valley</b> (warm, Cabernet), <b>Sonoma Valley</b>, Petaluma Gap (wind).</p>
+
+
+<h3>Sonoma and the cold coast</h3>
+<p>Sonoma County is more than twice the size of Napa in vineyard and far less uniform, because it has a Pacific coastline and several separate routes by which ocean air enters. The <strong>Russian River Valley</strong> is cooled by fog that follows the river inland through a gap in the coastal hills and lingers until late morning, giving conditions for Pinot Noir and Chardonnay, on a sandy loam the growers prize. A second opening further south, the Petaluma Gap, admits wind as well as fog. The far western ridges, within a few kilometers of the ocean, are cold enough to be marginal. Inland and to the north, behind the hills, <strong>Alexander Valley</strong> is warm and grows Cabernet, and <strong>Dry Creek Valley</strong> has the state's best-known Zinfandel, including vineyards planted by Italian families over a century ago, in which Zinfandel is mixed with Petite Sirah, Carignan and other varieties as the founders planted them.</p>
+
 <h3>Elsewhere in California</h3>
 <ul><li><b>Mendocino / Anderson Valley</b>: cool; Pinot, Gewürztraminer, sparkling (Roederer Estate).</li>
 <li><b>Santa Cruz Mountains</b>: Ridge Monte Bello (Cabernet, also in the Judgment of Paris), Mount Eden.</li>
 <li><b>Paso Robles</b>: warm days and very cold nights (one of California's widest diurnal swings); Rhône varieties (Tablas Creek, Saxum), Cabernet, Zinfandel.</li>
 <li><b>Santa Barbara County</b>: the Santa Ynez Valley's east-west transverse valleys funnel Pacific air: <b>Sta. Rita Hills</b> (Pinot, Chardonnay), <b>Santa Maria Valley</b> (Au Bon Climat, Bien Nacido).</li>
 <li><b>Lodi</b>: old-vine Zinfandel; <b>Sierra Foothills</b> (Amador Zinfandel); <b>Central Valley</b>: high-volume production.</li></ul>
+
+
+<h3>The rule that organizes the state</h3>
+<p>One principle makes sense of the whole map. In California temperature depends on exposure to the ocean, and distance north or south matters little. The current that runs down the coast brings cold water to the surface, the air above it is chilled and forms fog, and the heating of the interior valleys draws that air inland each afternoon wherever the coastal mountains leave an opening. A vineyard directly exposed is cold; one a short distance behind a ridge may be twenty degrees warmer. The Central Valley, shut off from the sea by the coastal ranges for four hundred miles, is hot, fertile and irrigated, and grows the bulk of the state's wine.</p>
+<p>The most striking example is in <strong>Santa Barbara County</strong>, far to the south. There a geological accident has turned the coastal mountains to run east and west, so that the valleys open directly onto the Pacific, and ocean air flows straight in. The western end of the Santa Ynez Valley is among the coolest wine districts in the state, and the temperature rises by roughly a degree Fahrenheit with each mile inland, so that Pinot Noir, Syrah and Cabernet succeed one another along a single valley.</p>
+
 <h3>California in dates</h3>
 <table class="t"><tr><th>Year</th><th>Event</th></tr>
 <tr><td>1769</td><td>Franciscan missions bring the Mission grape north from Mexico</td></tr>
@@ -696,6 +729,8 @@ body:`
 <tr><td>1981</td><td>Napa Valley becomes California's first AVA</td></tr>
 <tr><td>1990s</td><td>The rootstock AXR1 fails against phylloxera and much of Napa and Sonoma is replanted</td></tr>
 <tr><td>2017, 2020</td><td>Major wildfires; smoke taint in 2020</td></tr></table>
+
+
 <h3>The wines in the glass</h3>
 <table class="t"><tr><th>Wine</th><th>Markers</th></tr>
 <tr><td>Napa Cabernet, valley floor</td><td>Ripe cassis and black cherry, cocoa, new French oak; plush tannin, 14.5% and more</td></tr>
@@ -707,18 +742,32 @@ body:`
 <tr><td>Modern coastal Chardonnay</td><td>Lemon, green apple, restrained oak</td></tr>
 <tr><td>Petite Sirah</td><td>Inky, blueberry, massive tannin. It is the French grape Durif</td></tr></table>
 <p>Zinfandel is genetically the same as Italy's Primitivo and Croatia's Tribidrag, a match confirmed by DNA in 2001.</p>
+
+
+<h3>Why California tastes of sunshine</h3>
+<p>The tasting profile follows from the climate. A dry, sunny season with warm days lets growers leave fruit on the vine as long as they choose, and since the 1990s most have chosen late picking for fully ripe flavors and soft tannins. The results are high sugar and so high alcohol, low natural acidity, which is often corrected, and flavors of ripe and sometimes jammy fruit. Generous use of new oak adds vanilla and toast. A taster should look for ripeness of fruit combined with soft structure and evident oak, and should remember that the cool coastal districts give wines that depart from the pattern, with higher acidity and less weight.</p>
+
 <h3>Rules particular to California</h3>
 <ul><li><b>Conjunctive labeling:</b> a wine from a Napa sub-AVA must also say "Napa Valley". Sonoma County requires the same.</li>
 <li>A wine labeled "California" must be 100% Californian.</li>
 <li>The University of California at Davis divided the state into five heat zones, Region I (coolest) to Region V, by adding up warmth over the growing season. The scale is still quoted.</li></ul>
+
+
 <h3>At the table</h3>
 <ul><li><b>Napa Cabernet:</b> grilled steak, short ribs.</li>
 <li><b>Zinfandel:</b> barbecue, burgers, Thanksgiving turkey.</li>
 <li><b>Russian River Pinot Noir:</b> salmon, duck, mushrooms.</li>
 <li><b>Rich Chardonnay:</b> lobster or Dungeness crab with butter.</li>
 <li><b>California sparkling:</b> oysters, fried chicken.</li></ul>
+
+
 <h3>Where things stand</h3>
-<p>California has more grapes than buyers. Sales have fallen since 2021, growers have pulled out tens of thousands of acres, and in 2025 a good deal of fruit was left unpicked. Napa prices held; the Central Valley's did not. Expect an essay question on oversupply.</p>`,
+<p>California has more grapes than buyers. Sales have fallen since 2021, growers have pulled out tens of thousands of acres, and in 2025 a good deal of fruit was left unpicked. Napa prices held; the Central Valley's did not. Expect an essay question on oversupply.</p>
+
+<h3>The correction</h3>
+<p>The figures give the scale. The state's crush fell from nearly 3.9 million tons in 2023 to 2.94 million in 2024 and 2.76 million in 2025, the smallest harvests in a generation, and growers' own aerial survey found some 477,000 acres of wine grapes standing in 2025 and about 439,000 a year later, with more than forty thousand acres removed in twelve months. The causes are several. Americans are drinking less wine, the generation that built the market is aging, younger adults have more alternatives, and the cheapest wines have lost most. The vineyards planted in the boom of the 2010s came into production as demand turned down.</p>
+<p>The effects differ by region. The Central Valley and the inland districts, which supply inexpensive wine, have borne most of the removals. The coastal regions with strong names are affected less, though even there unsold fruit and falling grape prices have become common. For the trade the lesson is that California is no longer a story of continuous growth, and a candidate should be able to discuss the downturn as well as the triumph of 1976.</p>
+`,
 floor:`<p>CMS Certified examines California Chardonnay (new oak), Cabernet Sauvignon (Napa/Sonoma/Paso), Merlot (Napa/Sonoma), Pinot Noir (Carneros/Sonoma/Central Coast) and Zinfandel (Napa/Sonoma). Blind: riper fruit, higher alcohol, sweet new oak, less earth than Europe. Know cult names: Screaming Eagle, Harlan, Dominus, Opus One (Mondavi and Rothschild), Shafer Hillside Select.</p>`,
 analyst:`<p>WSET Level 3 names Napa (with Los Carneros), Sonoma (Russian River, Sonoma Coast), Mendocino, Lodi, Santa Cruz Mountains, Paso Robles, Santa Maria Valley, Sta. Rita Hills and the Central Valley. Explain fog and the Pacific as the main cooling influence, and contrast warm inland with cool coastal sites.</p>`,
 terms:[["AVA","American Viticultural Area; geographic only."],["Meritage","Trademarked US term for Bordeaux-style blends."],["Judgment of Paris","1976 blind tasting where California beat France."],["Transverse valley","East-west valley channeling ocean air inland (Santa Barbara)."],["AXR1","Rootstock that failed against phylloxera, forcing 1990s replanting."],["Agricultural Preserve","1968 Napa zoning that protects farmland from development."],["Conjunctive labeling","Rule that a sub-AVA wine must also name Napa Valley or Sonoma County."],["White Zinfandel","Sweet pink Zinfandel, first made at Sutter Home in 1975."],["Durif","The French grape known in California as Petite Sirah."]],
@@ -741,21 +790,40 @@ quiz:[
 ]});
 
 L.push({id:"r14", unit:"R5", title:"Oregon, Washington and New York", mins:15,
-summary:"Willamette Pinot, Columbia Valley desert, and Finger Lakes Riesling.",
+summary:"Wine at the edge of climate: why the Willamette suits Pinot Noir, how Washington grows wine in a desert, and how the East was won for European grapes.",
 body:`
+<p>Beyond California, American wine is made at the edges of what climate allows. Oregon's best region is cool and wet, and succeeds with the grape that needs exactly that. Washington's is a desert, where vines grow only by irrigation and are threatened by winter cold. New York's depends on deep lakes to protect vines through winters that would otherwise kill them. In each case a few pioneers, working against expert advice, showed between the 1950s and the 1970s that European grapes could be grown, and an industry followed. This chapter explains what makes each place possible and what limits it.</p>
+
 <h3>Oregon</h3>
 <p>In 1965 David Lett planted Pinot Noir in the Dundee Hills, convinced the Willamette Valley's cool, wet climate resembled Burgundy. His 1975 Eyrie Pinot placed well against Burgundies in Paris in 1979, and the Drouhin family later bought land here. Oregon is mostly small family wineries and strict rules: 90% of the named variety for most grapes.</p>
 <ul><li><b>Willamette Valley</b>: protected from Pacific storms by the Coast Range; the Van Duzer Corridor lets cooling air through. Sub-AVAs: <b>Dundee Hills</b> (red volcanic Jory soil), <b>Eola-Amity Hills</b>, <b>Yamhill-Carlton</b> (marine sediment), <b>Ribbon Ridge</b>, <b>Chehalem Mountains</b>, McMinnville. Pinot Noir (bright red cherry, earth, lighter than California), Chardonnay, Pinot Gris.</li>
 <li><b>Southern Oregon</b> (Umpqua, Rogue): warmer; Tempranillo, Syrah.</li></ul>
+
+
+<h3>Why the Willamette Valley suits Pinot Noir</h3>
+<p>The Willamette Valley runs for some two hundred and forty kilometers south from Portland between the Coast Range and the Cascades. Its latitude, around forty-five degrees, is that of Burgundy, and its climate is similar in the respect that matters most for Pinot Noir: the grape reaches ripeness at the very end of the season, in the cool, shortening days of late September and October, and so keeps its acidity and its perfume. Summers are dry and mild, with long hours of daylight. Winters are wet and gentle. The risk lies at the two ends of the season, in rain at flowering and above all at harvest, so vintages differ markedly, which American buyers accustomed to California found hard to accept and which is now considered part of the region's character.</p>
+<p>The Coast Range blocks the ocean, but a low pass, the <strong>Van Duzer Corridor</strong>, lets marine air into the middle of the valley each afternoon, and the hills in its path, the Eola-Amity Hills, are noticeably cooler and windier, giving wines with firmer acidity. The vines are planted on the slopes of low hills, between about sixty and three hundred meters, above the frost and heavy clay of the valley floor.</p>
+<p>The soils fall into three families, and each gives a recognizable style. <strong>Volcanic</strong> soils, red clays weathered from basalt lava flows, of which the Jory series is the best known, hold water well and give wines of red fruit, floral scent and silky texture; they characterize the Dundee Hills, where the first plantings were made. <strong>Marine sedimentary</strong> soils, sandstone and siltstone laid down on an old seabed, drain fast and dry out early, so the vines stop growing sooner and the grapes are smaller, with darker fruit and firmer tannin; Yamhill-Carlton and Ribbon Ridge are of this kind. <strong>Loess</strong>, wind-blown silt deposited on the northern hills, gives wines between the two.</p>
+<p>The founders came from California in the 1960s, having concluded that it was too warm for Pinot Noir, and were told that Oregon was too cold and wet for wine. Their success was confirmed when a leading Burgundy house bought land in the Dundee Hills in 1987. The industry they built is unusual in its scale and manners: about a thousand wineries, most of them small and family-owned, a culture of sharing knowledge, and labeling laws stricter than the federal ones, written at the growers' request.</p>
+
 <h3>Washington</h3>
 <p>Washington's vineyards sit east of the <b>Cascade Mountains</b>, in a rain shadow so complete that it is a desert: about 6-8 inches of rain a year, irrigated from the Columbia River. Northern latitude (about 46°N) means long summer days with about an hour more daylight than Napa at midsummer, and cold nights preserve acidity. The sandy soils left by the Ice Age <b>Missoula Floods</b> resist phylloxera, so many vines are ungrafted. Winter freeze is the big risk.</p>
 <ul><li><b>Columbia Valley</b> (the giant umbrella AVA), with <b>Yakima Valley</b>, <b>Red Mountain</b> (hot, tannic Cabernet), <b>Walla Walla Valley</b> (shared with Oregon; Syrah from The Rocks District of Milton-Freewater), <b>Horse Heaven Hills, Wahluke Slope</b>.</li>
 <li>Grapes: Cabernet Sauvignon, Merlot, Syrah, Riesling (Chateau Ste. Michelle is one of the world's largest Riesling producers), Chardonnay.</li></ul>
+
+
+<h3>Wine from a desert</h3>
+<p>Washington's reputation as a rainy state belongs to its western third. The Cascade Range, with peaks over four thousand meters, takes the moisture from the Pacific weather, and the land to the east lies in a rain shadow with as little as fifteen to twenty centimeters of rain a year. Vines cannot survive on that. They are irrigated from the Columbia River and its tributaries, and the grower therefore controls the water supply exactly, giving the vine enough to grow and then withholding it to stop growth and concentrate the fruit. In a dry climate with cold winters there is little disease and few pests.</p>
+<p>Three further conditions shape the wines. The latitude, further north than the Willamette Valley, gives up to two hours more daylight in midsummer than California, so the vines photosynthesize for longer. The continental position and clear skies give hot days and cold nights, with a difference of twenty degrees common, which builds sugar and color and holds acidity. And the soils are the product of a catastrophe. At the end of the last ice age a glacial lake in what is now Montana repeatedly burst its ice dam and sent floods of almost unimaginable size across eastern Washington, scouring the basalt bedrock and leaving gravel, sand and silt, over which wind later spread a layer of fine loess. These soils are poor, free-draining and sandy, and phylloxera makes little headway in them, so most Washington vines grow on their own roots.</p>
+<p>The wines combine New World ripeness of fruit with a structure of acidity and tannin closer to Europe. The danger is winter. Every few years an arctic air mass brings temperatures of minus twenty or below, which kills buds and sometimes the trunks themselves. Own-rooted vines can regrow from the ground, which is one reason growers have been slow to graft, and many train two trunks as insurance.</p>
+
 <h3>New York and the East</h3>
 <ul><li><b>Finger Lakes</b>: deep glacial lakes (Seneca, Keuka, Cayuga) moderate the brutal winters. Dr. Konstantin Frank proved vinifera could survive here in the 1950s. Riesling is the star (Hermann J. Wiemer, Ravines), plus Cabernet Franc and sparkling.</li>
 <li><b>Long Island</b>: North Fork, maritime; Merlot and Cabernet Franc.</li>
 <li><b>Hudson Valley</b>: one of the oldest wine regions in the US.</li>
 <li><b>Virginia</b>: Viognier, Cabernet Franc, Petit Manseng; Monticello AVA (Thomas Jefferson's failed vinifera dream).</li></ul>
+
+
 <h3>New York in more detail</h3>
 <p>New York is one of the three largest wine-producing states, but much of its vineyard grows Concord grapes for juice along Lake Erie. Three families of vine share the state:</p>
 <table class="t"><tr><th>Family</th><th>Grapes</th><th>Character</th></tr>
@@ -766,6 +834,13 @@ body:`
 <li><b>Long Island.</b> Alex and Louisa Hargrave planted the first vinifera vineyard in 1973. Three AVAs: North Fork, The Hamptons and Long Island. Maritime and Bordeaux-like: Merlot, Cabernet Franc, Sauvignon Blanc.</li>
 <li><b>Hudson Valley.</b> Brotherhood, founded in 1839, is the oldest continuously operating winery in the United States. It survived Prohibition by making sacramental wine.</li>
 <li><b>The Farm Winery Act of 1976</b> let small growers sell wine directly to the public. Almost every estate in the state dates from after it.</li></ul>
+
+
+<h3>How the East was won for vinifera</h3>
+<p>European settlers on the Atlantic coast tried for two centuries to grow European vines and failed every time. The vines died within a few years, of winter cold, of fungal diseases that thrive in humid summers and to which European varieties have no resistance, and of phylloxera, which is native to eastern North America. The industry that grew up in the nineteenth century therefore used native American species and chance crossings between them, which are hardy and resistant and give wine with a pungent, grapey aroma traditionally described as foxy. In the early twentieth century French-bred hybrids between American and European vines offered a compromise, with European flavor and American hardiness.</p>
+<p>The change came from a Ukrainian-born viticulturist who had grown European vines in a climate colder than New York's and argued that the failure was a matter of rootstock and not of cold. Working for a sparkling wine producer in the Finger Lakes in the 1950s, he grafted Riesling and other varieties onto hardy rootstocks from Canada and brought them through severe winters. His estate, founded in 1962, proved the case, and Riesling became the region's signature.</p>
+<p>The <strong>Finger Lakes</strong> are eleven long, narrow lakes gouged by glaciers, the largest of them so deep that they hold their summer heat and rarely freeze. In winter the water warms the air on the slopes beside it by several critical degrees; in spring it keeps them cool and delays budding until the danger of frost is past; in autumn it prolongs the season. Vineyards are planted on the steep banks close to the water, on shale and thin glacial soils. The wines are light, sharp and precise, and the Rieslings are made across the range of sweetness. <strong>Long Island</strong> is a different case, a low sandy island warmed by the Atlantic, with a long, mild season in which Merlot and Cabernet Franc ripen at moderate alcohol.</p>
+
 <h3>Telling these wines from their models</h3>
 <table class="t"><tr><th>Wine</th><th>Markers</th><th>Easily confused with</th></tr>
 <tr><td>Willamette Pinot Noir</td><td>Red cherry, cranberry, forest floor; moderate alcohol, bright acid</td><td>Burgundy (earthier, firmer) or California (riper, sweeter fruit)</td></tr>
@@ -773,14 +848,25 @@ body:`
 <tr><td>Washington Cabernet</td><td>Ripe black fruit with more acidity than Napa; dusty tannin, a sage note</td><td>Napa (plusher) or Bordeaux (leaner)</td></tr>
 <tr><td>Walla Walla Syrah (the Rocks)</td><td>Olive, smoked meat, savory funk</td><td>Northern Rhône</td></tr>
 <tr><td>Finger Lakes Riesling</td><td>Lime, green apple, slate; light body, high acid</td><td>Mosel (lower alcohol) or Clare Valley (drier, limier)</td></tr></table>
+
+
+<p>The table rests on one observation. Each of these regions lies between California and Europe in style, for reasons of climate. Their wines have the clean, forward fruit of the New World with more acidity and less alcohol than California's, and they lack the earthy, savory development that marks many European wines in youth. A taster who finds a wine too fresh for California and too fruity for France should consider the Pacific Northwest or New York.</p>
+
 <h3>Producers to know</h3>
 <ul><li><b>Oregon:</b> Eyrie, Domaine Drouhin (since 1987), Ponzi, Adelsheim, Cristom, Bergström, Beaux Frères, Domaine Serene, Evening Land.</li>
 <li><b>Washington:</b> Chateau Ste. Michelle, Leonetti, Woodward Canyon, L'Ecole No. 41, Quilceda Creek, Cayuse, DeLille, Andrew Will.</li>
 <li><b>New York:</b> Dr. Konstantin Frank, Hermann J. Wiemer, Ravines, Red Newt and Forge in the Finger Lakes; Bedell, Paumanok and Wölffer on Long Island.</li></ul>
+
+
 <h3>What goes wrong here</h3>
 <ul><li><b>Oregon:</b> rain at harvest, and wildfire smoke. In 2020 many Willamette wineries made little or no red wine.</li>
 <li><b>Washington:</b> winter freezes that kill vines to the ground, and smoke.</li>
-<li><b>New York:</b> deep winter cold and late spring frost in the Finger Lakes; humidity and hurricanes on Long Island.</li></ul>`,
+<li><b>New York:</b> deep winter cold and late spring frost in the Finger Lakes; humidity and hurricanes on Long Island.</li></ul>
+
+<h3>Smoke, cold and a shrinking market</h3>
+<p>The hazards listed above have grown. Wildfire has become a regular feature of the western summer, and smoke drifting over vineyards near harvest can leave compounds in the grape skins that are released during fermentation and give red wines an ashy, medicinal taste. There is no reliable cure, and in 2020 many producers in Oregon and California declassified or did not make their reds. Heat is a second concern: a heat dome in June 2021 brought temperatures above forty-five degrees to the Northwest. In Washington a freeze in January 2024 damaged vines widely.</p>
+<p>The commercial climate has turned as well. Oregon's planted area fell in 2025 for the first time in decades, to about 44,700 acres, and its harvest was a quarter smaller than the year before, as growers left fruit unpicked for want of buyers. Washington has seen its largest wine company cut its grape purchases sharply, and thousands of acres have been pulled out. These industries were built in a period of rising demand, and the next decade will test which of their regions and producers have reputations strong enough to hold.</p>
+`,
 floor:`<p>CMS Certified examines Willamette Valley Pinot Noir and, via the matching exercise, regions like Ribbon Ridge. Producers: Eyrie, Domaine Drouhin Oregon, Beaux Frères, Cristom, Bergström; Washington: Quilceda Creek, Leonetti, Cayuse, Andrew Will.</p>`,
 analyst:`<p>WSET Level 3 includes Willamette Valley, Columbia Valley, Yakima Valley and Walla Walla Valley, and New York's Finger Lakes. The classic explanation: how the Cascade rain shadow and irrigation shape Washington wine.</p>`,
 terms:[["Jory soil","Red volcanic soil of Oregon's Dundee Hills."],["Missoula Floods","Ice Age floods that left sandy, phylloxera-resistant soils in Washington."],["Rain shadow","Dry area on the leeward side of mountains."],["Vitis labrusca","Native American vine species; Concord is its best-known grape."],["Hybrid","A cross between vine species, bred for cold or disease resistance."],["Farm Winery Act","1976 New York law that let small growers sell wine direct."],["Banana belt","The warm southeast shore of Seneca Lake."]],
