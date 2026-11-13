@@ -1,57 +1,117 @@
 // ===== CURRICULUM PART 2: Winery and Grapes =====
 L.push({id:"f7", unit:"F3", title:"Making White, Red and Rosé", mins:15,
-summary:"The core sequence from harvest to bottle, and the decisions that shape style.",
+summary:"What fermentation is, and how white, red and rosé are three different answers to the same questions: what to take from the grape, how much, and how much oxygen to allow.",
 body:`
-<p>Fermentation is simple chemistry: yeast eats sugar and makes alcohol, CO₂ and heat. Everything else in winemaking is about controlling <i>what</i> comes out of the grape and <i>how much oxygen</i> touches it.</p>
-<h3>Common steps</h3>
-<ul><li><b>Harvest:</b> hand or machine; night picking keeps fruit cool.</li>
-<li><b>Sorting, destemming, crushing.</b> Whole-cluster (stems kept) adds structure and spice, common in Burgundy and Northern Rhône.</li>
-<li><b>SO₂:</b> antioxidant and antimicrobial. Added at crushing and before bottling.</li>
-<li><b>Must adjustments:</b> chaptalization (adding sugar to raise alcohol, allowed in cool regions like Burgundy and Germany for non-Prädikat wines), acidification (common in warm regions), and deacidification.</li>
-<li><b>Yeast:</b> ambient (wild) or cultured. Wild ferments are slower and riskier but often more complex.</li></ul>
-<h3>White wine</h3>
-<p>Press first, ferment the juice. Cool fermentation (about 54-63°F / 12-17°C) in stainless steel preserves fruity, floral aromas: Sauvignon Blanc, Riesling, Albariño. Warmer fermentation in barrel builds texture: white Burgundy. Optional skin contact before pressing adds aroma and phenolics; long skin contact creates <b>orange wine</b>.</p>
-<h3>Red wine</h3>
-<p>Color and tannin live in the skins, so reds ferment <i>with</i> skins. Fermentation runs warmer (about 77-90°F / 25-32°C) to extract. The cap of skins floats and must be managed: <b>pump-over</b> (remontage), <b>punch-down</b> (pigeage), <b>rack-and-return</b> (délestage). After fermentation, optional <b>extended maceration</b> softens tannins. Then pressing: the free-run wine drains off; press wine is darker and more tannic and may be blended back.</p>
-<p><b>Carbonic maceration:</b> whole uncrushed bunches in a CO₂-filled tank ferment inside each berry. Result: low tannin, vivid color, banana, bubblegum and kirsch aromas. Classic in Beaujolais.</p>
-<h3>Rosé</h3>
-<ul><li><b>Direct press:</b> pale, delicate (Provence).</li>
-<li><b>Short maceration:</b> a few hours to days of skin contact, then press. Deeper color (Tavel).</li>
-<li><b>Saignée:</b> bleeding juice off a red ferment; concentrates the red and yields a deeper rosé.</li>
-<li><b>Blending</b> red and white: banned for still rosé in the EU, but permitted for rosé Champagne.</li></ul>
-<h3>Finishing</h3>
-<p>Clarification by settling, racking, <b>fining</b> (egg white, bentonite, isinglass; why some wines aren't vegan), and <b>filtration</b>. <b>Cold stabilization</b> removes tartrates. <b>Sterile filtration</b> removes yeast and bacteria, guaranteeing microbiological stability for wines with residual sugar. Then bottling and closure: natural cork, technical cork, synthetic, screwcap (common in Australia and New Zealand, excellent for aromatic whites), or glass stopper.</p>
+<p>Grapes arrive at a winery carrying everything the wine will ever have: sugar, acid, color, tannin and the makings of aroma. Winemaking adds almost nothing. What it does is choose: which parts of the grape to take, how much of each, and how much oxygen to let near them while yeast turns the sugar into alcohol. White, red and rosé are three different answers to those questions applied to the same raw material. This chapter explains fermentation itself, then follows each color from the picking bin to the bottle, with the reasons behind each step.</p>
+
+<h3>What fermentation is</h3>
+<p>Yeast is a single-celled fungus that lives on sugar. Given oxygen it burns sugar completely, as we do. Deprived of oxygen, or simply faced with a great deal of sugar, it switches to a less efficient process and leaves the job half done, splitting each sugar molecule into two molecules of alcohol and two of carbon dioxide and releasing heat. That is fermentation. As a rule of thumb, about <b>17 grams of sugar per liter make 1% alcohol</b>, so grapes picked at 220 grams per liter finish near 13%.</p>
+<p>Three consequences follow at once. The carbon dioxide has to go somewhere: a fermenting tank gives off about fifty times its own volume of gas, which is heavier than air and collects in cellars and tank tops, where it has killed many winery workers. The heat has to go somewhere too. A large tank left alone will warm itself past the point at which the yeast die, so that controlling temperature is the first practical problem of the cellar and was the great advance of the twentieth century. And the yeast makes much more than alcohol. A small share of the sugar becomes glycerol, which adds a little body, and a host of minor products, above all the esters that smell of fruit and flowers and give young wine its freshly fermented character.</p>
+
+<h3>Which yeast</h3>
+<p>The species that makes wine is <b><i>Saccharomyces cerevisiae</i></b>, the same species that raises bread and brews ale. It is rare on grapes. In freshly crushed juice it accounts for less than one in a hundred of the yeast cells present. The great majority are other species, small lemon-shaped yeasts that live on the skins, and they are the ones that begin a fermentation left to itself. They dominate for the first three or four days, contribute aromas of their own, and then die off, because they cannot tolerate much alcohol, sulfur dioxide or lack of oxygen. <i>Saccharomyces</i>, which tolerates all three and which lives on the equipment and walls of any working winery, takes over and finishes the job.</p>
+<p>This is the reality behind the choice a winemaker describes as wild or cultured yeast.</p>
+<ul><li><b>Ambient</b> fermentation, also called wild, native or spontaneous, lets that natural succession run. It starts slowly, involves many species and strains, and often gives a more complex wine. It also carries a higher risk that something other than <i>Saccharomyces</i> gains the upper hand, or that the fermentation stops before the sugar is gone.</li>
+<li><b>Cultured</b> yeast is a selected strain of <i>Saccharomyces</i> added in such numbers that it dominates from the start. It is fast, predictable and clean, and strains can be chosen for particular effects, such as releasing more of the aromas of Sauvignon Blanc or tolerating high alcohol.</li></ul>
+<p>Yeast needs more than sugar. Its most important other requirement is nitrogen, in forms it can use, which winemakers measure in the juice before fermentation. Juices commonly contain between 100 and 200 milligrams per liter, and a healthy fermentation needs roughly 150. Grapes from dry, poor soils, the kind that give the best red wine, are often short of it. A fermentation short of nitrogen runs slowly, and the stressed yeast gives off hydrogen sulfide, the smell of rotten eggs. Winemakers therefore test and, where necessary, add a nitrogen supplement early, because yeast cannot take it up once the alcohol has risen.</p>
+<p>A fermentation that stops with sugar still left is <b>stuck</b>. The usual causes are too little nitrogen, too much alcohol for the yeast to bear, and temperatures too high or too low. A stuck wine is in danger, because leftover sugar feeds bacteria, and restarting it is one of the hardest jobs in the cellar.</p>
+
+<h3>Sulfur dioxide</h3>
+<p>One substance has been used in almost all wine since the Dutch began burning sulfur wicks in barrels in the seventeenth century. <b>Sulfur dioxide</b> does two things. It is an antioxidant: it reacts with the products of oxidation before they can brown the wine and flatten its aroma. And it is antimicrobial: it suppresses bacteria and wild yeasts far more than it does <i>Saccharomyces</i>. It is added when grapes are crushed, to protect the juice and tilt the balance toward the wine yeast, and again after fermentation and before bottling.</p>
+<p>How well it works depends on the wine's acidity, and this is one of the most useful pieces of chemistry a wine student can learn. Much of the sulfur dioxide added becomes bound to other substances in the wine and does nothing further. Of the part that stays free, only a small fraction, somewhere between 1% and 7%, is in the active form, and that fraction rises steeply as pH falls. A wine at pH 3.2 is protected by a modest dose. A wine near pH 4 needs several times as much for the same effect. High-acid wines are therefore easier to keep stable, and the ripe, low-acid wines of hot climates need either more sulfur dioxide or added acid.</p>
+
+<h3>Adjusting the juice</h3>
+<p>Before fermentation, the juice, called <b>must</b>, can be corrected for what the season failed to supply.</p>
+<ul><li><b>Chaptalization</b> adds sugar to raise the final alcohol, not to sweeten the wine, since the yeast ferments it all. It is permitted in cool regions such as Burgundy, Champagne and Germany, where it is not allowed for Prädikat wines, and forbidden in warm ones.</li>
+<li><b>Acidification</b>, usually with tartaric acid, is routine in warm regions where the grapes lose their acid as they ripen.</li>
+<li><b>Deacidification</b> neutralizes part of the acid in very cold years.</li></ul>
+<p>European law generally forbids doing both to the same wine: a region is considered to need more sugar or more acid, and not both.</p>
+
 <h3>Pressing</h3>
-<p>The press decides how much comes out of the skins. A modern <b>pneumatic press</b> squeezes grapes gently with an inflating bladder; old <b>basket presses</b> are still prized for small lots. The first juice to run is the finest; harder pressing gives more volume, more phenolics and more bitterness, so the fractions are kept apart. For delicate whites and for Champagne, whole bunches go into the press uncrushed: the stems act as drainage channels and the juice stays pale.</p>
-<h3>White wine, step by step</h3>
-<ol><li><b>Press</b> quickly, protecting the juice from oxygen with SO₂ or inert gas (or not: some makers let juice brown on purpose, and the color drops out later).</li>
-<li><b>Settle</b> the juice for a day so solids fall out (débourbage). Clearer juice gives cleaner, fruitier wine; cloudier juice gives more texture and a risk of off-aromas.</li>
-<li><b>Ferment</b> cool for two to four weeks in steel, or warmer in barrel.</li>
-<li><b>Decide</b> on malolactic conversion and lees aging.</li>
-<li><b>Clarify, stabilize, bottle:</b> within months for aromatic whites, after a year or more for barrel-aged ones.</li></ol>
-<h3>Red wine, step by step</h3>
-<ol><li><b>Destem and crush</b>, or keep some whole clusters.</li>
-<li><b>Cold soak</b> (optional): a few days chilled before fermentation, pulling color and fruit without tannin.</li>
-<li><b>Ferment on skins</b> for one to two weeks, managing the cap two or three times a day.</li>
-<li><b>Macerate</b> after fermentation (optional), from days to weeks.</li>
-<li><b>Drain and press</b>, then malolactic conversion.</li>
+<p>The press decides how much comes out of the skins, and so a great deal of a white wine's style is settled in the first hour. A modern pneumatic press squeezes the grapes gently against the inside of a drum with an inflating bladder. Old basket presses are still prized for small lots. Juice that runs before any pressure is applied is the finest: palest, highest in acid and lowest in the bitter, astringent compounds called phenolics, which live in skins and seeds. As pressure rises, yield rises with it, along with phenolics, potassium and bitterness, so careful producers keep the fractions apart and decide later how much of the harder pressings to use.</p>
+<p>For delicate whites, and by law in Champagne, <b>whole bunches</b> go into the press uncrushed. The stems hold the mass open and act as drainage channels, so that the juice escapes quickly without being worked against the skins, and the juice stays pale. This is how white wine is made from black grapes.</p>
+
+<h3>White wine</h3>
+<p>White winemaking is the art of keeping things out. The juice is separated from skins, seeds and stems before fermentation, because the white grape's aromas are delicate and anything extracted from the solids will coarsen them.</p>
+<ol><li><b>Press quickly.</b> Most producers protect the juice from air with sulfur dioxide or inert gas, an approach called reductive handling, which preserves fresh aromas and is essential for Sauvignon Blanc. A minority do the opposite and let the juice brown on purpose. The compounds that brown are the ones that would have oxidized later, and they drop out as sediment, leaving a wine that is more stable if a little less fruity.</li>
+<li><b>Settle the juice</b> for a day or so in the cold so that the solids fall to the bottom, then run the clear juice off. The French call it <b>débourbage</b>. How clear to go is a real decision, and it can be measured. Very clear juice gives a clean, fruity wine but is poor in the nutrients the yeast needs and may ferment sluggishly. Cloudy juice ferments readily, gives more texture, and risks the sulfurous smells of reduction. Trials across several varieties have found a middle level of cloudiness to be the best compromise, and some Chardonnay producers deliberately ferment cloudier juice to obtain the struck-match note now prized in white Burgundy.</li>
+<li><b>Ferment cool</b>, at about <b>54 to 63°F (12 to 17°C)</b>, for two to four weeks. Yeast makes more fruity esters at low temperature, and fewer of them boil off with the escaping gas. Stainless steel tanks with cooling jackets made this possible, and they are why fresh, fruity white wine can now be made in hot climates. This is the method for Sauvignon Blanc, Riesling and Albariño. The alternative is to ferment in small oak barrels, which cannot be chilled and so run warmer. The wine loses some simple fruit and gains texture and a more savory complexity, as in white Burgundy.</li>
+<li><b>Decide on malolactic conversion and lees aging</b>, both covered in the next chapter.</li>
+<li><b>Clarify, stabilize and bottle:</b> within months for aromatic whites, after a year or more for barrel-aged ones.</li></ol>
+<p>Some of a white wine's aroma does not exist in the grape in any form that can be smelled. Sauvignon Blanc is the clearest case. Its passion fruit, grapefruit and boxwood notes come from sulfur-containing compounds that are present in the juice bound to other molecules and odorless. Yeast cuts them free during fermentation. That is why the same juice can give a neutral wine or a pungent one depending on the yeast strain, the protection from oxygen and how the juice was handled, and why New Zealand producers, who harvest by machine and protect the fruit with sulfur dioxide from the vineyard onward, obtain such intensity.</p>
+<p>Leaving white juice in contact with its skins for a few hours before pressing, called skin contact, extracts more aroma and more phenolics, and suits aromatic grapes with thick skins. Leaving it for days or months, and fermenting on the skins as a red wine is, makes <b>orange wine</b>.</p>
+
+<h3>Red wine: why the skins stay</h3>
+<p>The juice of almost every black grape is clear. <b>Color and tannin come from the skins</b>, so red wine is fermented with the skins in the tank, and the winemaker's chief concern is how much to extract from them. The period of contact is called maceration.</p>
+<ol><li><b>Destem and crush</b>, or keep some whole clusters. Crushing only splits the berries. The seeds must not be broken, because they are bitter.</li>
+<li><b>Cold soak</b> (optional): the crushed grapes are held chilled for a few days before fermentation begins.</li>
+<li><b>Ferment on the skins</b> for one to two weeks. Red fermentations are run warm, commonly between about <b>77 and 90°F (25 to 32°C)</b>, because heat speeds extraction.</li>
+<li><b>Macerate after fermentation</b> (optional), from days to weeks.</li>
+<li><b>Drain and press.</b> The wine that runs off freely is the <b>free-run</b>. The skins are then pressed, giving press wine that is darker and more tannic, kept separate and blended back in whatever proportion the wine needs.</li>
+<li><b>Malolactic conversion</b>, which nearly all reds undergo.</li>
 <li><b>Mature</b> in tank, cask or barrel for 6 to 24 months, then blend and bottle.</li></ol>
-<p>The rule behind every extraction choice: <b>color comes out early, in water; tannin comes out later, in alcohol and heat</b>. A short, cool maceration gives a fruity, soft red. A long, warm one gives a structured wine for aging. Punching down is gentle; pumping over is firmer; rack-and-return is the most vigorous.</p>
+<p>During fermentation the rising gas lifts the skins to the top, where they form a thick floating layer, the <b>cap</b>. A cap left alone dries out, overheats, grows bacteria that make vinegar, and gives up nothing to the liquid beneath. It has to be kept wet and mixed, two or three times a day, and there are three classic ways to do it.</p>
+<ul><li><b>Punch-down</b> (<i>pigeage</i>): the cap is pushed under the liquid, by hand with a paddle, by foot in a few traditional cellars, or by a mechanical plunger. Usual for small, open vats and for Pinot Noir.</li>
+<li><b>Pump-over</b> (<i>remontage</i>): wine is drawn from the bottom of the tank and sprayed over the cap. Usual for large closed tanks, and it can be used to give the yeast air.</li>
+<li><b>Rack-and-return</b> (<i>délestage</i>): all the liquid is drained to another tank, the cap sinks to the bottom, and the wine is pumped back over it.</li></ul>
+
+<h3>What comes out of the skins, and when</h3>
+<p>Extraction is not one process. The two things a red winemaker wants behave so differently that most of the craft consists of playing one against the other.</p>
+<p><b>Color</b> comes from anthocyanins, which dissolve in water and are released from the skins quickly. Measurements across many trials agree that color in the fermenting wine peaks around the fourth or fifth day and gains little after the tenth. After that it falls, as pigments are absorbed by yeast and solids or react with other compounds.</p>
+<p><b>Tannin</b> comes from two places. Skin tannins come out over the first week alongside the color. Seed tannins are locked under a waxy coat that water does not penetrate. As alcohol builds up, it dissolves that coat, and from about the end of the first week onward most of the tannin entering the wine comes from the seeds. In one trial, a wine left on its skins for thirty days drew nearly three-quarters of its tannin from the seeds, against about half in a wine pressed at the usual time.</p>
+<p>So the rule behind every extraction choice is this: <b>color comes out early, in water; tannin comes out later, in alcohol and heat</b>. A short, cool maceration gives a fruity, soft red with good color. A long, warm one gives a structured wine for aging. It also follows that seed ripeness matters greatly for any wine given a long maceration, since green seeds give harsh tannin, and that a winemaker with underripe seeds does well to press early.</p>
+<p>Research has tested the common techniques against these principles, and not all of them do what tradition says.</p>
+<table><tr><th>Technique</th><th>What it is meant to do</th><th>What trials have found</th></tr>
+<tr><td>Warmer fermentation</td><td>More extraction</td><td>Reliably increases both color and tannin</td></tr>
+<tr><td>Extended maceration</td><td>More tannin, softer texture</td><td>Increases tannin, mainly from seeds; does not increase color</td></tr>
+<tr><td>Saignée (bleeding off juice)</td><td>Concentration</td><td>Increases both color and tannin, since less liquid shares the same skins</td></tr>
+<tr><td>Cold soak</td><td>Color and fruit without tannin</td><td>Little or no lasting effect in most trials, and sometimes less color in Pinot Noir</td></tr>
+<tr><td>Pump-over against punch-down</td><td>Firmer against gentler</td><td>Depends on the variety: pump-overs usually extract a little more, but the reverse has been found for Pinot Noir. Rack-and-return behaves much like pumping over</td></tr></table>
+<p>The lesson is not that cold soaks are worthless. Many of the best Pinot Noir producers use them, and their effect on aroma has been studied less than their effect on color. It is that a technique's reputation and its measured result are different things, and an exam answer should describe what a method is intended to do.</p>
+
+<h3>Whole bunches, three ways</h3>
+<p>A grape left whole in an atmosphere without oxygen does something remarkable. It is still a living thing, and when it can no longer breathe, its own cells begin to ferment the sugar inside them, with no yeast involved. This <b>intracellular fermentation</b> goes only a little way, producing between about half a percent and two percent of alcohol before the alcohol kills the cells. Along the way it consumes up to half of the berry's malic acid, softening the wine, and it produces a distinctive set of aromas: kirsch and almond, strawberry and cinnamon, and the banana and bubblegum notes that mark the style. Color moves from the skin into the pulp. Very little tannin is extracted, because the skins are never soaked in alcohol.</p>
+<p>The scientific description dates from the 1930s, but the process is ancient: before mechanical crushers, a share of the berries in any vat stayed whole. Three methods use it, in descending purity.</p>
+<ul><li><b>Carbonic maceration:</b> a sealed tank is filled with carbon dioxide and loaded with whole, unbroken bunches only. The grapes stay there for five to eight days if warm, up to three weeks if cool, and are then pressed, and the juice finishes fermenting with yeast in the normal way, often within two days. Very fruity, very soft, low in tannin, and meant to be drunk young. In practice some berries are always crushed by the weight above, so no commercial wine is purely carbonic.</li>
+<li><b>Semi-carbonic maceration:</b> whole bunches go into an ordinary vat with no gas added. The weight of the fruit crushes the bottom layer, which begins to ferment with yeast and gives off the carbon dioxide that blankets the whole bunches above. <b>Most Beaujolais is made this way</b>, and it is the classic method of the region.</li>
+<li><b>Whole-cluster fermentation:</b> some or all of the bunches are kept on their stems in a normal red fermentation, punched down like any other. Some berries stay whole long enough for a little intracellular fermentation, adding perfume, and the stems add spice, freshness and a firmer frame, provided they are ripe and brown. Green stems give harsh, vegetal tannin. This is the practice of many producers in Burgundy and the northern Rhône.</li></ul>
+
+<h3>Rosé</h3>
+<p>Rosé is made from black grapes with just enough skin contact to tint the juice, and then fermented cool like a white wine. There are four routes to the color.</p>
+<ul><li><b>Direct press:</b> black grapes are pressed at once, and the juice picks up only the color released in the press. Pale and delicate. The method of Provence.</li>
+<li><b>Short maceration:</b> the crushed grapes stand with their skins for a few hours to a day or two, and are then pressed. Deeper color and more body. The method of Tavel.</li>
+<li><b>Saignée:</b> early in a red fermentation, a portion of the juice is run off and fermented separately as rosé. The rosé is a by-product. The real aim is to concentrate the red wine left behind.</li>
+<li><b>Blending red and white:</b> banned for still rosé in the European Union, but permitted for <b>rosé Champagne</b>, most of which is made this way.</li></ul>
+
 <h3>The vessel</h3>
-<table class="t"><tr><th>Vessel</th><th>What it does</th></tr>
+<table><tr><th>Vessel</th><th>What it does</th></tr>
 <tr><td>Stainless steel</td><td>Neutral, airtight, easy to cool. Keeps fruit pure.</td></tr>
 <tr><td>Concrete (tanks and eggs)</td><td>Neutral, holds a steady temperature; a little air exchange adds texture without oak flavor.</td></tr>
 <tr><td>Open-top wooden vats</td><td>Traditional for Pinot Noir and Syrah; easy to punch down.</td></tr>
 <tr><td>Barrels</td><td>Small ferments for whites; flavor and oxygen during aging.</td></tr>
 <tr><td>Clay (amphora, qvevri, tinaja)</td><td>Ancient and revived: porous like wood, with no flavor of its own.</td></tr></table>
-<h3>Sugar into alcohol</h3>
-<p>About <b>17 grams of sugar per liter make 1% alcohol</b>. Grapes picked at 22° Brix (about 220 g/L) finish near 13%. A fermentation that stops before the sugar is gone is "stuck": the yeast have run out of nutrients, overheated or been poisoned by their own alcohol. Restarting one is hard, and the leftover sugar invites spoilage.</p>
-<h3>Whole bunches, three ways</h3>
-<ul><li><b>Carbonic maceration:</b> sealed tank, only whole bunches, CO₂ added. Very fruity, very soft.</li>
-<li><b>Semi-carbonic:</b> whole bunches in an ordinary vat; the weight crushes the bottom layer, which ferments and gives off the CO₂. Most Beaujolais is made this way.</li>
-<li><b>Whole-cluster fermentation:</b> some or all bunches kept on their stems in a normal red ferment, for perfume, spice and a firmer frame. Burgundy and the Northern Rhône.</li></ul>
+<p>The choice comes down to two properties: whether the vessel lets in oxygen, and whether it adds flavor. Steel does neither, new oak does both, and concrete, old wood and clay let in a little air while adding nothing, which is why they have returned to favor among producers who want texture without the taste of oak.</p>
+
 <h3>Blending</h3>
-<p>Most wine is a blend: of grapes (Bordeaux, Châteauneuf-du-Pape), of vineyards, of barrels, of press and free-run wine. Winemakers blend for balance, complexity and consistency. In <b>co-fermentation</b> different grapes ferment together, as with Syrah and a little Viognier in Côte-Rôtie.</p>`,
+<p>Most wine is a blend: of grape varieties, as in Bordeaux and Châteauneuf-du-Pape, of vineyards, of barrels, of press wine and free-run. Winemakers blend for balance, complexity and consistency, and in regions with variable weather for insurance, since varieties that flower and ripen at different times are unlikely all to fail in the same year. In <b>co-fermentation</b> different grapes are fermented together and not blended afterward, as with Syrah and a small proportion of white Viognier in Côte-Rôtie. The white grape contributes perfume, and compounds from its skins help fix the color of the red.</p>
+
+<h3>Finishing</h3>
+<p>A new wine is cloudy with dead yeast and grape fragments and is unstable in several ways. Finishing makes it clear and ensures it stays that way in the bottle.</p>
+<ul><li><b>Settling and racking:</b> solids sink, and the clear wine is moved off them. Repeated over months, this alone will clarify most reds.</li>
+<li><b>Fining:</b> a substance is added that binds to unwanted particles and carries them to the bottom. Bentonite, a clay, removes the proteins that would otherwise turn a white wine hazy in a warm room. Egg white softens harsh tannin in reds. Isinglass, from fish, and casein, from milk, polish whites. The agents are removed with the sediment, but their use is why some wines are not vegan.</li>
+<li><b>Cold stabilization:</b> chilling the wine to just above its freezing point makes the natural tartrate crystals form and drop out in the tank, so that they do not appear later in a customer's refrigerator. The crystals are harmless and are often mistaken for glass.</li>
+<li><b>Filtration:</b> passing the wine through pads or membranes. A coarse filtration brightens it. <b>Sterile filtration</b>, through pores too fine for yeast or bacteria to pass, removes every living cell and <b>guarantees microbiological stability</b>. It is essential for any wine bottled with residual sugar, which would otherwise referment.</li></ul>
+<p>Some producers bottle without fining or filtering and say so on the label. The claim is that nothing has been stripped from the wine. The cost is a greater risk of haze, sediment and spoilage, and such wines need careful storage.</p>
+<p>Finally the closure. Natural cork is elastic and long-proven, and it admits a tiny amount of oxygen, which many believe helps red wines age. Its weakness is cork taint, a musty fault caused by a compound formed in the bark, which affects a small percentage of bottles. Technical corks, made of cork granules cleaned and glued together, largely avoid the taint. Screwcaps eliminate it and seal almost perfectly, which keeps aromatic whites fresh for years, and they are standard in Australia and New Zealand. Synthetic stoppers and glass stoppers complete the range. The debate about closures is at bottom a debate about how much oxygen a wine should receive in bottle, and manufacturers now sell both corks and screwcap liners graded by how much they let through.</p>
+
+<h3>The whole sequence</h3>
+<table><tr><th></th><th>White</th><th>Red</th><th>Rosé</th></tr>
+<tr><td>Skins</td><td>Removed before fermentation</td><td>Present throughout fermentation</td><td>Brief contact, then removed</td></tr>
+<tr><td>Pressing</td><td>Before fermentation</td><td>After fermentation</td><td>Before fermentation</td></tr>
+<tr><td>Fermentation temperature</td><td>Cool: about 54-63°F</td><td>Warm: about 77-90°F</td><td>Cool, like white</td></tr>
+<tr><td>Main concern</td><td>Protecting aroma from oxygen and solids</td><td>Extracting color and tannin in balance</td><td>Getting the color right without tannin</td></tr>
+<tr><td>Malolactic conversion</td><td>A style choice</td><td>Almost always</td><td>Usually blocked</td></tr></table>
+`,
 floor:`<p>CMS Certified includes theory on production methods for all major styles. Be ready to explain carbonic maceration to a guest in one sentence: "Whole berries ferment from the inside, so the wine is fruity and soft with almost no tannin."</p>`,
 analyst:`<p>WSET Level 3 sample MCQ: "What guarantees microbiological stability?" Answer: sterile filtration. Know the purpose and side effects of each step, not just its name.</p>`,
 terms:[["Chaptalization","Adding sugar to must to raise final alcohol."],["Pigeage","Punching down the cap of skins."],["Remontage","Pumping juice over the cap."],["Carbonic maceration","Whole-berry intracellular fermentation under CO₂."],["Saignée","Bleeding juice from a red ferment to make rosé."],["Fining","Adding an agent that binds and removes particles or harsh compounds."],["Débourbage","Settling white grape juice before fermentation."],["Cold soak","Chilled maceration before fermentation, for color and fruit without tannin."],["Free-run","Wine or juice that drains without pressing."],["Stuck fermentation","A fermentation that stops before the sugar is used up."],["Semi-carbonic","Whole bunches in an open vat; the usual Beaujolais method."],["Co-fermentation","Fermenting different grape varieties together."]],
