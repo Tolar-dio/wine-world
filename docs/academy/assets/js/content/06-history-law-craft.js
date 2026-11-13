@@ -212,23 +212,89 @@ quiz:[
 ]});
 
 L.push({id:"h2", unit:"H", title:"Wine Law and Reading a Label", mins:16,
-summary:"PDO and PGI, how each country's system maps onto them, and what every label must tell you.",
+summary:"Why wine law exists, how Europe's place-based rules differ from the New World model, and how to read any label.",
 body:`
 <p>Every European quality system sits inside one EU framework, and once you see it, the national systems stop looking like separate puzzles.</p>
+
+<p>Wine law answers one question: what does the name on the bottle promise? In Europe a place name promises a great deal, because the law attaches to it a list of grapes, a ceiling on yield and a set of methods. In most other countries it promises only that the grapes grew where the label says. Neither approach is the natural one. Each is the result of a particular history, and knowing the history is the quickest way to understand why the rules are what they are.</p>
+
+<h3>Why wine law exists</h3>
+<p>The modern system was a response to fraud. When phylloxera destroyed most of Europe's vineyards in the last third of the nineteenth century, wine became scarce and prices rose. The gap was filled with imported wine from Algeria and Spain, with wine made from raisins or from sugar and water, and with ordinary wine sold under famous names. By 1900 far more wine was sold as Burgundy, Champagne or Bordeaux than those regions could produce, and when the replanted vineyards came back into bearing, prices collapsed and honest growers were ruined alongside the cheats.</p>
+<p>The older precedents show the same motive. The Grand Duke of Tuscany fixed the boundaries of Chianti in 1716. Tokaj was delimited by royal decree in 1737. The Marquis of Pombal demarcated the Douro for Port in 1756, marking the limits with granite posts and grading the vineyards within them. All three were attempts to protect a valuable export name from imitation, and all three began by drawing a line on a map.</p>
+<p>France took thirty years to move from the map to the modern appellation. A law of 1905 made it an offense to deceive a buyer about the origin of goods, and the government began drawing boundaries by decree. That provoked the trouble it was meant to prevent: when the Aube was left out of Champagne, its growers rioted in 1911. A law of 1919 handed disputes to the courts and treated an appellation as collective property belonging to its producers. But both laws defined only where a wine came from. A grower inside the line could plant any grape at any yield and still use the name, and many did, so the quality of famous names fell.</p>
+<p>The missing idea was supplied by growers. In Châteauneuf-du-Pape in 1923, Baron Pierre Le Roy and his neighbors drew up their own rules, specifying not only the land but the grape varieties, the minimum alcohol and the methods. A law of 1927 allowed courts to consider grape variety and local custom. Then in 1935 a decree-law drafted by Senator Joseph Capus created a national committee with the power to define each appellation by its conditions of production. This was the first <b>appellation d'origine contrôlée</b>: origin plus control. The first were recognized in May 1936, among them Châteauneuf-du-Pape, Arbois, Cassis, Tavel and Monbazillac. After the war the committee took the name by which it is still known, the INAO, with Le Roy as its president. Italy, Spain, Portugal and eventually the European Union built their systems on this model.</p>
+
 <h3>The EU framework</h3>
 <table class="t"><tr><th>EU tier</th><th>France</th><th>Italy</th><th>Spain</th><th>Germany</th><th>Portugal</th></tr>
 <tr><td><b>PDO</b> (Protected Designation of Origin): strictest; grapes from the area, rules on varieties, yields, methods</td><td>AOC / AOP</td><td>DOCG, DOC</td><td>Vino de Pago, DOCa, DO, VC</td><td>Prädikatswein, Qualitätswein</td><td>DOC (DOP)</td></tr>
 <tr><td><b>PGI</b> (Protected Geographical Indication): broader, at least 85% from the area, more freedom</td><td>IGP (Vin de Pays)</td><td>IGT / IGP</td><td>Vino de la Tierra</td><td>Landwein</td><td>Vinho Regional</td></tr>
 <tr><td><b>Wine without GI</b></td><td>Vin de France</td><td>Vino</td><td>Vino</td><td>Deutscher Wein</td><td>Vinho</td></tr></table>
 <p>The trade-off: PDO rules protect tradition and typicity but can block innovation (the Super Tuscans were born outside them). PGI allows international grapes and varietal labels, which is why IGP Pays d'Oc became France's export engine.</p>
+
+<p>The two tiers were set by a reform of the European wine market in 2008, in force from 2009, which replaced the older categories of quality wine and table wine. The difference between them is the tightness of the link to the place. A <b>PDO</b> wine must be made entirely from grapes grown in the named area and must be produced there, and its quality must be essentially due to that environment. A <b>PGI</b> wine needs only 85 percent of its grapes from the area and need only have some quality or reputation attributable to it. The reform also renamed the French tiers, AOC becoming AOP and Vin de Pays becoming IGP, though the old terms are still permitted and widely used.</p>
+<p>Within the two European tiers each country keeps its own vocabulary, and each reflects a national idea of what quality is.</p>
+<p><b>France</b> ranks by place alone. An appellation may sit inside a larger one, and in general the smaller the named area, the stricter the rules.</p>
+<p><b>Italy</b> created the DOC in 1963 and added the DOCG, with the word garantita and a tasting requirement, from 1980. The system was drawn up around existing practice, including practices that held quality back, such as the requirement to include white grapes in Chianti. In the 1970s several Tuscan producers who wanted to use Cabernet Sauvignon, or Sangiovese alone, or small French barrels, left the system and sold their wine as simple table wine at very high prices. These were the Super Tuscans. Their success embarrassed the law into changing: a new tier, IGT, was created in 1992 to give such wines a home, and the Chianti rules were rewritten.</p>
+<p><b>Spain</b> adds an element the others lack, which is time. Alongside the place name, the terms Crianza, Reserva and Gran Reserva define minimum aging. The top tier of denomination, DOCa, has been granted to only two regions, Rioja in 1991 and Priorat in 2009. Vino de Pago, created in 2003, recognizes single estates.</p>
+<p><b>Germany</b> historically ranked by the ripeness of the grapes. The 1971 wine law defined quality by must weight, the sugar in the juice at harvest, so that the Prädikat levels from Kabinett to Trockenbeerenauslese are steps of ripeness and any vineyard could in principle make any of them. In a cold climate where ripening was the difficulty, that made sense. As the climate warmed and dry wines became the focus, growers argued that it said too little about place. A new law in 2021 began moving Germany toward an origin-based pyramid of region, village and vineyard, with a transition period, while the Prädikat terms remain for sweet styles. The growers' association VDP had already built such a hierarchy privately.</p>
+
+<h3>What a PDO rulebook controls</h3>
+<p>Every appellation has a written specification (in France, the cahier des charges). It usually fixes seven things:</p>
+<ol><li>The boundary.</li><li>The permitted grapes and their proportions.</li><li>The maximum yield, in hectoliters per hectare.</li><li>Minimum ripeness or alcohol.</li><li>Planting density and pruning.</li><li>Winemaking and minimum aging.</li><li>Analysis and tasting before the wine may use the name.</li></ol>
+<p>France built the model. A 1905 law attacked fraud, a 1919 law drew boundaries, and in <b>1935</b> the body now called the INAO was created to add rules of production.</p>
+
+<p>Each of the seven controls has a reason, and seeing the reason makes the rules easier to predict.</p>
+<p>The <b>boundary</b> defines who owns the name; it is always the most contested part, because land inside the line is worth more than land outside it. The <b>grape list</b> preserves the style people expect from the name. The <b>maximum yield</b> is the main quality lever: a vine carrying a heavy crop ripens it less completely, so the law caps the crop, and the cap falls as the appellation becomes more specific. In Burgundy the regional wines are allowed considerably more per hectare than the Grands Crus. <b>Minimum ripeness</b> excludes fruit picked green. <b>Density and pruning</b> rules prevent growers reaching the yield limit with a few overloaded vines. Rules on <b>winemaking and aging</b> forbid practices foreign to the style and impose the time in barrel or bottle that the style requires. And the final <b>analysis and tasting</b> is meant to refuse wines that meet every rule and are still poor, though in practice few are refused.</p>
+<p>Three things follow. An appellation is a guarantee of type more than of quality: it tells you what kind of wine to expect, and the producer's name tells you how good. The rules are written by the producers themselves through their local syndicate and approved by the state, so they change when a majority wants them to. And the system is conservative by design. That protects a recognizable style and the people who make it. It also slows adaptation, which has become a serious matter as the climate shifts and growers want later-ripening grapes, irrigation, or resistant varieties the rulebook does not allow.</p>
 <h3>What must be on an EU label</h3>
 <ul><li>Category or GI (e.g., "Appellation Margaux Protégée," "Denominazione di Origine Controllata e Garantita")</li>
 <li>Alcohol by volume, volume, country of origin, allergens ("contains sulfites")</li>
 <li>Bottler or producer name and address</li>
 <li>Sweetness term for sparkling wine</li>
 <li>Since December 2023, an ingredients list and nutrition declaration (often via QR code)</li></ul>
+
+<p>The newest requirement is the largest change to European labels in decades. Wine, like other alcoholic drinks, had been exempt from the rule that foods must list their ingredients and energy value. From 8 December 2023 that exemption ended for wine. Producers may print the full information on the label or, more commonly, print only the energy value and any allergens and place the rest behind a QR code. Wines made before that date may be sold under the old rules until stocks run out, so both kinds of label will be on shelves for years. The stated alcohol on a European label may differ from the true figure by up to half a percentage point.</p>
+<p>What a label does not have to say is as instructive. In most appellations it need not name the grape, since the place is supposed to imply it. It need not say whether the wine saw oak, whether it was filtered, or how sweet it is, unless the wine is sparkling. This is why European labels reward knowledge and frustrate newcomers, and why the freer PGI tier, where a producer may print the variety in large type, has been so successful in export markets.</p>
+
 <h3>The New World model</h3>
 <p>The US, Australia, New Zealand, Chile, Argentina and South Africa use <b>geographic indications without style rules</b>: they tell you where, not how. Common thresholds are 75% or 85% for variety, vintage and origin. Varietal labeling is the norm.</p>
+
+<p>The contrast with Europe is the central idea of this chapter. A European appellation controls where and how. A New World geographical indication controls where and leaves the rest to the producer. Napa Valley on a label means that at least 85 percent of the grapes grew in Napa Valley. It says nothing of variety, yield, irrigation or winemaking. The grape name carries the information that the place name carries in France.</p>
+<p>There are reasons on both sides. Countries without centuries of local custom had no tradition to codify, and their producers wanted freedom to find out what would grow where. The cost is that the place name alone tells the buyer less. The gap is narrowing from both ends: European producers increasingly use the looser PGI tier or put varieties on labels, while New World regions define ever smaller areas as their understanding of their land deepens.</p>
+
+<h3>The United States label</h3>
+<ul><li>Labels are approved by the <b>TTB</b>.</li>
+<li>Required: brand, class or type, alcohol, net contents, the bottler's name and address, "contains sulfites", and the government health warning, on every bottle since 1989.</li>
+<li>Stated alcohol may be off by 1.5 points for wines up to 14%, and by 1 point above that.</li>
+<li><b>Estate Bottled:</b> all the fruit comes from vineyards the winery owns or controls, and the winery and vineyards are in the same AVA.</li>
+<li><b>Produced and bottled by:</b> the bottler fermented at least 75% of the wine. "Cellared" or "vinted" and bottled by promises almost nothing.</li>
+<li><b>Reserve</b>, <b>old vine</b> and <b>barrel select</b> have no legal definition.</li></ul>
+
+<p>The American system has three layers of place. A wine may be labeled with a country, state or county, for which 75 percent of the grapes must come from there, or with an <b>American Viticultural Area</b>, for which the figure is 85 percent. An AVA is a delimited grape-growing region defined by geography and climate and approved by the federal agency on petition from growers. The first was Augusta, Missouri, in 1980; Napa Valley followed in 1981. There are now 280, more than half of them in California, and they range from the vast (the Ohio River Valley covers parts of four states) to a single hillside. An AVA carries no rules about grapes or methods.</p>
+<p>States may be stricter than the federal minimums, and three are worth knowing. California requires that a wine labeled California contain only California grapes. Oregon requires 90 percent of the named variety for most grapes, including Pinot Noir, against the federal 75, and 95 percent from the named appellation. Washington requires 95 percent for the state name. On the vintage, the federal rule is 95 percent from the stated year when an AVA is named and 85 percent otherwise.</p>
+<p>One American peculiarity is the <b>semi-generic</b> name. For most of the twentieth century American producers sold wine as Burgundy, Chablis, Champagne, Port and Sherry, treating the words as styles. A 2006 agreement with the European Union stopped new labels from using these terms, but brands already using them were allowed to continue, which is why a few bottles of California Champagne are still sold.</p>
+
+<h3>The southern hemisphere systems</h3>
+<p>The other major non-European producers follow the same principle as the United States, with local differences worth knowing.</p>
+<p><b>Australia</b> defines Geographical Indications in a nested hierarchy of zone, region and subregion: Barossa is a zone containing the regions Barossa Valley and Eden Valley, for instance. The 85 percent rule applies to variety, vintage and region alike, and it is enforced through the Label Integrity Program, which requires every producer to keep records tracing each wine back to the vineyard. The broad indication South Eastern Australia, covering most of the country's vineyards, exists so that large brands can blend across state lines.</p>
+<p><b>New Zealand</b> also uses 85 percent and registered its regional names formally only in 2017. <b>South Africa</b> has the oldest of these systems, the Wine of Origin scheme of 1973, which divides the country into regions, districts and wards, the ward being the smallest unit and defined by soil and climate. A numbered seal on the neck of the bottle certifies that the claims on the label were checked.</p>
+<p><b>Chile</b> created its denominations in 1995, following the administrative regions from north to south. Because Chile's climate changes far more from west to east, between the cold ocean and the Andes, than from north to south, a second set of terms was added in 2011: Costa for coastal sites, Entre Cordilleras for the valley floor, and Andes for the foothills. <b>Argentina</b> uses a similar structure of provinces and departments, with a growing number of smaller indications in the Uco Valley defined by altitude and soil.</p>
+
+<h3>Organic, biodynamic and other claims</h3>
+<p>A second family of label terms describes farming and winemaking and is regulated separately from origin. <b>Organic</b> is defined by law. In the European Union, rules in force since 2012 cover the cellar as well as the vineyard, and organic wine may contain added sulfites, at lower limits than conventional wine. In the United States the term is stricter: a wine labeled organic may have no added sulfites at all, so most American producers who farm organically use the alternative wording made with organic grapes, which permits them. The same bottle can therefore carry different words in the two markets.</p>
+<p><b>Biodynamic</b> is not a legal term but a private certification, most often from Demeter or Biodyvin, with its own standards based on organic farming plus prescribed preparations and a planting calendar. <b>Sustainable</b> covers many regional programs with differing requirements. <b>Natural</b> wine had no official definition anywhere until France approved a private charter in 2020 under the name vin méthode nature, requiring organic grapes, hand harvesting, native yeast and little or no added sulfur. <b>Vegan</b> refers to fining agents: wine clarified with egg white, casein or isinglass is not vegan, though none of the agent remains in the bottle, and the allergen rules require milk and egg fining to be declared if traces are detectable.</p>
+
+<h3>Minimum percentages at a glance</h3>
+<table class="t"><tr><th>Place</th><th>Variety</th><th>Vintage</th><th>Region</th></tr>
+<tr><td>European Union</td><td>85%</td><td>85%</td><td>100% for a PDO; 85% for a PGI</td></tr>
+<tr><td>United States</td><td>75%</td><td>95% with an AVA; 85% otherwise</td><td>85% for an AVA; 75% for a state or county</td></tr>
+<tr><td>Australia, New Zealand, South Africa</td><td>85%</td><td>85%</td><td>85%</td></tr>
+<tr><td>Chile</td><td>75%</td><td>75%</td><td>75% (85% on exports to the EU)</td></tr>
+<tr><td>Argentina</td><td>85%</td><td>85%</td><td>85%</td></tr></table>
+<p>EU sweetness terms for still wine: <b>dry</b> is up to 4 g/L of sugar, or up to 9 g/L when acidity is high enough; <b>medium dry</b> up to 12; <b>medium</b> up to 45; <b>sweet</b> above 45.</p>
+
+<p>The table has a pattern that makes it easier to hold. Europe and most of the southern hemisphere use 85 percent for everything. The United States is the outlier with 75 percent for variety, and Chile uses 75 at home but meets the European figure on wines it exports there. The percentages exist because blending is normal and useful: a small share of another grape or another year can improve a wine, and the law draws the line at the point where the label would mislead.</p>
+
 <h3>Decoding labels: a field guide</h3>
 <ul><li><b>Burgundy:</b> the smaller the name, the higher the level. "Bourgogne" (regional) &lt; "Gevrey-Chambertin" (village) &lt; "Gevrey-Chambertin 1er Cru Clos Saint-Jacques" &lt; "Chambertin" (Grand Cru, vineyard name only).</li>
 <li><b>Bordeaux:</b> château + appellation; "Grand Cru Classé en 1855" for classified Médoc; "Mis en bouteille au château" means estate-bottled.</li>
@@ -236,6 +302,9 @@ body:`
 <li><b>Italy:</b> name can be a place (Barolo), a grape (Barbera d'Asti), or a fantasy name (Tignanello). The DOCG strip (a numbered seal on the neck) proves DOCG status.</li>
 <li><b>Spain:</b> look for the aging term and the back-label seal from the Consejo Regulador.</li>
 <li><b>Champagne:</b> house, sweetness, NV or vintage, and the small code (NM, RM, CM).</li></ul>
+
+<p>Each of these conventions follows from what the region considers important. Burgundy puts the vineyard in the largest type because the vineyard is what is ranked. Bordeaux puts the château first because the estate is what is ranked. Germany gives the fullest information of any label, including the ripeness level and a test number, because its law was built on measurement. Italy is the least predictable because its names grew up locally before any national system existed. Reading a label is therefore a matter of asking what this region ranks, and looking for that.</p>
+
 <h3>Useful label phrases</h3>
 <table class="t"><tr><th>Term</th><th>Meaning</th></tr>
 <tr><td>Mis en bouteille au domaine / au château</td><td>Estate bottled</td></tr>
@@ -245,25 +314,9 @@ body:`
 <tr><td>Erzeugerabfüllung / Gutsabfüllung</td><td>Producer / estate bottled (Germany)</td></tr>
 <tr><td>Garrafeira (Portugal)</td><td>Long-aged red, a producer's selection</td></tr>
 <tr><td>Superiore, Riserva, Classico</td><td>Higher alcohol/stricter, longer aged, historic core zone</td></tr></table>
-<h3>What a PDO rulebook controls</h3>
-<p>Every appellation has a written specification (in France, the cahier des charges). It usually fixes seven things:</p>
-<ol><li>The boundary.</li><li>The permitted grapes and their proportions.</li><li>The maximum yield, in hectoliters per hectare.</li><li>Minimum ripeness or alcohol.</li><li>Planting density and pruning.</li><li>Winemaking and minimum aging.</li><li>Analysis and tasting before the wine may use the name.</li></ol>
-<p>France built the model. A 1905 law attacked fraud, a 1919 law drew boundaries, and in <b>1935</b> the body now called the INAO was created to add rules of production.</p>
-<h3>The United States label</h3>
-<ul><li>Labels are approved by the <b>TTB</b>.</li>
-<li>Required: brand, class or type, alcohol, net contents, the bottler's name and address, "contains sulfites", and the government health warning, on every bottle since 1989.</li>
-<li>Stated alcohol may be off by 1.5 points for wines up to 14%, and by 1 point above that.</li>
-<li><b>Estate Bottled:</b> all the fruit comes from vineyards the winery owns or controls, and the winery and vineyards are in the same AVA.</li>
-<li><b>Produced and bottled by:</b> the bottler fermented at least 75% of the wine. "Cellared" or "vinted" and bottled by promises almost nothing.</li>
-<li><b>Reserve</b>, <b>old vine</b> and <b>barrel select</b> have no legal definition.</li></ul>
-<h3>Minimum percentages at a glance</h3>
-<table class="t"><tr><th>Place</th><th>Variety</th><th>Vintage</th><th>Region</th></tr>
-<tr><td>European Union</td><td>85%</td><td>85%</td><td>100% for a PDO; 85% for a PGI</td></tr>
-<tr><td>United States</td><td>75%</td><td>95% with an AVA; 85% otherwise</td><td>85% for an AVA; 75% for a state or county</td></tr>
-<tr><td>Australia, New Zealand, South Africa</td><td>85%</td><td>85%</td><td>85%</td></tr>
-<tr><td>Chile</td><td>75%</td><td>75%</td><td>75% (85% on exports to the EU)</td></tr>
-<tr><td>Argentina</td><td>85%</td><td>85%</td><td>85%</td></tr></table>
-<p>EU sweetness terms for still wine: <b>dry</b> is up to 4 g/L of sugar, or up to 9 g/L when acidity is high enough; <b>medium dry</b> up to 12; <b>medium</b> up to 45; <b>sweet</b> above 45.</p>
+
+<p>Estate bottling deserves a note, because the phrase carries more weight than it seems to. Until the twentieth century most wine was sold in barrel to merchants, who blended and bottled it. A merchant could stretch a famous wine with something cheaper, and the grower had no control over what was sold under his name. Bottling at the property, which a few Bordeaux châteaux began in the 1920s and which became general only after 1970, was a guarantee of authenticity. That history is why the phrase appears on almost every serious European label and why its absence still means something.</p>
+
 <h3>Words that change meaning by place</h3>
 <table class="t"><tr><th>Term</th><th>Where</th><th>Meaning</th></tr>
 <tr><td>Grand Cru</td><td>Burgundy, Alsace</td><td>A top vineyard</td></tr>
@@ -276,11 +329,19 @@ body:`
 <tr><td>Reserve, Réserve</td><td>United States, France</td><td>No legal meaning</td></tr>
 <tr><td>Supérieur, Superiore</td><td>Bordeaux, Italy</td><td>Slightly higher alcohol, often lower yields</td></tr>
 <tr><td>Classico</td><td>Italy</td><td>The historic heart of a zone</td></tr></table>
+
+<p>These shifts are the commonest source of error in theory papers. The safest habit is never to translate the word alone. Ask first which region the label comes from, then what that region ranks: vineyards in Burgundy and Alsace, villages in Champagne, estates in Bordeaux. Grand Cru will then mean the top of whatever is being ranked, with the single exception of Saint-Émilion, where it is the name of an appellation.</p>
+
 <h3>Bottle shapes as a first clue</h3>
 <ul><li><b>High shoulders:</b> Bordeaux and its grapes everywhere.</li>
 <li><b>Sloping shoulders:</b> Burgundy, the Rhône, the Loire.</li>
 <li><b>Tall flute:</b> Germany and Alsace. By tradition green glass for the Mosel, brown for the Rhine.</li>
-<li><b>Bocksbeutel</b> for Franken, <b>clavelin</b> for Vin Jaune, a heavy punted bottle for sparkling wine.</li></ul>`,
+<li><b>Bocksbeutel</b> for Franken, <b>clavelin</b> for Vin Jaune, a heavy punted bottle for sparkling wine.</li></ul>
+<p>Bottle shape is custom, not law, in most places, but the custom is strong enough to be evidence. A producer in California or Australia who bottles Pinot Noir in a sloping bottle and Cabernet in a high-shouldered one is telling you which European model the wine follows. On a restaurant floor, the shape of the bottle on a neighboring table is often the first thing that tells you what a guest is drinking.</p>
+
+<h3>What the law cannot tell you</h3>
+<p>Every system described here certifies origin and, in Europe, method. None certifies that a wine is good. Two wines from the same appellation, made under the same rules, can differ enormously, and a wine made outside the rules can be better than both. The practical order of importance for anyone choosing a bottle is therefore the reverse of the order in which a label is printed: the producer first, then the vintage, then the appellation. The law tells you what kind of wine it is supposed to be. The rest you have to know.</p>
+`,
 floor:`<p>CMS Certified includes label identification items: you're shown a label and asked the style, grape or classification. Use the Label Lab to drill this.</p>`,
 analyst:`<p>WSET Level 3 expects you to explain PDO vs PGI and to interpret label terms (Classico, Riserva, Crianza, Prädikat levels, Grand Cru). Diploma D2 asks you to weigh how labeling rules affect marketing.</p>`,
 terms:[["PDO","Protected Designation of Origin, the EU's strictest GI tier."],["PGI","Protected Geographical Indication; broader rules, 85% from the area."],["AP number","German official testing number on Qualitätswein labels."],["DOCG strip","Numbered government seal on the neck of DOCG wines."],["Mis en bouteille au domaine","Estate bottled."],["Cahier des charges","The written specification of a French appellation."],["INAO","The French body that governs appellations, created in 1935."],["TTB","US Alcohol and Tobacco Tax and Trade Bureau, which approves labels."],["Estate Bottled","US term: all fruit from land the winery controls, in the same AVA."],["Grand Cru Classé","A classified estate in Saint-Émilion or the Médoc."]],
