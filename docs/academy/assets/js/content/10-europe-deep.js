@@ -251,8 +251,10 @@ quiz:[
 ]});
 
 L.push({id:"r11b", unit:"R4", title:"Deep Dive: Germany's Great Sites", mins:22,
-summary:"The Mosel's sections and slates, famous Einzellagen, the Rheingau, Nahe, Rheinhessen's red slope, the Pfalz, Franken and Baden.",
+summary:"Germany's great sites explained by river, slope and rock: the Mosel's slate, the Rheingau, Nahe, Rheinhessen, the Pfalz, Franken and Baden, plus Sekt and label reading.",
 body:`
+<p>German wine is read by vineyard more than that of any country except France. A label gives the village and then the site, joined into a single phrase, and a candidate is expected to know the leading sites of each region, the rock they stand on and the producers associated with them. This chapter goes through the regions in turn. For each it gives the physical reasons the famous sites are where they are, since those reasons are easier to remember than lists and allow an unknown site to be placed by reasoning.</p>
+
 <h3>The Mosel</h3>
 <p>The river winds about 240 km from the French border to Koblenz. Sections:</p>
 <ul><li><b>Upper Mosel</b>: limestone, Elbling grape, near Luxembourg.</li>
@@ -260,21 +262,63 @@ body:`
 <li><b>Middle Mosel</b>: the heart, with a string of world-famous south-facing slopes on Devonian <b>blue slate</b>.</li>
 <li><b>Lower Mosel (Terrassenmosel)</b>: steep terraces near Koblenz, including Bremmer Calmont, Europe's steepest vineyard.</li></ul>
 <p><b>Middle Mosel Einzellagen</b>, upstream to downstream: <b>Piesporter Goldtröpfchen</b> (a south-facing amphitheater), <b>Brauneberger Juffer</b> and Juffer-Sonnenuhr, <b>Bernkasteler Doctor</b> (one of Germany's most expensive sites), <b>Graacher Himmelreich</b> and <b>Domprobst</b>, <b>Wehlener Sonnenuhr</b> (named for the sundial in the vineyard), <b>Zeltinger Sonnenuhr</b>, <b>Ürziger Würzgarten</b> (red volcanic slate; spicy), <b>Erdener Prälat</b> and <b>Treppchen</b>. Producers: J.J. Prüm, Dr. Loosen, Joh. Jos. Christoffel, Selbach-Oster, Markus Molitor, Fritz Haag, Willi Schaefer, Clemens Busch, Schloss Lieser.</p>
+
+
+<h3>How the Mosel works</h3>
+<p>The Mosel is the extreme case of German viticulture and the clearest illustration of its principles. The river has cut a winding trench some two hundred meters deep into a plateau of Devonian slate. Because it meanders, each bend presents a steep slope facing south or southwest on the outside of the curve and a flat, shaded bank opposite, and the great sites are the series of south-facing walls: the villages stand on one side and their vineyards rise on the other. A site's quality depends on its exposure, its steepness, its height above the river, which keeps it clear of frost and fog, and the depth and type of its slate.</p>
+<p><strong>Slate</strong> does several things. It is dark and stores the sun's heat, radiating it back to the vines in the evening and prolonging the day's ripening. It breaks down into thin, sharp fragments that drain quickly and force roots deep into fissures for water. It is poor in nutrients and restrains yield. Growers distinguish the blue-grey slate of the central villages, which gives fine, floral wines; the red slate found around Ürzig and Erden, colored by iron, which gives spicier, more exotic ones; and harder grey slates. Because phylloxera does not thrive in such stony ground, the Mosel has an unusual number of old ungrafted vines, some over a century old, trained in the traditional manner on single stakes with the canes bent into a heart shape, which lets a worker move across the slope as well as up and down it.</p>
+<p>The wines are the lightest in the world to achieve greatness: often seven and a half to nine percent alcohol, with high acidity, some residual sugar and intense, precise flavors of apple, peach and citrus with a stony quality attributed to the slate. The tributaries make the point more sharply still. The <strong>Saar</strong> and the <strong>Ruwer</strong> are higher, more open to the wind and cooler than the main valley, so that their wines are leaner and more steely, and in cold years were once too acid to drink and were sold for sparkling wine. In warm years, which are now the rule, they are among the finest wines in Germany, and the Scharzhofberg, a broad slope in a side valley of the Saar, produces the most expensive.</p>
+<p>The economics are fragile. A steep site needs a thousand or more hours of hand labor per hectare each year against a few hundred on flat land, and the vineyard area of the region has shrunk by about a third since the 1990s as the hardest slopes are abandoned. The steepest of all, in the lower, terraced section of the river, has been kept in cultivation by a few determined growers and by monorail trolleys that carry people and grapes.</p>
+
 <h3>The Rheingau</h3>
 <p>Where the Rhine turns west for about 30 km, the slopes face due south across a broad river that reflects light and moderates frost. Aristocratic estates and monasteries: <b>Schloss Johannisberg</b> (the Spätlese legend of 1775), <b>Schloss Vollrads</b>, <b>Kloster Eberbach</b> (Cistercian). Sites: Rüdesheimer Berg Schlossberg (steep, quartzite), Erbacher Marcobrunn, Rauenthaler Baiken, Hochheimer Hölle (which gave the English the word "hock"). Historically the Rheingau called its top dry wines <b>Erstes Gewächs</b>; the VDP now uses GG nationwide. Producers: Robert Weil (Kiedricher Gräfenberg), Georg Breuer, Peter Jakob Kühn, Leitz, Künstler.</p>
+
+
+<h3>The Rheingau's advantage and its history</h3>
+<p>The Rhine flows north for most of its course. At Mainz it meets the Taunus hills, turns west and runs for some thirty kilometers before resuming its way north at Rüdesheim. The slope on its right bank along that stretch faces due south, is protected by the wooded hills behind it from north winds, and looks over a river nearly a kilometer wide. The region is small, about three thousand hectares, and close to four fifths of it is Riesling, the highest proportion of any.</p>
+<p>The soils change with height, and so do the wines. Near the river they are deep, with loess and loam, and give fuller, softer wines. Higher up they become stony, with slate and quartzite, and the wines are firmer and more mineral. At the western end, where the valley narrows into a gorge, the Rüdesheimer Berg is a steep slope of quartzite and slate so dry that it performs best in wet years. Around the bend, Assmannshausen has long been known for Spätburgunder on red slate.</p>
+<p>The region's history is institutional. It was developed by two religious houses, a Cistercian abbey founded from Burgundy in the twelfth century and a Benedictine priory, and later by noble estates, and it was here that the practices of late harvest and selective picking were worked out in the eighteenth century and that the term Kabinett originated, from the cabinet cellar in which the abbey kept its best wines. In the nineteenth century its wines were the most expensive in the world. The Rheingau also led the modern movement toward dry wine and classified its vineyards in the 1990s, though critics judged the classification too generous, since it covered about a third of the region.</p>
+
 <h3>Nahe</h3>
 <p>A small side valley with wildly varied soils (volcanic porphyry, slate, sandstone) in short distances. <b>Niederhäuser Hermannshöhle</b> is its most famous site. Dönnhoff and Emrich-Schönleber (Monzinger Halenberg) lead; Schäfer-Fröhlich, Kruger-Rumpf.</p>
+
+
+<p>The Nahe is the most geologically varied region in Germany. Within a few kilometers the river passes cliffs of volcanic porphyry, beds of slate, red sandstone, and loam, and estates commonly bottle wines from several rock types side by side. In style the wines stand between the Mosel and the Rheingau, with the delicacy and acidity of the first and something of the body of the second, and a pronounced mineral, sometimes smoky or spicy character from the volcanic sites. The region was defined as such only in 1971, and its reputation rests on a small number of estates in the upper valley, around Schlossböckelheim, Niederhausen and Monzingen, whose wines are now ranked with any in the country.</p>
+
 <h3>Rheinhessen</h3>
 <p>Germany's largest region, formerly the home of cheap Liebfraumilch. Its <b>Roter Hang</b> ("red slope") at Nierstein is red slate-sandstone facing the Rhine (Pettenthal, Hipping); the hills of <b>Westhofen</b> and Flörsheim-Dalsheim inland are limestone (Morstein, Kirchspiel, Hubacker). Klaus Peter Keller's G-Max is among the world's most sought-after dry Rieslings; Wittmann, Kühling-Gillot, Battenfeld-Spanier.</p>
+
+
+<h3>Rheinhessen's two faces</h3>
+<p>Rheinhessen is a broad triangle of low hills in the bend of the Rhine, sheltered by higher ground on three sides, dry and fertile, with about 27,000 hectares of vines among fields of grain and sugar beet. For most of the twentieth century it was the engine of German bulk wine, planted with productive crossings on deep soils and worked by machine. It still makes more wine than any other region.</p>
+<p>Its reputation for quality was confined to one strip. The <strong>Roter Hang</strong>, a steep bank above the Rhine between Nierstein and Nackenheim, is an outcrop of red, iron-rich slate and sandstone some 280 million years old, warm and stony, giving Rieslings that are rich, spicy and smoky. The change since the 1990s has come from the opposite corner, the Wonnegau in the south, around Westhofen and Flörsheim-Dalsheim, where a group of young growers, many of them trained abroad and working together, showed that limestone and marl hillsides previously sold in bulk could yield dry Riesling of great depth and tension. Their top dry wines now fetch the highest prices in Germany, and the region that stood for the worst of German wine has become the symbol of its renewal.</p>
+
 <h3>Pfalz</h3>
 <p>Warm, sunny, almond- and fig-growing country protected by the Haardt Mountains (the northern Vosges). The <b>Mittelhaardt</b> villages of <b>Forst</b> (Kirchenstück, Jesuitengarten, Pechstein on basalt, Ungeheuer), <b>Deidesheim</b> and <b>Wachenheim</b> make rich dry Riesling; the south (Südliche Weinstrasse) is excellent for Pinots. Bürklin-Wolf, von Winning, Bassermann-Jordan, A. Christmann, Rebholz, Friedrich Becker (Spätburgunder).</p>
+
+
+<h3>Why the Pfalz is different</h3>
+<p>The Pfalz is the northward continuation of Alsace. The same mountain range, called the Vosges in France and the Haardt in Germany, shelters it from the Atlantic weather, and the result is the same: a warm, dry, sunny strip at the foot of the hills, eighty kilometers long, with around 1,800 hours of sunshine and barely five hundred millimeters of rain. Grapes ripen here without difficulty. Dry Riesling has therefore always been the natural style, fuller and riper than in the northern valleys, with flavors of yellow fruit and a broad texture.</p>
+<p>The finest sites lie in the <strong>Mittelhaardt</strong>, a cluster of villages in the northern half, on a mixture of weathered sandstone, limestone and, at Forst, basalt from an extinct volcano above the village. Basalt is dark and warm, and growers long ago quarried it and spread it on other vineyards. The tax assessment of 1828 already ranked Forst's Kirchenstück highest in the Pfalz. Three estates, founded by families enriched in the wine trade of the nineteenth century, dominated the district for generations. The southern Pfalz, long a source of bulk wine, has become one of the best areas in Germany for the Pinot varieties, both white and red, on limestone slopes near the French border.</p>
+
 <h3>Franken, Baden, and the rest</h3>
 <ul><li><b>Franken</b>: continental; Silvaner in the Bocksbeutel; <b>Würzburger Stein</b> on shell limestone (Muschelkalk). Juliusspital, Bürgerspital, Rudolf Fürst (Spätburgunder).</li>
 <li><b>Baden</b>: the warmest region, belonging to EU climate zone B (like Alsace). The volcanic <b>Kaiserstuhl</b> grows Spätburgunder and Grauburgunder (Dr. Heger, Bernhard Huber, Salwey).</li>
 <li><b>Ahr</b>: tiny, steep slate valley famous for Spätburgunder (Meyer-Näkel, Jean Stodden); hit by catastrophic floods in July 2021.</li>
 <li><b>Württemberg</b>: Trollinger, Lemberger, Schwarzriesling. <b>Mittelrhein</b>: the castle-lined Rhine gorge. <b>Saale-Unstrut</b> and <b>Sachsen</b>: Germany's northeastern regions.</li></ul>
+
+
+<h3>The east and the south</h3>
+<p><strong>Franken</strong> lies well to the east of the Rhine, on the winding course of the Main, and its climate is continental, with hard winters, frequent spring frosts and hot, dry summers. Riesling ripens there only in the very best sites. The region's grape is <strong>Silvaner</strong>, earlier to ripen and lower in acid, which on the shell limestone around Würzburg and the gypsum-bearing marl further east gives dry wines of firm, earthy, savory character that are the grape's finest expression. They are bottled in a flat, round flask whose use is protected. Franken is also the source of some of the country's best Spätburgunder, from red sandstone in its western corner.</p>
+<p><strong>Baden</strong> extends for four hundred kilometers and is less a region than a collection of them. Its center of quality is the <strong>Kaiserstuhl</strong>, the stump of a volcano that rises from the Rhine plain opposite Colmar and is among the warmest places in Germany, with terraces of dark volcanic rock and deep loess. The Pinot varieties make up more than half of plantings, and four fifths of the wine is made by cooperatives, a higher share than anywhere else in the country. <strong>Württemberg</strong> is similar in structure and red in color. The <strong>Ahr</strong>, a small gorge north of the Mosel, is paradoxically a red wine region at the northern limit: its steep, dark slate walls trap enough heat to ripen Spätburgunder, and its wines are fine and fragrant.</p>
+
 <h3>Law updates and sparkling</h3>
-<p>The 2021 wine law reform adds an origin pyramid for Qualitätswein (Anbaugebiet, then Region, then Ortswein from a village, then Lagenwein from a named single site, topped by Erstes and Grosses Gewächs) alongside the ripeness ladder. The VDP's private pyramid uses the parallel terms Gutswein, Ortswein, Erste Lage and Grosse Lage. <b>Winzersekt</b> and traditional-method <b>Sekt b.A.</b> from estates (Raumland, Griesel) have made German sparkling serious.</p>`,
+<p>The 2021 wine law reform adds an origin pyramid for Qualitätswein (Anbaugebiet, then Region, then Ortswein from a village, then Lagenwein from a named single site, topped by Erstes and Grosses Gewächs) alongside the ripeness ladder. The VDP's private pyramid uses the parallel terms Gutswein, Ortswein, Erste Lage and Grosse Lage. <b>Winzersekt</b> and traditional-method <b>Sekt b.A.</b> from estates (Raumland, Griesel) have made German sparkling serious.</p>
+
+<h3>Sekt, and reading a German label</h3>
+<p>Germans drink more sparkling wine per head than any other nation, and most of it is inexpensive wine made in tank from base wines bought across Europe. The words on the label separate it from the serious product. <em>Deutscher Sekt</em> must be made from German grapes. <em>Sekt b.A.</em> comes from one of the thirteen regions. <strong>Winzersekt</strong> is made by a grower from the estate's own grapes by fermentation in bottle, with at least nine months on the lees, and names the vintage and variety. Riesling makes a distinctive version, aromatic and sharp, and the Pinot varieties a more classical one, and the best estates now give their wines several years on the lees. The VDP has a classification for sparkling wine with longer minimum aging.</p>
+<p>A German label, taken in order, usually gives the producer; the vintage; the village with the suffix <em>-er</em>, followed by the vineyard; the grape; the Prädikat or the term for a dry wine; and the region. Each wine also carries an official test number, the <em>A.P. Nummer</em>, showing that it passed analysis and tasting, whose last digits give the year of testing and the number of the lot, a detail that lets collectors distinguish different bottlings of the same wine. With the regional knowledge of this chapter, the name of a village and site is enough to predict the rock, the weight and the style of what is in the bottle.</p>
+`,
 floor:`<p>The German section of a list rewards specific names. A guest asking for "a good Riesling" deserves a choice: Mosel Kabinett for lightness and sweetness, Rheingau or Pfalz GG for power and dryness, Saar for nerve. Always state the sweetness.</p>`,
 analyst:`<p>Explain how slope, aspect, river and slate allow Riesling to ripen at 50°N; discuss the coexistence of ripeness-based and origin-based classification in German law.</p>`,
 terms:[["Einzellage","An individual vineyard site."],["Roter Hang","Red slate-sandstone slope at Nierstein."],["Muschelkalk","Shell limestone of Franken and parts of Rheinhessen."],["Terrassenmosel","Steep terraced Lower Mosel."],["Hock","Old English term for Rhine wine, from Hochheim."],["Winzersekt","Grower sparkling wine."]],
@@ -290,10 +334,18 @@ quiz:[
 ]});
 
 L.push({id:"r12c", unit:"R4", title:"Deep Dive: Austria's DACs and Rieden", mins:16,
-summary:"Every major DAC, the Wachau's great vineyards, Burgenland's reds and sweets, and Styria.",
+summary:"Austria's move from ripeness to origin: the DAC idea, the Danube regions compared, Blaufränkisch and the lake, Styria, and the new vineyard classification.",
 body:`
+<p>Austria has reorganized its wine law more thoroughly than any other European country in this century. In twenty years it moved from a German-style system based on grape variety and must weight to a Romance-style system based on origin, region by region, and it has now begun an official classification of vineyards. This chapter sets out the result in detail. The system is easier to learn once its guiding idea is clear: each region is to be known for the one or two styles it does best, and the more precisely a wine's origin is stated, the stricter the rules it must meet.</p>
+
 <h3>How Austria labels quality</h3>
 <p>Austria now runs two systems in parallel. The <b>DAC</b> system defines regional typicity: each DAC names permitted grapes and styles, and most now use a three-tier origin pyramid of <b>Gebietswein</b> (regional), <b>Ortswein</b> (village) and <b>Riedenwein</b> (single vineyard, "Ried"). Outside DACs, wines carry the broad state name (Niederösterreich, Burgenland, Steiermark, Wien) and may use Prädikat terms for sweet wines, including Austrian specialties <b>Ausbruch</b> and <b>Strohwein</b> (straw wine).</p>
+
+
+<h3>The idea of the DAC</h3>
+<p>Before 2003 an Austrian label was organized as a German one is, around the grape and the level of ripeness, and a region's name told the buyer little, since every region made every variety in every style. The DAC reverses the emphasis. A region's growers, merchants and cooperatives agree through a regional committee on the grapes and style that typify it, the ministry approves the rules, and only wines that conform may carry the region's name with the letters DAC. Everything else made there must be labeled with the name of the federal state, as wine of Lower Austria or Burgenland. The Weinviertel was first, in 2003, with a single wine, a light, peppery Grüner Veltliner. The Wachau, whose growers already had a successful private system, joined in 2020, and the last region followed in 2023.</p>
+<p>The origin pyramid inside most DACs has three levels. A <em>Gebietswein</em> may come from anywhere in the region and usually allows a wider range of grapes. An <em>Ortswein</em> comes from a named village and a narrower list. A <em>Riedenwein</em> comes from a single vineyard, and in the Danube regions is restricted to Grüner Veltliner and Riesling. A single vineyard is called a <strong>Ried</strong>, and the word must appear before the site's name on the label. Austria completed a legal register of its vineyard boundaries in the same years, so that every Ried is mapped.</p>
+
 <h3>Niederösterreich (Lower Austria) along the Danube</h3>
 <table class="t"><tr><th>DAC</th><th>Grapes</th><th>Notes</th></tr>
 <tr><td>Wachau (DAC since 2020)</td><td>Grüner Veltliner, Riesling (plus others at regional level)</td><td>Terraced gneiss and granite; Vinea Wachau's Steinfeder, Federspiel and Smaragd categories still used by members</td></tr>
@@ -305,8 +357,19 @@ body:`
 <tr><td>Carnuntum</td><td>Zweigelt, Blaufränkisch</td><td>Warm, east of Vienna</td></tr>
 <tr><td>Thermenregion</td><td>Zierfandler, Rotgipfler, Pinot Noir</td><td>Spa towns south of Vienna</td></tr></table>
 <p>Great Wachau Rieden: <b>Achleiten</b> (Weissenkirchen; gneiss, Prager), <b>Kellerberg</b> and <b>Loibenberg</b> (Dürnstein/Loiben; F.X. Pichler, Knoll, Tegernseerhof), <b>Singerriedel</b> (Spitz; Hirtzberger), <b>Klaus</b> and <b>Steinertal</b>. The Wachau's style comes from hot days, cold air flowing down from the Waldviertel forest at night, and the Pannonian influence from the east.</p>
+
+
+<h3>The Danube regions compared</h3>
+<p>Lower Austria holds three fifths of the country's vines, and its regions along the Danube form a sequence from west to east in which the Pannonian warmth grows and the cold air of the northern forest recedes. The <strong>Wachau</strong> is the narrowest, steepest and coolest at its western end, where the village of Spitz makes the most taut wines, and warmer at its eastern end around Loiben. Its terraces are held by dry stone walls built without mortar, on primary rock, gneiss and a dark, banded rock formed from ancient volcanic material, with pockets of loess. The old categories of the growers' association are a scale of ripeness, named after a feather grass of the terraces, a falconer's lure and the emerald lizard that suns itself on the walls, and its members also undertake to add nothing to the must and to use no new oak flavoring.</p>
+<p>The <strong>Kremstal</strong> continues the Wachau's rock on its western side and turns to deep loess terraces east of the town. The <strong>Kamptal</strong>, along a tributary flowing from the north, is more exposed to cold air and has the most singular site in Austria, the Heiligenstein, a hill of reddish desert sandstone and volcanic conglomerate some 270 million years old that gives Riesling of great concentration. The <strong>Wagram</strong> is a single long step of loess, up to twenty meters deep, above the river plain, and makes round, spicy Grüner. North of all these the <strong>Weinviertel</strong>, by far the largest region, is rolling farmland that supplies most of the country's everyday Grüner Veltliner and much of the base wine for its sparkling industry.</p>
+<p>South of Vienna the <strong>Thermenregion</strong>, on the warm edge of the Vienna woods, has two white grapes found nowhere else and a tradition of Pinot Noir and St. Laurent introduced by Cistercians. <strong>Carnuntum</strong>, between Vienna and the Slovak border, is red wine country.</p>
+
 <h3>Wien</h3>
 <p>Vienna is the only world capital with significant vineyards inside the city. <b>Wiener Gemischter Satz DAC</b> requires a field blend of at least three varieties planted together. Heurigen (wine taverns) pour young wine. Wieninger, Mayer am Pfarrplatz.</p>
+
+
+<p>The field blend is the old way of planting everywhere in central Europe: several varieties mixed in one plot, picked and fermented together, as an insurance against frost and rot in any one of them. Vienna kept the practice because its wine was sold young and unlabeled in the growers' own taverns, where an imperial decree of 1784 allowed them to sell their produce without a license. A group of estates revived the mixed vineyards as a serious wine in the 2000s, and the appellation, granted in 2013, requires that the varieties be planted together and that none exceed half of the blend.</p>
+
 <h3>Burgenland</h3>
 <ul><li><b>Neusiedlersee DAC</b> (Zweigelt; sweet wines from the Seewinkel, where the shallow lake and ponds breed botrytis; Kracher's TBAs are world-class).</li>
 <li><b>Leithaberg DAC</b> (limestone and schist on the Leitha hills; Blaufränkisch, Pinot Blanc, Chardonnay; Prieler, Birgit Braunstein).</li>
@@ -314,10 +377,22 @@ body:`
 <li><b>Rosalia DAC</b> (Blaufränkisch, Zweigelt, rosé).</li>
 <li><b>Mittelburgenland DAC</b> ("Blaufränkischland": Moric, Weninger, Gesellmann).</li>
 <li><b>Eisenberg DAC</b> (Südburgenland; iron-rich schist; Uwe Schiefer).</li></ul>
+
+
+<h3>Blaufränkisch and the lake</h3>
+<p>Burgenland was part of Hungary until 1921, and its wine belongs to the Pannonian world. Its great red grape, <strong>Blaufränkisch</strong>, is the Kékfrankos of Hungary. It buds early and ripens late, so it needs the long warm autumn of the plain, and it gives wines of deep color, high acidity and firm tannin with flavors of dark berries and pepper. Its character changes with the soil in a way that has made it the vehicle for the region's interest in site. On the heavy clay of Mittelburgenland it is full and rounded. On the limestone and slate of the Leitha hills it is finer and tighter. On the iron-rich slate of the Eisenberg, in the far south, it is spicy, mineral and lean. The style has moved since the 1990s from heavily oaked, extracted wines toward transparency.</p>
+<p>The Neusiedlersee governs the north of the region. The lake covers over three hundred square kilometers and is so shallow that it warms quickly and has dried up entirely in the past. On its eastern side, the Seewinkel, a flat expanse of sand and gravel dotted with small salt ponds, humidity is so high in autumn that noble rot is nearly certain, and sweet wine of the highest grades is produced in quantity and at prices far below those of Germany or Sauternes. On the western shore the free town of <strong>Rust</strong> has made a botrytis wine since the sixteenth century and bought its civic freedom from the emperor in 1681 partly with it. Its <em>Ausbruch</em> now has an appellation of its own and must reach the must weight of a Trockenbeerenauslese.</p>
+
 <h3>Steiermark (Styria)</h3>
 <p>Steep, green hills near Slovenia with high rainfall and big diurnal swings. Three DACs since 2018: <b>Südsteiermark</b> (Sauvignon Blanc, Morillon = Chardonnay; Tement's Zieregg, Sattlerhof, Gross, Polz), <b>Vulkanland Steiermark</b> (volcanic; Traminer), and <b>Weststeiermark</b> (pink, tart <b>Schilcher</b> rosé from Blauer Wildbacher).</p>
+
+
+<p>Styria is a small region, about a tenth of the vineyard, and its conditions are unlike the rest of Austria. Warm, moist air arrives from the Adriatic, rainfall approaches a thousand millimeters, and the vineyards occupy only the upper parts of very steep, cone-shaped hills, above the frost and fog of the valleys. Nights are cold. The combination gives white wines of penetrating aroma and firm acidity. Sauvignon Blanc is the chief grape of the south, made in a style closer to the Loire than to New Zealand, and on the best sites, on limestone and marl called <em>Opok</em>, it is fermented in large casks and ages well. The west has a local curiosity, a sharp pink wine from the Blauer Wildbacher grape.</p>
+
 <h3>The 1985 turning point</h3>
 <p>The glycol scandal pushed Austria toward strict laws, dry styles and individual estates. Today it's one of Europe's most quality-focused wine countries, with a large share of organic vineyards.</p>
+
+
 <h3>The legal basics</h3>
 <ul><li>Austria's vineyard is about two-thirds white. <b>Grüner Veltliner</b> alone is about a third of all plantings; Zweigelt is the most planted red.</li>
 <li>There are <b>18 DACs</b>. The last, Thermenregion, joined in 2023.</li>
@@ -332,15 +407,28 @@ body:`
 <tr><td>Strohwein or Schilfwein</td><td>25° KMW</td><td>Grapes dried on straw or reeds for at least three months</td></tr>
 <tr><td>Trockenbeerenauslese</td><td>30° KMW</td><td>Shriveled botrytized berries</td></tr></table>
 <p>The Wachau's own scale runs by alcohol: <b>Steinfeder</b> up to 11.5%, <b>Federspiel</b> 11.5 to 12.5%, <b>Smaragd</b> from 12.5%. All three are dry.</p>
+
+
+<p>Two details of the law are frequent examination traps. Austrian must weights are given on the <strong>KMW</strong> scale, which states sugar as a percentage by weight, so that the figures look quite different from the German ones though the grades are similar. And the Prädikat terms begin at Spätlese: Kabinett is a category of dry quality wine, unenriched and limited in alcohol. Austria has an additional grade between Beerenauslese and Trockenbeerenauslese for the wine of Rust, and one for wine from grapes dried on straw or reeds, a practice of the lake district.</p>
+
 <h3>Classifying the vineyards</h3>
 <ul><li>The growers' association <b>ÖTW</b>, founded in 1992, classified the best Rieden along the Danube privately, as Erste Lagen.</li>
 <li>Austria's 2023 wine law created an official framework with two tiers: <b>Erste Lage</b> (premier cru) and <b>Große Lage</b> (grand cru). The ordinance setting out the procedure followed in 2025, and regions apply through their own committees.</li>
 <li>In Styria, the STK growers use Erste STK Ried and Grosse STK Ried.</li></ul>
+
+
+<h3>From private to official classification</h3>
+<p>The classification of Austrian vineyards has followed the German course a decade later. A group of estates in the Danube regions formed an association in 1992, studied the historical reputation, the geology and the long-term results of their sites, and from 2010 designated the best as first growths, marked by a symbol on the label. The Styrian estates did likewise. These were private marks without legal force. The national wine law now provides for an official classification in two grades within the DAC system, to be applied for by each region and decided on evidence, including a record of prices and a history of use of the vineyard's name, and it ties the higher grade to lower yields and hand harvesting. The process is in its first years, and a student should know the principle and the two terms and expect the list of classified sites to grow.</p>
+
 <h3>Sekt Austria</h3>
 <table class="t"><tr><th>Tier</th><th>Time on lees</th><th>Origin and method</th></tr>
 <tr><td>Sekt Austria</td><td>9 months in bottle, or 6 in tank</td><td>One federal state; any method</td></tr>
 <tr><td>Reserve</td><td>18 months</td><td>One state; traditional method, hand harvest</td></tr>
 <tr><td>Große Reserve</td><td>36 months</td><td>One municipality; traditional method</td></tr></table>
+
+
+<p>The sparkling pyramid, in force since 2016, applies the same logic of narrowing origin to another category. The base level may use any method and grapes from one state. The second requires bottle fermentation, hand picking and a longer period on the lees. The third requires grapes from a single commune, pressing at a reduced yield and three years of aging, and may name a vineyard. Austria has made sparkling wine by the bottle method since the 1840s, when a merchant trained in Champagne founded a house in Vienna, and the high-acid base wines of the Weinviertel are well suited to it.</p>
+
 <h3>The grapes in the glass</h3>
 <table class="t"><tr><th>Grape</th><th>Markers</th></tr>
 <tr><td>Grüner Veltliner</td><td>White pepper, green bean, lentil, citrus, radish; high acid. Light as Steinfeder, powerful as Smaragd</td></tr>
@@ -350,7 +438,11 @@ body:`
 <tr><td>St. Laurent</td><td>Like a darker, wilder Pinot Noir</td></tr>
 <tr><td>Welschriesling</td><td>Simple when dry; the base of great sweet wines by the Neusiedlersee</td></tr></table>
 <ul><li>The pepper in Grüner Veltliner is <b>rotundone</b>, the same compound found in Syrah.</li>
-<li>About a quarter of Austria's vineyard is certified organic, the highest share of any major wine country.</li></ul>`,
+<li>About a quarter of Austria's vineyard is certified organic, the highest share of any major wine country.</li></ul>
+
+<h3>Tasting Austria blind</h3>
+<p>The two principal whites can be separated by aroma and texture. Grüner Veltliner has a savory, vegetal register, white pepper, lentil, green bean, radish and citrus peel, with a broad, slightly phenolic texture; Riesling from the same villages is all stone fruit and lime, narrower and more linear, and always dry. Both show ripeness and weight greater than their German equivalents with comparable acidity, the mark of warm days and cold nights. Blaufränkisch is recognized by the combination of dark fruit, peppery spice and an acidity higher than a wine of its color normally carries. The country's wines are clean, precise and rarely oaky, and that consistency of manner is itself a clue.</p>
+`,
 floor:`<p>Grüner Veltliner Federspiel by the glass for vegetable-heavy menus; Smaragd or a Kamptal Ried for fish in cream sauce; Blaufränkisch for guests who like Northern Rhône or cool-climate Syrah; Kracher TBA with blue cheese.</p>`,
 analyst:`<p>Diploma topics: compare the DAC and Prädikat systems; explain how the Waldviertel cold air and Pannonian heat interact in the Wachau; describe Ausbruch.</p>`,
 terms:[["Ried","Single vineyard (Austria)."],["Gebietswein / Ortswein / Riedenwein","Regional, village and single-vineyard tiers in Austrian DACs."],["Ausbruch","Austrian botrytis sweet wine, historically from Rust."],["Schilcher","Tart rosé from Blauer Wildbacher in Weststeiermark."],["Morillon","Styrian name for Chardonnay."],["Heuriger","Viennese wine tavern serving young wine."],["KMW","Klosterneuburger Mostwaage, Austria's must-weight scale."],["Banderole","The red-white-red seal on the capsule of Austrian Qualitätswein."],["Erste Lage","Austria's premier cru tier for single vineyards."],["ÖTW","Österreichische Traditionsweingüter, the growers' group that began classifying Rieden."],["Sekt Austria","Austria's protected sparkling wine, in three tiers."],["Strohwein","Sweet wine from grapes dried on straw; also called Schilfwein."]],

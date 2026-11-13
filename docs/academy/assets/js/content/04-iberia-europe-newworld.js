@@ -416,9 +416,18 @@ quiz:[
 ]});
 
 L.push({id:"r11", unit:"R4", title:"Germany", mins:20,
-summary:"Ripeness levels, the VDP pyramid, and the slate slopes of the Mosel.",
+summary:"Why a cold country ranked wine by ripeness, what the 1971 law broke, how the VDP and the 2021 reform rebuilt quality around origin, and the thirteen regions.",
 body:`
 <p>German wine law, written in 1971, ranks wine by <b>how ripe the grapes were at harvest</b>, measured in degrees Oechsle (must weight). That made sense in a cold country where ripeness was precious. It created confusion, too: a Spätlese can be sweet or dry. The growers' association <b>VDP</b> answered with a Burgundy-style vineyard pyramid, and since 2021 German law has been moving toward origin-based quality as well. You need both systems.</p>
+
+
+<p>Both systems are answers to the same fact: Germany lies at the northern limit of viticulture. Its vineyards sit between the forty-seventh and fifty-first parallels, as far north as Newfoundland, and for most of their history the grower's problem was to get grapes ripe at all. That single constraint explains where the vines are planted, which grape dominates, why the wines were sweet, and why the law measured sugar. It also explains the confusion of the present, because the constraint has eased. This chapter sets out the logic of the old order and of the one replacing it.</p>
+
+<h3>A cold country and what it does to wine</h3>
+<p>At this latitude a vine ripens its fruit only where local conditions add warmth, and German vineyards are a catalogue of such conditions. Nearly all lie in the southwest of the country, in the valleys of the Rhine and its tributaries, the Mosel, Nahe, Main and Neckar. The rivers matter in three ways. Their valleys are sheltered from wind and cut below the cold plateaus. Their water stores heat and reflects light onto the slopes. And the cold air that would cause frost drains down the hillsides and away along the river. The best vineyards face south or southwest on steep slopes, where the low northern sun strikes the ground at a better angle, and on dark, stony soils such as slate, which absorb heat by day and release it at night. In the Mosel half the vineyard is on slopes steeper than thirty degrees, and such sites take three to five times the labor of flat land.</p>
+<p>The growing season is long and cool, and the autumn is the decisive period. Grapes ripen slowly into October and November, gaining sugar and flavor while cool nights preserve their acidity. No other major wine country harvests so late. The wines that result are unlike those of any warmer place: low in alcohol, high in acid, intense in aroma, and often left with some unfermented sugar, which the acidity needs for balance in the way lemon juice needs sugar to become lemonade.</p>
+<p><strong>Riesling</strong> is the grape this climate selected. It buds late, so it escapes spring frost; its wood is hard and survives winter cold; it ripens late and slowly, and can hang into November; and it keeps high acidity even when very ripe. It is also unusually transparent to its site, giving recognizably different wines from slate, sandstone, limestone and volcanic rock, and it can make every style from bone dry to the sweetest wine in the world. It needs the best sites to ripen, however, and for that reason it occupies under a quarter of the vineyard and the earlier, easier varieties bred from it fill the flatter land.</p>
+
 <h3>The Prädikatswein ladder (ripeness at harvest)</h3>
 <ol><li><b>Kabinett</b>: lightest, often off-dry and low alcohol (7-10% in the Mosel).</li>
 <li><b>Spätlese</b>: "late harvest"; riper. Discovered, by legend, at Schloss Johannisberg in 1775 when the harvest messenger was delayed.</li>
@@ -427,8 +436,29 @@ body:`
 <li><b>Eiswein</b>: naturally frozen grapes, BA must weight.</li>
 <li><b>Trockenbeerenauslese (TBA)</b>: individually selected shriveled botrytis berries; extremely sweet, tiny volume, very low alcohol.</li></ol>
 <p>Prädikat wines may not be chaptalized. <b>Qualitätswein</b> (QbA) may be. Sweetness terms: <b>trocken</b> (dry, up to 9 g/L when acid is close behind), <b>halbtrocken</b>/<b>feinherb</b> (off-dry). Sparkling: <b>Sekt</b>.</p>
+
+
+<h3>Why the law measured sugar</h3>
+<p>The Prädikat system began as a grower's practice long before it was law. In a marginal climate the ripest grapes were the rarest and best, and estates on the Rhine learned in the eighteenth century to pick in several passes, keeping the later and riper lots apart and selling them at higher prices. The terms describe that selection: a normal harvest, a late one, a picking of selected bunches, of selected berries, of selected shriveled berries. The top three grades depend on <strong>noble rot</strong>, which the misty autumn mornings of the river valleys favor, or, for Eiswein, on a hard frost of about minus seven degrees while healthy grapes still hang, so that pressing the frozen fruit yields a concentrated juice and leaves the water behind as ice.</p>
+<p>Must weight is expressed in degrees <strong>Oechsle</strong>, a scale of density: a juice of ninety degrees is nine percent denser than water, the excess being almost entirely sugar. The law sets a minimum for each grade, higher in the warm regions and lower in the cool ones. Prädikat wines may not have sugar added before fermentation, which is the meaning of the old phrase for them, wine "with distinction", and the guarantee the category offers.</p>
+<p>A point that confuses many students is that the ladder measures the sugar in the grapes and says nothing by law about the sugar in the wine. A Spätlese may be fermented dry and labeled <em>trocken</em>. In practice the sweetness of the classic style comes from stopping fermentation early, by chilling and filtering, which leaves natural grape sugar and a low alcohol of seven to nine percent. The tradition has a physical origin: in unheated cellars the fermentation of late-picked grapes often stopped by itself as winter set in. The cheap sweet wines of the later twentieth century were made differently, by fermenting to dryness and adding unfermented grape juice, the <em>Süssreserve</em>.</p>
+
+<h3>What went wrong in 1971</h3>
+<p>The law of 1971 made two decisions that shaped the next fifty years. It declared that quality was a matter of must weight alone, so that any vineyard in any region could produce any grade if its grapes reached the figure. And it reorganized the vineyards. Some thirty thousand traditional site names were consolidated into about 2,600 single sites, the <strong>Einzellagen</strong>, with a minimum size of five hectares, so that famous names were extended over neighboring land of lesser quality. It also created the <strong>Grosslage</strong>, a collective site grouping many vineyards across several villages, whose name was written on the label exactly as a single site was, village name followed by site name. The buyer could not tell them apart. A wine named for the village of Piesport and a Grosslage might come from flat land miles from the famous slope.</p>
+<p>The consequences were commercial. New crossings bred to reach high must weights in ordinary sites were planted widely, and yields rose. A flood of inexpensive, sweetish wine from the flat land of the Rhine plain, sold under names such as Liebfraumilch, came to represent Germany abroad in the 1970s and 1980s, and the reputation of wines that had sold above first-growth Bordeaux a century earlier collapsed. The reaction at home took the form of a turn to dry wine, which now accounts for the larger part of production, and of a campaign by the leading estates to restore the meaning of vineyard names.</p>
+
 <h3>The VDP pyramid</h3>
 <p><b>Gutswein</b> (estate) → <b>Ortswein</b> (village) → <b>Erste Lage</b> (premier site) → <b>Grosse Lage</b> (grand site). A dry wine from a Grosse Lage is a <b>Grosses Gewächs (GG)</b>. VDP members use Prädikat terms mainly for wines with residual sugar. Watch for the trap: <b>Grosslage</b> (a large collective area, often generic) is not <b>Grosse Lage</b>.</p>
+
+
+<h3>The idea behind the pyramid</h3>
+<p>The VDP is a private association of about two hundred estates, holding some five percent of the vineyard, recognizable by an eagle bearing a bunch of grapes on the capsule. Its rules bind only its members, and their importance lies in the principle they introduced: that the vineyard, and not the sugar reading, should rank a wine, as in Burgundy. The classification was built in stages, with the dry top wine defined in 2002 and the four tiers adopted in 2012. Each step up narrows the origin and lowers the permitted yield. Each region also names the grape varieties that may be used at the top level, so that a great site in the Mosel is by definition a Riesling site.</p>
+<p>The association assigned the Prädikat terms a narrower role, reserving them for wines with sweetness, and gave dry wines their own names. A dry wine from the highest class of site is a <strong>Grosses Gewächs</strong>, sold in a bottle embossed with the letters GG, released from September of the year after the harvest for whites and a year later for reds. This removed the worst ambiguity of the old labels. Under the VDP's convention a Kabinett or Spätlese has residual sugar, and a GG is dry.</p>
+
+<h3>The law follows: the reform of 2021</h3>
+<p>In 2021 the state adopted the same principle for all producers. The amended wine law, which becomes binding with the 2026 vintage after a transition period, arranges quality wine in a pyramid of origin under the rule that the narrower the origin, the higher the standard. At the base is wine from a whole growing region. Above it is wine from a district, then from a village, then from a single vineyard. Wines from a single site must meet stricter conditions, and within that level the law defines two superior categories: <strong>Erstes Gewächs</strong> and, at the top, <strong>Grosses Gewächs</strong>. Both must be dry, from a single variety judged typical of the region, selectively harvested, and limited in yield, with the top category restricted to fifty hectoliters per hectare on flat sites and hand harvesting. The regional growers' bodies decide which varieties qualify and may add requirements. The Grosslage survives only in a form that marks it plainly as a district.</p>
+<p>The Prädikat ladder continues alongside, and the two can be read together. A student should be able to place any label on both axes: how specific is the origin, and how ripe were the grapes. The legal Grosses Gewächs and the VDP's are close relations and not identical, since the association's rules are stricter and it has kept its own register of sites.</p>
+
 <h3>The 13 regions (Anbaugebiete)</h3>
 <ul><li><b>Mosel</b> (with Saar and Ruwer): steep, south-facing blue and red slate above the river; the steepest vineyard in Europe (Calmont, about 65°). Light, high-acid, low-alcohol Riesling with slate and peach. Villages: Bernkastel, Graach, Wehlen (Sonnenuhr), Ürzig, Piesport, Brauneberg. Producers: Egon Müller (Scharzhofberg), J.J. Prüm, Joh. Jos. Christoffel, Dr. Loosen, Clemens Busch.</li>
 <li><b>Rheingau</b>: a south-facing stretch where the Rhine bends west; fuller, aristocratic Riesling (Schloss Johannisberg, Robert Weil, Rüdesheim's Berg Schlossberg). Also Spätburgunder at Assmannshausen.</li>
@@ -439,6 +469,11 @@ body:`
 <li><b>Baden</b>: warmest, southernmost; Spätburgunder and Grauburgunder.</li>
 <li>Also Ahr (red, tiny), Mittelrhein, Württemberg (Trollinger, Lemberger), Hessische Bergstraße, Saale-Unstrut and Sachsen (the two northeastern regions).</li></ul>
 <p>German names to know: Spätburgunder (Pinot Noir), Grauburgunder (Pinot Gris), Weissburgunder (Pinot Blanc), Müller-Thurgau (Rivaner), Dornfelder.</p>
+
+
+<h3>How to hold thirteen regions in the mind</h3>
+<p>The regions differ mainly in warmth, and warmth follows two things: latitude and shelter. The <strong>Mosel</strong> and its tributaries, the <strong>Ahr</strong>, the <strong>Mittelrhein</strong> and the <strong>Nahe</strong> are narrow, steep valleys in the northwest, cool, with slate prominent among their soils, and they make the lightest and most delicate wines. The <strong>Rheingau</strong> is a single south-facing hillside above a broad stretch of the Rhine and makes Riesling with more body. South of it the Rhine valley opens into a wide plain. <strong>Rheinhessen</strong>, on rolling hills to the west of the river, is the largest region, and the <strong>Pfalz</strong>, which continues it southward in the shelter of a mountain range, is the second largest, the sunniest and nearly the driest; between them they grow close to half of German wine. <strong>Baden</strong>, stretching south along the Rhine opposite Alsace to the Swiss border, is the warmest of all and is given over to the Pinot family. <strong>Württemberg</strong>, on the Neckar, drinks most of its own light red wine. <strong>Franken</strong>, to the east on the Main, has a continental climate of cold winters and warm summers that suits Silvaner. The two regions of the former East Germany, on the Elbe and the Saale, are the most northerly and among the smallest.</p>
+
 <h3>Reading sweetness from the label</h3>
 <table class="t"><tr><th>Term</th><th>Sugar</th></tr>
 <tr><td>Trocken</td><td>Up to 9 g/L, if acidity is within 2 g/L of the sugar</td></tr>
@@ -450,6 +485,10 @@ body:`
 <li>A Prädikat name with no sweetness term (Kabinett, Spätlese) from the Mosel usually means off-dry to sweet.</li>
 <li>A <b>Goldkapsel</b> (gold capsule) is a producer's own signal of a richer, more selective lot. It is not a legal term.</li>
 <li>Minimum must weights rise up the ladder, from about 70° Oechsle for Kabinett to 150° or more for TBA, and vary by region.</li></ul>
+
+
+<p>The rule for <em>trocken</em> shows how German practice treats sweetness as a relation and not a quantity. A wine may hold up to four grams of sugar per liter without condition, and up to nine provided its acidity is no more than two grams below the sugar. A Riesling with eight grams of acid and nine of sugar tastes dry, because the acid masks the sugar, and the law allows for it. The same reasoning explains why a Mosel Kabinett with forty grams of sugar tastes refreshing and never cloying. A taster judging these wines must assess the balance and should not rely on the perception of sweetness alone.</p>
+
 <h3>Dates that explain the wines</h3>
 <table class="t"><tr><th>Year</th><th>Event</th></tr>
 <tr><td>1136</td><td>Cistercians found Kloster Eberbach in the Rheingau and wall in the Steinberg</td></tr>
@@ -461,6 +500,8 @@ body:`
 <tr><td>1971</td><td>The wine law ranks by must weight; Liebfraumilch and other sweet blends boom and damage the image</td></tr>
 <tr><td>2002</td><td>The first Grosses Gewächs wines are released</td></tr>
 <tr><td>2021</td><td>A new law moves toward origin: region, village, single vineyard</td></tr></table>
+
+
 <h3>Beyond Riesling</h3>
 <p>Germany has about 103,000 hectares, two-thirds of them white. Riesling is the leader at about 23%, which is about 45% of the world's Riesling. Spätburgunder is second: Germany is the world's third-largest grower of Pinot Noir.</p>
 <table class="t"><tr><th>Grape</th><th>Character</th></tr>
@@ -471,13 +512,22 @@ body:`
 <tr><td>Weissburgunder</td><td>Pinot Blanc; apple, almond, gentle</td></tr>
 <tr><td>Spätburgunder</td><td>Slate and red fruit in the Ahr; fuller on Baden's volcanic Kaiserstuhl</td></tr>
 <tr><td>Dornfelder</td><td>Bred in 1955; dark, soft, simple</td></tr></table>
+
+
+<h3>Red wine and a warming climate</h3>
+<p>A third of the German vineyard is red, a proportion that would have astonished a grower of 1980, when it was about a tenth. Spätburgunder is the reason. The grape has been grown in Germany since the Middle Ages, brought by the same monastic orders that planted Burgundy, but the wines were pale and often sweetish until a generation of growers in Baden, the Pfalz, the Ahr and Franken began in the 1980s and 1990s to reduce yields, plant better clones and use Burgundian methods. The best are now among the finest Pinot Noirs made outside France.</p>
+<p>The change coincides with a rise in temperature that has altered the terms of German viticulture. The average growing season is markedly warmer than it was in the 1980s, harvests begin two to three weeks earlier, and must weights that once marked an exceptional year are reached in most years. Ripeness, the scarce quality the Prädikat system was designed to reward, is no longer scarce. Growers of classic light Kabinett must now pick early or seek out cooler, higher and less favored sites to keep alcohol low, and the Eiswein harvest fails in many winters for want of frost. Dry Riesling of full body, which was difficult to make in most regions fifty years ago, has become the country's leading style. The shift of the law from ripeness to origin is, among other things, a recognition that the old measure has lost its meaning.</p>
+
 <h3>Riesling at the table</h3>
 <ul><li><b>Kabinett, off-dry:</b> spicy Thai and Sichuan food, sushi, smoked fish. Sugar cools heat.</li>
 <li><b>Spätlese:</b> pork with apples, duck, washed-rind cheese.</li>
 <li><b>Grosses Gewächs:</b> anything you would serve with white Burgundy.</li>
 <li><b>Auslese and above:</b> blue cheese, fruit tarts, or alone.</li>
 <li>Riesling ages for decades. The petrol note that develops is a compound called TDN.</li></ul>
-<p><b>Sekt</b> on its own may be tank-fermented from imported base wine. <b>Deutscher Sekt</b> uses German grapes only.</p>`,
+<p><b>Sekt</b> on its own may be tank-fermented from imported base wine. <b>Deutscher Sekt</b> uses German grapes only.</p>
+
+<p>The service of these wines follows from their structure. Low alcohol, high acidity and a little sugar make off-dry Riesling the most adaptable white wine with food that is hot with chili, salty, smoked, or sweet and sour, where dry, oaky or tannic wines turn bitter. The same acidity is why Riesling outlives almost every other white. A good Kabinett develops for twenty years and the sweet rarities for a century, the sugar seeming to recede with age as the aromas move from fresh fruit toward honey, wax and the well-known note of petrol.</p>
+`,
 floor:`<p>CMS Certified examines Riesling from Mosel/Rheingau at Kabinett or Spätlese. Blind: pale lemon-green, lime, green apple, peach, slate; very high acid, low alcohol, noticeable RS. A real CMS Certified map item: "Which Anbaugebiet does this map depict?" Learn the Mosel's snaking shape and the Rheingau's east-west bend.</p>`,
 analyst:`<p>WSET Level 3 lists Mosel, Nahe, Rheingau, Rheinhessen, Pfalz, Baden and Franken, plus Prädikat terms and the VDP. A short answer favorite: "Explain how the Mosel's site factors allow Riesling to ripen" = steep south-facing slopes, river reflection, slate heat retention.</p>`,
 terms:[["Prädikatswein","German quality wine classed by must weight at harvest."],["Oechsle","German scale of must weight (sugar)."],["Grosses Gewächs","VDP dry wine from a Grosse Lage site."],["Grosslage","Collective vineyard area, often generic; not the same as Grosse Lage."],["Feinherb","Off-dry (unofficial)."],["Bocksbeutel","Flattened flask bottle of Franken."],["Goldkapsel","Gold capsule: a producer's private mark for a richer selection."],["Halbtrocken","Off-dry: up to 18 g/L of sugar."],["Scheurebe","1916 crossing with grapefruit and blackcurrant aromas."],["Ruländer","Old name for Pinot Gris, now used for sweeter styles."],["Kloster Eberbach","Cistercian monastery in the Rheingau, founded in 1136."],["Deutscher Sekt","Sparkling wine made only from German grapes."]],
@@ -500,8 +550,10 @@ quiz:[
 ]});
 
 L.push({id:"r12", unit:"R4", title:"Austria, Hungary and Greece", mins:18,
-summary:"Grüner and the Wachau, Tokaji Aszú, and Greece's ancient grapes.",
+summary:"Austria's collision of climates, how Tokaji Aszú is made and why, and what keeps Greek wine fresh: three countries and three recoveries.",
 body:`
+<p>Three countries share this chapter because each solves a problem of climate in its own way, and because each has a wine found nowhere else. Austria lies at the meeting point of cold northern air and the warm plain of Hungary, and makes dry white wine of great precision. Hungary has, in Tokaj, the oldest of the great sweet wines and the first vineyard classification. Greece is a hot country that keeps its wines fresh by means of altitude, sea wind and a set of native grapes with remarkable natural acidity. Each also rebuilt its wine industry within living memory, after a scandal, a political system or a long neglect.</p>
+
 <h3>Austria</h3>
 <p>Austria's modern quality era started with a crisis: in 1985 a few brokers were caught sweetening wine with diethylene glycol. Exports collapsed overnight, and the country rebuilt with some of the strictest wine laws in Europe and a focus on dry, precise whites. <b>Grüner Veltliner</b> is about a third of plantings.</p>
 <ul><li><b>DAC</b> (Districtus Austriae Controllatus): regional appellations with defined styles, starting with Weinviertel DAC (2003). Now a three-tier pyramid: Gebietswein (regional), Ortswein (village), Riedenwein (single vineyard, "Ried").</li>
@@ -509,13 +561,18 @@ body:`
 <li><b>Kremstal, Kamptal</b> (Bründlmayer, Hirsch), <b>Traisental, Wagram</b>: Grüner and Riesling.</li>
 <li><b>Burgenland</b> (east, warm, Pannonian): reds from <b>Blaufränkisch</b> (Mittelburgenland, Leithaberg) and <b>Zweigelt</b> (a Blaufränkisch × St. Laurent crossing). Around Lake Neusiedl, mists create botrytis: <b>Ruster Ausbruch</b> and TBA from the Seewinkel.</li>
 <li><b>Steiermark (Styria)</b>: Sauvignon Blanc on steep hills. <b>Wien</b>: Gemischter Satz (field blend) DAC.</li></ul>
+
+
+<h3>Why Austria tastes as it does</h3>
+<p>Austrian vineyards are confined to the eastern end of the country, away from the Alps, where two climates collide. From the east comes the warm, dry air of the Pannonian plain, which gives hot summers and long, sunny autumns. From the north and west comes cool, damp air from the forested uplands and the Atlantic. The Danube valley is the corridor in which they meet. In the <strong>Wachau</strong>, a gorge thirty kilometers long where the river cuts through ancient crystalline rock, warm air pushes upstream from the east during the day and cold air sinks from the wooded plateau to the north at night. The swing between day and night temperatures in September and October can exceed twenty degrees. Sugar accumulates in the warmth and acidity and aroma are preserved by the cold, which is the formula for the region's dry whites: ripe, full and sharply defined.</p>
+<p>The soils divide the two leading grapes between them. <strong>Riesling</strong> is planted on the steep upper terraces, on thin, stony soils over gneiss and granite, where it struggles for water. <strong>Grüner Veltliner</strong>, which needs more moisture, takes the lower slopes and the deep beds of loess, a fine wind-blown silt that holds water well. Grüner covers about a third of the national vineyard, some 14,000 hectares, and is rare anywhere else. It is a versatile grape, capable of a light, peppery wine for drinking in its first year and of a dense, powerful one that ages for decades.</p>
+<p>East and south of Vienna the Pannonian climate takes over. <strong>Burgenland</strong>, on the Hungarian border, is warm enough for red wine, and around the Neusiedlersee, a vast lake little more than a meter deep, autumn mists rise so reliably that noble rot occurs almost every year. <strong>Styria</strong>, in the far south, is different again: steep, green, wet hills with a climate that gives intensely aromatic whites.</p>
+<p>The scandal of 1985 deserves an accurate account, since it shaped everything that followed. A number of bulk merchants, facing a market in which sweet wines fetched a premium and a run of poor harvests, added diethylene glycol to make thin wines seem richer. It was detected, exports fell by nine tenths within a year, and the trade in cheap blended wine through merchants was finished. The law that followed was among the strictest in Europe, with controls on yields, compulsory testing and numbered seals. The lasting effect was structural: growers who had sold in bulk began to bottle their own wine, and the country's reputation now rests on several thousand family estates.</p>
+
 <h3>Hungary: Tokaj</h3>
 <p>Tokaji Aszú may be the oldest botrytis wine; a vineyard classification here dates to the 1730s, before Bordeaux's 1855. Grapes: <b>Furmint</b> (high acid, smoky), <b>Hárslevelű</b> (linden, honey), Sárgamuskotály (Muscat). How Aszú is made: shriveled botrytized berries (aszú) are picked one by one, made into a paste, then macerated in base wine or must, and aged. Sweetness was measured in <b>puttonyos</b> (baskets of aszú per 136-liter cask). Since 2013, Aszú must have at least <b>120 g/L</b> residual sugar (equal to the old 5 puttonyos); 5 and 6 puttonyos may still appear. <b>Eszencia</b>: the free-run syrup from aszú berries, 450+ g/L sugar, barely any alcohol, can age for centuries. Also <b>Szamorodni</b> (whole bunches, dry or sweet) and fine <b>dry Furmint</b>. Elsewhere in Hungary: <b>Egri Bikavér</b> ("Bull's Blood") and Villány reds.</p>
-<h3>Greece</h3>
-<ul><li><b>Santorini</b>: <b>Assyrtiko</b> on volcanic ash and pumice, ungrafted (phylloxera can't survive here), trained as low baskets (<i>kouloura</i>) against the wind. Bone-dry, very high acid, flinty and saline. <b>Vinsanto</b> from sun-dried Assyrtiko.</li>
-<li><b>Naoussa</b> (Macedonia): <b>Xinomavro</b> ("sour-black"): pale, tannic, high acid, tomato and olive. Often compared to Nebbiolo.</li>
-<li><b>Nemea</b> (Peloponnese): <b>Agiorgitiko</b>, soft and plummy.</li>
-<li>Also Moschofilero (Mantinia), Malagousia, and <b>Retsina</b> (white resinated with Aleppo pine).</li></ul>
+
+
 <h3>Tokaj: why it works</h3>
 <ul><li>The region sits where the <b>Bodrog</b> meets the <b>Tisza</b>. Autumn mists rise from the rivers each morning and burn off by afternoon: ideal for noble rot.</li>
 <li>Soils are volcanic, with loess on the hill of Tokaj itself.</li>
@@ -524,18 +581,46 @@ body:`
 <li>Louis XIV is said to have called Tokaji "the wine of kings and the king of wines".</li>
 <li>Under communism one state company made all the wine, and quality sank. After 1990 the estates were privatized and foreign investors arrived: Royal Tokaji, AXA's Disznókő, Vega Sicilia's Oremus.</li>
 <li>The newest chapter is <b>dry Furmint</b>: smoky, taut and long-lived, often from single vineyards.</li></ul>
+
+
+<h3>How Aszú is made, and why</h3>
+<p>Tokaj lies in the northeast of Hungary on the southern slopes of a range of extinct volcanoes, about five and a half thousand hectares across some two dozen villages. The conditions for noble rot are as reliable here as anywhere in the world. Two rivers meet at the foot of the hills, their mist settles on the vineyards on autumn mornings, and the afternoons are dry and sunny, so the fungus shrivels the grapes without rotting them. <strong>Furmint</strong>, which makes up most of the vineyard, is ideally suited: it ripens late, is thin-skinned and easily infected, and keeps very high acidity, which a wine of this sweetness needs.</p>
+<p>The method differs from that of every other botrytis wine. In Sauternes or Germany the affected grapes are pressed and their juice fermented. In Tokaj the shriveled berries, the <em>aszú</em>, are picked one at a time through several passes of the vineyard and stored, where they form a dry mass too concentrated to press. They are then steeped for a day or two in fresh must or in young wine made from healthy grapes of the same harvest, which dissolves their sugar, acid and flavor, and the mixture is pressed and fermented slowly in small casks in cold, damp cellars cut into the volcanic rock. Sweetness was traditionally measured by the number of <strong>puttonyos</strong>, hods of about twenty-five kilograms of aszú berries, added to a cask of 136 liters; the scale is now defined by residual sugar and the term is optional. The process extracts something from the skins as well as the juice, which is why Aszú has a firmness and a character of orange peel, tea and apricot unlike any pressed sweet wine.</p>
+<p>Two other wines complete the range. <strong>Szamorodni</strong>, "as it comes", is made from whole bunches containing both healthy and shriveled grapes, and may be dry or sweet. <strong>Eszencia</strong> is the juice that runs from the stored aszú berries under their own weight, with sugar so high, often over five hundred grams per liter, that it ferments for years and barely reaches a few degrees of alcohol. It is served by the spoonful.</p>
+<p>The region's fame was established by the seventeenth century, when the wine supplied the courts of Poland, Russia and France, and its vineyards were ranked in three classes in the 1730s. Phylloxera, the loss of two thirds of Hungary's territory after 1918, and forty years of collective production under a single state company reduced it to a shadow. The revival since 1990 has restored the sweet wines and added a dry one, from Furmint grown in single vineyards, that many consider the region's future.</p>
+
 <h3>Three sweet wines compared</h3>
 <table class="t"><tr><th></th><th>Tokaji Aszú</th><th>Ruster Ausbruch</th><th>Santorini Vinsanto</th></tr>
 <tr><td>Grapes</td><td>Furmint, Hárslevelű</td><td>Welschriesling, Chardonnay and others</td><td>Assyrtiko, Aidani</td></tr>
 <tr><td>How</td><td>Botrytized berries steeped in base wine</td><td>Botrytized berries pressed and fermented</td><td>Healthy grapes dried in the sun</td></tr>
 <tr><td>In the glass</td><td>Apricot, marmalade, honey, tea; piercing acid</td><td>Honeyed, tropical, softer acid</td><td>Raisin, coffee, caramel; very high acid</td></tr></table>
+
+
+<h3>Greece</h3>
+<ul><li><b>Santorini</b>: <b>Assyrtiko</b> on volcanic ash and pumice, ungrafted (phylloxera can't survive here), trained as low baskets (<i>kouloura</i>) against the wind. Bone-dry, very high acid, flinty and saline. <b>Vinsanto</b> from sun-dried Assyrtiko.</li>
+<li><b>Naoussa</b> (Macedonia): <b>Xinomavro</b> ("sour-black"): pale, tannic, high acid, tomato and olive. Often compared to Nebbiolo.</li>
+<li><b>Nemea</b> (Peloponnese): <b>Agiorgitiko</b>, soft and plummy.</li>
+<li>Also Moschofilero (Mantinia), Malagousia, and <b>Retsina</b> (white resinated with Aleppo pine).</li></ul>
+
+
+<h3>Why Greek wine is fresh</h3>
+<p>Greece lies at the latitude of southern Spain and Sicily, with a long, rainless summer, and the expectation would be heavy, alcoholic wine. The best Greek wines are the opposite, and three factors account for it. The first is altitude. Greece is among the most mountainous countries in Europe, and many of its vineyards lie between four and nine hundred meters, on plateaus and high valleys where nights are cold; the plateau of Mantinia, at 650 meters, has one of the latest harvests in the country. The second is the sea. No vineyard is far from it, and in summer a steady north wind, the <em>meltemi</em>, blows across the Aegean and cools the islands. The third is the grapes. Greece kept some three hundred native varieties, selected over millennia for these conditions, and several of the most important hold their acidity in heat to a degree that international varieties cannot.</p>
+<p><strong>Assyrtiko</strong> is the outstanding case. On Santorini, in one of the hottest and driest vineyards in Europe, it gives wine with the acidity of a northern white and thirteen or fourteen percent alcohol together. The island is the rim of a volcano that erupted about 1600 BC and buried it in ash and pumice. The soil contains no clay, so phylloxera cannot live there, and the vines are ungrafted and of great age. There is almost no rain in summer. The vines take moisture from sea fog that the porous ground absorbs at night, and they are trained in a low coil, the <em>kouloura</em>, woven over years into a basket that lies on the ground with the grapes inside it, sheltered from the wind and the sun. Yields are among the lowest anywhere. The wine is dry, dense, salty and built to age, and the pressure of tourism on land, together with several years of drought, has made it scarce and expensive.</p>
+<p>On the mainland the two principal red grapes divide the country. <strong>Xinomavro</strong>, in the cool north, is pale, high in acid and tannin and slow to mature, with savory aromas of tomato, olive and dried herbs. <strong>Agiorgitiko</strong>, in the Peloponnese, is deep-colored, soft and plummy, and varies with altitude across the hills of Nemea, from simple fruity wine on the valley floor to structured wine from the higher villages.</p>
+
 <h3>Greece: old country, new industry</h3>
 <ul><li>Greece has grown wine for four thousand years and has about 300 native grapes, yet the modern industry is young. The appellation system dates from 1971, and small quality estates only became common in the 1980s and 90s.</li>
 <li><b>Retsina</b> began by accident: pine resin was used to seal amphorae, and people came to like the taste.</li>
 <li>Vangelis Gerovassiliou rescued <b>Malagousia</b> from near extinction in the 1970s.</li>
 <li>Santorini's vines can be centuries old below ground: growers cut the basket back and let the ancient root start again. Yields are tiny, and drought and tourism have pushed prices up sharply.</li></ul>
+
+
+<p>The gap between the antiquity of Greek wine and the youth of its industry has a historical cause. Under four centuries of Ottoman rule wine was taxed and commercial production discouraged, and it survived as a household and monastic activity. The modern state was poor, phylloxera and the emigration of the early twentieth century emptied vineyards, and until the 1970s most wine was sold in bulk or as retsina. The change came with a generation of oenologists trained in Bordeaux and Germany in the 1970s and 1980s, who returned to found small estates and to work with native grapes using modern equipment. Their success with Assyrtiko, Xinomavro and the revived Malagousia established the pattern, and the export reputation of Greek wine dates from the years after 2000.</p>
+
 <h3>Austria's moment</h3>
 <p>At a blind tasting in London in 2002, Austrian Grüner Veltliner and Chardonnay took most of the top places against famous white Burgundy and New World Chardonnay. Grüner has been on serious wine lists ever since.</p>
+
+
 <h3>At the table</h3>
 <table class="t"><tr><th>Wine</th><th>Dish</th></tr>
 <tr><td>Grüner Veltliner</td><td>Wiener Schnitzel; also asparagus and artichoke, which defeat most wines</td></tr>
@@ -545,7 +630,11 @@ body:`
 <tr><td>Assyrtiko</td><td>Grilled octopus, whole fish with lemon</td></tr>
 <tr><td>Xinomavro</td><td>Lamb, tomato-based stews</td></tr>
 <tr><td>Agiorgitiko</td><td>Moussaka, grilled meats</td></tr>
-<tr><td>Retsina</td><td>Meze, fried fish, anything with garlic</td></tr></table>`,
+<tr><td>Retsina</td><td>Meze, fried fish, anything with garlic</td></tr></table>
+
+<h3>Three recoveries</h3>
+<p>The histories in this chapter run parallel. Austria lost its export trade in 1985 and rebuilt on dry wine from family estates. Tokaj lost its identity under state production and recovered it through privatization after 1990. Greece had the grapes and the sites for millennia and acquired the technical means only in the 1980s. In each case quality followed from the same change, the transfer of winemaking from large blenders to growers bottling the produce of their own land, and in each the wines that resulted are distinctive because they rely on local varieties suited to local conditions.</p>
+`,
 floor:`<p>Grüner Veltliner is the sommelier's universal pairing wine: artichokes, asparagus and green vegetables that wreck most wines. Tokaji Aszú with foie gras. Santorini Assyrtiko with grilled fish and anything you'd squeeze lemon on.</p>`,
 analyst:`<p>WSET Level 3 includes Austria's Wachau, Kremstal, Kamptal, Weinviertel, Burgenland and Neusiedlersee; Tokaj (sweet wines only); and Naoussa, Nemea and Santorini from Greece. Explain why Santorini wines keep acidity in a hot, dry climate: Assyrtiko's genetics, sea breezes, and nighttime moisture absorbed from fog.</p>`,
 terms:[["DAC","Austrian regional appellation with a defined style."],["Smaragd","Richest dry Wachau category, 12.5%+."],["Aszú","Botrytized berries, and the sweet Tokaji made from them."],["Puttonyos","Traditional measure of Tokaji Aszú sweetness."],["Eszencia","Free-run syrup from aszú berries; extremely sweet, very low alcohol."],["Kouloura","Basket-trained vines of Santorini."],["Gönci barrel","Tokaj's traditional 136-liter cask."],["Dry Furmint","Tokaj's modern dry white: smoky, taut and long-lived."],["Retsina","Greek white flavored with pine resin."],["Malagousia","Aromatic Greek white grape, rescued in the 1970s."]],

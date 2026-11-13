@@ -1,11 +1,34 @@
 // ===== CURRICULUM PART 8: Wider world, floor craft, spirits in depth, capstone =====
 L.push({id:"r12b", unit:"R4", title:"Eastern Europe and the Eastern Mediterranean", mins:16,
-summary:"Georgia, Armenia, Slovenia, Croatia, Romania, Moldova, Switzerland, Lebanon, Israel, Turkey and Cyprus.",
+summary:"From the Caucasus to the Levant: the oldest wine country, what skin contact does to white wine, the Adriatic and the Danube, and how to sell these wines.",
 body:`
 <p>This is where wine began, and where some of the most exciting comebacks are happening after decades of Soviet-era bulk production, war and isolation.</p>
+
+
+<p>The region runs from the Alps to the Caucasus and from the Black Sea to the Levant, and its countries have little in common except their history. Nearly all were once major producers; nearly all lost their place through conquest, ideology or war; and nearly all are now recovering with native grapes and old methods that the rest of the world finds new. For a sommelier the area is a source of distinctive wines at fair prices and of some of the best stories in the trade.</p>
+
 <h3>The Caucasus</h3>
 <ul><li><b>Georgia:</b> some 500 native grapes. <b>Saperavi</b> (one of the few red-fleshed teinturier grapes; deep, high acid) and <b>Rkatsiteli</b> (white; crisp or amber). Kakheti in the east is the heartland. Qvevri amber wines ferment whites on skins for months. UNESCO heritage method since 2013.</li>
 <li><b>Armenia:</b> the Areni-1 cave winery; native <b>Areni</b> grape grown at high altitude.</li></ul>
+
+
+<h3>The oldest wine country</h3>
+<p>The wild grapevine was domesticated somewhere between the Black Sea and the Caspian, and the earliest chemical traces of wine yet found come from Neolithic jars in Georgia, about eight thousand years old. The country has made wine continuously since, and its culture is bound up with it: the vine appears in its church architecture and its national symbols, and wine is made in most rural households.</p>
+<p>Georgia is small and mountainous, with the Greater Caucasus to the north shielding it from Russian cold. <strong>Kakheti</strong>, in the east, holds about three quarters of the vineyard, in two river valleys with a continental climate of hot summers. The west of the country is humid and subtropical, under the influence of the Black Sea, and grows lighter wines from different grapes. Two varieties dominate: <strong>Rkatsiteli</strong>, a hardy, acid white, and <strong>Saperavi</strong>, a red with colored flesh as well as skin, deep, tart and long-lived.</p>
+<p>Under Soviet rule Georgia was the wine cellar of the union. Production was concentrated in large factories, the hundreds of native varieties were reduced in practice to a handful, and the preferred style was semi-sweet red. The traditional method survived in village houses and monasteries. It was a small number of growers and a monastery, bottling wine made in clay in the 2000s, who brought it to foreign attention, and the Russian embargo of 2006 gave the whole industry a reason to look west.</p>
+
+<h3>Qvevri, more closely</h3>
+<ul><li>A <b>qvevri</b> is an egg-shaped clay jar, lined with beeswax and buried to its neck so the earth keeps it cool.</li>
+<li><b>Kakhetian method</b> (east): the juice ferments and rests with all its skins, seeds and stems for five or six months. Deep amber, tannic, with dried apricot and walnut.</li>
+<li><b>Imeretian method</b> (west): only a small share of the skins and no stems. Lighter and fresher.</li>
+<li>Serve amber wine at 55 to 60°F, as you would a light red.</li>
+<li>The Georgian feast is the <b>supra</b>, led by a toastmaster, the <b>tamada</b>.</li></ul>
+
+
+<h3>What skin contact does to a white wine</h3>
+<p>Amber wine, also called orange wine, is white wine made as red wine is made, and the method explains the result. In conventional white winemaking the juice is separated from the skins at once. Here the crushed grapes ferment with their skins, seeds and often stems, and stay in contact with them afterward. The skins give color, which oxidizes from gold to amber; tannin, which gives the wine a grip unknown in ordinary whites; and aromas of dried fruit, tea, nuts and herbs in place of fresh fruit. The buried jar contributes temperature control, since the earth keeps the wine near fourteen degrees through fermentation and aging, and its shape sets up a slow circulation that keeps the solids in motion until they finally sink into the pointed base and leave the wine clear above them.</p>
+<p>The tannins and the exposure to oxygen during the long maceration protect the wine, so that many are bottled with little or no added sulfur. The style is served cool and suits foods that defeat most whites: walnuts, fermented and pickled dishes, strong cheese, spiced meat. The method was taken up in the late 1990s by growers on the border of Italy and Slovenia, who imported Georgian jars, and has since spread through the natural wine movement worldwide.</p>
+
 <h3>Central and Southeast Europe</h3>
 <ul><li><b>Slovenia:</b> Goriška Brda (continuous with Italy's Collio), Rebula (Ribolla Gialla), orange-wine leaders; Štajerska for aromatic whites.</li>
 <li><b>Croatia:</b> <b>Plavac Mali</b> (a Zinfandel offspring) on the Dalmatian coast; Dingač on the Pelješac peninsula was Croatia's first protected appellation (1961); <b>Malvazija Istarska</b> in Istria; Graševina (Welschriesling) inland.</li>
@@ -13,11 +36,24 @@ body:`
 <li><b>Moldova:</b> wine is central to the economy; <b>Cricova</b> and <b>Mileștii Mici</b> have vast underground limestone cellars (Mileștii Mici holds a Guinness record for the largest wine collection). Bordeaux varieties alongside Fetească and Rara Neagră.</li>
 <li><b>Bulgaria:</b> Mavrud and Melnik; once a huge supplier of cheap Cabernet to the UK.</li>
 <li><b>Switzerland:</b> little exported. <b>Chasselas</b> in Vaud (the Lavaux terraces, a UNESCO site since 2007; Dézaley and Calamin Grands Crus); Valais grows Petite Arvine, Cornalin, Humagne Rouge and Pinot Noir (Dôle blends with Gamay); Ticino makes Merlot.</li></ul>
+
+
+<h3>The Adriatic and the Danube</h3>
+<p>The countries of the western Balkans divide into a coastal zone and an inland one. Along the Adriatic the climate is Mediterranean. <strong>Slovenia</strong>'s western districts are continuous with the hills of Friuli across the Italian border, the same marl and sandstone soils and the same grapes under different names, and the frontier drawn in 1947 runs through individual vineyards. <strong>Croatia</strong>'s Dalmatian coast and islands grow Plavac Mali on steep limestone slopes above the sea, where the vines receive sunlight three ways, direct, reflected from the water and reflected from the white rock; the grapes can reach very high sugar, and the wines are strong, dark and sometimes slightly sweet. Research at the turn of this century established that Zinfandel is a Croatian grape, an old variety called Tribidrag or Crljenak Kaštelanski, of which Plavac Mali is an offspring.</p>
+<p>Inland the climate is continental and the landscape that of the Danube basin. <strong>Romania</strong> has one of the largest vineyards in Europe and a wine history as long as any, with the Carpathian foothills providing its best sites. <strong>Moldova</strong> has the highest proportion of its land and its workforce devoted to wine of any country, and for decades sold almost everything to Russia. <strong>Bulgaria</strong> built a state industry in the 1960s and 1970s on international varieties planted for export, and its Cabernet Sauvignon was a fixture of British supermarkets in the 1980s; the break-up of the collective farms after 1989 disorganized production for a generation.</p>
+<p><strong>Switzerland</strong> belongs to this chapter by obscurity only. Its wines are expensive to produce on steep Alpine terraces and are drunk almost entirely at home, so that barely one bottle in a hundred is exported. Chasselas, a neutral grape elsewhere, is taken seriously there, giving subtle, low-acid wines that reflect their site, and the valley of the upper Rhône, the Valais, is one of the driest places in the Alps and holds a collection of rare native grapes.</p>
+
 <h3>The Eastern Mediterranean</h3>
 <ul><li><b>Lebanon:</b> the Bekaa Valley at about 1,000 m. <b>Château Musar</b> (Gaston Hochar, later Serge Hochar) made wine through the civil war; Cabernet, Cinsault and Carignan reds aged long; native whites Obaideh and Merwah.</li>
 <li><b>Israel:</b> Golan Heights and Upper Galilee lead quality; much wine is kosher (kosher status concerns production supervision, not style).</li>
 <li><b>Turkey:</b> huge grape-growing country, small wine output; Öküzgözü, Boğazkere, Kalecik Karası (reds), Narince and Emir (whites).</li>
 <li><b>Cyprus:</b> <b>Commandaria</b>, a sweet wine from sun-dried Xynisteri and Mavro, claims to be the oldest named wine still in production (linked to the Knights Templar and Hospitaller).</li></ul>
+
+
+<h3>The Levant and Anatolia</h3>
+<p>The eastern shore of the Mediterranean was the commercial heart of the ancient wine trade. Phoenician merchants from the coast of what is now Lebanon carried wine and the vine itself across the sea in the first millennium BC. The modern industries of the region are recent and operate under difficult conditions. In <strong>Lebanon</strong> nearly all the vineyards lie in the Bekaa, a high valley between two mountain ranges, where altitude of around a thousand meters gives cool nights, snowmelt supplies water, and the summer is so dry that disease is rare. The French mandate between the wars left a preference for the grapes of the southern Rhône and Bordeaux. The country's most famous estate missed only one or two vintages in fifteen years of civil war, trucking its grapes across front lines, and became known abroad for a red of idiosyncratic, old-fashioned character.</p>
+<p><strong>Turkey</strong> has one of the largest areas of vines in the world and makes little wine, since most of the fruit is eaten fresh or dried and alcohol is heavily taxed and may not be advertised. Its native wine grapes, from the high interior of Anatolia, are of real interest. <strong>Cyprus</strong> escaped phylloxera and keeps ungrafted vines at altitude in the Troodos mountains. Its sweet wine from sun-dried grapes was described in antiquity and named in the Middle Ages for the Commandery of the knights who held the island, which makes it a candidate for the oldest named wine in the world.</p>
+
 <h3>The long view</h3>
 <table class="t"><tr><th>When</th><th>What happened</th></tr>
 <tr><td>About 6000 BC</td><td>The earliest chemical evidence of grape wine, in pottery from Georgia</td></tr>
@@ -27,12 +63,10 @@ body:`
 <tr><td>1985</td><td>Gorbachev's anti-alcohol campaign uproots vast areas of vineyard in Moldova, Georgia and Crimea</td></tr>
 <tr><td>2006</td><td>Russia bans wine from Georgia and Moldova. Having lost their main customer, producers raise quality and find new markets</td></tr>
 <tr><td>2004 to 2013</td><td>Slovenia, Romania, Bulgaria and Croatia join the EU and adopt its appellation rules</td></tr></table>
-<h3>Qvevri, more closely</h3>
-<ul><li>A <b>qvevri</b> is an egg-shaped clay jar, lined with beeswax and buried to its neck so the earth keeps it cool.</li>
-<li><b>Kakhetian method</b> (east): the juice ferments and rests with all its skins, seeds and stems for five or six months. Deep amber, tannic, with dried apricot and walnut.</li>
-<li><b>Imeretian method</b> (west): only a small share of the skins and no stems. Lighter and fresher.</li>
-<li>Serve amber wine at 55 to 60°F, as you would a light red.</li>
-<li>The Georgian feast is the <b>supra</b>, led by a toastmaster, the <b>tamada</b>.</li></ul>
+
+
+<p>The table shows a pattern repeated across the region. Ottoman rule suppressed the commercial trade without ending cultivation, so native grapes survived in peasant vineyards. The socialist period then industrialized production, enlarged vineyards on flat, fertile land for machines, and directed output to a single guaranteed market. When that market disappeared, in 1991 and again with the Russian embargoes, the industries had volume and no reputation. Recovery has come where land was returned to private owners, where European funds paid for equipment, and where producers chose to make something that could not be had elsewhere.</p>
+
 <h3>The grapes in the glass</h3>
 <table class="t"><tr><th>Grape</th><th>Country</th><th>Markers</th></tr>
 <tr><td>Saperavi</td><td>Georgia</td><td>Inky, sour cherry, high acid, firm tannin</td></tr>
@@ -45,6 +79,8 @@ body:`
 <tr><td>Mavrud</td><td>Bulgaria</td><td>Dark, tannic, herbal</td></tr>
 <tr><td>Öküzgözü, Boğazkere</td><td>Turkey</td><td>Soft and fruity; dark and tannic. Usually blended together</td></tr>
 <tr><td>Obaideh, Merwah</td><td>Lebanon</td><td>Waxy, nutty old-style whites</td></tr></table>
+
+
 <h3>If the guest likes this, pour that</h3>
 <table class="t"><tr><th>They like</th><th>Offer</th></tr>
 <tr><td>Zinfandel</td><td>Plavac Mali</td></tr>
@@ -52,7 +88,11 @@ body:`
 <tr><td>Pinot Noir</td><td>Areni</td></tr>
 <tr><td>Old-style Bordeaux or Rioja</td><td>Château Musar</td></tr>
 <tr><td>Fino Sherry or Jura whites</td><td>Georgian amber wine</td></tr>
-<tr><td>Fendant with fondue</td><td>Any Vaud Chasselas</td></tr></table>`,
+<tr><td>Fendant with fondue</td><td>Any Vaud Chasselas</td></tr></table>
+
+<h3>Using these wines on a list</h3>
+<p>The wines of this chapter are sold by hand. Few guests ask for them, the names are unfamiliar and hard to pronounce, and the sommelier must supply a reason to try them. The two approaches that work are the comparison, as in the table above, which gives the guest a reference point, and the story, of which the region has plenty: the oldest wine in the world, the jar buried in the earth, the winery that worked through a war, the grape that turned out to be Zinfandel's ancestor. Price helps, since most of these wines cost less than their equivalents from famous regions. Their weakness is inconsistency, between producers and between vintages, and a buyer should taste before listing and choose importers who specialize.</p>
+`,
 floor:`<p>Georgian amber wine and Lebanese reds are excellent "story" bottles. Keep one or two for adventurous guests; they pair beautifully with Middle Eastern and grilled food.</p>`,
 analyst:`<p>Diploma D3 includes Eastern Europe and the Eastern Mediterranean at a general level. Essays on native grapes, post-communist recovery, and qvevri are plausible.</p>`,
 terms:[["Saperavi","Georgian teinturier red grape."],["Rkatsiteli","Georgian white grape, often made as amber wine."],["Plavac Mali","Croatian red, offspring of Zinfandel (Tribidrag)."],["Commandaria","Cypriot sweet wine from sun-dried grapes."],["Chasselas","Swiss white grape, especially in Vaud."],["Kakhetian method","Qvevri fermentation with all the skins, seeds and stems."],["Imeretian method","Qvevri fermentation with only part of the skins."],["Supra","The Georgian feast."],["Tamada","The toastmaster at a Georgian supra."]],
