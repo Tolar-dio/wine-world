@@ -755,9 +755,13 @@ quiz:[
 ]});
 
 L.push({id:"c3", unit:"C1", title:"Inside the Master Sommelier Service Exam", mins:14,
-summary:"What happens in the room, what examiners look for, and how candidates fail.",
+summary:"What the top service examination measures and why it is theater, the skill of the alternative, speaking while working, and the psychology of recovery.",
 body:`
 <p>The MS service exam is theater with a scorecard. A candidate in a suit approaches a "table" of Master Sommeliers playing guests. Over roughly 45 minutes the guests order, ask, change their minds, and probe knowledge, while every movement is judged against the Court's standards.</p>
+
+
+<p>The service examination at the highest level combines everything a sommelier knows, technique, knowledge of wine and other drinks, salesmanship and manner, and tests it under deliberate pressure. Candidates who fail seldom lack knowledge. They lose composure, or let a difficulty with one task spread to the next. This chapter describes what the examination measures and why it is built as it is, and sets out the habits of mind that carry a candidate through it.</p>
+
 <h3>What can happen</h3>
 <ul><li>Champagne for a table, poured evenly into the right number of glasses from one bottle.</li>
 <li>Decanting an older red, with a full guéridon setup.</li>
@@ -765,19 +769,19 @@ body:`
 <li>Spirits, liqueurs, Cognac and Armagnac from a cart; cocktail specs and history; beer and sake.</li>
 <li>Historically, cigar knowledge has been examined too.</li>
 <li>Business and list questions: a guest asks why one wine costs more than another.</li></ul>
+
+
 <h3>What examiners score</h3>
 <ul><li><b>Technique:</b> standards for opening, pouring, decanting, glass placement and handling.</li>
 <li><b>Knowledge:</b> accurate, quick, specific (producer, vintage, region, grape, method).</li>
 <li><b>Salesmanship and hospitality:</b> poise, warmth, reading the guests, steering without pushing.</li>
 <li><b>Composure:</b> recovering gracefully from a drip, a stuck cork, or a curveball.</li></ul>
-<h3>Common ways to fail</h3>
-<ul><li>Uneven pours or running out of Champagne before the last guest.</li>
-<li>Forgetting the host or the order of service.</li>
-<li>Stating something false confidently (worse than admitting uncertainty and offering to check).</li>
-<li>Freezing when a guest changes the order mid-service.</li>
-<li>Silence. Narrate, engage, keep the table comfortable.</li></ul>
-<h3>Training like a candidate</h3>
-<p>Set a mock table with friends. Have them interrupt you with real questions from the Exam Hall. Film yourself. Practice pouring a 750 ml bottle evenly into 8 or 12 glasses until it's automatic (about 3 oz for 8; about 2 oz for 12). Rehearse spoken answers for each classic region in under 30 seconds.</p>
+
+
+<h3>Why the examination is theater</h3>
+<p>The format imitates the conditions of a difficult night in a fine restaurant because that is where the qualification is supposed to hold. A sommelier at that level will meet guests who know a great deal, guests who are testing, guests who change their minds, and situations nobody planned for, while several other tables need attention. The examiners therefore construct scenarios with interruptions and complications built in, and observe how the candidate behaves as well as what the candidate does. They are asking one question throughout: would they be content to have this person serve their own guests?</p>
+<p>The four scored areas follow from that question. <strong>Technique</strong> shows training and care. <strong>Knowledge</strong> must be available instantly, in conversation, while the hands are busy, which is a different thing from knowing it at a desk. <strong>Salesmanship and hospitality</strong> show whether the candidate can make guests comfortable and guide them to something they will enjoy. <strong>Composure</strong> is tested by everything that goes wrong, and it is weighted heavily because it is the quality that protects a guest's evening when service falters.</p>
+
 <h3>One table, start to finish</h3>
 <p>A realistic mock, for a table of four Masters:</p>
 <ol><li><b>Greeting and aperitif.</b> The host asks for Champagne "but not one of the big houses." You offer two growers by name, with village and style, and a price for each.</li>
@@ -788,6 +792,8 @@ body:`
 <li><b>A challenge.</b> A guest says the wine is not what he expected. You taste it, judge it sound, and offer a replacement without argument.</li>
 <li><b>After dinner.</b> Questions on the difference between Cognac and Armagnac, and a Madeira recommendation for the cheese.</li></ol>
 <p>Nothing in that list is obscure. The difficulty is doing all of it correctly, in order, while talking.</p>
+
+
 <h3>"Something like this, but less expensive"</h3>
 <p>The most common guest question, and a favorite of examiners. Know one honest alternative for each classic.</p>
 <table class="t"><tr><th>The guest likes</th><th>Offer</th></tr>
@@ -803,19 +809,52 @@ body:`
 <tr><td>Brunello di Montalcino</td><td>Rosso di Montalcino</td></tr>
 <tr><td>Amarone</td><td>Valpolicella Ripasso</td></tr>
 <tr><td>Napa Cabernet</td><td>Paso Robles, Columbia Valley, Coonawarra</td></tr></table>
+
+
+<h3>The skill of the alternative</h3>
+<p>Requests for an alternative, something similar and cheaper, something like a wine that is unavailable, a wine for a guest who dislikes the first suggestion, test the depth of a candidate's knowledge more than any direct question, because they require understanding why a wine tastes as it does. The method is to identify what the guest values in the original, its weight, its acidity, its fruit character, its use of oak, and to find another wine that shares those features for a different reason of geography or price. A guest who likes white Burgundy and wishes to spend less can be offered a Chardonnay from a lesser appellation of the same region, from the Jura, or from a cool New World district. A guest who likes Barolo can be led to a Nebbiolo from a neighboring appellation, or to another pale, tannic, high-acid red.</p>
+<p>The answer should be given with a reason and a price, briefly, and should offer one or two choices. A candidate who can do this fluently for the classic wines demonstrates the whole of the theory syllabus in a sentence.</p>
+
 <h3>Thirty-second answers to rehearse</h3>
 <ul><li><b>"Why is this Burgundy so expensive?"</b> Tiny vineyards split among many owners, low yields, world demand, and a classification that has ranked the land for centuries.</li>
 <li><b>"What is the difference between Cognac and Armagnac?"</b> Cognac: double-distilled in pot stills, mostly Ugni Blanc, north of Bordeaux. Armagnac: usually one pass through a continuous still, in Gascony; fuller and more rustic, often sold by vintage.</li>
 <li><b>"Should I decant this?"</b> Yes for an old wine with sediment or a young, closed, tannic one; no for a fragile old wine that will fade in air.</li>
 <li><b>"What does 'Brut' mean?"</b> Dry: under 12 grams of sugar per liter.</li>
 <li><b>"Which vintage should we drink tonight?"</b> Name one ready year and one that needs time, and say why.</li></ul>
+
+
+<h3>Speaking while working</h3>
+<p>Knowledge must be delivered in the manner of the dining room. An answer to a guest's question is short, accurate and conversational, and it stops. The length of a good answer is about what can be said while pouring a glass. A lecture, however correct, fails as hospitality, and a candidate who talks at length while the service stalls loses on both counts. The technique is to answer the question asked in one or two sentences, add one point of interest if it will please the guest, and return attention to the table. When the answer is not known, the correct response is to say so and offer to find out; an invented answer is treated as a serious fault, since a sommelier who bluffs cannot be trusted.</p>
+
+<h3>Common ways to fail</h3>
+<ul><li>Uneven pours or running out of Champagne before the last guest.</li>
+<li>Forgetting the host or the order of service.</li>
+<li>Stating something false confidently (worse than admitting uncertainty and offering to check).</li>
+<li>Freezing when a guest changes the order mid-service.</li>
+<li>Silence. Narrate, engage, keep the table comfortable.</li></ul>
+
+
+<h3>Recovery is a skill</h3>
+<p>Something will go wrong: a drip, a crumbling cork, a question you cannot answer. The response examiners want has three parts. <b>Acknowledge</b> it without drama. <b>Fix</b> it by the standard: wipe, fetch the Ah-So, say "let me confirm that for you." <b>Continue</b> at the same pace. Candidates who apologize repeatedly or speed up lose more marks for the reaction than for the error.</p>
+
+<h3>The psychology of recovery</h3>
+<p>Mistakes are certain in a long practical examination, and the examiners know it. What they observe is what happens next. A small error, a drip, a glass set slightly wrong, a hesitation, costs a point or two if it is corrected calmly and the service continues. The same error becomes a failure when the candidate apologizes repeatedly, loses the thread, rushes, and makes three more mistakes in consequence. The discipline is to acknowledge an error briefly where a guest would notice it, correct it, and give full attention to the present task, leaving the error behind.</p>
+<p>Several habits support this. Breathing slowly before approaching the table lowers the pulse. A fixed routine for each service, practiced until it is automatic, leaves attention free for the guests and for surprises. Preparation of everything needed in advance removes the commonest source of trouble. And a candidate who has rehearsed with interruptions and awkward questions will find the real thing familiar.</p>
+
+<h3>Training like a candidate</h3>
+<p>Set a mock table with friends. Have them interrupt you with real questions from the Exam Hall. Film yourself. Practice pouring a 750 ml bottle evenly into 8 or 12 glasses until it's automatic (about 3 oz for 8; about 2 oz for 12). Rehearse spoken answers for each classic region in under 30 seconds.</p>
+
+
 <h3>How the levels differ</h3>
 <table class="t"><tr><th>Level</th><th>What the practical asks</th></tr>
 <tr><td>Certified</td><td>One table: usually sparkling service, with questions on pairing, cocktails and classic regions</td></tr>
 <tr><td>Advanced</td><td>Several stations: service and decanting, sales and pairing, and the business of the sommelier</td></tr>
 <tr><td>Master</td><td>The same ground at 75%, with deeper questions, more interruptions and no margin for false statements</td></tr></table>
-<h3>Recovery is a skill</h3>
-<p>Something will go wrong: a drip, a crumbling cork, a question you cannot answer. The response examiners want has three parts. <b>Acknowledge</b> it without drama. <b>Fix</b> it by the standard: wipe, fetch the Ah-So, say "let me confirm that for you." <b>Continue</b> at the same pace. Candidates who apologize repeatedly or speed up lose more marks for the reaction than for the error.</p>`,
+
+
+<h3>What the standard is for</h3>
+<p>The severity of the examination has a purpose beyond selection. The title certifies that its holder can be put in charge of a dining room's wine service anywhere and will uphold a standard without supervision. Those who pass have usually spent years working in demanding restaurants, where the skills are formed nightly, and the examination confirms a competence already present more than it creates one. For candidates at earlier stages the same principle applies in proportion: the surest preparation for any service examination is to perform the standard correctly on every shift until it is habit.</p>
+`,
 floor:`<p>This is the Floor track's final boss. The Advanced practical is a shorter version; build the habits now.</p>`,
 analyst:`<p>Analyst-track students rarely face a service exam, but trade roles (sales reps, educators, brand ambassadors) demand the same composure presenting wine to buyers.</p>`,
 terms:[["Even pour","Dividing one bottle equally among all glasses at a table."],["Guéridon","Side table for decanting and service."],["Second wine","A classed growth's lesser label, from younger vines or declassified lots."],["Cru bourgeois","A quality tier for Médoc estates outside the 1855 Classification."],["Recovery","Handling a service error calmly: acknowledge, fix, continue."]],
@@ -836,27 +875,14 @@ quiz:[
 ]});
 
 L.push({id:"c4", unit:"C1", title:"Blind Tasting Sparkling, Sweet and Fortified", mins:15,
-summary:"The deductive cues for the styles that appear at Advanced, D4, D5 and the MW.",
+summary:"Identifying sparkling, sweet and fortified wines from how they were made: alcohol first, what bubbles and yeast reveal, and the two axes of fortified wine.",
 body:`
-<h3>Sparkling wine</h3>
-<ul><li><b>Method:</b> fine, persistent mousse plus autolytic notes (brioche, toast, biscuit) = traditional method; fruity pear, apple, floral and a frothier mousse = tank (Prosecco); grapey and sweet = Asti/Moscato d'Asti.</li>
-<li><b>Region within traditional method:</b> Champagne (high acid, chalky, complex autolysis); Cava (earthier, less autolysis, sometimes herbal); Crémant (lighter autolysis); New World (riper fruit); English (very high acid).</li>
-<li><b>Age:</b> golden color, nutty, honeyed and toasty notes suggest age or long lees aging; vintage often deeper than NV.</li>
-<li><b>Sweetness:</b> judge dosage after acid: Brut Nature tastes austere; Demi-Sec tastes clearly sweet.</li></ul>
-<h3>Sweet wines</h3>
-<table class="t"><tr><th>Evidence</th><th>Points to</th></tr>
-<tr><td>Honey, saffron, apricot, marmalade, ginger; viscous</td><td>Botrytis: Sauternes (Sémillon, lower acid, oak), Tokaji Aszú (very high acid, orange peel), German BA/TBA (Riesling, very low alcohol)</td></tr>
-<tr><td>Pure, concentrated tropical fruit, very high acid, no botrytis notes</td><td>Icewine/Eiswein</td></tr>
-<tr><td>Raisin, fig, dried fruit; sometimes high alcohol</td><td>Passito/dried grapes (Vin Santo, Recioto), Pedro Ximénez</td></tr>
-<tr><td>Ripe, fresh fruit, moderate sweetness</td><td>Late harvest (Spätlese, VT)</td></tr></table>
-<h3>Fortified wines</h3>
-<ul><li><b>Port:</b> sweet, high alcohol (19-22%). Deep ruby with black fruit = Ruby/LBV/Vintage; amber with nuts, caramel and dried fruit = Tawny.</li>
-<li><b>Sherry:</b> dry, tangy, saline, bready = Fino/Manzanilla; nutty and amber but dry = Amontillado; brown, walnut, full = Oloroso; very dark, syrupy, raisin = PX.</li>
-<li><b>Madeira:</b> searing acidity with rancio, caramel, nuts and smoke; sweetness from Sercial (dry) to Malmsey (sweet).</li>
-<li><b>VDN:</b> Muscat de Beaumes-de-Venise (grapey, floral, sweet, about 15%); Banyuls and Maury (Grenache, red fruit or oxidative).</li>
-<li><b>Rutherglen Muscat:</b> extremely sweet, dark, raisin, toffee, coffee.</li></ul>
+<p>Sparkling, sweet and fortified wines are identified blind by a different logic from still dry wines. Their character is determined mainly by how they were made, and each method leaves physical evidence in the glass: a level of alcohol, a level of sugar, a kind of bubble, an oxidative or a fresh aroma. A taster who knows what each process does to a wine can work backward from that evidence to the method and from the method to a short list of wines. This chapter sets out the reasoning for each category.</p>
+
 <h3>Why the structure tells the truth</h3>
 <p>In sweet wines, <b>acid level</b> separates Tokaji and German wines (very high) from Sauternes (moderate). In fortified wines, <b>alcohol warmth with sweetness</b> separates Port from unfortified sweet wines; <b>acidity</b> separates Madeira from everything.</p>
+
+
 <h3>Start with alcohol</h3>
 <p>For sweet and fortified wines, alcohol is the fastest first sort. Feel the warmth before you think about flavor.</p>
 <table class="t"><tr><th>Alcohol</th><th>Sweet wines that live there</th></tr>
@@ -866,11 +892,26 @@ body:`
 <tr><td>15 to 17%</td><td>Vins Doux Naturels (Muscat de Beaumes-de-Venise, Banyuls, Maury); Pedro Ximénez</td></tr>
 <tr><td>17 to 18%</td><td>Rutherglen Muscat, Marsala</td></tr>
 <tr><td>19 to 22%</td><td>Port; Madeira (17 to 22%); sweetened Oloroso (Cream)</td></tr></table>
+
+
+<h3>Why alcohol comes first</h3>
+<p>Alcohol is the most useful first measurement because the methods of making these wines fix it within narrow bands. A wine whose fermentation was stopped early to leave sugar, without fortification, is low in alcohol: five to eight percent for Moscato d'Asti and the sweetest German Rieslings. A wine fermented normally from very ripe or concentrated grapes is in the ordinary range, twelve to fourteen and a half percent, as Sauternes and Tokaji are. A fortified wine is fifteen percent or more, since spirit has been added: around fifteen for Fino and the sweet fortified Muscats of southern France, seventeen to twenty-two for Port, Madeira, Oloroso and the rest.</p>
+<p>The first sip therefore divides the field into three. Warmth in the throat and chest that persists after swallowing indicates fortification. A light, almost weightless feel with sweetness indicates arrested fermentation. Anything between is an unfortified wine made from concentrated grapes. Tasters who begin with the aromas, which overlap widely among these wines, often mistake one category for another; those who begin with alcohol rarely do.</p>
+
 <h3>A four-question tree</h3>
 <ol><li><b>Is it fortified?</b> Warmth of 15% and above with sweetness says yes.</li>
 <li><b>Is it oxidative?</b> Amber or brown, with nuts, caramel and dried fruit, means long wood aging.</li>
 <li><b>How high is the acid?</b> Searing: Madeira, Tokaji, German Riesling, Chenin. Moderate: Sauternes, Port, Muscat.</li>
 <li><b>Is the grape aromatic?</b> A grapey, floral nose means Muscat, whatever the method.</li></ol>
+
+
+<h3>Sparkling wine</h3>
+<ul><li><b>Method:</b> fine, persistent mousse plus autolytic notes (brioche, toast, biscuit) = traditional method; fruity pear, apple, floral and a frothier mousse = tank (Prosecco); grapey and sweet = Asti/Moscato d'Asti.</li>
+<li><b>Region within traditional method:</b> Champagne (high acid, chalky, complex autolysis); Cava (earthier, less autolysis, sometimes herbal); Crémant (lighter autolysis); New World (riper fruit); English (very high acid).</li>
+<li><b>Age:</b> golden color, nutty, honeyed and toasty notes suggest age or long lees aging; vintage often deeper than NV.</li>
+<li><b>Sweetness:</b> judge dosage after acid: Brut Nature tastes austere; Demi-Sec tastes clearly sweet.</li></ul>
+
+
 <h3>Sparkling: finer distinctions</h3>
 <table class="t"><tr><th>Evidence</th><th>Points to</th></tr>
 <tr><td>Lemon, chalk, lean, laser acid</td><td>Blanc de Blancs Champagne</td></tr>
@@ -880,6 +921,33 @@ body:`
 <tr><td>Red, frothy, bitter cherry, some tannin</td><td>Lambrusco</td></tr>
 <tr><td>Deep gold, honey, mushroom, nuts</td><td>Mature vintage Champagne</td></tr></table>
 <p>To judge dosage, ignore the first sip, which always seems sweet after water. On the second, ask whether the finish is bone dry (Brut Nature), clean with a rounded middle (Brut) or plainly sweet (Demi-Sec).</p>
+
+
+<h3>What the bubbles and the yeast reveal</h3>
+<p>The method by which a sparkling wine acquired its gas shows in two ways. The first is <strong>autolysis</strong>. In the traditional method the second fermentation takes place in the bottle and the wine then rests on its dead yeast for at least nine months to several years; as the yeast cells break down they release compounds that give aromas of bread, toast, biscuit and brioche and a creamy texture. In the tank method the wine is separated from its yeast within weeks, so those aromas are absent and the wine smells of fresh fruit and flowers. The presence and degree of autolytic character is the principal clue to method, and its depth indicates how long the wine was aged.</p>
+<p>The second is the <strong>mousse</strong>. Long aging on lees under pressure gives small, persistent bubbles and a fine, creamy feel. Tank-method wines have larger, frothier bubbles that fade sooner. Lower pressure, as in the semi-sparkling styles, is felt as a gentle prickle.</p>
+<p>Within the traditional method, structure and fruit identify the origin. Champagne and English sparkling wine have the highest acidity, from the coolest climates, with Champagne showing more developed autolysis. Cava's native grapes give lower acidity and an earthy, sometimes rubbery note. Warmer regions give riper fruit and softer acid. The color and aroma also indicate the grapes: red-fruit notes and a slight tint suggest Pinot Noir; lemon, green apple and chalk suggest Chardonnay.</p>
+
+<h3>Sweet wines</h3>
+<table class="t"><tr><th>Evidence</th><th>Points to</th></tr>
+<tr><td>Honey, saffron, apricot, marmalade, ginger; viscous</td><td>Botrytis: Sauternes (Sémillon, lower acid, oak), Tokaji Aszú (very high acid, orange peel), German BA/TBA (Riesling, very low alcohol)</td></tr>
+<tr><td>Pure, concentrated tropical fruit, very high acid, no botrytis notes</td><td>Icewine/Eiswein</td></tr>
+<tr><td>Raisin, fig, dried fruit; sometimes high alcohol</td><td>Passito/dried grapes (Vin Santo, Recioto), Pedro Ximénez</td></tr>
+<tr><td>Ripe, fresh fruit, moderate sweetness</td><td>Late harvest (Spätlese, VT)</td></tr></table>
+
+
+<h3>How sweetness was made</h3>
+<p>There are only a few ways to make a sweet wine, and each leaves a signature. <strong>Noble rot</strong> concentrates the grape by piercing its skin and letting water evaporate, and the fungus adds its own flavors: honey, saffron, ginger, orange marmalade, dried apricot, and a viscous texture from glycerol. <strong>Freezing</strong> concentrates by removing water as ice from healthy grapes, so ice wines have very pure, intense fruit, peach, apricot, tropical fruit, with no botrytis character and very high acidity. <strong>Drying</strong> grapes on mats or racks after picking gives flavors of raisin, fig, date and caramel, as in the straw wines and the dried-grape wines of Italy. <strong>Late harvest</strong> without rot gives ripe fruit and moderate sweetness. <strong>Arrested fermentation</strong> gives fresh grape flavor with low alcohol.</p>
+<p>Acidity then separates wines made by the same method. Among botrytis wines, Tokaji has the highest acid and a note of orange peel and tea; Sauternes has moderate acid, more body and the vanilla of new oak; German and Austrian examples have very low alcohol and the character of Riesling or the local grapes.</p>
+
+<h3>Fortified wines</h3>
+<ul><li><b>Port:</b> sweet, high alcohol (19-22%). Deep ruby with black fruit = Ruby/LBV/Vintage; amber with nuts, caramel and dried fruit = Tawny.</li>
+<li><b>Sherry:</b> dry, tangy, saline, bready = Fino/Manzanilla; nutty and amber but dry = Amontillado; brown, walnut, full = Oloroso; very dark, syrupy, raisin = PX.</li>
+<li><b>Madeira:</b> searing acidity with rancio, caramel, nuts and smoke; sweetness from Sercial (dry) to Malmsey (sweet).</li>
+<li><b>VDN:</b> Muscat de Beaumes-de-Venise (grapey, floral, sweet, about 15%); Banyuls and Maury (Grenache, red fruit or oxidative).</li>
+<li><b>Rutherglen Muscat:</b> extremely sweet, dark, raisin, toffee, coffee.</li></ul>
+
+
 <h3>Port, by style</h3>
 <table class="t"><tr><th>Style</th><th>In the glass</th></tr>
 <tr><td>Ruby, Reserve</td><td>Deep ruby, simple black fruit, spirity</td></tr>
@@ -890,6 +958,8 @@ body:`
 <tr><td>Tawny 20 Year and older</td><td>Amber-brown, walnut, toffee, orange peel, very long</td></tr>
 <tr><td>Colheita</td><td>A tawny of one year: as aged Tawny, with a date</td></tr>
 <tr><td>White</td><td>Gold, honey and nuts, usually off-dry to sweet</td></tr></table>
+
+
 <h3>The dry-to-sweet Sherry line</h3>
 <table class="t"><tr><th>Style</th><th>Color and strength</th><th>Signature</th></tr>
 <tr><td>Manzanilla</td><td>Palest; 15%</td><td>Sea salt, chamomile, green almond; the lightest</td></tr>
@@ -899,12 +969,22 @@ body:`
 <tr><td>Oloroso</td><td>Brown; 18 to 20%</td><td>Walnut, leather, toffee; dry but round with glycerol</td></tr>
 <tr><td>Cream</td><td>Brown; sweet</td><td>Oloroso sweetened with Pedro Ximénez</td></tr>
 <tr><td>Pedro Ximénez</td><td>Black-brown; syrupy</td><td>Raisin, fig, molasses</td></tr></table>
+
+
+<h3>Fresh or oxidized, sweet or dry</h3>
+<p>Fortified wines sort on two axes. The first is whether the wine was aged with or without oxygen. Wines kept from air are deep in color, if red, and smell of fresh or cooked fruit: ruby and vintage styles of Port, the young fortified Muscats. Wines aged for years in contact with air turn amber or brown and smell of nuts, caramel, dried fruit and toffee: tawny Port, Oloroso, Madeira, the aged sweet wines of Roussillon and Rutherglen. Wines aged under flor form a third group, pale, dry and smelling of bread dough, almonds and salt.</p>
+<p>The second axis is sweetness, which depends on when the spirit was added. Port is fortified during fermentation and is always sweet. Sherry is fortified after fermentation and is naturally dry, and sweet Sherries are blends or are made from dried grapes. Madeira is fortified at a point that depends on the style, and its searing acidity together with a burnt, caramelized note from heating is unmistakable. A taster who places a fortified wine on these two axes has usually identified it: sweet and fresh is ruby Port or Muscat; sweet and oxidized is tawny, Madeira or cream Sherry; dry and oxidized is Oloroso or Amontillado; dry and fresh under flor is Fino or Manzanilla.</p>
+
 <h3>Look-alikes</h3>
 <ul><li><b>Vin Jaune vs Fino:</b> both taste of flor. Vin Jaune is unfortified at 14 to 15%, far higher in acid, deeper gold, with walnut and curry spice.</li>
 <li><b>Madeira vs Marsala vs Oloroso:</b> all brown and nutty. Madeira has searing acid and a burnt-caramel tang; Marsala is softer and sweeter-fruited; Oloroso is dry.</li>
 <li><b>Banyuls vs Port:</b> both sweet reds. Banyuls is lighter at about 16%, with Grenache's red fruit and less tannin.</li>
 <li><b>Sauternes vs Tokaji vs Quarts de Chaume:</b> Sauternes shows oak and the waxy breadth of Sémillon at moderate acid. Tokaji has piercing acid with orange peel and tea. Chenin shows quince and honey with high acid and no new oak.</li>
-<li><b>Alsace Sélection de Grains Nobles:</b> botrytis with the grape still obvious: lychee for Gewurztraminer, smoke and pear for Pinot Gris, and low acid for both.</li></ul>`,
+<li><b>Alsace Sélection de Grains Nobles:</b> botrytis with the grape still obvious: lychee for Gewurztraminer, smoke and pear for Pinot Gris, and low acid for both.</li></ul>
+
+<h3>Resolving the confusions</h3>
+<p>The pairs that are confused share one feature and differ in another, and the taster's task is to find the difference. Tawny Port and Madeira are both amber, nutty and sweet; Madeira's acidity is far higher and it has a smoky, burnt edge. Amontillado and Oloroso are both dry and nutty; Amontillado is lighter and retains a sharp, yeasty tang from its years under flor. Sauternes and Tokaji are both botrytized; acid and oak tell them apart. Asti and Prosecco are both aromatic and made in tank; Asti is grapey, sweet and low in alcohol, and Prosecco is drier with pear and apple. In each case the method that produced the difference is known, and remembering the method is easier than remembering the pair. The discipline throughout is the same as for still wine: measure the structure first, then let the aromas refine the answer.</p>
+`,
 floor:`<p>At Advanced and Master, the pool can include sparkling, sweet and fortified wines. Practice them as a group "bonus flight" once a month.</p>`,
 analyst:`<p>Diploma D4 and D5 each include 3 wines blind. Expect to identify method, style, likely region and quality, with reasons.</p>`,
 terms:[["Autolytic","Aromas from yeast breakdown: brioche, toast, biscuit."],["Rancio","Nutty, oxidative, slightly cheesy character in aged fortified wines and spirits."],["Palo Cortado","Rare Sherry with the finesse of Amontillado and the body of Oloroso."],["Colheita","A tawny Port from a single year."],["Sélection de Grains Nobles","Alsace's botrytized sweet wine category."],["Cream Sherry","Oloroso sweetened, usually with Pedro Ximénez."]],

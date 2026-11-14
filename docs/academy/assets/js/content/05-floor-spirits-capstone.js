@@ -960,23 +960,34 @@ quiz:[
 
 // ---------- A1 WRITTEN PAPER ----------
 L.push({id:"a1", unit:"A1", title:"Writing the SAT Tasting Note", mins:15,
-summary:"How WSET marks a tasting note, and the BLIC quality call.",
+summary:"What each line of the systematic tasting method is evidence of, why aromas are classed by origin, what quality means in the system, and how to judge readiness.",
 body:`
 <p>WSET Level 3's tasting exam is two still wines in 30 minutes: 20 marks for the white, 21 for the red. You do not have to identify the wine. You are marked on whether your description matches the examiners' agreed note, and on whether your quality judgment is justified. That makes it a calibration test, not a guessing game.</p>
+
+
+<p>The systematic approach exists to solve a real problem. Left to themselves, tasters describe wine in private language, attend to different things, and reach judgments nobody else can check. A fixed sequence of observations, each with a fixed scale of terms, makes one taster's note comparable with another's and makes a conclusion traceable to the evidence behind it. This chapter explains what each part of the method measures and why, so that the terms can be used with understanding and the marks collected reliably.</p>
+
 <h3>The Level 3 SAT, section by section</h3>
 <ul><li><b>Appearance:</b> clarity (clear/hazy), intensity (pale/medium/deep), color (white: lemon-green, lemon, gold, amber, brown; rosé: pink, salmon, orange; red: purple, ruby, garnet, tawny, brown), other observations.</li>
 <li><b>Nose:</b> condition (clean/unclean), intensity (light, medium(-), medium, medium(+), pronounced), aroma characteristics as primary, secondary and tertiary, development (youthful, developing, fully developed, tired/past its best).</li>
 <li><b>Palate:</b> sweetness (dry, off-dry, medium-dry, medium-sweet, sweet, luscious), acidity, tannin (low to high in five steps), alcohol (low/medium/high), body (light to full in five steps), mousse for sparkling, flavor intensity, flavor characteristics, finish (short to long in five steps).</li>
 <li><b>Conclusions:</b> quality level (faulty, poor, acceptable, good, very good, outstanding) with reasons; readiness for drinking (too young; can drink now but has potential for ageing; drink now, not suitable for ageing; too old).</li></ul>
+
+
+<h3>What each observation is evidence of</h3>
+<p>Every line of the method records something about how the wine was grown or made, and it helps to know what. <strong>Color and intensity</strong> indicate grape variety, age and winemaking: thick-skinned grapes and warm climates give deep reds, thin-skinned ones pale reds, and all wines move with age toward brown, whites deepening and reds fading. <strong>Aroma intensity</strong> reflects variety and ripeness, and the classes of aroma tell the wine's history, as the next section sets out.</p>
+<p>On the palate, <strong>sweetness</strong> is residual sugar and is judged at the tip of the tongue at the first moment, before fruit flavors can mislead. <strong>Acidity</strong> is felt as mouth-watering: the more saliva flows after swallowing, the higher the acid, and it points to cool climates, early picking and certain grapes. <strong>Tannin</strong> is felt as drying and grip on the gums and comes from skins, seeds and oak; its level points to variety and extraction, and its texture, ripe or green, fine or coarse, to ripeness. <strong>Alcohol</strong> is felt as warmth in the throat and indicates how ripe the grapes were, and so climate. <strong>Body</strong> is the overall impression of weight, built from alcohol, sugar, extract and tannin. <strong>Finish</strong> is the length of time the pleasant flavors persist, and is the most dependable single indicator of quality.</p>
+<p>The scales run from low to high through medium, with intermediate steps, and each step is relative to the whole world of wine. Medium acidity means medium among all wines, a point candidates forget when they have been tasting only cool-climate whites.</p>
+
 <h3>Aromas: primary, secondary, tertiary</h3>
 <p><b>Primary</b> come from the grape and fermentation: fruit (green, citrus, stone, tropical, red, black, dried), floral, herbaceous, herbal, pungent spice, and others like wet stones. <b>Secondary</b> come from winemaking: yeast (biscuit, bread, brioche), MLC (butter, cream), oak (vanilla, clove, coconut, cedar, smoke, chocolate). <b>Tertiary</b> come from aging: oxidation (almond, hazelnut, toffee), bottle age in whites (honey, petrol, mushroom, dried fruit), and in reds (leather, forest floor, earth, tobacco, meat, prune).</p>
 <p>Marks reward <b>specific</b> descriptors across families. "Fruity" earns little; "green apple, lemon, wet stones, toast" earns several marks.</p>
-<h3>Quality: BLIC</h3>
-<p>Justify the level with <b>Balance</b> (fruit, acid, tannin, alcohol, sweetness in harmony?), <b>Length</b> (how long the finish lasts), <b>Intensity</b> (of flavor), and <b>Complexity</b> (range of aromas across families). A model sentence: "Very good: the ripe fruit is balanced by high acidity and medium(+) tannin; the finish is long; flavors are pronounced and complex, showing primary black fruit with secondary vanilla and tertiary leather."</p>
-<h3>Readiness</h3>
-<p>Writing just "drink now" earns no mark: you must choose the full phrase. A wine with high acid or tannin, concentrated fruit and youthful aromas "can drink now, but has potential for ageing." A simple, fruity wine is "drink now: not suitable for ageing."</p>
-<h3>Diploma</h3>
-<p>At the Diploma the note must give <b>reasons</b> for quality and readiness (structure, balance, concentration, complexity, length, typicity), and a third section, "The Wine in Context," asks for origin, variety, style, method or price where the paper requires.</p>
+
+
+<h3>Why the three classes matter</h3>
+<p>The division of aromas by origin turns a list of smells into an account of the wine. <strong>Primary</strong> aromas come from the grape and the fermentation: fruit, flowers, herbs. Their type shows ripeness, since any grape moves from green and citrus fruit through stone fruit to tropical, or from red fruit through black to cooked and dried, as it ripens. <strong>Secondary</strong> aromas come from what the winemaker did afterward: oak gives vanilla, toast, smoke, clove and coconut; malolactic conversion gives butter and cream; contact with dead yeast gives bread, biscuit and pastry. <strong>Tertiary</strong> aromas come from time, in cask with oxygen or in bottle without it: dried fruit, leather, earth, mushroom, tobacco in reds; honey, nuts, petrol in whites.</p>
+<p>A note that identifies which classes are present therefore states the wine's stage of life. Primary only means youthful and simple, or made to be so. Primary with secondary means winemaking has added a layer. All three, with primary still evident, describes a developing wine, and tertiary dominant a fully developed one. This is also how complexity is assessed: a wine showing aromas from more than one class, and several clusters within them, is complex.</p>
+
 <h3>Using the whole scale</h3>
 <p>The commonest way to lose marks is to write "medium" for everything. Examiners choose wines that sit clearly at one end of at least two scales. Fix anchors in your memory and measure against them.</p>
 <table class="t"><tr><th>Scale</th><th>Low anchor</th><th>High anchor</th></tr>
@@ -987,6 +998,8 @@ body:`
 <tr><td>Intensity</td><td>Pinot Grigio, Soave</td><td>Gewurztraminer, Marlborough Sauvignon Blanc</td></tr>
 <tr><td>Finish</td><td>Gone in a few seconds</td><td>Still there after ten</td></tr></table>
 <p>Alcohol and sweetness have no plus or minus steps. A range such as "medium to high" earns nothing: pick one.</p>
+
+
 <h3>A model note for a white</h3>
 <p><i>The wine: a young Marlborough Sauvignon Blanc.</i></p>
 <p><b>Appearance:</b> clear, pale lemon-green.<br>
@@ -994,6 +1007,8 @@ body:`
 <b>Palate:</b> dry, high acidity, medium alcohol, light body. Pronounced flavor intensity: grapefruit, passion fruit, gooseberry, green pepper. Medium finish.<br>
 <b>Quality:</b> good. The wine is balanced, with high acidity matched by intense fruit, and the flavors are pronounced. But the aromas are all primary, so it lacks complexity, and the finish is only medium.<br>
 <b>Readiness:</b> drink now: not suitable for ageing.</p>
+
+
 <h3>A model note for a red</h3>
 <p><i>The wine: a ten-year-old Rioja Gran Reserva.</i></p>
 <p><b>Appearance:</b> clear, medium garnet.<br>
@@ -1001,6 +1016,12 @@ body:`
 <b>Palate:</b> dry, medium(+) acidity, medium tannin that is fine and ripe, medium alcohol, medium body. Medium(+) flavor intensity: dried cherry, leather, vanilla, tobacco. Long finish.<br>
 <b>Quality:</b> very good. Balanced, with a long finish and real complexity across primary, secondary and tertiary aromas. Intensity is medium(+) rather than pronounced, which keeps it from outstanding.<br>
 <b>Readiness:</b> drink now: not suitable for further ageing.</p>
+
+
+<h3>Quality: BLIC</h3>
+<p>Justify the level with <b>Balance</b> (fruit, acid, tannin, alcohol, sweetness in harmony?), <b>Length</b> (how long the finish lasts), <b>Intensity</b> (of flavor), and <b>Complexity</b> (range of aromas across families). A model sentence: "Very good: the ripe fruit is balanced by high acidity and medium(+) tannin; the finish is long; flavors are pronounced and complex, showing primary black fruit with secondary vanilla and tertiary leather."</p>
+
+
 <h3>Counting BLIC</h3>
 <p>A working rule most candidates use: count how many of balance, length, intensity and complexity the wine clearly has.</p>
 <table class="t"><tr><th>Clear strengths</th><th>Quality level</th></tr>
@@ -1009,17 +1030,40 @@ body:`
 <tr><td>Three</td><td>Very good</td></tr>
 <tr><td>All four</td><td>Outstanding</td></tr></table>
 <p>Then <b>write the reasons</b>. The level alone earns one mark; the argument earns the rest. Always say what the wine lacks as well as what it has.</p>
+
+
+<h3>What quality means in this system</h3>
+<p>The four criteria are an attempt to define quality in terms any trained taster can verify, independent of whether they enjoy the style. <strong>Balance</strong> asks whether any component sticks out: whether the acidity is in proportion to the fruit and sugar, the tannin to the concentration, the alcohol to the body, the oak to the fruit beneath it. <strong>Length</strong> asks how long the agreeable flavors last after swallowing; a wine whose taste disappears at once, or that leaves only bitterness or heat, scores low. <strong>Intensity</strong> asks whether the flavors are concentrated and well defined or dilute. <strong>Complexity</strong> asks how many different things there are to notice.</p>
+<p>The criteria reward the features that distinguish fine wine: low yields give intensity, ripe healthy fruit and careful winemaking give balance, good sites and time give complexity and length. They also allow a simple, fresh wine to be judged fairly, as good of its kind, without being penalized for what it was never meant to be. The justification matters as much as the verdict. An examiner gives marks for each criterion addressed with evidence from the note, so a conclusion of "very good" must be followed by the reasons.</p>
+
+<h3>Readiness</h3>
+<p>Writing just "drink now" earns no mark: you must choose the full phrase. A wine with high acid or tannin, concentrated fruit and youthful aromas "can drink now, but has potential for ageing." A simple, fruity wine is "drink now: not suitable for ageing."</p>
+
+
 <h3>Deciding readiness</h3>
 <ul><li><b>Too young:</b> tannin or acid so firm that the wine is unpleasant now, with the fruit to outlast them.</li>
 <li><b>Can drink now, but has potential for ageing:</b> concentrated fruit plus high acid, tannin or sugar, and aromas still youthful or developing.</li>
 <li><b>Drink now: not suitable for ageing:</b> simple, fruity and light in structure, or already fully developed.</li>
 <li><b>Too old:</b> fruit gone, tertiary notes tired, drying out.</li></ul>
+
+
+<h3>How to judge whether a wine will improve</h3>
+<p>The question of readiness is a question about structure and fruit. A wine can improve with age only if it has enough concentration of flavor to last and enough of the preserving components, acidity above all, tannin in reds, sugar in sweet wines, to protect it while it develops. If the wine is fresh and fruity with little structure, it should be drunk now and will only fade. If it has intense fruit, firm acidity or tannin, and its aromas are still primary, it has the means to develop. If tertiary aromas already dominate and the fruit is drying, it is at or past its peak. The answer must agree with the rest of the note: a wine described as simple, light and short cannot be said to have potential for aging, and inconsistency between description and conclusion is one of the commonest reasons for lost marks.</p>
+
 <h3>Mistakes that cost marks</h3>
 <ul><li>Contradictions: "dry" on the palate after "honey and raisin sweetness" on the nose is fine, but "light body" with "high alcohol and luscious sweetness" is not.</li>
 <li>Descriptors from one cluster only. Five kinds of citrus earn fewer marks than citrus, stone fruit, floral and oak.</li>
 <li>Inventing tertiary notes in a young wine to sound thorough.</li>
 <li>Forgetting tannin for a red, or writing it for a white.</li>
-<li>A quality level with no reasons.</li></ul>`,
+<li>A quality level with no reasons.</li></ul>
+
+<h3>Diploma</h3>
+<p>At the Diploma the note must give <b>reasons</b> for quality and readiness (structure, balance, concentration, complexity, length, typicity), and a third section, "The Wine in Context," asks for origin, variety, style, method or price where the paper requires.</p>
+
+
+<h3>From description to judgment</h3>
+<p>The method changes in emphasis as the levels rise. At the intermediate level the task is accurate description. At the advanced level a reasoned assessment of quality is added. At diploma level and beyond, the taster must also identify origin and variety from the evidence, assess the wine's commercial position, and argue for each conclusion. The foundation does not change. Every later skill depends on calibrated perception, the ability to call acidity high when it is high and medium when it is medium, and that is acquired only by tasting many wines against the scale, preferably with others, and checking one's judgments against reference notes.</p>
+`,
 floor:`<p>Even on the Floor track, writing full SAT notes builds the vocabulary you need to speak quickly at Advanced. Try one SAT note a week alongside CMS grids.</p>`,
 analyst:`<p>Use the Tasting Lab's SAT mode for every practice wine. Compare your structure calls to the reference profile, and track which scale you're miscalibrated on (most students over-call acidity and under-call tannin).</p>`,
 terms:[["Primary aromas","From the grape and alcoholic fermentation."],["Secondary aromas","From post-fermentation winemaking: yeast, MLC, oak."],["Tertiary aromas","From aging: oxidation and bottle age."],["BLIC","Balance, Length, Intensity, Complexity."],["Anchor wine","A wine that sits clearly at one end of a scale, used to calibrate judgment."],["Development","SAT line for the nose: youthful, developing, fully developed or tired."],["Flavor intensity","How strongly flavors register on the palate."]],
@@ -1039,18 +1083,38 @@ quiz:[
 ]});
 
 L.push({id:"a2", unit:"A1", title:"Answering 25-Mark Questions", mins:14,
-summary:"Command words, cause-and-effect chains, and a model answer.",
+summary:"Why examiners want cause-and-effect chains, the framework behind every theory question, reading the instruction word, and why vagueness earns nothing.",
 body:`
 <p>WSET Level 3's theory paper has 50 multiple-choice questions (50 marks) and four short written answers of 25 marks each. Still wines of the world carry 70 of those 100 written marks. You need 55% in each part.</p>
+
+
+<p>Written examinations in wine reward a particular kind of answer, and candidates who know the subject well still lose marks by writing the wrong kind. The examiners want to see understanding, shown by connecting a cause to its effect in the wine, and they mark by counting valid points. This chapter explains how such answers are constructed and why the approach works, with the reasoning that lets a candidate build an answer to a question never seen before.</p>
+
 <h3>How the marks work</h3>
 <p>Examiners award marks for correct, relevant points. "Explain" questions give the most marks for <b>cause-and-effect chains</b>: a factor, what it does, and the result in the glass. A fact alone earns one mark; the fact plus its effect earns two.</p>
 <ul><li><b>Identify / State / Name:</b> one word or phrase.</li>
 <li><b>Describe:</b> what something is like (the style of a wine).</li>
 <li><b>Explain:</b> why or how. Always link cause to effect.</li>
 <li><b>Compare:</b> similarities and differences, point by point.</li></ul>
+
+
+<h3>Why examiners want chains</h3>
+<p>The emphasis on cause and effect reflects what the qualification certifies. A person who can recite that Chablis is made from Chardonnay in northern France has memorized a fact. A person who can explain that the cool climate gives grapes with high acidity and restrained, green-fruit flavors, that most wines are fermented in neutral vessels to keep that purity, and that the result is a lean, dry, high-acid wine with little or no oak character, understands the wine and can apply the same reasoning to another. The marking scheme is designed to tell the two apart, and it does so by giving a mark for the fact and further marks for each correct link that follows from it.</p>
+<p>A complete chain has three parts: the <strong>factor</strong>, something about the place, the grape, the vineyard or the winery; the <strong>mechanism</strong>, what that factor does to the grapes or the wine; and the <strong>result</strong>, what the taster finds in the glass. "Cool nights" is a factor. "Slow the loss of acidity during ripening" is the mechanism. "So the wine has high acidity and fresh fruit flavors" is the result. A candidate should check each sentence of an answer for all three.</p>
+
 <h3>A model answer</h3>
 <p><i>Question (5 marks):</i> "Explain how one winemaking technique can create aromas of butter in a Chardonnay."</p>
 <p><i>Answer:</i> "Malolactic conversion (1). Lactic acid bacteria convert tart malic acid into softer lactic acid (1), lowering acidity and creating a rounder, creamier texture (1). A by-product of this process is diacetyl (1), which gives the wine its buttery aroma, as in many Meursault and Californian Chardonnays (1)."</p>
+
+
+<h3>Weak answer, strong answer</h3>
+<p><b>Question (8 marks):</b> "Explain how the growing environment produces the style of Mosel Riesling Kabinett."</p>
+<p><b>Weak answer (2 marks):</b> "The Mosel is a cold region in Germany. The grapes are grown on steep slopes next to the river. This gives good quality wines with high acidity that are light and fruity."</p>
+<p>It names true things and connects none of them. The examiner cannot tell whether the candidate knows <i>why</i> a slope matters.</p>
+<p><b>Strong answer (8 marks):</b> "The Mosel has a cool continental climate at about 50°N (1), so Riesling ripens slowly and keeps high acidity (1). Sugar stays low at harvest, giving low potential alcohol of 8 to 9% (1). The best vineyards are on steep, south-facing slopes (1), which catch more direct sunlight and so more warmth (1). Dark slate soils absorb heat by day and release it at night (1), and the river reflects light onto the vines (1). These help grapes reach flavor ripeness, giving green apple, lime and floral aromas in a light-bodied wine, often with some residual sugar to balance the acid (1)."</p>
+<p>Every sentence is a fact joined to a consequence. That is the whole method.</p>
+
+
 <h3>Common question shapes</h3>
 <ul><li>Climate and site: "Explain how the climate of Region X affects the style of its wines."</li>
 <li>Vineyard: "Why do growers use VSP?" "How does frost affect yield?"</li>
@@ -1059,18 +1123,12 @@ body:`
 <li>Labeling: "Explain the meaning of 'Spätlese', 'Reserva', 'Classico'."</li>
 <li>Advice to customers: "Recommend a premium example from France, and a serving temperature."</li>
 <li>Preservation and faults.</li></ul>
-<h3>Technique</h3>
-<ul><li>Count the marks: 25 marks means about 15-25 distinct points.</li>
-<li>Use the sub-question structure; don't wander.</li>
-<li>Write in short, dense sentences; bullet points are acceptable.</li>
-<li>Name specific examples (a region, a grape, a producer) to anchor each point.</li>
-<li>Time: about 15-17 minutes per 25-mark question within the 2-hour paper.</li></ul>
-<h3>Weak answer, strong answer</h3>
-<p><b>Question (8 marks):</b> "Explain how the growing environment produces the style of Mosel Riesling Kabinett."</p>
-<p><b>Weak answer (2 marks):</b> "The Mosel is a cold region in Germany. The grapes are grown on steep slopes next to the river. This gives good quality wines with high acidity that are light and fruity."</p>
-<p>It names true things and connects none of them. The examiner cannot tell whether the candidate knows <i>why</i> a slope matters.</p>
-<p><b>Strong answer (8 marks):</b> "The Mosel has a cool continental climate at about 50°N (1), so Riesling ripens slowly and keeps high acidity (1). Sugar stays low at harvest, giving low potential alcohol of 8 to 9% (1). The best vineyards are on steep, south-facing slopes (1), which catch more direct sunlight and so more warmth (1). Dark slate soils absorb heat by day and release it at night (1), and the river reflects light onto the vines (1). These help grapes reach flavor ripeness, giving green apple, lime and floral aromas in a light-bodied wine, often with some residual sugar to balance the acid (1)."</p>
-<p>Every sentence is a fact joined to a consequence. That is the whole method.</p>
+
+
+<h3>The framework behind every question</h3>
+<p>Nearly every theory question concerns one of a small number of stages, and the stages form a sequence that can serve as a checklist. A wine's style is decided by the <strong>climate</strong>, which sets how ripe the grapes become; by the <strong>site</strong>, its slope, aspect, altitude and soil, which modify the climate locally; by the <strong>grape variety</strong>, with its natural levels of acid, sugar, tannin and aroma; by <strong>vineyard management</strong>, yields, training, harvest date and method; by <strong>winemaking</strong>, including fermentation temperature and vessel, skin contact, malolactic conversion and lees; by <strong>maturation</strong>, in oak or inert vessels and for how long; and by <strong>law and the market</strong>, which constrain all of the above.</p>
+<p>Faced with a question on any wine, a candidate can run down that list and ask what is distinctive at each stage. A question on why a particular wine is expensive draws on the same stages from the side of cost: low yields, steep slopes worked by hand, selective harvesting, new oak, long aging, small production, high demand. A question comparing two wines is answered by taking the stages in turn and stating the difference at each.</p>
+
 <h3>Fifteen chains worth owning</h3>
 <table class="t"><tr><th>Cause</th><th>Effect in the vineyard or winery</th><th>Result in the glass</th></tr>
 <tr><td>Cool climate</td><td>Slow ripening, less sugar, more acid kept</td><td>High acid, lower alcohol, tart fruit</td></tr>
@@ -1088,6 +1146,20 @@ body:`
 <tr><td>Noble rot</td><td>Water evaporates through pierced skins</td><td>Sweet, honey, apricot, high acid</td></tr>
 <tr><td>Fortifying during fermentation</td><td>Spirit kills the yeast early</td><td>Sweet wine, high alcohol</td></tr>
 <tr><td>Aging under flor</td><td>Yeast layer blocks oxygen and consumes glycerol</td><td>Pale, dry, light, bread and almond</td></tr></table>
+
+
+<h3>Technique</h3>
+<ul><li>Count the marks: 25 marks means about 15-25 distinct points.</li>
+<li>Use the sub-question structure; don't wander.</li>
+<li>Write in short, dense sentences; bullet points are acceptable.</li>
+<li>Name specific examples (a region, a grape, a producer) to anchor each point.</li>
+<li>Time: about 15-17 minutes per 25-mark question within the 2-hour paper.</li></ul>
+
+
+<h3>Reading the question</h3>
+<p>The instruction word determines what earns marks, and misreading it is the costliest error. <strong>State</strong>, <strong>name</strong> and <strong>identify</strong> ask for facts, briefly. <strong>Describe</strong> asks what something is like, in the terms of the tasting method if it is a wine. <strong>Explain</strong> asks why or how, and requires the chain. <strong>Compare</strong> asks for similarities and differences, set against each other point by point. The number of marks shows how many separate valid points are expected, and so how much to write: a question worth two marks needs two points, and a page of writing will earn no more.</p>
+<p>The scope of the question must also be respected. If it asks about the vineyard, points about the winery earn nothing, however correct. If it asks for two factors, a third is ignored, and time is lost. Where a question names a specific wine, the answer must be about that wine and not about wine in general. Underlining the instruction word, the subject and the limits before writing prevents most of these mistakes.</p>
+
 <h3>Planning under the clock</h3>
 <ol><li><b>Read every part first.</b> Material used in part (a) cannot score again in part (c).</li>
 <li><b>Let the marks set the length.</b> Eight marks means eight scoring points: write ten to be safe, not twenty.</li>
@@ -1095,14 +1167,28 @@ body:`
 <li><b>No introduction, no conclusion.</b> Start with the first scoring point.</li>
 <li><b>Leave nothing blank.</b> A guess can score; a gap cannot.</li>
 <li><b>Move on at 16 minutes.</b> The last marks of a question are the slowest to earn; the first marks of the next are the fastest.</li></ol>
+
+
+<h3>Time as a resource</h3>
+<p>Marks are distributed across the paper, and the time should be distributed in proportion. A candidate who spends half the available time perfecting the first answer and leaves the last unfinished has traded many easy marks for a few difficult ones, since the first points on any question are the simplest to earn. The sound practice is to allot minutes by marks at the outset, to move on when the time for a question is spent, and to return at the end if minutes remain. A brief plan of a few words for each longer answer, listing the factors to be covered, saves time and prevents omission. Answers may be written as short paragraphs or as clearly separated points; what matters is that each point is complete.</p>
+
 <h3>What earns nothing</h3>
 <ul><li>Vague praise: "good quality", "ideal conditions", "the best grapes".</li>
 <li>Repeating the question back.</li>
 <li>Facts about the wrong region, however accurate.</li>
 <li>Lists of grapes or producers when the question says "explain".</li>
 <li>Two statements that contradict each other: examiners cancel both.</li></ul>
+
+
+<h3>Why vagueness fails</h3>
+<p>The statements that earn no marks have one thing in common: they could be said of almost any wine. "The climate is ideal for grape growing", "the winemaker uses traditional methods", "the wine is of high quality and well balanced" convey no information that distinguishes the subject. The test of a useful sentence is whether it would be false of a different wine. "The region has a cool maritime climate" is specific. "The grapes are harvested by hand in several passes to select botrytized berries" is specific. Precise terms earn marks where loose ones do not: "malolactic conversion" over "a secondary process", "high diurnal range" over "good temperatures".</p>
+
 <h3>Beyond Level 3</h3>
-<p>Diploma and MW papers use heavier command words. <b>Evaluate</b> and <b>assess</b> want a judgment backed by evidence on both sides. <b>Discuss</b> wants the argument laid out. <b>To what extent</b> wants a position between yes and no, defended. The cause-and-effect chain is still the unit of thought; you now link several chains into an argument and finish with a verdict.</p>`,
+<p>Diploma and MW papers use heavier command words. <b>Evaluate</b> and <b>assess</b> want a judgment backed by evidence on both sides. <b>Discuss</b> wants the argument laid out. <b>To what extent</b> wants a position between yes and no, defended. The cause-and-effect chain is still the unit of thought; you now link several chains into an argument and finish with a verdict.</p>
+
+<h3>The habit that carries upward</h3>
+<p>Higher qualifications ask longer and more open questions, calling for evaluation and argument, and the unit of thought remains the same. An essay at diploma level is a structured set of cause-and-effect chains supported by examples and brought to a judgment. The habit of asking, for every fact learned, what causes it and what it results in, is therefore the most valuable study technique at any level, and it also makes facts easier to retain, since a fact attached to a reason is anchored where an isolated one drifts.</p>
+`,
 floor:`<p>The Court never asks for essays. Certified theory mixes multiple choice with one-line short answers; the Americas Advanced paper is about 115 computer-marked questions in an hour. The CMS style rewards fast, exact facts. Practice the 25-mark form anyway: explaining why is how facts stick.</p>`,
 analyst:`<p>Use the Exam Hall's short-answer practice. You'll write an answer, then reveal the marking points and score yourself honestly. Your self-marks are saved so you can see improvement.</p>`,
 terms:[["Command word","The instruction verb (identify, describe, explain, compare) that sets what earns marks."],["Cause-and-effect chain","Factor + mechanism + result in the glass."],["Evaluate","Command word asking for a judgment supported by evidence on both sides."],["Scoring point","One correct, relevant fact or link that earns a mark."],["To what extent","Command phrase asking for a defended position between yes and no."]],
@@ -1125,22 +1211,35 @@ quiz:[
 
 // ---------- C1 CAPSTONE ----------
 L.push({id:"c1", unit:"C1", title:"Advanced and Master: The Verbal Grid", mins:16,
-summary:"Six wines in 25 minutes, spoken aloud. How candidates train for it.",
+summary:"Deductive tasting as reasoning: how each observation narrows the field, moving from initial to final conclusion, and why structure outranks aroma.",
 body:`
 <p>At the Advanced and Master Sommelier levels, you stand before three or four Master Sommeliers with six wines (three white, three red at Master) and 25 minutes. You speak the full grid for each wine, about four minutes apiece, and finish with a conclusion: grape, country, region, appellation, quality level and vintage. The examiners mark each element.</p>
+
+
+<p>Deductive tasting is reasoning under time pressure. The taster gathers evidence in a fixed order, forms a hypothesis, tests it against the structure of the wine, and commits to a conclusion, aloud, in four minutes. The identification is the visible result, but the marks are spread across the whole grid, and the method rewards accurate observation and sound logic even when the final answer is wrong. This chapter explains the reasoning that connects each observation to a conclusion.</p>
+
 <h3>The 2024 CMS Advanced/Master format</h3>
 <p><b>Sight:</b> clarity, intensity, color, secondary hues, rim variation and staining (reds), tearing, gas. <b>Nose:</b> faults if present; intensity; age (youthful, developing, vinous); fruit and its condition; non-fruit from the grape; non-fruit from winemaking; earth; mineral; oak (yes/no, intensity, descriptors, type). <b>Palate:</b> sweetness, acid, alcohol, body, phenolic bitterness (whites), tannin volume and texture (reds), texture; confirm fruit and non-fruit; balance; length; complexity. <b>Initial conclusion:</b> possible grapes, climate, countries, age range. <b>Final conclusion:</b> grape or blend, country, region and appellation, official quality level, style category, one vintage.</p>
+
+
+<h3>How the evidence narrows the field</h3>
+<p>Each part of the grid eliminates possibilities, and a taster who understands what each observation excludes will reach a conclusion by subtraction. <strong>Sight</strong> does the first sorting. In a red, depth of color and the extent to which the wine stains the glass separate thin-skinned grapes such as Pinot Noir, Nebbiolo and Grenache from thick-skinned ones such as Cabernet, Syrah and Malbec. An orange or garnet rim on a pale wine suggests Nebbiolo or age; a purple or magenta rim suggests youth, or Malbec. In a white, a green tint suggests youth and a cool climate, and gold suggests oak, age or ripeness.</p>
+<p>The <strong>nose</strong> supplies the character of the fruit and its condition, tart, ripe, baked or dried, which indicates climate; the non-fruit aromas, which are often the most specific clues to variety, such as the pepper of Syrah, the green capsicum of Cabernet and Sauvignon, the rose and tar of Nebbiolo, the petrol of Riesling; the presence or absence of earth and mineral notes, which leans toward the Old World or the New; and the evidence of oak, new or used, French or American.</p>
+<p>The <strong>palate</strong> is the test. Acidity, alcohol, tannin and body are physical facts that the taster measures, and they must be consistent with the hypothesis formed on the nose. High acid with moderate alcohol confirms a cool climate. High alcohol with soft acid confirms a warm one. The level and texture of tannin confirm or contradict the grape suggested by the color.</p>
+
 <h3>A spoken example (abbreviated)</h3>
 <p class="mono">"Wine one. Clear, medium-minus intensity, ruby core moving to garnet, slight rim variation, light staining, medium tearing, no gas. Nose is clean, medium-plus intensity, developing. Red fruit: tart and dried cherry, cranberry, red plum. Non-fruit: dried rose, tar, licorice, dried herbs. Earth: dried leaves, potting soil. Mineral: no. Oak: no new oak, large old cask. Palate is dry, acid high, alcohol medium-plus, body medium-plus, tannin high and slightly gritty. Fruit confirms. Balanced, long, complex. Initially: Nebbiolo or Sangiovese, moderate climate, Italy, 5 to 10 years. Finally: Nebbiolo, Italy, Piedmont, Barolo DOCG, 2016."</p>
-<h3>How candidates train</h3>
-<ul><li>Taste blind in groups 2-3 times a week, rotating the pourer.</li>
-<li>Always run the clock: 4 minutes per wine.</li>
-<li>Record yourself and play it back; filler words eat time.</li>
-<li>Drill <b>confusion pairs</b> side by side.</li>
-<li>Widen the pool beyond the Certified list: aged wines, sweet and sparkling, less obvious examples (Aglianico, Mencía, Grüner, Chenin from South Africa, Rhône whites).</li>
-<li>Use a fixed vocabulary; consistency is speed.</li></ul>
-<h3>The pass bar</h3>
-<p>60% in each section at Advanced (theory, tasting, practical) within the same calendar year; about a quarter of candidates historically pass. The Master Sommelier Diploma requires 75% in each section; theory must be passed first, and the remaining sections within three years. Typically 5-10 years from first CMS exam to the MS title.</p>
+
+
+<h3>A spoken example: white</h3>
+<p>"Wine two. Clear, pale straw with green highlights, no rim variation, medium tearing, no gas. The nose is clean, medium-plus intensity, youthful. Fruit is citrus and tree fruit, tart to just ripe: lemon, lime, green apple, white peach. Non-fruit: white flowers, a touch of petrol. No botrytis. Earth: none. Mineral: pronounced wet slate. No evidence of oak. On the palate the wine is off-dry, acid high, alcohol low, body light, no phenolic bitterness. The fruit confirms, with lime and green apple. The wine is balanced, the finish is medium-plus, complexity is moderate. Initial conclusion: Riesling, possibly Chenin Blanc; cool climate; Germany or France; one to three years old. Final conclusion: Riesling, Germany, Mosel, Prädikatswein, Kabinett, 2024."</p>
+<p>Notice what is missing: "I think", "maybe", "kind of", and any description of how the wine makes the taster feel.</p>
+
+
+<h3>From initial to final conclusion</h3>
+<p>The two-stage conclusion is a discipline against jumping. The initial conclusion states what the evidence allows: a climate, a hemisphere or style of winemaking, a range of age, and two or three candidate grapes. The final conclusion then chooses among them by naming the detail that decides the matter. A pale red with high acid, high tannin and aromas of dried cherry, rose and tar could at first be Nebbiolo or Sangiovese; the height and grip of the tannin against so pale a color, and the tar, decide for Nebbiolo, and the degree of development and structure then place it in Barolo or Barbaresco and suggest a vintage.</p>
+<p>The same logic handles the classic confusions. Old World or New is argued from the balance of fruit and non-fruit: ripe, forward fruit with little earth points to the New World; restrained fruit with earth, mineral and savory notes points to the Old. Climate is argued from the fruit's ripeness together with acid and alcohol. Age is argued from color, the state of the fruit and the presence of tertiary aromas. Quality level is argued from concentration, complexity and length. The vintage is the last deduction, from the wine's apparent age and what is known of recent years.</p>
+
 <h3>A time budget for four minutes</h3>
 <table class="t"><tr><th>Stage</th><th>Seconds</th><th>What gets said</th></tr>
 <tr><td>Sight</td><td>20</td><td>One breath: clarity, intensity, color, rim, staining, tears, gas</td></tr>
@@ -1149,27 +1248,56 @@ body:`
 <tr><td>Initial conclusion</td><td>20</td><td>Two or three grapes, climate, countries, age range</td></tr>
 <tr><td>Final conclusion</td><td>20</td><td>Grape, country, region, appellation, quality level, vintage</td></tr></table>
 <p>That is three and a half minutes, which leaves 30 seconds a wine in hand. Six wines at a strict four minutes use 24 of the 25. Candidates who fail on time almost always lose it on the nose, hunting for one more descriptor.</p>
-<h3>A spoken example: white</h3>
-<p>"Wine two. Clear, pale straw with green highlights, no rim variation, medium tearing, no gas. The nose is clean, medium-plus intensity, youthful. Fruit is citrus and tree fruit, tart to just ripe: lemon, lime, green apple, white peach. Non-fruit: white flowers, a touch of petrol. No botrytis. Earth: none. Mineral: pronounced wet slate. No evidence of oak. On the palate the wine is off-dry, acid high, alcohol low, body light, no phenolic bitterness. The fruit confirms, with lime and green apple. The wine is balanced, the finish is medium-plus, complexity is moderate. Initial conclusion: Riesling, possibly Chenin Blanc; cool climate; Germany or France; one to three years old. Final conclusion: Riesling, Germany, Mosel, Prädikatswein, Kabinett, 2024."</p>
-<p>Notice what is missing: "I think", "maybe", "kind of", and any description of how the wine makes the taster feel.</p>
+
+
 <h3>Where the points are</h3>
 <p>Most of the available points sit in the description, not the name. A candidate who describes a wine accurately and draws a logical but wrong conclusion can still pass that wine; a candidate who guesses the right grape after a careless description may not. Three rules follow:</p>
 <ul><li><b>Say every line</b>, including the negatives: "no evidence of new oak", "no botrytis", "no gas". Silence scores nothing.</li>
 <li><b>Never leave a conclusion blank.</b> Call the most classic wine that fits what you described.</li>
 <li><b>Make the conclusion follow the description.</b> If you said "high acid, low alcohol, off-dry", do not conclude Napa Chardonnay.</li></ul>
+
+
+<h3>Why structure outranks aroma</h3>
+<p>Aromas are suggestive and structure is measurable, and experienced tasters weight them accordingly. The sense of smell is easily led: once a taster thinks of a grape, the nose finds evidence for it. Acidity, alcohol and tannin are less open to suggestion, and they vary less between producers than aromas do. A candidate who smells what seems to be Sauvignon Blanc and then finds medium acid and high alcohol should doubt the first impression. The marking reflects the same priority: an accurate call of the structural elements earns points regardless of the final answer, and a correct identification reached with wrong structure calls earns fewer than candidates expect.</p>
+<p>Calibration is therefore the core of training. A taster must know from repeated practice against measured examples what medium-plus acidity feels like, where fourteen percent alcohol sits, and how the tannin of one grape differs in texture from another.</p>
+
+<h3>What the flights are built from</h3>
+<p>Advanced and Master flights draw on classic wines from the major regions, in typical, current or recent vintages, with one or two wines that stretch the list: a mature bottle, a sweet or oxidative style, or a regional grape such as Aglianico, Mencía, Assyrtiko or Grüner Veltliner. A sound plan is to make the classics automatic first. Most failures come from missing a Sancerre or a Rioja under pressure, not from an obscure wine.</p>
+
+
 <h3>Managing six wines</h3>
 <ul><li>Take the whites first, then the reds, in the order poured.</li>
 <li>If a wine baffles you, describe it honestly, call it, and move on at four minutes. One lost wine is survivable; a lost clock is not.</li>
 <li>Do not go back. A revised call made without new evidence is usually worse than the first.</li>
 <li>Keep the same words for the same sensations all year. "Medium-plus" must mean the same thing in March and in the exam room.</li></ul>
-<h3>What the flights are built from</h3>
-<p>Advanced and Master flights draw on classic wines from the major regions, in typical, current or recent vintages, with one or two wines that stretch the list: a mature bottle, a sweet or oxidative style, or a regional grape such as Aglianico, Mencía, Assyrtiko or Grüner Veltliner. A sound plan is to make the classics automatic first. Most failures come from missing a Sancerre or a Rioja under pressure, not from an obscure wine.</p>
+
+
+<h3>The examination as a set</h3>
+<p>The wines in a flight are chosen to be classic and typical: sound examples of well-known grapes from their best-known regions, at a quality level where character is clear. The examiners are testing recognition of benchmarks, and an obscure answer is almost never correct. This shapes strategy. When the evidence is divided, the more classic possibility should be preferred. A taster should also treat each wine independently, since a flight may contain two wines of similar type and need not cover a balanced range, and a doubtful call on one wine must be left behind when the next is lifted. Time is fixed, and a wine not finished earns nothing for its conclusion, so the discipline of moving on matters as much as accuracy.</p>
+
+<h3>How candidates train</h3>
+<ul><li>Taste blind in groups 2-3 times a week, rotating the pourer.</li>
+<li>Always run the clock: 4 minutes per wine.</li>
+<li>Record yourself and play it back; filler words eat time.</li>
+<li>Drill <b>confusion pairs</b> side by side.</li>
+<li>Widen the pool beyond the Certified list: aged wines, sweet and sparkling, less obvious examples (Aglianico, Mencía, Grüner, Chenin from South Africa, Rhône whites).</li>
+<li>Use a fixed vocabulary; consistency is speed.</li></ul>
+
+
 <h3>A twelve-week build to the exam</h3>
 <table class="t"><tr><th>Weeks</th><th>Focus</th></tr>
 <tr><td>1 to 4</td><td>Single wines, untimed, full grid aloud. Fix your vocabulary.</td></tr>
 <tr><td>5 to 8</td><td>Pairs and threes built on confusion pairs, at four minutes a wine.</td></tr>
 <tr><td>9 to 11</td><td>Full six-wine flights twice a week, recorded and reviewed.</td></tr>
-<tr><td>12</td><td>Two light sessions. Rest the palate for two days before the exam.</td></tr></table>`,
+<tr><td>12</td><td>Two light sessions. Rest the palate for two days before the exam.</td></tr></table>
+
+<h3>The pass bar</h3>
+<p>60% in each section at Advanced (theory, tasting, practical) within the same calendar year; about a quarter of candidates historically pass. The Master Sommelier Diploma requires 75% in each section; theory must be passed first, and the remaining sections within three years. Typically 5-10 years from first CMS exam to the MS title.</p>
+
+
+<h3>What the method teaches beyond the exam</h3>
+<p>The deductive grid has a use outside the examination room. A sommelier who can assess a wine's structure quickly can judge an unfamiliar bottle a supplier pours, decide what it will suit on the menu, describe it accurately to a guest, and recognize a wine that is faulty or past its best. The habit of reasoning from evidence, stating a conclusion and being willing to be wrong aloud is also a training in professional honesty. The identification of a grape and a village is the least transferable part of the skill, and the observation that precedes it the most.</p>
+`,
 floor:`<p>Use the Tasting Lab's "Verbal Six" timed mode: 6 virtual wines, 25 minutes, against one 25-minute clock: budget about four minutes a wine and say every line aloud. Then do the same with real wines and the CMS grid on the form.</p>`,
 analyst:`<p>Diploma D3 tasting is 12 wines across two 90-minute papers, written, with an emphasis on justified conclusions. The MW's three 12-wine papers ask about variety, origin, winemaking, quality, style and commercial position.</p>`,
 terms:[["Verbal tasting","Spoken deductive tasting before examiners (CMS Advanced and Master)."],["Vinous","Wine whose primary fruit has given way to age-derived character."],["Time budget","A fixed allowance of seconds for each stage of the grid."],["Negative call","Stating that something is absent, such as oak or botrytis."],["Taper","Reducing practice before an exam to rest the palate."]],
@@ -1190,9 +1318,13 @@ quiz:[
 ]});
 
 L.push({id:"c2", unit:"C1", title:"Diploma and Master of Wine Thinking", mins:14,
-summary:"Essays, arguments and commercial judgment at the top of the analytical track.",
+summary:"What changes at Diploma and Master of Wine level, the anatomy of an analytical essay, preparing for unseen questions, and tasting as argument.",
 body:`
 <p>At the top of the Analyst track the question changes from "what is this?" to "what does this mean?" The WSET Diploma and the Master of Wine ask you to argue a position with evidence, connect production to market, and judge quality and commercial potential.</p>
+
+
+<p>The highest qualifications in wine are examinations in thinking. A candidate is assumed to know the facts, and is asked to use them: to weigh evidence, to see a question from the positions of grower, producer, seller and drinker, and to reach a defensible conclusion in clear prose within a fixed time. This chapter describes what those examinations demand and explains the craft of the analytical essay, which is the form in which that thinking must be shown.</p>
+
 <h3>WSET Level 4 Diploma</h3>
 <table class="t"><tr><th>Unit</th><th>Weight</th><th>Assessment</th></tr>
 <tr><td>D1 Wine Production</td><td>20%</td><td>1.5-hour open-response paper (taken first)</td></tr>
@@ -1202,22 +1334,35 @@ body:`
 <tr><td>D5 Fortified Wines</td><td>5%</td><td>Open response plus 3 wines blind (90 minutes)</td></tr>
 <tr><td>D6 Independent Research</td><td>10%</td><td>3,000-word assignment</td></tr></table>
 <p>About 500 hours total. Pass 55%, merit 65%, distinction 75%. D4 and D5 need at least 45% in each component and 55% overall.</p>
+
+
+<h3>The Diploma's one big question</h3>
+<p>Almost every Diploma question is a version of this: <b>how do the growing environment, grape growing, winemaking and business decisions together determine a wine's style, quality and price?</b> Learn each region as an answer to it. For Chablis: cool climate and Kimmeridgian marl (environment); frost protection and low-trained vines (growing); steel or old oak, malolactic conversion (winemaking); cooperatives, négociants and export dependence (business). Then say what each does to the wine and what it costs.</p>
+
+
+<h3>What changes at this level</h3>
+<p>The step from the advanced certificate to the diploma is less an increase in the quantity of knowledge than a change in what is done with it. The earlier levels ask what a wine is like and why. The diploma asks, in addition, how that came about commercially and what follows from it: why a region succeeds or fails in the market, what a producer should do about a problem, how a style has changed and whether the change will last. The candidate must hold together the natural factors, the human decisions and the economics, and show how each bears on the others.</p>
+<p>The structure of the units reflects this. The paper on production gives the science needed to explain any wine. The paper on business gives the framework of costs, routes to market and consumer behavior. The large unit on the wines of the world asks the candidate to apply both to every significant region, and its questions typically give a wine or a region and ask for an account of its style, quality and price that draws on all the factors. The research assignment tests the ability to gather sources, evaluate them and argue from them.</p>
+
 <h3>Master of Wine</h3>
 <p>Needs three years of professional experience to enroll and takes at least three years. Stage 1 assessment (12-wine paper and essays), Stage 2 exam (three 12-wine papers plus five theory papers: viticulture; vinification and pre-bottling; handling of wine; business of wine; contemporary issues), and Stage 3: a research paper of about 10,000 words. The Institute publishes every year's exam wines and questions, which makes it the one top-level exam you can mock with real papers.</p>
+
+
+<h3>How rare the MW is</h3>
+<p>About 530 people have passed since the first exam in 1953, and about 425 hold the title today. The practical papers are the usual barrier. Candidates who succeed tend to share three habits: they taste in exam conditions every week, they write timed essays and have them marked by someone harsher than themselves, and they read the trade press daily so that their examples are current.</p>
+
+<h3>What the Master of Wine examines</h3>
+<p>The qualification of the Institute of Masters of Wine began in 1953 as an examination for the British wine trade, and its purpose remains to certify a complete professional understanding of wine, from the vineyard to the consumer. Its theory papers follow the life of a wine: growing the grapes, making the wine, handling it up to the point of sale, selling it, and the wider issues facing the industry. Each requires essays written under time pressure that argue a case with examples from around the world. The practical papers present wines blind and ask questions that go beyond identification, on how the wine was made, its quality, its maturity, its place in the market, and each answer must be justified from what is in the glass.</p>
+<p>The examination is difficult because of the combination. A candidate must have the breadth to discuss any region or technique, the depth to do so precisely, the tasting accuracy to reason from structure, and the ability to write clear, organized argument at speed. The pass rate is low, most candidates need several attempts, and the total number who have ever passed is in the hundreds.</p>
+
 <h3>Essay craft</h3>
 <ul><li><b>Answer the question asked.</b> Restate it as a thesis in your first two sentences.</li>
 <li><b>Structure</b>: introduction with a clear position, 3-5 argued sections, conclusion that answers the question.</li>
 <li><b>Evidence</b>: named regions, producers, data, recent developments. Breadth across countries shows command.</li>
 <li><b>Balance</b>: acknowledge counterarguments, then weigh them.</li>
 <li><b>Commercial lens</b>: price points, routes to market, consumer trends, sustainability, climate change.</li></ul>
-<h3>Sample essay prompts in the Diploma/MW style</h3>
-<ul><li>"Is the concept of terroir more marketing than science?"</li>
-<li>"How should a classic region respond to climate change without losing its identity?"</li>
-<li>"Assess the case for and against screwcaps for premium red wine."</li>
-<li>"To what extent do appellation rules help or hinder quality?"</li>
-<li>"Why do some fine wine regions command far higher prices than others of similar quality?"</li></ul>
-<h3>The Diploma's one big question</h3>
-<p>Almost every Diploma question is a version of this: <b>how do the growing environment, grape growing, winemaking and business decisions together determine a wine's style, quality and price?</b> Learn each region as an answer to it. For Chablis: cool climate and Kimmeridgian marl (environment); frost protection and low-trained vines (growing); steel or old oak, malolactic conversion (winemaking); cooperatives, négociants and export dependence (business). Then say what each does to the wine and what it costs.</p>
+
+
 <h3>Building an essay: a worked skeleton</h3>
 <p><b>Prompt:</b> "To what extent do appellation rules help or hinder quality?"</p>
 <table class="t"><tr><th>Part</th><th>Content</th></tr>
@@ -1228,12 +1373,36 @@ body:`
 <tr><td>Rules are not the only signal</td><td>New World producers build quality reputations through brands and critics with few rules: Napa, Barossa.</td></tr>
 <tr><td>Conclusion</td><td>Answer the "to what extent": substantially for the middle of the market, less for the top; reform toward place-based tiers gets the best of both.</td></tr></table>
 <p>Six paragraphs, eight named examples, four countries, one position. That is a pass-level structure; depth and accuracy of the examples make it a merit or distinction.</p>
+
+
+<h3>The anatomy of an argument</h3>
+<p>An examination essay is an answer to a question, and its quality depends first on whether it answers that question and no other. The opening should define the terms, where they need defining, and state the position the essay will take. A question that asks "to what extent" requires a judgment of degree; one that asks the candidate to "discuss" requires the case on more than one side; one that asks for an evaluation requires criteria. A candidate who writes everything known about the topic, in no particular order, will score poorly however much is known.</p>
+<p>The body consists of a small number of sections, each making one point that advances the argument. A workable pattern for each is a claim, the reasoning behind it, an example with specifics, a place, a producer, a figure, a date, and a sentence relating it back to the question. Examples should be chosen from different countries and from different levels of the market, since the examiners look for breadth, and should be current. Counter-arguments belong in the essay: acknowledging the strongest objection to one's position and answering it shows command of the subject.</p>
+<p>The conclusion states the answer. It should follow from what has been argued, add no new material, and commit to a view. Essays that end by observing that the issue is complex and time will tell throw away the marks reserved for judgment.</p>
+
+<h3>Sample essay prompts in the Diploma/MW style</h3>
+<ul><li>"Is the concept of terroir more marketing than science?"</li>
+<li>"How should a classic region respond to climate change without losing its identity?"</li>
+<li>"Assess the case for and against screwcaps for premium red wine."</li>
+<li>"To what extent do appellation rules help or hinder quality?"</li>
+<li>"Why do some fine wine regions command far higher prices than others of similar quality?"</li></ul>
+
+
+<h3>How to prepare for questions not yet set</h3>
+<p>The topics that recur can be anticipated, since they are the standing problems of the industry: climate change and adaptation, sustainability and packaging, falling consumption and changing consumers, the role of appellations, consolidation in distribution, the balance of brand and origin, alternative closures and formats, and the economics of particular regions. A candidate prepares by building, for each, a file of the main arguments on each side and a set of precise examples, and by writing timed plans and full essays for comment. Reading the trade press steadily over a long period supplies the examples; reading widely beyond it, in economics and science, supplies the frameworks.</p>
+<p>Past papers are the best guide to the style of question. Working through them shows how the same underlying issue is approached from different angles, and how much the wording of a question changes what a good answer contains.</p>
+
 <h3>How MW tasting papers ask</h3>
 <p>The MW practical papers do not ask you only to name wines. A typical question reads: "Wines 1 to 3 are made from the same grape variety in three different countries. Identify the variety and the origin of each. Compare their quality. Comment on the winemaking of wine 2." The marks go to the <b>reasoning from the glass</b>:</p>
 <ul><li><b>Claim:</b> "Wine 2 is Chardonnay from Burgundy."</li>
 <li><b>Evidence:</b> "Medium-plus acidity, restrained lemon and hazelnut, integrated oak and a struck-match note."</li>
 <li><b>Argument:</b> "Reduction and integrated oak indicate barrel fermentation on lees; the acid and restraint suggest a cool site rather than California."</li></ul>
 <p>A wrong identification argued well from accurate observation scores; a right one asserted without evidence scores little.</p>
+
+
+<h3>Tasting as argument</h3>
+<p>At this level a tasting answer is a short piece of reasoning. The question may ask for the origin of a wine, and the marks are given for the evidence cited and the logic connecting it to the conclusion, with fewer for the conclusion itself. A sound answer states the observation, says what it indicates, and builds to the identification: the pale color and high tannin and acidity indicate a thin-skinned, late-ripening grape from a moderate climate; the aromas of rose and tar confirm Nebbiolo; the concentration, the firm structure and the evidence of long aging in large cask indicate a wine of high quality from one of the two leading appellations. Questions on quality and commercial position are answered in the same way, from balance, length, intensity and complexity, and from an informed view of what such a wine sells for and to whom.</p>
+
 <h3>Numbers to carry into any business answer</h3>
 <ul><li>World wine production in 2024 was about 225 million hectoliters, the lowest in about sixty years, and 2025 was barely higher at about 227 million. Consumption fell from about 213 million in 2024 to about 208 million in 2025.</li>
 <li>Italy, France and Spain make roughly half the world's wine.</li>
@@ -1241,8 +1410,11 @@ body:`
 <li>World exports were worth about €36 billion in 2024 and fell to about €34 billion in 2025 as tariffs bit.</li>
 <li>Consumption has fallen in most mature markets since 2018, most sharply for inexpensive red.</li></ul>
 <p>Round figures with a date beat precise ones you have to hedge. Update them every year from the OIV's April report.</p>
-<h3>How rare the MW is</h3>
-<p>About 530 people have passed since the first exam in 1953, and about 425 hold the title today. The practical papers are the usual barrier. Candidates who succeed tend to share three habits: they taste in exam conditions every week, they write timed essays and have them marked by someone harsher than themselves, and they read the trade press daily so that their examples are current.</p>`,
+
+
+<h3>The value of the discipline</h3>
+<p>Few of those who study at this level will take the final examinations, and the method is worth acquiring for its own uses. A sommelier or buyer who can state a problem precisely, assemble the relevant facts, consider it from the positions of all concerned and reach a reasoned conclusion will make better decisions about what to list, how to price and what to recommend, and will be able to explain those decisions to an owner or a guest. The essays are a formal exercise in a habit of mind that serves in any part of the trade.</p>
+`,
 floor:`<p>Floor candidates benefit from this too: guests at the top end want to talk about climate change, natural wine, and why a bottle costs what it does.</p>`,
 analyst:`<p>Practice in the Exam Hall's Diploma essay mode: 45 minutes, one prompt, then self-assess against the rubric (thesis, structure, evidence, balance, conclusion).</p>`,
 terms:[["D3","Diploma Wines of the World unit, 50% of the qualification."],["Stage 2","MW exam: three 12-wine papers and five theory papers."],["Research paper","MW Stage 3, about 10,000 words."],["Thesis","The position an essay argues, stated in its first two sentences."],["Typicity","How closely a wine matches the classic style of its grape and place."],["OIV","International Organisation of Vine and Wine; publishes the annual world statistics."]],
