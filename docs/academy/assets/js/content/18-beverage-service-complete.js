@@ -132,9 +132,13 @@ quiz:[
 ]});
 
 L.push({id:"s8", unit:"S1", title:"Deep Dive: The CMS 2025 Service Standards", mins:18,
-summary:"The May 2025 CMS-Americas Hospitality & Service standards step by step: still, sparkling, decanting, recovery, large formats, and the deductions that fail candidates.",
+summary:"The 2025 service standards with the reason for each group of rules, how the service examination runs, and how to prepare for it.",
 body:`
 <p>The May 2025 CMS-A Advanced/MS standards are the procedure manual. CMS calls them "more formal and exacting than those found in many restaurants." Learn them literally.</p>
+
+
+<p>A formal standard exists so that a candidate anywhere in the world is judged against the same sequence, and so that the sequence can be scored step by step. The risk of studying it as a checklist is that a checklist is forgotten under pressure. Each rule in the standard protects something: the wine, the guest, the cleanliness of the table, or the calm of the room. This chapter restates the standards and gives the reason for each group of rules, and then describes how the examination is conducted and how to prepare for it.</p>
+
 <h3>General rules</h3>
 <ul><li>Serve from the right, <b>clockwise, regardless of gender</b>; guest of honor first if there is one; the host who ordered is always last. "Ladies first" survives only if the guest asks for it.</li>
 <li>Taste pour: <b>1-1.5 oz (30-45 mL)</b>. Pour each guest individually, with no second circuit.</li>
@@ -142,12 +146,37 @@ body:`
 <li>Only glassware, plates, serviettes, silverware and underliners touch the tablecloth. Never put a serviette in a pocket or on the shoulder.</li>
 <li>A second bottle of the same wine gets a clean tasting glass placed to the host's right.</li>
 <li>Recovery uses the three A's: <b>Acknowledge, Apologize, Act</b>. An upsell "must come with a clear explanation that shows added value."</li></ul>
+
+
+<h3>The reasons behind the general rules</h3>
+<p>The general rules concern movement, handling and order. Service proceeds clockwise around the table and guests are served from their right with the right hand because a single convention lets several staff work a table without colliding and lets guests know where service will come from. Glasses are handled only by the stem or base and placed, not slid, so that no fingerprint or smell reaches the bowl. The bottle never touches the rim of a glass, which prevents chipping and the transfer of anything from one guest's glass to the next. The label faces the guest whenever the bottle is presented or poured, as a continuing confirmation of what is being served.</p>
+<p>The order of pouring, guests before host, with the host last, follows the oldest rule of hospitality, that the host attends to guests first, and has a practical side: the host has tasted and approved the wine. Even pours demonstrate control and fairness, and the standard expects a bottle to serve the stated number of guests with a little left, which requires the candidate to calculate the pour before beginning. The service cloth, or serviette, is carried folded and used to wipe the lip of the bottle after each pour, so that no drop falls on the cloth or a guest.</p>
+<p>Everything is carried on a tray lined with a cloth, including clean glasses, and nothing is placed on the table directly from the hand when a tray is expected. Underliners or coasters go beneath bottles and decanters to protect the linen. The candidate should never leave the table during a service to fetch a forgotten item: the standard tests preparation as much as execution.</p>
+
 <h3>Sparkling</h3>
 <p>Two serviettes and two underliners. Cut the foil below the cage with the corkscrew blade (never the pull tab). <b>The cage stays on</b> and comes off with the cork; the thumb never leaves the cork; turn the bottle, not the cork, at 45°, for "a soft hiss." Hold the bottle with a handshake or bottom grip, <b>never by the punt</b>. Fill each glass in <b>no more than two pours</b>.</p>
+
+
+<h3>Why the sparkling standard is strict</h3>
+<p>The sparkling wine service is the task on which candidates most often fail, and the standard is exact because the hazards are real. The bottle is presented, and the foil is cut below the cage with the blade of the corkscrew, never torn off by its tab. From the moment the cage is loosened, one hand remains on the cork, since it can leave the bottle at any time once the wire is slack. The cage is not removed separately; it is loosened and kept in place under the hand, for grip. The bottle is held at an angle and pointed away from guests, examiners and anything fragile. The bottle is rotated while the cork is held, and the cork is released slowly so that the sound is no more than a whisper.</p>
+<p>The lip is wiped, the host tastes, and guests are served in the correct order with even pours, each glass filled in no more than two pours and each guest served once, without the foam overflowing. The bottle is returned to the bucket, or placed on an underliner, with a folded cloth. Any loud pop, any spill, any moment at which the cork is uncovered, and any wine lost to gushing are marked down, the first of these seriously, since they are the signs of a server who might hurt someone.</p>
+
 <h3>Decanting for sediment</h3>
 <p>Three serviettes and three underliners (cork, bottle, decanter). A bottle stored on its side goes into the cradle the same way; an upright bottle stays upright with no cradle. Light the candle before rolling the gueridon. Decant in one smooth motion, eyes on the bottle, bottle never touching the decanter, stopping when sediment reaches the shoulder. <b>Double decanting</b>: rinse the bottle with the wine or a similar wine; "Do not use water." Splash decanting only for young closed reds; priming (30-60 mL) only on request. Coravin tasks cover the Timeless, Pivot and Sparkling systems.</p>
+
+
+<h3>What the decanting standard is testing</h3>
+<p>The decanting service is a demonstration of care with an old and valuable bottle. It is performed at a side table or on a trolley, the gueridon, with everything assembled beforehand: the bottle, in a cradle if it was stored on its side and upright if it was not, a clean decanter, a light source, underliners, cloths, a tasting glass and the guests' glasses. The bottle is kept at the angle at which it was stored, so that the sediment is not disturbed, and opened where it rests. The candidate cuts the capsule, wipes the neck, draws the cork gently and wipes again.</p>
+<p>The wine is poured into the decanter in one smooth, uninterrupted motion with the neck over the light, and the candidate stops when sediment reaches the shoulder, with eyes on the bottle throughout and the bottle never touching the decanter. The decanter and the bottle are both presented at the table, the bottle so that the guest can see what was opened and how much was left behind, and the cork is presented on its plate. The host tastes from the decanter and the table is served. Examiners watch for a steady pour, a correct stopping point, clean handling and economy of movement, and they will often ask questions about the wine, its vintage or suitable dishes during the procedure, to see whether the candidate can talk and work together.</p>
+
 <h3>Common deductions</h3>
 <p>Serviette on the shoulder or in a pocket; bottle on bare cloth; using the foil pull tab; removing the cage first; thumb off the cork; a loud pop; holding the punt; more than two pours; a second circuit; host before guests; "ladies first"; bottle touching the decanter; looking away; cradling an upright bottle; rinsing with water; the wrong taste-pour size; not confirming vintage and producer. Older textbooks that teach "ladies first" are out of date.</p>
+
+
+<h3>How the examination runs</h3>
+<p>In a service examination the candidate is assigned a table at which an examiner, or several, play the part of guests. The candidate is given tasks, typically to take an order, to recommend wines for a menu, to perform a sparkling or decanting service, and to answer questions on spirits, cocktails, aperitifs, cheese, cigars in some syllabi, and the business of the restaurant, all while maintaining the manner of a professional on the floor. The examiners may order something unavailable, change their minds, ask an awkward question or create a small problem, since the examination measures composure and judgment as well as technique.</p>
+<p>The marking allots points to each step and to overall impression, and candidates are advised to keep moving when a mistake occurs. An error acknowledged briefly and corrected costs a point or two. An error that leads to flustered service costs many. Saying "I don't know, but I will find out" is acceptable, and bluffing is penalized. The standard of knowledge is high, but most failures at this stage are failures of nerve and preparation.</p>
+
 <h3>Large formats</h3>
 <table class="t"><tr><th>Volume</th><th>Champagne/Burgundy</th><th>Bordeaux</th></tr>
 <tr><td>1.5 L</td><td>Magnum</td><td>Magnum</td></tr>
@@ -157,7 +186,12 @@ body:`
 <tr><td>6 L</td><td>Methuselah</td><td>Imperial</td></tr>
 <tr><td>9 / 12 / 15 L</td><td colspan="2">Salmanazar / Balthazar / Nebuchadnezzar</td></tr>
 <tr><td>18 L</td><td colspan="2">Melchior (Salomon in Champagne)</td></tr></table>
-<p>Small formats: 620 mL clavelin (Vin Jaune), 500 mL "Jennie" for Sauternes, Tokaji and Sherry. The 750 mL standard was fixed in law in the 1970s: Europe in 1975, the US in 1979. Cellar targets: about 55°F (13°C) and 70% humidity, with constant temperature most important. Responsible service: TIPS is accepted in 45 states (usually 3 years); some states mandate their own (Illinois BASSET, Washington MAST).</p>`,
+<p>Small formats: 620 mL clavelin (Vin Jaune), 500 mL "Jennie" for Sauternes, Tokaji and Sherry. The 750 mL standard was fixed in law in the 1970s: Europe in 1975, the US in 1979. Cellar targets: about 55°F (13°C) and 70% humidity, with constant temperature most important. Responsible service: TIPS is accepted in 45 states (usually 3 years); some states mandate their own (Illinois BASSET, Washington MAST).</p>
+
+<h3>Preparing for the service examination</h3>
+<p>The only reliable preparation is repetition under realistic conditions. The sequences should be practiced until they require no thought, with real bottles, a real tray and a table of colleagues playing guests and asking questions. Practice should be timed, since the examination is. It helps to be filmed and to watch the result, which reveals habits, a hand on the bowl of a glass, a turned back, a hesitation, that the performer cannot feel. Sparkling wine should be opened many times, with inexpensive bottles, until the release is silent every time. The tray should be carried loaded, since balance is a skill of its own.</p>
+<p>Alongside the mechanics, the candidate should rehearse the conversation: describing wines aloud, recommending pairings for unfamiliar dishes, stating prices and vintages, and answering questions on the classic cocktails and spirits. Working in a restaurant that maintains formal service is the best training, since the standard then becomes the daily habit and the examination only another shift.</p>
+`,
 floor:`<p>Run the deductions list as a checklist after every practice service. Film yourself; the grader watches hands, eyes and serviettes.</p>`,
 analyst:`<p>WSET doesn't examine practical service, but the Diploma's D2 unit expects you to know how service, format and storage affect a business.</p>`,
 terms:[["Three A's","Acknowledge, Apologize, Act."],["Gueridon","Service trolley used for decanting."],["Double decanting","Decant, rinse the bottle with wine, pour back."],["Clavelin","620 mL Jura bottle for Vin Jaune."],["Jennie","500 mL bottle for sweet and fortified wines."]],

@@ -368,9 +368,13 @@ quiz:[
 ]});
 
 L.push({id:"s9", unit:"S1", title:"Classic Pairings and the Cheese Course", mins:9,
-summary:"The pairings examiners treat as canon, why each one works, how to handle the difficult ingredients, and how to run a cheese course.",
+summary:"Why the classic pairings work, why some ingredients fight wine, the truth about cheese and red wine, and matching dessert.",
 body:`
 <p>The pairing principles tell you why a match works. The classics are the matches so well proven that examiners and guests expect you to know them by heart. Learn each with its reason, because the Court's follow-up question is always "why?"</p>
+
+
+<p>A classic pairing is a small piece of accumulated experience. Each has survived because the combination works for a reason that can be stated, and learning the reason beside the match makes it easier to remember and allows substitutions when the textbook wine is not on the list. This chapter goes through the canon with its explanations, deals with the ingredients that make pairing difficult, and treats the cheese course, where the conventional advice is most often wrong.</p>
+
 <h3>The canon</h3>
 <table class="t"><tr><th>Dish</th><th>Classic wine</th><th>Why it works</th></tr>
 <tr><td>Oysters</td><td>Chablis, Muscadet sur lie, Champagne</td><td>High acid and saline, lean body; no oak to fight the brine</td></tr>
@@ -394,6 +398,13 @@ body:`
 <tr><td>Sushi and sashimi</td><td>Junmai sake; Champagne; dry Riesling</td><td>Delicate, no tannin; sake echoes umami</td></tr>
 <tr><td>Dark chocolate</td><td>Banyuls, Maury, Ruby or LBV Port</td><td>The wine must be sweeter than the dessert</td></tr>
 <tr><td>Tarte Tatin, crème brûlée</td><td>Coteaux du Layon, Sauternes, Tokaji Aszú</td><td>Sweet with sweet; acid keeps it fresh</td></tr></table>
+
+
+<h3>Why the classics work</h3>
+<p>The matches fall into a few families. The first is <strong>salt against sweetness</strong>: Sauternes with Roquefort, Port with Stilton, sweet wine with foie gras. Salt heightens the perception of sweetness and fruit, sweetness tempers salt and pungency, and the richness of each side is matched by the other. The second is <strong>acid against fat or salt</strong>: Champagne with fried food or caviar, Muscadet or Chablis with oysters, Sancerre with goat cheese, Riesling with pork. The wine's acidity does the work of a squeeze of lemon, and in the case of oysters and Chablis there is a kinship of saline, mineral flavor.</p>
+<p>The third is <strong>tannin with protein and fat</strong>: Cabernet Sauvignon with lamb or beef, Barolo with braised meat, Chianti with steak. The fat and protein bind the tannin and the wine's structure cuts the richness. The fourth is <strong>shared aroma</strong>: Pinot Noir with mushrooms and game birds, which have the same earthy, savory register as the mature wine; Gewürztraminer with strongly aromatic and spiced dishes; Syrah with pepper and smoke. The fifth is <strong>regional custom</strong>, where the pairing is simply what the place has always done: Fino Sherry with ham and almonds, Albariño with shellfish, Beaujolais with charcuterie, white truffle with the Nebbiolo of the same hills.</p>
+<p>When the named wine is unavailable, the reason shows what to substitute. If the principle is acid against salt, any dry, high-acid, unoaked white will serve. If it is sweetness against salt, another sweet wine of comparable weight will do.</p>
+
 <h3>The difficult ingredients</h3>
 <ul><li><b>Artichoke</b> (cynarin makes wine taste oddly sweet) and <b>asparagus</b>: unoaked, herbal whites such as Grüner Veltliner or Sauvignon Blanc.</li>
 <li><b>Eggs</b> coat the palate: sparkling wine.</li>
@@ -401,6 +412,12 @@ body:`
 <li><b>Chili heat</b> magnifies alcohol and tannin: go low in both, with some sweetness.</li>
 <li><b>Umami</b> (soy, mushrooms, aged cheese) makes tannic reds taste bitter; salt and acid in the dish repair it.</li>
 <li><b>Very sweet desserts</b> flatten any wine that is less sweet.</li></ul>
+
+
+<h3>Why some foods fight wine</h3>
+<p>Each of the awkward ingredients has a known cause. <strong>Artichoke</strong> contains a compound, cynarin, that makes whatever is tasted next seem sweeter, so wine tastes oddly sweet or metallic; very dry, high-acid whites and dry Sherry are least affected. <strong>Asparagus</strong> has sulfurous, vegetal compounds that clash with oak and tannin and suit herbaceous whites such as Sauvignon Blanc and Grüner Veltliner. <strong>Eggs</strong> coat the palate, and their sulfur can make wine taste metallic; sparkling wine cuts through. <strong>Vinegar</strong> and sharp dressings make wines taste flat unless they are very acid themselves, and a cook can help by using less vinegar or a milder acid.</p>
+<p><strong>Chili</strong> is intensified by alcohol and tannin and soothed by sweetness, so low-alcohol, off-dry whites work and powerful reds burn. <strong>Soy, miso and other fermented, umami-rich seasonings</strong> harden tannic wines; fruity, low-tannin reds, rosé, off-dry whites and Sherry are safer. <strong>Chocolate</strong> is bitter, sweet and fatty at once, and overwhelms dry wine; fortified sweet reds such as Port, Banyuls and Maury, or a sweet Muscat for milk chocolate, have the weight and sugar. <strong>Very sweet desserts</strong> require a wine sweeter still. <strong>Oily fish</strong> with tannic red can produce a fishy, metallic taste, linked to iron in the wine reacting with the fish's fats. The general remedy in every case is a wine with high acidity, little tannin and no oak, or the bridge of a sympathetic ingredient in the dish.</p>
+
 <h3>Cheese by family</h3>
 <table class="t"><tr><th>Family</th><th>Examples</th><th>What to pour</th></tr>
 <tr><td>Fresh and goat</td><td>Chèvre, Crottin, feta</td><td>Sancerre, Pouilly-Fumé, dry rosé</td></tr>
@@ -410,13 +427,28 @@ body:`
 <tr><td>Hard, aged</td><td>Parmigiano Reggiano, Manchego, aged Gouda</td><td>Amarone, Rioja Reserva, Oloroso, Tawny Port</td></tr>
 <tr><td>Blue</td><td>Roquefort, Stilton, Gorgonzola</td><td>Sauternes, Vintage Port, Recioto, Tokaji</td></tr></table>
 <p>The uncomfortable truth for red-wine drinkers: <b>white and sweet wines suit most cheese better than big reds</b>. Salt and creamy fat make firm tannin taste metallic and bitter. If a table insists on red with a mixed board, choose a soft, mature one.</p>
+
+
+<h3>The truth about cheese and red wine</h3>
+<p>The habit of serving the best red wine of the evening with the cheese is a social custom more than a good pairing. Many cheeses make red wine taste worse. Soft, ripe, bloomy and washed-rind cheeses are creamy, pungent and often ammoniac, and they strip the fruit from a red and bring out its bitterness, while strong blue cheeses overwhelm it with salt. Controlled tastings have repeatedly found that white wines, and sweet wines above all, are the more reliable partners: their acidity cuts the fat, they have no tannin to clash, and sweetness balances salt.</p>
+<p>The cheeses that do suit red wine are the hard, aged, nutty ones, such as old Comté, Gruyère, Parmigiano, aged Gouda, Manchego and mature Cheddar, whose protein and fat soften tannin and whose savory flavors echo an aged wine. For the rest, the families pair as follows. Fresh goat cheese, which is acid and chalky, goes with high-acid whites, Sauvignon Blanc first. Bloomy cheeses such as Brie and Camembert go with Champagne or a light, fruity red. Washed-rind cheeses, strong in smell and mild in taste, go with aromatic whites from the same regions, such as Gewürztraminer with Munster, or with Burgundy's own reds in the case of Époisses. Blue cheeses go with sweet wine. Regional matches are especially dependable with cheese, since the two have so often been made side by side.</p>
+
 <h3>Running the course</h3>
 <ul><li>Serve cheese at room temperature: out of the refrigerator about an hour ahead.</li>
 <li>Plate and describe from mildest to strongest, and tell the guest the order.</li>
 <li>Plan about 1 to 1.5 oz per cheese, three to five cheeses.</li>
 <li>One wine for a board: an off-dry Riesling, a Tawny Port or a mature white Burgundy covers the most ground.</li></ul>
+
+
+<p>A cheese board poses a problem because it contains several families at once. The practical answers are to recommend one wine that suits most of them, an off-dry or sweet white, a tawny Port, an old dry Sherry or Madeira, or to suggest the guest finish a white wine from earlier in the meal. Cheese should be served at cool room temperature, taken from the refrigerator an hour ahead, and eaten from mildest to strongest. A sommelier should be able to name each cheese on the board, its milk, its region and its style, since guests ask and the knowledge sells the course.</p>
+
 <h3>Ordering wines through a meal</h3>
-<p>Light before heavy, dry before sweet, white before red, simple before complex. Break a rule only on purpose: Sauternes with foie gras at the start works because the next course resets the palate.</p>`,
+<p>Light before heavy, dry before sweet, white before red, simple before complex. Break a rule only on purpose: Sauternes with foie gras at the start works because the next course resets the palate.</p>
+
+<h3>Dessert and after</h3>
+<p>Sweet wines are among the least ordered and most rewarding items on a list, and a few principles make them easy to recommend. The wine must be as sweet as the dessert or sweeter. Its style should follow the dessert's main flavor: light, floral, low-alcohol wines such as Moscato d'Asti with fresh fruit and light cakes; botrytized wines such as Sauternes and Tokaji with custards, caramel, stone fruit and nut tarts; fortified reds with chocolate; oxidative, nutty wines such as tawny Port, sweet Sherry and Madeira with nuts, toffee, coffee and dried fruit. Acidity in the wine keeps the combination from cloying. A good sweet wine can also be offered in place of dessert, which is an easy suggestion to a table that has declined the menu.</p>
+<p>After the meal the choices widen to brandy, whisky and liqueurs, covered in later chapters. The sommelier's task at that point is to read whether the table wishes to linger, and to offer once, clearly and without pressure.</p>
+`,
 floor:`<p>In the Certified practical you are given a dish and must name a wine, a producer and a reason in one breath: "With the lamb I'd suggest the 2016 Château Pontet-Canet from Pauillac; its tannin will soften against the meat." Rehearse ten of these aloud.</p>`,
 analyst:`<p>WSET marks the mechanism, not the tradition: sweetness in food raises bitterness and acidity in wine; salt and acid in food soften them. Use the classics as your examples, then explain them in those terms.</p>`,
 terms:[["Classic pairing","A match so established that examiners expect it: Sancerre and goat cheese, Sauternes and Roquefort."],["Cynarin","Compound in artichoke that makes wine taste sweeter and stranger."],["Washed rind","Cheese rinsed in brine or spirit as it ripens: orange, sticky and pungent."],["Bloomy rind","Cheese with a soft white mould rind, such as Brie."],["Regional pairing","Matching a dish with the wine of its home region."]],

@@ -218,9 +218,13 @@ quiz:[
 ]});
 
 L.push({id:"s6", unit:"S1", title:"Salesmanship and the Guest", mins:16,
-summary:"Reading a table, recommending with confidence, upselling honestly, and handling complaints.",
+summary:"What a guest feels with a wine list, why questions beat recommendations, the psychology of price, language that sells, and recovering when things go wrong.",
 body:`
 <p>The Court scores salesmanship and hospitality alongside technique, because in the real world the sommelier's job is to make guests happy and the restaurant money, at the same time. Done well, those aren't in tension.</p>
+
+
+<p>Selling wine well and serving guests well are the same activity. A guest who is helped to a bottle they enjoy, at a price they are comfortable with, will spend more over time and return, and a guest who feels pushed will do neither. This chapter treats salesmanship as a skill of listening and judgment. It sets out the psychology of the encounter, the techniques that work and why, and the handling of the moments that go wrong.</p>
+
 <h3>The arc of a table</h3>
 <ol><li><b>Greet and read.</b> Within the first minute you learn the occasion (anniversary, business, date), who is hosting, and the energy. Introduce yourself; offer an apéritif or sparkling wine.</li>
 <li><b>The list.</b> Hand it to the host. Offer help without hovering: "When you're ready, I'm happy to steer you."</li>
@@ -229,21 +233,12 @@ body:`
 <li><b>Serve</b> with the standards in this unit.</li>
 <li><b>Pace.</b> Watch levels, top up without emptying the bottle on one guest, and suggest the second bottle or a glass for the next course before the first runs dry.</li>
 <li><b>Close.</b> Dessert wine, digestif or coffee; thank the host.</li></ol>
-<h3>Price without awkwardness</h3>
-<p>Guests rarely state a budget aloud, especially in front of clients or a date. The classic technique: show two or three wines on the list and let the host <b>point at a price</b> while saying "something like this." You see the number; nobody else needs to. Always include one option at or below their comfort point.</p>
-<h3>Describing wine to guests</h3>
-<ul><li>Use texture and flavor words people know: "bright, crisp, like biting a green apple"; "rich and silky"; "earthy, savory."</li>
-<li>Connect to the food: "It'll cut right through the butter in that sauce."</li>
-<li>Avoid jargon unless the guest uses it first. Match their level.</li>
-<li>Tell one short story: the producer, the place, the history.</li></ul>
-<h3>Upselling the right way</h3>
-<p>Upselling means suggesting the wine that improves the meal, sometimes the more expensive bottle, sometimes a better-value one the guest hasn't heard of. Trust earned this way brings people back. Classic moves: a magnum for a large table, a half bottle of dessert wine, a by-the-glass pairing flight, a mature vintage for a special occasion.</p>
-<h3>Problems</h3>
-<ul><li><b>Faulty bottle:</b> taste it discreetly, agree, replace it, no argument.</li>
-<li><b>Guest dislikes a sound wine:</b> usually replace it and sell the bottle by the glass; offer an alternative that fits what they didn't like.</li>
-<li><b>Wrong vintage on the list:</b> tell the guest before opening and offer the alternative or a price adjustment.</li>
-<li><b>Corkage:</b> know the policy; taste the guest's wine if offered; treat their bottle with the same ceremony.</li>
-<li><b>Over-served guest:</b> responsible service is law and duty: slow down service, offer water and food, involve a manager.</li></ul>
+
+
+<h3>What the guest is feeling</h3>
+<p>Most people handed a wine list feel some anxiety. The list is long, the names are unfamiliar, the prices vary enormously, and the choice is made in front of companions, a client or a date. The fears are of overspending, of choosing badly, and of appearing ignorant. A sommelier who understands this will see the first task as removing the anxiety. That is done by manner, relaxed and unhurried, by making it easy for the guest to say what they want without technical language, and above all by making it safe to name a price.</p>
+<p>Guests differ in what they want from the exchange. Some know wine and wish to talk about it. Some wish only to be given something good without discussion. Some are hosting and want the choice to reflect well on them. Some are celebrating and want a sense of occasion. Reading which is in front of you, from how they hold the list, what they ask, and how the table is behaving, determines everything else, and the same recommendation delivered in the wrong register will fail.</p>
+
 <h3>Reading the table</h3>
 <table class="t"><tr><th>Guest</th><th>Signals</th><th>Approach</th></tr>
 <tr><td>The enthusiast</td><td>Asks about producers and vintages; goes straight to a region</td><td>Talk as a peer. Offer something off the beaten path. Never correct them in front of the table.</td></tr>
@@ -251,9 +246,17 @@ body:`
 <tr><td>The business host</td><td>Wants it handled quickly and well</td><td>Recognizable names, no long stories, a discreet check on budget.</td></tr>
 <tr><td>The celebration</td><td>An anniversary, a birthday, a deal</td><td>Start with bubbles; suggest one special bottle rather than two ordinary ones.</td></tr>
 <tr><td>The table that "doesn't know wine"</td><td>Apologizes before ordering</td><td>Ask what they drink at home, and translate. Make them feel clever, not taught.</td></tr></table>
+
+
 <h3>Questions that open, questions that close</h3>
 <ul><li><b>Good:</b> "What do you usually enjoy?" "Lighter or richer tonight?" "Something familiar, or shall I show you something new?" "What are you thinking of eating?"</li>
 <li><b>Poor:</b> "What's your budget?" "Do you know much about wine?" "Red or white?" as the only question. Each puts the guest on the spot or tells you nothing.</li></ul>
+
+
+<h3>Why questions work better than recommendations</h3>
+<p>A recommendation made before the guest has spoken is a guess. Two or three questions turn it into a fitted suggestion and, as important, make the guest feel heard. The useful questions concern what the table is eating, what they usually enjoy drinking, whether they want something familiar or something new, and the style they have in mind: lighter or fuller, crisp or rich. Naming a wine they have liked before is the most informative answer a guest can give, since it reveals taste and price range together. Open questions gather information early, and closed questions, offering a choice between two things, help a hesitant guest decide.</p>
+<p>The answers should be translated, since guests often use words loosely. "Dry" commonly means not fruity or not oaky. "Smooth" means low in tannin and acidity. "Not too heavy" may refer to alcohol, oak or body. Asking for an example settles it.</p>
+
 <h3>What guests say, and what they mean</h3>
 <table class="t"><tr><th>The guest says</th><th>Usually means</th><th>Offer</th></tr>
 <tr><td>"Dry"</td><td>Not sweet; sometimes "not fruity"</td><td>Clarify with an example: "like a Sancerre, or rounder like a Chardonnay?"</td></tr>
@@ -263,21 +266,70 @@ body:`
 <tr><td>"Something sweet"</td><td>Fruity, soft, low acid; sometimes truly sweet</td><td>Off-dry Riesling, Moscato d'Asti, or a ripe fruity red</td></tr>
 <tr><td>"Nothing too heavy"</td><td>Lower alcohol, less oak</td><td>Beaujolais, Loire reds, Albariño</td></tr>
 <tr><td>"Wine gives me a headache"</td><td>Often blames sulfites</td><td>Don't argue. Offer a lower-alcohol wine and water with it.</td></tr></table>
+
+
+<h3>Price without awkwardness</h3>
+<p>Guests rarely state a budget aloud, especially in front of clients or a date. The classic technique: show two or three wines on the list and let the host <b>point at a price</b> while saying "something like this." You see the number; nobody else needs to. Always include one option at or below their comfort point.</p>
+
+
 <h3>The three-option answer</h3>
 <p>Give three wines and three reasons: a <b>safe</b> one close to what they named, a <b>step up</b> in quality or price, and a <b>discovery</b> that costs less than the first. Each gets one sentence: the wine, why it fits the food, how it tastes. Then stop talking and let the host choose. The discovery is what makes a guest trust the next recommendation.</p>
+
+
+<h3>The psychology of price</h3>
+<p>Price is the subject guests least want to discuss aloud, particularly a host in front of guests, and the sommelier's job is to learn the budget without making anyone state it. The standard technique is to point to prices on the list while describing wines, so that the guest can respond by indicating one, or to offer a range of options at different levels and watch the reaction. Offering three is effective for a reason well established in studies of choice: given a low, a middle and a high option, most people choose the middle. The three should differ in style as well as price, and the lowest should be a wine the sommelier is glad to recommend.</p>
+<p>The cheapest wine on a list and the second cheapest deserve particular care. Many guests choose the second cheapest to avoid seeming mean, and a house that puts poor wine there betrays their trust. A guest who orders the least expensive bottle should be served with exactly the same attention as one who orders the most. The long-term value of a guest who trusts the list is far greater than the margin on one bottle.</p>
+
+<h3>Describing wine to guests</h3>
+<ul><li>Use texture and flavor words people know: "bright, crisp, like biting a green apple"; "rich and silky"; "earthy, savory."</li>
+<li>Connect to the food: "It'll cut right through the butter in that sauce."</li>
+<li>Avoid jargon unless the guest uses it first. Match their level.</li>
+<li>Tell one short story: the producer, the place, the history.</li></ul>
+
+
+<h3>Language that sells</h3>
+<p>A description should let the guest imagine the wine and decide whether they want it. That means plain words about what it will be like to drink: its weight, whether it is crisp or soft, dry or fruity, and one or two flavors a person can picture. It means comparison with something the guest knows, "like a richer Sancerre" or "lighter than a Napa Cabernet". And it often means a sentence of story, the family that makes it, the old vines, the hillside, which gives a guest something to tell their companions and makes the wine memorable. A list of six aromas means little to most people, and technical terms such as malolactic or phenolic are for colleagues.</p>
+<p>Enthusiasm is persuasive when it is real. A sommelier who says a wine is a personal favorite, and can say why, will sell it. Honesty is equally persuasive: steering a guest away from an expensive bottle that is not showing well, toward a cheaper one that is, earns trust that pays back many times.</p>
+
+<h3>Upselling the right way</h3>
+<p>Upselling means suggesting the wine that improves the meal, sometimes the more expensive bottle, sometimes a better-value one the guest hasn't heard of. Trust earned this way brings people back. Classic moves: a magnum for a large table, a half bottle of dessert wine, a by-the-glass pairing flight, a mature vintage for a special occasion.</p>
+
+
+<h3>Selling up without pushing</h3>
+<p>There is a clear line between suggesting something better and pressing a guest to spend more than they wish. The first is service. It consists of offering options the guest may not have considered, a half bottle of something to start, a second bottle of a different kind, a glass of sweet wine with dessert, a better wine at a modest step up in price that suits the food particularly well, and of doing so once, with a reason, and accepting the answer. The second damages the relationship and is noticed immediately. The test is whether the guest will be glad afterward that the suggestion was made.</p>
+<p>Much selling up is a matter of timing and attention. An empty bottle with the main course still to come is an opportunity to ask whether the table would like another. Aperitifs sell when offered as guests sit down, and after-dinner drinks when offered with the dessert menu. Water, coffee and by-the-glass pairings all follow the same principle: offer at the moment of need.</p>
+
 <h3>Timing</h3>
 <ul><li>Reach the table within two minutes of the menus, even just to say you'll be back.</li>
 <li>Have the first wine poured before the first food arrives.</li>
 <li>Ask about a second bottle when the first is about two-thirds gone, not when it is empty.</li>
 <li>Two guests each on a second glass of the same wine: tell them the bottle costs less. They will remember that you saved them money.</li>
 <li>Offer dessert wine with the dessert menu, not after the plates land.</li></ul>
+
+
+<h3>Problems</h3>
+<ul><li><b>Faulty bottle:</b> taste it discreetly, agree, replace it, no argument.</li>
+<li><b>Guest dislikes a sound wine:</b> usually replace it and sell the bottle by the glass; offer an alternative that fits what they didn't like.</li>
+<li><b>Wrong vintage on the list:</b> tell the guest before opening and offer the alternative or a price adjustment.</li>
+<li><b>Corkage:</b> know the policy; taste the guest's wine if offered; treat their bottle with the same ceremony.</li>
+<li><b>Over-served guest:</b> responsible service is law and duty: slow down service, offer water and food, involve a manager.</li></ul>
+
+
+<h3>When things go wrong</h3>
+<p>Complaints and mishaps are the test of a professional, and the same approach applies to nearly all of them. Listen without interrupting, acknowledge the problem without arguing, apologize, fix it quickly, and follow up. A guest who believes a wine is faulty is given another, whether or not the sommelier agrees, since proving the guest wrong at the table wins nothing. A guest who simply dislikes a recommended wine should have it replaced gracefully, because the recommendation was the sommelier's responsibility. A spill is dealt with at once and the cleaning offered. A wrong bottle opened is the restaurant's cost.</p>
+<p>The harder cases involve judgment. A guest who has had too much to drink must be refused further service, for legal reasons as well as for their safety, and this is done quietly, with the support of a manager, by slowing service, offering food and water, and speaking privately if necessary. A guest who is rude to staff is handled with calm firmness. A host whose guests are ordering beyond what the host seems comfortable with can be helped by discreetly directing suggestions to the host. In every case the aim is to solve the problem without drawing the attention of the room.</p>
+
 <h3>Things a professional never does</h3>
 <ul><li>Disparage what the guest ordered, or what they usually drink.</li>
 <li>Recommend only from the top of the list.</li>
 <li>Pour the bottle out quickly to force a second one.</li>
 <li>Correct a guest's pronunciation.</li>
 <li>Promise a wine without checking that it is in the cellar.</li></ul>
-<p>Keep a note on regulars: what they drank, what they loved, what they spent. Greeting a returning guest with "we have the new vintage of the Barolo you enjoyed in March" sells more wine than any technique on this page.</p>`,
+<p>Keep a note on regulars: what they drank, what they loved, what they spent. Greeting a returning guest with "we have the new vintage of the Barolo you enjoyed in March" sells more wine than any technique on this page.</p>
+
+<h3>Hospitality as the foundation</h3>
+<p>Technical knowledge and service skills are requirements of the job, and neither is what guests remember. They remember how they were made to feel: welcomed, attended to, unhurried, treated as individuals. The best sommeliers remember returning guests and what they drank, notice an occasion and mark it, sense when a table wants conversation and when it wants to be left alone, and take as much trouble over a modest order as a grand one. Examiners score this as hospitality and salesmanship. In a restaurant it is what turns a first visit into a habit, and it is the part of the work that cannot be learned from a book and must be practiced on the floor.</p>
+`,
 floor:`<p>In the CMS practical, examiners play guests who change their minds, ask about producers, and test whether you remember who ordered what. Keep a mental map of the table, address the host, and keep conversation flowing while your hands work.</p>`,
 analyst:`<p>WSET Level 3 LO5 includes "advice to customers": recommending wines for occasions and foods with reasons. Diploma D2 frames the same skill commercially: consumer behavior, pricing psychology and channel strategy.</p>`,
 terms:[["Point-at-price","Letting the host point to a price on the list to signal budget discreetly."],["Corkage","Fee for opening a guest's own bottle."],["Guest language","Plain, sensory descriptions instead of technical terms."],["Three-option answer","A safe choice, a step up and a discovery, each with one reason."],["Guest notes","A record of what regular guests drank, liked and spent."],["Step up","A recommendation one level higher in quality or price."]],
@@ -296,8 +348,10 @@ quiz:[
 ]});
 
 L.push({id:"s7", unit:"S1", title:"Running a Wine Program", mins:15,
-summary:"Building a list, buying, cellaring, by-the-glass economics and the three-tier system.",
+summary:"Designing a list for a particular room, why the glass program carries the business, the supply chain, the cellar as a system, training and the law.",
 body:`
+<p>A wine director is a buyer, a merchant, a teacher, a stock controller and a salesperson, and in most restaurants spends more hours on those tasks than on opening bottles for guests. This chapter describes how a wine program is designed and run. Its theme is that every decision, what to list, how to price, what to pour by the glass, how to train, should follow from a clear idea of what the restaurant is and who its guests are.</p>
+
 <h3>Designing the list</h3>
 <ul><li><b>Fit the restaurant:</b> cuisine, price point, guests, storage space.</li>
 <li><b>Core and rotation:</b> reliable staples guests return for, plus rotating discoveries.</li>
@@ -305,27 +359,53 @@ body:`
 <li><b>Organization:</b> by country and region (traditional), by style from light to full (a "progressive" list, guest-friendly), or by grape. Keep one logic throughout.</li>
 <li><b>Price ladder:</b> every section has an entry, middle and splurge option.</li>
 <li><b>Accuracy:</b> producer, wine, appellation, vintage, bin number. Errors cost trust and money.</li></ul>
+
+
+<h3>The list as a statement of purpose</h3>
+<p>A wine list is the most visible expression of a program, and a good one is designed for a particular room. The questions that shape it come before any wine is chosen. What is the cuisine, and which wines suit it? What do guests spend on a meal, and so on a bottle? How many of them are regulars, visitors, business diners, enthusiasts? How much storage is there, and how much capital may be tied up? How many staff will sell the list, and how much do they know? A neighborhood bistro with forty wines, chosen to suit the menu and priced for weekly visits, has a better list than one with four hundred that nobody on the floor can describe.</p>
+<p>Within those limits a list needs balance and character. Balance means that a guest of any taste and budget finds something: familiar names for those who want reassurance, a spread of prices with real choice at the lower end, a range of styles in each color. Character means a point of view, a region in depth, a commitment to small growers, a strength in mature wines, that gives the restaurant an identity and gives guests a reason to explore. The proportion is a matter of judgment. Too little of the familiar and guests feel lost; too much and the list could belong to anyone.</p>
+<p>Organization should serve the guest. Lists are arranged by country and region, by grape variety, or by style and weight, and the last is easiest for a guest without specialist knowledge. Whatever the system, each entry needs the producer, the wine, the place, the vintage and the price, stated accurately, and the list must be kept current: a guest told that the first two wines chosen are unavailable has been let down before the meal begins.</p>
+
+<h3>Engineering the list</h3>
+<ul><li>Guests read the top and bottom of each section more than the middle. Put wines you are proud of there.</li>
+<li>Don't sort strictly by price: it turns the list into a price comparison. Sort by style or weight within a section.</li>
+<li>A one-line description sells more than a score.</li>
+<li>Keep one page of "sommelier's selections" for wines that need a voice.</li>
+<li>Reprint often. A list full of "sorry, we're out of that" teaches guests not to trust it.</li></ul>
+
+
 <h3>By the glass</h3>
 <p>The by-the-glass list is often the highest-margin part of a program and the place guests try new things. Price a glass so that the first pour or two covers the bottle cost (a common rule of thumb), then protect the rest with preservation: inert gas, Coravin-style systems for premium pours, and strict rotation. Track open bottles daily.</p>
+
+
+<h3>Building the by-the-glass list</h3>
+<ul><li><b>Size:</b> 10 to 20 wines suit most restaurants. More than the staff can describe is too many.</li>
+<li><b>Coverage:</b> at least one sparkling, a crisp white, an aromatic white, a rich white, a rosé, a light red, a medium red, a full red and something sweet.</li>
+<li><b>Price spread:</b> a clear entry glass, a cluster in the middle, one or two premium pours under a preservation system.</li>
+<li><b>Familiar and new:</b> a guest should always find one name they know and one they don't.</li>
+<li><b>Pour size:</b> 5 or 6 oz, stated on the list, with half-glasses or carafes if the room suits them.</li></ul>
+
+
+<h3>Why the glass program carries the business</h3>
+<p>In most restaurants wines by the glass account for a large share of wine sales, often more than half, and a still larger share of guests' experience, since many never order a bottle. The selection must therefore do several things in few slots: cover the main styles, suit the menu, include safe choices and at least one or two that are interesting, and turn over fast enough that open bottles do not spoil. Each wine is costed so that the first glass roughly pays for the bottle. Freshness is managed by matching the number of wines to the volume of trade, by dating open bottles, by tasting them at the start of each service, and by preservation systems for the slower and more expensive pours.</p>
+<p>The glass list is also the best tool for introducing guests to something new, since a glass is a small commitment, and for moving stock: a wine that is not selling by the bottle can be poured by the glass, and the last bottles of a bin can be offered as a special. Pairings by the glass with a tasting menu combine both functions.</p>
+
 <h3>Buying</h3>
 <p>In the US, alcohol moves through the <b>three-tier system</b> created after Prohibition: producer/importer → distributor (wholesaler) → retailer or restaurant. Distributors control access; relationships with reps matter for <b>allocations</b> of scarce wines. Watch for closeouts and quantity discounts, but don't overbuy slow sellers. Rules vary by state (some allow direct shipping or self-distribution).</p>
-<h3>Cellar and inventory</h3>
-<ul><li>Assign bin numbers, store by bin, and match list to physical stock.</li>
-<li>Count at least monthly; reconcile against sales (variance analysis).</li>
-<li>Rotate first in, first out; track drinking windows of aging stock.</li>
-<li>Keep temperature at 50-60°F (10-15°C) and humidity about 60-70%.</li></ul>
-<h3>Staff and service</h3>
-<p>The sommelier can't be at every table. Train servers with short daily tastings ("pre-shift") on two wines: how to describe them, what they pair with, what they cost. A server who can sell the by-the-glass list moves more wine than any list design.</p>
-<h3>Events and growth</h3>
-<p>Winemaker dinners, tasting flights, wine clubs, retail bottle sales (where licensing allows), and private events build revenue and loyalty.</p>
-<h3>The week of a wine director</h3>
-<table class="t"><tr><th>When</th><th>Task</th></tr>
-<tr><td>Daily</td><td>Check open bottles; pre-shift tasting with the staff; update the list for anything sold out</td></tr>
-<tr><td>Twice a week</td><td>Place orders against par levels; taste with distributor reps</td></tr>
-<tr><td>On delivery</td><td>Receive and check every case; put stock away by bin</td></tr>
-<tr><td>Weekly</td><td>Review sales by item; reprint or republish the list</td></tr>
-<tr><td>Monthly</td><td>Full inventory count; cost percentage and variance; a staff class</td></tr>
-<tr><td>Seasonally</td><td>Rework the by-the-glass list with the menu; review dead stock and pricing</td></tr></table>
+
+
+<h3>Working with suppliers</h3>
+<ul><li>Most programs buy from five to ten distributors. Each has minimum orders and delivery days.</li>
+<li><b>Allocations</b> of scarce wines go to accounts that support the rest of a portfolio. Loyalty is the currency.</li>
+<li>Payment terms are set by state law in the US, and many states forbid suppliers from giving restaurants anything of value: the "tied-house" rules. Know yours before accepting free goods.</li>
+<li>Taste before buying, and taste again with food. A wine that shines alone can vanish on the menu.</li>
+<li>For mature bottles, auctions and private cellars are options where state law allows; check provenance as you would for any old wine.</li></ul>
+
+
+<h3>How wine reaches a restaurant</h3>
+<p>A buyer works through a chain of intermediaries, and understanding it explains prices and availability. A producer sells to an importer, who brings the wine into the country, and the importer sells to a distributor or wholesaler, who sells to restaurants and shops. In the United States the law in most states requires these tiers to be separate, and each adds its margin. In Europe the chain is often shorter, and restaurants may buy directly from producers or from merchants. Rare wines are sold on allocation: the producer or importer decides how many bottles each customer may have, and allocations are earned over years by supporting the rest of a supplier's range.</p>
+<p>The relationship with suppliers is therefore a long-term asset. A buyer who pays on time, tastes with representatives, takes wines beyond the famous few and communicates plainly will be offered scarce bottles, better prices, mature stock and staff training. A buyer should still taste everything before listing it, compare prices between suppliers where the same wine is available, and resist buying what is not needed because the deal seemed good. Stock that does not sell is the most expensive wine in the cellar.</p>
+
 <h3>Receiving: the five checks</h3>
 <p>More money is lost at the back door than in the dining room. Before signing any invoice, check:</p>
 <ol><li><b>Item and vintage</b> against the order. Distributors roll to the next vintage without asking.</li>
@@ -333,24 +413,18 @@ body:`
 <li><b>Price</b> against the quote.</li>
 <li><b>Condition:</b> leaking capsules, stained labels, pushed corks.</li>
 <li><b>Temperature.</b> Refuse wine that arrives hot from a truck in summer; the damage won't show until a guest tastes it.</li></ol>
-<h3>Building the by-the-glass list</h3>
-<ul><li><b>Size:</b> 10 to 20 wines suit most restaurants. More than the staff can describe is too many.</li>
-<li><b>Coverage:</b> at least one sparkling, a crisp white, an aromatic white, a rich white, a rosé, a light red, a medium red, a full red and something sweet.</li>
-<li><b>Price spread:</b> a clear entry glass, a cluster in the middle, one or two premium pours under a preservation system.</li>
-<li><b>Familiar and new:</b> a guest should always find one name they know and one they don't.</li>
-<li><b>Pour size:</b> 5 or 6 oz, stated on the list, with half-glasses or carafes if the room suits them.</li></ul>
-<h3>Working with suppliers</h3>
-<ul><li>Most programs buy from five to ten distributors. Each has minimum orders and delivery days.</li>
-<li><b>Allocations</b> of scarce wines go to accounts that support the rest of a portfolio. Loyalty is the currency.</li>
-<li>Payment terms are set by state law in the US, and many states forbid suppliers from giving restaurants anything of value: the "tied-house" rules. Know yours before accepting free goods.</li>
-<li>Taste before buying, and taste again with food. A wine that shines alone can vanish on the menu.</li>
-<li>For mature bottles, auctions and private cellars are options where state law allows; check provenance as you would for any old wine.</li></ul>
-<h3>Engineering the list</h3>
-<ul><li>Guests read the top and bottom of each section more than the middle. Put wines you are proud of there.</li>
-<li>Don't sort strictly by price: it turns the list into a price comparison. Sort by style or weight within a section.</li>
-<li>A one-line description sells more than a score.</li>
-<li>Keep one page of "sommelier's selections" for wines that need a voice.</li>
-<li>Reprint often. A list full of "sorry, we're out of that" teaches guests not to trust it.</li></ul>
+
+
+<h3>Cellar and inventory</h3>
+<ul><li>Assign bin numbers, store by bin, and match list to physical stock.</li>
+<li>Count at least monthly; reconcile against sales (variance analysis).</li>
+<li>Rotate first in, first out; track drinking windows of aging stock.</li>
+<li>Keep temperature at 50-60°F (10-15°C) and humidity about 60-70%.</li></ul>
+
+
+<h3>The cellar as a working system</h3>
+<p>The physical organization of storage decides how smoothly service runs. Each wine has a location, a bin number recorded on the list or in the inventory system, so that anyone can find it quickly. Wines for immediate service are kept at serving temperature close to the floor, with reserves in the main cellar. New deliveries are placed behind existing stock. Counts are easier and more accurate when storage is orderly, and modern inventory software, linked to the till, records every sale against stock and flags what is running low. The discipline is unglamorous and it is the difference between a program that knows what it has and one that discovers shortages at the table.</p>
+
 <h3>Numbers the owner will ask for</h3>
 <table class="t"><tr><th>Measure</th><th>What it shows</th></tr>
 <tr><td>Wine cost percentage</td><td>Pricing and control</td></tr>
@@ -359,10 +433,44 @@ body:`
 <tr><td>Inventory value and turnover</td><td>Cash tied up in the cellar</td></tr>
 <tr><td>Variance</td><td>Losses from pouring, waste or theft</td></tr>
 <tr><td>Dead stock</td><td>Buying mistakes</td></tr></table>
+
+
+<h3>Staff and service</h3>
+<p>The sommelier can't be at every table. Train servers with short daily tastings ("pre-shift") on two wines: how to describe them, what they pair with, what they cost. A server who can sell the by-the-glass list moves more wine than any list design.</p>
+
+
 <h3>Training that sticks</h3>
 <p>Five minutes before every service: one wine, tasted by everyone, with three facts on a card: what it is, what it tastes like in plain words, and which two dishes to sell it with. Once a month, a longer class on one region. A server who has tasted a wine sells it; a server who has only read about it recommends the house pour.</p>
+
+
+<h3>Why training is the best investment</h3>
+<p>In most restaurants the sommelier speaks to a minority of tables. The servers sell most of the wine, and a program is only as good as their ability to describe and recommend it. Staff who are unsure avoid the subject or default to the cheapest familiar name. Staff who have tasted the wines and can say one true, appealing thing about each sell more, sell better, and enjoy the work more, which reduces turnover.</p>
+<p>Effective training is short, frequent and practical. A few minutes before each service, tasting one or two wines with the dishes they suit, does more than an occasional long seminar. The aim is confidence with a small number of wines, built up over time: what it tastes like in plain words, what to serve it with, one fact about where it comes from. Staff should also be trained in the mechanics of service, in responsible service of alcohol, and in when to call the sommelier. Incentives, such as recognition for the best sales of a featured wine, help, provided they reward what is good for the guest.</p>
+
+<h3>The week of a wine director</h3>
+<table class="t"><tr><th>When</th><th>Task</th></tr>
+<tr><td>Daily</td><td>Check open bottles; pre-shift tasting with the staff; update the list for anything sold out</td></tr>
+<tr><td>Twice a week</td><td>Place orders against par levels; taste with distributor reps</td></tr>
+<tr><td>On delivery</td><td>Receive and check every case; put stock away by bin</td></tr>
+<tr><td>Weekly</td><td>Review sales by item; reprint or republish the list</td></tr>
+<tr><td>Monthly</td><td>Full inventory count; cost percentage and variance; a staff class</td></tr>
+<tr><td>Seasonally</td><td>Rework the by-the-glass list with the menu; review dead stock and pricing</td></tr></table>
+
+
+<h3>Events and growth</h3>
+<p>Winemaker dinners, tasting flights, wine clubs, retail bottle sales (where licensing allows), and private events build revenue and loyalty.</p>
+
+
+<h3>Building a program over time</h3>
+<p>A wine program grows in reputation through the things it does beyond the nightly list. Dinners with visiting winemakers, themed tastings, pairing menus and classes bring in guests on quiet nights, deepen the loyalty of regulars and attract the attention of the press and of suppliers. A list entered for awards, a presence in guides and online, and word of mouth among enthusiasts all draw a kind of guest who spends on wine. Private dining and corporate events are an important source of beverage revenue and reward careful planning of menus and quantities.</p>
+<p>Growth should be deliberate. A cellar can be built by laying down a few cases each year of wines that will improve, bought on release when prices are lowest, so that in five or ten years the restaurant can offer mature bottles at fair prices, an attraction no newly opened competitor can match.</p>
+
 <h3>The law</h3>
-<p>Selling alcohol is a licensed privilege. The wine director is responsible for checking age, refusing service to intoxicated guests, keeping to licensed hours and knowing the local rules on corkage and carrying out unfinished bottles. In many US states "dram shop" laws make the business liable for harm caused by a guest it over-served.</p>`,
+<p>Selling alcohol is a licensed privilege. The wine director is responsible for checking age, refusing service to intoxicated guests, keeping to licensed hours and knowing the local rules on corkage and carrying out unfinished bottles. In many US states "dram shop" laws make the business liable for harm caused by a guest it over-served.</p>
+
+<h3>Responsibility</h3>
+<p>The sale of alcohol is licensed and regulated everywhere, and a wine director is responsible for compliance. The essentials are common to most jurisdictions: alcohol may not be served to anyone under the legal age, which requires checking identification where there is doubt, nor to anyone who is visibly intoxicated, and in many places the establishment and the server can be held liable for harm done by a guest who was served too much. Hours of sale, the purchase of stock only from licensed sources, the keeping of records, and rules on guests bringing or taking away wine are all fixed by local law, which varies widely and must be learned for the place of work. Beyond the law there is a duty of care. Knowing how to slow service tactfully, to offer food and water, and to arrange a safe way home is part of the profession.</p>
+`,
 floor:`<p>The Advanced practical's business component checks you can think like a beverage director: inventory, pricing, purchasing and list accuracy. Run the Service Floor math drills until they're automatic.</p>`,
 analyst:`<p>Diploma D2 (Wine Business) covers routes to market, the three-tier system, pricing, distribution, branding and marketing. MW Theory Paper 4 is the business of wine.</p>`,
 terms:[["Three-tier system","US alcohol distribution: producer/importer, distributor, retailer/restaurant."],["Allocation","Limited quantity of a scarce wine assigned to a buyer."],["Bin number","Storage location code matching the list to stock."],["Pre-shift","Short staff briefing and tasting before service."],["Receiving","Checking a delivery against the order before signing for it."],["Tied-house laws","US rules that stop suppliers giving things of value to retailers."],["Dram shop law","Law making a business liable for harm done by a guest it over-served."],["List engineering","Arranging a wine list so that placement and description guide choices."]],

@@ -1,10 +1,20 @@
 // ===== CURRICULUM PART 5: Floor, Beyond Wine, Written Paper, Capstone =====
 L.push({id:"s1", unit:"S1", title:"Still Wine Service", mins:14,
-summary:"The CMS standard, step by step, and why each step exists.",
+summary:"The purpose behind each step of still wine service, from mise en place to the pour, plus faults at the table and scaling formality to the room.",
 body:`
 <p>Court service standards are more formal than most restaurants require, on purpose: if you can perform them cleanly under an examiner's eye, you can work any room. Every step has a reason, usually guest comfort, hygiene, or proof that the bottle is sound.</p>
+
+
+<p>The sequence taught for examinations can look like ritual for its own sake. Each step has a purpose, and the purposes are of three kinds: to protect the wine, to protect the guest's right to choose and refuse, and to keep the table calm and the service invisible. A candidate who understands which purpose each step serves will perform it naturally and will know what to do when something goes wrong, which is what examiners test.</p>
+
 <h3>Mise en place</h3>
 <p>Carry two wine openers, two pens, a notepad, and two odorless lighters (for decanting candles). Polish glassware over steam with linen. Only stemware touches the tablecloth; bottles, corks and decanters sit on underliners (small plates). Carry glasses to the table on a lined tray.</p>
+
+
+<h3>Why preparation is most of the job</h3>
+<p>The French phrase means "put in place", and in service it covers everything done before approaching the table. The principle is that the sommelier should never have to leave a table in the middle of serving a bottle to fetch something. A missing coaster, a dirty glass or a forgotten cloth interrupts the guest's evening and shows a lack of control. Before service begins, glasses are polished and checked, service cloths folded, corkscrews and backup corkscrews in pockets, coasters and underliners stacked, ice buckets and stands ready, decanters clean and dry, and the temperatures of the service refrigerators checked. Before each bottle, the correct glasses are set, the bottle is confirmed against the order, including producer, wine, vintage and size, and it is carried to the table with everything needed to open it.</p>
+<p>The same discipline applies to knowledge. The sommelier should know before service what is out of stock, what has changed vintage, which wines are in good condition, and what the kitchen is serving, so that a recommendation never has to be withdrawn.</p>
+
 <h3>The sequence</h3>
 <ol><li><b>Take the order</b> and repeat it back, including vintage. The host is whoever ordered the wine.</li>
 <li><b>Set glassware</b> from the guest's right.</li>
@@ -18,13 +28,25 @@ body:`
 <li><b>Serve</b> once approved: clockwise around the table regardless of gender, guest of honor first if there is one, host last. (Older and European standards serve women first; the Americas standard has dropped this.) Wipe the bottle neck between pours.</li>
 <li><b>Fill levels:</b> still wine up to about half the glass (less in large Burgundy bowls).</li>
 <li><b>Place the bottle</b> on the table on an underliner, or in a chiller for whites, label facing the host. Offer to top up through the meal.</li></ol>
+
+
 <h3>Why the details matter</h3>
 <ul><li>Cutting below the second lip and wiping prevents metallic or moldy contact with the wine.</li>
 <li>Serving from the right keeps your arm clear of the guest and is the universal beverage side.</li>
 <li>Presenting the cork lets the host see that it is sound, damp at one end, and matches the bottle (a historical anti-fraud check).</li>
 <li>Pouring the host's taste first is fault control, not courtesy theater.</li></ul>
+
+
+<h3>The logic of each step</h3>
+<p><strong>Presentation.</strong> The bottle is shown to the person who ordered it, label facing them, and the producer, wine and vintage are stated aloud. This is the last moment at which a mistake can be corrected at no cost. A wrong vintage, or a wine from a different vineyard of the same producer, may differ greatly in price and character, and once the cork is drawn the restaurant owns the error.</p>
+<p><strong>Opening.</strong> The foil is cut below the lower lip of the bottle so that wine does not run over the cut edge as it is poured, and so that no metal touches the wine. The top of the cork is wiped, because mold or residue under the capsule is common on older bottles and harmless. The corkscrew is inserted at the center and turned without turning the bottle, which stays still with its label toward the guest, and the cork is drawn quietly and straight. The lip is wiped again. The cork is placed on a side plate for the host, who may look at it. Its condition says something, whether it is saturated, dry or crumbling, and the branding confirms authenticity, but smelling it tells little, and the guest should never be made to feel that a ritual is expected of them.</p>
+<p><strong>The taste.</strong> A small pour is given to the host, who is checking for one thing: whether the wine is sound. It is not an invitation to decide whether they like it. If the host is unsure, the sommelier may smell or taste the wine and give an honest judgment. A faulty bottle is replaced without discussion.</p>
+<p><strong>Pouring.</strong> Guests are served clockwise from the host's left, with the guests of honor and then others before the host, who is served last; older custom serves women first. The bottle is held so the label is visible, the glass stays on the table, and the pour stops well short of full, typically about a third for a large glass, both to allow the wine to be swirled and to make sure the bottle goes around the table. A slight twist at the end of each pour and a touch of the cloth prevents drips. The bottle is then placed on a coaster within the host's reach or, for a white, in a bucket nearby, with the label facing the table.</p>
+
 <h3>The numbers every server needs</h3>
 <p>A 750 ml bottle holds 25.4 oz. That is five 5-oz glasses, six 4-oz glasses or eight 3-oz tastes. For a table of seven, pour 3.5 oz each and the bottle goes round once with a little left; never run dry before reaching the host. A magnum is two bottles. Count the table before you pour the first glass.</p>
+
+
 <h3>Hands, feet and posture</h3>
 <ul><li>Stand at the guest's right, pour with your right hand, label toward the guest.</li>
 <li>The bottle never touches the rim of the glass. Finish each pour with a small twist and a wipe of the serviette to catch the drip.</li>
@@ -32,6 +54,12 @@ body:`
 <li>Move clockwise around the table and never reach across a guest.</li>
 <li>Do not turn your back on the table to open a bottle; open it in sight of the host.</li>
 <li>Speak while you work: say what the wine is, and answer questions without stopping.</li></ul>
+
+
+<h3>Why manner matters</h3>
+<p>The physical rules, serving from the guest's right with the right hand, never reaching across, never touching the rim of a glass, keeping the cloth folded and clean, are conventions that let service happen without the guest noticing it. A guest in conversation should not have to lean away, move a hand or stop talking. Consistency also lets a team work together, since every member knows where a colleague will be standing. The posture expected, upright, unhurried, with the bottle under control, signals competence, and guests relax when they sense that the person serving them knows the work.</p>
+<p>Speech follows the same principle. The sommelier names the wine, answers questions briefly, and does not lecture. Technical language is used only if the guest uses it first. Silence at the right moment is part of good service.</p>
+
 <h3>When the bottle is not ordinary</h3>
 <table class="t"><tr><th>Situation</th><th>What to do</th></tr>
 <tr><td>Screwcap</td><td>Present the bottle as usual. Hold the cap in a serviette and turn the bottle to break the seal quietly. Pocket the cap; there is nothing to present.</td></tr>
@@ -41,13 +69,27 @@ body:`
 <tr><td>Second bottle of the same wine</td><td>Give the host a fresh glass to taste the new bottle. Every bottle can be corked.</td></tr>
 <tr><td>A different wine follows</td><td>Fresh glasses for everyone, set before the first wine's glasses are cleared.</td></tr>
 <tr><td>A guest is not drinking</td><td>Remove the glass quietly; do not ask twice.</td></tr></table>
+
+
 <h3>Two wines at once</h3>
 <p>Set the glass for the first wine nearest the guest's right hand, with the next glass above and to the left of it. Serve white before red, light before full, dry before sweet, unless the host directs otherwise.</p>
+
+
 <h3>Fixing the temperature</h3>
 <ul><li><b>Too warm:</b> a bucket of ice <i>and water</i> chills far faster than ice alone, because water touches the whole bottle. A handful of salt speeds it further. A white drops from room temperature to serving temperature in about 15 minutes; a warm red needs five.</li>
 <li><b>Too cold:</b> pour, and let the guest warm the glass in the hand. Never put a bottle near heat.</li></ul>
+
+
+<h3>Faults at the table</h3>
+<p>A sommelier must recognize the common faults at once and know what to do. <strong>Cork taint</strong>, caused by a compound formed when molds meet chlorine compounds in cork or wood, gives a smell of damp cardboard or a moldy cellar and dulls the fruit; at low levels the wine simply seems muted. It affects perhaps one to three bottles in a hundred sealed with natural cork, and it cannot be removed. <strong>Oxidation</strong> shows as a brownish color and a flat, nutty, bruised-apple smell in a wine that should be fresh. <strong>Heat damage</strong> gives a stewed, jammy character and often a raised cork. <strong>Reduction</strong> gives smells of struck match, rubber or rotten egg, from sulfur compounds formed in the absence of oxygen; mild cases often clear with air, and decanting is the remedy. <strong>Volatile acidity</strong> smells of vinegar or nail polish remover. <strong>Brettanomyces</strong>, a yeast, gives aromas of stable, leather or sticking plaster, which some drinkers accept in small amounts as character.</p>
+<p>Harmless things are sometimes mistaken for faults and should be explained with tact: crystals of tartrate, which look like sugar or glass and form when a wine has been chilled; sediment in old reds and unfiltered wines; a slight spritz in a young white. When a guest rejects a sound wine, the usual practice is to replace it graciously and without argument, since the cost of the bottle is small beside the goodwill of the table, and the wine can often be sold by the glass.</p>
+
 <h3>Where candidates lose marks</h3>
-<p>Examiners report the same errors every year: forgetting to wipe the lip, drips on the cloth, serving out of order, running out of wine before the host, not knowing the vintage or the producer, and silence. None of them is about knowledge. All of them disappear with repetition, which is why you should open and serve a real bottle to a real table every week, saying each step aloud.</p>`,
+<p>Examiners report the same errors every year: forgetting to wipe the lip, drips on the cloth, serving out of order, running out of wine before the host, not knowing the vintage or the producer, and silence. None of them is about knowledge. All of them disappear with repetition, which is why you should open and serve a real bottle to a real table every week, saying each step aloud.</p>
+
+<h3>From examination to restaurant</h3>
+<p>Few restaurants require the full formal sequence at every table, and a sommelier who performed it rigidly in a casual room would seem absurd. The skill is to scale the service to the setting while keeping what matters: the right wine, at the right temperature, in a clean glass, confirmed with the guest, opened cleanly, checked for soundness, poured fairly, and attended to through the meal. The formal standard is practiced because a person who can perform the complete version without thinking has attention left for the guests, and because it is far easier to relax a learned discipline than to produce one on demand.</p>
+`,
 floor:`<p>The Certified service exam is about 16 minutes. Common tasks: open sparkling and serve a table; pour wines by the glass; choose a pairing from several dishes and explain why; recommend a wine for a dish naming region, producer and vintage; recognize top producers and suggest similar ones. Examiners also score salesmanship and poise: smile, make eye contact, keep talking while you work.</p>`,
 analyst:`<p>WSET Level 3 LO5 covers storage and service at a principles level: temperatures, glassware, opening and decanting, preserving opened wine (vacuum pumps, inert gas, refrigeration). Sample short-answer prompt: "How should the wine be preserved once opened?"</p>`,
 terms:[["Underliner","Small plate placed under bottles, corks and decanters."],["Host","The guest who ordered the wine; tastes first, served last."],["Guéridon","Side table used for decanting and service."],["Serviette","Service napkin."],["Ah-So","Two-pronged cork puller for old or fragile corks."],["Durand","A corkscrew and Ah-So combined, for very old corks."],["Waiter's friend","The folding, hinged corkscrew sommeliers carry."],["Magnum","A 1.5-liter bottle, equal to two standard bottles."]],
@@ -67,8 +109,10 @@ quiz:[
 ]});
 
 L.push({id:"s2", unit:"S1", title:"Sparkling Service and Decanting", mins:14,
-summary:"Opening Champagne with a sigh, and decanting an old red over a candle.",
+summary:"The physics of a Champagne bottle, what sediment is and how to leave it behind, when air helps and when it harms, and managing old bottles.",
 body:`
+<p>Two procedures in wine service carry real risk: opening a bottle under pressure and separating an old wine from its sediment. Both are tested closely in examinations and both go wrong in restaurants more often than they should. This chapter explains the physics of each, since a server who knows why a cork flies or why sediment stirs will handle the bottle correctly without having to remember a list.</p>
+
 <h3>Sparkling wine service</h3>
 <p>A Champagne bottle holds about 5-6 atmospheres of pressure, roughly triple a car tire. A loose cork can blind someone. Every rule here is safety first, elegance second.</p>
 <ol><li>Present the bottle (chilled, about 42-50°F) on a serviette.</li>
@@ -78,6 +122,23 @@ body:`
 <li>Hold the bottle at about 45°, pointed away from guests, and <b>twist the bottle, not the cork</b>.</li>
 <li>Ease the cork out so the gas escapes with a quiet sigh, never a pop. A pop wastes wine and bubbles, and it is loud in a dining room.</li>
 <li>Present the cork on an underliner, pour the host a taste, then serve: fill to no more than three-quarters, in no more than two pours (pour, let the mousse settle, top up).</li></ol>
+
+
+<h3>The physics of a Champagne bottle</h3>
+<p>A bottle of Champagne holds gas at about six atmospheres, roughly three times the pressure of a car tire, and a cork that leaves the bottle uncontrolled can travel at over forty kilometers an hour. Eye injuries from corks are well documented. Every step of the procedure exists to keep the cork under control from the moment the cage is loosened. That is why a thumb or the palm stays over the cork once the wire is untwisted, why the cage is loosened and left on to give a better grip, and why the bottle is pointed away from guests and from anything breakable.</p>
+<p>Pressure rises with temperature and with agitation. A warm bottle, or one that has been shaken or carried roughly, will gush when opened, wasting wine and embarrassing the server. The bottle should be thoroughly chilled, to about 43 to 48°F, and handled gently. It is held at an angle of about forty-five degrees while it is opened, which increases the surface of the wine exposed in the neck and lets the gas escape more gently. The bottle is turned and the cork held still, since the larger diameter of the base gives more turning force and control, and the cork is eased out against the pressure so that the gas escapes with a soft sigh. A loud pop means lost gas and is considered poor form in fine service.</p>
+<p>Pouring is done in two stages because the wine foams on contact with the glass. A small amount is poured, the foam is allowed to subside, and the glass is then filled to about two thirds. Pouring down the side of a tilted glass preserves more of the dissolved gas, though formal service usually pours into an upright glass on the table. The bottle then goes into a bucket filled with ice and water, which chills far more effectively than ice alone because water conducts the cold to the whole surface of the glass.</p>
+
+<h3>Sparkling: the details that decide the mark</h3>
+<ul><li><b>Cold first.</b> Gas stays dissolved in cold wine. A warm or shaken bottle gushes however carefully it is opened. From room temperature, allow 20 to 25 minutes in ice and water.</li>
+<li><b>The 45° angle</b> is not for show: it gives the wine a larger surface inside the bottle, so gas escapes without foaming over.</li>
+<li><b>Count the glasses before you pour.</b> One bottle gives six 4-oz pours or eight 3-oz pours. For a table of eight, pour a little into every glass down the line, then return to top up, so the last guest gets as much as the first.</li>
+<li><b>Two pours per glass.</b> A first splash, a pause while the mousse falls, then the fill. The lip of the bottle never touches the glass.</li>
+<li><b>A stuck cork:</b> grip it through a serviette and rock it gently while turning the bottle. If the top snaps off, keep the bottle angled away and covered with the serviette, and draw the rest slowly with a corkscrew: it is still under pressure.</li>
+<li><b>Old Champagne</b> has less pressure and a fragile cork. Open it more slowly still, and consider a white-wine glass for the aroma.</li></ul>
+<p><b>Sabrage</b>, striking the collar of the neck with a blade so the glass breaks cleanly along the seam, is a ceremony for parties. It is not part of the Court's service standard.</p>
+
+
 <h3>Decanting an old red</h3>
 <p>Old reds throw sediment (polymerized pigments and tannins). Decanting separates clear wine from it and lets the wine breathe. Young, tight reds can also be decanted for air (splash decanting).</p>
 <ol><li>Set the <b>guéridon</b> with decanter, candle or flashlight, three serviettes, three underliners and a cradle.</li>
@@ -88,16 +149,13 @@ body:`
 <li><b>Never look away.</b> Stop when you see sediment reach the shoulder.</li>
 <li>Present the bottle and cork alongside the decanter so the host knows what is being served. Pour a taste, then serve.</li></ol>
 <p>The 2025 CMS Advanced/Master standards add <b>double decanting</b> (decant, rinse the bottle, pour back so the wine is served from its own bottle) and <b>splash decanting</b> for aeration.</p>
-<h3>Buying older wines</h3>
-<p>Ask about provenance, storage conditions, ship date and how many hands it passed through. Inspect for label damage, seepage, a pushed cork, and <b>ullage</b> (the air gap; "into neck" is good, "low shoulder" is risky).</p>
-<h3>Sparkling: the details that decide the mark</h3>
-<ul><li><b>Cold first.</b> Gas stays dissolved in cold wine. A warm or shaken bottle gushes however carefully it is opened. From room temperature, allow 20 to 25 minutes in ice and water.</li>
-<li><b>The 45° angle</b> is not for show: it gives the wine a larger surface inside the bottle, so gas escapes without foaming over.</li>
-<li><b>Count the glasses before you pour.</b> One bottle gives six 4-oz pours or eight 3-oz pours. For a table of eight, pour a little into every glass down the line, then return to top up, so the last guest gets as much as the first.</li>
-<li><b>Two pours per glass.</b> A first splash, a pause while the mousse falls, then the fill. The lip of the bottle never touches the glass.</li>
-<li><b>A stuck cork:</b> grip it through a serviette and rock it gently while turning the bottle. If the top snaps off, keep the bottle angled away and covered with the serviette, and draw the rest slowly with a corkscrew: it is still under pressure.</li>
-<li><b>Old Champagne</b> has less pressure and a fragile cork. Open it more slowly still, and consider a white-wine glass for the aroma.</li></ul>
-<p><b>Sabrage</b>, striking the collar of the neck with a blade so the glass breaks cleanly along the seam, is a ceremony for parties. It is not part of the Court's service standard.</p>
+
+
+<h3>What sediment is and why it is removed</h3>
+<p>The deposit in an old red wine consists of pigments and tannins that have joined into particles too large to stay in solution, together with crystals of tartrate. It is a natural product of aging and a sign that the wine has not been heavily filtered. It is harmless, and it is unpleasant: gritty in the mouth and bitter to taste, and when stirred up it makes the wine cloudy and dulls its flavor. The purpose of decanting an old wine is to pour the clear wine off this deposit and leave it behind.</p>
+<p>The procedure follows from the nature of the sediment. It is fine and light, and takes a day or more to settle once disturbed. The bottle should therefore be stood upright for at least twenty-four hours beforehand if possible, so that the deposit collects at the bottom, or, if it has been lying in a cellar, lifted into a cradle in the same position, without being turned, so that the deposit stays along the lower side. It is opened where it rests. The wine is then poured slowly and in a single continuous motion into the decanter, over a light placed beneath the neck. A candle is traditional; a small torch does the work as well. The server watches the shoulder and neck, and stops pouring when the first dark thread of sediment arrives. An ounce or two is left in the bottle. Any pause or tilting back sends the deposit through the wine again.</p>
+<p>Old corks are fragile. They may be soft, saturated or crumbling, and an ordinary corkscrew can break them or push them in. A two-pronged extractor, which slides down between cork and glass and grips the cork from the sides, is the standard tool for an old bottle, sometimes used together with a worm. If a cork breaks, the remainder can usually be removed with care, and fragments are strained out when decanting.</p>
+
 <h3>To decant or not</h3>
 <table class="t"><tr><th>Wine</th><th>Decant?</th><th>Why and how long</th></tr>
 <tr><td>Young, tannic red (Barolo, Cabernet, Syrah)</td><td>Yes</td><td>For air: one to two hours softens it and opens the aroma</td></tr>
@@ -108,13 +166,31 @@ body:`
 <tr><td>Light, aromatic whites and most rosé</td><td>No</td><td>Nothing to gain; they lose freshness</td></tr>
 <tr><td>Madeira</td><td>Yes</td><td>It is already oxidized and improves with hours or days of air</td></tr></table>
 <p>Always ask the host first. Some guests enjoy watching a wine open in the glass, and it is their bottle.</p>
+
+
+<h3>Air, for and against</h3>
+<p>The second reason to decant is aeration, and it applies to different wines. A young, tannic or tightly closed red, or one with a reductive smell, often improves with exposure to air, which lets unwanted volatile compounds escape and seems to open the aroma and soften the texture. Such a wine may be decanted vigorously an hour or more before serving, and some full-bodied whites benefit as well. How much air really changes tannin in the space of an hour is disputed by scientists; the effect on aroma is clear.</p>
+<p>An old wine is the opposite case. Its aromas are delicate and have developed in the near absence of oxygen, and they can fade within half an hour of contact with air. Very old wines are therefore decanted immediately before serving, or poured carefully from the bottle without decanting at all, and the guest should be consulted, since many collectors have strong views. The sommelier's judgment rests on three questions: is there sediment, is the wine young and closed or old and fragile, and what does the guest prefer.</p>
+
+<h3>Buying older wines</h3>
+<p>Ask about provenance, storage conditions, ship date and how many hands it passed through. Inspect for label damage, seepage, a pushed cork, and <b>ullage</b> (the air gap; "into neck" is good, "low shoulder" is risky).</p>
+
+
 <h3>Planning ahead for an old bottle</h3>
 <ul><li>If you know a day ahead, <b>stand the bottle upright</b> for 24 to 48 hours so the sediment falls to the bottom. Then no cradle is needed.</li>
 <li>If it comes straight from the rack, keep it on its side in the <b>cradle</b> from cellar to table, so the sediment stays along the lower flank.</li>
 <li>Use a wide-based decanter for young wines that need air, and a narrow one for old wines that need protection.</li>
 <li>Expect to leave an ounce or two with the sediment. Never try to rescue it at the table.</li></ul>
+
+
+<h3>Managing expectations</h3>
+<p>Old wine carries a risk that new wine does not. Bottles of the same wine from the same case can differ, any bottle may prove tired or faulty, and a restaurant cannot guarantee what it has not tasted. Good practice is to say so in advance, plainly and without alarm, when a guest orders a mature bottle, to have a second bottle or an alternative in mind, and to agree on what will happen if the wine is not sound. A policy on this should be set by the restaurant and known to the staff. When a guest brings their own old bottle, the same conversation should take place before it is opened, since the sommelier will otherwise be blamed for what the cellar did.</p>
+
 <h3>Port tongs</h3>
-<p>The cork of a very old Vintage Port can crumble to dust. The traditional answer is to remove the neck. Iron tongs are heated until they glow, clamped around the neck below the cork for about half a minute, and removed; a cold wet cloth or a feather dipped in cold water is then drawn around the hot ring, and the glass cracks cleanly. The wine is decanted as usual. It is rare, theatrical and still asked about in exams.</p>`,
+<p>The cork of a very old Vintage Port can crumble to dust. The traditional answer is to remove the neck. Iron tongs are heated until they glow, clamped around the neck below the cork for about half a minute, and removed; a cold wet cloth or a feather dipped in cold water is then drawn around the hot ring, and the glass cracks cleanly. The wine is decanted as usual. It is rare, theatrical and still asked about in exams.</p>
+
+<p>The tongs solve a specific problem. A vintage Port of fifty years or more may have a cork so soft and so firmly stuck to the glass that no tool will draw it whole. The tongs are heated until red, clamped around the neck below the cork for a short time, and removed, and a cold, wet cloth or a feather dipped in iced water is applied to the same line. The sudden change in temperature cracks the glass cleanly around the ring, and the top of the neck comes away with the cork inside it. The wine is then decanted through a fine strainer in case of fragments. The method is theatrical, and it is also the safest way to open such a bottle.</p>
+`,
 floor:`<p>Both sparkling and decanting are standard CMS practical tasks. Practice with water in a Champagne bottle and an old bottle with coffee grounds for sediment. Time yourself; keep talking to the "guests" throughout.</p>`,
 analyst:`<p>WSET wants the reasons: decant to remove sediment from aged reds or unfiltered Port, or to aerate young tannic wines; serve sparkling well chilled to keep the CO₂ in solution and the wine fresh.</p>`,
 terms:[["Cage (muselet)","Wire cage holding a sparkling wine cork."],["Cradle","Basket holding a bottle on its side for decanting."],["Ullage","Air space between wine and cork; low ullage suggests poor storage."],["Double decanting","Decanting, rinsing the bottle, and returning the wine to it."],["Sabrage","Opening sparkling wine by striking the neck with a blade."],["Port tongs","Heated iron tongs used to break the neck of a very old Vintage Port."],["Splash decanting","Pouring vigorously into a decanter to aerate a young wine."],["Gushing","Wine foaming out of a sparkling bottle on opening, from warmth or shaking."]],
@@ -135,14 +211,38 @@ quiz:[
 ]});
 
 L.push({id:"s3", unit:"S1", title:"Storage, Temperature and Glassware", mins:12,
-summary:"Cellar conditions, the CMS serving temperature chart, and why glass shape matters.",
+summary:"What heat, light and air do to wine, why temperature changes taste, what a glass is for, and how preservation works.",
 body:`
+<p>Service begins long before a bottle reaches the table. A wine can be ruined in a warm stockroom, flattened by the wrong temperature, or muted by the wrong glass, and the guest will blame the wine. This chapter covers the three physical conditions a sommelier controls, storage, temperature and glassware, and explains the reasons behind each rule, since a rule understood can be applied sensibly to cases the chart does not cover.</p>
+
 <h3>Storage</h3>
 <ul><li><b>Temperature:</b> 50-60°F (10-15°C), and above all <b>constant</b>. Swings push wine past the cork.</li>
 <li><b>Humidity:</b> about 60-70% keeps corks from drying.</li>
 <li><b>Position:</b> cork-finished table wines on their side; spirits and fortified wines upright (high alcohol attacks cork).</li>
 <li><b>Darkness:</b> UV causes "light strike" (cabbage-like sulfur aromas), worst in clear bottles of Champagne and rosé.</li>
 <li><b>Stillness:</b> no vibration; no strong odors nearby.</li></ul>
+
+
+<h3>Why 55°F, and what heat does</h3>
+<p>Chemical reactions roughly double in speed for every 18°F (10°C) rise. A wine kept at 73°F ages about twice as fast as one at 55°F, and not as well: fruit fades before tannin softens. Above about 80°F wine "cooks" within weeks: stewed fruit, a flat finish and a brownish tinge. As it warms it expands, pushes the cork and seeps. The damage is permanent.</p>
+
+
+<h3>The five enemies in a restaurant</h3>
+<p>The principles of storage are the same for a private cellar and a restaurant, but the restaurant's conditions are harsher. Kitchens are hot, storerooms are improvised, and bottles are handled constantly. <strong>Heat</strong> is the most common cause of damage. A case left on a loading dock in summer, or a shelf above a dishwasher, can reach temperatures at which a wine is cooked within days: the fruit turns stewed and flat, the wine expands, and it may push the cork outward or seep past it, leaving a sticky trace under the capsule. <strong>Fluctuation</strong> does slower harm by pumping air in and out past the cork. <strong>Light</strong>, particularly sunlight and fluorescent tubes, triggers reactions in wine that produce an unpleasant smell of cooked cabbage or wet wool; pale wines in clear glass, such as rosé and many sparkling wines, are most at risk, which is why fine Champagne is sold in dark glass or wrapped. <strong>Dryness</strong> shrinks corks. <strong>Vibration and odors</strong> are lesser concerns, though wine should never be stored beside cleaning chemicals or strong-smelling food, since a cork is not a perfect barrier.</p>
+<p>The practical arrangement in most restaurants has two parts: a long-term cellar or cabinet held near 55°F for stock, and service refrigerators near the floor held at serving temperatures for the wines that sell each night. Stock should be rotated so that the oldest of each wine is sold first, and bins should be labeled so that a server can find a bottle in the middle of service.</p>
+
+<h3>Reading a bottle before you buy or pour it</h3>
+<ul><li><b>Fill level (ullage):</b> the gap under the cork. In a young wine it should be in the neck. In a Bordeaux of 20 years or more, "top shoulder" is normal; "mid shoulder" or lower warns of a failing cork and oxidized wine.</li>
+<li><b>The cork:</b> raised above the lip, or sunken, means heat or pressure changes.</li>
+<li><b>The capsule and label:</b> sticky residue or wine stains mean seepage.</li>
+<li><b>Color through the glass:</b> a young white that looks deep gold, or a young red that looks brown, is suspect.</li></ul>
+
+
+<h3>What ages, and what doesn't</h3>
+<p>Most wine, well over 90%, is made to drink within a year or two. To improve with age a wine needs concentration plus a preservative: acid, tannin or sugar. Vintage Port, Sauternes, Riesling, Barolo, classed-growth Bordeaux, Grand Cru Burgundy and vintage Champagne are the classic keepers.</p>
+<p>Bottle size matters. A magnum has the same cork and the same small pocket of air for twice the wine, so it ages more slowly and usually better. Half bottles age faster.</p>
+
+
 <h3>Serving temperatures (CMS exam chart)</h3>
 <table class="t"><tr><th>Style</th><th>°F</th><th>°C</th></tr>
 <tr><td>Sparkling, light whites, sweet whites</td><td>42-50</td><td>5.5-10</td></tr>
@@ -156,20 +256,17 @@ body:`
 <tr><td>Specialty ales</td><td>45-50</td><td>7-10</td></tr>
 <tr><td>English and cask ales, porters, stouts, Dubbels</td><td>50-55</td><td>10-13</td></tr></table>
 <p>Why: cold suppresses aroma and makes tannin and bitterness harsher, but keeps sparkling and light whites fresh. Too warm and alcohol dominates. Most restaurants serve whites too cold and reds too warm.</p>
+
+
+<h3>Why temperature changes the taste</h3>
+<p>Temperature acts on a wine in three ways, and the chart follows from them. The first is aroma. The scented compounds in wine evaporate more readily when warm, so a wine served cold smells of little and a wine served warm smells of a great deal, including its alcohol, which becomes hot and sharp on the nose above about 68°F. The second is the perception of structure. Cold emphasizes acidity, bitterness and tannin and suppresses sweetness and body; warmth does the reverse. The third is carbon dioxide, which stays dissolved in a cold liquid and escapes quickly from a warm one.</p>
+<p>Each style is served at the temperature that flatters it. Sparkling wine is served coldest, to keep its bubbles fine and its acidity crisp. Light, aromatic whites and rosés are served cold, since their appeal is freshness. Full-bodied whites, particularly those aged in oak, are served only cool, because cold hides the texture and complexity that are their point. Light reds with little tannin, such as Beaujolais, benefit from a slight chill, which lifts their fruit. Tannic reds are served at cool room temperature, around 60 to 65°F, since cold would make their tannin harsh and bitter. Sweet wines are served cold enough to balance their sugar. The old instruction to serve red wine at room temperature dates from unheated European houses; a modern dining room at 72°F is too warm, and most red wine in restaurants is served warmer than it should be.</p>
+<p>A wine warms quickly in the glass, by several degrees in ten minutes, so it is better to serve a little too cool than a little too warm. The guest's preference overrides the chart. A sommelier may suggest, and should never insist.</p>
+
 <h3>Glassware</h3>
 <p>A tulip-shaped bowl that narrows at the rim concentrates aroma. Large Burgundy bowls expose delicate Pinot Noir to air; tall Bordeaux glasses direct tannic reds; flutes keep bubbles but mute aroma, so many sommeliers now serve top Champagne in white-wine glasses. The <b>ISO tasting glass</b> is the standard for exams. Glasses must be spotless: detergent residue kills mousse and adds off-aromas.</p>
-<h3>Opened bottles</h3>
-<p>Recork and refrigerate (even reds); vacuum pumps remove air; inert gas (argon) blankets the surface; Coravin-type systems extract through the cork for by-the-glass programs. Sparkling: a hinged stopper. Fino and Manzanilla fade within days; Madeira lasts months.</p>
-<h3>Why 55°F, and what heat does</h3>
-<p>Chemical reactions roughly double in speed for every 18°F (10°C) rise. A wine kept at 73°F ages about twice as fast as one at 55°F, and not as well: fruit fades before tannin softens. Above about 80°F wine "cooks" within weeks: stewed fruit, a flat finish and a brownish tinge. As it warms it expands, pushes the cork and seeps. The damage is permanent.</p>
-<h3>Reading a bottle before you buy or pour it</h3>
-<ul><li><b>Fill level (ullage):</b> the gap under the cork. In a young wine it should be in the neck. In a Bordeaux of 20 years or more, "top shoulder" is normal; "mid shoulder" or lower warns of a failing cork and oxidized wine.</li>
-<li><b>The cork:</b> raised above the lip, or sunken, means heat or pressure changes.</li>
-<li><b>The capsule and label:</b> sticky residue or wine stains mean seepage.</li>
-<li><b>Color through the glass:</b> a young white that looks deep gold, or a young red that looks brown, is suspect.</li></ul>
-<h3>What ages, and what doesn't</h3>
-<p>Most wine, well over 90%, is made to drink within a year or two. To improve with age a wine needs concentration plus a preservative: acid, tannin or sugar. Vintage Port, Sauternes, Riesling, Barolo, classed-growth Bordeaux, Grand Cru Burgundy and vintage Champagne are the classic keepers.</p>
-<p>Bottle size matters. A magnum has the same cork and the same small pocket of air for twice the wine, so it ages more slowly and usually better. Half bottles age faster.</p>
+
+
 <h3>Glasses for the job</h3>
 <table class="t"><tr><th>Glass</th><th>Shape</th><th>Use</th></tr>
 <tr><td>ISO tasting glass</td><td>Small tulip, 215 ml</td><td>Exams and trade tastings</td></tr>
@@ -180,6 +277,17 @@ body:`
 <tr><td>Copita</td><td>Small, narrow tulip</td><td>Sherry</td></tr>
 <tr><td>Port or dessert</td><td>Small tulip</td><td>Fortified and sweet wines</td></tr></table>
 <p>Polish with a lint-free cloth over steam, holding the base in one hand and the bowl in the cloth; twisting base against bowl snaps stems. Smell the glass before it goes to the table: cupboard, cardboard and detergent odors are the commonest "faults" a guest ever meets.</p>
+
+
+<h3>What a glass does</h3>
+<p>The shape of a glass affects how a wine smells and where it lands in the mouth, and the principles are simple even if the claims of some manufacturers are not. A bowl wider than its rim holds the aromas that rise from the surface and concentrates them toward the nose. A large bowl gives a large surface for evaporation and room to swirl, which suits wines with complex aromas to release: hence the broad balloon for Burgundy, whose delicate scent needs space to gather, and the taller, narrower bowl for Bordeaux, which directs a more powerful wine. A smaller bowl keeps a white wine cool and its aromas focused. A stem keeps the hand away from the bowl, so the wine is not warmed and the glass stays clean.</p>
+<p>The flute preserves the bubbles of sparkling wine by offering a small surface, and shows them rising, at the cost of aroma; many sommeliers now serve good Champagne in a white wine glass or a tulip, which is wider in the middle and narrows at the top. The shallow coupe loses both bubbles and scent. Fortified and sweet wines are served in smaller glasses because the portion is smaller, though the glass should still be large enough to smell from.</p>
+<p>Material and condition matter as much as shape. A thin rim delivers the wine cleanly. Clear, uncut glass shows the color. And the glass must be free of any smell: residue of detergent or rinse aid kills the foam of sparkling wine and taints the nose, and a cloth that smells of the cupboard leaves that smell behind. Polishing with a clean, lint-free cloth over steam, and smelling the empty glass before it goes to the table, are part of the job.</p>
+
+<h3>Opened bottles</h3>
+<p>Recork and refrigerate (even reds); vacuum pumps remove air; inert gas (argon) blankets the surface; Coravin-type systems extract through the cork for by-the-glass programs. Sparkling: a hinged stopper. Fino and Manzanilla fade within days; Madeira lasts months.</p>
+
+
 <h3>How long an opened bottle lasts</h3>
 <table class="t"><tr><th>Wine</th><th>Method</th><th>Good for</th></tr>
 <tr><td>Still white, rosé, light red</td><td>Recork and refrigerate</td><td>2 to 3 days</td></tr>
@@ -192,7 +300,12 @@ body:`
 <tr><td>Tawny Port, LBV, sweet Sherry</td><td>Recorked, cool</td><td>Several weeks</td></tr>
 <tr><td>Vintage Port</td><td>Recorked</td><td>1 to 3 days</td></tr>
 <tr><td>Madeira</td><td>Recorked</td><td>Months</td></tr></table>
-<p>For a by-the-glass program: date every bottle when it is opened, and taste each one before the first pour of every service.</p>`,
+<p>For a by-the-glass program: date every bottle when it is opened, and taste each one before the first pour of every service.</p>
+
+<h3>Why opened wine fades, and how preservation works</h3>
+<p>Once a bottle is opened, oxygen dissolves into the wine and begins to react with it. Within hours this can be beneficial, softening a young red. Over days it strips fruit, flattens the aroma, and eventually allows bacteria to convert alcohol to acetic acid. The rate depends on temperature, on the amount of air in the bottle, and on the wine: light, delicate wines and old wines fade fastest, young tannic reds and sweet or fortified wines last longest, because tannin, sugar and alcohol all slow the process, and wines already oxidized in their making, such as Madeira, Oloroso and tawny Port, have little left to lose.</p>
+<p>Every preservation method works on one of those variables. Refrigeration slows the reactions and should be used for reds as well as whites overnight. A vacuum pump removes some of the air, with modest effect. Inert gas, argon or nitrogen, is heavier than air and forms a layer over the wine, which works well. Systems that draw wine through the cork with a fine needle and replace it with argon allow a bottle to be poured over weeks without being opened, and dispensing cabinets that hold bottles under gas at controlled temperature have made it possible to offer expensive wines by the glass. For sparkling wine a clamped stopper holds the pressure for a day or two. Every opened bottle in a restaurant should be dated, and tasted before it is poured for a guest the following day.</p>
+`,
 floor:`<p>Temperatures are frequently tested at Introductory and Certified. Memorize the chart in both scales. In service, offer an ice bucket for whites and sparkling, and don't be afraid to briefly chill a warm red.</p>`,
 analyst:`<p>WSET Level 3 short answers often end with a service question worth 2 marks: "Recommend a serving temperature and glass for this wine." Give a specific range.</p>`,
 terms:[["Light strike","Sulfurous fault from UV exposure."],["ISO glass","Standardized tasting glass."],["Coravin","Needle-based preservation system for pouring without pulling the cork."],["Ullage","The air space between the wine and the cork."],["Cooked","Heat-damaged wine: stewed fruit, flat finish, often a pushed cork."],["Copita","Small tulip-shaped Sherry glass."],["Argon","Inert gas used to protect opened wine from oxygen."]],
@@ -214,9 +327,13 @@ quiz:[
 ]});
 
 L.push({id:"s4", unit:"S1", title:"Food and Wine Pairing", mins:15,
-summary:"The rules that hold up, the ones that don't, and how to sell a pairing.",
+summary:"How components of food change wine, congruent and contrasting matches, finding the dominant element, flexible wines, and sequencing a meal.",
 body:`
 <p>Pairing advice is full of romance. The part that holds up is chemistry: certain components in food change how you perceive wine. WSET teaches it as cause and effect, and CMS tests whether you can turn it into a confident recommendation.</p>
+
+
+<p>The subject has two halves. The first is a small set of reliable interactions between components of food and components of wine, which can be learned in an afternoon and demonstrated with a lemon, some salt and a glass of tannic red. The second is judgment: how to apply those interactions to a real dish, with a sauce, a cooking method and several ingredients, for a real guest with preferences of their own. This chapter gives the mechanisms and then the method.</p>
+
 <h3>How food changes wine</h3>
 <table class="t"><tr><th>Food component</th><th>Effect on the wine</th><th>So...</th></tr>
 <tr><td>Sweetness</td><td>Wine tastes drier, more acidic, more bitter, less fruity</td><td>Wine must be at least as sweet as the food</td></tr>
@@ -226,23 +343,18 @@ body:`
 <tr><td>Bitterness</td><td>Increases bitterness in wine</td><td>Avoid tannic or bitter wines with bitter greens</td></tr>
 <tr><td>Chili heat</td><td>Amplifies alcohol burn, tannin and bitterness</td><td>Low alcohol, off-dry, fruity: Kabinett Riesling</td></tr>
 <tr><td>Fat and protein</td><td>Softens tannin</td><td>Steak with Cabernet; the classic is real</td></tr></table>
+
+
+<h3>The interactions explained</h3>
+<p>Taste is relative. The palate adapts to what it has just encountered, so each mouthful of food changes how the next sip of wine is perceived, and the effects are consistent enough to predict. <strong>Sweetness</strong> in food makes a wine seem less sweet, less fruity, more acid and more bitter. A dry wine with dessert therefore tastes thin and sour, and the rule follows that the wine should be at least as sweet as the dish. <strong>Umami</strong>, the savory taste found in mushrooms, cured meat, aged cheese, ripe tomato, soy and shellfish, has the same hardening effect, increasing the perception of bitterness and astringency, and is the hidden reason some pairings fail.</p>
+<p><strong>Salt</strong> and <strong>acid</strong> in food work in the wine's favor. Salt softens the perception of tannin and acidity and makes a wine seem fruitier and fuller, which is why a seasoned steak flatters a tannic red and why salty foods are so easy to pair. Acid in food makes a wine seem less acid, rounder and sweeter, so a sharp dressing or a squeeze of lemon can make a tart wine taste balanced, and will make a low-acid wine taste flat. A wine served with an acid dish should have acidity to match.</p>
+<p><strong>Fat and protein</strong> coat the mouth and bind with tannin, which is why tannic wines feel smoother with red meat and hard cheese, and acidity or bubbles cut through richness and refresh the palate. <strong>Chili heat</strong> is a sensation of pain, and alcohol intensifies it, as does tannin; sweetness and low alcohol calm it, so off-dry, light, aromatic whites suit spicy food. <strong>Bitterness</strong> in food adds to bitterness in wine.</p>
+<p>These effects explain the classic rules. Tannic red with beef works through protein, fat and salt. White wine with fish works because delicate flesh is overwhelmed by tannin, and because tannin with oily fish can produce a metallic taste. Sweet wine with blue cheese works because salt and sweetness set each other off.</p>
+
 <h3>Matching weight and intensity</h3>
 <p>Delicate food with delicate wine, powerful with powerful. A light sole meunière would vanish under Barossa Shiraz; a braised short rib would flatten a Muscadet.</p>
-<h3>Strategies</h3>
-<ul><li><b>Complement</b>: earthy Pinot Noir with mushrooms; nutty Amontillado with almonds.</li>
-<li><b>Contrast</b>: Sauternes with salty Roquefort; acidic Champagne cutting fried chicken.</li>
-<li><b>Regional</b>: "what grows together goes together." Chianti with bistecca, Sancerre with Crottin de Chavignol, Albariño with octopus, Fino with jamón.</li>
-<li><b>Sauce over protein</b>: chicken in cream sauce wants a different wine from chicken in red-wine sauce.</li></ul>
-<h3>Classic pairings to know</h3>
-<p>Oysters + Muscadet or Chablis. Goat cheese + Sancerre. Foie gras + Sauternes or Tokaji. Lamb + Pauillac or Rioja. Duck + Pinot Noir. Salmon + Pinot Noir or rosé. Stilton + Vintage Port. Chocolate + Banyuls, Maury or Ruby Port. Thai or Sichuan + off-dry Riesling or Gewürztraminer. Pizza + Barbera or Chianti. Asparagus and artichoke + Grüner Veltliner or Sauvignon Blanc.</p>
-<h3>Selling it</h3>
-<p>The CMS service exam asks you to choose a pairing and explain it, then recommend a wine naming <b>region, producer and vintage</b>. A good formula: name the wine, give one reason tied to the dish, describe how it tastes in guest language. "With the halibut in beurre blanc I'd pour the 2022 Domaine Roulot Bourgogne Blanc: enough richness for the butter sauce, and the acidity keeps every bite fresh."</p>
-<h3>A five-step method for any dish</h3>
-<ol><li><b>Weigh it.</b> How rich is the dish as a whole? Match the wine's body to it.</li>
-<li><b>Find the loudest element.</b> It is usually the sauce or the cooking method, not the protein.</li>
-<li><b>Check for trouble.</b> Sweetness, chili heat, strong umami or bitterness in the dish each rule out certain wines.</li>
-<li><b>Choose the structure.</b> Acid for fat and salt; tannin for protein; sugar for heat or sweetness; bubbles for fried food.</li>
-<li><b>Add a flavor bridge</b> if one offers itself: herbs with Sauvignon Blanc, mushrooms with Pinot Noir, pepper with Syrah.</li></ol>
+
+
 <h3>The cooking method sets the weight</h3>
 <table class="t"><tr><th>Method</th><th>What it does</th><th>Wine direction</th></tr>
 <tr><td>Raw, steamed, poached</td><td>Delicate, clean</td><td>Light, unoaked, high acid: Muscadet, Chablis, Fino</td></tr>
@@ -252,29 +364,83 @@ body:`
 <tr><td>Roasted</td><td>Caramelized, savory</td><td>Medium to full reds: Rioja, Bordeaux, Chianti Classico</td></tr>
 <tr><td>Braised, stewed</td><td>Rich, deep, soft</td><td>Full, mature reds: Barolo, Châteauneuf-du-Pape, Madiran</td></tr>
 <tr><td>Smoked, cured</td><td>Salt and smoke</td><td>Off-dry Riesling, Fino, Pinot Noir, Syrah</td></tr></table>
+
+
+<h3>Strategies</h3>
+<ul><li><b>Complement</b>: earthy Pinot Noir with mushrooms; nutty Amontillado with almonds.</li>
+<li><b>Contrast</b>: Sauternes with salty Roquefort; acidic Champagne cutting fried chicken.</li>
+<li><b>Regional</b>: "what grows together goes together." Chianti with bistecca, Sancerre with Crottin de Chavignol, Albariño with octopus, Fino with jamón.</li>
+<li><b>Sauce over protein</b>: chicken in cream sauce wants a different wine from chicken in red-wine sauce.</li></ul>
+
+
+<h3>Congruent and contrasting matches</h3>
+<p>A pairing can work by similarity or by opposition. A congruent match echoes a quality of the dish in the wine: an earthy Pinot Noir with mushrooms, a buttery Chardonnay with lobster in butter, a peppery Syrah with pepper-crusted meat. The effect is harmony and intensification. A contrasting match sets a quality of the wine against the dish: sharp Champagne against fried food, sweet Sauternes against salty Roquefort, crisp Riesling against rich pork. The effect is balance and refreshment. Neither is better. Contrast keeps the palate lively through a meal, and a menu of nothing but rich, congruent pairings is tiring.</p>
+<p>Regional pairing is a third approach and a useful shortcut. The food and wine of a place have developed together over centuries, and combinations such as Sancerre with the goat cheese of its own district, Muscadet with oysters, or Chianti with tomato-based dishes are reliable because local taste has already done the selecting. The principle fails where the cuisine and the wine do not share a history.</p>
+
+<h3>A five-step method for any dish</h3>
+<ol><li><b>Weigh it.</b> How rich is the dish as a whole? Match the wine's body to it.</li>
+<li><b>Find the loudest element.</b> It is usually the sauce or the cooking method, not the protein.</li>
+<li><b>Check for trouble.</b> Sweetness, chili heat, strong umami or bitterness in the dish each rule out certain wines.</li>
+<li><b>Choose the structure.</b> Acid for fat and salt; tannin for protein; sugar for heat or sweetness; bubbles for fried food.</li>
+<li><b>Add a flavor bridge</b> if one offers itself: herbs with Sauvignon Blanc, mushrooms with Pinot Noir, pepper with Syrah.</li></ol>
+
+
 <h3>One protein, four sauces</h3>
 <table class="t"><tr><th>Chicken with...</th><th>Pour</th></tr>
 <tr><td>Lemon and herbs</td><td>Sancerre, Vermentino</td></tr>
 <tr><td>Cream and mushrooms</td><td>Oaked Chardonnay, or red Burgundy</td></tr>
 <tr><td>Tomato and olives</td><td>Chianti, Barbera</td></tr>
 <tr><td>Barbecue sauce</td><td>Zinfandel, off-dry rosé</td></tr></table>
+
+
+<h3>Find the dominant element</h3>
+<p>The commonest mistake is to pair with the protein. Chicken, veal, pork and most fish are mild, and the flavor of the dish comes from elsewhere: the sauce, the seasoning, the method of cooking, the accompaniment. Poached chicken in a cream sauce wants a rounded white; the same bird roasted with herbs can take a light red; grilled with a spicy glaze it wants something off-dry and fruity. The sommelier should ask what the strongest flavor on the plate is, and how rich the dish feels, and choose the wine for that.</p>
+<p>Cooking method contributes its own flavors. Poaching and steaming add nothing and leave a dish delicate. Sautéing and roasting brown the surface and add savory, caramelized notes that welcome more body and some oak. Grilling and smoking add char and bitterness, which strong, fruity reds absorb. Braising produces deep, concentrated sauces that need wines of substance. Raw preparations call for the lightest, most precise wines.</p>
+
 <h3>Red wine with fish</h3>
 <p>The old rule has a real cause: tannic reds can taste metallic with fish, especially oily fish. The exception is just as real: low-tannin reds work with meaty or fatty fish. Pinot Noir with salmon or seared tuna, and chilled Beaujolais with grilled fish, are sound calls.</p>
+
+
 <h3>Think of wine as a seasoning</h3>
 <ul><li><b>Acid</b> is a squeeze of lemon: it lifts rich, salty and fried food.</li>
 <li><b>Tannin</b> scrubs fat and protein from the palate.</li>
 <li><b>Sweetness</b> puts out fire and balances salt.</li>
 <li><b>Bubbles</b> cut through oil and reset the mouth.</li>
 <li><b>Alcohol</b> adds weight, and turns chili heat up.</li></ul>
+
+
+<h3>Classic pairings to know</h3>
+<p>Oysters + Muscadet or Chablis. Goat cheese + Sancerre. Foie gras + Sauternes or Tokaji. Lamb + Pauillac or Rioja. Duck + Pinot Noir. Salmon + Pinot Noir or rosé. Stilton + Vintage Port. Chocolate + Banyuls, Maury or Ruby Port. Thai or Sichuan + off-dry Riesling or Gewürztraminer. Pizza + Barbera or Chianti. Asparagus and artichoke + Grüner Veltliner or Sauvignon Blanc.</p>
+
+
+<h3>Four wines that rarely fail</h3>
+<p>When a table orders six different dishes and wants one bottle, reach for Champagne, dry or off-dry Riesling, Pinot Noir or a dry rosé. Each has high acid, modest tannin and no heavy oak, which is why they are called the universal pairings.</p>
+
+<h3>Why some wines are flexible</h3>
+<p>The wines that sommeliers reach for when a table has ordered very different dishes share a profile: high acidity, moderate alcohol, little or no new oak, and low or supple tannin. Acidity is the key, since it refreshes the palate and stands up to acid and salt in food, and the absence of heavy tannin, oak and alcohol removes the features that clash most often. Champagne and other dry sparkling wines, dry and off-dry Riesling, Chablis and similar unoaked whites, dry rosé, and light, fresh reds such as Pinot Noir, Gamay and Barbera all fit. The difficult wines at the table are the opposite: very tannic, very oaky, very alcoholic or very low in acid. They can be magnificent with the right dish and awkward with most others.</p>
+
 <h3>A tasting menu</h3>
 <p>Seven courses at 2.5 to 3 oz a pour is about three-quarters of a bottle per person. Plan it as an arc: sparkling to open; light whites to fuller whites; a light red, then a structured one; a sweet wine no bigger than the dessert needs. Keep alcohol modest in the first half. Offer a half-pour pairing and a non-alcoholic one built with the same logic: acid, bitterness, tannin from tea, bubbles.</p>
+
+
+<h3>Sequencing wines</h3>
+<p>The order of wines through a meal follows the adaptation of the palate. Each wine should be able to follow the one before without seeming thin, so the progression runs from light to full, from dry to sweet, from simple to complex, and usually from white to red and from young to old. A powerful wine early in a meal makes everything after it taste weak. Sweetness is saved for the end because it makes subsequent dry wines taste sour. The convention can be broken with care: a sweet wine with foie gras at the start, or a white with the cheese, provided what follows is planned to recover.</p>
+<p>With a long tasting menu the practical concerns are quantity and fatigue. Pours are small, two to three ounces, the total alcohol across the menu should be considered, and one wine can often serve two courses. Variety of style keeps attention: a run of six still dry whites is less interesting than a sequence that includes sparkling, an aromatic wine, something oxidative such as a dry Sherry, a light red served cool, and a sweet wine.</p>
+
 <h3>Beyond wine</h3>
 <ul><li><b>Sake</b> has no tannin, low acid and plenty of amino acids, so it flatters umami: sushi, mushrooms, aged cheese, even oysters.</li>
 <li><b>Beer:</b> stout with oysters and chocolate; saison with cheese and roast chicken; wheat beer with salads and shellfish. Very hoppy beers sharpen chili heat.</li>
 <li><b>Cider</b> with pork, washed-rind cheese and crêpes.</li>
 <li><b>Fino and Manzanilla</b> are the sommelier's secret: bone dry and savory, they handle olives, anchovies, fried fish, artichokes and soup.</li></ul>
-<h3>Four wines that rarely fail</h3>
-<p>When a table orders six different dishes and wants one bottle, reach for Champagne, dry or off-dry Riesling, Pinot Noir or a dry rosé. Each has high acid, modest tannin and no heavy oak, which is why they are called the universal pairings.</p>`,
+
+
+<h3>Selling it</h3>
+<p>The CMS service exam asks you to choose a pairing and explain it, then recommend a wine naming <b>region, producer and vintage</b>. A good formula: name the wine, give one reason tied to the dish, describe how it tastes in guest language. "With the halibut in beurre blanc I'd pour the 2022 Domaine Roulot Bourgogne Blanc: enough richness for the butter sauce, and the acidity keeps every bite fresh."</p>
+
+
+<h3>The guest decides</h3>
+<p>Pairing is advice, and the guest's preference is the governing fact. Sensitivity to bitterness, sweetness and acidity varies greatly between people, for reasons that are partly genetic, and a combination one person finds perfect another finds unpleasant. A guest who wants a big red with a delicate fish should be given it, perhaps with a quiet suggestion of an alternative, and never a correction. The principles in this chapter are most useful when a guest asks for guidance, when a menu is being designed, and when the sommelier needs to explain a recommendation in a sentence: this wine has the acidity to cut the richness, or the sweetness to match the dessert, or the weight to stand up to the sauce. Guests trust a reason more than an assertion.</p>
+`,
 floor:`<p>Practice the 20-second pitch for every Certified examinable wine. Upselling isn't pushing price; it's suggesting the wine that will make the dish better, with a range of price points.</p>`,
 analyst:`<p>WSET Level 3 LO5 expects the full table of food and wine interactions, including the effect of umami, salt, bitterness and chili. Answer pairing questions by naming the component, the effect, and the resulting choice.</p>`,
 terms:[["Umami","Savory taste; makes wine seem harder and more tannic."],["Complement","Pairing by similar flavors."],["Contrast","Pairing by opposing components (salt and sweet)."],["Flavor bridge","A shared flavor that links dish and wine, such as herbs with Sauvignon Blanc."],["Universal pairing","A wine that suits many dishes: Champagne, Riesling, Pinot Noir, dry rosé."],["Pairing flight","A set of small pours matched course by course to a menu."]],
@@ -296,33 +462,33 @@ quiz:[
 ]});
 
 L.push({id:"s5", unit:"S1", title:"The Business of the Sommelier", mins:15,
-summary:"COGS, pour cost, pricing, inventory, and building a wine list.",
+summary:"Cost, markup and margin as three views of one sale, how prices are set, why pour size is a financial decision, and what inventory figures reveal.",
 body:`
 <p>A sommelier who can't do the math is a hobbyist with a corkscrew. CMS tests business math from Certified up, and an owner judges a beverage director mostly by the numbers.</p>
+
+
+<p>The arithmetic in this chapter is simple, and candidates lose marks on it more from confusion about terms than from difficulty. A wine program is a small business inside a restaurant. It buys stock, holds it, sells it and must account for it, and the figures by which it is judged, cost percentage, margin, inventory value, variance, are all ways of asking one question: how much of the money taken in for beverages is kept. The sections below define each term, show how it is calculated, and explain what it is used for.</p>
+
 <h3>Key formulas</h3>
 <ul><li><b>Cost of Goods Sold (COGS)</b> = Beginning Inventory + Purchases - Ending Inventory.</li>
 <li><b>Cost percentage</b> = COGS / Sales. A wine program typically targets roughly 25-35%.</li>
 <li><b>Price from cost %</b> = Cost / Target cost %. A bottle costing $20 at a 30% target sells for about $66.</li>
 <li><b>Pour cost</b>: cost per pour = bottle cost / pours per bottle. Glass price = cost per pour / target pour cost %.</li></ul>
 <p><b>Worked example (from the CMS Certified guide style):</b> a bottle costs $30, you get 5 pours, and the pour-cost target is 33%. Cost per pour = $6. Price = $6 / 0.33 ≈ <b>$18</b> per glass.</p>
-<h3>Bottle sizes and pours</h3>
-<ul><li>375 ml = 12.7 oz (half bottle). 750 ml = 25.4 oz. Magnum 1.5 L = two bottles. Jeroboam (in Champagne) 3 L.</li>
-<li>A 5 oz glass gets about 5 pours per 750 ml; a 6 oz pour about 4.</li></ul>
-<h3>Inventory</h3>
-<ul><li>Count monthly (at least). Errors flow straight into COGS: overstating ending inventory makes COGS look lower (and margin better) than reality.</li>
-<li><b>Par levels</b>: the stock you want on hand for each item. <b>FIFO</b>: first in, first out.</li>
-<li><b>Depletion</b> reports and variance (theoretical vs actual usage) catch over-pouring and theft.</li>
-<li>By-the-glass programs need a plan for opened bottles: preservation systems, staff tasting, and rotation.</li></ul>
-<h3>Pricing philosophy</h3>
-<p>Many restaurants use a sliding markup: higher multiples on cheap bottles, lower on expensive ones, so guests trade up. Cash margin pays the rent, not percentage: selling a $200 bottle at 40% cost earns $120; a $40 bottle at 25% earns $30.</p>
-<h3>Building the list</h3>
-<ul><li>Organize by region, by style (light to full: a <b>progressive list</b>), or by grape. Keep it consistent.</li>
-<li>Every entry needs: producer, wine/appellation, vintage, and accurate spelling. Typical list-correction errors on CMS exams: wrong region (Barolo listed under Tuscany), wrong grape (Sancerre listed as Chardonnay), wrong appellation for a château (Château Margaux under Pauillac), wrong or missing vintages, and misspellings.</li>
-<li>Offer a range of prices in every section; flag by-the-glass and half bottles; match the menu.</li></ul>
-<h3>Ordering beer and other stock</h3>
-<p>CMS Certified includes problems like estimating keg orders: if 500 covers order beer at a given rate and a half-barrel keg (15.5 gallons) yields about 165 twelve-ounce pours, how many kegs do you need? Work it step by step, round up, and add a buffer.</p>
+
+
 <h3>Markup, margin and cost: three views of one bottle</h3>
 <p>A bottle costs $25 and sells for $75. That is a <b>3x markup</b> (price divided by cost), a <b>cost percentage of 33%</b> (cost divided by price), a <b>gross margin of 67%</b> and a <b>cash margin of $50</b>. Exams switch between these terms to see whether you can.</p>
+
+
+<h3>Why three measures exist</h3>
+<p>The same sale can be described from three directions, and each is used by a different person for a different purpose. <strong>Cost percentage</strong> is cost divided by selling price. It is the figure owners and accountants watch, because it can be calculated for a whole program from two totals, purchases adjusted for inventory and sales, and compared from month to month. <strong>Markup</strong> is the multiple applied to cost to reach a price, and is how a buyer thinks when pricing a new wine. <strong>Gross margin</strong> or gross profit is selling price minus cost, in money, and is what pays the rent and wages. The three are linked by arithmetic: a markup of three times is a cost of thirty-three percent and a margin of sixty-seven percent.</p>
+<p>The distinction between percentage and money matters in practice. A wine bought for ten and sold for forty has a cost of twenty-five percent and earns thirty. A wine bought for a hundred and sold for two hundred has a cost of fifty percent, which looks poor, and earns a hundred. A program judged only on cost percentage will be pushed toward cheap wines at high multiples, and one that looks also at the money earned per bottle will see the case for pricing expensive wines more gently so that they sell. That reasoning is the basis of the sliding scale.</p>
+
+<h3>Pricing philosophy</h3>
+<p>Many restaurants use a sliding markup: higher multiples on cheap bottles, lower on expensive ones, so guests trade up. Cash margin pays the rent, not percentage: selling a $200 bottle at 40% cost earns $120; a $40 bottle at 25% earns $30.</p>
+
+
 <h3>A sliding scale, worked</h3>
 <table class="t"><tr><th>Bottle cost</th><th>Multiple</th><th>List price</th><th>Cost %</th><th>Cash margin</th></tr>
 <tr><td>$10</td><td>4x</td><td>$40</td><td>25%</td><td>$30</td></tr>
@@ -330,26 +496,82 @@ body:`
 <tr><td>$60</td><td>2.5x</td><td>$150</td><td>40%</td><td>$90</td></tr>
 <tr><td>$150</td><td>2x</td><td>$300</td><td>50%</td><td>$150</td></tr></table>
 <p>The percentage gets worse as the price climbs and the dollars get better. An owner who watches only cost percentage will push you to sell cheap wine. Show the cash.</p>
-<h3>Spirits, cocktails and kegs</h3>
-<ul><li>A 750 ml bottle (25.4 oz) gives <b>16</b> full pours of 1.5 oz. A liter (33.8 oz) gives <b>22</b>.</li>
-<li><b>Cocktail costing:</b> a Manhattan with 2 oz of bourbon from a $30 liter ($0.89 an ounce) costs $1.78; 1 oz of vermouth from a $12 bottle adds $0.47; bitters and a cherry add about $0.25. Total $2.50. At a 20% target the drink sells for $12.50.</li>
-<li>A half-barrel keg holds 15.5 gallons, or 1,984 oz: about <b>165</b> twelve-ounce pours or <b>124</b> pints, before foam and waste.</li></ul>
+
+
+<h3>How prices are set in practice</h3>
+<p>Several considerations shape a price beyond the formula. The target cost percentage for the program as a whole is set by the owner, commonly somewhere between twenty-five and thirty-five percent for wine, lower for spirits and draft beer, and the mix of sales must deliver it, which means that some items can run high if others run low. By-the-glass wines are priced on a rule that the first glass roughly covers the cost of the bottle, which allows for waste from unsold portions. The cheapest bottles carry the highest multiples because a minimum amount must be earned on each cork pulled to cover glassware, service and storage. Expensive bottles carry lower multiples to encourage their sale and because the money earned is large in any case.</p>
+<p>Prices also respond to the market. Guests can look up retail prices on their phones, and a wine widely known and widely sold is judged against them, while an obscure wine is not. Many restaurants therefore take a lower margin on famous labels and a higher one on discoveries. Prices are usually rounded to a convention suited to the style of the house.</p>
+
+<h3>Bottle sizes and pours</h3>
+<ul><li>375 ml = 12.7 oz (half bottle). 750 ml = 25.4 oz. Magnum 1.5 L = two bottles. Jeroboam (in Champagne) 3 L.</li>
+<li>A 5 oz glass gets about 5 pours per 750 ml; a 6 oz pour about 4.</li></ul>
+
+
 <h3>What over-pouring costs</h3>
 <p>A $30 bottle poured at 5 oz gives five glasses at $6 each. Poured at 6 oz it gives a little over four, at about $7.10 each. Cost per glass rises by 20%, and an $18 glass moves from a 33% pour cost to 39%. Across a year of by-the-glass sales that gap is often the difference between hitting and missing budget. Marked glassware or measured carafes fix it.</p>
+
+
+<h3>Why the pour size is a financial decision</h3>
+<p>A standard bottle holds 750 milliliters, a little over twenty-five ounces. The number of glasses a restaurant gets from it, five at five ounces, four at six, is fixed by its pour, and the price per glass is set on that assumption. If servers pour a little over, the bottle yields fewer glasses than the price assumed, and the cost percentage of the whole by-the-glass program rises without any single event to explain it. Half an ounce extra on a five-ounce pour is ten percent of the revenue from that bottle. Consistent pours are obtained with glasses that carry a subtle mark or whose shape makes the correct level obvious, with small carafes, with measured pourers for spirits, and with training. The same applies to spirits, where a bottle yields a fixed number of measures and free pouring is a common source of loss.</p>
+
+<h3>Inventory</h3>
+<ul><li>Count monthly (at least). Errors flow straight into COGS: overstating ending inventory makes COGS look lower (and margin better) than reality.</li>
+<li><b>Par levels</b>: the stock you want on hand for each item. <b>FIFO</b>: first in, first out.</li>
+<li><b>Depletion</b> reports and variance (theoretical vs actual usage) catch over-pouring and theft.</li>
+<li>By-the-glass programs need a plan for opened bottles: preservation systems, staff tasting, and rotation.</li></ul>
+
+
 <h3>Variance, worked</h3>
 <p>The point-of-sale system shows 120 glasses of the house Chablis sold this month. At 5 oz that is 600 oz, or 23.6 bottles. The cellar count shows 26 bottles gone. The <b>variance</b> is 2.4 bottles, about 10%. The usual causes, in order: over-pouring, unrecorded staff tastings and comps, breakage, spoilage, theft. A variance under about 2 to 3% is good housekeeping.</p>
+
+
 <h3>Inventory turnover</h3>
 <p><b>Turnover = annual COGS ÷ average inventory value.</b> A program with $120,000 of yearly wine cost and $30,000 sitting in the cellar turns four times a year, or about 91 days of stock on hand. A bistro should turn faster; a restaurant that cellars wine to maturity turns far slower, on purpose, and needs the capital to do it. Stock that has not sold in 90 days is dead money: feature it by the glass, pair it on a menu, or teach the staff to sell it.</p>
+
+
+<h3>What inventory figures reveal</h3>
+<p>A count of stock, usually monthly, serves three purposes. It allows the true cost of goods sold to be calculated: opening inventory plus purchases minus closing inventory is what was used, whether it was sold, spilled, given away or stolen. It shows how much money is tied up in the cellar. And, compared with the record of sales, it reveals <strong>variance</strong>, the difference between what should have been used according to the till and what was used according to the count. A small variance is normal. A large or growing one means something is wrong, and the task is to find where.</p>
+<p><strong>Turnover</strong> measures how many times a year the stock is sold and replaced. A restaurant with a small list of wines for current drinking may turn its inventory eight or ten times a year and has little capital tied up. A restaurant with a deep cellar of wines laid down to mature turns slowly, by design, and accepts the cost in return for being able to offer mature wine. Neither is wrong, but the owner must intend it, since money sitting in bottles is money unavailable for anything else, and wine that does not sell may pass its best.</p>
+
 <h3>Where the losses hide</h3>
 <ul><li><b>Comps and tastings:</b> record every one. Unrecorded generosity looks exactly like theft in the numbers.</li>
 <li><b>Spoilage:</b> open bottles past their life; corked bottles not returned for credit.</li>
 <li><b>Receiving errors:</b> wrong vintage, short cases, a price that changed without notice.</li>
 <li><b>Pricing drift:</b> wholesale costs rise and the list price doesn't.</li></ul>
+
+
+<h3>Controls and why they exist</h3>
+<p>Beverage stock is valuable, portable and easily consumed, and every well-run program has controls to protect it. Deliveries are checked against the order and the invoice by someone other than the person who placed the order. The cellar is locked and access limited. Bottles leave storage only against a record, a requisition or a sale. Breakages, corked bottles, staff tastings and complimentary pours are written down, so that they can be counted and are not used to disguise other losses. Sales are rung in before the bottle is opened. Counts are done by two people, or by someone independent.</p>
+<p>None of this implies distrust of any individual. Controls make honest mistakes visible, remove temptation, and protect staff from suspicion when figures do not reconcile. They also produce the information a manager needs: which wines sell, which sit, and where waste occurs.</p>
+
+<h3>Building the list</h3>
+<ul><li>Organize by region, by style (light to full: a <b>progressive list</b>), or by grape. Keep it consistent.</li>
+<li>Every entry needs: producer, wine/appellation, vintage, and accurate spelling. Typical list-correction errors on CMS exams: wrong region (Barolo listed under Tuscany), wrong grape (Sancerre listed as Chardonnay), wrong appellation for a château (Château Margaux under Pauillac), wrong or missing vintages, and misspellings.</li>
+<li>Offer a range of prices in every section; flag by-the-glass and half bottles; match the menu.</li></ul>
+
+
+<h3>Ordering beer and other stock</h3>
+<p>CMS Certified includes problems like estimating keg orders: if 500 covers order beer at a given rate and a half-barrel keg (15.5 gallons) yields about 165 twelve-ounce pours, how many kegs do you need? Work it step by step, round up, and add a buffer.</p>
+
+
+<h3>Spirits, cocktails and kegs</h3>
+<ul><li>A 750 ml bottle (25.4 oz) gives <b>16</b> full pours of 1.5 oz. A liter (33.8 oz) gives <b>22</b>.</li>
+<li><b>Cocktail costing:</b> a Manhattan with 2 oz of bourbon from a $30 liter ($0.89 an ounce) costs $1.78; 1 oz of vermouth from a $12 bottle adds $0.47; bitters and a cherry add about $0.25. Total $2.50. At a 20% target the drink sells for $12.50.</li>
+<li>A half-barrel keg holds 15.5 gallons, or 1,984 oz: about <b>165</b> twelve-ounce pours or <b>124</b> pints, before foam and waste.</li></ul>
+
+
+<h3>Costing drinks other than wine</h3>
+<p>The same logic extends to everything behind the bar. A cocktail is costed by adding the cost of each ingredient in the quantity used, including garnish and an allowance for ice and waste, and the price is set to reach the target percentage, which for spirits is usually lower than for wine, around eighteen to twenty-four percent. Draft beer is costed per ounce from the price and volume of the keg, with an allowance for the beer lost to foam and line cleaning, which can reach ten percent or more if the system is badly maintained. Bottled beer and soft drinks are simple unit costs. A beverage manager should be able to produce the cost and margin of any item on the list within a minute, and to say what the effect on the overall percentage would be of a change in price or in the mix of sales.</p>
+
 <h3>Doing the math in an exam</h3>
 <ul><li>Write the formula, then the numbers, then the answer with its unit.</li>
 <li>Round prices to a sensible figure and say so: $18.18 becomes $18.</li>
 <li>When ordering stock, always round <b>up</b>: you cannot buy 3.2 kegs.</li>
-<li>Sanity-check: a glass should cost the guest roughly what the bottle cost you.</li></ul>`,
+<li>Sanity-check: a glass should cost the guest roughly what the bottle cost you.</li></ul>
+
+<h3>The figures in perspective</h3>
+<p>The numbers are a means of running a program that can continue to exist. A sommelier who buys wonderful wines that do not sell, or prices so high that guests stop ordering, or so low that the restaurant loses money, fails the business and eventually loses the position and the cellar with it. The financial discipline described here is what earns the freedom to buy interesting wine: an owner who sees that costs are controlled, variance is small and sales are growing will trust the sommelier's judgment about what to put on the list.</p>
+`,
 floor:`<p>The Advanced practical includes a "Business of the Sommelier" component. Practice the Service Floor math drills here until each takes under a minute.</p>`,
 analyst:`<p>Diploma D2 (Wine Business, 10% of the Diploma) covers route to market, pricing structures, the three-tier system in the US, branding and marketing. MW Theory Paper 4 is the business of wine.</p>`,
 terms:[["COGS","Beginning inventory + purchases - ending inventory."],["Cost percentage","COGS divided by sales."],["Pour cost","Cost per pour divided by the glass price."],["Par level","Target stock level for an item."],["FIFO","First in, first out inventory rotation."],["Markup","Price divided by cost, as a multiple."],["Gross margin","The share of the price left after the cost of the wine."],["Cash margin","Dollars earned per bottle after its cost."],["Variance","The gap between stock that should have been used and stock actually used."],["Inventory turnover","Annual cost of goods sold divided by average inventory value."],["Dead stock","Inventory that has not sold in about 90 days."]],
