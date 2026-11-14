@@ -93,10 +93,11 @@ APXF["it-chianti-rufina"] = tsChiantiSub({
 APXF["it-chianti-colli-fiorentini"] = tsChiantiSub({
   lede: "The Chianti subzone of the hills around Florence, along the Arno, Pesa and Greve valleys.",
   rec: "Named in the 1932 decree; part of the Chianti DOC 1967 and DOCG 1984",
-  facts: [["Province", "Florence"], ["Yield", "9 t/ha; 11% natural alcohol"], ["Release", "1 September of the year after the harvest"], ["Riserva", "2 years, at least 6 months in wood"]],
+  facts: [["Province", "Florence"], ["Yield", "9 t/ha; 11% natural alcohol"], ["Release", "1 June of the year after the harvest under the 2026 code (1 September under the earlier text)"], ["Riserva", "2 years, at least 6 months in wood"]],
+  sources: [["Italian Wine Central: Chianti DOCG (code as modified May 2026)", "https://italianwinecentral.com/denomination/chianti-docg/"]],
   place: "Hills ringing Florence to the south, east and west, on galestro, alberese and sandy soils, bordering Chianti Classico to the south.",
   glass: "Medium-bodied, fragrant Sangiovese.",
-  exam: "One of two subzones (with Rufina) requiring 6 months in wood for Riserva and release from 1 September.",
+  exam: "Shares Rufina's 6 months in wood for Riserva; release moved to 1 June in the 2026 code (Rufina stays at 1 September).",
   producers: []
 });
 APXF["it-chianti-colli-senesi"] = tsChiantiSub({
@@ -429,10 +430,11 @@ APXF["it-valdichiana-toscana"] = ts({
 APXF["it-val-d-arno-di-sopra"] = ts({
   lede: "The upper Arno valley between Florence and Arezzo, one of the four zones of the 1716 edict, now a DOC for a wide range of varietals and a long-aged sparkling rosé.",
   cat: "DOC, red, white, rosé, sparkling, Vin Santo", rec: "DOC 2011", d: "DOC/Val d'Arno di Sopra o Valdarno di Sopra",
-  amended: "AIS text amended by DM 26 June 2014; a later revision is reported and has not been reviewed here",
-  facts: [["Also labelled", "Valdarno di Sopra"], ["Communes", "All of Cavriglia, Montevarchi, Bucine, Civitella in Val di Chiana, Castelfranco-Piandiscò, Terranuova Bracciolini, Loro Ciuffenna, San Giovanni Valdarno, Castiglion Fibocchi, Laterina and others"], ["Types", "Bianco, Rosso, Vendemmia tardiva, Vin Santo and many varietals including Sangiovese, Merlot, Cabernet Franc, Syrah, Pugnitello, Foglia Tonda, Malvasia Nera, Chardonnay, Orpicchio"], ["Sparkling rosé", "48 months on the lees before disgorging"], ["Riserva", "Reds released after 24 months; whites after 12"]],
+  amended: "Rules almost entirely rewritten in 2024 (last modified 7 October 2024); the linked AIS text is the 2014 version",
+  sources: [["Doctor Wine: Valdarno di Sopra rule changes approved", "https://www.doctorwine.wine/pot-pourri-en/changes-to-the-production-regulations-of-the-valdarno-di-sopra-d-o-approved/?lang=en"], ["Italian Wine Central: Val d'Arno di Sopra DOC", "https://italianwinecentral.com/denomination/val-darno-di-sopra-valdarno-di-sopra-doc/"]],
+  facts: [["Also labelled", "Valdarno di Sopra"], ["Communes (2014 text)", "All of Cavriglia, Montevarchi, Bucine, Civitella in Val di Chiana, Castelfranco-Piandiscò, Terranuova Bracciolini, Loro Ciuffenna, San Giovanni Valdarno, Castiglion Fibocchi, Laterina and others, all in Arezzo province; the 2024 rules add the Florentine part of the valley"], ["Types", "Bianco, Rosso, Vendemmia tardiva, Vin Santo and many varietals including Sangiovese, Merlot, Cabernet Franc, Syrah, Pugnitello, Foglia Tonda, Malvasia Nera, Chardonnay, Orpicchio"], ["Sparkling rosé", "48 months on the lees before disgorging"], ["Riserva", "Reds released after 24 months; whites after 12"]],
   place: "Terraces between the Pratomagno massif and the Chianti hills along the upper Arno.",
-  rules: "Grape to wine 70%; Vin Santo 35%.",
+  rules: "The 2024 rewrite enlarged the zone to the Florentine side of the valley, abolished the old sub-areas, added native varieties such as Orpicchio, Foglia Tonda and Pugnitello as principal grapes, and set Riserva-level requirements for Vigna wines. An organic requirement for Vigna wines was proposed separately; its status was unclear at the date checked.",
   history: "Named in Cosimo III's 1716 edict. The modern DOC was driven by organic estates of the valley.",
   glass: "Fresh Sangiovese and varied varietals.",
   exam: "One of the four historic 1716 zones, with Chianti, Pomino and Carmignano.",
