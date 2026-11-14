@@ -81,6 +81,18 @@ body:`
 <h3>What to watch</h3>
 <p>Three developments in Italian wine law are likely to matter in the next few years. The first is the spread of site classification. After Barolo's named places and Chianti Classico's village units, other appellations, including Valpolicella, Soave, Etna and Montalcino, have mapped or are mapping their sites, and the use of these names on labels will grow. The second is the treatment of white and rosé wines in regions known for red, and of red in regions known for white, which has led to new categories in several places. The third is the pressure of climate on grape varieties and on minimum aging and alcohol, which is pushing some consortia to admit varieties that hold acidity in heat and others to permit earlier release.</p>
 <p>A candidate should not try to memorize every rule. The useful approach is to learn the structure of the production code, the main headings it always contains, the leading appellations' key figures for aging and grape composition, and the direction of recent change. With that framework, any particular rule can be looked up and understood.</p>
+
+<h3>The aging clock, DOCG by DOCG</h3>
+<p>Italy's production codes set minimum aging periods for most of the great reds, and those numbers appear in examinations more than almost any other rule. The periods are counted from different starting points, which is the first trap: some run from 1 November of the harvest year, some from 1 January of the following year, and Brunello's is expressed as a release date. The table gives the minimums for the wines a student must know.</p>
+<table class="t"><tr><th>Wine</th><th>Normale</th><th>Riserva</th></tr>
+<tr><td>Barolo</td><td>38 months, 18 in wood</td><td>62 months</td></tr>
+<tr><td>Barbaresco</td><td>26 months, 9 in wood</td><td>50 months</td></tr>
+<tr><td>Brunello di Montalcino</td><td>Released 1 January of the fifth year after harvest; 2 years in oak, 4 months in bottle</td><td>Released a year later; 6 months in bottle</td></tr>
+<tr><td>Chianti Classico</td><td>Released from 1 October after harvest</td><td>24 months including 3 in bottle; Gran Selezione 30 months including 3 in bottle</td></tr>
+<tr><td>Taurasi</td><td>3 years, 1 in wood</td><td>4 years, 18 months in wood</td></tr>
+<tr><td>Amarone della Valpolicella</td><td>2 years from 1 January after harvest</td><td>4 years from 1 November of the harvest year</td></tr></table>
+<p>The logic behind the numbers is the tannin of the grape and the tradition of the region. Nebbiolo, Sangiovese grown in the warm south of Tuscany, and Aglianico are all high in tannin and acidity, and the codes were written when these wines were aged for years in large old casks before anyone would drink them. Barolo and Brunello carry the longest minimums because their wines were historically the slowest to soften, while Barbaresco, from a slightly warmer and lower zone that ripens Nebbiolo earlier, needs a year less. Chianti Classico's basic wine, by contrast, may be sold within a year, which reflects its role as a wine for the table rather than the cellar.</p>
+<p>Two modern developments complicate the picture. First, the period in wood is now often shorter or unspecified: Brunello still requires two years in oak, but several codes have reduced or removed their wood minimums to allow producers to choose between large casks, barriques and other vessels. Second, the newest top tiers are defined by origin rather than time. Chianti Classico's Gran Selezione must come entirely from the estate's own vineyards and, from the 2027 vintage, must be at least 90 percent Sangiovese with only native grapes in the remainder, and its labels may name one of eleven village districts; Vino Nobile's new Pieve tier works the same way. A student should know the aging numbers, but should also see that Italian law is moving its definition of quality from the cellar to the vineyard.</p>
 `,
 floor:`<p>Lambrusco di Sorbara with charcuterie, Cerasuolo d'Abruzzo as a rosé that drinks like a light red, Valtellina for Burgundy lovers who want Nebbiolo. Correct guests kindly when they assume all Lambrusco is sweet.</p>`,
 analyst:`<p>Essay theme: Italy's shift from aging rules to place-based tiers. Use Pieve, UGAs, Bardolino subzones and Cirò Classico as evidence; weigh benefits (identity, value) against costs (complexity for consumers).</p>`,
@@ -93,7 +105,10 @@ quiz:[
 [3,"The Vino Nobile 'Pieve' tier requires at least:","85% Sangiovese and 36 months aging",["70% Sangiovese and 24 months","100% Sangiovese and 60 months","50% Sangiovese"],"Pieve also requires native grapes only and vines at least 15 years old."],
 [2,"Carmignano requires what share of Cabernet?","10-20%",["None","At least 50%","Up to 5%"],"A Medici-era blend."],
 [2,"Which Lambrusco is palest and highest in acid?","Sorbara",["Grasparossa di Castelvetro","Salamino di Santa Croce","Reggiano"],"Grasparossa is darkest."],
-[3,"Amarone grapes may not be vinified before:","1 December after harvest",["1 October of the harvest","1 January after harvest","Easter after harvest"],"The grapes must dry until at least 1 December before they are pressed."]
+[3,"Amarone grapes may not be vinified before:","1 December after harvest",["1 October of the harvest","1 January after harvest","Easter after harvest"],"The grapes must dry until at least 1 December before they are pressed."],
+[2, "When may Brunello di Montalcino normale be released?", "1 January of the fifth year after harvest", ["1 October after harvest", "After 38 months from 1 November", "1 January of the third year"], "It needs 2 years in oak and 4 months in bottle; Riserva a year later."],
+[2, "Amarone Riserva needs how long, counted from 1 November of the harvest year?", "4 years", ["2 years", "3 years", "62 months"], "Normale needs 2 years from 1 January after harvest."],
+[3, "From which vintage must Chianti Classico Gran Selezione be at least 90% Sangiovese?", "2027", ["2014", "2021", "2025"], "The same vintage brings in the last three of the eleven UGAs."]
 ]});
 
 L.push({id:"r8c", unit:"R3", title:"Deep Dive: Spain's New Pyramids", mins:22,

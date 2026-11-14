@@ -110,7 +110,7 @@ body:`
 
 <h3>Chianti Classico, village by village</h3>
 <p>About 7,200 ha of vines scattered through forest, olive groves and hills between Florence and Siena, at roughly 250-600 m. Two soils carry the story: <b>galestro</b> (flaky schistous clay-marl that crumbles in your hand; gives perfume and structure) and <b>alberese</b> (compact limestone; gives power and longevity), plus sandstone (macigno) and clay.</p>
-<p>Since 2021, Gran Selezione may name one of eleven <b>UGAs</b> (Unità Geografiche Aggiuntive): <b>Castellina, Castelnuovo Berardenga, Gaiole, Greve, Lamole, Montefioralle, Panzano, Radda, San Casciano, San Donato in Poggio, Vagliagli</b>. The broad brushstrokes:</p>
+<p>Eleven <b>UGAs</b> (Unità Geografiche Aggiuntive) were approved in 2021 for Gran Selezione labels, eight in use now and the last three (Lamole, Montefioralle, Vagliagli) from the 2027 vintage: <b>Castellina, Castelnuovo Berardenga, Gaiole, Greve, Lamole, Montefioralle, Panzano, Radda, San Casciano, San Donato in Poggio, Vagliagli</b>. The broad brushstrokes:</p>
 <ul><li><b>Radda</b> and <b>Lamole</b>: high, cool, fragrant (Montevertine's Le Pergole Torte, a Sangiovese icon outside the DOCG by choice).</li>
 <li><b>Panzano</b>: the "Conca d'Oro," a sun-trap amphitheater (Fontodi's Flaccianello).</li>
 <li><b>Gaiole</b>: high and structured (Castello di Brolio's Ricasoli, Badia a Coltibuono, Riecine).</li>
@@ -181,7 +181,7 @@ floor:`<p>Brunello and Chianti Classico are both CMS Certified blind wines. Sell
 analyst:`<p>Explain galestro and alberese and their effects; discuss the Gran Selezione/UGA reforms as a move toward place-based hierarchy; analyze why Super Tuscans emerged outside DOC law.</p>`,
 terms:[["Galestro","Flaky schistous clay-marl soil in Chianti and Montalcino."],["Alberese","Compact limestone soil in Chianti."],["Conca d'Oro","Panzano's sun-trap amphitheater."],["Brunellopoli","2008 Brunello adulteration scandal."],["Occhio di Pernice","Red Vin Santo."]],
 quiz:[
-[2,"How many UGAs can appear on Chianti Classico Gran Selezione?","Eleven",["Three","Seven","Twenty"],"The eleven UGAs were approved in 2021 and may appear on Gran Selezione labels."],
+[2,"How many UGAs can appear on Chianti Classico Gran Selezione?","Eleven",["Three","Seven","Twenty"],"The eleven UGAs were approved in 2021 for Gran Selezione labels; eight are in use, and the last three arrive with the 2027 vintage."],
 [2,"Galestro is:","Flaky schistous clay-marl",["Soft volcanic tuff","Compact white limestone","Deep river sand"],"Alberese is compact limestone."],
 [2,"Panzano's 'Conca d'Oro' is home to which famous Sangiovese?","Fontodi Flaccianello",["Le Pergole Torte","Tignanello","Rancia"],"Le Pergole Torte is Montevertine in Radda."],
 [2,"In Montalcino, the south (e.g., Sant'Angelo in Colle) tends to give:","Warmer, richer wines",["Cooler, lighter wines","White wines","Sparkling wines"],"The north is cooler and more elegant."],
@@ -363,6 +363,11 @@ body:`
 <h3>Tasting German Riesling blind</h3>
 <p>German Riesling is recognized by a combination of high acidity, intense aromatics and, often, low alcohol. A wine at eight percent alcohol with obvious sweetness balanced by searing acidity, and flavors of green apple, peach and slate, is very likely a Mosel Kabinett or Spätlese; no other region makes wines of that weight and balance. Dry Riesling from the Rheingau, the Pfalz and Rheinhessen is fuller, twelve to thirteen percent, with riper stone fruit and a firmer texture, and the Pfalz examples are the broadest. Nahe Riesling sits between them, with a smoky, mineral note from its volcanic sites.</p>
 <p>The common confusions are with Alsace, Austria and Australia. Alsace Riesling is drier and fuller, with more alcohol and less floral lift. Austrian Riesling is dry and riper, with apricot. Clare and Eden Valley Riesling is bone dry and tastes of lime, with a slightly coarser texture and, with age, a stronger note of toast. The petrol aroma of mature Riesling, from a compound that develops in bottle, appears in all of them but is most marked in wines from warm, sunny sites, which is why Australian Riesling often shows it young. A taster should judge the acidity and alcohol first: high acid and low alcohol point to Germany, high acid and high alcohol to Alsace or Austria, and very dry lime-scented wines to Australia.</p>
+
+<h3>Recent German vintages</h3>
+<p>German Riesling is more sensitive to vintage than most white wine, because the vine grows at the northern edge of reliable ripening and a few weeks of weather in September can change the character of a whole year. The recent run shows how warming has changed the question from whether the grapes will ripen to how to keep them fresh. 2019 and 2020 were warm, healthy years that gave ripe, balanced wines. 2021 was the exception, a cool, wet season with heavy disease pressure in which careful growers made taut, high-acid Rieslings in a classic style that many collectors prize. 2022 was hot and dry, testing young vines and steep, stony sites. 2023 began warm but rain at harvest meant growers had to pick quickly and sort carefully.</p>
+<p>2024 was defined by spring frost, which struck parts of the country hard, notably the Saar and Ruwer and parts of the east, leaving many growers with small crops. 2025 came early and fast: the fruit was unusually healthy, ripening was swift and the harvest compressed into a few intense weeks, with the first fully ripe grapes picked in mid-August in some regions and the Nahe recording the earliest end to harvest on record. Quantities were rather small, but the VDP's members describe a vintage of concentration and fresh acidity with the potential to be among the great ones.</p>
+<p>For the sommelier, the useful pattern is that warm years now favor the dry Grosses Gewächs and the fuller wines of the Pfalz and Rheinhessen, while cooler years such as 2021 are prized for Kabinett and for the lighter, more delicate wines of the Mosel. The sweet Prädikat wines depend on autumn conditions in a different way: botrytis needs damp mornings and dry afternoons, and an early, clean harvest such as 2025 may yield brilliant dry and off-dry wines but fewer of the rarest sweet ones.</p>
 `,
 floor:`<p>The German section of a list rewards specific names. A guest asking for "a good Riesling" deserves a choice: Mosel Kabinett for lightness and sweetness, Rheingau or Pfalz GG for power and dryness, Saar for nerve. Always state the sweetness.</p>`,
 analyst:`<p>Explain how slope, aspect, river and slate allow Riesling to ripen at 50°N; discuss the coexistence of ripeness-based and origin-based classification in German law.</p>`,
@@ -379,7 +384,9 @@ quiz:[
 [2, "Which estate owns the largest part of the Scharzhofberg?", "Egon Müller", ["J.J. Prüm", "Dönnhoff", "Robert Weil"], "Its sweet wines sell at auction for some of Germany's highest prices."],
 [2, "Keller, maker of some of Germany's most expensive dry Rieslings, is in:", "Flörsheim-Dalsheim, Rheinhessen", ["Wehlen, Mosel", "Kiedrich, Rheingau", "Forst, Pfalz"], "Wittmann is in nearby Westhofen."],
 [2, "Which two Würzburg foundations own large parts of the Würzburger Stein?", "The Bürgerspital and the Juliusspital", ["Kloster Eberbach and Schloss Johannisberg", "Bürklin-Wolf and von Buhl", "Maximin Grünhaus and Karthäuserhof"], "Founded in the 14th and 16th centuries."],
-[3, "A Riesling at 8 percent with clear sweetness and searing acid is most likely from:", "The Mosel", ["Alsace", "Clare Valley", "Wachau"], "Alsace and Austria are dry and fuller."]
+[3, "A Riesling at 8 percent with clear sweetness and searing acid is most likely from:", "The Mosel", ["Alsace", "Clare Valley", "Wachau"], "Alsace and Austria are dry and fuller."],
+[2, "Which recent German vintage was cool and wet, giving taut, high-acid Rieslings?", "2021", ["2019", "2022", "2025"], "Many collectors prize it for Kabinett."],
+[2, "What hit the 2024 German crop, notably on the Saar and Ruwer?", "Spring frost", ["Hail at harvest", "Drought", "Wildfire smoke"], "Many growers had small crops."]
 ]});
 
 L.push({id:"r12c", unit:"R4", title:"Deep Dive: Austria's DACs and Rieden", mins:16,
