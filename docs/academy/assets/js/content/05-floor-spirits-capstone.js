@@ -113,7 +113,11 @@ quiz:[
 [2,"Why does ice and water chill a bottle faster than ice alone?","Water touches the whole bottle",["Water is colder than ice","Ice traps warm air","Water stops the label slipping"],"Full contact conducts heat away faster. Salt speeds it further."],
 [2,"A guest orders a second bottle of the same wine. The host should:","Taste it from a fresh glass",["Have it poured without tasting","Taste it from the glass in use","Smell the cork only"],"Each bottle can have its own faults."],
 [2,"When pouring, the bottle should:","Never touch the rim of the glass",["Rest on the rim for control","Be held by the neck","Be wrapped fully in a serviette"],"Finish with a small twist and wipe to catch the drip. The label stays visible."],
-[3,"Which tool combines a worm with two prongs for very old corks?","The Durand",["The Coravin","The waiter's friend","The butler's thief"],"The worm anchors the cork while the prongs lift it. 'Butler's thief' is another name for the Ah-So."]
+[3,"Which tool combines a worm with two prongs for very old corks?","The Durand",["The Coravin","The waiter's friend","The butler's thief"],"The worm anchors the cork while the prongs lift it. 'Butler's thief' is another name for the Ah-So."],
+[2, "Why is the bottle shown to the host before opening?", "It is the last moment an error can be corrected at no cost", ["To show the label design", "To warm the wine", "To check the fill level only"], "A wrong vintage can differ greatly in price."],
+[2, "What is the host checking in the taste pour?", "Whether the wine is sound", ["Whether they like the style", "The alcohol level", "The vintage"], "A faulty bottle is replaced without argument."],
+[2, "Cork taint gives a smell of:", "Damp cardboard or a moldy cellar", ["Vinegar", "Struck match", "Cooked jam"], "It affects perhaps 1 to 3 bottles in 100 under natural cork."],
+[2, "Tartrate crystals in a bottle indicate:", "A harmless deposit formed when the wine was chilled", ["Glass contamination", "Spoilage", "Added sugar"], "Explain them to the guest."]
 ]});
 
 L.push({id:"s2", unit:"S1", title:"Sparkling Service and Decanting", mins:14,
@@ -223,7 +227,11 @@ quiz:[
 [2,"An old bottle with sediment, ordered a day ahead, should be:","Stood upright to settle",["Shaken and chilled","Stored on its side until service","Decanted the night before"],"Upright for 24 to 48 hours puts the sediment at the bottom."],
 [3,"Port tongs are used to:","Break the neck of a very old bottle",["Hold the bottle over the candle","Crush the sediment","Extract a wet cork"],"Heated tongs and cold water crack the glass cleanly below a crumbling cork."],
 [2,"Decanting a young, reductive white Burgundy mainly:","Blows off struck-match aromas",["Removes heavy sediment","Warms the wine quickly","Adds a toasty oak note"],"Air clears reduction and opens the texture."],
-[2,"Sabrage is best described as:","A party ceremony, not service standard",["The Court's required method","A way to chill Champagne","A type of decanter"],"The blade breaks the collar of the neck along the seam."]
+[2,"Sabrage is best described as:","A party ceremony, not service standard",["The Court's required method","A way to chill Champagne","A type of decanter"],"The blade breaks the collar of the neck along the seam."],
+[2, "A Champagne bottle holds gas at about:", "Six atmospheres", ["Two atmospheres", "Twelve atmospheres", "One atmosphere"], "Roughly three times a car tire."],
+[2, "Why is an ice bucket filled with ice and water, not ice alone?", "Water conducts the cold to the whole surface of the bottle", ["It is cheaper", "It prevents the label peeling", "It slows chilling"], "Faster, more even chilling."],
+[2, "Which tool suits a fragile old cork?", "A two-pronged extractor", ["A lever corkscrew", "A Champagne key", "A knife"], "It grips the cork from the sides."],
+[2, "How are Port tongs used?", "Heated red, clamped below the cork, then the neck chilled so the glass cracks cleanly", ["To pull the cork slowly", "To hold the decanter", "To cut the capsule"], "For very old Vintage Port."]
 ]});
 
 L.push({id:"s3", unit:"S1", title:"Storage, Temperature and Glassware", mins:12,
@@ -347,7 +355,11 @@ quiz:[
 [2,"Compared with a standard bottle, a magnum ages:","More slowly",["Faster","At the same rate","Unpredictably"],"Twice the wine shares the same small amount of air."],
 [2,"An opened bottle of vermouth should be kept:","Refrigerated, for about a month",["On the back bar indefinitely","In the freezer","At room temperature for a year"],"It is wine: it oxidizes. Most bars keep it too long and too warm."],
 [2,"A copita is the traditional glass for:","Sherry",["Champagne","Red Burgundy","Beer"],"A small, narrow tulip that concentrates aroma."],
-[2,"What share of wine is made to be drunk within a year or two?","More than 90%",["About 10%","About 50%","About a quarter"],"Only wines with concentration and acid, tannin or sugar improve with age."]
+[2,"What share of wine is made to be drunk within a year or two?","More than 90%",["About 10%","About 50%","About a quarter"],"Only wines with concentration and acid, tannin or sugar improve with age."],
+[2, "Above about what temperature does alcohol become hot on the nose?", "68°F", ["50°F", "55°F", "80°F"], "Most restaurant reds are served too warm."],
+[2, "Light damage in wine gives a smell of:", "Cooked cabbage or wet wool", ["Vinegar", "Butter", "Petrol"], "Clear glass is most at risk."],
+[2, "Why is a full-bodied oaked white served only cool, not cold?", "Cold hides texture and complexity", ["Cold raises alcohol", "Cold adds sweetness", "Cold removes acidity"], "Cold emphasizes acid and bitterness."],
+[2, "Inert gas preservation works because argon:", "Is heavier than air and forms a layer over the wine", ["Removes sulfites", "Adds carbon dioxide", "Lowers alcohol"], "Needle systems pour without opening."]
 ]});
 
 L.push({id:"s4", unit:"S1", title:"Food and Wine Pairing", mins:15,
@@ -490,7 +502,11 @@ quiz:[
 [2,"Why does sake flatter umami-rich food?","It has no tannin to clash",["It is very high in acid","It is always served sweet","It is lightly carbonated"],"No tannin, low acid and plenty of amino acids: nothing in sake turns bitter against umami."],
 [2,"Which is one of the four 'universal' pairing wines?","Dry Riesling",["Oaked Chardonnay","Amarone","Zinfandel"],"Champagne, Riesling, Pinot Noir and dry rosé: high acid, modest tannin, little oak."],
 [2,"Seven courses at about 3 oz each total roughly:","Three-quarters of a bottle",["One glass","Two bottles","A quarter of a bottle"],"About 20 oz of a 25-oz bottle, so keep alcohol modest early."],
-[2,"Braised short rib calls for:","A full, mature red",["A light, unoaked white","A dry sparkling wine","An off-dry rosé"],"Rich, deep dishes need wines of equal weight."]
+[2,"Braised short rib calls for:","A full, mature red",["A light, unoaked white","A dry sparkling wine","An off-dry rosé"],"Rich, deep dishes need wines of equal weight."],
+[2, "Sweetness in food makes a dry wine taste:", "Thinner, more acid and bitter", ["Sweeter", "Fruitier", "Softer"], "Wine should be at least as sweet as the dish."],
+[2, "Salt in food makes a wine seem:", "Softer and fruitier", ["More tannic", "More bitter", "Thinner"], "Salty foods are easy to pair."],
+[2, "Why do off-dry, low-alcohol whites suit chili heat?", "Sweetness soothes and low alcohol avoids intensifying the burn", ["They are tannic", "They are oaky", "They are high in alcohol"], "Alcohol and tannin intensify heat."],
+[2, "Many fining agents are animal products. Which is vegan?", "Bentonite clay", ["Isinglass", "Casein", "Gelatin"], "Pea protein is another."]
 ]});
 
 L.push({id:"s5", unit:"S1", title:"The Business of the Sommelier", mins:15,
@@ -628,7 +644,11 @@ quiz:[
 [3,"Annual wine COGS is $120,000 and average inventory is $30,000. Turnover is:","4 times a year",["2.5 times a year","12 times a year","0.25 times a year"],"COGS divided by average inventory: about 91 days of stock on hand."],
 [2,"Sales records say 23.6 bottles should be gone; 26 are. The gap is called:","Variance",["Shrink wrap","Par","Depletion allowance"],"About 10% here; under 2 to 3% is good housekeeping."],
 [2,"Which bottle earns the most cash on the sliding scale?","A $150 bottle at 2x",["A $10 bottle at 4x","A $25 bottle at 3x","A $60 bottle at 2.5x"],"$150 of margin against $30, $50 and $90. Percentage falls; dollars rise."],
-[3,"A cocktail's ingredients cost $2.50. At a 20% cost target it sells for:","$12.50",["$5.00","$7.50","$25.00"],"Cost divided by target percentage."]
+[3,"A cocktail's ingredients cost $2.50. At a 20% cost target it sells for:","$12.50",["$5.00","$7.50","$25.00"],"Cost divided by target percentage."],
+[2, "A markup of three times cost equals a cost percentage of about:", "33 percent", ["25 percent", "50 percent", "67 percent"], "And a gross margin of 67 percent."],
+[2, "Half an ounce extra on a five-ounce pour costs about what share of the bottle's revenue?", "10 percent", ["1 percent", "25 percent", "50 percent"], "Overpouring raises cost silently."],
+[2, "Variance means:", "The difference between expected use from sales and actual use from the count", ["The change in price", "Vintage variation", "Discount given"], "A growing variance signals a problem."],
+[2, "Cost of goods sold is calculated as:", "Opening inventory plus purchases minus closing inventory", ["Sales minus purchases", "Closing minus opening inventory", "Purchases only"], "It captures spillage and loss too."]
 ]});
 
 // ---------- S2 BEYOND WINE ----------
@@ -767,7 +787,11 @@ quiz:[
 [2,"Stills are made of copper mainly because it:","Removes sulfur compounds",["Conducts no heat","Adds color to the spirit","Raises the alcohol"],"Copper reacts with sulfur and strips it from the vapor."],
 [2,"A whisky labeled 12 years old, bought and kept for 20 years, is now:","Still 12 years old",["32 years old","20 years old","Spoiled and undrinkable"],"Spirits mature only in cask."],
 [2,"A few drops of water added to a neat spirit:","Lower the burn and release aroma",["Ruin the texture for good","Raise its proof slightly","Make it cloudy in every single case"],"Blenders nose whisky diluted to about 20%."],
-[3,"Overripe banana, pineapple and varnish in a rum suggest:","Jamaica",["Martinique","Puerto Rico","Cuba"],"High-ester pot-still rum. Martinique's agricole is grassy; Cuban style is light."]
+[3,"Overripe banana, pineapple and varnish in a rum suggest:","Jamaica",["Martinique","Puerto Rico","Cuba"],"High-ester pot-still rum. Martinique's agricole is grassy; Cuban style is light."],
+[2, "Why does distillation strength matter to flavor?", "Lower strength keeps more congeners from the raw material", ["Higher strength adds flavor", "It sets the color", "It sets the sweetness"], "Spirits near 96 percent are neutral."],
+[2, "Who patented the efficient continuous column still in 1830?", "Aeneas Coffey", ["Jean-Édouard Adam", "Robert Stein", "Louis Pasteur"], "An Irish excise officer."],
+[2, "An age statement on a blended spirit gives:", "The age of the youngest spirit", ["The average age", "The oldest spirit", "The vintage"], "EU rule."],
+[2, "Copper in a still removes:", "Sulfur compounds", ["Alcohol", "Color", "Water"], "More copper contact gives a lighter spirit."]
 ]});
 
 L.push({id:"b2", unit:"S2", title:"Beer, Sake and Cider", mins:16,
@@ -882,7 +906,11 @@ quiz:[
 [2,"Which sake should be served chilled, not hot?","Daiginjo",["Honjozo","A sturdy Junmai","Futsushu"],"Heat destroys the delicate fragrance of Ginjo styles."],
 [2,"Japan's largest sake district, known for hard water and a dry style, is:","Nada",["Fushimi","Niigata","Hiroshima"],"Nada is in Hyogo. Fushimi in Kyoto has soft water and gentler sake."],
 [2,"Keeving produces cider that is:","Naturally sweet and low in alcohol",["Bone dry and high in alcohol","Fortified with young Calvados spirit","Still and sharply acidic"],"Yeast starved of nutrients stop early, leaving sugar."],
-[2,"Bittersweet cider apples are high in:","Tannin",["Acid only","Sugar only","Pectin only"],"They give the body and grip of West Country and Norman cider."]
+[2,"Bittersweet cider apples are high in:","Tannin",["Acid only","Sugar only","Pectin only"],"They give the body and grip of West Country and Norman cider."],
+[2, "Lager yeast works:", "Cold and slowly, giving a clean, crisp beer", ["Warm and quickly, giving fruity beer", "Only with wild bacteria", "Without sugar"], "Ale yeast works warm."],
+[2, "What converts rice starch to sugar in sake brewing?", "Koji mold", ["Malting", "Cooking alone", "Yeast only"], "Conversion and fermentation run together."],
+[2, "Daiginjo requires at least what share of the rice polished away?", "50 percent", ["10 percent", "30 percent", "70 percent"], "Ginjo is 40 percent."],
+[2, "Bittersweet cider apples give cider:", "Body, astringency and depth from tannin", ["Only acidity", "Sweetness only", "Color only"], "Like tannin in red wine."]
 ]});
 
 L.push({id:"b3", unit:"S2", title:"Cocktails, Apéritifs and Digestifs", mins:12,
@@ -1002,7 +1030,11 @@ quiz:[
 [2,"Green tea turns bitter when brewed with:","Boiling water",["Cool water","Very soft water","Loose leaves"],"Use about 160 to 180°F for two to three minutes."],
 [2,"A spirit-free cocktail most needs:","Acid, bitterness and texture",["Extra sugar and fruit syrup","More ice and a longer shake","Fruit juice and soda alone"],"Those replace the bite and body that alcohol supplies."],
 [2,"A sound pour of Cognac from the digestif cart is:","1 to 1.5 oz",["4 to 5 oz","Half an ounce","6 oz"],"Fortified wines get 2 to 3 oz."],
-[2,"Why is a good apéritif dry or bitter?","Bitterness and acid wake the appetite",["Sugar helps the digestion","Alcohol needs to be high first","Only because of old tradition"],"Sugar and heavy alcohol dull the appetite before a meal."]
+[2,"Why is a good apéritif dry or bitter?","Bitterness and acid wake the appetite",["Sugar helps the digestion","Alcohol needs to be high first","Only because of old tradition"],"Sugar and heavy alcohol dull the appetite before a meal."],
+[2, "Why are stirred drinks stirred rather than shaken?", "They contain only spirits and stay clear and silky", ["They contain juice", "They need foam", "They are served hot"], "Shaking suits citrus and egg."],
+[2, "Dilution from ice in a finished cocktail is roughly:", "A fifth to a quarter of the drink", ["None", "Half", "Two percent"], "Under-diluted drinks are harsh."],
+[2, "Why are classic aperitifs dry and bitter?", "Bitterness and acidity stimulate appetite", ["Sugar sharpens hunger", "High alcohol helps digestion", "Bitterness lowers alcohol"], "Sugar blunts hunger."],
+[2, "The large brandy balloon warmed over a flame is now disfavored because it:", "Drives off alcohol and aroma together", ["Cools the spirit", "Is too small", "Dilutes the spirit"], "A tulip glass is preferred."]
 ]});
 
 // ---------- A1 WRITTEN PAPER ----------
@@ -1134,7 +1166,11 @@ quiz:[
 [2,"A simple, fruity wine with all-primary aromas should be marked:","Drink now: not suitable for ageing",["Too young","Can drink now, but has potential for ageing","Too old"],"Ageing potential needs concentration plus acid, tannin or sugar."],
 [2,"Which answer earns nothing on a structural line?","Medium to high",["Medium(+)","High","Medium(-)"],"Examiners want one point on the scale, not a range."],
 [2,"Vanilla, coconut and cedar in an aged Rioja are classed as:","Secondary",["Primary","Tertiary","Faults"],"Oak aromas are secondary; leather and tobacco are tertiary."],
-[3,"Which pair gives the low and high anchors for acidity?","Gewurztraminer and Riesling",["Riesling and Chablis","Viognier and Gewurztraminer","Chardonnay and Pinot Grigio"],"Calibrate each scale against wines that sit at its ends."]
+[3,"Which pair gives the low and high anchors for acidity?","Gewurztraminer and Riesling",["Riesling and Chablis","Viognier and Gewurztraminer","Chardonnay and Pinot Grigio"],"Calibrate each scale against wines that sit at its ends."],
+[2, "The most dependable single indicator of quality is:", "Length of finish", ["Color", "Alcohol", "Aroma intensity alone"], "With balance, intensity and complexity."],
+[2, "Secondary aromas come from:", "Winemaking such as oak, malolactic and lees", ["The grape", "Bottle age", "Fermentation temperature only"], "Tertiary aromas come from time."],
+[2, "A wine described as light and short cannot be judged:", "Suitable for further aging", ["Clean", "Dry", "Fault-free"], "Inconsistent conclusions lose marks."],
+[2, "Which wine is a good reference for low acidity?", "A ripe Viognier", ["Mosel Kabinett", "Chablis", "Champagne"], "Calibrate with known wines."]
 ]});
 
 L.push({id:"a2", unit:"A1", title:"Answering 25-Mark Questions", mins:14,
@@ -1269,7 +1305,10 @@ quiz:[
 [2,"Which phrase earns no marks?","\"The region has ideal conditions\"",["\"Slate soils absorb heat\"","\"Cold nights slow acid loss\"","\"Spirit kills the yeast early\""],"Vague praise states no fact and no consequence."],
 [2,"'Evaluate' in a Diploma question asks for:","A judgment backed by evidence",["A single word or phrase","A list of regional examples","A description with no verdict"],"Evaluate and assess want weighed evidence and a verdict."],
 [2,"What does aging under flor do to a wine?","Keeps it pale, dry and light",["Makes it brown and nutty","Adds sweetness","Raises its tannin"],"Flor blocks oxygen and consumes glycerol."],
-[2,"If two statements in an answer contradict each other, examiners usually:","Cancel both",["Mark the first","Mark the better one","Add a penalty to the total"],"Commit to one answer."]
+[2,"If two statements in an answer contradict each other, examiners usually:","Cancel both",["Mark the first","Mark the better one","Add a penalty to the total"],"Commit to one answer."],
+[2, "In a WSET explain question, a fact with its effect earns:", "Two marks", ["One mark", "Zero", "Three marks"], "Chains of cause and effect."],
+[2, "A compare question requires:", "Similarities and differences, point by point", ["A description of one wine", "A list of facts", "A recommendation"], "Read the command word."],
+[2, "Cool fermentation in a white wine:", "Preserves fruity, floral aromas", ["Adds butter", "Increases tannin", "Raises alcohol"], "A standard chain."]
 ]});
 
 // ---------- C1 CAPSTONE ----------
@@ -1385,7 +1424,11 @@ quiz:[
 [2,"If a wine baffles you at the four-minute mark, you should:","Call the most classic fit and move on",["Leave the conclusion blank","Take two more minutes","Return to it after the reds"],"One lost wine is survivable; a lost clock is not."],
 [2,"Where do most points in the verbal exam sit?","In the description",["In the vintage","In the producer","In the first sentence"],"An accurate description with a logical wrong call can still pass a wine."],
 [3,"Six wines at four minutes each leave how much spare time in the exam?","One minute",["Five minutes","Ten minutes","None"],"Twenty-four of the twenty-five minutes."],
-[2,"Before a tasting exam, the palate should be:","Rested for a day or two",["Trained hard the night before","Warmed up with spirits","Tested on twelve wines that morning"],"Fatigue dulls acuity; taper as an athlete would."]
+[2,"Before a tasting exam, the palate should be:","Rested for a day or two",["Trained hard the night before","Warmed up with spirits","Tested on twelve wines that morning"],"Fatigue dulls acuity; taper as an athlete would."],
+[2, "Gamay is separated from Pinot Noir by:", "A purple rim, banana notes and lower tannin", ["Higher tannin", "Orange rim", "Petrol"], "Carbonic maceration."],
+[2, "Why should structure outweigh aroma in a deduction?", "Acid, alcohol and tannin vary less and resist suggestion", ["Aroma is never useful", "Structure includes color", "Examiners ignore aroma"], "The nose is easily led."],
+[2, "Examination flights are built from:", "Classic, typical examples", ["Obscure wines", "Faulty wines", "Only Old World wines"], "Prefer the classic answer."],
+[2, "Viognier is told from Gewürztraminer by:", "Apricot with low acid, not lychee and rose", ["Higher tannin", "Red fruit", "Searing acid"], "Gewürz is oily with ginger."]
 ]});
 
 L.push({id:"c2", unit:"C1", title:"Diploma and Master of Wine Thinking", mins:14,
@@ -1507,5 +1550,9 @@ quiz:[
 [2,"Which example shows producers leaving an appellation to pursue quality?","The Super Tuscans",["Champagne's échelle des crus","The 1855 Classification","Cava's Reserva tier"],"They chose table-wine status in the 1970s to use Cabernet and barriques."],
 [3,"World wine production in 2024 was about:","225 million hectoliters",["165 million hectoliters","295 million hectoliters","360 million hectoliters"],"The lowest in about sixty years, by OIV figures."],
 [2,"A 'to what extent' essay should end with:","A position between yes and no",["A list of further reading","A restatement of the question","No conclusion at all"],"Commit to a degree and defend it."],
-[2,"About how many people have ever passed the Master of Wine exam?","A little over 500",["A little under 300","A little over 900","Roughly 1,400"],"Since the first exam in 1953."]
+[2,"About how many people have ever passed the Master of Wine exam?","A little over 500",["A little under 300","A little over 900","Roughly 1,400"],"Since the first exam in 1953."],
+[2, "The WSET Diploma's largest unit is:", "D3 Wines of the World", ["D1 Production", "D2 Business", "D6 Research"], "Half the weight."],
+[2, "An essay that ends by saying time will tell loses marks for lack of:", "Judgment", ["Length", "Examples", "Spelling"], "Commit to a view."],
+[2, "The Master of Wine began in:", "1953", ["1900", "1978", "2001"], "For the British trade."],
+[2, "A good research question is:", "Narrow and answerable with evidence", ["As broad as possible", "A literature summary", "Opinion-based"], "Primary evidence is valued."]
 ]});

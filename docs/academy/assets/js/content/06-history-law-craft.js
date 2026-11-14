@@ -484,7 +484,11 @@ quiz:[
 [2,"For a bottle over fifteen years old, what often matters more than the vintage?","How it was stored",["How heavy the glass is","What color the capsule is","How deep the punt is"],"Heat and dry air do more damage than a modest year."],
 [2,"Which was a cool, wet, difficult year in both Piedmont and Tuscany?","2014",["2010","2016","2019"],"The other three are benchmark years."],
 [2,"In an auction catalogue, \"top shoulder\" and \"mid shoulder\" describe a bottle's:","Ullage",["Sediment","Capsule","Label condition"],"The fill level: the gap between cork and wine grows as wine slowly evaporates."],
-[2,"The 'provenance' of an old bottle means its:","History of ownership and storage",["Grape variety and proportions of the blend","Alcohol and sugar levels","Scores from the critics"],"Ex-cellar bottles have the best provenance."]
+[2,"The 'provenance' of an old bottle means its:","History of ownership and storage",["Grape variety and proportions of the blend","Alcohol and sugar levels","Scores from the critics"],"Ex-cellar bottles have the best provenance."],
+[2, "Frost is most dangerous when:", "An early spring brings budbreak forward", ["The summer is hot", "Harvest is late", "Winter is cold"], "Young shoots die below about minus two."],
+[2, "Harvest follows flowering by about:", "100 days", ["30 days", "200 days", "365 days"], "A rough rule."],
+[2, "Why do old reds lighten at the rim?", "Pigments combine with tannins and drop out as sediment", ["Oxygen adds color", "Alcohol evaporates", "Acid rises"], "Purple to garnet to tawny."],
+[2, "Reaction rates in stored wine roughly double with each rise of:", "10°C", ["1°C", "25°C", "50°C"], "Heat cooks wine."]
 ]});
 
 L.push({id:"f11", unit:"F1", title:"Deductive Logic: From Evidence to Conclusion", mins:16,

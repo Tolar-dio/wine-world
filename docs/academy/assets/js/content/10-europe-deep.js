@@ -96,7 +96,11 @@ quiz:[
 [2,"Monprivato is associated with:","Giuseppe Mascarello",["Giacomo Conterno","Angelo Gaja","Roberto Voerzio"],"Castiglione Falletto."],
 [2,"Santo Stefano and Gallina are in which Barbaresco commune?","Neive",["Barbaresco","Treiso","Alba"],"Neive is the largest by area."],
 [3,"Nebbiolo is called Spanna in:","Alto Piemonte",["Valtellina","Roero","Langhe"],"Gattinara, Ghemme, Boca."],
-[3,"Timorasso is championed in Colli Tortonesi by:","Walter Massa",["Bartolo Mascarello","Bruno Giacosa","Elio Altare"],"Labeled as Derthona."]
+[3,"Timorasso is championed in Colli Tortonesi by:","Walter Massa",["Bartolo Mascarello","Bruno Giacosa","Elio Altare"],"Labeled as Derthona."],
+[2, "Which producer led the Barolo modernists in the 1980s?", "Elio Altare", ["Bartolo Mascarello", "Giuseppe Rinaldi", "Giacomo Conterno"], "Short macerations and new barriques."],
+[2, "Bartolo Mascarello is associated with:", "A single blended Barolo each year in the traditional style", ["Single-vineyard barrique wines", "Barbaresco only", "Sparkling Nebbiolo"], "Long maceration and large old casks."],
+[2, "Which Barolo communes give the most powerful, tannic wines?", "Serralunga and Monforte", ["La Morra and Barolo", "Verduno and Grinzane", "Cherasco and Roddi"], "La Morra gives the most perfumed."],
+[2, "The decisive blind clue for Nebbiolo is:", "A pale color paired with very high tannin", ["Deep purple color", "Low acidity", "Pronounced banana"], "Plus rose and tar."]
 ]});
 
 L.push({id:"r7c", unit:"R2", title:"Deep Dive: Tuscany and Central Italy", mins:22,
@@ -183,7 +187,11 @@ quiz:[
 [2,"In Montalcino, the south (e.g., Sant'Angelo in Colle) tends to give:","Warmer, richer wines",["Cooler, lighter wines","White wines","Sparkling wines"],"The north is cooler and more elegant."],
 [2,"Sassicaia's first commercial vintage was:","1968",["1985","1945","1975"],"Tenuta San Guido."],
 [2,"Masseto is:","A pure Merlot from Bolgheri",["A Brunello from Montalcino","A Vin Santo from Chianti","A Sagrantino from Umbria"],"Originally part of Ornellaia."],
-[3,"Cult traditionalist producers of Abruzzo are:","Valentini and Emidio Pepe",["Biondi-Santi and Soldera","Bucci and Collestefano","Caprai and Bea"],"Montepulciano and Trebbiano d'Abruzzo."]
+[3,"Cult traditionalist producers of Abruzzo are:","Valentini and Emidio Pepe",["Biondi-Santi and Soldera","Bucci and Collestefano","Caprai and Bea"],"Montepulciano and Trebbiano d'Abruzzo."],
+[2, "Which family created Brunello di Montalcino?", "Biondi-Santi", ["Ricasoli", "Antinori", "Frescobaldi"], "Castello Banfi later built its international market."],
+[2, "Ornellaia was founded by:", "Lodovico Antinori", ["Mario Incisa della Rocchetta", "Piero Antinori", "Giacomo Tachis"], "Sassicaia belongs to Tenuta San Guido."],
+[2, "Which producer made Sagrantino famous in the 1980s?", "Arnaldo Caprai", ["Valentini", "Emidio Pepe", "Lungarotti"], "Montefalco Sagrantino is among the most tannic wines in the world."],
+[2, "Sangiovese is recognized blind by:", "High acid, high tannin, medium color and dried cherry with tomato leaf", ["Pale color with rose and tar", "Inky color with low acid", "Very low tannin and banana"], "Brunello is fuller and more developed than Chianti Classico."]
 ]});
 
 L.push({id:"r7d", unit:"R2", title:"Deep Dive: Northeast Italy, the South and the Islands", mins:22,
@@ -272,7 +280,11 @@ quiz:[
 [2,"Marsala Vergine must be:","Dry and aged at least 5 years",["Sweet and aged at least 1 year","Made from Nero d'Avola only","Unfortified and bottled young"],"No added sweetener."],
 [3,"Friuli's hillside soils are called:","Ponca",["Galestro","Albariza","Llicorella"],"Marl and sandstone flysch."],
 [2,"Cantina Terlano is famous for:","Long-lived whites from an Alto Adige cooperative",["Amarone from dried Corvina grapes","Traditional-method Trento DOC sparkling","Etna Rosso from old Nerello Mascalese"],"Alto Adige's cooperative model."],
-[3,"Vernaccia di Oristano is notable for:","Flor aging, like Sherry",["Carbonic maceration","Botrytis","Ice wine"],"Sardinia's Vernaccia di Oristano ages under flor in part-filled casks, like a Fino."]
+[3,"Vernaccia di Oristano is notable for:","Flor aging, like Sherry",["Carbonic maceration","Botrytis","Ice wine"],"Sardinia's Vernaccia di Oristano ages under flor in part-filled casks, like a Fino."],
+[2, "Which producers mark the traditional and modern poles of Amarone?", "Quintarelli and Dal Forno", ["Masi and Allegrini", "Gaja and Conterno", "Biondi-Santi and Banfi"], "Masi was a pioneer of ripasso."],
+[2, "Which family company kept Fiano, Greco and Aglianico alive at Atripalda?", "Mastroberardino", ["Feudi di San Gregorio", "Planeta", "Donnafugata"], "Campania's reference."],
+[2, "Etna Rosso is made from:", "Nerello Mascalese", ["Nero d'Avola", "Aglianico", "Frappato"], "Pale, high-acid, firm, with a smoky volcanic note."],
+[2, "A dark, very tannic, high-acid red with tar and smoke from southern Italy is most likely:", "Taurasi or Aglianico del Vulture", ["Primitivo", "Valpolicella Classico", "Lambrusco"], "They resemble a rustic Barolo."]
 ]});
 
 L.push({id:"r11b", unit:"R4", title:"Deep Dive: Germany's Great Sites", mins:22,
@@ -363,7 +375,11 @@ quiz:[
 [2,"Würzburger Stein is in:","Franken",["Baden","Nahe","Pfalz"],"Shell limestone, Silvaner."],
 [2,"Niederhäuser Hermannshöhle is the most famous site of:","The Nahe",["The Mosel","The Rheingau","The Ahr"],"Hermannshöhle at Niederhausen, on slate and volcanic rock, is the Nahe's benchmark; Dönnhoff is its best-known grower."],
 [3,"Which German region is in EU climate zone B like Alsace?","Baden",["Mosel","Franken","Mittelrhein"],"The warmest region."],
-[3,"Keller's G-Max is a famous dry Riesling from:","Rheinhessen",["Pfalz","Rheingau","Saar"],"Flörsheim-Dalsheim."]
+[3,"Keller's G-Max is a famous dry Riesling from:","Rheinhessen",["Pfalz","Rheingau","Saar"],"Flörsheim-Dalsheim."],
+[2, "Which estate owns the largest part of the Scharzhofberg?", "Egon Müller", ["J.J. Prüm", "Dönnhoff", "Robert Weil"], "Its sweet wines sell at auction for some of Germany's highest prices."],
+[2, "Keller, maker of some of Germany's most expensive dry Rieslings, is in:", "Flörsheim-Dalsheim, Rheinhessen", ["Wehlen, Mosel", "Kiedrich, Rheingau", "Forst, Pfalz"], "Wittmann is in nearby Westhofen."],
+[2, "Which two Würzburg foundations own large parts of the Würzburger Stein?", "The Bürgerspital and the Juliusspital", ["Kloster Eberbach and Schloss Johannisberg", "Bürklin-Wolf and von Buhl", "Maximin Grünhaus and Karthäuserhof"], "Founded in the 14th and 16th centuries."],
+[3, "A Riesling at 8 percent with clear sweetness and searing acid is most likely from:", "The Mosel", ["Alsace", "Clare Valley", "Wachau"], "Alsace and Austria are dry and fuller."]
 ]});
 
 L.push({id:"r12c", unit:"R4", title:"Deep Dive: Austria's DACs and Rieden", mins:16,
@@ -503,7 +519,11 @@ quiz:[
 [2,"Sekt Austria Große Reserve needs how long on lees?","36 months",["9 months","18 months","60 months"],"Reserve needs 18 months; the basic tier nine."],
 [2,"Strohwein is made from grapes:","Dried on straw or reeds",["Frozen on the vine","Affected by noble rot","Picked well before veraison"],"For at least three months before pressing."],
 [2,"How many DACs has Austria had since Thermenregion joined in 2023?","18",["9","13","27"],"Weinviertel was the first, in 2003."],
-[3,"A Wachau Federspiel has an alcohol level of:","11.5 to 12.5%",["Under 9%","13.5 to 15%","Over 15%"],"Steinfeder is lighter; Smaragd starts at 12.5%."]
+[3,"A Wachau Federspiel has an alcohol level of:","11.5 to 12.5%",["Under 9%","13.5 to 15%","Over 15%"],"Steinfeder is lighter; Smaragd starts at 12.5%."],
+[2, "Which Wachau producer is often cited as the reference for the Smaragd style?", "F.X. Pichler", ["Bründlmayer", "Kracher", "Tement"], "Based in Loiben, at the warm eastern end."],
+[2, "The Wachau's large regional cooperative, founded in 1938, is:", "Domäne Wachau", ["Freie Weingärtner Kamptal", "Winzer Krems", "Vinea Wachau"], "Vinea Wachau is the growers' association."],
+[2, "The Neusiedlersee sweet wines are made chiefly from:", "Welschriesling and Chardonnay, with others", ["Furmint and Hárslevelű", "Riesling and Silvaner", "Sémillon and Sauvignon"], "Welschriesling takes botrytis character well."],
+[2, "Ruster Ausbruch must reach the must weight of:", "A Trockenbeerenauslese", ["A Spätlese", "An Auslese", "A Kabinett"], "It has its own appellation."]
 ]});
 
 L.push({id:"r10b", unit:"R3", title:"Deep Dive: Portugal's Regions, Port Shippers and Madeira Houses", mins:20,
@@ -584,5 +604,9 @@ quiz:[
 [2,"Which group owns Graham's, Dow's and Warre's?","Symington Family Estates",["The Fladgate Partnership","Sogrape","AXA"],"Fladgate owns Taylor's, Fonseca and Croft."],
 [3,"Terrantez is:","A rare, prized Madeira grape",["An aged style of white Port","A subregion of the Douro","A Douro river boat"],"Nearly extinct."],
 [2,"Vinho de Talha is made in:","Large clay amphorae",["Oak barriques","Stainless steel only","Concrete eggs"],"Talha wines ferment and age in large clay pots, a Roman-era tradition in the Alentejo."],
-[3,"The oldest Port house, founded 1638, is:","Kopke",["Taylor's","Sandeman","Croft"],"Now part of Sogevinus."]
+[3,"The oldest Port house, founded 1638, is:","Kopke",["Taylor's","Sandeman","Croft"],"Now part of Sogevinus."],
+[2, "Which house relies on Quinta de Vargellas in the Douro Superior?", "Taylor's", ["Graham's", "Noval", "Niepoort"], "Vargellas is released as a single-quinta vintage in undeclared years."],
+[2, "Niepoort, founded in 1842, is especially known for:", "Colheitas and experiments with table wine", ["Sherry", "Madeira", "Vinho Verde"], "A family firm founded by a Dutch merchant."],
+[2, "An amber, sweet fortified wine with searing acidity and a burnt, smoky note is most likely:", "Madeira", ["Tawny Port", "Oloroso", "Rutherglen Muscat"], "Tawny Port has moderate acidity."],
+[2, "Which Madeira grape gives the driest style?", "Sercial", ["Malmsey", "Bual", "Verdelho"], "Malmsey is the sweetest."]
 ]});

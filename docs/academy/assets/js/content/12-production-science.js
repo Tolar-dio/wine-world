@@ -629,5 +629,9 @@ quiz:[
 [2,"Which is a likely winner in a warmer climate?","German Spätburgunder",["Riverland bulk wine","Dry-farmed La Mancha","Lowland southern Italy"],"Reliable ripeness has transformed German reds."],
 [2,"The Bottle Weight Accord targets an average 750 ml still-wine bottle below:","420 grams",["150 grams","750 grams","1,200 grams"],"By the end of 2026."],
 [2,"International Wineries for Climate Action was founded in 2019 by:","Torres and Jackson Family Wines",["LVMH and Pernod Ricard","E. & J. Gallo and Constellation Brands","Antinori and Frescobaldi"],"Members must measure and reduce their emissions."],
-[2,"Smoke taint affects red wines most because:","The compounds sit in the skins",["Red grapes hold more sugar","Reds are picked much earlier","Oak barrels trap the smoke"],"Red winemaking extracts the skins."]
+[2,"Smoke taint affects red wines most because:","The compounds sit in the skins",["Red grapes hold more sugar","Reds are picked much earlier","Oak barrels trap the smoke"],"Red winemaking extracts the skins."],
+[2, "Beaune harvest records show picking now starts on average how much earlier than before 1988?", "13 days", ["2 days", "30 days", "60 days"], "Records back to 1354."],
+[2, "Smoke taint compounds such as guaiacol are hidden in grapes because they:", "Bind to sugars and are released later", ["Evaporate", "Turn into tannin", "Become color"], "Reds suffer most."],
+[2, "The largest single item in a bottle's carbon footprint is usually:", "The glass bottle", ["Vineyard tractors", "Fertilizer", "Corks"], "Lighter bottles help most."],
+[2, "Why does warmth raise alcohol?", "Sugar races ahead of flavor and tannin ripeness", ["Yeast becomes stronger", "Acid turns to alcohol", "Rain falls less"], "Growers wait for phenolic ripeness."]
 ]});

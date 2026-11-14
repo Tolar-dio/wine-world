@@ -120,7 +120,11 @@ quiz:[
 [2,"A guest who loves Zinfandel should be steered to Croatia's:","Plavac Mali",["Graševina","Malvazija","Pošip"],"It is an offspring of Zinfandel."],
 [2,"A qvevri is traditionally lined with:","Beeswax",["Pine resin","Glazed tile","Olive oil"],"Then buried to its neck in the ground."],
 [2,"The Georgian feast led by a toastmaster is the:","Supra",["Heuriger","Symposium","Feria"],"The toastmaster is the tamada."],
-[2,"Öküzgözü and Boğazkere are red grapes of:","Turkey",["Lebanon","Bulgaria","Armenia"],"One is soft, the other tannic; they are usually blended."]
+[2,"Öküzgözü and Boğazkere are red grapes of:","Turkey",["Lebanon","Bulgaria","Armenia"],"One is soft, the other tannic; they are usually blended."],
+[2, "The 2017 PNAS study dated the earliest grape wine residues in Georgia to:", "About 6000 to 5800 BC", ["About 3000 BC", "About 800 BC", "About 10,000 BC"], "From Gadachrili Gora and Shulaveris Gora."],
+[2, "The earliest archaeological evidence for qvevri winemaking in Georgia dates from:", "The Iron Age, around the 8th century BC", ["The Neolithic", "The Roman period", "The 19th century"], "The tradition is ancient; its 8,000-year continuity is an inference."],
+[2, "Which Friulian producer fermented all his wine in buried amphorae from the 2001 vintage?", "Josko Gravner", ["Stanko Radikon", "Mike Grgich", "Silvio Jermann"], "He imported qvevri from Georgia."],
+[2, "Château Musar is in which country?", "Lebanon", ["Israel", "Turkey", "Cyprus"], "Founded in 1930; Ksara dates from 1857."]
 ]});
 
 L.push({id:"r18", unit:"R5", title:"England and the Emerging Wine World", mins:14,
@@ -239,7 +243,11 @@ quiz:[
 [2,"Which area has become the source of England's best still Chardonnay and Pinot Noir?","The Crouch Valley in Essex",["The Camel Valley in Cornwall","The Wye Valley in Wales","The Test Valley in Hampshire"],"It is drier and warmer than the chalk counties."],
 [2,"Nyetimber, planted in 1988, set the English model by planting:","Only the Champagne grapes",["Only early-ripening German crossings","Only Bacchus","Only red hybrids"],"Chardonnay, Pinot Noir and Meunier."],
 [2,"Solaris and Souvignier Gris matter in northern Europe because they:","Resist fungal disease",["Ripen very late","Need extreme heat","Have red flesh and juice"],"They are PIWI varieties, bred for mildew resistance."],
-[3,"Compared with Champagne, English sparkling wine usually shows:","Higher, sharper acidity",["Lower acidity","More alcohol","Deeper color and more tannin"],"England is cooler, so malic acid stays high."]
+[3,"Compared with Champagne, English sparkling wine usually shows:","Higher, sharper acidity",["Lower acidity","More alcohol","Deeper color and more tannin"],"England is cooler, so malic acid stays high."],
+[2, "Who planted Nyetimber with the Champagne varieties in 1988?", "Stuart and Sandy Moss", ["Mike Roberts", "Sir Guy Salisbury-Jones", "Eric Heerema"], "Heerema bought the estate in 2006."],
+[2, "Which Champagne house began planting Domaine Evremond in Kent in 2017?", "Taittinger", ["Pommery", "Bollinger", "Louis Roederer"], "Pommery partnered with Hattingley Valley."],
+[2, "England and Wales produced about how many bottles in 2025?", "16.5 million", ["6 million", "21.6 million", "45 million"], "2023 gave 21.6 million and 2024 about 10.7 million."],
+[2, "Which county has the largest vineyard area in England?", "Kent", ["West Sussex", "Hampshire", "Essex"], "About 1,239 hectares."]
 ]});
 
 L.push({id:"s6", unit:"S1", title:"Salesmanship and the Guest", mins:16,
@@ -376,7 +384,11 @@ quiz:[
 [2,"The 'discovery' in a three-option answer should cost:","Less than the safe choice",["More than the step up","The same as the most expensive","Whatever is slowest to sell"],"Saving the guest money earns trust for next time."],
 [2,"The best moment to suggest a second bottle is when the first is:","About two-thirds gone",["Just opened","Completely empty","Half gone"],"Early enough that glasses never sit empty."],
 [2,"Which opening question is weakest?","\"What's your budget?\"",["\"What do you usually enjoy?\"","\"Lighter or richer tonight?\"","\"What are you thinking of eating?\""],"It puts the host on the spot in front of the table."],
-[2,"Two guests each order a second glass of the same wine. You should:","Mention that a bottle costs less",["Say nothing and pour","Suggest a cheaper glass","Pour larger glasses"],"Honest advice that saves money builds a regular."]
+[2,"Two guests each order a second glass of the same wine. You should:","Mention that a bottle costs less",["Say nothing and pour","Suggest a cheaper glass","Pour larger glasses"],"Honest advice that saves money builds a regular."],
+[2, "Offering three options at different prices works because most people choose:", "The middle option", ["The cheapest", "The most expensive", "None"], "Each should be one you are glad to sell."],
+[2, "A guest who asks for a dry wine often means:", "Not fruity or not oaky", ["Low alcohol", "Sparkling", "White only"], "Ask for an example."],
+[2, "Best way to learn a host's budget without asking aloud:", "Point to prices on the list while describing wines", ["Ask directly", "Recommend the most expensive", "Wait for them to say"], "They can indicate one."],
+[2, "A guest who has had too much to drink should be:", "Refused further service quietly, with a manager's support", ["Served water and more wine", "Ignored", "Asked to leave publicly"], "Legal and safety duty."]
 ]});
 
 L.push({id:"s7", unit:"S1", title:"Running a Wine Program", mins:15,
@@ -519,7 +531,11 @@ quiz:[
 [2,"'Tied-house' laws restrict:","Suppliers giving things of value to retailers",["The size of a wine list","Corkage fees","The number of wines by the glass"],"They keep producers and wholesalers from controlling outlets."],
 [2,"A 'dram shop' law makes a business liable for:","Harm caused by a guest it over-served",["Wine that is corked","Late deliveries","Incorrect vintages on a list"],"Responsible service is a legal duty as well as a courtesy."],
 [2,"A sound by-the-glass list for most restaurants has about:","10 to 20 wines",["2 or 3 wines","50 to 60 wines","Every wine on the bottle list"],"Enough to cover the styles; few enough for staff to describe."],
-[2,"The most effective staff training is:","A five-minute tasting before each service",["A written exam once a year","A printed binder in the office","Reading critic scores aloud at lineup"],"Servers sell what they have tasted."]
+[2,"The most effective staff training is:","A five-minute tasting before each service",["A written exam once a year","A printed binder in the office","Reading critic scores aloud at lineup"],"Servers sell what they have tasted."],
+[2, "In most restaurants, wines by the glass account for:", "A large share of wine sales, often more than half", ["Under 5 percent", "Exactly a quarter", "None of the profit"], "Many guests never order a bottle."],
+[2, "Rare wines distributed on allocation are usually earned by:", "Supporting the rest of a supplier's range over years", ["Paying above list", "Ordering online", "Joining a club"], "Supplier relationships are an asset."],
+[2, "Why do controls such as locked cellars and two-person counts exist?", "To make mistakes visible, remove temptation and protect staff", ["Because staff are distrusted", "To slow service", "To reduce inventory"], "They produce useful information too."],
+[2, "The most effective staff wine training is:", "Short, frequent and practical, tasting wines with dishes", ["One long annual seminar", "Reading the list", "Online videos only"], "Confidence with a few wines at a time."]
 ]});
 
 L.push({id:"b4", unit:"S2", title:"Whisk(e)y in Depth", mins:18,
@@ -653,7 +669,11 @@ quiz:[
 [2,"Whose 1830 patent made grain whisky and blended Scotch possible?","Aeneas Coffey",["Friar John Cor","Masataka Taketsuru","Jack Daniel"],"The Coffey, or continuous, still."],
 [2,"Which distillery belongs to Nikka?","Yoichi",["Yamazaki","Hakushu","Chita"],"Yoichi and Miyagikyo are Nikka's; the others are Suntory's."],
 [2,"The deepest barrel char, which cracks the wood into scales, is called:","Alligator char",["Medium-plus toast","First fill","Angel's share"],"Level No. 4, about 55 seconds of flame."],
-[2,"In 1964 the US Congress declared bourbon:","A distinctive product of the United States",["A product of Kentucky only","Exempt from federal excise tax for ten years","Legal again after Prohibition"],"It can be made in any state."]
+[2,"In 1964 the US Congress declared bourbon:","A distinctive product of the United States",["A product of Kentucky only","Exempt from federal excise tax for ten years","Legal again after Prohibition"],"It can be made in any state."],
+[2, "Bourbon must be aged in:", "New charred oak containers", ["Used Sherry casks", "Any wood", "Stainless steel"], "Plus at least 51 percent maize."],
+[2, "Tennessee whiskey adds which step to the bourbon method?", "Charcoal filtering before aging", ["Triple distillation", "Peat smoking", "Aging in Port casks"], "The Lincoln County Process."],
+[2, "Irish single pot still whiskey uses a mash of:", "Malted and unmalted barley", ["Maize and rye", "Wheat only", "Rice and barley"], "Originally to avoid a malt tax."],
+[2, "A single malt Scotch comes from:", "One distillery, malted barley, pot stills", ["One cask", "One barley farm", "One vintage"], "Usually a blend of many casks."]
 ]});
 
 L.push({id:"b5", unit:"S2", title:"Brandy, Agave, Rum and Gin in Depth", mins:18,
@@ -783,7 +803,11 @@ quiz:[
 [2,"Dunder, used in Jamaican rum, is:","Residue from earlier distillations",["A style of Jamaican pot still","Freshly pressed sugarcane juice","A blend of aged and young rums"],"Its acids help form the esters behind Jamaican funk."],
 [2,"Brazil's cachaça is the base spirit of the:","Caipirinha",["Mojito","Daiquiri","Pisco Sour"],"Cachaça is made from fresh cane juice."],
 [2,"Which gin botanical is valued for fixing the other aromas?","Orris root",["Lemon peel","Cardamom","Cucumber"],"Orris is the dried root of the iris."],
-[3,"Compared with Scotland, spirits aging in the Caribbean lose to evaporation:","Several times more each year",["About the same amount each year","Almost nothing","Half as much each year"],"About 6 to 10% a year against roughly 2%."]
+[3,"Compared with Scotland, spirits aging in the Caribbean lose to evaporation:","Several times more each year",["About the same amount each year","Almost nothing","Half as much each year"],"About 6 to 10% a year against roughly 2%."],
+[2, "Cognac's youngest regular grade, VS, requires at least:", "Two years", ["Six months", "Four years", "Ten years"], "XO is ten years."],
+[2, "Most Armagnac is distilled:", "Once, in a column still, to a low strength", ["Twice in a pot still", "Three times", "In a Coffey still to 96 percent"], "So it is more rustic."],
+[2, "Mezcal's smoky character comes from:", "Roasting agave hearts in earth pits", ["Peat", "Charred barrels", "Smoked water"], "Tequila hearts are usually steamed."],
+[2, "Martinique rhum agricole is distilled from:", "Fresh cane juice", ["Molasses", "Sugar beet", "Honey"], "Grassy and vegetal."]
 ]});
 
 L.push({id:"c3", unit:"C1", title:"Inside the Master Sommelier Service Exam", mins:14,
@@ -911,7 +935,11 @@ quiz:[
 [2,"Armagnac differs from Cognac mainly in being:","Distilled once, in a column still",["Made from apples and pears","Aged without any oak","Distilled three times in pots"],"Cognac is double-distilled in pot stills."],
 [2,"The three parts of a good recovery are:","Acknowledge, fix, continue",["Apologize, explain, restart","Ignore, continue, finish","Stop, apologize, ask to begin again"],"Examiners mark the reaction more than the error."],
 [2,"A guest who loves Châteauneuf-du-Pape might be offered:","Gigondas",["Chinon","Fleurie","Rioja Blanco"],"Grenache-led neighbors: Gigondas, Vacqueyras, Lirac."],
-[3,"Which should usually NOT be decanted for long?","A fragile, very old red",["A young Barolo","A young Vintage Port","A closed young Cabernet"],"Old wines can fade within minutes of meeting air."]
+[3,"Which should usually NOT be decanted for long?","A fragile, very old red",["A young Barolo","A young Vintage Port","A closed young Cabernet"],"Old wines can fade within minutes of meeting air."],
+[2, "In the service exam, inventing an answer is treated as:", "A serious fault", ["Acceptable if confident", "Better than silence", "Ignored"], "Say you will find out."],
+[2, "After a small error, the candidate should:", "Acknowledge briefly, correct and move on", ["Apologize repeatedly", "Stop and restart", "Ignore it"], "Composure is weighted heavily."],
+[2, "A guest wants something like white Burgundy for less. A good answer is:", "A Chardonnay from a lesser Burgundy appellation, the Jura or a cool New World district", ["A Sauternes", "A Barolo", "A Moscato"], "Same features, different price."],
+[2, "A good spoken answer lasts about:", "As long as it takes to pour a glass", ["Five minutes", "One word", "Until the guest interrupts"], "Answer, one fact, a suggestion."]
 ]});
 
 L.push({id:"c4", unit:"C1", title:"Blind Tasting Sparkling, Sweet and Fortified", mins:15,
@@ -1048,5 +1076,9 @@ quiz:[
 [2,"Which sparkling wine is red, frothy and a little tannic?","Lambrusco",["Franciacorta","Crémant d'Alsace","Asti"],"From Emilia; usually tank-fermented and frizzante."],
 [2,"Among brown, nutty fortified wines, searing acidity points to:","Madeira",["Marsala","Oloroso","Cream Sherry"],"Madeira's acid survives heat and decades in cask."],
 [2,"A sweet red at about 16% with Grenache's red fruit and soft tannin:","Banyuls",["Vintage Port","Recioto della Valpolicella","Rutherglen Muscat"],"A Vin Doux Naturel from Roussillon; Port is stronger and more tannic."],
-[3,"Palo Cortado is best described as having:","An Amontillado nose and an Oloroso body",["A Fino nose and a sweet finish","The color of Manzanilla","Added Pedro Ximénez"],"A rare style that loses its flor early."]
+[3,"Palo Cortado is best described as having:","An Amontillado nose and an Oloroso body",["A Fino nose and a sweet finish","The color of Manzanilla","Added Pedro Ximénez"],"A rare style that loses its flor early."],
+[2, "Moscato d'Asti has about what alcohol?", "5 to 7 percent", ["12 percent", "15 percent", "20 percent"], "Arrested fermentation."],
+[2, "Autolytic aromas of brioche point to:", "Long lees aging in the traditional method", ["Tank method", "Carbonation", "Oxidation"], "Depth indicates aging time."],
+[2, "Icewine is separated from botrytis wines by:", "Pure fruit with no honey, saffron or ginger notes", ["Lower sugar", "Higher alcohol", "Oak"], "Healthy frozen grapes."],
+[2, "Amontillado is told from Oloroso by:", "A lighter body and a yeasty tang from years under flor", ["Higher sugar", "Deeper color", "No acidity"], "Both are dry and nutty."]
 ]});

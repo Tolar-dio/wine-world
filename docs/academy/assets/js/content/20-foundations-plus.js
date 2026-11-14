@@ -470,7 +470,11 @@ quiz:[
 [2,"Which wines suit most cheeses best?","White and sweet wines",["Young tannic reds","Heavily oaked reds","High-alcohol reds"],"Salt and creamy fat make firm tannin taste metallic and bitter."],
 [2,"A cheese board should be eaten in what order?","Mildest to strongest",["Strongest to mildest","Hardest to softest","Oldest to youngest"],"A strong blue first would flatten everything after it."],
 [3,"Munster's classic Alsace partner is:","Gewurztraminer",["Sylvaner","Crémant d'Alsace","Pinot Blanc"],"An aromatic, often off-dry wine with the power to meet a pungent washed rind."],
-[2,"White truffle dishes classically call for:","Barolo or Barbaresco",["Amarone","Prosecco Superiore","Brunello di Montalcino"],"A Piedmont pairing: Nebbiolo's earth and perfume echo the truffle."]
+[2,"White truffle dishes classically call for:","Barolo or Barbaresco",["Amarone","Prosecco Superiore","Brunello di Montalcino"],"A Piedmont pairing: Nebbiolo's earth and perfume echo the truffle."],
+[2, "Which wine is the classic Loire match for Chavignol goat cheese?", "Sancerre", ["Muscadet", "Vouvray", "Chinon"], "Acid against chalky, acid cheese."],
+[2, "Why do many soft, ripe cheeses make red wine taste worse?", "Their creaminess and pungency strip fruit and bring out bitterness", ["They are too sweet", "They have tannin", "They are too acidic"], "Whites and sweet wines are safer."],
+[2, "Artichoke makes wine taste odd because of:", "Cynarin, which makes the next taste seem sweeter", ["Tannin", "Capsaicin", "Sulfites"], "Dry, high-acid whites cope best."],
+[2, "Chocolate is best matched with:", "Fortified sweet reds such as Port, Banyuls or Maury", ["Dry Sauvignon Blanc", "Brut Champagne", "Muscadet"], "It overwhelms dry wine."]
 ]});
 
 L.push({id:"b9", unit:"S2", title:"Deep Dive: Cocktail Families and Bar Service", mins:9,
@@ -578,7 +582,11 @@ quiz:[
 [2,"A guest orders a whiskey 'neat.' You serve it:","At room temperature with no ice",["Chilled and strained into a coupe","Over one large ice cube","With a splash of soda"],"Chilled and strained is 'up'; over ice is 'on the rocks.'"],
 [3,"The Vieux Carré and the Sazerac both come from:","New Orleans",["New York","London","Havana"],"Both use Peychaud's bitters, also from New Orleans."],
 [2,"Why dry-shake a Pisco Sour before adding ice?","To foam the egg white",["To chill the glass","To dissolve the bitters","To reduce dilution"],"Shaking without ice whips the egg white; a second shake with ice chills and dilutes."],
-[1,"A US standard drink contains about:","14 g of pure alcohol",["5 g of pure alcohol","30 g of pure alcohol","50 g of pure alcohol"],"Equal to 1.5 oz of 80-proof spirit, 5 oz of 12% wine or 12 oz of 5% beer."]
+[1,"A US standard drink contains about:","14 g of pure alcohol",["5 g of pure alcohol","30 g of pure alcohol","50 g of pure alcohol"],"Equal to 1.5 oz of 80-proof spirit, 5 oz of 12% wine or 12 oz of 5% beer."],
+[2, "A standard Negroni is:", "Equal parts gin, sweet vermouth and Campari", ["Gin, lime and sugar", "Rye, vermouth and bitters", "Vodka and ginger beer"], "Traditionally dated to Florence around 1919."],
+[2, "The word cocktail is first defined in print in:", "1806", ["1650", "1862", "1920"], "As spirit, sugar, water and bitters."],
+[2, "A daisy is a sour sweetened with:", "Orange liqueur", ["Simple syrup", "Grenadine", "Honey"], "Margarita, Sidecar."],
+[2, "Large, dense ice chills with:", "Less dilution than small wet ice", ["More dilution", "No chilling", "Added sweetness"], "Melting is what chills."]
 ]});
 
 L.push({id:"h4", unit:"H", title:"The Vintage Chart, Region by Region", mins:10,
@@ -673,5 +681,9 @@ quiz:[
 [2,"Europe's 2021 vintage is remembered for:","Spring frost and a small crop",["Record heat and drought","Wildfire smoke","A very large, ripe crop"],"Frost in April, then mildew. Record heat and drought describes 2022."],
 [2,"White Burgundy from about 1995 to 2005 carries a risk of:","Premature oxidation",["Cork taint in every bottle","Refermentation","Smoke taint"],"Known as premox: wines browned and tired years early."],
 [2,"A 2024 wine from Australia was harvested:","About six months before a 2024 from France",["At the same time as a 2024 from France","About six months after a 2024 from France","A full year before a 2024 from France"],"Southern Hemisphere harvest runs from about February to April."],
-[3,"Which was a difficult Bordeaux vintage?","2013",["2010","2016","2019"],"A cool, wet year with rot. The others are among the greatest."]
+[3,"Which was a difficult Bordeaux vintage?","2013",["2010","2016","2019"],"A cool, wet year with rot. The others are among the greatest."],
+[2, "Which pair of Port vintages was the first back-to-back general declaration in over a century?", "2016 and 2017", ["2000 and 2001", "2011 and 2012", "1994 and 1995"], "A rare pair."],
+[2, "Château d'Yquem declined to release its grand vin in:", "2012", ["2001", "2009", "2015"], "Also 1992."],
+[2, "Burgundy 2004 reds are remembered for:", "A green, herbal note widely blamed on ladybirds", ["Extreme heat", "Frost", "Smoke taint"], "Lighter year."],
+[2, "Nebbiolo's vintages depend most on weather in:", "October", ["May", "July", "January"], "It ripens very late."]
 ]});

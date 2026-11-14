@@ -81,7 +81,11 @@ quiz:[
 [2,"Which tequila term is NOT a legal class?","Cristalino",["Extra Añejo","Reposado","Joven"],"Filtered aged tequila; marketing term."],
 [2,"Lower distillation strength generally means:","More congeners and raw-material character",["Higher methanol and nothing else","A lighter, more neutral spirit","Faster maturation in cask"],"The core idea of distillation."],
 [3,"Peruvian Pisco is distilled:","Once, to bottling proof, with no wood",["Twice, then aged in oak casks","In columns to 96% and diluted","Once, then cut with water"],"A single distillation to bottling strength (38-48%), with nothing added, not even water, and no wood."],
-[2,"Scotch casks may be no larger than:","700 L",["500 L","250 L","1,000 L"],"Also the JSLMA and American Single Malt limit."]
+[2,"Scotch casks may be no larger than:","700 L",["500 L","250 L","1,000 L"],"Also the JSLMA and American Single Malt limit."],
+[2, "The maximum distillation strength for Scotch is:", "94.8 percent", ["80 percent", "86 percent", "96 percent"], "Bourbon is 80 percent."],
+[2, "Why do tropical spirits mature faster?", "Heat speeds extraction and evaporation, with losses of 10 percent a year", ["Higher distillation strength", "Smaller casks by law", "Added sugar"], "Scotland loses 1 to 2 percent a year."],
+[2, "Which category may contain nothing but water after distillation?", "Straight American whiskey", ["Cognac", "Scotch", "Rum"], "Scotch allows plain caramel."],
+[2, "Why did Japanese producers adopt their own whisky standard in 2021?", "Some Japanese whisky contained imported spirit", ["To ban peat", "To allow column stills", "To lower the minimum age"], "It is voluntary."]
 ]});
 
 L.push({id:"b8", unit:"S2", title:"Deep Dive: Beer, Sake, Shochu and Cider by the Rules", mins:18,
@@ -203,7 +207,11 @@ quiz:[
 [2,"Kokuto shochu, made from brown sugar, may be produced only in:","The Amami Islands",["Kagoshima city","Okinawa","The Ogasawara Islands"],"They lie between Kyushu and Okinawa."],
 [2,"Which shochu GI is for barley shochu?","Iki",["Satsuma","Kuma","Ryukyu"],"Satsuma is sweet potato, Kuma is rice, Ryukyu is awamori."],
 [3,"Yamahai differs from kimoto in that it:","Skips the pole-mashing step",["Adds lactic acid at the start","Uses no koji","Is never pasteurized"],"Both let lactic bacteria develop naturally. Sokujo adds lactic acid."],
-[2,"Japan's first sake GI, granted in 2005, was:","Hakusan",["Nada Gogo","Yamagata","Niigata"],"Yamagata in 2016 was the first to cover a whole prefecture."]
+[2,"Japan's first sake GI, granted in 2005, was:","Hakusan",["Nada Gogo","Yamagata","Niigata"],"Yamagata in 2016 was the first to cover a whole prefecture."],
+[2, "A beer that smells of skunk has been damaged by:", "Light", ["Heat", "Oxygen", "Bacteria in lines"], "Brown glass and cans prevent it."],
+[2, "Cask beer is served at about:", "12°C, drawn by hand pump", ["2°C with CO2", "20°C", "0°C"], "Must be sold within days."],
+[2, "A positive sake meter value indicates:", "Drier sake", ["Sweeter sake", "Higher alcohol", "More acid"], "Read it with the acidity."],
+[2, "Trappist beer must be brewed:", "Within the abbey walls under the monks' supervision", ["In Belgium only", "In a dubbel style", "By any abbey licensee"], "Income goes to the community and charity."]
 ]});
 
 L.push({id:"s8", unit:"S1", title:"Deep Dive: The CMS 2025 Service Standards", mins:18,
@@ -289,7 +297,10 @@ quiz:[
 [2,"When double decanting, rinse the bottle with:","The wine or a similar wine",["Clean, filtered water","A neutral spirit","Nothing: don't rinse it"],"'Do not use water.'"],
 [2,"A Bordeaux Jeroboam holds:","5 L",["3 L","4.5 L","6 L"],"In Champagne, a Jeroboam is 3 L."],
 [2,"A 6 L bottle in Bordeaux is a(n):","Imperial",["Methuselah","Rehoboam","Salmanazar"],"Methuselah in Champagne."],
-[3,"A bottle stored upright should be decanted:","Upright, without a cradle",["Laid in a cradle","After shaking gently","Only with a Coravin"],"Keep sediment where it settled."]
+[3,"A bottle stored upright should be decanted:","Upright, without a cradle",["Laid in a cradle","After shaking gently","Only with a Coravin"],"Keep sediment where it settled."],
+[2, "Each sparkling glass must be filled in no more than:", "Two pours", ["One pour", "Three pours", "Four pours"], "Without a second circuit."],
+[2, "When decanting for sediment, the candidate stops when sediment reaches:", "The shoulder", ["The cork", "The punt", "The label"], "Eyes on the bottle throughout."],
+[2, "The clavelin of the Jura holds:", "620 mL", ["500 mL", "750 mL", "375 mL"], "The volume left from a liter of Vin Jaune."]
 ]});
 
 L.push({id:"biz2", unit:"S1", title:"Deep Dive: Wine List Economics and the 2026 Market", mins:16,
@@ -412,5 +423,9 @@ quiz:[
 [2,"A rule of thumb sets a sustainable bottle price at the grape price per ton divided by:","100",["50","150","200"],"$6,600 a ton suggests a bottle of about $66."],
 [2,"Since August 2025, the US tariff on wine from the European Union has been:","15%",["10%","20%","30%"],"Wine was left out of later reductions."],
 [3,"A study of London wine lists found percentage markup is highest:","Around the middle of the list",["On the cheapest bottle","On the second-cheapest bottle","On the most expensive bottle"],"470 lists, 249 restaurants; the second-cheapest carried a lower markup than the four above it."],
-[2,"In the monthly example, wine's cost of goods sold is what share of sales?","30%",["10%","50%","70%"],"$18,000 on $60,000."]
+[2,"In the monthly example, wine's cost of goods sold is what share of sales?","30%",["10%","50%","70%"],"$18,000 on $60,000."],
+[2, "A $15 bottle poured as five $15 glasses gives a cost percentage of:", "20 percent", ["33 percent", "50 percent", "10 percent"], "Revenue of $75."],
+[2, "The US three-tier system dates from:", "The repeal of Prohibition in 1933", ["The Civil War", "The 1970s", "1990"], "Separating producers, wholesalers and retailers."],
+[2, "In Bordeaux's system, a courtier is:", "A broker between château and négociant", ["A grower", "An importer", "A critic"], "Takes a small commission."],
+[2, "China's tariffs on Australian wine ran from 2020 to:", "2024", ["2021", "2022", "2026"], "Up to about 218 percent."]
 ]});

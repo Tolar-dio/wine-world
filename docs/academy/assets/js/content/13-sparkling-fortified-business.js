@@ -286,7 +286,11 @@ quiz:[
 [2,"Why is Manzanilla's flor thicker?","Sanlúcar's humid, sea-cooled air",["Its wines are fortified higher","It uses a different grape","Its bodegas are warmer"],"Lighter, saltier wine."],
 [2,"VORS Sherry is certified at an average age of at least:","30 years",["12 years","20 years","50 years"],"VORS certifies an average age of 30 years or more; VOS, 20 or more."],
 [3,"Montilla-Moriles Finos are often unfortified because:","PX reaches high enough natural alcohol",["Fortification is banned there","They are bottled with sweetness","They are aged in clay tinajas"],"Hot inland climate."],
-[2,"Lustau's Almacenista range bottles:","Small stockholders' soleras",["Its own single-vineyard wines","Brandy de Jerez soleras","Montilla-Moriles PX"],"Unique, small-lot Sherries."]
+[2,"Lustau's Almacenista range bottles:","Small stockholders' soleras",["Its own single-vineyard wines","Brandy de Jerez soleras","Montilla-Moriles PX"],"Unique, small-lot Sherries."],
+[2, "Brandy de Jerez Solera Gran Reserva requires an average age of at least:", "Three years", ["Six months", "One year", "Ten years"], "Solera is six months, Solera Reserva one year."],
+[2, "Casks seasoned in Jerez for the whisky industry are usually filled for a period with:", "Oloroso or Pedro Ximénez", ["Fino", "Brandy", "Vinegar"], "They are then shipped empty to Scotland."],
+[2, "The pagos toward Sanlúcar, such as Balbaína and Miraflores, give musts that are:", "Lighter and more saline", ["Fuller and more structured", "Sweeter", "Darker"], "Macharnudo and Carrascal give fuller wines."],
+[2, "Vino de pasto in the Jerez context means:", "An unfortified dry table wine from Palomino", ["A sweet blend", "Vinegar", "Brandy base wine"], "Growers are reviving it from old vines on albariza."]
 ]});
 
 L.push({id:"fo2", unit:"F3", title:"Deep Dive: Vins Doux Naturels and the Fortified World", mins:16,
@@ -538,7 +542,11 @@ quiz:[
 [2,"Landed cost is the price:","After shipping, duties and taxes on arrival",["Paid to the producer at the winery","Printed on a restaurant wine list","Reached at a fine-wine auction"],"Before importer margins."],
 [2,"Liv-ex is:","A fine-wine exchange that publishes price indices",["A Bordeaux négociant on the Place","A critic's 100-point rating service","A London auction house for rare wine"],"Liv-ex Fine Wine 100."],
 [2,"Rudy Kurniawan was convicted in 2013 of:","Counterfeiting rare wines",["Tax evasion in Bordeaux","Smuggling Port","Price fixing in Champagne"],"A landmark fraud case."],
-[3,"Approximate world wine production in 2024 according to OIV estimates:","About 225 million hectoliters",["About 165 million hectoliters","About 295 million hectoliters","About 360 million hectoliters"],"Among the smallest in decades."]
+[3,"Approximate world wine production in 2024 according to OIV estimates:","About 225 million hectoliters",["About 165 million hectoliters","About 295 million hectoliters","About 360 million hectoliters"],"Among the smallest in decades."],
+[2, "Why do vineyards respond slowly to falling demand?", "Vines take years to bear and then produce for decades", ["Wine cannot be stored", "Grapes are imported", "Prices are fixed by law"], "Surplus is the common condition."],
+[2, "At the lowest retail prices, most of what a buyer pays covers:", "Duty, packaging, transport and margins", ["The grapes", "Oak barrels", "Marketing only"], "Spending a little more buys much more wine."],
+[2, "En primeur means selling Bordeaux:", "As futures while still in barrel", ["After ten years", "Only at auction", "Directly to consumers only"], "In the spring after the harvest."],
+[2, "Premiumization means:", "Drinking less but spending more per bottle", ["Drinking more cheaply", "Selling only Champagne", "Removing alcohol"], "Large groups have sold cheaper brands."]
 ]});
 
 L.push({id:"b6", unit:"S2", title:"Deep Dive: Vermouth, Amari, Liqueurs and Absinthe", mins:16,
@@ -658,5 +666,9 @@ quiz:[
 [2,"Which liqueur method best suits soft fruit such as raspberries?","Cold maceration",["Steam distillation","Percolation","Compounding"],"Heat would cook the fresh fruit character."],
 [3,"Vermouth di Torino Superiore must reach at least:","17% alcohol",["11% alcohol","22% alcohol","40% alcohol"],"And half its wine must come from Piedmont."],
 [2,"A traditional absinthe verte gets its green color from:","Chlorophyll from a second herb soak",["Copper salts from the pot still","Lime peel added after distilling","Long aging in green glass bottles"],"A blanche skips the coloring step and stays clear."],
-[2,"Aperol is bottled at about:","11% alcohol",["24% alcohol","35% alcohol","45% alcohol"],"Campari is about 24%; Fernet-Branca about 39%."]
+[2,"Aperol is bottled at about:","11% alcohol",["24% alcohol","35% alcohol","45% alcohol"],"Campari is about 24%; Fernet-Branca about 39%."],
+[2, "The defining botanical of vermouth is:", "Wormwood", ["Gentian", "Juniper", "Anise"], "Its German name gave vermouth its name."],
+[2, "Why does an anise spirit turn cloudy with water?", "The anise oil comes out of solution as alcohol falls", ["The water is hard", "Sugar crystallizes", "It oxidizes"], "The louche."],
+[2, "Opened vermouth should be:", "Refrigerated and used within about a month", ["Kept on the back bar indefinitely", "Frozen", "Decanted"], "It is wine and oxidizes."],
+[2, "Green Chartreuse is about what strength?", "55 percent", ["17 percent", "30 percent", "70 percent"], "Yellow is milder and sweeter."]
 ]});

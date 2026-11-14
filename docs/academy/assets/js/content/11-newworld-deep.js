@@ -78,7 +78,11 @@ quiz:[
 [2,"Calera planted Pinot Noir on Mount Harlan because of its:","Limestone soils",["Volcanic ash","Granite","Sand"],"Burgundy-inspired."],
 [2,"Ballard Canyon is best known for:","Syrah",["Cabernet Sauvignon","Pinot Noir","Zinfandel"],"Santa Barbara County."],
 [3,"Which AVA was approved in 2022 for extreme coastal sites?","West Sonoma Coast",["Petaluma Gap","Coombsville","Fort Ross-Seaview"],"Petaluma Gap was 2017."],
-[2,"Lodi is especially famous for:","Old-vine Zinfandel",["Sparkling wine","Riesling","Cabernet Franc"],"Mokelumne River sub-AVA."]
+[2,"Lodi is especially famous for:","Old-vine Zinfandel",["Sparkling wine","Riesling","Cabernet Franc"],"Mokelumne River sub-AVA."],
+[2, "Who was Beaulieu's winemaker from 1938 and shaped postwar Napa Cabernet?", "André Tchelistcheff", ["Robert Mondavi", "Warren Winiarski", "Mike Grgich"], "Beaulieu was founded by Georges de Latour in 1900."],
+[2, "Which Santa Cruz Mountains Cabernet placed first in the 2006 rematch of the Paris tasting?", "Ridge Monte Bello", ["Stag's Leap Wine Cellars SLV", "Heitz Martha's Vineyard", "Mayacamas"], "Ridge works with minimal intervention."],
+[2, "Tablas Creek in Paso Robles is a partnership between Robert Haas and which family?", "The Perrins of Château de Beaucastel", ["The Rothschilds of Mouton", "The Drouhins of Beaune", "The Guigals of Ampuis"], "Founded in 1989; it imported its own Rhône vine material."],
+[2, "Napa Cabernet is usually separated from Bordeaux blind by:", "Riper fruit, softer texture and more new-oak influence", ["Higher acidity", "Lower alcohol", "Earthy, savory notes"], "Bordeaux is more savory and higher in acid."]
 ]});
 
 L.push({id:"r15b", unit:"R5", title:"Deep Dive: Australia Region by Region", mins:20,
@@ -167,7 +171,11 @@ quiz:[
 [2,"Australia's coldest mainland wine region is:","Macedon Ranges",["Yarra Valley","Coonawarra","Orange"],"Macedon Ranges in Victoria: high and cold, best known for sparkling, Pinot Noir and Chardonnay."],
 [2,"Noble One is a botrytis Sémillon from:","Riverina",["Hunter Valley","Barossa","Margaret River"],"De Bortoli Noble One, first made in 1982 in Riverina, New South Wales."],
 [3,"Great Southern has how many subregions?","Five",["Two","Three","Eight"],"Frankland River, Mount Barker, Porongurup, Denmark, Albany."],
-[2,"Why do South Australia's vines survive ungrafted?","Phylloxera never arrived, protected by quarantine",["Volcanic soils that the louse can't cross","Deep sand in every major region","A dry climate that kills the aphid"],"Some vines date to the 1840s."]
+[2,"Why do South Australia's vines survive ungrafted?","Phylloxera never arrived, protected by quarantine",["Volcanic soils that the louse can't cross","Deep sand in every major region","A dry climate that kills the aphid"],"Some vines date to the 1840s."],
+[2, "Henschke's Hill of Grace vineyard lies in which region?", "Eden Valley", ["Barossa Valley floor", "Clare Valley", "McLaren Vale"], "About 8 hectares of Shiraz planted in the 1860s."],
+[2, "Who planted Margaret River's first commercial vineyard in 1967?", "Dr Tom Cullity at Vasse Felix", ["Max Schubert at Penfolds", "Denis Horgan at Leeuwin", "Bailey Carrodus at Yarra Yering"], "Several doctors founded estates within a few years."],
+[2, "Seppeltsfield is known for releasing which wine every year since 1878?", "A 100-year-old tawny", ["A sparkling Shiraz", "A botrytized Sémillon", "A single-vineyard Riesling"], "A continuous series unique in the world."],
+[2, "Which Australian region produces about half the country's vineyard area and has never had phylloxera?", "South Australia", ["Victoria", "New South Wales", "Western Australia"], "Quarantine has kept the pest out."]
 ]});
 
 L.push({id:"r15c", unit:"R5", title:"Deep Dive: New Zealand North to South", mins:16,
@@ -290,7 +298,11 @@ quiz:[
 [2,"Sauvignon Blanc covers about what share of New Zealand's vineyard?","Two-thirds",["One-tenth","One-quarter","One-third"],"About 28,700 of 42,500 hectares."],
 [3,"The first New Zealand wine on record, praised by a French visitor in 1840, was made by:","James Busby",["Samuel Marsden","David Hohnen","Romeo Bragato"],"Busby planted at Waitangi in the 1830s. Marsden had planted the first vines in 1819."],
 [2,"Cloudy Bay Te Koko and Greywacke Wild Sauvignon are:","Barrel-fermented with wild yeast",["Late-harvest sweet wines","Traditional-method sparkling","Made by whole-bunch carbonic maceration"],"The broader, smokier alternative to the stainless-steel style."],
-[2,"Hawke's Bay Syrah is closest in style to:","The northern Rhône",["Barossa Shiraz","Amarone della Valpolicella","Zinfandel"],"Peppery and medium-bodied."]
+[2,"Hawke's Bay Syrah is closest in style to:","The northern Rhône",["Barossa Shiraz","Amarone della Valpolicella","Zinfandel"],"Peppery and medium-bodied."],
+[2, "Who founded Cloudy Bay in 1985?", "David Hohnen, owner of Cape Mentelle", ["Kevin Judd", "Ivan Sutherland", "James Healy"], "Its first vintage made Marlborough famous abroad."],
+[2, "Marlborough's share of New Zealand's producing vineyard in 2025 was about:", "72 percent", ["40 percent", "55 percent", "90 percent"], "30,469 of 42,520 hectares."],
+[2, "Felton Road, a reference for Central Otago Pinot Noir, is in which subregion?", "Bannockburn", ["Gibbston", "Wanaka", "Alexandra"], "First vintage 1997."],
+[3, "Which yeast-released compounds give Marlborough Sauvignon its passionfruit and grapefruit aromas?", "Thiols", ["Methoxypyrazines", "Rotundone", "TDN"], "They are released from odorless precursors during fermentation."]
 ]});
 
 L.push({id:"r16b", unit:"R5", title:"Deep Dive: Argentina and Chile in Detail", mins:18,
@@ -365,7 +377,11 @@ quiz:[
 [2,"Malbec was brought to Argentina in 1853 by:","Michel Aimé Pouget",["Nicolás Catena","Michel Rolland","Paul Hobbs"],"A French agronomist."],
 [2,"VIGNO requires old, dry-farmed:","Carignan from Maule",["País from Itata","Carmenère from Colchagua","Cabernet from Maipo"],"Vignadores de Carignan."],
 [2,"Almaviva is a partnership between Concha y Toro and:","Baron Philippe de Rothschild (Mouton)",["Château Margaux (Mentzelopoulos)","Robert Mondavi (Napa Valley)","Familia Torres (Penedès)"],"Puente Alto, Maipo."],
-[3,"Limarí is best known for:","Limestone-grown Chardonnay",["Old-vine dry-farmed Carignan","Sweet fortified Moscatel","Sparkling Pinot Noir"],"Coquimbo region."]
+[3,"Limarí is best known for:","Limestone-grown Chardonnay",["Old-vine dry-farmed Carignan","Sweet fortified Moscatel","Sparkling Pinot Noir"],"Coquimbo region."],
+[2, "Argentina's vineyard area in 2025 was closest to:", "196,000 hectares", ["96,000 hectares", "350,000 hectares", "47,000 hectares"], "It peaked near 350,000 ha in the late 1970s."],
+[2, "Which Uco Valley district was approved as a geographical indication in 2013 after a soil study of the Tunuyán river fan?", "Paraje Altamira", ["Gualtallary", "Agrelo", "Vistalba"], "It was enlarged in 2016."],
+[2, "Which two regions hold about two-thirds of Chile's wine vineyard?", "Maule and O'Higgins", ["Casablanca and Leyda", "Elqui and Limarí", "Bío-Bío and Malleco"], "Maule alone has about 41 percent."],
+[3, "Which four varieties together cover about 56 percent of Chile's vineyard?", "Cabernet Sauvignon, Sauvignon Blanc, País and Carmenère", ["Cabernet Sauvignon, Merlot, Syrah and Malbec", "Chardonnay, Sauvignon Blanc, Riesling and Viognier", "Carignan, Cinsault, País and Malbec"], "País reflects thousands of small plots in the south."]
 ]});
 
 L.push({id:"r17b", unit:"R5", title:"Deep Dive: South Africa's Wine of Origin Map", mins:16,
@@ -445,5 +461,9 @@ quiz:[
 [3,"The Cape's first wine was pressed in 1659 by:","Jan van Riebeeck",["Simon van der Stel","Cecil John Rhodes","Abraham Perold"],"Van der Stel founded Constantia a generation later."],
 [3,"French Huguenots settled which valley from 1688?","Franschhoek",["Robertson","Hemel-en-Aarde","Tulbagh"],"The name means 'French corner'."],
 [2,"The KWV, which set prices and quotas for most of the 20th century, was founded in:","1918",["1855","1948","1994"],"It steered growers toward volume and brandy."],
-[3,"Méthode Cap Classique now requires at least how long on lees?","12 months",["6 months","9 months","18 months"],"The same time on lees as non-vintage Champagne."]
+[3,"Méthode Cap Classique now requires at least how long on lees?","12 months",["6 months","9 months","18 months"],"The same time on lees as non-vintage Champagne."],
+[2, "South Africa's vineyard area at the end of 2025 was:", "86,525 hectares", ["99,472 hectares", "45,000 hectares", "130,000 hectares"], "Down 13 percent since 2014."],
+[2, "The Old Vine Project's Certified Heritage Vineyards seal requires vines of at least:", "35 years", ["25 years", "50 years", "100 years"], "The label states the year of planting."],
+[2, "A South African single-vineyard wine must come from a registered block of no more than:", "6 hectares", ["1 hectare", "12 hectares", "20 hectares"], "Planted with a single variety."],
+[2, "Which Swartland granite mountain is the source of many celebrated old-vine wines?", "Paardeberg", ["Simonsberg", "Helderberg", "Kasteelberg"], "The Kasteelberg is on shale."]
 ]});

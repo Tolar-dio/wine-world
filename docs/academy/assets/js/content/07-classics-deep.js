@@ -741,5 +741,9 @@ quiz:[
 [2,"Listán Blanco of the Canary Islands is the same grape as:","Palomino",["Albariño","Verdejo","Malvasía"],"Sherry's grape, ungrafted on volcanic soil."],
 [2,"Getariako, Bizkaiko and Arabako are the three DOs of:","Txakoli",["Cava","Sherry","Ribeiro"],"The Basque Country's light, tart white."],
 [2,"Manto Negro and Callet are native red grapes of:","Mallorca",["Galicia","Tenerife","Aragón"],"Binissalem and Pla i Llevant are the island's DOs."],
-[2,"Ribeira Sacra's vineyards are best described as:","Steep terraces above river gorges",["Flat plains of deep red clay","Ash pits behind curved stone walls","Sandy dunes beside the ocean"],"Along the Sil and Miño rivers."]
+[2,"Ribeira Sacra's vineyards are best described as:","Steep terraces above river gorges",["Flat plains of deep red clay","Ash pits behind curved stone walls","Sandy dunes beside the ocean"],"Along the Sil and Miño rivers."],
+[2, "Who came to Bierzo in the late 1990s with his nephew Ricardo Pérez?", "Álvaro Palacios", ["Telmo Rodríguez", "Peter Sisseck", "René Barbier"], "Their wines from slate around Corullón made Bierzo's name."],
+[2, "The Sierra de Gredos is known for:", "Pale, perfumed Garnacha from old vines on granite", ["Dense Monastrell", "Albariño", "Fortified Pedro Ximénez"], "Vineyards reach a thousand meters and more."],
+[2, "Mencía from Bierzo is often compared to:", "Cabernet Franc or a ripe Loire red", ["Amarone", "Tawny Port", "Gewürztraminer"], "Floral, red-fruited, medium-bodied."],
+[2, "Traditional Rioja shows which oak markers?", "Dill, coconut and vanilla from American oak", ["Toast and clove from new French oak only", "No oak character", "Smoke from charred barrels"], "Modern Rioja is marked by French oak."]
 ]});

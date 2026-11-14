@@ -143,7 +143,11 @@ quiz:[
 [3,"Which Spanish wine beat Château Latour at the 1979 Gault-Millau Wine Olympiad?","Torres Gran Coronas Black Label",["Vega Sicilia Único","Marqués de Riscal Reserva","López de Heredia Viña Tondonia Reserva"],"It is now called Mas La Plana."],
 [2,"Lechazo, roast suckling lamb, is the regional match for:","Ribera del Duero",["Rías Baixas Albariño","Getariako Txakolina","Cava Gran Reserva"],"Castilla y León's signature dish."],
 [2,"A 'clarete' is:","A pale red from red and white grapes",["A sweet fortified white","A sparkling rosé from the Penedès hills","An oak-aged dry Sherry"],"The grapes are fermented together."],
-[2,"Who made the first Cava, in 1872?","Josep Raventós of Codorníu",["Miguel Torres of Penedès","Pedro Ferrer of Freixenet","Álvaro Palacios of Priorat"],"After seeing the method in Champagne."]
+[2,"Who made the first Cava, in 1872?","Josep Raventós of Codorníu",["Miguel Torres of Penedès","Pedro Ferrer of Freixenet","Álvaro Palacios of Priorat"],"After seeing the method in Champagne."],
+[2, "Rioja's Viñedo Singular requires vines of at least:", "35 years", ["10 years", "20 years", "50 years"], "And hand harvesting."],
+[2, "Ribera del Duero's DO was created in:", "1982", ["1925", "1960", "2003"], "With about 5,000 ha."],
+[2, "Rioja became Spain's first DOCa in:", "1991", ["1925", "1970", "2009"], "Priorat followed."],
+[2, "Riscal's first vintage, from Bordeaux methods, was:", "1862", ["1925", "1964", "1782"], "Founded at Elciego in 1858."]
 ]});
 
 L.push({id:"r9", unit:"R3", title:"Sherry", mins:16,
@@ -271,7 +275,11 @@ quiz:[
 [2,"Rebujito, the drink of the ferias, is:","Manzanilla and lemon soda",["Oloroso and cola","PX and coffee","Fino and chilled tomato juice"],"Served cold, often with mint."],
 [2,"Which grape rejoined Sherry's permitted list in 2022?","Perruno",["Airén","Verdejo","Macabeo"],"One of six pre-phylloxera varieties brought back."],
 [2,"Drake's 1587 raid on Cádiz made which wine fashionable in England?","Sack",["Claret","Hock","Malmsey"],"Sack was the Elizabethan word for Sherry."],
-[2,"Under the 2022 rules, 'en rama' means the wine had no:","Clarification or cold stabilization",["Flor at any stage of its aging","Time at all in a solera","Palomino grapes anywhere in the blend"],"It is bottled as close to the cask as possible."]
+[2,"Under the 2022 rules, 'en rama' means the wine had no:","Clarification or cold stabilization",["Flor at any stage of its aging","Time at all in a solera","Palomino grapes anywhere in the blend"],"It is bottled as close to the cask as possible."],
+[2, "Flor reduces which component almost to nothing, making Fino taste lean?", "Glycerol", ["Acetaldehyde", "Alcohol", "Tartaric acid"], "It falls from 7-8 g/L to under 0.5 g/L."],
+[2, "Why are Jerez bodegas built tall with thick walls and high windows facing the sea wind?", "To keep the air cool and humid so flor survives", ["To speed evaporation", "To let in sunlight for oxidation", "To store more casks"], "The poniente brings humidity."],
+[2, "The holding company whose collapse in 1983 shaped Sherry's decline was:", "Rumasa", ["González Byass", "Osborne", "Domecq"], "It flooded export markets with cheap sweet blends."],
+[3, "Palo Cortado is marked in the bodega with:", "A second, crossing stroke of chalk", ["A circle", "A single stroke", "A cross and circle together"], "A wine meant for Fino that lost its flor early."]
 ]});
 
 L.push({id:"r10", unit:"R3", title:"Portugal, Port and Madeira", mins:20,
@@ -412,7 +420,11 @@ quiz:[
 [2,"Once opened, which should be finished within two or three days?","Vintage Port",["A 20 Year Old Tawny","Malmsey Madeira","Sercial Madeira"],"It has spent its life protected from air."],
 [2,"Arinto is prized in hot regions because it:","Keeps its acidity in the heat",["Ripens to very high sugar","Has thick, deeply colored skins","Survives without grafting"],"It is used across Portugal to freshen blends."],
 [2,"Sercial Madeira is the traditional partner for:","Consommé and clear soups",["Chocolate and coffee desserts","Stilton and walnuts","Roast suckling pig"],"It is the driest of the four noble styles."],
-[2,"Leitão, roast suckling pig, is the regional match for:","Bairrada Baga",["Vinho Verde","White Port","Moscatel de Setúbal"],"Acid and tannin cut the fat; sparkling Bairrada works too."]
+[2,"Leitão, roast suckling pig, is the regional match for:","Bairrada Baga",["Vinho Verde","White Port","Moscatel de Setúbal"],"Acid and tannin cut the fat; sparkling Bairrada works too."],
+[2, "The Douro Demarcated Region covers about 250,000 ha. How much is under vine?", "About 43,000 ha", ["About 10,000 ha", "About 120,000 ha", "About 200,000 ha"], "Worked by roughly 20,000 growers."],
+[2, "Why was the Douro Superior planted late?", "A granite barrier at Valeira blocked river traffic until 1791", ["Phylloxera arrived there first", "It was Spanish territory", "It had no schist"], "It was known as the New Douro."],
+[2, "Port's grape spirit is about what strength?", "77 percent", ["40 percent", "60 percent", "96 percent"], "Added at about one part to four of must."],
+[2, "Madeira's estufagem heats the wine to about:", "45 to 50°C for at least three months", ["100°C for a day", "20°C for ten years", "70°C for a week"], "Canteiro uses warm attics over years."]
 ]});
 
 L.push({id:"r11", unit:"R4", title:"Germany", mins:20,
@@ -546,7 +558,11 @@ quiz:[
 [2,"A gold capsule (Goldkapsel) on a German bottle signals:","A producer's richer selection",["An officially classed Grosses Gewächs","A certified organic vineyard","A wine made for Sekt base"],"It is a private signal, not a legal term."],
 [2,"Scheurebe typically smells of:","Grapefruit and blackcurrant",["Butter and toasted hazelnut","Lychee and rose petal","Cherry and worn leather"],"Bred in 1916 by Georg Scheu."],
 [2,"Ruländer is the old German name for a sweeter style of:","Pinot Gris",["Pinot Blanc","Silvaner","Chasselas"],"Dry versions are sold as Grauburgunder."],
-[2,"'Deutscher Sekt' differs from plain 'Sekt' because it must use:","German grapes only",["The traditional method only","Riesling only","No dosage at all"],"Plain Sekt may be made from imported base wine."]
+[2,"'Deutscher Sekt' differs from plain 'Sekt' because it must use:","German grapes only",["The traditional method only","Riesling only","No dosage at all"],"Plain Sekt may be made from imported base wine."],
+[2, "The 1971 German wine law consolidated about 30,000 site names into roughly:", "2,600 Einzellagen", ["300 Einzellagen", "13 regions", "10,000 Einzellagen"], "It also created the Grosslage."],
+[2, "Under the 2021 law, the top single-vineyard category is:", "Grosses Gewächs", ["Erstes Gewächs", "Ortswein", "Spätlese"], "Binding from the 2026 vintage."],
+[2, "Germany's trocken may hold up to 9 g/L of sugar if:", "Acidity is no more than 2 g/L below the sugar", ["The wine is from the Mosel", "Alcohol is below 10 percent", "It is a Prädikat wine"], "Up to 4 g/L without condition."],
+[2, "Why is Riesling suited to Germany's climate?", "Late budding, hard wood, slow ripening and high retained acidity", ["It ripens very early", "It needs heat to ripen", "It resists drought"], "It needs the best sites to ripen."]
 ]});
 
 L.push({id:"r12", unit:"R4", title:"Austria, Hungary and Greece", mins:18,
@@ -662,7 +678,11 @@ quiz:[
 [2,"At a 2002 blind tasting in London, Grüner Veltliner famously outscored top:","White Burgundy",["Mosel Riesling","Sauternes","Champagne"],"Austrian wines took most of the top places."],
 [2,"Grilled octopus with lemon calls for:","Assyrtiko",["Agiorgitiko","Mavrodaphne","Xinomavro"],"High acid and a saline edge."],
 [2,"A Gönci barrel, traditional in Tokaj, holds about:","136 liters",["114 liters","225 liters","300 liters"],"Puttonyos once counted baskets of aszú per Gönci cask."],
-[3,"Unlike Tokaji Aszú, Santorini Vinsanto gets its sugar from:","Grapes dried in the sun",["Grapes hit by noble rot","Grapes frozen on the vine","Spirit added to the must"],"Botrytis plays no part on a dry, windy island."]
+[3,"Unlike Tokaji Aszú, Santorini Vinsanto gets its sugar from:","Grapes dried in the sun",["Grapes hit by noble rot","Grapes frozen on the vine","Spirit added to the must"],"Botrytis plays no part on a dry, windy island."],
+[2, "Grüner Veltliner is distinguished from Sauvignon Blanc by:", "A savory register of white pepper and lentil, without pungent tropical fruit", ["Higher acidity than Riesling", "A red-fruited nose", "Heavy new oak"], "Rotundone gives the pepper."],
+[2, "Tokaji Aszú is separated from Sauternes blind by:", "Much higher acidity and orange-peel, tea notes", ["Higher alcohol", "Lower sugar", "More new oak"], "Sauternes is fuller and softer."],
+[2, "Which family made the Neusiedlersee's sweet wines famous from the 1990s?", "Kracher", ["Bründlmayer", "Hirtzberger", "Velich"], "Based at Illmitz in the Seewinkel."],
+[2, "Blaufränkisch most resembles which wine blind?", "A cool-climate Syrah without smoked-meat notes", ["A Moscato d'Asti", "An oaky Chardonnay", "A tawny Port"], "Dark fruit, pepper, high acid, firm tannin."]
 ]});
 
 L.push({id:"r13", unit:"R5", title:"California", mins:22,
@@ -795,7 +815,11 @@ quiz:[
 [2,"Which sparkling wine was poured at Nixon's 1972 toast in Beijing?","Schramsberg",["Domaine Chandon","Roederer Estate","Korbel"],"Founded as a sparkling house in 1965."],
 [2,"Under conjunctive labeling, a Rutherford wine must also say:","Napa Valley",["California","North Coast","Estate Bottled"],"Sonoma County has the same rule for its AVAs."],
 [2,"Who founded Buena Vista in Sonoma in 1857?","Agoston Haraszthy",["Charles Krug","Gustave Niebaum","Georges de Latour"],"He later imported cuttings from Europe."],
-[3,"Petite Sirah is the same grape as:","Durif",["Syrah","Carignan","Mourvèdre"],"A French crossing of Syrah and Peloursin."]
+[3,"Petite Sirah is the same grape as:","Durif",["Syrah","Carignan","Mourvèdre"],"A French crossing of Syrah and Peloursin."],
+[2, "California's crush in 2025 was about:", "2.76 million tons", ["4.5 million tons", "1.2 million tons", "3.9 million tons"], "Nearly 3.9 million in 2023."],
+[2, "What does an AVA regulate?", "Only a boundary, with 85 percent of grapes from it", ["Grapes, yields and aging", "Grapes only", "Winemaking methods"], "No rules on varieties or yield."],
+[2, "Why is the south of Napa cooler than the north?", "Marine air and fog enter from San Pablo Bay", ["Higher elevation", "Volcanic soil", "Shade from redwoods"], "Calistoga is hottest."],
+[2, "Santa Barbara's valleys are cool because:", "The coastal ranges run east to west, opening to the Pacific", ["They are at high altitude", "They face north", "Of the Humboldt Current"], "Temperature rises about 1°F per mile inland."]
 ]});
 
 L.push({id:"r14", unit:"R5", title:"Oregon, Washington and New York", mins:15,
@@ -901,7 +925,11 @@ quiz:[
 [2,"Long Island's first vinifera vineyard was planted in 1973 by the:","Hargraves",["Franks","Wiemers","Drouhins"],"Alex and Louisa Hargrave, on the North Fork."],
 [2,"Vignoles, Cayuga White and Traminette are:","Cold-hardy hybrid grapes",["Clones of Riesling","Native labrusca grapes","Sub-AVAs of the Finger Lakes"],"Many were bred at Cornell."],
 [3,"A Syrah showing olive, smoked meat and savory funk, grown on basalt cobbles, points to:","The Rocks District",["The Eola-Amity Hills","The North Fork","Lake Chelan"],"In the Walla Walla Valley, on the Oregon side."],
-[2,"In 2020 many Willamette Valley wineries made little or no red wine because of:","Wildfire smoke",["A late spring frost","Phylloxera","A grape glut"],"Smoke compounds bind in the skins, which red winemaking extracts."]
+[2,"In 2020 many Willamette Valley wineries made little or no red wine because of:","Wildfire smoke",["A late spring frost","Phylloxera","A grape glut"],"Smoke compounds bind in the skins, which red winemaking extracts."],
+[2, "Which Burgundy house bought land in the Dundee Hills in 1987?", "Maison Joseph Drouhin", ["Louis Jadot", "Comtes Lafon", "Bouchard Père et Fils"], "It gave Oregon international credibility."],
+[2, "Christophe Baron of Cayuse planted in 1997 in which district?", "The Rocks District of Milton-Freewater", ["Red Mountain", "Yakima Valley", "Eola-Amity Hills"], "Basalt cobbles give savory Syrah."],
+[2, "Who established dry Riesling on Seneca Lake in the 1970s?", "Hermann J. Wiemer", ["Konstantin Frank", "Alex Hargrave", "David Lett"], "Frank proved vinifera could survive in the Finger Lakes."],
+[2, "Which was a cool, wet vintage in Oregon?", "2011", ["2014", "2015", "2018"], "2007 was also wet."]
 ]});
 
 L.push({id:"r15", unit:"R5", title:"Australia and New Zealand", mins:20,
@@ -1010,7 +1038,11 @@ quiz:[
 [2,"China's 2020 tariffs on Australian wine were lifted in:","March 2024",["June 2021","January 2023","May 2026"],"They had reached as high as 218%."],
 [2,"Cool-climate Australian Shiraz, as in the Grampians or Canberra, tends to show:","Black pepper and medium body",["Chocolate and very high alcohol","Raisin and residual sugar","Coconut and jammy black fruit"],"It sits closer to the northern Rhône."],
 [2,"Sticky date pudding is a classic match for:","Rutherglen Muscat",["Hunter Sémillon","Clare Riesling","Sparkling Shiraz"],"A sweet, fortified, long-aged wine."],
-[2,"Yellow Tail, launched in 2001, opened the era of:","Critter labels",["Cult Cabernet","Natural wine","Grower sparkling"],"Inexpensive, fruity wine with an animal on the label."]
+[2,"Yellow Tail, launched in 2001, opened the era of:","Critter labels",["Cult Cabernet","Natural wine","Grower sparkling"],"Inexpensive, fruity wine with an animal on the label."],
+[2, "Who created Penfolds Grange after a visit to Bordeaux in 1950?", "Max Schubert", ["Len Evans", "Maurice O'Shea", "James Busby"], "Management ordered production stopped; he continued in secret."],
+[2, "Which three inland regions supplied most of Australia's 2025 crush?", "Riverland, Riverina and Murray Darling", ["Barossa, McLaren Vale and Clare", "Yarra, Mornington and Geelong", "Margaret River, Great Southern and Swan"], "The Barossa supplied about 4 percent."],
+[2, "The modern Australian Chardonnay style of the 2010s is best described as:", "Lean, citrus-driven, with a struck-match reductive note", ["Golden, buttery and heavily oaked", "Off-dry and aromatic", "Oxidative and nutty"], "A reaction to the oaky style of the export boom."],
+[2, "What separates a New Zealand wine from an Australian one of the same variety, as a rule?", "Higher acidity and lower alcohol", ["More new oak", "Lower acidity and riper fruit", "More residual sugar"], "Clean fruit is common to both."]
 ]});
 
 L.push({id:"r16", unit:"R5", title:"Argentina and Chile", mins:16,
@@ -1128,7 +1160,11 @@ quiz:[
 [2,"Compared with Argentina, Chile's wine industry is more:","Dependent on exports",["Focused on white grapes","Reliant on summer rain","Planted with hybrids"],"Chile's home market is small."],
 [2,"Who identified much of Chile's 'Merlot' as Carmenère in 1994?","Jean-Michel Boursiquot",["Michel Rolland","Carole Meredith","Aurelio Montes"],"A French ampelographer."],
 [2,"Asado, Argentina's wood-grilled beef, is the classic match for:","Malbec",["Torrontés","País","Pinot Noir"],"Soft tannin and dark fruit suit charred beef."],
-[2,"Chile's País is the same grape as California's:","Mission",["Zinfandel","Charbono","Petite Sirah"],"Listán Prieto, carried by Spanish missionaries."]
+[2,"Chile's País is the same grape as California's:","Mission",["Zinfandel","Charbono","Petite Sirah"],"Listán Prieto, carried by Spanish missionaries."],
+[2, "Which joint venture between Concha y Toro and Baron Philippe de Rothschild was first made in 1996?", "Almaviva", ["Seña", "Don Melchor", "Clos Apalta"], "A Bordeaux-style blend from Puente Alto in the upper Maipo."],
+[2, "The Torres family's arrival in Curicó in 1979 is associated with what change in Chile?", "Stainless steel and temperature-controlled fermentation", ["The first Carmenère plantings", "The end of the phylloxera quarantine", "The creation of the DO system"], "It is often taken as the start of technical modernization."],
+[3, "In a blind tasting, which combination points to Chilean Cabernet rather than Napa?", "Ripe cassis with a distinct mint or herbal note and moderate structure", ["Very ripe fruit, plush tannin and heavy new oak", "Pale color and high acid with rose and tar", "Bone-dry, lime and petrol"], "Pyrazines and eucalyptus give Chile a herbal register."],
+[2, "Torrontés is recognized by which paradox?", "A sweet, Muscat-like nose with a dry, slightly bitter palate", ["A pale color with very high tannin", "Low alcohol with high sugar", "A smoky nose with no fruit"], "It is a natural crossing of Muscat of Alexandria with a Criolla grape."]
 ]});
 
 L.push({id:"r17", unit:"R5", title:"South Africa and Canada", mins:14,
@@ -1239,5 +1275,9 @@ quiz:[
 [3,"Vin de Constance gets its sweetness from:","Grapes raisined on the vine",["Noble rot","Added grape spirit","Freezing the grapes on the vine"],"Muscat de Frontignan, unfortified and without botrytis."],
 [2,"A Canadian bottle labeled as an international blend contains:","Mostly imported bulk wine",["Only Ontario grapes","Only hybrid grapes","Icewine blended with table wine"],"VQA is the mark of 100% provincial fruit."],
 [2,"What destroyed nearly all of the Okanagan's 2024 crop?","A January deep freeze",["Wildfire smoke","A severe summer hailstorm","Phylloxera"],"Wineries were allowed to bring in grapes from outside the province."],
-[2,"Chenin Blanc covers about what share of South Africa's vineyard?","18%",["3%","45%","70%"],"It is the most planted grape, ahead of Cabernet Sauvignon at about 10%."]
+[2,"Chenin Blanc covers about what share of South Africa's vineyard?","18%",["3%","45%","70%"],"It is the most planted grape, ahead of Cabernet Sauvignon at about 10%."],
+[2, "Meerlust's Rubicon, first made in 1980, is:", "One of the first Cape Bordeaux blends", ["A Pinotage", "A Chenin Blanc", "A Muscat"], "The Myburgh family has owned Meerlust since 1756."],
+[2, "Which Swartland wines, first released in 2000 and 2002, signaled the Cape's new wave?", "Columella and Palladius", ["Rubicon and Paul Sauer", "Vin de Constance and Grand Constance", "Chocolate Block and Porcupine Ridge"], "Made by Eben Sadie."],
+[2, "Klein Constantia revived Vin de Constance from which vintage?", "1986", ["1856", "1961", "2006"], "Muscat de Frontignan shriveled on the vine, unfortified."],
+[2, "In 1990 what share of the Cape vineyard was white?", "84 percent", ["56 percent", "40 percent", "98 percent"], "Most of it was grown for distillation."]
 ]});

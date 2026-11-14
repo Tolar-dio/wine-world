@@ -80,7 +80,11 @@ quiz:[
 [3,"Monemvasia-Malvasia, a PDO since 2010, is made from:","Sun-dried grapes",["Botrytized grapes","Frozen grapes","Late-picked, flor-aged grapes"],"At least 51% Monemvasia: the historic Malmsey."],
 [3,"Retsina's legal category is:","Traditional Appellation",["Protected Designation of Origin","Protected Geographical Indication","Varietal wine"],"It protects a style flavored with Aleppo pine resin, not a place."],
 [3,"On a Greek label, 'Cava' is reserved for wines:","Without a geographical indication",["From the island of Santorini only","Made sparkling by the traditional method","Aged ten years or more"],"An aging term for wines outside the PDO and PGI system."],
-[3,"Sitia's red PDO wine must be at least 80%:","Liatiko",["Kotsifali","Mandilaria","Vidiano"],"A pale, perfumed Cretan red grape."]
+[3,"Sitia's red PDO wine must be at least 80%:","Liatiko",["Kotsifali","Mandilaria","Vidiano"],"A pale, perfumed Cretan red grape."],
+[2, "Who founded Kir-Yianni in 1997?", "Yiannis Boutaris", ["Evangelos Gerovassiliou", "Apostolos Thymiopoulos", "Paris Sigalas"], "He left the family firm Boutari."],
+[2, "What is the average yield on Santorini according to the 2022 PDO amendment?", "About 3,000 kg per hectare", ["About 8,000 kg per hectare", "About 12,000 kg per hectare", "About 500 kg per hectare"], "The legal maximum was cut to 6,500."],
+[2, "About how many kilograms of grapes does a liter of Vinsanto require?", "Around 6, rising toward 10", ["Around 1", "Around 2", "Around 25"], "Evaporation during long aging raises the figure."],
+[3, "Which observation best separates Xinomavro from Nebbiolo blind?", "Savory tomato and olive notes with a slightly less perfumed nose", ["A deep purple color", "Low tannin", "Very low acidity"], "Both are pale, high in acid and tannin."]
 ]});
 
 L.push({id:"r12e", unit:"R4", title:"Deep Dive: Hungary, Switzerland, the Balkans and the Caucasus", mins:20,
@@ -166,7 +170,11 @@ quiz:[
 [3,"Grk on Korčula must be interplanted because:","It has only female flowers",["It is a hybrid","It is phylloxera-prone","It ripens too late"],"Needs a pollinator."],
 [2,"After April 2025, Georgia has how many PDOs?","32",["18","25","50"],"Lechkhumi and Racha added."],
 [2,"Khvanchkara is a naturally semi-sweet wine from:","Racha (Aleksandrouli and Mujuretuli)",["Kakheti (Saperavi and Rkatsiteli)","Kartli (Chinuri and Tavkveri)","Imereti (Tsolikouri and Tsitska)"],"No added sugar."],
-[2,"Commandaria requires at least:","2 years in oak",["6 months","10 years","No oak"],"Sun-dried Xynisteri and Mavro."]
+[2,"Commandaria requires at least:","2 years in oak",["6 months","10 years","No oak"],"Sun-dried Xynisteri and Mavro."],
+[2, "Who owns Grand Tokaj, the successor of the communist-era state company?", "The Hungarian state", ["AXA", "Vega Sicilia", "A cooperative of growers"], "It is the largest grape buyer in the region."],
+[2, "Which Tokaj vineyard was most celebrated in the old classification and lies near Tarcal?", "Mézes Mály", ["Betsek", "Király", "Oremus"], "Szarvas, also near Tarcal, was a royal estate."],
+[2, "Petite Arvine from the Valais is recognized by:", "Grapefruit and a distinctly salty finish", ["Lychee and rose", "Low acid and almond", "Smoke and petrol"], "Chasselas is the subtle one."],
+[2, "Kékfrankos is the Hungarian name for:", "Blaufränkisch", ["Zweigelt", "Kadarka", "Pinot Noir"], "Lemberger in Germany."]
 ]});
 
 L.push({id:"r14b", unit:"R5", title:"Deep Dive: Oregon, Washington, the Rest of North America and Beyond", mins:22,
@@ -240,5 +248,9 @@ quiz:[
 [2,"The first wine from outside California to score 100 points was:","Quilceda Creek 2002 Cabernet",["Leonetti 2001 Merlot","Cayuse En Cerise","Eyrie 1975"],"The Wine Advocate gave Washington's Quilceda Creek 2002 Cabernet Sauvignon 100 points."],
 [2,"Canadian Icewine grapes must average at least:","35° Brix",["20° Brix","25° Brix","50° Brix"],"Each pressing at least 32°."],
 [2,"Tidal Bay wines are capped at:","11% abv",["9% abv","13% abv","14.5% abv"],"Nova Scotia's Tidal Bay must be crisp, aromatic and no more than 11% alcohol."],
-[3,"Brazil's first DO (2012) was:","Vale dos Vinhedos",["Campanha","Serra Gaúcha","Pinto Bandeira"],"Merlot-led reds."]
+[3,"Brazil's first DO (2012) was:","Vale dos Vinhedos",["Campanha","Serra Gaúcha","Pinto Bandeira"],"Merlot-led reds."],
+[2, "Estate Bottled in US law requires:", "Winery and vineyards in the same AVA, owned or controlled, wine made there", ["Any California fruit", "85 percent varietal", "Organic farming"], "One of few firm terms."],
+[2, "Oregon requires what minimum for Pinot Noir varietal labeling?", "90 percent", ["75 percent", "85 percent", "100 percent"], "Federal is 75."],
+[2, "Canadian Icewine grapes must be picked at:", "Minus 8°C or colder", ["0°C", "Minus 2°C", "Minus 20°C"], "Artificial freezing is banned."],
+[2, "Washington's flood-deposited soils lie below about:", "360 meters", ["50 meters", "1,000 meters", "2,000 meters"], "The Missoula floods."]
 ]});

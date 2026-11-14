@@ -186,5 +186,9 @@ quiz:[
 [2,"Which is one of Priorat's three Gran Vinyes Classificades?","L'Ermita",["Clos Mogador","Pingus","Vega Sicilia Único"],"Álvaro Palacios."],
 [2,"Cava Gran Reserva now requires at least:","30 months on lees",["9 months on lees","15 months on lees","60 months on lees"],"Reserva 18, Paraje Calificado 36."],
 [3,"Which Rías Baixas subzone is coolest and most saline?","Val do Salnés",["Condado do Tea","O Rosal","Ribeira do Ulla"],"Val do Salnés lies on the coast around Cambados: the coolest, wettest and most saline subzone."],
-[2,"Spanish Gran Reserva whites need a minimum total aging of:","48 months",["24 months","60 months","18 months"],"6 months in oak."]
+[2,"Spanish Gran Reserva whites need a minimum total aging of:","48 months",["24 months","60 months","18 months"],"6 months in oak."],
+[2, "Which three Haro houses were founded between 1877 and 1890 near the railway station?", "López de Heredia, CVNE and La Rioja Alta", ["Riscal, Murrieta and Muga", "Artadi, Remelluri and Contador", "Vega Sicilia, Pingus and Mauro"], "They still make wines in the classic style."],
+[2, "Which respected Rioja Alavesa producer left the appellation in 2015?", "Artadi", ["Remírez de Ganuza", "Contino", "Marqués de Riscal"], "Its departure helped force the 2017 reform."],
+[2, "A red Rioja Gran Reserva requires at least:", "Five years of aging, two in oak", ["Two years, one in oak", "Three years, six months in oak", "Ten years, five in oak"], "Many traditional houses hold their wines much longer."],
+[2, "In what order is it most useful to read a Spanish label?", "Producer, then origin, then aging", ["Aging, then origin, then producer", "Vintage, then grape, then region", "Alcohol, then region, then grape"], "Many top wines carry no aging term."]
 ]});
