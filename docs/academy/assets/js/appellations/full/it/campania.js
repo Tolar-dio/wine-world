@@ -61,7 +61,7 @@ APXF["it-falanghina-del-sannio"] = cam({
   lede: "Falanghina from the Sannio hills around Benevento, Campania's most planted white, with four subzones.",
   cat: "DOC, white (still, sparkling, late harvest, passito)", rec: "DOC 2011 (DM 30 September 2011; earlier part of Sannio DOC from 1997)", d: "DOC/Falanghina del Sannio",
   sources: [CAM_SANNIO_PLAN],
-  facts: [["Subzones", "Guardia Sanframondi or Guardiolo, Sant'Agata dei Goti, Solopaca, Taburno"], ["Yield", "12 t/ha (subzones up to 11 or 12)"], ["Natural alcohol", "10.5%; subzones 11%"], ["Spumante metodo classico", "At least 12 months on the lees from 15 November"], ["Passito", "16% natural after drying; grape to wine 40%; released from 1 June after harvest"]],
+  facts: [["Grapes", "Falanghina at least 85%"], ["Subzones", "Guardia Sanframondi or Guardiolo, Sant'Agata dei Goti, Solopaca, Taburno"], ["Yield", "12 t/ha (subzones up to 11 or 12)"], ["Natural alcohol", "10.5%; subzones 11%"], ["Spumante metodo classico", "At least 12 months on the lees from 15 November"], ["Passito", "16% natural after drying; grape to wine 40%; released from 1 June after harvest"]],
   place: "Hills of the Benevento province between the Calore and the Taburno.", rules: "Producers announced in 2025 a plan to seek DOCG status with Riserva and Superiore; not yet in force at the date checked.",
   glass: "Citrus, apple, white flowers, bright acidity.", exam: "Falanghina Beneventana is the Sannio biotype.", producers: ["La Guardiense", "Fontanavecchia", "Mustilli", "Ocone", "Aia dei Colombi"]
 });

@@ -510,7 +510,7 @@ APXF["it-gabiano"] = pm({
 APXF["it-grignolino-d-asti"] = pm({
   lede: "Pale, peppery Grignolino from the hills north of Asti.",
   cat: "DOC, red", rec: "DOC 1973", d: "DOC/Grignolino d'Asti",
-  facts: [["Grapes", "Grignolino; Freisa up to 10%"], ["Yield", "8 t/ha; 10.5% natural"], ["Grape to wine", "65%"], ["Total alcohol", "11%"]],
+  facts: [["Grapes", "Grignolino at least 90%; Freisa up to 10%"], ["Yield", "8 t/ha; 10.5% natural"], ["Grape to wine", "65%"], ["Total alcohol", "11%"]],
   place: "Communes of the Asti Monferrato north and east of Asti.",
   rules: "The lower grape to wine ratio (65%) reflects Grignolino's many pips.",
   glass: "Pale ruby, red berries, white pepper, high acidity and surprisingly firm tannin.",

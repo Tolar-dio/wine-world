@@ -24,7 +24,7 @@ APXF["it-cinque-terre"] = lig({
 APXF["it-colli-di-luni"] = lig({
   lede: "Vermentino and Sangiovese from the hills on the Liguria-Tuscany border at the mouth of the Magra.",
   cat: "DOC, white, red", rec: "DOC 1989", d: "Colli di Luni",
-  facts: [["Regions", "Province of La Spezia (Liguria) and Massa-Carrara (Tuscany)"], ["Types", "Rosso (Sangiovese at least 50%), Bianco (Vermentino at least 35%, Trebbiano 25 to 40%), Vermentino (also superiore), Albarola"], ["Yield", "11 t/ha; Vermentino superiore 9 t/ha"], ["Riserva", "Reds aged two years from 1 November"]],
+  facts: [["Regions", "Province of La Spezia (Liguria) and Massa-Carrara (Tuscany)"], ["Types", "Rosso (Sangiovese at least 50%), Bianco (Vermentino at least 35%, Trebbiano 25 to 40%), Vermentino (at least 90%; also superiore), Albarola"], ["Yield", "11 t/ha; Vermentino superiore 9 t/ha"], ["Riserva", "Reds aged two years from 1 November"]],
   place: "Hills of the Val di Magra near the Roman city of Luni.", rules: "Grape to wine 70%.", glass: "Vermentino: fuller, herbal, saline.", exam: "Crosses the Liguria-Tuscany border.", producers: ["Lunae Bosoni", "Ottaviano Lambruschi", "Cantine Bondonor"]
 });
 APXF["it-colline-di-levanto"] = lig({

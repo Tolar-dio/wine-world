@@ -47,7 +47,7 @@ APXF["it-cerasuolo-d-abruzzo"] = ab({
   lede: "Deep-coloured rosé of Montepulciano, separated from Montepulciano d'Abruzzo as its own DOC in 2010.",
   cat: "DOC, rosé", rec: "Type of Montepulciano d'Abruzzo from 1968; own DOC 2010 (DM 5 October 2010)", d: "DOC/Cerasuolo d'Abruzzo",
   amended: "Text as amended by DM 19 January 2023",
-  facts: [["Grapes", "Montepulciano at least 85%"], ["Yield", "14 t/ha"], ["Release", "From 1 December of the harvest year"], ["Subzones", "Terre di Chieti, Terre Aquilane or Terre de L'Aquila, Colline Pescaresi, Colline Teramane (all Superiore)"], ["Total alcohol", "12%"]],
+  facts: [["Grapes", "Montepulciano at least 85%"], ["Yield", "15 t/ha; 11.5% natural"], ["Release", "From 1 December of the harvest year"], ["Subzones", "Terre di Chieti, Terre Aquilane or Terre de L'Aquila, Colline Pescaresi, Colline Teramane (all Superiore)"], ["Total alcohol", "12%"]],
   place: "Throughout Abruzzo.", rules: "Short skin contact gives a cherry-red colour ('cerasuolo' = cherry-coloured).",
   glass: "Bright cherry red, cherry and strawberry, savoury, firm acidity, a light grip of tannin.",
   exam: "Cerasuolo d'Abruzzo is a rosé; Cerasuolo di Vittoria (Sicily) is a red DOCG.",

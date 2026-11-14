@@ -36,7 +36,7 @@ APXF["it-colli-bolognesi-classico-pignoletto"] = er({
 APXF["it-pignoletto"] = er({
   lede: "The plain and hill Pignoletto DOC created in 2014; since the 2024 harvest it is called Emilia-Romagna DOC, reserved for Pignoletto wines.",
   cat: "DOC, white (still, frizzante, spumante, passito, late harvest)", rec: "DOC 2014 (Pignoletto); renamed Emilia-Romagna DOC by EU implementing regulation, from the 2024 harvest", d: "Emilia/DOC/Emilia-Romagna",
-  sources: [["Italian Wine Central: Pignoletto DOC (renamed Emilia-Romagna DOC)", "https://italianwinecentral.com/denomination/pignoletto-doc"]],
+  sources: [["Italian Wine Central: Emilia-Romagna DOC (formerly Pignoletto DOC)", "https://italianwinecentral.com/denomination/emilia-romagna-doc/"]],
   facts: [["Grapes", "Pignoletto at least 85%; Pinot Nero and Pinot Grigio vinified white may be among the other 15%"], ["Zone", "Communes of the provinces of Bologna and Modena (and the Imola area)"], ["Natural alcohol", "9%"], ["Grape to wine", "70%"], ["Passito", "Grapes to 15% potential alcohol; total 15%, at least 12% actual"], ["Late harvest", "9 t/ha; 14% potential; total 14%, 12% actual"]],
   place: "The Reno and Panaro plains and foothills between Bologna and Modena.",
   rules: "Most is sold as frizzante or tank-method spumante.",
@@ -86,7 +86,7 @@ APXF["it-modena"] = er({
 });
 APXF["it-reggiano"] = er({
   lede: "The Lambrusco DOC of the province of Reggio Emilia, using many Lambrusco varieties, including the dark Ancellotta.",
-  cat: "DOC, red, white (frizzante, spumante)", rec: "DOC 1971", d: "Emilia/DOC/Reggiano",
+  cat: "DOC, red, white (frizzante, spumante)", rec: "DOC 1971 (DPR 22 July 1971, as Lambrusco Reggiano); renamed Reggiano in 1996", d: "Emilia/DOC/Reggiano",
   facts: [["Types", "Lambrusco, Lambrusco Salamino, Rosso, Bianco spumante, novello"], ["Yield", "18 t/ha; 9.5% natural"]],
   place: "The plain and foothills of Reggio Emilia.", rules: "Dry to sweet styles; some partly fermented musts allowed.", glass: "Fruity, purple Lambrusco.", exam: "Reggio's Lambrusco DOC.", producers: ["Medici Ermete", "Lini 910"]
 });
@@ -104,7 +104,7 @@ APXF["it-colli-di-parma"] = er({
 });
 APXF["it-colli-piacentini"] = er({
   lede: "Hills of Piacenza on the Lombardy border, for Malvasia, Barbera-Croatina reds and Vin Santo di Vigoleno.",
-  cat: "DOC, white, red, sparkling, sweet", rec: "DOC 1967", d: "Emilia/DOC/Colli Piacentini",
+  cat: "DOC, white, red, sparkling, sweet", rec: "First decree 1967 (DPR 9 July 1967, for the earlier Piacenza DOCs); Colli Piacentini DOC in its current form from 1984", d: "Emilia/DOC/Colli Piacentini",
   facts: [["Types", "Monterosso Val d'Arda, Trebbianino Val Trebbia, Valnure, Barbera, Bonarda, Malvasia (also passito), Pinot Grigio, Pinot Nero, Sauvignon, Cabernet Sauvignon, Chardonnay, Novello, Vin Santo, Vin Santo di Vigoleno"], ["Vin Santo di Vigoleno", "Grapes dried to 30% sugar; total alcohol 18%"]],
   place: "Valleys of the Tidone, Trebbia, Nure and Arda.", rules: "Gutturnio and Ortrugo became separate DOCs.", glass: "Frizzante whites; Barbera-Croatina reds.", exam: "Vin Santo di Vigoleno is one of Italy's rarest sweet wines.", producers: ["La Stoppa"]
 });
@@ -144,7 +144,7 @@ APXF["it-romagna"] = er({
   lede: "The DOC of Romagna, centred on Sangiovese (Romagna Sangiovese), with 16 subzones, plus Trebbiano, Pagadebit, Cagnina and sparkling Albana.",
   cat: "DOC, red, white, rosé, sparkling, sweet", rec: "DOC 2011 (uniting the earlier Romagna DOCs)", d: "Romagna/DOC/Romagna",
   amended: "Text as amended by DM 26 May 2022",
-  facts: [["Types", "Sangiovese (also novello, riserva, superiore, passito), Trebbiano, Pagadebit (Bombino Bianco), Cagnina (Refosco/Terrano, sweet), Albana spumante dolce, Bianco, Rosato, Rosso"], ["Subzones", "Bertinoro, Brisighella, Castrocaro, Cesena, Longiano, Meldola, Modigliana, Marzeno, Oriolo, Predappio, Mercato Saraceno, Serra, Imola, Coriano, San Clemente, Verucchio"], ["Yields", "Sangiovese 12 t/ha; Superiore 10.5 t/ha; Bianco and Rosato 18"], ["Release", "Sangiovese 1 December of the harvest year; Superiore 1 April after; Riserva after 24 months from 1 December; Cagnina from 10 October"]],
+  facts: [["Types", "Sangiovese (also novello, riserva, superiore, passito), Trebbiano, Pagadebit (Bombino Bianco), Cagnina (Refosco/Terrano, sweet), Albana spumante dolce, Bianco, Rosato, Rosso"], ["Subzones", "Bertinoro, Brisighella, Castrocaro, Cesena, Longiano, Meldola, Modigliana, Marzeno, Oriolo, Predappio, Mercato Saraceno, Serra, Imola, Coriano, San Clemente, Verucchio"], ["Romagna Sangiovese", "Sangiovese at least 85%"], ["Yields", "Sangiovese 12 t/ha; Superiore 10.5 t/ha; Bianco and Rosato 18"], ["Release", "Sangiovese 1 December of the harvest year; Superiore 1 April after; Riserva after 24 months from 1 December; Cagnina from 10 October"]],
   place: "Apennine foothills from Imola to Rimini: clay and the yellow sands and 'spungone' (fossil limestone) around Bertinoro; Modigliana's sandstone at altitude.",
   rules: "Subzone names carry stricter rules; Riserva 24 months.",
   glass: "Sangiovese: cherry, violet, softer than Tuscan; Modigliana fresher and more mineral.",
