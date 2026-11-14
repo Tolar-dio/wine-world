@@ -958,6 +958,11 @@ body:`
 
 <h3>The rest of the East</h3>
 <p>Beyond New York, wine is made in every eastern state, and a few have serious quality. Virginia's Monticello and Middleburg districts and the Shenandoah Valley make Cabernet Franc, Petit Verdot, Viognier and Petit Manseng, and the state's best wines have won international recognition. Pennsylvania and New Jersey have growing industries along the Delaware valley, and Maryland and North Carolina have vineyards in their uplands. Michigan's peninsulas in Lake Michigan make Riesling and sparkling wine. In each case the challenge is the same as in New York: cold winters, humid summers and disease, which favor resistant hybrids and the hardier European varieties. A sommelier who knows a few producers from these states can offer guests a local wine with a story.</p>
+
+<h3>Northwest and New York wines at the table</h3>
+<p>The regions of this chapter share high acidity, which makes their wines unusually versatile with food, and each has a natural partner in its own cooking. Oregon Pinot Noir and wild Pacific salmon is the region's signature pairing: the wine's red fruit and moderate tannin meet the fish's richness without the metallic clash that heavier, more tannic reds can produce. Oregon Chardonnay, now made in a lean, mineral style, and Pinot Gris pair with Dungeness crab, halibut and the region's mushrooms and hazelnuts. Willamette Valley sparkling wine, made by the traditional method, works as an aperitif and with oysters from the Oregon and Washington coasts.</p>
+<p>Washington's reds, from the dry, sunny Columbia Valley, are riper and more structured. Cabernet Sauvignon and Merlot from Red Mountain, Walla Walla and the Horse Heaven Hills suit grilled beef and lamb; Syrah, often peppery and savory, especially from the cobblestone vineyards on the Oregon side of the Walla Walla Valley, pairs with lamb, game and smoked meats. Washington Riesling, dry or off-dry, handles spicy dishes and pork, and the state's Chardonnay works with roast chicken and richer seafood.</p>
+<p>In New York, Finger Lakes Riesling, dry to sweet and always high in acid, is a natural partner for pork, ham, smoked fish and Asian dishes, and the region's Cabernet Franc, light and leafy, suits charcuterie, duck and roast vegetables. Long Island's maritime climate gives softer Merlot and Bordeaux blends that pair with duck, once the island's famous farm product, and with shellfish such as Peconic Bay scallops alongside its whites. A sommelier building a list around American food can use these regions to show that domestic wine need not mean heavy, high-alcohol reds.</p>
 `,
 floor:`<p>CMS Certified examines Willamette Valley Pinot Noir and, via the matching exercise, regions like Ribbon Ridge. Producers: Eyrie, Domaine Drouhin Oregon, Beaux Frères, Cristom, Bergström; Washington: Quilceda Creek, Leonetti, Cayuse, Andrew Will.</p>`,
 analyst:`<p>WSET Level 3 includes Willamette Valley, Columbia Valley, Yakima Valley and Walla Walla Valley, and New York's Finger Lakes. The classic explanation: how the Cascade rain shadow and irrigation shape Washington wine.</p>`,
@@ -979,7 +984,8 @@ quiz:[
 [2, "Which Burgundy house bought land in the Dundee Hills in 1987?", "Maison Joseph Drouhin", ["Louis Jadot", "Comtes Lafon", "Bouchard Père et Fils"], "It gave Oregon international credibility."],
 [2, "Christophe Baron of Cayuse planted in 1997 in which district?", "The Rocks District of Milton-Freewater", ["Red Mountain", "Yakima Valley", "Eola-Amity Hills"], "Basalt cobbles give savory Syrah."],
 [2, "Who established dry Riesling on Seneca Lake in the 1970s?", "Hermann J. Wiemer", ["Konstantin Frank", "Alex Hargrave", "David Lett"], "Frank proved vinifera could survive in the Finger Lakes."],
-[2, "Which was a cool, wet vintage in Oregon?", "2011", ["2014", "2015", "2018"], "2007 was also wet."]
+[2, "Which was a cool, wet vintage in Oregon?", "2011", ["2014", "2015", "2018"], "2007 was also wet."],
+[2, "What is the Pacific Northwest's signature wine and food pairing?", "Oregon Pinot Noir with wild salmon", ["Washington Cabernet with oysters", "Finger Lakes Riesling with steak", "Oregon Pinot Gris with venison"], "Moderate tannin avoids a metallic clash with the oily fish."]
 ]});
 
 L.push({id:"r15", unit:"R5", title:"Australia and New Zealand", mins:20,
