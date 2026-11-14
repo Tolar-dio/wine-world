@@ -325,3 +325,296 @@ APXF["fr-canon-fronsac"] = {
   sources: [["INAO, Canon-Fronsac specification modification project, 2024", "https://extranet.inao.gouv.fr/fichier/CDC-Canon-Fronsac---PNO-2024.pdf"], ["Décret n° 2009-1274 (Libournais specifications, Légifrance)", "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021187495"]],
   checked: "2026-11-13"
 };
+
+// ===== Regional Bordeaux, the Côtes, Entre-Deux-Mers, Blaye and Bourg =====
+const BX_CDB = ["Cahier des charges AOC Côtes de Bordeaux, 2016 (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-cb75ed5f-c04a-4145-86d3-a7332e9b97c9/telechargement"];
+const BX_BDX = ["INAO, AOC Bordeaux specification, June 2025 text", "https://extranet.inao.gouv.fr/fichier/2-CDC-Bordeaux-06-2025.pdf"];
+const BX_EDM = ["Cahier des charges AOC Entre-deux-Mers, homologated 19 September 2025 (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-00f0a856-9577-440e-aef1-9ff22d0b3383/telechargement"];
+
+APXF["fr-bordeaux"] = {
+  lede: "The appellation that covers nearly all of the Gironde: more than half of all Bordeaux by volume, every color but sparkling, and the front line of the region's overproduction crisis.",
+  facts: [["Category", "AOC: red, claret, clairet, rosé, dry white and white with residual sugar"], ["Recognized", "Decree of 14 November 1936"], ["Area", "Almost the whole Gironde wine zone (the sandy pine forest of the Landes and parts of the river plain excepted)"], ["Red grapes", "Merlot, Cabernet Sauvignon, Cabernet Franc, Cot (Malbec), Carmenère, Petit Verdot; adaptation grapes Arinarnoa, Castets, Marselan, Touriga Nacional and Vidoc, 5% at most of plantings"], ["White grapes", "Sémillon, Sauvignon Blanc, Sauvignon Gris, Muscadelle; accessory Colombard, Merlot Blanc, Ugni Blanc (30% at most); adaptation grapes Alvarinho, Floréal, Liliorila, Sauvignac, Souvignier Gris (5% at most)"], ["Planting density", "At least 4,000 vines/ha, reducible to 3,300 with rows up to 3 m apart"], ["Base yields", "Red 60 hl/ha, rosé 62, white 67 (ceilings 68, 72 and 77)"], ["Ripeness", "Red at least 10.5% natural alcohol; claret 11%; rosé and dry white 10%"], ["Dry white", "At most 3 g/L residual sugar (5 g/L with enough acidity)"], ["Geographic mention", "Bordeaux Haut-Benauge, for white wines from eight communes (see its own entry)"]],
+  sections: [
+    ["The place", `<p>The Bordeaux appellation can be made almost anywhere grapes grow in the Gironde, from the Médoc to the Entre-Deux-Mers, the Libournais, the Blayais and the Graves. Most of it comes from the Entre-Deux-Mers plateau, the Blayais and the lower-lying land along the rivers, on clay, limestone, sand and gravel. Because any estate in a more specific appellation can also declare its wine as Bordeaux, the appellation also absorbs declassified wine and second and third wines from famous estates.</p>`],
+    ["The rules", `<p>The rules are the loosest in the region, which is the point: a base yield of 60 hectoliters per hectare for red and 67 for white, a minimum density of 4,000 vines per hectare (lower than any communal appellation), and natural alcohol from 10% (white and rosé) to 10.5% (red). The appellation covers more styles than any other in Bordeaux. Clairet is a dark rosé from a short maceration, the historical ancestor of the English word claret; the current specification also recognizes "claret", a light red with its own mention on the label. White Bordeaux may be dry or, between 5 and 60 grams of sugar per liter, sweet, labeled with the EU sweetness term.</p><p>In 2021 Bordeaux and Bordeaux Supérieur became among the first French appellations to admit "varieties of interest for adaptation": grapes not traditional to the region, planted to cope with heat and disease, limited to 5% of the vineyard and 10% of the blend. The reds are Arinarnoa, Castets, Marselan and Touriga Nacional (Vidoc, a disease-resistant hybrid, was added later); the whites include the Portuguese Alvarinho, Liliorila, and resistant varieties such as Floréal and Souvignier Gris. The June 2025 text also lowered the minimum spacing between vines so growers can adjust their plantings.</p>`],
+    ["The crisis", `<p>Bordeaux has produced more wine than it can sell since the early 2020s, as red wine consumption fell in France and China's demand collapsed. Basic Bordeaux, sold in bulk at prices often below the cost of production, was hit hardest. From 2023 the state and the regional wine council funded the grubbing-up of thousands of hectares of vines, and many growers have converted to white, rosé, crémant or lighter "claret"-style reds that sell better. This is the context for most rule changes in the appellation since 2020.</p>`],
+    ["In the glass", `<p>Red Bordeaux is usually Merlot-led, medium-bodied, with plum and red berry fruit and soft tannin, made to drink within three to five years. White Bordeaux, most often Sauvignon Blanc with Sémillon, is crisp and citrusy; the rosés and clairets are fruity and fresh.</p>`]
+  ],
+  producers: ["Mouton Cadet (Baron Philippe de Rothschild)", "Château Thieuley", "Château Penin", "Château Bonnet (André Lurton)", "Château Le Pin Beausoleil", "Château Reynon"],
+  sources: [BX_BDX],
+  checked: "2026-11-13"
+};
+
+APXF["fr-bordeaux-superieur"] = {
+  lede: "The same area as Bordeaux with stricter rules: lower yields, riper grapes and longer ageing, for reds that sit between basic Bordeaux and the named appellations.",
+  facts: [["Category", "AOC: red, and white with residual sugar"], ["Recognized", "Decree of 14 October 1943"], ["Grapes", "Merlot, Cabernet Sauvignon, Cabernet Franc, Cot (Malbec), Carmenère, Petit Verdot; Sémillon, Sauvignon Blanc, Sauvignon Gris, Muscadelle, Colombard, Merlot Blanc, Ugni Blanc"], ["Planting density", "At least 4,500 vines/ha (3,300 allowed on wide-row plantings, with a lower yield)"], ["Base yields", "Red 59 hl/ha (ceiling 66); white 49 hl/ha (ceiling 60)"], ["Ripeness", "Red at least 11% natural alcohol; white at least 12%"], ["White style", "More than 17 g/L residual sugar"]],
+  sections: [
+    ["The rules", `<p>Bordeaux Supérieur may come from anywhere in the Bordeaux appellation, but needs riper grapes (11% natural alcohol for red against 10.5%), a slightly lower yield and a higher planting density (4,500 vines per hectare). Vineyards replanted at wider spacing, down to 3,300 vines per hectare, are allowed only at a yield of 50 hectoliters per hectare. The white is always sweet, with more than 17 grams of sugar per liter, a reminder that the appellation dates from a time when sweet white was the region's main white style; it is now rare.</p>`],
+    ["Where it comes from", `<p>Most Bordeaux Supérieur comes from the Entre-Deux-Mers plateau and the Libournais fringes, often from estates that put their best lots under this name and the rest under Bordeaux. It is mostly an estate wine rather than a merchant blend.</p>`],
+    ["In the glass", `<p>Fuller and more structured than basic Bordeaux, with darker fruit, firmer tannin and often some oak. The best are serious wines that age five to ten years and cost a fraction of the classed growths.</p>`]
+  ],
+  producers: ["Château Reignac", "Château Pey La Tour", "Château de Parenchère", "Château Penin", "Château Recougne", "Château Turcaud"],
+  sources: [["Bordeaux Supérieur specification (eAmbrosia, EU register)", "https://webgate.ec.europa.eu/eambrosia-api/api/v1/attachments/11593"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cremant-de-bordeaux"] = {
+  lede: "Bordeaux's traditional-method sparkling wine, white or rosé, made across almost the whole Gironde and growing fast as growers look for wines that sell.",
+  facts: [["Category", "AOC, sparkling white and rosé"], ["Recognized", "Decree of 3 April 1990"], ["Area", "501 of the Gironde's 542 communes"], ["Grapes", "White: Sémillon, Sauvignon Blanc, Sauvignon Gris, Muscadelle as principal grapes (at least 70%), with accessory grapes. Rosé: red grapes only (Cabernet Franc, Cabernet Sauvignon, Carmenère, Cot, Merlot, Petit Verdot)"], ["Pressing", "Whole bunches; at most 100 L of must per 150 kg of grapes"], ["Base yield", "72 hl/ha (ceiling 78)"], ["Ripeness", "At least 9% natural alcohol; at least 11% after second fermentation"], ["Ageing", "At least 9 months on the lees in bottle; sold at least 12 months after tirage"]],
+  sections: [
+    ["The rules", `<p>Crémant de Bordeaux follows the national crémant rules: hand harvest, whole-bunch pressing with no more than 100 liters of juice from 150 kilograms of grapes, second fermentation in the bottle, at least nine months on the lees and release no sooner than twelve months after bottling. White crémant uses the white Bordeaux grapes, often with Merlot or Cabernet Franc pressed as white wine; rosé must come from red grapes only.</p>`],
+    ["Why it matters", `<p>For decades crémant was a small sideline of a few specialist houses, notably around Bourg and in the Entre-Deux-Mers, and of cooperatives. Since the early 2020s it has become one of the few growing categories in Bordeaux, as growers with unsaleable red convert vineyards or harvest early for sparkling base wine.</p>`],
+    ["In the glass", `<p>White crémant is usually fresh and citrusy with some toast from the lees; Sémillon gives body, Sauvignon aroma. Rosé, often from Merlot and Cabernet Franc, has red berry fruit.</p>`]
+  ],
+  producers: ["Maison Jaillance", "Lateyron", "Les Cordeliers", "Celene", "Ballarin"],
+  sources: [["Cahier des charges AOC Crémant de Bordeaux (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-5074a87b-d3c1-47ce-a848-0cce6ae263fa/telechargement"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-entre-deux-mers"] = {
+  lede: "The rolling plateau between the Garonne and the Dordogne: for most of its history a dry white appellation, and since September 2025 a red one too.",
+  facts: [["Category", "AOC, dry white and (since 2025) red"], ["Recognized", "Decree of 31 July 1937 (white only); limited to dry white in 1953; red added by arrêté of 19 September 2025"], ["Area", "133 communes between the two rivers"], ["White grapes", "Sauvignon Blanc, Sauvignon Gris, Sémillon, Muscadelle; accessory Colombard and Ugni Blanc"], ["Red grapes", "Cabernet Sauvignon, Cabernet Franc, Cot (Malbec), Merlot, Petit Verdot; accessory Carmenère"], ["Blend rules", "At least two principal grapes; no principal grape above 80%; accessory grapes at most 30%"], ["Planting density", "At least 4,500 vines/ha"], ["Base yields", "White 65 hl/ha (ceiling 75); red 55 hl/ha (ceiling 65)"], ["Ripeness", "White at least 170 g/L sugar and 10.5% natural alcohol; red at least 200 g/L and 12%"], ["Residual sugar", "White at most 4 g/L; red at most 3 g/L"], ["Release", "White kept on its lees until 15 November after harvest; red sold from 1 January of the second year after harvest"], ["Geographic mention", "Entre-deux-Mers Haut-Benauge, for whites from eight communes"]],
+  sections: [
+    ["The place", `<p>The name means "between two seas", the two tidal rivers that frame it. The plateau, cut by small valleys, has clay-limestone soils over limestone, with gravel near the rivers and boulbènes, fine silty soils that pack hard, in the south. It is the largest wine area of Bordeaux, and most of its grapes go into Bordeaux and Bordeaux Supérieur rather than into Entre-Deux-Mers itself. Inside it lie several smaller appellations: Graves de Vayres, Sainte-Foy, the sweet-wine villages along the Garonne (Cadillac, Loupiac, Sainte-Croix-du-Mont) and the Côtes.</p>`],
+    ["The rules", `<p>Entre-Deux-Mers was created in 1937 for white wine only and restricted to dry white in 1953, while the red grown here was sold as Bordeaux or Bordeaux Supérieur. In 2025, after years of lobbying by growers whose plateau is now largely planted with Merlot, the specification was rewritten to include red. The red has tighter rules than the white: riper grapes (12% natural alcohol), a lower yield (55 hectoliters per hectare against 65) and a release no earlier than 1 January of the second year after harvest. White blends must include at least two of the principal grapes, none above 80%, and must be kept on the lees until 15 November.</p>`],
+    ["In the glass", `<p>White Entre-Deux-Mers is usually Sauvignon-led: crisp, citrus and grassy, with Sémillon adding roundness and Muscadelle a floral note, best within two years. It is one of the better-value white wines of France and a classic match for oysters from Arcachon. The red, new as an appellation, is typically Merlot-led and medium-bodied.</p>`],
+    ["For the exam", `<p>Older textbooks describe Entre-Deux-Mers as dry white only. That stopped being true with the arrêté of 19 September 2025, which added red wine.</p>`]
+  ],
+  producers: ["Château Bonnet (André Lurton)", "Château Marjosse", "Château Sainte-Marie", "Château Turcaud", "Château Toutigeac", "Château Lestrille"],
+  sources: [BX_EDM, ["INAO, Entre-deux-Mers modification project, 2025", "https://extranet.inao.gouv.fr/fichier/2--CDC-Entre-deux-Mers-2025-PNO.pdf"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-entre-deux-mers-haut-benauge"] = {
+  lede: "Dry white Entre-Deux-Mers from eight communes on the highest part of the plateau, labeled with the old name of the Benauge country.",
+  facts: [["Category", "AOC Entre-deux-Mers with the geographic mention Haut-Benauge; dry white only"], ["Communes", "Escoussans, Gornac, Ladaux, Mourens, Porte-de-Benauge, Saint-Pierre-de-Bat, Soulignac, Targon"], ["Grapes", "Sauvignon Blanc, Sauvignon Gris, Sémillon, Muscadelle; accessory Colombard and Ugni Blanc"], ["Rules", "As for Entre-deux-Mers white: 65 hl/ha, at least 10.5% natural alcohol, at most 4 g/L residual sugar"]],
+  sections: [
+    ["The place", `<p>The Benauge is the high ground in the center of the Entre-Deux-Mers, around the castle of Benauge near Arbis, with clay-limestone soils. The specification lists eight communes; the historical section notes nine were authorized in 1955, before mergers changed the commune map.</p>`],
+    ["The rules", `<p>Entre-deux-Mers Haut-Benauge is not a separate appellation but a geographic mention attached to Entre-deux-Mers, for dry white wine only. The same communes may also make Bordeaux Haut-Benauge, a riper white that may be sweet. The red Entre-deux-Mers created in 2025 cannot carry the mention.</p>`],
+    ["In the glass", `<p>Crisp, citrus-led dry white, with a little more structure than plain Entre-Deux-Mers from the higher limestone sites. Very little is labeled this way.</p>`]
+  ],
+  producers: ["Château Gayon", "Château de la Bénauge"],
+  sources: [BX_EDM],
+  checked: "2026-11-13"
+};
+
+APXF["fr-bordeaux-haut-benauge"] = {
+  lede: "A small white mention of the Bordeaux appellation for riper Sémillon-based wines, dry or sweet, from the heart of the Entre-Deux-Mers.",
+  facts: [["Category", "AOC Bordeaux with the geographic mention Haut-Benauge; white only"], ["Communes", "The same eight communes as Entre-deux-Mers Haut-Benauge"], ["Grapes", "Sémillon, Sauvignon Blanc, Sauvignon Gris, Muscadelle only"], ["Base yield", "55 hl/ha (ceiling 60)"], ["Ripeness", "At least 195 g/L sugar and 11.5% natural alcohol; at least 11% acquired alcohol"]],
+  sections: [
+    ["The rules", `<p>The mention requires much riper grapes than ordinary white Bordeaux: 195 grams of sugar per liter of must and 11.5% potential alcohol, against 170 grams and 10%. The yield is lower too, 55 hectoliters per hectare against 67, and the accessory grapes allowed elsewhere in Bordeaux (Colombard, Ugni Blanc, Merlot Blanc) and the adaptation grapes are excluded.</p>`],
+    ["In the glass", `<p>Round, Sémillon-rich whites, either dry or with some sweetness, from a style that was common in the Entre-Deux-Mers before dry Sauvignon took over. Production is tiny.</p>`]
+  ],
+  producers: [],
+  sources: [BX_BDX],
+  checked: "2026-11-13"
+};
+
+APXF["fr-graves-de-vayres"] = {
+  lede: "A small gravel terrace on the left bank of the Dordogne opposite Libourne, named for its soils rather than for the Graves region it has nothing to do with.",
+  facts: [["Category", "AOC, red and white"], ["Recognized", "Decree of 31 July 1937"], ["Communes", "Vayres and Arveyres"], ["Red grapes", "Cabernet Franc, Cabernet Sauvignon, Carmenère, Cot (Malbec), Merlot, Petit Verdot"], ["White grapes", "Sauvignon Blanc, Sauvignon Gris, Sémillon, Muscadelle; accessory Merlot Blanc"], ["Planting density", "At least 4,500 vines/ha"], ["Base yields", "Red 53 hl/ha (ceiling 65); dry white 55 (ceiling 72); sweet white 50 (ceiling 55)"], ["Release", "Red sold from 1 September of the year after harvest"]],
+  sections: [
+    ["The place", `<p>Vayres and Arveyres sit on a gravel and sand terrace on the south bank of the Dordogne, across the river from Libourne and Fronsac, within the Entre-Deux-Mers. The gravel, unusual this far east, gives the appellation its name; it is unrelated to the Graves south of the city of Bordeaux.</p>`],
+    ["The rules", `<p>Red, dry white and white with some sweetness (more than 4 grams of sugar per liter) are allowed, with a lower red yield than Bordeaux (53 hectoliters per hectare) and a red release date of 1 September after the harvest. Most production is red, from Merlot.</p>`],
+    ["In the glass", `<p>Supple, Merlot-led reds with more perfume than most Entre-Deux-Mers reds, and fresh whites. The Château de Vayres, a fortified castle on the river, is the landmark.</p>`]
+  ],
+  producers: ["Château Barre Gentillot", "Château Pichon Bellevue", "Château Lesparre"],
+  sources: [["Cahier des charges AOC Graves de Vayres (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-7b782389-2d7e-4514-9fd4-753622741b99/telechargement"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-sainte-foy-bordeaux"] = {
+  lede: "The easternmost corner of the Gironde, around Sainte-Foy-la-Grande on the Dordogne, bordering Bergerac; its growers now mostly use the Sainte-Foy Côtes de Bordeaux name.",
+  facts: [["Category", "AOC, red, dry white and sweet white"], ["Recognized", "Decree of 1937"], ["Location", "Communes around Sainte-Foy-la-Grande, on the left bank of the Dordogne at the eastern edge of the Gironde"], ["Grapes", "Merlot, Cabernet Sauvignon, Cabernet Franc, Cot (Malbec); Sauvignon Blanc, Sémillon, Muscadelle"], ["Related appellation", "Sainte-Foy Côtes de Bordeaux (since 2016)"]],
+  sections: [
+    ["The place", `<p>Sainte-Foy sits on clay-limestone hills and the Dordogne's terraces at the eastern end of the Entre-Deux-Mers, where the Gironde meets the Dordogne department and the Bergerac vineyards. The climate is a little more continental than near the city of Bordeaux.</p>`],
+    ["The rules", `<p>The appellation allows red, dry white and sweet white. In 2016 Sainte-Foy joined the Côtes de Bordeaux as a fifth geographic name, and since then most growers have used Sainte-Foy Côtes de Bordeaux, which has the same zone and its own yields and sugar rules (see that entry). The older name remains in the atlas as a separate appellation.</p>`],
+    ["In the glass", `<p>Merlot-led reds of medium weight, crisp Sauvignon-based whites and a small amount of sweet wine.</p>`]
+  ],
+  producers: ["Château Hostens-Picant"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-bordeaux"] = {
+  lede: "An umbrella appellation created in 2009 for the hillside vineyards facing the Garonne and the Dordogne, with five named sub-areas that may add their name to the label.",
+  facts: [["Category", "AOC, red; whites and sweet whites only under some geographic names"], ["Recognized", "Decree of October 2009 (current specification 2016)"], ["Geographic names", "Blaye, Cadillac, Castillon, Francs, Sainte-Foy"], ["Red grapes", "Merlot, Cabernet Sauvignon, Cabernet Franc, Cot (Malbec); accessory Carmenère (under 10%) and Petit Verdot (under 15%), 15% at most together"], ["White grapes", "Sauvignon Blanc, Sauvignon Gris, Sémillon, Muscadelle; accessory Colombard and Ugni Blanc (15% at most)"], ["Planting density", "At least 4,500 vines/ha (5,000 for Castillon)"], ["Base yield", "Red 55 hl/ha (ceiling 65)"], ["Ripeness", "Red at least 189 g/L sugar for Merlot, 180 g/L for other grapes; at least 11% natural alcohol"], ["Release", "Red aged until 15 March and sold from 31 March of the year after harvest"]],
+  sections: [
+    ["The idea", `<p>The Côtes de Bordeaux brought together four older appellations of slope vineyards (Premières Côtes de Blaye, Premières Côtes de Bordeaux for red, Côtes de Castillon and Bordeaux Côtes de Francs) under one name that could be marketed together, with Sainte-Foy added in 2016. Wine can be labeled simply Côtes de Bordeaux, blended across the zones, or with one of the five geographic names, each with its own rules.</p>`],
+    ["The five names", `<p><b>Blaye</b> (41 communes on the right bank of the Gironde estuary): red and dry white, with stricter red rules than the base appellation. <b>Cadillac</b> (39 communes on the slopes above the Garonne): red only. <b>Castillon</b> (9 communes east of Saint-Émilion): red only, at a minimum of 5,000 vines per hectare. <b>Francs</b> (3 communes north-east of Castillon): red, dry white and sweet white. <b>Sainte-Foy</b> (19 communes at the eastern edge of the Gironde): red, dry white, moelleux and liquoreux. Each has its own entry.</p>`],
+    ["In the glass", `<p>Merlot-led reds with more structure than basic Bordeaux, from clay-limestone slopes; generally good value.</p>`]
+  ],
+  producers: ["Château Puygueraud", "Château Reynon", "Château Roc de Cambes", "Château d'Aiguilhe", "Château Clos Puy Arnaud"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-bordeaux-blaye"] = {
+  lede: "The Côtes de Bordeaux of the Blayais, on the limestone slopes of the right bank of the Gironde estuary, for reds held to stricter rules than the base appellation.",
+  facts: [["Category", "AOC Côtes de Bordeaux with the geographic name Blaye: red and dry white"], ["Former name", "Premières Côtes de Blaye"], ["Communes", "41 communes of the Blayais"], ["Red rules", "Base yield 52 hl/ha; at least 198 g/L sugar for Merlot, 189 g/L for other grapes; at least 11.5% natural alcohol"], ["White rules", "Dry only; base yield 62 hl/ha (ceiling 72); at least 10.5% natural alcohol"], ["Planting density", "At least 4,500 vines/ha"]],
+  sections: [
+    ["The place", `<p>The Blayais lies north of Bourg on the right bank of the Gironde estuary, opposite the Médoc. Near the estuary are steep limestone bluffs, with the citadel of Blaye built by Vauban; inland the land becomes rolling hills of clay, limestone and sand, cooler and more exposed to the north than the Libournais.</p>`],
+    ["The rules", `<p>Blaye Côtes de Bordeaux replaced Premières Côtes de Blaye in 2009. The red has riper-grape and lower-yield rules than plain Côtes de Bordeaux: 52 hectoliters per hectare, 198 grams of sugar per liter for Merlot and 11.5% natural alcohol. The white must be dry. Other Blayais appellations are Blaye (stricter red), Côtes de Blaye (dry white based on Colombard and Ugni Blanc) and the regional Bordeaux names.</p>`],
+    ["In the glass", `<p>Medium-bodied Merlot with ripe plum and soft tannin; the best estates make wines that age ten years. Whites are Sauvignon-led and crisp.</p>`]
+  ],
+  producers: ["Château Bel-Air La Royère", "Château Les Jonqueyres", "Château Gigault", "Château Haut-Bertinerie", "Château Roland La Garde"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-bordeaux-cadillac"] = {
+  lede: "The red wines of the slopes above the right bank of the Garonne, the former Premières Côtes de Bordeaux rouge.",
+  facts: [["Category", "AOC Côtes de Bordeaux with the geographic name Cadillac: red only"], ["Communes", "39 communes along the Garonne from near Bordeaux to Saint-Macaire"], ["Rules", "As for Côtes de Bordeaux red; movement between bonded warehouses only from 31 March after harvest"]],
+  sections: [
+    ["The place", `<p>A narrow band of steep slopes and plateau edges along the right bank of the Garonne, from the outskirts of Bordeaux to the sweet-wine villages of Loupiac and Sainte-Croix-du-Mont. The soils are clay-limestone and gravel, and the slopes face south-west over the river.</p>`],
+    ["The rules", `<p>Until 2009 red wine from this zone was sold as Premières Côtes de Bordeaux; that name now covers only sweet white wine, and the reds became Cadillac Côtes de Bordeaux. The geographic name is red only. The sweet white AOC Cadillac is a separate appellation from a smaller zone.</p>`],
+    ["In the glass", `<p>Ripe, Merlot-led reds with some Cabernet, firmer than basic Bordeaux and usually best within five to eight years.</p>`]
+  ],
+  producers: ["Château Reynon", "Château Carignan", "Château Suau", "Château Biac", "Château Lamothe de Haux"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-bordeaux-castillon"] = {
+  lede: "Saint-Émilion's eastern continuation, the same limestone plateau and slopes at a third of the price, and one of Bordeaux's most improved areas.",
+  facts: [["Category", "AOC Côtes de Bordeaux with the geographic name Castillon: red only"], ["Former name", "Côtes de Castillon (AOC from 1989)"], ["Area", "About 2,000 ha"], ["Communes", "9 communes around Castillon-la-Bataille"], ["Planting density", "At least 5,000 vines/ha"], ["Rules", "As for Côtes de Bordeaux red, at the higher density"]],
+  sections: [
+    ["The place", `<p>The Castillon côtes run east from Saint-Émilion along the right bank of the Dordogne. The limestone plateau and its clay-limestone slopes continue unbroken from Saint-Émilion and Puisseguin, with sand and gravel on the lower terraces by the river. The town of Castillon-la-Bataille gave its name to the battle of 1453, in which a French army defeated the English and ended the Hundred Years' War, and with it three centuries of English rule in Bordeaux.</p>`],
+    ["The rules", `<p>Côtes de Castillon became an AOC in 1989 (its wines had earlier been sold as Bordeaux Supérieur Côtes de Castillon) and joined the Côtes de Bordeaux in 2009. The geographic name is red only, and it alone among the five requires 5,000 vines per hectare rather than 4,500.</p>`],
+    ["In the glass", `<p>Merlot-led with Cabernet Franc, with the freshness and chalky tannin of the limestone. Investment from Saint-Émilion owners, such as Stephan von Neipperg at Château d'Aiguilhe, and from talented newcomers raised the best wines to a level close to good Saint-Émilion Grand Cru.</p>`]
+  ],
+  producers: ["Château d'Aiguilhe", "Domaine de l'A (Stéphane Derenoncourt)", "Clos Puy Arnaud", "Château Cap de Faugères", "Château Joanin Bécot", "Château Veyry"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-bordeaux-francs"] = {
+  lede: "The smallest of the Côtes, three communes on a high plateau north-east of Castillon, with reds, dry whites and a little sweet wine.",
+  facts: [["Category", "AOC Côtes de Bordeaux with the geographic name Francs: red, dry white and liquoreux white"], ["Former name", "Bordeaux Côtes de Francs (from 1967)"], ["Area", "About 450 ha"], ["Communes", "Francs, Saint-Cibard, Tayac"], ["White rules", "Dry: base yield 62 hl/ha, at least 10.5% natural alcohol. Liquoreux: base yield 37 hl/ha, at least 238 g/L sugar and 14.5% natural alcohol"]],
+  sections: [
+    ["The place", `<p>The Francs plateau, on the border with the Dordogne department, is among the highest ground in the Gironde, with clay-limestone soils over limestone. Its height and inland position make it cooler than most of the right bank.</p>`],
+    ["The rules", `<p>Bordeaux Côtes de Francs was recognized in 1967 and became Francs Côtes de Bordeaux in 2009. It is one of only two Côtes names (with Sainte-Foy) allowed to make sweet wine, under rules close to those of Loupiac and Sainte-Croix-du-Mont.</p>`],
+    ["In the glass", `<p>Fresh, structured Merlot and Cabernet Franc. The Thienpont family of Vieux Château Certan and Le Pin owns Château Puygueraud here, which built the area's reputation.</p>`]
+  ],
+  producers: ["Château Puygueraud", "Château Marsau", "Château Francs Magnus", "Château Charmes-Godard", "Château La Prade"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-sainte-foy-cotes-de-bordeaux"] = {
+  lede: "The fifth Côtes, added in 2016, at the eastern end of the Gironde, allowed every style from red to liquoreux.",
+  facts: [["Category", "AOC Côtes de Bordeaux with the geographic name Sainte-Foy: red, dry white, moelleux, liquoreux"], ["Joined", "2016"], ["Communes", "19 communes around Sainte-Foy-la-Grande"], ["White rules", "Dry (at most 4 g/L sugar): 62 hl/ha. Moelleux (17 to 45 g/L): 45 hl/ha, at least 221 g/L sugar and 13.5% natural alcohol. Liquoreux (at least 51 g/L): 37 hl/ha, at least 255 g/L sugar and 15% natural alcohol"]],
+  sections: [
+    ["The place", `<p>Clay-limestone hills and Dordogne terraces at the border with Bergerac. The zone is the same as that of the older Sainte-Foy-Bordeaux appellation.</p>`],
+    ["The rules", `<p>Sainte-Foy is the only Côtes name with three white styles. The moelleux, with 17 to 45 grams of sugar per liter, may be sold from 1 January after the harvest and must say "moelleux" on the label; the liquoreux needs grapes with 255 grams of sugar per liter, as in Cadillac.</p>`],
+    ["In the glass", `<p>Merlot-led reds of medium weight, crisp whites and small amounts of sweet wine.</p>`]
+  ],
+  producers: ["Château Hostens-Picant", "Château Martet"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-bourg"] = {
+  lede: "Steep clay-limestone slopes on the right bank where the Dordogne meets the Garonne, opposite Margaux: dense, Merlot-led reds once worth more than those of the Médoc.",
+  facts: [["Category", "AOC, red and white"], ["Recognized", "Decree of 11 September 1936 (red) and 14 May 1941 (white)"], ["Alternative names", "Bourg, Bourgeais"], ["Area", "About 3,800 ha"], ["Communes", "15: Bayon-sur-Gironde, Bourg, Comps, Gauriac, Lansac, Mombrier, Prignac-et-Marcamps, part of Pugnac, Saint-Ciers-de-Canesse, Saint-Seurin-de-Bourg, Saint-Trojan, Samonac, Tauriac, Teuillac, Villeneuve"], ["Red grapes", "Merlot, Cabernet Sauvignon, Cabernet Franc, Cot (Malbec); accessory Carmenère and Petit Verdot"], ["White grapes", "Sauvignon Blanc, Sauvignon Gris, Sémillon, Muscadelle, Colombard"], ["Planting density", "At least 4,500 vines/ha"], ["Base yields", "Red 54 hl/ha (ceiling 65); white 60 hl/ha (ceiling 72)"], ["Ripeness", "At least 189 g/L sugar for Merlot; at least 10.5% natural alcohol"], ["Release", "Red sold from 1 April of the year after harvest"]],
+  sections: [
+    ["The place", `<p>Bourg sits where the Dordogne joins the Garonne to form the Gironde estuary, across the water from Margaux. The landscape is a small, hilly "Switzerland of the Gironde" of clay-limestone slopes and plateau, with gravel and sand near the water and limestone cliffs riddled with old quarries. The estuary moderates temperatures, and frost is rarer than inland.</p>`],
+    ["The rules", `<p>Almost all production is red. The yield (54 hectoliters per hectare) and the accessory-grape caps are a little stricter than for Bordeaux, and a 2026 modification project for the specification was published in June 2026. The appellation may be labeled Côtes de Bourg, Bourg or Bourgeais.</p>`],
+    ["History", `<p>Bourg was a port and vineyard long before the Médoc was drained in the seventeenth century, and its wines were then priced above Médoc. Its river access made it easy to ship. The Médoc's gravel and its classified châteaux overtook it, and Bourg became a source of value red.</p>`],
+    ["In the glass", `<p>Deep-colored, plummy Merlot with firm tannin and some Malbec spice, more structured than most Bordeaux at the price. The best, such as Château Roc de Cambes (owned by François Mitjavile of Tertre Rôteboeuf), age for a decade or more.</p>`]
+  ],
+  producers: ["Château Roc de Cambes", "Château Falfas", "Château Fougas", "Château de la Grave", "Château Brulesécaille", "Château Tayac"],
+  sources: [["INAO, Côtes de Bourg specification, 2026 modification project", "https://extranet.inao.gouv.fr/fichier/2-CDC--Bourg.pdf"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-blaye"] = {
+  lede: "The red-only appellation of the Blayais, with stricter rules than Blaye Côtes de Bordeaux, used by a minority of estates for their top wines.",
+  facts: [["Category", "AOC, red only"], ["Recognized", "Decree of 11 September 1936"], ["Area", "The communes of the Blayais, on the right bank of the Gironde estuary"], ["Grapes", "Merlot, Cabernet Sauvignon, Cabernet Franc, Cot (Malbec), Petit Verdot"]],
+  sections: [
+    ["The place", `<p>The Blayais is the large area north of Bourg on the right bank of the estuary: limestone bluffs at the water around the citadel of Blaye, then rolling clay, limestone and sand inland.</p>`],
+    ["The rules", `<p>The Blayais has three appellations of its own. Blaye is red only and has the region's strictest rules. Blaye Côtes de Bordeaux covers red and dry white. Côtes de Blaye is dry white made largely from Colombard and Ugni Blanc. Blaye's rules are tighter than Blaye Côtes de Bordeaux's, and estates use it for a selection of their best red.</p>`],
+    ["In the glass", `<p>Fuller and more concentrated than most Blayais red, Merlot-led and often oaked.</p>`]
+  ],
+  producers: ["Château Bel-Air La Royère", "Château Gigault"],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-blaye"] = {
+  lede: "A dry white appellation built around Colombard and Ugni Blanc, the grapes once grown in the Blayais for distilling into Cognac.",
+  facts: [["Category", "AOC, dry white only"], ["Recognized", "Decree of 11 September 1936"], ["Communes", "41 communes of the Blayais"], ["Grapes", "Principal: Colombard, Ugni Blanc (60 to 90% of plantings). Accessory: Muscadelle, Sauvignon Blanc, Sauvignon Gris, Sémillon"], ["Blend", "Principal grapes at least 50%"], ["Planting density", "At least 4,500 vines/ha"], ["Base yield", "60 hl/ha (ceiling 72)"], ["Ripeness", "At least 10% natural alcohol"], ["Residual sugar", "At most 4 g/L"]],
+  sections: [
+    ["The place", `<p>The northern Blayais borders the Charente-Maritime, the edge of the Cognac region, and the white grapes of the distillers, Colombard and Ugni Blanc, were long planted here.</p>`],
+    ["The rules", `<p>Côtes de Blaye is the only Bordeaux appellation where Colombard and Ugni Blanc are the main grapes rather than accessories: together they must make up 60 to 90% of an estate's plantings and at least half the blend. Sauvignon Blanc and Sémillon are accessory grapes. The wine must be dry.</p>`],
+    ["In the glass", `<p>Light, crisp and citrusy, with the high acidity of Colombard and Ugni Blanc; an inexpensive white to drink young.</p>`]
+  ],
+  producers: ["Cave des Hauts de Gironde"],
+  sources: [["Cahier des charges AOC Côtes de Blaye, 2017 (INAO)", "https://extranet.inao.gouv.fr/fichier/CDC-Cotes-de-Blaye-BO-2017-12-07.pdf"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-premieres-cotes-de-bordeaux"] = {
+  lede: "Once the name for all the wines of the Garonne's right-bank slopes; since 2009 a sweet white appellation only.",
+  facts: [["Category", "AOC, sweet white only"], ["Recognized", "Decree of 31 July 1937"], ["Communes", "39 communes along the Garonne"], ["Grapes", "Sémillon, Sauvignon Blanc, Sauvignon Gris, Muscadelle"], ["Planting density", "At least 4,500 vines/ha"], ["Base yield", "45 hl/ha (ceiling 55)"], ["Ripeness", "At least 221 g/L sugar and 13.5% natural alcohol"], ["Residual sugar", "At least 34 g/L; at least 11.5% acquired alcohol"], ["Release", "Aged until 15 January and sold from 31 January after harvest"]],
+  sections: [
+    ["The place", `<p>The same 39 communes as Cadillac Côtes de Bordeaux, along the right bank of the Garonne, with clay-limestone and gravel slopes facing the river. Autumn mists from the Garonne help the development of noble rot, as across the river in Sauternes, though less reliably.</p>`],
+    ["The rules", `<p>Until 2009 the appellation covered red and white; the red became Cadillac Côtes de Bordeaux and Premières Côtes de Bordeaux was limited to sweet white. Its rules are lighter than those of the neighboring liquoreux appellations: grapes need 221 grams of sugar per liter (against 238 for Loupiac and 255 for Cadillac), and the wine at least 34 grams of residual sugar, so most are moelleux rather than fully liquoreux.</p>`],
+    ["In the glass", `<p>Medium-sweet whites with honey, apricot and citrus, lighter than Sauternes and much cheaper.</p>`]
+  ],
+  producers: ["Château Suau", "Château Lamothe de Haux"],
+  sources: [["Cahier des charges AOC Premières Côtes de Bordeaux (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-ffb69101-402b-4c8d-ad73-dad40dd5e4f2/telechargement"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cadillac"] = {
+  lede: "The strictest of the sweet appellations on the right bank of the Garonne, facing Barsac and Sauternes across the river, with rules close to Sauternes' own.",
+  facts: [["Category", "AOC, sweet white only"], ["Recognized", "Decree of 10 August 1973"], ["Communes", "22 communes around the town of Cadillac"], ["Grapes", "Sémillon (dominant), Sauvignon Blanc, Sauvignon Gris, Muscadelle"], ["Planting density", "At least 4,500 vines/ha"], ["Base yield", "37 hl/ha (ceiling 40)"], ["Ripeness", "At least 255 g/L sugar and 15% natural alcohol"], ["Residual sugar", "At least 51 g/L"], ["Harvest", "By hand in successive passes"], ["Release", "Aged until 15 March and sold from 31 March after harvest"]],
+  sections: [
+    ["The place", `<p>Cadillac, a fortified town with the château of the Dukes of Épernon, lies on the right bank of the Garonne opposite Cérons and Barsac. The zone covers 22 communes on slopes and terraces above the river, where autumn fog encourages noble rot.</p>`],
+    ["The rules", `<p>Cadillac was created in 1973 and is the most demanding of the right-bank sweet appellations: grapes picked by hand in successive passes with at least 255 grams of sugar per liter of must, a yield of 37 hectoliters per hectare and at least 51 grams of residual sugar in the wine. The specification was last revised at the end of 2025. Not to be confused with Cadillac Côtes de Bordeaux, which is red.</p>`],
+    ["In the glass", `<p>Fully sweet, botrytized Sémillon with honey, apricot and orange peel, lighter than Sauternes but serious in good vintages.</p>`]
+  ],
+  producers: ["Château Fayau", "Château Manos", "Château du Juge"],
+  sources: [["Cahier des charges AOC Cadillac, January 2026 (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-a372b4f1-a5f8-4eb9-a69b-942e62447b0e/telechargement"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-loupiac"] = {
+  lede: "A single-commune sweet white appellation on the right bank of the Garonne, facing Barsac, with botrytized Sémillon at a fraction of Sauternes' price.",
+  facts: [["Category", "AOC, sweet white only"], ["Recognized", "Decree of 11 September 1936"], ["Area", "About 350 ha"], ["Commune", "Loupiac"], ["Grapes", "Sémillon, Sauvignon Blanc, Sauvignon Gris, Muscadelle"], ["Planting density", "At least 5,000 vines/ha"], ["Base yield", "40 hl/ha (ceiling 44)"], ["Ripeness", "At least 238 g/L sugar for Sémillon, 229 g/L for other grapes; at least 14.5% natural alcohol"], ["Residual sugar", "At least 45 g/L"], ["Harvest", "By hand in successive passes"], ["Release", "Aged until 15 January and sold from 31 January after harvest"]],
+  sections: [
+    ["The place", `<p>Loupiac lies on clay-limestone slopes and terraces above the Garonne, directly across from Barsac, between Cadillac and Sainte-Croix-du-Mont. Mists from the river encourage noble rot in good autumns.</p>`],
+    ["The rules", `<p>The rules match Sainte-Croix-du-Mont's: hand harvest in successive passes, 238 grams of sugar per liter for Sémillon, a yield of 40 hectoliters per hectare and at least 45 grams of residual sugar. The specification was revised at the end of 2025.</p>`],
+    ["In the glass", `<p>Honeyed, apricot-scented sweet wine with good acidity, lighter than Sauternes; good vintages age twenty years.</p>`]
+  ],
+  producers: ["Château Loupiac-Gaudiet", "Clos Jean", "Château du Cros", "Château Dauphiné-Rondillon", "Château de Ricaud"],
+  sources: [["Cahier des charges AOC Loupiac, January 2026 (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-e0d8fe13-351c-41ae-a0bc-4d600a96c188/telechargement"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-sainte-croix-du-mont"] = {
+  lede: "The best-known sweet appellation of the Garonne's right bank, on a limestone bluff full of fossil oysters, looking straight across at Sauternes.",
+  facts: [["Category", "AOC, sweet white only"], ["Recognized", "Decree of 11 September 1936"], ["Area", "About 400 ha"], ["Commune", "Sainte-Croix-du-Mont"], ["Grapes", "Sémillon, Sauvignon Blanc, Sauvignon Gris, Muscadelle"], ["Planting density", "At least 5,000 vines/ha"], ["Base yield", "40 hl/ha (ceiling 44)"], ["Ripeness", "At least 238 g/L sugar for Sémillon, 229 g/L for other grapes; at least 14.5% natural alcohol"], ["Residual sugar", "At least 45 g/L"], ["Harvest", "By hand in successive passes (usually three or four)"], ["Release", "Aged until 15 January and sold from 31 January after harvest"]],
+  sections: [
+    ["The place", `<p>The village sits on a limestone escarpment above the Garonne, opposite Sauternes and Barsac. The bluff contains a thick bank of fossil oysters, visible in caves under the village, and the clay-limestone slopes below face south-west over the river, where autumn mists favor noble rot.</p>`],
+    ["The rules", `<p>The same as Loupiac: grapes picked by hand in successive passes, 238 grams of sugar per liter for Sémillon, 40 hectoliters per hectare and at least 45 grams of residual sugar. The specification was revised at the end of 2025.</p>`],
+    ["In the glass", `<p>Rich but fresh sweet wine with honey, quince, apricot and a citrus finish, the closest of the right-bank sweet wines to Sauternes and much cheaper. Good vintages age for decades.</p>`]
+  ],
+  producers: ["Château Loubens", "Château La Rame", "Château du Mont", "Château Crabitan-Bellevue", "Château Lousteau-Vieil"],
+  sources: [["Cahier des charges AOC Sainte-Croix-du-Mont, January 2026 (BO Agri)", "https://info.agriculture.gouv.fr/boagri/document_administratif-2dd5baf4-4b85-484f-889e-718cb30ea152/telechargement"]],
+  checked: "2026-11-13"
+};
+
+APXF["fr-cotes-de-bordeaux-saint-macaire"] = {
+  lede: "A small white appellation around the medieval town of Saint-Macaire, upriver from the Cadillac sweet-wine villages, making dry, medium-sweet and sweet whites.",
+  facts: [["Category", "AOC, white (dry, moelleux and liquoreux)"], ["Recognized", "1937"], ["Location", "Communes around Saint-Macaire on the right bank of the Garonne, south-east of Sainte-Croix-du-Mont"], ["Grapes", "Sémillon, Sauvignon Blanc, Muscadelle"]],
+  sections: [
+    ["The place", `<p>The zone lies at the southern end of the Garonne's right-bank slopes, around Saint-Macaire, a walled medieval town facing Langon across the river. The soils are clay-limestone and gravel.</p>`],
+    ["The rules", `<p>Despite its name, this is a separate appellation, not one of the five geographic names of the Côtes de Bordeaux, and it covers white wine only. Production is very small, and most growers here sell their red as Bordeaux or Bordeaux Supérieur.</p>`],
+    ["In the glass", `<p>Sémillon-based whites from dry to sweet, rarely seen outside the region.</p>`]
+  ],
+  producers: [],
+  sources: [BX_CDB],
+  checked: "2026-11-13"
+};
