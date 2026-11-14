@@ -1,10 +1,10 @@
 // ===== Router, actions, boot =====
-const NAV = [["progress", "Progress"], ["curriculum", "Curriculum"], ["lab", "Tasting Lab"], ["night", "Tasting Night"], ["floor", "Service Floor"], ["drills", "Drills"], ["cards", "Flashcards"], ["exams", "Exam Hall"], ["library", "Library"]];
+const NAV = [["progress", "Progress"], ["curriculum", "Curriculum"], ["lab", "Tasting Lab"], ["night", "Tasting Night"], ["floor", "Service Floor"], ["drills", "Drills"], ["cards", "Flashcards"], ["exams", "Exam Hall"], ["apps", "Appellations"], ["library", "Library"]];
 let EX = null, postHooks = [];
 function postRender() { const hs = postHooks; postHooks = []; hs.forEach(f => f()); }
 function route() {
   const h = decodeURIComponent((location.hash || "#progress").slice(1));
-  const base = h.startsWith("host/") ? "host" : h.split("-")[0];
+  const base = h.startsWith("host/") ? "host" : h.startsWith("apps") ? "apps" : h.split("-")[0];
   const cur = base === "lesson" ? "curriculum" : base === "exam" ? "exams" : NAV.some(n => n[0] === base) ? base : "progress";
   document.querySelectorAll(".nav a").forEach(a => { const on = a.dataset.v === cur; a.classList.toggle("on", on); if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
   const nav = $(".nav"), act = $(".nav a.on"); if (nav && act && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = act.offsetLeft - nav.offsetLeft - (nav.clientWidth - act.offsetWidth) / 2;
@@ -12,7 +12,7 @@ function route() {
   if (EX && EX.done && base !== "exam") { stopTimer(); EX = null; }
   window.onscroll = null;
   const m = $("#main");
-  const views = { lesson: () => viewLesson(h.slice(7)), curriculum: viewCurriculum, lab: viewLab, night: viewNight, floor: viewFloor, drills: viewDrills, cards: viewCards, exams: viewExams, library: viewLibrary, host: () => viewHost((location.hash || "").slice(6)) };
+  const views = { lesson: () => viewLesson(h.slice(7)), curriculum: viewCurriculum, lab: viewLab, night: viewNight, floor: viewFloor, drills: viewDrills, cards: viewCards, exams: viewExams, library: viewLibrary, apps: viewApps, host: () => viewHost((location.hash || "").slice(6)) };
   const running = EX && !EX.done && base !== "exam" && base !== "host";
   m.innerHTML = (running ? `<div class="exbar"><span><b>Paper in progress:</b> ${esc(EX.name)}</span>${EX.endAt ? `<span class="timer" id="timer">--:--</span>` : ""}<span class="row" style="gap:6px"><a class="btn sm pri" href="#exam">Return to the paper</a><button class="btn sm" data-act="exabandon">Abandon</button></span></div>` : "")
     + (base === "exam" && EX ? viewExam() : (views[base] || viewProgress)()) + (base === "host" ? "" : colophon());
@@ -135,6 +135,7 @@ document.addEventListener("input", e => {
   if (t.dataset.essay) { EX.essay.text = t.value; const w = $("#wc"); if (w) w.textContent = t.value.trim().split(/\s+/).filter(Boolean).length + " words"; }
   if (t.dataset.gloss) $("#gloss").innerHTML = glossTable(t.value);
   if (t.dataset.lsearch) $("#lsr").innerHTML = lessonSearch(t.value);
+  if (t.dataset.appq) $("#appq").innerHTML = appSearch(t.dataset.appq, t.value);
   if (t.dataset.nin) { NT[t.dataset.nin] = t.value; const box = $("#nmsg"), ids = nightWines(); if (box && ids.length >= 2 && NT.built) box.textContent = buildMessage(ids, hostURL(NT.built.order)); }
 });
 document.addEventListener("change", e => {
