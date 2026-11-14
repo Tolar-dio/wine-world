@@ -442,30 +442,73 @@ quiz:[
 ]});
 
 L.push({id:"biz1", unit:"S1", title:"Deep Dive: The Global Wine Business", mins:18,
-summary:"Who makes and drinks wine, how it moves from vineyard to glass, how a price is built, and the fine-wine market.",
+summary:"Why wine supply and demand rarely balance, the kinds of producer, why the route to market matters, what a bottle price contains, and how wine is sold and regulated.",
 body:`
+<p>Wine is an agricultural product, a manufactured good, a luxury and a commodity at once, and its economics differ from those of almost any other business. Production is fixed years in advance by what is planted and varies each year with the weather. Demand shifts slowly with habit and fashion. Tens of thousands of producers compete, most of them tiny, and the product reaches the drinker through a chain of intermediaries that in many countries is prescribed by law. This chapter describes how the trade is organized, how a price is built, and how wine is sold, as a foundation for the business questions in every examination syllabus.</p>
+
 <h3>The world in numbers (recent OIV estimates, rounded)</h3>
 <ul><li>World production has recently been around 225-260 million hectoliters a year; 2024 was among the smallest harvests in decades (about 225 mhl) after frost, drought and disease.</li>
 <li>The largest producers are <b>Italy, France and Spain</b>, followed by the United States, Australia, Chile and Argentina.</li>
 <li>The <b>United States</b> is the largest consuming country by volume; France, Italy and Germany follow. Per-capita consumption is highest in Portugal, France and Italy.</li>
 <li>Global consumption has been drifting down, especially among younger adults, while spending per bottle rises ("premiumization").</li></ul>
+
+
+<h3>The shape of supply and demand</h3>
+<p>The figures above describe a market that has been out of balance for most of its modern history. A vineyard takes three or four years to bear and then produces for thirty or more, so growers cannot respond quickly when demand falls, and a decision to plant made in a boom delivers its grapes into whatever market exists years later. The harvest also varies by twenty percent or more from year to year with frost, drought and disease. The result is a recurrent cycle of surplus and shortage, with surplus the commoner condition. Europe's response for decades was to pay for distillation of excess wine and for the grubbing up of vineyards, and both have returned in recent years in France and elsewhere.</p>
+<p>Consumption has moved in two directions. In the traditional producing countries of southern Europe, where wine was a daily staple, drinking per head has fallen by more than half since the 1970s, as habits, work and attitudes to health changed. Over the same period new markets grew in northern Europe, North America and then Asia, where wine is an occasional and more expensive purchase. The net effect was a long shift from quantity to value. Since about 2018 the total has been falling, and the industry is adjusting to the possibility that the decline is lasting.</p>
+<p>Trade matters more than it once did. Nearly half of all wine now crosses a border before it is drunk, against a small fraction in 1970. A handful of countries, Italy, Spain and France, supply more than half of exports by volume, with Spain the source of much of the cheapest bulk wine and France earning by far the most per bottle.</p>
+
 <h3>Who makes the wine</h3>
 <ul><li><b>Growers</b> who sell grapes; <b>estates</b> who grow and make; <b>négociants</b> who buy grapes or wine; <b>cooperatives</b> (a large share of European production, from Alto Adige's quality leaders to bulk Languedoc and La Mancha); <b>large companies</b> (e.g., E&J Gallo, Treasury Wine Estates, Concha y Toro, Constellation, Pernod Ricard and LVMH in luxury).</li>
 <li><b>Bulk wine</b> crosses borders in flexitanks and is bottled near the market; a growing share of global trade by volume.</li></ul>
+
+
+<h3>The kinds of producer and why each exists</h3>
+<p>The structure of production follows from the fragmentation of vineyard ownership. In most of Europe inheritance has divided the land into holdings too small to justify a winery, and three institutions grew up to turn their grapes into wine. The <strong>cooperative</strong> is owned by its member growers, who deliver grapes and share the proceeds. Cooperatives make a large share of the wine of France, Italy, Spain, Germany and Portugal. Their strength is scale and security for the grower, and their traditional weakness was payment by weight, which rewarded quantity; the best now pay by quality and plot. The <strong>merchant</strong>, or négociant, buys grapes, must or wine, blends, ages and sells under its own name, supplying capital, technical skill and access to markets. The <strong>estate</strong> grows its own grapes and makes and bottles its own wine, and has the closest control over quality and the most direct claim to a sense of place.</p>
+<p>In the New World land was plentiful and large companies developed that own vineyards, buy grapes under contract and sell brands in volume. The industry is nonetheless far less concentrated than beer or spirits. The largest wine companies in the world each hold only a few percent of global sales, and the long tail of small producers is what gives wine its diversity and makes it hard to sell.</p>
+
 <h3>Routes to market</h3>
 <ul><li><b>United States</b>: three-tier system (producer/importer → distributor → retailer/restaurant), state-by-state rules, control states that run their own retail, and DTC shipping where allowed.</li>
 <li><b>United Kingdom</b>: supermarkets dominate volume; specialists and merchants (fine wine) and on-trade. High excise duty makes cheap wine mostly tax.</li>
 <li><b>China</b>: rapid growth then contraction; imports from Australia collapsed under 2020-2024 tariffs, which were later lifted.</li>
 <li><b>Bordeaux's Place</b>: the négociant system and en primeur (see the Bordeaux deep dive).</li>
 <li><b>DTC</b>: cellar door, wine clubs and e-commerce, now crucial for small producers in the US, Australia and South Africa.</li></ul>
+
+
+<h3>Why the route matters</h3>
+<p>Each stage between producer and drinker takes a margin and exercises a choice, and the route determines what a wine costs and who can buy it. The traditional chain runs from producer to importer to distributor to retailer or restaurant. The importer bears the cost and risk of shipping, duty, compliance and credit, and builds the producer's name in the market, and a good importer's portfolio is itself a guide to quality. Supermarkets, which sell most of the wine in countries such as Britain, Germany and Australia, buy in very large volumes directly and negotiate hard, and their power has pushed down prices for producers of everyday wine and encouraged wines made to a specification under the retailer's own label.</p>
+<p>The alternative is to sell directly: at the cellar door, through a mailing list or club, or online. The producer keeps the whole margin and learns who the customers are, which is why direct sales are the main source of profit for small wineries in California, Australia and elsewhere, and why the right to ship wine to consumers across state lines has been fought over in American courts. Bulk shipping is a further route. A growing share of inexpensive wine travels in tanks of twenty-four thousand liters and is bottled in the country of sale, which cuts cost and emissions and moves the bottling margin away from the producer.</p>
+
 <h3>Building a price</h3>
 <p>Follow one bottle: <b>ex-cellar price</b> (what the producer gets) → plus shipping and insurance to port (<b>FOB</b>, then CIF) → plus import duties, excise and handling (<b>landed cost</b>) → importer margin → distributor margin → retailer margin (often 30-50%) or restaurant markup (often 2.5-4x wholesale) → taxes. A wine leaving the winery at $10 can reach a shelf at $25-35 and a restaurant list at $60-80.</p>
+
+
+<h3>What the bottle price contains</h3>
+<p>A price is a stack of costs and margins, and its composition changes with the price level. The cost of growing the grapes depends on the value of the land, the yield and the labor, and ranges from a few cents a bottle on an irrigated plain to many dollars on a steep hand-worked slope. To this are added winemaking, barrels where used, the bottle, closure, label and carton, then shipping, insurance, excise duty and tax, and then the margins of importer, distributor and retailer, each calculated on the cost to that point, so that every early cost is multiplied.</p>
+<p>The consequence is that fixed costs dominate cheap wine. Duty, packaging and transport are much the same for a poor bottle as a fine one, so at the lowest retail prices very little of what the buyer pays is for the liquid, and each extra unit spent buys a much greater proportion of wine. This is the arithmetic behind the advice to spend a little more, and it also shows why producers of cheap wine are so exposed to any rise in duty or freight. At the top of the market the relation reverses: production cost becomes a small part of the price, and the rest is the value of the name and the scarcity.</p>
+
 <h3>Marketing and brands</h3>
 <p>The four Ps (product, price, place, promotion). Brands simplify choice; regions and appellations act as "collective brands" (Champagne, Prosecco, Marlborough). Scores and critics (Parker's 100-point scale, Wine Spectator, Jancis Robinson's 20-point scale, Vinous, James Suckling) still move prices, though social media and sommeliers matter more each year.</p>
+
+
+<h3>How wine is sold</h3>
+<p>Wine presents the buyer with too much choice and too little information. A shop may hold a thousand labels, the quality inside cannot be judged before purchase, and most buyers know little of regions or producers. Everything in wine marketing is an attempt to reduce that uncertainty. A <strong>brand</strong> does it by promising consistency: the buyer who liked it once can expect the same again, and large brands, blended across regions and vintages, are built on that promise, supported by advertising and distribution. A <strong>variety</strong> on the label, the New World's contribution, tells the buyer the style. An <strong>appellation</strong> is a collective brand, guaranteeing origin and, in theory, type. <strong>Scores and medals</strong> substitute an expert's judgment for the buyer's, and in the 1980s and 1990s the hundred-point scale of an American critic became the most powerful selling tool in fine wine. <strong>Price</strong> itself is read as a signal of quality.</p>
+<p>Small producers cannot afford advertising and rely on the recommendation of others: importers, critics, sommeliers, specialist merchants and, increasingly, online communities and apps where drinkers rate wines themselves. The sommelier is therefore part of the marketing of wine, and for many small estates the restaurant list is the most important place they are seen.</p>
+
 <h3>The fine-wine market</h3>
 <p>A small group of wines trade like assets: top Bordeaux, Burgundy, Champagne, Barolo, Napa and others. The <b>Liv-ex</b> exchange publishes benchmark indices (e.g., Liv-ex Fine Wine 100). Auctions (Sotheby's, Christie's, Acker, Zachys, Hart Davis Hart) set records; Burgundy (DRC, Leroy, Rousseau) has led price growth over the last decade. Risks: liquidity, storage costs and provenance. Fraud is real: <b>Rudy Kurniawan</b> was convicted in 2013 of counterfeiting rare wines, leading to stricter provenance checks.</p>
+
+
+<h3>Wine as an asset</h3>
+<p>A small number of wines, chiefly the leading growths of Bordeaux and Burgundy, the top Champagnes, and a few from Italy, the Rhône and California, are traded after their release, and their prices behave more like those of art than of food. Supply is fixed at the vintage and falls as bottles are drunk, quality may improve with age, and demand comes from wealthy buyers worldwide. Bordeaux has a distinctive system of selling its wine as futures, <em>en primeur</em>, in the spring after the harvest while it is still in barrel, through brokers and merchants, which gives the châteaux early cash and once gave buyers a lower price than they would later pay; in recent campaigns release prices have often been above the market for comparable older vintages, and the system is under strain.</p>
+<p>The secondary market operates through auction houses, merchants and electronic exchanges, and its concerns are provenance, storage and authenticity. Wine kept in a bonded warehouse, where duty and tax have not yet been paid, can be sold without them and has a documented history, which is the standard for investment-grade stock. The rise of Asian buyers in the 2000s drove prices to a peak in 2011, and the market has since broadened from Bordeaux toward Burgundy, Champagne and Italy.</p>
+
 <h3>Regulation and responsibility</h3>
-<p>Alcohol is regulated everywhere: licensing, legal drinking ages, labeling, advertising limits, minimum unit pricing (Scotland), and growing health-warning requirements. Responsible service is both legal duty and professional ethics.</p>`,
+<p>Alcohol is regulated everywhere: licensing, legal drinking ages, labeling, advertising limits, minimum unit pricing (Scotland), and growing health-warning requirements. Responsible service is both legal duty and professional ethics.</p>
+
+<h3>Why wine is regulated as it is</h3>
+<p>Alcohol is taxed and controlled in every country for reasons of revenue and public health, and the forms differ. Excise duty is charged by volume or by alcohol content, and its level varies enormously, from almost nothing in some producing countries to several dollars a bottle in northern Europe. Some jurisdictions keep retail in the hands of a state monopoly, as in the Nordic countries and parts of Canada and the United States. Advertising is restricted in many places, most strictly in France under a law of 1991. Labels must carry the alcohol content, volume, origin, allergens and, increasingly, health warnings and lists of ingredients and nutritional values, which the European Union has required since late 2023, usually by means of a code linked to an online page. Rules on minimum pricing, hours of sale and the legal drinking age complete the framework. For anyone selling wine these are operating conditions, and a change in duty or labeling law can alter a market overnight.</p>
+`,
 floor:`<p>Knowing how a price is built lets you explain value honestly and buy smarter. Restaurants that understand landed cost and markups can price strategically to sell more good wine.</p>`,
 analyst:`<p>Diploma D2 (10%) and MW Paper 4 test exactly this: routes to market, pricing chains, brand strategy, and the economics of fine wine. Use real examples and numbers.</p>`,
 terms:[["OIV","International Organisation of Vine and Wine."],["Ex-cellar price","The price a producer receives at the winery."],["FOB / CIF","Free on board / cost, insurance and freight: stages in an export price."],["Landed cost","Price after shipping, duties and taxes on arrival."],["Liv-ex","Fine-wine trading exchange and index publisher."],["Flexitank","Large bladder in a shipping container for bulk wine."]],
@@ -479,24 +522,18 @@ quiz:[
 ]});
 
 L.push({id:"b6", unit:"S2", title:"Deep Dive: Vermouth, Amari, Liqueurs and Absinthe", mins:16,
-summary:"Aromatized wines, the bitter traditions of Italy and France, the great monastic and herbal liqueurs, and anise spirits.",
+summary:"Vermouth explained, the uses of bitterness, the monastic tradition, how liqueurs are made and classed, anise and absinthe.",
 body:`
+<p>The drinks in this chapter were nearly all medicines first. Wine and spirit were the best solvents available for extracting the active substances of plants, and for centuries apothecaries and monasteries steeped roots, barks, herbs, seeds and peels in alcohol and sweetened the result to make it palatable. When the medical claims faded the drinks remained, as apéritifs, digestifs and the ingredients on which the cocktail depends. This chapter explains how each family is made, why they taste as they do, and how to handle them.</p>
+
 <h3>Aromatized wines</h3>
 <p>In EU law, an aromatized wine is wine (at least 75%) flavored with botanicals and usually fortified and sweetened, typically 14.5-22% alcohol.</p>
 <ul><li><b>Vermouth</b>: must be flavored with Artemisia (wormwood; German <i>Wermut</i>). Italian (Turin) <b>rosso</b> is sweet and spiced (Carpano Antica Formula, Cocchi Vermouth di Torino, which carries the Vermouth di Torino geographical indication); French <b>dry</b> (Chambéry, Noilly Prat from Marseillan, where wine ages outdoors in barrels) is pale and herbal; <b>blanc/bianco</b> is pale and sweet. Spanish <b>vermut</b> is a tapas-hour ritual.</li>
 <li><b>Quinquina</b>: flavored with cinchona bark (quinine): Lillet (now gentler), Byrrh, Dubonnet, Cocchi Americano (the "americano" style, also gentian).</li>
 <li><b>Americano</b>: aromatized wine with gentian and wormwood.</li></ul>
 <p>Once opened, vermouth is wine: refrigerate it and finish within a few weeks.</p>
-<h3>Amari and bitters</h3>
-<p>Italy's <b>amari</b> are bitter herbal liqueurs drunk as apéritifs or digestifs. Light, apéritif-style: <b>Aperol</b> (orange, rhubarb), <b>Campari</b> (bitter orange, historically colored with cochineal), Select. Digestif-style: <b>Averna</b> (Sicilian, caramel), <b>Montenegro</b> (floral), <b>Nonino</b> (grappa-based), <b>Cynar</b> (artichoke), <b>Ramazzotti</b>, <b>Braulio</b> (alpine), <b>Fernet-Branca</b> (intensely bitter, minty; Argentina's national mixer with cola). French counterparts: <b>Suze</b> (gentian), <b>Salers</b>, <b>Amer Picon</b>. Germany: <b>Jägermeister</b>, <b>Underberg</b>. Cocktail bitters: Angostura (Trinidad), Peychaud's (New Orleans), orange bitters.</p>
-<h3>Herbal and monastic liqueurs</h3>
-<ul><li><b>Chartreuse</b>: Carthusian monks near Grenoble, from a 1605 manuscript of some 130 herbs; <b>green</b> (55%) and <b>yellow</b> (43%, sweeter); V.E.P. aged versions. Only two monks know the full recipe.</li>
-<li><b>Bénédictine</b>: Fécamp, Normandy; honeyed, herbal, Cognac-based (B&B = Bénédictine and brandy).</li>
-<li><b>Strega</b> (saffron, yellow, Benevento), <b>Galliano</b> (vanilla, anise), <b>Drambuie</b> (Scotch with honey and herbs), <b>Génépi</b> (alpine wormwood).</li></ul>
-<h3>Fruit, nut and other liqueurs</h3>
-<p>Orange: <b>Cointreau</b> (triple sec, clear, neutral spirit), <b>Grand Marnier</b> (Cognac-based), Curaçao. Cherry: <b>Maraschino</b> (Luxardo, clear, from Marasca cherries; essential in the Aviation and Last Word), <b>Cherry Heering</b>, kirsch (an eau-de-vie, unsweetened). Crème de cassis (Dijon), crème de mûre, crème de violette. Nut: Amaretto (Disaronno), Frangelico (hazelnut), Nocino (green walnut). Coffee: Kahlúa, Mr Black. Cream: Baileys. Elderflower: St-Germain. Limoncello (Amalfi lemon zest).</p>
-<h3>Anise spirits and absinthe</h3>
-<p><b>Absinthe</b>: distilled with grande wormwood, green anise and fennel, often 60-70%; banned in much of Europe and the US in the early 1900s over (exaggerated) thujone fears, legal again since the 2000s. Served with slow-dripped iced water, which causes the <b>louche</b> (clouding as anethole comes out of solution). <b>Pastis</b> (Pernod, Ricard; licorice root, sweetened), <b>ouzo</b> (Greece), <b>raki</b> (Turkey), <b>arak</b> (Lebanon), <b>sambuca</b> (Italy, sweet), <b>anisette</b>.</p>
+
+
 <h3>How vermouth is made</h3>
 <ol><li><b>Base wine.</b> A neutral white wine, even for red vermouth. Rosso gets its color from caramel, not from red grapes.</li>
 <li><b>Botanicals.</b> Wormwood, gentian, cinchona, citrus peel, vanilla, chamomile, clove, cinnamon and rhubarb root are steeped in spirit or wine, and sometimes distilled.</li>
@@ -510,6 +547,17 @@ body:`
 <tr><td>Semi-sweet</td><td>90 to 130 g/L</td></tr>
 <tr><td>Sweet</td><td>130 g/L or more</td></tr></table>
 <p><b>Vermouth di Torino</b> must be made in Piedmont from Italian wine with Piedmontese wormwood. <b>Superiore</b> needs at least 17% alcohol and at least half its wine from Piedmont.</p>
+
+
+<h3>Vermouth explained</h3>
+<p>Vermouth is wine that has been flavored with botanicals, sweetened and fortified. The base is a neutral white wine, which makes up at least three quarters of the finished product; even red vermouth is made from white wine and takes its color from caramel. The defining botanical is wormwood, a bitter herb whose German name gave the drink its own, and European law requires a plant of that family. To it are added a house's own selection, often thirty or more, of bitter roots such as gentian, barks such as cinchona, citrus peels, flowers, herbs and spices. They are extracted by steeping in wine or spirit, the extract is blended with the wine, sugar or caramelized sugar is added, and the strength is raised to between about fifteen and eighteen percent with neutral spirit.</p>
+<p>Two traditions gave the two main styles. The sweet red vermouth of Turin, first sold commercially in 1786, is rich, spiced and bittersweet, with around a hundred and fifty grams of sugar per liter. The dry white vermouth of southern France, developed a few decades later, is pale, herbal and much lower in sugar, and in one famous version is made from wine that has been aged outdoors in casks. A sweet white style followed. Related aromatized wines are defined by their principal bittering agent: those based on cinchona bark, the source of quinine, and those based on gentian.</p>
+<p>The point a sommelier must remember is that vermouth is wine. Once opened it oxidizes, losing its freshness within weeks, and an old bottle kept on a warm shelf behind a bar is the commonest reason for a poor Martini or Manhattan. Opened vermouth should be kept in a refrigerator and used within a month or so.</p>
+
+<h3>Amari and bitters</h3>
+<p>Italy's <b>amari</b> are bitter herbal liqueurs drunk as apéritifs or digestifs. Light, apéritif-style: <b>Aperol</b> (orange, rhubarb), <b>Campari</b> (bitter orange, historically colored with cochineal), Select. Digestif-style: <b>Averna</b> (Sicilian, caramel), <b>Montenegro</b> (floral), <b>Nonino</b> (grappa-based), <b>Cynar</b> (artichoke), <b>Ramazzotti</b>, <b>Braulio</b> (alpine), <b>Fernet-Branca</b> (intensely bitter, minty; Argentina's national mixer with cola). French counterparts: <b>Suze</b> (gentian), <b>Salers</b>, <b>Amer Picon</b>. Germany: <b>Jägermeister</b>, <b>Underberg</b>. Cocktail bitters: Angostura (Trinidad), Peychaud's (New Orleans), orange bitters.</p>
+
+
 <h3>The amaro families</h3>
 <p>An amaro is made by steeping roots, barks, peels and herbs in spirit, then sweetening and sometimes aging the result. The main bittering agents are gentian, cinchona, wormwood, rhubarb root and bitter orange.</p>
 <table class="t"><tr><th>Family</th><th>Examples and strength</th><th>Character</th></tr>
@@ -519,6 +567,26 @@ body:`
 <tr><td>Alpine</td><td>Braulio (21%)</td><td>Pine, mint, mountain herbs</td></tr>
 <tr><td>Carciofo and rabarbaro</td><td>Cynar (16.5%), Zucca</td><td>Vegetal or smoky rhubarb</td></tr>
 <tr><td>Fernet</td><td>Fernet-Branca (39%)</td><td>The least sweet and most bitter: mint, saffron, myrrh</td></tr></table>
+
+
+<h3>The uses of bitterness</h3>
+<p>Humans are born disliking bitterness, since many poisons are bitter, and learn to enjoy it. Bitter drinks have a place in most food cultures, and their effect is real: bitter compounds stimulate the production of saliva and digestive secretions. The spirits and liqueurs built on that effect differ in three variables, the degree of bitterness, the amount of sugar and the strength, and those three decide when each is drunk.</p>
+<p>The <strong>apéritif bitters</strong> are low in alcohol, brightly colored, moderately bitter and fairly sweet, and are diluted with soda or wine before a meal. The <strong>amari</strong>, a word that simply means bitter in Italian, are darker, stronger, generally between sixteen and forty percent, and drunk after a meal, neat or with ice. Italy has hundreds, most of them regional, and they range from light, citrus-led, gently bitter styles through medium ones flavored with alpine herbs, rhubarb root or artichoke, to intensely bitter, mentholated, almost medicinal ones. A similar tradition exists across central Europe. <strong>Cocktail bitters</strong> are concentrated extracts, very bitter and high in alcohol, used by the dash as a seasoning, and are classed in law as flavorings because they are not drunk by themselves.</p>
+<p>The bittering agents recur: gentian root, cinchona bark, wormwood, rhubarb root, bitter orange peel, and the leaves of the artichoke. Recipes are secret and often very old, and many producers still use a formula handed down within a family or an order.</p>
+
+<h3>Herbal and monastic liqueurs</h3>
+<ul><li><b>Chartreuse</b>: Carthusian monks near Grenoble, from a 1605 manuscript of some 130 herbs; <b>green</b> (55%) and <b>yellow</b> (43%, sweeter); V.E.P. aged versions. Only two monks know the full recipe.</li>
+<li><b>Bénédictine</b>: Fécamp, Normandy; honeyed, herbal, Cognac-based (B&B = Bénédictine and brandy).</li>
+<li><b>Strega</b> (saffron, yellow, Benevento), <b>Galliano</b> (vanilla, anise), <b>Drambuie</b> (Scotch with honey and herbs), <b>Génépi</b> (alpine wormwood).</li></ul>
+
+
+<h3>The monastic tradition</h3>
+<p>Religious houses kept gardens of medicinal plants, had the learning to record recipes and the time to perfect them, and were among the earliest distillers in Europe. The best-known herbal liqueurs descend from that work. The most celebrated is made by Carthusian monks in the French Alps from a recipe of 130 plants set down in a manuscript given to the order in 1605, known in full to only two or three monks at a time; it exists in a green form of fifty-five percent and a milder, sweeter yellow one, and is one of the few liqueurs that improves with age in bottle. The order has in recent years limited production in order to protect its way of life, which has made the liqueur scarce. Another famous herbal liqueur, associated with a Benedictine abbey in Normandy, was in fact created commercially in the nineteenth century. These liqueurs are made by macerating and distilling groups of botanicals separately, blending the results with sugar or honey, and aging in large casks.</p>
+
+<h3>Fruit, nut and other liqueurs</h3>
+<p>Orange: <b>Cointreau</b> (triple sec, clear, neutral spirit), <b>Grand Marnier</b> (Cognac-based), Curaçao. Cherry: <b>Maraschino</b> (Luxardo, clear, from Marasca cherries; essential in the Aviation and Last Word), <b>Cherry Heering</b>, kirsch (an eau-de-vie, unsweetened). Crème de cassis (Dijon), crème de mûre, crème de violette. Nut: Amaretto (Disaronno), Frangelico (hazelnut), Nocino (green walnut). Coffee: Kahlúa, Mr Black. Cream: Baileys. Elderflower: St-Germain. Limoncello (Amalfi lemon zest).</p>
+
+
 <h3>Liqueurs by the rules</h3>
 <ul><li>In the EU a <b>liqueur</b> has at least 15% alcohol and 100 g/L of sugar.</li>
 <li><b>Crème de</b> means at least 250 g/L of sugar; it has nothing to do with dairy. <b>Crème de cassis</b> needs 400 g/L.</li>
@@ -529,11 +597,29 @@ body:`
 <tr><td>Distillation</td><td>Botanicals are redistilled with the spirit</td><td>Citrus peel, seeds, herbs</td></tr>
 <tr><td>Compounding</td><td>Essences are mixed into spirit</td><td>The cheapest bottles</td></tr></table>
 <p>In January 2023 the Carthusian monks announced that they would hold Chartreuse production steady instead of chasing demand, so it is allocated and often scarce.</p>
+
+
+<h3>How liqueurs are made and classed</h3>
+<p>A liqueur is a spirit that has been flavored and sweetened, and European law sets a minimum of a hundred grams of sugar per liter for most, with higher minimums for those called crème. Flavor is obtained in three ways, chosen according to the ingredient. <strong>Maceration</strong>, steeping in cold spirit, suits soft fruit, whose delicate aromas would not survive heat, and takes weeks or months. <strong>Percolation</strong>, passing spirit repeatedly through the material as in a coffee maker, suits beans, pods and leaves. <strong>Distillation</strong> of the flavored spirit suits seeds, peels and herbs, whose aromatic oils are volatile, and gives a clear, clean result; the orange liqueurs are made this way from the dried peels of bitter and sweet oranges.</p>
+<p>The quality of a liqueur depends on the base spirit, whether neutral alcohol or something with character such as Cognac, on whether the flavor comes from real fruit and plants or from added essences, and on the level of sugar. Orange liqueurs illustrate the range. The clear style called triple sec, on a neutral base, is drier and sharper; versions built on aged brandy are richer and rounder; and the inexpensive kinds are sweeter and simpler. Since these are among the most used ingredients in cocktails, the choice affects every drink made with them. Nut and stone liqueurs often owe their almond flavor to the kernels of apricots or peaches. Cream liqueurs, which combine dairy cream with spirit, are a modern invention made possible by a process that stops the two from separating.</p>
+
+<h3>Anise spirits and absinthe</h3>
+<p><b>Absinthe</b>: distilled with grande wormwood, green anise and fennel, often 60-70%; banned in much of Europe and the US in the early 1900s over (exaggerated) thujone fears, legal again since the 2000s. Served with slow-dripped iced water, which causes the <b>louche</b> (clouding as anethole comes out of solution). <b>Pastis</b> (Pernod, Ricard; licorice root, sweetened), <b>ouzo</b> (Greece), <b>raki</b> (Turkey), <b>arak</b> (Lebanon), <b>sambuca</b> (Italy, sweet), <b>anisette</b>.</p>
+
+
+<h3>Anise and the louche</h3>
+<p>Spirits flavored with anise are drunk all around the Mediterranean under different names, and they share a striking property. The flavor compound in anise, star anise and fennel dissolves in strong alcohol and not in water. When water is added to the clear spirit, the alcohol falls below the strength needed to hold the compound in solution, and it comes out as a suspension of tiny droplets that scatter light, turning the drink milky. The effect is called the louche, and it is why these spirits are served with a carafe of cold water for the drinker to add.</p>
+<p><strong>Absinthe</strong> is the strongest and most complex of the family, distilled from wormwood, green anise and fennel with other herbs, at forty-five to over seventy percent, and unsweetened; the traditional service drips iced water over a sugar cube set on a perforated spoon. It became the fashionable drink of France in the later nineteenth century, partly because phylloxera had made wine scarce, and was blamed for madness and crime in a campaign that led to its prohibition in several countries around 1910 to 1915. The harm was that of alcohol in excess; the compound in wormwood held responsible is present in amounts too small to have any effect. The bans were lifted in Europe and the United States in the years around 2000 to 2007. The sweetened anise drinks that replaced it in France between the wars, without wormwood, remain the national apéritif of the south.</p>
+
 <h3>Serving and keeping them</h3>
 <ul><li><b>Amaro:</b> 1.5 to 2 oz, neat at room temperature or over one large cube, with orange peel for the darker styles.</li>
 <li><b>Absinthe:</b> three to five parts iced water dripped slowly into one part absinthe. A sugar cube on a slotted spoon is optional. Setting it on fire is a modern gimmick that ruins the drink.</li>
 <li>A <b>verte</b> gets its green from chlorophyll, in a second soak of herbs after distillation. A <b>blanche</b> skips that step and is clear. The style was born in Switzerland's Val-de-Travers.</li>
-<li><b>Keeping:</b> strong liqueurs last for years once open. Low-alcohol bitters and anything wine-based fade within weeks or months, and cream liqueurs within about six months.</li></ul>`,
+<li><b>Keeping:</b> strong liqueurs last for years once open. Low-alcohol bitters and anything wine-based fade within weeks or months, and cream liqueurs within about six months.</li></ul>
+
+<h3>Building a selection</h3>
+<p>A restaurant does not need many of these bottles and does need the right ones. The cocktail list determines the essentials: a sweet and a dry vermouth of good quality, kept cold and fresh; a bitter apéritif; an orange liqueur; and two kinds of cocktail bitters. Beyond those, a small range of amari from light to intense gives guests a choice after dinner and is inexpensive to stock, since the bottles keep well once opened, protected by their sugar and alcohol. One or two herbal liqueurs and an anise spirit complete the range. A sommelier should taste each and be able to place it on the scales of bitterness, sweetness and strength, since that is how a guest who asks for something to settle a meal can be guided to the right glass.</p>
+`,
 floor:`<p>The digestif cart is a sommelier's high-margin moment. Know three amari from light to bitter, a Chartreuse story, and how to serve absinthe properly. Recommend vermouth on the rocks with an orange slice as a low-alcohol apéritif.</p>`,
 analyst:`<p>The SWE's CSS and WSET spirits courses cover aromatized wines and liqueurs: definitions, flavoring methods (maceration, infusion, distillation) and key brands.</p>`,
 terms:[["Artemisia","Wormwood; the legally required flavoring in vermouth."],["Quinquina","Aromatized wine flavored with cinchona (quinine)."],["Amaro","Italian bitter herbal liqueur."],["Louche","Clouding of anise spirits when water is added."],["Maraschino","Clear liqueur from Marasca cherries."],["V.E.P.","Chartreuse's aged, extra-long-matured versions."],["Crème de","EU term for a liqueur with at least 250 g/L of sugar."],["Percolation","Dripping spirit through flavoring material, as in coffee making."],["Fernet","The driest, most bitter family of amaro."],["Triple sec","The drier French style of orange liqueur."],["Verte","Green absinthe, colored by a second soak of herbs."],["Vermouth di Torino","Geographical indication for vermouth made in Piedmont."]],

@@ -466,9 +466,16 @@ quiz:[
 ]});
 
 L.push({id:"b9", unit:"S2", title:"Deep Dive: Cocktail Families and Bar Service", mins:9,
-summary:"Cocktails by family, so one template unlocks ten drinks; method, glass and garnish; and the service language guests use.",
+summary:"Cocktails by family: the templates of stirred drinks, sours, long drinks and wine-based drinks, with ice, dilution and how to describe them.",
 body:`
 <p>The Court tests cocktails from Certified upward, and the Master service exam treats them like wine: spec, method, glass, garnish and a line of history. Memorizing forty recipes one by one fails under pressure. Learn six families and the classics fall into place. Specs below are one common version of each; houses differ by a quarter-ounce.</p>
+
+
+<p>The classic cocktails number in the hundreds, and nobody memorizes them one by one. Bartenders learn a few families, each defined by a structure, and treat individual drinks as variations in which one ingredient is exchanged for another. This chapter sets out the families with the reasoning behind each structure, so that a recipe forgotten can be reconstructed and an unfamiliar drink understood from its description.</p>
+
+<h3>Why families work</h3>
+<p>The principle is substitution. Take the structure of spirit, sugar and bitters, and it gives the Old Fashioned with whiskey; change the sugar for sweet vermouth and it becomes a Manhattan; change the whiskey for gin and the sweet vermouth for dry, and it is a Martini. Take spirit, citrus and sugar, and whiskey gives a Whiskey Sour, rum and lime a Daiquiri, gin and lemon a Gimlet's cousin; replace the sugar with orange liqueur and the result is a Margarita with tequila or a Sidecar with Cognac. Each family has a standard proportion that produces balance, and a bartender adjusts from it for the strength and sweetness of the particular ingredients. Knowing the template means that six ingredients describe dozens of drinks.</p>
+
 <h3>1. Spirit-forward, stirred</h3>
 <table class="t"><tr><th>Drink</th><th>Build</th></tr>
 <tr><td>Old Fashioned</td><td>Bourbon or rye, sugar, Angostura bitters; rocks, orange twist</td></tr>
@@ -477,6 +484,11 @@ body:`
 <tr><td>Martini</td><td>Gin and dry vermouth; up, olive or twist. With an onion it is a <b>Gibson</b>. The <b>Vesper</b> adds vodka and Lillet</td></tr>
 <tr><td>Negroni</td><td>Equal gin, Campari, sweet vermouth; rocks, orange. Bourbon instead of gin: <b>Boulevardier</b>. Prosecco instead of gin: <b>Negroni Sbagliato</b></td></tr>
 <tr><td>Vieux Carré</td><td>Rye, Cognac, sweet vermouth, Bénédictine, Peychaud's and Angostura. New Orleans</td></tr></table>
+
+
+<h3>The stirred drinks explained</h3>
+<p>These are the strongest cocktails, composed entirely of alcoholic ingredients, and their aim is to present a spirit in polished form. The proportions are typically two parts or more of spirit to one of vermouth or other modifier, with a dash or two of bitters, which act as seasoning, sharpening and binding the flavors as salt does in food. Because there is no juice to mask them, the quality of the spirit and the freshness of the vermouth, which is a wine and deteriorates once opened, show plainly. They are stirred for twenty to thirty seconds to reach the right temperature and dilution and strained into a chilled glass, or served over a single large piece of ice, which melts slowly. The Negroni and its relatives, equal parts of spirit, bitter liqueur and sweet vermouth, belong here and add bitterness as a third dimension.</p>
+
 <h3>2. Sours: spirit, citrus, sweetener</h3>
 <p>The template is about 2 parts spirit, 1 part citrus, ¾ part sweetener, shaken hard.</p>
 <table class="t"><tr><th>Drink</th><th>Build</th></tr>
@@ -493,12 +505,32 @@ body:`
 <tr><td>Aviation</td><td>Gin, maraschino, crème de violette, lemon</td></tr>
 <tr><td>Mai Tai</td><td>Aged rum, lime, orange curaçao, orgeat (almond). Trader Vic, 1944</td></tr></table>
 <p>The Margarita, Sidecar and Cosmopolitan are sours sweetened with orange liqueur: the same drink with a different base spirit.</p>
+
+
+<h3>The sour as the central template</h3>
+<p>The sour is the oldest and most productive family, descended from the punches of the seventeenth century, and it rests on the balance of strong, sour and sweet. A common starting ratio is two parts spirit, one part citrus juice and three quarters to one part sweetener, adjusted to the acidity of the fruit and the taste of the house. Lemon is the usual partner of whiskey, brandy and gin, lime of rum, tequila and the white spirits of the tropics. The juice must be fresh, squeezed the same day, since it oxidizes and turns bitter within hours.</p>
+<p>Variations are made in the sweetener. Simple syrup gives the plain sour. An orange liqueur gives the family called daisies, which includes the Margarita, the Sidecar and the Cosmopolitan. Honey, almond syrup, grenadine or a flavored liqueur each produce named drinks. An egg white, shaken first without ice to build a foam, adds a silky texture and a white head and softens the acidity. All sours are shaken hard and strained.</p>
+
 <h3>3. Long drinks: a sour or a spirit, lengthened</h3>
 <p><b>Tom Collins</b> (gin sour plus soda), <b>Mojito</b> (rum, lime, sugar, mint, soda), <b>Paloma</b> (tequila, lime, grapefruit soda), <b>Moscow Mule</b> (vodka, lime, ginger beer, copper mug), <b>Dark 'n' Stormy</b> (dark rum and ginger beer), <b>Gin and Tonic</b>, <b>Mint Julep</b> (bourbon, mint, sugar, crushed ice in a metal cup; the Kentucky Derby drink).</p>
+
+
+<h3>Lengthening and what it achieves</h3>
+<p>A long drink is a short drink with a carbonated or still mixer added, served tall over ice, and it is lower in alcohol by volume, more refreshing and slower to finish. The simplest is the highball, spirit and a mixer, where the quality of the ice, the coldness of the ingredients and the liveliness of the carbonation are everything; the mixer is poured gently down the side and the drink barely stirred, to keep its bubbles. A sour lengthened with soda water becomes a Collins or a fizz. A sour built with mint and crushed ice and lengthened becomes a Mojito. Ginger beer in place of soda gives the mules and bucks. The proportion of mixer to spirit, usually between two and three to one, decides the strength, and a drink drowned in mixer loses its character.</p>
+
 <h3>4. Wine and bubbles</h3>
 <p><b>French 75</b> (gin, lemon, sugar, topped with Champagne), <b>Champagne Cocktail</b> (sugar cube soaked in Angostura, Champagne), <b>Kir</b> and <b>Kir Royale</b> (crème de cassis with Aligoté or Champagne), <b>Bellini</b> (white peach purée and Prosecco; Harry's Bar, Venice), <b>Mimosa</b> (orange juice and sparkling wine), <b>Aperol Spritz</b> (3 Prosecco, 2 Aperol, 1 soda), <b>Americano</b> (Campari, sweet vermouth, soda).</p>
+
+
+<h3>Cocktails a sommelier owns</h3>
+<p>Drinks based on sparkling wine and aromatized wine fall naturally to the sommelier, since they depend on the quality and handling of the wine. The sparkling wine should be dry, fresh and properly chilled, added last and gently, and never shaken. A classic Champagne cocktail seasons the wine with a sugar cube soaked in bitters and a little brandy. The mixtures of sparkling wine with fruit juice or liqueur, served at brunch and as apéritifs, need good fruit and restraint. The spritz, three parts sparkling wine, two parts bitter apéritif and a splash of soda, over ice with a slice of orange, has become one of the most ordered drinks in the world and is easy to make badly, with flat wine or too much ice melt. Low-alcohol drinks based on vermouth or Sherry lengthened with soda or tonic are an old tradition now back in favor.</p>
+
 <h3>5. Coffee, cream and savory</h3>
 <p><b>Espresso Martini</b> (vodka, coffee liqueur, fresh espresso), <b>Irish Coffee</b> (Irish whiskey, hot coffee, sugar, floated cream), <b>Bloody Mary</b> (vodka, tomato juice, lemon, Worcestershire, hot sauce, celery salt).</p>
+
+
+<p>The remaining classics do not fit the main templates and are defined by a distinctive ingredient. Cream and egg drinks are rich, sweet and served after a meal, and must be shaken hard to combine. Coffee cocktails, of which the mixture of vodka, coffee liqueur and fresh espresso is now among the most ordered drinks anywhere, depend on freshly made, cooled coffee and a vigorous shake to produce a stable foam. Hot drinks combine a spirit with coffee or water, sugar and sometimes cream floated on top. The savory drinks based on tomato juice are seasoned like a dish, with acid, salt, spice and umami, and are rolled gently between two vessels instead of being shaken, which would thin the juice.</p>
+
 <h3>Method, glass, garnish</h3>
 <ul><li><b>Shake</b> anything with citrus, juice, cream or egg: ice breaks it up and aerates it. With egg white, shake once without ice first (a dry shake) for foam.</li>
 <li><b>Stir</b> all-spirit drinks for about 30 seconds: cold, clear and silky. Shaking a Manhattan clouds it.</li>
@@ -506,9 +538,18 @@ body:`
 <li>Melted ice is an ingredient: a finished cocktail is roughly a fifth to a quarter water.</li>
 <li><b>Glasses:</b> coupe or Nick & Nora for drinks served up; rocks glass; Collins or highball; flute; julep cup; copper mug.</li>
 <li>A citrus <b>twist</b> is expressed over the drink so its oils land on the surface.</li></ul>
+
+
+<h3>Ice, dilution and temperature</h3>
+<p>Ice is an ingredient. It chills the drink and, as it melts, dilutes it, and the two happen together: the energy needed to melt ice is what cools the liquid. Large, dense, cold, dry pieces of ice chill with less dilution than small, wet ones, which is why a stirred drink is made with solid cubes and why crushed ice, with its large surface, is used where rapid chilling and heavy dilution are wanted. A drink served on ice continues to dilute, so it is made slightly stronger than one served without. Glasses are chosen for function: a stemmed glass keeps the hand from warming a drink served without ice, a short heavy tumbler holds a spirit over a large cube, and a tall narrow glass preserves carbonation.</p>
+
 <h3>The words guests use</h3>
 <p><b>Neat</b>: straight from the bottle, room temperature, no ice. <b>Up</b>: chilled with ice, then strained into a stemmed glass. <b>On the rocks</b>: over ice. <b>Dry</b> Martini: less vermouth. <b>Dirty</b>: with olive brine. <b>With a twist</b>: citrus peel. Always confirm the spirit and brand, the garnish, and up or rocks before you leave the table.</p>
-<p>A US standard drink holds about 14 g of pure alcohol: 1.5 oz of 80-proof spirit, 5 oz of 12% wine or 12 oz of 5% beer. Many classic cocktails hold two.</p>`,
+<p>A US standard drink holds about 14 g of pure alcohol: 1.5 oz of 80-proof spirit, 5 oz of 12% wine or 12 oz of 5% beer. Many classic cocktails hold two.</p>
+
+<h3>Selling and describing cocktails</h3>
+<p>A guest ordering a cocktail can be helped with the same two questions used for wine: what spirit do they like, and do they want something strong and spirit-led, sharp and refreshing, or long and light. The answer identifies a family, and the family suggests a drink. A sommelier should be able to describe any classic in a sentence by its base, its character and how it is served, to know which contain common allergens such as egg, nuts or dairy, and to give an honest idea of strength, since a stirred drink of three ounces of spirit is a different proposition from a highball. Classic recipes vary between books and bars, and for examination purposes one standard version of each, learned with its glass, method and garnish, is sufficient.</p>
+`,
 floor:`<p>At the table: "Gin or vodka? Up or on the rocks? Olive or a twist?" Three questions, asked before the guest has to volunteer them, is the difference between a server and a sommelier. Know which drinks are stirred; examiners ask.</p>`,
 analyst:`<p>WSET's wine qualifications don't examine cocktails; its spirits qualifications do, by family and balance (strong, weak, sour, sweet). The family method here is the same logic.</p>`,
 terms:[["Sour","Cocktail family of spirit, citrus and sweetener, shaken."],["Dry shake","Shaking without ice first to foam egg white."],["Up","Chilled with ice and strained into a stemmed glass, served without ice."],["Neat","Poured straight from the bottle at room temperature, no ice."],["Orgeat","Almond syrup, essential to the Mai Tai."],["Peychaud's","New Orleans bitters used in the Sazerac and Vieux Carré."],["Standard drink","About 14 g of pure alcohol in the US: 1.5 oz spirit, 5 oz wine or 12 oz beer."]],

@@ -491,18 +491,33 @@ quiz:[
 ]});
 
 L.push({id:"b4", unit:"S2", title:"Whisk(e)y in Depth", mins:18,
-summary:"How whisky is made, cask influence, and the styles of Scotland, Ireland, America and Japan.",
+summary:"Whisky from grain to cask, what the Scotch categories mean, how far region explains style, why bourbon tastes as it does, and the other traditions.",
 body:`
+<p>Whisky is spirit distilled from grain and aged in wood, and its many kinds are variations on four decisions: which grain, which still, which cask, and how long. National laws fix those decisions differently, and the result is a family of spirits that ranges from the smoky malts of a Scottish island to the sweet, vanilla-rich whiskey of Kentucky. This chapter explains the stages of production and then shows how each country's rules produce its style. The spelling follows custom: whisky in Scotland, Canada and Japan, whiskey in Ireland and the United States.</p>
+
 <h3>Production</h3>
 <ol><li><b>Malting</b> (for malt whisky): barley is steeped, germinated, then dried. Drying over peat fires gives smoky phenols, measured in parts per million (Islay malts can exceed 40 ppm).</li>
 <li><b>Mashing:</b> hot water converts starch to sugar; the sweet liquid is wort.</li>
 <li><b>Fermentation:</b> yeast makes a beer-like "wash" of about 8% abv.</li>
 <li><b>Distillation:</b> pot stills (usually twice; triple in much Irish whiskey and at Auchentoshan) or column stills (grain whisky, most bourbon in a column-plus-doubler setup).</li>
 <li><b>Maturation:</b> most flavor comes from the cask: ex-bourbon barrels (vanilla, coconut), ex-Sherry butts (dried fruit, spice, nuts), wine casks, and "finishing" in a second cask. The "angel's share" evaporates each year.</li></ol>
+
+
+<h3>From grain to spirit</h3>
+<p>The process begins with turning starch into sugar. <strong>Malting</strong> does this for barley: the grain is steeped in water, allowed to germinate for several days so that it develops enzymes, and then dried in a kiln to stop growth. If the kiln is fired with <strong>peat</strong>, partly decayed vegetation cut from bogs, the smoke deposits phenolic compounds on the malt that survive into the whisky as the smoky, medicinal, tarry character associated with certain Scotch. The degree of peating is the distiller's choice and is measured in parts per million of phenols in the malt. Other grains, maize, rye and wheat, are not usually malted; they are cooked to release their starch and converted with a portion of malted barley or added enzymes.</p>
+<p>The ground grain is mixed with hot water in the <em>mash</em>, the sugary liquid is drawn off and fermented with yeast for two to four days into a kind of beer of seven to ten percent alcohol, called the wash, and this is distilled. Long fermentation gives more fruity esters. Malt whisky is distilled in copper pot stills, twice in Scotland as a rule and three times in the traditional Irish method, and the shape of the still affects the result: tall stills with long, narrow necks let only the lightest vapors through and give delicate spirit, and short, squat ones give heavy, oily spirit. Grain whisky is distilled in column stills to a higher strength and is lighter.</p>
+<p>The new spirit is diluted to about 63 percent and filled into oak casks. In Scotland and Ireland it must age at least three years; most is aged much longer. The cask, its size, its wood and what it held before, supplies most of the mature flavor.</p>
+
 <h3>Label terms</h3>
 <ul><li>An age statement is the age of the <b>youngest</b> whisky in the bottle. NAS = no age statement.</li>
 <li><b>Single malt:</b> 100% malted barley, pot-distilled at one distillery. <b>Blended malt:</b> malts from several distilleries. <b>Blended Scotch:</b> malt plus grain whisky (most Scotch sold).</li>
 <li><b>Cask strength:</b> bottled without dilution. <b>Non-chill-filtered:</b> keeps oils and texture.</li></ul>
+
+
+<h3>What the Scotch categories mean</h3>
+<p>The Scotch terms describe two things, the grain and still, and whether the whisky comes from one distillery. A <strong>single malt</strong> is made from malted barley alone, in pot stills, at a single distillery; the word single refers to the distillery, and the bottle is normally a blend of many casks of different ages from that one place. A <strong>single grain</strong> comes from one distillery and is made in column stills from other cereals. A <strong>blended Scotch</strong> combines malts from many distilleries with grain whisky, and accounts for about nine bottles in ten sold. Blending was the innovation of nineteenth-century grocers who mixed the pungent malts of the Highlands with lighter grain whisky to make a consistent, approachable product, and it built the worldwide trade. A <strong>blended malt</strong> contains malts from several distilleries and no grain whisky.</p>
+<p>Other label terms concern handling. <em>Cask strength</em> means bottled without dilution, at fifty to sixty percent or more. <em>Single cask</em> means the contents of one barrel. <em>Non-chill-filtered</em> means the whisky has not been chilled and filtered to remove compounds that cause haze when cold, which some believe also removes texture. Caramel coloring is permitted in Scotch to standardize appearance, and some producers state that they do not use it.</p>
+
 <h3>Scotland's regions</h3>
 <table class="t"><tr><th>Region</th><th>Character</th><th>Examples</th></tr>
 <tr><td>Speyside</td><td>Fruity, elegant, often Sherried</td><td>Glenfiddich, The Macallan, Glenlivet, Balvenie</td></tr>
@@ -511,15 +526,31 @@ body:`
 <tr><td>Islay</td><td>Peat smoke, iodine, sea</td><td>Laphroaig, Lagavulin, Ardbeg, Bowmore, Bruichladdich</td></tr>
 <tr><td>Lowlands</td><td>Light, floral</td><td>Auchentoshan, Glenkinchie</td></tr>
 <tr><td>Campbeltown</td><td>Briny, oily, complex</td><td>Springbank, Glen Scotia</td></tr></table>
+
+
+<h3>Scotch: peat, casks and bottling</h3>
+<ul><li><b>Peat</b> is measured in parts per million of phenols <b>in the malt</b>, not in the bottle. Lightly peated malts run under 15 ppm; Laphroaig and Lagavulin about 35 to 45; Ardbeg about 55. Much is lost in distilling and aging, so the number is a guide to style, not a promise.</li>
+<li><b>First-fill</b> casks give the most flavor; <b>refill</b> casks let the distillery character show.</li>
+<li><b>Finishing</b> moves a mature whisky into a second cask for months: Port, Sauternes, rum, Madeira.</li>
+<li><b>Chill filtration</b> removes compounds that cloud a whisky when cold. At 46% and above they stay dissolved, which is why many enthusiasts' bottlings are 46% and unfiltered.</li>
+<li>Plain caramel coloring is legal in Scotch and common in blends.</li></ul>
+
+
+<h3>How far region explains Scotch</h3>
+<p>The traditional regions are a rough guide to style and were never definitions. <strong>Speyside</strong>, a small area in the northeast with about half of all malt distilleries, is known for sweet, fruity, often Sherry-cask whiskies with little or no peat. The <strong>Highlands</strong>, covering most of the mainland, are too varied to characterize. The <strong>Lowlands</strong> make light, grassy malts. <strong>Islay</strong>, an island off the west coast, is the home of heavily peated whisky with notes of smoke, iodine and seaweed, though not all its distilleries follow the style. <strong>Campbeltown</strong>, once a major center, has a few distilleries making oily, briny malts.</p>
+<p>The reasons for the differences are choices more than geography. Peat was the available fuel on the islands, and its use became a tradition; any distillery anywhere can use peated or unpeated malt, and several do both. The shape of the stills, the length of fermentation, the cut points and above all the casks determine the rest. The two principal cask types illustrate this. Barrels that previously held bourbon, of American oak, give vanilla, coconut and honey and a pale gold color. Butts that held Sherry, traditionally of European oak, give dried fruit, spice, chocolate and a darker color. Many whiskies are matured in one and finished for some months in another, including casks that held Port, Madeira, rum or wine.</p>
+
 <h3>Ireland</h3>
 <p>At least 3 years in wood. <b>Single pot still</b> whiskey uses malted and unmalted barley in pot stills, a uniquely Irish style (Redbreast, Green Spot). Blends: Jameson, Bushmills (in Northern Ireland). Often triple distilled and smooth.</p>
+
+
 <h3>America</h3>
 <ul><li><b>Bourbon:</b> 51%+ corn, new charred oak, made in the US (Kentucky dominates but isn't required). Wheated bourbons swap rye for wheat (Maker's Mark, Weller). Examples: Buffalo Trace, Wild Turkey, Four Roses.</li>
 <li><b>Bottled-in-Bond</b> (1897 Act): one distillery, one season, at least 4 years in a bonded warehouse, bottled at 100 proof.</li>
 <li><b>Tennessee whiskey:</b> bourbon-style, filtered through maple charcoal (Lincoln County Process): Jack Daniel's, George Dickel.</li>
 <li><b>Rye:</b> 51%+ rye; spicier. <b>American Single Malt</b> has recently gained a formal federal definition.</li></ul>
-<h3>Japan and Canada</h3>
-<p>Japan's whisky began with Yamazaki (Suntory, 1923) and Nikka (Masataka Taketsuru, who trained in Scotland). Precise, often blended; Mizunara oak gives sandalwood and incense notes. A 2021 industry standard defines "Japanese whisky" as mashed, distilled and aged at least 3 years in Japan. <b>Canadian</b> whisky is usually a blend, often called "rye" by tradition even when little rye is used.</p>
+
+
 <h3>Inside a bourbon</h3>
 <ul><li><b>Mash bill:</b> the grain recipe. A typical bourbon is about 70 to 78% corn, with rye for spice and a little malted barley for enzymes. <b>High-rye</b> bourbons (Four Roses, Bulleit) push rye to 20% or more. <b>Wheated</b> bourbons replace the rye with wheat for a softer, sweeter spirit.</li>
 <li><b>Sour mash:</b> some spent mash from the last distillation is added to the new one to control acidity and keep batches consistent. Nearly all bourbon is made this way. It has nothing to do with a sour taste.</li>
@@ -527,17 +558,29 @@ body:`
 <li><b>The rickhouse:</b> barrels on the hot upper floors age faster and gain strength; lower floors age slowly. Blending across floors gives consistency.</li>
 <li><b>Single barrel</b> means one cask. <b>Small batch</b> has no legal definition.</li></ul>
 <p>Because bourbon barrels can be used only once, they are sold on. Most Scotch, Irish whiskey, rum and tequila is aged in used bourbon casks.</p>
-<h3>Scotch: peat, casks and bottling</h3>
-<ul><li><b>Peat</b> is measured in parts per million of phenols <b>in the malt</b>, not in the bottle. Lightly peated malts run under 15 ppm; Laphroaig and Lagavulin about 35 to 45; Ardbeg about 55. Much is lost in distilling and aging, so the number is a guide to style, not a promise.</li>
-<li><b>First-fill</b> casks give the most flavor; <b>refill</b> casks let the distillery character show.</li>
-<li><b>Finishing</b> moves a mature whisky into a second cask for months: Port, Sauternes, rum, Madeira.</li>
-<li><b>Chill filtration</b> removes compounds that cloud a whisky when cold. At 46% and above they stay dissolved, which is why many enthusiasts' bottlings are 46% and unfiltered.</li>
-<li>Plain caramel coloring is legal in Scotch and common in blends.</li></ul>
+
+
+<h3>Why American whiskey tastes as it does</h3>
+<p>The American rules produce a style opposite in almost every respect to Scotch. <strong>Bourbon</strong> must be made in the United States from a mash of at least 51 percent maize, distilled to no more than 80 percent, entered into the barrel at no more than 62.5 percent, and aged in new, charred oak containers. Maize gives sweetness and a full, soft body. The remaining grains adjust the character: rye adds spice and dryness, wheat a softer, rounder sweetness, and a little malted barley supplies enzymes. The requirement for new charred barrels is the decisive one. Fresh oak releases vanilla, caramel and coconut in quantity, the layer of char filters the spirit and adds smoke and sweetness, and Kentucky's hot summers and cold winters drive the whiskey in and out of the wood. Bourbon therefore matures in four to eight years and is richly flavored and deep in color with no additives, which the law forbids.</p>
+<p>Most producers use the <em>sour mash</em> method, in which some of the spent liquid from a previous distillation is added to the new mash to control its acidity and keep consistency. <strong>Straight</strong> means aged at least two years with nothing added. <strong>Bottled in bond</strong>, a guarantee introduced in 1897, means the product of one distillery in one season, aged at least four years in a supervised warehouse and bottled at fifty percent. <strong>Tennessee whiskey</strong> meets the definition of bourbon and adds a step, filtering the new spirit through a deep bed of maple charcoal before aging, which removes harsher elements. <strong>Rye whiskey</strong>, at least 51 percent rye, is drier, spicier and leaner, and was the original American whiskey of the eastern states. The used bourbon barrels, which cannot be refilled for bourbon, are sold to Scotland, Ireland, the Caribbean and elsewhere and have become the standard cask of the whisky world.</p>
+
+<h3>Japan and Canada</h3>
+<p>Japan's whisky began with Yamazaki (Suntory, 1923) and Nikka (Masataka Taketsuru, who trained in Scotland). Precise, often blended; Mizunara oak gives sandalwood and incense notes. A 2021 industry standard defines "Japanese whisky" as mashed, distilled and aged at least 3 years in Japan. <b>Canadian</b> whisky is usually a blend, often called "rye" by tradition even when little rye is used.</p>
+
+
 <h3>Ireland and Japan</h3>
 <p>Irish whiskey has four types: <b>malt</b>, <b>pot still</b>, <b>grain</b> and <b>blended</b>. One distillery at Midleton in County Cork makes Jameson, Redbreast, Powers and the Spot whiskeys. The number of Irish distilleries has grown from a handful in 2010 to several dozen.</p>
 <p>Japan's two founding companies each run contrasting distilleries so they can blend in-house: Suntory has <b>Yamazaki</b> (1923) and <b>Hakushu</b> (1973, in the mountains); Nikka has <b>Yoichi</b> (1934, coal-fired stills on Hokkaido) and <b>Miyagikyo</b> (1969). Hibiki is Suntory's blend.</p>
+
+
 <h3>Whisky elsewhere</h3>
 <p>Serious single malts now come from Taiwan (Kavalan), India (Amrut, Paul John), Australia (Sullivans Cove, Starward), England, Wales and the Nordic countries. Hot climates mature whisky several times faster than Scotland, so young ages there are no mark of immaturity.</p>
+
+
+<h3>The other traditions</h3>
+<p><strong>Irish whiskey</strong> was the world's leading spirit in the nineteenth century and nearly disappeared in the twentieth, through the loss of the American market to Prohibition, a trade war with Britain and its distillers' refusal to adopt the column still. Its distinctive style is single pot still whiskey, made from a mash of both malted and unmalted barley, a practice that began as a way to avoid a tax on malt and gives a spicy, creamy, oily spirit. Triple distillation and the general absence of peat make most Irish whiskey smooth and light. The industry has revived since the 1990s from three distilleries to several dozen.</p>
+<p><strong>Japanese whisky</strong> was founded in the 1920s by a man who had studied distilling in Scotland and the company owner who employed him, and it follows the Scotch model closely, with malt and grain whiskies blended. Because Japanese companies do not exchange stock with competitors, each makes a wide range of styles in-house, with different stills, yeasts and casks, including native oak. International awards from the early 2000s led to a shortage of aged stock, and rules agreed by the industry in 2021 defined the term more tightly, since some products sold as Japanese had contained imported whisky. <strong>Canadian whisky</strong> is typically a blend of a light base spirit with smaller amounts of flavoring whiskies, often of rye, each grain distilled and aged separately. New producers in Taiwan, India, Australia and across Europe have shown that warm climates mature whisky quickly and that the category is no longer tied to its old homes.</p>
+
 <h3>Dates worth knowing</h3>
 <table class="t"><tr><th>Year</th><th>Event</th></tr>
 <tr><td>1494</td><td>First written record of Scotch: malt issued to Friar John Cor "to make aqua vitae"</td></tr>
@@ -546,6 +589,8 @@ body:`
 <tr><td>1880s</td><td>Phylloxera cuts off Cognac; Scotch takes its place in British glasses</td></tr>
 <tr><td>1920 to 1933</td><td>US Prohibition closes most American distilleries</td></tr>
 <tr><td>1964</td><td>Congress declares bourbon "a distinctive product of the United States"</td></tr></table>
+
+
 <h3>Telling them apart in the glass</h3>
 <table class="t"><tr><th>Whisky</th><th>Signature</th></tr>
 <tr><td>Bourbon</td><td>Sweet: vanilla, caramel, coconut, corn</td></tr>
@@ -554,7 +599,11 @@ body:`
 <tr><td>Speyside malt</td><td>Apple, pear, honey; raisin and spice from Sherry casks</td></tr>
 <tr><td>Islay malt</td><td>Smoke, iodine, brine</td></tr>
 <tr><td>Irish pot still</td><td>Creamy, oily, with green apple and spice</td></tr>
-<tr><td>Japanese</td><td>Precise and layered; incense and sandalwood where Mizunara is used</td></tr></table>`,
+<tr><td>Japanese</td><td>Precise and layered; incense and sandalwood where Mizunara is used</td></tr></table>
+
+<h3>Serving and selling whisky</h3>
+<p>Whisky is served neat in a tulip-shaped glass, with a small jug of still water offered. A few drops reduce the strength and open the aroma, and cask-strength bottlings usually need it. Ice is the guest's choice. For a list, the useful structure is by style more than by country: light and delicate, fruity and sweet, rich and Sherried, and smoky, with one or two examples of each and of bourbon and rye. A guest new to whisky is best started with something soft and sweet, and guided toward peat only if curious. The sommelier should be able to explain an age statement, the difference between a single malt and a blend, and why one bottle costs four times another, which usually comes down to age, scarcity and the cost of the casks.</p>
+`,
 floor:`<p>Whisky questions come at the end of the night. Know two or three per style by price, how to serve (neat, a drop of water, one large cube), and a cocktail use for each.</p>`,
 analyst:`<p>The SWE's CSS and WSET spirits qualifications test production, labeling and regional styles at this depth.</p>`,
 terms:[["Peat ppm","Phenol level of malt from peat smoke."],["NAS","No age statement."],["Bottled-in-Bond","US: one distillery, one season, 4+ years, 100 proof."],["Single pot still","Irish style using malted and unmalted barley."],["Angel's share","Spirit lost to evaporation during aging."],["Mash bill","The grain recipe of a whiskey."],["Sour mash","Adding spent mash from a previous batch to control acidity."],["Alligator char","The deepest barrel char, level No. 4."],["Rickhouse","A warehouse where barrels of American whiskey age."],["Finishing","Moving a mature spirit into a second cask for extra flavor."],["Chill filtration","Cooling and filtering whisky so it will not turn hazy."]],
@@ -576,31 +625,14 @@ quiz:[
 ]});
 
 L.push({id:"b5", unit:"S2", title:"Brandy, Agave, Rum and Gin in Depth", mins:18,
-summary:"Cognac and Armagnac in detail, Tequila and Mezcal, rum styles by island, and gin types.",
+summary:"Why Cognac is made as it is, Armagnac by contrast, what sets agave spirits apart, rum's three traditions, and gin and vodka.",
 body:`
+<p>This chapter takes the principal spirits other than whisky one at a time: the brandies of France, the agave spirits of Mexico, rum, gin and vodka. Each is the product of a particular place and raw material, and each has rules that fix its character. The aim is to explain why each tastes as it does, by following the choices made at each stage, and to give the vocabulary needed to read a label and advise a guest.</p>
+
 <h3>Cognac</h3>
 <p>White wine (mostly Ugni Blanc) is double distilled in copper alembic charentais stills; distillation must finish by March 31 after the harvest. Aging in French oak (Limousin, Tronçais) is tracked by official age "comptes." Crus: Grande Champagne, Petite Champagne, Borderies (nutty, violet), Fins Bois, Bons Bois, Bois Ordinaires. Grades: VS (2 years), VSOP (4), XO (10). Big houses: Hennessy, Rémy Martin (all Fine Champagne), Martell (Borderies-rich), Courvoisier; growers like Jean Fillioux and Pierre Ferrand.</p>
-<h3>Armagnac</h3>
-<p>Older than Cognac, mostly single continuous distillation in the <b>alambic armagnacais</b> at low strength, so it keeps more character. Areas: <b>Bas-Armagnac</b> (finest), Ténarèze, Haut-Armagnac. Grapes: Ugni Blanc, <b>Baco 22A</b> (a hybrid), Folle Blanche, Colombard. Vintage-dated Armagnacs are common. Blanche d'Armagnac is unaged.</p>
-<h3>Other brandies</h3>
-<ul><li><b>Calvados:</b> apple and pear brandy; Pays d'Auge double distilled; Domfrontais at least 30% pear.</li>
-<li><b>Brandy de Jerez:</b> solera-aged in Sherry casks: Solera, Solera Reserva, Solera Gran Reserva.</li>
-<li><b>Pisco:</b> Peru (single distillation to proof, no water, no wood aging; Quebranta is key) and Chile (may be aged and diluted).</li>
-<li><b>Grappa</b> (Italy) and <b>marc</b> (France) from pomace; eau-de-vie from fruit (kirsch, poire Williams, framboise).</li></ul>
-<h3>Agave</h3>
-<ul><li><b>Tequila:</b> Blue Weber agave from Jalisco and parts of Guanajuato, Michoacán, Nayarit and Tamaulipas. Piñas are cooked in brick ovens (hornos) or autoclaves; some industrial producers use diffusers, which purists criticize. A few use a stone wheel (tahona). Highlands (Los Altos) agave tends to be fruitier and floral; lowlands (Valle) more earthy and peppery.</li>
-<li><b>Mezcal:</b> any of many agave species (Espadín is most common; Tobalá is wild and prized), traditionally roasted in earthen pits for smoke. Categories: Mezcal, Mezcal Artesanal, Mezcal Ancestral (clay-pot distillation). Oaxaca dominates.</li>
-<li>Cousins: <b>Raicilla</b> (Jalisco), <b>Bacanora</b> (Sonora), and <b>Sotol</b> (from Dasylirion, a desert spoon plant, not agave).</li></ul>
-<h3>Rum</h3>
-<table class="t"><tr><th>Tradition</th><th>Style</th></tr>
-<tr><td>Jamaica</td><td>Pot still, high-ester, funky ("hogo"); Hampden, Appleton</td></tr>
-<tr><td>Barbados</td><td>Pot and column blends; balanced; Mount Gay, Foursquare</td></tr>
-<tr><td>Martinique (AOC 1996)</td><td>Rhum agricole from fresh cane juice; grassy</td></tr>
-<tr><td>Cuba, Puerto Rico</td><td>Light, column-distilled, filtered</td></tr>
-<tr><td>Guyana (Demerara)</td><td>Rich; historic wooden stills</td></tr>
-<tr><td>Spanish-style solera</td><td>Sweetened, aged in solera (age numbers can be misleading)</td></tr></table>
-<h3>Gin and vodka</h3>
-<p>Gin must taste predominantly of juniper. <b>London Dry</b> is a method: all botanicals added during redistillation, nothing but water after. <b>Plymouth</b> (earthier, a historic style), <b>Old Tom</b> (lightly sweet), <b>Genever</b> (malty Dutch ancestor; jonge and oude refer to style, not age), <b>Navy Strength</b> (about 57%). Methods: steeping botanicals (maceration), vapor infusion in a basket (Bombay Sapphire), or cold compounding (mixing flavorings, no redistillation). Vodka is neutral spirit, distilled to very high strength from grain, potato or other bases, then filtered.</p>
+
+
 <h3>Cognac, step by step</h3>
 <ol><li><b>The wine.</b> Ugni Blanc is picked early and fermented into a thin, sharp wine of 8 to 9% alcohol. No sulfur dioxide may be added, because distillation would concentrate it.</li>
 <li><b>First distillation.</b> The wine becomes a cloudy spirit of about 28 to 32% called the <b>brouillis</b>.</li>
@@ -609,6 +641,33 @@ body:`
 <li><b>Aging.</b> Limousin oak is wide-grained and tannic; Tronçais is tight-grained and gentler. About 2 to 3% evaporates each year, and a black fungus that feeds on the vapor stains the cellar walls of the region.</li>
 <li><b>Paradis.</b> When a very old Cognac has taken all it can from wood, it is moved to glass demijohns and kept in the house's inner cellar, the paradis.</li>
 <li><b>Finishing.</b> Water brings it down to 40%. Small amounts of sugar, caramel color and <b>boisé</b>, an infusion of oak chips, are legal.</li></ol>
+
+
+<h3>Why Cognac is made the way it is</h3>
+<p>Cognac is distilled from a wine that nobody would choose to drink. The grape, Ugni Blanc, is grown north of Bordeaux near the Atlantic and picked early, giving a thin, sharp wine of eight or nine percent alcohol with very high acidity. Both qualities are wanted. Low alcohol means that a large volume of wine must be concentrated to make a little spirit, so the flavors of the wine are concentrated many times over. High acidity preserves the wine naturally through the winter, since no sulfur dioxide may be added, as it would be carried over into the spirit. Distillation must be finished by the end of March following the harvest.</p>
+<p>The wine is distilled twice in a small copper pot still of a design fixed by law, heated by a direct flame. The first distillation gives a cloudy liquid of about thirty percent; the second, of the hearts of the first, gives a clear spirit of about seventy percent. Many producers distill the wine with its lees, the dead yeast, which adds richness and a creamy texture. The spirit then ages in casks of French oak, traditionally from the forests of Limousin, whose wide grain gives up tannin and vanilla readily, and its progress is managed by moving it from newer to older casks and from drier to damper cellars. A dry cellar gives a firmer, spicier spirit, a damp one a rounder, softer one. Over decades the oldest spirits develop a prized character called <em>rancio</em>, with notes of nuts, mushroom and old leather, and are eventually transferred to glass demijohns to stop further change.</p>
+<p>The region is divided into six districts ranked by the quality of spirit they give, which follows the chalk content of the soil. The two at the center, whose name refers to open chalky country and has nothing to do with sparkling wine, give the finest and longest-lived spirit. The grades on the label state the minimum age of the youngest spirit in the blend: two years for the first, four for the next, and ten for the highest regular grade. Nearly all Cognac is blended across districts, ages and often hundreds of casks to a house style, and four large houses sell most of it.</p>
+
+<h3>Armagnac</h3>
+<p>Older than Cognac, mostly single continuous distillation in the <b>alambic armagnacais</b> at low strength, so it keeps more character. Areas: <b>Bas-Armagnac</b> (finest), Ténarèze, Haut-Armagnac. Grapes: Ugni Blanc, <b>Baco 22A</b> (a hybrid), Folle Blanche, Colombard. Vintage-dated Armagnacs are common. Blanche d'Armagnac is unaged.</p>
+
+
+<h3>Armagnac by contrast</h3>
+<p>Armagnac, from Gascony in the southwest, is the older brandy and differs from Cognac at almost every step. It uses several grape varieties, including a hybrid found nowhere else in French appellation spirits, which gives a full, prune-like character. Most is distilled once, in a small continuous column still peculiar to the region, to a low strength of fifty-two to sixty percent, so it retains more of the heavier flavor compounds and is more rustic and aromatic when young. It ages in local black oak, which is rich in tannin. Production is in the hands of many small growers and a few merchants, and the region has kept a tradition of bottling single vintages. The result is a brandy of more individual and less polished character than Cognac, with flavors of dried fruit, toffee and spice, usually at a lower price for a given age.</p>
+
+<h3>Other brandies</h3>
+<ul><li><b>Calvados:</b> apple and pear brandy; Pays d'Auge double distilled; Domfrontais at least 30% pear.</li>
+<li><b>Brandy de Jerez:</b> solera-aged in Sherry casks: Solera, Solera Reserva, Solera Gran Reserva.</li>
+<li><b>Pisco:</b> Peru (single distillation to proof, no water, no wood aging; Quebranta is key) and Chile (may be aged and diluted).</li>
+<li><b>Grappa</b> (Italy) and <b>marc</b> (France) from pomace; eau-de-vie from fruit (kirsch, poire Williams, framboise).</li></ul>
+
+
+<h3>Agave</h3>
+<ul><li><b>Tequila:</b> Blue Weber agave from Jalisco and parts of Guanajuato, Michoacán, Nayarit and Tamaulipas. Piñas are cooked in brick ovens (hornos) or autoclaves; some industrial producers use diffusers, which purists criticize. A few use a stone wheel (tahona). Highlands (Los Altos) agave tends to be fruitier and floral; lowlands (Valle) more earthy and peppery.</li>
+<li><b>Mezcal:</b> any of many agave species (Espadín is most common; Tobalá is wild and prized), traditionally roasted in earthen pits for smoke. Categories: Mezcal, Mezcal Artesanal, Mezcal Ancestral (clay-pot distillation). Oaxaca dominates.</li>
+<li>Cousins: <b>Raicilla</b> (Jalisco), <b>Bacanora</b> (Sonora), and <b>Sotol</b> (from Dasylirion, a desert spoon plant, not agave).</li></ul>
+
+
 <h3>Agave: the slowest raw material</h3>
 <ul><li>Blue Weber agave needs about <b>five to eight years</b> to ripen, so supply and price swing in long cycles.</li>
 <li>The <b>jimador</b> cuts away the leaves with a long-handled blade, the <b>coa</b>, leaving the heart or <b>piña</b>, which can weigh 40 to 90 kilograms.</li>
@@ -618,12 +677,39 @@ body:`
 <li>Up to 1% of additives (caramel, oak extract, glycerin, sugar syrup) may be used without saying so.</li>
 <li><b>Cristalino</b> is aged tequila filtered through charcoal to remove its color.</li>
 <li>Mezcal agaves take longer: Espadín about seven or eight years, wild Tobalá 12 to 15, Tepeztate 25 or more. Good labels name the species, the village and the maker.</li></ul>
+
+
+<h3>Why agave spirits are different</h3>
+<p>Agave is a succulent plant of dry country that takes from six to more than twenty years to mature, flowers once and dies. Just before flowering it has stored a large reserve of carbohydrate in its core, and it is harvested at that point by cutting away the leaves to leave a heart weighing tens of kilograms. The reserve is in a form yeast cannot ferment, and it is converted to sugar by slow cooking. The length of the plant's life, the single harvest, and the cooking are what set these spirits apart, and each is a point at which tradition and industry diverge.</p>
+<p><strong>Tequila</strong> is made from one variety, the blue agave, in a defined region centered on the state of Jalisco. Traditional producers steam the hearts in brick ovens for a day or two, crush them, ferment the juice and distill it twice in pot stills. Large modern plants use pressure cookers or a machine that strips the sugars with hot water without cooking, which is efficient and gives a more neutral spirit. The law allows two categories: tequila made entirely from agave, labeled as such, and a cheaper kind in which up to forty-nine percent of the sugar may come from other sources. The classes by age run from unaged, clear and tasting most purely of the plant, with notes of pepper, citrus and cooked agave, through rested, two months to a year in oak, to aged, one to three years, and extra aged beyond that, in which wood increasingly dominates. Agave grown in the red soils of the highlands tends to give a fruitier, sweeter spirit than that of the valley.</p>
+<p><strong>Mezcal</strong> is the wider category, made from dozens of agave species in several states, above all Oaxaca. In the traditional method the hearts are roasted for days in a pit lined with hot stones and covered with earth, which gives the smoke that most people associate with the spirit; they are crushed by a stone wheel, fermented in open wooden vats with wild yeast, and distilled in small copper or clay stills. Much is made by family producers in tiny quantities. The species matters as grape variety does in wine, and rare wild agaves that take decades to mature give highly distinctive spirits, which raises a question of sustainability as demand grows.</p>
+
+<h3>Rum</h3>
+<table class="t"><tr><th>Tradition</th><th>Style</th></tr>
+<tr><td>Jamaica</td><td>Pot still, high-ester, funky ("hogo"); Hampden, Appleton</td></tr>
+<tr><td>Barbados</td><td>Pot and column blends; balanced; Mount Gay, Foursquare</td></tr>
+<tr><td>Martinique (AOC 1996)</td><td>Rhum agricole from fresh cane juice; grassy</td></tr>
+<tr><td>Cuba, Puerto Rico</td><td>Light, column-distilled, filtered</td></tr>
+<tr><td>Guyana (Demerara)</td><td>Rich; historic wooden stills</td></tr>
+<tr><td>Spanish-style solera</td><td>Sweetened, aged in solera (age numbers can be misleading)</td></tr></table>
+
+
 <h3>Why rums differ so much</h3>
 <ul><li><b>Molasses or juice.</b> Molasses, what is left after sugar is crystallized, keeps for months, so most rum is made from it. Fresh cane juice must be fermented within about a day of cutting, so agricole is seasonal.</li>
 <li><b>Fermentation time.</b> A light rum ferments for about a day. Jamaica's heavy rums ferment for two weeks or more with <b>dunder</b>, the acidic residue of earlier distillations, which builds the fruity esters.</li>
 <li><b>Tropical aging.</b> Evaporation runs at 6 to 10% a year, several times Scotland's rate. A 12-year-old Caribbean rum is a very mature spirit.</li>
 <li><b>Sugar.</b> Many Latin-style rums are sweetened after aging. Jamaica's rules and Martinique's AOC forbid it.</li>
 <li><b>Cachaça</b> is Brazil's fresh cane juice spirit, 38 to 48%, sometimes aged in native woods such as amburana. It is the base of the Caipirinha. <b>Clairin</b> is Haiti's wild-fermented cane juice spirit.</li></ul>
+
+
+<h3>The three traditions of rum</h3>
+<p>Rum has no single definition beyond being distilled from sugar cane, and its variety is a legacy of colonial history: each empire's islands developed a style. The <strong>British</strong> tradition, in Jamaica, Barbados and Guyana, used molasses and pot stills and gave heavy, dark, pungent rum. Jamaican rum is the extreme case, fermented for a long time with the acidic residue of previous distillations, which produces very high levels of fruity esters and a powerful aroma of overripe banana and pineapple. The <strong>Spanish</strong> tradition, in Cuba, Puerto Rico and the countries of the mainland, adopted the column still in the nineteenth century, fermented quickly, filtered through charcoal and aged in a system of blending, and gave the light, clean, dry style that suits cocktails. The <strong>French</strong> tradition, in Martinique and Guadeloupe, distills fresh cane juice instead of molasses, a practice adopted when sugar prices collapsed in the late nineteenth century; the resulting rum is grassy, vegetal and aromatic, and Martinique's has an appellation with strict rules.</p>
+<p>Age statements on rum are less reliable than on other spirits, since rules differ by country, and some labels give the age of the oldest component of a blend. Sugar and coloring are added to many rums after distillation, permitted in some countries and not in others. Tropical aging is rapid, with heavy evaporation, so that a rum of ten years in the Caribbean is very mature.</p>
+
+<h3>Gin and vodka</h3>
+<p>Gin must taste predominantly of juniper. <b>London Dry</b> is a method: all botanicals added during redistillation, nothing but water after. <b>Plymouth</b> (earthier, a historic style), <b>Old Tom</b> (lightly sweet), <b>Genever</b> (malty Dutch ancestor; jonge and oude refer to style, not age), <b>Navy Strength</b> (about 57%). Methods: steeping botanicals (maceration), vapor infusion in a basket (Bombay Sapphire), or cold compounding (mixing flavorings, no redistillation). Vodka is neutral spirit, distilled to very high strength from grain, potato or other bases, then filtered.</p>
+
+
 <h3>What is in a gin</h3>
 <table class="t"><tr><th>Botanical</th><th>What it gives</th></tr>
 <tr><td>Juniper</td><td>Pine and resin: the defining note</td></tr>
@@ -633,10 +719,20 @@ body:`
 <tr><td>Citrus peel</td><td>Lemon and orange freshness</td></tr>
 <tr><td>Cassia, licorice, cardamom</td><td>Warmth, sweetness and spice</td></tr></table>
 <p><b>Contemporary</b> gins turn the juniper down and bring other botanicals forward: cucumber and rose in Hendrick's, for example. <b>Sloe gin</b> is a liqueur: sloe berries steeped in gin with sugar, at 25% or more.</p>
+
+
+<h3>Flavored and neutral spirits</h3>
+<p><strong>Gin</strong> is defined by its flavoring. The base is neutral spirit, bought in or made by the distiller, and the character comes from botanicals, of which juniper must be the dominant one. Most gins use between six and twelve: coriander seed, which gives a citrus and spice note, angelica root, which is earthy and binds the others, citrus peel, orris root, cassia, liquorice and others. In the traditional method the botanicals are steeped in the diluted spirit, or hung in a basket in the neck of the still so that the vapor passes through them, and the spirit is redistilled, which carries over their aromatic oils. Gin so made, with nothing added afterward but water, may be called London Dry, a term that describes the method and has no geographical meaning. Cheaper gins are made by adding flavorings to neutral spirit without redistillation. The modern expansion of the category has brought gins that emphasize citrus, flowers or herbs over juniper. The ancestor of gin, the Dutch and Belgian spirit flavored with juniper, is made with a proportion of a malty, pot-distilled grain spirit and tastes closer to a light whisky.</p>
+<p><strong>Vodka</strong> is defined by the near absence of flavor. It may be made from any agricultural material, most often wheat, rye, maize or potatoes, distilled in columns to about 96 percent, filtered, often through charcoal, and diluted. Differences between vodkas are subtle and real, and lie in texture and a faint character from the base: rye gives a peppery edge, wheat a soft sweetness, potato a creamy weight. The water used for dilution, which makes up sixty percent of the bottle, matters as well. Claims about the number of distillations mean little in a continuous still.</p>
+
 <h3>Three more spirits worth knowing</h3>
 <ul><li><b>Aquavit:</b> Scandinavian, flavored with caraway or dill. Norway's Linie aquavit travels across the equator and back in Sherry casks.</li>
 <li><b>Soju:</b> Korea's national spirit. Traditional soju is distilled from rice; the familiar green bottles are diluted neutral spirit at about 16 to 20%.</li>
-<li><b>Baijiu:</b> China's sorghum spirit, fermented as a solid mash and often bottled above 50%. It is the most consumed spirit in the world. Moutai is the best-known "sauce aroma" style.</li></ul>`,
+<li><b>Baijiu:</b> China's sorghum spirit, fermented as a solid mash and often bottled above 50%. It is the most consumed spirit in the world. Moutai is the best-known "sauce aroma" style.</li></ul>
+
+<h3>Reading a spirits list</h3>
+<p>The questions a guest asks about spirits are few, and the answers follow from this chapter. Why does one cost more than another? Usually age, since time in cask ties up capital and loses volume to evaporation, and scarcity, as with slow-growing agave or the oldest brandies. What does the age term mean? It gives the youngest component and is defined differently for each spirit. Is darker better? Color comes from the cask, and in some categories from added caramel, and indicates wood influence more than quality. Which should be mixed and which sipped? Unaged and lightly aged spirits generally show best in cocktails, and the oldest are made to be drunk neat. A sommelier able to answer those four points for each category has what the floor requires.</p>
+`,
 floor:`<p>Digestif cart questions: know the grade ladder of Cognac, the difference between Cognac and Armagnac (distillation and character), and one Calvados. For agave, know 100% agave vs mixto and that mezcal isn't "smoky tequila."</p>`,
 analyst:`<p>WSET Level 3 Spirits (refreshed 2025) and the CSS cover these categories at this depth: raw materials, production, maturation and labeling law.</p>`,
 terms:[["Alambic armagnacais","Column still used for Armagnac, single continuous distillation."],["Baco 22A","Hybrid grape used in Armagnac."],["Tahona","Stone wheel used to crush cooked agave."],["Mezcal Ancestral","Mezcal distilled in clay pots."],["Hogo","Funky, high-ester character of Jamaican rum."],["Cold compounding","Gin made by mixing flavorings with neutral spirit."],["Brouillis","The low-strength spirit from Cognac's first distillation."],["Bonne chauffe","Cognac's second distillation, which gives the finished eau-de-vie."],["Jimador","The agave harvester."],["NOM","Number on a tequila bottle that identifies the distillery."],["Dunder","Acidic residue of earlier distillations, added to Jamaican rum ferments."],["Cachaça","Brazil's spirit of fresh sugarcane juice."],["Baijiu","China's sorghum spirit, fermented as a solid mash."]],
