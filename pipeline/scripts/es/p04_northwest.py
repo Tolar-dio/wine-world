@@ -37,7 +37,7 @@ For most of the 20th century Galicia made rustic local wine from hybrid and high
   "tagline": "Steep mountain vineyards of Cangas del Narcea, kept alive by a handful of growers.",
   "summary": "Asturias is cider country, but in the southwest, around Cangas del Narcea, monks and peasants grew vines on steep slate slopes for centuries. The Vino de Calidad Cangas protects them.",
   "history": "The monastery of Corias, founded in the 11th century, is credited with spreading the vine here.", "terroir": "Steep slate and quartzite slopes at 400 to 900 m above the Narcea, cool and wet.",
-  "grapes": "Albarín Negro, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco.", "styles": "Light, fresh reds and whites.", "classification": "VC Cangas.",
+  "grapes": "Albarín Tinto, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco.", "styles": "Light, fresh reds and whites.", "classification": "VC Cangas.",
   "appellations": ["Cangas"], "sources": [{"title": "MAPA DOP list", "url": "https://www.mapa.gob.es/es/dam/jcr%3Af9643333-ef75-4a2f-8864-afd1ade63fd1/02_vinos.pdf"}]},
 ]
 
@@ -84,13 +84,13 @@ The red wines, mostly Mencía with Merenzao, Brancellao and Sousón, are light, 
   """Bierzo is Spain's Mencía capital, a mountain basin in León where Galicia's Atlantic influence meets the Castilian plateau. Its best wines, from old vineyards on steep slate slopes, have the floral, peppery and mineral freshness that made Mencía fashionable worldwide. The arrival of Álvaro Palacios and his nephew Ricardo Pérez in 1999 (Descendientes de J. Palacios, in Corullón) and the work of native son Raúl Pérez, together with Losada, Dominio de Tares and Castro Ventosa, turned a region of cooperatives into one of the most dynamic in Spain.
 
 Bierzo's 2019 classification was a revolution: wines can be Vino de Villa (one village), Vino de Paraje (a named site), Vino de Viña Clasificada and Gran Vino de Viña Clasificada, each with progressively lower yields. The first village and paraje wines reached shops in June 2020. Mencía makes up three-quarters of the old plantings; Godello is the main white.""",
-  "A sheltered basin at 450 to 900 m surrounded by mountains, with clay soils on the valley floor and slate and quartzite on the slopes. About 700 mm of rain, warmer than Galicia's coast.",
+  "A sheltered basin ringed by mountains, with vineyards from 355 to 1,200 m (mostly 400 to 800 m): carbonate-free loam and clay on the valley floor, slate and quartzite on the slopes. About 793 mm of rain and a mean of 12.3°C, warmer than Galicia's coast.",
   ["Descendientes de J. Palacios", "Raúl Pérez", "Losada", "Dominio de Tares", "Castro Ventosa", "Pittacum", "Bodega del Abad", "Verónica Ortega"],
   "Bierzo's parajes were defined using the Spanish land registry, and its controls require 100 percent of the grapes from the named place, stricter than the EU's 85 percent rule.", contains=[]),
  app("Cangas", ["Cangas", "VC Cangas", "Vino de Calidad de Cangas"], "VC", "Asturias", "2008", 62, ["red", "white", "rose"], "red",
-  "Albarín Negro, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco",
-  "A tiny Vino de Calidad around Cangas del Narcea, in Asturias, with about 60 hectares on steep slate slopes and eight wineries. Its native varieties, Carrasquín and Albarín Negro, give light, peppery reds with high acidity.",
-  "Slopes at 400 to 900 m above the Narcea, cool and wet.", ["Monasterio de Corias", "Chacón Buelta"], "Asturias's only wine designation; the 11th-century Corias monastery nearby is now a Parador.", contains=[]),
+  "Albarín Tinto, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco",
+  "A tiny Vino de Calidad around Cangas del Narcea, in Asturias, with about 60 hectares on steep slate slopes and eight wineries. Its native varieties, Carrasquín and Albarín Tinto, give light, peppery reds with high acidity.",
+  "Very steep slate and schist slopes above the Narcea; about 1,000 mm of rain, around 30% less than the rest of Asturias, with cold winters and hot summers.", ["Monasterio de Corias", "Chacón Buelta"], "Asturias's only wine designation; the 11th-century Corias monastery nearby is now a Parador.", contains=[]),
  app("Getariako Txakolina / Chacolí de Getaria / Txakolí de Getaria", ["Getariako Txakolina / Chacolí de Getaria / Txakolí de Getaria", "Getariako Txakolina", "Txakolí de Getaria", "Chacolí de Getaria", "Getaria"], "DO", "Basque Country", "1989", 458, ["white", "rose", "red", "sparkling"], "white",
   "Hondarrabi Zuri, Hondarrabi Beltza, Gros Manseng, Petit Manseng, Petit Corbu",
   """The most famous Txakoli, from the fishing town of Getaria and the Gipuzkoa coast near San Sebastián. Its wines are bright, lightly spritzy, saline and low in alcohol (often 10.5 to 11.5 percent), the classic partner to anchovies, grilled fish and pintxos, poured from a height to raise the fizz. The DO was created in 1989 with a few dozen hectares and covers about 460 today.""",

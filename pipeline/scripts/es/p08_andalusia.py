@@ -95,7 +95,7 @@ Historically, Montilla's wines were sold to Jerez to sweeten or blend; the word 
   "High slopes of slate and schist with Mediterranean influence from the sea and mountain coolness.", ["Bodega Barranco Oscuro", "Bodegas Fontedei", "Cortijo El Cura"],
   "Barranco Oscuro in Cádiar claims some of the highest vineyards in Europe, at about 1,300 m.", contains=[]),
  app("Lebrija", ["Lebrija", "VC Lebrija", "Vino de Calidad de Lebrija"], "VC", AN, "2009", 19,
-  ["white", "fortified", "sweet"], "white", "Palomino, Moscatel, Vijiriega, Sauvignon Blanc; Tintilla de Rota",
+  ["white", "red", "fortified", "sweet"], "white", "Palomino, Palomino Fino, Moscatel de Alejandría, Sauvignon Blanc; Tintilla de Rota, Syrah, Tempranillo, Cabernet Sauvignon, Merlot, Petit Verdot",
   "A tiny Vino de Calidad in the Seville town of Lebrija, which also belongs to the Jerez production zone. It covers wines of the town not made as Sherry: still whites, biologically aged *Lebrija viejo*, and sweet wines. Only one winery was active in 2023/24.",
   "Albariza and clay on the edge of the Guadalquivir marshes.", ["Bodegas González Palacios"], "Lebrija's tradition of 'vino de la tierra' predates the Sherry ageing rules that kept it outside the Jerez name.", contains=[]),
 ]

@@ -537,7 +537,7 @@
    "summary": "Asturias is cider country, but in the southwest, around Cangas del Narcea, monks and peasants grew vines on steep slate slopes for centuries. The Vino de Calidad Cangas protects them.",
    "history": "The monastery of Corias, founded in the 11th century, is credited with spreading the vine here.",
    "terroir": "Steep slate and quartzite slopes at 400 to 900 m above the Narcea, cool and wet.",
-   "grapes": "Albarín Negro, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco.",
+   "grapes": "Albarín Tinto, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco.",
    "styles": "Light, fresh reds and whites.",
    "classification": "VC Cangas.",
    "appellations": [
@@ -1187,7 +1187,7 @@
    "dominant_style": "white",
    "grapes": "Verdejo (dominant), Sauvignon Blanc, Viura, Palomino; reds from Tempranillo since 2008",
    "summary": "Rueda, south of Valladolid, is Spain's best-selling white wine DO, and its fortunes rest on one grape: Verdejo. It used to make oxidative, sherry-like whites, *dorado* and *pálido*, aged in glass demijohns in the sun. In 1972 Marqués de Riscal, advised by Émile Peynaud, came looking for white grapes and began making fresh, cool-fermented Verdejo; the DO followed in 1980. Today Rueda has about 20,700 hectares and sells almost 900,000 hectolitres a year. The best wines, from old bush vines on stony soils around La Seca, Serrada and Rueda, can be textured and long-lived, especially when aged on lees or in barrel: Belondrade, Ossian and José Pariente show the range, and a newer *Gran Vino de Rueda* category rewards old vines and low yields.",
-   "terroir": "A flat plateau at 700 to 850 m, continental, with sandy and stony alluvial soils (cascajo) rich in limestone, which give Verdejo freshness despite the heat.",
+   "terroir": "A flat plateau at 700 to 870 m, continental, with sandy and stony alluvial soils (cascajo) rich in limestone, which give Verdejo freshness despite the heat.",
    "producers": [
     "Marqués de Riscal",
     "Belondrade",
@@ -1197,7 +1197,7 @@
     "Javier Sanz",
     "Menade"
    ],
-   "nerd_note": "Rueda Dorado, an oxidative fortified white aged for at least two years in glass and wood, is still defined by the DO: a living fossil of the region's medieval style.",
+   "nerd_note": "Rueda Dorado, an oxidative white of 15 to 17.5% aged at least four years, the last two in oak, is still defined by the DO: a living fossil of the region's medieval style.",
    "contains": []
   },
   {
@@ -1250,7 +1250,7 @@
    ],
    "dominant_style": "red",
    "grapes": "Tempranillo, with Garnacha, Mencía, Cabernet Sauvignon; Albillo and Viura for whites",
-   "summary": "A small, cool DO along the Arlanza river in Burgos and Palencia, around Lerma and Covarrubias, where the monks of San Pedro de Arlanza once made wine. Vineyards sit at 800 to 1,000 m, among the highest in the Duero basin, giving lighter, fresh Tempranillo. Only about 300 hectares and a few dozen growers.",
+   "summary": "A small, cool DO along the Arlanza river in Burgos and Palencia, around Lerma and Covarrubias, where the monks of San Pedro de Arlanza once made wine. Vineyards sit at 750 to 1,200 m, among the highest in the Duero basin, giving lighter, fresh Tempranillo. Only about 300 hectares and a few dozen growers.",
    "terroir": "High, cold and continental, with limestone and clay soils; frost is a constant risk.",
    "producers": [
     "Sabinares",
@@ -1281,7 +1281,7 @@
    "dominant_style": "red",
    "grapes": "Juan García (local), Rufete, Bruñal, Tempranillo, Mencía; Malvasía (Doña Blanca) for whites",
    "summary": "Arribes follows the Duero's gorge along the Portuguese border in Zamora and Salamanca, across the river from the Douro Superior. Terraced granite and slate slopes drop into a canyon with a surprisingly Mediterranean microclimate, where olives and almonds grow beside old vines of Juan García, a light, peppery red found almost nowhere else. A tiny, beautiful region of about 300 hectares.",
-   "terroir": "Steep terraces of granite and slate above the canyon at 400 to 800 m; warm, sheltered microclimate. Fermoselle has a network of medieval cellars under the village.",
+   "terroir": "Steep terraces of granite and slate falling from about 700 m on the plateau to 130 m at the river; warm, sheltered microclimate. Fermoselle has a network of medieval cellars under the village.",
    "producers": [
     "La Setera",
     "Ocellum Durii",
@@ -1367,7 +1367,7 @@
     "white"
    ],
    "dominant_style": "red",
-   "grapes": "Prieto Picudo, Tempranillo, Mencía; Verdejo, Moscatel",
+   "grapes": "Prieto Picudo, Tempranillo, Mencía; Verdejo, Malvasía Castellana (Doña Blanca)",
    "summary": "A Vino de Calidad around the town of Benavente in northern Zamora, where the Esla, Órbigo and Tera rivers converge. Small (about 146 hectares) and focused on Prieto Picudo and Tempranillo.",
    "terroir": "Alluvial valleys at 700 to 800 m.",
    "producers": [],
@@ -1391,7 +1391,7 @@
     "rose"
    ],
    "dominant_style": "red",
-   "grapes": "Tempranillo (Tinta del País), Garnacha, Syrah",
+   "grapes": "Tempranillo (Tinta del País), Garnacha, Cabernet Sauvignon, Merlot, Syrah",
    "summary": "A small Vino de Calidad in northern Segovia, just south of Ribera del Duero along the Duratón, with vineyards up to 900 m. Only about 70 hectares and a few producers.",
    "terroir": "High, cold limestone plateau.",
    "producers": [],
@@ -1492,13 +1492,14 @@
    "region": "Castilla y León",
    "subregion": null,
    "created": "2022",
-   "area_ha": 78,
+   "area_ha": 91,
    "styles": [
-    "red"
+    "red",
+    "rose"
    ],
    "dominant_style": "red",
    "grapes": "Tempranillo, Syrah, Cabernet Sauvignon, Merlot",
-   "summary": "A Vino de Pago in the municipality of Villabáñez (Valladolid), on the south bank of the Duero west of Ribera, named after Peñalba de Duero, a long-abandoned village. Approved by the EU in February 2022 for red wines only, from Tempranillo, Syrah, Cabernet Sauvignon and Merlot on warm, sandy, gravelly soils.",
+   "summary": "A Vino de Pago in the municipality of Villabáñez (Valladolid), on the south bank of the Duero west of Ribera, named after Peñalba de Duero, a long-abandoned village. Approved by the EU in February 2022 for red wines, with rosé added by a 2022 amendment, from Tempranillo, Syrah, Cabernet Sauvignon and Merlot on warm, sandy, gravelly soils.",
    "terroir": "Warm, sandy, gravelly, well-drained soils.",
    "producers": [
     "Bodegas Vizar"
@@ -1517,7 +1518,7 @@
    "region": "Castilla y León",
    "subregion": null,
    "created": "2021",
-   "area_ha": 16,
+   "area_ha": 78,
    "styles": [
     "red",
     "rose"
@@ -1728,7 +1729,7 @@
    "dominant_style": "red",
    "grapes": "Mencía (about 70% of grapes), Garnacha Tintorera, Merenzao, Estaladiña; Godello, Doña Blanca, Palomino",
    "summary": "Bierzo is Spain's Mencía capital, a mountain basin in León where Galicia's Atlantic influence meets the Castilian plateau. Its best wines, from old vineyards on steep slate slopes, have the floral, peppery and mineral freshness that made Mencía fashionable worldwide. The arrival of Álvaro Palacios and his nephew Ricardo Pérez in 1999 (Descendientes de J. Palacios, in Corullón) and the work of native son Raúl Pérez, together with Losada, Dominio de Tares and Castro Ventosa, turned a region of cooperatives into one of the most dynamic in Spain.\n\nBierzo's 2019 classification was a revolution: wines can be Vino de Villa (one village), Vino de Paraje (a named site), Vino de Viña Clasificada and Gran Vino de Viña Clasificada, each with progressively lower yields. The first village and paraje wines reached shops in June 2020. Mencía makes up three-quarters of the old plantings; Godello is the main white.",
-   "terroir": "A sheltered basin at 450 to 900 m surrounded by mountains, with clay soils on the valley floor and slate and quartzite on the slopes. About 700 mm of rain, warmer than Galicia's coast.",
+   "terroir": "A sheltered basin ringed by mountains, with vineyards from 355 to 1,200 m (mostly 400 to 800 m): carbonate-free loam and clay on the valley floor, slate and quartzite on the slopes. About 793 mm of rain and a mean of 12.3°C, warmer than Galicia's coast.",
    "producers": [
     "Descendientes de J. Palacios",
     "Raúl Pérez",
@@ -1761,9 +1762,9 @@
     "rose"
    ],
    "dominant_style": "red",
-   "grapes": "Albarín Negro, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco",
-   "summary": "A tiny Vino de Calidad around Cangas del Narcea, in Asturias, with about 60 hectares on steep slate slopes and eight wineries. Its native varieties, Carrasquín and Albarín Negro, give light, peppery reds with high acidity.",
-   "terroir": "Slopes at 400 to 900 m above the Narcea, cool and wet.",
+   "grapes": "Albarín Tinto, Carrasquín, Verdejo Negro, Mencía; Albarín Blanco",
+   "summary": "A tiny Vino de Calidad around Cangas del Narcea, in Asturias, with about 60 hectares on steep slate slopes and eight wineries. Its native varieties, Carrasquín and Albarín Tinto, give light, peppery reds with high acidity.",
+   "terroir": "Very steep slate and schist slopes above the Narcea; about 1,000 mm of rain, around 30% less than the rest of Asturias, with cold winters and hot summers.",
    "producers": [
     "Monasterio de Corias",
     "Chacón Buelta"
@@ -2005,10 +2006,10 @@
    "styles": [
     "red",
     "white",
-    "rose"
+    "sweet"
    ],
    "dominant_style": "red",
-   "grapes": "Garnacha, Tempranillo, Cabernet Sauvignon, Merlot",
+   "grapes": "Cabernet Sauvignon, Merlot, Tempranillo, Syrah; Chardonnay, Sauvignon Blanc, Moscatel de grano menudo",
    "summary": "Navarra's newest pago, a single estate of about 114 hectares registered in the ministry's 2026 list. As with every pago, the winery must grow, make and bottle all the wine on the estate.",
    "terroir": "Southern Navarra, in the Ebro basin.",
    "producers": [],
@@ -2162,7 +2163,7 @@
     "white"
    ],
    "dominant_style": "red",
-   "grapes": "Garnacha, Tempranillo, Merlot, Cabernet Sauvignon",
+   "grapes": "Garnacha, Tempranillo, Cabernet Sauvignon, Syrah, Merlot; Chardonnay",
    "summary": "Aragón's first Vino de Pago, the estate of Señorío de Aylés near Mezalocha, south of Zaragoza, around a historic farm on the edge of the Cariñena country. It makes Garnacha-led reds and rosados.",
    "terroir": "Clay, limestone and gravel at about 500 m.",
    "producers": [
@@ -2399,7 +2400,7 @@
    "cat": "DO",
    "region": "Catalonia",
    "subregion": null,
-   "created": "1988",
+   "created": "1986",
    "area_ha": 3940,
    "styles": [
     "red",
@@ -2410,7 +2411,7 @@
    "dominant_style": "red",
    "grapes": "Tempranillo, Cabernet Sauvignon, Merlot, Garnatxa, Syrah; Macabeu, Xarel·lo, Parellada, Chardonnay",
    "summary": "An interior DO in the province of Lleida with seven subzones (Artesa, Garrigues, Pallars Jussà, Raimat, Segrià, Valls del Riu Corb and Urgell), from dry plains to pre-Pyrenean slopes. Its story begins at Raimat, where Manuel Raventós of Codorníu bought desert land in 1914, irrigated it from the Urgell canal and planted vines and pines. Castell del Remei is the other historic name.",
-   "terroir": "Continental, dry (300 to 400 mm of rain) and cold-wintered, on limestone and gravel; irrigation is allowed and common.",
+   "terroir": "Continental, dry (about 240 mm of rain at Lleida, up to 450 mm elsewhere) and cold-wintered, on limestone and gravel; irrigation is allowed and common.",
    "producers": [
     "Raimat",
     "Castell del Remei",
@@ -2780,8 +2781,8 @@
     "rose"
    ],
    "dominant_style": "red",
-   "grapes": "Tempranillo, Cabernet Sauvignon, Garnacha; Malvar, Macabeo, Torrontés",
-   "summary": "A small DO in southwest Guadalajara, near the Tagus, with about 360 hectares and two active wineries. Its main white grape is the local Malvar.",
+   "grapes": "Tempranillo (Cencibel), Cabernet Sauvignon, Syrah, Merlot; Malvar, Airén, Macabeo, Torrontés",
+   "summary": "A small DO in southern Guadalajara, near the Tagus, with about 360 hectares and two active wineries. Its main white grape is the local Malvar.",
    "terroir": "Plateau and hills at 700 to 800 m, limestone and clay.",
    "producers": [
     "Bodegas Mariscal"
@@ -2895,7 +2896,7 @@
    ],
    "dominant_style": "red",
    "grapes": "Tempranillo, Cabernet Sauvignon, Merlot, Syrah, Bobal, Petit Verdot, Garnacha Tintorera; Airén, Macabeo, Verdejo, Chardonnay, Sauvignon Blanc",
-   "summary": "Spain's newest DO, registered by the EU in February 2024 as the 102nd Spanish DOP: 16 municipalities in Ciudad Real province, in the area around Almagro and the Ciudad Real plain. It covers a field of extinct volcanoes, the most significant recent volcanic area of the Iberian Peninsula, with soils rich in nickel.",
+   "summary": "Spain's newest DO, registered by the EU in February 2024 as the 102nd Spanish DOP: 16 municipalities in Ciudad Real province, in the area around Almagro and the Ciudad Real plain. It covers a field of extinct volcanoes, the most significant recent volcanic area of the Iberian Peninsula, with volcanic soils rich in manganese and potassium and low in calcium.",
    "terroir": "Rolling hills at 700 to 900 m and plains at 630 to 650 m, on volcanic and limestone soils.",
    "producers": [],
    "nerd_note": "The Campo de Calatrava volcanic field has hundreds of small volcanoes and maars, the newest of them only a few thousand years old.",
@@ -2914,7 +2915,7 @@
    "cat": "DO",
    "region": "Murcia",
    "subregion": null,
-   "created": "1966",
+   "created": "1961",
    "area_ha": 21447,
    "styles": [
     "red",
@@ -3197,7 +3198,7 @@
     "red"
    ],
    "dominant_style": "red",
-   "grapes": "Cabernet Sauvignon, Syrah, Petit Verdot, Graciano",
+   "grapes": "Cabernet Sauvignon, Syrah, Petit Verdot, Graciano, Merlot",
    "summary": "Spain's first Vino de Pago, the estate of Carlos Falcó, Marqués de Griñón, at Malpica de Tajo in Toledo. Falcó studied at UC Davis, planted Cabernet in 1974 and brought in Richard Smart's canopy-management techniques and drip irrigation. His Syrah and Petit Verdot proved that the La Mancha fringes could make fine wine. Falcó died in 2020; the estate is now run by his children.",
    "terroir": "Clay over limestone in the Tagus valley, at about 450 m.",
    "producers": [
@@ -3457,11 +3458,10 @@
    "created": "2019",
    "area_ha": 34,
    "styles": [
-    "red",
-    "white"
+    "red"
    ],
    "dominant_style": "red",
-   "grapes": "Tempranillo, Cabernet Sauvignon, Merlot, Syrah, Petit Verdot; Chardonnay",
+   "grapes": "Tempranillo, Cabernet Sauvignon, Syrah, Petit Verdot",
    "summary": "The pago of Bodegas Montalvo Wilmot at Argamasilla de Alba, in Ciudad Real, registered by the EU in 2019. The town is traditionally identified as the 'place in La Mancha' whose name Cervantes did not want to remember, and the estate makes Tempranillo-led reds and Chardonnay on limestone and red clay.",
    "terroir": "Limestone and red clay on the La Mancha plain.",
    "producers": [
@@ -3542,9 +3542,9 @@
     "red"
    ],
    "dominant_style": "red",
-   "grapes": "Varieties not documented in the sources consulted",
-   "summary": "Registered in March 2024, Rosalejo is one of Spain's newest pagos. The Ministry of Agriculture's 2023/24 report lists it with 1,338.7 hectares of land and one winery, but no wine marketed during its first campaign. Grape varieties and producer details were not available in the sources consulted.",
-   "terroir": "Castilla-La Mancha.",
+   "grapes": "Syrah, Tempranillo, Garnacha",
+   "summary": "Registered in March 2024, Rosalejo is one of Spain's newest pagos. The Ministry of Agriculture's 2023/24 report lists it with 1,338.7 hectares of land and one winery, but no wine marketed during its first campaign. Its rules allow red wines from Syrah, Tempranillo and Garnacha, on a raña plateau at 650 m between Anchuras (Ciudad Real) and Sevilleja de la Jara (Toledo).",
+   "terroir": "A raña (old alluvial plateau) at 650 m, between Anchuras (Ciudad Real) and Sevilleja de la Jara (Toledo), with Atlantic influence.",
    "producers": [],
    "nerd_note": "The ministry recorded no wine marketed under Rosalejo in its first campaign.",
    "contains": [],
@@ -3566,8 +3566,7 @@
    "created": null,
    "area_ha": 63,
    "styles": [
-    "red",
-    "white"
+    "red"
    ],
    "dominant_style": "red",
    "grapes": "Bobal, Tempranillo, Garnacha, Cabernet Sauvignon, Merlot, Syrah",
@@ -3596,7 +3595,7 @@
     "white"
    ],
    "dominant_style": "red",
-   "grapes": "Syrah, Merlot, Tempranillo; Chardonnay, Sauvignon Blanc",
+   "grapes": "Syrah, Merlot, Tempranillo, Garnacha Tintorera, Bobal; Chardonnay, Sauvignon Blanc, Tardana",
    "summary": "A pago of Bodegas Vegalfaro in the municipality of Requena, on the Utiel-Requena plateau at about 750 m. Unusually for the area it does not include Bobal: its rules allow Syrah, Merlot, Tempranillo, Chardonnay and Sauvignon Blanc. At about 18 hectares it is one of the smallest pagos, shared by two registered wineries in 2023/24.",
    "terroir": "Plateau at about 750 m.",
    "producers": [
@@ -3619,8 +3618,8 @@
    "area_ha": 31,
    "styles": [
     "red",
-    "white",
-    "sparkling"
+    "rose",
+    "white"
    ],
    "dominant_style": "red",
    "grapes": "Bobal, Tempranillo, Garnacha, Cabernet, Syrah, Monastrell; Chardonnay, Sauvignon Blanc, Macabeo",
@@ -3646,6 +3645,7 @@
    "area_ha": 45,
    "styles": [
     "red",
+    "rose",
     "white"
    ],
    "dominant_style": "red",
@@ -3670,7 +3670,7 @@
    "region": "Valencia",
    "subregion": null,
    "created": "2025",
-   "area_ha": null,
+   "area_ha": 19.5,
    "styles": [
     "red",
     "white",
@@ -3678,7 +3678,7 @@
     "sparkling"
    ],
    "dominant_style": "red",
-   "grapes": "Bobal and other reds; whites and sparkling",
+   "grapes": "Merlot, Bobal, Garnacha, Cabernet Franc; Chardonnay, Albariño, Xarel·lo",
    "summary": "Spain's newest Vino de Pago (EU, October 2025), near Requena. The historic estate was revived in 1998 under its original name, and its pago rules cover quality sparkling wine as well as still red, white and rosé.",
    "terroir": "Requena plateau, limestone and clay.",
    "producers": [
@@ -3964,11 +3964,12 @@
    "area_ha": 19,
    "styles": [
     "white",
+    "red",
     "fortified",
     "sweet"
    ],
    "dominant_style": "white",
-   "grapes": "Palomino, Moscatel, Vijiriega, Sauvignon Blanc; Tintilla de Rota",
+   "grapes": "Palomino, Palomino Fino, Moscatel de Alejandría, Sauvignon Blanc; Tintilla de Rota, Syrah, Tempranillo, Cabernet Sauvignon, Merlot, Petit Verdot",
    "summary": "A tiny Vino de Calidad in the Seville town of Lebrija, which also belongs to the Jerez production zone. It covers wines of the town not made as Sherry: still whites, biologically aged *Lebrija viejo*, and sweet wines. Only one winery was active in 2023/24.",
    "terroir": "Albariza and clay on the edge of the Guadalquivir marshes.",
    "producers": [
