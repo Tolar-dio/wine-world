@@ -298,7 +298,7 @@ APXF["es-rosalejo"] = cm({
 });
 APXF["es-rio-negro"] = cm({
   lede: "A high páramo at 940 to 1,000 m near Cogolludo, Guadalajara, by the Sierra Norte, Castilla-La Mancha's coolest pago.",
-  cat: "Vino de Pago (DOP)", rec: "Vino de Pago (published 2024)",
+  cat: "Vino de Pago (DOP)", rec: "Vino de Pago; EU registration March 2025",
   src: ["Pliego de condiciones Río Negro (Junta de Castilla-La Mancha)", "https://apliagri.castillalamancha.es/sites/default/files/2025-06/PLIEGO_DE_CONDICIONES_RIO_NEGRO.pdf"],
   amended: "Text published by the Ministry in November 2024", sources: [CLMSRC],
   facts: [["Zone", "Parcels at Cogolludo, San Andrés del Congosto and Membrillera (Guadalajara)"], ["Grapes", "Tempranillo, Tinto Fragoso, Syrah, Cabernet Sauvignon, Merlot; Gewürztraminer"], ["Minimum alcohol", "White 12%; red 13%"], ["Yields", "White 9,000 kg/ha (63 hl/ha); red 7,000 kg/ha (49 hl/ha)"], ["White", "100% Gewürztraminer"]],
