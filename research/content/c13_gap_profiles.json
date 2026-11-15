@@ -1,0 +1,993 @@
+{
+ "_note": "Gap-country appellation profiles (Nov 2026). Countries and regions already exist in c7/c8/c9/c12; these entries supply profiles only, with explicit ids and approximate points so integrate.py reproduces the hand-patched docs/data/content files.",
+ "countries": [],
+ "regions": [],
+ "appellations": [
+  {
+   "id": "il-galilee",
+   "country": "il",
+   "name": "Galilee (Galil)",
+   "match": [
+    "Galilee (Galil)"
+   ],
+   "cat": "Wine region",
+   "region": "Galilee and Golan Heights",
+   "created": "Israel's regional map of five wine regions",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cabernet Sauvignon, Merlot, Syrah, Chardonnay, Sauvignon Blanc, Carignan",
+   "summary": "The Galilee is Israel's northern wine region and its quality heartland. The Upper Galilee, around Dalton, Kerem Ben Zimra and the slopes near the Lebanese border, rises to about 800 metres on limestone, terra rossa and basalt, while the Lower Galilee spreads around Mount Tabor at lower altitude.\n\nCool nights at altitude, winter rain and long dry summers suit Bordeaux and Rhône varieties, and the region supplies many of Israel's best-known wineries, including those based elsewhere that buy Galilee fruit.",
+   "terroir": "Limestone, terra rossa and volcanic soils; 300 to 800 m; Mediterranean climate with winter rain and dry summers.",
+   "producers": [
+    "Dalton",
+    "Galil Mountain",
+    "Adir",
+    "Tabor",
+    "Recanati"
+   ],
+   "nerd_note": "Galilee fruit is the backbone of many Israeli blends labelled simply 'Galilee', the largest appellation in the country by quality output.",
+   "lat": 33.0,
+   "lon": 35.45,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "il-golan-heights",
+   "country": "il",
+   "name": "Golan Heights",
+   "match": [
+    "Golan Heights"
+   ],
+   "cat": "Wine region",
+   "region": "Galilee and Golan Heights",
+   "created": "Subregion of Israel's Galil region",
+   "styles": [
+    "red",
+    "white",
+    "sparkling"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cabernet Sauvignon, Merlot, Syrah, Chardonnay, Sauvignon Blanc, Gewürztraminer, Pinot Noir",
+   "summary": "The Golan Heights plateau rises from about 400 metres near the Sea of Galilee to around 1,200 metres below Mount Hermon, on volcanic basalt and tuff. It is the coolest and highest vineyard land under Israeli control, with snow some winters and big day-night temperature swings.\n\nThe Golan was captured by Israel from Syria in the 1967 war and annexed in 1981; most of the world, including the UN Security Council, does not recognise the annexation, although the United States did in 2019. Under a 2015 European Commission notice, upheld by the EU Court of Justice in the Psagot case (2019), wine from Israeli settlements in territories occupied since 1967 may not be labelled 'Product of Israel' in the EU and must state its territory and that it comes from a settlement.",
+   "terroir": "Basalt and volcanic tuff; 400 to 1,200 m; cool nights, winter snow on the heights.",
+   "producers": [
+    "Golan Heights Winery (Yarden)",
+    "Pelter",
+    "Bazelet HaGolan",
+    "Assaf"
+   ],
+   "nerd_note": "The Golan Heights Winery released its first wine, a 1983 Yarden Sauvignon Blanc, and is often credited with starting Israel's quality revolution.",
+   "lat": 33.0,
+   "lon": 35.75,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "il-judean-hills",
+   "country": "il",
+   "name": "Judean Hills",
+   "match": [
+    "Judean Hills"
+   ],
+   "cat": "Wine region",
+   "region": "Judean Hills",
+   "created": "One of Israel's five wine regions",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cabernet Sauvignon, Merlot, Cabernet Franc, Syrah, Chardonnay",
+   "summary": "The Judean Hills around Jerusalem rise to 600 to 1,000 metres on limestone, chalk and terra rossa. Vineyards on terraces, some reusing ancient walls, enjoy cool nights and sea breezes from the west, and the region has become home to many of Israel's leading boutique wineries.\n\nPart of the region as mapped by Israel lies in the occupied West Bank, around Gush Etzion. Under a 2015 European Commission notice, upheld by the EU Court of Justice in the Psagot case (2019), wine from Israeli settlements in territories occupied since 1967 may not be labelled 'Product of Israel' in the EU and must state its territory and that it comes from a settlement.",
+   "terroir": "Limestone, chalk and terra rossa; terraces at 600 to 1,000 m; cool nights.",
+   "producers": [
+    "Castel",
+    "Flam",
+    "Tzora",
+    "Clos de Gat",
+    "Sphera"
+   ],
+   "nerd_note": "The Book of Numbers tells of spies who carried a single cluster of grapes on a pole from the valley of Eshkol, near Hebron, an image Israel's tourism ministry adopted as its logo.",
+   "lat": 31.75,
+   "lon": 35.05,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "il-shomron",
+   "country": "il",
+   "name": "Shomron (Samaria)",
+   "match": [
+    "Shomron (Samaria)"
+   ],
+   "cat": "Wine region",
+   "region": "Shomron",
+   "created": "One of Israel's five wine regions",
+   "styles": [
+    "red",
+    "white",
+    "sweet"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cabernet Sauvignon, Merlot, Carignan, Petite Sirah, Chardonnay",
+   "summary": "Shomron runs from the Mount Carmel ridge and the Sharon plain around Zichron Ya'akov and Binyamina inland into the hills of Samaria. The coastal section has warm summers tempered by sea breezes; the hills are higher and cooler.\n\nThe inland part of the region lies in the occupied West Bank. Under a 2015 European Commission notice, upheld by the EU Court of Justice in the Psagot case (2019), wine from Israeli settlements in territories occupied since 1967 may not be labelled 'Product of Israel' in the EU and must state its territory and that it comes from a settlement.",
+   "terroir": "Limestone and terra rossa on the Carmel; alluvial soils near the coast; inland hills.",
+   "producers": [
+    "Carmel (Zichron Ya'akov)",
+    "Tishbi",
+    "Margalit",
+    "Binyamina"
+   ],
+   "nerd_note": "Zichron Ya'akov's cellars, built under Baron Edmond de Rothschild's patronage, opened in 1892 and still operate as part of Carmel.",
+   "lat": 32.57,
+   "lon": 34.95,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "il-shimshon",
+   "country": "il",
+   "name": "Shimshon (Samson)",
+   "match": [
+    "Shimshon (Samson)"
+   ],
+   "cat": "Wine region",
+   "region": "Shimshon",
+   "created": "One of Israel's five wine regions",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cabernet Sauvignon, Merlot, Carignan, Syrah, Chardonnay",
+   "summary": "Shimshon, named after the biblical Samson, covers the central coastal plain and the Judean foothills (Shfela) between the sea and the Judean Hills, including the Ayalon valley. It is warmer and lower than the hills and grows large volumes for Israel's big wineries.",
+   "terroir": "Coastal plain and foothills; alluvial and limestone soils; warm, humid summers.",
+   "producers": [
+    "Barkan",
+    "Latrun Monastery",
+    "Carmel"
+   ],
+   "nerd_note": "Trappist monks at Latrun, in the Ayalon valley, have made wine since the late nineteenth century.",
+   "lat": 31.85,
+   "lon": 34.95,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "il-negev",
+   "country": "il",
+   "name": "Negev",
+   "match": [
+    "Negev"
+   ],
+   "cat": "Wine region",
+   "region": "Negev",
+   "created": "One of Israel's five wine regions",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cabernet Sauvignon, Merlot, Syrah, Chardonnay",
+   "summary": "The Negev desert covers the south of Israel. With under 100 to 300 millimetres of rain a year, vineyards depend on drip irrigation, sometimes with brackish water, and on cold desert nights at altitude around Mitzpe Ramon and Ramat Negev.",
+   "terroir": "Loess and sand; desert climate with hot days and cold nights; drip irrigation.",
+   "producers": [
+    "Carmey Avdat",
+    "Nana Estate"
+   ],
+   "nerd_note": "Byzantine-era wine presses at Shivta and Avdat show the desert towns produced wine traded across the Mediterranean as 'Gaza wine'.",
+   "lat": 30.8,
+   "lon": 34.75,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "lb-bekaa-valley",
+   "country": "lb",
+   "name": "Bekaa Valley",
+   "match": [
+    "Bekaa Valley"
+   ],
+   "cat": "Wine region",
+   "region": "Bekaa Valley",
+   "created": "Traditional region; Lebanon has no formal appellation system",
+   "styles": [
+    "red",
+    "white",
+    "rosé"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cinsault, Cabernet Sauvignon, Syrah, Carignan, Grenache, Obeideh, Merwah",
+   "summary": "The Bekaa is a high valley at 900 to 1,000 metres between the Mount Lebanon and Anti-Lebanon ranges, and it grows most of Lebanon's wine grapes. The mountains block much of the sea's rain, leaving hot, dry, sunny summers with cool nights; the West Bekaa around Kefraya and the central valley around Zahle and Ksara are the main areas.",
+   "terroir": "Clay, limestone and gravel; 900 to 1,000 m; dry summers, snowy winters.",
+   "producers": [
+    "Château Ksara",
+    "Château Kefraya",
+    "Château Musar (vineyards)",
+    "Massaya",
+    "Domaine des Tourelles"
+   ],
+   "nerd_note": "The Roman temple at Baalbek, in the northern Bekaa, includes one of the best-preserved temples of the ancient world, traditionally identified as dedicated to Bacchus.",
+   "lat": 33.85,
+   "lon": 35.9,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "lb-mount-lebanon",
+   "country": "lb",
+   "name": "Mount Lebanon",
+   "match": [
+    "Mount Lebanon"
+   ],
+   "cat": "Wine region",
+   "region": "Mount Lebanon",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Cabernet Sauvignon, Cinsault, Carignan, Obeideh, Merwah",
+   "summary": "The Mount Lebanon range rises steeply from the coast to over 3,000 metres. Its villages hold historic wineries and some high vineyards, while several producers age their wines here from grapes grown in the Bekaa.",
+   "terroir": "Limestone mountain slopes; high altitude and maritime influence.",
+   "producers": [
+    "Château Musar",
+    "Domaine de Baal (Bekaa)",
+    "Château Qanafar"
+   ],
+   "nerd_note": "Château Musar ages its wine in the cellars of the Mzar castle at Ghazir, above the bay of Jounieh.",
+   "lat": 34.0,
+   "lon": 35.67,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "lb-batroun",
+   "country": "lb",
+   "name": "Batroun",
+   "match": [
+    "Batroun"
+   ],
+   "cat": "Wine region",
+   "region": "Batroun",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Syrah, Cabernet Sauvignon, Merlot, Sauvignon Blanc, Viognier",
+   "summary": "Batroun's coastal hills north of Byblos climb from the sea to about 1,800 metres. Since the late 1990s a cluster of small wineries has grown up here, the most dynamic area outside the Bekaa.",
+   "terroir": "Limestone terraces; maritime influence; up to 1,800 m.",
+   "producers": [
+    "Ixsir",
+    "Batroun Mountains",
+    "Coteaux de Botrys",
+    "Sept"
+   ],
+   "nerd_note": "Byblos, just south, is one of the oldest continuously inhabited cities, and Phoenician traders shipped wine across the Mediterranean from this coast.",
+   "lat": 34.25,
+   "lon": 35.72,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "tr-thrace",
+   "country": "tr",
+   "name": "Thrace (Trakya)",
+   "match": [
+    "Thrace (Trakya)"
+   ],
+   "cat": "Wine region",
+   "region": "Thrace and Marmara",
+   "created": "Traditional region; Türkiye has no national appellation system",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Papaskarası, Adakarası, Cabernet Sauvignon, Merlot, Syrah, Sauvignon Blanc, Narince",
+   "summary": "European Türkiye between the Black Sea, the Sea of Marmara and the Aegean is the country's leading quality wine area, especially around Tekirdağ (Şarköy and Mürefte) and Kırklareli. The Marmara moderates the climate, giving warm summers and mild winters.",
+   "terroir": "Clay, sand and limestone; maritime influence of the Marmara and Black Sea.",
+   "producers": [
+    "Barbare",
+    "Chamlija",
+    "Gali",
+    "Arcadia",
+    "Doluca"
+   ],
+   "nerd_note": "Mürefte and Şarköy on the Marmara coast were wine villages of Ottoman Greek communities until the population exchange of 1923.",
+   "lat": 40.75,
+   "lon": 27.3,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "tr-bozcaada",
+   "country": "tr",
+   "name": "Bozcaada",
+   "match": [
+    "Bozcaada"
+   ],
+   "cat": "Wine region",
+   "region": "Thrace and Marmara",
+   "created": "Traditional island wine area",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Kuntra (Karalahna), Çavuş, Vasilaki",
+   "summary": "Bozcaada, the ancient Tenedos, is a small windswept island in the Aegean off Çanakkale, near the site of Troy. Its vineyards, cooled by constant northerly winds, keep native grapes found almost nowhere else.",
+   "terroir": "Sandy and limestone soils; strong winds; maritime climate.",
+   "producers": [
+    "Corvus",
+    "Talay",
+    "Amadeus"
+   ],
+   "nerd_note": "Homer's Iliad names Tenedos, where the Greek fleet hid before the Trojan horse was brought into Troy.",
+   "lat": 39.83,
+   "lon": 26.03,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "tr-urla",
+   "country": "tr",
+   "name": "Urla",
+   "match": [
+    "Urla"
+   ],
+   "cat": "Wine region",
+   "region": "Aegean",
+   "created": "Wine route of the İzmir peninsula",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Urla Karası, Bornova Misketi, Boğazkere, Syrah, Cabernet",
+   "summary": "Urla, on the peninsula west of İzmir, has become the centre of Türkiye's boutique wine scene, with a wine route linking a dozen small estates among olive groves. Sea breezes from the Aegean temper hot summers.",
+   "terroir": "Limestone and clay; maritime Aegean climate.",
+   "producers": [
+    "Urla Şarapçılık",
+    "USCA",
+    "Mozaik",
+    "Usca"
+   ],
+   "nerd_note": "Klazomenai, an Ionian Greek city near Urla, has an excavated sixth-century BC olive oil workshop, and the peninsula's farmers grew vines and olives side by side for millennia.",
+   "lat": 38.32,
+   "lon": 26.77,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "tr-cappadocia",
+   "country": "tr",
+   "name": "Cappadocia (Kapadokya)",
+   "match": [
+    "Cappadocia (Kapadokya)"
+   ],
+   "cat": "Wine region",
+   "region": "Central Anatolia and Cappadocia",
+   "created": "Traditional region",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Emir, Narince, Kalecik Karası, Öküzgözü",
+   "summary": "Cappadocia's volcanic plateau around Nevşehir and Ürgüp lies at about 1,000 to 1,400 metres, with continental winters and hot, dry summers. Bush vines grow in volcanic ash among the fairy chimneys, and wine is aged in cellars carved into the soft tuff.",
+   "terroir": "Volcanic tuff and ash; about 1,000 to 1,400 m; continental climate.",
+   "producers": [
+    "Turasan",
+    "Kocabağ",
+    "Kayra"
+   ],
+   "nerd_note": "Emir, Cappadocia's native white, makes crisp, light wines; Kalecik Karası, from Kalecik near Ankara, was rescued from near extinction by researchers at Ankara University.",
+   "lat": 38.65,
+   "lon": 34.85,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "tr-elazig-diyarbakir",
+   "country": "tr",
+   "name": "Elazığ and Diyarbakır",
+   "match": [
+    "Elazığ and Diyarbakır"
+   ],
+   "cat": "Wine region",
+   "region": "Eastern and Southeastern Anatolia",
+   "created": "Traditional region",
+   "styles": [
+    "red"
+   ],
+   "dominant_style": "red",
+   "grapes": "Öküzgözü, Boğazkere",
+   "summary": "The upper Euphrates and Tigris country of eastern Anatolia is the home of Türkiye's two great native reds: Öküzgözü ('ox eye'), juicy and soft, from around Elazığ, and Boğazkere ('throat burner'), dark and tannic, from around Diyarbakır. Summers are very hot and winters cold.",
+   "terroir": "Continental highland climate; clay and limestone soils.",
+   "producers": [
+    "Kavaklıdere (buys grapes)",
+    "Doluca (buys grapes)",
+    "Kayra"
+   ],
+   "nerd_note": "Many of the region's vineyards were flooded by the reservoir of the Keban Dam on the Euphrates in the 1970s.",
+   "lat": 38.68,
+   "lon": 39.22,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "am-vayots-dzor",
+   "country": "am",
+   "name": "Vayots Dzor (Areni)",
+   "match": [
+    "Vayots Dzor (Areni)"
+   ],
+   "cat": "Wine region",
+   "region": "Vayots Dzor",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Areni Noir, Voskehat",
+   "summary": "Vayots Dzor, in the canyon country of southern Armenia along the Arpa river, grows Areni Noir at about 1,100 to 1,700 metres, some of it on its own roots. The village of Areni gives the grape its name and hosts an annual wine festival.",
+   "terroir": "Volcanic and limestone soils; 1,100 to 1,700 m; continental climate with hot days and cold nights.",
+   "producers": [
+    "Zorah",
+    "Trinity Canyon",
+    "Hin Areni",
+    "Momik"
+   ],
+   "nerd_note": "Areni Noir makes fresh, medium-bodied reds often compared to Pinot Noir.",
+   "lat": 39.72,
+   "lon": 45.2,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "am-ararat-valley",
+   "country": "am",
+   "name": "Ararat Valley",
+   "match": [
+    "Ararat Valley"
+   ],
+   "cat": "Wine region",
+   "region": "Ararat Valley",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "white",
+    "fortified"
+   ],
+   "dominant_style": "white",
+   "grapes": "Voskehat, Kangun, Rkatsiteli, Areni",
+   "summary": "The Ararat plain around Yerevan lies at about 800 to 1,000 metres, under the snow cone of Mount Ararat across the Turkish border. It is Armenia's main grape-growing area, supplying much of the fruit for brandy.",
+   "terroir": "Alluvial and volcanic soils; hot, dry continental summers; irrigation.",
+   "producers": [
+    "Yerevan Brandy Company (Ararat)",
+    "Armenia Wine",
+    "Karas"
+   ],
+   "nerd_note": "At Teishebaini (Karmir Blur), an Urartian fortress near Yerevan, archaeologists found storerooms holding hundreds of large clay jars (karas) used for wine.",
+   "lat": 40.0,
+   "lon": 44.5,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "am-aragatsotn",
+   "country": "am",
+   "name": "Aragatsotn",
+   "match": [
+    "Aragatsotn"
+   ],
+   "cat": "Wine region",
+   "region": "Aragatsotn",
+   "created": "Traditional region",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Voskehat, Areni, Kangun",
+   "summary": "Aragatsotn lies on the slopes of Mount Aragats, Armenia's highest peak, around Ashtarak, with vineyards at about 1,000 to 1,400 metres on volcanic soils.",
+   "terroir": "Volcanic tuff and basalt; high altitude.",
+   "producers": [
+    "Voskeni",
+    "Van Ardi"
+   ],
+   "nerd_note": "Voskehat ('golden berry') is Armenia's flagship white grape.",
+   "lat": 40.3,
+   "lon": 44.3,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "am-tavush",
+   "country": "am",
+   "name": "Tavush",
+   "match": [
+    "Tavush"
+   ],
+   "cat": "Wine region",
+   "region": "Tavush",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Areni, Rkatsiteli, local varieties",
+   "summary": "Tavush, in Armenia's green, forested north-east near Georgia and Azerbaijan, is wetter and cooler than the south, with vineyards around Ijevan and Berd.",
+   "terroir": "Forest soils; more rainfall than the rest of Armenia.",
+   "producers": [
+    "Ijevan Wine-Brandy Factory"
+   ],
+   "nerd_note": "Tavush's climate is closer to Georgia's than to the Ararat plain's.",
+   "lat": 40.88,
+   "lon": 45.15,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ua-shabo",
+   "country": "ua",
+   "name": "Shabo",
+   "match": [
+    "Shabo"
+   ],
+   "cat": "Wine region",
+   "region": "Odesa and Bessarabia",
+   "created": "Historic wine village",
+   "styles": [
+    "white",
+    "red",
+    "sparkling"
+   ],
+   "dominant_style": "white",
+   "grapes": "Telti-Kuruk, Rkatsiteli, Chardonnay, Cabernet, Saperavi",
+   "summary": "Shabo lies on the Dniester estuary near the Black Sea in southern Bessarabia, on sandy soils that kept some vines on their own roots. It is home to one of Ukraine's largest wine companies, which farms about 1,200 hectares.",
+   "terroir": "Sandy and loess soils; maritime influence from the estuary and Black Sea.",
+   "producers": [
+    "Shabo"
+   ],
+   "nerd_note": "Telti-Kuruk ('fox tail' in Turkish) is an old local white grape preserved at Shabo.",
+   "lat": 46.13,
+   "lon": 30.38,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ua-mykolaiv-kherson",
+   "country": "ua",
+   "name": "Mykolaiv and Kherson",
+   "match": [
+    "Mykolaiv and Kherson"
+   ],
+   "cat": "Wine region",
+   "region": "Mykolaiv and Kherson",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Odessa Black (Alibernet), Telti-Kuruk, Cabernet, Riesling",
+   "summary": "The steppe and estuaries of southern Ukraine around Mykolaiv and Kherson are warm and dry, with Black Sea influence. Since Russia's full-scale invasion of 2022, much of the Kherson region has been on or near the front line, and many vineyards have been damaged, mined or occupied.",
+   "terroir": "Black earth and sand; dry steppe climate; estuary and sea influence.",
+   "producers": [
+    "Beykush",
+    "Kolonist (Odesa region)"
+   ],
+   "nerd_note": "Beykush farms a narrow spit between the Berezan estuary and the Black Sea, and kept harvesting in 2022 close to the fighting.",
+   "lat": 46.6,
+   "lon": 31.6,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ua-transcarpathia",
+   "country": "ua",
+   "name": "Transcarpathia (Zakarpattia)",
+   "match": [
+    "Transcarpathia (Zakarpattia)"
+   ],
+   "cat": "Wine region",
+   "region": "Transcarpathia",
+   "created": "Traditional region",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Furmint, Hárslevelű, Traminer, Riesling, Blaufränkisch, Kadarka",
+   "summary": "Transcarpathia lies on the western side of the Carpathians, bordering Hungary, Slovakia and Romania, around Berehove and Mukachevo. Its climate and grapes are Central European, close to neighbouring Tokaj.",
+   "terroir": "Volcanic and clay soils on Carpathian foothills; continental climate.",
+   "producers": [
+    "Chizay",
+    "Kotsiubynskyi",
+    "Kriuchkov"
+   ],
+   "nerd_note": "Before 1920 Transcarpathia belonged to the Kingdom of Hungary, and Berehove still has a large Hungarian community.",
+   "lat": 48.2,
+   "lon": 22.65,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ua-crimea",
+   "country": "ua",
+   "name": "Crimea",
+   "match": [
+    "Crimea"
+   ],
+   "cat": "Wine region",
+   "region": "Crimea",
+   "created": "Traditional region",
+   "styles": [
+    "fortified",
+    "sparkling",
+    "red",
+    "white"
+   ],
+   "dominant_style": "fortified",
+   "grapes": "Muscat, Kokur, Pinot Gris, Cabernet, Saperavi",
+   "summary": "The Crimean peninsula's southern coast, sheltered by mountains, has a mild climate suited to sweet and fortified wines, while the inland valleys grow table and sparkling wines. Russia annexed Crimea in 2014; the UN General Assembly (resolution 68/262) and most countries continue to recognise it as part of Ukraine, and Western sanctions restrict trade in its wine.",
+   "terroir": "Limestone and shale on the southern coast; steppe in the north.",
+   "producers": [
+    "Massandra",
+    "Novy Svet",
+    "Inkerman"
+   ],
+   "nerd_note": "Massandra's collection of old sweet and fortified wines, including bottles from the nineteenth century, became famous when parts were sold at Sotheby's in 1990 and 2004.",
+   "lat": 44.6,
+   "lon": 34.2,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ru-abrau-durso",
+   "country": "ru",
+   "name": "Abrau-Durso",
+   "match": [
+    "Abrau-Durso"
+   ],
+   "cat": "Wine estate and area",
+   "region": "Kuban (Krasnodar)",
+   "created": "Imperial estate founded 1870",
+   "styles": [
+    "sparkling"
+   ],
+   "dominant_style": "sparkling",
+   "grapes": "Chardonnay, Pinot Noir, Riesling, Aligoté",
+   "summary": "Abrau-Durso lies near Novorossiysk on the Black Sea, around an emerald lake in hills of marl and limestone. It is Russia's most famous sparkling wine house, with tunnels cut into the hillside for ageing.",
+   "terroir": "Marl and limestone; maritime Black Sea climate.",
+   "producers": [
+    "Abrau-Durso"
+   ],
+   "nerd_note": "The estate's tunnels were built following the example of Golitsyn's Novy Svet in Crimea.",
+   "lat": 44.7,
+   "lon": 37.6,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ru-taman",
+   "country": "ru",
+   "name": "Taman Peninsula",
+   "match": [
+    "Taman Peninsula"
+   ],
+   "cat": "Wine region",
+   "region": "Kuban (Krasnodar)",
+   "created": "Kuban subregion",
+   "styles": [
+    "red",
+    "white",
+    "sparkling"
+   ],
+   "dominant_style": "red",
+   "grapes": "Krasnostop, Saperavi, Cabernet, Chardonnay, Riesling",
+   "summary": "The Taman peninsula, between the Black Sea and the Sea of Azov, is Russia's largest modern wine zone, with large wineries planted since the 2000s. Hot summers are cooled by winds from both seas.",
+   "terroir": "Black earth and marl; flat, windy peninsula between two seas.",
+   "producers": [
+    "Fanagoria",
+    "Kuban-Vino (Chateau Tamagne)",
+    "Gai-Kodzor (Anapa)"
+   ],
+   "nerd_note": "Fanagoria takes its name from Phanagoria, an ancient Greek colony on the peninsula, where archaeologists have found evidence of ancient winemaking.",
+   "lat": 45.2,
+   "lon": 36.9,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ru-don-valley",
+   "country": "ru",
+   "name": "Don Valley",
+   "match": [
+    "Don Valley"
+   ],
+   "cat": "Wine region",
+   "region": "Don Valley",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "sparkling"
+   ],
+   "dominant_style": "red",
+   "grapes": "Tsimlyansky Cherny, Krasnostop Zolotovsky, Sibirkovy, Plechistik",
+   "summary": "Along the Don river in the Rostov region, Cossack villages preserved old native grapes. Winters are so cold that vines are traditionally buried under soil to survive.",
+   "terroir": "Chalky and sandy riverbank soils; harsh continental winters.",
+   "producers": [
+    "Vedernikov",
+    "Tsimlyanskie Vina"
+   ],
+   "nerd_note": "Tsimlyanskoye, a semi-sweet red sparkling wine from the Don, was famous in imperial Russia.",
+   "lat": 47.65,
+   "lon": 41.0,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ru-dagestan",
+   "country": "ru",
+   "name": "Dagestan",
+   "match": [
+    "Dagestan"
+   ],
+   "cat": "Wine region",
+   "region": "Dagestan",
+   "created": "Traditional region",
+   "styles": [
+    "white",
+    "red",
+    "fortified"
+   ],
+   "dominant_style": "white",
+   "grapes": "Rkatsiteli, Agadai, Saperavi",
+   "summary": "Dagestan, on the Caspian coast of the North Caucasus, has one of Russia's largest vineyard areas, mostly used for brandy and table grapes, around Derbent and Kizlyar.",
+   "terroir": "Caspian lowland and foothills; hot, dry climate.",
+   "producers": [
+    "Derbent Wine Company",
+    "Kizlyar Brandy Factory"
+   ],
+   "nerd_note": "Derbent is often called the oldest city in Russia, with fortifications dating back some 1,500 years.",
+   "lat": 42.06,
+   "lon": 48.29,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "pl-lubuskie",
+   "country": "pl",
+   "name": "Zielona Góra",
+   "match": [
+    "Zielona Góra"
+   ],
+   "cat": "Wine region",
+   "region": "Lubuskie (Zielona Góra)",
+   "created": "Historic wine town",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Solaris, Riesling, Regent, Pinot Noir, Johanniter",
+   "summary": "Zielona Góra, in western Poland, was the largest wine town in the region when it belonged to Prussian Silesia as Grünberg, and it has kept a wine festival since 1852. Small estates replanted after Poland eased rules for small producers in the late 2000s.",
+   "terroir": "Sandy and loamy glacial soils; cool continental climate.",
+   "producers": [
+    "Winnica Saganum",
+    "Winnica Miłosz",
+    "Winnica Julia"
+   ],
+   "nerd_note": "Grünberg was famous for sparkling wine in the nineteenth century.",
+   "lat": 51.94,
+   "lon": 15.5,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "pl-malopolska",
+   "country": "pl",
+   "name": "Małopolska",
+   "match": [
+    "Małopolska"
+   ],
+   "cat": "Wine region",
+   "region": "Małopolska",
+   "created": "Traditional region",
+   "styles": [
+    "white",
+    "red",
+    "sparkling"
+   ],
+   "dominant_style": "white",
+   "grapes": "Solaris, Riesling, Pinot Noir, Chardonnay",
+   "summary": "Around Kraków in southern Poland, vineyards on limestone hills of the Jura and the Vistula valley have grown quickly since the late 2000s, including the Srebrna Góra estate below the Camaldolese monastery at Bielany in Kraków.",
+   "terroir": "Limestone and loess; cool continental climate.",
+   "producers": [
+    "Srebrna Góra",
+    "Winnica Wieliczka"
+   ],
+   "nerd_note": "Medieval Kraków had vineyards around the city, worked by monasteries.",
+   "lat": 50.06,
+   "lon": 19.9,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "pl-vistula-valley",
+   "country": "pl",
+   "name": "Sandomierz and the Vistula",
+   "match": [
+    "Sandomierz and the Vistula"
+   ],
+   "cat": "Wine region",
+   "region": "Vistula Valley (Sandomierz and Kazimierz)",
+   "created": "Traditional region",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Solaris, Seyval Blanc, Riesling, Regent",
+   "summary": "The loess hills of the Vistula around Sandomierz and Kazimierz Dolny are among the warmest corners of Poland, with a growing number of small wineries.",
+   "terroir": "Loess; continental climate.",
+   "producers": [
+    "Winnica Płochockich",
+    "Dom Bliskowice"
+   ],
+   "nerd_note": "Sandomierz has had vineyards since the Middle Ages.",
+   "lat": 50.68,
+   "lon": 21.75,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "ba-herzegovina",
+   "country": "ba",
+   "name": "Herzegovina (Mostar)",
+   "match": [
+    "Herzegovina (Mostar)"
+   ],
+   "cat": "Wine region",
+   "region": "Herzegovina",
+   "created": "Traditional region",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Žilavka, Blatina, Vranac",
+   "summary": "Herzegovina's warm karst valleys around Mostar, Čitluk and Trebinje, near the Adriatic, produce Bosnia and Herzegovina's best-known wines from two native grapes: white Žilavka and red Blatina.",
+   "terroir": "Karst limestone and red soils; Mediterranean climate.",
+   "producers": [
+    "Vinarija Čitluk",
+    "Tvrdoš Monastery",
+    "Škegro",
+    "Vukoje"
+   ],
+   "nerd_note": "Blatina is functionally female and must be planted with other varieties to pollinate it.",
+   "lat": 43.34,
+   "lon": 17.81,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "th-khao-yai",
+   "country": "th",
+   "name": "Khao Yai",
+   "match": [
+    "Khao Yai"
+   ],
+   "cat": "Wine region",
+   "region": "Khao Yai",
+   "created": "Tropical wine area",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Shiraz, Chenin Blanc, Cabernet, Viognier",
+   "summary": "Khao Yai, on a plateau at about 300 to 500 metres north-east of Bangkok beside a national park, is one of the 'new latitude' tropical wine regions. Growers prune to time the harvest for the cool, dry season.",
+   "terroir": "Plateau soils at 300 to 500 m; tropical monsoon climate.",
+   "producers": [
+    "GranMonte",
+    "PB Valley"
+   ],
+   "nerd_note": "Pruning can produce more than one crop a year in the tropics; Thai growers instead time a single harvest for the dry season.",
+   "lat": 14.5,
+   "lon": 101.4,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "th-hua-hin",
+   "country": "th",
+   "name": "Hua Hin Hills",
+   "match": [
+    "Hua Hin Hills"
+   ],
+   "cat": "Wine region",
+   "region": "Hua Hin",
+   "created": "Tropical wine area",
+   "styles": [
+    "red",
+    "white",
+    "rosé"
+   ],
+   "dominant_style": "red",
+   "grapes": "Shiraz, Colombard, Chenin Blanc, Sangiovese",
+   "summary": "Inland from the royal seaside resort of Hua Hin, the Hua Hin Hills vineyard produces Monsoon Valley wines in a tropical climate.",
+   "terroir": "Sandy, rocky soils; tropical climate.",
+   "producers": [
+    "Monsoon Valley (Siam Winery)"
+   ],
+   "nerd_note": "Siam Winery also pioneered 'floating vineyards' on raised beds between canals in the Chao Phraya delta.",
+   "lat": 12.5,
+   "lon": 99.9,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "se-skane",
+   "country": "se",
+   "name": "Skåne",
+   "match": [
+    "Skåne"
+   ],
+   "cat": "Wine region",
+   "region": "Skåne",
+   "created": "Traditional province",
+   "styles": [
+    "white",
+    "sparkling"
+   ],
+   "dominant_style": "white",
+   "grapes": "Solaris, Rondo, Chardonnay, Pinot Noir",
+   "summary": "Skåne, Sweden's southernmost province, has the country's largest concentration of vineyards. Long summer days and a warming climate allow early-ripening varieties such as Solaris.",
+   "terroir": "Glacial moraine and limestone; maritime Baltic climate.",
+   "producers": [
+    "Kullabergs Vingård",
+    "Arilds Vingård",
+    "Flyinge"
+   ],
+   "nerd_note": "Swedish wineries long could not sell at the cellar door because of the state retail monopoly, Systembolaget.",
+   "lat": 55.8,
+   "lon": 13.3,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "cv-fogo",
+   "country": "cv",
+   "name": "Fogo (Chã das Caldeiras)",
+   "match": [
+    "Fogo (Chã das Caldeiras)"
+   ],
+   "cat": "Wine region",
+   "region": "Fogo",
+   "created": "Volcanic island vineyards",
+   "styles": [
+    "white",
+    "red"
+   ],
+   "dominant_style": "white",
+   "grapes": "Moscatel, Preta Tinta, local varieties",
+   "summary": "On Fogo, a volcanic island in Cape Verde, vines grow inside the caldera of the active Pico do Fogo at about 1,700 metres, in black ash at Chã das Caldeiras.",
+   "terroir": "Volcanic ash in a crater; arid Atlantic climate.",
+   "producers": [
+    "Adega Chã das Caldeiras"
+   ],
+   "nerd_note": "Local wine called manecom was traditionally made by crater villagers.",
+   "lat": 14.95,
+   "lon": -24.35,
+   "coord_quality": "approx"
+  },
+  {
+   "id": "xk-dukagjin",
+   "country": "xk",
+   "name": "Dukagjin (Rahovec)",
+   "match": [
+    "Dukagjin (Rahovec)"
+   ],
+   "cat": "Wine region",
+   "region": "Dukagjin",
+   "created": "Traditional region",
+   "styles": [
+    "red",
+    "white"
+   ],
+   "dominant_style": "red",
+   "grapes": "Vranac, Prokupac, Gamay, Smederevka, Riesling",
+   "summary": "The Dukagjin plain in south-western Kosovo, around Rahovec (Orahovac), holds most of Kosovo's vineyards on gentle slopes with a continental climate.",
+   "terroir": "Clay and loam slopes; continental climate.",
+   "producers": [
+    "Stone Castle",
+    "Bodrumi i Vjetër",
+    "Sefa"
+   ],
+   "nerd_note": "Rahovec hosts an annual wine festival in September.",
+   "lat": 42.4,
+   "lon": 20.65,
+   "coord_quality": "approx"
+  }
+ ],
+ "sites": []
+}
