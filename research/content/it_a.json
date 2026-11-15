@@ -1464,7 +1464,7 @@
     "red"
    ],
    "dominant_style": "red",
-   "grapes": "Grignolino (min 90%)",
+   "grapes": "Grignolino (min 95%)",
    "summary": "Grignolino from the Casale side of the Monferrato, where it may be at its finest. Accornero, Bricco Mondalino and Castello di Gabiano are key producers.",
    "terroir": "Pietra da Cantoni sandstone and marls of the Casalese.",
    "producers": [
@@ -1489,7 +1489,7 @@
     "sparkling"
    ],
    "dominant_style": "red",
-   "grapes": "Freisa (100%)",
+   "grapes": "Freisa (min 90%)",
    "summary": "Freisa, a close relative of Nebbiolo, makes wines with raspberry fruit, bitter tannin and often a light fizz. It can be still, frizzante, spumante or sweet.",
    "terroir": "Monferrato hills of Asti.",
    "producers": [
@@ -2489,7 +2489,7 @@
     "sweet"
    ],
    "dominant_style": "white",
-   "grapes": "Bosco (min 40%), Albarola and/or Vermentino (up to 40%)",
+   "grapes": "Bosco, Albarola and/or Vermentino at least 80%",
    "summary": "The five fishing villages of Monterosso, Vernazza, Corniglia, Manarola and Riomaggiore cling to cliffs on the coast west of La Spezia, and above them rises one of the most dramatic vineyard landscapes in the world: about 7,000 km of dry-stone terraces built over a thousand years. The UNESCO World Heritage listing (1997, with Portovenere and the islands) recognises this landscape, and the national park works to stop it collapsing back into scrub.\n\nThe dry white Cinque Terre DOC, mostly Bosco with Albarola and Vermentino, is herbal, saline and crisp. The treasure is Sciacchetrà: the same grapes dried on racks for about two months, then pressed into a tiny quantity of amber, apricot-and-honey sweet wine aged at least a year (Riserva three). Grapes are carried down by hand or by small monorail trains (*trenini a cremagliera*). Production is tiny, under 100 hectares in total, and the Cantina Cinque Terre cooperative at Groppo makes much of it, alongside growers like Possa (Heydi Bonanini), Walter De Batté and Buranco.",
    "terroir": "Sandstone (macigno) and shale on slopes up to 45 degrees, often dropping straight to the sea; terraces face south-west into the sun and sea breeze.",
    "producers": [
@@ -3058,7 +3058,7 @@
     "red"
    ],
    "dominant_style": "red",
-   "grapes": "Barbera (min 85%)",
+   "grapes": "Barbera (min 65%), with Croatina, Uva Rara, Vespolina and Pinot Nero",
    "summary": "A small DOC for structured Barbera from the hills around Casteggio, the Roman Clastidium.",
    "terroir": "",
    "producers": [
@@ -5553,8 +5553,8 @@
     "sweet"
    ],
    "dominant_style": "red",
-   "grapes": "Sangiovese (min 95% for Romagna Sangiovese), Trebbiano, Cagnina (Refosco), Pagadebit (Bombino Bianco)",
-   "summary": "The Romagna DOC unites the region's historic denominations: Romagna Sangiovese (formerly Sangiovese di Romagna, DOC 1967), Romagna Trebbiano, Romagna Cagnina (a sweet red from Refosco, drunk with roast chestnuts in autumn) and Romagna Pagadebit ('pays the debts', a hardy white). Sangiovese is the core: the hills are divided into 12 sottozone (MGAs) that may appear on the label: Serra, Brisighella, Marzeno, Oriolo, Modigliana, Castrocaro, Predappio, Bertinoro, Cesena, San Vicino, Longiano and Meldola. Each has a distinct character: Modigliana on high, cool marl-sandstone at 180 to 570 m gives tense, pale wines; Predappio's red clays give silky tannin; Bertinoro's spungone gives power. Riserva ages two years. Romagna Sangiovese Superiore is the standard bearer; producers include Fattoria Zerbina, Torre San Martino, Villa Papiano, Il Pratello, Fattoria Nicolucci, Noelia Ricci, Tenuta La Viola and Giovanna Madonia.",
+   "grapes": "Sangiovese (min 85% for Romagna Sangiovese), Trebbiano, Cagnina (Refosco), Pagadebit (Bombino Bianco)",
+   "summary": "The Romagna DOC unites the region's historic denominations: Romagna Sangiovese (formerly Sangiovese di Romagna, DOC 1967), Romagna Trebbiano, Romagna Cagnina (a sweet red from Refosco, drunk with roast chestnuts in autumn) and Romagna Pagadebit ('pays the debts', a hardy white). Sangiovese is the core: the hills are divided into 16 sottozone (MGAs) that may appear on the label: Bertinoro, Brisighella, Castrocaro, Cesena, Coriano, Imola, Longiano, Marzeno, Meldola, Mercato Saraceno, Modigliana, Oriolo, Predappio, San Clemente, Serra and Verucchio. The original 12 of 2011 were later joined by Imola, Coriano, San Clemente and Verucchio. Each has a distinct character: Modigliana on high, cool marl-sandstone at 180 to 570 m gives tense, pale wines; Predappio's red clays give silky tannin; Bertinoro's spungone gives power. Riserva ages two years. Romagna Sangiovese Superiore is the standard bearer; producers include Fattoria Zerbina, Torre San Martino, Villa Papiano, Il Pratello, Fattoria Nicolucci, Noelia Ricci, Tenuta La Viola and Giovanna Madonia.",
    "terroir": "Apennine foothills from Imola to Rimini: spungone, calcareous clays, red clays and marl-sandstone, at 100 to 600 m, with sea breezes from the Adriatic.",
    "producers": [
     "Fattoria Zerbina",
