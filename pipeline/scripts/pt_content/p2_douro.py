@@ -91,10 +91,10 @@ moscatel = {
     "country": "pt", "name": "Moscatel do Douro", "match": ["Moscatel do Douro", "Douro Moscatel", "Favaios"],
     "cat": "DOC", "subcat": "Traditional designation within DOC Douro", "region": "Douro Valley", "subregion": "Cima Corgo",
     "created": "Traditional; protected under DOC Douro", "area_ha": None, "styles": ["fortified", "sweet", "white"], "dominant_style": "fortified",
-    "grapes": "Moscatel Galego Branco (Muscat Blanc à Petits Grains), at least 85%",
+    "grapes": "Moscatel Galego Branco (Muscat Blanc à Petits Grains), obligatory",
     "lat": 41.2667, "lon": -7.5, "coord_quality": "approx",
     "summary": (
-        "Moscatel do Douro is the Douro's other fortified wine: Muscat grapes, fortified with grape spirit like Port, at least 85% Moscatel and 16.5% alcohol or more, then aged at least 18 months in wood. Most of it comes from the high, cooler plateau around Favaios and Alijó, at roughly 500 to 600 m, where the small-berried Moscatel Galego keeps its acidity and its orange-blossom perfume. The village cooperative, Adega Cooperativa de Favaios, made the name so well known in Portugal that many people simply order 'a Favaios'. Aged versions (10 and 20 years, occasionally single-vintage) turn amber and develop notes of orange peel, honey and walnut."
+        "Moscatel do Douro is the Douro's other fortified wine: Muscat grapes, fortified with grape spirit like Port, made only from Moscatel Galego Branco, 16.5% alcohol or more, then aged at least 18 months in wood. Most of it comes from the high, cooler plateau around Favaios and Alijó, at roughly 500 to 600 m, where the small-berried Moscatel Galego keeps its acidity and its orange-blossom perfume. The village cooperative, Adega Cooperativa de Favaios, made the name so well known in Portugal that many people simply order 'a Favaios'. Aged versions (10 and 20 years, occasionally single-vintage) turn amber and develop notes of orange peel, honey and walnut."
     ),
     "terroir": "Granite and schist plateau north of Pinhão, at the edge of the demarcated region; more Atlantic influence and cooler nights than the river valley.",
     "producers": ["Adega Cooperativa de Favaios", "Quinta da Avessada", "Poças", "Quinta do Portal"],

@@ -41,7 +41,7 @@ r_vv = {
 
 vv = {
     "country": "pt", "id": "pt-vinho-verde", "name": "Vinho Verde", "match": ["Vinho Verde", "Vinhos Verdes", "Vinho Verde DOC"],
-    "cat": "DOC", "region": "Vinho Verde", "subregion": None, "created": "1908", "area_ha": 23000,
+    "cat": "DOC", "region": "Vinho Verde", "subregion": None, "created": "1908", "area_ha": 16000,
     "styles": ["white", "red", "rose", "sparkling"], "dominant_style": "white",
     "grapes": "Alvarinho, Loureiro, Arinto (Pedernã), Trajadura, Avesso, Azal; Vinhão, Borraçal, Espadeiro, Amaral",
     "summary": (
@@ -56,7 +56,7 @@ vv = {
 
 vv_subs = [
     SUB("Monção e Melgaço", "Vinho Verde", "Vinho Verde", 42.07, -8.39, None, ["white", "red", "sparkling"], "white",
-        "Alvarinho, Trajadura; Pedral, Alvarelhão, Borraçal, Vinhão",
+        "Alvarinho, Loureiro, Trajadura, Pedral; Alvarelhão, Borraçal, Vinhão",
         "The northernmost subregion, along the south bank of the Minho river facing Galicia's Rías Baixas, and the home of Alvarinho (Albariño across the river). Protected from Atlantic rain by the mountains to the west and north, it is warmer and drier in summer than the rest of Vinho Verde, so Alvarinho ripens to 12.5 to 13.5% while keeping its acidity. Palácio da Brejoeira made the first prestige bottling here in 1976; Soalheiro, Anselmo Mendes and the Monção cooperative made the name international. Until 2021 only wines from here could be labelled Vinho Verde Alvarinho.",
         "Granite with alluvial terraces near the river; a semi-continental pocket within the Atlantic north-west. Melgaço's higher, cooler vineyards (Soalheiro) give tauter wines than Monção's warmer valley floor.",
         ["Soalheiro", "Anselmo Mendes", "Palácio da Brejoeira", "Adega de Monção", "Quinta de Santiago", "Quintas de Melgaço"],
@@ -70,7 +70,7 @@ vv_subs = [
         "The Cávado valley around Barcelos and Braga, close to the coast: light, aromatic Loureiro- and Arinto-based whites and fresh reds.",
         "Granite, maritime climate, high rainfall.", []),
     SUB("Ave", "Vinho Verde", "Vinho Verde", 41.42, -8.35, None, ["white", "red", "sparkling"], "white",
-        "Loureiro, Arinto, Trajadura, Alvarinho; Vinhão",
+        "Loureiro, Arinto, Trajadura; Amaral, Borraçal, Espadeiro, Padeiro, Vinhão",
         "The Ave valley around Guimarães, Famalicão and Vila Verde: classic blended whites of Loureiro, Arinto and Trajadura and some of the region's best sparkling bases.",
         "Granite; Atlantic influence moderated by distance from the sea.", ["Quinta de Covela (nearby)"]),
     SUB("Basto", "Vinho Verde", "Vinho Verde", 41.42, -8.0, None, ["white", "red"], "white",

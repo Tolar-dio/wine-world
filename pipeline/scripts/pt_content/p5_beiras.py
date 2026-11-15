@@ -98,7 +98,7 @@ terras_dao = IGP("Terras do Dão", "Dão", 40.6, -7.9, "The regional (IGP) desig
 
 r_laf = None  # Lafões is described under the Dão region
 lafoes = {"country": "pt", "id": "pt-lafoes", "name": "Lafões", "match": ["Lafões", "Lafoes", "DOC Lafões"],
-          "cat": "DOC", "region": "Dão", "subregion": None, "created": "1991 (EU register); former IPR", "area_ha": None,
+          "cat": "DOC", "region": "Dão", "subregion": None, "created": "1990 (Decreto-Lei 296/90, as IPR); now DOP", "area_ha": None,
           "styles": ["white", "red"], "dominant_style": "white",
           "grapes": "Arinto, Cercial; Amaral, Jaen, Touriga Nacional",
           "summary": "A small, rainy hill region between the Dão and the Vinho Verde country, around São Pedro do Sul, Vouzela and Oliveira de Frades. Its wines are a transition between the two: light, high-acid whites from Arinto and Cercial and sharp reds from Amaral (Vinho Verde's Azal Tinto) and Jaen. Production is tiny and mostly local.",

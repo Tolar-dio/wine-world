@@ -101,9 +101,9 @@ portimao = {"country": "pt", "id": "pt-portimao", "name": "Portimão", "match": 
             "summary": "The smallest Algarve DOC, around Portimão, Alvor and Mexilhoeira Grande; very little wine is bottled under the name.",
             "terroir": "Coastal sands and clays.", "producers": [], "nerd_note": "", "contains": []}
 lagoa = {"country": "pt", "id": "pt-lagoa", "name": "Lagoa", "match": ["Lagoa", "DOC Lagoa"], "cat": "DOC", "region": "Algarve", "subregion": None,
-         "created": "1980s; DOP registered 1991", "area_ha": None, "styles": ["red", "white", "rose", "fortified"], "dominant_style": "red",
+         "created": "1980s; DOP registered 1991", "area_ha": None, "styles": ["red", "white"], "dominant_style": "red",
          "grapes": "Negra Mole, Castelão, Trincadeira, Touriga Nacional, Syrah; Arinto, Síria, Malvasia Fina, Manteúdo",
-         "summary": "The Algarve's most important DOC, stretching from Lagoa and Silves east to Albufeira and Loulé. The Lagoa cooperative (founded 1945) dominated for decades; estates such as Quinta dos Vales, Morgado do Quintão (with century-old Negra Mole vines) and Adega do Cantor have raised the bar, including the region's characteristic pale, savoury Negra Mole reds and an old tradition of dry fortified wine.",
+         "summary": "The Algarve's most important DOC, stretching from Lagoa and Silves east to Albufeira and Loulé. The Lagoa cooperative (founded 1945) dominated for decades; estates such as Quinta dos Vales, Morgado do Quintão (with century-old Negra Mole vines) and Adega do Cantor have raised the bar, including the region's characteristic pale, savoury Negra Mole reds and an old tradition of dry fortified wine, now sold under IG Algarve.",
          "terroir": "Red clay and limestone barrocal behind the coast, sheltered by the Serra de Monchique.",
          "producers": ["Adega de Lagoa", "Morgado do Quintão", "Quinta dos Vales", "Adega do Cantor (Vida Nova)", "Quinta do Francês"],
          "nerd_note": "Negra Mole is so pale that its reds are often mistaken for rosés; the Algarve sold them as the local 'clarete'.", "contains": []}
@@ -130,22 +130,22 @@ r_az = {
 }
 pico = {"country": "pt", "id": "pt-pico", "name": "Pico", "match": ["Pico", "DOC Pico", "Pico Verdelho", "Verdelho do Pico", "Lajido"],
         "cat": "DOC", "region": "Azores", "subregion": None, "created": "1994; DOP registered 1996", "area_ha": None,
-        "styles": ["fortified", "white", "sweet"], "dominant_style": "white",
-        "grapes": "Verdelho, Arinto dos Açores, Terrantez do Pico, Boal, Sercial, Fernão Pires, Generosa, Galego Dourado, Malvasia",
+        "styles": ["white", "fortified", "sweet", "sparkling"], "dominant_style": "white",
+        "grapes": "Arinto dos Açores, Verdelho and Terrantez do Pico, at least 85% together",
         "summary": "Pico is a single, near-perfect volcanic cone rising 2,351 m from the Atlantic, and its vineyards sit on the lava flows at its foot, below 100 m, on the west coast around Madalena, Criação Velha and Bandeiras and on the north coast at Santa Luzia. Settlers broke the black basalt into thousands of small rectangular pens (currais), each a few metres across, walled with loose stones to shelter vines from wind and salt spray; the vines root into cracks in the lava. The resulting grid, stretching for kilometres, is one of the world's great agricultural landscapes.\n\nHistorically Pico made a fortified Verdelho (licoroso), and the 2014 EU specification still defines DOC Pico around that style. Today the excitement is the dry whites, especially Arinto dos Açores and Terrantez do Pico: piercing acidity, flinty smoke, citrus and an unmistakable sea-salt finish. The Azores Wine Company, the Pico cooperative, Fita Preta and Insula are the leading producers.",
         "terroir": "Fresh basalt lava (lajido) with almost no soil; walls of black stone that also radiate heat at night; extreme exposure to wind and salt; maritime, humid climate with high disease pressure.",
         "producers": ["Azores Wine Company", "Cooperativa Vitivinícola da Ilha do Pico (Picowines)", "Insula", "Pico Wines", "Fita Preta (Azores)", "Adega A Buraca"],
         "nerd_note": "The currais walls, piled from stones cleared from the lava, were so extensive that, it is often said, their total length would circle the Earth twice.",
         "contains": []}
 bisc = {"country": "pt", "id": "pt-biscoitos", "name": "Biscoitos", "match": ["Biscoitos", "DOC Biscoitos"], "cat": "DOC", "region": "Azores", "subregion": None,
-        "created": "1994; DOP registered 1996", "area_ha": None, "styles": ["fortified", "white"], "dominant_style": "fortified",
-        "grapes": "Verdelho, Arinto, Terrantez, Boal",
+        "created": "1994; DOP registered 1996", "area_ha": None, "styles": ["fortified", "white", "sparkling"], "dominant_style": "fortified",
+        "grapes": "Arinto dos Açores, Verdelho and Terrantez do Pico, at least 85% together",
         "summary": "A tiny DOC on the north coast of Terceira island, named after the 'biscuit'-like jagged lava rock on which the vines grow in walled curraletas. It is known for fortified Verdelho, traditionally made by the Brum family's Casa Agrícola, whose museum documents the island's wine history; dry whites are increasing.",
         "terroir": "Rough, porous basalt lava fields beside the sea, sheltered by stone walls.",
         "producers": ["Casa Agrícola Brum (Museu do Vinho dos Biscoitos)", "Adega Cooperativa dos Biscoitos"], "nerd_note": "", "contains": []}
 grac = {"country": "pt", "id": "pt-graciosa", "name": "Graciosa", "match": ["Graciosa", "DOC Graciosa"], "cat": "DOC", "region": "Azores", "subregion": None,
-        "created": "1994; DOP registered 1996", "area_ha": None, "styles": ["white"], "dominant_style": "white",
-        "grapes": "Verdelho, Arinto, Boal, Fernão Pires, Terrantez",
+        "created": "1994; DOP registered 1996", "area_ha": None, "styles": ["white", "sparkling", "fortified"], "dominant_style": "white",
+        "grapes": "Arinto dos Açores, Verdelho and Terrantez do Pico, at least 85% together",
         "summary": "The DOC of Graciosa, the flattest and driest of the Azores, a UNESCO biosphere reserve. Its dry whites, made mainly by the island cooperative, are fresh and saline; Graciosa is the only Azores DOC defined for still (unfortified) white wine in the EU register.",
         "terroir": "Volcanic soils on a low, windy island.", "producers": ["Adega Cooperativa da Graciosa"], "nerd_note": "", "contains": []}
 acores_igp = IGP("Açores", "Azores", 38.5, -28.3, "The regional (IGP) designation for the Azores archipelago, used for most of the islands' modern dry whites, reds and rosés.", match=["Açores", "Acores", "Azores", "IGP Açores", "Vinho Regional Açores"], dom="white")

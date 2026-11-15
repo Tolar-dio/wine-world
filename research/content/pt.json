@@ -1134,11 +1134,11 @@
     "white"
    ],
    "dominant_style": "fortified",
-   "grapes": "Moscatel Galego Branco (Muscat Blanc à Petits Grains), at least 85%",
+   "grapes": "Moscatel Galego Branco (Muscat Blanc à Petits Grains), obligatory",
    "lat": 41.2667,
    "lon": -7.5,
    "coord_quality": "approx",
-   "summary": "Moscatel do Douro is the Douro's other fortified wine: Muscat grapes, fortified with grape spirit like Port, at least 85% Moscatel and 16.5% alcohol or more, then aged at least 18 months in wood. Most of it comes from the high, cooler plateau around Favaios and Alijó, at roughly 500 to 600 m, where the small-berried Moscatel Galego keeps its acidity and its orange-blossom perfume. The village cooperative, Adega Cooperativa de Favaios, made the name so well known in Portugal that many people simply order 'a Favaios'. Aged versions (10 and 20 years, occasionally single-vintage) turn amber and develop notes of orange peel, honey and walnut.",
+   "summary": "Moscatel do Douro is the Douro's other fortified wine: Muscat grapes, fortified with grape spirit like Port, made only from Moscatel Galego Branco, 16.5% alcohol or more, then aged at least 18 months in wood. Most of it comes from the high, cooler plateau around Favaios and Alijó, at roughly 500 to 600 m, where the small-berried Moscatel Galego keeps its acidity and its orange-blossom perfume. The village cooperative, Adega Cooperativa de Favaios, made the name so well known in Portugal that many people simply order 'a Favaios'. Aged versions (10 and 20 years, occasionally single-vintage) turn amber and develop notes of orange peel, honey and walnut.",
    "terroir": "Granite and schist plateau north of Pinhão, at the edge of the demarcated region; more Atlantic influence and cooler nights than the river valley.",
    "producers": [
     "Adega Cooperativa de Favaios",
@@ -1413,7 +1413,7 @@
    "region": "Vinho Verde",
    "subregion": null,
    "created": "1908",
-   "area_ha": 23000,
+   "area_ha": 16000,
    "styles": [
     "white",
     "red",
@@ -1474,7 +1474,7 @@
    "lat": 42.07,
    "lon": -8.39,
    "coord_quality": "approx",
-   "grapes": "Alvarinho, Trajadura; Pedral, Alvarelhão, Borraçal, Vinhão",
+   "grapes": "Alvarinho, Loureiro, Trajadura, Pedral; Alvarelhão, Borraçal, Vinhão",
    "summary": "The northernmost subregion, along the south bank of the Minho river facing Galicia's Rías Baixas, and the home of Alvarinho (Albariño across the river). Protected from Atlantic rain by the mountains to the west and north, it is warmer and drier in summer than the rest of Vinho Verde, so Alvarinho ripens to 12.5 to 13.5% while keeping its acidity. Palácio da Brejoeira made the first prestige bottling here in 1976; Soalheiro, Anselmo Mendes and the Monção cooperative made the name international. Until 2021 only wines from here could be labelled Vinho Verde Alvarinho.",
    "terroir": "Granite with alluvial terraces near the river; a semi-continental pocket within the Atlantic north-west. Melgaço's higher, cooler vineyards (Soalheiro) give tauter wines than Monção's warmer valley floor.",
    "producers": [
@@ -1564,7 +1564,7 @@
    "lat": 41.42,
    "lon": -8.35,
    "coord_quality": "approx",
-   "grapes": "Loureiro, Arinto, Trajadura, Alvarinho; Vinhão",
+   "grapes": "Loureiro, Arinto, Trajadura; Amaral, Borraçal, Espadeiro, Padeiro, Vinhão",
    "summary": "The Ave valley around Guimarães, Famalicão and Vila Verde: classic blended whites of Loureiro, Arinto and Trajadura and some of the region's best sparkling bases.",
    "terroir": "Granite; Atlantic influence moderated by distance from the sea.",
    "producers": [
@@ -2307,7 +2307,7 @@
    "cat": "DOC",
    "region": "Dão",
    "subregion": null,
-   "created": "1991 (EU register); former IPR",
+   "created": "1990 (Decreto-Lei 296/90, as IPR); now DOP",
    "area_ha": null,
    "styles": [
     "white",
@@ -3338,13 +3338,11 @@
    "area_ha": null,
    "styles": [
     "red",
-    "white",
-    "rose",
-    "fortified"
+    "white"
    ],
    "dominant_style": "red",
    "grapes": "Negra Mole, Castelão, Trincadeira, Touriga Nacional, Syrah; Arinto, Síria, Malvasia Fina, Manteúdo",
-   "summary": "The Algarve's most important DOC, stretching from Lagoa and Silves east to Albufeira and Loulé. The Lagoa cooperative (founded 1945) dominated for decades; estates such as Quinta dos Vales, Morgado do Quintão (with century-old Negra Mole vines) and Adega do Cantor have raised the bar, including the region's characteristic pale, savoury Negra Mole reds and an old tradition of dry fortified wine.",
+   "summary": "The Algarve's most important DOC, stretching from Lagoa and Silves east to Albufeira and Loulé. The Lagoa cooperative (founded 1945) dominated for decades; estates such as Quinta dos Vales, Morgado do Quintão (with century-old Negra Mole vines) and Adega do Cantor have raised the bar, including the region's characteristic pale, savoury Negra Mole reds and an old tradition of dry fortified wine, now sold under IG Algarve.",
    "terroir": "Red clay and limestone barrocal behind the coast, sheltered by the Serra de Monchique.",
    "producers": [
     "Adega de Lagoa",
@@ -3429,12 +3427,13 @@
    "created": "1994; DOP registered 1996",
    "area_ha": null,
    "styles": [
-    "fortified",
     "white",
-    "sweet"
+    "fortified",
+    "sweet",
+    "sparkling"
    ],
    "dominant_style": "white",
-   "grapes": "Verdelho, Arinto dos Açores, Terrantez do Pico, Boal, Sercial, Fernão Pires, Generosa, Galego Dourado, Malvasia",
+   "grapes": "Arinto dos Açores, Verdelho and Terrantez do Pico, at least 85% together",
    "summary": "Pico is a single, near-perfect volcanic cone rising 2,351 m from the Atlantic, and its vineyards sit on the lava flows at its foot, below 100 m, on the west coast around Madalena, Criação Velha and Bandeiras and on the north coast at Santa Luzia. Settlers broke the black basalt into thousands of small rectangular pens (currais), each a few metres across, walled with loose stones to shelter vines from wind and salt spray; the vines root into cracks in the lava. The resulting grid, stretching for kilometres, is one of the world's great agricultural landscapes.\n\nHistorically Pico made a fortified Verdelho (licoroso), and the 2014 EU specification still defines DOC Pico around that style. Today the excitement is the dry whites, especially Arinto dos Açores and Terrantez do Pico: piercing acidity, flinty smoke, citrus and an unmistakable sea-salt finish. The Azores Wine Company, the Pico cooperative, Fita Preta and Insula are the leading producers.",
    "terroir": "Fresh basalt lava (lajido) with almost no soil; walls of black stone that also radiate heat at night; extreme exposure to wind and salt; maritime, humid climate with high disease pressure.",
    "producers": [
@@ -3463,10 +3462,11 @@
    "area_ha": null,
    "styles": [
     "fortified",
-    "white"
+    "white",
+    "sparkling"
    ],
    "dominant_style": "fortified",
-   "grapes": "Verdelho, Arinto, Terrantez, Boal",
+   "grapes": "Arinto dos Açores, Verdelho and Terrantez do Pico, at least 85% together",
    "summary": "A tiny DOC on the north coast of Terceira island, named after the 'biscuit'-like jagged lava rock on which the vines grow in walled curraletas. It is known for fortified Verdelho, traditionally made by the Brum family's Casa Agrícola, whose museum documents the island's wine history; dry whites are increasing.",
    "terroir": "Rough, porous basalt lava fields beside the sea, sheltered by stone walls.",
    "producers": [
@@ -3490,10 +3490,12 @@
    "created": "1994; DOP registered 1996",
    "area_ha": null,
    "styles": [
-    "white"
+    "white",
+    "sparkling",
+    "fortified"
    ],
    "dominant_style": "white",
-   "grapes": "Verdelho, Arinto, Boal, Fernão Pires, Terrantez",
+   "grapes": "Arinto dos Açores, Verdelho and Terrantez do Pico, at least 85% together",
    "summary": "The DOC of Graciosa, the flattest and driest of the Azores, a UNESCO biosphere reserve. Its dry whites, made mainly by the island cooperative, are fresh and saline; since 2019 the regional rules allow still, sparkling and fortified whites under all three Azores DOCs, Graciosa, Pico and Biscoitos.",
    "terroir": "Volcanic soils on a low, windy island.",
    "producers": [
