@@ -82,7 +82,7 @@ APXF["it-scavigna"] = cal({
 });
 // HISTORY-PASS-START
 (function(){
-const IRP=`In the late nineteenth century, when phylloxera devastated France, Irpinia sold wine north, and the Avellino to Rocchetta Sant'Antonio railway, opened in 1895, became known as the wine railway; Italy's southern school of oenology opened at Avellino in 1879. The Mastroberardino family kept Irpinia's native grapes alive through the post-war decades, when most growers abandoned them.`;
+const IRP=`In the late nineteenth century, when phylloxera devastated France, Irpinia sold wine north, and the Avellino to Rocchetta Sant'Antonio railway, opened in 1895, carried Aglianico in whole wagons to blend in Tuscany, Piedmont and Bordeaux, the 'wine railway' of local memory; Italy's southern school of oenology opened at Avellino in 1879. The Mastroberardino family kept Irpinia's native grapes alive through the post-war decades, when most growers abandoned them.`;
 const CAST=`Castel del Monte, the octagonal castle built in the 1240s by Emperor Frederick II on a hill of the Murge, is a UNESCO site.`;
 const SAL=`In 1943 Leone de Castris of Salice Salentino bottled Five Roses, often cited as Italy's first bottled rosé, named in English at the request of Charles Poletti, the American general who governed the region after the Allied landings.`;
 const OTR=`The Salento, the heel of Italy, was Greek, Byzantine and Norman; at Otranto in 1480 an Ottoman army took the city and killed some eight hundred inhabitants who refused to convert, later canonised as the Martyrs of Otranto.`;
@@ -124,7 +124,7 @@ const HX={
 "it-siracusa":[`<p>Syracuse, the greatest Greek city of Sicily, gave its name to a sweet Moscato that local tradition traces to ancient wine. By the late twentieth century it had nearly disappeared before the Pupillo family revived it. The DOC dates from 1973.</p>`,[]],
 "it-eloro":[`<p>Eloro takes its name from the Greek town of Heloros near Pachino, the homeland of Nero d'Avola. The DOC dates from 1994.</p>`,[]],
 "it-alcamo":[`<p>Alcamo, the town of the thirteenth-century poet Cielo d'Alcamo, is known for white wine from Catarratto. The DOC dates from 1972.</p>`,[]],
-"it-menfi":[`<p>The Settesoli cooperative, founded at Menfi in 1965, grew into one of Europe's largest; the Planeta family, whose head Diego led it, built their first winery nearby in the 1990s. The DOC dates from 1995.</p>`,[]],
+"it-menfi":[`<p>The Settesoli cooperative, founded at Menfi by 68 growers in 1958, with its first harvest in 1965, grew into one of Europe's largest; the Planeta family, whose head Diego led it, built their first winery nearby in the 1990s. The DOC dates from 1995.</p>`,[]],
 "it-monreale":[`<p>Monreale, above Palermo, is famous for the cathedral built by the Norman king William II from 1174, covered in gold mosaics. The DOC dates from 2000.</p>`,[]],
 "it-contessa-entellina":[`<p>Contessa Entellina was settled by Albanian refugees (Arbëreshë) in the fifteenth century, who still keep their Byzantine rite. Donnafugata, founded by the Rallo family in 1983, has its vineyards here. The DOC dates from 1993.</p>`,[]],
 "it-contea-di-sclafani":[`<p>The Contea di Sclafani holds Regaleali, the estate of the Tasca d'Almerita family since 1830, whose wines helped show Sicily's potential for quality. The DOC dates from 1996.</p>`,[]],
