@@ -4,7 +4,7 @@
 // as APXF["<atlas id>"] = {...}. An appellation without a full entry shows its atlas summary until one is written.
 var APX = {}, APXF = {};
 const APP_FLAGS = { fr: "France", it: "Italy", es: "Spain", pt: "Portugal", us: "United States" };
-const APP_LEVELS = { fr: "AOC/AOP", it: "DOCG and DOC", es: "DOCa, DO and Vino de Pago", pt: "DOC", us: "AVA", de: "Anbaugebiete, Bereiche and PDOs", at: "DAC and Weinbaugebiete", hu: "OEM (PDO)", md: "PDO and PGI", au: "GIs", nz: "GIs", ar: "IG and DOC", cl: "DO", ca: "VQA and GI appellations", za: "Wine of Origin units" };
+const APP_LEVELS = { fr: "AOC/AOP", it: "DOCG and DOC", es: "DOCa, DO and Vino de Pago", pt: "DOC", us: "AVA", de: "Anbaugebiete, Bereiche and PDOs", at: "DAC and Weinbaugebiete", hu: "OEM (PDO)", md: "PDO and PGI", au: "GIs", nz: "GIs", ar: "IG and DOC", cl: "DO", ca: "VQA and GI appellations", za: "Wine of Origin units", gr: "PDOs (OPAP and OPE)", ge: "Appellations of origin", ch: "Cantonal AOCs", uy: "Departments" };
 const appLoads = {}, appDone = {};
 function appLoad(src) {
   return appLoads[src] || (appLoads[src] = new Promise(ok => {
