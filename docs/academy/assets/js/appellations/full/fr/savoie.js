@@ -32,3 +32,35 @@ APXF["fr-roussette-de-savoie-marestel"] = rsc("Marestel", { area: "About 68 ha",
 APXF["fr-roussette-de-savoie-monterminod"] = rsc("Monterminod", { area: "About 16 ha", lede: "Altesse from a tiny slope near Chambéry.", place: "Monterminod lies on limestone above Saint-Alban-Leysse.", glass: "Fine, floral Altesse.", producers: [] });
 APXF["fr-roussette-de-savoie-monthoux"] = rsc("Monthoux", { area: "About 23 ha", lede: "Altesse from a slope near Jongieux.", place: "Monthoux lies on limestone near Saint-Jean-de-Chevelu.", glass: "Fresh, mineral Altesse.", producers: [] });
 APXF["fr-seyssel"] = sv({ lede: "Sparkling and still whites from both banks of the Rhône at Seyssel, one of the oldest Savoie appellations (1942).", cat: "AOC, still and sparkling white", rec: "1942", facts: [["Grapes", "Altesse, Chasselas, Molette"]], place: "Seyssel lies on molasse slopes on both banks of the upper Rhône.", rules: "Still white from Altesse; sparkling from Molette and Altesse.", glass: "Light, fresh, floral whites and fine sparkling wine.", producers: ["Maison Mollex"] });
+// HISTORY-PASS-START
+(function(){
+const SAV=`Savoie was ruled by its own dukes, later kings of Sardinia, until the Treaty of Turin of 1860 made it French. Vin de Savoie was recognised in 1973, and its crus may add their names.`;
+const GRA=`In November 1248 part of Mont Granier collapsed, burying villages and killing thousands, according to chronicles; the vineyards of Apremont and Les Abymes ('the abyss') grow on the rubble.`;
+const HX={
+"fr-vin-de-savoie":[`<p>${SAV} The region's vineyards, scattered between lakes and mountains, survived as farm wine for the valleys and later for ski resorts, before a generation of growers from the 1990s championed Mondeuse, Jacquère, Altesse and other local grapes.</p>`,[]],
+"fr-vin-de-savoie-abymes":[`<p>${GRA} Les Abymes is known for light, crisp Jacquère.</p>`,[]],
+"fr-vin-de-savoie-apremont":[`<p>${GRA} Apremont is the best-known cru of Savoie, its Jacquère a fixture of Alpine restaurants.</p>`,[]],
+"fr-vin-de-savoie-arbin":[`<p>Arbin, on the steep slopes of the Combe de Savoie, is known for Mondeuse, a dark, peppery red; Louis Magnin and others made Arbin Mondeuse its reference.</p>`,[]],
+"fr-vin-de-savoie-ayze":[`<p>Ayze, in the Arve valley near Bonneville, keeps the rare Gringet grape for still and sparkling wines; Dominique Belluard championed it until his death in 2021.</p>`,[]],
+"fr-vin-de-savoie-chautagne":[`<p>Chautagne lies on the north-eastern shore of the Lac du Bourget, France's largest natural lake, and is known for Gamay and Mondeuse.</p>`,[]],
+"fr-vin-de-savoie-chignin":[`<p>Chignin, on the slopes of the Combe de Savoie below the ruined towers of its medieval castle, is one of the warmest crus.</p>`,[]],
+"fr-vin-de-savoie-chignin-bergeron":[`<p>Bergeron is the local name for Roussanne, and Chignin-Bergeron is the most prized white of Savoie, from the steep, sunny slopes of Chignin.</p>`,[]],
+"fr-vin-de-savoie-cruet":[`<p>Cruet, on the Combe de Savoie, is known for Jacquère.</p>`,[]],
+"fr-vin-de-savoie-crepy":[`<p>Crépy, on the southern shore of Lake Geneva, makes Chasselas, like the Swiss vineyards across the water. It was a separate AOC from 1948 until it was folded into Vin de Savoie in 2012.</p>`,[]],
+"fr-vin-de-savoie-jongieux":[`<p>Jongieux, near the Rhône and the Lac du Bourget, has steep slopes known for Jacquère, Gamay and Mondeuse, and for the Marestel cru of Roussette.</p>`,[]],
+"fr-vin-de-savoie-marignan":[`<p>Marignan, on the shore of Lake Geneva near Sciez, makes Chasselas.</p>`,[]],
+"fr-vin-de-savoie-marin":[`<p>Marin, near Thonon-les-Bains on Lake Geneva, makes Chasselas.</p>`,[]],
+"fr-vin-de-savoie-montmelian":[`<p>Montmélian was a great fortress of the dukes of Savoy, besieged by Louis XIII and dismantled under Louis XIV; its slopes grow Jacquère and Mondeuse.</p>`,[]],
+"fr-vin-de-savoie-ripaille":[`<p>Ripaille's château on Lake Geneva was the retreat of Amadeus VIII, first Duke of Savoy, who became the antipope Felix V in 1439. The French expression 'faire ripaille', to feast, is often linked to it.</p>`,[]],
+"fr-vin-de-savoie-saint-jean-de-la-porte":[`<p>Saint-Jean-de-la-Porte, on the Combe de Savoie, is known for Mondeuse.</p>`,[]],
+"fr-vin-de-savoie-saint-jeoire-prieure":[`<p>Saint-Jeoire-Prieuré, near Chambéry, takes its name from its medieval priory and is known for Jacquère.</p>`,[]],
+"fr-roussette-de-savoie":[`<p>Roussette is the local name for Altesse, a grape that legend says came from Cyprus with Anne of Lusignan, who married Louis, Duke of Savoy, in 1434. Roussette de Savoie was recognised in 1973.</p>`,[]],
+"fr-roussette-de-savoie-frangy":[`<p>Frangy, in the Usses valley near Seyssel, has a named cru of Roussette.</p>`,[]],
+"fr-roussette-de-savoie-marestel":[`<p>Marestel, a steep slope at Jongieux, is often said to take its name from Claude Marestel, a sixteenth-century official of the dukes of Savoy who owned it; it is the most prized Roussette cru.</p>`,[]],
+"fr-roussette-de-savoie-monterminod":[`<p>Monterminod, a slope near Chambéry below a medieval castle, has a named cru of Roussette.</p>`,[]],
+"fr-roussette-de-savoie-monthoux":[`<p>Monthoux, near Saint-Jean-de-Chevelu, has a named cru of Roussette.</p>`,[]],
+"fr-seyssel":[`<p>Seyssel, on both banks of the Rhône, was recognised in 1942, the oldest appellation of Savoie. The house of Varichon et Clerc, founded in 1901, made its sparkling wine famous.</p>`,[]],
+};
+for(const k in HX){const e=APXF[k];if(!e)continue;const h=["History",HX[k][0]];const i=e.sections.findIndex(x=>x[0]==="History");if(i>=0)e.sections[i]=h;else{const j=e.sections.findIndex(x=>x[0]==="In the glass");e.sections.splice(j<0?e.sections.length:j,0,h);}for(const x of (HX[k][1]||[]))if(!e.sources.some(y=>y[1]===x[1]))e.sources.push(x);}
+})();
+// HISTORY-PASS-END
