@@ -4,7 +4,7 @@
 // as APXF["<atlas id>"] = {...}. An appellation without a full entry shows its atlas summary until one is written.
 var APX = {}, APXF = {};
 const APP_FLAGS = { fr: "France", it: "Italy", es: "Spain", pt: "Portugal", us: "United States" };
-const APP_LEVELS = { fr: "AOC/AOP", it: "DOCG and DOC", es: "DOCa, DO and Vino de Pago", pt: "DOC", us: "AVA", de: "Anbaugebiete, Bereiche and PDOs", at: "DAC and Weinbaugebiete", hu: "OEM (PDO)", md: "PDO and PGI", au: "GIs", nz: "GIs", ar: "IG and DOC", cl: "DO", ca: "VQA and GI appellations", za: "Wine of Origin units", gr: "PDOs (OPAP and OPE)", ge: "Appellations of origin", ch: "Cantonal AOCs", uy: "Departments" };
+const APP_LEVELS = { fr: "AOC/AOP", it: "DOCG and DOC", es: "DOCa, DO and Vino de Pago", pt: "DOC", us: "AVA", de: "Anbaugebiete, Bereiche and PDOs", at: "DAC and Weinbaugebiete", hu: "OEM (PDO)", md: "PDO and PGI", au: "GIs", nz: "GIs", ar: "IG and DOC", cl: "DO", ca: "VQA and GI appellations", za: "Wine of Origin units", gr: "PDOs (OPAP and OPE)", ge: "Appellations of origin", ch: "Cantonal AOCs", uy: "Departments", ro: "DOC", bg: "PDOs", si: "ZGP and PTP", hr: "ZOI (PDO)", cz: "PDOs and VOC", sk: "PDOs", rs: "Regions and districts", gb: "PDOs", cy: "PDOs", br: "DO and IP", jp: "GIs", cn: "GIs and producing areas", mx: "Regions", lu: "AOP", mt: "DOK", be: "PDOs", nl: "PDOs" };
 const appLoads = {}, appDone = {};
 function appLoad(src) {
   return appLoads[src] || (appLoads[src] = new Promise(ok => {
