@@ -19,4 +19,13 @@ APXF["us-solano-county-green-valley"] = nc({
   rec: "December 1982", cfr: "9.44", td: "T.D. ATF-122, 47 FR 37922, 1982",
   facts: [["County", "Solano"]], place: "Hills east of Coombsville.", glass: "Merlot, Cabernet, Chardonnay.", exam: "Not to be confused with Green Valley of Russian River Valley.", producers: []
 });
+
+// HISTORY-PASS-START
+const HX={
+"us-north-coast":[`<p>ATF approved North Coast in September 1983 as a multi-county umbrella covering Napa, Sonoma, Mendocino, Lake and parts of Solano and Marin, so producers could blend across counties under one coastal name at a time when labels could join only two or three county names. It has since been redrawn whenever a new AVA needed to fit inside it: TTB enlarged it by about 28,000 acres for the Petaluma Gap in 2017, and in 2024 left out Comptche at its own growers' request, because they said the North Coast name did not describe their colder climate.</p>`,[["Wikipedia: North Coast AVA","https://en.wikipedia.org/wiki/North_Coast_AVA"]]],
+"us-suisun-valley":[`<p>Carsten and Henry Schultz, brothers from Hamburg, started a winery here in 1860 and sold it in 1880 to Louis Mangels, then running one of the largest wineries in California; by 1909 the census counted more than 2,000 acres of grapes. The Western Solano County Grape Growers Association petitioned in 1982, and ATF approved Suisun Valley in November 1982, among the first twenty AVAs. The valley, between Napa and the Delta, draws marine air off Suisun Bay. Growers formed a promotion association in 2003, and some sixteen wineries now operate.</p>`,[["Wikipedia: Suisun Valley AVA","https://en.wikipedia.org/wiki/Suisun_Valley_AVA"]]],
+"us-solano-county-green-valley":[`<p>Approved in December 1982, this small valley north of Fairfield sits just east of the Napa County line and grows about 800 acres of Cabernet, Merlot and Syrah. Because a second Green Valley, in Sonoma, was petitioned at almost the same time, ATF required each name to carry its county; this one became Solano County Green Valley, and the Sonoma one, first called Sonoma County Green Valley, later became Green Valley of Russian River Valley.</p>`,[["Wikipedia: Solano County Green Valley AVA","https://en.wikipedia.org/wiki/Solano_County_Green_Valley_AVA"]]]
+};
+for(const k in HX){const e=APXF[k];if(!e)continue;const h=["History",HX[k][0]];const i=e.sections.findIndex(x=>x[0]==="History");if(i>=0)e.sections[i]=h;else{const j=e.sections.findIndex(x=>x[0]==="In the glass");e.sections.splice(j<0?e.sections.length:j,0,h);}for(const x of (HX[k][1]||[]))if(!e.sources.some(y=>y[1]===x[1]))e.sources.push(x);}
+// HISTORY-PASS-END
 })();
