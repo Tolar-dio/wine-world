@@ -163,11 +163,14 @@ function appLayers(src, fine) {
   if (VEC.has(src)) for (const [, l] of L) l['source-layer'] = 'a';
   return L;
 }
+const selW = w => ['case', ['any', fs('sel'), fs('hover')], w, 0];
 function appLayerDefs(src, fine, minzoom, vis) {
   return [
     ['anchor-fill', { id: src + '-fill', type: 'fill', source: src, minzoom, layout: { visibility: vis, 'fill-sort-key': ['-', 0, ['get', 'area']] }, paint: { 'fill-color': colorExpr(), 'fill-opacity': fillOpacity(fine), 'fill-antialias': false } }],
     ['anchor-line', { id: src + '-line', type: 'line', source: src, minzoom, layout: { visibility: vis, 'line-join': 'round' }, paint: { 'line-color': colorExpr(), 'line-opacity': lineOpacity(fine), 'line-width': ['interpolate', ['linear'], ['zoom'], 5, ['case', ['>', ['get', 'lvl'], 0], 0.5, 0.8], 9, ['case', ['>', ['get', 'lvl'], 0], 0.9, 1.3], 13, 1.8] } }],
-    ['anchor-sel', { id: src + '-sel', type: 'line', source: src, minzoom, layout: { visibility: vis, 'line-join': 'round' }, paint: { 'line-color': TOK.highlight, 'line-width': ['interpolate', ['linear'], ['zoom'], 5, 1.6, 10, 2.6, 14, 3.4], 'line-opacity': ['case', fs('sel'), 1, fs('hover'), 0.5, 0] } }]
+    /* selection outline: zero width (not just zero opacity) unless selected or hovered, so the GPU rasterizes
+       nothing for the thousands of other polygons in view */
+    ['anchor-sel', { id: src + '-sel', type: 'line', source: src, minzoom, layout: { visibility: vis, 'line-join': 'round' }, paint: { 'line-color': TOK.highlight, 'line-width': ['interpolate', ['linear'], ['zoom'], 5, selW(1.6), 10, selW(2.6), 14, selW(3.4)], 'line-opacity': ['case', fs('sel'), 1, fs('hover'), 0.5, 0] } }]
   ];
 }
 
@@ -302,6 +305,10 @@ function initMap() {
     dragRotate: true, pitchWithRotate: false,
     localIdeographFontFamily: '"Noto Serif", serif',
     cancelPendingTileRequestsWhileZooming: true,
+    /* 3x iPhone screens: drawing at 2x is 2.25 times fewer pixels for every layer, framebuffer and terrain drape,
+       with little visible softening; the GPU memory saved is what keeps Safari from killing the tab */
+    pixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+    validateStyle: false,
     // tile caches per source: enough to pan back without refetching, small enough for phones with imagery and terrain
     maxTileCacheSize: phone ? 48 : 120
   });
@@ -316,6 +323,11 @@ function initMap() {
     if (e?.sourceId && /^(bm-|ni-|nt-|dem-|contours)/.test(e.sourceId)) { if (typeof bmTileError === 'function') bmTileError(e.sourceId, msg); return; }
     console.warn('[map]', msg);
     if (window.vmReport) window.vmReport(e && e.error, { source: e && e.sourceId });
+  });
+  /* after the GPU context is lost and restored (iOS does this to background tabs), MapLibre rebuilds its own state;
+     re-apply what lives outside the style: theme paint, the selected and grape-highlighted features */
+  map.on('webglcontextrestored', () => {
+    try { repaintAll(); if (S.sel) stateSet(S.sel, { sel: true }); } catch (e) { console.warn('[map] restore', e.message); }
   });
   map.on('styleimagemissing', e => {
     if (!/^k-/.test(e.id)) return;
@@ -878,7 +890,7 @@ function repaintApps() {
   if (!map) return;
   const col = colorExpr();
   for (const key of S.sources) {
-    const fine = key.startsWith('fine-');
+    const fine = key === 'vt-fine' || key.startsWith('fine-');   /* the merged fine archive keeps its fine ramps */
     if (!map.getLayer(key + '-fill')) continue;
     map.setPaintProperty(key + '-fill', 'fill-color', col);
     map.setPaintProperty(key + '-fill', 'fill-opacity', fillOpacity(fine));

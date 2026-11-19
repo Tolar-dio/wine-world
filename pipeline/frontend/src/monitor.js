@@ -5,7 +5,8 @@
 
    Besides uncaught errors and promise rejections, two map channels report: MapLibre 'error' events for the
    site's own data (vector tiles, GeoJSON; external imagery failing offline is left out), which is how a broken
-   tile cache shows itself, and WebGL context loss, which on phones usually comes just before a crash.
+   tile cache shows itself, and WebGL context loss, which on phones usually comes just before a crash. Tab
+   crashes are counted at the next visit, and 5% of visits send a performance sample.
    window.vmReport(err, extra) is the hook map.js calls. */
 (() => {
   'use strict';
@@ -83,11 +84,75 @@
       });
     } catch (e) { /* reporting must never break the map */ }
   };
-  const hookGL = () => {
-    try {
-      const c = VM.map.getCanvas();
-      c.addEventListener('webglcontextlost', () => S.captureMessage('WebGL context lost', 'warning'), { once: true });
-    } catch (e) { /* no map */ }
+  /* Crashes Safari cannot report: when iOS kills a tab for memory, no script runs. A marker is kept in storage
+     while the page is open and visible and removed when it is hidden or closed; finding it at the next start means
+     the last visit ended while the page was open, the signature of a tab crash. It carries the last map view. */
+  const LIVE = 'vm:live';
+  const live = { get() { try { return JSON.parse(localStorage.getItem(LIVE) || 'null'); } catch (e) { return null; } },
+    set(v) { try { localStorage.setItem(LIVE, JSON.stringify(v)); } catch (e) { /* storage blocked */ } },
+    clear() { try { localStorage.removeItem(LIVE); } catch (e) { /* storage blocked */ } } };
+  const prev = live.get();
+  if (prev && prev.t && Date.now() - prev.t < 6 * 3600e3) {
+    S.withScope(sc => {
+      sc.setLevel('warning');
+      sc.setFingerprint(['previous-visit-crashed']);
+      for (const [k, v] of Object.entries(prev.ctx || {})) sc.setTag('last_' + k, String(v));
+      if (prev.rel) sc.setTag('last_release', prev.rel);
+      S.captureMessage('Previous visit ended while the page was open (likely a tab crash)');
+    });
+  }
+  let lastWrite = 0;
+  const mark = force => {
+    if (document.visibilityState !== 'visible') return;
+    const now = Date.now();
+    if (!force && now - lastWrite < 5000) return;
+    lastWrite = now;
+    live.set({ t: now, ctx: ctx(), rel: (window.__VM_BUILD && window.__VM_BUILD.rel) || '' });
   };
-  if (window.VM && VM.on) VM.on('map:ready', hookGL);
+  mark(true);
+  document.addEventListener('visibilitychange', () => (document.visibilityState === 'visible' ? mark(true) : live.clear()));
+  window.addEventListener('pagehide', () => live.clear());
+
+  /* a 5% sample of visits reports how the map performed: time to the first settled map, and the share of slow
+     frames (over 50 ms) while the map was moving during the first minute. Grouped as one Sentry issue. */
+  const SAMPLE = Math.random() < 0.05;
+  const t0 = performance.now();
+  const perf = { idle: null, frames: 0, slow: 0, worst: 0 };
+  let perfSent = false;
+  const sendPerf = () => {
+    if (perfSent || !SAMPLE || perf.idle == null) return;
+    perfSent = true;
+    S.withScope(sc => {
+      sc.setLevel('info');
+      sc.setFingerprint(['perf-sample']);
+      sc.setTag('dpr', String(window.devicePixelRatio || 1));
+      sc.setTag('first_idle_s', String(Math.round(perf.idle / 500) / 2));
+      sc.setTag('slow_frames_pct', perf.frames ? String(Math.round(100 * perf.slow / perf.frames)) : 'n/a');
+      sc.setExtras({ first_idle_ms: Math.round(perf.idle), frames_moving: perf.frames, slow_frames: perf.slow, worst_frame_ms: Math.round(perf.worst) });
+      S.captureMessage('perf sample');
+    });
+  };
+
+  const hookMap = () => {
+    const m = VM.map;
+    if (!m) return;
+    let lost = false;
+    m.on('webglcontextlost', () => { if (!lost) { lost = true; S.captureMessage('WebGL context lost', 'warning'); } mark(true); });
+    m.on('webglcontextrestored', () => S.addBreadcrumb({ category: 'map', message: 'WebGL context restored', level: 'info' }));
+    m.on('idle', () => { if (perf.idle == null) perf.idle = performance.now() - t0; mark(false); });
+    m.on('moveend', () => mark(false));
+    if (!SAMPLE) return;
+    let moving = false, last = 0;
+    const tick = ts => {
+      if (!moving) return;
+      if (last) { const d = ts - last; perf.frames++; if (d > 50) perf.slow++; if (d > perf.worst && d < 2000) perf.worst = d; }
+      last = ts;
+      requestAnimationFrame(tick);
+    };
+    m.on('movestart', () => { if (performance.now() - t0 > 60000) return; moving = true; last = 0; requestAnimationFrame(tick); });
+    m.on('moveend', () => { moving = false; });
+    setTimeout(sendPerf, 60000);
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') sendPerf(); });
+  };
+  if (window.VM && VM.on) VM.on('map:ready', hookMap);
 })();

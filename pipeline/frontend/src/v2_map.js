@@ -157,6 +157,12 @@ function registerImgProtocol() {
   registerImgProtocol.done = true;
   /* aerial servers answer in ~0.5-0.9 s per tile; more requests in flight fill a tilted view sooner (HTTP/2 hosts) */
   try { if (maplibregl.setMaxParallelImageRequests) maplibregl.setMaxParallelImageRequests(32); } catch (e) { /* older MapLibre */ }
+  const ABOVE = {};   /* service id -> the services added after it (drawn above it) in the same base */
+  for (const [i, id] of Object.keys(NAT).entries()) ABOVE[id] = Object.keys(NAT).slice(i + 1).filter(k => !!NAT[k].topo === !!NAT[id].topo);
+  const hiddenUnder = (id, covs, z, x, y) => (ABOVE[id] || []).some(k => {
+    const c = covs[NAT[k].cover];
+    return c && z >= Math.ceil(NAT_MIN) && z <= NAT[k].max && map.getLayer(k) && map.getLayoutProperty(k, 'visibility') !== 'none' && tileRel(c, z, x, y) === 2;
+  });
   maplibregl.addProtocol('vmimg', async (params, abort) => {
     const m = params.url.match(/^vmimg:\/\/([a-z0-9-]+)\/(\d+)\/(\d+)\/(\d+)/);
     const svc = m && NAT[m[1]];
@@ -166,6 +172,9 @@ function registerImgProtocol() {
     const cov = covs[svc.cover];
     const rel = cov ? tileRel(cov, z, x, y) : 2;
     if (!rel) return { data: await emptyTile() };
+    /* stacked aerials (Italy: three AGEA years under Tuscany and South Tyrol): a later source is drawn on top, so
+       when one of them covers this whole tile, this one would never be seen; skip the download */
+    if (hiddenUnder(m[1], covs, z, x, y)) return { data: await emptyTile() };
     let res;
     try { res = await fetch(svc.url(z, x, y), { signal: abort?.signal, mode: 'cors', credentials: 'omit' }); } catch (e) {
       if (e.name === 'AbortError') throw e;
@@ -218,7 +227,9 @@ function addRaster(id, tiles, o = {}) {
   map.addSource(id, { type: 'raster', ...(typeof tiles === 'string' ? { url: tiles } : { tiles }), tileSize: o.size || 256, minzoom: o.min ?? 0, maxzoom: o.max ?? 18, ...(o.bounds ? { bounds: o.bounds } : {}) });
   /* tilted views: MapLibre drops to coarser tiles quickly with distance (up to ~9 zoom levels on screen); imagery
      keeps detail further out with at most 4 levels, and up to 4x the flat-view tile count (3x on phones) */
-  try { if (map.setSourceTileLodParams) map.setSourceTileLodParams(4, MQ.phone.matches ? 3 : 4, id); } catch (e) { /* older MapLibre */ }
+  /* phones: 2x the flat-view tile count when tilted, not 3x; sharp near tiles matter more than far ones, and every
+     imagery tile is a GPU texture on a phone with a few hundred MB to spare */
+  try { if (map.setSourceTileLodParams) map.setSourceTileLodParams(4, MQ.phone.matches ? 2 : 4, id); } catch (e) { /* older MapLibre */ }
   map.addLayer({ id, type: 'raster', source: id, minzoom: o.layerMin ?? 0, layout: { visibility: 'none' }, paint: { 'raster-fade-duration': 220, ...(o.paint || {}) } }, 'belt-fill');
 }
 async function ensureBase(mode) {
@@ -304,8 +315,10 @@ function ensureDem() {
   const dem = MT() ? { url: mtURL('terrain-rgb-v2'), encoding: 'mapbox' }
                    : { tiles: ['vmterrain://{z}/{x}/{y}'], encoding: 'terrarium', tileSize: 256 };
   map.addSource('dem-shade', { type: 'raster-dem', ...dem, maxzoom: MT() ? 14 : 16 });
-  // the 3D mesh needs less shading detail: 512 px tiles quarter the requests and memory
-  map.addSource('dem-terrain', { type: 'raster-dem', ...dem, ...(MT() ? {} : { tileSize: 512 }), maxzoom: MT() ? 14 : 16 });
+  /* the 3D mesh needs less shading detail: 512 px tiles quarter the requests on desktop. Phones keep 256: MapLibre
+     sizes its pool of terrain drape textures at twice the DEM tile size (30 textures at 1024 px is about 126 MB of
+     GPU memory, at 512 px about 31 MB), and on an iPhone that memory decides whether Safari kills the tab */
+  map.addSource('dem-terrain', { type: 'raster-dem', ...dem, ...(MT() || MQ.phone.matches ? {} : { tileSize: 512 }), maxzoom: MT() ? 14 : 16 });
   map.addLayer({ id: 'hillshade', type: 'hillshade', source: 'dem-shade', minzoom: 5, layout: { visibility: 'none' }, paint: {} }, 'grat-line');
   paintShade();
 }
@@ -345,7 +358,8 @@ function setTerrain3D(on, opts = {}) {
   ensureDem();
   if (on) {
     map.setProjection({ type: 'mercator' });
-    map.setMaxPitch(80);
+    /* phones: 70 degrees, not 80; the last few degrees toward the horizon multiply the tiles and drapes in view */
+    map.setMaxPitch(MQ.phone.matches ? 70 : 80);
     map.setTerrain({ source: 'dem-terrain', exaggeration: BM.exag });
     S.keepCam = true;
     map.touchPitch.enable();

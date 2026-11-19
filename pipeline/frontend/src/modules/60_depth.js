@@ -107,20 +107,27 @@
   function makeReader(url) {
     let full = null, header = null, root = null;
     const leafs = new Map();
+    /* byte ranges only. Terrain archives are 23-75 MB: a server that ignores Range, or an error page, must never
+       be read whole into a phone's memory. Throttling (429) and server errors are retried with backoff; anything
+       else fails this tile, and the map carries on without it. */
     async function bytes(a, b) {
       if (full) return full.slice(a, b + 1);
-      try {
+      for (let attempt = 0; attempt < 3; attempt++) {
         const res = await fetch(url, { headers: { Range: 'bytes=' + a + '-' + b } });
         if (res.status === 206) {
           const buf = await res.arrayBuffer();
           if (buf.byteLength === b - a + 1) return buf;
-        } else if (res.ok) {
-          full = await res.arrayBuffer();
+          throw new Error('terrain range: short read');
+        }
+        if (res.status === 200 && +(res.headers.get('Content-Length') || Infinity) <= 2e6) {
+          full = await res.arrayBuffer();   /* small file served whole (local test server): fine to keep */
           return full.slice(a, b + 1);
         }
-        full = await (await fetch(url)).arrayBuffer();
-        return full.slice(a, b + 1);
-      } catch (e) { throw e; }
+        try { res.body && res.body.cancel(); } catch (e) { /* nothing to cancel */ }
+        if (res.status !== 429 && res.status < 500) throw new Error('terrain range: HTTP ' + res.status);
+        await new Promise(r => setTimeout(r, 400 * 2 ** attempt + Math.random() * 300));
+      }
+      throw new Error('terrain range: server busy');
     }
     async function init() {
       if (header) return;
